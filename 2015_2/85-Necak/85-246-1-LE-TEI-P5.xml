@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nekaj premislekov, dilem in popravkov o življenjepisu feldmaršala Boroevića:
+                    junak ali uživač?</title>
+                <author>
+                    <name>
+                        <forename>Dušan</forename>
+                        <surname>Nečak</surname>
+                    </name>
+                    <roleName>dr.</roleName>
+                    <roleName>redni profesor v pok.</roleName>
+                    <address>
+                        <addrLine>Vojkova 71</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2015-09-30</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/85</pubPlace>
+                <date>2015</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">55</biblScope>
+                <biblScope unit="issue">2</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>World War I</term>
+                    <term>the Isonzo Front</term>
+                    <term>Field Marshall Boroević</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>prva svetovna vojna</term>
+                    <term>soška fronta</term>
+                    <term>feldmaršal Boroević</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change><date>2015-10-01</date>
+                    <name>Andrej Pančur</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="sl">
+        <front>
+            <docAuthor>Dušan Nečak<note place="foot" xml:id="ftn1" n="*">dr., redni profesor v pok.,
+                    Vojkova 71, SI-1000 Ljubljana, <ref target="mailto:dusan.necak@guest.arnes.si"
+                        >dusan.necak@guest.arnes.si</ref></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.02</idno>
+                <idno type="UDC">UDK: 929.7Boroević S. : 355.48/.49(439.5)"1914/1918"</idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">Prispevek spreminja oz. dopolnjuje dosedanje vedenje o
+                        življenju feldmaršala Svetozarja Boroevića de Bojne. Obenem poskuša dati
+                        tudi odgovore na nekatere dileme, ki se pojavljajo v njegovem življenjepisu.
+                        Govori o vprašanjih in dilemah, kot so: je bil junak ali uživač, je bil
+                        Hrvat ali Srb, se je rodil v Mečenčanih ali Umetiću, kdaj je bil
+                        poplemeniten, leta 1902 ali 1905, je sploh bil baron, in o tem, kdaj in
+                        kakšna odlikovanja reda Marije Terezije je dobil.</hi></p>
+                <p><hi rend="italic">Ključne besede: prva svetovna vojna, soška fronta, feldmaršal
+                        Boroević</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head type="main">A FEW CONSIDERATIONS, DILEMMAS AND RECTIFICATIONS ABOUT THE
+                    BIOGRAPHY OF FIELD MARSHALL BOROEVIĆ</head>
+                <p><hi rend="italic">The article alters or amends the previous realisations about
+                        the life of Field Marshall Svetozar Boroević von Bojna. At the same time it
+                        also attempts to provide answers to certain dilemmas arising from his
+                        biography. It discusses the questions and dilemmas like: was he a hero or
+                        bon vivant? Was he Croatian or Serbian, born in Mečenčani or Umetić? When
+                        was he ennobled, in 1902 or 1905? Was he a baron at all? It also clarifies
+                        which decorations of the Order of Maria Theresa he received and
+                    when.</hi></p>
+                <p><hi rend="italic">Keywords: World War I, the Isonzo Front, Field Marshall
+                        Boroević</hi></p>
+            </div>
+        </front>
+        <body>
+            <p>Življenjepis po mnenju mnogih zgodovinarjev in vojaških strokovnjakov najbolj
+                sposobnega avstro-ogrskega generala je življenjepis človeka, ki ga je usoda z
+                vrtoglavih vrhov uspeha in slave potisnila na skrajni rob preživetja in s tem tako
+                rekoč na smetišče zgodovine. Gre za človeka trdne volje, trmastega značaja in
+                velikih sposobnosti, s čimer je dosegel vse zastavljene cilje, za človeka, ki so ga
+                za hrbtom in glasno kritizirali zaradi različnih stvari, tudi zaradi ne ravno
+                najbolj vzornega odnosa do zakonskega življenja.</p>
+            <p>Morda najbolj uničujoč prikaz njegovega zasebnega življenja in s tem vprašljive
+                morale Boroevića se skriva v besedah, ki jih je o njem mnogo let po njegovi smrti v
+                eseju »Pijana novembrska noč 1918« zapisal veliki hrvaški literat Miroslav Krleža.
+                Ob tem ni jasno, ali so te besede nastale na osnovi lastnih doživljanj ali na osnovi
+                pripovedovanja drugih. Vsekakor se v njih kaže izrazito negativen odnos Krleže do
+                Boroevića, ki se je moral oblikovati v času njegovih sporov z zagrebškim Narodnim
+                vijećem in komaj nastajajočo južnoslovansko državo takoj po vojni. Očitna je
+                tendenca diskreditirati Boroevića kot človeka in vojaka, čeprav je bila glavna ost
+                eseja Krleže usmerjena v Slavka Kvaternika:</p>
+            <quote>
+                <p>»… Grmeli so topovi na Soči, ves Kvarner je odmeval od tega zamolklega bobnenja,
+                    glavni komandant avstrijske armade, častni doktor vseučilišča Franca Jožefa
+                    Prvega Generalfeldmarschal von Boroevich pa je dnevno prihajal v spremstvu
+                    svojega adjutanta, podpolkovnika Kvaternika v Lovrano, da bi se tam sončil na
+                    plaži. Gospod doktor honoris causa F.J.I. von Boroevich je v Lovrani obiskoval
+                    neko svojo metreso (neko dunajsko grofico druge ali pete vrste, ki je tam
+                    letovala v spremstvu svojega soproga, grofa, kavalerijskega ritmojstra),
+                    podpolkovnik Kvaternik pa je kot generalissimov Cicisbeo za to očarljivo
+                    pustolovščino organiziral vse potrebne malenkosti: sladoled, kavo, konjak,
+                    whisky, šampanjec, pecivo, preservative, muziko s Straussovimi valčki in motorni
+                    čoln za generalissima, da bi se ta slavni vojskovodja lahko peljal s svojo
+                    očarljivo grofico na Cres, kjer je v spremstvu svojega generalštabnega šefa med
+                    enajsto ofenzivo na Soči, v kateri je slednji dan padlo dvajset do trideset
+                    tisoč ljudi, opravljal svoje mandrinske, senilne ljubavne šale …«.<note
+                        place="foot" xml:id="ftn2" n="1">Pred očmi štiristotih oficirjev −
+                        frontovcev se je ta generalska ladja zasidrala v junijski bonazzi sredi
+                        Kvarnerja in v tem, ko je štiristo oficirjev z daljnogledi opazovalo vse
+                        peripetije tega lovranskega flirta, je senilni stari generalissilmus igral
+                        to ljubavno igro pred vsemi v čast mizernega grofovskega rogonosca,
+                        pratežnega ritmojstra. Skupna kosila v veliki dvorani »Grand Hotela Lovrana«
+                        med največje stramote svetovne vojne. Kvaternik pa je skakljal okrog tega
+                        škandala.« Na to omembo Boroevića v eseju Krleže me je prijazno opozoril
+                        kolega Branko Ziherl, za kar se mu na tem mestu lepo zahvaljujem. Glej:
+                        Miroslav Krleža, <hi rend="italic">Deset krvavih let in drugi politični
+                            eseji</hi> (Ljubljana: DZS, 1962), 78.</note></p>
+            </quote>
+            <div>
+                <head>Hrvat ali Srb?</head>
+                <head>Rojstni kraj Mečenčani ali Umetić?</head>
+                <p>Feldmaršal Svetozar Boroević se je rodil na Hrvaškem, na Baniji v Vojni krajini.
+                    Po uradnih podatkih se je rodil v pravoslavni (srbski) družini 13. decembra 1856
+                    v Umetiću pri Kostajnici.<note place="foot" xml:id="ftn3" n="2">Da je to njegov
+                        rojstni kraj, je trdil sam Boroević. Glej: Milan Pojić, <hi rend="italic"
+                            >Vojskovođa Svetozar Boroević: 1856−1920</hi> (Zagreb: Hrvatski državni
+                        arhiv, 2006), 7.</note> Danes in tudi v času njegove največje slave so si ga
+                    Hrvatje lastili kot sonarodnjaka, pa tudi sam je zaradi političnih razlogov
+                    večkrat zapisal in izjavljal, da je Hrvat.<note place="foot" xml:id="ftn4" n="3"
+                        >V zgodovinopisnem delu o Svetozaru Boroeviću (Pojić, Vojskovođa.) najdemo
+                        trditve, da je bil feldmaršal Boroević Hrvat. Zapisal je: » … Drugi
+                        stereotip je, da je rojen v pravoslavni graničarski družini in da je zato
+                        Srb. Ta stereotip, ki ga je zelo uspešno promovirala srbska pravoslavna
+                        cerkev in sprejela širša hrvaška javnost, je bil razlog, da se je v zadnji
+                        Boroevićevi biografiji, objavljeni leta 1989 v Hrvaškem biografskem
+                        leksikonu Leksikografskega zavoda Miroslava Krleže, zdelo potrebno
+                        poudariti, da je Boroević »po poreklu iz srbske graničarske družine«.
+                        Nobeden od navedenih stereotipov ni točen. Iz tega (da je bil krščen v
+                        pravoslavni cerkvi, op. prev.) potegniti zaključek o njegovem srbskem
+                        poreklu je netočno. Sredi 19. stoletja, v času rojstva Svetozara Boroevića,
+                        je bil v Hrvaško-slavonski vojni krajini integracijski dejavnik tako za
+                        katolike kot za pravoslavne predvsem njihov pravni in družbeni položaj in ne
+                        njihova narodna pripadnost. V nadaljnjem procesu narodnih integracij je
+                        srbska pravoslavna cerkev s svojo politiko poistovetenja pripadnosti
+                        pravoslavni cerkvi in srbskemu narodu uspela v nameri, da se je največji del
+                        pravoslavnih vernikov opredelil za srbstvo, toda ne vsi. Svetozar Boroević
+                        je samo eden od mnogih takih primerov. On sam v svojih nastopih in pismih
+                        vse do smrti navaja, da je Hrvat in da mu je domovina Hrvaška«. Glej: op.c.,
+                        4. Vsekakor tako utemeljevanje o hrvaštvu Boroevića ni samoumevno. Področje
+                        nekdanje Vojne krajine je še danes historično naselitveno področje hrvaških
+                        Srbov. Nacionalni integracijski procesi so bili tudi na tem področju v
+                        sredini 19. stoletja, zlasti pa v njegovi drugi polovici, v zaključni fazi,
+                        in pripadnost pravoslavju je bila praviloma razumljena kot pripadnost
+                        srbstvu. Izjeme so bile seveda tudi mogoče. Da se je Boroević posebej v času
+                        svoje življenjske stiske po koncu vojne tako vehementno razglašal za Hrvata,
+                        je popolnoma razumljivo, saj je na ta način želel rešiti svoj nezavidljivi
+                        položaj, v času vojne pa je bilo najmanj nespametno poudarjati srbsko
+                        poreklo, torej poreklo sovražnika v vojni. To je tesno povezano z
+                        neovrgljivim dejstvom, da je bila njegova »domovina« Hrvaška, saj je bil tam
+                        rojen. Življenjske okoliščine so ga prisilile, da se je moral prilagajati.
+                        Najbrž bi bilo še najbolj točno, da bi Boroevića opredelili kot Avstrijca in
+                        ugotovili, da sta mu bila Hrvaška in hrvatstvo nadomestek za izgubljeno
+                        pravo domovino Avstro-Ogrsko, oziroma, da pritrdimo tistim, ki ga
+                        opredeljujejo kot človeka brez domovine. Glej: Petra Svoljšak, »Čigava ali
+                        komu soška fronta, Slovensko-hrvaški stiki med prvo svetovno vojno v luči
+                        obrambe zahodne slovenske narodne meje,« <hi rend="italic">Studia historica
+                            Slovenica</hi>, št. 2/3 (2008): 370−71. Da je bil Boroević srbskega
+                        rodu, meni tudi Janez J. Švajncer, »General Borojević in Slovenci,« <hi
+                            rend="italic">Vojno zgodovinski zbornik</hi>, št. 8 (2002): 24. V delu:
+                        Drago Roksandić, <hi rend="italic">Svetozar Borojević od Bojne (1856−1923).
+                            Lav ili Lisica sa Soče?</hi> (Zagreb: Vijeće srpske nacionalne manjine
+                        grada Zagreba (sic!), 2006) se avtor o njegovi narodni pripadnosti
+                        neposredno ne opredeljuje. Skrije se za poimenovanje Boroevića kot človeka
+                        iz Vojne krajine – krajišnika. Ob tem pa se vendarle vsaj posredno opredeli
+                        o njegovi narodni pripadnosti, ko v zelo sofisticiranem stilu zapiše: »V
+                        zapuščini Srbov na Hrvaškem je še vedno posebno redka in še bolj nekako
+                        nedomišljena kritična refleksija o lastni vojno-krajinski zapuščini, o vseh
+                        tistih njenih paradoksih in apriorizmih … Rekel bi, da je eno od
+                        najpomembnejših vprašanj ljudske emancipacije Srbov na Hrvaškem kot
+                        posameznikov, ljudi in skupnosti, prav sposobnost soočiti se z lastno
+                        zapuščino. Eno od najbolj kontradiktornih oporišč tako razumljene zapuščine
+                        Srbov na Hrvaškem je »fenomen« Svetozar Borojević.« (op.c., 15). Med
+                        »dokaze« o srbskem poreklu Svetozarja Boroevića sodi tudi dejstvo, da je
+                        njegov oče Adam, ki je umrl leta 1900, pokopan na pravoslavnem pokopališču
+                        Sv. Nikole v Petrinji. Lep spomenik, tako domneva Drago Roksandić, naj bi mu
+                        postavil prav njegov sin Svetozar, ki pa naj bi bil po ljudskem izročilu ne
+                        ravno zelo navezan na družino (»odrođen«). Pripadnost religiji je v tem času
+                        že pomenila tudi narodno pripadnost: katolicizem = hrvatstvo, pravoslavje =
+                        srbstvo. (glej: op.c., 21, 53). Precej bolj neposredno pa so se o njegovi
+                        narodni pripadnosti izrazili nekateri drugi avtorji. V objavljenem nagovoru
+                        na prireditvi, ki jo je Srpski kulturni klub v Ljubljani pripravil ob
+                        150-letnici rojstva Svetozarja Boroevića marca 2006, je dr. Vasa Predojević
+                        Borevića jasno opredelil za Srba. » … Danes smo se sestali s posebnim
+                        razlogom, ki bi zahteval veliko svečanost, toda mi bomo, skladno z našimi
+                        možnostmi, praznovali skromno. Toda z velikim ponosom in z željo, da se čas
+                        in ljudje, ki se jih bomo dandanes spominjali, nikoli ne izbrišejo iz
+                        zavesti našega – srbskega naroda in narodov sveta … To je bil edini
+                        predstavnik južnoslovenskih narodov, Srb iz Umetića pri Kostajnici, ki je v
+                        avstro-ogrski monarhiji doživel največje vojaške časti …«, v: <hi
+                            rend="italic">Stopedeset godišnjica rođenja Svetozara Borojevića,
+                            komandanta soškog fronta, Srpski kulturni klub. Interni izveštaj</hi>,
+                        sveska 13. (Ljubljana: Srpski kulturni klub, 2006), 4. Tudi glavni referent
+                        na tem srečanju, poznavalec življenja in dela feldmaršala Boroevića Miro
+                        Simčič, je bil enakega mnenja in je zapisal: »… Borojevići so bili Srbi iz
+                        hrvaške Vojne Krajine…«, v: Ibid., 7. Tudi direktor avstrijskega
+                        Herresgeschichtliches Museuma in odličen poznavalec 1. svetovne vojne dr. M.
+                        Christian Ortner ga ima za Srba iz Slavonije« <hi rend="underline"
+                            >(sic!)</hi>. Glej: M. Christian Ortner (intervjuvanec), <hi
+                            rend="italic">V fokusu: 100 let 1. svetovne vojne</hi> (7. 6. 2015.
+                        Ljubljana: TV SLO 1).</note> Bil je sin kasnejšega graničarskega oficirja
+                    Adama, nadporočnika 2. banijskega pešpolka. Njegova mati Stana je bila
+                    plemenitega rodu, plemenita Kovarbašić od Zborišta. Pravzaprav ni čisto jasno,
+                    kje se je Svetozar rodil. Del njegovih biografov namreč zatrjuje, da se je rodil
+                    v majhnem zaselku Mečenčani pri Kostajnici. V hiši št. 7, last Damjana
+                    Boroevića, je namreč njegov oče Adam, sicer po rodu iz Knezovljanov, imel kot
+                    narednik 4. umetićke čete svoj sedež. In v tej hiši naj bi se rodil kasnejši
+                    feldmaršal. Nedvomno pa je bil Svetozar Boroević krščen v pravoslavni, verjetno
+                    župnijski cerkvi v Mečenčanih.<note place="foot" xml:id="ftn5" n="4">Pojić,
+                        Vojskovođa, 4.</note> V Mečenčanih je oče potem kupil zemljo in zgradil
+                    hišo, v katero so v zibki prinesli malega Svetozarja.<note place="foot"
+                        xml:id="ftn6" n="5">Viktor Rudolf, <hi rend="italic">Naš Boroević:
+                            proslavljeni junak od Soče</hi> (Sisak: S. Jünker, 1918), 12−13.
+                        Švajncer, "General", 24. V najnovejši literaturi o Boroeviću pa najdemo še
+                        te podatke o njegovem rojstnem kraju in datumu: »…Okrog datuma in kraja
+                        rojstva je niz različnih podatkov. Poleg uradnega se navajajo tudi datumi
+                        23. november in 2. december. Ta razlika za takratne razmere ni neobičajna,
+                        toda ker niso ohranjene krstne matične knjige, je točen rojstni datum še
+                        vedno neznan. Tudi rojstnega kraja ni mogoče z gotovostjo določiti. Ko se je
+                        Družba »Braća Hrvatskog Zmaja« odločila, da postavi spominsko ploščo
+                        Svetozarju Boroeviću, je nastal dvom, kje naj se jo postavi. Iz ohranjenih
+                        dokumentov je kot rojstno mesto ugotovljena vas Mečenčani, čeprav je
+                        Boroević sam vztrajal pri vasi Umetić. Po izjavah sodobnikov so bili
+                        Mečenčani poveljniško mesto 4. umetićke čete, v kateri je bil njegov oče,
+                        sicer rojen v bližnji vasi Knezovljani, v službi kot desetar (korporal),
+                        živel pa je v hiši Nikole Boroevića, v kateri se mu je rodil sin Svetozar
+                        …«, v: Pojić, Vojskovođa, 7.</note> Leta 1897 je oče hišo v Mečenčanih
+                    prodal in se preselil v Petrinjo, kjer je umrl in je tam pokopan.<note
+                        place="foot" xml:id="ftn7" n="6">Ta hiša danes še stoji, vendar je zapuščena
+                        in je potrebna obnove, v: Pojić, <hi rend="italic">Vojskovođa</hi>,
+                        9.</note></p>
+            </div>
+            <div>
+                <head>Plemenit od leta 1902 ali 1905?</head>
+                <p rend="footnote text">Leta 1902 je bil odlikovan z redom železne krone 3. reda,
+                    kar naj bi imelo za posledico tudi dodelitev plemiškega naslova. Domnevni datum
+                    njegovega povišanja v plemiški stan ni točen. V »uradni« Liber regius, v kateri
+                    so objavljeni podatki o povišanih osebah v transleitanskem delu dvojne monarhije
+                    (= Ogrski) v plemiški stan (Standeerhebung), namreč najdemo podatek, da je bil
+                    Boroević poplemeniten 2. maja 1905. Enako nam priča tudi »uradna« knjiga
+                    vojaškega reda Marije Terezije. Verjeti gre seveda tem »uradnim«
+                        publikacijam.<note place="foot" xml:id="ftn8" n="7">Glej: A királyi könyvek.
+                        Az I. Ferenc József és IV Károly király által 1867- től 1918-ig adományozott
+                        nemességek, főnemességek, előnevek és címerek jegyzé / <hi rend="italic"
+                            >Kraljevske knjige. Popis s strani kraljev Franca Jozefa I. in Karla IV.
+                            podeljenih plemiških, visoko plemiških (aristokratskih) nazivov,
+                            priimkov oz. vzdevkov in grbov v obdobju od 1867−1918</hi> (Budapest,
+                        1940), 28. <hi rend="italic">Der Militär-Maria Teresien − Orden, Die
+                            Auszeichnungen im Weltkrieg 1914−1918</hi> (Wien: Verlag der
+                        Militärwissenschaftlichen Mitteilungen, 1944), 29.</note></p>
+            </div>
+            <div>
+                <head>Baron, da ali ne?</head>
+                <p>V mnogih zapisih/literaturi o feldmaršalu, kakor tudi na njegovem nagrobniku,
+                    najdemo zapisano, da je bil baron. Očitno pa je sporno, ali je Svetozar Boroević
+                    sploh imel naziv baron. Vinko Avsenak v svojem članku Svetozar Boroević von
+                    Bojna, 15. 10. 1856−23. 5. 1920,<note place="foot" xml:id="ftn9" n="8">Vinko
+                        Avsenak, »Svetozar Boroević von Bojna, 15. 10. 1856 – 23. 5. 1920,« <hi
+                            rend="italic">Na fronti</hi>, št. 4, november 2006. </note> povzemajoč
+                    internetni vir, namreč zatrjuje, da je sicer pravica do baronskega naslova
+                    povezana s podelitvijo vojaškega reda Marije Terezije, toda zanika, da bi
+                    feldmaršal sploh imel naslov barona: » … Toda Boroević, ki je bil sicer znan po
+                    svoji nečimrnosti, je ta naslov zavrnil in zahteval naslov grofa. Seveda so to
+                    oblasti (kasneje tudi cesar) zavrnile in na koncu ni dobil ničesar.«<note
+                        place="foot" xml:id="ftn10" n="9">Avsenak, »Svetozar Boroević«, 58. <anchor
+                            xml:id="Svetozar_Boroevic_von_Bojna"/>»Svetozar Boroević von Bojna<hi
+                            rend="bold">«, </hi>Austro-Hungarian Army pridobljeno 17. 6. 2015. <ref
+                            target="numbering.xml"
+                            >http://www.austro-hungarian-army.co.uk/biog/boroevic.htm</ref><hi
+                            rend="Hyperlink">.</hi></note> Njegova trditev je v nasprotju z
+                    navedbami drugih avtorjev in internetnih virov, ki govorijo, da je Borević bil
+                    baron, tako pa piše tudi na njegovem grobu.<note place="foot" xml:id="ftn11"
+                        n="10">Glej fotografijo in Švajncer, General, 26. Pojić, Vojskovođa, 7.
+                    </note> Točna pa je njegova trditev, da je baronski naziv povezan z odlikovanjem
+                    vojaškega reda Marije Terezije. Prva stopnja tega reda, viteški križ, namreč
+                    avtomatično prinaša plemiški naslov »vitez«, prejemniki poveljniškega križa,
+                    kakršnega je dobil Boroević, pa imajo pravico zahtevati naslov »baron«.<note
+                        place="foot" xml:id="ftn12" n="11">»Svetozar Boroević von Bojna«, Military
+                        Order of Maria Theresa - Wikipedia, the free encyclopedia, pridobljeno 17.
+                        6. 2015.
+                        https://en.wikipedia.org/wiki/Military_Order_of_Maria_Theresa.</note> Takšne
+                    zahteve ali njene zavrnitve zaenkrat v pristojnih dunajskih in budimpeštanskih
+                    arhivih (Vojni arhivi) nisem našel. Vodja delegacije madžarskega vojnega arhiva
+                    pri Avstrijskem državnem arhivu, v okvire katerega sodita tudi avstrijski Vojni
+                    arhiv in Arhiv vojaškega reda Marije Terezije, podpolkovnik dr. Tibor Balla, je
+                    o tem v elektronskem pismu z dne 11. 12. 2009 avtorju tega besedila sporočil
+                    naslednje:</p>
+                <quote>
+                    <p>»Spoštovani gospod profesor,</p>
+                    <p>Boroević madžarski naslov barona leta 1917 odklonil, hotel je namreč ponovno
+                        zaprositi zanj po zmagoslavnem koncu svetovne vojne. Kolikor jaz vem, ni
+                        baronskega naslova nikoli dobil ali uporabljal. Torej je napis na grobu na
+                        Osrednjem pokopališču napačen. V arhivu Vojaškega reda Marije Terezije nismo
+                        o tem našli nobenega dokumenta.</p>
+                    <p>S prijaznimi pozdravi</p>
+                    <p>Dr. Tibor Balla, podpolkovnik</p>
+                    <p>Vodja delegacije«<note place="foot" xml:id="ftn13" n="12">»Sehr geehrte Herr
+                            Professor! Boroevic hat den ungarischen Baronstitel im Jahre 1917
+                            abgelehnt, er wollte den nämlich nach dem siegreichen Ende des
+                            Weltkrieges neuerlich beantragen. Meines Wissens nach hat er nie den
+                            Baronstitel bekommen oder gebraucht. Also die Aufschrift auf sein Grab
+                            im Zentralfriedhof ist falsch. Im Archiv des Militär Maria Theresien
+                            Ordens im Kriegsarchiv haben wir keine Dokumente darüber gefunden. Mit
+                            freundlichen Grüssen,Dr. Tibor Balla Oberstleutnant, Delegationschef.«
+                            Pismo hrani avtor.</note></p>
+                </quote>
+                <p>Svoje trditve/mnenja, da je Borević naslov barona leta 1917 odklonil zato, da bi
+                    zanj »po zmagoslavnem zaključku vojne ponovno zaprosil«, ni z ničimer
+                    dokumentiral. Tako je jasno le, da v pregledanih arhivskih fondih ni pisnega
+                    sledu o tem, da je zanj zaprosil, ga dobil, ali da mu je bila prošnja zavrnjena.
+                    Zato ostaja še naprej odprto vprašanje, ali je Boroević res imel baronski
+                    naslov. Skeptičen pa sem do tistih, ki so prepričani, da so ga drugi
+                    neupravičeno okitili s tem naslovom in ne verjamem, da je njegova žena (umrla je
+                    leta 1961) prav tako nezasluženo nosila naziv baronesa, in je dovolila, da na
+                    njegovem grobu stoji zapisan ta naslov, če mu res nikoli ni bil podeljen.</p>
+            </div>
+            <div>
+                <head>Je res začel vojaško kariero v Ljubljani?</head>
+                <quote>
+                    <p style="text-align:center"><hi rend="italic">»Visoko spoštovani gospod
+                            župan!</hi></p>
+                    <p><hi rend="italic">Čast, ki jo je spoštovani občinski svet vedno patriotičnega
+                            glavnega mesta Kranjske izkazal soški armadi s tem, da me je, kot
+                            njenega poveljnika odlikoval z častnim meščanstvom Ljubljane, me je
+                            globoko ganila.</hi></p>
+                    <p><hi rend="italic">Dolgoletne vezi me povezujejo s to visoko spoštovano
+                            kulturno znamenitostjo. Pred 43 leti se je tu začela moja vojaška
+                            kariera, pred dvema desetletjema sem tu vstopil v polk,</hi><note
+                            place="foot" xml:id="ftn14" n="13">Iz zapisanega ni povsem jasno, kaj
+                            pomeni zapisana izjava, da je feldmaršal Boroević pred 43 leti (1872) –
+                            tedaj je bil star 16 let − v Ljubljani začel vojaško kariero. Njegovi
+                            biografski in zgodovinski viri izpričujejo, da je dne 1. 9. 1872 s
+                            šolanja v Koeszegu na Madžarskem prišel kot pešec, naslovni
+                            vodnik/četovodja/korporal, v ogrski 52. pešpolk nadvojvoda Franc Karl v
+                            Gorico, kjer je kot 16-letni mladenič izkusil vse vojne tegobe vojaka,
+                            saj je na vojaških vajah sodeloval v popolni vojni opremi, predpisani za
+                            odraslega človeka. Glej: Rudolf, Naš Boroević, 13. Janez J. Švajncer pa
+                            v op.c., 25 piše, da je svojo vojaško pot leta 1872 začel v 52. pešpolku
+                            v Pécsu in ne v Gorici. Österreichisches Staatsarchiv, Kriegsarchiv/KA,
+                            Qualifikationslisten, Karton 245, Dosje Svetozar Boroević. Podatke iz
+                            dokumenta mi je prijazno priskrbel kolega, prof. dr. Franc Rozman.
+                            Vsekakor pa bi mogel drugi del njegove izjave najverjetneje pomeniti, da
+                            je Boroević pred dvema desetletjema (1895) v Ljubljani kot oficir, star
+                            39 let, vstopil v 17. pešpolk t. i. Kranjskih Janezov. Ta polk je bil
+                            namreč v Ljubljani nastanjen od leta 1817. Tega pa po doslej znanih
+                            podatkih ni bilo mogoče sprejeti. Boroević je sicer bil maja 1895 že
+                            generalštabni podpolkovnik, toda oktobra istega leta je bil dodeljen
+                            poveljstvu 6. korpusa v Košicah in ne 17. pešpolku, ki sploh ni bil v
+                            sestavi tega korpusa. Šele leta 1896 je za nekaj mesecev poveljeval 4.
+                            bataljonu tega polka, stacioniranem v Celovcu. Leta 1897 je v njem
+                            dosegel čin polkovnika. Druga možnost bi lahko bila, da je bil član 27.
+                            domobranskega pešpolka, kasneje, od leta 1911, 2. gorskega strelskega
+                            pešpolka, prav tako stacioniranega v Ljubljani. Da bi bil kdaj član tega
+                            polka, ni omenjeno v nobeni meni znani literaturi oz. viru, mdr. glej:
+                            ÖStA, Dosje Svetozar Boroević. Oba polka sta se pod vrhovnim poveljstvom
+                            feldmaršala Boroevića bojevala tako na soški fronti kot v
+                            Karpatih.</note>
+                        <hi rend="italic">v vrstah katerega je služila vojaško sposobna ljubljanska
+                            mladina. Ta znameniti polk, eden od krasov naše vojske, ki je v
+                            preteklih časih na stotinah bojnih polj, v najjasnejši luči izžareval
+                            patriotičnost in pogum, se je tudi v tej vojni odel z neminljivo slavo.
+                            Bitke pri Grodeku in Przemyslu, na Karpatih, v soških bitkah, ter mnoge
+                            bitke, ki jih je bil pod mojim poveljstvom, kažejo, da je tudi sedanja
+                            generacija vredna svojih predhodnikov, v njihovi brezpogojni, kot skala
+                            trdni, zvestobi prevzvišeni cesarski hiši, heroičnemu pogumu in vroči
+                            ljubezni do domovine.</hi></p>
+                    <p><hi rend="italic">Prosim Vas visoko spoštovani gospod župan, da spoštovanemu
+                            občinskemu svetu izrazite mojo najvdanejšo in prisrčno zahvalo za
+                            počastitev, ki jo je izkazal soški armadi in meni. Izvolite mu tudi
+                            sporočiti, da mi bo vedno v veselje, če bom lahko prispeval k razcvetu
+                            in razvoju Ljubljane in njenega patriotskega prebivalstva, katerega
+                            žrtvovanje v tej vojni moram posebej izpostaviti.</hi></p>
+                    <p><hi rend="italic">Vam, visoko spoštovani gospod župan, še posebej zahvalen,
+                            ostajam z izrazi iskrenega spoštovanja, vdani,</hi></p>
+                    <p><placeName><hi rend="italic">Ljubljana</hi></placeName>, <date><hi
+                                rend="italic">7. julij 1915</hi></date>
+                        <persName style="float:right"><hi rend="italic">Boroević, Gen.«</hi><note
+                                place="foot" xml:id="ftn15" n="14">ÖSt.A., KA, Nachlass Boroević,
+                                B/4−23.</note></persName>
+                    </p></quote>
+            </div>
+            <div>
+                <head>O odlikovanju reda Marije Terezije</head>
+                <p>Ko je leta 1917 izbojeval 10. soško bitko, mu je cesar Karl I. 2. junija 1917 na
+                    slovenskih tleh podelil najvišje avstro-ogrsko vojaško odlikovanje
+                    komandeurski/poveljniški križ vojaškega reda Marije Terezije. Bil je eden od
+                    štirih odlikovancev s poveljniških križem v času prve svetovne vojne, ki mu,
+                    kakor so sicer velevala pravila reda, odlikovanje ni bilo podeljeno v okvirih
+                    kapitlja reda in na dan sv. Terezije (15. 10.), temveč mu ga je neposredno
+                    podelil cesar sam. Poleg njega so na ta način odlikovanje dobili še
+                    generalpolkovnik in kasnejši feldmaršal Eduard von Böhm-Ermolli, veliki admiral
+                    Anton Haus in pruski generalpolkovnik Helmuth von Moltke. Obenem pa je bil
+                    Boroević prvi avstro-ogrski oficir, ki je v prvi svetovni vojni dobil tako
+                        odlikovanje.<note place="foot" xml:id="ftn16" n="15">V pismu Franzu von
+                        Volgarju z dne 6. septembra 1914 je Boroević zapisal, da ga je vrhovno
+                        poveljstvo armade že tedaj pozvalo, naj prosi za »zares zasluženi križ
+                        Marije Terezije.« Zaslužil naj bi ga zaradi poletne zmage nad rusko vojsko v
+                        Karpatih (glej: <hi rend="italic">Neue Freie Presse</hi>, 27. 1. 1929, 4).
+                        Tega tedaj ni storil. Vojaški red Marije Terezije je bil ustanovljen v času
+                        sedemletne vojne, leta 1757. 18. junija istega leta ga je ustanovila
+                        cesarica Marija Terezija po bitki pri Kolinu, kjer je avstrijska armada pod
+                        vodstvom feldmaršala Dauna porazila prusko vojsko Friedricha II. Ta zmaga je
+                        cesarico vzpodbudila, da osnuje vojaško odlikovanje za nagrajevanje
+                        oficirjev in vojaških poveljnikov za hrabrost in vojaške veščine.
+                        Odlikovanja so vedno podeljevali 15. oktobra na dan svete Terezije. Podelili
+                        so 11 velikih križev tega reda, ki so jih v veliki večini dobili člani
+                        cesarske družine (7), 10 komandeurskih/poveljniških križev, skupaj s križem,
+                        ki ga je dobil tuji oficir, pruski generalpolkovnik Helmut grof von Moltke,
+                        in 110 viteških križev. Posebnost tega odlikovanja je bila, da so se morali
+                        za njegovo prvo in drugo stopnjo, ki sta pomenili članstvo v redu, častniki
+                        potegovati sami. Le tretjo stopnjo, veliki križ, je cesar, ki je bil obenem
+                        tudi Veliki mojster reda, podeljeval sam, in to praviloma najpomembnejšim
+                        oficirjem in članom cesarske družine. Tako lahko prav razumemo v prvem
+                        odstavku te opombe navedeni zapis feldmaršala Borevića. Red je v stari
+                        obliki nehal delovati leta 1931. Obnovljen je bil leta 1939 kot ustanova
+                        (Stiftung). Boroević pa je bil z vojaškim redom Marije Terezije odlikovan še
+                        enkrat, tokrat posmrtno. Na zadnjem, 195. podeljevanju odlikovanj, so ga kot
+                        poveljnika VI. korpusa v činu generala pehote 3. oktobra 1931 odlikovali še
+                        z viteškim križem. Na ta način je kapitelj reda namreč želel popraviti
+                        domnevno »napako« cesarja Karla I., ki je Boroevića odlikoval mimo kapitlja
+                        in na »ne pravi dan«. »Kapitelj je napačno domneval, da so bili prejšnji
+                        zahtevki zdaj nični in neveljavni, vendar so takoj po vojni ugotoviti svojo
+                        napako in mu posmrtno leta 1931 dodelili viteški križ reda. Tako je
+                        feldmaršal Boroević edini oficir v zgodovini reda, ki je prejel najprej
+                        višjo in kasneje nižjo stopnjo reda …«, glej: »Militär Maria-Theresien-Orden
+                        1914-1918«, Austro-Hungarian Land Forces 1848-1918, pridobljeno 21. 6. 2015,
+                            <ref target="http://www.austro-hungarian-army.co.uk/mmto.htm"
+                            >http://www.austro-hungarian-army.co.uk/mmto.htm</ref>. <hi
+                            rend="italic">Der Militär-Maria Theresien-Orden, Die Auszeichnungen im
+                            Weltkrieg 1914−1918</hi> (Wien: Verlag der Militärwissenschaftlichen
+                        Mitteilungen, 1944), 1−9, 27−30. »Militär Maria-Theresien-Orden 1914-1918«.
+                        AEIOU Österreich Lexikon, pridobljeno 20. 6. 2015, <ref
+                            target="http://www.aeiou.at/aeiou.encyclop.m/m214012.htm"
+                            >http://www.aeiou.at/aeiou.encyclop.m/m214012.htm</ref>.</note> Z vseh
+                    strani je prejemal laskave čestitke, </p>
+                <p>Cesar Karl I. pa je ob podelitvi najvišjega vojaškega odlikovanja, takrat
+                    generalpolkovniku pehote Svetozarju Boroeviću na Opčinah nad Trstom, vojakom na
+                    soški fronti izrekel dnevno povelje:</p>
+                <quote>
+                    <p style="text-align:center"><hi rend="italic">»Moji soški vojski!</hi></p>
+                    <p><hi rend="italic">V najtežjem, več dni trajajočem boju ste zavrnili dolgo
+                            načrtovan in z izredno močnimi silami izveden napad sovražnika. Ponovno
+                            ste mu pokazali, koliko hrabrosti nosite v prsih. Začutil sem potrebo da
+                            pohitim med vas, da se vam v vaši sredi iz dna srca zahvalim za vašo
+                            hrabrost, vztrajnost in vdanost. Prišedši iz vseh delov drage domovine
+                            ste – čvrsto prepričani v viribus unitis – izvršili občudovanja vredna
+                            dela, s katerimi ste si zaslužili vročo hvaležnost očetnjave.</hi></p>
+                    <p><hi rend="italic">Vsakemu od vas ne morem iz oči v oči izreči moje
+                            hvaležnosti. Naj komandeurski križ vojaškega reda Marije Terezije, ki ga
+                            danes pripenjam na prsi vašega tako izkušanega poveljnika
+                            general-polkovnika pl. Boroevića, ne predstavlja le moje največje
+                            priznanje poveljniku vojske, temveč naj vsem, vodjem in borcem, pokaže
+                            tudi mojo globoko hvaležnost in moje ponosno zadovoljstvo.</hi></p>
+                    <p><hi rend="italic">Naj bo Božji blagoslov z vami!</hi></p>
+                    <p><hi rend="italic">Molimo k Vsemogočnemu, da bi mu bili tudi naprej vredni
+                            njegove milostne zaščite in obrambe, da bi nam dodelil končni popolni
+                            uspeh.</hi></p>
+                    <p><hi rend="italic"><placeName>Postojna</placeName>, <date>2. junija
+                                1917</date></hi>
+                        <persName style="float:right"><hi rend="italic">Karl l.r.«</hi><note
+                                place="foot" xml:id="ftn17" n="16">Rudolf, Naš Boroević, 58. Ob tem
+                                naj omenim, da je v delu: Ernst Bauer, <hi rend="italic">Der Löwe
+                                    von Isonzo: Feldmarschall Svetozar Boroević von Bojna</hi>
+                                (Graz, Wien, Köln: Styria, 1986) na strani 135 objavljeno zgoraj
+                                navedeno dnevno povelje cesarja Karla I. v nemškem jeziku. Toda v
+                                njem govori o podelitvi »viteškega križa« in ne »komandeurskega
+                                križa vojaškega reda Marije Terezije«. Tudi naslov poglavja, v
+                                katerem o tem piše, je Bauer naslovil »Podelitev viteškega križa
+                                Marije Terezije Boroeviću«. Na žalost avtor ne citira, od kje je
+                                prevzel sicer v navednicah, kot citat, objavljeno dnevno povelje
+                                cesarja Karla I. Na strani 158 pa se avtor v seznamu odlikovanj, ki
+                                jih je Boroević prejel, popravlja in točno zapiše, da je leta 1917
+                                dobil komandeurski križ reda Marije Terezije«, viteškega pa šele
+                                posmrtno leta 1931.</note></persName></p></quote>
+                <p>Kljub zmagovitemu »čudežu pri Kobaridu« nekaj mesecev kasneje se želje cesarja
+                    Karla niso uresničile.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <listBibl>
+                    <head>Arhivski viri:</head>
+                    <bibl>Österreichisches Staatsarchiv (ÖStA), Kriegsarchiv (KA),
+                        Qualifikationslisten.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Časopisni viri:</head>
+                    <bibl>Neue Freie Presse (Wien), 1929.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Internetni viri:</head>
+                    <bibl>AEIOU Österreich Lexikon. »Maria-Theresien-Orden«. Pridobljeno 20. 6.
+                        2015. <ref target="http://www.aeiou.at/aeiou.encyclop.m/m214012.htm"
+                            >http://www.aeiou.at/aeiou.encyclop.m/m214012.htm</ref>.</bibl>
+                    <bibl>Austro-Hungarian Army. »Svetozar Boroević von Bojna. Pridobljeno 17. 6.
+                        2015. <ref target="http://www.austro-hungarian-army.co.uk/biog/boroevic.htm"
+                            >http://www.austro-hungarian-army.co.uk/biog/boroevic.htm</ref>.</bibl>
+                    <bibl>Austro-Hungarian Land Forces 1848-1918. »Militär Maria-Theresien-Orden
+                        1914-1918«. Pridobljeno 21. 6. 2015. <ref
+                            target="http://www.austro-hungarian-army.co.uk/mmto.htm"
+                            >http://www.austro-hungarian-army.co.uk/mmto.htm</ref>.</bibl>
+                    <bibl>Military Order of Maria Theresa - Wikipedia, the free encyclopedia.
+                        Pridobljeno 17. 6. 2015. <ref
+                            target="https://en.wikipedia.org/wiki/Military_Order_of_Maria_Theresa"
+                            >https://en.wikipedia.org/wiki/Military_Order_of_Maria_Theresa</ref>.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Literatura:</head>
+                    <bibl><hi rend="italic">A királyi könyvek. Az I. Ferenc József és IV Károly
+                            király által 1867- től 1918-ig adományozott nemességek, főnemességek,
+                            előnevek és címerek jegyzé</hi> [Kraljevske knjige. Popis s strani
+                        kraljev Franca Jozefa I. in Karla IV. podeljenih plemiških, visokoplemiških
+                        (aristokratskih) nazivov, priimkov oz. vzdevkov in grbov v obdobju od
+                        1867-1918]. Budapest 1940.</bibl>
+                    <bibl>Avsenak, Vinko. »Svetozar Boroević von Bojna, 15. 10. 1856 – 23. 5. 1920.«
+                            <hi rend="italic">Na fronti</hi>, št. 4 (2006): 58-61.</bibl>
+                    <bibl>Bauer, Ernest. <hi rend="italic">Der Löwe von Isonzo: Feldmarschall
+                            Svetozar Boroević von Bojna</hi>. Graz, Wien, Köln: Styria, 1986.</bibl>
+                    <bibl><hi rend="italic">Der Militär-Maria Teresien - Orden, Die Auszeichnungen
+                            im Weltkrieg 1914 – 1918.</hi> Wien, 1944.</bibl>
+                    <bibl><hi rend="italic">Hrvaški biografski leksikon</hi>. Zagreb: Leksikografski
+                        zavod, 1989.</bibl>
+                    <bibl>Krleža, Miroslav. <hi rend="italic">Deset krvavih let in drugi politični
+                            eseji</hi>. Ljubljana: DZS, 1962.</bibl>
+                    <bibl>Pojić, Milan. <hi rend="italic">Vojskovođa Svetozar Boroević:
+                            1856-1920</hi>. Zagreb: Hrvatski državni arhiv, 2006. </bibl>
+                    <bibl>Predojević, Vasa. <hi rend="italic">Stopedeset godišnjica rođenja
+                            Svetozara Borojevića, komandanta soškog fronta</hi>. Interni izveštaj,
+                        sveska 13. Ljubljana: Srpski kulturni klub, 2006.</bibl>
+                    <bibl>Roksandić, Drago. <hi rend="italic">Svetozar Borojević od Bojne
+                            (1856-1923). Lav ili Lisica sa Soče?</hi>. Zagreb: Vijeće srpske
+                        nacionalne manjine grada Zagreba, 2006.</bibl>
+                    <bibl>Rudolf, Viktor. <hi rend="italic">Naš Boroević: proslavljeni junak od
+                            Soče</hi>. Sisak: S. Jünker, 1918.</bibl>
+                    <bibl>Svoljšak, Petra. »Čigava ali komu soška fronta, Slovensko – hrvaški stiki
+                        med prvo svetovno vojno v luči obrambe zahodne slovenske narodne meje.« <hi
+                            rend="italic">Studia historica Slovenica</hi>, št. 2/3 (2008):
+                        357-74.</bibl>
+                    <bibl>Švajncer, Janez J. »General Borojević in Slovenci.« <hi rend="italic"
+                            >Vojnozgodovinski zbornik</hi>, št. 8 (2002): 24-59.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Televizijske oddaje:</head>
+                    <bibl>Ortner, M. Christian (intervjuvanec). <hi rend="italic">V fokusu: 100 let
+                            1. svetovne vojne. </hi>7. 6. 2015. Ljubljana: TV SLO 1.</bibl>
+                </listBibl>
+            </div>
+            <div type="summary" xml:lang="en">
+                <head type="main">A FEW CONSIDERATIONS, DILEMMAS AND RECTIFICATIONS ABOUT THE
+                    BIOGRAPHY OF FIELD MARSHALL BOROEVIĆ</head>
+                <head>SUMMARY</head>
+                <docAuthor>Dušan Nečak</docAuthor>
+                <p>The article changes or supplements the previous realisations about the life of
+                    Field Marshall Svetozar Boroević von Bojna. At the same time it attempts to
+                    provide answers to certain dilemmas arising from his biography.</p>
+                <p>In the introduction the article addresses the question of whether Boroević was
+                    primarily a hero, a victor against the Italians and »Lion from the Soča River«,
+                    as his name has primarily gone down in history, or a womaniser and bon vivant,
+                    as he is described by the Croatian writer Miroslav Krleža. Thereafter the
+                    article analyses the »eternal« dilemma of whether he was Serbian, which can be
+                    deduced from his Orthodox roots, the area where he was born (settled by the
+                    Croatian Serbs), or Croatian, which is what he used to declare himself. The
+                    author is more in favour of the former. In this regard the article also clears
+                    up the issue of where Boroević was born – in the village of Umetić (not Umetići)
+                    in Banija, in the territory of the Croatian Military Frontier, and also not in
+                    Mečenčani near Umetić, as some of his biographers believe.</p>
+                <p>Furthermore the article addresses the year of his elevation to the rank of
+                    nobility. Rather than in 1902, as some of the literature states, this happened
+                    in 1905. In the »official« Liber Regius, containing the information about people
+                    who rose to nobility (Standeerhebung) in the Transleithanian part of the Dual
+                    Monarchy (Hungary), we can find information that Boroević was ennobled on 2 May
+                    1905. The question of whether he indeed had the title of baron, which, among
+                    other things, is what his tombstone at the central cemetery in Vienna states and
+                    what his wife also used, remains unclear. Although the author of the
+                    contribution was unable to find any documents pertaining to his baronship, he is
+                    sceptical that Field Marshall Boroević would simply adopt the title himself. The
+                    question of the beginning of Boroević's military career, which according to his
+                    own words started in Ljubljana, remains unanswered as well. No such information
+                    could be found in the relevant literature and archival documents. Finally the
+                    article also tackles the issue of the awarding of the highest military
+                    decoration in the Dual Monarchy: Military Order of Maria Theresa. It establishes
+                    that Boroević was the only Austro‑Hungarian officer to first receive the higher
+                    class of this order, the »commander's badge« (in 1917), and the lower class of
+                    the »knight's badge« posthumously (in 1931).</p>
+            </div>
+        </back>
+    </text>
+</TEI>

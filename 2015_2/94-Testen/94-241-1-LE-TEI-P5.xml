@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Učilnica na prostem – Primer <hi rend="italic">Poti miru</hi></title>
+                <author>
+                    <name>
+                        <forename>Petra</forename>
+                        <surname>Testen</surname>
+                    </name>
+                    <roleName>dr., znanstvena sodelavka</roleName>
+                    <affiliation>Inštitut za kulturno zgodovino ZRC SAZU</affiliation>
+                    <address>
+                        <addrLine>Novi trg 2</addrLine>
+                        <addrLine>p.p. 306</addrLine>
+                        <addrLine>SI-1001 Ljubljana</addrLine>
+                    </address>
+                    <affiliation>Filozofska fakulteta Univerze v Ljubljani</affiliation>
+                    <affiliation>Inštitut za civilizacijo in kulturo</affiliation>
+                    <email>ptesten@gmail.com</email>
+                </author>
+                <author>
+                    <name>
+                        <forename>Tadej</forename>
+                        <surname>Koren</surname>
+                    </name>
+                    <roleName>mag.</roleName>
+                    <affiliation>Ustanova »Fundacija Poti miru v Posočju«</affiliation>
+                    <address>
+                        <addrLine>Gregorčičeva 8</addrLine>
+                        <addrLine>SI-5222 Kobarid</addrLine>
+                    </address>
+                    <email>fundacija.potimiru@siol.net</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2015-09-28</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/94</pubPlace>
+                <date>2015</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">55</biblScope>
+                <biblScope unit="issue">2</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term/>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2015-10-01</date>
+                    <name>Andrej Pančur</name>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="sl">
+        <front>
+            <docAuthor>Petra Testen<note place="foot" xml:id="ftn1" n="*">dr., znanstvena sodelavka,
+                    Inštitut za kulturno zgodovino ZRC SAZU, Novi trg 2, p.p. 306, SI-1001 Ljubljana
+                    (Filozofska fakulteta Univerze v Ljubljani, Inštitut za civilizacijo in
+                    kulturo), <ref target="mailto:ptesten@gmail.com"
+                >ptesten@gmail.com</ref></note></docAuthor>
+            <docAuthor>Tadej Koren<note place="foot" xml:id="ftn2" n="**">mag., Ustanova »Fundacija
+                    Poti miru v Posočju«, Gregorčičeva 8, SI-5222 Kobarid, <ref
+                        target="mailto:fundacija.potimiru@siol.net"
+                        >fundacija.potimiru@siol.net</ref></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.02</idno>
+                <idno>UDK: 37.091.33-027.22 : 94(497.4-16)"1914/1918"</idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">Pot miru od Alp do Jadrana je projekt, ki je nastal pod
+                        okriljem Ustanove Fundacija Poti miru v Posočju. V naravi gre za traso, ki
+                        poteka po ostalinah soške fronte, idejno pa izpostavlja vrednoto miru in
+                        spomina nujnega dela kolektivne zavesti naroda, ki tudi tragedijo prve vojne
+                        lahko sporoča v luči pomembne dediščine preteklosti. Kot taka je izjemen
+                        didaktični element, saj avtentične lokacije, prostori spomina, ponujajo
+                        neposredno vez s preteklim in omogočajo učinkovito izvajanje učilnice na
+                        prostem.</hi></p>
+                <p><hi rend="italic">Ključne besede: prva svetovna vojna, učilnica na prostem,
+                        prostor spomina, Pot miru od Alp do Jadrana</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head type="main">OPEN‑AIR CLASSROOM: THE WALK OF PEACE EXAMPLE</head>
+                <p><hi rend="italic">The Walk of Peace from the Alps to the Adriatic is a project
+                        created under the auspices of the Walk of Peace in the Soča Region
+                        Foundation. Walk of Peace is a trail following the remnants of the Isonzo
+                        Front. Its intention is to emphasise the values of peace and remembrance of
+                        an essential part of the nation's collective consciousness, conveying the
+                        tragedy of World War I in light of the important historical heritage. Thus
+                        this trail is an extraordinary didactic element, as its authentic locations
+                        and areas of remembrance provide a direct link with the past and allow for
+                        the efficient implementation of an open‑air classroom.</hi></p>
+                <p><hi rend="italic">Keywords: WW1, open‑air classroom, area of remembrance, Walk of
+                        Peace from the Alps to the Adriatic </hi></p>
+            </div>
+        </front>
+        <body>
+            <cit>
+                <quote>»Pot miru je prostor spomina, je pot pohoda skozi zgodovino, spoznavanja
+                    prostorov, mikro-svetov vojnega vsakdana pod pekočim poletnim soncem, pod
+                    zakloni skalnega previsa, v strelskih jarkih Doberdobske planote, mimo obeležij,
+                    ki so zaznamovala položaje vojaških enot in nazadnje vzdolž spominske poti
+                    pripeljala v spokojnost poslednjih počivališč.«</quote>
+                <bibl>
+                    <author>Petra Svoljšak</author><note place="foot" xml:id="ftn3" n="1">Prof. dr.
+                        Petra Svoljšak je predstojnica Zgodovinskega inštituta Milka Kosa, ZRC SAZU,
+                        obenem pa podpredsednica Nacionalnega odbora za obeleževanje 100-letnice 1.
+                        svetovne vojne (2014–2018). Petra Svoljšak, »Vodniku na pot (iz uvodne
+                        besede),« v: Tadej Koren, <hi rend="italic">Pot miru od Alp do Jadrana.
+                            Vodnik po soški fronti</hi>, (Kobarid: Ustanova Fundacija Poti miru v
+                        Posočju, 2015), 9. (Vodnik je na razpolago tudi v italijanskem in angleškem
+                        jeziku: Tadej Koren, <hi rend="italic">Il Sentiero della pace dalle Alpi
+                            all'Adriatico. Guida lungo il fronte isontino</hi>, prev. Michele Obit
+                        (Kobarid: Ustanova Fundacija Poti miru v Posočju, 2015). Tadej Koren, <hi
+                            rend="italic">The Walk of Peace from the Alps to the Adriatic. A guide
+                            along the Isonzo Front</hi>, prev. Branka Klemenc (Kobarid: Ustanova
+                        Fundacija Poti miru v Posočju, 2015).</note>
+                </bibl>
+            </cit>
+            <p>Trg Evrope, v italijanski različici <hi rend="italic">Piazza della Transalpina,</hi>
+                je skupni trg obeh Goric – Nove Gorice in Gorice<note place="foot" xml:id="ftn4"
+                    n="2">Mesto Gorica (Italija) je imelo med prvo svetovno vojno status simbola,
+                    saj je kot strateška točka, največji kraj med Alpami in Trstom, odpiralo vrata v
+                    notranjost avstrijskih dežel. </note> ob slovensko-italijanski meji, ki naj bi
+                predstavljal simbolno mesto povezovanja med Slovenijo in Italijo. Gre za območje
+                okrog avstro-ogrske železniške postaje, ki so jo odprli leta 1906; trg je urejal že
+                Max Fabiani, na osnovi njegove zapuščine pa ga je dokončno rešil Romano
+                    Schnabl.<note place="foot" xml:id="ftn5" n="3">Železniške povezave so bile v
+                    »starem svetu« pomembno okno v svet, obenem pa dejavnik tako urbanega kot
+                    gospodarskega razvoja mesta, ki so ga dosegle. Trst je bil z zadnjim delom trase
+                    južne železnice povezan z Ljubljano in dalje z Dunajem leta 1857, medtem ko je
+                    Gorico dosegla prva železniška povezava v letu 1860. Dokončna
+                    železniško-prometna mreža na tem področju je bila zgrajena leta 1906, ko je
+                    bohinjska železnica povezala Gorico s Koroško (Beljak) na severu in Trstom na
+                    jugu. Znotraj dežele sta bila pred tem zgrajena še dva tira, in sicer t. i.
+                    furlanska železnica, ki je povezovala Tržič in Červinjan (1894), ter trasa med
+                    Gorico in Ajdovščino (1902). Glej npr.: Branko Marušič, <hi rend="italic"
+                        >Pregled politične zgodovine Slovencev na Goriškem:1848–1899</hi> (Nova
+                    Gorica: Goriški muzej, 2005), 62.</note> Od vstopa Slovenije v Evropsko unijo 1.
+                maja 2004 trg krasi mozaik nove Evrope, ki ga je zasnoval tržaški umetnik Franko
+                    Vecchiet.<note place="foot" xml:id="ftn6" n="4">Koren, <hi rend="italic">Pot
+                        miru od Alp do Jadrana</hi>, 97. Pričujoče besedilo temelji na podlagi že
+                    obstoječih študij, in sicer: Tadej Koren, »Zgodovinski spomin na soško fronto –
+                    Pot miru od Rombona do Mengor« (magistrsko delo, Filozofska fakulteta Univerze v
+                    Ljubljani, 2012). Tadej Koren in Petra Testen, »Spomin, prostor in ostaline
+                    soške fronte: primer Poti miru,« v: <hi rend="italic">Velika vojna in mali
+                        ljudje</hi>, ur. Igor Grdina (Šentjur: Knjižnica; Ljubljana: Inštitut za
+                    civilizacijo in kulturo – ICK, 2014), 67–78. Tadej Koren in Petra Testen,
+                    »Vospominanie o Pervoj mirovoj vojne. Rol' prostranstva i nasledija Sočanskogo
+                    fronta dlja zitelej Posočja,« v: <hi rend="italic">Slovenica. 3, Pervaja
+                        mirovaja vojna v politike i kul'ture Russkih i Slovencev: k stoletiju načala
+                        pervoj mirovoj vojny</hi>, ur. Konstantin V. Nikiforov (Moskva: Institut
+                    slavjanovedenija Rossijskoj akademii nauk, 2014), 252–75. Tadej Koren, »Das Erbe
+                    der Isonzofront nach 100 Jahren – Weg des Friedens,« v: <hi rend="italic">Krieg
+                        und Tourismus im Spannungsfeld des Ersten Weltkrieges / Guerra e turismo
+                        nell'area di tensione della prima guerra mondiale</hi>, ur. Patrick Gasser
+                    et al. (Innsbruck, Wien, Bozen: Studien Verlag, 2014), 445–66.</note> Na trgu,
+                ki leži vzdolž nekdanje soške fronte, poteka danes trasa <hi rend="italic">Poti
+                    miru</hi> od Alp do Jadrana, »otrok« Ustanove »Fundacija Poti miru v Posočju« s
+                svojim sedežem v Kobaridu. Trg Evrope danes spominja in opominja na dogodke izpred
+                stotih let, obenem pa ponuja alternativo – kulturo povezovanja onkraj meja in
+                ideologij, kjer se v miru stikata preteklost in prihodnost. Kaj je torej <hi
+                    rend="italic">Pot miru</hi> od Alp do Jadrana in zakaj bi bil ta projekt
+                primeren kot učilnica na prostem, ki jo napoveduje že naslov pričujočega prispevka?
+                Kaj ga dela posebnega, zanimivega? Kateri elementi tega projekta vsebujejo
+                didaktični potencial? Od kod ideja in kaj nam sporoča? Zakaj poimenovanje <hi
+                    rend="italic">Pot miru</hi>? Kaj je prostor spomina? Odgovori na ta vprašanja
+                sestavljajo zgodbo, v kateri se prepletajo naracije obsoškega prostora, življenja
+                prebivalcev doline ob smaragdni reki in vloga spomin(janj)a ter njenega vrednotenja.
+                Gre za lok med preteklostjo, sedanjostjo in prihodnostjo. </p>
+            <figure>
+                <head>Slika 1: Avstro-ogrsko vojaško pokopališče, Log pod Mangartom,
+                    Slovenija.</head>
+                <graphic url="slika2.jpg" height="400px"/>
+                <p>Vir: Ustanova »Fundacija Poti miru v Posočju«</p>
+            </figure>
+            <p>Zgodovinsko dogajanje pred stotimi leti je soško dolino in obsoško prebivalstvo
+                zagotovo močno zaznamovalo. Poleg spominov, memoarjev, pričevanj, ki so se predajala
+                iz roda v rod, se je vse do danes ohranilo tudi veliko ostalin (kaverne, strelski
+                jarki, kapele, spominska obeležja, vojaška pokopališča), te pa predstavljajo zelo
+                pomembno zgodovinsko dediščino. Ustanova »Fundacija Poti miru v Posočju« je bila
+                osnovana z namenom, da to dediščino prve svetovne vojne ohranja, obenem pa jo
+                posreduje čim širšemu krogu ljudi. Podobne prakse srečamo tudi drugod po zahodni
+                Evropi, le da se je tam spominu na prvo vojno že kmalu po krvavih dogodkih posvečalo
+                več časa in prostora in je poklon padlim hitreje postal del tradicije, zapisa v
+                kolektivni spomin narodov, ki se je obenem nerazdružljivo spojil z vrednoto miru.
+                Sama ideja za vzpostavitev <hi rend="italic">Poti miru</hi> v Zgornjem Posočju in
+                iniciativa po razširitvi te poti na celotno območje nekdanje soške fronte sta rasli
+                ob zgledih »dobrih praks« na podobnih zgodovinskih območjih v zahodnoevropskih
+                    državah.<note place="foot" xml:id="ftn7" n="5">Glej npr.: Dolomitenfreunde,
+                    pridobljeno 28. 9. 2015, <ref target="styles.xml"
+                        >http://www.dolomitenfreunde.at</ref>. Associazione Storica Cimeetrincee,
+                    pridobljeno 28. 9. 2015, <ref target="stylesWithEffects.xml"
+                        >http://www.cimeetrincee.it</ref>. CarniaMusei, pridobljeno 28. 9. 2015,
+                        <ref target="settings.xml">http://www.carniamusei.org</ref>. I LUOGHI DELLA
+                    GRANDE GUERRA NEL FRIULI COLLINARE. RAGOGNA, FORGARIA NEL FRIULI E SAN DANIELE
+                    DEL FRIULI, pridobljeno 28. 9. 2015, <ref target="webSettings.xml"
+                        >http://www.grandeguerra-ragogna.it</ref>. MUSEO STORICO ITALIANO DELLA
+                    GUERRA, pridobljeno 28. 9. 2015, <ref target="footnotes.xml"
+                        >http://www.museodellaguerra.it</ref>. Grandeguerra.Dolomiti.Org,
+                    pridobljeno 28. 9. 2015, <ref target="endnotes.xml"
+                        >http://www.grandeguerra.dolomiti.org</ref>. STELVIO-UMBRAIL 14/18. Mit uns
+                    in die Geschichte wandern, pridobljeno 28. 9. 2015, <ref
+                        target="http://www.bovec.si">http://www.stelvio-umbrail.ch</ref>. »Battles –
+                    The Battle of the Somme, 1916,« firstworldwar.com. a multimedia history of world
+                    war one, pridobljeno 28. 9. 2015, <ref target="http://www.brda.si"
+                        >http://www.firstworldwar.com/battles/somme.htm</ref>. »Battles – The Battle
+                    of Verdun, 1916,« firstworldwar.com. a multimedia history of world war one,
+                    pridobljeno 28. 9. 2015, <ref target="http://www.dolina-soce.com"
+                        >http://www.firstworldwar.com/battles/verdun.htm</ref>. »CIRCUIT DU
+                    SOUVENIR,« Musée de la Première Guerre mondiale / 1914-1918. HISTORIAL DE LA
+                    GRANDE GUERRE, pridobljeno 28. 9. 2015, <ref
+                        target="http://www.dolomitenfreunde.at"
+                        >http://www.historial.org/Champs-de-bataille-de-la-Somme/Circuit-du-souvenir</ref>.
+                    MÉMORIAL DE VERDUN. Réouverture en février 2016, pridobljeno 28. 9. 2015, <ref
+                        target="http://www.inflandersfields.be/en/discover"
+                        >http://www.memorial-de-verdun.fr</ref>. Musée de la Première Guerre
+                    mondiale / 1914-1918. HISTORIAL DE LA GRANDE GUERRE. Péronne – Thiepval / Somme,
+                    pridobljeno 28. 9. 2015, <ref target="http://www.kobariski-muzej.si"
+                        >http://www.historial.org</ref>. »Thiepval Memorial to the Missing, Somme
+                    Battlefields, France,« THE GREAT WAR 1914-1918, pridobljeno 28. 9. 2015, <ref
+                        target="http://www.historial.org/Champs-de-bataille-de-la-Somme/Circuit-du-souvenir"
+                        >http://www.greatwar.co.uk/somme/memorial-thiepval.htm</ref>. IN FLANDERS
+                    FIELDS MUSEUM, pridobljeno 28. 9. 2015, <ref
+                        target="http://www.museodellaguerra.it"
+                        >http://www.inflandersfields.be/en/discover</ref>. Toerisme Ieper,
+                    pridobljeno 28. 9. 2015, <ref target="http://www.novagorica-turizem.com"
+                        >http://www.toerisme-ieper.be</ref> itd. Več glej: Koren, »Zgodovinski
+                    spomin na soško fronto«, 86–107.</note> Predvsem urejena spominska območja v
+                Dolomitih in Karnijskih Alpah, kjer so začeli urejati <hi rend="italic">Poti
+                    miru</hi> že v osemdesetih in devetdesetih letih prejšnjega stoletja, so bila v
+                veliko oporo pri idejnem načrtovanju projekta v Posočju. Podobno velja tudi za
+                Francijo z Verdunom in Somo, saj območji dobesedno živita od zgodovinskega turizma.
+                Skupna lastnost vseh teh urejenih zgodovinskih prostorov je, da ležijo na
+                avtentičnih lokacijah nekdanjih frontnih črt. Glavni namen in vrednost pa je prav v
+                njihovi sporočilnosti, ki poudarja vrednoto miru in vzpostavitev mednarodnega
+                    (spo)razumevanja.<note place="foot" xml:id="ftn8" n="6">Koren, »Zgodovinski
+                    spomin na soško fronto«, 86.</note> Na tej idejni osnovi, vključno z imenom, je
+                zrasla tudi <hi rend="italic">Pot miru</hi> vzdolž nekdanje soške fronte. Danes je
+                posoški projekt primer »dobre prakse« za številne države, ki se nahajajo ob nekdanji
+                vzhodni fronti in vzpostavljajo lastne urejene prostore spomina.</p>
+            <figure>
+                <head>Slika 2: Zasebna muzejska zbirka Botognica, Drežnica, Slovenija.</head>
+                <graphic url="slika4.jpg" height="400px"/>
+                <p>Vir: Ustanova »Fundacija Poti miru v Posočju«</p>
+            </figure>
+            <p>Posočje je vsekakor edinstveno okolje, kjer lahko spremljamo preplet zgodovinske
+                dediščine in naravnih lepot. Tu živijo ljudje, ki (so)ustvarjajo krajino, ko na
+                primer pišejo gastronomske zgodbe, živijo svoja življenja, a se hkrati spominjajo in
+                sobivajo z vso (nepremično) dediščino prve svetovne vojne. Tudi in predvsem zato je
+                Posočje odličen primer, kako se (kolektivni) spomin navezuje na prostor. Gre namreč
+                za skupino ljudi, ki je ujeta v določen prostorski okvir, tega pa še dodatno zapira
+                moč materialnega okolja, ki skupino obdaja. Prav prostorski okvir je za Posočje in
+                dojemanje odnosa do (materialne) dediščine soške fronte eden najpomembnejših
+                    dejavnikov.<note place="foot" xml:id="ftn9" n="7">Koren, Testen, »Spomin,
+                    prostor in ostaline soške fronte«, 72–73.</note> Zaznamovanost s prostorom in
+                vsemi materialnimi ostalinami je torej ključno pripomogla k temu, da je (kolektivni)
+                spomin na soško fronto med domačini v Posočju ostal tako živ. Prav tu so se na
+                primer nekateri posamezniki samoiniciativno odločili ohranjati dediščino tudi tako,
+                da so v povojnih letih ustvarjali zasebne zbirke, ki so danes vključene v projekt
+                    <hi rend="italic">Pot miru</hi>.<note place="foot" xml:id="ftn10" n="8">Zasebne
+                    zbirke, ki so vključene v <hi rend="italic">Pot miru</hi> od Alp do Jadrana:
+                    Mali muzej soške fronte Bovec, Miloš Domevšek (Bovec). Muzejska zbirka Iva
+                    Ivančiča, Ivan Ivančič (Bovec). Vojaška zbirka Zbogom orožje 1915–1917, Sašo
+                    Prochazka (Bovec). Muzejska zbirka Stol 1915–1917, Zdravko Marcola (Breginj).
+                    Etno-vojna zbirka, Valentin Mazora (Breginj). Zbirka Botognice, Mirko Kurinčič
+                    (Drežnica). Muzejska zbirka Posočje 1915–1917, Matic Volarič (Idrsko). Zbirka
+                    prve svetovne vojne Alberto Picco, Bojan Rustja (Kobarid). Kobarid v véliki
+                    vojni 1917, Ivo Krajnik (Kobarid). Mali muzej soške fronte Tolminsko mostišče,
+                    Peter Kogoj (Most na Soči). Muzejska zbirka Franca Jerončiča, Franc Jerončič
+                    (Kanal). Jugova zbirka, Martin Levpušček (Kanal). Lukčeva hiša, Jožica Strgar
+                    (Kambreško). Muzejska zbirka 1914–1917, Zoran Šuligoj (Kanal). Muzejska zbirka
+                    na Sabotinu, Bogdan Potokar. Vojni muzej Solkan, Rok in Jordan Boltar (Solkan).
+                    Stalna razstava Društva soška fronta <hi rend="italic">Šempeter in okolica med
+                        prvo svetovno vojno</hi>, David Erik Pipan (Šempeter). Zgodovinski muzej
+                    Balus, Matteo Balus (Srednje / Stregna). Več o zasebnih zbirkah glej: »Kulturna
+                    dediščina v zbirkah med Alpami in Krasom. / L'eredità culturale nelle collezioni
+                    fra Alpi e Carso,« Zborzbirk, pridobljeno 28. 9. 2015, <ref
+                        target="http://www.potmiru.si">http://zborzbirk.zrc-sazu.si</ref>.</note> Ne
+                nazadnje je skrb za spominski kraj oziroma prostor zagotovo eden izmed načinov
+                ohranjanja živosti kolektivnega spomina. V študiji z naslovom <hi rend="italic">Der
+                    Isonzoraum – Eintransnationaler Gedächtnisort für Österreicher, Italiener und
+                    Slowenen </hi>Andrea Brait analizira in utemeljuje pomen spominskega kraja prav
+                na primeru prostora ob Soči – razume in vidi ga kot transnacionalni spominski kraj
+                za Avstrijce, Italijane in Slovence.<note place="foot" xml:id="ftn11" n="9">Andrea
+                    Brait, »Der Isonzoraum – Ein transnationaler Gedächtnisort für Österreicher,
+                    Italiener und Slowenen,« v: <hi rend="italic">Waffentreue. Die 12.
+                        Isonzoschlacht 1917, Begleitband zur Ausstellung des Österreichischen
+                        Staatsarchiv, 23. Oktober 2007–1. Februar 2008</hi>, ur. Manfried
+                    Rauchensteiner (Wien: Österreichischen Staatsarchiv, 2007), 115–30.</note>
+                Prostor torej lahko spodbuja, da se spominjamo. Na podoben način pa lahko postane
+                spominsko območje vseh, ki so kakor koli povezani z njim. Zagotovo ima Posočje velik
+                pomen za domačine, ki se z materialno dediščino vojne vsakodnevno srečujejo, se
+                zavedajo tudi njenega ekonomskega potenciala, še bolj pa dejstva, da se je na
+                njihovem pragu odigralo pomembno poglavje svetovne zgodovine. Nič manj pa ni to
+                spominsko območje pomembno za številne druge, na primer za potomce vojakov, ki so se
+                v teh krajih borili med prvo svetovno vojno,<note place="foot" xml:id="ftn12" n="10"
+                    >Vedno več obiskovalcev nekdanjega obsoškega bojišča (Madžari, Čehi, Slovaki,
+                    Bošnjaki) prihaja v te kraje tudi z željo, da bi videli, kje so se borili
+                    njihovi predniki. Veliko svojcev išče grobove padlih vojakov, sorodnikov, saj
+                    mnogi med njimi še vedno počivajo v Posočju.</note> šoloobvezne otroke, ki
+                spoznavajo to obdobje zgodovine itd. Na ta način prostor ob Soči postaja zgodovinski
+                kraj, trdi Braitova, in kot tak zgodovinski termin. In prav zato, ker je Posočje
+                posejano s spominskimi kraji, je toliko bolj razumljivo, da se je prav tu spomin na
+                soško fronto tako močno ohranil. S tem je namreč skladna tudi Halbwachsova teza, da
+                »[n]i kolektivnega spomina, ki se ne bi dogajal v prostorskem okviru«.<note
+                    place="foot" xml:id="ftn13" n="11">Maurice Halbwachs, <hi rend="italic"
+                        >Kolektivni spomin</hi> (Ljubljana: Studia humanitatis, 2001), 157.</note>
+                Od tu pa do didaktičnega pripomočka, ki v živo, nazorno prikliče tudi in predvsem s
+                pomočjo krajine naracijo o prvi vojni in tako ponuja neposredni okvir pouku o
+                spominu, je le korak. </p>
+            <p>Naj ponazorimo še z enim primerom, kako močno deluje prostor na obiskovalce. Gre za
+                t. i. romanja na zgodovinske kraje, množična obiskovanja nekdanjih bojišč, ki so
+                pravzaprav na prostor spominjanja vezana družinska romanja, na katera opozarjata Jay
+                Winter in Emmanuel Sivan, ko govorita o generacijah, ki so doživele prvo vojno in so
+                se po njej vračale na prizorišča nekdanjih bojev (»battlefieldstours«).<note
+                    place="foot" xml:id="ftn14" n="12">Jay Winter in Emmanuel Sivan, »Setting the
+                    framework,« v: <hi rend="italic">War and Remembrance in the Twentieth
+                        Century</hi>, ur. Jay Winter in Emmanuel Sivan (Cambridge, New York,
+                    Melbourne, Madrid, Cape Town, Singapore, São Paulo: Cambridge University Press,
+                    2005), 37.</note> Danes enako počno njihovi potomci. Razlago za »romanja« gre
+                najverjetneje iskati v dejstvu, da je prav avtentična lokacija tista, ki obiskovalce
+                evocira, jih nagovarja, jim pomaga podoživeti dogodke in obuditi spomine na
+                pripovedi preminulih sorodnikov. In prav avtentične lokacije v Posočju so temelj, na
+                katerem gradi svoje delo tudi Ustanova »Fundacija Poti miru v Posočju«; na teh
+                zgodovinskih krajih prve svetovne vojne so pred leti uredili najprej šest muzejev na
+                prostem v Zgornjem Posočju, danes pa skrbijo za materialne ostaline vzdolž nekdanje
+                frontne črte, združene v <hi rend="italic">Pot miru</hi> od Alp do Jadrana. Poleg
+                tega je Fundacija v sodelovanju s Tolminskim muzejem uredila evidenco padlih
+                vojakov, saj so se svojci padlih vse pogosteje zanimali za kraje poslednjega počitka
+                svojih prednikov. Ta podatkovni nabor, ki je narejen za območje Zgornjega Posočja in
+                šteje približno 21.000 padlih vojakov, privablja – če si izposodimo terminologijo
+                Winterja in Sivana – še več »romarjev«.<note place="foot" xml:id="ftn15" n="13"
+                    >Evidenca padlih vojakov v Zgornjem Posočju je dostopna na svetovnem spletu
+                    (»Evidenca padlih,« POT MIRU, pridobljeno 28. 9. 2015, <ref
+                        target="http://www.potmiru.si/slo/evidenca-padlih"
+                        >http://www.potmiru.si/slo/evidenca-padlih</ref>) in objavljena v knjigah:
+                    Lovro Galić in Branko Marušič, <hi rend="italic">Tolminsko mostišče I
+                    </hi>(Tolmin: Tolminski muzej, 2005). Petra Svoljšak et al., <hi rend="italic"
+                        >Tolminsko mostišče II</hi> (Tolmin: Tolminski muzej, 2005). Lovro Galić in
+                    Darja Pirih, <hi rend="italic">Od Krna do Rombona </hi>(Kobarid: Ustanova
+                    Fundacija Poti miru v Posočju, Tolminski muzej, 2007).</note>
+            </p>
+            <figure>
+                <head>Slika 3: Muzej na prostem Čelo, Bovec, Slovenija.</head>
+                <graphic url="slika1.jpg" height="400px"/>
+                <p>Vir: Ustanova »Fundacija Poti miru v Posočju«</p>
+            </figure>
+            <p>Prav zaradi močnega (samo)zavedanja o moči spomin(janj)a na avtentičnih lokacijah,
+                sredi ostalin prve svetovne vojne, ni torej nič nenavadnega, da se je v tem okolju
+                porodila ideja za delovanje ustanov, kot sta Kobariški muzej<note place="foot"
+                    xml:id="ftn16" n="14">Glej: KOBARIŠKI MUZEJ, pridobljeno 28. 9. 2015, <ref
+                        target="http://www.potimirunakrasu.info"
+                    >http://www.kobariski-muzej.si</ref>. Poleg Kobariškega muzeja danes ob <hi
+                        rend="italic">Poti miru</hi> od Alp do Jadrana najdemo v Sloveniji še
+                    Tolminski muzej (Tolminski muzej, pridobljeno 28. 9. 2015, <ref
+                        target="http://www.toerisme-ieper.be">http://www.tol-muzej.si</ref>.) in
+                    Goriški muzej (Goriški muzej, pridobljeno 28. 9. 2015 (stran trenutno v
+                    popravilu), <ref target="http://www.tol-muzej.si"
+                        >http://www.goriskimuzej.si</ref>.), na italijanski strani pa Museo della
+                    Grande Guerra di Gorizia (<ref target="http://www.tic-kanal.si"
+                        >musei@provincia.gorizia.it</ref>), Museo della Grande Guerra del Monte San
+                    Michele, Museo della Grande Guerra Casa III Armata, Devinski grad / Castello di
+                    Duino (Castello di Duino, pridobljeno 28. 9. 2015, <ref
+                        target="http://www.zvkds.si/sl">http://www.castellodiduino.it</ref>.),
+                    Civico Museo della Guerra per la Pace Diego de Henriquez (H. MUSEO DELLA GUERRA
+                    PER LA PACE DIEGO DE HENRIQUEZ, pridobljeno 28. 9. 2015, <ref
+                        target="fontTable.xml">http://www.museodiegodehenriquez.it</ref>.), Museo
+                    del Risorgimento (<ref target="theme/theme1.xml"
+                        >museorisorgimento@comune.trieste.it</ref>), Sala storica della Sezione G.
+                    Corsi di Trieste Associazione Nazionale Alpini di Trieste (<ref
+                        target="mailto:trieste@ana.it">trieste@ana.it</ref>), Museo
+                    dell'Associazione Culturale F. Zenobi (<ref
+                        target="mailto:info@zenobionline.com">info@zenobionline.com</ref>), Museo
+                    privato Ricordi della Grande Guerra in Stazione Multimediale, Museo della Grande
+                    Guerra. Več glej: Koren, <hi rend="italic">Pot miru od Alp do Jadrana</hi>, 203.
+                </note> in Ustanova »Fundacija Poti miru v Posočju«. Prvi se je razvil iz muzejske
+                zbirke, ki so jo leta 1990 uredili domačini. Najprej je deloval v okviru
+                Turističnega društva Kobarid, v soglasju z Ministrstvom za kulturo Republike
+                Slovenije pa so ustanovitelji po petih letih prenesli upravljanje na zasebno
+                neprofitno družbo z omejeno odgovornostjo, ki z muzejem upravlja še danes. Muzej je
+                leta 1993 za predstavitev svoje zbirke prejel nagrado Sveta Evrope za najboljši
+                muzej. Naslednji korak je bil dokaj logičen – poskrbeti je bilo treba še za
+                materialno dediščino prve svetovne vojne v naravi. V krogu sodelavcev Kobariškega
+                muzeja je bila dana pobuda za osnovanje Ustanove »Fundacija Poti miru v Posočju«.
+                Nato je Vlada Republike Slovenije leta 2000 ustanovila Fundacijo z namenom, da bi
+                ohranjala in vzdrževala nepremično dediščino soške fronte. V preteklih letih so se
+                pod njenim okriljem tako začele izvajati številne dejavnosti, glavna pa je prav
+                gotovo projekt <hi rend="italic">Pot miru</hi>, ki zajema predvsem skrb za
+                nepremično dediščino soške fronte in njeno poznavanje med čim širšim krogom ljudi. </p>
+            <p>Kako se je torej dejansko uresničeval projekt <hi rend="italic">Poti miru</hi>? Sprva
+                je bila načrtovana in urejena trasa v Zgornjem Posočju. Leta 2007 je tako nastala
+                sto kilometrov dolga pešpot, ki je povezovala ostaline soške fronte v naravi,
+                posvečena pa je bila predvsem spominu na številne žrtve prve svetovne vojne. Pot je
+                bila speljana tako, da danes vodi mimo vojaških pokopališč, kostnic, sakralnih
+                objektov, spominskih obeležij, jarkov, utrdb, kavern in muzejev na prostem ter
+                zasebnih zbirk, obiskovalce pa popelje tudi mimo naravnih in kulturnih znamenitosti
+                ter etnografskih posebnosti Zgornjega Posočja. Prične se v Logu pod Mangartom, v
+                bližini vojaškega pokopališča, kjer je vhod v rudniški jašek Štoln (iz nem. <hi
+                    rend="italic">der Stollen</hi>), poteka mimo trdnjave Kluže, Cerkve Sv. Duha v
+                    Javorci,<note place="foot" xml:id="ftn17" n="15">Javorca, spominska cerkev
+                    Svetega Duha je posvečena padlim avstro-ogrskim vojakom, ki so branili tolminsko
+                    bojišče (1915–1917), in je eden izmed lepših spomenikov prve svetovne vojne;
+                    leta 2007 je bil uvrščen med tiste, ki nosijo znak evropske kulturne dediščine.
+                    Objekt je zasnoval Remigius Geyling (1878–1974), gradnjo pa izpeljal poročnik
+                    Géza Jablonszky. Spodnji del tega secesijskega dragulja in obzidje je iz kamna,
+                    medtem ko je preostali del konstrukcije iz macesna. V notranjosti je na
+                    hrastovih ploščah, ki simbolizirajo liste spominske knjige, vžganih 2565 imen
+                    padlih vojakov, danes pokopanih v Ločah pri Tolminu. Glej npr: POT MIRU,
+                    pridobljeno 28. 9. 2015, <ref target="http://www.potmiru.si"
+                        >http://www.potmiru.si</ref>. </note> številnih še živih planin, naravnih
+                znamenitosti, kot so tolminska korita, in še in še. Stokilometrska <hi rend="italic"
+                    >Pot miru</hi> v Zgornjem Posočju je razdeljena na pet odsekov, ki vsak zase
+                poudarjajo posebnosti posameznega območja in potekajo od Bovškega preko Kobariškega
+                do Tolminskega področja. Pri tem zagotovo zaslužijo posebno pozornost muzeji na
+                prostem, ki so vsak zase kot priročne učilnice na prostem.<note place="foot"
+                    xml:id="ftn18" n="16">Tadej Koren, »Pot po dediščini soške fronte, « v: <hi
+                        rend="italic">Finančni mehanizem EGP in Norveški finančni mehanizem za
+                        obdobje 2004–2009 v Sloveniji</hi> (Ljubljana: Služba Vlade Republike
+                    Slovenije za lokalno samoupravo in regionalno politiko, 2011), 74-75. Vodnik je
+                    izšel v štirih jezikovnih različicah: Tadej Koren, <hi rend="italic">Muzeji na
+                        prostem prve svetovne vojne, Soška fronta, 1915–1917</hi> (Kobarid: Ustanova
+                    Fundacija Poti miru v Posočju, 2009). Tadej Koren, <hi rend="italic">The First
+                        World War Outdoor Museums. The Isonzo Front, 1915–1917,</hi> prev. Branka
+                    Klemenc (Kobarid: The Walks of Peace in the Soča Region Foundation, 2009). Tadej
+                    Koren, <hi rend="italic">Freilichtmuseendesersten Weltkrieges. Isonzofront,
+                        1915–1917</hi>, prev. Elke Arcet (Kobarid: Stiftung Wege des Friedens in
+                    Sočatal, 2009). Tadej Koren, <hi rend="italic">Musei all’aperto della prima
+                        guerra mondiale, fronte isontino, 1915–1917</hi>, prev. Miha Obit
+                    (Kobarid: Ente Fondazione Le vie della pace nell'Alto Isonzo, 2009). </note> V
+                zgornjem Posočju jih je šest, in sicer: Ravelnik (avsto-ogrska prva obrambna črta,
+                Bovec), Čelo (avstro-ogrski topniški položaji, Bovec), Zaprikraj (prva italijanska
+                obrambna črta, Kobarid), Kolovrat (tretja italijanska obrambna črta, Kobarid), Mrzli
+                vrh (avstro-ogrska in italijanska prva obrambna črta, Tolmin) in Mengore
+                (avstro-ogrska prva obrambna črta, Tolmin). Gre za šest večjih področij, kjer so
+                bile vojne ostaline »bolj na gosto posejane« in dobro ohranjene, zato jih je
+                Fundacija skupaj z zgodovinskimi in turističnimi društvi<note place="foot"
+                    xml:id="ftn19" n="17">>Društvo 13−13 na Bovškem (Čelo in Ravelnik), Turistično
+                    društvo Drežnica (Zaprikraj), Turistično društvo Kobarid (Kolovrat), Društvo
+                    Peski 1915–1917 iz Tolmina (Mrzli vrh) in Društvo Mengore (Mengore).</note> iz
+                Zgornjega Posočja ter Zavodom za varstvo kulturne dediščine (ZVKD)<note place="foot"
+                    xml:id="ftn20" n="18">Glej: ZVKDS. Zavod za varstvo kulturne dediščine
+                    Slovenije, pridobljeno 28. 9. 2015, <ref target="http://www.zvkds.si/sl"
+                        >http://www.zvkds.si/sl</ref>.</note> uredila, očistila in označila.
+                Obiskovalci imajo tako priložnost na avtentičnih lokacijah opazovati način gradnje
+                jarkov, utrdb in kavern ter podoživeti zgodbe vojakov med vojno. Dejstvo je, kot smo
+                že zapisali, da je Zgornje Posočje gosto posejano z obeležji in ostalinami iz časa
+                prve svetovne vojne, zato Fundacija skrbi za ohranjanje, vzdrževanje, čiščenje in po
+                potrebi tudi obnovo te dediščine.<note place="foot" xml:id="ftn21" n="19">Fundacija
+                    je do danes obnovila okrog trideset spominskih obeležij, ki so del <hi
+                        rend="italic">Poti miru</hi>.</note> Ob <hi rend="italic">Poti miru</hi> pa
+                gre gotovo izpostaviti še enotno označevanje poti in objektov ob njej, saj je bilo
+                že pri načrtovanju tega projekta vloženega veliko dela v celostno grafično podobo
+                (informacijske table, smerokazi, markacije in logotip<note place="foot"
+                    xml:id="ftn22" n="20">Logotip okrogle oblike umešča motiv črne ptice na belo
+                    podlago. Gre za novo simboliko, ki spominja na goloba z uveljavljeno simbolno
+                    vrednostjo, nadgrajuje pa jo perut te ptice, oblikovana kot človeška roka,
+                    spravno ponujena v znak miru. Skladno s to simboliko k logotipu sodi tudi napis
+                        <hi rend="italic">Pot miru</hi>.</note>), predvsem ob zavesti, da so vsa
+                označevanja v naravi tujki; informacijske oznake so se morale čim bolje zlivati z
+                okoljem, poleg tega pa ostati pregledne, preproste in razumljive vsem
+                    obiskovalcem.<note place="foot" xml:id="ftn23" n="21">Koren, Testen, »Spomin,
+                    prostor in ostaline soške fronte«, 75.</note> Za lažje načrtovanje izletov in
+                bolj izčrpne informacije o <hi rend="italic">Poti miru</hi> je bil zasnovan tudi
+                knjižni vodnik.<note place="foot" xml:id="ftn24" n="22">Tadej Koren, <hi
+                        rend="italic">Pot miru. Vodnik po soški fronti v Zgornjem Posočju</hi>
+                    (Kobarid: Ustanova Fundacija Poti miru v Posočju, 2007). Tadej Koren, <hi
+                        rend="italic">Il Sentiero della pace, Guida lungo il fronte isontino
+                        nell’Alta valle dell’Isonzo</hi>, prev. Miha Obit (Kobarid: Fondazione Le
+                    vie della Pace nell'Alto Isonzo, 2007); Tadej Koren, <hi rend="italic">Weg des
+                        Friedens, Führer der Isonzofront im oberen Sočatal, </hi>prev. Elke Arcet
+                    (Kobarid: Stiftung Wege des Friedens im Sočatal, 2007). Tadej Koren, <hi
+                        rend="italic">The Walk of Peace, A Guide along the Isonzo Front in the Upper
+                        Soča Region</hi>, prev. Branka Klemenc (Kobarid: The Walks of Peace in the
+                    Soča Region Foundation, 2008). </note></p>
+            <figure>
+                <head>Slika 4: Logotip <hi rend="italic">Poti miru</hi>.</head>
+                <graphic url="slika5.png" height="300px"/>
+                <p>Vir: Ustanova »Fundacija Poti miru v Posočju«</p>
+            </figure>
+            <p>Danes sodelavci na Fundaciji razvijajo projekt <hi rend="italic">Pot miru</hi> kot
+                zgodovinsko-turistični produkt,<note place="foot" xml:id="ftn25" n="23">Pri
+                    poimenovanju zgodovinsko-turistični produkt oziroma turistični produkt gre za
+                    uveljavljeno terminologijo v turizmu. Sodobna raba besede turistični produkt v
+                    tem smislu pomeni konkreten rezultat določenega projekta, ki vključuje ponudbo
+                    športnih aktivnosti, ogleda zgodovinske dediščine, gastronomskih pokušin,
+                    wellness storitev, poslovnega turizma itd.</note> ki obiskovalcem ponuja
+                čudovito naravo, a jih skuša v dolini zadržati za več dni tudi z resnejšimi
+                vsebinami. Osnova <hi rend="italic">Poti miru</hi> je vsekakor najprej ovrednotenje
+                zgodovinske dediščine soške fronte, ki pa je obogatena s ponudbo ogleda ostalih
+                posebnosti pokrajine, kot so raznolika narava, zanimiva kultura, odkrivanje
+                vsakdanjega življenja prebivalcev ter ponudba številnih športnih aktivnosti in
+                gastronomije. Gre tudi za preprosto dejstvo, da je turistična sezona v Zgornjem
+                Posočju kratka, skoncentrirana na poletno sezono, ki se podaljša v jesen in pomlad s
+                pohodništvom in kolesarjenjem ter drugimi aktivnostmi v naravi, a tudi ponudbo
+                bogatega programa na primer šolam in drugim izobraževalnim ustanovam (ekskurzije,
+                vodeni programi po terenu). Vidik posredovanja dediščine prve svetovne vojne
+                šoloobveznim otrokom in mladini je zelo pomemben, tako kot je pomembno širjenje
+                zavesti, da sta mir in nenasilje vrednoti. Obenem si Fundacija prizadeva tudi za
+                aktivnosti na področju znanstvenega in ljubiteljskega raziskovanja. Za ta namen sta
+                vzpostavljena študijski center in zgodovinska knjižnica, kamor se neprestano steka
+                raznovrstno gradivo o prvi svetovni vojni, za tovrstno delovanje pa so na razpolago
+                urejeni prostori, kjer se prirejajo domače in gostujoče razstave, organizirajo
+                različne delavnice, predavanja, konference ter simpoziji.<note place="foot"
+                    xml:id="ftn26" n="24">Naj na tem mestu omenimo mednarodno delavnico, ki se je
+                    odvijala tudi v prostorih Fundacije, in sicer oktobra 2014, ki se je dotaknila
+                    na Slovenskem dokaj neuveljavljenega (akademskega) področja, ki proučuje preplet
+                    turizma in izobraževanja, v svetu pa ga prepoznavajo pod izrazi <hi
+                        rend="italic">dark tourism</hi>, <hi rend="italic">black tourism</hi> (tudi
+                        <hi rend="italic">grief tourism</hi>). Več glej: Anton Gosar, Miha Koderman
+                    in Mariana Rodela, ur., <hi rend="italic">Temačni turizem. Prva svetovna vojna –
+                        stanje in razvojne možnosti tudistične ponudbe. / Dark tourism. Post-ww1 –
+                        destinations of human tragedies and opportunities for tourism
+                        development.</hi> Zbornik povzetkov in ekskurzijski vodnik (Portorož, Koper:
+                    Univerza na Primorskem, Fakulteta za turistične študije – Turistica, 2014),
+                    pridobljeno 28. 9. 2015, <ref
+                        target="http://www.turistica.si/temacni/wp-content/uploads/2014/10/temacni-povzetki.pdf"
+                        >http://www.turistica.si/temacni/wp-content/uploads/2014/10/temacni-povzetki.pdf</ref>.</note>
+                Za širšo prepoznavnost deluje v njenih prostorih <hi rend="italic">Informacijski
+                    center Pot miru</hi>,<note place="foot" xml:id="ftn27" n="25">Vzdolž celotne
+                    trase Poti miru od Alp do Jadrana delujejo naslednji informacijski centri: v
+                    Sloveniji so to TIC Bovec (Bovec. Doline navdiha, pridobljeno 28. 9. 2015, <ref
+                        target="http://www.bovec.si">http://www.bovec.si</ref>.). TIC Kobarid in TIC
+                    Tolmin (Dolina Soče. KOBARID, TOLMIN, pridobljeno 28. 9. 2015, <ref
+                        target="http://www.dolina-soce.com">http://www.dolina-soce.com</ref>.) TIC
+                    Kanal (Turistično informacijski center Kanal, pridobljeno 28. 9. 2015, <ref
+                        target="http://www.tic-kanal.si">http://www.tic-kanal.si</ref>.). TIC Brda
+                    (Brda. Slovenija. Dežela opojnih trenutkov, pridobljeno 28. 9. 2015, <ref
+                        target="http://www.brda.si">http://www.brda.si</ref>.). TIC Nova Gorica
+                    (NOVA GORICA. Nova doživetja, pridobljeno 28. 9. 2015, <ref
+                        target="http://www.novagorica-turizem.com"
+                        >http://www.novagorica-turizem.com</ref>.). TIC Miren, <ref
+                        target="tic.miren@siol.net">tic.miren@siol.net</ref>; TIC Temnica (POTI MIRU
+                    NA KRASU, pridobljeno 28. 9. 2015, <ref target="http://www.potimirunakrasu.info"
+                        >http://www.potimirunakrasu.info</ref>.). TIC Štanjel (Štanjel, pridobljeno
+                    28. 9. 2015, <ref target="http://www.stanjel.eu">http://www.stanjel.eu</ref>.).
+                    V Italiji pa: Agenzia Turismo Friuli Venezia Giulia (FRIULI VENEZIA GIULIA,
+                    pridobljeno 28. 9. 2015, <ref target="http://www.turismofvg.it"
+                        >http://www.turismofvg.it</ref>.). Udine Infopoint, <ref
+                        target="info.udine@turismo.fvg.it">info.udine@turismo.fvg.it</ref>; Gorizia
+                    Infopoint, <ref target="info.gorizia@turismo.fvg.it"
+                        >info.gorizia@turismo.fvg.it</ref>. IAT Fogliano Redipuglia (Pro Loco
+                    Fogliano – Redipuglia, pridobljeno 28. 9. 2015, <ref
+                        target="http://www.prolocofoglianoredipuglia.it"
+                        >http://www.prolocofoglianoredipuglia.it</ref>.). URP Monfalcone
+                    (Monfalcone. Pridobljeno 28. 9. 2015. <ref
+                        target="http://www.comune.monfalcone.go.it"
+                        >http://www.comune.monfalcone.go.it</ref>.). Trieste Infopoint, <ref
+                        target="info.trieste@turismo.fvg.it">info.trieste@turismo.fvg.it</ref>. Več
+                    glej: Koren, <hi rend="italic">Pot miru od Alp do Jadrana</hi>, 207.</note> v
+                sklopu katerega je bila leta 2012 postavljena interaktivna razstava o <hi
+                    rend="italic">Poti miru</hi>, ki obiskovalcem z uporabo sodobne opreme in
+                tehnologije na zanimiv način prikaže zgodovinsko dediščino soške fronte. Postavitev
+                ponuja rekonstrukcijo strelskega jarka z avtentično vojaško opremo, interaktivne
+                panorame iz muzejev na prostem ter zaslon na dotik s predstavitvijo <hi
+                    rend="italic">Poti miru</hi>, dostop do podatkovne baze evidence padlih, možnost
+                poslušanja glasbenega CD z vojaškimi pesmimi, predstavitev zasebnih muzejskih zbirk
+                iz Posočja, promocijski material in tematske filme ter otroški kotiček. Uporabniki
+                se tako lahko virtualno sprehajajo po <hi rend="italic">Poti miru</hi> tudi v
+                primeru slabega vremena, kar se v hribovitem svetu kaj hitro lahko dogodi. S tem se
+                nadgrajuje ponudba in predstavlja (ne)snovna zgodovinska dediščina na inovativen
+                način, hkrati pa se uspešno dopolnjujejo vsebine, ki jih v sosednji stavbi
+                predstavlja zbirka Kobariškega muzeja. <hi rend="italic">Informacijski center Pot
+                    miru</hi>, kjer obenem ponujajo svoje domače izdelke številni okoliški obrtniki
+                in umetniški ustvarjalci, je odlično izhodišče za obiske ostalin v naravi, za kar je
+                poskrbljeno z možnostjo organizirane vodniške službe.<note place="foot"
+                    xml:id="ftn28" n="26">Da je <hi rend="italic">Pot miru</hi> dober način
+                    predstavitve zgodovinske dediščine, dokazuje tudi za leto 2008 podeljeni laskavi
+                    naziv <hi rend="italic">Evropska destinacija odličnosti</hi>. Podobno potrjuje
+                    leta 2012 dodeljena nagrada <hi rend="italic">Zlato jabolko</hi>; Svetovno
+                    združenje turističnih novinarjev in piscev (FIJET) jo podeljuje vsako leto
+                    projektom, ki ohranjajo kulturno, naravno, etnološko in drugo dediščino. </note>
+            </p>
+            <p>Fundacija je v zadnjih letih po vzor(c)u iz Zgornjega Posočja razširila projekt <hi
+                    rend="italic">Pot miru</hi> ob nekdanji soški fronti proti jugu – na Goriško,
+                Kras in vse do Tržaškega zaliva.<note place="foot" xml:id="ftn29" n="27">Leta 2012
+                    je Fundacija pripravila prvo zloženko s pregledno karto in opisi pomembnih
+                    objektov iz časa soške fronte od Alp do Jadrana. Glej: <hi rend="italic">Pot
+                        miru od Alp do Jadrana, Soška fronta 1915–1917</hi> (Kobarid: Ustanova
+                    Fundacija Poti miru v Posočju, 2012) (zloženka, zemljevid). Vse ključne
+                    informacije in promocijsko gradivo, vključno z zemljevidi, je dostopno na: POT
+                    MIRU.</note> Celotna trasa od Alp do Jadrana je, tako kot začetni »primer dobre
+                prakse« v Zgornjem Posočju, enotno označena, razdeljena na petnajst odsekov in
+                primerna za pohodnike ter kolesarje; poteka po pohodniških, kolesarskih in stranskih
+                asfaltiranih cestah. Iz Kolovrata se pot tako nadaljuje mimo Korade, Goriških Brd,
+                Sabotina do Nove Gorice, medtem ko del trase skrene čez Sočo že pri Plavah in vodi
+                preko Prižnice, Vodic, Svete Gore in Škabrijela prav tako do Nove Gorice in nato
+                dalje do Šempetra pri Gorici, Vrtojbe, Mirna in Cerja ter naprej na Komenski Kras.
+                Tudi na tej trasi gre izpostaviti muzeje na prostem, in sicer Sabotin, Prižnica,
+                Vodice, Škabrijel, Jama Pečinka. <hi rend="italic">Poti miru</hi> pa se obenem
+                nadaljuje na italijansko stran in vključuje tamkajšnje muzeje na prostem – Debela
+                Griža (Monte San Michele), nov muzej na prostem Brestovec, Grmada (Monte Ermada),
+                Dolina Bersaljerjev (Dolina dei Bersaglieri), Tematski park prve svetovne vojne
+                (Parco Tematico della Grande Guerra) v Tržiču (Monfalcone) itd. – ter vodi mimo na
+                primer monumentalne kostnice v Redipulji (Redipuglia), slikovitega Devinskega gradu
+                vse do Trsta, do Jadranskega morja. Tako so pod skupni projekt vključene že
+                obstoječe iniciative na Sabotinu in na Krasu,<note place="foot" xml:id="ftn30"
+                    n="28">Glej: POTI MIRU NA KRASU.</note> hkrati pa trasa sega na italijansko
+                stran; onkraj zdaj že skoraj nevidne meje, in na območje, ki ga je nekoč ločevala
+                frontna črta, pozneje pa so se tod postavljale in spreminjale državne meje, vnaša
+                nove vsebine. <hi rend="italic">Pot miru</hi> potemtakem ni samo pomemben
+                regionalni, temveč tudi mednarodni projekt<note place="foot" xml:id="ftn31" n="29"
+                    >Koren, Testen, »Spomin, prostor in ostaline soške fronte«, 77–78.</note>. Ob
+                stoti obletnici bojev ob Soči je bila skupaj z vsemi slovenskimi in italijanskimi
+                partnerji uradno odprta <hi rend="italic">Pot miru</hi> od Alp do Jadrana, in sicer
+                21. marca 2015 – na Trgu Evrope (Piazza della Transalpina), ki povezuje Novo Gorico
+                in Gorico.<note place="foot" xml:id="ftn32" n="30">Glej: »Foto: Slavnostno odprtje
+                    Poti miru od Alp do Jadrana,« MMC RTV SLO. PRVI INTERAKTIVNI MULTIMEDIJSKI
+                    PORTAL, pridobljeno 28. 9. 2015, <ref
+                        target="http://www.rtvslo.si/slovenija/foto-slavnostno-odprtje-poti-miru-od-alp-do-jadrana/361068"
+                        >http://www.rtvslo.si/slovenija/foto-slavnostno-odprtje-poti-miru-od-alp-do-jadrana/361068</ref>.
+                </note>
+            </p>
+            <figure>
+                <head>Slika 5: Italijanska kostnica, Kobarid, Slovenija.</head>
+                <graphic url="slika3.jpg" height="400px"/>
+                <p>Vir: Ustanova »Fundacija Poti miru v Posočju«</p>
+            </figure>
+            <p>Razvijanje <hi rend="italic">Poti miru</hi> kot zgodovinsko-turističnega produkta je
+                vsekakor proces, na katerega je vplivalo in še vedno vpliva več dejavnikov. Med
+                slednjimi gre še enkrat opozoriti na pomen ohranjanja zgodovinske dediščine soške
+                fronte v naravi. To na eni strani prispeva k močnejši kolektivni zavesti prebivalcev
+                v dolini Soče, na drugi strani pa h krepitvi in soustvarjanju zgodovinskega spomina.
+                Slednje se odslikava na več nivojih: najprej v lokalni skupnosti, ki se pomena
+                dediščine soške fronte vse bolj zaveda in ima od povečanega obiska muzejev, zbirk,
+                vodenih izletov itd. tudi ekonomsko korist; nato na ravni države, kjer se v javnosti
+                krepi zavest o pomembnih zgodovinskih dogodkih, ki so se odvijali ob reki Soči;
+                slednjič pa je tu še mednarodni okvir, v katerem soška fronta postaja vse bolj
+                prepoznavna kot skupna dediščina, Posočje pa kot prostor vseevropskega
+                    spominjanja.<note place="foot" xml:id="ftn33" n="31">Koren, Testen, »Spomin,
+                    prostor in ostaline soške fronte«, 78.</note></p>
+            <p>Danes je prav <hi rend="italic">Pot miru</hi> ena najpomembnejših pobud, ki pomaga
+                ustvarjati skupni prostor, skupno regijo med Slovenijo in Italijo, jutri pa morda
+                tudi Avstrijo na severu. A to je seveda le en vidik skupnega prostora, ki se lahko
+                razvija na podlagi ideje o miru in povezovanju ter hkrati nudi vpogled v skupno
+                spominsko dediščino, ki so jo skrojila dogajanja na političnem parketu 20. stoletja.
+                Vsekakor je za uspešno in v prihodnost zazrto izvajanje projekta <hi rend="italic"
+                    >Pot miru</hi> pomembno, da ves čas živi in se razvija, za to pa morajo delovati
+                vsi v besedilu našteti vidiki – od študijskega in raziskovalnega ter seveda
+                didaktičnega do turističnega, in sicer na vseh ravneh, tj. na lokalnem, državnem in
+                mednarodnem nivoju.</p>
+            <p><hi rend="italic">Pot miru</hi> ima glede na zapisano odličen potencial, da kot
+                »didaktični pripomoček« ponudi svoj delež k razumevanju dogodkov, ki so pred sto
+                leti pretresli prebivalce Posočja in vse, ki so bili v vojno svetovnih razsežnosti
+                vpleteni. Pomaga lahko h konkretni umestitvi zgodovinskih dejstev na geografsko
+                točno določene (slikovite) lokacije, torej deluje kot učilnica na prostem, hkrati pa
+                odpira vprašanja spomina, vrednotenja miru in sožitja in s tem kakovostno prispeva k
+                učnemu procesu. Ne nazadnje je prav slednje – skrb za nepremično dediščino soške
+                fronte in njeno posredovanje čim širšemu krogu – glavna naloga Ustanove »Fundacija
+                Poti miru v Posočju«, ki je tudi poglavitna skrbnica <hi rend="italic">Poti
+                    miru</hi> od Alp do Jadrana.</p>
+            <quote><hi rend="italic">»Pot miru nagovarja z jezikom, ki je pred stotimi leti izginil
+                    iz človeškega obzorja sporazumevanja, danes pa samoumevno prehaja v prostor in
+                    vijuga preko nekdanje meje, ki je predolgo ločevala, a je s slovenskim vstopom v
+                    območje Schengena izgubila še zadnji fizični argument ločevanja. Pot miru pa je
+                    veliko več, ker vstopa v območje spomina, ki ima nenavadno moč pozabljenja in
+                    opominjanja, ima kreativno moč ustvarjanja skupnega prostora spomina, ki
+                    spoštuje, ker pozna in brez predsodkov pripoveduje zgodovinsko zgodbo prostora
+                    in ljudi ob Soči.«</hi><note place="foot" xml:id="ftn34" n="32">Svoljšak,
+                    »Vodniku na pot«, 11.</note></quote>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <listBibl>
+                    <head>Internetni viri:</head>
+                    <bibl>Associazione Storica Cimeetrincee. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.cimeetrincee.it"
+                        >http://www.cimeetrincee.it</ref>.</bibl>
+                    <bibl>CarniaMusei. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.carniamusei.org"
+                        >http://www.carniamusei.org</ref>.</bibl>
+                    <bibl>Castello di Duino. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.castellodiduino.it"
+                            >http://www.castellodiduino.it</ref>.</bibl>
+                    <bibl>Bovec. Doline navdiha. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.bovec.si">http://www.bovec.si</ref>.</bibl>
+                    <bibl>Brda. Slovenija. Dežela opojnih trenutkov. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.brda.si">http://www.brda.si</ref>.</bibl>
+                    <bibl>Dolina Soče. KOBARID, TOLMIN. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.dolina-soce.com"
+                        >http://www.dolina-soce.com</ref>.</bibl>
+                    <bibl>Dolomitenfreunde. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.dolomitenfreunde.at"
+                            >http://www.dolomitenfreunde.at</ref>.</bibl>
+                    <bibl>firstworldwar.com. a multimedia history of world war one. »Battles – The
+                        Battle of the Somme, 1916.« Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.firstworldwar.com/battles/somme.htm"
+                            >http://www.firstworldwar.com/battles/somme.htm</ref>.</bibl>
+                    <bibl>firstworldwar.com. a multimedia history of world war one. »Battles – The
+                        Battle of Verdun, 1916.« Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.firstworldwar.com/battles/verdun.htm"
+                            >http://www.firstworldwar.com/battles/verdun.htm</ref>.</bibl>
+                    <bibl>FRIULI VENEZIA GIULIA. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.turismofvg.it">http://www.turismofvg.it</ref>.</bibl>
+                    <bibl>Goriški muzej. Pridobljeno 28. 9. 2015 (stran trenutno v popravilu). <ref
+                            target="http://www.goriskimuzej.si"
+                        >http://www.goriskimuzej.si</ref>.</bibl>
+                    <bibl>Gosar, Anton in Miha Koderman in Mariana Rodela, ur., <hi rend="italic"
+                            >Temačni turizem. Prva svetovna vojna – stanje in razvojne možnosti
+                            tudistične ponudbe. / Dark tourism. Post-ww1 – destinations of human
+                            tragedies and opportunities for tourism development</hi>. Zbornik
+                        povzetkov in ekskurzijski vodnik. Portorož, Koper: Univerza na Primorskem,
+                        Fakulteta za turistične študije – Turistica, 2014. Pridobljeno 28. 9. 2015.
+                            <ref
+                            target="http://www.turistica.si/temacni/wp-content/uploads/2014/10/temacni-povzetki.pdf"
+                            >http://www.turistica.si/temacni/wp-content/uploads/2014/10/temacni-povzetki.pdf</ref>.</bibl>
+                    <bibl>Grandeguerra.Dolomiti.Org. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.grandeguerra.dolomiti.org"
+                            >http://www.grandeguerra.dolomiti.org</ref>.</bibl>
+                    <bibl>H. MUSEO DELLA GUERRA PER LA PACE DIEGO DE HENRIQUEZ. Pridobljeno 28. 9.
+                        2015. <ref target="http://www.museodiegodehenriquez.it"
+                            >http://www.museodiegodehenriquez.it</ref>.</bibl>
+                    <bibl>I LUOGHI DELLA GRANDE GUERRA NEL FRIULI COLLINARE. RAGOGNA, FORGARIA NEL
+                        FRIULI E SAN DANIELE DEL FRIULI. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.grandeguerra-ragogna.it"
+                            >http://www.grandeguerra-ragogna.it</ref>.</bibl>
+                    <bibl>IN FLANDERS FIELDS MUSEUM. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.inflandersfields.be/en/discover"
+                            >http://www.inflandersfields.be/en/discover</ref>.</bibl>
+                    <bibl>KOBARIŠKI MUZEJ. Pridobljeno 28. 9. 2015.<ref
+                            target="http://www.kobariski-muzej.si"
+                            >http://www.kobariski-muzej.si</ref>.</bibl>
+                    <bibl>MÉMORIAL DE VERDUN. Réouverture en février 2016. Pridobljeno 28. 9. 2015.
+                            <ref target="http://www.memorial-de-verdun.fr"
+                            >http://www.memorial-de-verdun.fr</ref>.</bibl>
+                    <bibl>MMC RTV SLO. PRVI INTERAKTIVNI MULTIMEDIJSKI PORTAL. »Foto: Slavnostno
+                        odprtje Poti miru od Alp do Jadrana.« Pridobljeno 28. 9. 2015.<ref
+                            target="http://www.rtvslo.si/slovenija/foto-slavnostno-odprtje-poti-miru-od-alp-do-jadrana/361068"
+                            >http://www.rtvslo.si/slovenija/foto-slavnostno-odprtje-poti-miru-od-alp-do-jadrana/361068</ref>.</bibl>
+                    <bibl>Monfalcone. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.comune.monfalcone.go.it"
+                            >http://www.comune.monfalcone.go.it</ref>.</bibl>
+                    <bibl>Musée de la Première Guerre mondiale / 1914-1918. HISTORIAL DE LA GRANDE
+                        GUERRE. Péronne – Thiepval / Somme. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.historial.org">http://www.historial.org</ref>.</bibl>
+                    <bibl>Musée de la Première Guerre mondiale / 1914-1918. HISTORIAL DE LA GRANDE
+                        GUERRE. »CIRCUIT DU SOUVENIR.« Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.historial.org/Champs-de-bataille-de-la-Somme/Circuit-du-souvenir"
+                            >http://www.historial.org/Champs-de-bataille-de-la-Somme/Circuit-du-souvenir</ref>.</bibl>
+                    <bibl>MUSEO STORICO ITALIANO DELLA GUERRA. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.museodellaguerra.it"
+                            >http://www.museodellaguerra.it</ref>.</bibl>
+                    <bibl>NOVA GORICA. Nova doživetja. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.novagorica-turizem.com"
+                            >http://www.novagorica-turizem.com</ref>.</bibl>
+                    <bibl>POT MIRU. Pridobljeno 28. 9. 2015. <ref target="http://www.potmiru.si"
+                            >http://www.potmiru.si</ref>.</bibl>
+                    <bibl>POT MIRU. »Evidenca padlih.« Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.potmiru.si/slo/evidenca-padlih"
+                            >http://www.potmiru.si/slo/evidenca-padlih</ref>.</bibl>
+                    <bibl>POTI MIRU NA KRASU. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.potimirunakrasu.info"
+                            >http://www.potimirunakrasu.info</ref>.</bibl>
+                    <bibl>Pro Loco Fogliano – Redipuglia. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.prolocofoglianoredipuglia.it"
+                            >http://www.prolocofoglianoredipuglia.it</ref>.</bibl>
+                    <bibl>STELVIO-UMBRAIL 14/18. Mit uns in die Geschichte wandern. Pridobljeno 28.
+                        9. 2015. <ref target="http://www.stelvio-umbrail.ch"
+                            >http://www.stelvio-umbrail.ch</ref></bibl>
+                    <bibl>Štanjel. Pridobljeno 28. 9. 2015. <ref target="http://www.stanjel.eu"
+                            >http://www.stanjel.eu</ref>.</bibl>
+                    <bibl>THE GREAT WAR 1914-1918. »Thiepval Memorial to the Missing, Somme
+                        Battlefields, France.« Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.greatwar.co.uk/somme/memorial-thiepval.htm"
+                            >http://www.greatwar.co.uk/somme/memorial-thiepval.htm</ref>.</bibl>
+                    <bibl>Toerisme Ieper. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.toerisme-ieper.be"
+                        >http://www.toerisme-ieper.be</ref>.</bibl>
+                    <bibl>Tolminski muzej. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.tol-muzej.si">http://www.tol-muzej.si</ref>.</bibl>
+                    <bibl>Turistično informacijski center Kanal. Pridobljeno 28. 9. 2015. <ref
+                            target="http://www.tic-kanal.si">http://www.tic-kanal.si</ref>.</bibl>
+                    <bibl>ZVKDS. Zavod za varstvo kulturne dediščine Slovenije. Pridobljeno 28. 9.
+                        2015. <ref target="http://www.zvkds.si/sl"
+                        >http://www.zvkds.si/sl</ref>.</bibl>
+                    <bibl>Zborzbirk. »Kulturna dediščina v zbirkah med Alpami in Krasom. / L'eredità
+                        culturale nelle collezioni fra Alpi e Carso.« Pridobljeno 28. 9. 2015. <ref
+                            target="http://zborzbirk.zrc-sazu.si"
+                        >http://zborzbirk.zrc-sazu.si</ref>.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Literatura:</head>
+                    <bibl>Brait, Andrea. »Der Isonzoraum – Ein transnationaler Gedächtnisort für
+                        Österreicher, Italiener und Slowenen.« V: <hi rend="italic">Waffentreue: Die
+                            12. Isonzoschlacht 1917: Begleitband zur Ausstellung des
+                            Österreichischen Staatsarchiv, 23. Oktober 2007–1. Februar 2008</hi>,
+                        ur. Manfried Rauchensteiner, 115–30. Wien: Österreichischen Staatsarchiv,
+                        2007.</bibl>
+                    <bibl>Galić, Lovro in Branko Marušič. <hi rend="italic">Tolminsko mostišče
+                            I</hi>. Tolmin: Tolminski muzej, 2005.</bibl>
+                    <bibl>Galić, Lovro in Darja Pirih. <hi rend="italic">Od Krna do Rombona</hi>.
+                        Kobarid: Ustanova Fundacija Poti miru v Posočju, Tolminski muzej,
+                        2007.</bibl>
+                    <bibl>Halbwachs, Maurice. <hi rend="italic">Kolektivni spomin</hi>. Ljubljana:
+                        Studia humanitatis, 2001.</bibl>
+                    <bibl>Koren, Tadej. »Das Erbe der Isonzofront nach 100 Jahren – Weg des
+                        Friedens.« V: <hi rend="italic">Krieg und Tourismus im Spannungsfeld des
+                            Ersten Weltkrieges / Guerra e turismo nell'area di tensione della prima
+                            guerra mondiale</hi>, ur. Patrick Gasser, Andrea Leonardi in Gunda
+                        Barth-Scalmani, 445–66. Innsbruck, Wien, Bozen: Studien Verlag, 2014.</bibl>
+                    <bibl>Koren, Tadej. <hi rend="italic">Freilichtmuseendesersten Weltkrieges:
+                            Isonzofront, 1915–1917</hi>. Prev. Elke Arcet. Kobarid: Stiftung Wege
+                        des Friedens in Sočatal, 2009.</bibl>
+                    <bibl>Koren, Tadej. <hi rend="italic">Il Sentiero della pace: Guida lungo il
+                            fronte isontino nell’Alta valle dell’Isonzo</hi>. Prev. Miha Obit.
+                        Kobarid: Fondazione Le vie della Pace nell'Alto Isonzo, 2007.</bibl>
+                    <bibl>Koren, Tadej. <hi rend="italic">Il Sentiero della pace dalle Alpi
+                            all'Adriatico: Guida lungo il fronte isontino.</hi> Prev. Michele Obit.
+                        Kobarid: Ustanova Fundacija Poti miru v Posočju, 2015.</bibl>
+                    <bibl>Koren, Tadej. <hi rend="italic">Musei all’aperto della prima guerra
+                            mondiale, fronte isontino, 1915–1917</hi>. Prev. Miha Obit.
+                        Kobarid: Ente Fondazione Le vie della pace nell'Alto Isonzo, 2009.</bibl>
+                    <bibl>Koren, Tadej. <hi rend="italic">Muzeji na prostem prve svetovne vojne:
+                            Soška fronta, 1915–1917</hi>. Kobarid: Ustanova Fundacija Poti miru v
+                        Posočju, 2009.</bibl>
+                    <bibl>Koren, Tadej. »Pot po dediščini soške fronte.« V: <hi rend="italic"
+                            >Finančni mehanizem EGP in Norveški finančni mehanizem za obdobje
+                            2004–2009 v Sloveniji</hi>, 74–75. Ljubljana: Služba Vlade Republike
+                        Slovenije za lokalno samoupravo in regionalno politiko, 2011.</bibl>
+                    <bibl>Koren, Tadej. <hi rend="italic">Pot miru: Vodnik po soški fronti v
+                            Zgornjem Posočju</hi>. Kobarid: Ustanova Fundacija Poti miru v Posočju,
+                        2007.</bibl>
+                    <bibl>Koren, Tadej. <hi rend="italic">Pot miru od Alp do Jadrana: Vodnik po
+                            soški fronti</hi>. Kobarid: Ustanova Fundacija Poti miru v Posočju,
+                        2015.</bibl>
+                    <bibl>Koren, Tadej. <hi rend="italic">The First World War Outdoor Museums: The
+                            Isonzo Front, 1915–1917</hi>. Prev. Branka Klemenc. Kobarid: The Walks
+                        of Peace in the Soča Region Foundation, 2009.</bibl>
+                    <bibl>Koren, Tadej. <hi rend="italic">The Walk of Peace: A Guide along the
+                            Isonzo Front in the Upper Soča Region</hi>. Prev. Branka Klemenc.
+                        Kobarid: The Walks of Peace in the Soča Region Foundation, 2008.</bibl>
+                    <bibl>Koren, Tadej. <hi rend="italic">The Walk of Peace from the Alps to the
+                            Adriatic: A guide along the Isonzo Front.</hi> Prev. Branka Klemenc.
+                        Kobarid: Ustanova Fundacija Poti miru v Posočju, 2015.</bibl>
+                    <bibl>Koren, Tadej. <hi rend="italic">Weg des Friedens: Führer der Isonzofront
+                            im oberen Sočatal</hi>. Prev. Elke Arcet. Kobarid: Stiftung Wege des
+                        Friedens im Sočatal, 2007.</bibl>
+                    <bibl>Koren, Tadej. »Zgodovinski spomin na soško fronto – Pot miru od Rombona do
+                        Mengor.« Magistrsko delo, Filozofska fakulteta Univerze v Ljubljani,
+                        2012.</bibl>
+                    <bibl>Koren, Tadej in Petra Testen. »Spomin, prostor in ostaline soške fronte:
+                        primer Poti miru.« V: <hi rend="italic">Velika vojna in mali ljudje</hi>,
+                        ur. Igor Grdina, 67–78. Šentjur: Knjižnica; Ljubljana: Inštitut za
+                        civilizacijo in kulturo – ICK, 2014.</bibl>
+                    <bibl>Koren, Tadej in Petra Testen. »Vospominanie o Pervoj mirovoj vojne: Rol'
+                        prostranstva i nasledija Sočanskogo fronta dlja zitelej Posočja.« V: <hi
+                            rend="italic">Slovenica 3, Pervaja mirovaja vojna v politike i kul'ture
+                            Russkih i Slovencev: k stoletiju načala pervoj mirovoj vojny</hi>, ur.
+                        Konstantin V. Nikiforov, 252–75. Moskva: Institut slavjanovedenija
+                        Rossijskoj akademii nauk, 2014.</bibl>
+                    <bibl>Marušič, Branko. <hi rend="italic">Pregled politične zgodovine Slovencev
+                            na Goriškem: 1848–1899</hi>. Nova Gorica: Goriški muzej, 2005.</bibl>
+                    <bibl><hi rend="italic">Pot miru od Alp do Jadrana: Soška fronta 1915–1917.</hi>
+                        Kobarid: Ustanova Fundacija Poti miru v Posočju, 2012 (zloženka,
+                        zemljevid).</bibl>
+                    <bibl>Svoljšak, Petra, Darja Pirih, Damjana Fortunat Černilogar in Lovro Galić.
+                            <hi rend="italic">Tolminsko mostišče II</hi>. Tolmin: Tolminski muzej,
+                        2005.</bibl>
+                    <bibl>Winter, Jay in Emmanuel Sivan. »Setting the framework.« V: <hi
+                            rend="italic">War and Remembrance in the Twentieth Century</hi>, ur. Jay
+                        Winter in Emmanuel Sivan, 6–39. Cambridge, New York, Melbourne, Madrid, Cape
+                        Town, Singapore, São Paulo: Cambridge University Press, 2005.</bibl>
+                </listBibl>
+
+            </div>
+            <div type="summary" xml:lang="eng">
+                <head type="main">OPEN‑AIR CLASSROOM: THE WALK OF PEACE EXAMPLE</head>
+                <head>SUMMARY</head>
+                <docAuthor>Petra Testen in Tadej Koren</docAuthor>
+                <p><hi rend="italic">The Walk of Peace </hi>from the Alps to the Adriatic is a
+                    project created under the auspices of the "Walk of Peace in the Soča Region
+                    Foundation", located in Kobarid. It is a trail following the remnants of the
+                    Isonzo Front, which is why it can provide very concrete foundations for the
+                    historical facts that the pupils learn about, at the theoretical level, during
+                    the pedagogical process in schools. In this manner the trail functions as a
+                    (picturesque) open‑air classroom, while focusing on the important questions of
+                    remembrance, value of peace and harmony, and thus making an important
+                    contribution to the pedagogical process. After all, the main task of the Kobarid
+                    Foundation – the main caretaker of the whole <hi rend="italic">Walk of
+                        Peace</hi> from the Alps to the Adriatic trail – is to protect the on‑site
+                    heritage of the Isonzo Front and present it, also conceptually, to as many
+                    people as possible.</p>
+                <p>The article attempts to provide answers to the following questions: What is the
+                        <hi rend="italic">Walk of Peace</hi> from the Alps to the Adriatic and why
+                    is this project suitable as an open‑air classroom? What is it that makes it
+                    special and interesting? Which elements of this project have didactic potential?
+                    What are the origins and messages of this idea? Why call it the <hi
+                        rend="italic">Walk of Peace</hi>? What is an area of remembrance? The
+                    answers to these questions create a story containing the narratives of the
+                    locations by the river Soča, lives of the inhabitants of this basin of the
+                    emerald‑green river, and the role and value of memories and remembrance. The
+                    story represents the ties between the past, present, and future. This is the
+                    common "space" for all of us: with our understanding of the past we should
+                    communicate the values and knowledge to the future generations, thus
+                    contributing to a brighter and better‑understood future. This is the added value
+                    of the <hi rend="italic">Walk of Peace</hi> from the Alps to the Adriatic and
+                    its invaluable didactic potential. The article describes how the <hi
+                        rend="italic">Walk of Peace</hi> project has been realised over the years
+                    and how it provides numerous possibilities to its visitors: from sightseeing to
+                    study, research and didactic activities.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

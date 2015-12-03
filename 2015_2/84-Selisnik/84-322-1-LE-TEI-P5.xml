@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Skrb v službi vojne: bolniške strežnice na Kranjskem</title>
+                <author>
+                    <name>
+                        <forename>Irena</forename>
+                        <surname>Selišnik</surname>
+                    </name>
+                    <roleName>dr.</roleName>
+                    <roleName>docentka</roleName>
+                    <affiliation>Filozofska fakulteta, Univerza v Ljubljani</affiliation>
+                    <address>
+                        <addrLine>Aškerčeva 2</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>Selisnik2@siol.net</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2015-10-17</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/84</pubPlace>
+                <date>2015</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">55</biblScope>
+                <biblScope unit="issue">2</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>nurses</term>
+                    <term>care attendants</term>
+                    <term>World War I</term>
+                    <term>women</term>
+                    <term>profession</term>
+                    <term>morality</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>bolniške sestre</term>
+                    <term>strežnice</term>
+                    <term>prva svetovna vojna</term>
+                    <term>ženske</term>
+                    <term>poklic</term>
+                    <term>morala</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2015-10-17</date>
+                    <name>Andrej Pančur</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="sl">
+        <front>
+            <docAuthor>Irena Selišnik<note place="foot" xml:id="ftn1" n="*">dr., docentka,
+                    Filozofska fakulteta, Univerza v Ljubljani, Aškerčeva 2, SI-1000 Ljubljana, <ref
+                        target="mailto:Selisnik2@siol.net"
+                >Selisnik2@siol.net</ref></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="UDC">UDK: 355.088:614.88-051(497.4)"1914/1918"</idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">Že pred začetkom prve svetovne vojne je v Avstriji tekla
+                        razprava, ali bi bilo primerno pri oskrbi ranjencev vključiti bolniške
+                        sestre (v primeru večjega vojaškega obračuna, hujših naravnih katastrof ali
+                        epidemij), po izbruhu vojne pa so avstrijske oblasti spodbudile
+                        profesionalizacijo poklica medicinske strežnice oziroma medicinske sestre. Z
+                        zakonodajo so določile posebne pogoje za šolanje ter odprle prve šole in
+                        strežniške tečaje v lokalnih bolnicah. Pri tem ni bila Kranjska nobena
+                        izjema. Rdeči križ je organiziral tečaje za strežnice, katerim so po
+                        zaposlitvi obljubili plačo, pokojnino in možnost dopusta. Avstrijska
+                        propaganda je »vojaške sestre« upodabljala kot junakinje in vsaj del
+                        javnosti jih je dojemal kot poosebitev materinske skrbi in ljubezni, ki jih
+                        je postavljala ob bok vojakom − herojem. Toda »vojne sestre« so
+                        predstavljale tudi moderno žensko, ki se je umaknila nadzoru družbe in odšla
+                        nevarnosti na bojišču naproti. V javnosti pa so se pojavljali dvomi v
+                        njihovo moralnost, saj naj bi imele na fronti neposredne stike z vojaki in
+                        bi bile zlasti blizu zdravnikov. S svojo prisotnostjo so posegle v
+                        dihotomijo javno/fronta − zasebno/zaledje. V podobi bolniške sestre se tako
+                        najbolje razkrijejo nelagodna razmerja med razumevanjem vojne in žensk ter
+                        hitro spreminjajoče se vrednotne norme v času vojne. </hi></p>
+                <p><hi rend="italic">Ključne besede: bolniške sestre, strežnice, prva svetovna
+                        vojna, ženske, poklic, morala</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head type="main">HEALTH CARE IN THE SERVICE OF WAR: WAR NURSES IN
+                    CARNIOLA</head>
+                <p><hi rend="italic">Even before World War I an ongoing discussion took place in
+                        Austria whether medical nurses should be mobilised to take care for wounded
+                        soldiers in case of extensive military conflict, natural disasters or
+                        epidemics. After the outbreak of the Great War the Austrian authorities
+                        encouraged the professionalisation of nursing, and especially women were
+                        invited to join. Special conditions for schooling were enacted and the first
+                        courses were opened at local hospitals. In the Austrian Monarchy, Carniola
+                        was no exception. The Red Cross organised special courses for nurses with
+                        the promise of salary, retirement benefits and possibility of vacation.
+                        Austrian propaganda portrayed war nurses as heroines, and at least part of
+                        the public perceived them as a personification of motherly care and love
+                        which could be compared with the sacrifices of the soldiers. However, war
+                        nurses also represented modern women who successfully avoided social control
+                        and headed towards imminent danger in the battlefield. In the public doubts
+                        about their morality emerged, as nurses had direct contact with soldiers and
+                        were especially close to doctors. With their presence they invaded the
+                        dichotomy between public/battlefront-private/home front. The image of war
+                        nurses clearly reveals the awkward relationships between the attitudes to
+                        war and women as well as the rapidly changing values in times of war.
+                    </hi></p>
+                <p><hi rend="italic">Keywords: nurses, care attendants, World War I, women,
+                        profession, morality</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>Uvod</head>
+                <p>Na Slovenskem dojemanje prve svetovne vojne zaznamujejo spomini vojakov iz bojne
+                    črte ali njihove izkušnje v ujetništvu. Krutost vojne naj bi bila povsem
+                    razumljena in izkušena šele v neposrednem spopadu, ko sta smrt ali poškodba
+                    postali v mislih stalni spremljevalki med predahi bitk in realno dejstvo med
+                    njimi. Toda s posledicami bojne vihre še zdaleč niso bili soočeni le vojaki.
+                    Sredi strahotnosti vojne so se znašle tudi bolniške sestre oziroma strežnice.
+                    Njihova izkušnja in zgodovinski spomin sta zlasti v tujini postala predmet
+                    številnih člankov, ki osvetljujejo njihovo vlogo v luči vojne propagande, morale
+                    in profesionalizacije poklica medicinske sestre.<note place="foot" xml:id="ftn2"
+                        n="1">Christa Hämmerle, »'Mentally broken, physically a wreck…': Violence in
+                        War Accounts of Nurses in Austro-Hungarian Service,« v: <hi rend="italic"
+                            >Gender and the First World War</hi>, ur. Christa Hämmerle, Oswald
+                        Überegger in Birgitta Bader-Zaar (Basingstoke: Palgrave Macmillan, 2014).
+                        Margaret H. Darow, »French Volunteer Nursing and the Myth of War Experiance
+                        in World War I,« <hi rend="italic">American Historical Review</hi> 101
+                        (1996): 80−106. Alon Rachamimov, »"Female Generals" and "Siberian Angels":
+                        Aristocratic Nurses and the Austro-Hungarian POW Relief,« v: <hi
+                            rend="italic">Gender and War in Twentieth-Century Eastern Europe</hi>,
+                        ur. Nancy M. Wingfield in Maria Bucur (Bloomington: Indiana University
+                        Press, 2006), 23−46.</note> O njihovi izkušnji pričajo poleg literature tudi
+                    redki ohranjeni spomini, tudi takšni, ki opisujejo dogajanje na Soški fronti,
+                    vendar žal med njimi ni spominov Slovenk (oziroma doslej niso bili
+                        odkriti).<note place="foot" xml:id="ftn3" n="2">Marianne Jarka, <hi
+                            rend="italic">Erinnerungen 1889−1934</hi> (tipkopis). Maria Pöll
+                        Naepflin, <hi rend="italic">Fortgerungen, Durchgedrungen: Ein erschütterndes
+                            Lebensbild einer Krankenschwester aus der Zeit des grossen Krieges, der
+                            Revolution und der Arbeitslosigkeit</hi> (Constance, 1933). R. M.
+                        Konrad, <hi rend="italic">Scwestern als Menschen: Aus den Aufzeichnungen
+                            einer Armeeschwester</hi> (Innbruck, 1922). Eveline Hrouda, <hi
+                            rend="italic">Barmherzigkeit: Als freiwillige Malteserschwester im
+                            Weltkrieg</hi> (Graz: Leykam, 1935). Dnevnik Virginie Marinaz, hranil
+                        naj bi ga Goriški arhiv v Italiji (za podatek se zahvaljujem Ani Cergol
+                        Paradiž).</note></p>
+                <p>Toda tudi prebivalke Kranjske in drugih slovenskih dežel niso bile izjeme,
+                    priključile so se množici anonimnih žensk, zaznamovanih z rdečimi križi. Njihovo
+                    izkušnjo bom predstavila v pričujočem članku in jo umestila v kontekst podobnih
+                    raziskovanj po Evropi. Poleg vseh družbenih procesov, ki so zaznamovali nastanek
+                    poklica medicinske sestre in strežnice (v času prve svetovne vojne jih je
+                    najbolje označevala beseda »vojne sestre«), in bodo v članku omenjeni, pa bom v
+                    njem obravnavala tudi nelagodje tedanje družbe, ki je zadevalo spreminjajočo se
+                    vlogo žensk (to se je najbolj odrazilo prav pri vojnih sestrah). V senci vojne
+                    propagande je splošna javnost obsojala moderno in neodvisno žensko, prav takšno
+                    žensko, kot jo je ta poklic predstavljal. Poklic vojne sestre je pomenil pravo
+                    nasprotje vlog, ki so bile pripisane ženskam v predvojni družbi. V času vojne se
+                    je namreč hitro spreminjalo dojemanje žensk tudi zaradi povsem pragmatičnih
+                    potreb vojske. Avstrijska oblast je denimo sprva nameravala bolniške sestre
+                    zadržati stran od bojnih linij, naposled pa se je zaradi potreb vojaškega stroja
+                    odločila drugače. Tako so bile tudi ženske izpostavljene vojnim grozotam in
+                    travmam.</p>
+            </div>
+            <div>
+                <head>Pojav vojnih sester med začudenjem in potrebo</head>
+                <p>V začetku 19. stoletja je bila skrb za bolnike slabo plačano delo, ki so ga
+                    opravljali moški in ženske nižjega stanu. Moški so skrbeli za bolnike, ženske za
+                    bolnice. Šele v nadaljevanju stoletja je skrb postala poslanstvo žensk in tako
+                    rekoč izključno žensko delo.<note place="foot" xml:id="ftn4" n="3">Darrow,
+                        »French Volunteer Nursing,« 273. Theodore Zeldin, <hi rend="italic">An
+                            Intimate History of Humanity</hi> (London: Vintage Books, 1998),
+                        246.</note> Na Dunaju so se tako prve zasebne šole, ki so izobraževale za
+                    poklic medicinske sestre, pojavile že leta 1882.<note place="foot" xml:id="ftn5"
+                        n="4">Franziska Salm-Reifferscheidt, »Frauen in der Kriegskrankenpflege im
+                        Ersten Weltkrieg am Beispiel der Rotkreuzschwester Marianne Jarka«
+                        (diplomsko delo, Universität Wien, 2010), 17. </note> Na Kranjskem so bile
+                    prve tovrstne iniciative tik pred véliko vojno v obliki tečajev za »kmetiške
+                    bolniške strežnice«, prav iz njih pa so se razvili tečaji za vojne sestre.
+                    Predvojni tečaji so nastali, ker<hi rend="italic"> »v tej splošni potrebi ne
+                        morejo pomagati bolnice, katerih imamo doslej primerno zelo malo, in ki
+                        sprejemajo le omejeno število bolnikov, niti ne morejo pomagati usmiljene
+                        sestre ali druge redovnice navzlic svoji požrtvovalnosti, ker je tudi njih
+                        delovanje omejeno na nekatere kraje in sloje, temveč pomagati more le naše
+                        požrtvovalno ženstvo, ako se mu nudi priložnost, da se s strokovnim poukom
+                        in pod veščim vodstvom usposobi za ljudomilo delo bolniške
+                        postrežbe.«</hi><note place="foot" xml:id="ftn6" n="5">»Poročilo o dekanskem
+                        shodu leta 1908,« <hi rend="italic">Škofijski list, </hi>1908, št. 5,
+                        82.</note> Od leta 1908 so izvedli kar nekaj tečajev za bolniške strežnice
+                    na podeželju (oziroma kmetiške bolniške strežnice), toda vojna je potrebo po
+                    strežniškem osebju znatno povečala.<note place="foot" xml:id="ftn7" n="6">Pred
+                        vojno je bil organiziran po en tečaj na leto, že leta 1914 so bili
+                        organizirani kar štirje. Več: Branko Šuštar, »Od strežniških tečajev do
+                        strežniške in bolničarske šole 1908−1945,« v: <hi rend="italic">Šola za
+                            sestre: Zdravstveno šolstvo na Slovenskem (1753−1992),</hi> ur. Branko
+                        Šuštar (Ljubljana: Slovenski šolski muzej, 1992), 35−41.</note></p>
+                <p>Z začetkom vojne se je proces institucionalizacije poklica medicinske sestre
+                    močno pospešil. Ministrstvo za notranje zadeve je že 25. junija 1914 izdalo
+                    ukaz, ki je postavil pravila za bolniško strežbo in preprečeval, da bi se z njo
+                    ukvarjal vsakdo. Ta dekret je najbrž temeljil tudi na izkušnji balkanskih vojn,
+                    v katerih je bilo zelo visoko število vojnih žrtev. Objavljen pravilnik je
+                    prepoznal veljavo dobro usposobljene medicinske sestre tudi na
+                    institucionalni/državni ravni, saj je država poskrbela za stalno finančno
+                    podporo tečajem in šolam.<note place="foot" xml:id="ftn8" n="7"
+                        >Salm-Reifferscheidt, »Frauen in der Kriegskrankenpflege«.</note> V njem so
+                    bila postavljena pravila za vzpostavitev šol za strežnice in tu se je že
+                    nedvoumno govorilo o učenkah ženskega spola. Te so zdaj lahko bile stare 18 let,
+                    neomadeževane, kar so dokazovale s posebnim potrdilom, izdanim na pristojnem
+                    okrajnem glavarstvu,<note place="foot" xml:id="ftn9" n="8">Podobno potrdilo so
+                        potrebovale tudi druge ženske, ki so se zaposlile kot vojaška pomožna sila
+                        (v administraciji, kot tehnična pomoč, perice, kuharice, laborantke). Glej
+                        tudi: »Ženske pomožne moči pri armadi,« <hi rend="italic">Štajerc</hi>, 4.
+                        11. 1917, 6−7.</note> s končano meščansko šolo in brez otrok, torej samske.
+                    V istem pravilniku so bili sicer omenjeni tudi moški strežniki, toda za njih so
+                    bili pogoji nekoliko drugačni, saj so ti lahko imeli družino.<note place="foot"
+                        xml:id="ftn10" n="9"><hi rend="italic">Državni zakonik za kraljevine in
+                            dežele, zastopane v državnem zboru</hi>, 2. 7. 1914, 142.</note></p>
+                <p>V 19. stoletju je povsod po Evropi potekal proces prestrukturiranja zdravstvenega
+                    sistema, ki ga je spremljala feminizacija skrbstvene medicinske nege, razvoj pa
+                    je vključeval tudi pomeščanjenje določenih poklicev. Vse te značilnosti lahko
+                    prepoznamo tudi v zgoraj omenjenem dekretu. Poleg velikega poudarka na učenkah
+                    lahko v njem opazimo dvig nivoja zahtevane izobrazbe. Na tečajih pred vojno so
+                    bila pričakovanja za učenke nižja, zahtevalo se je, da znajo tekoče brati in
+                    pisati in da imajo opravljeno ljudsko šolo.<note place="foot" xml:id="ftn11"
+                        n="10">»Za strežniško šolo v kranjski deželni bolnišnici,« <hi rend="italic"
+                            >Slovenec</hi>, 6. 2. 1914, 2.</note> Med prvimi obiskovalkami tečaja je
+                    bilo precej deklet s kmetov.<note place="foot" xml:id="ftn12" n="11">»II. Tečaj
+                        bolniških strežnic,« <hi rend="italic">Slovenska gospodinja</hi>, 16. 1.
+                        1913, 5.</note> Na tečajih leta 1914 je bil pogoj opravljena meščanska šola,
+                    več učenk je prihajalo iz Ljubljane, med njimi je naraščal delež učiteljic.<note
+                        place="foot" xml:id="ftn13" n="12">Šuštar, »Od strežniških tečajev,«
+                        36.</note> Bolniške strežnice so bile po opravljenem tečaju zavezane trem
+                    letom službovanja, tudi v vojni ali v epidemijah. Vsem, ki so se odločile za
+                    odhod na bojišče, je pripadala plača, brezplačna hrana in stanovanje ter dopust,
+                    imele naj bi tudi pokojnino.<note place="foot" xml:id="ftn14" n="13">»Pozor
+                        babice!,« <hi rend="italic">Gorenjec</hi>, 27. 3. 1914, 3.</note>
+                    Diplomantke tečaja so postale pomožne strežnice, imenovali pa so jih tudi svetne
+                    strežnice, ker niso pripadale redovniškemu stanu. Vendar pa je vsaj na začetku
+                    vojne njihova obleka še precej spominjala na redovniško, saj so prav redovnice
+                    predstavljale model, po katerem naj bi se zgledovale. Tudi ljubljanski škof
+                    Anton Jeglič je v svojem dnevniku ugotavljal, da so »<hi rend="italic">v tej
+                        obleki bolj varne pri bolnikih in imajo več veljave pri otrocih</hi>«.<note
+                        place="foot" xml:id="ftn15" n="14">Anton Bonaventura Jeglič, <hi
+                            rend="italic">Dnevnik </hi>(tipkopis), 878.</note></p>
+                <p>Vprašanje, koliko žensk naj bi bilo med medicinskem osebjem Avstro-Ogrske, in
+                    koliko posvetnih ter svetnih medicinskih sester je delovalo v medicinski službi
+                    v času vojne, še vedno ostaja brez natančnega odgovora, kljub temu da ti podatki
+                    obstajajo za preostale evropske države. V Nemčiji jih je bilo približno 92.000,
+                    v Franciji 63.000, v Veliki Britaniji 80.000,<note place="foot" xml:id="ftn16"
+                        n="15">Hämmerle, »<hi rend="st1">Mentally broken,« </hi>91.</note> vemo pa,
+                    da je leta 1916 imelo društvo Rdečega križa na Kranjskem 238 izšolanih posvetnih
+                    sester, tečaji za bolniške strežnice pa so bili organizirani ne le v Ljubljani,
+                    Novem mestu in Krškem, ampak tudi v vseh večjih krajih.<note place="foot"
+                        xml:id="ftn17" n="16">»Deželno in gospejno društvo Rdečega križa za
+                        Kranjsko,« <hi rend="italic">Slovenski narod</hi>, 7. 4. 1917, 9. </note> V
+                    monarhiji naj bi bilo po nekaterih virih angažiranih vsaj 2.500 medicinskih
+                    sester, večina zgodovinarjev pa ocenjuje, da naj bi se ta številka približala
+                    50.000 bolnišničnim pomočnicam.<note place="foot" xml:id="ftn18" n="17"
+                        >Franziska Salm-Reifferscheidt, »<hi rend="italic">Frauen in der
+                            Kriegskrankenpflege</hi>,« 94. Skromna številka 2.500 medicinskih sester
+                        je omenjena v pismih, ki so bila poslana vodji sanitetnega osebja v vojaškem
+                        poveljstvu.</note> Christa Ehrmann-Hämmerle, ena največjih strokovnjakinj za
+                    prvo svetovno vojno, sklepa, da naj bi bilo v vojaški službi v letu 1917 med
+                    33.000 in 50.000 žensk.<note place="foot" xml:id="ftn19" n="18">Christa
+                        Hämmerle, <hi rend="italic">Heimat/Front. Geschlechtergeschichte/n des
+                            Ersten Weltkrieges in Österreich-Ungarn</hi> (Wien, Köln, Weimar: Böhlau
+                        Verlag, 2014), 21.</note> Poročila ministra za vojaške zadeve za leto 1917
+                    pa je navajalo 7.000 sester in 15.000 strežnic.<note place="foot" xml:id="ftn20"
+                        n="19">»Državni zbor,« <hi rend="italic">Slovenski gospodar</hi>, 13. 12.
+                        1917, 3.</note></p>
+                <p>Pojav bolniške sestre, še zlasti v primeru, če je bila ta oblečena v uniformo
+                    ženskih pomožnih vojaških sil, je že takoj ob začetku vojne sprožil nemalo
+                    začudenja tudi med ljubljanskimi meščani. Fran Milčinski je v svojem obsežnem
+                    dnevniku takoj omenil tovrstno kurioziteto, saj da je »<hi rend="italic">zjutraj
+                        videl v Dolenčevi prodajalni dve ženski v vojaški uniformi</hi>.«<note
+                        place="foot" xml:id="ftn21" n="20">Fran Milčinski, <hi rend="italic">Dnevnik
+                            1914−1920</hi> (Ljubljana: Slovenska Matica, 2000), 111.</note> Pojav
+                    medicinskih sester je bil nekaj izrednega, »preveč modernega«, in od tu je bil
+                    le še korak do povezave s sumom, ki se je dotikal tudi vprašljive morale.
+                    Milčinski je v nadaljevanju vojnega dnevnika omenil »<hi rend="italic">dve
+                        ženski«</hi>(vojni sestri), ki da<hi rend="italic"> »sta pri dedu v
+                        stanovanju, štabni zdravnik jima je prepustil sobo. Tičici. Imata hlače pod
+                        krilom</hi>.«<note place="foot" xml:id="ftn22" n="21">Ibid., 111-112.</note></p>
+            </div>
+            <div>
+                <head>Diskurz in podoba</head>
+                <p>Vojaška propaganda je sicer slavila bolniške sestre, saj so opravljale poklic, ki
+                    se je družbi zdel še kako prikladen za nežno in požrtvovalno naravo ženske. V
+                    slovenskih časopisih najdemo številne zapise, da »<hi rend="italic">strežniško
+                        poslovanje zahteva potrebo izobrazbe in plemenito srce in v to ni nikdo tako
+                        zelo poklican, kakor ženski spol</hi>.«<note place="foot" xml:id="ftn23"
+                        n="22">»Strežniška šola v deželni bolnišnici,« <hi rend="italic"
+                            >Slovenec</hi>, 7. 1. 1914, 2.</note> Bolniške sestre je patriotski
+                    diskurz simbolno postavil ob bok moškemu – vojaku, saj naj bi tudi ženske bile
+                    pripravljene na žrtvovanje v vojni. Tako so bile poklicane, <hi rend="italic"
+                        >»…da pomaga</hi>[jo] <hi rend="italic">ranjencem, da nastopi</hi>[jo] <hi
+                        rend="italic">službo samaritanke. Ves dan in vso noč je treba biti včasih na
+                        nogah in vedno mora biti nasmeh ljubezni, da ne čuti ranjenec v prijazni
+                        okolici tako svojih bolečin. Žene, vajene le največjih udobnosti, morajo
+                        pogrešati nakrat skoraj vse, žene, vajene le sladkega brezdelja, morajo
+                        delati nakrat noč in dan, žene vajene le prijetnosti morajo opravljati
+                        nakrat težke in neprijetne posle. In vendar ni nikjer nezadovoljnosti, kljub
+                        vsemu se ji smehlja obraz. Tudi ona je junakinja, tudi ona je vredna družica
+                        junakov na meji</hi>.«<note place="foot" xml:id="ftn24" n="23">»Junaki,« <hi
+                            rend="italic">Soča</hi>, 28. 8. 1914, 9.</note> Bolniške sestre so v
+                    vojni propagandi poosebljale samaritansko ljubezen, bile so dobri angeli v času
+                    trpljenja. Hkrati pa naj bi opravljale vlogo mater, samo da so otroke
+                    nadomestili nemočni ranjenci, ki so jim bili prepuščeni v oskrbo.<hi
+                        rend="italic"> »Ranjenci se ne morejo niti ganiti; ravnati morajo ž njimi
+                        kakor z majhnimi otroci. Za tako delo treba krepkega zdravja, velike telesne
+                        in duševne sile ter samopožrtvovalnosti. Še domačemu bolniku je težko
+                        streči, kako pa šele tujemu. Ne poznaš njegovega značaja, ne njegovih
+                        želja</hi>.«<note place="foot" xml:id="ftn25" n="24">»Ženske in vojna,« <hi
+                            rend="italic">Tedenske slike,</hi> 28. 10. 1914, 2.</note></p>
+                <p>Vendar pa so se kmalu začeli pojavljati dvomi in kritike, povezani z vstopom
+                    žensk v ta poklic. Dunajski psiholog Wilhelm Stekel je v medicinskih sestrah
+                    prepoznal narcistični tip človeka, ki da so se zaljubljene vase odločile za
+                    avanturizem. Izkušnje vojne in druženje z ranjenci, oficirji ter zdravniki naj
+                    bi ženske močno spremenili. Milčinski je to spremembo opazil tudi pri eni izmed
+                    svojih sorodnic, ki naj bi se po odhodu na fronto vrnila močno spremenjena. »<hi
+                        rend="italic">Zvečer prišla Hermina na obisk, vojna sestra. 28 let stara, pa
+                        izgleda 40. Močna, degažirana. Neženantnemu govorjenju se pozna občevanje z
+                        zdravniki. Dovtipe pripoveduje, da bi bilo treba pri njih ven
+                        iti</hi>.«<note place="foot" xml:id="ftn26" n="25">Milčinski, <hi
+                            rend="italic">Dnevnik,</hi> 139.</note> Kako zelo sumljive so se
+                    prebivalstvu zdele vojne sestre, potrjuje tudi njena nadaljnja izpoved,<note
+                        place="foot" xml:id="ftn27" n="26">Po vsej verjetnosti gre za Hermino
+                        Tischler iz Velenja, hčerko sestrične F. Milčinskega.</note> kjer je
+                    Milčinskemu zaupala, kako je bila sprejeta v vojaški utrdbi v Puli (to je bila
+                    izkušnja, zaradi katere je kasneje ta poklic tudi zapustila). »Vojne sestre« so
+                    bile nastanjene v starem samostanu, pred tem pa so bile zaradi aprovizacijskih
+                    težav iz mesta izgnane prostitutke. Z njihovo nastavitvijo so se po mestu začeli
+                    širiti glasovi, češ da <hi rend="italic">»zdaj pridejo v uniformah
+                        nazaj«,</hi><note place="foot" xml:id="ftn28" n="27">Milčinski, <hi
+                            rend="italic">Dnevnik,</hi> 248.</note> oziroma pojavil se je <hi
+                        rend="italic">»naval mornarjev po ulici, ker so čuli, da je dospelo 'sveže
+                        blago'.«</hi><note place="foot" xml:id="ftn29" n="28">Ibid., 268.</note> V
+                    Puli naj bi bile brez resnega dela, morale so ribati tla, Hermina kot nadsestra
+                    naj bi bila postavljena pod »komando nune«, glede prehrane naj bi jim podčastnik
+                    obljubil, da bodo zjutraj <hi rend="italic">»dobile črno kavo, opoldan fižol s
+                        polento ali polento s fižolom in zvečer črno kavo, in če boste z menoj zelo
+                        ljubeznive morda še kakšen zrezek.«</hi><note place="foot" xml:id="ftn30"
+                        n="29">Ibid., 248.</note></p>
+                <p>V marsikaterem zapisu izpod moške roke je ženska pomoč zdravstvenemu osebju
+                    prikazana tudi kot »nekoristna«. Tovrstna oznaka je verjetno povezana z začetkom
+                    vojne, ko se je angažiralo v Rdečem križu veliko število prostovoljk, ki jih je
+                    nato zamenjala plačana medicinska pomoč.<note place="foot" xml:id="ftn31" n="30"
+                        >Hämmerle, »Mentally broken,« 93.</note> Delo prostovoljke je v začetku
+                    vojne pogosto spremljalo veliko skepticizma, Evgen Lampe je denimo ugotavljal,
+                    da <hi rend="italic">»dame, ki pridejo k sprejemu ranjencev, so bolj na poti kot
+                        za pomoč</hi>.«<note place="foot" xml:id="ftn32" n="31">Evgen Lampe, <hi
+                            rend="italic">Dnevniški zapiski dr. Evgena Lampeta: (1898−1917)</hi>,
+                        ur. Matjaž Ambrožič (Ljubljana: Arhivsko društvo Slovenije, 2007),
+                        57.</note> V začetku vojne je bilo med prostovoljkami zlasti veliko plemkinj
+                    in bogatih meščank, ki naj bi v nekaterih primerih izgubile stik z realnostjo.
+                    (Eno izmed takih prigod opisuje pod oznako »resničen dogodek« tudi Leopold
+                    Lenard.) <hi rend="italic">»Dobiti je morala stanovanje, obstoječe iz dveh,
+                        lepih sob, za svojo postrežbo dva vojaka, avtomobil na razpolago, kadar je
+                        zahtevala in še mnogo drugega. Njeno delovanje je pa obstojalo v tem, da je
+                        bolnike 'krepčala.' V kuhinji je zapovedala narediti šato in napeči
+                        piškotov. S to robo je šla potem okrog bolnikov, pri njej dva vojaka, prvi
+                        je vlival bolniku z Žličko šato v usta, drugi je nosil košarico s piškoti.
+                        Grofica stopi k postelji, kjer je ležal na tifusu težko bolni Bošnjak ter ga
+                        nagovori: 'No, Kerl, kako gre?' Rekla je namreč vsakemu 'ti' in 'Kerl.'
+                        Bošnjak samo stoče in ne odvrne ničesar, prvič, ker je ni razumel, drugič,
+                        ker je vsled bolezni bil v nezavesti. 'Kako neumen je ta Kerl!' zakliče
+                        grofica ter pomigne vojaku, naj mu vlije z žličko v usta, šato, a sama pa
+                        vzame piškotek in ga položi na vzglavje. — Tako je obiskovala bolnike, kadar
+                        se ji je zazdelo, bolnišnica je imela od tega samo škodo, bolniki pa nobene
+                        koristi.«</hi><note place="foot" xml:id="ftn33" n="32">Leopold Lenard,
+                        »Sestra "Rdečega križa",« <hi rend="italic">Slovenski gospodar</hi>, 2. 10.
+                        1919; 25. 9. 1919.</note></p>
+                <p>Vendarle pa se je ženski prispevek k zdravstveni oskrbi v javnem diskurzu v
+                    glavnem minimaliziral z nadaljevanjem diskurza o moralno sumljivih vojnih
+                    sestrah. V spominih marsikaterega vojaka vojne sestre nastopajo kot popolno
+                    nasprotje dobrega angela, kot »padli angeli.« Mednje zagotovo sodi dogodek, ki
+                    ga je v svojem dnevniku opisal Albin Mlakar, <hi rend="italic">»pa to naj še bo,
+                        nekaj druzega je, kar me je tako jezilo, da bi bil najraje odšel in
+                        zaloputnil za seboj vrata. Prišli sta namreč dve 'sestri' od rdečega križa.
+                        Sestre – tudi drugače jim pravijo. In zabavali so se tam celo uro, mi smo pa
+                        stali tam kakor svetniki. Njih obnašanje jih je pokazalo v pravi luči. S
+                        takimi 'sestrami' ni vojakom nič pomagano</hi>.«<note place="foot"
+                        xml:id="ftn34" n="33">Albin Mlakar, <hi rend="italic">Dnevnik:
+                            1914−1918</hi> (Kobarid: Turistična agencija K. C. K., 1995), 99.</note>
+                    Vojake je v času bivanja v bolnišnicah razburjalo marsikaj, zlasti pa
+                    neodvisnost in občasna friviolnost medicinskih sester, tudi Januš Golec se je v
+                        <hi rend="italic">»onih mesecih v Miskolczu</hi> […] <hi rend="italic">jezil
+                        na Mažare in na žensko postrežbo v vojaških bolnicah. V početku vojne je
+                        bilo v tem oziru bolje, ker je bilo še dosti prostovoljnih sester Rdečega
+                        križa, za mojega premetavanja po bolniški postelji so bile že izginile
+                        prostovoljke, nadomestile so jih plačane. Svetlikali so se jim na pokrivalu,
+                        na prsih in roki blesteči rdeči križi, vendar v srcu jim je počival mesto
+                        križano ljubezni — kamen. Ženska je pač — ženska. Zagleda se v enega, temu
+                        bi postregla z vsem mogočem — drugemu pa ponudi samo najpotrebnejše in še to
+                        a neusmiljeno osornostjo. Mene ni marala nobena, a zato sem pa bil tudi
+                        revež na zabavi in želodcu</hi>.«<note place="foot" xml:id="ftn35" n="34"
+                        >Januš Golec, »Vojni spomini,« <hi rend="italic">Slovenski gospodar</hi>,
+                        28. 2. 1918, 1.</note></p>
+                <p>K njihovemu dvomljivemu slovesu je poleg spominov verjetno pripomoglo tudi
+                    leposlovje, medicinske sestre so namreč v različnih romanih, ki so izhajali v
+                    podlistkih tudi v slovenskem časopisju, nastopale kot glavne akterke
+                        romanc.<note place="foot" xml:id="ftn36" n="35"><p rend="footnote text"
+                            >Kotarski, »Usmiljenka,« <hi rend="italic">Jadranka</hi> 1, št. 12
+                            (1921), 5. </p><p rend="footnote text"><hi rend="italic">»Velimir
+                                Malnerič je stal s široko odprtimi očmi in gledal usmiljenko, ki je
+                                stala povešenih oči tam pri mizi, zardevajoča in tako ljubka. Ni
+                                verjel svojim očem. Zdelo se mu je, da vnovič gleda pred seboj
+                                prikazen in kakor takrat v polsnu, so šepetale njegove ustnic polne
+                                hrepenenja:</hi></p><p rend="footnote text"><hi rend="italic">—
+                                Ivanka!.... Ivanka!...</hi></p><p rend="footnote text"><hi
+                                rend="italic">Zdravnik pa je dejal: .</hi></p><p
+                            rend="footnote text"><hi rend="italic">— To je ona usmiljenka, gospod
+                                narednik, ki vas pospremi v Ljubljano. Upam, da se vam pod njenim
+                                varstvom in negovanjem ukrepi zdravje, kakor se vam je pod njenim
+                                požrtvovalnim trudom zacelila rana.</hi></p><p rend="footnote text"
+                                ><hi rend="italic">Zdaj se je šele narednik zganil. Stopil je naprej
+                                in vzkliknil s pol radostnim, pol plašnim glasom, kakor bi se še
+                                vedno bal, da bi ne bile sanje, kar vidi čuje:</hi></p><p
+                            rend="footnote text"><hi rend="italic">—- Ivanka....</hi></p><p
+                            rend="footnote text"><hi rend="italic">In ona se mu nasmehne tako
+                                prijazno in milo, da je izginil ves dvom kakor pena. Nato jo je že
+                                privijal v svoje naročje in jo poljubljal. Ni se mu branila. Zaprla
+                                je oči in sloneč na njegovih prsih, je drhtela sreče in
+                                šepetala:</hi></p><p rend="footnote text"><hi rend="italic">Imam te
+                                spet, Velimir...-. moj Velimir…«.</hi></p><p rend="footnote text">Glej tudi: »Ne sodi,« <hi
+                                rend="italic">Edinost</hi>, 24. 2. 1917. »Izgubljeni sin,« <hi
+                                rend="italic">Domoljub</hi>, 23. 5. 1918.</p></note> Moderna in
+                    neodvisna medicinska sestra, ki je bila daleč proč od nadzora družine, je
+                    utelešala sodobno žensko, ki ji romantično hotenje ni bilo tuje. Svoje želje je
+                    namreč za razliko od drugih junakinj uresničila v senci eksistencialne izkušnje
+                    vojne. V ljubezenskih fikcijah, ki so tedaj nastale, so bile tradicionalne norme
+                    potisnjene na stran v luči nove sekularne človeške narave. In čeprav se je v
+                    zgodnjem 19. stoletju ponovno okrepila vloga tradicije in morale v družbi tudi v
+                    ljubezenskem romanu, je prva svetovna vojna vse to spremenila. Vojna je
+                    pospešila percepcijo o enakopravnosti žensk in trend sprejemanja predporočne
+                        spolnosti.<note place="foot" xml:id="ftn37" n="36">William M. Reddy, »The
+                        Rule of Love: The History of Western Romantic Love in Comparative
+                        Perspective,« v: <hi rend="italic">New Dangerous Liaisons, Discourses on
+                            Europe and Love in the Twentieth Century</hi>, ur. Luisa Passerini,
+                        Liliana Ellena in Alexander C.T. Geppert (New York: Berghahn Books, 2010),
+                        46.</note> Platonska ljubezen se je v novi dobi udejanjila s kršitvijo
+                    moralnih norm. Vojne sestre pa bodo kot moralno sumljivi liki nastopale tudi v
+                    povojnih delih slovenskih pisateljev.<note place="foot" xml:id="ftn38" n="37"
+                        >Alojz Kraigher, <hi rend="italic">Na fronti sestre Žive</hi> (Ljubljana:
+                        Tiskovna zadruga, 1929).</note></p>
+                <p>Posvetne medicinske sestre po mnenju javnosti niso bile primerljive z
+                    redovnicami. Te so svoje delo opravljale kot poslanstvo in s predanostjo, ki naj
+                    bi je ne mogli srečati pri »posvetni sestri«. <hi rend="italic">»Zakaj so sestre
+                        usmiljenke tako priljubljene strežnice? Zato, ker se iz ljubezni do Boga
+                        popolnoma žrtvujejo svojemu poklicu. Prelepo jih je nedavno pohvalil na
+                        Dunaju neki ranjen bosenski mohamedanski vojak. […] Z enako ljubeznijo
+                        strežejo vsem bolnikom brez razlike vere in narodnosti. Ponoči bde in nikdar
+                        nobena ne zaspi. Imel sem mrzlico in večkrat mi je bilo treba ponoči
+                        premeniti obkladke. Sestra je vsekdar točno prišla; laška strežnica je pa
+                        vselej zaspala, kadar je sedela tu. Drugi vojaki so imeli nekoč slanino.
+                        Sestra je vedela, da jaz kot mohamedanec ne smem jesti slanine, pa mi je
+                        prinesla sirovega masla in sira</hi>.«<note place="foot" xml:id="ftn39"
+                        n="38">»Zakaj so sestre usmiljenke tako priljubljene strežnice?,« <hi
+                            rend="italic">Vertec</hi>, 1. 3. 1916, 47.</note> Prostovoljke in
+                    plačane strežnice ter medicinske sestre naj bi si torej dovoljevale, da v
+                    njihovo delo vstopajo čustva in predsodki, poleg ljubezenskih tudi npr.
+                    politična prepričanost in narodnost. V Ljubljani naj bi denimo Nemke ne hotele
+                    streči slovanskim vojakom, Slovenke pa naj bi posebej predano skrbele ravno
+                        zanje.<note place="foot" xml:id="ftn40" n="39">»<hi rend="italic">Dr.
+                            Triller se je pritoževal, da so njegovo ženo šikanirali, ko je v licej
+                            češkim ranjenjcem za priboljšek prinesla buhteljnov.«</hi> <hi rend="italic">Gospa
+                            Högler pa naj bi pri sprejemu na kolodvoru ranjencu, ki se ji je
+                            zahvalil, odgovorila: Windisch wird hier nicht verstehn!«</hi> Vendar pa so se z
+                        nadaljevanjem vojne polegli tudi slednji konflikti, gospa Högler je bila
+                        primorana zapustiti Rdeči križ, potem ko <hi rend="italic">»je nekoč letala
+                            zopet okoli ranjencev s cigaretami in izpraševala, kje so Nemci, je
+                            naletela na nekega Čeha. Ko ji je rekel, da je Čeh, mu ni hotela dati.
+                            Nato je pristopil nek častnik, ji s sabljo odrezal trak z rdečim križem
+                            z rokava in jo zapodil.«</hi> (Vir: Lampe, <hi rend="italic">Dnevniški
+                            zapiski</hi>, 66, 84).</note></p>
+            </div>
+            <div>
+                <head>Kršenje tabujev</head>
+                <p>Medicinska sestra oziroma strežnica naj bi po zgledu redovnic ostajala
+                    aseksualna, spolno nedolžna. Toda podobo sodobne ženske, skrite v »posvetni«
+                    medicinski sestri, je bilo težko dojeti enako kot redovniško − materinsko
+                    podobo. Sodobna ženska, ki se je osvobodila kontrole družbe, je bila neodvisna s
+                    plačano službo in v neposredni bližini vojne nevarnosti po lastni želji, bila je
+                    popolnoma drugačna od neplačane, pokorne in v usodo vdane redovnice. Moderna
+                    ženska je s seboj nosila svojo ženskost, njeni pacienti se ob njej niso več
+                    počutili kot otroci, pač pa kot moški. Medicinske sestre so zamajale tudi
+                    večstoletno ustaljeno dihotomijo med moškimi in ženskami, ki jo je poosebljal
+                    pasiven/aktiven status. Ženske so na bojišču namreč prevzele aktivno vlogo
+                    nasproti pasivni – moškemu/ranjencu. <note place="foot" xml:id="ftn41" n="40"
+                        >Francoise Thébaud, »The Great War and the Triumph of Sexual Divison,« v:
+                            <hi rend="italic">A History of Domen in the West. Volume V. Toward a
+                            Cultural Identity in the Twentieth Century,</hi> ur. Françoise Thébaud
+                        (Cambridge: Harvard University Press, 1994), 41.</note></p>
+                <p>Vzrok, da se je njihovo delo tako hitro povezalo tudi s »sumljivo moralo«, je
+                    zagotovo tudi to, da so pripadnice meščanskega razreda, ki so bile med
+                    medicinskem osebjem najštevilčnejše, pri svojem delu kršile predvojne tabuje,
+                    povezane z moškimi telesi. Strežnice in medicinske sestre so ob svojem delu
+                    spoznale moška telesa, pa tudi strahove ranjencev, in videle moške v najbolj
+                    intimnih in ranljivih trenutkih.<note place="foot" xml:id="ftn42" n="41">Darow,
+                        »French Volunteer Nursing,« 275. Susan R. Grayzel, <hi rend="italic">Women
+                            and the First World War</hi> (Abingdon, New York: Routledge, 2002),
+                        41.</note> Eno izmed takšnih situacij je, potem ko je dobil poškodbo na
+                    testisih, opisal vojni ujetnik Leopold Vadnjal. <hi rend="italic">»Strežnica,
+                        mlado lepo dekle, je bridko zajokala, ko sem ji razkril rano, ne vem, ali od
+                        sramu ali od sočutja. Obstala je poleg mene in moral sem jo prositi, naj mi
+                        umije rano; prigovarjal sem ji, naj se ne sramuje, kajti jaz neznosno trpim…
+                        Ozdravel sem toliko, da sem lahko sam hodil povezovat rano v operacijsko
+                        sobo. Mlada Olga, ki je pomagala pripravljati zdravila, si je vsa zardela
+                        vedno veliko dala opraviti v kakšnem kotu, da me ni videla. Bila je zelo
+                        sramežljiva. Le stara feldšerica (zdravniška pomočnica) Natalija Vasiljevna
+                        si je pri meni dala veliko opraviti. Kljub vsem bolečinam pa je bilo vedno
+                        dosti smeha, kadar so me prevezovali. Nobena preveza ni držala, ker sem
+                        hodil in preveze niso mogli nikamor dobro zavezati. Slednjič pa jo je
+                        izkušena N. Vasiljevna le pogruntala. Sešila je majhno vrečico in napravila
+                        zadrgo z dolgimi trakovi…«</hi><note place="foot" xml:id="ftn43" n="42"
+                        >Leopold Vadnjal, <hi rend="italic">Zapiski vojaka, 1914−1921</hi>, ur.
+                        Stanko Janež (Ljubljana: Borec, 1989), (75) 1308.</note></p>
+                <p>Delo medicinskega osebja, zlasti žensk, je po prepričanju javnosti obsegalo tudi
+                    tolažbo in prijazno besedo. »<hi rend="italic">Dočim ima zdravnik le bolj ozir
+                        na pojav bolezni in v svojem delovanju vpošteva le telesnost, išče idealna
+                        strežnica v svoji nežnočutnosti vplivati na bolnikovo notranjost</hi>.«<note
+                        place="foot" xml:id="ftn44" n="43">»O ženskih poklicih,« <hi rend="italic"
+                            >Slovenski učitelj</hi>, 15. 9. 1918, 178.</note> V tolažbi in pogovoru
+                    je izginjala osamljenost in nastala je intimnost, ki jo v svojih spominih
+                    omenjajo vojaki.<note place="foot" xml:id="ftn45" n="44">Vadnjal, <hi
+                            rend="italic">Zapiski vojaka</hi>, 75 (1308). Dominik Kacin, »Dnevnik z
+                        avstrijsko-ruske fronte v Karpatih in spomini iz vojaške bolniške v Romuniji
+                        iz let 1917−1918,« <hi rend="italic">Borec</hi> 49, št. 555/556 (1997): 33,
+                        35.</note> Iz te intimnosti se je lahko razvila ljubezen, vendar pa se je v
+                    vojni vihri pogosteje zgodilo ravno nasprotno. Spopadi so skrbeli za velik
+                    pritok ranjencev, medicinskemu osebju je bilo nemogoče vzpostaviti z vsakim
+                    izmed ranjencev zaželen odnos oziroma odnos, ki naj bi ga žensko medicinsko
+                    osebje zagotavljalo (tudi zato je bila verjetno razočaranost tistih, ki so
+                    občutili neosebno oskrbo, še večja). Tudi Christa Hämmerle tako omenja, kako so
+                    se medicinske sestre le redko spominjale zgodb posameznih vojakov in v svojih
+                    spominih ločile med seboj in množico ranjenih vojakov. Namesto zgodb
+                    posameznikov je v njihovem pričevanju nastopal abstraktni drugi − ranjenec.<note
+                        place="foot" xml:id="ftn46" n="45">Hämmerle, »<hi rend="st1">Mentally
+                            broken,« </hi>99.</note></p>
+                <p>Med prvo svetovno vojno so bile govorice, češ da so prostovoljne oziroma posvetne
+                    sestre nagnjene k moralnemu padcu, zaradi zgoraj omenjenih razlogov pogoste. Na
+                    Dunaju naj bi glede na govorice, ki so krožile v Ljubljani, obstajal celo dom za
+                    noseče bolniške sestre. Imel naj bi kapaciteto za 500 sester, saj naj bi bilo po
+                    javnem mnenju kar 80 odstotkov med njimi nagnjenih k nemoralnem vedenju.<note
+                        place="foot" xml:id="ftn47" n="46">Milčinski, <hi rend="italic"
+                            >Dnevnik,</hi> 140. Več o zaščiti otrok pred in med vojno glej: Ana
+                        Cergol Paradiž, »The Protection of Mothers and Children as a Eugenic Measure
+                        in Ljubljana,« <hi rend="italic">Revista de Antropologie Urbana</hi> 3, št.
+                        5 (2015).</note> Vendar nekateri drugi indici namigujejo ravno nasprotno, da
+                    so bile vojne sestre v bolnišnicah pod strogim nadzorom, še zlasti glede
+                        morale.<note place="foot" xml:id="ftn48" n="47">NŠAL, vizitacije
+                        (1914−1916), šk. 14, mapa ŠAL/VIZ map. 1916 (1−55). Spomenica Sava, »<hi
+                            rend="italic">V župniji imamo od okt. 1915 bolnišnico Rd.Kr. v ponoviški
+                            graščini. … V graščini pazi pa grofica de Gosquet precej strogo na
+                            moralno življenje postrežnic in zažuga vsaki odpustitev iz službe, ki se
+                            noče pokorit. Posebnih prestopkov se doslej ni zgodilo</hi>.«</note>
+                    Toda če se v javnem diskurzu v času vojne pojavlja precej dvomov glede zglednega
+                    življenja vojnih sester, to za redovnice ne velja.</p>
+                <p>Redovnice so poleg posvetnih sester predstavljale velik korpus negovalk na vojni
+                    črti, med njimi pa so zagotovo prevladovale članice kongregacije Usmiljenk ali
+                    Hčere krščanske ljubezni. V letu 1901 je kar 65 odstotkov redovnic služilo v
+                    dobrodelnih redovih in tudi v letu 1916 ni bilo nič drugače. Na Kranjskem je
+                    bilo 634 redovnic, večino med njimi so predstavljale prav redovnice reda
+                    Usmiljenk, bilo naj bi jih 339.<note place="foot" xml:id="ftn49" n="48"
+                        >»Catalogus Cleri,« <hi rend="italic">Učiteljski tovariš</hi>, 24. 3. 1916,
+                        4.</note> Na Soški fronti so redovnice predstavljale precej večji delež kot
+                    posvetne sestre.<note place="foot" xml:id="ftn50" n="49">»Zdravstvene razmere na
+                        soški in jugovzhodni fronti,« <hi rend="italic">Slovenec</hi>, 15. 3. 1917,
+                        3.</note> Med prvo svetovno vojno naj bi jih bilo na bojiščih vsaj
+                        10.000.<note place="foot" xml:id="ftn51" n="50">»Čez 10.000 usmiljenih
+                        sester na bojiščih,« <hi rend="italic">Slovenec</hi>, 20. 2. 1915, 7.</note>
+                    Redovnice v diskurzu, ki opisuje razmere med prvo svetovno vojno, ostajajo
+                    cenjene, toda fragmenti nakazujejo, da tudi te niso bile povsem izvzete iz
+                    skušnjav, ki jih je fronta ponujala bolniškim sestram. Tudi nečakinja škofa
+                    Jegliča se je tako znašla v moralni skušnjavi, kateri je podlegla. »<hi
+                        rend="italic">Dne 22/6 ravno na praznik sv.R.T. je moja nečakinja S.
+                        Lavrentina skrivaj zapustila svoj samostan v Sarajevu in izginila. Ker je
+                        posebej pri bolnikih mnogo delala, so jo povsod izredno spoštovali in
+                        cenili: zato v Sarajevu splošno presenečenje. Začetek njenega padca je v
+                        Tuzli pred dobrima dvema letoma. Bila je sama v bolnišnici; zapeljeval jo je
+                        ondotni zdravnik in še nek bolnik. Nadlegovali so jo ponoči, ko je morala
+                        ležati na hodniku, branila se je in ohranila usque ad copulum ni prišlo.
+                        Toda od tega časa ji je spolna strast strašno vzplamtela; njen spovednik
+                        (p.Jošt) je bil prepričan, da so ji v jed dajali sredstva, po katerih se
+                        mesenost strašno vzpodbudi. V obupanosti bi bila najrajše umrla, v hudi zimi
+                        je napol oblečena stala ponoči pri odprtem oknu, da bi se prehladila in
+                        umrla. Koj potem mi piše iz Sarajeva obupen list. Ne vedoč kaj je pravzprav,
+                        pišem da pridem osebno v Sarajevo in sicer na sv.Jožefa čestitat nadškofu za
+                        god. Povedala mi je, da ima obleko posvetno že pripravljeno in je hotela
+                        pogniti skrivoma. Pomiril sem jo. – Odkar je vojska je vedno po bolnišnicah,
+                        vsem priljubljena. Večkrat mi je vlistih omenila 'Ich bin nicht brav.' Zato
+                        sem o mojem godu prosil glavno predstojnico na Dunaju, naj jo odpokliče v
+                        samostan. Toda s.Lavrentina noče na Dunaj, ampak pobegne skrivaj.</hi>«<note
+                        place="foot" xml:id="ftn52" n="51">Jeglič, <hi rend="italic">Dnevnik</hi>,
+                        1034.</note></p>
+            </div>
+            <div>
+                <head>Zaključek</head>
+                <p>Vélika vojna je dramatično spremenila položaj žensk, predvsem so ženske v teh
+                    izrednih razmerah prerastle svojo tradicionalno vlogo, povezano s čakanjem v
+                    zaledju, molitvijo in žalovanjem. Nekatere med njimi so namreč oblekle uniformo
+                    in se podale v samo osrčje nevarnosti. Žal je ostalo za njihovim delovanjem malo
+                    sledi, spomini žensk na prvo vojno so redki, v večini je prevladal moški pogled
+                    nanjo. Če primerjamo dogodke prve svetovne vojne z drugo, so v drugi vojni
+                    ženski glasovi v pričevanjih pogostejši. V tej vojni nastopajo kot herojke,
+                    pogumne partizanke, interniranke in bolničarke. V spominu na prvo svetovno vojno
+                    pa je vendarle prevladala izkušnja vojaka, in kot pravi Fussel, je ta v večini
+                    ostala bipolarna. Vojaki v jarkih so dojemali svet črno-belo, slednjo percepcijo
+                    najbolje ponazarja delitev med »nas in sovražnike«. Iz tega razumevanja
+                    realnosti pa niso bile izvzete ženske.<note place="foot" xml:id="ftn53" n="52"
+                        >Mary Louis Roberts, <hi rend="italic">Civilization Without Sexes:
+                            Reconstructing Gender in Postwar France, 1917−1927 </hi>(Chicago:
+                        University of Chicago Press, 1994), 21.</note> Te so pravzaprav bile predmet
+                    kar dveh dihotomij. Sprva se je oblikovala delitev med vojake in ženske, nato pa
+                    so ženske doživele še drugo oznako: ali so bile trpeče žrtve ali pa moralno
+                    padle ženske.</p>
+                <p>Bolničarke oziroma ženske na fronti so prestopile meje, ki jih je zakoličila
+                    predvojna era in so vsekakor pomenile motnjo v vsakdanu. Že zato jim je javnost
+                    pripisala nemoralnost. Bile so neodvisne, plačane, daleč stran od družinskega
+                    nadzora. Redno so prihajale v stik z moškimi, padali so predvojni tabuji,
+                    povezani s telesom. Hkrati pa so le redki ranjenci od medicinskih sester dobili
+                    pričakovano emocionalno podporo in zato bili seveda globoko razočarani. Prav
+                    ženske naj bi namreč s svojimi junaškimi dejanji na fronti zaščitili, te pa naj
+                    bi jim zagotovile uteho in tolažbo. Prva svetovna vojna je razbijala tudi
+                    utečena pričakovanja glede razmerij med moškimi in ženskami. Medicinske sestre
+                    so v romantičnem leposlovju nastopale kot nosilke modernosti, kršile so namreč
+                    prepovedi, povezane z ljubezenskimi razmerji, in se jim predale. Ob vseh
+                    ugotovitvah pa velja dodati, da slednji prispevek predvsem razodeva pogled
+                    drugih na »vojaške sestre«, kako so same razumele svoja dejanja in se odzivale
+                    na svoj položaj, ostaja odprto. Njihovi slovenski spomini še čakajo na
+                    odkritje, da izvemo, ali je bil motiv Marianne Jarka (upanje, da bi jo videl
+                    »ljubljeni Fredl«)<note place="foot" xml:id="ftn54" n="53">Franziska
+                        Salm-Reifferscheidt, »<hi rend="italic">Frauen in der
+                            Kriegskrankenpflege</hi>,« 23.</note> pogost ali ne.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <listBibl>
+                    <head>Arhivski viri:</head>
+                    <bibl>NŠAL, Nadškofijski arhiv Ljubljana, vizitacije (1914-1916).</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Časopisni viri:</head>
+                    <bibl>»Catalogus Cleri.« <hi rend="italic">Učiteljski tovariš</hi>, 24. 3.
+                        1916.</bibl>
+                    <bibl>»Čez 10.000 usmiljenih sester na bojiščih.« <hi rend="italic"
+                        >Slovenec</hi>, 20. 2. 1915.</bibl>
+                    <bibl>»Deželno in gospejno društvo Rdečega križa za Kranjsko.« <hi rend="italic"
+                        >Slovenski narod</hi>, 7. 4. 1917.</bibl>
+                    <bibl><hi rend="italic">Državni zakonik za kraljevine in dežele, zastopane v
+                        državnem zboru</hi>, 2. 7. 1914</bibl>
+                    <bibl>»Državni zbor.« <hi rend="italic">Slovenski gospodar</hi>, 13. 12.
+                        1917.</bibl>
+                    <bibl>Golec, Januš. »Vojni spomini.« <hi rend="italic">Slovenski gospodar</hi>,
+                        28. 2. 1918.</bibl>
+                    <bibl>»Izgubljeni sin.« <hi rend="italic">Domoljub</hi>, 23. 5. 1918.</bibl>
+                    <bibl>»Junaki.« <hi rend="italic">Soča</hi>, 28. 8. 1914.</bibl>
+                    <bibl>Kotarski. »Usmiljenka.« <hi rend="italic">Jadranka</hi> 1, št. 12 (1921),
+                        2−5.</bibl>
+                    <bibl>Lenard, Leopold. »Sestra "Rdečega križa".« <hi rend="italic">Slovenski
+                        gospodar</hi>, 2. 10. 1919; 25. 9. 1919.</bibl>
+                    <bibl>»Ne sodi.« <hi rend="italic">Edinost</hi>, 24. 2. 1917.</bibl>
+                    <bibl>»O ženskih poklicih.« <hi rend="italic">Slovenski učitelj</hi>, 15. 9.
+                        1918.</bibl>
+                    <bibl>»Poročilo o dekanskem shodu leta 1908.« <hi rend="italic">Škofijski
+                        list</hi>, št. 5 (1908), 69-86.</bibl>
+                    <bibl>»Pozor babice!« <hi rend="italic">Gorenjec</hi>, 27. 3. 1914.</bibl>
+                    <bibl>»Strežniška šola v deželni bolnišnici.« <hi rend="italic">Slovenec</hi>,
+                        7. 1. 1914.</bibl>
+                    <bibl>»Tečaj bolniških strežnic.« <hi rend="italic">Slovenska gospodinja</hi>,
+                        16. 1. 1913.</bibl>
+                    <bibl>»Za strežniško šolo v kranjski deželni bolnišnici.« <hi rend="italic"
+                        >Slovenec</hi>, 6. 2. 1914.</bibl>
+                    <bibl>»Zakaj so sestre usmiljenke tako priljubljene strežnice?.« <hi
+                        rend="italic">Vertec,</hi> 1. 3. 1916.</bibl>
+                    <bibl>»Zdravstvene razmere na soški in jugovzhodni fronti.« <hi rend="italic"
+                        >Slovenec</hi>, 15. 3. 1917.</bibl>
+                    <bibl>»Ženske in vojna.« <hi rend="italic">Tedenske slike,</hi> 28. 10.
+                        1914.</bibl>
+                    <bibl>»Ženske pomožne moči pri armadi.« <hi rend="italic">Štajerc</hi>, 4. 11.
+                        1917.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Literatura:</head>
+                    <bibl>Cergol Paradiž, Ana. »The Protection of Mothers and Children as a Eugenic
+                        Measure in Ljubljana.« <hi rend="italic">Revista de Antropologie Urbana</hi>
+                        3, št. 5 (2015): 54−62.</bibl>
+                    <bibl>Darow, Margaret H. »French Volunteer Nursing and the Myth of War
+                        Experiance in World War I.« <hi rend="italic">American Historical
+                            Review</hi> 101, št. 1 (1996): 80−106.</bibl>
+                    <bibl>Grayzel, Susan R. <hi rend="italic">Women and the First World War.</hi>
+                        Abingdon, New York: Routledge, 2002.</bibl>
+                    <bibl>Hämmerle, Christa. »"Mentally broken, physically a wreck…": Violence in
+                        War Accounts of Nurses in Austro-Hungarian Service.« V: <hi rend="italic"
+                            >Gender and the First World War</hi>, ur. Christa Hämmerle, Oswald
+                        Überegger in Birgitta Bader-Zaar, 89−107. Basingstoke: Palgrave Macmillan,
+                        2014.</bibl>
+                    <bibl>Hämmerle, Christa. <hi rend="italic">Heimat/Front.
+                            Geschlechtergeschichte/n des Ersten Weltkrieges in
+                            Österreich-Ungarn.</hi> Wien, Köln, Weimar: Böhlau Verlag, 2014.</bibl>
+                    <bibl>Rachamimov, Alon. »'Female Generals' and 'Siberian Angels': Aristocratic
+                        Nurses and the Austro-Hungarian POW Relief.« V: <hi rend="italic">Gender and
+                            War in Twentieth-Century Eastern Europe</hi>, ur. Nancy M. Wingfield in
+                        Maria Bucur, 23−46. Bloomington: Indiana University Press, 2006.</bibl>
+                    <bibl>Reddy, William M. »The Rule of Love: The History of Western Romantic Love
+                        in Comparative Perspective.« V: <hi rend="italic">New Dangerous Liaisons,
+                            Discourses on Europe and Love in the Twentieth Century</hi>, ur. Luisa
+                        Passerini, Liliana Ellena in Alexander C.T. Geppert, 33−57. New York:
+                        Berghahn Books, 2010.</bibl>
+                    <bibl>Roberts, Mary Louis. <hi rend="italic">Civilization Without Sexes:
+                            Reconstructing Gender in Postwar France, 19171927.</hi> Chicago:
+                        University of Chicago Press, 1994.</bibl>
+                    <bibl>Salm-Reifferscheidt, Franziska. »Frauen in der Kriegskrankenpflege im
+                        Ersten Weltkrieg am Beispiel der Rotkreuzschwester Marianne Jarka.«
+                        Diplomsko delo, Universität Wien, 2010. <ref
+                            target="http://othes.univie.ac.at/8208/"
+                            >http://othes.univie.ac.at/8208/</ref>.</bibl>
+                    <bibl>Šuštar, Branko. »Od strežniških tečajev do strežniške in bolničarske šole
+                        1908-1945.« V: <hi rend="italic">Šola za sestre: Zdravstveno šolstvo na
+                            Slovenskem (1753−1992),</hi> ur. Branko Šuštar, 35-41. Ljubljana:
+                        Slovenski šolski muzej, 1992.</bibl>
+                    <bibl>Thébaud, Francoise. »The Great War and the Triumph of Sexual Divison.« V:
+                            <hi rend="italic">A History of Domen in the West: Volume V: Toward a
+                            Cultural Identity in the Twentieth Century,</hi> ur. Françoise Thébaud,
+                        21−75. Cambridge: Harvard University Press, 1994.</bibl>
+                    <bibl>Zeldin, Theodor. <hi rend="italic">An intimate history of Humanity.</hi>
+                        London: Vintage Books, 1998.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Objavljeni viri:</head>
+                    <bibl>Jeglič, Anton Bonaventura. <hi rend="italic">Dnevnik</hi>
+                        (tipkopis).</bibl>
+                    <bibl>Kacin, Dominik. »Dnevnik z avstrijsko-ruske fronte v Karpatih in spomini
+                        iz vojaške bolniške v Romuniji iz let 1917−1918.« <hi rend="italic"
+                            >Borec</hi> 49, št. 555/556 (1997): 23-60.</bibl>
+                    <bibl>Lampe, Evgen. <hi rend="italic">Dnevniški zapiski dr. Evgena Lampeta:
+                        (1898−1917)</hi>. Ur. Matjaž Ambrožič. Ljubljana: Arhivsko društvo
+                        Slovenije, 2007.</bibl>
+                    <bibl>Milčinski, Fran. <hi rend="italic">Dnevnik 1914−1920</hi>. Ljubljana:
+                        Slovenska matica, 2000.</bibl>
+                    <bibl>Mlakar, Albin. <hi rend="italic">Dnevnik: 1914−1918</hi>. Kobarid:
+                        Turistična agencija K. C. K., 1995.</bibl>
+                    <bibl>Vadnjal, Leopold. <hi rend="italic">Zapiski vojaka, 1914−1921</hi>. Ur.
+                        Stanko Janež. Ljubljana: Borec, 1989.</bibl>
+                </listBibl>
+            </div>
+            <div type="summary" xml:lang="en">
+                <head type="main">HEALTH CARE IN THE SERVICE OF WAR: WAR NURSES IN
+                    CARNIOLA</head>
+                <head>SUMMARY</head>
+                <docAuthor>Irena Selišnik</docAuthor>
+                <p>Even before World War I an ongoing discussion took place in Austria whether
+                    medical nurses should be mobilised to take care for wounded soldiers in case of
+                    extensive military conflict, natural disasters or epidemics. After the outbreak
+                    of the Great War the Austrian authorities encouraged the professionalisation of
+                    nursing, and especially women were invited to join. Special conditions for
+                    schooling were enacted and the first courses were opened at local hospitals. In
+                    the Austrian Monarchy, Carniola was no exception. The Red Cross organised
+                    special courses for nurses with the promise of salary, retirement benefits and
+                    possibility of vacation. In 1917 we can already find 7000 nurses and 15,000 care
+                    attendants among the Austrian military personnel. The Austrian propaganda
+                    portrayed war nurses as heroines, and at least part of the public perceived them
+                    as a personification of motherly care and love which could be compared with the
+                    sacrifices of the soldiers. However, war nurses also represented modern women
+                    who successfully avoided social control headed towards imminent danger in the
+                    battlefield. The attempts to present them as nurses from religious orders
+                    failed. Because professional nurses were paid and were therefore much more
+                    independent, they represented a strong contrast to the submissive and ethereal
+                    motherly image of nuns. Quite unsurprisingly, their obvious womanhood resulted
+                    in the emergence of doubts about their morality. Nurses had direct contact with
+                    soldiers, they cared for their wounded bodies, and all the established taboos
+                    about middle-class women therefore disappeared. Furthermore, because the flow of
+                    the wounded from the front was enormous, they could not live up to their image
+                    as presented by the war propaganda and provide emotional support for each
+                    wounded soldier. The disillusioned soldiers were especially critical of the
+                    nurses also because actual nurses could not compare to their fictitious
+                    character as described in romantic fiction. The concepts of romantic love
+                    quickly changed during the war, as modern women embodied by the nurses were not
+                    afraid of love and platonic relationships were also consumed. In combination
+                    with the soldiers' perception of reality in dichotomous concepts like "us and
+                    women", "fallen women and victimised women", etc., the image of nurses was
+                    accompanied by strong discomfort. The image of war nurses clearly reveals the
+                    awkward relationships between the attitudes to war and women and as well as the
+                    rapidly changing values in time of war. </p>
+            </div>
+        </back>
+    </text>
+</TEI>

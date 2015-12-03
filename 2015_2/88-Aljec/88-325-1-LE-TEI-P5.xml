@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vojaške preskrbnine in pokojnine v prvi svetovni vojni: zakonodaja in
+                        izvedba<note place="foot" xml:id="ftn2" n="1">Brez pomoči sodelavcev Jasne
+                        Vanček, dr. Žige Koncilja, dr. Urške Strle in dr. Ane Cergol Paradiž bi bil
+                        članek z nekaterimi viri precej osiromašen, zato se jim iskreno zahvaljujem
+                        za nesebično pomoč. Posebna zahvala gre tudi dr. Matjažu Ravbarju za
+                        vsebinsko dopolnilo, za vedno dobrodošle in velikodušne nasvete, opozorila
+                        in dolge pogovore se posebej zahvaljujem dr. Mihi Šimacu. Brez velike
+                        podpore in spodbude prof. dr. Marte Verginella pa razprava gotovo ne bi
+                        nastala. Zato še enkrat hvala vsem.</note></title>
+                <author>
+                    <name>
+                        <forename>Kornelija</forename>
+                        <surname>Aljec</surname>
+                    </name>
+                    <roleName>dr.</roleName>
+                    <roleName>docentka</roleName>
+                    <affiliation>Filozofska fakulteta, Univerza v Ljubljani</affiliation>
+                    <address>
+                        <addrLine>Aškerčeva 2</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>kornelija.ajlec@ff.uni-lj.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2015-10-15</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/88</pubPlace>
+                <date>2015</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">55</biblScope>
+                <biblScope unit="issue">2</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>social security</term>
+                    <term>social policy</term>
+                    <term>World War I</term>
+                    <term>allowances</term>
+                    <term>alimonies</term>
+                    <term>pensions</term>
+                    <term>disability benefits</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>socialna varnost</term>
+                    <term>socialna politika</term>
+                    <term>prva svetovna vojna</term>
+                    <term>preskrbnine</term>
+                    <term>preživnine</term>
+                    <term>pokojnine</term>
+                    <term>invalidnine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2015-10-16</date>
+                    <name>Andrej Pančur</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="sl">
+        <front>
+            <docAuthor>Kornelija Ajlec<note place="foot" xml:id="ftn1" n="*">dr., docentka, Univerza
+                    v Ljubljani, Filozofska fakulteta, Oddelek za zgodovino, Aškerčeva 2, SI-1000
+                    Ljubljana, <ref target="kornelija.ajlec@ff.uni-lj.si"
+                        >kornelija.ajlec@ff.uni-lj.si</ref></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="UDC">UDK: 355.291.1(497.4)"1914/1918"</idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">Prispevek obravnava pristop Avstro-Ogrske k izgradnji politike
+                        socialnega varstva za vojaštvo in njihove svojce v vojnem času in obdobju
+                        miru. Skozi zakonodajna besedila in članke v slovenskem časopisju se posebej
+                        osredotoča na obdobje prve svetovne vojne. Prikazano je, da je Avstro-Ogrska
+                        vstopila v vojno razmeroma dobro »pripravljena« na področju
+                    preskrbe</hi>.</p>
+                <p><hi rend="italic">Ključne besede: socialna varnost, socialna politika, prva
+                        svetovna vojna, preskrbnine, preživnine, pokojnine, invalidnine</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head type="main">MILITARY ALLOWANCES AND PENSIONS IN WORLD WAR I: LEGISLATION AND
+                    IMPLEMENTATION</head>
+                <p><hi rend="italic">The contribution discusses the Austro-Hungarian approach to the
+                        development of social security policy for military personnel and their
+                        families during war and peacetime. On the basis of legislative documents and
+                        articles in the Slovenian newspapers it specifically explores the period of
+                        World War I. It shows that Austro-Hungary entered the war relatively
+                        well-prepared as far as maintenance was concerned.</hi></p>
+                <p><hi rend="italic">Keywords: social security, social policy, World War I,
+                        allowances, alimonies, pensions, disability benefits</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>Vojaške preskrbnine in pokojnine v zakonodaji</head>
+                <p>V senci določil Berlinskega kongresa leta 1878 in posledične avstro-ogrske
+                    okupacije Bosne in Hercegovine (BiH) istega leta je Avstro-Ogrska precej hitro
+                    spoznala, da bo morala nuditi vojakom in njihovim družinam posebno obliko
+                    socialnega varstva. Prišlo je do splošne mobilizacije, v okupacijskem procesu
+                    BiH pa je po nekaterih podatkih skupno sodelovalo med 82 tisoč<note place="foot"
+                        xml:id="ftn3" n="2">Tado Oršolić, »Sudjelovanje dalmatinskih postrojbi u
+                        zaposjedanju Bosne i Hercegovine 1878,« <hi rend="italic">Radovi Zavoda
+                            povijestnih znanosti HAZU</hi> 42 (2000): 299.</note> in 95 tisoč<note
+                        place="foot" xml:id="ftn4" n="3">»V Bosno,« <hi rend="italic">Slovenski
+                            narod</hi>, 27. 7. 1878, 2.</note> pripadnikov vojaštva. Mobilizacija je
+                    potekala tudi v slovenskih deželah. V Kmetijskih in rokodelskih novicah so jo
+                    pospremili z besedami: »<hi rend="italic">Mobilizacija Avstrijsko ogerske armade
+                        je zraven Ogerske in Hrvaške najbolj zadela Kranjsko, spodnjo Štajersko,
+                        Koroško, Primorsko in Dalmacijo</hi>.«<note place="foot" xml:id="ftn5" n="4"
+                        >»Novičar iz domačih in tujih dežel,« <hi rend="italic">Kmetijske in
+                            rokodelske novice</hi>, 31. 7. 1878, 246.</note> Časopis <hi
+                        rend="italic">Slovenski narod</hi> pa je ob tem poročal, da so bile te
+                    dežele »<hi rend="italic">hudo zadete, in delavcev silno pomanjkuje</hi>.«<note
+                        place="foot" xml:id="ftn6" n="5">»Domače stvari,« <hi rend="italic"
+                            >Slovenski narod</hi>, 27. 7. 1878, 3.</note> O odhodu močnih moških rok
+                    v času okupacije piše retrogradno tudi časopis <hi rend="italic">Slovenski
+                        gospodar</hi>: »<hi rend="italic">Nejevolja bila je velika. Pobiralo je se
+                        in tudi darovalo res veliko, a zadostovalo vender ni. Marsikatera žena je
+                        obupaje omedlevala, ko so njej moža pozvali hipoma k vojakom. Ali kakšen
+                        krik in jošntegne še nastati, ako bo kedaj morala namesto nekoliko
+                        regimentov cela avstrijska armada v boj? Kdo pa bo tedaj pomagal? Liberalni
+                        poslanci so l. 1878 na glas upijali: država naj pomaga! Tedajšni tudi
+                        vseskozi liberalni ministri so si to dobro zapomnili. Liberalec in minister
+                        Horst /…/ je novemu državnemu zboru predložil načrt postave o pobiranji nove
+                        vojaške dače ali takse.</hi>«<note place="foot" xml:id="ftn7" n="6">»Nova
+                        vojaška dača ali taksa,« <hi rend="italic">Slovenski gospodar</hi>, 6. 5.
+                        1880, naslovnica.</note></p>
+                <p>Gre za – lahko ga imenujemo – temeljni zakon, ki je ustvaril elemente vsega
+                    nadaljnjega socialnega varstva vojaštva, sprejet je bil 13. junija 1880 in
+                    poimenovali so ga <hi rend="italic">Postava</hi><note place="foot" xml:id="ftn8"
+                        n="7">»Postava« je glede na Slovar slovenskega knjižnega jezika starinska
+                        beseda, ki je sopomenka besed »zakon in predpis«. V kontekstu razprave je
+                        »postava« enakovredna »zakonu«. Več v: <hi rend="italic">Slovar slovenskega
+                            knjižnega jezika.</hi> Ljubljana: Inštitut Frana Ramovša, ZRC SAZU,
+                        2000. Spletna različica pridobljena oktobra 2015, <ref
+                            target="http://bos.zrc-sazu.si/cgi/a03.exe?name=sskj_testa&amp;expression=postava&amp;hs=1"
+                            >http://bos.zrc-sazu.si/cgi/a03.exe?name=sskj_testa&amp;expression=postava&amp;hs=1</ref>.</note><hi
+                        rend="italic"> o vojaški taksi, zalogu vojaške takse in o podpori potrebni
+                        rodovinam na vojsko sklicanih</hi>.<note place="foot" xml:id="ftn9" n="8"
+                        >»Gesetz vom 13. Juni 1880, betreffend die Militärtaxe, den Militärtaxfond
+                        und die Unterstützung der hilfsbedürftigen Familien von Mobilisirten,« v:
+                            <hi rend="italic">Državni zakonik</hi>, zakon št. 70, 19. 6. 1880,
+                        232−38.</note> Zakon je uvajal poseben davek, ki so ga predvideli že ob
+                    sprejemu obrambnega zakona leta 1868, a je ugledal luč sveta šele v letu 1880.
+                    Prvi prispevki so morali biti plačani aprila 1881, plačevati pa so jih morali le
+                    tisti, ki so bili šele po 1. januarju 1875 dovolj stari za služenje vojaškega
+                    roka, a so bili le-tega oproščeni iz različnih vzrokov (bodisi so bili služenja
+                    nezmožni, so ga predčasno končali, bodisi so bili edini sinovi, vnuki ali bratje
+                    – s tem pa tudi glave družine, so emigrirali itd.). Višino letne takse so za
+                    vsakega plačnika posebej odrejale komisije in jih razdelile v 14 plačnih
+                    razredov. Vanje so dolžnike razporejali glede na premoženje in letni dohodek.
+                    Najnižja taksa je znašala 1 goldinar, najvišja pa 100 goldinarjev. V najnižji
+                    razred so bili razporejeni tisti, ki niso imeli premoženja in so dosegali letni
+                    zaslužek navadne dnine.<note place="foot" xml:id="ftn10" n="9">»Vojaška taksa,«
+                            <hi rend="italic">Edinost</hi>, 20. 10. 1880, 2.</note> Čez čas so se
+                    glede višine taksne obveznosti začele pojavljati tudi mnoge kritike. V
+                    Kmetijskih in rokodelskih novicah so leta 1898 denimo zapisali: »<hi
+                        rend="italic">Sedaj je najvišja taksa na leto 100 gld. To je očitno
+                        nepravilno. Če mora kmetski hlapec ali knap ali delavec plačati 1 gld. na
+                        leto, ko ima dohodkov komaj 300 do 400 gld., zakaj bi plačal samo 100 gld.
+                        kdor ima dohodkov 10.000, 20.000 in 50.000 ali več gld.? Na Nemškem na pr.
+                        mora plačati našega denarja 1650 gld., kdor ima 60.000 gld. letnih dohodkov,
+                        pri nas pa plača tak bogataš samo 100 gld. To ni nobeno razmerje, zlasti ker
+                        dotičnik navadno še kaj zasluži. Z ozirom na to priporočamo slovenskim
+                        poslancem, naj se pri prvi priliki zavzamejo za to, da se uveljavi
+                        premoženjskim razmeram posamičnikom primerno progrešivna vojaška taksa. Ko
+                        se to zgodi, potem se bo vsaj kaj nabralo za ranjence in za vdove in sirote
+                        tistih, ki so umrli za domovino</hi>.«<note place="foot" xml:id="ftn11"
+                        n="10">»Vojaške takse,« <hi rend="italic">Kmetijske in rokodelske
+                            novice</hi>, 7. 10. 1898, 392. Podobne pripombe ima že pet let prej
+                        denimo tudi časopis <hi rend="italic">Slovenski gospodar</hi>: »Krvni davek,
+                        vojaška taksa,« <hi rend="italic">Slovenski gospodar</hi>, 19. 1. 1893,
+                        naslovnica.</note> V istem članku je pisec tudi omenjal, da je bila država
+                    skrajno neuspešna z izterjavami takse: »<hi rend="italic">Jedino pravično bi
+                        bilo, da tisti, ki ni za vojaško službovanje sposoben, plača njegovim
+                        razmeram primerno vojaško takso. A ne samo, da se to ne zgodi, da so takse –
+                        katere so namenjene v vojski ranjenim vojakom ali udovam in sirotam ubitih
+                        vojakov – premajhne, tudi iztirjajo se skrajno malomarno, ker ljudstvo še
+                        nima tiste zavednosti da bi samo plačevalo takse, kakor je sploh davčna
+                        morala v Avstriji jako šibka, kar je deloma kriva davčna uprava
+                        sama.</hi>«<note place="foot" xml:id="ftn12" n="11">»Vojaške takse,« <hi
+                            rend="italic">Kmetijske in rokodelske novice</hi>, 7. 10. 1898,
+                        392.</note></p>
+                <p>Zbrani denar se je zbiral v posebni fond, imenovan vojaško-taksni zalog oz.
+                    vojarinski zalog, kot so ga kasneje tudi poimenovali. Zbrani denar so tudi
+                    naložili in plemenitili z obrestmi. Slovenski gospodar tako poroča, da je bilo
+                    leta 1900 v vojaškem zalogu že za 49.991.890 K.<note place="foot" xml:id="ftn13"
+                        n="12">»Državni zbor,« <hi rend="italic">Slovenski gospodar</hi>, 20. 3.
+                        1902, 3. Leta 1892 je Avstro-Ogrska zamenjala valuto – goldinar, ki je
+                        temeljil na srebrnem standardu s krono, ki je imela zlati standard. Menjalni
+                        tečaj je bil 2 kroni = 1 goldinar. V knjižici, ki je poučevala javnost o
+                        novi valuti je bilo npr. zapisano: »<hi rend="italic">Nova krona bo veljala
+                            pol goldinarja in dosedanji goldinar dve kroni. Vinar je enak po
+                            vrednosti pol krajcarju in krajcar dvema vinarjema. Kdor kupi kaj za dva
+                            goldinarja, plača /…/ štiri krone. Kdor daje dekli 5 gld na mesec, ji
+                            bode dajal /…/ 10 kron</hi>.« Več v: <hi rend="italic">Uprašanja in
+                            odgovori o uravnavi vrednote</hi> (Gorica: Nat. in zal. Seitz, 1892), 5.
+                        Jože Šorn, »Slovenci in gospodarski položaj v prvi svetovni vojni,« <hi
+                            rend="italic">Zgodovinski časopis</hi> 35, št. 1−2 (1981):
+                    58−60.</note></p>
+                <p>Zakon iz leta 1880 je uvajal tudi nekatera druga temeljna določila, ki jim lahko
+                    sledimo skozi vse zakone do leta 1917. Tako se je denimo iz zaloga izplačevala
+                    preživnina, pa tudi del najemnine, če so jo morali upravičenci plačevati. V
+                    primeru, da je vojak umrl, pa je družina prejemala preskrbnino še šest mesecev
+                    po smrti mobiliziranca.<note place="foot" xml:id="ftn14" n="13"><hi
+                            rend="italic">Državni zakonik</hi>, zakon št. 70, 19. 6. 1880,
+                        238.</note></p>
+                <p>V vojaško-taksnem zalogu je država torej zbirala denar, ki je šel za vse
+                    nadaljnje socialne transferje vdov in sirot, družin mobiliziranih ter invalidov.
+                    Kljub nedosledno urejenemu načinu zbiranja takse in nepravično urejenim plačnim
+                    razredom je Avstro-Ogrska razmeroma zgodaj, seveda po nemškem vzoru, ustvarila
+                    tiste temelje, ki so prispevali k manjšemu odporu zoper mobilizacijo, pa tudi k
+                    večji podpori prebivalstva v oboroženih spopadih, v katere se je Avstro-Ogrska
+                    občasno zapletla. Skozi prizmo socialne politike lahko namreč nazorno vidimo, da
+                    je bila monarhija domala ves čas na robu kakšnega oboroženega spopada. Za
+                    primerjavo – Kanada ni imela urejene socialne sheme vojaških preživnin vse do
+                    začetka leta 1914, ko je bil ustanovljen Kanadski patriotski fond. Pa še takrat
+                    je šlo le za nekakšno zasebno-javno partnerstvo. A tovrstna shema se je izkazala
+                    za nujno potrebno, saj mnogi poročeni možje niso želeli služiti v vojni, če jim
+                    nekdo ni zagotovil, da bodo njihove družine preskrbljene v času njihove
+                        odsotnosti.<note place="foot" xml:id="ftn15" n="14">Desmond Morton, <hi
+                            rend="italic">Fight or Pay: Soldiers' Families in the Great War</hi>
+                        (Vancouver: The University of British Columbia, 2004).</note> Podobne
+                    zahteve je imelo avstro-ogrsko vojaštvo že nekaj desetletij prej.</p>
+                <p>Dve leti po prvotnem zakonu je bila 10. junija 1882 sprejeta <hi rend="italic"
+                        >Postava o podpiranji potrebnih vdov in sirot od vojaških oseb, ki so o
+                        povodu nepokojev v južni Dalmaciji in zasedenem ozemlji padle ali vsled
+                        prejetih ran ali prestanih o vojski težav umrle</hi>.<note place="foot"
+                        xml:id="ftn16" n="15">»Gesetz vom 10. Juni 1882, betreffend die
+                        Unterstützung von hilfsbedürftigen Witwen und Waisen der anläßlich der
+                        Unruhen in Süddalmatien und im Occupationsgebite gefallen oder in Folge von
+                        Verwundungen oder von Kriegsstrapazen festorbenen Militärpersonen,« v: <hi
+                            rend="italic">Državni zakonik</hi>, postava št. 76, 24. 6. 1882,
+                        249–50.</note> Postava je pomembna zato, ker uvaja pokojnine po padlih
+                    vojakih, vendar le za vdove in sirote. Preostalim svojcem pokojnina ni
+                    pripadala. Postava je zahtevala, da upravičenci po pretečenih šestih mesecih
+                    ponovno vložijo prošnjo, po kateri so jim pokojnine odmerili po tem novem
+                        zakonu.<note place="foot" xml:id="ftn17" n="16"><hi rend="italic">Državni
+                            zakonik</hi>, ukaz št. 126, 17. 9. 1882, 495−501.</note></p>
+                <p>Cesar Franc Jožef je v prestolnem govoru ob sklicu novega državnega zbora 26.
+                    septembra 1885 naložil poslancem, da morajo sprejeti posebno postavo, ki bo »<hi
+                        rend="italic">skrbela za preskrbitev vdov in sirot vojakov, česar že zdavno
+                        britko pogrešamo</hi>.«<note place="foot" xml:id="ftn18" n="17">»Prestolni
+                        govor,« <hi rend="italic">Slovenski gospodar</hi>, 1. 10. 1885,
+                        naslovnica.</note> Postava iz leta 1882 je bila namreč izključujoča, saj so
+                    po njej pripadale pokojnine le družinam tistih vojakov, ki so padli v južni
+                    Dalmaciji in ostalih zasedenih ozemljih. Tiste družine, ki so izgubile moža in
+                    očeta drugje, do pokojnin torej niso bili upravičene. 27. aprila 1887 je bila
+                    posledično sprejeta <hi rend="italic">Postava o vojaški preskrbi vdov in sirot
+                        po oficirjih in moštvu vojstva, vojnega pomorstva, deželne brambe in črne
+                        vojske</hi>,<note place="foot" xml:id="ftn19" n="18">»Gesetz vom 27. April
+                        1887, betreffend die Militär-Versorgung der Witwen und Waisen von Officieren
+                        und von Mannschaft des Heeres, der Kriegsmarine, der Landwehr und des
+                        Landsturmes,« v: <hi rend="italic">Državni zakonik</hi>, zakon št. 41, 27.
+                        4. 1887, 187−200.</note> ki je izenačila tiste vdove in sirote, katerih
+                    možje so umrli v južni Dalmaciji in na zasedenih ozemljih, s tistimi, katerih
+                    možje so umrli kjerkoli in tudi v mirnodobnem času. Za te pokojnine je vlada
+                    letno namenjala poseben znesek izven vojaško-taksnega zaloga, in sicer v višini
+                    1.320.000 goldinarjev, če pa so bile potrebe večje, so dodali še sredstva iz
+                        zaloga.<note place="foot" xml:id="ftn20" n="19">Ibid.</note> Zakon je bil
+                    19. marca 1907 dopolnjen tako, da so višine pokojnin razdelili v 12 razredov
+                    glede na čine padlih vojaških oseb. </p>
+                <table rend="rules">
+                    <head>Tabela 1: Pregled letnih zneskov pokojnin za vdove, odrejene glede na
+                        posamezne činovne razrede</head>
+                    <row role="label">
+                        <cell rows="3">Činovni razred moža/očeta</cell>
+                        <cell rows="2">Letna višina pokojnine</cell>
+                        <cell cols="2">Letna višina pokojnine za sirote brez očeta</cell>
+                        <cell cols="2">Letna višina pokojnine za sirote brez staršev</cell>
+                    </row>
+                    <row role="label">
+                        <cell>Vzgojevalnina za vsako nepreskrbljeno siroto (1/5 vdovnine, a ne več
+                            kot 500K)</cell>
+                        <cell>Skupni znesek za vse sirote ne sme presegati vdovnine, torej sme biti
+                            kvečejmu</cell>
+                        <cell>Skupna vzgojevalnina za vse sirote (enaka polovici vdovnine)</cell>
+                        <cell>Z doklado vred sme znašati konkretna vzgojevalninakvečejmu</cell>
+                    </row>
+                    <row role="label">
+                        <cell>K(rone)</cell>
+                        <cell>K</cell>
+                        <cell>K</cell>
+                        <cell>K</cell>
+                        <cell>K</cell>
+                    </row>
+                    <row>
+                        <cell role="label">I. Feldmarschall (Maršal)</cell>
+                        <cell>5400</cell>
+                        <cell>500</cell>
+                        <cell>2500</cell>
+                        <cell>4050</cell>
+                        <cell>4050</cell>
+                    </row>
+                    <row>
+                        <cell role="label">II. General-oberst (General polkovnik)</cell>
+                        <cell>5400</cell>
+                        <cell>500</cell>
+                        <cell>2500</cell>
+                        <cell>4050</cell>
+                        <cell>4050</cell>
+                    </row>
+                    <row>
+                        <cell role="label">III. Feldzeugmeister (Feldcajgmajster)</cell>
+                        <cell>5000</cell>
+                        <cell>500</cell>
+                        <cell>2500</cell>
+                        <cell>3750</cell>
+                        <cell>3750</cell>
+                    </row>
+                    <row>
+                        <cell role="label">IV. Feldmarschalleutnant (Podmaršal)</cell>
+                        <cell>3500</cell>
+                        <cell>500</cell>
+                        <cell>2500</cell>
+                        <cell>2625</cell>
+                        <cell>2625</cell>
+                    </row>
+                    <row>
+                        <cell role="label">V. Generalmajor (Generalmajor)</cell>
+                        <cell>2500</cell>
+                        <cell>500</cell>
+                        <cell>2500</cell>
+                        <cell>1875</cell>
+                        <cell>2500</cell>
+                    </row>
+                    <row>
+                        <cell role="label">VI. Oberst (Polkovnik)</cell>
+                        <cell>2000</cell>
+                        <cell>500</cell>
+                        <cell>2500</cell>
+                        <cell>1500</cell>
+                        <cell>2500</cell>
+                    </row>
+                    <row>
+                        <cell role="label">VII. Oberstleutenant (Podpolkovnik)</cell>
+                        <cell>1500</cell>
+                        <cell>450</cell>
+                        <cell>2250</cell>
+                        <cell>1125</cell>
+                        <cell>2250</cell>
+                    </row>
+                    <row>
+                        <cell role="label">VIII. Major (Major)</cell>
+                        <cell>1200</cell>
+                        <cell>360</cell>
+                        <cell>1800</cell>
+                        <cell>900</cell>
+                        <cell>1800</cell>
+                    </row>
+                    <row>
+                        <cell role="label">IX. Hauptmann, Rittmeister (Konjeniški stotnik)</cell>
+                        <cell>1000</cell>
+                        <cell>300</cell>
+                        <cell>1500</cell>
+                        <cell>750</cell>
+                        <cell>1500</cell>
+                    </row>
+                    <row>
+                        <cell role="label">X. Oberleutnant (Nadporočnik)</cell>
+                        <cell>900</cell>
+                        <cell>270</cell>
+                        <cell>1350</cell>
+                        <cell>675</cell>
+                        <cell>1350</cell>
+                    </row>
+                    <row>
+                        <cell role="label">XI. Leutnant (Poročnik)</cell>
+                        <cell>750</cell>
+                        <cell>225</cell>
+                        <cell>1125</cell>
+                        <cell>562,50</cell>
+                        <cell>1125</cell>
+                    </row>
+                    <row>
+                        <cell role="label">XII. Fähnrich (Praporščak)</cell>
+                        <cell>700</cell>
+                        <cell>210</cell>
+                        <cell>1050</cell>
+                        <cell>525</cell>
+                        <cell>1050</cell>
+                    </row>
+                    <note type="trailer" n="">Vir: <hi rend="italic">Državni zakonik</hi>, zakon št.
+                        86, 23. 3. 1907, 389−91. »Vojaška preskrba vdov in sirot v vojni ali vsled
+                        vojne padlih, umrlih in pogrešanih vojaških oseb,« <hi rend="italic"
+                            >Občinska uprava</hi>, januar 1917, 3.</note>
+                </table>
+                <p>Tistim vdovam, katerih možje se niso uvrstili v nobenega izmed zgoraj naštetih
+                    činovnih razredov, se je odmerila pokojnina v višini ene tretjine plače, ki jo
+                    je prejemal padli vojak, vendar ne manj kot 400 K letno. Žena je lahko zaprosila
+                    tudi za vzgojevalnino za vsakega otroka, ki je prenehala z otrokovo
+                    polnoletnostjo pri 24. letih. Za vsakega otroka je lahko zahtevala vzgojevalnino
+                    v višini ene petine vdovske pokojnine, vendar ni mogla dobiti več kot 500 K
+                    letno za posameznega otroka.<note place="foot" xml:id="ftn22" n="20"><hi
+                            rend="italic">Državni zakonik</hi>, zakon št. 86, 23. 3. 1907,
+                        389−91.</note></p>
+                <p>Zakoni iz let 1882, 1887 in dopolnitev iz leta 1907 so torej urejali dodeljevanje
+                    podpor vdovam in sirotam padlih vojakov. Zakona, ki bi urejal preskrbnine za
+                    tiste družine, ki so začasno izgubile glavnega finančnega vzdrževalca družin, pa
+                    ni bilo vse do 21. junija 1908, ko je bil sprejet <hi rend="italic">Zakon o
+                        prispevku za vzdrževanje svojcev tistih, ki so odrinili na orožno (službeno)
+                        vajo, oziroma na vojaško izučbo</hi>.<note place="foot" xml:id="ftn23"
+                        n="21">»Gesetz vom 21. Juli 1908, betreffend den Unterhaltsbeitrag für
+                        Angehörige von zu einer Waffen(Dienst)übung, beziehungsweise zur
+                        militärischen Ausbildung Eingerückten,« v: <hi rend="italic">Državni
+                            zakonik</hi>, zakon št. 141, 22. 6. 1908, 551−53.</note> V teh primerih
+                    je šlo za krajšo odsotnost največ sedmih mesecev, a je bilo tudi to dovolj dolgo
+                    obdobje, da se je lahko pošteno zamajal družinski proračun. Preskrbnino so lahko
+                    dobili svojci, ki so bili odvisni od zaslužka vpoklicanega, vendar le v primeru,
+                    da ta med orožnimi vajami ni dobil svoje siceršnje plače oz. da svojci niso
+                    zmogli preživeti brez dohodka vpoklicanega. Za vsak dan orožnih vaj so
+                    upravičenci dobivali preskrbnino v višini 50 % dnevnega zaslužka vpoklicanega,
+                    če pa je bil ta samostojni podjetnik, so upravičenci dobivali znesek v višini
+                    najvišje plače v panogi v posameznem sodnem okraju. V primeru, da vpoklicani ni
+                    bil zaposlen, so upravičenci dobivali 1K dnevno.<note place="foot"
+                        xml:id="ftn24" n="22">»Postava o podporah za družine rezervistov,« <hi
+                            rend="italic">Gorenjec</hi>, 29. 8. 1908, 1−2.</note> Zakon pa je prvič
+                    tudi narekoval, da mora vojak sam naznaniti, komu se bo izplačeval prispevek za
+                        vzdrževanje.<note place="foot" xml:id="ftn25" n="23"><hi rend="italic"
+                            >Državni zakonik</hi>, zakon št. 141, 22. 6. 1908, 551−53.</note></p>
+                <p>V času prve Balkanske vojne je bil 26. decembra 1912 sprejet <hi rend="italic"
+                        >Zakon o prispevku za preživljanje svojcev mobilizovancev</hi>.<note
+                        place="foot" xml:id="ftn26" n="24">»Gesetz vom 26. December 1912, betreffend
+                        den Unterhaltsbeitrag für Angehörige von Mobilisierten,« v: <hi
+                            rend="italic">Državni zakonik</hi>, zakon št. 237, 31. 12. 1912,
+                        1201−03.</note> Gre za temeljni zakon, po katerem so dobivale preskrbnino
+                    žene in nepreskrbljeni otroci oz. vdove in sirote vojakov v prvi svetovni vojni,
+                    ter je pravzaprav posodobitev prvotnega zakona iz leta 1880. Do preskrbnine pa
+                    so bili upravičeni le tisti, ki so bili pred mobilizacijo odvisni od dohodka
+                    mobiliziranca, in tisti, ki so obdelovalne površine s pomočjo mobiliziranca
+                    obdelovali sami, po njegovem odhodu pa so morali najeti pomoč. Absolutno
+                    prednost so imeli žene in otroci mobilizirancev, medtem ko so v drugo kategorijo
+                    upravičencev spadali drugi bližnji sorodniki. Tako kot zakon iz leta 1880 je
+                    tudi zakon iz leta 1912 določal, da je bila vsakemu upravičencu podeljena
+                    preskrbnina in polovični znesek najemnine, če jo je moral upravičenec plačevati.
+                    Nepreskrbljeni otroci do 8. leta starosti pa so bili upravičeni le do
+                    polovičnega zneska preskrbnine,<note place="foot" xml:id="ftn27" n="25"><hi
+                            rend="italic">Državni zakonik</hi>, zakon št. 237, 31. 12. 1912,
+                        1201−03.</note> dokler leta 1917 ni bilo sprejeto dopolnilo, ki je izenačilo
+                    znesek preskrbnin otrok do 8. leta starosti z zneskom preskrbnin odraslih, če so
+                    bili nastanjeni v najemniškem stanovanju. Če so bili nastanjeni v lastniškem
+                    stanovanju, kjer ni bilo treba plačevati najemnine, je njihova preskrbnina
+                    ostala pri polovičnem znesku odraslih.<note place="foot" xml:id="ftn28" n="26"
+                            ><hi rend="italic">Državni zakonik</hi>, ukaz št. 139, 1. 4. 1917,
+                        340−41.</note> Sicer pa je tudi ta zakon, tako kot zakon iz leta 1908,
+                    določal, da morajo upravičence za prejem preskrbnin imenovati vojaki sami, če
+                    imajo za to dovolj časa pred odhodom na služenje. Če časa ni bilo dovolj, so
+                    lahko preskrbnino zahtevali tudi žena in otroci sami.<note place="foot"
+                        xml:id="ftn29" n="27"><hi rend="italic">Državni zakonik</hi>, zakon št. 237,
+                        31. 12. 1912, 1203.</note></p>
+            </div>
+            <div>
+                <head>Vojaške preskrbnine in pokojnine v praksi</head>
+                <p>Javna občila so z izbruhom prve svetovne vojne intenzivno seznanjala javnost z
+                    vsebino tega zakona iz leta 1912. Časopisa <hi rend="italic">Slovenec</hi> in
+                        <hi rend="italic">Slovenski gospodar</hi> sta le dva dni po avstrijski
+                    napovedi vojne Srbiji na naslovnici povzemala vsebino zakona in nizala zneske
+                    višine preskrbnin, do katerih so bili upravičeni prejemniki. Višine je za vsako
+                    leto posebej določalo vojno ministrstvo.</p>
+                <table rend="rules">
+                    <head>Tabela 2: Dnevni zneski preskrbnin v veljavi za leto 1914</head>
+                    <row>
+                        <cell/>
+                        <cell role="label">Preskrbninska pristojbina za odrasle osebe leta 1914 na
+                            dan</cell>
+                        <cell role="label">Preskrbninska pristojbina za mlajše od 8 let leta 1914 na
+                            dan</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Ljubljana</cell>
+                        <cell>1,14 K</cell>
+                        <cell>57 vin</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Ostala Kranjska</cell>
+                        <cell>1,05 K</cell>
+                        <cell>52,2 vin</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Trst</cell>
+                        <cell>1,35 K</cell>
+                        <cell>65,25 vin</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Ostala Primorska</cell>
+                        <cell>1,20 K</cell>
+                        <cell>60 vin</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Celovec</cell>
+                        <cell>1,27 ½ K</cell>
+                        <cell>63 ¾ vin</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Ostala Koroška</cell>
+                        <cell>1,18 ½ K</cell>
+                        <cell>59 ¼ vin</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Gradec</cell>
+                        <cell>1,24 ½ K</cell>
+                        <cell>62 ½ vin</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Ostala Štajerska</cell>
+                        <cell>1,19 K</cell>
+                        <cell>58 ½ vin</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Dunaj</cell>
+                        <cell>1,32 K</cell>
+                        <cell>66 vin</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Brno</cell>
+                        <cell>1,27 ½ K</cell>
+                        <cell>63 ¾ vin</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Praga</cell>
+                        <cell>1,20 K</cell>
+                        <cell>60 vin</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Krakov</cell>
+                        <cell>1,20 K</cell>
+                        <cell>60 vin</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Ostala Galicija</cell>
+                        <cell>0,85 ½ K</cell>
+                        <cell>42 ¾ vin</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Zadar</cell>
+                        <cell>1,20 K</cell>
+                        <cell>60 vin</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Ostala Dalmacija</cell>
+                        <cell>1,10 ½ K</cell>
+                        <cell>55 ¼ vin</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Černovice<note place="foot" xml:id="ftn31" n="28"
+                                >Czernowitz v Ukrajini.</note></cell>
+                        <cell>1,12 ½ K</cell>
+                        <cell>56 ¼ vin</cell>
+                    </row>
+                    <note type="trailer" n="">Vir: »Preskrbnina za družine vpoklicanih,« <hi
+                            rend="italic">Slovenec</hi>, 30. 7. 1914. »Državne podpore družinam
+                        mobiliziranih,« <hi rend="italic">Slovenski gospodar</hi>, 30. 7. 1914,
+                        4.</note>
+                </table>
+                <p>Časopis <hi rend="italic">Gorenjec</hi> poroča, da je bilo do konca junija 1915
+                    izplačanih v avstrijskih deželah skupno 513 milijonov kron<note place="foot"
+                        xml:id="ftn32" n="29">Brigitte Biwald je v svoji objavljeni disertaciji
+                        podala izračun vrednosti avstro-ogrske krone glede na vrednost avstrijskega
+                        schillinga v letu 2002, iz katerega lahko preračunamo vrednost krone v
+                        evrsko protivrednost. Iz podatkov je razvidno, da je bila krona v letih 1914
+                        in 1915 vredna 3,8 EUR, leta 1916 3,2 EUR, leta 1917 2,5 EUR in leta 1918
+                        1,8 EUR. Pri tem je potrebno poudariti, da je vrednost krone seveda
+                        relativna na draginjo in višino plač v monarhiji. Več v: Brigitte Biwald,
+                            <hi rend="italic">Von Helden und Krüppeln, Das österreich – ungarische
+                            Militärsanitätswesen im Ersten Weltkrieg</hi> (Militärgeschichtliche
+                        Dissertation, vol. 14) (Wien: Öbv &amp; Hpt, 2002).</note> preskrbnin, od
+                    tega na Štajerskem 21 milijonov, na Koroškem 7, na Kranjskem 10, na Primorskem
+                    pa 32 milijonov kron.<note place="foot" xml:id="ftn33" n="30">»Državna podpora
+                        za družine vpoklicancev,« <hi rend="italic">Gorenjec</hi>, 3. 9. 1915,
+                        3.</note> Toda ti visoki zneski niso zadostovali za učinkovito preskrbo.
+                    Cesar je z odredbo že oktobra 1914 pooblastil vlado, da je lahko sama upravljala
+                    z gospodarstvom. Ko je bil julija 1917 objavljen še zakon o polnomočju vlade, je
+                    bilo uvedeno popolno vojno gospodarstvo. Avstro-Ogrska je po nemškem zgledu
+                    ustanovila centrale za pridobivanje in razdeljevanje potrošnih dobrin.<note
+                        place="foot" xml:id="ftn34" n="31">Šorn, »Slovenci«, 67.</note> Kljub uvedbi
+                    vojnega gospodarstva pa so cene dobrin začele hitro naraščati. V časopisu <hi
+                        rend="italic">Domovina</hi> je neimenovani pisec slikovito zapisal: »<hi
+                        rend="italic">V Avstriji imamo dvojne cene: maksimalne, to so uradne, in pa
+                        zasebne. Niti prve, niti druge niso v skladu z gospodarskim položajem. Prve
+                        so prenizke, druge pa previsoke</hi>.«<note place="foot" xml:id="ftn35"
+                        n="32">»Kake cene bi bile, ako bi se vojska sedaj končala,« <hi
+                            rend="italic">Domovina</hi>, 13. 9. 1918, 5.</note></p>
+                <p>Že 7. decembra 1914 je izšel razglas deželne vlade za Kranjsko, s katerim so bile
+                    določene najvišje cene za trgovino z žitom in moko na veliko. Po razglasu je
+                    veljalo, da 100 kg fine pšenične moke za kuho ne sme preseči 69,50 K, medtem ko
+                    cena moke za peko kruha ne sme preseči 48,70 K. Najcenejša je bila koruzna moka,
+                    saj je bila najvišja dovoljena cena za 100 kg 37 K.<note place="foot"
+                        xml:id="ftn36" n="33">»Razglas c.kr. deželne vlade za Kranjsko z dne 7.
+                        decembra 1914,« <hi rend="italic">Dolenjske novice</hi>, 11. 12. 1914,
+                        143.</note> Še leta 1918 je veljala odredba deželne vlade z dne 14. maja
+                    1916, po kateri je bila maksimalna cena 100 kg fine pšenične moke za kuho 90 K,
+                    za peko pa 110 K. Koruzna moka je med tem dosegala ceno 52 K za 100 kg.<note
+                        place="foot" xml:id="ftn37" n="34">»Blagovno poročilo,« <hi rend="italic"
+                            >Kmetovalec</hi>, 31. 12. 1917, 209.</note> A kot je zapisal pisec iz
+                    časopisa <hi rend="italic">Domovina</hi>, so bile nabavne cene precej višje in
+                    ljudje so poleti 1918 plačevali desetkrat ali celo petnajstkrat višje cene od
+                    navedenih maksimalnih cen leta 1914. Na Koroškem naj bi bile te cene celo
+                    dvajsetkrat višje.<note place="foot" xml:id="ftn38" n="35">Šorn, »Slovenci«,
+                        67.</note> Časopis <hi rend="italic">Slovenski gospodar</hi> je marca 1917
+                    zapisal, da ob »<hi rend="italic">draginji, ko so se živila podražila za 300 %
+                        in celo več, podpora nikakor ni več zadostna</hi>.« Ker je zakon zahteval,
+                    da se preskrbnine odrejajo glede na višino državne odškodnine, ki je določena za
+                    vojaško preskrbo (rekvizicije imetja za vojne namene), ki so bile nazadnje
+                    povišane leta 1916, je neimenovani pisec v članku še zahteval, da se na osnovi
+                    zvišanja zvišajo tudi državne preskrbnine: »<hi rend="italic">Premalo dobivajo
+                        posebno žene, ki so ali same ali imajo le par otrok. Ako je družina večja,
+                        se nabere skupaj svota, ki tudi v tej draginji vendar nekaj
+                        zaleže.</hi>«<note place="foot" xml:id="ftn39" n="36">»Vojne podpore in
+                        preživnine,« <hi rend="italic">Slovenski gospodar</hi>, 29. 3. 1917,
+                        1−2.</note> Tako so se po številnih pozivih 27. junija 1917<note
+                        place="foot" xml:id="ftn40" n="37"><hi rend="italic">Državni zakonik</hi>,
+                        zakon št. 313, 29. 7. 1917, 755−58.</note> zaradi draginje in splošne
+                    inflacije zneski preskrbnin morali zvišati, hkrati pa so se tudi precej bolj
+                    poenotili.</p>
+                <table rend="rules">
+                    <head>Tabela 3: Dnevni preskrbninski zneski, odrejeni za leto 1917</head>
+                    <row role="label">
+                        <cell rows="2"/>
+                        <cell rows="2">Preskrbninska pristojbina za odrasle osebe leta 1917</cell>
+                        <cell cols="2">Preskrbninska pristojbina za mlajše od 8 let leta 1917</cell>
+                    </row>
+                    <row role="label">
+                        <cell>V lastniškem stanovanju</cell>
+                        <cell>V najemniškem stanovanju</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Ljubljana, Trst, Celovec in pred vojno živeči na
+                            zasedenih ozemljih ter na Ogrskem</cell>
+                        <cell>1,80 K</cell>
+                        <cell>90 vin</cell>
+                        <cell>1,80 K</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Slovensko podeželje</cell>
+                        <cell>1,60 K</cell>
+                        <cell>80 vin</cell>
+                        <cell>1,60 K</cell>
+                    </row>
+                    <row>
+                        <cell role="label">Pred vojno živeli v Nemčiji ali inozemstvu</cell>
+                        <cell>2 K</cell>
+                        <cell>1 K</cell>
+                        <cell>2 K</cell>
+                    </row>
+                    <note type="trailer" n="">Vir: »Kdo naj se še zglasi za državni preživljenski
+                        (vzdrževalni) prispevek,« <hi rend="italic">Kmetovalec</hi>, 31. 3. 1918,
+                        46.</note>
+                </table>
+                <p>A tudi ti povišani zneski še zdaleč niso zadostovali za minimalni življenjski
+                    standard, četudi so upravičenci še sami poskušali zaslužiti dodatni denar.
+                    Podražitve so bile namreč hitrejše in višje od zvišanja preskrbnin ali plač.
+                    Zapis cen v Ljubljani leta 1918 v Uršulinski vojni kroniki nam ponuja vpogled v
+                    to, koliko je oseba lahko dobila za dnevni znesek preskrbnine. Kilogram moke je
+                    stal denimo 3 K, 65 dkg sladkorja 1,60 K, eno jajce 1,40 K, liter mleka pa 1,60
+                    K. Že zneski povsem osnovnih živil kažejo na izjemno draginjo ter majhnost
+                    preskrbninskih zneskov, če pa jim dodamo še cene obutve in oblačil, pa naenkrat
+                    postanejo ti zneski povsem zanemarljivi. Glede na Uršulinsko kroniko je par
+                    čevljev stal med 200 in 300 K, meter blaga srednje kakovosti za žensko obleko pa
+                    50 K.<note place="foot" xml:id="ftn42" n="38">AULJ, fasc. 9, Klementina
+                        Kastelec, Vojna kronika 1914−1918, 50.</note></p>
+                <p>Kot smo že omenili, so morali upravičence za prejem preskrbnin po zakonu iz leta
+                    1908 imenovati vojaki sami. A to se je zgodilo le v primeru, da so imeli za to
+                    opravilo dovolj časa, preden so morali odriniti na fronto. Če časa ni bilo
+                    dovolj, so ga lahko zahtevali tudi žena in otroci sami, in sicer na občinskem
+                    uradu, kjer so imeli stalno prebivališče. Rok oddaje prošenj je bil zelo
+                    pomemben, saj so morale te biti oddane takoj po vpoklicu, če jih je vojak oddal
+                    sam oz. neposredno po odhodu na bojišče, če je vlogo oddala družina.<note
+                        place="foot" xml:id="ftn43" n="39">»Kdo naj se še zglasi za državni
+                        preživljenski (vzdrževalni) prispevek?,« <hi rend="italic">Kmetovalec</hi>,
+                        31. 3. 1918, 45−46.</note> Tisti, ki so bili od preskrbnin v veliki meri
+                    odvisni, tovrstnih rokov niti niso potrebovali, saj so poročali o vrstah pred
+                    občinskimi uradi že neposredno po izbruhu vojne. Ivan Lah je v svojih spominih
+                    denimo zapisal: »<hi rend="italic">Sedela sva s tovarišem v mali sobi starega
+                        ljubljanskega magistrata v prvem nadstropju. Ura je kazala pol poldne in
+                        bilo jih je še mnogo. Tako je bilo dan na dan, odkar se je začela vojna.
+                        Pisal sem v oddelku za podporo žen, katerih možje so bili poklicani na
+                        orožje. Prišel sem v ta oddelek tretji dan po začetku vojne. /…/ Pokazalo se
+                        je takoj, da se poleg vojne začenja tudi težak notranji boj. Vpoklicani so
+                        bili možje – delavci, gospodarji, obrtniki – in cela družina je ostala brez
+                        dohodkov. Mnogo družin je živelo od tega, kar je koncem tedna prinesel domov
+                        oče-gospodar. Sedaj je oče odšel – in beda je zazijala nasproti. Ženske so
+                        jokale. Komisija ni mogla vseh prošenj hkrati rešiti, treba je bilo čakati.
+                        Prišel je teden in ni bilo niti zaslužka niti podpore. /…/ Kjer je bila
+                        družina obilna – je bila tudi vsota precej visoka – in živelo bi se bilo za
+                        silo, da ni nastal draginja. Pritožb in težav je bilo dovolj. Nekatere
+                        ženske niso mogle dobiti nobenih potrebnih dokazov – in podpora se je
+                        zakasnila. /…/ Zgodilo se je, da so dobili podporo ljudje, ki so imeli vsega
+                        dovolj – mnogi drugi, ki so bili potrebni, so dobili komaj za prosto
+                        življenje. Tako je imel oddelek mnogo dela. V teku treh mesecev sem videl
+                        vojno od te strani</hi>.«<note place="foot" xml:id="ftn44" n="40"> Lah, <hi
+                            rend="italic">Knjiga spominov: ječe – moja pot – dan 1914</hi>
+                        (Ljubljana: Tiskovna zadruga, 1925), 5−6.</note></p>
+                <p>Podobne slike je bilo bržkone mogoče videti tudi po drugih krajih habsburške
+                    monarhije. Na občinskih uradih so morali prosilci izpolniti obrazec in priložiti
+                    potrebne dokumente, s katerimi so dokazovali sorodstveno razmerje z vpoklicanim
+                    vojakom (poročni ali krstni list). Od tu je bila njihova prošnja z vsemi
+                    dokazili poslana okrajnemu glavarstvu, kjer so vloge prevzele posebne deželne
+                    komisije. Te so bile podrejene Ministrstvu za deželno brambo.<note place="foot"
+                        xml:id="ftn45" n="41"><hi rend="italic">Državni zakonik</hi>, zakon št. 238,
+                        31. 12. 1912, 1204.</note> Komisije so bile aktivirane neposredno po
+                    avstrijski vojni napovedi Srbiji. Na Štajerskem je bila aktivirana deželna
+                    komisija za vzdrževanje v Gradcu, kateri so bile podrejene komisije v posameznih
+                    političnih okrajih. V mestni občini Trst sta bili ustanovljeni dve komisiji za
+                    vzdrževanje. Prva je obravnavala prošnje tistih prosilcev, katerih začetnice
+                    priimkov so imele črke od A do J, druga pa je obravnavala prošnje prosilcev,
+                    katerih začetnice priimkov so se začele od črke K do Ž. Podrejene komisije so
+                    bile v vsakem okrožju, pri čemer je bila okrožna komisija mestne občine Rovinj
+                    združena s komisijo v Pulju, v mestu Gorica pa je bila komisija za celotno
+                    goriško pokrajino. Na Koroškem je bil sedež deželne komisije v Celovcu.<note
+                        place="foot" xml:id="ftn46" n="42">SI AS 33, fasc. 20, 36 Podporna komisija,
+                        Zl. 23759, 3. 8. 1914, An alle k.k. Bezirkshauptmannschaften in Krain und an
+                        den Stadtmagistrat in Laibach.</note> Na Kranjskem je izpričana deželna
+                    komisija za vzdrževanje v Ljubljani, podrejene pa so ji bile komisije v vsakem
+                    izmed okrajev.</p>
+                <p>Besedilo zakona iz leta 1912 ponavlja, da v primeru smrti mobiliziranca
+                    upravičenci dobivajo enako preskrbnino še nadaljnjih šest mesecev po njegovi
+                    smrti. Vendar pa v zakonu ni izrecno zapisano, ali lahko upravičenci po preteku
+                    omenjenih šestih mesecev zaprosijo za vnovično odmero preskrbnine oz. pokojnine
+                    po zakonu iz leta 1882. A tam, kjer molči zakon, spregovori časopisje, saj lahko
+                    v časopisu <hi rend="italic">Slovenec</hi> preberemo, da so po pretečenih šestih
+                    mesecih družine upravičene do »<hi rend="italic">zelo majhne t. i. vojaške
+                        preskrbe</hi>.«<note place="foot" xml:id="ftn47" n="43">»Preskrbnina za
+                        družine vpoklicanih,« <hi rend="italic">Slovenec</hi>, 30. 7. 1914,
+                        naslovnica.</note> Pogled v druge vire nam narekuje tudi zneske te vojaške
+                    preskrbe oz. pokojnine. Te so se odmerjale glede na čin padlega vojaka ter glede
+                    na dejstvo, ali je vojak umrl na bojišču oz. v roku enega leta za posledico ran,
+                    ki jih je dobil na bojišču, ali pa za posledicami bolezni, za katero je zbolel
+                    na bojišču. Ne glede na razlog za smrt so bili zneski pokojnin prenizki, da bi
+                    omogočali dostojno življenje.</p>
+                <table rend="rules">
+                    <head>Tabela 4: Prikaz zneskov mesečne vdovske pokojnine za leto 1914</head>
+                    <row role="label">
+                        <cell rows="2">VDOVA</cell>
+                        <cell cols="2">ZNESEK MESEČNE VDOVSKE POKOJNINE V LETU 1914, ČE JE:</cell>
+                    </row>
+                    <row role="label">
+                        <cell>Vojak padel na fronti oz. za posledicami ran, ki jih je dobil med
+                            bojem</cell>
+                        <cell>Vojak umrl za boleznijo, za katero je zbolel na fronti</cell>
+                    </row>
+                    <row>
+                        <cell>navadnega vojaka</cell>
+                        <cell>9 K</cell>
+                        <cell>6 K</cell>
+                    </row>
+                    <row>
+                        <cell>frajtarja </cell>
+                        <cell>12 K</cell>
+                        <cell>8 K</cell>
+                    </row>
+                    <row>
+                        <cell>korporala</cell>
+                        <cell>15 K</cell>
+                        <cell>10 K</cell>
+                    </row>
+                    <row>
+                        <cell>četovodje</cell>
+                        <cell>18 K</cell>
+                        <cell>12 K</cell>
+                    </row>
+                    <row>
+                        <cell>narednika </cell>
+                        <cell>22 K in 50 vin</cell>
+                        <cell>15 K</cell>
+                    </row>
+                    <row>
+                        <cell>narednika z višjo plačo</cell>
+                        <cell>30 K</cell>
+                        <cell>20 K</cell>
+                    </row>
+                    <row>
+                        <cell>kadeta</cell>
+                        <cell>37 K in 50 vin</cell>
+                        <cell>25 K</cell>
+                    </row>
+                    <note type="trailer" n="">Vir: »Koliko dobe vdove in sirote padlih vojakov?,«
+                            <hi rend="italic">Tobačni delavec</hi>, 16. 12. 1914, 2−3. »Pokojnina
+                        vdov in sirot za padlimi vojaki,« <hi rend="italic">Slovenec</hi>, 14. 10.
+                        1914, 4.</note>
+                </table>
+                <p>V primeru, da vdova ni bila zmožna zaslužiti dodatnih dohodkov za lastno
+                    preživljanje še na kakšen drug način, ji je država na dodeljeno pokojnino dodala
+                    še 8 K/mesečno. Do pokojnine pa ni imela pravice, če sta pred mobilizacijo z
+                    možem živela ločeno, razen če je uspela dokazati, da je bil za ločitev kriv mož.
+                    Če se je vdova ponovno poročila, je prenehala dobivati vdovsko pokojnino, vendar
+                    pa je dobila še zadnji pokojninski znesek v višini dvanajstih mesečnih
+                        pokojnin.<note place="foot" xml:id="ftn50" n="44"><hi rend="italic">Državni
+                            zakonik</hi>, ukaz št. 161, 15. 6. 1915, 267.</note> Pokojnine oz.
+                    vzgojevalnine po očetih so dobivali le tisti otroci, ki so bili zakonski –
+                    nezakonski, vendar priznani otroci so bili upravičeni le do preskrbnin, a le v
+                    primeru, da jih mati ali drugi skrbniki niso zmogli vzdrževati, oz. v primeru,
+                    da se niso mogli preživljati sami.<note place="foot" xml:id="ftn51" n="45"
+                        >Ibid.</note> Vzgojevalnine za otroke so prejemale matere oz. zakoniti
+                    skrbniki. </p>
+                <p>Pokojnina pa je bila dodeljena tudi tistim vdovam, katerih možje so umrli zaradi
+                    poškodbe, ki so jo dobili v vojni, a so bili že demobilizirani, oz. zaradi
+                    bolezni, ki jo je povzročilo služenje v vojni. Težava pa je nastala takrat, ko
+                    je bil vojak demobiliziran, vendar zaradi poškodbe ali bolezni ni mogel na delo,
+                    družina pa ni bila več upravičena do preskrbnine. 12. junija 1915 je bil zaradi
+                    tovrstne diskrepance sprejet državni zakon, s katerim je bilo odrejeno, da se še
+                    naprej izplačujejo vsi prispevki, če je demobiliziranec poškodovan ali bolan.
+                    Zakon je veljal tudi v primerih, če je minilo več kot šest mesecev od smrti oz.
+                    izginotja mobiliziranca, vdovska pokojnina pa še ni bila odmerjena.<note
+                        place="foot" xml:id="ftn52" n="46">Ibid. »Vojaška preskrba vdov in sirot v
+                        vojni ali vsled vojne padlih, umrlih in pogrešanih vojaških oseb,« <hi
+                            rend="italic">Občinska uprava</hi>, februar 1917, 16−17.</note></p>
+                <p>Pokojnine in vzgojevalnine po pokojnih vojakih je upravičencem podeljevalo
+                    finančno ministrstvo na Dunaju, pokojne po padlih deželnih brambovcih in
+                    pripadnikih črne vojske pa ministrstvo za deželno brambo na Dunaju. Zneske do
+                    1000 K so upravičenci lahko dvignili v poštnem uradu ob predložitvi »plačilnega
+                    nakazila«. Vsako leto novembra so morali upravičenci poslati ministrstvom
+                    naslednje podatke:</p>
+                <list type="unordered">
+                    <item>če vdova ni zmogla poleg pokojnine ničesar sama zaslužiti in je dobivala
+                        dodatni znesek poleg pokojnine v vrednosti 96 K letno (8 K/mesečno), je
+                        morala predložiti potrdilo o lastnini in potrdilo zdravnika, da ni zmožna
+                        opravljati dela (veljalo je tudi, če ni zmogla delati zaradi vzgoje
+                        otrok);</item>
+                    <item>prejemniki vzgojevalnin so morali od pristojnega občinskega urada
+                        predložiti izjavo, da so sirote še žive, da so nepreskrbljene in da so v
+                        njihovi oskrbi.</item>
+                </list>
+                <p>Sicer pa se je po odprtju fronte z Italijo v začetku leta 1916 in veliki draginji
+                    osnovnih potrebščin razširil krog upravičencev do preskrbnin. Poleg žena in
+                    otrok oz. staršev, če je bil mobiliziranec samski, so imeli po dopolnilih
+                    pravico do preskrbnin tudi krušni starši, pastorki, ženini morebitni nezakonski
+                    otroci, katerih oče ni bil mobiliziranec, je bil pa njihov skrbnik, starši
+                    nezakonske matere vpoklicanega, otroci, rojeni po mobilizaciji očeta, ter tiste
+                    žene, ki so se z mobilizirancem poročile po njegovi mobilizaciji v času
+                    vojaškega dopusta.<note place="foot" xml:id="ftn53" n="47">»Vzdrževalne podpore
+                        družinam vpoklicanih,« <hi rend="italic">Slovenski gospodar</hi>, 17. 2.
+                        1916, 2.</note> Kljub razširitvi kroga upravičencev pa so se med prosilci za
+                    preskrbnine, pokojnine in vzgojevalnine pogosto pojavljale tudi osebe, ki so jim
+                    komisije odrekle podporo. Tudi kritike časopisja so bile neizprosne, saj so
+                    trdili, da je bilo podeljevanje preskrbnin odvisno od tega: <hi rend="italic"
+                        >»…kakšni gospodje so bili v komisiji, kakšnemu orožništvu je bil kdo
+                        podrejen in kakšnega prijatelja je posamezni prosilec imel, da se je zanj
+                        pri komisiji potegnil. Ljudje zunaj, ki so razmere od blizu poznali, so
+                        mnogokrat drugače sodili, kakor gospodje pri komisijah</hi>.«<note
+                        place="foot" xml:id="ftn54" n="48">»Vojne podpore in preživnine,« <hi
+                            rend="italic">Slovenski gospodar</hi>, 29. 3. 1917, 2.</note> Ti
+                    nezadovoljni posamezniki so se po nadaljnjo pomoč vedno znova obračali na
+                    občinsko upravo, pogosto tudi neposredno na župane.</p>
+                <p>Časopis <hi rend="italic">Občinska uprava</hi> piše, da so se žene pritoževale
+                    nad tem, da same niso upravičene do podpore, soseda pa jo dobiva, kljub temu da
+                    je njeno gmotno stanje boljše, ali pa, da dobiva preskrbnino, vendar je ta
+                    prenizka itd. Občinska uprava je za razreševanje teh dilem uvedla rubriko, v
+                    kateri je poročala o razsodbah c. kr. upravnega sodišča, ki je odločalo o
+                    pritožbah.</p>
+                <p>Marca 1916 je sodišče denimo presodilo, da do preskrbnin niso upravičene tiste
+                    družine, katerih možje in očetje so stopili v vojaško službo pred letom 1912 in
+                    zato niso bili mobilizirani. Ker jih je sodišče smatralo kot poklicne vojake,
+                    njihove družine niso bile upravičene do preskrbnine.</p>
+                <p>V drugi sodbi je sodišče odločalo o ženi in hčeri, ki sta se pritožili na odločbo
+                    komisije. 3. člen zakona iz leta 1912 je narekoval, da do preskrbnin niso
+                    upravičene tiste družine, katerih mož ali oče prejema svojo plačo tudi po
+                    mobilizaciji. Na podlagi tega člena je pristojna komisija odločila, da do
+                    preskrbnine nista upravičeni žena in hči, ki sta ob mobilizaciji moža in očeta
+                    prevzeli njegovo dotedanjo službo skladiščnika. Za delo sta obe dobivali plači,
+                    ki sta skupno znašali višino mobilizirančeve enotne plače. Tako je komisija
+                    presodila, da prosilki dobivata njegovo plačo, čeprav sta bili sami zaposleni.
+                    Upravno sodišče pa je presodilo, da se odločitev komisije razveljavi, saj ne
+                    prejemata plače mobiliziranca, temveč svojo plačo.</p>
+                <p>Prav tako je upravno sodišče lahko presodilo, da se razveljavi odločitev
+                    pristojne komisije, da do preskrbnine ni upravičena družina, ki je prevzela obrt
+                    mobiliziranca. Namesto njega je usnjarsko obrt zdaj vodil njegov pomočnik, ki je
+                    prejemal mesečno plačo 250 K. Sodišče je odločilo, da komisija pred izdajo
+                    sklepa ni upoštevala zvišanja stroškov za plačo pomočnika, razliko o višini
+                    donosa obrti pred vpoklicem in po njem, ter ali lahko skupni donos od obrti
+                    preživi svojce vpoklicanega. Zato je sodišče v sodbi naložilo zadevo v ponovno
+                        odločanje.<note place="foot" xml:id="ftn55" n="49">»Razsodbe c.kr. upravnega
+                        sodišča glede prispevkov za preživljanje svojcem vpoklicanih,« <hi
+                            rend="italic">Občinska uprava</hi>, avgust 1916, 33.</note></p>
+                <p>Mnogokrat pa so nezadovoljni upravičenci poskušali sami »popraviti krivico« z
+                    goljufijo. Kazenski spisi deželnega sodišča v Ljubljani pričajo, da so bili taki
+                    primeri pogosti. Za primer vzemimo le enega: 27. junija 1916 je bila na sodišče
+                    podana obtožnica zoper Marijo Eržen, roj. Ceferin iz Leskovice v današnji občini
+                    Gorenja vas – Poljane. Obtožnica jo je bremenila, da je sama ponaredila vsoto na
+                    plačilnem nalogu preskrbnine z 1,40 K na 2,40 K. Na podlagi te poneverbe naj bi
+                    obtožena v roku šestih mesecev pridobila 200 K preveč izplačane preskrbnine. A
+                    sodišče je na koncu obtožnico ovrglo, saj tožilec ni zmogel zbrati dovolj
+                    dokazov. Sodišče je tako ugotovilo, da je obtožena obiskovala le nekaj razredov
+                    šole, da zna slabo brati in pisati, ter da je po pogovoru s prijateljico prišla
+                    do zaključka, da dobiva tako veliko vsoto, ker mora plačevati še najemnino. Iz
+                    navedenih razlogov je sodišče sklenilo, da ni dovolj dokazov, da bi jo obsodilo
+                    zaradi hudodelstva goljufije.<note place="foot" xml:id="ftn56" n="50">SI AS 307,
+                        šk. XXV, akt 158, Strafsache gegen Maria Eržen.</note></p>
+            </div>
+            <div>
+                <head>Namesto zaključka</head>
+                <p>Poleg preskrbnin družinam mobiliziranih ter pokojnin družinam padlih vojakov je
+                    država iz vojaško-taksnega zaloga izplačevala še nekatere druge preskrbnine.
+                    Posebej pomembne so bile preskrbnine za invalide ter njihove svojce. Ti so
+                    postali upravičeni do denarne pomoči s cesarsko odredbo, izdano 12. junija
+                        1915,<note place="foot" xml:id="ftn57" n="51"><hi rend="italic">Državni
+                            zakonik</hi>, ukaz št. 161, 15. 6. 1915, 267.</note> vendar je šlo za
+                    precej nizke zneske. Država jih je zvišala šele 28. marca 1918.<note
+                        place="foot" xml:id="ftn58" n="52"><hi rend="italic">Državni zakonik</hi>,
+                        zakon št. 119, 31. 3. 1918, 291−292.</note> Do preskrbnine so bili
+                    upravičeni tisti, ki so postali zaradi posledic služenja v vojski vsaj 20 %
+                    invalidi, ter njihovi sorodniki, med katere so prištevali ženo, zakonske in
+                    nezakonske otroke, starše in krušne starše ter stare starše. Preskrbnina se ni
+                    podeljevala le kot prispevek za nabavo hrane, stanovanja in oblačil, temveč tudi
+                    za stroške zdravljenja in izobraževanja otrok. Za invalidnine so upravičenci
+                    vlagali prošnje na lokalnih občinskih uradih, o upravičenosti pa so kot pri
+                    ostalih preskrbninah odločale deželne komisije za vzdrževanje.</p>
+                <table rend="rules">
+                    <head>Tabela 5: Mesečne invalidnine in preskrbnine za svojce invalidov glede na
+                        odstotek invalidnosti za leto 1918</head>
+                    <row role="label">
+                        <cell rows="3">Stopnja invalidnosti</cell>
+                        <cell cols="2">Vojni invalidi</cell>
+                        <cell cols="2">Svojci vojnih invalidov</cell>
+                    </row>
+                    <row role="label">
+                        <cell>V Ljubljani</cell>
+                        <cell>Na podeželju</cell>
+                        <cell>V Ljubljani</cell>
+                        <cell>Na podeželju</cell>
+                    </row>
+                    <row role="label">
+                        <cell>K(ron)</cell>
+                        <cell>K</cell>
+                        <cell>K</cell>
+                        <cell>K</cell>
+                    </row>
+                    <row>
+                        <cell>100 %</cell>
+                        <cell>81</cell>
+                        <cell>72</cell>
+                        <cell>54</cell>
+                        <cell>48</cell>
+                    </row>
+                    <row>
+                        <cell>60-100 %</cell>
+                        <cell>54</cell>
+                        <cell>48</cell>
+                        <cell>54</cell>
+                        <cell>48</cell>
+                    </row>
+                    <row>
+                        <cell>40-60 %</cell>
+                        <cell>45</cell>
+                        <cell>42</cell>
+                        <cell>45</cell>
+                        <cell>42</cell>
+                    </row>
+                    <row>
+                        <cell>20-40 %</cell>
+                        <cell>30</cell>
+                        <cell>30</cell>
+                        <cell>30</cell>
+                        <cell>30</cell>
+                    </row>
+                    <note type="trailer" n="">Vir: »Državna podpora invalidom, njihovim svojcem in
+                        svojcem v vojni padlih ali vsled vojne umrlih oseb,« <hi rend="italic"
+                            >Samouprava</hi>, maj 1918, 52.</note>
+                </table>
+                <p>17. avgusta 1917 je bil sprejet še <hi rend="italic">Zakon o podpiranju rodbin,
+                        kojih redniki se zadržujejo v sovražnem inozemstvu ter rodbin ladijskih
+                        moštev trgovinske mornarice, katerim se ni bilo več mogoče vrniti iz
+                        nevtralnih dežel</hi>.<note place="foot" xml:id="ftn60" n="53">»Gesetz vom
+                        17. August 1917, betreffend die Unterstützung von Familien, deren Ernährer
+                        im feindlichen Ausland angehalten warden, sowie der Familien der
+                        Schiffsbemannungen der Handelsmarine, denen die Rückkehr aus den neutralen
+                        Ländern nicht mehr möglich war,« v: <hi rend="italic">Državni zakonik</hi>,
+                        zakon št. 376, 14. 9. 1917, 1031.</note> Zakon je določal, da so do
+                    preskrbnine upravičeni svojci tistih avstrijskih državljanov, ki so zaradi vojne
+                    prisilno zadržani na sovražnem ozemlju, iz katerega zdaj ne morejo več pošiljati
+                    sredstev za preživljanje svojcev. Višina dodeljene preskrbnine je bila enaka
+                    preskrbnini, ki so jo prejemali svojci mobiliziranih vojakov. Posamezniki so
+                    prošnje za te preskrbnine vložili na svoji občini, o njej pa je nato odločalo
+                    c.kr. okrajno glavarstvo v soglasju z davčnim oblastvom.<note place="foot"
+                        xml:id="ftn61" n="54">»Državna podpora svojcem, ki imajo svoje rednike v
+                        Ameriki,« <hi rend="italic">Občinska uprava</hi>, december 1917,
+                    136.</note></p>
+                <p>Vendar pa so bile preskrbnine tudi tema tistih posameznikov in skupin, ki niso
+                    verjeli, da lahko žene odgovorno trošijo podeljeni denar. V župnijski kroniki
+                    Križe tako denimo beremo: »<hi rend="italic">Velikanske podpore, ki jih sedaj
+                        dobivajo nekatere ženske, do 360K na mesec, še bolj tlačijo v materijo.
+                        Nekatere ženske se bodo utopile v pijači, čeravno je vino po 5K liter in še
+                        dražje…</hi>«<note place="foot" xml:id="ftn62" n="55">NŠAL, ŽA Križe, fasc.
+                        9, Razne knjige, Vojna kronika za Križ pri Tržiču 1914−1918, 30.</note> Prav
+                    borci zoper alkohol in alkoholizem so trdili, da preskrbnine kvarijo ženske in
+                    jim omogočajo vdajanje alkoholu. Duhovnik Janez Kalan je leta 1903 ustanovil
+                    protialkoholno zvezo Sveta vojska, ki je v svojih javnih zapisih večkrat svarila
+                    pred tovrstno moralno spornimi ženskami. V časopisu <hi rend="italic"
+                        >Domoljub</hi>, v članku, podpisanem z nazivom protialkoholne zveze »Sveta
+                    vojska«, tako denimo beremo: »<hi rend="italic">Velikokrat se sliši, kako da
+                        zdaj pridno pijančujejo nekatere žene, ki imajo može ali sinove pri vojakih,
+                        pa dobivajo podporo, da imajo s čim si ga privoščiti. Seveda ne vse, ampak
+                        nekatere. Take tudi govore ali pa vsaj same pri sebi mislijo: da bi le
+                        vojska še kaj dolgo trajala; tako dobro se nam še ni godilo nikoli kakor
+                        zdaj! Primerilo se je že, da se je taka ženska napila tako, da je obležala
+                        in so jo morali kot klado na voz naložiti in domu peljati. – Take osebe, ki
+                        državno podporo zlorabijo, bi morali poklicani faktorji povsod prav resno
+                        prejeti, in če ne pomaga, jim podporo odtegniti; kajti državna podpora je za
+                        potrebo, ne pa za potuho, da jo bodo morali davkoplačevalci s krvavimi žulji
+                        skupaj spravljati!</hi>«<note place="foot" xml:id="ftn63" n="56">»Štiri
+                        kitice znane pesmi,« <hi rend="italic">Domoljub</hi>, 5. 11. 1914,
+                        731.</note> Ženske pa so se tem obtožbam postavile po robu že v naslednji
+                    številki časopisa: »<hi rend="italic">Ne zdi se pa nam prav, da /…/ piše o nas
+                        ženskah tako, kot da bi bile žene prve med onimi, ki stoje v armadi pijancev
+                        in zapravljajo za alkohol državno podporo. /…/ S kraji in imeni na dan, ker
+                        take ženske, ki res sedaj pijančujejo, ne zaslužijo nobenega usmiljenja. Res
+                        je v tisti notici, ki govori o ženah-pijankah, rečeno ˝Seveda ne vse, ampak
+                        nekatere˝. Nam se pa zdi, da radi tistih malo ˝nekaterih˝ ni treba še pisati
+                        tako, da dobi hudoben, nasproten ali nagajiv človek priliko, da meče potem
+                        blato na vse žene. Kjer pa so taki slučaji, kjer so take izjeme, pa kar na
+                        dan z njimi. Prepričana sem, da jih ne bo med stotimi pet. Tudi o naših
+                        vojakih smo čitali, da se je ta ali oni napil do nezavesti, do smrti. Več
+                        takih slučajev je bilo objavljenih v časopisih. Ali pa moramo zato pisati
+                        »vojaki ga cukajo«. Ali smemo metati to v taki obliki, da se bo mislilo, da
+                        je večina vojakov takih.</hi>« V naslednjih vrsticah nepodpisana avtorica
+                    nadaljuje: »<hi rend="italic">Podpore dobivamo. Hvala Bogu! Kako bi mogle
+                        drugače shajati? Naša pota do podpore niso lahka. Tudi ta kruh je grenak in
+                        denarji mnogokrat prejemani s solzami. Vprašajte jih, koliko jim ostane.
+                        Davki, posli, otroci, draginja pri najpotrebnejših stvareh, vse to vzame
+                        mnogo. Poleg tega se jih pa dobi še dosti, ki gledajo z zavistjo na te
+                        prejete podpore in kažejo na vsak majhen pregrešek te ali one: poglejte,
+                        podporo dobiva, pa takole dela. Mnogo žen poznamo, ki ga ne »cukajo«, temveč
+                        iz podpor plačujejo dolgove, ki so jih napravili možje, ki so ga preveč
+                        »cukali«. O podporah bi se dalo marsikaj napisati! Pa recimo: hvala Bogu, da
+                        je vsaj to! Z mirno vestjo trdim, da ogromna večina naših žensk podpore prav
+                        in pametno porabi</hi>.«<note place="foot" xml:id="ftn64" n="57">»Za naše
+                        gospodinje. V obrambo naših žen,« <hi rend="italic">Domoljub</hi>, 12. 11.
+                        1914, 745−46.</note></p>
+                <p>Kljub stalnim kritikam, goljufijami, izigravanjem ter pritožbam nad sistemom
+                    preskrbnin in drugih socialnih pomoči za družine vojakov je Avstro-Ogrska
+                    razmeroma uspešno lajšala socialno stisko državljanov, predvsem pred začetkom
+                    prve svetovne vojne. Zato lahko zaključimo, da so bili avstro-ogrski zakoni za
+                    urejanje socialne varnosti namenjeni vojaštvu in njihovim svojcem, sicer po
+                    nemškem vzoru, eni izmed najbolj zgodnejših zakonov avstrijske socialne politike
+                    nasploh, predvsem pa je Avstro-Ogrska stopila v prvo svetovno vojno <hi
+                        rend="italic">pripravljena</hi> tudi na področju zagotavljanja vsaj
+                    minimalnih sredstev za preživljanje družin vojakov, s čimer si je zagotovila, da
+                    je vojaštvo laže, nikakor pa zlahka, zapuščalo svoje domove in se podalo na
+                    fronto.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <listBibl>
+                    <head>Arhivski viri:</head>
+                    <bibl>AULJ, Arhiv uršulinskega samostana Ljubljana, Klementina Kastelec.</bibl>
+                    <bibl>NŠAL, Nadškofijski arhiv Ljubljana, ŽA, Župnijski arhiv, Križe.</bibl>
+                    <bibl>SI AS, Arhiv Republike Slovenije, AS 33, Deželna vlada v Ljubljani.</bibl>
+                    <bibl>SI AS, Arhiv Republike Slovenije, AS 307, Deželno sodišče
+                        Ljubljana.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Časopisni viri:</head>
+                    <bibl>»Blagovno poročilo.« <hi rend="italic">Kmetovalec</hi>, 31. 12. 1917,
+                        209.</bibl>
+                    <bibl>»Domače stvari.« <hi rend="italic">Slovenski narod</hi>, 27. 7. 1878,
+                        3.</bibl>
+                    <bibl>»Državna podpora invalidom, njihovim svojcem in svojcem v vojni padlih ali
+                        vsled vojne umrlih oseb.« <hi rend="italic">Samouprava</hi>, maj 1918,
+                        51–53.</bibl>
+                    <bibl>»Državna podpora svojcem, ki imajo svoje rednike v Ameriki.« <hi
+                            rend="italic">Občinska uprava</hi>, december 1917, 136.</bibl>
+                    <bibl>»Državna podpora za družine vpoklicancev.« <hi rend="italic"
+                        >Gorenjec</hi>, 3. 9. 1915, 3.</bibl>
+                    <bibl>»Državne podpore družinam mobiliziranih.« <hi rend="italic">Slovenski
+                            gospodar</hi>, 30. 7. 1914, 4.</bibl>
+                    <bibl>»Državni zbor.« <hi rend="italic">Slovenski gospodar</hi>, 20. 3. 1902,
+                        3.</bibl>
+                    <bibl>»Kake cene bi bile, ako bi se vojska sedaj končala.« <hi rend="italic"
+                            >Domovina</hi>, 13. 9. 1918, 5.</bibl>
+                    <bibl>»Kdo naj se še zglasi za državni preživljenski (vzdrževalni) prispevek.«
+                            <hi rend="italic">Kmetovalec</hi>, 31. 3. 1918, 45–46.</bibl>
+                    <bibl>»Koliko dobe vdove in sirote padlih vojakov?« <hi rend="italic">Tobačni
+                            delavec</hi>, 16. 12. 1914, 2−3.</bibl>
+                    <bibl>»Krvni davek, vojaška taksa.« <hi rend="italic">Slovenski gospodar</hi>,
+                        19. 1. 1893, naslovnica.</bibl>
+                    <bibl>»Nova vojaška dača ali taksa.« <hi rend="italic">Slovenski gospodar</hi>,
+                        6. 5. 1880, naslovnica. </bibl>
+                    <bibl>»Novičar iz domačih in tujih dežel.« <hi rend="italic">Kmetijske in
+                            rokodelske novice</hi>, 31. 7. 1878, 246.</bibl>
+                    <bibl>»Pokojnina vdov in sirot za padlimi vojaki.« <hi rend="italic"
+                            >Slovenec</hi>, 14. 10. 1914, 4.</bibl>
+                    <bibl>»Postava o podporah za družine rezervistov.« <hi rend="italic"
+                            >Gorenjec</hi>, 29. 8. 1908, 1−2.</bibl>
+                    <bibl>»Preskrbnina za družine vpoklicanih.« <hi rend="italic">Slovenec</hi>, 30.
+                        7. 1914, naslovnica.</bibl>
+                    <bibl>»Prestolni govor.« <hi rend="italic">Slovenski gospodar</hi>, 1. 10. 1885,
+                        naslovnica.</bibl>
+                    <bibl>»Razglas c.kr. deželne vlade za Kranjsko z dne 7. decembra 1914.« <hi
+                            rend="italic">Dolenjske novice</hi>, 11. 12. 1914, 143.</bibl>
+                    <bibl>»Razsodbe c.kr. upravnega sodišča glede prispevkov za preživljanje svojcem
+                        vpoklicanih.« <hi rend="italic">Občinska uprava</hi>, avgust 1916,
+                        33.</bibl>
+                    <bibl>»Štiri kitice znane pesmi.« <hi rend="italic">Domoljub</hi>, 5. 11. 1914,
+                        731.</bibl>
+                    <bibl>»V Bosno.« <hi rend="italic">Slovenski narod</hi>, 27. 7. 1878, 2.</bibl>
+                    <bibl>»Vojaška preskrba vdov in sirot v vojni ali vsled vojne padlih, umrlih in
+                        pogrešanih vojaških oseb.« <hi rend="italic">Občinska uprava</hi>, januar
+                        1917, 3.</bibl>
+                    <bibl>»Vojaška preskrba vdov in sirot v vojni ali vsled vojne padlih, umrlih in
+                        pogrešanih vojaških oseb.« <hi rend="italic">Občinska uprava</hi>, februar
+                        1917, 16−17.</bibl>
+                    <bibl>»Vojaške takse.« <hi rend="italic">Kmetijske in rokodelske novice</hi>, 7.
+                        10. 1898, 392.</bibl>
+                    <bibl> »Vojne podpore in preživnine.« <hi rend="italic">Slovenski gospodar</hi>,
+                        29. 3. 1917, 1−2.</bibl>
+                    <bibl> »Za naše gospodinje: V obrambo naših žen.« <hi rend="italic"
+                            >Domoljub</hi>, 12. 11. 1914, 745−46.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Elektronski viri:</head>
+                    <bibl><hi rend="italic">Slovar slovenskega knjižnega jezika. </hi>Ljubljana:
+                        Inštitut Frana Ramovša, ZRC SAZU, 2000. Pridobljeno oktobra 2015. <ref
+                            target="http://bos.zrc-sazu.si/cgi/a03.exe?name=sskj_testa&amp;expression=postava&amp;hs=1"
+                            >http://bos.zrc-sazu.si/cgi/a03.exe?name=sskj_testa&amp;expression=postava&amp;hs=1</ref>.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Literatura:</head>
+                    <bibl>Biwald, Brigitte. <hi rend="italic">Von Helden und Krüppeln: Das
+                            österreich – ungarische Militärsanitätswesen im Ersten Weltkrieg.</hi>
+                        Militärgeschichtliche Dissertationen 14. Wien: Öbv &amp; Hpt, 2002.</bibl>
+                    <bibl>Morton, Desmond. <hi rend="italic">Fight or Pay: Soldiers' Families in the
+                            Great War.</hi> Vancouver: The University of British Columbia,
+                        2004.</bibl>
+                    <bibl>Lah, Ivan. <hi rend="italic">Knjiga spominov: ječe – moja pot – dan
+                            1914</hi>. Ljubljana: Tiskovna zadruga, 1925.</bibl>
+                    <bibl>Šorn, Jože. »Slovenci in gospodarski položaj v prvi svetovni vojni.« <hi
+                            rend="italic">Zgodovinski časopis</hi> 35, št. 1-2 (1981): 57−81.</bibl>
+                    <bibl>Oršolić, Tado. »Sudjelovanje dalmatinskih postrojbi u zaposjedanju Bosne i
+                        Hercegovine 1878.« <hi rend="italic">Radovi Zavoda povijestnih znanosti
+                            HAZU</hi> 42 (2000): 287−308.</bibl>
+                    <bibl><hi rend="italic">Uprašanja in odgovori o uravnavi vrednote</hi>. Gorica:
+                        Nat. in zal. Seitz, 1892.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Tiskani viri:</head>
+                    <bibl><hi rend="italic">Državni zakonik za kraljevine in dežele v državnem zboru
+                            zastopane. </hi>Dunaj: c. kr. Dvorna in državna tiskarna, 1880, 1882,
+                        1887, 1907, 1908, 1912, 1915, 1917, 1918.</bibl>
+                </listBibl>
+            </div>
+            <div type="summary" xml:lang="en">
+                <head type="main">MILITARY ALLOWANCES AND PENSIONS IN WORLD WAR I: LEGISLATION AND
+                    IMPLEMENTATION</head>
+                <head>SUMMARY</head>
+                <docAuthor>Kornelija Ajlec</docAuthor>
+                <p>With the mobilisation of the male population during World War I, the family
+                    maintenance dynamics changed. Besides their traditional roles as housewives and
+                    mothers, women also took over the financial responsibility for their families.
+                    They resorted to various survival strategies, which were often insufficient to
+                    provide for the family, and women were frequently simply incapable to perform
+                    any kind of work. In these cases the state provided help and offered them
+                    allowances and pensions if they proved eligible. These payments were often an
+                    essential addition and sometimes even the only contribution to the family
+                    budget. As such, the Austro-Hungarian monarchy was one of the most advanced
+                    participants of World War I, since the entire structure of social transfers had
+                    already been established when the war started.</p>
+            </div>
+        </back>
+    </text>
+</TEI>
