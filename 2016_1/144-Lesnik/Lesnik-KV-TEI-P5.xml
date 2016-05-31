@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Spopad »dveh Španij« z vidikov socialne strukture španske družbe in razrednih
+                    nasprotij v njej<note place="foot" xml:id="ftn2" n="1">Pričujoči prispevek je za
+                        objavo prirejen referat, ki sem ga imel na okrogli mizi z naslovom
+                        »Premišljevanja 75 let po koncu španske državljanske vojne« 15. 5. 2014 na
+                        Inštitutu za novejšo zgodovino v Ljubljani.</note></title>
+                <author>
+                    <name>
+                        <forename>Avgust</forename>
+                        <surname>Lešnik</surname>
+                    </name>
+                    <roleName>dr.</roleName>
+                    <roleName>redni profesor</roleName>
+                    <affiliation>
+                        <orgName>Filozofska fakulteta</orgName>
+                        <orgName>Univerza v Ljubljani</orgName>
+                        <address>
+                            <addrLine>Aškerčeva 2</addrLine>
+                            <addrLine>SI-1000 Ljubljana</addrLine>
+                        </address>
+                    </affiliation>
+                    <email>avgust.lesnik@ff.uni-lj.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2016-04-19</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/144</pubPlace>
+                <date>2016</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">56</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Spain</term>
+                    <term>Republic</term>
+                    <term>Civil War (1936–1939)</term>
+                    <term>social structure</term>
+                    <term>Falange</term>
+                    <term>Popular Front</term>
+                    <term>socialism</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>Španija</term>
+                    <term>Republika</term>
+                    <term>državljanska vojna (1936–1939)</term>
+                    <term>socialna struktura</term>
+                    <term>falanga</term>
+                    <term>Ljudska fronta</term>
+                    <term>socializem</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2016-04-19T11:11:29Z</date>
+                    <name>Andrej Pančur</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Avgust Lešnik<note place="foot" xml:id="ftn1" n="*">dr., redni profesor,
+                    Filozofska fakulteta, Univerza v Ljubljani, Aškerčeva 2, SI-1000 Ljubljana, <ref
+                        target="mailto:avgust.lesnik@ff.uni-lj.si"
+                    >avgust.lesnik@ff.uni-lj.si</ref></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="UDC">UDK: 94(460)"1923/1937"</idno>
+                <date>Prejeto 6. 1. 2015</date>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">V ospredju pričujoče razprave je analiza španske družbe v
+                        obdobju med prvo in drugo republiko (1875–1931), še posebej socialne
+                        strukture in razrednih nasprotij v njej, kakor tudi iskanje vzrokov, ki so
+                        pripeljali do nepomirljive politične polarizacije španske družbe v obdobju
+                        druge španske republike (1931–1936). Polarizacija je dosegla kulminacijo s
+                        parlamentarnimi volitvami 16. februarja 1936 in posledično vodila v
+                        državljansko vojno (1936–1939). Heterogenost republikanskega tabora Ljudske
+                        fronte je imela za posledico, da je bil španski socializem večstrankarski,
+                        pa tudi družbena revolucija leta 1936 je bila večstrankarska.</hi></p>
+                <p><hi rend="italic">Ključne besede: Španija, Republika, državljanska vojna
+                        (1936–1939), socialna struktura, falanga, Ljudska fronta,
+                    socializem</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head type="main">CONFLICT BETWEEN "THE TWO SPAINS" FROM THE VIEWPOINT OF THE SOCIAL
+                    STRUCTURE OF THE SPANISH SOCIETY AND CLASS OPPOSITIONS WITHIN IT</head>
+                <p><hi rend="italic">The following discussion focuses on the analysis of the Spanish
+                        society in the period between the First and the Second Republic (1875–1931),
+                        especially on the social structure and class oppositions within it as well
+                        as on identifying the causes leading to the irreconcilable political
+                        polarisation of the Spanish society during the Second Spanish Republic
+                        (1931–1936). The polarisation culminated in the parliamentary elections on
+                        16 February 1936 and consequently led to the Civil War (1936–1939). The
+                        heterogeneity of the republican camp of the Popular Front was the reason for
+                        the multi-party Spanish socialism as well as the multi-party nature of the
+                        social revolution of 1936.</hi></p>
+                <p><hi rend="italic">Keywords: Spain, Republic, Civil War (1936–1939), social
+                        structure, Falange, Popular Front, socialism</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>I.</head>
+                <p>V uvodu velja spomniti, da je španska državljanska vojna uradno trajala skoraj
+                    tri leta (od 17. julija 1936 do 1. aprila 1939) in je terjala – po različnih
+                    ocenah – od pol do enega milijona človeških žrtev. Obenem je ta vojaški spopad
+                    »dveh Španij« – militaristične in demokratične – globoko polariziral tako
+                    domačo/špansko kot svetovno javnost v tridesetih letih prejšnjega stoletja.
+                    Medtem ko so imele domače konservativne sile (aristokracija, falangisti,
+                    monarhisti, karlisti, katoliška cerkev idr.) ter vojaška hunta zaslombo v
+                    nemškem nacizmu in italijanskem fašizmu, je demokratična svetovna javnost
+                    aktivno podprla obrambo Španske republike, ki jo je vodila legalno izvoljena
+                    koalicija ljudske fronte (socialisti, republikanci, komunisti, anarhisti,
+                    anarhosindikalisti idr.). Hkrati je imel ta spopad simbolni pomen; medtem ko je
+                    za demokratično javnost predstavljal neomajno voljo za ohranitev demokracije in
+                    odpor zoper fašizem, je na drugi strani za evropsko desnico pomenil poslednji
+                    preizkus na poti k obračunu svetovnih razsežnosti. Toda tragika krvavega spopada
+                    za Pireneji ni le v tem, da levici ni uspelo ustaviti napadalnega pohoda
+                    desnice, pač pa v tem, da ga je posebej usodno opredelilo dejstvo, da sta se na
+                    španskih tleh spopadli tudi dve levici in dve videnji revolucije, komunistična
+                    in anarhistična, torej pristaši premišljene revolucionarne organizacije na eni
+                    in množične spontanosti na drugi strani.<note place="foot" xml:id="ftn3" n="2">O
+                        tem gl. Trivo Inđić, »Španski socijalizam i građanski rat 1936–1939: sukobi
+                        unutar pokreta i njihove pouke,« v: <hi rend="italic">Španjolska
+                            1936–1939</hi> (Zagreb: Jugoslavenska akademija znanosti i umjetnosti,
+                        Globus, 1986), 62–105. Na konferenci anarhističnih sindikatov (CNT) v
+                        Zaragozi (1922) so delegati večinsko zavrnili pristop k III. (Komunistični)
+                        internacionali – Kominterni z obrazložitvijo, da v »Rusiji ni uspela
+                        revolucija, temveč država, ki paralizira in zatira revolucijo« (prav tam,
+                        71). Od tedaj je uradna Moskva gojila nepomirljivo sovraštvo do španskih
+                        anarhistov, kar je usodno zaznamovalo njen netolerantni odnos do španske
+                        večstrankarske revolucije.</note></p>
+                <p>Da bi razumeli globlje vzroke tega širokega prizorišča vojnega spopada – če
+                    posplošimo – med taboroma protifašizma in reakcije, moramo vsekakor upoštevati
+                    tudi temeljno razvrstitev družbenih, ekonomskih in političnih silnic, ki so
+                    Španiji krojile usodo v tridesetih letih prejšnjega stoletja, tj. krepitev
+                    demokratičnega in republikanskega gibanja, reševanje agrarnega in narodnostnega
+                    vprašanja ter regionalne avtonomije, nadalje vprašanje odnosov med delom in
+                    kapitalom, vprašanje življenjske ravni najširših delovnih slojev prebivalstva in
+                    njihovega izobraževanja, oblikovanje Ljudske fronte idr. Vojaški udar (<hi
+                        rend="italic">pronunciamento</hi>)<note place="foot" xml:id="ftn4" n="3"
+                        >Vojaški udar je uradno vodila t. i. Zveza nacionalne obrambe (<hi
+                            rend="italic">Junta de Defensa Nacional</hi>), zato so vstajniki dobili
+                        ime nacionalisti.</note> generala Franca je namreč napovedal le končnico
+                    daljšega procesa in končnega obračuna med »dvema Španijama«, tj. med dvema
+                    antagonističnima stranema: med sproletariziranimi delavskimi in kmečkimi
+                    množicami ter zavezniškimi demokratičnimi sloji na eni strani in vladajočimi
+                    razredi zemljelastniške oligarhije, bogatega meščanstva, visoke duhovščine,
+                    monarhistov, militaristov in falangistov/fašistov na drugi strani.<note
+                        place="foot" xml:id="ftn5" n="4">Avgust Lešnik, »Jugoslawen in Spanischen
+                        Bürgerkrieg,« <hi rend="italic">JahrBuch für Forschungen zur Geschichte der
+                            Arbeiterbewegung</hi>, št. I (2006): 37.</note> Preprosto povedano, ni
+                    bilo več prostora za obe, tj. za tradicionalno, v preteklost zazrto Španijo, ter
+                    za Španijo pričakovane/želene socialne revolucije republikansko-proletarske
+                    smeri, ki naj bi razrešila nakopičena odprta socialno-ekonomska in regionalna
+                    vprašanja, ne nazadnje pa tudi pospešila procese demokratizacije in
+                    modernizacije.</p>
+            </div>
+            <div>
+                <head>II.</head>
+                <p>Vzroke, ki so vodili špansko družbo v skrajno politično polarizacijo, je treba
+                    iskati tako v njeni zgodovini kot v njeni razredni strukturi, pa tudi v njenih
+                    dveh ključnih institucijah, tj. Cerkvi in vojski, v njuni izjemni moči, statusu
+                    in vplivu, in še kaj bi lahko dodali. Seveda ne gre spregledati, da so bili
+                    nakopičeni družbeni problemi, s katerimi se je soočala Španija v tridesetih
+                    letih prejšnjega stoletja, plod tako specifičnosti njenega zgodovinskega razvoja
+                    kot nepripravljenosti vladajočih struktur, da bi jih smelo razrešile. V tem
+                    kontekstu velja spomniti, da Španija – nekoč gospodarica starega in novega sveta
+                    – velja z začetka 20. stoletja za arhaizem Zahoda. V svetu, ki se je začel
+                    uniformirati, je Španija otok tradicij in njeni vladarji si štejejo v zaslugo,
+                    da so znali kljub sodobnim političnim in gospodarskim tokovom ohraniti <hi
+                        rend="italic">hispanidad</hi> (»španstvo«, španske posebnosti, »španski
+                    duh«), kar se bo pokazalo – z vidika modernizacije in demokratizacije španske
+                    družbe – prej za oviro kot ne.</p>
+                <p>Da ne zaidemo predaleč v preteklost, naj tu opozorimo le, da je Španiji v zadnji
+                    četrtini 19. stoletja vladala t. i. liberalna monarhija, vzpostavljena leta 1875
+                    po 7-letni politični in družbeni nestabilnosti, ki so jo zaznamovale politične
+                    in strankarske napetosti med radikalnimi liberalci, konstitucionalisti in
+                    ultramonarhisti, ter kratkotrajno obdobje prve republike (1873–1874). Ta režim,
+                    temelječ na prevladi velike buržoazije in veleposestnikov, je prinesel obdobje
+                    političnega miru, saj sta se na oblasti menjavali po vnaprejšnjem dogovoru le
+                    dve glavni oligarhični stranki, liberalna in konservativna. Toda leta 1898 so
+                    vzpenjajoče se ZDA Španiji prizadejale ponižujoč vojaški in pomorski poraz na
+                    Karibih in Tihem oceanu; z njim je izgubila zadnje ostanke obsežnega imperija,
+                    osvojenega v 16. stoletju (Kubo, Portoriko, Filipine). Materialne izgube, ki jih
+                    je utrpela v tej katastrofi, so bile znatne, toda še hujši je bil psihološki
+                    udarec, saj so se Španci soočili z nesposobnostjo, zaostalostjo in neizogibnim
+                    drugorazrednim položajem svoje države. Za špansko monarhijo je leto 1898
+                    pomenilo znak za začetek dolgotrajnega procesa razpadanja, ki je dosegel vrhunec
+                    leta 1931, ko jo je nadomestila druga republika.<note place="foot" xml:id="ftn6"
+                        n="5">Martin Blinkhorn, <hi rend="italic">Demokracija in državljanska vojna
+                            v Španiji (1931–1939)</hi> (Ljubljana: Znanstveno in publicistično
+                        središče, 1995), 21.</note></p>
+                <p>V 19. stoletju je Španija dokončno izgubila imperialni položaj v svetu, pa tudi
+                    industrijska in liberalno-demokratična revolucija, ki sklene preobrazbo stare
+                    Evrope, se Španije komaj bežno dotakne.<note place="foot" xml:id="ftn7" n="6"
+                        >Pierre Broué in Émile Témime, <hi rend="italic">Španska revolucija in
+                            državljanska vojna</hi> (Ljubljana: Delavska enotnost, 1986), 24.</note>
+                    Statistike ocenjujejo, da je bilo na prehodu v 20. stoletje med 11 milijoni
+                    aktivnega prebivalstva 8 milijonov revežev (dninarji, mali kmetje – zakupniki,
+                    mali obrtniki, industrijski delavci in rudarji), ki jim je delo komaj
+                    zagotavljalo preživetje. Tem je sledilo 2 milijona ljudi srednjih razredov (pol
+                    premožni kmetje in mala buržoazija) ter milijon t. i. privilegirancev (veliki
+                    zemljiški posestniki, velika buržoazija, duhovščina, uradništvo, vojska,
+                    izobraženstvo).</p>
+                <p>Španija je bila v začetku 20. stoletja še vedno pretežno ruralno-agrarna država;
+                    s poljedelstvom se je ukvarjalo več kot 70 % njenega aktivnega prebivalstva.
+                    Postopoma se je razvijala tekstilna industrija v Kataloniji ter železarstvo,
+                    jeklarstvo in ladjedelništvo v Baskiji. Samo tam in na rudarskih območjih
+                    Asturije sta obstajala moderna buržoazija in industrijski delavski razred.
+                    Povsod drugod je bila Španija ne samo agrarna država, pač pa tudi močno zaostala
+                    in neproduktivna ter povrh vsega še nepravično družbeno urejena. Medtem ko so na
+                    velikih območjih južne Španije (Andaluzija, Extremadura, La Mancha) prevladovala
+                    ogromna zasebna posestva v lasti odsotnih latifundistov, ki so jih obdelovale
+                    množice brezupno revnih dninarjev brez zemlje, so bile za druge pokrajine
+                    značilne male družinske kmetije bodisi v zasebni lasti ali najemu, ki so
+                    životarile na robu preživetja.<note place="foot" xml:id="ftn8" n="7">Blinkhorn,
+                            <hi rend="italic">Demokracija in državljanska vojna v Španiji</hi>,
+                        22.</note> Zato seveda ne preseneča, da so bili kmečki nemiri, ki jih je
+                    dušila civilna garda, kronična značilnost življenja v Španiji. Agrarno vprašanje
+                    je postalo potemtakem velika skrb vseh tistih, ki so se trudili, da bi Španijo
+                    modernizirali in demokratizirali. Podatki so zelo zgovorni: leta 1931 je bilo
+                    dva milijona poljedelskih delavcev (dninarjev) brez zemlje, hkrati pa je imelo
+                    50.000 podeželskih plemičev v lasti polovico španskega ozemlja; medtem ko je
+                    imelo 10.000 posestnikov po več kot 100 hektarov zemlje, se je moralo milijon in
+                    pol malih posestnikov, katerih zemljišča ne presegajo hektara površine,
+                    preživljati na zemlji bogatih. Špansko zemljo je torej upravljala peščica
+                    veleposestnikov. Oligarhi, kakor so jih imenovali nasprotniki, so si znali v
+                    teku stoletij ohraniti bistvene privilegije in premoženje na škodo kmečkih
+                    množic. Monarhija je bila brez dvoma njihov režim, edini zares prikladen za
+                    njihove interese in težnje.<note place="foot" xml:id="ftn9" n="8">Broué in
+                        Témime, <hi rend="italic">Španska revolucija in državljanska vojna</hi>,
+                        26–28.</note></p>
+                <p>Splošno zaostalost Španije sta poosebljali in krepili še mogočni instituciji
+                    Cerkev in vojska. Resda je bila španska Cerkev z 80.000 duhovniki, menihi in
+                    nunami svojevrsten anahronizem, ki je sodil v srednji vek, vendar ne gre
+                    prezreti objektivnega dejstva, da je imela med vladajočimi strukturami izjemno
+                    ekonomsko in politično moč. »V nobeni drugi deželi ni Cerkev uživala toliko
+                    privilegijev kot v Španiji. V nobeni drugi deželi niso jezuiti tako popolnoma
+                    nadzorovali ljudske izobrazbe, in v nobeni drugi deželi ni bilo cerkveno imetje
+                    tako velikansko. Tretjina zemlje je pripadala verskim kongregacijam, Cerkev pa
+                    je vlagala nemajhen kapital v banke, industrijska podjetja in finančne
+                        posle.«<note place="foot" xml:id="ftn10" n="9">Alojz Ravbar, <hi
+                            rend="italic">Zakaj je padla španska republika</hi> (Ljubljana: Borec,
+                        1971), 436.</note> Poleg ekonomskega je imela španska Cerkev tudi močan
+                    politični vpliv, saj so bile klerikalne stranke in organizacije hrbtenica njene
+                    politike. Druga institucionalna opora konservativne Španije je bila vojska oz.
+                    oficirska kasta, ki se je po letu 1900 vse bolj nagibala k vmešavanju v
+                    politiko. Španska vojska je bila izvirna tako po sestavi kot tudi po svojem
+                    mestu v družbi. Pod monarhijo je imela 15.000 častnikov, od tega 800 generalov,
+                    kar je pomenilo po enega častnika na šest vojakov in po enega generala na malo
+                    manj kot 100 vojakov. Vojska na splošno ni bila dobro plačana, toda sinovi iz
+                    srednjega sloja, ki so sestavljali oficirski zbor, so našli v vojski materialno
+                    oporo, družbeni ugled in močan občutek, da pripadajo eliti. Zato ne preseneča,
+                    da so prav vsi najvišji poveljniki, pa tudi ogromna večina častnikov, bili
+                    zagovorniki oligarhije, nasprotniki vsakršnega razvoja, smrtni sovražniki
+                        revolucije.<note place="foot" xml:id="ftn11" n="10">Broué, Témime, <hi
+                            rend="italic">Španska revolucija in državljanska vojna</hi>,
+                    31.</note></p>
+                <p>Iz povedanega lahko zaključimo, da je španski kler skupaj z vojsko,
+                    veleposestniki in finančno oligarhijo predstavljal nosilni steber
+                    konservativnih, reakcionarnih, desnih sil v državi.<note place="foot"
+                        xml:id="ftn12" n="11">Katolicizem kot ideologija in Cerkev kot institucija
+                        sta bila osrednja opora španskega konservatizma tako pred republiko kot med
+                        njo ne samo zaradi vpliva v šolah, na prižnici in v tisku, ampak tudi zaradi
+                        obsežnega in vsestranskega omrežja s cerkvenimi sredstvi finansiranih
+                        socialnih, poklicnih in kmečkih organizacij, v katere je bil vključen večji
+                        del katoliškega prebivalstva.</note> Njihov program je bil utemeljen na
+                    ohranjanju preteklih vrednot/načel hierarhije, avtoritete, centralizma,<note
+                        place="foot" xml:id="ftn13" n="12">Pomanjkanje španskega nacionalnega duha
+                        je nadomeščal birokratski militaristični (kastiljski) centralizem, ki je
+                        ločeval državo, družbene skupine in regionalne stvarnosti. Ta
+                        politično-upravi aparat je predstavljal avtoritarno nadoblast, ki je
+                        demokratične skupine usmerjala k federalističnim oziroma
+                        proticentralističnim rešitvam.</note> hkrati pa je gojil napadalni
+                    katolicizem in netolerantnost do demokracije in republikanstva ter seveda še
+                    prav posebej do delavskega gibanja in njegove ideologije. Ne nazadnje se je
+                    politična desnica oblikovala tudi okoli iluzij o možnosti, da Španija po grenkem
+                    porazu leta 1898 znova postane imperialna sila, kar pa je bilo – glede na
+                    takratno mednarodno politično konstelacijo – daleč od realnih možnosti.</p>
+            </div>
+            <div>
+                <head>III.</head>
+                <p>V letih 1898–1923 je razvoj kompleksnejše in težje obvladljive španske družbe
+                    soočil monarhijo Alfonza XIII. (iz vladarske hiše španskih Burbonov) s celo
+                    vrsto novih izzivov. Izobraženstvo je zahtevalo institucionalne in ustavne
+                    reforme, poleg tega pa so bile vse glasnejše tudi zahteve, da se monarhija (ki
+                    velja za poglavitni vir vseh družbenih težav) zamenja z republiko, še posebno
+                    med številčno vse bolj naraščajočim in revolucionarno usmerjenim proletariatom.
+                    Radikalno delavsko gibanje je naposled tudi porušilo več desetletno krhko
+                    politično ravnovesje med konservativci in liberalci.<note place="foot"
+                        xml:id="ftn14" n="13">Nekateri zgodovinarji so prepričani, da so ob veliki
+                        krizi poleti 1917 samo nasprotja med srednjim razredom in levičarskimi
+                        kritiki rešile kraljevino pred usodo, podobno tisti, ki je vsega nekaj
+                        mesecev prej doletela ruskega carja Nikolaja II. ̶ Blinkhorn, <hi
+                            rend="italic">Demokracija in državljanska vojna v Španiji</hi>,
+                        24.</note> Po prvi svetovni vojni – v njej je Španija ostala nevtralna – so
+                    se socialne napetosti, pospešene s splošno povojno ekonomsko krizo in
+                    revolucionarnim vrenjem, kazale v številnih vstajah podeželskega prebivalstva in
+                    stavkah delavstva. To revolucionarno gibanje delavcev in kmetov je močno
+                    vplivalo tudi na avtonomistično narodnoosvobodilno gibanje zoper kastiljski
+                    centralizem, ki je prisotno v španski zgodovini skoraj nepretrgoma od
+                    Napoleonove zasedbe leta 1808, in sicer v Kataloniji, Baskiji in Galiciji.<note
+                        place="foot" xml:id="ftn15" n="14">Večinsko prebivalstvo v Španiji so
+                        Kastiljci, katerih jezik – španščina – je bila edini državno dovoljeni jezik
+                        v uradih, šolah, armadi, v javnih množičnih medijih.</note></p>
+                <p>Čeprav je bila Španija formalno parlamentarna monarhija, pa vlada in kortes nista
+                    zastopala najpomembnejših in najbolj množičnih slojev, saj so bili delavci in
+                    kmetje porinjeni na politično obrobje, še posebno, ker je z volitvami še naprej
+                    manipulirala oligarhija. Političnim težnjam množic so dajale smer ideje
+                    socializma in anarhizma, predvsem v okviru socialističnih (<hi rend="italic"
+                        >UGT</hi>)<note place="foot" xml:id="ftn16" n="15"><hi rend="italic">Unión
+                            General de Trabajadores</hi> (Splošna delavska unija): socialistična
+                        sindikalna organizacija.</note> in anarhističnih (<hi rend="italic"
+                        >CNT</hi>)<note place="foot" xml:id="ftn17" n="16"><hi rend="italic"
+                            >Confederatión National del Trabajo</hi> (Nacionalna konfederacija
+                        dela): anarhistična delavska organizacija.</note> sindikatov.<note
+                        place="foot" xml:id="ftn18" n="17">Strukturi družbe in države sta se
+                        prepletali, tako da se je špansko delavsko gibanje skoraj v celoti
+                        izenačevalo s sindikatom, ki ga za razliko od enako imenovanih evropskih
+                        organizmov niso pojmovali samo kot organizacijo, ki se bojuje za delavske
+                        pravice, marveč bolj kot delavsko skupnost in kot vzorec za solidarnostno
+                        združevanje. Anarhosindikalistična tradicija je naredila iz sindikata bolj
+                        kot obrambno orožje živo celico družbenega organizma, ki je delavcu pogosto
+                        vzela ves prosti čas. Španski sindikati so tako postali orodje družbene
+                        preobrazbe, pomembnejše od političnih strank.</note> Če je bil med
+                    socialisti (več ali manj pričakovano) močno zakoreninjen reformizem, pa je bila
+                    na drugi strani španska posebnost anarhizem, ki je imel široko zaslombo tako med
+                    agrarnim kot industrijskim proletariatom. Socialno in politično nemirno obdobje
+                    po prvi svetovni vojni pa je ponovno dokazalo, da monarhični sistem ni sposoben
+                    uspešno izvesti prehoda iz oligarhičnega liberalizma v pravo demokracijo in se
+                    priključiti takratnim evropskim parlamentarnim demokracijam. Hkrati je
+                    mobilizacija proletariata v razreševanje tako političnega kot socialnega
+                    konflikta med delom in kapitalom le-tega razvila v močno revolucionarno silo in
+                    politično stalnico – levico. Poleg strank socialistov in anarhistov se je za
+                    naklonjenost španskega kmečkega in industrijskega proletariata (od aprila 1920)
+                    borila tudi novoustanovljena revolucionarno usmerjena Komunistična stranka
+                    Španije (<hi rend="italic">PCE</hi>).<note place="foot" xml:id="ftn19" n="18"
+                            ><hi rend="italic">Partido Comunista Español</hi>.</note></p>
+                <p>Medtem je reakcija – desnica vseh političnih barv – iskala pot, kako bi strla
+                    levičarske sile. Njen odgovor se je glasil: z uvedbo diktature. Ponovno je bil
+                    uporabljen že znani in preizkušeni ukrep – vojaški udar (<hi rend="italic"
+                        >pronunciamento</hi>). 13. septembra 1923 je general Miguel Primo de Rivera
+                    sporazumno s kraljem in politično oligarhijo izvedel državni udar, ukinil kortes
+                    ter uvedel vojaško monarhistično diktaturo,<note place="foot" xml:id="ftn20"
+                        n="19">»Ironično je bilo, da je diktatura ob tem, ko je pospešila neizprosen
+                        propad oligarhičnega strankarskega sistema, spodbudila rast socializma in
+                        republikanizma«. ̶ Blinkhorn, <hi rend="italic">Demokracija in državljanska
+                            vojna v Španiji</hi>, 25.</note> ki je videla svoj vzor v Mussolinijevem
+                    fašizmu. V tem kontekstu je Primo de Rivera oktobra istega leta v Rimu podpisal
+                    z Mussolinijem tudi sporazum o prijateljstvu med Italijo in Španijo. Glavna
+                    zaslomba Riverove diktature sta bili Cerkev in vojska ter novoustanovljena
+                    (aprila 1924) nestrankarska organizacija Španska domovinska zveza (<hi
+                        rend="italic">Unión Patriótica Española – UPE</hi>), katere geslo je bilo:
+                    »Domovina, vera, monarhija«. Cilj diktature je bil, da Španija postane katoliška
+                    korporativna država. Izdala je sicer nekaj socialnih zaščitnih zakonov v prid
+                    delavstva, toda ključnega, tj. agrarne reforme, ni poizkušala izpeljati, in
+                    velika zemljiška veleposest – največje socialno zlo Španije – je ostala
+                    nedotaknjena. Rivera je nemoteno vladal do leta 1929, ko so se začeli večji
+                    odpori proti njegovemu režimu, predvsem med intelektualci in študenti (na
+                    univerzi v Salamanki), hkrati pa je že bilo čutiti negativne posledice svetovne
+                    gospodarske krize v španskem gospodarstvu, kar se je kazalo v porastu
+                    političnega in socialnega nezadovoljstva in nemirov. Da bi umiril družbene
+                    napetosti, je Rivera spomladi 1931 dovolil občinske volitve;<note place="foot"
+                        xml:id="ftn21" n="20">Te so bile 12. 4. 1931 in so se spremenile v bolj ali
+                        manj neposreden spopad med monarhisti ter zvezo republikancev in
+                        socialistov.</note> te so prinesle republikancem tako odločilno zmago nad
+                    monarhisti (npr. v Madridu), da sta morala s kraljem zapustiti deželo.<note
+                        place="foot" xml:id="ftn22" n="21">Metod Mikuž, <hi rend="italic">Svet med
+                            vojnama (1918–1939) </hi> (Ljubljana: Mladinska knjiga, 1966),
+                        136.</note> Junija istega leta so bile volitve v ustavodajno skupščino, ki
+                    so dale še enkrat enak rezultat, in republikanska večina je v kortesu oklicala
+                    republiko.</p>
+            </div>
+            <div>
+                <head>IV.</head>
+                <p>Drugo špansko republiko so sprva podpirali vsi najpomembnejši sloji španske
+                    družbe ali pa so jo vsaj sprejemali. Zgodovina njenih petih let (1931–1936) je
+                    zgodovina razpadanja tega širokega strinjanja, kar se bo izkazalo kot usodno
+                    dogajanje v novejši španski zgodovini.<note place="foot" xml:id="ftn23" n="22"
+                        >»Dobromisleči liberalci, antiklerikalci in prostozidarji v duhu latinskih
+                        dežel 19. stoletja, ki so leta 1931 z miroljubno revolucijo prevzeli oblast
+                        od Burbonov, niso mogli niti obrzdati družbenega vrenja španskih revnih
+                        slojev, tako v mestih kot na podeželju, niti ga ublažiti z učinkovito
+                        družbeno, t. j. zlasti agrarno, reformo«. ̶ Eric Hobsbawm, <hi rend="italic"
+                            >Čas skrajnosti: svetovna zgodovina 1914–1991</hi> (Ljubljana:
+                        Znanstveno in publicistično središče, 2000), 149.</note> Decembra 1931 je
+                    Španija dobila novo ustavo, po kateri je postala »demokratična republika
+                    delavcev vseh razredov«, in je določala, da je lastnino mogoče zaseči »za
+                    socialne namene«.<note place="foot" xml:id="ftn24" n="23">Mark Mazower, <hi
+                            rend="italic">Temna celina – dvajseto stoletje v Evropi</hi> (Ljubljana:
+                        Mladinska knjiga, 2002), 21.</note> Ustava je uvedla vrsto demokratičnih
+                    svoboščin: svobodo političnega organiziranja in delovanja, svobodo tiska,
+                    svobodo veroizpovedi, enakost med spoloma, ločitev zakonske zveze, ukinitev
+                    plemiških privilegijev, ločitev cerkve od države ter šole od cerkve (statistika
+                    govori, da je bilo še leta 1930 kar 53 % španskega prebivalstva nepismenega),
+                    nadalje je ukinila državno podporo za plače duhovnikov, razpustila jezuitski
+                    red, zaplenila njihove posesti ter izločila cerkvene redove iz industrije,
+                    trgovine in izobraževanja. Vse to je seveda vzbudilo močno reakcijo, ki se je
+                    začela krepiti zlasti na klerikalni strani in stranki, vso podporo pa je našla
+                    tudi pri Vatikanu, ki je obsodil vse zakone, naperjene proti cerkveni in
+                    oligarhični oblasti v Španiji. V teh reakcionarnih krogih je bila druga
+                    republika označena za sovražnico vere in krščanstva. V obdobju 1931–1933, ki so
+                    ga desničarji poimenovali rdeče dvoletje, je vladalo več vlad, sestavljenih iz
+                    republikansko–socialistične koalicije. Nezadovoljstvo na desnici je raslo tako
+                    iz uveljavljanja z ustavo določenih demokratičnih svoboščin kot tudi iz strahu
+                    oligarhov, da bo republika ogrozila zemljiško posest in nasploh delovala s
+                    socialnimi ukrepi v prid delavstva in kmetov.</p>
+                <p>Toda šibkost republikanskih vlad se je pokazala prav pri neuspešnem reševanju
+                    ključnih družbenih problemov/konfliktov, ki so obremenjevali špansko družbo vse
+                    od leta 1808. Vlada je sicer sprejela zakon o agrarni reformi (septembra 1932),
+                    vendar je bilo njeno izvajanje prepočasno, kar je povzročilo nezadovoljstvo in
+                    upornost kmečkih slojev, ki so jo spodbujali tudi anarhisti. Prav tako je
+                    postajal industrijski proletariat ob naraščajoči brezposelnosti vse bolj
+                    nezadovoljen s socialno politiko vlad, kljub uzakonitvi 8-urnega delavnika, kar
+                    se je odražalo v porastu stavkovnega vala. Tudi odprta vprašanja regionalizacije
+                    države vlade niso izpeljale do konca, saj je samo Katalonija dobila status
+                    avtonomne dežele, medtem ko Baskom in Galičanom ni uspelo uresničiti svojih
+                    avtonomnih narodnostnih pravic.</p>
+                <p>Perečega problema vojske kot stebra konservativnih sil vlade tudi niso razrešile
+                    v svoj prid, saj je le-ta – kljub predčasni upokojitvi nekaj tisoč častnikov –
+                    ostala še naprej politično angažirana proti republiki. Nasprotovala je
+                    republikanskim političnim ukrepom, še posebno uvedbi regionalizma, ki ga je
+                    ocenila za ogrožanje celovitosti Španije. Zato ne preseneča, da so vojaški krogi
+                    avgusta 1932 prvič poskusili strmoglaviti republiko; tedaj niso uspeli, so pa
+                    leta 1934 ustanovili Špansko vojaško zvezo,<note place="foot" xml:id="ftn25"
+                        n="24">Le-ta postane središče zarote večine visokih vojaških
+                        voditeljev/generalov, samih monarhistov in konservativcev. Zarotniške
+                        organizacije desničarjev v španski armadi so združevale leta 1936 nad pet
+                        tisoč oficirjev in generalov ter nad dva tisoč podoficirjev. ̶ Aleš Bebler,
+                        »Bralcem na pot,« v: <hi rend="italic">Naši Španci: zbornik</hi> (Ljubljana:
+                        Borec, 1978), 9.</note> katere cilj je bil zrušiti republiko in jo zamenjati
+                    z vojaško diktaturo. Vlada je z ustanavljanjem republikanskih milic in z jurišno
+                    gardo sicer poskušala omejiti moč vojske, vendar je med tem zaradi neizpolnjenih
+                    obljub izgubila zaupanje širših množic in posledično večino v kortesu. Iz
+                    povedanega lahko zaključimo, da je bila republika za špansko desnico neustrezen,
+                    njej nasprotni režim, vendar pa tudi vsem delom znotraj levice ni ustrezala
+                    oziroma ni izpolnila upov o daljnosežni in nepreklicni družbeni reformi. In prav
+                    nezadovoljstvo zaradi počasnosti parlamentarnih in birokratskih postopkov je
+                    povzročilo nesoglasja in neenotnost znotraj levice, kar je nazadnje pripeljalo
+                    do konca njene prevlade ter do novembrskih volitev 1933; to je bilo v času, ko
+                    je svetovna gospodarska kriza dosegla vrh, in leto, v katerem sta v Nemčiji
+                    prišla na oblast Hitler in nacizem.</p>
+                <p>Parlamentarne volitve 17. novembra 1933 so oblast podelile desnici, levičarske
+                    stranke pa so doživele hud poraz, tudi zaradi volilne abstinence anarhistov in
+                    mnogih razočaranih levičarjev. Glavno vlogo na desnici je prevzela največja
+                    parlamentarna stranka, konservativna katoliška stranka <hi rend="italic"
+                        >CEDA</hi>,<note place="foot" xml:id="ftn26" n="25"><hi rend="italic"
+                            >Confederación Español de Derechas Autónomas</hi> (Španska konfederacija
+                        avtonomnih desničarskih skupin); konservativna katoliška stranka pod drugo
+                        republiko.</note> ki je želela preoblikovati republiko v korporativno
+                    katoliško državo (h kateri je težila tudi prejšnja Riverova diktatura). V
+                    obdobju naslednjih dveh let (1934 in 1935), ki so ga republikanci in socialisti
+                    označili za črno dvoletje (<hi rend="italic">bienio negro</hi>), je vladajoča
+                    desnica odpravila reforme iz t. i. rdečega dvoletja (1931–1933), torej spremembe
+                    na verskem, izobraževalnem, regionalnem in socialnem področju. Korenito
+                    poslabšanje socialnih razmer je povzročilo porast stavkovnega gibanja, ki je
+                    doseglo vrhunec v jesenskem uporu 1934 v Asturiji. To je bil upor, ki je kmalu
+                    dobil vsa obeležja revolucionarnega razrednega boja, hkrati pa je manifestiral
+                    prvo delavsko zavezništvo v praksi.<note place="foot" xml:id="ftn27" n="26">5.
+                        oktobra je bila proglašena Asturijska komuna – po Pariški komuni (1871) –
+                        kot uspeh prve delavske vstaje takšnih razsežnosti v zahodni
+                    Evropi.</note></p>
+                <p>Anarhistična in socialistična sindikalna centra sta se sporazumela za
+                    sodelovanje, priključili pa so se jima tudi do tedaj skoraj politično nepomembni
+                    komunisti; v tem zavezništvu je bila ustvarjena enotna delavska fronta. Vstaja v
+                    Asturiji je bila dobro pripravljena in vsi razredno zavedni rudarji so imeli
+                    enotno stališče o vstaji: »Ker so fašisti v Madridu prevzeli oblast, jim
+                    odgovarjamo s svojo proletarsko revolucijo.«<note place="foot" xml:id="ftn28"
+                        n="27">Thomas Hugh, <hi rend="italic">Španija proti Španiji: kronika
+                            državljanske vojne</hi> (Ljubljana: Cankarjeva založba, 1969),
+                        68.</note> Delavsko-kmečka oblast v Asturiji je za svojo obrambo ustanovila
+                    celo nekakšno rdečo armado. Vstajo so spremljali tudi napadi na postojanke
+                    civilne garde, na cerkve, samostane in druge javne stavbe po vaseh in mestih vse
+                    Asturije; seveda je prišlo tudi do neljubih ekscesov in pobojev. Madridska vlada
+                    je morala zaustaviti širitev revolucionarnega procesa, ki sta ga tako delavstvo
+                    kot meščanstvo štela za državljansko vojno; zato je odobrila vojaški poseg
+                    tujske legije in španskih maroških čet, ki jih je vodil general Franco, in
+                    asturijska vstaja je bila v štirinajstih dnevih krvavo zadušena. Prav to vstajo
+                    mnogi označujejo, ne brez utemeljenosti, kot generalko za državljansko vojno
+                    (1936–1939).</p>
+                <p>Po zatrtju vstaje v Asturiji je sledila silovita vladna represija jeseni in
+                    pozimi 1934/35; množične aretacije so zajele prek 30.000 političnih upornikov.
+                    Anarhistični sindikati so bili tedaj potisnjeni v ilegalo, pretežni del vodstva
+                    socialističnih sindikatov pa so zaprli. Spomladi 1935 je levica začela postopoma
+                    okrevati, kar se je videlo tudi v pospešenih pripravah na zavezništvo med
+                    republikansko levico in socialisti, s ciljem, da se v prihodnosti uprejo
+                    fašizmu. Hitro okrevanje levice je pritrdilo stališču nemajhnega števila ljudi
+                    na desnici, predvsem skrajnih (falangisti/fašisti, monarhisti), da je bila v
+                    mesecih, ki so sledili dogodkom v Asturiji, zapravljena dragocena priložnost za
+                    razbitje levice in uničenje republike, in to z vojaškim udarom. V nasprotju s to
+                    nedemokratično potjo je bil vrh vladajoče katoliške stranke <hi rend="italic"
+                        >CEDA</hi> prepričan, da je desnica sposobna doseči »popolno oblast« z
+                    volitvami. In prav odločitev za parlamentarne volitve je – zaradi specifičnega
+                    večinskega volilnega sistema – hkrati pomenila združevanje interesno različnih
+                    gibanj tako na desnici kot na levici, kar je samo še utrdilo in potrdilo
+                    nepremostljivo polarizacijo španske družbe.</p>
+            </div>
+            <div>
+                <head>V.</head>
+                <p>Že spopad v predvolilnem času je pokazal pospešeno polarizacijo, do katere je
+                    prišlo v preteklih petih letih, pri čemer je Ljudska fronta zahtevala odločno
+                    vnovično uveljavitev socialne politike iz let 1931–1933, desnica pa radikalne
+                    ustavne spremembe, še posebno specifičnega večinskega volilnega sistema.
+                    Apokaliptični značaj vizij obeh strani o tem, kaj naj bi pomenila zmaga
+                    nasprotnika, je bil zgovoren dokaz njune nesposobnosti za soobstoj. Za Ljudsko
+                    fronto bi zmaga desnice vodila naravnost v fašizem, za desnico pa bi zmaga
+                    Ljudske fronte pripeljala do boljševistične revolucije;<note place="foot"
+                        xml:id="ftn29" n="28">Blinkhorn, <hi rend="italic">Demokracija in
+                            državljanska vojna v Španiji</hi>, 47.</note> resnici na ljubo je treba
+                    povedati, da volilna programa obeh taborov ne dajeta osnove za takšne radikalne
+                    zaključke.</p>
+                <p>Mesec dni pred volitvami, 15. januarja 1936, sta podpisali levi republikanski
+                    stranki (Republikanska zveza in Republikanska levica) s socialistično stranko in
+                    njenimi sindikati (<hi rend="italic">UGT</hi>), sindikalistično stranko,
+                    komunistično stranko in marksistično delavsko stranko <hi rend="italic"
+                        >POUM</hi><note place="foot" xml:id="ftn30" n="29"><hi rend="italic">Partido
+                            Obrero de Unificación Marxista</hi>.</note> (t. i. trockisti) sporazum o
+                    oblikovanju Ljudske fronte; le-ta je določal tudi program tako sestavljene
+                    koalicije. Če pogledamo na podpisani sporazum objektivno, le-tega sploh ne
+                    moremo imeti za revolucionarnega, prej za privolitev delavskih strank v
+                    sprejetje programa republikancev. V njem je bil namreč govor o ponovni
+                    uveljavitvi zakona o agrarni reformi, nadalje o reformi kortesa, občin, šolstva,
+                    o finančni reorganizaciji, zaščiti male industrije in uvedbi javnih del.
+                    Skratka, ta liberalni program jasno izključuje socialistične zahteve po
+                    nacionalizaciji zemlje in bank, pa tudi delavski nadzor nad industrijo:
+                    »Republika, kakršno si predstavljajo republikanci, ni republika, ki bi si
+                    zastavljala razredne, socialne in ekonomske cilje, ampak režim zrele
+                    demokratične svobode, porojene iz javnega interesa in družbenega napredka.«<note
+                        place="foot" xml:id="ftn31" n="30">Broué in Témime, <hi rend="italic"
+                            >Španska revolucija in državljanska vojna</hi>, 63.</note> Program je
+                    torej predvideval vrnitev na politiko liberalne republikanske vlade z majhnimi
+                    programskimi dopolnili. V javnosti je veljalo splošno prepričanje, da je Ljudska
+                    fronta jamstvo tako za uveljavitev korenitih družbenih in socialnih reform kot
+                    tudi za zaustavitev rastoče napadalnosti tabora politične desnice in fašizma. Še
+                    posebno je španska demokratično usmerjena javnost z naklonjenostjo gledala na
+                    obljubo leve koalicije o popolni amnestiji za politične obsojence iz
+                    katalonskega in asturijskega upora jeseni 1934, kar se je po njeni zmagi na
+                    volitvah tudi zgodilo. Ne nazadnje je predvidena amnestija bistveno prispevala
+                    tudi k odločitvi voditeljev anarhističnih sindikatov, da na volitvah podprejo
+                    Ljudsko fronto.</p>
+                <p>Parlamentarne volitve v kortes 16. februarja 1936 zagotovo predstavljajo
+                    kulminacijo politične polarizacije španske družbe, ki je vodila v vojni spopad,
+                    hkrati pa je volilni rezultat z zmago Ljudske fronte pomenil tudi nedvoumno
+                    sporočilo ključnim političnim dejavnikom v mednarodni skupnosti, tj. zahodnim
+                    demokracijam, fašističnim silam ter Sovjetski zvezi (in posledično
+                        Kominterni).<note place="foot" xml:id="ftn32" n="31">O mednarodnem odzivu na
+                        spopad »dveh Španij« gl. Avgust Lešnik, »'Nuestros Espanoles': donesek k
+                        vlogi jugoslovanskih/slovenskih prostovoljcev v španski državljanski vojni
+                        1936–1939,« <hi rend="italic">Prispevki za novejšo zgodovino</hi>, št. 2
+                        (2010): 68–74.</note></p>
+                <p>Te volitve so prvič v zgodovini druge republike (1931–1939) pomenile enakovreden
+                    spopad med velikima, kohezivnima levima in desnima zavezništvoma; prvo je dobilo
+                    nekaj več kot 4,8 milijona glasov, drugo nekaj manj kot 4 milijone, medtem ko je
+                    bil center z manj kot pol milijona prejetimi glasovi tako rekoč politično
+                    nevpliven. Ob povedanem velja spomniti na uveljavljeni večinski sistem, ki je na
+                    eni strani silil v ustanavljanje velikih predvolilnih koalicij političnih strank
+                    (tudi programsko raznorodnih, kot je bilo to v španskem primeru, tako na levici
+                    kot desnici), na drugi strani pa je podelil zmagoviti strani (levemu bloku)
+                    nesorazmerno večje število poslanskih mest glede na prejete volilne glasove.
+                    Viri sicer navajajo različne podatke, odražajo pa dejansko razmerje moči v
+                    kortesu, in to v prid levemu bloku: 257 proti 184 poslancem desnice (127) in
+                    centra (57).<note place="foot" xml:id="ftn33" n="32">Manuel Tuñon de Lara, »Španska
+                        državljanska vojna,« v: <hi rend="italic">Zgodovina revolucij XX.
+                            stoletja</hi>, II. (Ljubljana: Komunist, 1971), 86.</note></p>
+                <p>Ob volilni zmagi levega tabora seveda ne gre spregledati, da se Ljudski fronti
+                    niso pridružili anarhisti, brez dvoma najbolj pomemben revolucionarni dejavnik v
+                    španski družbi, so pa voditelji anarhističnih strank v zadnjih dneh volilne
+                    kampanje podprli Ljudsko fronto, in to proti tradicionalni praksi bojkotiranja
+                    volitev (<hi rend="italic">no votad</hi>), kar je slednji prineslo okoli 800.000
+                    glasov, odločilnih za njeno zmago nad desnico. Pomen tega preobrata je izjemen
+                    za nadaljnji tok španskih dogodkov, saj so anarhisti dotlej na splošno
+                    nasprotovali političnemu delovanju – strankam, volitvam in parlamentu – v korist
+                    vztrajnemu sindikalnemu boju, veri v spontano revolucijo in ideji o
+                    revolucionarni splošni stavki.</p>
+                <p>Zmaga Ljudske fronte je bila za desni, konservativni tabor prej presenečenje kot
+                    ne. Konservativne sile – predvsem tiste, ki so zastopale interese cerkvene in
+                    posvetne aristokracije ter njene privilegije – so črpale svojo moč iz še vedno
+                    močnih ostankov fevdalizma v Španiji. S temi interesi so sovpadali tudi interesi
+                    vojaških vrhov in pristašev monarhije (alfonzisti<note place="foot"
+                        xml:id="ftn34" n="33">Iz vrst monarhistov, ki so zahtevali restavracijo
+                        Alfonza XIII.</note> in karlisti<note place="foot" xml:id="ftn35" n="34"
+                        >Karlizem je bil zagrizeno monarhistično in ultra tradicionalistično gibanje
+                        z močno podporo kmetov, v glavnem v Navarri. Karlisti, privrženci španskega
+                        pretendenta za prestol don Carlosa in njegovih naslednikov, so se v treh
+                        državljanskih vojnah, 1833–1839 in 1847–1849 na strani don Carlosa (Carlos
+                        María Isidro de Borbón) ter 1872–1876 na strani don Carlosovega vnuka
+                        (Carlos María de los Dolores de Borbón) bojevali proti liberalcem,
+                        republikancem in socialistom.</note>). Vsi našteti se niso mogli sprijazniti
+                    z obstojem republike in njene postopne liberalno-demokratične preobrazbe.
+                    Španska desnica je po bolečem porazu vztrajno trdila, da volitve niso bile
+                    pravilne, saj ne odražajo resničnega stanja politične volje španskega ljudstva;
+                    na tej osnovi je zgradila svoj legitimni upor proti vladi Ljudske fronte. Seveda
+                    ne gre prezreti, da je desnici manjkal skupni, povezovalni element; tega je
+                    našla v Španski falangi (formalno ustanovljeni leta 1933) in njeni ideologiji,
+                    ki je poudarjala obrambo tradicionalnih španskih institucij, hkrati pa je bila
+                    zelo blizu nemškemu nacizmu in italijanskemu fašizmu, kar se je kazalo tudi v
+                    njenem programu (26 točk).<note place="foot" xml:id="ftn36" n="35"><hi
+                            rend="italic">Falange Española</hi> je v svojem programu prevzela mnoge
+                        fašistične vzorce: uporaba nasilja, ki služi »regeneraciji naroda«, težnja
+                        po diktaturi, militaristične ideje itn. Prav tako so falangisti prevzeli del
+                        fašističnega sporazuma glede sindikatov, ki naj bi bili skupna organizacija
+                        delodajalcev in delojemalcev, kar je v bistvu prikrojena ideja
+                        korporativizma. Program je dokaj nedorečeno omenjal tudi agrarno reformo
+                        (kar je bilo v Španiji še posebej akutno in aktualno vprašanje), zato pa je
+                        bolj poudarjal spoštovanje privatne lastnine. Falanga je sprejela tudi
+                        mitologijo španskega nacionalizma in imperializma (podobno kot v drugih
+                        fašizmih). Začetnik falangistične doktrine José Antonio Primo de Rivera (sin
+                        diktatorja generala Miguela Prima de Rivera) je razglasil, da je »Španija
+                        osvojila neznane kontinente od morja in barbarstva … zaradi svojega občutka
+                        katolicizma, tj. univerzalizma … Osvojila jih je, da bi lahko vključila
+                        njihove prebivalce v splošni načrt rešitve«. O tem gl. Stane Južnič, <hi
+                            rend="italic">Novejša zgodovina: izbrana poglavja</hi> (Ljubljana:
+                        Univerzum, 1981), 306–11 (Španski avtoritarizem).</note> Na volitvah
+                    februarja 1936 nastopi sama in doživi odmeven polom zato, ker ne pride v
+                        kortes.<note place="foot" xml:id="ftn37" n="36">Broué in Témime, <hi
+                            rend="italic">Španska revolucija in državljanska vojna</hi>, 37.</note>
+                    Njen čas šele prihaja, saj bo prek nje prišla nujna zunanja pomoč fašističnih
+                    držav v državljanski vojni; slednja bo falangi ponudila tudi možnost
+                    pridobivanja članstva, še zlasti potem, ko bo leta 1937 v nacionalnem,
+                    antirepublikanskem taboru postala državna stranka (<hi rend="italic"
+                        >FET</hi>).<note place="foot" xml:id="ftn38" n="37">19. 4. 1937 je Franco
+                        izdal dekret o zedinjenju falange in karlistov ter tako v nacionalistični
+                        Španiji ustvaril eno samo (enotno) stranko – <hi rend="italic">FET</hi> (<hi
+                            rend="italic">Falange Española Tradicionalista y de las JONS</hi>). <hi
+                            rend="italic">JONS</hi> (<hi rend="italic">Juntas de Ofensiva
+                            Nacional-Sindicalista</hi>), Nacionalsindikalistične ofenzivne skupine
+                        so bile dejansko fašistične skupine, nastale leta 1931, ki so se združile s
+                        falango leta 1934.</note></p>
+                <p>Ko je v Španiji prevzela oblast nova vlada Ljudske fronte, se je začelo obdobje
+                    radikalizacije, ki so ga spremljale provokacije tako z leve kot desne.
+                    Desničarske organizacije (od monarhistov do falangistov) so ustanavljale lastne
+                    oborožene milice in začele izvajati teror nad levičarji in republikanci.
+                    Desničarski teroristi so ubili prek petdeset znanih osebnosti levice in
+                    delavskega gibanja. Levica je prav tako odgovorila s terorjem, posebno
+                    anarhisti. Očividec se spominja: »Provokacije so bile spontane in tudi na
+                    skrivaj nadzorovane. Imele so namen destabilizirati špansko družbo in se hkrati
+                    odzivati temu dogajanju. Bile so grozljive v svojem nasilju in krutosti in so
+                    zdaj postale nekaj običajnega v španskem političnem življenju. Dežela se je
+                    čedalje bolj polarizirala, in to je dobivalo skoraj histerične razsežnosti.
+                    Množice demonstrantov so polnile madridske trge, povsod je bilo videti plakate s
+                    Stalinovim obrazom, v vladi pa se je razpasla retorika revolucije.«<note
+                        place="foot" xml:id="ftn39" n="38">Stephen Koch, <hi rend="italic">Dvojna
+                            življenja: vohuni in pisatelji v sovjetski vojni idej proti zahodu</hi>
+                        (Ljubljana: Mladinska knjiga, 1995), 331.</note></p>
+                <p>Ko je poleti 1936 desnica napadla republiko, so se razdori na levici in
+                    neizprosne delitve v vrstah španskih socialistov izkazali kot ključni dejavnik
+                    ranljivosti demokratičnega gibanja. Upor generalov proti republiki je bil ne le
+                    začetek tistega, čemur pravimo državljanska vojna, pač pa tudi tistega, kar je
+                    A. Ramos-Oliveira označil s sintagmo <hi rend="italic">subguerra civil
+                    </hi>(vzporedna državljanska vojna),<note place="foot" xml:id="ftn40" n="39"
+                        >Antonio Ramos-Oliveira, <hi rend="italic">Historia de España</hi> (Mexico
+                        City: Companía General de Ediciones, 1952).</note> namreč medsebojno
+                    uničujoče obračunavanje med socialisti, republikanci, komunisti, anarhisti,
+                    anarhosindikalisti in siceršnjimi privrženci levice. To zapleteno notranjo
+                    situacijo je moč razbrati tudi iz znamenitega Orwellovega dela Poklon
+                        Kataloniji.<note place="foot" xml:id="ftn41" n="40">Gl. Peter Vodopivec, »O
+                        Orwellovem 'premišljevanju' o Španiji,« v: <hi rend="italic">Poklon
+                            Kataloniji</hi> (Ljubljana: Modrijan, 2009), 227–28.</note></p>
+                <p>V letih 1936–1938 je v Španijo prispelo okoli 40.000 prostovoljcev –
+                    protifašistov iz 54 evropskih, ameriških, azijskih in magrebskih držav<note
+                        place="foot" xml:id="ftn42" n="41">»Potrebno je poudariti, da ti borci niso
+                        bili niti plačanci niti, razen v redkih primerih, pustolovci. Bojevali so se
+                        za svojo stvar«. ̶ Hobsbawm, <hi rend="italic">Čas skrajnosti</hi>,
+                        152.</note> (med njimi je bilo prek 1900 Jugoslovanov, od teh okoli 570
+                        Slovencev),<note place="foot" xml:id="ftn43" n="42">O dilemah pri izbiri
+                        kriterijev za umeščanje prostovoljcev po nacionalnem sestavu, konkretno med
+                        Jugoslovane, gl. Lešnik, »'Nuestros Espanoles',« 86–88 in 89–108 (Seznam
+                        jugoslovanskih/slovenskih prostovoljcev).</note> da bi se borili na strani
+                        republike.<note place="foot" xml:id="ftn44" n="43">Med tujimi prostovoljci
+                        je bilo največ Francozov (ok. 10.000), Italijanov (ok. 3.350), Nemcev (ok.
+                        3.000), Poljakov (ok. 3.000), Američanov (ok. 3.000), Angležev (ok. 2.000),
+                        Avstrijcev (ok. 2.000) idr. Pomenljivo je, da se je na Francovi strani
+                        borilo zgolj kakih 1000 tujih prostovoljcev.</note> Njihove vojaške enote so
+                    bile izraz mednarodne solidarnosti s španskim ljudstvom.<note place="foot"
+                        xml:id="ftn45" n="44">Gl. Avgust Lešnik in Ksenija Vidmar Horvat, »Španske
+                        prostovoljke: historično-sociološka študija primera solidarnosti v
+                        transnacionalnem kontekstu,« v: <hi rend="italic">Ženske na poti, ženske
+                            napoti: migrantke v slovenski nacionalni imaginaciji</hi> (Ljubljana:
+                        Znanstvena založba Filozofske fakultete, 2014), 227–49.</note> Z dejanji so
+                    dokazovale, da je boj španskega ljudstva hkrati boj vsega naprednega človeštva
+                    proti fašizmu in fašističnim vojnim pohodom. Tej trditvi pritrjuje ne nazadnje
+                    tudi dejstvo, da so v drugi svetovni vojni borci mednarodnih brigad nesporno
+                    odigrali izjemno pomembno vlogo pri organizaciji odporniškega gibanja ali
+                    narodnoosvobodilnega boja v mnogih evropskih državah pod fašistično/nacistično
+                    okupacijo tudi na jugoslovanskih tleh.</p>
+                <ab type="milestone" style="text-align:center">* * *</ab>
+                <p>Edvard Kocbek, vodilni mislec slovenskih krščanskih socialistov, je v eseju
+                    Premišljevanje o Španiji (1937)<note place="foot" xml:id="ftn46" n="45">Edvard
+                        Kocbek, »Premišljevanje o Španiji,« v: <hi rend="italic">Dom in svet</hi>,
+                        1937, št. 3, 90–105. Ponatis v: <hi rend="italic">Kriza revije »Dom in svet«
+                            leta 1937: zbornik dokumentov</hi> (Ljubljana: Založba ZRC, ZRC SAZU,
+                        2001), 155–74. S tem kritičnim člankom – o vlogi Cerkve v Španiji – je E.
+                        Kocbek povzročil hud in daljnosežen razkol med slovenskim katoliškim
+                        izobraženstvom.</note> zapisal še danes aktualno misel: »Kdor bo pisal
+                    zgodovino o teh strašnih dnevih in se bo otresel vseh poenostavljanj, bo moral
+                    reči, da je resnica o španski vojni razdeljena,<note place="foot" xml:id="ftn47"
+                        n="46">Večinoma se pisci o španski državljanski vojni delijo po »rdeče-beli«
+                        črti/gledanju: na prijatelje španske demokracije in »objektivne« razlagalce
+                        španskega fašizma. O tem gl. Peter Vodopivec, »Zgodovinopisje in Španska
+                        državljanska vojna,« v: Broué in Témime, <hi rend="italic">Španska
+                            revolucija in državljanska vojna</hi>, 477–86.</note> kakor so
+                    razdeljeni njeni ljudje. Na obeh straneh se godijo krute stvari, obe strani sta
+                    krvavi, noben tabor ni izvzet od krivde na mučenju, ubijanju, požigih in ostalih
+                    nečloveških dejanjih. To je treba reči zato, ker večina evropskega tiska poroča
+                    tako, da nehote vzbuja predstavo o belem ali 'pravičnem' ter o rdečem ali
+                    'ubijalskem' taboru. Če pa je zares potrebno kak tabor posebej ošibati, potem
+                    je to fašistični tabor, ki se postavlja za branilca krščanstva, pa pri tem
+                    nekrščansko nastopa.«<note place="foot" xml:id="ftn48" n="47"><hi rend="italic"
+                            >Kriza revije »Dom in svet« leta 1937</hi>, 164.</note></p>
+                <p>Le tisti, ki so naklonjeni zgodovinskim poenostavitvam, gledajo na špansko
+                    državljansko vojno samo kot na spopad in krvavo obračunavanje med liberalno
+                    demokracijo in konservativizmom tradicionalnih vladajočih slojev, med fašizmom
+                    in komunizmom, med desnico in levico. Vsekakor je ta vojna vse to tudi bila.
+                    Vendar ni bila le enostavno soočenje. Niti republikanci niti uporniki
+                    (frankisti), ki so se radi imenovali nacionalisti, niso imeli popolnoma jasne
+                    politične usmeritve. V vrstah upornikov so bili falangisti, monarhisti
+                    (karlisti, alfonzisti), nemški nacisti, italijanski fašisti; za republiko pa
+                    anarhisti, komunisti, socialisti, trockisti, Baski in Katalonci. Vsak od teh
+                    političnih tokov in interesov se je boril za svoje posebne cilje, ki pa niso
+                    imeli vedno skupnih imenovalcev.</p>
+                <p>Če sintetiziramo, potem za špansko državljansko vojno lahko rečemo, da so bili v
+                    njej bistveni in odločilni razredni interesi. To je bil boj med tradicionalno
+                    strukturo oblasti in silami napredka, zbranimi okrog republike. Bil pa je tudi
+                    ideološki boj: boj idej, ki so se izključevale. V vsem tem je bila španska
+                    državljanska vojna tudi katalizator svetovne konfrontacije med fašizmom in
+                        antifašizmom.<note place="foot" xml:id="ftn49" n="48">O tem gl. <hi
+                            rend="italic">Preispitivanje prošlosti i istorijski revizionizam:
+                            (zlo)upotrebe istorije Španskog građanskog rata i Drugog svetskog rata
+                            na prostoru Jugoslavije</hi> (Beograd: Udruženje Španski borci
+                        1936–1939, 2014).</note> Ko se je vojna končala, v Španiji ni bilo nič
+                    rešeno. Frankistična vojaška diktatura, ki je zavladala z oboroženo silo, je
+                    ustvarila le navidezno stabilnost. Frankistična zmaga je konzervirala nasprotja,
+                    ki so bila zgodovinsko zrela za razrešitve. Potemtakem je Španijo zgolj obdržala
+                    v izolaciji od svetovne zgodovine za nadaljnjih trideset let ...<note
+                        place="foot" xml:id="ftn50" n="49">Hobsbawm, <hi rend="italic">Čas
+                            skrajnosti</hi>, 149.</note></p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <listBibl>
+                    <head>Literatura:</head>
+                    <bibl>Bebler, Aleš. »Bralcem na pot.« V: <hi rend="italic">Naši Španci:
+                            zbornik</hi>. Ljubljana: Borec, 1978.</bibl>
+                    <bibl>Blinkhorn, Martin. <hi rend="italic">Demokracija in državljanska vojna v
+                            Španiji (1931–1939)</hi>. Ljubljana: Znanstveno in publicistično
+                        središče, 1995.</bibl>
+                    <bibl>Broué, Pierre in Émile Témime. <hi rend="italic">Španska revolucija in
+                            državljanska vojna</hi>. Ljubljana: Delavska enotnost, 1986.</bibl>
+                    <bibl>Hobsbawm, Eric. <hi rend="italic">Čas skrajnosti: svetovna zgodovina
+                            1914–1991</hi>. Ljubljana: Znanstveno in publicistično središče,
+                        2000.</bibl>
+                    <bibl>Hugh, Thomas. <hi rend="italic">Španija proti Španiji: kronika
+                            državljanske vojne</hi>. Ljubljana: Cankarjeva založba, 1969.</bibl>
+                    <bibl>Inđić, Trivo. »Španski socijalizam i građanski rat 1936–1939: sukobi
+                        unutar pokreta i njihove pouke.« V: <hi rend="italic">Španjolska
+                            1936–1939</hi>, 62–105. Zagreb: Jugoslavenska akademija znanosti i
+                        umjetnosti, Globus, 1986.</bibl>
+                    <bibl>Južnič, Stane. <hi rend="italic">Novejša zgodovina: izbrana poglavja</hi>,
+                        306–11. Ljubljana: Univerzum, 1981.</bibl>
+                    <bibl>Kocbek, Edvard. »Premišljevanje o Španiji.« V: <hi rend="italic">Kriza
+                            revije »Dom in svet« leta 1937: zbornik dokumentov</hi>, 155–74.
+                        Ljubljana: Založba ZRC, ZRC SAZU, 2001.</bibl>
+                    <bibl>Koch, Stephen. <hi rend="italic">Dvojna življenja: vohuni in pisatelji v
+                            sovjetski vojni idej proti zahodu</hi>. Ljubljana: Mladinska knjiga,
+                        1995.</bibl>
+                    <bibl>Lešnik, Avgust in Ksenija Vidmar Horvat. »Španske prostovoljke:
+                        historično-sociološka študija primera solidarnosti v transnacionalnem
+                        kontekstu.« V: <hi rend="italic">Ženske na poti, ženske napoti: migrantke v
+                            slovenski nacionalni imaginaciji</hi>, 227–49. Ljubljana: Znanstvena
+                        založba Filozofske fakultete, 2014.</bibl>
+                    <bibl>Lešnik, Avgust. »Jugoslawen in Spanischen Bürgerkrieg.« <hi rend="italic"
+                            >JahrBuch für Forschungen zur Geschichte der Arbeiterbewegung</hi>, št.
+                        I (2006): 37–51.</bibl>
+                    <bibl>Lešnik, Avgust. »'Nuestros Espanoles': donesek k vlogi
+                        jugoslovanskih/slovenskih prostovoljcev v španski državljanski vojni
+                        1936–1939.« <hi rend="italic">Prispevki za novejšo zgodovino</hi>, št. 2
+                        (2010): 67–108.</bibl>
+                    <bibl>Mazower, Mark. <hi rend="italic">Temna celina – dvajseto stoletje v
+                            Evropi</hi>. Ljubljana: Mladinska knjiga, 2002.</bibl>
+                    <bibl>Mikuž, Metod. <hi rend="italic">Svet med vojnama (1918–1939)</hi>.
+                        Ljubljana: Mladinska knjiga, 1966.</bibl>
+                    <bibl><hi rend="italic">Preispitivanje prošlosti i istorijski revizionizam:
+                            (zlo)upotrebe istorije Španskog građanskog rata i Drugog svetskog rata
+                            na prostoru Jugoslavije</hi>. Beograd: Udruženje Španski borci
+                        1936–1939, 2014.</bibl>
+                    <bibl>Ramos-Oliveira, Antonio. <hi rend="italic">Historia de España</hi>. Mexico
+                        City: Companía General de Ediciones, 1952.</bibl>
+                    <bibl>Ravbar, Alojz. <hi rend="italic">Zakaj je padla španska republika</hi>.
+                        Ljubljana: Borec, 1971.</bibl>
+                    <bibl>Tuñon de Lara, Manuel. »Španska državljanska vojna.« V: <hi rend="italic"
+                            >Zgodovina revolucij XX. stoletja</hi>, II. Ljubljana: Komunist,
+                        1971.</bibl>
+                    <bibl>Vodopivec, Peter. »O Orwellovem 'premišljevanju' o Španiji.« V: <hi
+                            rend="italic">Poklon Kataloniji,</hi> 227–28. Ljubljana: Modrijan,
+                        2009.</bibl>
+                    <bibl>Vodopivec, Peter. »Zgodovinopisje in Španska državljanska vojna.« V:
+                        Pierre Broué in Émile Témime, <hi rend="italic">Španska revolucija in
+                            državljanska vojna</hi>, 477–486. Ljubljana: Delavska enotnost,
+                        1986.</bibl>
+                </listBibl>
+            </div>
+            <div type="summary" xml:lang="en">
+                <head type="main">CONFLICT BETWEEN "THE TWO SPAINS" FROM THE VIEWPOINT OF THE SOCIAL
+                    STRUCTURE OF THE SPANISH SOCIETY AND CLASS OPPOSITIONS WITHIN IT</head>
+                <head>SUMMARY</head>
+                <docAuthor>Avgust Lešnik</docAuthor>
+                <p>The military conflict between "the two Spains" – the militaristic and the
+                    democratic – deeply polarised the local/Spanish public as well as the global
+                    public during the 1930s. While the domestic conservative forces (aristocracy,
+                    Falangists, monarchists, Carlists, the Catholic Church, etc.) and the military
+                    junta were supported by the German Nazism and Italian fascism, the democratic
+                    global community actively supported the defence of the Spanish Republic, led by
+                    the legally elected coalition of the Popular Front (socialists, Republicans,
+                    communists, anarchists, anarcho‑syndicalists, etc.).</p>
+                <p>The reasons for the extreme political polarisation of the Spanish society stem
+                    from its history as well as its class structure. The accumulated social problems
+                    were, as confirmed by the analyses, a consequence of Spain’s specific historical
+                    development as well as the unwillingness of the governing structures to tackle
+                    those problems resolutely. During the 19<hi rend="superscript">th</hi> century
+                    Spain finally lost its global imperialist position and was mostly bypassed by
+                    the industrial and liberal-democratic revolution. Consequently, Spain was still
+                    mainly a rural-agrarian state at the beginning of the 20<hi rend="superscript"
+                        >th</hi> century (more than 70 % of its active population was involved in
+                    agriculture). The general underdevelopment of Spain was personified and
+                    strengthened by the powerful institutions of the Church and the army. Both
+                    institutions, together with the large estate owners and financial oligarchy,
+                    represented the pillar of the conservative, reactionary, right-wing forces in
+                    the country. Their programme was based on the conservation of the past
+                    values/principles of hierarchy, authority and centralism, while simultaneously
+                    fostering aggressive Catholicism and intolerance for democracy, republicanism,
+                    workers’ movements and its ideology.</p>
+                <p>After World War I the social tensions revealed themselves in numerous uprisings
+                    of the rural population and labour strikes. The governing (right-wing) political
+                    structure, yet again, replied with a military coup (Primo de Rivera, 1923). The
+                    military-monarchist dictatorship succumbed to mass social and political riots.
+                    In June 1931 the republican majority proclaimed the (Second) Republic in the
+                    Cortes. In December 1931 Spain adopted a new constitution, providing for a range
+                    of democratic freedoms: freedom of political organisation and action, freedom of
+                    press, freedom of religion, gender equality, dissolution of marriage,
+                    abolishment of noble privileges, separation of Church and state, separation of
+                    school and Church, etc. All of this caused a strong reaction, especially by the
+                    clericalist side and its party. In the reactionary circles the Second Republic
+                    was labelled an enemy of religion and Christianity.</p>
+                <p>In the period between 1931 and 1933, named the "red biennium" by the right-wing,
+                    several governments from the republican-socialist coalition were in power. The
+                    discontent of the right-wing grew because of the implementation of the
+                    democratic freedoms enshrined in the constitution as well as because of the fear
+                    of the oligarchs that the Republic would compromise the landed property and, in
+                    general, use social measures to serve the interests of workers and peasants.
+                    However, the weakness of the republican governments was specifically evident
+                    from the unsuccessful and slow resolution of the key social problems/conflicts
+                    which had burdened the Spanish society ever since the Napoleon's occupation in
+                    1808, especially the agrarian and regional question. The governments also failed
+                    to find a favourable solution to the urgent problem of the army as the pillar of
+                    the conservative forces, as it remained politically engaged against the
+                    Republic. The government strove to limit the power of the army by establishing
+                    republican militias and the Assault Guard, but in the meantime it lost the trust
+                    of the masses due to the unfulfilled promises and, consequently, the majority in
+                    the Cortes.</p>
+                <p>The right-wing won the parliamentary elections of 17 November 1933 and the
+                    left-wing parties suffered a severe defeat. The main role on the right-wing side
+                    was taken over by the largest parliamentary party, the conservative Catholic
+                    party, CEDA, whose aim was to transform the republic into a Catholic corporatist
+                    state. During the next two years (1934–1935), labelled the "black biennium" by
+                    the republicans and socialists, the governing right-wing abolished the reforms
+                    implemented during the "red biennium" (1931–1933), i.e. the amendments in the
+                    religious, educational, regional and social areas. A drastic deterioration of
+                    the social conditions strengthened the strike movement and caused a political
+                    crisis leading to new parliamentary elections on 16 February 1936.</p>
+                <p>The accelerated polarisation which had taken place in the previous five years
+                    became evident already in the pre-election campaign. The apocalyptic visions
+                    that both sides ascribed to the potential victory of the opponent were a clear
+                    evidence of the impossibility of their coexistence. The Popular Front claimed
+                    that the victory of the right wing would lead directly to fascism, while the
+                    right wing was certain that the victory of the Popular Front would entail a
+                    Bolshevist revolution (these radical statements were not confirmed by the
+                    election programmes of both sides). The victory of the Popular Front/left wing
+                    at the elections on 16 February 1936 signified the beginning of the
+                    social/socialist revolution for the right wing, causing an irreconcilable
+                    counter‑revolution.</p>
+                <p>General Franco’s <hi rend="italic">Pronunciamiento</hi> (17 July 1936) thus only
+                    announced the termination of a longer process and final reckoning between the
+                    "two Spains", i.e. the traditional Spain, fixed on the past, and the Spain of
+                    the awaited/desired social revolution of the republican-proletarian orientation,
+                    which was supposed to tackle the multiple pending social-economic and regional
+                    questions and, last but not least, accelerate the democratisation and
+                    modernisation processes. When the war ended, nothing was solved in Spain.
+                    Franco’s military dictatorship ensured its reign by armed force, but it only
+                    created an apparent stability as it preserved the conflicts, in the historical
+                    sense ripe for resolution. Therefore Spain was kept in isolation from the
+                    world's history for another thirty years.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

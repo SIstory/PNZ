@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Frankistična vstaja kot oživitev rekonkviste: analiza
+                    »remedievalizacije«</title>
+                <author>
+                    <name>Alejandro Rodríguez Díaz del Real</name>
+                    <roleName>lekt.</roleName>
+                    <affiliation>
+                        <orgName>Filozofska fakulteta</orgName>
+                        <orgName>Univerza v Ljubljani</orgName>
+                    </affiliation>
+                    <address>
+                        <addrLine>Aškerčeva 2</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>alejandro.rodriguez@ff.uni-lj.si</email>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/145</pubPlace>
+                <date>2016</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">56</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Spain</term>
+                    <term>military coup</term>
+                    <term>Falange</term>
+                    <term>Franco</term>
+                    <term>civil war</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>Španija</term>
+                    <term>vojaški udar</term>
+                    <term>Falanga</term>
+                    <term>Franco</term>
+                    <term>državljanska vojn</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2016-04-19</date>
+                    <name>Andrej Pančur</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Alejandro Rodríguez Díaz del Real<note place="foot" xml:id="ftn1" n="*"
+                    >lekt., Filozofska fakulteta, Univerza v Ljubljani, Aškerčeva 2, SI-1000
+                    Ljubljana, <ref target="mailto:alejandro.rodriguez@ff.uni-lj.si"
+                        >alejandro.rodriguez@ff.uni-lj.si</ref></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="UDC">UDK: 355.426(460)"1936/1939"</idno>
+                <date>Prejeto 20. 4. 2015</date>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">Avtor v članku opozarja na poglavitni razlog za vojaško vstajo
+                        proti republikanski oblasti v Španiji, ki je bil po mnenju konzervativnih
+                        delov španske družbe, predvsem vojske in katoliške hierarhije, v tem, da
+                        republika spreminja bistvo Španije. Nasprotno so republikanci svojo politiko
+                        razumeli kot modernizacijo Španije. Vojaška vstaja proti republikanskim
+                        oblastem se je začela v severni Afriki (v Melilli) 17. julija 1936. Konec
+                        septembra istega leta je v pastoralnem pismu škof Salamanke državni udar
+                        blagoslovil in spopad označil za pravično, za križarsko, vojno. Vojaški
+                        vstajniki so za svojo vzeli rdečerumeno zastavo, ki jo je konec 18. stoletja
+                        uvedel Karel III. Burbonski. Skušali so razviti tudi lasten koncept
+                        voditelja - Führerja, t. i. teorijo kavdiljizma, ki se je ujemala z doktrino
+                        nemške NSDAP. Parlamentarno demokracijo in pravno državo so zavračali kot
+                        obsojanja vredna simptoma liberalnega obdobja. Frankistična država je svoj
+                        ideološki naboj črpala v falangizmu in nacionalsindikalizmu. Franco je sam
+                        verjel v svoje božje poslanstvo. Ko je bilo aprila 1939 vojne konec, se je
+                        začelo težko povojno obdobje, ki se ga veliko še živečih spominja kot
+                        obdobja, ki je bilo hujše od same vojne.</hi></p>
+                <p><hi rend="italic">Ključne besede: Španija, vojaški udar, Falanga, Franco,
+                        državljanska vojna </hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head>FRANCOIST UPRISING AS A REVIVAL OF THE RECONQUISTA: ANALYSIS OF
+                    "REMEDIEVALISATION"</head>
+                <p><hi rend="italic">In his article the author emphasises the main reason for the
+                        military uprising against the Republican authorities in Spain. In the
+                        opinion of the conservative parts of the Spanish society, especially the
+                        military and the Catholic hierarchy, the main reason was that the republic
+                        was altering the essence of Spain. On the contrary, the Republicans
+                        understood their politics as the modernisation of Spain. The military
+                        uprising against the Republican authorities started in North Africa (in
+                        Melilla) on 17 June 1936. In the end of September of the same year, the
+                        Bishop of Salamanca blessed the coup d'état in his pastoral letter and
+                        designated the conflict as a righteous crusade. The military rebels adopted
+                        the red and yellow flag, introduced by Charles III of Bourbon at the end of
+                        the 18</hi><hi rend="italic superscript">th</hi><hi rend="italic"> century.
+                        They also tried to develop their own concept of a leader – a Führer – the
+                        so-called theory of caudillismo, which went hand in hand with the doctrine
+                        of the German NSDAP. They rejected parliamentary democracy and the rule of
+                        law as condemnable symptoms of the liberal period. The ideological momentum
+                        of the Francoist state was mostly based on falangism and national
+                        syndicalism. Franco himself believed in his divine mission. When the war
+                        ended in April of 1939, a difficult post-war period began. Many of the
+                        people who are still alive remember it as a period worse than the war
+                        itself.</hi></p>
+                <p><hi rend="italic">Keywords: Spain, military coup, Falange, Franco, civil
+                    war</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>Uvod: druga republika kot žalitev bistva Španije</head>
+                <p>Poglavitni razlog za vojaško vstajo proti republikanskemu režimu, ki je prišel na
+                    oblast po občinskih volitvah 12. aprila 1931, in ki je nato leta 1936 privedla
+                    do španske državljanske vojne, je bilo trdno prepričanje najbolj konzervativnih
+                    delov družbe, predvsem vojske in katoliške hierarhije, da republika spreminja
+                    bistvo Španije. Republikanci pa so – nasprotno − svoj projekt razumeli kot
+                    modernizacijo Španije, ali z besedami Ortege y Gasseta, <hi rend="italic"
+                        >evropeizacijo</hi>. Dejansko je Druga republika z ustavo, sprejeto 9.
+                    decembra 1931, uvedla reforme, ki so imele veliko gospodarsko, družbeno in
+                    kulturno težo, kot so bile agrarna reforma, enakost med spoloma, ločitev
+                    zakonske zveze, decentralizacija države, da bi ugodili zahtevam Katalonije,
+                    Baskije in Galicije, progresivna vsesplošna dostopnost šolstva itd. Španijo so
+                    želeli približati svojim evropskim sosedam, zlasti Franciji, ker je bila
+                    zaostalost Španije v primerjavi z drugimi tako očitna, da jo je bilo že težko
+                    spregledati in jo sprejemati. Veleposestniki, velika buržuazija, pomemben del
+                    kmečkega prebivalstva, katoliška hierarhija in vojska so v omenjenih reformah
+                    videli tako predajo komunizmu, ki so se ga bali, kot začetek kolektivizacije
+                    lastnine, kar so imenovali <hi rend="italic">sovietizacija</hi>. V letu 1937 so
+                    nekatere vesti, ki so prehajale iz republikanskega na <hi rend="italic"
+                        >nacionalno</hi> ali frankistično območje, kot tudi ukinitev denarja v
+                    nekaterih aragonskih agrarnih skupnostih<note place="foot" xml:id="ftn2" n="1"
+                        >Jesús Alonso Millán, <hi rend="italic">La guerra total en España
+                            (1936-1939)</hi> (Google Libros, 2013), 262.</note> (tovrstni primeri so
+                    se zgodili že leta 1933), povzročili pravo osuplost med premožnimi družbenimi
+                    razredi na obeh straneh, ki so se nagibali k temu, da podprejo nov, frankistični
+                    red, ki se je predstavljal kot garant zasebne lastnine in varuh reda in zahodne
+                    civilizacije pred »hordami azijskih komunistov«.<note place="foot" xml:id="ftn3"
+                        n="2">Ángel Viñas, »Franco y la subversión de la memoria,« v: <hi
+                            rend="italic">España en la memoria de tres generaciones. De la esperanza
+                            a la reparación,</hi> ur. Julio Aróstegui (Madrid: Editorial Complutense
+                        y Fundación Largo Caballero, 2007), 114.</note></p>
+                <p>Ob razpravljanju o Drugi republiki velikokrat pozabimo, da ne gre za enovito
+                    obdobje, pač pa za vedno bolj očitno radikalizacijo obeh taborov in naraščajočo
+                    polarizacijo družbe, vse dokler ta ni postala nevzdržna in je leta 1936 vodila v
+                    dokončni dramatični prelom. Za prvo, konstitutivno fazo republike, od prihoda
+                    antimonarhističnih strank na oblast pomladi leta 1931, sprejetja nove
+                    republikanske Carte Magne decembra istega leta, in celo do volilne zmage desnice
+                    leta 1933, je bila značilna relativna zmernost, čeprav so bile vedno bolj vidne
+                    posledice mednarodne gospodarske krize, Velike Depresije. Od konca leta 1933 do
+                    zmage Ljudske fronte (<hi rend="italic">Frente Popular</hi>) leta 1936 so
+                    vladajoče konzervativne stranke skušale spodnesti republiko, kljub temu da je
+                    bil takratna državna ureditev republika, zato se ta druga faza zgodovinskega
+                    obdobja imenuje <hi rend="italic">dvoletje odstopanj od doseženega</hi>,
+                    konzervativno ali črno dvoletje. Že leta 1932 je bil izveden poskus državnega
+                    udara proti republiki, tako imenovana <hi rend="italic">Sanjurjada,</hi><note
+                        place="foot" xml:id="ftn4" n="3">General José Sanjurjo je kot Francisco
+                        Franco sodeloval v maroški vojni, kjer si je prislužil vzdevek lev Rifa.
+                        Vrhovno sodišče ga je zaradi vojaške vstaje obsodilo na smrtno kazen (24. 8.
+                        1932), vendar je dan kasneje predsednik republike Niceto Alcalá-Zamora
+                        spremenil smrtno kazen v dosmrtno ječo. 27. avgusta je bil odpuščen iz
+                        vojske. Ob menjavi oblasti leta 1933 je bil pomiloščen, kljub temu da je
+                        imel Alcalá-Zamora velike pomisleke. Iz pregnanstva v Lizboni je koval
+                        zaroto proti Republiki in sodeloval v državnem udaru julija 1936. Tri dni
+                        kasneje je umrl v letalski nesreči.</note> vendar je Azañeva vlada poskus
+                    zadušila, ker jo je obveščevalna služba o nameri dela vojske pravočasno
+                    obvestila. Že desetletja je bil Azaña eden glavnih zagovornikov republike, kot
+                    so bili to že od leta 1930 Ortega y Gasset, Marañón in Pérez de Ayala. Z
+                    znamenito izjavo, da Španija ni več katoliška,<note place="foot" xml:id="ftn5"
+                        n="4"><hi rend="italic">El Sol</hi>, 14. 10. 1931.</note> si je nakopal
+                    nenaklonjenost širokih slojev španske družbe, ki je bila še vedno preveč
+                    tradicionalna in tradicionalistična, da bi lahko sprejela tako jakobinsko
+                    laicistično ustavo, kot je bila ustava iz leta 1931, katere tretji člen se je
+                    dobesedno glasil: »Španska država nima uradne veroizpovedi«.<note place="foot"
+                        xml:id="ftn6" n="5">Naj opozorim na nasprotje med odkritim laicizmom
+                        republikanske ustave, ki je bila sprejeta dva meseca po tem, ko je Azaña
+                        izrekel omenjeno izjavo v parlamentu, in brezkonfesionalnost ustave iz leta
+                        1978, ki isto zadevo pojasnjuje kar v treh odstavkih 16. člena: »16.1.
+                        Posameznikom in skupnostim je zagotovljena ideološka in verska svoboda ter
+                        svoboda bogoslužja […] pri tem je edina dopustna omejitev ta, ki je potrebna
+                        za ohranitev javnega reda, ki ga ščiti zakon. 16.2. Nihče se ni dolžan
+                        opredeliti glede svojega ideološkega, verskega ali drugih prepričanj. 16.3.
+                        Nobena veroizpoved ni državna. Javni organi upoštevajo verska prepričanja
+                        španske družbe in zato posledično sodelujejo s Katoliško cerkvijo in drugimi
+                        veroizpovedmi.« </note> Te besede so samo prilile olja na ogenj, kajti le
+                    mesec dni po razglasitvi republike so zagoreli samostani.</p>
+                <p>Versko vprašanje je bilo zelo zapleteno in nedvomno najbolj pereče, ko skušamo
+                    razumeti, zakaj so se duhovščina in najvišji družbeni sloji v Republiki
+                    počutili, kot da so potisnjeni v kot. Nova država pa je ta korak storila, ker je
+                    želela: ukiniti monopol Katoliške cerkve na področju izobraževanja, posledično
+                    ukiniti indoktrinacijo in modernizirati družbo z jasno ločitvijo Cerkve in
+                    države, kot je to storila velika vzornica Francija.</p>
+                <p>Drugo pereče vprašanje pa se je nanašalo na sicer staro zahtevo Katalonije po
+                    statutu o avtonomiji. Azañeva vlada je na to željo kaj kmalu odgovorila, saj so
+                    že novembra 1932 razpisali prve katalonske volitve v zgodovini v skladu s tako
+                    imenovanim <hi rend="italic">Statutom iz Nurije</hi>, ki ga je sprejel španski
+                    parlament.</p>
+                <p>V razglasitvi, najprej katalonske republike 14. aprila 1931 in nato še katalonske
+                    države na začetku oktobra 1934, sta desnica in vojska prepoznali <hi
+                        rend="italic">separatizem</hi> kot drugo veliko grožnjo tradiciji, v tem
+                    primeru sveti enotnosti Španije. Katalonskemu Statutu avtonomije je le za krajši
+                    čas sledila baskovska avtonomnost, ki bi ji sledila tudi galicijska, če ne bi
+                    prišlo do vojne.</p>
+                <p>Na tretjem mestu je družbeno vprašanje, morda najpomembnejše, ki je v obdobju
+                    vedno slabšega položaja svetovnega gospodarstva postajalo vedno bolj pereče.
+                    Kmetje, dninarji, industrijski delavci in drugi, zgodovinsko marginalizirani
+                    delavci, so zelo veliko pričakovali od Druge republike, njihova pričakovanja pa
+                    so se razblinjala sorazmerno z rastjo krize. Eksplozivnost nekaterih dogodkov,
+                    kot je bilo nasilje v Casas Viejas,<note place="foot" xml:id="ftn7" n="6">Dne 9.
+                        januarja 1933 je prišlo v španskih glavnih mestih do upora anarhistov. Ta je
+                        v Barceloni doživel polom in na drugih vzhodnih območjih pravzaprav ni
+                        dosegel svojih ciljev, ker je bil hitro zatrt. V Andaluziji je bil
+                        intenzivnejši, predvsem v Utreri (Sevilli), pokrajini Cádiza, kjer je nekaj
+                        dni kasneje nasilje zahtevalo največ žrtev. V Casas Viejas, blizu mesta
+                        Medina Sidonia, so anarhisti do smrti ranili narednika in gardista civilne
+                        garde. Odgovor vlade je bila usmrtitev petindvajsetih kmetov. Izgredi
+                        policije so povzročili velik družbeni pretres in zadali hud udarec ugledu
+                        predsednika Manuela Azañe. ̶ <hi rend="italic">Atlas cronológico de la
+                            Historia de España</hi> (Madrid: Real Academia de la Historia / SM,
+                        2008), 344.</note> je globoko načelo zaupanje in zamajalo predvsem
+                    republikansko-socialistično koalicijo, ki jo je vodil Manuel Azaña v njeni prvi,
+                    zmerni fazi. Vlado sta napadali tako desnica kot levica, kar je prispevalo k
+                    volilnemu polomu levice novembra 1933. Ko je prišla na oblast Španska
+                    konfederacija avtonomnega desničarskega krila (CEDA, <hi rend="italic"
+                        >Confederación Española de Derechas Autónomas</hi>), pa ta ni imela
+                    nikakršnega predsodka, da ne bi izvedla eno najbolj krvavih represij proti neki
+                    revoluciji, kar jih je poznala Evropa: zatrtje revolucije v Asturiasu leta 1934.
+                    Dogodek so dramatično poimenovali kar <hi rend="italic">Rdeči oktober</hi>. Tam
+                    so uporabili špansko vojsko iz Afrike, posebne enote kolonizacije, kjer je imel
+                    Franco priložnost pokazati svoje cenjene vojaške vrline, ki jih Preston imenuje
+                        <hi rend="italic">ledena krutost </hi>(<hi rend="italic">gélida
+                        crueldad</hi>). Njegova strategija je bila zelo premišljena:</p>
+                <quote>Osrednji simbol vrednot desnice, ki jim je bil zvest, je bila rekonkvista
+                    Španije iz arabskih rok. Ker je dvomil, da bodo rekruti, ki so prihajali iz
+                    delavskega razreda, pripravljeni streljati na španske delavce, in ker ni želel
+                    prispevati k širitvi revolucije, kar bi se najbrž zgodilo, če bi uporabil vojake
+                    iz garnizij, ki so se nahajale na polotoku, saj bi jih oslabil, je brez
+                    predsodkov pripeljal maroške plačance, da so se borili v Asturiasu, edinem delu
+                    Španije, kjer polmesec nikoli ni zavladal. Prav nič protislovno se mu ni zdelo
+                    uporabiti Maročanov, enostavno zato, ker je obravnaval levičarske delavce z
+                    enakim rasnim zaničevanjem kot plemena Rifa. »Ta vojna je vojna za meje«, je
+                    komentiral dogodke nekemu novinarju, »in fronte so socializem, komunizem in vse
+                    možne oblike, ki napadajo civilizacijo, da bi jo nadomestile z
+                        barbarstvom«.<note place="foot" xml:id="ftn8" n="7">Paul Preston, <hi
+                            rend="italic">Franco</hi> (Barcelona: Grijalbo, 1994),
+                    138.</note></quote>
+                <p>Treba je bilo napasti republikanske vrednote, ki so po prepričanju ultradesne
+                    ideologije grozile <hi rend="italic">civilizaciji</hi>, pa čeprav so bile, kot
+                    je bilo moč videti, njihove metode celo bolj okrutne od tistih, značilnih za
+                    domnevno <hi rend="italic">barbarstvo</hi>, ki so ga želeli preprečiti. Pri tem
+                    je bilo ključno brezčutno delovanje frankistov, za kar je bil Franco (in ostali)
+                    nedvomno izurjen v času vojaškega usposabljanja v maroški vojni, zaradi česar je
+                    lahko asturijske rudarje, sonarodnjake, oropal njihovega statusa rojakov in jih
+                    obravnaval kot tujce ali dejansko protišpanske elemente ter jih zato kruto zatrl
+                    z vojaki, ki so se bili v gorovju Rifa navajeni boriti do smrti. Pet let
+                    kasneje, leta 1939, si je Kavdiljo za svojo osebno stražo ali <hi rend="italic"
+                        >de corps</hi> izbral eksotične jezdece »Mavrske garde« in tako svojim
+                    najbolj reprezentativnim potovanjem v Rolls Roycu dal pridih orientalskega paše,
+                    v skladu s tiranijo, ki je celotno Španijo obarvala s krvjo, saj se je znebil
+                    vsakega nasprotnika kot tudi samega Joséja Antonia Prima de Rivere, ki so ga
+                    najprej zanikali, nato poveličevali. Neizprosno zatrtje asturijske revolucije z
+                    vojaki iz Maroka je bil precedans, kajti med vojaškimi vstajniki leta 1936 so
+                    pomembno vlogo ponovno odigrali t. i. <hi rend="italic">afrikanisti</hi>,
+                    vojaki, ki so si kariero ustvarili predvsem med španskimi kolonialnimi vojaškimi
+                    silami v današnjem Maroku. Tako Millán Astray, ki je leta 1920 ustanovil španski
+                    »Tujski regiment« (kasneje poimenovan Legija<note place="foot" xml:id="ftn9"
+                        n="8">V Špansko legijo so bili vključeni pretežno Španci (za razliko od
+                        francoske <hi rend="italic">Légion Étrangère</hi>, v vrstah katere so bili
+                        predvsem tujci). Vanjo so se vključevali zaradi avanturizma in dobrega
+                        zaslužka. Bojevali so se zunaj polotoškega ozemlja in so bežno spominjali na
+                        profil drugorazrednih konkvistadorjev, ki so v 16. st. odhajali v Ameriko.
+                            <hi rend="italic">Legionarji</hi> so kmalu zasloveli kot eden
+                        najstrašnejših delov španske vojske, ker je bilo zanje značilno navdušenje
+                        nad temačnostjo, ko so se v dokaz svoje požrtvovalnosti, poguma in možatosti
+                        bahavo spogledovali z nevarnostjo. To ponazarja tudi naslov njihove najbolj
+                        znane pesmi: <hi rend="italic">Moja nevesta je smrt</hi>.</note>), kot
+                    številni drugi vojaki, ki so podprli izbruh državljanske vojne (Franco,
+                    Cabanellas, Sanjurjo, Queipo de Llano in Mola), so se v dvajsetih letih<note
+                        place="foot" xml:id="ftn10" n="9">Gustau Nerín, <hi rend="italic">La guerra
+                            que vino de África</hi> (Barcelona: Crítica, 2005), 27.</note> bojevali
+                    v takratnem španskem protektoratu Maroku. Sloveli so po svoji prekomerni
+                    ambicioznosti in bili so obsedeni z junaštvom.</p>
+                <p>Dejansko je bil <hi rend="italic">afrikanizem</hi>, ki so ga takrat razumeli kot
+                    »uveljavitev modernih idej nad barbarstvom, ki prevladuje v Afriki«,<note
+                        place="foot" xml:id="ftn11" n="10">Obča ilustrirana enciklopedija »<hi
+                            rend="italic">Espasa</hi>« (<hi rend="italic">Enciclopedia Universal
+                            Ilustrada </hi>»<hi rend="italic">Espasa</hi>«), ki jo navaja Nerín, <hi
+                            rend="italic">La guerra</hi>, 24. Navaja tudi <hi rend="italic">Moderni
+                            španski slovar</hi> (<hi rend="italic">Diccionario del Español
+                            Actual</hi>), ki vsebuje tudi opredelitev termina: »vodja ali častnik,
+                        ki se je izuril v operacijah v Afriki« v jasnem nasprotju z opredelitvijo
+                        slovarja Španske kraljeve akademije (<hi rend="italic">DRAE),</hi> ki pravi:
+                        »Oseba, ki se ukvarja s študijem in razvojem zadev, ki se nanašajo na
+                        Afriko«; ali v slovarju Inštituta za katalonske študije (<hi rend="italic"
+                            >Diccionari de l'Institut d'Estudis Catalans)</hi>: »Zagovornik
+                        kulturnih vrednot in interesov Afričanov, predvsem črnih Afričanov«.</note>
+                    povezovalni element med člani novonastale kaste ali klana, saj so imeli skupno
+                    izkušnjo boja v Maroku. Njihovi odnosi so si bili tako blizu, da je šlo
+                    pravzaprav za napol družinske ali skoraj plemenske odnose. Pomembno so vplivali
+                    na izbruh državljanske vojne in imeli so celo pomembnejšo vlogo kot italijanski
+                    fašizem ali nacizem, kot je poudaril Nerín.<note place="foot" xml:id="ftn12"
+                        n="11">Nerín, <hi rend="italic">La guerra</hi>, 27.</note> Tako državni udar
+                    17. in 18. julija 1936 ni bil samo začetek vojne, pač pa predvsem vrh dolgoletne
+                    konspiracije proti temu, kar so imeli za izdajo naroda. Zato ne preseneča, da so
+                    del Španije, kjer so zmagali vojaški vstajniki proti Drugi republiki, hitro
+                    poimenovali <hi rend="italic">nacionalni tabor</hi>.</p>
+            </div>
+            <div>
+                <head>Prikaz vojaške vstaje kot odrešitve</head>
+                <p>Zaradi opisane vloge t. i. <hi rend="italic">afrikanistov</hi> bolje razumemo,
+                    zakaj se je vojaška vstaja začela prav v severni Afriki, v Melilli, popoldan 17.
+                    julija 1936. Sprožil jo je uboj opozicijskega poslanca Joséja Calva Sotele (13.
+                    julija) kot odgovor na uboj, ki se je zgodil dan pred tem, ko je bil umorjen
+                    pripadnik socialističnih milic José Castillo, ki so ga po mnenju Gibsona (1986)
+                    ubili karlisti, medtem ko Preston (1986) meni, da so ga ubili falangisti. Na
+                    obeh pogrebih, ki sta potekala skoraj istočasno, je prišlo do hudih spopadov in
+                    bilo je veliko ranjenih. Izmenjava političnega nasilja med obema taboroma, ki je
+                    potekala že od pete obletnice Republike, je postajala vedno hujša. Kdo je
+                    odgovoren za začetek vojne, pa zgodovinarji niso enotni. Kdo nosi večjo
+                    odgovornost, republikanci ali frankisti, se sprašuje Trapiello, čigar odgovor je
+                    jasen: nihče si ni želel liberalne, zmerne in laične Španije, ker je prišel čas
+                    za Španijo, ki je morala biti ne republikanska in demokratična, pač pa
+                    fašistična ali komunistična.<note place="foot" xml:id="ftn13" n="12">Andrés
+                        Trapiello, <hi rend="italic">Las armas y las letras. Literatura y guerra
+                            civil (1936-1939)</hi> (Barcelona: Destino, 2011), 43.</note> Prva
+                    smrtna žrtev vojne je bila prav Tretja Španija, ki je v delu <hi rend="italic"
+                        >Upor množic</hi> (<hi rend="italic">La rebelión de las masas)</hi> Ortege y
+                    Gasseta oznanila, da sta jo obe skrajnosti ugrabili. S sociološkega vidika je
+                    treba pojasniti, da se je tisto pomlad in poletje leta 1936 prebivalstvo
+                    razdelilo in polariziralo na dva povsem enaka dela. Lahko bi rekli, da gre za
+                    fenomen obejestranske odtujitve, kar je onemogočalo kakršnokoli vmesno držo ali
+                    držo zmerne nevtralnosti. Ozračje v obeh taborih se je naelektrilo.<note
+                        place="foot" xml:id="ftn14" n="13">Veliko avtorjev uporablja metaforo
+                        naelektrenosti, na primer tudi Trapiello, ibid., 46: »Ozračje je postajalo
+                        naelektreno.«</note> Z mesiansko propagando pa so sovražnika satanizirali.
+                    Unamuno je raje govoril o skupnem samomoru kot o državljanskem spopadu.<note
+                        place="foot" xml:id="ftn15" n="14">Vojna se je šele dobro začela, ko je
+                        Unamuno že postavil točno diagnozo te hude bolezni: »Ne borijo se eni Španci
+                        proti drugim Špancem (ne obstaja anti-Španija), pač pa se bori celotna
+                        Španija, ena, proti sami sebi. Skupinski samomor.« Kot da bi Unamuno govoril
+                        o svoji lastni družini. Dva njegova otroka sta se borila v republikanskih
+                        rovih, on pa na strani nacionalistov. ̶ Ibid., 53.</note> Zaradi te
+                    kolektivne histerije so lahko človeka na ulici napadli zgolj zato, ker je bil
+                    oblečen v obleko in je nosil kravato.<note place="foot" xml:id="ftn16" n="15"
+                        >Raymond Carr, <hi rend="italic">España 1808 ̶ 1975</hi> (Barcelona: Ariel,
+                        2007), 628.</note> Filozofa Ortega y Gasseta, ki se je predano zavzemal za
+                    uvedbo republike,<note place="foot" xml:id="ftn17" n="16">V svojem slavnem
+                        članku »Napaka Berenguer« (<hi rend="italic">El Sol</hi>, 15. 11. 1930) je
+                        izjavil, da je treba uničiti monarhijo - <hi rend="italic">Španci, vaša
+                            država ne obstaja! Zgradite novo! Delenda est Monarchia</hi>, februarja
+                        1931 pa je skupaj z Gregoriem Marañónom in Ramónom Pérezom de Ayalo
+                        ustanovil Skupino v službi Republike (<hi rend="italic">Agrupación al
+                            Servicio de la República</hi>).</note> vendar je sčasoma postajal
+                    razočaran, ko je odkrival resne razpoke v njenem sistemu, so julija 1936, nekaj
+                    dni po vojaškem prevratu, na njegovem domu v Madridu obiskali nekateri njegovi
+                    študentje, oblečeni kot delavci, v modrih delovnih pajacih in z orožjem za
+                    pasom, goreče pripravljeni na antifašistični boj. K profesorju so prišli po
+                    moralno podporo. Podpisal naj bi sporočilo v podporo Republike. Ortega jih je
+                        zavrnil.<note place="foot" xml:id="ftn18" n="17">Jordi Gracia, <hi
+                            rend="italic">José Ortega y Gasset</hi> (Madrid: Taurus, 2014),
+                        513.</note> Kasneje je pojasnil, da niti mrtev ne bi podpisal dokumenta ob
+                    prisotnosti orožja. Prav te vmesne drže okoliščine državljanske vojne niso
+                    dopuščale. Ortega je, preden je resno zbolel, nazadnje podpisal podoben dokument
+                    in kmalu zatem odšel iz Španije. Bil je vidno postaran in ni prav dobro vedel,
+                    katera stran bi ga lahko dala ubiti.<note place="foot" xml:id="ftn19" n="18"
+                        >Ibid., 518.</note></p>
+                <p>Enrique Pla y Deniel, takratni škof Salamanke in kasneje nadškof Toleda, je v
+                    svojem pastoralnem pismu <hi rend="italic">Obe mesti</hi> (<hi rend="italic">Las
+                        dos ciudades</hi>) z dne 30. septembra 1936, katerega navdih je bil Sveti
+                    Avguštin, blagoslovil državni udar in spopad kot pravično vojno, ki jo je
+                    označil za <hi rend="italic">križarsko</hi>. Malo pred tem je med napredovanjem
+                    frankistov prišlo do enega najbolj črnih dogodkov, krvavega pokola v Badajozu
+                    (poleti leta 1936). Tam so maroški vojaki v areni za bikoborbe ustrelili na
+                    tisoče nedolžnih civilistov in tako ponovili barbarstvo iz leta 1934 v
+                    Asturiasu. To je bil povračilni ukrep za zaostritev republikanske protiofenzive,
+                    saj je ta pomenila hladni tuš za začetni Frankov optimizem,<note place="foot"
+                        xml:id="ftn20" n="19">Preston, <hi rend="italic">Franco</hi>, 211. </note>
+                    kajti načrtoval je, da bo zavladal večjemu delu polotoka v nekaj dneh ali
+                    tednih. Takrat, konec poletja leta 1936, pa je uvidel, da lahko boj traja še
+                    mesece, celo leta.<note place="foot" xml:id="ftn21" n="20">V intervjuju, ki ga
+                        je Franco dal konec julija severnoameriškemu novinarju Jayu Allenu v
+                        Tetuanu, je na vprašanje, koliko časa bo še trajalo pobijanje, odgovoril, da
+                        bo napredoval proti Madridu, dokler ga ne zavzame, in bo tako za vsako ceno
+                        rešil Španijo pred marksizmom […] Allen ga je nato vprašal: »Ali to pomeni,
+                        da boste morali pobiti pol Španije?« Franco je z nasmeškom odgovoril:
+                        »Ponavljam, za kakršnokoli ceno«. Objavljeno v: <hi rend="italic">The News
+                            Chronicle</hi> (od 29 julija do 1. avgusta 1936), cit. po: Preston, <hi
+                            rend="italic">Franco</hi>, 196−97.</note> Februarja 1937 je ponovno
+                    prišlo do klanja, ko so frankisti z italijansko pomočjo z morja in po zraku
+                    kruto napadli prebivalstvo Malage, ki je po obalni cesti bežalo proti vzhodu.
+                    Število civilnih žrtev je bilo najmanj dvakrat višje kot v Badajozu, če se
+                    opremo na Prestonove izračune.<note place="foot" xml:id="ftn22" n="21">Tako
+                        nacionalisti kot Italijani so bili neusmiljeni. Mednarodni protesti niso
+                        bili tako močni kot v primeru poboja v Badajozu, ker je Franco ukazal, da ne
+                        sme noben vojni dopisnik vstopiti v Malago. Po bitki sta Queipo de Llano in
+                        Roatta poslala še motorizirano kolono, da je sledila tistim, ki so zapustili
+                        mesto in bežali po obalni cesti. Samo prvi teden so v samem mestu ustrelili
+                        skoraj štiri tisoč republikancev in množični poboji so se vrstili še mesece.
+                        Na tiste, ki so bežali iz Malage, so z morja streljali z minometi, iz zraka
+                        pa z mitraljezi in bombami. ̶ Preston, <hi rend="italic">Franco</hi>,
+                        274.</note> Kasneje pa je Legija Condor bombardirala še Gerniko, kar je bilo
+                    v očeh celotne mednarodne javnost povsem nesprejemljivo. Če se vrnemo k zagovoru
+                    vojne kot sodobne <hi rend="italic">križarske vojne</hi>, se je omenjeno
+                    pastoralno pismo pojavilo v kontekstu prvih velikih množičnih in
+                    nediskriminatornih pobojev prebivalstva, ki bi jih danes označili kot zločine
+                    proti človeštvu. Španska Cerkev, se je v tem velikem krvavem vrtincu
+                    sistematično postavila na stran krvnikov, razen v Baskiji, ker je razumela
+                    baskovski nacionalizem in je bila blizu ljudem, razen tega pa je v svojih
+                    govorih zmanjševala pomen pobojev. Zaradi tega je imela težave z Vatikanom, ki
+                    je bil pod pritiskom jeznega svetovnega javnega mnenja.<note place="foot"
+                        xml:id="ftn23" n="22">Hilari Raguer, <hi rend="italic">The Catholic Church
+                            and the Spanish Civil War</hi> (London, New York: Routledge, 2007),
+                        228−30.</note> Z besedami Hilari Raguer:</p>
+                <quote xml:lang="en">[…] if the creation or re-establishing of this Confessional
+                    State required the launching of a Civil War, then a Civil War would be launched.
+                    It would not be for the first time; this would be for the fourth time. In most
+                    of the contemporary nations that were by then constitutional monarchies or
+                    democratic republics, a reasonable balance between Church and State had been
+                    reached, but in comparison to them Spain was like a distant galaxy.<note
+                        place="foot" xml:id="ftn24" n="23">Ibid., 20.</note></quote>
+                <p>Španska cerkev je bila torej »oddaljena galaksija« tudi v očeh Vatikana, ki je
+                    vendarle od svojega prvega Koncila leta 1869/70 v številnih zadevah sramežljivo
+                    zavzel stališče modernizacije in prilagajanja. Pokazali bomo, da ta oddaljenost,
+                    ki pravzaprav pomeni nasprotovanje temu, da bi se Cerkev ločila od države, s
+                    svojim estetskim in propagandističnim idealom seže v sam srednji vek.</p>
+            </div>
+            <div>
+                <head>Simbolična remedievalizacija in zgodovinski mit kot legitimacija nove
+                    države</head>
+                <p>Zagovorniki državnega udara in invazijske ter očiščevalne vojne, ki se je
+                    sprevrgla v dolgotrajno in krvavo ideološko <hi rend="italic">čistko</hi>, so v
+                    svojem diskurzu trdili, da se želijo ponovno približati zahodu. Koncept <hi
+                        rend="italic">čistke</hi> je soroden dejanjem <hi rend="italic">čistk</hi>,
+                    ki so jih nacisti izvajali v Nemčiji od leta 1933 dalje. Vzporedno je frankizem
+                    dejansko uvedel še prakso remedievalizacije v vojaškem spopadu, v katerem je
+                    odkrival vzporednice z bojem med kristijani in muslimani v času rekonkviste.
+                    Kljub odporu Madrida, ki se je strnil v bran mesta pod sloganom <hi
+                        rend="italic">No pasarán</hi> in so ga frankisti podcenjevali, ter obetom,
+                    da bo osvajalska vojna trajala dolgo in se bíla ped za pedjo, pučisti niso
+                    želeli odlašati z organizacijo nove države.<note place="foot" xml:id="ftn25"
+                        n="24">Carr, <hi rend="italic">España</hi>, 643.</note> Zato so uvedli vrsto
+                    simbolov, ki so odražali ideale vojaškega prevrata in so jih samopoimenovali <hi
+                        rend="italic">Vstajenje Španije</hi>.<note place="foot" xml:id="ftn26"
+                        n="25">Cristina Gómez Cuesta, »La construcción de la memoria franquista
+                        (1939 ̶1959): Mártires, mitos y conmemoraciones,« <hi rend="italic">Studia
+                            Historica, Historia Contemporánea</hi>, št. 25 (2007), 87 ̶ 123, tu
+                        90.</note> Med simboli, ki jih je posvojila nova totalitarna država, je bilo
+                    tudi mesto. Samo teden dni po državnem udaru so 24. julija 1936 pučisti
+                    razglasili mesto Burgos za glavno mesto oziroma generalštab nacionalističnih
+                    operacij. Burgos je postal sedež Zveze nacionalne obrambe (<hi rend="italic"
+                        >Junta de Defensa Nacional</hi>), ki je 29. septembra 1936 predala Francu
+                    vodenje države, malo preden so ga razglasili za <hi rend="italic"
+                        >generalísima</hi> in predsednika. V Burgosu so mu v ta namen 1. oktobra
+                    pripravili tudi razkošno vojaško parado. Ta datum je bil nato v obdobju
+                    diktature uradni nacionalni praznik (oponašanje režimov Osi), znan kot<hi
+                        rend="italic"> Kavdiljev dan (Día del Caudillo)</hi>.</p>
+                <p>Izbor Burgosa kot prestolnice nikakor bil naključen. Mesto, znano pod imenom <hi
+                        rend="italic">Glava Kastilje,</hi> prikliče spomine ne samo na rojstvo
+                    Kastiljske grofije in kastiljščine kot jezika, temveč predvsem na rekonkvisto s
+                    Cidom. Tukaj ne gre za zgodovinsko osebo, o kateri vemo zelo malo, ampak bolj za
+                    literarno osebo, znano iz legende o Cidu Campeadorju, ki je bolje kot kdorkoli
+                    poosebljal figuro na konju, Jakoba, »ubijalca Mavrov« (<hi rend="italic"
+                        >Santiago »Matamoros«</hi>). Tako je na izbor Burgosa vplivala premišljena
+                    namera, da bi vzpostavili tisočletne paralelizme, ki bi lahko mitično upravičili
+                    vojaški prevrat. Zanimivo je, da Burgos šele od leta 2008 uradno ni več <hi
+                        rend="italic">Prestolnica križarske vojne</hi> − naslov, je mestu podelil
+                    Franko leta 1961.<note place="foot" xml:id="ftn27" n="26"><hi rend="italic"
+                            >Diario de León</hi>, 12. 2. 2008.</note>
+                </p>
+                <p>Vojaški vstajniki so za svojo vzeli rdečerumeno zastavo, ki jo je konec 18.
+                    stoletja uvedel Karel III. Burbonski, in izkopali bojno sekiro proti <hi
+                        rend="italic">pofrancozeni</hi> republikanski tribarvni zastavi, rdeči,
+                    rumeni in vijolični, ki je bila uzakonjena z republikansko ustavo leta
+                        1931.<note place="foot" xml:id="ftn28" n="27">Tribarvnost seveda izvira iz
+                        Francoske Republike, republike par excellence. Vijolično barvo pa razlagajo
+                        z revolucijo astiljskih <hi rend="italic">comunerosov</hi>, ki so menili, da
+                        so Karel V. in Burgundci vsiljivci in so za kraljico zahtevali Ivano v letih
+                        1520−1522. </note> Vsekakor pa je novi grb, ki so ga sprejeli kasneje,
+                    odražal skoraj programsko neoimperialistične ideale, ki jih je s silo vsiljeval
+                    frankistični režim. S tem je ponovno obudil simbole kraljev, sklicujoč se na
+                    zgodovinsko obdobje Zlate dobe, ki je bilo za frankistični patriotizem eno
+                    najodličnejših in vrednih posnemanja. Po Zlati dobi je »režim hrepenel, ker mu
+                    je predstavljal zgodovinski skupek slave in junaštev, za katerega dediča se je
+                    imel frankizem«.<note place="foot" xml:id="ftn29" n="28">Zira Box Varela, »La
+                        fundación de un régimen. La construcción simbólica del franquismo«
+                        (doktorska disertacija, Universidad Complutense Madrid, 2008), 308. </note>
+                    Civilno ali zidno republikansko krono je zamenjala kraljeva in grb je uokvirjal
+                    velik orel Svetega Janeza. Enak orel je bil na grbu katoliških kraljev, ker je
+                    bila Izabela Kastiljska zvesta častilka Svetega Janeza Evangelista. Pučisti so
+                    kazali jasen namen ponovne katolizacije in konfesionalnosti, obenem pa so
+                    povezovali državni udar z začetkom novega obdobja: ponovnega rojstva imperialne
+                    Španije. Dodali so še jarem in puščice, emblema Izabele in Ferdinanda, ter
+                    gordijski vozel, ki ga je katoliški kralj prevzel od epizode z Aleksandrom
+                    Velikim. In nazadnje, na grbu so bile zapisane besede <hi rend="italic">Ena,
+                        Velika, Svobodna</hi>, ki so bile edini povsem nov falangistični
+                        element.<note place="foot" xml:id="ftn30" n="29">Ibid., 309.</note> Za
+                    Prestona je falangistični simbol jarma in puščic, enako kot svastike ali <hi
+                        rend="italic">fasces</hi>, preplet starega z modernim. Falangistična osnova
+                    je več kot očitna. Rafael Sánchez Mazas je leta 1927 napisal:</p>
+                <quote>Nikoli nismo imeli boljšega grba. S svojim snopom puščic in arhaičnim
+                    jermenom je spominjal na domovino, »bogato z žetvami in heroji«, kot je sanjal
+                    Vergilij […] V delih in dnevih Španije, v mladosti imperija, tu so simboli
+                        […]<note place="foot" xml:id="ftn31" n="30">Ian Gibson, <hi rend="italic">En
+                            busca de José Antonio</hi> (Madrid: Aguilar, 2008), 39. </note></quote>
+                <p>Podobno Ernesto Giménez Caballero, tudi falangist, leta 1932: </p>
+                <quote>Za Španijo je butara s sekiro obstajala, še preden jo je v svoj klobuk
+                    zapičil neki Ítalo Balbo. V svoj grb sta jo vključila naša katoliška kralja. […]
+                    Ne potrebujemo sposojenih simbolov. Mi smo bili narod še pred novo in ponosno
+                    Italijo in prepotentno Nemčijo. Ena mala razlika štirih stoletij!<note
+                        place="foot" xml:id="ftn32" n="31">Ernesto Giménez Caballero, <hi
+                            rend="italic">Genio de España. Exaltaciones a una resurrección nacional.
+                            Y del mundo</hi> (Barcelona: Ediciones Jerarquía, 1939), navedeno v:
+                        Gibson, <hi rend="italic">En busca de José Antonio</hi>, 38.</note></quote>
+                <p>Teoretiki režima so skušali razviti lasten koncept Führerja, tako imenovano
+                    »teorijo kavdiljizma«, ki se je ujemala z doktrino nemške NSDAP.<note
+                        place="foot" xml:id="ftn33" n="32">Nationalsozialistische Deutsche
+                        Arbeiterpartei.</note> Parlamentarno demokracijo in pravno državo so
+                    zavračali kot obsojanja vredna simptoma liberalnega obdobja.<note place="foot"
+                        xml:id="ftn34" n="33">Preston, <hi rend="italic">Franco</hi>, 362.</note>
+                    Poglejmo si naslednji primer pisateljice Marie Zambrano:</p>
+                <quote><p>Večkrat je bilo v kratkem času rečeno, da je liberalizem zastarel, da je
+                        njegov čas minil. Vendar v Zgodovini, v kulturnem življenju, ali samo v
+                        življenju, ne mine nič, da ne bi bilo ožeto v svoji zrelosti. V Zgodovini
+                        vse pusti svoj sok – velika pivka nektarja.</p>
+                    <p>Kaj nam bo ostalo od liberalizma? Kaj bo kot pogašen pepel padlo z njenega
+                        velikega kresa? Raketa poleti v noč, za trenutek razsvetli zabavo in nato
+                        brez sledi pade; simbol sterilne lepote.<note place="foot" xml:id="ftn35"
+                            n="34">María Zambrano, <hi rend="italic">Horizonte del liberalismo</hi>
+                            (Madrid: Ediciones Morata, 1996), 237. </note></p></quote>
+                <p>V nasprotju z mlado Marío Zambrano, ki je te vrstice napisala leta 1930 v
+                    skeptičnem tonu, sovražnik ni izbiral. Reakcionisti, karlisti, falangisti ali
+                    nacionalistični katoliki niso niti za trenutek podvomili vase, ne v svoje božje
+                    in odrešilno poslanstvo, ko so v svojem razumevanju sveta poveličevali smrt,
+                    pohabljenje in žalovanje. Tako vsaj ga je razumel Unamuno, ko je resno spravil v
+                    nevarnost svoje življenje, rekoč:</p>
+                <quote>Ravnokar sem slišal nekrofilen in brezsmiselen krik Naj živi smrt! […]
+                    General Millán Astray je invalid […] Vojni invalid. Tudi Cervantes je bil.
+                    Vendar skrajnosti ne postavljajo pravil. Na žalost je danes v Španiji preveč
+                    invalidov. In če nam Bog ne bo pomagal, jih bo kmalu še več. Zaboli me ob misli,
+                    da lahko general Millán Astray določa pravila psihologije množic. Invalid, ki mu
+                    manjka Cervantesova duhovna veličina, možatost in celovitost človeka (ne
+                    superčloveka) kljub temu, da je bil pohabljenec. Dejal sem, da gre za invalida,
+                    ki mu manjka duhovna superiornost, zato začuti olajšanje, ko vidi, kako se okoli
+                    njega povečuje število pohabljencev. […] Millán Astray bi si želel ustvariti
+                    novo Španijo po svoji podobi. Zato bi si želel videti pohabljeno Španijo, kot je
+                    to nezavedno tudi povedal.<note place="foot" xml:id="ftn36" n="35">Besede
+                        Miguela de Unamuna v avditoriju Univerze v Salamanki, 12. oktobra 1936 (Dan
+                        rase ali španskosti) pred Carmen Polo, Francovo ženo, škofom mesta (Pla y
+                        Deniel), rektorjem, falangisti, politiki, legionarji, profesorji etc. Krik
+                        generala Millana Astraya v odgovor na povedeno je več kot znan: »Smrt
+                        inteligenci«. Navedeno v: Trapiello, <hi rend="italic">Las armas y las
+                            letras</hi>, 56.</note></quote>
+            </div>
+            <div>
+                <head>Covadonga in poveličevanje srednjeveškega mita: rekonkviste</head>
+                <p>Box Varela pojasnjuje:</p>
+                <quote>Vojne okoliščine ob prvem praznovanju Kavdiljevega dneva so vstajnikom na
+                    pladnju prinesle nepričakovani dogodek: osvojitev Covadonge in s tem oblast nad
+                    ozemljem na severu. Sovpadanje tega dogodka z novim praznikom je pomenilo, da je
+                    bil slavljenec božji človek. Naključje, da je Kavdiljo na svoj dan lahko
+                    Domovini »podaril najlepše in najbolj dostojanstveno darilo imperialistične
+                    križarske vojne«, simbolično asturijsko svetišče, zibelko rekonkviste, je bil
+                    lahko samo dokaz več, da je bil Franco izbranec, dober in genialen človek, ki je
+                    vladal Španiji po božji volji.<note place="foot" xml:id="ftn37" n="36">Box
+                        Varela, <hi rend="italic">La fundación de un régimen</hi>,
+                    235.</note></quote>
+                <p>Kateri simbol bi bil ob Cidu, ki je predstavljal Francov <hi rend="italic">alter
+                        ego,</hi> lahko sploh boljši od Covadonge, da bi puč ali križarska vojna
+                    lahko postala še eno veliko junaštvo v prisiljeni zgodovinski kontinuiteti?
+                    Bitka pri Covadongi leta 722 ni bila zelo pomembna, ker je bil to manjši spopad
+                    kralja-pastirja Pelaya.<note place="foot" xml:id="ftn38" n="37"><hi
+                            rend="italic">Atlas cronológico de la Historia de España,</hi>
+                        55.</note> Kljub temu je nesporno, da je Covadonga skozi proces mitifikacije
+                    postala emblematični kraj, kjer se je začela rekonkvista. To je razumljivo, saj
+                    se je bilo v 19. stoletju treba opreti na tovrstne romantične zgodbe, ki so bile
+                    osnova nacionalizmu po okusu akademskih krogov, vedno nagnjenih k dobesednemu
+                    interpretiranju netočnih pozno srednjeveških kronik. Kakorkoli že, ponovno je
+                    mit in ne dolgočasna zgodovinska natančnost dal krila delirantnemu
+                    frankističnemu megalomanstvu, kar se odraža tudi v jeziku, polnem najbolj
+                    romantičnih nacional-historicizmov. Dopisnik časnika ABC Antonio Olmedo je, ko
+                    so frankisti iztrgali sveto jamo (katoliško svetišče Santa Cueva de Covadonga)
+                    iz rok <hi rend="italic">rdečih</hi> Asturijcev, zapisal:</p>
+                <quote><p>[…] Včeraj je španska vojska vzdignila svojo častito krvavo in bojno
+                        zastavo nad branik rekonkviste. […] Zmagovalni napadalci nepriljudene in do
+                        zdaj neosvojljive gore […] so iskali boljševiškega vodjo, ki je obljubil, da
+                        bo ponovil Pelayevo junaško dejanje, vendar ga ni bilo, Francovi vojaki ga
+                        niso našli. Našli niso niti […] komunistične horde. Povsem razumljivo je, da
+                        so zbežali. Nimajo tistega bistvenega, da bi lahko ponovili junaštvo Kralja
+                        pastirja: vere. </p>
+                    <p>Rdečim Asturijcem bi morala zadostovati učna ura iz Covadonge, da bi položili
+                        orožje, vendar temu ne bo tako, ker Moskva svojih mrtvih lakajev ne
+                        objokuje. […] V Covadongi, kjer je Pelayo začel rekonkvisto, bi se lahko
+                        končala osvoboditev Asturiasa. […] zdaj gre tudi za izpolnitev naloge
+                        rekonkviste […] Covadonga je bila zavzeta ravno na Kavdiljev dan.
+                        Slovestnost slovesnosti. To vojno smo z razlogom vedno imenovali vojno
+                            simbolov.<note place="foot" xml:id="ftn39" n="38"><hi rend="italic">ABC
+                                de Sevilla</hi>, 2. 10. 1937, 11. </note></p></quote>
+                <p>»Vojna simbolov« je zahtevala na tisoče smrtnih žrtev,<note place="foot"
+                        xml:id="ftn40" n="39">Glede frankistične represije gl.: <hi rend="italic">La
+                            Gran represión: los años de plomo de la posguerra (1939−1948)</hi>
+                        (Barcelona: Flor de Viento, 2009). <hi rend="italic">Historia política,
+                            1875-1939</hi> (Madrid: Ediciones Istmo, S.A., 2002), 388-292. O
+                        represiji republikancev piše, med drugimi, katoliški klasik Antonio Montero
+                        Moreno, <hi rend="italic">Historia de la persecución religiosa en
+                            España</hi> (Madrid: Biblioteca de Autores Cristianos, 1998). </note>
+                    kot, na primer, v bitki pri Jarami,<note place="foot" xml:id="ftn41" n="40">Bilo
+                        je 15000 mrtvih, od teh devet tisoč republikancev. ̶ <hi rend="italic">Atlas
+                            cronológico de la Historia de España,</hi> 352.</note> številne begunce,
+                    ljudi, ki so zbežali iz svojih domov, ujetnike in talce.<note place="foot"
+                        xml:id="ftn42" n="41">Carr, <hi rend="italic">España</hi>, 648, navaja
+                        Documents of German Foreign Policy, št. 586, in pravi, »začetne represije so
+                        izvajali falangisti, stare desničarske skupine ipd. Kasneje pa so represijo
+                        izvajala sodišča. Tudi na republikanski strani je bil viden prehod od
+                        spontane do organizirane represije«.</note> Simbolizem je z meseci nedvomno
+                    še naraščal in se povezoval z najbolj vidnimi tragedijami, dokler ni dosegel
+                    nepredvidljive dimenzije kolektivne katarze, katarze krvi, lakote ter
+                    opustošenja, ki jo je spretno dirigiral totalitarni režim. Kot pravi García
+                    Cárcel:</p>
+                <quote>Frankizem je napisal uradno zgodovino Španije, ki jo je Stanley G. Payne
+                    krstil kot »Veliko zgodbo«: zmes med starimi identitetnimi romanskimi, gotskimi
+                    in indijanskimi referencami z referencami spomina celo na muslimanstvo, primerno
+                    prilagojeno takratnemu »marokizmu«. Bili so obsedeni s preseganjem pomena
+                    muslimanske Španije, špansko-arabskega bratstva, da bi pokazali sposobnost
+                    vplivanja španskega na muslimansko in ne obratno. Španski arabizem je vsekakor
+                    zelo pripomogel pri tej operaciji nacionalistične ponovne oborožitve. Velika
+                    zgodba je bila predvsem izvajanje eklekticizma glede na korenine
+                        identitete.<note place="foot" xml:id="ftn43" n="42">Stanley G. Payne, <hi
+                            rend="italic">España. Una historia única</hi> (Madrid: Temas de hoy,
+                        2008), v: Ricardo García Cárcel, <hi rend="italic">La herencia del pasado.
+                            Las memorias históricas de España</hi> (Barcelona: Galaxia Gutenberg,
+                        2011), 461.</note>
+                </quote>
+                <p>Po drugi strani so bila za psihološko ofenzivo s premišljeno logiko smrti in
+                    vstajenja ključnega pomena frankistična bombardiranja s kruhom (npr. na Madrid,
+                    Barcelono, Alicante, Palamós, Mahón in Pollenso) oktobra 1938, ko so letala,
+                    celo letala Legije Condor, na izčrpano in sestradano prebivalstvo republikanskih
+                    mest metala vreče kruha, in celo cigarete, da bi jih demoralizirala in skušala
+                    tako doseči kapitulacijo njihove vojske.<note place="foot" xml:id="ftn44" n="43"
+                        >Josep María Solé i Sabaté in Joan Villarroya, <hi rend="italic">España en
+                            llamas. La guerra civil desde el aire</hi> (Madrid: Temas de Hoy, 2003),
+                        215, 217−20.</note>
+                </p>
+            </div>
+            <div>
+                <head>Sklep</head>
+                <p>Frankistična država je svoj ideološki naboj črpala v falangizmu in
+                    nacionalsindikalizmu, ki ga je ustanovil José Antonio Primo de Rivera skupaj z
+                    nacionalističnimi katoliki in vojaki ali <hi rend="italic">requetéji</hi>
+                    navarskega karlizma. Franco je leta 1937 izvedel še en prevrat, udar znotraj
+                    samega državnega udara, da bi zedinil raznolike težnje znotraj nacionalnega
+                    tabora. S samoudarom, ki je bil povezan tudi z dejstvom, da je po bombardiranju
+                    Gernike veliko katolikov začelo dvomiti o legitimnosti in svetosti
+                    frankističnega cilja, si je Franco zagotovil vso oblast ne samo nad novo državo,
+                    pač pa tudi nad novo, edino stranko, Špansko falango in JONS-om.<note
+                        place="foot" xml:id="ftn45" n="44">Nacionalsindikalistične ofenzivne skupine
+                            (<hi rend="italic">Juntas de Ofensiva Nacional-Sindicalista</hi>), ki
+                        jih je leta 1934 ustanovil Ramiro Ledesma Ramos.</note> Navdihnil ga je
+                    Mussolinijev <hi rend="italic">Gran Consiglio Fascista</hi>. Tako je aprila 1937
+                    ustanovil Nacionalni svet FET-a<note place="foot" xml:id="ftn46" n="45"
+                        >Tradicionalistična španska falanga (<hi rend="italic">Falange Española
+                            Tradicionalista</hi>), ki jo je oktobra 1933 ustanovil J. A. Primo de
+                        Rivera.</note> in JONS-a, enotno stranko falangistov in karlistov, ki je
+                    vladala Španiji celo po Francovi smrti, do prvih demokratičnih volitev leta
+                    1977. S tako nakopičeno oblastjo je ofenziva nacionalistov prešla v fazo
+                    popolnega uničenja sovražnika.</p>
+                <p>Franco je ob vsej svoji mogoči in nemogoči oblasti tudi sam verjel v svoje božje
+                    poslanstvo. Po zavzetju Santanderja 25. julija 1937, na dan Jakoba, zavetnika
+                    Španije, je Franco izjavil, »da mu je apostol na svoj praznik podaril
+                        zmago«.<note place="foot" xml:id="ftn47" n="46">Preston, <hi rend="italic"
+                            >Franco</hi>, 355.</note> Novembra je z nekim francoskim novinarjem
+                    ponovno govoril o križarski vojni: »Ne gre za državljansko vojno, pač pa za
+                    Križarsko vojno […] Da, naša vojna je verska vojna. Mi, mi vsi, ki se bojujemo,
+                    kristjani in muslimani, smo božji vojaki in se ne bojujemo proti drugim ljudem,
+                    temveč proti ateizmu in materializmu«.<note place="foot" xml:id="ftn48" n="47"
+                        >Ibid., 363.</note> Propagandna služba pod vodstvom Dionisia Ridrueja je
+                    meseca decembra pripravila uprizoritev v samostanu Santa María la Real de las
+                    Huelgas v Burgosu. Člani zgoraj omenjenega Nacionalnega sveta so v kostumih iz
+                    16. st. in v spremstvu bobnov in kornetov paradirali po razkošnih samostonskih
+                    dvoranah in križnih hodnikih ter pred marmorno podobo Kristusa in praporjem
+                    zgodovinske bitke Navas de Tolosa (1212) prisegali zvestobo Francu.<note
+                        place="foot" xml:id="ftn49" n="48">Ibid., 363−64.</note></p>
+                <p>Ko je bilo aprila 1939 vojne konec, se je začelo težko povojno obdobje. Sledilo
+                    je tako imenovano <hi rend="italic">obdobje lakote</hi>, ki se ga veliko še
+                    živečih spominja kot obdobja, ki je bilo hujše od same vojne. V tem
+                    posttravmatičnem kontekstu se je 20. novembra začela desetdnevna mrtvaška
+                    procesija z jasnimi srednjeveškimi potezami: preselitev ostankov Joséja Antonia
+                    Prime de Rivera iz Alicanteja v El Escorial. Pogrebni sprevod, ki je potoval čez
+                    opustošeno in črno Španijo, preplavljeno z bedo, med bolečimi ruševinami
+                    nedavnega bombardiranja, je bil načrtovan tako, da bi se za vedno vtisnil v
+                    spomin prisotnih. Krsto so ob baklah dan in noč nosili na ramenih falangisti,
+                    prostovoljci, in niso je smeli nikoli spustiti na tla. Preston meni, da je šlo
+                    še za enega od številnih pogrebov, katerih namen je bil živo ohranjanje
+                    sovraštva, porojenega v državljanski vojni.<note place="foot" xml:id="ftn50"
+                        n="49">Ibid., 433.</note> Vsako menjavo nosačev so pozdravili streli topov
+                    in zvonenje zvonov v vseh španskih mestih in vaseh, spremljali so ga parajoči
+                    kriki <hi rend="italic">José Antonio, presente!</hi> (<hi rend="italic">José
+                        Antonio, tukaj!</hi>). Ceremonija je posnemala bolečo in žrtveno estetiko
+                    Velikega tedna, ki je bil z velikim zanosom ponovno uveden v novi, pred kratkim
+                    ponovno osvojeni katoliški Španiji. Srednjeveški ples kot podaljšanje vojaškega
+                    spopada. Po krvi in ognju pokora, bolečina in objokovanje. Vse je bilo
+                    makiavelistično premišljeno. Franco bi namreč lahko leta 1936 zamenjal Joséja
+                    Antonia Primo de Rivera, ko je bil zaprt v Alicanteju, za kakšnega pomembnega
+                    republikanskega zapornika na nacionalnem ozemlju, vendar tega ni storil. Je pa
+                    nato na grozljiv način manipuliral z ustanoviteljem španskega falangizma, z
+                    njegovim mučeništvom, z njegovo smrtjo in prisotnostjo njegovega duha. Leta 1959
+                    je celo preselil njegove posmrtne ostanke iz El Escoriala v pravkar končano
+                    baziliko v Valle de los Caídos (Dolino padlih), ki se nahaja nedaleč stran od El
+                    Escoriala, kjer počivajo habsburžanski in burbonski kralji in kraljice, novo <hi
+                        rend="italic">ad hoc</hi> kostnico, v kateri naj bi nekoč skupaj počivali
+                    vsi njegovi. Valle de los Caídos so s potom in solzami gradili tisoči
+                    republikanskih zapornikov pod neizmernim, 150 m visokim križem, največjim na
+                    svetu. Novembra 1975 so Franciscu Francu že na smrtni postelji umetno podaljšali
+                    agonijo, da bi njegova smrt sovpadla z datumom smrti José Antonija Prima de
+                    Rivere, ki je tudi preminil 20. novembra. Ta podobnost je groteskni dokaz
+                    pravega kulta smrti, ki ga je negoval režim. Danes se na ta dan še vedno v Valle
+                    de los Caídos zberejo najrazličnejši frankisti, falangisti, karlisti in
+                    reakcionarji, da bi se brez najmanjšega političnega dvoma v vlogo mavzoleja
+                    poklonili svojima herojema.</p>
+                <p>María Zambrano iz Malage je iz filozofske perspektive v izgnanstvu leta 1958
+                    opisala mučeništvo, ki so ga trpeli njeni sodobniki kot generacijsko žrtev, to
+                    pa je umestila v neizbežno žrtveniško zgodovinsko strukturo družbe. Zgodovina je
+                    tragedija, še bolj tragična je zgodovina Zahoda:<note place="foot"
+                        xml:id="ftn51" n="50">María Zambrano, <hi rend="italic">Persona y
+                            democracia</hi> (Siruela: Anthropos, 2011), 403−43.</note></p>
+                <quote>Kdor iz sebe naredi boga, se mora videti in se počutiti kot bog v odnosu do
+                    drugega, v drugem. In ker mu božja vrsta služi kot model […] zelo primitivna
+                    verska obdobja […] zahtevajo žrtve, kajti samo s tem, da se dvigne nad žrtev ali
+                    nad skupino žrtev, si lahko nekdo, ki ni bog, ustvari iluzijo, da to je. […] In
+                    ker nikoli ne more postati bog, so nenehno potrebne žrtve: brezštevilne žrtve.
+                    To je trenutek, ko je zgodovina en sam pomnožen zločin: en sam zločin v
+                    neomejenem številu.<note place="foot" xml:id="ftn52" n="51">Ibid.,
+                        425−26.</note></quote>
+                <p>To ni edina digresija Zambranove v zvezi z državljansko vojno in frankizmom. Leta
+                    1967 je napisala svoje edino gledališko delo <hi rend="italic">Antigonin
+                        grob</hi> (<hi rend="italic">La tumba de Antígona</hi>), ki aktualizira mit
+                    in je močno prežeto z avtobiografskimi elementi. Zaradi izbire žanra, kot je
+                    tragedija, in s tematiziranjem španske državljanske vojne, je to dramsko delo
+                    eden od mejnikov ali nasprotje goreče retorike, ki je opravičevala križarsko
+                    vojno frankistov in španske katoliške cerkve; retorike, ki je bila živa vse do
+                    Francove smrti. Virginia Trueba pravi:</p>
+                <quote>Državljanska vojna je stvarni oder, na katerem Zambrano izreče svojo jasno
+                    obtožbo vseh oblik nasilja in totalitarizmov, vključno z nasiljem
+                    manipulatorskega jezika, s katerim oblastniki gradijo stvarnost in jo uzakonijo
+                    na način, da lahko potem opravičijo vsa svoja dejanja.<note place="foot"
+                        xml:id="ftn53" n="52">Uvod v: María Zambrano, <hi rend="italic">La tumba de
+                            Antígona</hi> (Madrid: Cátedra, 2012), 85. </note></quote>
+                <p>Zelo znano delo Viktorja Klempererja<note place="foot" xml:id="ftn54" n="53"><hi
+                            rend="italic">LTI – Notizbuch eines Philologen</hi>. Leipzig
+                        1996.</note> je obravnavalo jezikovni vidik v tovrstnih režimih, ko je
+                    podrobno preučeval deformacijo nemškega jezika v letih nacionalsocializma;
+                    nedvomno je mogoče potegniti vzporednice s španščino, vendar z dvema razlikama.
+                    Prvič, frankizem je že imel na voljo španske in avtohtone vire, iz katerih je
+                    lahko črpal, ko je uveljavljal določen jezik in mite, ki so ustrezali, kot smo
+                    pokazali, tako zgodovinski kot verski tradiciji.<note place="foot"
+                        xml:id="ftn55" n="54">»Španija, ki je evangelizirala polovico sveta;
+                        Španija, gorjača za nevernike, luč Trenta, meč Rima, zibelka svetega
+                        Ignacija […]; to je naša veličina in enotnost, nimamo druge.« Marcelino
+                        Menéndez y Pelayo je zapisal te znane besede v epilogu dela Historia de los
+                        heterodoxos españoles (1880−1882).</note> Drugič, jezikovna ideologizacija
+                    se v Španiji ni končala leta 1945 kot v Nemčiji, temveč je trajala do Francove
+                    smrti. Celo dlje, saj je razmah frankizma uspel ukoreniniti določene besede,
+                    njihove na novo podeljene pomene ali določene jezikovne fenomene, ki so se
+                    ohranili še po diktatorjevi smrti. Ni bilo ostrega preloma, kot je bil to <hi
+                        rend="italic">Entnazifizierung</hi> ali denacifikacija, kajti španska
+                    tranzicija v demokracijo je potekala ob sodelovanju s frankizmom, ki je bil
+                    takrat že bolj tehnokratski kot fašističen in naklonjen reformam, vendar pa je
+                    kot dediščina ali konceptualna lastnina prežemal konzervativne stranke in
+                    vladajoče sektorje španske družbe.</p>
+                <p>V okviru razprav, ki so se porodile v 21. stoletju v zvezi s tako imenovanim <hi
+                        rend="italic">zgodovinskim spominom</hi> (<hi rend="italic">memoria
+                        histórica)</hi> v času Aznarjeve in Zapaterove vlade, so se začele
+                    analizirati travme in medgeneracijski prenos spomina na vojno, tudi z vidika
+                    socialne psihologije.<note place="foot" xml:id="ftn56" n="55">Inmaculada Gómez
+                        Marín in José Antonio Hernández Jiménez, »Revisión de la Guerra Civil
+                        Española y la posguerra como fuente de traumas psicológicos desde un punto
+                        de vista transgeneracional,« <hi rend="italic">Revista electrónica de
+                            psicoterapia</hi>, št. 5 (3) (oktober 2011): 473-91.</note>
+                </p>
+                <p>Po drugi strani García Cárcel<note place="foot" xml:id="ftn57" n="56">Njegov esej
+                            <hi rend="italic">La herencia del pasado. Las memorias históricas de
+                            España</hi> (Dediščina preteklosti. Zgodovinski spomini na Španijo) je
+                        bil leta 2012 nagrajen z nacionalno nagrado za zgodovino Premio Nacional de
+                        Historia 2012.</note> v svojim delu kritizira zlorabo termina <hi
+                        rend="italic">memoria histórica</hi> in predlaga uporabo besedne zveze v
+                    množini (s tem tudi pluralistično) <hi rend="italic">zgodovinski spomini
+                        (memorias históricas)</hi>, da bi poudaril, kako težko je poskusiti pisati o
+                    vzpostavljanju spomina za eno samo zgodovinsko obdobje, kot da v Španiji ne bi
+                    obstajalo še več kolektivnih travm in ne samo državljanska vojna. </p>
+                <p>Malo konfliktov kot ta usodna vojna lahko bolje ponazori dilemo med prometejskim
+                    in nezadržnim človeškim vzgibom, da bi izboljšal svoje življenjske pogoje v
+                    spreminjajočem se svetu in med nasilnim pobegom v srednjeveško in poenostavljeno
+                    preteklost, ravno zato, da bi nasprotovali tem človeškim vzgibom po spremembi in
+                    boljšem življenju, ki so se porajale celo stoletje.</p>
+                <p style="text-align:right"><hi rend="italic">Prevedla: Marija Uršula
+                    Geršak</hi></p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <listBibl>
+                    <head>Časopisni viri:</head>
+                    <bibl><hi rend="italic">ABC de Sevilla</hi>, 2. 10. 1937, 11.</bibl>
+                    <bibl><hi rend="italic">Diario de León</hi>, 12. 2. 2008.</bibl>
+                    <bibl><hi rend="italic">El Sol</hi>, 15. 11. 1930.</bibl>
+                    <bibl><hi rend="italic">El Sol</hi>, 14. 10. 1931.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Literatura:</head>
+                    <bibl>Alonso Millán, Jesús. <hi rend="italic">La guerra total en España
+                            (1936–1939).</hi> Google Libros, 2013.</bibl>
+                    <bibl><hi rend="italic">Atlas cronológico de la Historia de España.</hi> Madrid:
+                        Real Academia de la Historia / SM, 2008.</bibl>
+                    <bibl>Box Varela, Zira. »La fundación de un régimen: La construcción simbólica
+                        del franquismo.« Doktorska disertacija, Universidad Complutense Madrid,
+                        2008.</bibl>
+                    <bibl>Carr, Raymond. <hi rend="italic">España 1808–1975.</hi> Barcelona: Ariel,
+                        2007.</bibl>
+                    <bibl>García Cárcel, Ricardo. <hi rend="italic">La herencia del pasado: Las
+                            memorias históricas de España</hi>. Barcelona: Galaxia Gutenberg,
+                        2011.</bibl>
+                    <bibl>Gibson, Ian. <hi rend="italic">En busca de José Antonio.</hi> Madrid:
+                        Aguilar, 2008.</bibl>
+                    <bibl>Gómez Cuesta, Cristina: »La construcción de la memoria franquista
+                        (1939–1959): Mártires, mitos y conmemoraciones.« <hi rend="italic">Studia
+                            Historica, Historia Contemporánea</hi>, št. 25 (2007): 87–123.</bibl>
+                    <bibl>Gómez Marín, Inmaculada in José Antonio Hernández Jiménez. »Revisión de la
+                        Guerra Civil Española y la posguerra como fuente de traumas psicológicos
+                        desde un punto de vista transgeneracional.« <hi rend="italic">Revista
+                            electrónica de psicoterapia</hi>, št. 5 (3), oktober 2011, str.
+                        473–91.</bibl>
+                    <bibl>Gracia, Jordi. <hi rend="italic">José Ortega y Gasset.</hi> Madrid:
+                        Taurus, 2014.</bibl>
+                    <bibl><hi rend="italic">Historia política, 1875-1939.</hi> Madrid: Ediciones
+                        Istmo, S.A., 2002.</bibl>
+                    <bibl>La Gran represión: los años de plomo de la posguerra (1939−1948).
+                        Barcelona: Flor de Viento, 2009.</bibl>
+                    <bibl>Montero Moreno, Antonio. <hi rend="italic">Historia de la persecución
+                            religiosa en España.</hi> Madrid: Biblioteca de Autores Cristianos,
+                        1998.</bibl>
+                    <bibl>Nerín, Gustau. <hi rend="italic">La guerra que vino de África.</hi>
+                        Barcelona: Crítica, 2005. </bibl>
+                    <bibl>Preston, Paul. <hi rend="italic">Franco.</hi> Barcelona: Grijalbo,
+                        1994.</bibl>
+                    <bibl>Raguer, Hilari. <hi rend="italic">The Catholic Church and the Spanish
+                            Civil War.</hi> London, New York: Routledge, 2007.</bibl>
+                    <bibl>Solé i Sabaté, Josep María in Joan Villarroya. <hi rend="italic">España en
+                            llamas: La guerra civil desde el aire.</hi> Madrid: Temas de Hoy,
+                        2003.</bibl>
+                    <bibl>Trapiello, Andrés. <hi rend="italic">Las armas y las letras: Literatura y
+                            guerra civil (1936–1939).</hi> Barcelona: Destino, 2011.</bibl>
+                    <bibl>Viñas, Ángel. »Franco y la subversión de la memoria.« V: <hi rend="italic"
+                            >España en la memoria de tres generaciones: De la esperanza a la
+                            reparación</hi>, ur. Julio Aróstegui. Madrid: Editorial Complutense y
+                        Fundación Largo Caballero, 2007.</bibl>
+                    <bibl>Zambrano, María.<hi rend="italic"> Horizonte del liberalismo.</hi> Madrid:
+                        Ediciones Morata, 1996.</bibl>
+                    <bibl>Zambrano, María. <hi rend="italic">La tumba de Antígona.</hi> Madrid:
+                        Cátedra, 2012.</bibl>
+                    <bibl>Zambrano, María. <hi rend="italic">Persona y democracia.</hi> Siruela:
+                        Anthropos, 2011.</bibl>
+                </listBibl>
+            </div>
+            <div type="summary" xml:lang="en">
+                <head type="main">FRANCOIST UPRISING AS A REVIVAL OF THE RECONQUISTA: ANALYSIS OF
+                    "REMEDIEVALISATION"</head>
+                <head>SUMMARY</head>
+                <docAuthor>Alejandro Rodríguez Díaz del Real</docAuthor>
+                <p>The main reason for the military uprising of the conservative parts of the
+                    Spanish society, especially the military and the Catholic hierarchy, was their
+                    firm conviction that the introduction of the Republic would alter the essence of
+                    Spain. The Republicans saw it as the modernisation of Spain. With the
+                    constitution, adopted on 9 December 1931, they introduced the reforms which had
+                    a great economic, social and cultural importance (decentralisation of the state,
+                    agrarian reform, gender equality, dissolution of marriage, etc.). They wanted to
+                    bring Spain closer to its European neighbours, especially France. On the
+                    contrary, the landowning aristocracy, the prominent bourgeoisie, an important
+                    part of the peasant population, the Catholic hierarchy and the military saw
+                    these reforms as the introduction of communism. Therefore already in 1932 an
+                    attempt at a coup d'état against the Republic, the so-called Sanjurjada, was
+                    carried out. The question of the decentralisation of the state and introduction
+                    of autonomy for Catalonia, Basque Country and Galicia were among the pressing
+                    issues of Spain. The proclamation of the Catalan Republic on 14 April 1931 and
+                    then also the Catalan State in the beginning of October 1934 was seen by the
+                    right wing and the military as separatism and thus as a great menace to
+                    tradition, to the "sacred unity of Spain". The central symbol of the right‑wing
+                    values was the Reconquista of Spain – a struggle against the Arabs, the Muslims
+                    on the Iberian Peninsula. Therefore the attack against the Republican values –
+                    which, in the opinion of the ultra‑rightist ideology, represented a threat to
+                    civilisation itself – was understood as an expression of the Reconquista. The
+                    Bishop of Salamanca and later the Archbishop of Toledo, Enrique Pla y Deniel,
+                    thus blessed the coup d'état in his pastoral letter inspired by Saint Augstin in
+                    the end of September 1936, and designated the conflict as a crusade. In 1936 the
+                    so-called africanistas – soldiers who had made their careers in the Spanish
+                    colonial military force in what is today Morocco – once again assumed an
+                    important role among the military rebels against the "Republic". As the rebels
+                    doubted that the recruits who came from the working class would be prepared to
+                    shoot at Spanish workers, they unscrupulously brought in Moroccan mercenaries.
+                    That explains why the military uprising against the legal and legitimate Spanish
+                    authorities started precisely in North Africa (in Melilla, in the afternoon of
+                    17 July 1936). The defenders of the coup d'état and the invasive and cleansing
+                    war, which turned into a long and bloody ideological purge, claimed in their
+                    explanations that they wanted to approximate Spain to the West again. The
+                    concept of their purge was similar to the purges perpetrated by the Nazis in
+                    Germany after 1933. Simultaneously Francoism also introduced the practice of
+                    remedievalisation in the military conflict, which, in its opinion, resembled the
+                    battle between the Christians and the Muslims during the Reconquista. For
+                    example, General Franco as the leader of this "Reconquista" spoke to a French
+                    journalist in November 1937, and said the following about the crusade: "This is
+                    not a civil war, but a Crusade... Indeed, our war is a religious war. We, all of
+                    us, who are fighting, the Christians and the Muslims, are God's soldiers and we
+                    don't fight against other people, but against atheism and materialism."</p>
+            </div>
+        </back>
+    </text>
+</TEI>

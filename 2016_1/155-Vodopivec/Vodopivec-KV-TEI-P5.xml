@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>O zgodovinopisju o španski državljanski vojni</title>
+                <author>
+                    <name>
+                        <forename>Peter</forename>
+                        <surname>Vodopivec</surname>
+                    </name>
+                    <roleName>dr.</roleName>
+                    <roleName>redni profesor v pok.</roleName>
+                    <address>
+                        <addrLine>Poljanska 15</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>peter.vodopivec@guest.arnes.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2016-05-16</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/155</pubPlace>
+                <date>2016</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">56</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>civil war</term>
+                    <term>Spain</term>
+                    <term>historiography</term>
+                    <term>communists</term>
+                    <term>socialists</term>
+                    <term>anarchists</term>
+                    <term>historical memory</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>državljanska vojna</term>
+                    <term>Španija</term>
+                    <term>zgodovinopisje</term>
+                    <term>komunisti</term>
+                    <term>socialisti</term>
+                    <term>anarhisti</term>
+                    <term>zgodovinski spomin</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2016-05-16</date>
+                    <name>Andrej Pančur</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Peter Vodopivec<note place="foot" xml:id="ftn1" n="*">dr., redni profesor v
+                    pok., Poljanska 15, SI-1000 Ljubljana, <ref
+                        target="mailto:peter.vodopivec@guest.arnes.si"
+                        >peter.vodopivec@guest.arnes.si</ref></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.02</idno>
+                <idno type="UDC">UDK: 930: 355.426(460)"1936/1939"</idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">Avtor članka obravnava glavne težnje v raziskovanju španske
+                        državljanske vojne od začetka šestdesetih let preteklega stoletja dalje, ko
+                        so izšle prve, s kritično razdaljo zasnovane analize britanskih, ameriških,
+                        francoskih in španskih raziskovalcev. Tako najprej predstavlja dela in
+                        interpretacije Hugha Thomasa, Paula Prestona, Stanleyja Peyna, Gabriela
+                        Jacksona, Pierra Brouéja in Émila Témima, kratko pa omenja tudi knjige in
+                        stališča Burnetta Bollotena, Walterja Berneckerja, Ronalda Radosha, Herberta
+                        Southwortha, Helen Graham, E. H. Carra in Noama Chomskega. V nadaljevanju pa
+                        prikazuje razvoj španskega zgodovinopisja o španski državljanski vojni od
+                        Francove smrti dalje, pri čemer posebej opozarja na dela in ocene Ángela
+                        Martina Viñasa, Santosa D. Julie, Alberta Reiga Tapie in Enriqueja
+                        Moradiellosa.</hi></p>
+                <p><hi rend="italic">Ključne besede: državljanska vojna, Španija, zgodovinopisje,
+                        komunisti, socialisti, anarhisti, zgodovinski spomin</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head type="main">ON HISTORIOGRAPHY OF THE SPANISH CIVIL WAR</head>
+                <p><hi rend="italic">The author discusses the main trends in the research of Spanish
+                        civil war since early 1960s, when the first critical distance-based analyses
+                        were carried out by British, American, French and Spanish researchers. The
+                        paper reflects on works and interpretations by Hugh Thomas, Paul Preston,
+                        Stanley Peyne, Gabriel Jackson, Pierre Broué and Émile Témime, while briefly
+                        mentioning the books and views of Burnett Bolloten, Walther Bernecker,
+                        Ronald Radosh, Herbert Southworth, Helen Graham, E.H. Carr and Noam Chomsky.
+                        Furthermore, the author presents the development of the Spanish civil war
+                        historiography in Spain after Franco’s death, focusing mostly on works and
+                        assessments by Ángel Martin Viñas, Santos D. Juliá, Albert Reig Tapia, and
+                        Enrique Moradiellos.</hi></p>
+                <p><hi rend="italic">Key words: civil war, Spain, historiography, communists,
+                        socialists, anarchists, historical memory</hi></p>
+            </div>
+        </front>
+        <body>
+            <p>»Krizo Španije je treba presojati v okviru krize Zahoda«, je v pogovorih s hrvaškim
+                publicistom in diplomatom Bogdanom Radico v letih 1937–1939 dejal španski filozof
+                José Ortega y Gasset, ki se je po izbruhu vojaškega spopada in revolucije v Španiji
+                – kljub liberalnemu, republikanskemu prepričanju – razočaran nad republiko in
+                zgrožen nad njenimi nasprotniki umaknil v molk in tujino. »Španski problem ni v
+                bistvu nič drugega kot problem občega evropskega kaosa …«<note place="foot"
+                    xml:id="ftn2" n="1">Bogdan Radica, <hi rend="italic">Agonija Evrope</hi>
+                    (Beograd: Geca Kon A. D., 1940), 219–37.</note> Če je ugledni španski mislec v
+                drugi polovici tridesetih let preteklega stoletja še precej naivno verjel, da bo
+                delitev Evrope na »liberalnodemokratski« in »totalitarni del« mogoče razrešiti po
+                mirni poti, za veliko večino evropske in ameriške demokratične javnosti ni bilo
+                dvoma o tem, da je v Španiji potekal odločilen boj za ohranitev demokracije in proti
+                prevladi fašizma v Evropi. Španska državljanska vojna je, kot je zapisal ameriški
+                pisatelj in zgodovinar Herbert S. Southworth, »neposredno prizadela le majhen del
+                zemeljske oble, vendar pritegnila pozornost vsega sveta«.<note place="foot"
+                    xml:id="ftn3" n="2">Juan Andrés Blanco Rodrígez, »La historiografía de la guerra
+                    civil española,« <hi rend="italic">Hispania Nova: Revista de Historia
+                        Contemporánea</hi> 7 (2007), <ref target="http://hispanianova.rediris.es"
+                        >http://hispanianova.rediris.es</ref>.</note> Te pozornosti je bila deležna
+                tudi v zgodovinopisju. Čeprav se je stvarno zgodovinopisno raziskovanje vojskovanja
+                za Pireneji začelo šele v petdesetih in šestdesetih letih preteklega stoletja, je
+                število sintetičnih del, spominskih zapisov in študij o španski državljanski vojni
+                do srede devetdesetih let že preseglo 16.000, po podatkih nekaterih španskih
+                avtorjev pa do leta 2007 naraslo celo na 40.000 bibliografskih enot.<note
+                    place="foot" xml:id="ftn4" n="3">Ibid.</note> Od konca osemdesetih let je v
+                Španiji hkrati izšla tudi prava množica leposlovnih del s tematiko državljanske
+                vojne, povojnega maščevanja zmagovalcev in tragične usode privržencev
+                republikanskega tabora v času Francovega režima, nekatera med njimi pa so z več sto
+                tisoč prodanimi izvodi postala izjemne knjižne uspešnice.</p>
+            <p>Vso to množico literature je seveda povsem nemogoče pregledati, zato lahko v kratkem
+                zapisu in na osnovi dostopne literature opozorim le na glavne zgodovinopisne težnje
+                od začetka šestdesetih let preteklega stoletja dalje, ko so v ozračju popuščanja
+                povojne blokovske napetosti in političnega pritiska v Španiji izšle prve s kritično
+                in »razumno objektivizirano razdaljo« (J. A. Blanco Rodriguez) zasnovane analize
+                španske drame britanskih, ameriških in francoskih raziskovalcev.<note place="foot"
+                    xml:id="ftn5" n="4">V tem prikazu se poleg na v drugi opombi navedeno razpravo
+                    Juana Andrésa Blanca Rodrigeza opiram še na naslednja dela: Julián Chavez
+                    Palacios, »La historiografía reciente sobre la Guerra Civil de 1936–1939 en los
+                    umbrales del nuevo milenio,« <hi rend="italic">Annales de Historia
+                        Contemporanea</hi> 16 (2000): 410–29. Stanley G. Payne, »Recent
+                    Historiography on the Spanish Civil War,« <hi rend="italic">Journal od Modern
+                        History</hi> 60 (September 1988): 540–56. Pelai Pajes (katalonsko: Pages),
+                    »Španski građanski rat i istorijski revizionizam: idealisti protiv istoričara,«
+                    v: <hi rend="italic">Preispitivanje prošlosti i istorijski revizonizam
+                        (Zloupotrebe istorije španskog građanskog rata i drugog svetskog rata na
+                        prostoru Jugoslavije)</hi> (Beograd: Udruženje španskih boraca in Fakulteta
+                    političkih nauka, 2014), 33–49.</note> O vojni in revoluciji v Španiji v letih
+                1936–1939 je bilo seveda marsikaj napisanega že prej, v tridesetih letih, med drugo
+                svetovno vojno in v letih po njej, toda večina teh zgodnjih prikazov in del je imela
+                močan spominsko-osebni in politično-ideološki pečat,<note place="foot" xml:id="ftn6"
+                    n="5">Toda nekatera med temi zgodnjimi deli so doživela številne ponatise in še
+                    danes uživajo ugled stvarnih in zanesljivih pričevanj in prikazov španskih
+                    razmer v drugi polovici tridesetih let. Med takšnimi knjigami sta zlasti <hi
+                        rend="italic">Poklon Kataloniji (Hommage to Catalonia</hi>) Georgea Orwella,
+                    ki je prvič izšla leta 1938 (v slovenskem prevodu jo je leta 2009 izdala založba
+                    Modrijan) in <hi rend="italic">Španski labirint (Spanish Labyrinth</hi>)
+                    publicista in zgodovinarja Geralda Brenana (prvi izid 1943).</note> medtem ko se
+                je stvarnejša akademska zgodovinopisna razprava, sprva resda predvsem v širših,
+                mednarodnih okvirih, začela šele v šestdesetih in sedemdesetih letih preteklega
+                stoletja. Napovedala in spodbudila jo je leta 1961 izdana knjiga britanskega
+                zgodovinarja Hugha Thomasa <hi rend="italic">The Spanish Civil War</hi> (v
+                slovenščini jo je pod naslovom <hi rend="italic">Španija proti Španiji</hi> leta
+                1969 izdala Cankarjeva založba), v kateri je Thomas glavno krivdo za vojno in poraz
+                republikancev pripisal njihovim medsebojnim nasprotjem in neuspešnim poskusom, da bi
+                se enotno in odločno uprli pritisku cerkve, velikih zemljiških posestnikov,
+                premožnih poslovnežev in vojske.</p>
+            <p>Po Thomasu bi bila v skrajno zaostrenih razmerah po pronunciamentu španskih generalov
+                lahko uspešna le dosledna ljudskofrontna politika socialne pomiritve in
+                protifašističnega zavezništva med meščanskimi in delavskimi strankami, ki bi ob
+                ustrezni mednarodni podpori omogočila njihov učinkoviti odpor. Thomas je tako v prvi
+                izdaji svojega dela razmeroma pozitivno ocenjeval politiko španskih komunistov, ki
+                naj bi težili k vzpostavitvi »discipliniranega, levosredinskega meščanskega
+                republikanskega režima«, anarhiste in do Sovjetske zveze kritične katalonske
+                komuniste pa označeval za nerealne sanjače, ki so s svojimi prevratniškimi
+                predstavami in zahtevami republiki povzročili nepopravljivo škodo in kljub
+                požrtvovalnosti na bojiščih slabili njeno vojaško učinkovitost. Velik, če ne celo
+                ključen del krivde za poraz republikanskega tabora je pripisal zahodnim silam
+                (zlasti Franciji in Veliki Britaniji), ki so španski republiki odrekle podporo,
+                medtem ko sta Italija in Nemčija z orožjem in vojaško podpirali španske generale. V
+                sedemdesetih letih je svojo monografijo o španski državljanski vojni še razširil in
+                dopolnil ter pri tem bolj pozitivno kot v prvi izdaji ocenil politiko levih
+                republikancev in anarhistov, bolj kritično pa revoluciji naklonjene socialiste in
+                komuniste, ki naj bi z nasprotovanjem anarhistom, katalonskim komunistom in
+                revolucionarno razpoloženemu prebivalstvu usodno zoževali socialno osnovno odpora
+                proti pučistom.</p>
+            <p>Thomasova zgodovina španske državljanske vojne je postala že v šestdesetih in
+                sedemdesetih letih preteklega stoletja široko sprejeto referenčno delo in je tudi
+                pozneje izšla v številnih ponatisih. Med ameriškimi zgodovinarji se je z njenimi
+                ocenami že v šestdesetih letih zbližal zgodovinar Gabriel Jackson, ki je za svoje
+                delo <hi rend="italic">The Spanish Republic and the Civil War 1931–1939</hi>, v
+                katerem je podobno kot Thomas zastopal stališče, da je bila edina realna
+                republikanska možnost dosledna politika Ljudske fronte, zadušitev revolucije v
+                Kataloniji s strani republikanske vlade pa neizogibna, čeprav po komunistični krivdi
+                preveč krvava, leta 1966 dobil nagrado Združenja ameriških zgodovinarjev (American
+                History Association).<note place="foot" xml:id="ftn7" n="6">Knjiga je prvič izšla
+                    leta 1965, leta 1966 pa je Jackson izdal tudi delo <hi rend="italic">The Spanish
+                        Civil War: Domestic Crisis or International Conspiracy</hi>.</note> Na
+                nagrajeno Jacksonovo knjigo se je v eseju <hi rend="italic">Objektivnost liberalnega
+                    učenjaštva</hi> leta 1967 obširno in kritično odzval ameriški lingvist in
+                filozof Noam Chomsky, ki je Jacksonu očital enostransko simpatiziranje z
+                republikanskimi liberalci in ugotavljal, da razmer v Španiji v drugi polovici ni
+                mogoče razumeti brez podrobnejšega poznavanja njihovega družbenega ozadja ter
+                socialnega nemira in revolucije, ki sta poleti leta 1936 zajela velik del
+                    Španije.<note place="foot" xml:id="ftn8" n="7">Noam Chomsky, »Objektivität und
+                    liberales Gelehrtentum,« v: <hi rend="italic">Verantwortlichkeit der
+                        Intellektuellen</hi> (Suhrkamp Verlag: Frankfurt, 1971), 62–63 in naprej. Ta
+                    razprava žal ni vključena v sicer odličen slovenski izbor izbranih spisov Noama
+                    Chomskega, ki ga je leta 2011 izdala založba Modrijan.</note>
+            </p>
+            <p>Chomsky se je svojem eseju med drugim obširno skliceval na knjigo francoskih
+                zgodovinarjev Pierra Brouéja in Émila Témima <hi rend="italic">Španska revolucija in
+                    državljanska vojna</hi>, ki je izšla istega leta kot Thomasovo delo, vendar je
+                bila v Španiji in zunaj nje deležna precej manj pozornosti kot Thomasova
+                    knjiga.<note place="foot" xml:id="ftn9" n="8">Pierre Broué in Émile Témime, <hi
+                        rend="italic">La révolution et la guerre d'Espagne</hi> (Les Éditions de
+                    Minuit: Paris, 1961).</note> Broué in Témime sta se posvetila prav raziskovanju
+                revolucije, ki jo je v osrednji Španiji in Kataloniji sprožil puč španske
+                soldateske, in prepričljivo pokazala, da takšna razširitev zgodovinske analize na
+                širšo politično in socialno stvarnost odpira nov pogled na politiko republikanskih
+                strank in odnose med njimi. Kot že odmevni pričevalci – udeleženci dogodkov v letih
+                1936–1939 (Franz Borkenau, Arthur Koestler<note place="foot" xml:id="ftn10" n="9"
+                    >Španski testament Arthurja Koestlerja je v slovenščini izšel že leta 1939. Gl.
+                    Arthur Koestler, <hi rend="italic">Španski testament</hi> (Ljubljana: Cankarjeva
+                    družba, 1939).</note> in zlasti George Orwell) – sta tudi Broué in Témime
+                opozorila, da je spontano revolucionarno vrenje ob podpori anarhistov, levih
+                socialistov in do Sovjetske zveze in Stalina kritičnih katalonskih komunistov
+                sprožilo enkratno prevratniško in odporniško gibanje in v republikanskem taboru
+                ustvarilo »dvovlaje«, kar je v temeljih ogrozilo ljudskofrontno zavezništvo. To naj
+                bi med vodilnimi politiki republike po njunem mnenju sprva do mere razumel in
+                poskušal v njeno obrambo izkoristiti le vodja socialistične levice Largo Caballero,
+                medtem ko so drugi voditelji republikanskih strank skupaj s komunisti in
+                Caballerovim naslednikom Juanom Negrínom prevratniška gibanja in stranke
+                podcenjevali in vložili vse sile v nasilno zadušitev revolucije, kar je usodno
+                zožilo socialne temelje republikanskega odpora in mu odvzelo prepotrebno udarno
+                moč.</p>
+            <p>Stališče obeh francoskih zgodovinarjev, da republikanskega poraza in frankistične
+                zmage ni mogoče razložiti samo z vojaškim in političnim dogajanjem ter republiki
+                nenaklonjeno politiko zahodnih držav, temveč ju je treba presojati v najširšem
+                socialnem in idejnopolitičnem kontekstu, ki je tragično zaznamoval nasprotje med
+                ljudskofrontno politiko in revolucijo, so v zadnjih desetletjih sprejeli tudi mnogi
+                drugi avtorji, četudi se v ocenah vladne, ljudskofrontne politike in politike
+                revolucionarnih strank z njima niso povsem strinjali. V razširjeni in dopolnjeni
+                izdaji svoje zgodovine je svoje ocene revolucije delno že leta 1976 popravil tudi
+                Hugh Thomas, med drugimi avtorji, ki so se posvetili raziskovanju španske revolucije
+                in njenih posledic, pa kaže omeniti še konservativneje usmerjenega in radikalni
+                levici nenaklonjenega Britanca Burnetta Bollotena z leta 1979 izdanim delom <hi
+                    rend="italic">Španska revolucija</hi> (<hi rend="italic">The Spanish
+                    Revolution</hi>) in posmrtno leta 1991 izdano knjigo <hi rend="italic">The
+                    Spanish Civil War: Revolution and Counterrevolution</hi><note place="foot"
+                    xml:id="ftn11" n="10">Bolloten je prvo študijo o španski revoluciji izdal in
+                    napisal leta 1961, z leta 1979 izdano knjigo <hi rend="italic">The Spanish
+                        Revolution</hi> (Chapel Hill, N. C.: University of North Carolina Press) pa
+                    jo je temeljito razširil in obsežno dokumentiral. Knjiga <hi rend="italic">The
+                        Spanish Civil War: Revolution and Counter Revolution</hi> je leta 1991 prav
+                    tako izšla pri University of North Carolina University Press, Chapel Hill, N.
+                    C.</note> ter nemškega profesorja Walterja Berneckerja z obsežno monografijo <hi
+                    rend="italic">Anarchismus und Bürgerkrieg: Zur Geschichte der sozialen
+                    Revolution in Spanien</hi>, ki je izšla leta 1978.<note place="foot"
+                    xml:id="ftn12" n="11">Podobno kot drugi avtorji, ki jih navajam, je tudi
+                    Bernecker napisal in izdal še več drugih del o španski državljanski vojni, med
+                    drugim: <hi rend="italic">Krieg in Spanien 1936–1939</hi> (Darmstadt:
+                    Wissenschaftliche Buchgesellscaft 1991, v dopolnjeni in razširjeni izdaji
+                    2005).</note> Knjiga Brouéja in Témima je že leta 1977 izšla tudi v Španiji, pri
+                čemer so bili nekateri španski zgodovinarji do njunih revolucionarnemu vrenju
+                naklonjenih ocen precej zadržani, saj so bile po njihovem mnenju preveč
+                »militantne«; bolj sprejemljiva naj bi bila sinteza, posvečena španski revoluciji,
+                ki jo je po objavi prve knjige obeh avtorjev napisal Broué sam.<note place="foot"
+                    xml:id="ftn13" n="12">V drugi opombi navedeno delo (brez paginacije).</note>
+                Knjiga <hi rend="italic">Španska revolucija in državljanska vojna</hi> Pierra
+                Brouéja in Émila Témima je – podobno kot Thomasova <hi rend="italic">Španska
+                    državljanska vojna</hi> – doživela še več prevodov in ponatisov (v angleščini še
+                leta 2008), v slovenskemu prevodu pa jo je leta 1986, žal precej neopazno, izdala
+                Delavska enotnost v Ljubljani.<note place="foot" xml:id="ftn14" n="13">Pierre Broué
+                    in Émile Témime, <hi rend="italic">Španska revolucija in državljanska vojna</hi>
+                    (Delavska enotnost: Ljubljana, 1986).</note>
+            </p>
+            <p>Analizi španske falange in revolucionarnega vrenja v času španske državljanske vojne
+                se je že v šestdesetih in sedemdesetih letih odmevno posvetil tudi ameriški
+                zgodovinar Stanley Payne, avtor številnih del o zgodovini Španije, baskovskem
+                nacionalizmu, Francovem režimu in španski državljanski vojni. V leta 1970 objavljeni
+                knjigi <hi rend="italic">The Spanish Revolution</hi> so bili v središču njegove
+                pozornosti predvsem anarhisti, že v njej pa je bil kritičen tudi do komunistov, v
+                očeh katerih naj bi bila ljudskofrontna politika vse od začetka le pragmatična
+                taktika, usmerjena k »oblikovanju ljudske republike po sovjetskem zgledu«. Payne je
+                stališče, da je bila glavna težava republike radikalna levica s politiko
+                brezkompromisnega protiklerikalizma, z revolucionarno usmerjenim anarhističnim
+                gibanjem in iz Moskve vodenimi komunisti, ki v Španiji niso imeli globljih korenin,
+                zastopal tudi v poznejših delih (njegova knjiga o španski revoluciji in sintetičen
+                oris revolucije in državljanske vojne sta že v sedemdesetih letih izšla tudi v
+                Španiji), svoje ocene sovjetske in komunistične politike v Španiji pa je leta 2004
+                strnil v knjigi <hi rend="italic">The Spanish Civil War, the Soviet Union and
+                    Communism</hi>, ki jo je med drugim oprl na v Moskvi pridobljeno arhivsko
+                    gradivo.<note place="foot" xml:id="ftn15" n="14">Stanley Payne, <hi
+                        rend="italic">La revolucíón y la guerra civil española</hi> (Madrid: Jucar
+                    1976). Stanley Payne, <hi rend="italic">The Spanish Civil War, the Soviet Union
+                        and Communism</hi> (New Haven: Yale University Press, 2004). Stanley Payne,
+                        <hi rend="italic">Por qué la República perdió la guerra?.</hi> (Madrid:
+                    Espasa Calpe, 2010).</note> To naj bi potrjevalo, da španski komunisti niso
+                nikoli bili iskreni privrženci zavezništva s socialisti in meščanskimi strankami,
+                saj so podpirali revolucionarne težnje, kot sta bili nacionalizacija zemljiške
+                posesti in oblikovanje ljudske armade, njihov cilj pa naj bi bil revolucionaren
+                prevzem oblasti. Payne se je tako odločno razhajal z avtorji, ki so dokazovali, da
+                so španski komunisti po volitvah februarja leta 1936 zastopali zmernejša stališča
+                kot dotlej, hkrati pa je ugotavljal, da tudi med španskimi in katalonskimi komunisti
+                (POUM) ni bilo večjih političnih in ideoloških razlik in so bila nasprotja med njimi
+                le posledica kritičnega odnosa katalonskih komunistov do Moskve in Sovjetske
+                zveze.</p>
+            <p>V nasprotju s Paynom in njegovimi somišljeniki je eden najuglednejših in
+                najplodnejših britanskih raziskovalcev španskega 20. stoletja Paul Preston v svojih
+                knjigah o španski državljanski vojni zastopal mnenje, da vzrokov za krizo druge
+                španske republike in njen poraz v spopadu s pučisti ne gre iskati le v radikalni
+                španski levici.<note place="foot" xml:id="ftn16" n="15">Paul Preston, <hi
+                        rend="italic">The Coming of the Spanish Civil War: Reform, Reaction,
+                        Revolution in the Second Republic 1931–1936</hi> (London: Macmillan, 1978).
+                    Paul Preston, <hi rend="italic">The Spanish Civil War: Reaction, Revolution,
+                        Revenge</hi> (London: Harper Perenial, 2006).</note> Republikanski tabor so
+                vse od začetka delila zaostrena socialna nasprotja, zlasti nerešeno agrarno
+                vprašanje, politične stranke in skupine, povezane v Ljudski fronti, pa so se v
+                izrednih vojnih razmerah znašle nepripravljene in so šele oblikovale svojo politiko
+                in strategije, medtem ko je bil »nacionalistični tabor« ideološko enotnejši. Po
+                Prestonu naj bi bila v tej luči povsem racionalna tudi politika španske komunistične
+                partije, ki se je zavzemala za enotne, centralno vodene republikanske vojaške
+                operacije in naj bi težila k vojaški zmagi, in ne revoluciji. Republikanska stran je
+                pri tem iskala pomoč tam, kjer jo je edino lahko dobila, Sovjetska zveza, ki naj bi
+                se izogibala sporom z zahodnimi demokracijami, pa je v Španiji podpirala
+                ljudskofrontno zvezo meščanskih in delavskih strank, kar je usodno vplivalo na
+                odnose med zadnjimi ter na potek in poraz revolucije. Španska državljanska vojna naj
+                bi zahtevala visoko število žrtev (samo žrtev vojaških spopadov naj bi bilo po
+                Prestonu okoli 200.000, dodatnih 150.000 ljudi naj bi ubili nacionalisti in okoli
+                50.000 republikanci, več kot 20.000 privržencev republikanskega tabora pa naj bi
+                zmagovalci usmrtili po vojni), pri čemer naj bi bile za nasilje odgovorne vse v
+                spopade zapletene strani, »nacionalistična« pa posebej skrajna in brutalna.<note
+                    place="foot" xml:id="ftn17" n="16">Paul Preston, <hi rend="italic">The Spanish
+                        Holocaust: Inquisition and Extermination in the Twentieth-Century Spain</hi>
+                    (London: Harper-Collins, 2012). Prestonove ocene števila žrtev vojne in
+                    medvojnega ter povojnega nasilja pa odstopajo od ocen španskih zgodovinarjev, ki
+                    navajajo nižje številke. Natančnejše raziskave o številu žrtev so namreč
+                    napravljene predvsem za ožje lokalne in regionalne skupnosti, ocene o številu
+                    žrtev v širšem nacionalnem, državnem okviru pa se še naprej razlikujejo in so
+                    predmet razprav.</note></p>
+            <p>Po letu 1991 so začeli raziskovalci španske državljanske vojne tudi z raziskovanjem v
+                sovjetskih arhivih in na začetku novega tisočletja je med ameriškimi in britanskimi
+                poznavalci španske in ruske zgodovine precej polemične pozornosti vzbudila knjiga z
+                naslovom <hi rend="italic">Izdana Španija: Sovjetska zveza v španski državljanski
+                    vojni</hi>, ki jo je skupaj z dvema sodelavcema izdal ameriški pisatelj in
+                zgodovinar Ronald Radosh.<note place="foot" xml:id="ftn18" n="17">Ronald Radosh,
+                    Grigor Sevostianov in Mary R. Habeck, <hi rend="italic">Spain Betrayed: The
+                        Soviet Union in the Spanish Civil War</hi> (New Haven: Yale University
+                    Press, 2001).</note> V knjigi objavljeni izbrani dokumenti iz sovjetskih
+                arhivov, ki jih je Radosh obširno komentiral in pospremil s svojo interpretacijo
+                španskih dogodkov, naj bi dokazovali, da so španski »republikanci plačali za
+                sovjetsko pomoč visoko ceno, saj je bila ta dejavnik, ki je pripeljal do končnega
+                propada republike«. Stalinov in sovjetski cilj naj bi pač bil »sovjetiziranje
+                Španije« in »njeno preoblikovanje v ljudsko republiko s stalinističnim
+                gospodarstvom, vojsko in političnim sistemom«.<note place="foot" xml:id="ftn19"
+                    n="18">Lisa A. Kirschenbaum, <hi rend="italic">International Communism and the
+                        Spanish Civil War, Solidarity and Suspicion</hi> (New York: Cambridge
+                    University Press, 2015), 8.</note> Te ocene pa je prav tako na osnovi
+                proučevanja sovjetskih arhivskih dokumentov že tri leta pozneje prepričljivo
+                zavrnila britanska zgodovinarka Helen Graham, tudi sama avtorica več knjig o španski
+                državljanski vojni, španskih socialistih in revoluciji v Španiji, ki je dokazovala,
+                da sovjetska arhivska gradiva razkrivajo prav nasprotno: velike težave, ki so jih
+                imeli v Moskvi s pošiljanjem pomoči Španiji ter z »razumevanjem španskih razmer in s
+                presojanjem, kaj sploh storiti«.<note place="foot" xml:id="ftn20" n="19">Helen
+                    Graham, »Spain Betrayed? The New Historical McCarthysm,« <hi rend="italic"
+                        >Science and Society (A Journal of Marxist Thought and Analysis)</hi> 68
+                    (2004), št. 3: 364–69. Med njenimi knjigami o španski državljanski vojni pa so:
+                        <hi rend="italic">Socialism and War: The Spanish Socialist Party in Power
+                        and Crisis 1936–1939</hi> (Cambridge: Cambridge University Press, 1991), <hi
+                        rend="italic">The Spanish Republic at War 1936–1939</hi> (Cambridge:
+                    Cambridge University Press, 2002), <hi rend="italic">The Spanish Civil War: A
+                        Very Short Introduction</hi> (Oxford: Oxford University Press, 2005).</note>
+                Nekaj podobnega je, ne da bi natančneje poznal sovjetsko arhivsko gradivo, v knjigi
+                    <hi rend="italic">Kominterna in španska državljanska vojna</hi> tik pred smrtjo
+                leta 1982 trdil tudi znani britanski zgodovinar in odličen poznavalec ruske
+                zgodovine Edward Hallet Carr, ki se je sicer strinjal, da je bila Sovjetska zveza
+                edina med evropskimi državami, ki je republikanski vladi nudila izdatnejšo
+                materialno in vojaško pomoč, vendar obenem opozarjal, da je treba njeno politiko do
+                Španije presojati v luči tedanjih sovjetskih notranjih razmer, v sam politični in
+                vojaški vrh segajočih čistk in omejenih sovjetskih finančnih in gospodarskih
+                    možnosti.<note place="foot" xml:id="ftn21" n="20">E. H. Carr, <hi rend="italic"
+                        >The Comintern &amp; The Spanish Civil War</hi>, ur. Tamara Deutscher
+                    (London: Macmillan, 1984).</note></p>
+            <p>Zanimivo je, da tradicionalne, še v šestdesetih in sedemdesetih letih preteklega
+                stoletja prisotne komunistične razlage, po katerih je bila komunistična partija
+                Španije z evropsko komunistično levico in Sovjetsko zvezo edina prava opora Ljudske
+                fronte ter protifašističnega povezovanja, revolucionarno vrenje v osrednji Španiji
+                in Kataloniji pa utopična zabloda, ki ni mogla postati resna alternativa
+                ljudskofrontni, meščansko-delavski zvezi, danes nimajo več vidnejših zagovornikov.
+                Med zgodovinarji s prestižnim mednarodnim ugledom, ki so še v sedemdesetih letih
+                preteklega stoletja zagovarjali stališče, da so bili komunisti najbolj učinkoviti,
+                če ne celo edini iskreni branilci španske republike, za njen poraz pa so bili
+                odgovorni zlasti anarhisti, saj naj bi bil anarhizem »prava nesreča« in brezplodna
+                »moralna gimnastika«, se večkrat omenja britanskega zgodovinarja Erica
+                    Hobsbawma,<note place="foot" xml:id="ftn22" n="21">Tudi Hobsbawm pa je te ocene
+                    pozneje, kot je razvidno iz njegovega v devetdesetih letih preteklega stoletja
+                    napisanega dela <hi rend="italic">Čas skrajnosti</hi>, precej spremenil. V njem
+                    je opozoril na številna nerešena socialna vprašanja, ki so pripeljala do
+                    revolucije, in opozarjal, da zmagi ljudske fronte na volitvah leta 1936 zaradi
+                    razcepljenosti republikanskega tabora ni sledila »učinkovita vlada levice«, ki
+                    bi lahko obvladala socialno nezadovoljstvo in se postavila po robu desnici. Gl.
+                    Eric Hobsbawm, <hi rend="italic">Čas skrajnosti: Svetovna zgodovina
+                        1914–1991</hi> (Ljubljana: Znanstveno in publicistično središče, 2000),
+                    149–53.</note> nisem pa zasledil, da bi o komunistični in sovjetski politiki v
+                Španiji obširneje in z izvirnimi novimi ocenami pisali sodobni sovjetski
+                zgodovinarji. Pri nas v Sloveniji smo izvirno, v skladu s tedaj prevladujočimi
+                komunističnimi ocenami napisano delo o španski državljanski vojni dobili leta 1970.
+                Alojz Ravbar, avtor knjige z naslovom <hi rend="italic">Zakaj je padla španska
+                    republika?</hi>, je glavno krivdo za poraz republike pripisal nasprotnikom
+                komunistične politike v republikanskem taboru: levim socialistom, anarhistom ter do
+                Moskve kritičnim katalonskim komunistom in avtonomistom, skratka vsem, ki so
+                nasprotovali ljudskofrontni politiki in komunističnim predstavam o enotni, centralno
+                vodeni obrambi republike.<note place="foot" xml:id="ftn23" n="22">Alojz Ravbar, <hi
+                        rend="italic">Zakaj je padla španska republika</hi> (Ljubljana: Borec,
+                    1971).</note></p>
+            <p>V Španiji vse do začetka šestdesetih let ni bilo mogoče kritično raziskovati in
+                popisovati španske zgodovine prve polovice 20. stoletja, razmere so se nekoliko
+                sprostile šele z revizijo cenzurnih zakonov v šestdesetih letih, ko so izšla prva
+                kritičnejša dela španskih zgodovinarjev o državljanski vojni. Zgodovinarji pozne
+                Francove dobe so se pri ocenah španske zgodovine tridesetih let večinoma opirali na
+                dela tujih, zlasti britanskih in ameriških avtorjev, med drugim Edwarda Malefakisa,
+                Richarda Robinsona<note place="foot" xml:id="ftn24" n="23">Edward Malefakis, <hi
+                        rend="italic">Agrarian Reform and Peasant Revolution in Spain</hi> (New
+                    Haven: Yale University Press, 1970). Richard Robinson, <hi rend="italic">The
+                        Origins of Franco's Spain: The Right, the Republic and the Revolution
+                        1931–1936</hi> (Pittsburgh: University of Pittsburg Press, 1970).</note> in
+                Stanleyja Payna, pri tem pa kritizirali predvsem špansko levico in tako že v
+                sedemdesetih letih sprožili polemično razpravo o »revoluciji in kontrarevoluciji« v
+                Španiji pred drugo svetovno vojno.<note place="foot" xml:id="ftn25" n="24">V prikazu
+                    španskega zgodovinopisja o španski državljanski vojni se v glavnem opiram na
+                    dela, navedena v drugi in četrti opombi.</note> Po Francovi smrti se je
+                zanimanje za raziskovanje državljanske vojne in Francovega režima kljub leta 1977
+                sprejetemu zakonu o amnestiji za vse, tudi za odgovorne za politično nasilje v času
+                Francove vlade, in sklepu desnih in levih strank, da v težnji po čim hitrejši
+                »spravi« ne bodo načenjale bolečih vprašanj bližnje preteklosti (»el pacto de
+                silencio y olvido« – »dogovor o molku in pozabi«), še močno povečalo. Če se je
+                zgodovinopisje v prvih letih »tranzicije k demokraciji«, kot piše Juan A. Blanco
+                Rodriguez, še počasi osvobajalo dediščine diktature in zelo raznolikega in
+                protislovnega spominjanja vojnih dogodkov, so se raziskovalcem povsem nove možnosti
+                odprle s postopnim odpiranjem državnih, regionalnih in lokalnih arhivov, čeprav so
+                bila nekatera med arhivski gradivi – kot se je med drugim pritoževal Paul Preston
+                –še nekaj časa le omejeno dostopna ali pa odprta le za privilegirane izbrance.
+                Španski zgodovinarji so se v prvem obdobju po Francovi smrti posvetili predvsem
+                preiskovanju političnih vidikov državljanske vojne, političnih strank in sindikalnih
+                skupin (med drugim anarhističnega gibanja), pri čemer so posebej izstopali
+                katalonski raziskovalci z raziskavami o katalonskih socialistih, demokratih ter
+                komunistih in njihovemu voditelju Andreu Ninu, medtem ko so bili družbeni vzroki in
+                ozadje vojne še deležni precej manjše pozornosti.</p>
+            <p>Novo, bolj sproščeno politično ozračje je hkrati omogočilo objavo (ali ponovno
+                objavo) spominov in pričevanj vplivnejših udeležencev vojnih in političnih dogajanj
+                v drugi polovici tridesetih let, že v sedemdesetih letih pa se je začelo povečevati
+                tudi število regionalnih in lokalnih raziskav, ki so bile marsikje delo mlajših
+                zgodovinarjev, katerih življenjske izkušnje niso bile neposredno povezane z vojnimi
+                dogodki in povojnim frankističnim nasiljem. Med deli, ki so se lotevala bližnje
+                španske zgodovine na ožji pokrajinski in lokalni ravni, so širšo pozornost vzbujale
+                zlasti obravnave revolucionarnih procesov in kolektivizacije ter vojaških dogodkov
+                in represije, ki jo je bilo v prvih letih po padcu Franca zaradi težav z arhivskim
+                gradivom in politične občutljivosti v širših državnih okvirih še težko raziskovati.
+                Živahno zgodovinopisno in politično polemiko je sprožilo vprašanje o bombardiranju
+                Guernice 26. aprila 1937. Trditvam nemškega vojaškega zgodovinarja Klausa E.
+                Maierja, ki je na osnovi dotlej še neznane nemške vojaške dokumentacije dokazoval,
+                da cilj nemškega in italijanskega bombardiranja ni bilo središče mesta, temveč
+                bližnji most, pri čemer so letala mestno središče bombardirala zaradi slabe
+                vidljivosti, so ostro ugovarjali britanski vojaški zgodovinarji in že omenjeni
+                ameriški zgodovinar Herbert Southworth, ki so še naprej trdili, da je bil glavni
+                namen bombardiranja prestrašiti in demoralizirati Baske.<note place="foot"
+                    xml:id="ftn26" n="25">Klaus A. Maier, <hi rend="italic">Guernika, 26-4-1937</hi>
+                    (Madrid: Sedmay Ediciones, 1976). Herbert R. Southworth, <hi rend="italic">La
+                        destruccíon de Guernica: Periodismo, diplomacia, propaganda e historia</hi>
+                    (Paris: Ruedo Iberico, 1977).</note>
+            </p>
+            <p>Obširno delo o nemškem poseganju v španski državljanski spopad in nemški pomoči
+                Francu je že leta 1977 objavil španski zgodovinar in diplomat Ángel Martin Viñas, ki
+                je dve leti pozneje skupaj s sodelavci izdal tudi knjigo o španski zunanji trgovini
+                v tridesetih letih in v času Franca. Dolgoletno polemično razpravo, ki vse do danes
+                ni končana, pa je sprožilo Viñasovo raziskovanje španskega »moskovskega zlata« (»el
+                oro de Moscu«), ki naj bi si ga po tem, ko ga je v začetku državljanske vojne v
+                Moskvo skrivoma poslala republikanska vlada Larga Caballera, po trditvah
+                frankistične propagande prilastila Sovjetska zveza in ga porabila za financiranje
+                mednarodnega komunističnega gibanja, španskih komunistov in mednarodnih brigad v
+                Španiji. V republikanski vladi so se namreč že v prvih mesecih po pronunciamentu
+                španskih generalov odločili, da bodo »zlate rezerve«, shranjene v španski narodni
+                banki, preselili na varno v tujino, pri čemer naj bi jih 27,4 odstotka poslali v
+                Francijo, 72,6 odstotka pa v Sovjetsko zvezo. Ángel Viñas je v dveh knjigah, ki jih
+                je napisal na osnovi dokumentacije španske narodne banke in objavil v letih 1976 in
+                1979, ugotavljal, da je republikanska vlada z delom bančnih rezerv, ki jih je
+                poslala v Moskvo, poplačala sovjetsko vojaško pomoč, protivrednost za večino
+                »španskega zlata« pa so Sovjeti nakazali v sovjetsko banko v Parizu, kjer je bil
+                depozit na razpolago republikanski vladi.<note place="foot" xml:id="ftn27" n="26"
+                    >Ángel Martin Viñas, <hi rend="italic">El oro español en la Guerra Civil</hi>
+                    (Madrid: Instituto de historias fiscales, 1976). Ángel Martin Viñas, <hi
+                        rend="italic">El oro de Moscu: Alfa y Omega de un mito franquista</hi>
+                    (Barcelona: Grijalbo, 1979).</note> Republikanske vlade naj bi po Viñasu in
+                mnenju še nekaterih avtorjev, ki so prišli do podobnih zaključkov kot Viñas, brez
+                tega denarja ne imele nikakršne možnosti za odpor in so ga dejansko porabile za
+                obrambo, pri čemer so v Parizu naložena denarna sredstva do zadnjega leta vojne tudi
+                že izčrpale. Viñasove ugotovitve so ostro zavrnili (in še zavračajo) zagovorniki
+                »enega najbolj trdovratnih frankističnih mitov« (Viñas), da sta Španijo s pomočjo
+                vlade Larga Caballera oropala Stalin in Moskva, ki sta si prisvojila ”špansko
+                zlato”.</p>
+            <p>V osemdesetih in devetdesetih letih preteklega stoletja se je zanimanje španskih
+                zgodovinarjev za raziskovanje španskih tridesetih let in Francovega režima še
+                povečalo. Ob petdeset- in šestdesetletnici začetka in konca državljanske vojne so
+                bili organizirani številni posveti in strokovna srečanja, ki so se jih udeležili
+                domači in tuji raziskovalci, strokovne, zgodovinopisne in družboslovne revije so
+                temam, povezanim z državljansko vojno, posvetile posebne številke, serije člankov,
+                ki so jih napisali zgodovinarji leve in desne provenience, so objavili dnevni
+                časopisi, izšlo je večje število novih zgodovinopisnih in spominskih del, ki so
+                večinoma obravnavala razmere v času vojne v ožjih regionalnih in lokalnih okvirih,
+                nekatera dela že uveljavljenih domačih in tujih avtorjev, prav tako različnih
+                pogledov in stališč, pa so doživela ponatis. Španski raziskovalci so se, kot piše
+                Juan Andrés Blanco Rodríguez, še naprej večinoma usmerjali predvsem k raziskovanju
+                političnih, vojaških in mednarodnih zgodovinskih tem, čeprav so se posebej na
+                lokalni in regionalni ravni tudi že lotevali novih tematik, kot so delovanje
+                pravosodja, emigracije, kulture in propagande, življenje v zaledju in različne
+                oblike represije v času vojne in po njej. Če so bile nove teme v osemdesetih letih
+                na eni strani še v ozadju, redka pa so bila tudi še izvirna, narativno in sintetično
+                zasnovana dela španskih avtorjev, je na drugi strani opazno porasla količina izdanih
+                arhivskih virov in dokumentarnega gradiva. S pripravljenostjo vse večjega števila
+                ljudi, zlasti privržencev republikanskega tabora, da spregovorijo o svojih osebnih
+                doživetjih in izkušnjah, se je hkrati povečalo tudi zanimanje za »ustne vire« in
+                »ustno zgodovino«. Bolj vročekrvne javne polemike o tem, kaj se je »v resnici
+                dogajalo«, so bile še redke, prevladujoče politično stališče, ki naj bi ga kljub
+                različnim ocenam in razlagam vzrokov, poteka in posledic vojne zvečine upoštevali
+                tudi zgodovinarji, pa naj bi v skladu z razglašeno politiko »sprave« bilo, da je
+                bila državljanska vojna v drugi polovici tridesetih letih »kolektivna napaka«, ki se
+                ne sme več ponoviti, zaradi česar mora biti tudi spominjanje nanjo in pisanje o njej
+                čim bolj strpno in politično neobremenjeno.</p>
+            <p>Medtem ko nekateri španski zgodovinarji menijo, da je Španija v času po Francovi
+                smrti, ko je Evropa že poskušala nadoknaditi zamujeno, »zamujala s
+                    spominjanjem«,<note place="foot" xml:id="ftn28" n="27">Francisko Moreno Gomes
+                    (Francisco Moreno Gomez), »Istorija, sećanje i prava žrtava,« v: <hi
+                        rend="italic">Španski građanski rat i istorijski revizionizam: idealisti
+                        protiv istoričara</hi> (Beograd: Udruženje španskih boraca i Fakulteta
+                    političkih nauka, 2014), 51.</note> so drugi, med njimi avtorji, na katere se
+                opira ta prispevek, mnenja, da strankarski »dogovor o molku« (»pacto de silencio«)
+                ni pomembneje vplival na špansko zgodovinopisje osemdesetih in devetdesetih let,
+                čeprav so imeli raziskovalci v tem obdobju res še težave z arhivskim gradivom (npr.
+                vrhovnega vojaškega poveljstva in zunanjega ministrstva) ali pa so se sami izogibali
+                tem represije, tudi ko so imeli dostop do gradiv, ki so jim takšno raziskovanje
+                omogočala. Prav v devetdesetih letih naj bi opazno večje pozornosti kot dotlej bile
+                deležne t. i. nove raziskovalne teme (teme represije, človeške »cene« državljanske
+                vojne in življenja v zaledju), zgodovinopisje pa naj bi se odprlo tudi novim,
+                interdisciplinarnim pristopom. Vseeno je bila večina raziskav, posvečenih nasilju
+                ene in druge strani, še pokrajinsko in lokalno omejena, kar še leta 1999, kot je
+                razkril poskus sintetične predstavitve »žrtev vojne« in povojnega nasilja kolektiva
+                avtorjev pod vodstvom Santosa D. Julíe, ni zadostovalo za natančnejšo oceno števila
+                žrtev v državi v celoti.<note place="foot" xml:id="ftn29" n="28">Santos Julía (vodja
+                    projekta), <hi rend="italic">Victimas de la guerra civil</hi> (Madrid: Temas de
+                    Hoy, 1999).</note> Sicer pa so knjižne objave ob šestdeseti obletnici začetka in
+                konca državljanske vojne nedvoumno razkrile, da je špansko zgodovinopisje v ocenah
+                in razlagah španske zgodovine 20. stoletja še daleč od enotnejše nacionalne sinteze
+                in tudi po dveh desetletjih »tranzicije« nespravljivo razdeljeno. Odmevno delo
+                kolektiva avtorjev, ki sta ga pod naslovom <hi rend="italic">Španska državljanska
+                    vojna, Nov pogled na spopad, ki je razdelil Španijo</hi> izdala Stanley Payne in
+                Javier Tusell,<note place="foot" xml:id="ftn30" n="29">Stanley Payne in Javier
+                    Tusell, <hi rend="italic">La guerra civil: Una nueva vision del conflicto que
+                        dividió España</hi> (Madrid: Temas de Hoy, 1996).</note> je bilo po besedah
+                ocenjevalcev »raznolik zbornik prispevkov«, napisanih z različnih vidikov, knjige,
+                kot je bila nova izdaja dela nacionalistični strani in Francu naklonjenega akademika
+                Ricarda Cierve, pa so nazorno opozorile, da so bile napovedi o upadajočem javnem
+                zanimanju za pisanje neofrankističnih zgodovinopiscev neutemeljene.<note
+                    place="foot" xml:id="ftn31" n="30">Ricardo Cierva, <hi rend="italic">Historia
+                        esencial de la Guerra Civil</hi> (Madrid: Fenix, 1996).</note>
+            </p>
+            <p>To je še potrdil velik uspeh leta 1999 izdane knjige iz nekdanjega komunista v
+                filofrankista spreobrnjenega esejista in pisatelja Pia Moe o mitih španske
+                državljanske vojne, ki je dosegla neverjetno prodajo več kot 110.000 izvodov.<note
+                    place="foot" xml:id="ftn32" n="31">Pio Moa, <hi rend="italic">Los mitos de la
+                        Guerra Civil</hi> (Madrid: La Esfera de los Libros, 1999).</note> Moi so
+                sledili še nekateri drugi avtorji, kar naj bi kazalo, da so frankistični miti
+                preživeli in še lahko računajo na določen krog bralcev in podporo dela časopisja,
+                vseeno pa naj bi to zgodovinopisje ne imelo skoraj nobene opore v akademskih krogih
+                in ustanovah. Na Moin »propagandistični revizionizem«, kot so ga imenovali njegovi
+                kritiki, se je odzvalo več uglednih zgodovinarjev, med drugim Enrique Moradiellos z
+                esejem <hi rend="italic">1936, Miti državljanske vojne</hi> in Alberto Reig Tapia s
+                knjigo <hi rend="italic">Anti Moa,</hi><note place="foot" xml:id="ftn33" n="32">E.
+                    Moradiellos je svojem odgovoru Moi v glavnem povzel in razširil ocene, ki jih je
+                    že zastopal v knjigi <hi rend="italic">La Guerra Civil</hi> (Madrid: Marcel
+                    Pons, 2003). Alberto Reig Tapia, <hi rend="italic">Anti-Moa</hi> (Barcelona:
+                    Ediciones B, 2006).</note> kar pa Moe in njegovih somišljenikov ni zaustavilo,
+                saj je Moa že v naslednjih letih prvi knjigi dodal še dve in tako svoje videnje prve
+                tretjine španskega 20. stoletja zaokrožil v profrankistično trilogijo.
+                »Neofrankistični revizionizem« je že leta 2006 prepričljivo zavrnil tudi že večkrat
+                omenjeni Ángel Viñas, ki je v knjigi o »osamljenosti republike, zapuščene od
+                zahodnih demokracij«, pri pisanju katere se je opiral na britanska in sovjetska
+                arhivska gradiva, ugotavljal, da »revizionisti« zavestno spregledujejo ugotovitve
+                španskega akademskega zgodovinopisja in jih zamenjujejo s frankistično mitologijo,
+                ki je bila neposreden rezultat državljanske vojne.<note place="foot" xml:id="ftn34"
+                    n="33">Ángel Viñas, <hi rend="italic">La soledad de la República; el abandono de
+                        las democracias y el viraje hacia la Unión Sovietica</hi> (Barcelona:
+                    Critica, 2006).</note></p>
+            <p>»Revizionistične težnje« pa so se, kot opozarja Pelai Pages, po padcu berlinskega
+                zidu in komunizma v Vzhodni Evropi pojavile tudi pri nekaterih zgodovinarjih na
+                levici, ki so poskušali po odprtju sovjetskih arhivov in objavi sovjetskih arhivskih
+                gradiv na vsak način obraniti sovjetska in španska komunistična stališča v drugi
+                polovici tridesetih let, čeprav jih preprosto ni bilo več mogoče zagovarjati. V tem
+                smislu so znova nastopili s tezo, da je bila španska državljanska vojna preprosto
+                rezultat spopada med demokracijo in fašizmom, ter povsem zaobšli problem socialnih
+                in gospodarskih razmer ter regionalnih razlik, ki so privedle do revolucionarnega
+                vrenja ob začetku vojne in daljnosežno vplivale na njen potek. To je še zaostrilo
+                polemična razhajanja, ki so jih povzročila že v devetdesetih letih preteklega
+                stoletja objavljena sovjetska gradiva o vlogi sovjetske politične policije pri uboju
+                voditelja katalonske delavske stranke POUM Andreua Nina in v majskih dogodkih v
+                Barceloni in Kataloniji leta 1937. Nekateri, ne samo španski komunistični avtorji,
+                so se tako ob koncu devetdesetih let preteklega in v začetku 21. stoletja pri
+                obtoževanju katalonske delavske stranke in njenih voditeljev ponovno zatekli k
+                sovjetskim in komunističnim obtožbam iz druge polovice tridesetih let in med drugim
+                ob stoletnici rojstva tudi Georgea Orwella obtožili, da je v času hladne vojne
+                »ovajal komunistične intelektualce«.<note place="foot" xml:id="ftn35" n="34">Gl.
+                    Pelai Paies (Pages), »Španski građanski rat i istorijski revizionizam,«
+                    36–40.</note>
+            </p>
+            <p>Četrt stoletja po Francovi smrti ni torej prav nič kazalo, da se polemične razprave o
+                bližnji španski preteklosti umirjajo, nasprotno: zaostrena polemična nasprotja so ob
+                prelomu stoletja sprožila živahno razpravo o vlogi zgodovinskega spomina in politiki
+                spominjanja v obdobju »tranzicije«. Gibanje »za zgodovinski spomin«, ki se je
+                razmahnilo ob začetku novega tisočletja in so se mu pridružili tudi mnogi akademiki,
+                je spodbudilo množičen projekt izkopavanja grobišč med vojno in po vojni brez
+                pravega sojenja ubitih in prikrito pokopanih po vsej Španiji. Gibanje so sčasoma
+                podprli tudi politiki, čeprav le ene, leve strani, saj se je jasno pokazalo, da leta
+                1977 sprejeti zakon o amnestiji z deklariranim pozivanjem k »spravi« ni premostil
+                prepada, ki je ločeval »dve Španiji«, obe naslednici v državljansko vojno vpletenih
+                taborov. Leta 2007 je levosredinski vladi socialističnega voditelja Joséja Luiza
+                Rodrígeza Zapatera v parlamentu uspelo pridobiti poslance, da so izglasovali »zakon
+                o zgodovinskem spominu« (»Ley de Memoria Histórica de España«), ki je opredelil
+                pomoč žrtvam preganjanj, hkrati pa zagotovil sredstva za organizacijo in
+                financiranje izkopavanja grobišč, identifikacijo ubitih in njihova spominska
+                obeležja. Toda vlada pod vodstvom Ljudske stranke Mariana Rajoya je sredstva za
+                izkopavanje in urejanje grobišč z utemeljitvijo, da morajo Španci brez »napetosti«
+                in »delitev gledati v prihodnost«, že leta 2011 spet ukinila.<note place="foot"
+                    xml:id="ftn36" n="35">Dan Hancox, »Race, God and Family, Franco's Crypt: Spanish
+                    Culture and Memory since 1936 by Jeremy Treglown,« <hi rend="italic">London
+                        Review of Books,</hi> 2. 7. 2015, 17.</note></p>
+            <p>Val spominjanja in političnih manipulacij s spominskimi pričevanji, ki ga je sprožil
+                Zapaterov zakon, je med zgodovinarji naletel tudi na kritike in glasne ugovore. Med
+                kritiki zagovornikov zakona o »zgodovinskem spominu« je bil tako tudi eden
+                najuglednejših sodobnih španskih zgodovinarjev in avtorjev del o španski zgodovini,
+                španskih socialistih, frankizmu, španskih delitvah in žrtvah državljanske vojne
+                Santos Juliá. Juliá je že pred sprejetjem zakona ugotavljal, da spominjanja ni
+                mogoče uzakonjati in tudi ne zakonsko določati njegove vsebine, saj mora vsakdo
+                imeti pravico do spominjanja, hkrati pa opozarjal, da je spomin rezultat osebnih
+                življenjskih izkušenj in doživetij posameznikov in se zato v temelju razlikuje od
+                zgodovinopisne analize preteklosti, ki se mora ob kritičnem preverjanju zgodovinskih
+                dejstev opirati na obširno in raznoliko zgodovinsko gradivo. Juliá je s svojimi
+                stališči zanetil polemiko, v katero se je med drugimi vključil ameriški hispanist
+                Sebastian Faber, ki je Julii očital, da odreka legitimnost spominskim pričevanjem,
+                kar pa je Juliá odločno zanikal in še enkrat ponovil, da spominjanja nikakor ne kaže
+                zamenjevati z zgodovino, saj sta spomin in zgodovina »dve povsem različni
+                    stvari«.<note place="foot" xml:id="ftn37" n="36">Santos Juliá, »Memorias en
+                    lugar de memoria,« <hi rend="italic">El País</hi>, 2. 7. 2006. Sebastian Faber,
+                    »The Debate about Spain's Past and the Crisis of Academic Legitimacy: The Case
+                    of Santos Juliá,« <hi rend="italic">The Colorado Review of Hispanic Studies</hi>
+                    5 (2007): 165–90. Santos Juliá, »Carta a los Directores,« <hi rend="italic">The
+                        Colorado Review of Hispanic Studies</hi> 7 (2009): 241–50.</note>
+            </p>
+            <p>Med temami, ki so v zadnjem desetletju posebej zaposlovale španske zgodovinarje, je
+                bila še naprej v ospredju problematika političnega nasilja med državljansko vojno in
+                po njej, raziskovalci pa so, kot piše Pelai Pages, že presegli »pozitivistično fazo
+                številčnega ugotavljanja žrtev« in se posvetili analizi nasilja v širšem
+                zgodovinskem kontekstu. Pri tem se ocene števila žrtev na ozemlju celotne Španije,
+                ki jih navajajo različni raziskovalci in raziskovalne skupine, še vedno precej
+                razlikujejo. Pelai Pages npr. omenja skupno število 80.000 žrtev političnega nasilja
+                v času vojne in 50.000 v letih povojne represije, pri čemer naj bi bila
+                republikanska stran odgovorna za nekaj manj kot 50.000 ubitih.<note place="foot"
+                    xml:id="ftn38" n="37">Pelai Pajes (Pages), »Španski građanski rat i istorijski
+                    revizionizam,« 41.</note> Po odpiranju sovjetskih arhivov so bile nove
+                pozornosti raziskovalcev deležne teme o politiki Sovjetske zveze v Španiji, o
+                mednarodnih brigadah in posebej o vlogi sovjetskih diplomatov, obveščevalcev in
+                kominternskih političnih aktivistov. Raziskovanje gospodarskega življenja in
+                družbenih sprememb v drugi polovici tridesetih let preteklega stoletja je tudi v
+                zadnjem desetletju večinoma potekalo v lokalnih in regionalnih okvirih, opravljene
+                raziskave pa potrjujejo, da je imela politika kmetijske in industrijske
+                kolektivizacije v nekaterih pokrajinah več kot simboličen pomen in vse značilnosti
+                socialne revolucije. Del kmečkega prebivalstva in delavstva naj bi v tej luči v
+                začetku vojne nesporno težil k daljnosežnejšim družbenim spremembam, ki pa so jim
+                nasprotovali ne le meščanski liberalci, temveč tudi nemajhen del socialistov in
+                španski komunisti s podporniki v Moskvi. Z zaostrovanjem vojne naj bi nato
+                revolucionarni zanos že izgubljal moč, k čemur so svoje doprinesli komunisti, ki
+                posebej v Kataloniji niso bili pripravljeni privoliti v revolucionaren proces pod
+                vodstvom anarhistov in do Moskve kritične katalonske delavske stranke. </p>
+            <p>Že v začetku novega tisočletja je izšlo tudi več zgodovinopisnih del, ki so na eni
+                strani obravnavala vlogo katoliške cerkve v državljanski vojni in njeno podporo
+                    Francu,<note place="foot" xml:id="ftn39" n="38">Hilari Raguer, <hi rend="italic"
+                        >La pólvora y el incienso: la iglesia y la guerra civil española</hi>
+                    (Barcelona: Peninsula, 2001). Julían Casanova, <hi rend="italic">La Iglesia de
+                        Franco</hi> (Madrid: Temas de Hoy, 2001).</note> na drugi pa militantni
+                antiklerikalizem republikanskega tabora, nasprotovanje dela baskovske in katalonske
+                duhovščine podpori španskega episkopata uporniški vojski in podporo nekaterih
+                katoliških političnih skupin, kot npr. katalonskih krščanskih demokratov, republiki.
+                Podobno so bile novih obravnav deležne vojna in vojaška zgodovina,<note place="foot"
+                    xml:id="ftn40" n="39">V literaturi se posebej omenja knjiga Gabriela Cordone,
+                        <hi rend="italic">Historia militar de una guerra civil. Estrategia y
+                        tácticas de la guerra de España</hi> (Barcelona: Flor de Viento,
+                    2006).</note> organizacija delavskih milic v prvem obdobju vojne ter bitka ob
+                Ebru in bitka za Madrid. Zanimanje bralcev so posebej pritegnili življenjepisi
+                politikov, od biografije Manuela Azañe Santosa Julie, Juana Negrína Ricarda
+                Mirallesa in Enriqua Moradiellosa do kritičnih portretov Caudilla Francisca Franca
+                Angela Viñasa, Stanleyja Peyna in Jesúsa Palaciosa<note place="foot" xml:id="ftn41"
+                    n="40">Santos Juliá, <hi rend="italic">Vida y tiempo de Manuel Azaña</hi>
+                    (Madrid: Taurus, 2008). Ricardo Miralles in Juan Negrín, <hi rend="italic">La
+                        republica en guerra</hi>, (Madrid: Temas de Hoy, 2003). Enrique Moradiellos,
+                        <hi rend="italic">Negrín: Biografia de la figura más difamada de la España
+                        de siglo XX</hi> (Barcelona: Peninsula, 2006). Angel Viñas, <hi
+                        rend="italic">La otra cara del caudillo: Mitos y realidades en biografia de
+                        Franco</hi> (Barcelona: Cultura, 2015). Stanley Payne in Jesús Palacios, <hi
+                        rend="italic">Franco: A Personal and Political Biography</hi> (Madison:
+                    University of Wisconsin Press, 2014).</note> V javnosti in med kolegi
+                raziskovalci sta precejšno pozornost vzbudila tudi obračun Alberta Reiga Tapie z
+                enim temeljnih frankističnih mitov, mitom o neizogibnosti puča leta 1936,<note
+                    place="foot" xml:id="ftn42" n="41">Alberto Reig Tapia, <hi rend="italic">La
+                        cruzada de 1936: Mito y memoria</hi> (Barcelona: Alianza Editorial,
+                    2006).</note> in ob sedemdeseti obletnici začetka državljanske vojne izdana
+                knjiga Julia Arósteguija <hi rend="italic">Zakaj 18. julij… in potem</hi>, ki je
+                obravnavala ozadje pronunciamenta generalov ter politične in socialne posledice
+                preraščanja vojaškega upora v državljansko vojno.<note place="foot" xml:id="ftn43"
+                    n="42">Julio Aróstegui, <hi rend="italic">Por qué el 18 de julio … y
+                        despues</hi> (Barcelona: Flor de Viento, 2006).</note></p>
+            <p>Španska državljanska vojna je torej tema, ki tudi osemdeset let po izbruhu vojne
+                močno zaposluje špansko zgodovinopisje in deli zgodovinarje in špansko javnost.</p>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <listBibl>
+                    <head>Literatura:</head>
+                    <bibl>Aróstegui, Julio. <hi rend="italic">Por qué el 18 de julio … y
+                            despues</hi>. Barcelona: Flor de Viento, 2006.</bibl>
+                    <bibl>Bernecker, Walter. <hi rend="italic">Krieg in Spanien 1936–1939</hi>.
+                        Darmstadt: Wissenschaftliche Buchgesellscaft, 1991.</bibl>
+                    <bibl>Blanco Rodrígez, Juan Andrés. »La historiografía de la guerra civil
+                        española.« <hi rend="italic">Hispania Nova: Revista de Historia
+                            Contemporánea</hi> 7 (2007).</bibl>
+                    <bibl>Bolloten, Burnett. <hi rend="italic">The Spanish Civil War: Revolution and
+                            Counter Revolution.</hi> Chapel Hill, N. C.: University of North
+                        Carolina University Press, 1991.</bibl>
+                    <bibl>Bolloten, Burnett. <hi rend="italic">The Spanish Revolution</hi>. Chapel
+                        Hill, N. C.: University of North Carolina Press, 1979.</bibl>
+                    <bibl>Broué, Pierre in Émile Témime. <hi rend="italic">La révolution et la
+                            guerre d'Espagne</hi>. Les Éditions de Minuit: Paris, 1961.</bibl>
+                    <bibl>Broué, Pierre in Émile Témime. <hi rend="italic">Španska revolucija in
+                            državljanska vojna</hi>. Delavska enotnost: Ljubljana, 1986.</bibl>
+                    <bibl>Carr, E. H. <hi rend="italic">The Comintern &amp; The Spanish Civil
+                            War</hi>, ur. Tamara Deutscher. London: Macmillan, 1984.</bibl>
+                    <bibl>Casanova, Julían. <hi rend="italic">La Iglesia de Franco</hi>. Madrid:
+                        Temas de Hoy, 2001.</bibl>
+                    <bibl>Chavez Palacios, Julián. »La historiografía reciente sobre la Guerra Civil
+                        de 1936–1939 en los umbrales del nuevo milenio.« <hi rend="italic">Annales
+                            de Historia Contemporanea</hi> 16 (2000): 410–29. </bibl>
+                    <bibl>Chomsky, Noam. »Objektivität und liberales Gelehrtentum.« V: <hi
+                            rend="italic">Verantwortlichkeit der Intellektuellen.</hi> Suhrkamp
+                        Verlag: Frankfurt, 1971.</bibl>
+                    <bibl>Cierva, Ricardo. <hi rend="italic">Historia esencial de la Guerra
+                            Civil</hi>. Madrid: Fenix, 1996.</bibl>
+                    <bibl>Cordone, Gabriela. <hi rend="italic">Historia militar de una guerra civil.
+                            Estrategia y tácticas de la guerra de España.</hi> Barcelona: Flor de
+                        Viento, 2006.</bibl>
+                    <bibl>Faber, Sebastian. »The Debate about Spain's Past and the Crisis of
+                        Academic Legitimacy: The Case of Santos Juliá.« <hi rend="italic">The
+                            Colorado Review of Hispanic Studies</hi> 5 (2007): 165–90.</bibl>
+                    <bibl>Graham, Helen. »Spain Betrayed? The New Historical McCarthysm.« <hi
+                            rend="italic">Science and Society (A Journal of Marxist Thought and
+                            Analysis)</hi> 68 (2004), št. 3: 364–69.</bibl>
+                    <bibl>Graham, Helen. <hi rend="italic">Socialism and War: The Spanish Socialist
+                            Party in Power and Crisis 1936–1939</hi>. Cambridge: Cambridge
+                        University Press, 1991. </bibl>
+                    <bibl>Graham, Helen. <hi rend="italic">The Spanish Civil War: A Very Short
+                            Introduction</hi>. Oxford: Oxford University Press, 2005.</bibl>
+                    <bibl>Graham, Helen. <hi rend="italic">The Spanish Republic at War
+                            1936–1939</hi>. Cambridge: Cambridge University Press, 2002.</bibl>
+                    <bibl>Hancox, Dan. »Race, God and Family, Franco's Crypt: Spanish Culture and
+                        Memory since 1936 by Jeremy Treglown.« <hi rend="italic">London Review of
+                            Books,</hi> 2. 7. 2015, 17.</bibl>
+                    <bibl>Hobsbawm, Eric. <hi rend="italic">Čas skrajnosti: Svetovna zgodovina
+                            1914–1991</hi>. Ljubljana: Znanstveno in publicistično središče,
+                        2000.</bibl>
+                    <bibl>Juliá, Santos. »Carta a los Directores.« <hi rend="italic">The Colorado
+                            Review of Hispanic Studies</hi> 7 (2009): 241–50.</bibl>
+                    <bibl>Juliá, Santos. »Memorias en lugar de memoria.« <hi rend="italic">El
+                            País</hi>, 2. 7. 2006.</bibl>
+                    <bibl>Julía, Santos. <hi rend="italic">Victimas de la guerra civil</hi>. Madrid:
+                        Temas de Hoy, 1999.</bibl>
+                    <bibl>Juliá, Santos. <hi rend="italic">Vida y tiempo de Manuel Azaña</hi>.
+                        Madrid: Taurus, 2008. </bibl>
+                    <bibl>Kirschenbaum, Lisa A. <hi rend="italic">International Communism and the
+                            Spanish Civil War, Solidarity and Suspicion.</hi> New York: Cambridge
+                        University Press, 2015.</bibl>
+                    <bibl>Koestler, Arthur. <hi rend="italic">Španski testament</hi>. Ljubljana:
+                        Cankarjeva družba, 1939.</bibl>
+                    <bibl>Maier, Klaus A. <hi rend="italic">Guernika, 26-4-1937</hi>. Madrid: Sedmay
+                        Ediciones, 1976. </bibl>
+                    <bibl>Malefakis, Edward. <hi rend="italic">Agrarian Reform and Peasant
+                            Revolution in Spain</hi>. New Haven: Yale University Press, 1970. </bibl>
+                    <bibl>Miralles, Ricardo, Juan Negrín. <hi rend="italic">La republica en
+                            guerra</hi>. Madrid: Temas de Hoy, 2003. </bibl>
+                    <bibl>Moa, Pio. <hi rend="italic">Los mitos de la Guerra Civil</hi>. Madrid: La
+                        Esfera de los Libros, 1999.</bibl>
+                    <bibl>Moradiellos, Enrique. <hi rend="italic">La Guerra Civil</hi>. Madrid:
+                        Marcel Pons, 2003. </bibl>
+                    <bibl>Moradiellos, Enrique. <hi rend="italic">Negrín. Biografia de la figura más
+                            difamada de la España de siglo XX.</hi> Barcelona: Peninsula,
+                        2006.</bibl>
+                    <bibl>Moreno Gomes, Francisko (Moreno Gomez, Francisco). »Istorija, sećanje i
+                        prava žrtava.« V: <hi rend="italic">Španski građanski rat i istorijski
+                            revizionizam: idealisti protiv istoričara</hi>. Beograd: Udruženje
+                        španskih boraca i Fakulteta političkih nauka, 2014.</bibl>
+                    <bibl>Pajes, Pelai (Pages, Pelai). »Španski građanski rat i istorijski
+                        revizionizam: idealisti protiv istoričara.« V: <hi rend="italic"
+                            >Preispitivanje prošlosti i istorijski revizonizam (Zloupotrebe istorije
+                            španskog građanskog rata i drugog svetskog rata na prostoru
+                            Jugoslavije)</hi>, 33–49. Beograd: Udruženje španskih boraca in Fakulteta
+                        političkih nauka, 2014.</bibl>
+                    <bibl>Payne, Stanley G. »Recent Historiography on the Spanish Civil War.« <hi
+                            rend="italic">Journal od Modern History</hi> 60 (1988): 540–56. </bibl>
+                    <bibl>Payne, Stanley in Javier Tusell. <hi rend="italic">La guerra civil: Una
+                            nueva vision del conflicto que dividió España. </hi>Madrid: Temas de
+                        Hoy, 1996.</bibl>
+                    <bibl>Payne, Stanley in Jesús Palacios. <hi rend="italic">Franco: A Personal and
+                            Political Biography</hi>. Madison: University of Wisconsin Press,
+                        2014.</bibl>
+                    <bibl>Payne, Stanley. <hi rend="italic">La revolucíón y la guerra civil
+                            española</hi>. Madrid: Jucar 1976. </bibl>
+                    <bibl>Payne, Stanley. <hi rend="italic">Por qué la República perdió la
+                            guerra?</hi>. Madrid: Espasa Calpe, 2010.</bibl>
+                    <bibl>Payne, Stanley. <hi rend="italic">The Spanish Civil War, the Soviet Union
+                            and Communism</hi>. New Haven: Yale University Press, 2004. </bibl>
+                    <bibl>Preston, Paul. <hi rend="italic">The Coming of the Spanish Civil War:
+                            Reform, Reaction, Revolution in the Second Republic 1931–1936</hi>.
+                        London: Macmillan, 1978.</bibl>
+                    <bibl>Preston, Paul. <hi rend="italic">The Spanish Civil War: Reaction,
+                            Revolution, Revenge</hi>. London: Harper Perenial, 2006.</bibl>
+                    <bibl>Preston, Paul. <hi rend="italic">The Spanish Holocaust: Inquisition and
+                            Extermination in the Twentieth-Century Spain.</hi> London:
+                        Harper-Collins, 2012.</bibl>
+                    <bibl>Radica, Bogdan. <hi rend="italic">Agonija Evrope</hi>. Beograd: Geca Kon
+                        A. D., 1940.</bibl>
+                    <bibl>Radosh, Ronald, Grigor Sevostianov in Mary R. Habeck. <hi rend="italic"
+                            >Spain Betrayed: The Soviet Union in the Spanish Civil War</hi>. New
+                        Haven: Yale University Press, 2001.</bibl>
+                    <bibl>Raguer, Hilari. <hi rend="italic">La pólvora y el incienso: la iglesia y
+                            la guerra civil española</hi>. Barcelona: Peninsula, 2001.</bibl>
+                    <bibl>Ravbar, Alojz. <hi rend="italic">Zakaj je padla španska republika</hi>.
+                        Ljubljana: Borec, 1971.</bibl>
+                    <bibl>Reig Tapia, Alberto. <hi rend="italic">Anti-Moa</hi>. Barcelona: Ediciones
+                        B, 2006.</bibl>
+                    <bibl>Reig Tapia, Alberto. <hi rend="italic">La cruzada de 1936: Mito y
+                            memoria</hi>. Barcelona: Alianza Editorial, 2006.</bibl>
+                    <bibl>Robinson, Richard. <hi rend="italic">The Origins of Franco's Spain: The
+                            Right, the Republic and the Revolution 1931–1936</hi>. Pittsburgh:
+                        University of Pittsburg Press, 1970.</bibl>
+                    <bibl>Southworth, Herbert R. <hi rend="italic">La destruccíon de Guernica:
+                            Periodismo, diplomacia, propaganda e historia</hi>. Paris: Ruedo
+                        Iberico, 1977.</bibl>
+                    <bibl>Viñas, Ángel Martin. <hi rend="italic">El oro de Moscu: Alfa y Omega de un
+                            mito franquista</hi>. Barcelona: Grijalbo, 1979.</bibl>
+                    <bibl>Viñas, Ángel Martin. <hi rend="italic">El oro español en la Guerra
+                            Civil</hi>. Madrid: Instituto de historias fiscales, 1976.</bibl>
+                    <bibl>Viñas, Angel. <hi rend="italic">La otra cara del caudillo: Mitos y
+                            realidades en biografia de Franco</hi>. Barcelona: Cultura, 2015.</bibl>
+                    <bibl>Viñas, Ángel. <hi rend="italic">La soledad de la República: el abandono de
+                            las democracias y el viraje hacia la Unión Sovietica</hi>. Barcelona:
+                        Critica, 2006.</bibl>
+                </listBibl>
+            </div>
+            <div type="summary" xml:lang="en">
+                <head type="main">ON HISTORIOGRAPHY OF THE SPANISH CIVIL WAR</head>
+                <head>SUMMARY</head>
+                <docAuthor>Peter Vodopivec</docAuthor>
+                <p>The author of the paper points to the main trends in the research of the Spanish
+                    civil war conducted since the early 1960s, when the first critical
+                    distance-based analyses were carried out by British, American, French and
+                    Spanish researchers in the atmosphere of slowly releasing post-war bloc
+                    tensions. The paper mostly reflects on works and interpretations by British
+                    historians Hugh Thomas and Paul Preston, American historians Stanley Payne and
+                    Gabriel Jackson, and French authors Pierre Broué and Émile Témime, while briefly
+                    mentioning the books and standpoints of Burnett Bolloten, Walther Bernecker,
+                    Ronald Radosh, Herbert Southworth, Helen Graham, E.H. Carr and Noam Chomsky.</p>
+                <p>Furthermore, the author mentions that more critical works describing the early
+                        20<seg rend="superscript">th</seg> century in Spain were first published in
+                    1960s, whereas the civil war and Franco’s regime were more systematically
+                    discussed only after Franco’s death. In the first “transition” period following
+                    the death of General Franco, Spanish historians were mainly focused on the
+                    investigation of the civil war's political aspects and the pre-civil war period,
+                    which led to more extensive research conducted on the regional and local levels.
+                    In the 1980s, historians, especially those active on the regional and local
+                    levels, started to address the economic and social situation as well as new
+                    topics such as proper judicial organisation, emigration, culture and propaganda,
+                    life in the rear areas, and forms of repression in the pre- and post-war period.
+                    At the same time, the number of published critical archival sources and other
+                    documents increased, as did the interest for “oral sources” and “oral history”.
+                    In the late 20<seg rend="superscript">th</seg> and early 21<seg
+                        rend="superscript">th</seg> century, controversial debates about the Spanish
+                    history did not seem to be calming down. Quite the opposite: on the one hand,
+                    the works of neo-francoist historians, such as Pio Moa, still attracted a wide
+                    circle of readers, whereas, on the other hand, the initiation of a movement for
+                    the recovery of “historical memory” triggered the excavations of mass graves
+                    holding the bodies of those who were murdered and secretly buried across Spain
+                    both during and after the war.</p>
+                <p>Apart from political violence during and after the civil war, various topics,
+                    e.g. the policy followed by the Soviet Union and the operation of international
+                    brigades, also attracted attention of Spanish researchers once the Russian
+                    archives were unsealed, whereas readers were more interested in the biographies
+                    of political leaders and Franco and historiographical presentations of the role
+                    the church played in the Civil War as well as the military history of the
+                    period. The author concludes that, 80 years after the military pronunciamento
+                    organized by Spanish generals, the Spanish civil war is still a topic that
+                    divides both Spanish historians and Spain's wider public.</p>
+            </div>
+        </back>
+    </text>
+</TEI>
