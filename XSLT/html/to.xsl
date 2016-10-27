@@ -81,6 +81,10 @@
     <br /><xsl:apply-templates/>
   </xsl:template>
   
+  <xsl:template match="tei:docImprint/tei:date">
+    <br /><xsl:apply-templates/>
+  </xsl:template>
+  
   <!-- kopiram iz html_core.xsl, da spodaj spremenim samo ol v ul -->
   <xsl:template match="tei:listBibl">
     <xsl:if test="tei:head">
