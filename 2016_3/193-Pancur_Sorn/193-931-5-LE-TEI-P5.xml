@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Smart Big Data: Use of Slovenian Parliamentary Papers in Digital History</title>
+                <title>Smart Big Data: Use of Slovenian Parliamentary Papers in Digital
+                    History</title>
                 <author>
                     <name>
                         <forename>Andrej</forename>
@@ -113,696 +115,1250 @@
     </teiHeader>
     <text>
         <front>
-            <docAuthor>Andrej Pančur<note place="foot" xml:id="ftn0" n="*"><hi rend="bold">Research associate, PhD, Institute of Contemporary History, Kongresni trg 1, SI-1000 Ljubljana, Slovenia, <ref target="mailto:andrej.pancur@inz.si">andrej.pancur@inz.si</ref></hi></note></docAuthor>
-            <docAuthor>Mojca Šorn<note place="foot" xml:id="ftn00" n="**"><hi rend="bold">Research associate, PhD, Institute of Contemporary History, Kongresni trg 1, SI-1000 Ljubljana, Slovenia, <ref target="mailto:mojca.sorn@inz.si">mojca.sorn@inz.si</ref></hi></note></docAuthor>
+            <docAuthor>Andrej Pančur<note place="foot" xml:id="ftn0" n="*"><hi rend="bold">Research
+                        associate, PhD, Institute of Contemporary History, Kongresni trg 1, SI-1000
+                        Ljubljana, Slovenia, <ref target="mailto:andrej.pancur@inz.si"
+                            >andrej.pancur@inz.si</ref></hi></note></docAuthor>
+            <docAuthor>Mojca Šorn<note place="foot" xml:id="ftn00" n="**"><hi rend="bold">Research
+                        associate, PhD, Institute of Contemporary History, Kongresni trg 1, SI-1000
+                        Ljubljana, Slovenia, <ref target="mailto:mojca.sorn@inz.si"
+                            >mojca.sorn@inz.si</ref></hi></note></docAuthor>
             <docImprint>
                 <idno type="cobissType">Cobiss type: 1.01</idno>
                 <idno type="UDC">UDC: </idno>
-                </docImprint>
+            </docImprint>
             <div type="abstract" xml:lang="sl">
                 <head type="main">IZVLEČEK</head>
-                <head>PAMETNI MASIVNI PODATKI: UPORABA SLOVENSKIH PARLAMENTARNIH
-                    DOKUMENTOV V DIGITALNI ZGODOVINI</head>
-                <p><hi rend="italic">Avtorja v prispevku opozorita na problem velikih količin digitalnih
-                    zgodovinskih virov, s katerim se bodo srečavali raziskovalci sodobne zgodovine.
-                    Bolj nadrobno predstavita slovenske parlamentarne dokumente kot primer pametnih
-                    masivnih podatkov. Avtorja menita, da velikih količin tega digitalnega gradiva
-                    zgodovinarji ne bodo mogli obdelovati samo z uporabo klasičnih zgodovinskih
-                    metod, temveč bodo morali začeti uporabljati še metode in orodja, ki jih razvija
-                    digitalna zgodovina, digitalna humanistika in tudi jezikoslovne
-                    tehnologije.</hi></p>
+                <head>PAMETNI MASIVNI PODATKI: UPORABA SLOVENSKIH PARLAMENTARNIH DOKUMENTOV V
+                    DIGITALNI ZGODOVINI</head>
+                <p><hi rend="italic">Avtorja v prispevku opozorita na problem velikih količin
+                        digitalnih zgodovinskih virov, s katerim se bodo srečavali raziskovalci
+                        sodobne zgodovine. Bolj nadrobno predstavita slovenske parlamentarne
+                        dokumente kot primer pametnih masivnih podatkov. Avtorja menita, da velikih
+                        količin tega digitalnega gradiva zgodovinarji ne bodo mogli obdelovati samo
+                        z uporabo klasičnih zgodovinskih metod, temveč bodo morali začeti
+                        uporabljati še metode in orodja, ki jih razvija digitalna zgodovina,
+                        digitalna humanistika in tudi jezikoslovne tehnologije.</hi></p>
                 <p><hi rend="italic">Ključne besede: digitalna humanistika, digitalna zgodovina,
-                    Slovenija, parlament</hi></p>
+                        Slovenija, parlament</hi></p>
             </div>
             <div type="abstract">
                 <head>ABSTRACT</head>
                 <p><hi rend="italic">The paper calls attention to the problem of massive amounts of
-                    digital historical sources that will eventually be faced by researchers of
-                    contemporary history. Slovenian parliamentary papers are then presented in
-                    detail as an example of smart big data. The authors believe that historians will
-                    be unable to process massive amounts of such digital materials using only
-                    standard historiographical methods and will be forced to start using methods and
-                    tools developed by digital history, digital humanities and also language
-                    technologies.</hi></p>
+                        digital historical sources that will eventually be faced by researchers of
+                        contemporary history. Slovenian parliamentary papers are then presented in
+                        detail as an example of smart big data. The authors believe that historians
+                        will be unable to process massive amounts of such digital materials using
+                        only standard historiographical methods and will be forced to start using
+                        methods and tools developed by digital history, digital humanities and also
+                        language technologies.</hi></p>
                 <p><hi rend="italic">Keywords: digital humanities, digital history, Slovenia,
-                    parliament</hi></p>
+                        parliament</hi></p>
             </div>
         </front>
         <body>
             <div>
-            <head>Big Data</head>
-            <p><hi rend="italic">Big data</hi> is the buzzword of the decade. However, the very
-                ubiquity of the term both in the industry, the media as well as in the academic
-                community has led to big data being defined in various ways. Furthermore, big data
-                in the humanities is not the same as big data in natural sciences.<note place="foot" xml:id="ftn3" n="2"> Christof Schöch, “Big? Smart?
-                        Clean? Messy? Data in the Humanities,” <hi rend="italic">Journal of Digital
-                            Humanities</hi> 2, no. 3 (2013), accessed on 25 September 2016, <ref target="http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/">http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/</ref>.</note>
-                This paper uses the definition according to which historical big data is described
-                as follows;</p>
-            <list type="unordered">
-                <item>large volumes of data, particularly texts that cannot be read within a
-                    reasonable time frame, and</item>
-                <item>information that only allows us to reach new conclusions through the use of
-                    digital methods.<note place="foot" xml:id="ftn4" n="3">
-                            Shawn Graham, Ian Milligan and Scott Weingart, <hi rend="italic">Exploring Big Historical Data. The Historian’s Macroscope</hi>
-                            (London: Imperial College Press, 2015), accessed on 28 September 2016.
-                                <ref target="http://www.themacroscope.org">http://www.themacroscope.org</ref>.</note></item>
-            </list>
-            <p>Large amounts of computer-readable data are gradually becoming the reality of modern
-                historiography. The late Roy Rosenzweig, one of the pioneers of digital history,
-                warned as early as 2003 that historiography, instead of working within the scarcity
-                paradigm of historical records, will have to start facing the problem of an excess
-                of resources.<note place="foot" xml:id="ftn5" n="4"> Roy
+                <head>Big Data</head>
+                <p><hi rend="italic">Big data</hi> is the buzzword of the decade. However, the very
+                    ubiquity of the term both in the industry, the media as well as in the academic
+                    community has led to big data being defined in various ways. Furthermore, big
+                    data in the humanities is not the same as big data in natural sciences.<note
+                        place="foot" xml:id="ftn3" n="2"> Christof Schöch, “Big? Smart? Clean?
+                        Messy? Data in the Humanities,” <hi rend="italic">Journal of Digital
+                            Humanities</hi> 2, no. 3 (2013), accessed on 25 September 2016, <ref
+                            target="http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/"
+                            >http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/</ref>.</note>
+                    This paper uses the definition according to which historical big data is
+                    described as follows;</p>
+                <list type="unordered">
+                    <item>large volumes of data, particularly texts that cannot be read within a
+                        reasonable time frame, and</item>
+                    <item>information that only allows us to reach new conclusions through the use
+                        of digital methods.<note place="foot" xml:id="ftn4" n="3"> Shawn Graham, Ian
+                            Milligan and Scott Weingart, <hi rend="italic">Exploring Big Historical
+                                Data. The Historian’s Macroscope</hi> (London: Imperial College
+                            Press, 2015), accessed on 28 September 2016. <ref
+                                target="http://www.themacroscope.org"
+                                >http://www.themacroscope.org</ref>.</note></item>
+                </list>
+                <p>Large amounts of computer-readable data are gradually becoming the reality of
+                    modern historiography. The late Roy Rosenzweig, one of the pioneers of digital
+                    history, warned as early as 2003 that historiography, instead of working within
+                    the scarcity paradigm of historical records, will have to start facing the
+                    problem of an excess of resources.<note place="foot" xml:id="ftn5" n="4"> Roy
                         Rosenzwig, “Scarcity or Abundance? Preserving the Past in a Digital Era,”
                             <hi rend="italic">American Historical Review</hi> 108, no. 3 (2003):
                         735–62.</note> Up to now, historiography has mostly had to deal with the
-                lack of resources, their incompleteness and often also with high costs of acquiring
-                additional sources. Today, on the other hand, historians can access new digitized
-                and digital sources quickly and effectively. Although a lion’s share of analogue
-                materials has not been and is unlikely to be digitized within reasonable time,<note place="foot" xml:id="ftn6" n="5"> Gerben Zaagsma, “On
+                    lack of resources, their incompleteness and often also with high costs of
+                    acquiring additional sources. Today, on the other hand, historians can access
+                    new digitized and digital sources quickly and effectively. Although a lion’s
+                    share of analogue materials has not been and is unlikely to be digitized within
+                    reasonable time,<note place="foot" xml:id="ftn6" n="5"> Gerben Zaagsma, “On
                         Digital
                         History,”<hi rend="italic" xml:space="preserve"> BMGN – Low Countries Historical Review</hi>
                         128, no. 4 (2013): 19–23.</note> the materials emerging today are
-                increasingly created in the digital form. This is the reason why, for example, the
-                Slovenian archives are currently working hard on establishing a Slovenian electronic
-                archive – e-ARH.si.<note place="foot" xml:id="ftn7" n="6">
-                        Tatjana Hajtnik, “Strategija razvoja slovenskega javnega elektronskega
-                        arhiva ’e-ARH.si’,” <hi rend="italic">Knjižnica</hi> 55, no. 1 (2011):
-                        40–41, 44. Bojan Cvelfar et al., <hi rend="italic">Strategija in izvedbeni
-                            načrt razvoja slovenskega elektronskega arhiva 2016–2020</hi>
-                        (Ljubljana: Archives of the Republic of Slovenia, 2016), 10.</note>
-                Consequently, the problem of (over)abundance of historical resources is also
-                emerging in the studies of contemporary history,<note place="foot" xml:id="ftn8" n="7"> Peter Haber, “Zeitgeschichte und Digital
-                        Humanities,” in: <hi rend="italic">Zeitgeschichte – Konzepte und
-                            Methoden</hi>, eds. Frank Bösch and Danyel Jürgen (Göttingen:
-                        Vandenhoeck &amp; Ruprecht, 2012), 47–66.</note> including the history
-                of the Republic of Slovenia after 1991.<note place="foot" xml:id="ftn9" n="8"> Jure Gašparič, “Pisati politično zgodovino Republike
+                    increasingly created in the digital form. This is the reason why, for example,
+                    the Slovenian archives are currently working hard on establishing a Slovenian
+                    electronic archive – e-ARH.si.<note place="foot" xml:id="ftn7" n="6"> Tatjana
+                        Hajtnik, “Strategija razvoja slovenskega javnega elektronskega arhiva
+                        ’e-ARH.si’,” <hi rend="italic">Knjižnica</hi> 55, no. 1 (2011): 40–41, 44.
+                        Bojan Cvelfar et al., <hi rend="italic">Strategija in izvedbeni načrt
+                            razvoja slovenskega elektronskega arhiva 2016–2020</hi> (Ljubljana:
+                        Archives of the Republic of Slovenia, 2016), 10.</note> Consequently, the
+                    problem of (over)abundance of historical resources is also emerging in the
+                    studies of contemporary history,<note place="foot" xml:id="ftn8" n="7"> Peter
+                        Haber, “Zeitgeschichte und Digital Humanities,” in: <hi rend="italic"
+                            >Zeitgeschichte – Konzepte und Methoden</hi>, eds. Frank Bösch and
+                        Danyel Jürgen (Göttingen: Vandenhoeck &amp; Ruprecht, 2012), 47–66.</note>
+                    including the history of the Republic of Slovenia after 1991.<note place="foot"
+                        xml:id="ftn9" n="8"> Jure Gašparič, “Pisati politično zgodovino Republike
                         Slovenije,” in: <hi rend="italic">Četrt stoletja Republike Slovenije –
                             izzivi, dileme, pričakovanja</hi>, eds. Jure Gašparič and Mojca Šorn
                         (Ljubljana: Institute of Contemporary History, 2016), 30.</note></p>
-            <p>The massive amount of digital materials has spurred the creation and spreading of
-                digital humanities, which use digital methods and tools to address new research
-                    questions.<note place="foot" xml:id="ftn10" n="9"> Sandra Collins et al.,
+                <p>The massive amount of digital materials has spurred the creation and spreading of
+                    digital humanities, which use digital methods and tools to address new research
+                        questions.<note place="foot" xml:id="ftn10" n="9"> Sandra Collins et al.,
                             <hi rend="italic">ALLEA E-Humanities Working Group Report. Going
                             Digital: Creating Change in the Humanities</hi> (Berlin: All European
-                        Academies, 2015), 9, accessed 19 July 2016, <ref target="http://www.allea.org/Content/ALLEA/WG%20E%20Humanities/Going%20Digital_digital%20version.pdf">http://www.allea.org/Content/ALLEA/WG%20E%20Humanities/Going%20Digital_digital%20version.pdf</ref>.
+                        Academies, 2015), 9, accessed 19 July 2016, <ref
+                            target="http://www.allea.org/Content/ALLEA/WG%20E%20Humanities/Going%20Digital_digital%20version.pdf"
+                            >http://www.allea.org/Content/ALLEA/WG%20E%20Humanities/Going%20Digital_digital%20version.pdf</ref>.
                         Devon Elliot, Robert MacDougall and William J. Turkel, “New Old Things.
-                        Fabrication, Physical Computing, and Experiment in Historical Practice,” <hi rend="italic">Canadian Journal of Communication</hi> 37 (2012): 122,
-                        accessed 19 July 2016, <ref target="http://www.cjc-online.ca/index.php/journal/article/view/2506">http://www.cjc-online.ca/index.php/journal/article/view/2506</ref>.</note>
-                In the following sections, the paper uses the example of Slovenian parliamentary
-                papers to present the advantages and drawbacks of the digital historiography methods
-                in the analysis of big historical data. In this context, the digital history is
-                understood as part of the digital humanities, which is primarily concerned with
-                online distribution and presentation of historical sources using various computer
-                tools, especially for mapping, network software and, last but not least, text
-                    analysis.<note place="foot" xml:id="ftn11" n="10">
-                        Stephen Robertson, “The Differences between Digital Humanities and Digital
-                        History,” in: <hi rend="italic">Debates in Digital Humanities 2016</hi>,
-                        eds. Matthew K. Gold and Lauren F. Klein (Minneapolis and London: University
-                        of Minnesota Press, 2016).</note> The paper focuses mainly on the
-                possibilities for the use of text analysis methods and tools.</p>
+                        Fabrication, Physical Computing, and Experiment in Historical Practice,” <hi
+                            rend="italic">Canadian Journal of Communication</hi> 37 (2012): 122,
+                        accessed 19 July 2016, <ref
+                            target="http://www.cjc-online.ca/index.php/journal/article/view/2506"
+                            >http://www.cjc-online.ca/index.php/journal/article/view/2506</ref>.</note>
+                    In the following sections, the paper uses the example of Slovenian parliamentary
+                    papers to present the advantages and drawbacks of the digital historiography
+                    methods in the analysis of big historical data. In this context, the digital
+                    history is understood as part of the digital humanities, which is primarily
+                    concerned with online distribution and presentation of historical sources using
+                    various computer tools, especially for mapping, network software and, last but
+                    not least, text analysis.<note place="foot" xml:id="ftn11" n="10"> Stephen
+                        Robertson, “The Differences between Digital Humanities and Digital History,”
+                        in: <hi rend="italic">Debates in Digital Humanities 2016</hi>, eds. Matthew
+                        K. Gold and Lauren F. Klein (Minneapolis and London: University of Minnesota
+                        Press, 2016).</note> The paper focuses mainly on the possibilities for the
+                    use of text analysis methods and tools.</p>
             </div>
             <div>
-            <head>Slovenian Parliamentary Papers</head>
-            <p>Parliamentary papers are a rich source of data used by different academic disciplines
-                including historiography. In some European countries, a large part of these papers
-                is already accessible in digital form, mostly in PDF format.<note place="foot" xml:id="ftn12" n="11"> Agiatis Benardou, Alastair
-                        Dunning, Martin Schaller and Nephelie Chatzi Chatzidiakou. <hi rend="italic">Research Themes for Aggregating Digital Content. Parliamentary Papers
+                <head>Slovenian Parliamentary Papers</head>
+                <p>Parliamentary papers are a rich source of data used by different academic
+                    disciplines including historiography. In some European countries, a large part
+                    of these papers is already accessible in digital form, mostly in PDF
+                        format.<note place="foot" xml:id="ftn12" n="11"> Agiatis Benardou, Alastair
+                        Dunning, Martin Schaller and Nephelie Chatzi Chatzidiakou. <hi rend="italic"
+                            >Research Themes for Aggregating Digital Content. Parliamentary Papers
                             in Europe</hi> (Europeana Cloud, 2015), 6.</note></p>
-            <p rend="LREC main body text">Both researchers and the public can avail themselves of
-                the materials from parliamentary institutions located within today’s Slovenia and
-                from parliamentary institutions whose members once included representatives from
-                Slovenia. While it is true that most of the materials are currently only available
-                in analogue form, an increasing amount has already been digitized and made available
-                to the public:</p>
-            <list type="unordered">
-                <item>Austrian National Assembly (1861–1918);<note place="foot" xml:id="ftn13" n="12"> “Parlamentaria,” <hi rend="italic">ALEX –
-                                Historische Rechts- und Gesetzestexte</hi>, accessed on 30 September
-                            2016, <ref target="http://alex.onb.ac.at/sachlichegliederung.htm">http://alex.onb.ac.at/sachlichegliederung.htm</ref>.</note>
-                </item>
-                <item>Styrian Provincial Assembly (1848–1914);<note place="foot" xml:id="ftn14" n="13"> “Landtag Steiermark – stenographische
-                            Sitzungsberichte,” <hi rend="italic">Das Land Steiermark</hi>, accessed
-                            on 30 September 2016, <ref target="http://www.landesarchiv.steiermark.at/cms/ziel/111284715">http://www.landesarchiv.steiermark.at/cms/ziel/111284715</ref>.</note></item>
-                <item>Carniolan Provincial Assembly (1861–1869);<note place="foot" xml:id="ftn15" n="14"> “Provincial Assembly of Carniola 1861–1918,”
-                                <hi rend="italic">SIstory – History of Slovenia</hi>, accessed on 30
-                            September 2016, <ref target="http://hdl.handle.net/11686/menu719">http://hdl.handle.net/11686/menu719</ref>.</note></item>
-                <item>Yugoslav legislative bodies 1919–1939, 1942–1953;<note place="foot" xml:id="ftn16" n="15"> “Stenographical minutes of
-                            the executive and legislative bodies, Yugoslavia,” <hi rend="italic">SIstory – History of Slovenia</hi>, accessed on 30 September 2016,
-                                <ref target="http://hdl.handle.net/11686/menu396">http://hdl.handle.net/11686/menu396</ref>.</note></item>
-                <item>People’s Assembly of the People’s Republic of Slovenia (1947–1963);<note place="foot" xml:id="ftn17" n="16"> “Shorthand
-                            minutes of the People’s Assembly of the People’s Republic of Slovenia
-                            (1947–1963),” <hi rend="italic">SIstory – History of Slovenia</hi>,
-                            accessed on 30 September 2016, <ref target="http://hdl.handle.net/11686/menu407">http://hdl.handle.net/11686/menu407</ref>.</note></item>
-                <item>Assembly of the Socialist Republic of Slovenia (1963–1990);<note place="foot" xml:id="ftn18" n="17"> “Assembly of the Socialist
-                            Republic of Slovenia (1963–1990),” <hi rend="italic">SIstory – History
-                                of Slovenia</hi>, accessed on 30 September 2016, <ref target="http://hdl.handle.net/11686/menu408">http://hdl.handle.net/11686/menu408</ref>.</note></item>
-                <item>National Assembly of the Republic of Slovenia, from 1990 until today.<note place="foot" xml:id="ftn19" n="18"> “Seje Državnega
-                            zbora – Po datumu,” <hi rend="italic">Republic of Slovenia: National
-                                Assembly</hi>, accessed on 30 September 2016, <ref target="https://www.dz-rs.si/wps/portal/Home/deloDZ/seje/sejeDrzavnegaZbora/PoDatumuSeje/">https://www.dz-rs.si/wps/portal/Home/deloDZ/seje/sejeDrzavnegaZbora/PoDatumuSeje/</ref>.</note></item>
-            </list>
-            <p rend="LREC main body text">With the exception of the documents from the National
-                Assembly, which are being published in the HTML format, all documents have been
-                published in PDF.</p>
-            <p>Chart 1 shows the number of words contained in parliamentary speeches for each
-                parliamentary term of the Slovenian parliament which are archived in PDF at the
-                History of Slovenia – SIstory portal (36 million words) and in HTML at the National
-                Assembly website (69 million words). Up until 1974, minutes of the sessions also
-                included extensive attachments (10.5 million words), which were later published in a
-                special serial publication titled <hi rend="italic">Poročevalec</hi>. From 2010
-                onward, <hi rend="italic">Poročevalec</hi> has been regularly accessible at the
-                National Assembly website,<note place="foot" xml:id="ftn20" n="19"> “Gradivo DZ,” <hi rend="italic">Republic of Slovenia:
-                            National Assembly</hi>, accessed on 30 September 2016, <ref target="https://www.dz-rs.si/wps/portal/Home/deloDZ/Porocevalec/GradivaDZ">https://www.dz-rs.si/wps/portal/Home/deloDZ/Porocevalec/GradivaDZ</ref>.
+                <p rend="LREC main body text">Both researchers and the public can avail themselves
+                    of the materials from parliamentary institutions located within today’s Slovenia
+                    and from parliamentary institutions whose members once included representatives
+                    from Slovenia. While it is true that most of the materials are currently only
+                    available in analogue form, an increasing amount has already been digitized and
+                    made available to the public:</p>
+                <list type="unordered">
+                    <item>Austrian National Assembly (1861–1918);<note place="foot" xml:id="ftn13"
+                            n="12"> “Parlamentaria,” <hi rend="italic">ALEX – Historische Rechts-
+                                und Gesetzestexte</hi>, accessed on 30 September 2016, <ref
+                                target="http://alex.onb.ac.at/sachlichegliederung.htm"
+                                >http://alex.onb.ac.at/sachlichegliederung.htm</ref>.</note>
+                    </item>
+                    <item>Styrian Provincial Assembly (1848–1914);<note place="foot" xml:id="ftn14"
+                            n="13"> “Landtag Steiermark – stenographische Sitzungsberichte,” <hi
+                                rend="italic">Das Land Steiermark</hi>, accessed on 30 September
+                            2016, <ref
+                                target="http://www.landesarchiv.steiermark.at/cms/ziel/111284715"
+                                >http://www.landesarchiv.steiermark.at/cms/ziel/111284715</ref>.</note></item>
+                    <item>Carniolan Provincial Assembly (1861–1869);<note place="foot"
+                            xml:id="ftn15" n="14"> “Provincial Assembly of Carniola 1861–1918,” <hi
+                                rend="italic">SIstory – History of Slovenia</hi>, accessed on 30
+                            September 2016, <ref target="http://hdl.handle.net/11686/menu719"
+                                >http://hdl.handle.net/11686/menu719</ref>.</note></item>
+                    <item>Yugoslav legislative bodies 1919–1939, 1942–1953;<note place="foot"
+                            xml:id="ftn16" n="15"> “Stenographical minutes of the executive and
+                            legislative bodies, Yugoslavia,” <hi rend="italic">SIstory – History of
+                                Slovenia</hi>, accessed on 30 September 2016, <ref
+                                target="http://hdl.handle.net/11686/menu396"
+                                >http://hdl.handle.net/11686/menu396</ref>.</note></item>
+                    <item>People’s Assembly of the People’s Republic of Slovenia (1947–1963);<note
+                            place="foot" xml:id="ftn17" n="16"> “Shorthand minutes of the People’s
+                            Assembly of the People’s Republic of Slovenia (1947–1963),” <hi
+                                rend="italic">SIstory – History of Slovenia</hi>, accessed on 30
+                            September 2016, <ref target="http://hdl.handle.net/11686/menu407"
+                                >http://hdl.handle.net/11686/menu407</ref>.</note></item>
+                    <item>Assembly of the Socialist Republic of Slovenia (1963–1990);<note
+                            place="foot" xml:id="ftn18" n="17"> “Assembly of the Socialist Republic
+                            of Slovenia (1963–1990),” <hi rend="italic">SIstory – History of
+                                Slovenia</hi>, accessed on 30 September 2016, <ref
+                                target="http://hdl.handle.net/11686/menu408"
+                                >http://hdl.handle.net/11686/menu408</ref>.</note></item>
+                    <item>National Assembly of the Republic of Slovenia, from 1990 until today.<note
+                            place="foot" xml:id="ftn19" n="18"> “Seje Državnega zbora – Po datumu,”
+                                <hi rend="italic">Republic of Slovenia: National Assembly</hi>,
+                            accessed on 30 September 2016, <ref
+                                target="https://www.dz-rs.si/wps/portal/Home/deloDZ/seje/sejeDrzavnegaZbora/PoDatumuSeje/"
+                                >https://www.dz-rs.si/wps/portal/Home/deloDZ/seje/sejeDrzavnegaZbora/PoDatumuSeje/</ref>.</note></item>
+                </list>
+                <p rend="LREC main body text">With the exception of the documents from the National
+                    Assembly, which are being published in the HTML format, all documents have been
+                    published in PDF.</p>
+                <p>Chart 1 shows the number of words contained in parliamentary speeches for each
+                    parliamentary term of the Slovenian parliament which are archived in PDF at the
+                    History of Slovenia – SIstory portal (36 million words) and in HTML at the
+                    National Assembly website (69 million words). Up until 1974, minutes of the
+                    sessions also included extensive attachments (10.5 million words), which were
+                    later published in a special serial publication titled <hi rend="italic"
+                        >Poročevalec</hi>. From 2010 onward, <hi rend="italic">Poročevalec</hi> has
+                    been regularly accessible at the National Assembly website,<note place="foot"
+                        xml:id="ftn20" n="19"> “Gradivo DZ,” <hi rend="italic">Republic of Slovenia:
+                            National Assembly</hi>, accessed on 30 September 2016, <ref
+                            target="https://www.dz-rs.si/wps/portal/Home/deloDZ/Porocevalec/GradivaDZ"
+                            >https://www.dz-rs.si/wps/portal/Home/deloDZ/Porocevalec/GradivaDZ</ref>.
                     </note> where visitors can also look through archived issues from 2006 to
-                    2010.<note place="foot" xml:id="ftn21" n="20"> “Arhiv
-                        Poročevalec od 14.4.2006 do 15.7.2010,” <hi rend="italic">Republic of
-                            Slovenia: National Assembly</hi>, accessed on 30 September 2016, <ref target="https://www.dz-rs.si/wps/portal/Home/deloDZ/Porocevalec/arhivPorocevalec">https://www.dz-rs.si/wps/portal/Home/deloDZ/Porocevalec/arhivPorocevalec</ref>.</note>
-                Other issues of <hi rend="italic">Poročevalec</hi> (1974–2006) are going to be
-                digitized within three years by the Institute of Contemporary History that manages
-                the History of Slovenia – SIstory portal. As of this moment, the Institute has
-                already managed to digitize issues of <hi rend="italic">Poročevalec</hi> from 1974
-                to 1996, which together contain almost 37 million words (see Chart 1).</p>
-            <p>#file: Chart1.xlsx</p>
-            <p>Chart 1: Number of words in parliamentary speeches (1947–1990), attachments
-                (1947–1974) and <hi rend="italic">Poročevalec</hi> (1974–1996) at the History of
-                Slovenia – SIstory portal and the number of words in parliamentary speeches at the
-                National Assembly website (1990–2011); in millions of words per parliamentary
-                term.</p>
+                        2010.<note place="foot" xml:id="ftn21" n="20"> “Arhiv Poročevalec od
+                        14.4.2006 do 15.7.2010,” <hi rend="italic">Republic of Slovenia: National
+                            Assembly</hi>, accessed on 30 September 2016, <ref
+                            target="https://www.dz-rs.si/wps/portal/Home/deloDZ/Porocevalec/arhivPorocevalec"
+                            >https://www.dz-rs.si/wps/portal/Home/deloDZ/Porocevalec/arhivPorocevalec</ref>.</note>
+                    Other issues of <hi rend="italic">Poročevalec</hi> (1974–2006) are going to be
+                    digitized within three years by the Institute of Contemporary History that
+                    manages the History of Slovenia – SIstory portal. As of this moment, the
+                    Institute has already managed to digitize issues of <hi rend="italic"
+                        >Poročevalec</hi> from 1974 to 1996, which together contain almost 37
+                    million words (see Chart 1).</p>
+                <figure>
+                    <head>Chart 1</head>
+                    <graphic url="graf1.jpg" height="500px"/>
+                </figure>
+                <p>Chart 1: Number of words in parliamentary speeches (1947–1990), attachments
+                    (1947–1974) and <hi rend="italic">Poročevalec</hi> (1974–1996) at the History of
+                    Slovenia – SIstory portal and the number of words in parliamentary speeches at
+                    the National Assembly website (1990–2011); in millions of words per
+                    parliamentary term.</p>
             </div>
             <div>
-            <head>Searching</head>
-            <p>It is clear that no researcher is able to read that much text in its entirety.
-                Researchers thus only read those parts that they consider relevant for their
-                research. In doing so, they read the selected parts of the text carefully, from word
-                to word, or quickly skim over the pages looking for relevant parts of the text.
-                However, such research is generally based on the assumption that the researchers
-                will find what they are looking for in the text. Researchers thus determine the text
-                they are looking for, as well as the context of their research, in advance. In doing
-                so, they necessarily lean on their previous comprehensive or inadequate knowledge of
-                the area of study.<note place="foot" xml:id="ftn22" n="21">
-                        Federico Nanni, Hiram Kumper, and Simone Paolo Ponzetto, “Semi-Supervised
-                        Textual Analysis and Historical Research Helping Each Other. Some Thoughts
-                        and Observations,” <hi rend="italic">International Journal of Humanities and
-                            Arts Computing</hi> 10, no. 1 (2016): 73–74.</note></p>
-            <p>In history as well as in other humanities, such methods are of course completely
-                acceptable and often yield useful results. A number of good studies has been created
-                in such a manner using materials from the National Assembly of the Republic of
-                    Slovenia.<note place="foot" xml:id="ftn23" n="22"> Jure
-                        Gašparič, <hi rend="italic">Državni zbor 1992–2012. O slovenskem
+                <head>Searching</head>
+                <p>It is clear that no researcher is able to read that much text in its entirety.
+                    Researchers thus only read those parts that they consider relevant for their
+                    research. In doing so, they read the selected parts of the text carefully, from
+                    word to word, or quickly skim over the pages looking for relevant parts of the
+                    text. However, such research is generally based on the assumption that the
+                    researchers will find what they are looking for in the text. Researchers thus
+                    determine the text they are looking for, as well as the context of their
+                    research, in advance. In doing so, they necessarily lean on their previous
+                    comprehensive or inadequate knowledge of the area of study.<note place="foot"
+                        xml:id="ftn22" n="21"> Federico Nanni, Hiram Kumper, and Simone Paolo
+                        Ponzetto, “Semi-Supervised Textual Analysis and Historical Research Helping
+                        Each Other. Some Thoughts and Observations,” <hi rend="italic">International
+                            Journal of Humanities and Arts Computing</hi> 10, no. 1 (2016):
+                        73–74.</note></p>
+                <p>In history as well as in other humanities, such methods are of course completely
+                    acceptable and often yield useful results. A number of good studies has been
+                    created in such a manner using materials from the National Assembly of the
+                    Republic of Slovenia.<note place="foot" xml:id="ftn23" n="22"> Jure Gašparič,
+                            <hi rend="italic">Državni zbor 1992–2012. O slovenskem
                             parlamentarizmu</hi> (Ljubljana: Institute of Contemporary History,
                         2012). Jure Gašparič, <hi rend="italic">Slovenski parlament.
                             Politično-zgodovinski pregled od začetka prvega do konca šestega
                             mandata (1992–2014)</hi> (Ljubljana: Institute of Contemporary History,
                         2014). Rosvita Pesek, <hi rend="italic">Osamosvojitev Slovenije</hi>
-                        (Ljubljana: Nova revija, 2007).</note> Most researchers in the
-                humanities thus primarily understand digital materials in terms of easier and
-                quicker access to desired information.<note place="foot" xml:id="ftn24" n="23"> Lisa Spiro, “Access, Explore, Converse: The Impact
-                        (and Potential Impact) of the Digital Humanities on Scholarship,” in: <hi rend="italic">Keys for architectural history research in the digital
-                            era</hi>, eds. <hi rend="Strong"><seg rend="normalweight" xml:space="preserve">Juliette </seg></hi><hi rend="familyname">Hueber</hi><hi rend="Strong"><seg rend="normalweight" xml:space="preserve"> and Antonio </seg></hi><hi rend="familyname">Mendes da Silva 3</hi> (2014). </note> In the case
-                of materials from the National Assembly, researchers can make use of a search engine
-                that allows them to filter their results according to search modules. In a similar
-                manner, researchers can search for older parliamentary materials at the History of
-                Slovenia – SIstory portal.</p>
-            <p>Most researchers in the humanities first use search engines to identify sources and
-                then do a full text keyword search. This means that studies are no longer conducted
-                only vertically, from top to bottom, where a researcher only reads canonical texts
-                and browses previously organized data collections. Rather, studies are being
-                conducted in a bottom-up manner, with researchers looking for parts of text
-                pertinent to their research that they would otherwise not have read. However, this
-                research method has its limitations. The researcher must know the search queries in
-                advance, and these can differ from modern thought patterns. Inasmuch as the
-                researcher does not carefully examine every search result, the results are always
-                lacking proper context.<note place="foot" xml:id="ftn25" n="24"> Robertson, “The Differences between Digital Humanities
-                        and Digital History.” Bob Nicholson, “The Digital Turn. Exploring the
-                        methodological possibilities of digital newspaper archives,” <hi rend="italic">Media History</hi> 19, no. 1 (2013): 66–67.</note></p>
-            <p>Despite these limitations, a full text keyword search can yield very useful results.
-                A good example of such research is the article <hi rend="italic">War in Parliament:
-                    What a Digital Approach Can Add to the Study of Parliamentary History</hi> whose
-                authors used carefully selected search queries and a search engine to systematically
-                check to which extent the Boerenpartij (Farmers’ Party) was described as “wrong” in
-                all Dutch parliamentary debates between 1958 and 1982.<note place="foot" xml:id="ftn26" n="25"> Hinke Piersma et al., “War in
+                        (Ljubljana: Nova revija, 2007).</note> Most researchers in the humanities
+                    thus primarily understand digital materials in terms of easier and quicker
+                    access to desired information.<note place="foot" xml:id="ftn24" n="23"> Lisa
+                        Spiro, “Access, Explore, Converse: The Impact (and Potential Impact) of the
+                        Digital Humanities on Scholarship,” in: <hi rend="italic">Keys for
+                            architectural history research in the digital era</hi>, eds. <hi
+                            rend="Strong"
+                            ><seg rend="normalweight" xml:space="preserve">Juliette </seg></hi><hi
+                            rend="familyname">Hueber</hi><hi rend="Strong"
+                            ><seg rend="normalweight" xml:space="preserve"> and Antonio </seg></hi><hi
+                            rend="familyname">Mendes da Silva 3</hi> (2014). </note> In the case of
+                    materials from the National Assembly, researchers can make use of a search
+                    engine that allows them to filter their results according to search modules. In
+                    a similar manner, researchers can search for older parliamentary materials at
+                    the History of Slovenia – SIstory portal.</p>
+                <p>Most researchers in the humanities first use search engines to identify sources
+                    and then do a full text keyword search. This means that studies are no longer
+                    conducted only vertically, from top to bottom, where a researcher only reads
+                    canonical texts and browses previously organized data collections. Rather,
+                    studies are being conducted in a bottom-up manner, with researchers looking for
+                    parts of text pertinent to their research that they would otherwise not have
+                    read. However, this research method has its limitations. The researcher must
+                    know the search queries in advance, and these can differ from modern thought
+                    patterns. Inasmuch as the researcher does not carefully examine every search
+                    result, the results are always lacking proper context.<note place="foot"
+                        xml:id="ftn25" n="24"> Robertson, “The Differences between Digital
+                        Humanities and Digital History.” Bob Nicholson, “The Digital Turn. Exploring
+                        the methodological possibilities of digital newspaper archives,” <hi
+                            rend="italic">Media History</hi> 19, no. 1 (2013): 66–67.</note></p>
+                <p>Despite these limitations, a full text keyword search can yield very useful
+                    results. A good example of such research is the article <hi rend="italic">War in
+                        Parliament: What a Digital Approach Can Add to the Study of Parliamentary
+                        History</hi> whose authors used carefully selected search queries and a
+                    search engine to systematically check to which extent the Boerenpartij (Farmers’
+                    Party) was described as “wrong” in all Dutch parliamentary debates between 1958
+                    and 1982.<note place="foot" xml:id="ftn26" n="25"> Hinke Piersma et al., “War in
                         Parliament. What a Digital Approach Can Add to the Study of Parliamentary
                         History,” <hi rend="italic">DHQ: Digital Humanities Quarterly</hi> 8, no. 1
-                        (2014).</note> The article was written as part of the <hi rend="italic">War in Parliament</hi> project. The results of this project clearly showed that
-                satisfactory research results can only be obtained if we are familiar not only with
-                the advantages but also with the shortcomings of digital research methods.<note place="foot" xml:id="ftn27" n="26"> Hinke Piersma and
-                        Kees Ribbens, “Digital Historical Research. Context, Concept and the Need
-                        for Reflection,” <hi rend="italic">BMGN – Low Countries Historical
-                            Review</hi> 128, no. 4 (2013): 87–90, 100–01.</note></p>
+                        (2014).</note> The article was written as part of the <hi rend="italic">War
+                        in Parliament</hi> project. The results of this project clearly showed that
+                    satisfactory research results can only be obtained if we are familiar not only
+                    with the advantages but also with the shortcomings of digital research
+                        methods.<note place="foot" xml:id="ftn27" n="26"> Hinke Piersma and Kees
+                        Ribbens, “Digital Historical Research. Context, Concept and the Need for
+                        Reflection,” <hi rend="italic">BMGN – Low Countries Historical Review</hi>
+                        128, no. 4 (2013): 87–90, 100–01.</note></p>
             </div>
             <div>
-            <head>Smart Big Data</head>
-            <p>One of the prerequisites for the <hi rend="italic">War in Parliament</hi> project to
-                be successful was the use of partly structured data in the XML format, which allowed
-                for the search results to be filtered by speaker’s name, by party, by time period,
-                structure of the text, etc.<note place="foot" xml:id="ftn28" n="27"> “War in Parliament,” <hi rend="italic">NIOD</hi>,
-                        accessed on 30 September 2016, <ref target="http://www.niod.nl/en/projects/war-parliament">http://www.niod.nl/en/projects/war-parliament</ref>.</note> What
-                was used was thus not big data in the form of plain text, but rather smart data.
-                Smart data may be structured or partly structured, and compared to implicit big
-                data, smart data is explicit, marked, enriched and described by metadata. The
-                creation of smart data is often a labour-intensive process that requires human
-                    intervention.<note place="foot" xml:id="ftn29" n="28">
-                        Schöch, “Big? Smart? Clean? Messy? Data in the Humanities,”
-                4.</note></p>
-            <p>As we have seen, parliamentary papers represent extremely extensive data collections.
-                We thus cannot expect to be able to reveal their explicit content merely through
-                precise manual annotation. The dilemma necessarily encountered by researchers in the
-                use of digital parliamentary papers was succinctly stated by Christof Schöch:</p>
-            <p rend="Quote">“I believe the most interesting challenge for the next years when it
-                comes to dealing with data in the humanities will be to actually transgress this
-                opposition of smart and big data. What we need is bigger smart data or smarter big
-                data, and to create and use it, we need to make use of new methods. So, how can we
-                enrich big data sufficiently to make more intelligent queries possible? How can we
-                speed up the process of creating smart data so that we can produce larger volumes of
-                    it?”<note place="foot" xml:id="ftn30" n="29"> Ibid.,
+                <head>Smart Big Data</head>
+                <p>One of the prerequisites for the <hi rend="italic">War in Parliament</hi> project
+                    to be successful was the use of partly structured data in the XML format, which
+                    allowed for the search results to be filtered by speaker’s name, by party, by
+                    time period, structure of the text, etc.<note place="foot" xml:id="ftn28" n="27"
+                        > “War in Parliament,” <hi rend="italic">NIOD</hi>, accessed on 30 September
+                        2016, <ref target="http://www.niod.nl/en/projects/war-parliament"
+                            >http://www.niod.nl/en/projects/war-parliament</ref>.</note> What was
+                    used was thus not big data in the form of plain text, but rather smart data.
+                    Smart data may be structured or partly structured, and compared to implicit big
+                    data, smart data is explicit, marked, enriched and described by metadata. The
+                    creation of smart data is often a labour-intensive process that requires human
+                        intervention.<note place="foot" xml:id="ftn29" n="28"> Schöch, “Big? Smart?
+                        Clean? Messy? Data in the Humanities,” 4.</note></p>
+                <p>As we have seen, parliamentary papers represent extremely extensive data
+                    collections. We thus cannot expect to be able to reveal their explicit content
+                    merely through precise manual annotation. The dilemma necessarily encountered by
+                    researchers in the use of digital parliamentary papers was succinctly stated by
+                    Christof Schöch:</p>
+                <p rend="Quote">“I believe the most interesting challenge for the next years when it
+                    comes to dealing with data in the humanities will be to actually transgress this
+                    opposition of smart and big data. What we need is bigger smart data or smarter
+                    big data, and to create and use it, we need to make use of new methods. So, how
+                    can we enrich big data sufficiently to make more intelligent queries possible?
+                    How can we speed up the process of creating smart data so that we can produce
+                    larger volumes of it?”<note place="foot" xml:id="ftn30" n="29"> Ibid.,
                         10.</note></p>
-            <p>At the same time, Schöch calls our attention to two possible ways of making big data
-                smarter: through automatic annotation and through crowdsourcing. In practice,
-                parliamentary papers proved very suitable for automatic annotation. In particular,
-                parliamentary debates were written down in a format that has changed very little
-                with time.<note place="foot" xml:id="ftn31" n="30"> Maarten
-                        Marx, “Advanced Information Access to Parliamentary Debates,” <hi rend="italic">Texas Digital Library</hi> 10, no. 6 (2009):
-                    2–3.</note> This is one of the reasons why various research projects often
-                annotate parliamentary debates using the XML markup language. Among others, sessions
-                of the British parliament (Hansard) from 1803,<note place="foot" xml:id="ftn32" n="31"> “Hansard archive (digitised debates from 1803),”
-                            <hi rend="italic">www.parliament.uk</hi>, accessed on 30 September 2016,
-                            <ref target="http://www.hansard-archive.parliament.uk/">http://www.hansard-archive.parliament.uk/</ref>.</note> the Dutch
-                parliament from 1803,<note place="foot" xml:id="ftn33" n="32"> Maarten Marx and Anne Schuth, “DutchParl. The
-                        Parliamentary Documents in Dutch,” in: <hi rend="italic">Proceedings of the
-                            International Conference on Language Resources and Evaluation</hi>, eds.
-                        Nicoletta Calzolari et al. (Valetta: LREC, 2010), 3670–77.</note> the
-                Spanish parliament from 1977,<note place="foot" xml:id="ftn34" n="33"> Carlos Martin-Dancausa and Maarten Marx.
+                <p>At the same time, Schöch calls our attention to two possible ways of making big
+                    data smarter: through automatic annotation and through crowdsourcing. In
+                    practice, parliamentary papers proved very suitable for automatic annotation. In
+                    particular, parliamentary debates were written down in a format that has changed
+                    very little with time.<note place="foot" xml:id="ftn31" n="30"> Maarten Marx,
+                        “Advanced Information Access to Parliamentary Debates,” <hi rend="italic"
+                            >Texas Digital Library</hi> 10, no. 6 (2009): 2–3.</note> This is one of
+                    the reasons why various research projects often annotate parliamentary debates
+                    using the XML markup language. Among others, sessions of the British parliament
+                    (Hansard) from 1803,<note place="foot" xml:id="ftn32" n="31"> “Hansard archive
+                        (digitised debates from 1803),” <hi rend="italic">www.parliament.uk</hi>,
+                        accessed on 30 September 2016, <ref
+                            target="http://www.hansard-archive.parliament.uk/"
+                            >http://www.hansard-archive.parliament.uk/</ref>.</note> the Dutch
+                    parliament from 1803,<note place="foot" xml:id="ftn33" n="32"> Maarten Marx and
+                        Anne Schuth, “DutchParl. The Parliamentary Documents in Dutch,” in: <hi
+                            rend="italic">Proceedings of the International Conference on Language
+                            Resources and Evaluation</hi>, eds. Nicoletta Calzolari et al. (Valetta:
+                        LREC, 2010), 3670–77.</note> the Spanish parliament from 1977,<note
+                        place="foot" xml:id="ftn34" n="33"> Carlos Martin-Dancausa and Maarten Marx.
                         “Parliamentary documents from Spain,” in: <hi rend="italic">Proceedings of
                             the International Conference on Language Resources and Evaluation</hi>,
                         eds. Nicoletta Calzolari et al. (Valetta: LREC, 2010).</note> the Czech
-                parliament from 1993<note place="foot" xml:id="ftn35" n="34"> Miloš Jakubíček and Vojtěch Kovář. CzechParl, “Corpus of Stenographic
-                        Protocols from Czech Parliament,” in: <hi rend="italic">Proceedings of
-                            Recent Advances in Slavonic Natural Language Processing, RASLAN
-                            2010</hi>, eds. Petr Sojka and Aleš Horák (Tribun EU, 2010),
-                    41–46.</note> and the Polish parliament from 1993<note place="foot" xml:id="ftn36" n="35"> Maciej Ogrodniczuk, “The Polish
-                        Sejm Corpus,” in: <hi rend="italic">LREC 2010, Eight International
+                    parliament from 1993<note place="foot" xml:id="ftn35" n="34"> Miloš Jakubíček
+                        and Vojtěch Kovář. CzechParl, “Corpus of Stenographic Protocols from Czech
+                        Parliament,” in: <hi rend="italic">Proceedings of Recent Advances in
+                            Slavonic Natural Language Processing, RASLAN 2010</hi>, eds. Petr Sojka
+                        and Aleš Horák (Tribun EU, 2010), 41–46.</note> and the Polish parliament
+                    from 1993<note place="foot" xml:id="ftn36" n="35"> Maciej Ogrodniczuk, “The
+                        Polish Sejm Corpus,” in: <hi rend="italic">LREC 2010, Eight International
                             Conference on Language Resources and Evaluation</hi>, eds. Nicoletta
-                        Calzolari et al. (Istanbul, 2012), 2219–23.</note> are all available in
-                the XML format.</p>
-            <p>The following sections of this article will present the use of Slovenian
-                parliamentary papers, particularly the minutes of parliamentary debates, in digital
-                history. A number of cases will be presented to illustrate the huge potential of
-                smart big data in contemporary history studies. As an example, 2.7 million words of
-                the minutes of parliamentary debates in the Chamber of Associated Labour of the
-                Assembly of the Republic of Slovenia from 1990 to 1992 have been annotated using the
-                XML format.<note place="foot" xml:id="ftn37" n="36">
-                        “SlovParl,” <hi rend="italic">GitHub</hi>, accessed on 30 September 2016,
-                            <ref target="https://github.com/SIstory/SlovParl">https://github.com/SIstory/SlovParl</ref>.</note> In doing so, it
-                was decided that the Text Encoding Initiative (TEI) Guidelines should be used,<note place="foot" xml:id="ftn38" n="37"> TEI Consortium, <hi rend="italic">TEI P5: Guidelines for Electronic Text Encoding and
-                            Interchange</hi> (Text Encoding Initiative Consortium, 2016).</note>
-                as these are the <hi rend="italic">de facto</hi> standard for the encoding of texts
-                in digital humanities.<note place="foot" xml:id="ftn39" n="38"> For example, the German Research Community (Deutsche
-                        Forschungsgemeinschaft) demands that any texts being digitized be encoded
-                        using the TEI guidelines, if at all possible. Deutsche
-                        Forschungsgemeinschaft, <hi rend="italic">DFG Practical Guidelines on
-                            Digitisation</hi> (Bonn: Deutsche Forschungsgemeinschaft, 2013), 31.
+                        Calzolari et al. (Istanbul, 2012), 2219–23.</note> are all available in the
+                    XML format.</p>
+                <p>The following sections of this article will present the use of Slovenian
+                    parliamentary papers, particularly the minutes of parliamentary debates, in
+                    digital history. A number of cases will be presented to illustrate the huge
+                    potential of smart big data in contemporary history studies. As an example, 2.7
+                    million words of the minutes of parliamentary debates in the Chamber of
+                    Associated Labour of the Assembly of the Republic of Slovenia from 1990 to 1992
+                    have been annotated using the XML format.<note place="foot" xml:id="ftn37"
+                        n="36"> “SlovParl,” <hi rend="italic">GitHub</hi>, accessed on 30 September
+                        2016, <ref target="https://github.com/SIstory/SlovParl"
+                            >https://github.com/SIstory/SlovParl</ref>.</note> In doing so, it was
+                    decided that the Text Encoding Initiative (TEI) Guidelines should be used,<note
+                        place="foot" xml:id="ftn38" n="37"> TEI Consortium, <hi rend="italic">TEI
+                            P5: Guidelines for Electronic Text Encoding and Interchange</hi> (Text
+                        Encoding Initiative Consortium, 2016).</note> as these are the <hi
+                        rend="italic">de facto</hi> standard for the encoding of texts in digital
+                        humanities.<note place="foot" xml:id="ftn39" n="38"> For example, the German
+                        Research Community (Deutsche Forschungsgemeinschaft) demands that any texts
+                        being digitized be encoded using the TEI guidelines, if at all possible.
+                        Deutsche Forschungsgemeinschaft, <hi rend="italic">DFG Practical Guidelines
+                            on Digitisation</hi> (Bonn: Deutsche Forschungsgemeinschaft, 2013), 31.
                     </note>
-            </p>
-            <p>Automatic conversions were carried out using XSL stylesheets created specifically for
-                the project. However, annotation was also carried out by hand, not just
-                automatically. The reason for this was that automatic conversions can also contain
-                annotation errors. Attempts were made to find these errors and remove them through
-                an upgrade of XSL stylesheets. There were also some parts of text that could only be
-                annotated manually. Using such semi-automatic annotation, brief sessions could be
-                marked up in 30 minutes, while those of medium length usually took up to two hours
-                and the longest (over 200,000 words) up to four hours. Speeches were marked in
-                accordance with the TEI module for performance texts (speech, speaker, stage
-                direction). Other annotations included the structure of the assemblies and type of
-                sessions, individual sessions, topics of individual sessions and dates and duration
-                of sessions. Links were created to tables of contents and lists of speakers.<note place="foot" xml:id="ftn40" n="39"> Andrej Pančur,
-                        “Označevanje zbirke zapisnikov sej slovenskega parlamenta s smernicami TEI,”
-                        in: <hi rend="italic">Zbornik konference Jezikovne tehnologije in digitalna
-                            humanistika</hi>, eds. Tomaž Erjavec and Darja Fišer (Ljubljana:
-                        Znanstvena založba Filozofske fakultete v Ljubljani, 2016),
-                    142–48.</note></p>
-            <p>Based on such annotated minutes of sessions, researchers can carry out various types
-                of fundamental analyses.<note place="foot" xml:id="ftn41" n="40"> Jure Gašparič, “Slovenian Socialist Parliament on the
-                        Eve of the Dissolution of the Yugoslav Federation. A feeble “ratification
-                        body” or important political decision-maker?,” <hi rend="italic">Prispevki
-                            za novejšo zgodovino</hi> 55, no. 3 (2015): 54.</note> Over 2.7
-                million words were thus spoken in 13,894 speeches at 54 sessions. At the longest,
-                36th session, which lasted eight days, the total duration of speeches was 29 hours
-                and 3 minutes, and the session was adjourned no less than 21 times. On the other
-                hand, the total duration of speeches at the briefest, 9th session was only one hour.
-                The longest uninterrupted span was 460 minutes, while the average (median) duration
-                of speeches between two interruptions was 90 minutes.</p>
+                </p>
+                <p>Automatic conversions were carried out using XSL stylesheets created specifically
+                    for the project. However, annotation was also carried out by hand, not just
+                    automatically. The reason for this was that automatic conversions can also
+                    contain annotation errors. Attempts were made to find these errors and remove
+                    them through an upgrade of XSL stylesheets. There were also some parts of text
+                    that could only be annotated manually. Using such semi-automatic annotation,
+                    brief sessions could be marked up in 30 minutes, while those of medium length
+                    usually took up to two hours and the longest (over 200,000 words) up to four
+                    hours. Speeches were marked in accordance with the TEI module for performance
+                    texts (speech, speaker, stage direction). Other annotations included the
+                    structure of the assemblies and type of sessions, individual sessions, topics of
+                    individual sessions and dates and duration of sessions. Links were created to
+                    tables of contents and lists of speakers.<note place="foot" xml:id="ftn40"
+                        n="39"> Andrej Pančur, “Označevanje zbirke zapisnikov sej slovenskega
+                        parlamenta s smernicami TEI,” in: <hi rend="italic">Zbornik konference
+                            Jezikovne tehnologije in digitalna humanistika</hi>, eds. Tomaž Erjavec
+                        and Darja Fišer (Ljubljana: Znanstvena založba Filozofske fakultete v
+                        Ljubljani, 2016), 142–48.</note></p>
+                <p>Based on such annotated minutes of sessions, researchers can carry out various
+                    types of fundamental analyses.<note place="foot" xml:id="ftn41" n="40"> Jure
+                        Gašparič, “Slovenian Socialist Parliament on the Eve of the Dissolution of
+                        the Yugoslav Federation. A feeble “ratification body” or important political
+                        decision-maker?,” <hi rend="italic">Prispevki za novejšo zgodovino</hi> 55,
+                        no. 3 (2015): 54.</note> Over 2.7 million words were thus spoken in 13,894
+                    speeches at 54 sessions. At the longest, 36th session, which lasted eight days,
+                    the total duration of speeches was 29 hours and 3 minutes, and the session was
+                    adjourned no less than 21 times. On the other hand, the total duration of
+                    speeches at the briefest, 9th session was only one hour. The longest
+                    uninterrupted span was 460 minutes, while the average (median) duration of
+                    speeches between two interruptions was 90 minutes.</p>
             </div>
             <div>
-            <head>Connection to External Data</head>
-            <p>However, TEI documents annotated in such a manner also have some shortcomings that
-                preclude precise analysis of the speeches. Initial analyses of the speeches of
-                various speakers were carried out based on their first and last names. A single
-                person, whose name might be written differently in other cases, is thus treated as
-                two or more different people. On the other hand, people with identical first and
-                last names are automatically considered the same person. Various historical records
-                were thus used to manually verify and sanitize the lists of MPs, ministers and other
-                invited speakers. These data are contained in a separate TEI document. </p>
-            <p>#file: Chart2.xlsx</p>
-            <p>Chart 2: Number of words spoken in the Chamber of Associated Labour of the Assembly
-                of the Republic of Slovenia (1990/92) by organization membership; in %.</p>
-            <p>Data connected in such a manner can, for example, be used to determine the provenance
-                of speakers in the Chamber of Associated Labour (see Chart 2). In doing so, we find
-                that almost 20% of the words were spoken by various representatives of the
-                Government and other rapporteurs associated with the legislation that was being
-                passed by the Assembly. As President and Vice-President of the Chamber of Associated
-                Labour, Jože Zupančič (President, 735,166 words) and Bogo Rogina (Vice-President,
-                114,418 words) together spoke as much as 38.3% of all words spoken by the MPs of the
-                Chamber of Associated Labour. Among other MPs of the Assembly, Jože Arzenšek
-                (106,000 words), Roman Jakič (69,111 words) and Andrej Šter (67,005) were the most
-                verbose. Then there was the silent Jože Košak who only managed to say 14 words
-                during his term.</p>
-            <p>Speeches of the MPs can obviously also be analysed according to the parties they
-                belonged to (see Table 1). MPs who were, at the start of their term, members of the
-                DEMOS coalition thus spoke 21.5% of all words, opposition MPs spoke 23.3%, while the
-                numerous independent MPs (including the President of the Chamber) spoke as much as
-                half of all words.</p>
-            <p>#file: Table1.xlsx</p>
-            <p>Table 1: Number of words spoken by members of political party; Chamber of Associated
-                Labour of the Assembly of the Republic of Slovenia (1990/92)</p>
-            <p>Lists of MPs, members of the Government and other speakers can also be used to
-                formulate research questions connected to additional variables: first and last name,
-                gender, date and place of birth, date and place of death, education, profession,
-                residence, organization membership.</p>
-            <p>Answers to complicated research questions are possible in part thanks to the newly
-                created TEI file that includes a thematic index of the topics dealt with by the
-                Chamber. The creation of this table of contents used data from existing topics and
-                tables of contents, which were then annotated according to the new scheme. The data
-                was first categorized in accordance with the Rules of Procedure of the National
-                Assembly (see Chart 3).<note place="foot" xml:id="ftn42" n="41"> “Rules of Procedure of the National Assembly
-                        (PoDZ-1),” <hi rend="italic">Republic of Slovenia: National Assembly</hi>,
-                        accessed on 30 September 2016, <ref target="https://www.dz-rs.si/wps/portal/en/Home/ODrzavnemZboru/PristojnostiInFunkcije/RulesoftheProcedureText">https://www.dz-rs.si/wps/portal/en/Home/ODrzavnemZboru/PristojnostiInFunkcije/RulesoftheProcedureText</ref>.
+                <head>Connection to External Data</head>
+                <p>However, TEI documents annotated in such a manner also have some shortcomings
+                    that preclude precise analysis of the speeches. Initial analyses of the speeches
+                    of various speakers were carried out based on their first and last names. A
+                    single person, whose name might be written differently in other cases, is thus
+                    treated as two or more different people. On the other hand, people with
+                    identical first and last names are automatically considered the same person.
+                    Various historical records were thus used to manually verify and sanitize the
+                    lists of MPs, ministers and other invited speakers. These data are contained in
+                    a separate TEI document. </p>
+                <figure>
+                    <head>Chart 2</head>
+                    <graphic url="graf2.jpg" height="500px"/>
+                </figure>
+                <p>Chart 2: Number of words spoken in the Chamber of Associated Labour of the
+                    Assembly of the Republic of Slovenia (1990/92) by organization membership; in
+                    %.</p>
+                <p>Data connected in such a manner can, for example, be used to determine the
+                    provenance of speakers in the Chamber of Associated Labour (see Chart 2). In
+                    doing so, we find that almost 20% of the words were spoken by various
+                    representatives of the Government and other rapporteurs associated with the
+                    legislation that was being passed by the Assembly. As President and
+                    Vice-President of the Chamber of Associated Labour, Jože Zupančič (President,
+                    735,166 words) and Bogo Rogina (Vice-President, 114,418 words) together spoke as
+                    much as 38.3% of all words spoken by the MPs of the Chamber of Associated
+                    Labour. Among other MPs of the Assembly, Jože Arzenšek (106,000 words), Roman
+                    Jakič (69,111 words) and Andrej Šter (67,005) were the most verbose. Then there
+                    was the silent Jože Košak who only managed to say 14 words during his term.</p>
+                <p>Speeches of the MPs can obviously also be analysed according to the parties they
+                    belonged to (see Table 1). MPs who were, at the start of their term, members of
+                    the DEMOS coalition thus spoke 21.5% of all words, opposition MPs spoke 23.3%,
+                    while the numerous independent MPs (including the President of the Chamber)
+                    spoke as much as half of all words.</p>
+                <table rend="rules">
+                    <head>Table 1</head>
+                    <row n="1" role="label">
+                        <cell>Political parties</cell>
+                        <cell>No. of speekers</cell>
+                        <cell>No. of words</cell>
+                        <cell>Percent</cell>
+                        <cell>Percent</cell>
+                    </row>
+                    <row n="2">
+                        <cell role="label">SDZ → DS</cell>
+                        <cell>3</cell>
+                        <cell>30762</cell>
+                        <cell>1,4</cell>
+                        <cell rows="7">21.5</cell>
+                    </row>
+                    <row n="3">
+                        <cell role="label">SDZ → NDS</cell>
+                        <cell>2</cell>
+                        <cell>85246</cell>
+                        <cell>3,8</cell>
+                    </row>
+                    <row n="4">
+                        <cell role="label">SDSS</cell>
+                        <cell>9</cell>
+                        <cell>118899</cell>
+                        <cell>5,4</cell>
+                    </row>
+                    <row n="5">
+                        <cell role="label">SKD</cell>
+                        <cell>6</cell>
+                        <cell>86135</cell>
+                        <cell>3,9</cell>
+                    </row>
+                    <row n="6">
+                        <cell role="label">SKZ → SLS</cell>
+                        <cell>8</cell>
+                        <cell>88439</cell>
+                        <cell>4</cell>
+                    </row>
+                    <row n="7">
+                        <cell role="label">ZS</cell>
+                        <cell>1</cell>
+                        <cell>11901</cell>
+                        <cell>0,5</cell>
+                    </row>
+                    <row n="8">
+                        <cell role="label">DEMOS</cell>
+                        <cell>1</cell>
+                        <cell>56858</cell>
+                        <cell>2,6</cell>
+                    </row>
+                    <row n="9">
+                        <cell role="label">ZKS-SDP → SDP</cell>
+                        <cell>17</cell>
+                        <cell>231148</cell>
+                        <cell>10,4</cell>
+                        <cell rows="3">23,3</cell>
+                    </row>
+                    <row n="10">
+                        <cell role="label">ZSMS → LDS</cell>
+                        <cell>9</cell>
+                        <cell>236388</cell>
+                        <cell>10,6</cell>
+                    </row>
+                    <row n="11">
+                        <cell role="label">SZS → SSS</cell>
+                        <cell>3</cell>
+                        <cell>49708</cell>
+                        <cell>2,2</cell>
+                    </row>
+                    <row n="12">
+                        <cell role="label">Independent</cell>
+                        <cell>19</cell>
+                        <cell>1109636</cell>
+                        <cell>50</cell>
+                        <cell>50</cell>
+                    </row>
+                    <row n="13">
+                        <cell role="label">SOPS → Independent</cell>
+                        <cell>1</cell>
+                        <cell>114418</cell>
+                        <cell>5,2</cell>
+                        <cell>5,2</cell>
+                    </row>
+                    <row n="14">
+                        <cell role="label">Unknown</cell>
+                        <cell>1</cell>
+                        <cell>736</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                    </row>
+                </table>
+                <p>Table 1: Number of words spoken by members of political party; Chamber of
+                    Associated Labour of the Assembly of the Republic of Slovenia (1990/92)</p>
+                <p>Lists of MPs, members of the Government and other speakers can also be used to
+                    formulate research questions connected to additional variables: first and last
+                    name, gender, date and place of birth, date and place of death, education,
+                    profession, residence, organization membership.</p>
+                <p>Answers to complicated research questions are possible in part thanks to the
+                    newly created TEI file that includes a thematic index of the topics dealt with
+                    by the Chamber. The creation of this table of contents used data from existing
+                    topics and tables of contents, which were then annotated according to the new
+                    scheme. The data was first categorized in accordance with the Rules of Procedure
+                    of the National Assembly (see Chart 3).<note place="foot" xml:id="ftn42" n="41">
+                        “Rules of Procedure of the National Assembly (PoDZ-1),” <hi rend="italic"
+                            >Republic of Slovenia: National Assembly</hi>, accessed on 30 September
+                        2016, <ref
+                            target="https://www.dz-rs.si/wps/portal/en/Home/ODrzavnemZboru/PristojnostiInFunkcije/RulesoftheProcedureText"
+                            >https://www.dz-rs.si/wps/portal/en/Home/ODrzavnemZboru/PristojnostiInFunkcije/RulesoftheProcedureText</ref>.
                     </note></p>
-            <p>#file: Chart3.xlsx</p>
-            <p>Chart 3: Thematic index of the speeches in the Chamber of Associated Labour of the
-                Assembly of the Republic of Slovenia (1990/92); No. of words by topic as per the
-                categorization in the Rules of Procedure of the National Assembly.</p>
-            <p>The largest category, <hi rend="italic">Acts and Procedures,</hi> was classified in
-                accordance with the thematic index of the Legal Information System of the Republic
-                of Slovenia.<note place="foot" xml:id="ftn43" n="42">
-                        “Tematsko kazalo” [Thematic Index], <hi rend="italic">PIS:
-                            Pravno-informacijski sistem</hi> [PIS: Legal Information System],
-                        accessed on 30 September 2016, <ref target="http://www.pisrs.si/Pis.web/pravniRedRSDrzavniNivoKazalaTematskoKazalo">http://www.pisrs.si/Pis.web/pravniRedRSDrzavniNivoKazalaTematskoKazalo</ref>.</note>
-                Based on data annotated in such a manner, it is easily determined that over a fifth
-                of all speeches were associated with the legislation pertaining to the
-                constitutional arrangements in the Republic of Slovenia (see Table 2).</p>
-            <p>#file: Table2.xlsx</p>
-            <p>Table 2: Main topic categories within Acts and Procedures as per the thematic index
-                of the Legal Information System of the Republic of Slovenia.</p>
-            <p>The greatest amount of discussion was stirred up by the Ownership Transformation of
-                Companies Act, which resulted in 520 speeches containing over 100,000 words (see
-                Table 3). On the other hand, debate regarding the Act Ratifying the Agreement
-                between the Government of the Republic of Slovenia and the Federal Council of the
-                Swiss Confederation on the Abolishment of Visas was extremely brief, consisting of
-                only 46 words.</p>
-            <p>#file: Table3.xlsx</p>
-            <p>Table 3: Longest discussions on individual topics (in the category of Acts and
-                Procedures)</p>
+                <figure>
+                    <head>Chart 3</head>
+                    <graphic url="graf3.jpg" height="500px"/>
+                </figure>
+                <p>Chart 3: Thematic index of the speeches in the Chamber of Associated Labour of
+                    the Assembly of the Republic of Slovenia (1990/92); No. of words by topic as per
+                    the categorization in the Rules of Procedure of the National Assembly.</p>
+                <p>The largest category, <hi rend="italic">Acts and Procedures,</hi> was classified
+                    in accordance with the thematic index of the Legal Information System of the
+                    Republic of Slovenia.<note place="foot" xml:id="ftn43" n="42"> “Tematsko kazalo”
+                        [Thematic Index], <hi rend="italic">PIS: Pravno-informacijski sistem</hi>
+                        [PIS: Legal Information System], accessed on 30 September 2016, <ref
+                            target="http://www.pisrs.si/Pis.web/pravniRedRSDrzavniNivoKazalaTematskoKazalo"
+                            >http://www.pisrs.si/Pis.web/pravniRedRSDrzavniNivoKazalaTematskoKazalo</ref>.</note>
+                    Based on data annotated in such a manner, it is easily determined that over a
+                    fifth of all speeches were associated with the legislation pertaining to the
+                    constitutional arrangements in the Republic of Slovenia (see Table 2).</p>
+                <table rend="rules">
+                    <head>Table 2</head>
+                    <row n="1" role="label">
+                        <cell/>
+                        <cell>Number of words</cell>
+                        <cell>Percent</cell>
+                    </row>
+                    <row n="2">
+                        <cell role="label">Constitutional regime of the Republic of Slovenia</cell>
+                        <cell>497575</cell>
+                        <cell>21,8</cell>
+                    </row>
+                    <row n="3">
+                        <cell role="label">Foreign affairs and international relations</cell>
+                        <cell>27417</cell>
+                        <cell>1,2</cell>
+                    </row>
+                    <row n="4">
+                        <cell role="label">Interior and administrative law</cell>
+                        <cell>67156</cell>
+                        <cell>2,9</cell>
+                    </row>
+                    <row n="5">
+                        <cell role="label">Civil law</cell>
+                        <cell>24017</cell>
+                        <cell>1,1</cell>
+                    </row>
+                    <row n="6">
+                        <cell role="label">Criminal law</cell>
+                        <cell>5925</cell>
+                        <cell>0,3</cell>
+                    </row>
+                    <row n="7">
+                        <cell role="label">Economic order</cell>
+                        <cell>403880</cell>
+                        <cell>17,7</cell>
+                    </row>
+                    <row n="8">
+                        <cell role="label">Public finance</cell>
+                        <cell>482764</cell>
+                        <cell>21,1</cell>
+                    </row>
+                    <row n="9">
+                        <cell role="label">Economic activities</cell>
+                        <cell>165752</cell>
+                        <cell>7,3</cell>
+                    </row>
+                    <row n="10">
+                        <cell role="label">Non-economic activities</cell>
+                        <cell>550466</cell>
+                        <cell>24,1</cell>
+                    </row>
+                    <row n="11">
+                        <cell role="label">Environment an spatial planning</cell>
+                        <cell>43803</cell>
+                        <cell>1,9</cell>
+                    </row>
+                    <row n="12">
+                        <cell role="label">Protection against natural and other disasters</cell>
+                        <cell>14960</cell>
+                        <cell>0,7</cell>
+                    </row>
+                </table>
+                <p>Table 2: Main topic categories within Acts and Procedures as per the thematic
+                    index of the Legal Information System of the Republic of Slovenia.</p>
+                <p>The greatest amount of discussion was stirred up by the Ownership Transformation
+                    of Companies Act, which resulted in 520 speeches containing over 100,000 words
+                    (see Table 3). On the other hand, debate regarding the Act Ratifying the
+                    Agreement between the Government of the Republic of Slovenia and the Federal
+                    Council of the Swiss Confederation on the Abolishment of Visas was extremely
+                    brief, consisting of only 46 words.</p>
+                <table rend="rules">
+                    <head>Table 3</head>
+                    <row n="1" role="label">
+                        <cell/>
+                        <cell>No. of words</cell>
+                        <cell>No. of speeches</cell>
+                    </row>
+                    <row n="2">
+                        <cell role="label">Ownership Transformation of Companies Act</cell>
+                        <cell>103870</cell>
+                        <cell>520</cell>
+                    </row>
+                    <row n="3">
+                        <cell role="label">The Law on Budget of the Republic of Slovenia for the
+                            year 1992</cell>
+                        <cell>97175</cell>
+                        <cell>511</cell>
+                    </row>
+                    <row n="4">
+                        <cell role="label">Cooperatives Act</cell>
+                        <cell>61616</cell>
+                        <cell>379</cell>
+                    </row>
+                    <row n="5">
+                        <cell role="label">The Law on Budget of the Republic of Slovenia for the
+                            year 1991</cell>
+                        <cell>52121</cell>
+                        <cell>314</cell>
+                    </row>
+                    <row n="6">
+                        <cell role="label">Military Service Act</cell>
+                        <cell>51112</cell>
+                        <cell>365</cell>
+                    </row>
+                    <row n="7">
+                        <cell role="label">Pension and Disability Insurance Act</cell>
+                        <cell>47801</cell>
+                        <cell>261</cell>
+                    </row>
+                    <row n="8">
+                        <cell role="label">The Constitution of the Republic of Slovenia</cell>
+                        <cell>43004</cell>
+                        <cell>267</cell>
+                    </row>
+                    <row n="9">
+                        <cell role="label">Sales Tax Act</cell>
+                        <cell>37795</cell>
+                        <cell>192</cell>
+                    </row>
+                    <row n="10">
+                        <cell role="label">Health Services Act</cell>
+                        <cell>37238</cell>
+                        <cell>201</cell>
+                    </row>
+                </table>
+                <p>Table 3: Longest discussions on individual topics (in the category of Acts and
+                    Procedures)</p>
             </div>
             <div>
-            <head>Data Enrichment: Natural Language Processing (NLP)</head>
-            <p>Another extremely extensive category was the category named <hi rend="italic">Initiatives, Suggestions and Questions from the MPs</hi> (102,858 words).
-                However, the category is too broad to allow any conclusions about its actual content
-                based solely on the title. Natural language processing technologies can be of some
-                help in this regard. For example, the topic modelling method can be used to search
-                for word patterns in the text, which can in turn assist with determining the
-                semantic meaning of various parts of the text. One of the most popular (among
-                historians as well as other researchers)<note place="foot" xml:id="ftn44" n="43"> Shawn Graham, Scott Weingart and Ian Milligan,
-                        “Getting Started with Topic Modeling and MALLET,” <hi rend="italic">Programming Historian</hi> (2 September 2012).</note> tools used in
-                such analyses is MALLET.<note place="foot" xml:id="ftn45" n="44"> Andrew McCallum, <hi rend="italic">MALLET</hi>: <hi rend="italic">A Machine Learning for Language Toolkit</hi>
-                    (2002).</note> Although the results were incomplete, MALLET was nonetheless
-                successfully used to discern a number of topics within the
-                <hi rend="italic" xml:space="preserve">Initiatives, suggestions and questions </hi>category:
-                customs duties, healthcare, the environment, strikes, banks, etc.</p>
-            <p>A tool that searched the text for named entities (people, places and organizations)
-                yielded much better results. Named entity recognition was carried out using the
-                Stanford NER for the Slovenian language.<note place="foot" xml:id="ftn46" n="45"> Nikola Ljubešić et al., “Combining Available Datasets
-                        for Building Named Entity Recognition Models of Croatian and Slovene,” <hi rend="italic">Slovenščina 2.0</hi> 1, no. 2 (2013): 35–57.</note> It
-                should come as no surprise that those who were most often named in the speeches of
-                MPs were the other MPs. It is also unsurprising that the place name used most often
-                by speakers in the Slovenian parliament was Slovenia. Table 4 thus shows that the
-                Stanford NER for the Slovenian language recognized 11,378 place names in
-                parliamentary speeches, 45% of which were identifiable as Slovenia or the Republic
-                of Slovenia. However, a detailed look at the table quickly reveals that the place
-                names identified by Stanford NER for the Slovenian language also included names of
-                organizations (Assembly, Commission, DEMOS) and other names (Poročevalec).</p>
-            <p>#file: Table4.xlsx</p>
-            <p>Table 4: List of the 30 most common place names in speeches in the Chamber of
-                Associated Labour of the Assembly of the Republic of Slovenia (1990/92) as
-                identified by the Stanford NER for the Slovenian language.</p>
-            <p>These results clearly indicate that history researchers should never simply copy the
-                results of natural language processing (NLP) technologies. At its current level of
-                development, the technology is far from infallible. For example, the Stanford NER
-                for the Slovenian language has 85% precision when annotating persons, while its
-                precision is below 80% when it comes to places.<note place="foot" xml:id="ftn47" n="46"> Ljubešić, “Combining Available Datasets for
-                        Building Named Entity Recognition Models of Croatian and Slovene,”
-                    48.</note> The following warning must thus truly be taken to heart:</p>
-            <p rend="Quote">“Historians need to be aware that, in addition to verifying reliability
-                of sources as is common in their field, they also need to take the reliability of
-                NLP methods into account when working with automatically extracted
-                    information.”<note place="foot" xml:id="ftn48" n="47">
-                        Antske Fokkens et al., “BiographyNet: Methodological issues when NLP
-                        supports historical research,” in: <hi rend="italic">Proceedings of the
-                            Ninth International Conference on Language Resources and Evaluation
-                            (LREC’14)</hi>, eds. Nicoletta Calzolari et al. (Reykjavik: European
-                        Language Resources Association (ELRA), 2014), 3734.</note></p>
-            <p rend="LREC main body text">The authors of this paper are certain that the most
-                effective way to achieve this would be through close collaboration with
-                computational linguists. The existing TEI documents that had been encoded in
-                accordance with the TEI module used for performance texts were thus subsequently
-                converted into TEI documents wherein the text was annotated in accordance with the
-                speech transcription TEI module. Such documents can then be furnished with
-                linguistic annotations at a later time. Computational linguists have thus already
-                provided part-of-speech tagging for the text of the speeches. The corpus has been
-                imported into the No Sketch Engine concordance base<note place="foot" xml:id="ftn49" n="48"> “SlovParl (parlament RS 1990–1992),” <hi rend="italic">NoSketch Engine</hi>, accessed on 30 September 2016, <ref target="http://nl.ijs.si/noske/all.cgi/corp_info?corpname=slovparl">http://nl.ijs.si/noske/all.cgi/corp_info?corpname=slovparl</ref>. Tomaž
-                        Erjavec, “Korpusi in konkordančniki na strežniku nl.ijs.si,” <hi rend="italic">Slovenščina 2.0</hi> 1, no. 1 (2013): 24–49.</note>
-                and all TEI documents are accessible at the CLARIN.SI repository.<note place="foot" xml:id="ftn50" n="49"> Tomaž Erjavec, Jan Jona Javoršek
-                        and Simon Krek, “Raziskovalna infrastruktura CLARIN.SI,” in: <hi rend="italic">Proceedings of the 17th International Multiconference
-                            Information Society – IS 2014: Language Technologies</hi>, eds. Tomaž
-                        Erjavec and Jerneja Žganec Gros (Ljubljana: IJS, 2014), 19–24. Andrej
-                        Pančur, Mojca Šorn and Tomaž Erjavec, <hi rend="italic">Slovenian
-                            parliamentary corpus SlovParl 1.0</hi> (2016), distributed by Slovenian
-                        language resource repository CLARIN.SI, <ref target="http://hdl.handle.net/11356/1075">http://hdl.handle.net/11356/1075</ref>.</note></p>
+                <head>Data Enrichment: Natural Language Processing (NLP)</head>
+                <p>Another extremely extensive category was the category named <hi rend="italic"
+                        >Initiatives, Suggestions and Questions from the MPs</hi> (102,858 words).
+                    However, the category is too broad to allow any conclusions about its actual
+                    content based solely on the title. Natural language processing technologies can
+                    be of some help in this regard. For example, the topic modelling method can be
+                    used to search for word patterns in the text, which can in turn assist with
+                    determining the semantic meaning of various parts of the text. One of the most
+                    popular (among historians as well as other researchers)<note place="foot"
+                        xml:id="ftn44" n="43"> Shawn Graham, Scott Weingart and Ian Milligan,
+                        “Getting Started with Topic Modeling and MALLET,” <hi rend="italic"
+                            >Programming Historian</hi> (2 September 2012).</note> tools used in
+                    such analyses is MALLET.<note place="foot" xml:id="ftn45" n="44"> Andrew
+                        McCallum, <hi rend="italic">MALLET</hi>: <hi rend="italic">A Machine
+                            Learning for Language Toolkit</hi> (2002).</note> Although the results
+                    were incomplete, MALLET was nonetheless successfully used to discern a number of
+                    topics within the
+                    <hi rend="italic" xml:space="preserve">Initiatives, suggestions and questions </hi>category:
+                    customs duties, healthcare, the environment, strikes, banks, etc.</p>
+                <p>A tool that searched the text for named entities (people, places and
+                    organizations) yielded much better results. Named entity recognition was carried
+                    out using the Stanford NER for the Slovenian language.<note place="foot"
+                        xml:id="ftn46" n="45"> Nikola Ljubešić et al., “Combining Available Datasets
+                        for Building Named Entity Recognition Models of Croatian and Slovene,” <hi
+                            rend="italic">Slovenščina 2.0</hi> 1, no. 2 (2013): 35–57.</note> It
+                    should come as no surprise that those who were most often named in the speeches
+                    of MPs were the other MPs. It is also unsurprising that the place name used most
+                    often by speakers in the Slovenian parliament was Slovenia. Table 4 thus shows
+                    that the Stanford NER for the Slovenian language recognized 11,378 place names
+                    in parliamentary speeches, 45% of which were identifiable as Slovenia or the
+                    Republic of Slovenia. However, a detailed look at the table quickly reveals that
+                    the place names identified by Stanford NER for the Slovenian language also
+                    included names of organizations (Assembly, Commission, DEMOS) and other names
+                    (Poročevalec).</p>
+                <table rend="rules">
+                    <head>Table 4</head>
+                    <row n="1" role="label">
+                        <cell>Place name</cell>
+                        <cell>No.</cell>
+                        <cell>Percent</cell>
+                    </row>
+                    <row n="2">
+                        <cell role="label">Slovenija</cell>
+                        <cell>2978</cell>
+                        <cell>26,2</cell>
+                    </row>
+                    <row n="3">
+                        <cell role="label">Republika Slovenija</cell>
+                        <cell>2153</cell>
+                        <cell>18,92</cell>
+                    </row>
+                    <row n="4">
+                        <cell role="label">Jugoslavija</cell>
+                        <cell>579</cell>
+                        <cell>5,1</cell>
+                    </row>
+                    <row n="5">
+                        <cell role="label">Evropa</cell>
+                        <cell>534</cell>
+                        <cell>4,7</cell>
+                    </row>
+                    <row n="6">
+                        <cell role="label">Ljubljana</cell>
+                        <cell>270</cell>
+                        <cell>2,4</cell>
+                    </row>
+                    <row n="7">
+                        <cell role="label">Maribor</cell>
+                        <cell>244</cell>
+                        <cell>2,1</cell>
+                    </row>
+                    <row n="8">
+                        <cell role="label">Hrvaška</cell>
+                        <cell>241</cell>
+                        <cell>2,1</cell>
+                    </row>
+                    <row n="9">
+                        <cell role="label">Nemčija</cell>
+                        <cell>182</cell>
+                        <cell>1,6</cell>
+                    </row>
+                    <row n="10">
+                        <cell role="label">Italija</cell>
+                        <cell>170</cell>
+                        <cell>1,5</cell>
+                    </row>
+                    <row n="11">
+                        <cell role="label">Avstrija</cell>
+                        <cell>167</cell>
+                        <cell>1,5</cell>
+                    </row>
+                    <row n="12">
+                        <cell role="label">Poročevalca</cell>
+                        <cell>132</cell>
+                        <cell>1,2</cell>
+                    </row>
+                    <row n="13">
+                        <cell role="label">Celje</cell>
+                        <cell>103</cell>
+                        <cell>0,9</cell>
+                    </row>
+                    <row n="14">
+                        <cell role="label">Skupščine</cell>
+                        <cell>94</cell>
+                        <cell>0,8</cell>
+                    </row>
+                    <row n="15">
+                        <cell role="label">Beograd</cell>
+                        <cell>91</cell>
+                        <cell>0,8</cell>
+                    </row>
+                    <row n="16">
+                        <cell role="label">Irak</cell>
+                        <cell>89</cell>
+                        <cell>0,8</cell>
+                    </row>
+                    <row n="17">
+                        <cell role="label">Komisija</cell>
+                        <cell>82</cell>
+                        <cell>0,7</cell>
+                    </row>
+                    <row n="18">
+                        <cell role="label">Srbija</cell>
+                        <cell>82</cell>
+                        <cell>0,7</cell>
+                    </row>
+                    <row n="19">
+                        <cell role="label">Koper</cell>
+                        <cell>55</cell>
+                        <cell>0,5</cell>
+                    </row>
+                    <row n="20">
+                        <cell role="label">Lendava</cell>
+                        <cell>53</cell>
+                        <cell>0,5</cell>
+                    </row>
+                    <row n="21">
+                        <cell role="label">Ptuj</cell>
+                        <cell>51</cell>
+                        <cell>0,4</cell>
+                    </row>
+                    <row n="22">
+                        <cell role="label">Republika Hrvaška</cell>
+                        <cell>51</cell>
+                        <cell>0,4</cell>
+                    </row>
+                    <row n="23">
+                        <cell role="label">Demos</cell>
+                        <cell>49</cell>
+                        <cell>0,4</cell>
+                    </row>
+                    <row n="24">
+                        <cell role="label">Kranj</cell>
+                        <cell>42</cell>
+                        <cell>0,4</cell>
+                    </row>
+                    <row n="25">
+                        <cell role="label">Logatca</cell>
+                        <cell>38</cell>
+                        <cell>0,3</cell>
+                    </row>
+                    <row n="26">
+                        <cell role="label">Republiškem</cell>
+                        <cell>38</cell>
+                        <cell>0,3</cell>
+                    </row>
+                    <row n="27">
+                        <cell role="label">Francija</cell>
+                        <cell>37</cell>
+                        <cell>0,3</cell>
+                    </row>
+                    <row n="28">
+                        <cell role="label">Švica</cell>
+                        <cell>36</cell>
+                        <cell>0,3</cell>
+                    </row>
+                    <row n="29">
+                        <cell role="label">Madžarska</cell>
+                        <cell>34</cell>
+                        <cell>0,3</cell>
+                    </row>
+                    <row n="30">
+                        <cell role="label">Združene države Amerike</cell>
+                        <cell>33</cell>
+                        <cell>0,3</cell>
+                    </row>
+                    <row n="31">
+                        <cell role="label">Piran</cell>
+                        <cell>31</cell>
+                        <cell>0,3</cell>
+                    </row>
+                    <row n="32">
+                        <cell role="label">other named entities</cell>
+                        <cell>2639</cell>
+                        <cell>23,2</cell>
+                    </row>
+                    <row n="33">
+                        <cell role="label"></cell>
+                        <cell>11378</cell>
+                        <cell>100</cell>
+                    </row>
+                </table>
+                <p>Table 4: List of the 30 most common place names in speeches in the Chamber of
+                    Associated Labour of the Assembly of the Republic of Slovenia (1990/92) as
+                    identified by the Stanford NER for the Slovenian language.</p>
+                <p>These results clearly indicate that history researchers should never simply copy
+                    the results of natural language processing (NLP) technologies. At its current
+                    level of development, the technology is far from infallible. For example, the
+                    Stanford NER for the Slovenian language has 85% precision when annotating
+                    persons, while its precision is below 80% when it comes to places.<note
+                        place="foot" xml:id="ftn47" n="46"> Ljubešić, “Combining Available Datasets
+                        for Building Named Entity Recognition Models of Croatian and Slovene,”
+                        48.</note> The following warning must thus truly be taken to heart:</p>
+                <p rend="Quote">“Historians need to be aware that, in addition to verifying
+                    reliability of sources as is common in their field, they also need to take the
+                    reliability of NLP methods into account when working with automatically
+                    extracted information.”<note place="foot" xml:id="ftn48" n="47"> Antske Fokkens
+                        et al., “BiographyNet: Methodological issues when NLP supports historical
+                        research,” in: <hi rend="italic">Proceedings of the Ninth International
+                            Conference on Language Resources and Evaluation (LREC’14)</hi>, eds.
+                        Nicoletta Calzolari et al. (Reykjavik: European Language Resources
+                        Association (ELRA), 2014), 3734.</note></p>
+                <p rend="LREC main body text">The authors of this paper are certain that the most
+                    effective way to achieve this would be through close collaboration with
+                    computational linguists. The existing TEI documents that had been encoded in
+                    accordance with the TEI module used for performance texts were thus subsequently
+                    converted into TEI documents wherein the text was annotated in accordance with
+                    the speech transcription TEI module. Such documents can then be furnished with
+                    linguistic annotations at a later time. Computational linguists have thus
+                    already provided part-of-speech tagging for the text of the speeches. The corpus
+                    has been imported into the No Sketch Engine concordance base<note place="foot"
+                        xml:id="ftn49" n="48"> “SlovParl (parlament RS 1990–1992),” <hi
+                            rend="italic">NoSketch Engine</hi>, accessed on 30 September 2016, <ref
+                            target="http://nl.ijs.si/noske/all.cgi/corp_info?corpname=slovparl"
+                            >http://nl.ijs.si/noske/all.cgi/corp_info?corpname=slovparl</ref>. Tomaž
+                        Erjavec, “Korpusi in konkordančniki na strežniku nl.ijs.si,” <hi
+                            rend="italic">Slovenščina 2.0</hi> 1, no. 1 (2013): 24–49.</note> and
+                    all TEI documents are accessible at the CLARIN.SI repository.<note place="foot"
+                        xml:id="ftn50" n="49"> Tomaž Erjavec, Jan Jona Javoršek and Simon Krek,
+                        “Raziskovalna infrastruktura CLARIN.SI,” in: <hi rend="italic">Proceedings
+                            of the 17th International Multiconference Information Society – IS 2014:
+                            Language Technologies</hi>, eds. Tomaž Erjavec and Jerneja Žganec Gros
+                        (Ljubljana: IJS, 2014), 19–24. Andrej Pančur, Mojca Šorn and Tomaž Erjavec,
+                            <hi rend="italic">Slovenian parliamentary corpus SlovParl 1.0</hi>
+                        (2016), distributed by Slovenian language resource repository CLARIN.SI,
+                            <ref target="http://hdl.handle.net/11356/1075"
+                            >http://hdl.handle.net/11356/1075</ref>.</note></p>
             </div>
             <div>
-            <head>Conclusion</head>
-            <p>This article has attempted to show, based on a number of fundamental analyses of the
-                minutes of the sessions of the Chamber of Associated Labour of the Assembly of the
-                Republic of Slovenia (1990/92), that future historians will be unable to process the
-                increasing amounts of digital materials using standard historiographical methods and
-                will be forced to start supplementing these with methods and tools developed by
-                digital humanities. In doing so, most historians will still rely on various tools
-                developed by digital historians in order to simplify the work of their colleagues
-                who are unfamiliar with digital humanities. At the same time, digital historians
-                will also have to be aware of the limitations of the use of tools developed by other
-                fields, including language technologies. On the other hand, historians who have
-                started learning the basics of programming languages are increasingly establishing
-                themselves in the field.<note place="foot" xml:id="ftn51" n="50"> Nanni et al., “Semi-Supervised Textual Analysis and
-                        Historical Research Helping Each Other,” 63–68. Graham et al., <hi rend="italic">Exploring Big Historical Data: The Historian’s
-                            Macroscope</hi>.</note> The reason for this is that this is the only
-                way to extract additional useful research results from existing digital sources.
-                This is also the manner in which most of the analyses presented by this paper were
-                carried out. At the same time, the authors of this article are well aware that in
-                addition to new knowledge supplied by digital history, it remains indispensable for
-                researchers to be very familiar with research domain. It can thus be anticipated
-                that future research of contemporary history will take place through fruitful
-                collaboration of experts from a multitude of different fields.</p>
+                <head>Conclusion</head>
+                <p>This article has attempted to show, based on a number of fundamental analyses of
+                    the minutes of the sessions of the Chamber of Associated Labour of the Assembly
+                    of the Republic of Slovenia (1990/92), that future historians will be unable to
+                    process the increasing amounts of digital materials using standard
+                    historiographical methods and will be forced to start supplementing these with
+                    methods and tools developed by digital humanities. In doing so, most historians
+                    will still rely on various tools developed by digital historians in order to
+                    simplify the work of their colleagues who are unfamiliar with digital
+                    humanities. At the same time, digital historians will also have to be aware of
+                    the limitations of the use of tools developed by other fields, including
+                    language technologies. On the other hand, historians who have started learning
+                    the basics of programming languages are increasingly establishing themselves in
+                    the field.<note place="foot" xml:id="ftn51" n="50"> Nanni et al.,
+                        “Semi-Supervised Textual Analysis and Historical Research Helping Each
+                        Other,” 63–68. Graham et al., <hi rend="italic">Exploring Big Historical
+                            Data: The Historian’s Macroscope</hi>.</note> The reason for this is
+                    that this is the only way to extract additional useful research results from
+                    existing digital sources. This is also the manner in which most of the analyses
+                    presented by this paper were carried out. At the same time, the authors of this
+                    article are well aware that in addition to new knowledge supplied by digital
+                    history, it remains indispensable for researchers to be very familiar with
+                    research domain. It can thus be anticipated that future research of contemporary
+                    history will take place through fruitful collaboration of experts from a
+                    multitude of different fields.</p>
             </div>
         </body>
         <back>
             <div type="bibliography">
-            <head>Sources and Literature</head>
-            <listBibl>
-            <head>Dataset:</head>
-                <bibl>Pančur, Andrej, Mojca Šorn and Tomaž Erjavec. <hi rend="italic">Slovenian
-                    parliamentary corpus SlovParl 1.0</hi> (2016). Distributed by Slovenian
-                    language resource repository CLARIN.SI. <ref target="http://hdl.handle.net/11356/1075">http://hdl.handle.net/11356/1075</ref>.</bibl>
-            </listBibl>
-            <listBibl>
-                <head>Literature:</head>
-                <bibl>Benardou, Agiatis, Alastair Dunning, Martin Schaller and Nephelie
-                    Chatzidiakou. <hi rend="italic">Research Themes for Aggregating Digital Content.
-                        Parliamentary Papers in Europe</hi>. Europeana Cloud, 2015. Accessed 28
-                    September 2016. <ref target="http://pro.europeana.eu/files/Europeana_Professional/Projects/Project_list/Europeana_Cloud/WP1%20Research%20Needs/research-themes-for-aggregating-digital-content-parliamentary-papers.pdf">http://pro.europeana.eu/files/Europeana_Professional/Projects/Project_list/Europeana_Cloud/WP1%20Research%20Needs/research-themes-for-aggregating-digital-content-parliamentary-papers.pdf</ref>.</bibl>
-                <bibl>Collins, Sandra, Natalie Harrower, Dag Trygve Truslew Haug, Beat Immenhauser,
-                    Gerhard Lauer, Tito Orlandi, Laurent Romary and Eveline Wandl-Vogt. <hi rend="italic">ALLEA E-Humanities Working Group Report. Going Digital:
-                        Creating Change in the Humanities</hi>. Berlin: All European Academies,
-                    2015. Accessed 19 July 2016. <ref target="http://www.allea.org/Content/ALLEA/WG%20E%20Humanities/Going%20Digital_digital%20version.pdf">http://www.allea.org/Content/ALLEA/WG%20E%20Humanities/Going%20Digital_digital%20version.pdf</ref>.</bibl>
-                <bibl>Cvelfar, Bojan, Tatjana Hajtnik, Miroslav Novak, Nada Čibej and Drago Trpin.
-                    <hi rend="italic">Strategija in izvedbeni načrt razvoja slovenskega
-                        elektronskega arhiva 2016 – 2020.</hi> Ljubljana: Arhiv Republike Slovenije,
-                    2016.</bibl>
-                <bibl>Deutsche Forschungsgemeinschaft. <hi rend="italic">DFG Practical Guidelines on
-                    Digitisation.</hi> Bonn: Deutsche Forschungsgemeinschaft, 2013. Accessed 19
-                    July 2016. <ref target="http://www.dfg.de/formulare/12_151/12_151_en.pdf">http://www.dfg.de/formulare/12_151/12_151_en.pdf</ref>.</bibl>
-                <bibl>Elliot, Devon, Robert MacDougall and William J. Turkel. “New Old Things:
-                    Fabrication, Physical Computing, and Experiment in Historical Practice.” <hi rend="italic">Canadian Journal of Communication</hi> 37 (2012): 122.
-                    Accessed 19 July 2016. <ref target="http://www.cjc-online.ca/index.php/journal/article/view/2506">http://www.cjc-online.ca/index.php/journal/article/view/2506</ref>.</bibl>
-                <bibl>Erjavec, Tomaž, Jan Jona Javoršek and Simon Krek. ”Raziskovalna infrastruktura
-                    CLARIN.SI.” In: <hi rend="italic">Proceedings of the 17th International
-                        Multiconference Information Society – IS 2014: Language Technologies</hi>,
-                    eds. Tomaž Erjavec and Jerneja Žganec Gros, 19<hi rend="italic">–</hi>24.
-                    Ljubljana: IJS, 2014. Accessed 30 September 2016. <ref target="http://nl.ijs.si/isjt14/proceedings/isjt2014_03.pdf">http://nl.ijs.si/isjt14/proceedings/isjt2014_03.pdf</ref>.</bibl>
-                <bibl>Erjavec, Tomaž. ”Korpusi in konkordančniki na strežniku nl.ijs.si.” <hi rend="italic">Slovenščina 2.0</hi> 1, no. 1 (2013): 24-49. Accessed 19 July
-                    2016. <ref target="http://slovenscina2.0.trojina.si/arhiv/2013/1/Slo2.0_2013_1_03.pdf">http://slovenscina2.0.trojina.si/arhiv/2013/1/Slo2.0_2013_1_03.pdf</ref>.</bibl>
-                <bibl>Fokkens, Antske, Serge ter Braake, Niels Ockeloen, Piek Vossen, Susan Legêne
-                    and Guus Schreiber. ”BiographyNet: Methodological issues when NLP supports
-                    historical research.” In: <hi rend="italic">Proceedings of the Ninth
-                        International Conference on Language Resources and Evaluation
-                        (LREC'14)</hi>, eds. Nicoletta Calzolari, Khalid Choukri, Thierry Declerck,
-                    Hrafn Loftsson, Bente Maegaard, Joseph Mariani, Asuncion Moreno, Jan Odijk and
-                    Stelios Piperidis, 3728<hi rend="italic">–</hi>35. Reykjavik: European Language
-                    Resources Association (ELRA), 2014. Accessed 30 September 2016. <ref target="http://www.lrec-conf.org/proceedings/lrec2014/pdf/1103_Paper.pdf">http://www.lrec-conf.org/proceedings/lrec2014/pdf/1103_Paper.pdf</ref>.</bibl>
-                <bibl>Gašparič, Jure. “Slovenian Socialist Parliament on the Eve of the Dissolution
-                    of the Yugoslav Federation. A feeble ”ratification body” or important political
-                    decision-maker?.” <hi rend="italic">Prispevki za novejšo zgodovino</hi> 55, no.
-                    3 (2015): 41<hi rend="italic">–</hi>59. Accessed 19 July 2016. <ref target="http://ojs.inz.si/pnz/article/view/123">http://ojs.inz.si/pnz/article/view/123</ref>.</bibl>
-                <bibl>Gašparič, Jure. ”Pisati politično zgodovino Republike Slovenije.” In: <hi rend="italic">Četrt stoletja Republike Slovenije – izzivi, dileme,
-                    pričakovanja</hi>, eds. Jure Gašparič and Mojca Šorn, 27<hi rend="italic">–</hi>37. Ljubljana: Institute of Contemporary History Institute of
-                    Contemporary History, 2016.</bibl>
-                <bibl>Gašparič, Jure. <hi rend="italic">Državni zbor 1992 – 2012. O slovenskem
-                    parlamentarizmu</hi>. Ljubljana: Institute of Contemporary History,
-                    2012.</bibl>
-                <bibl>Gašparič, Jure. <hi rend="italic">Slovenski parlament: politično-zgodovinski
-                    pregled od začetka prvega do konca šestega mandata (1992-2014)</hi>.
-                    Ljubljana: Institute of Contemporary History, 2014. Accessed 19 July 2016. <ref target="http://hdl.handle.net/11686/26950">http://hdl.handle.net/11686/26950</ref>.</bibl>
-                <bibl>Graham, Shawn, Ian Milligan and Scott Weingart. <hi rend="italic">Exploring
-                    Big Historical Data: The Historian’s Macroscope</hi>. London: Imperial
-                    College Press, 2015. Accessed 28 September 2016. <ref target="http://www.themacroscope.org">http://www.themacroscope.org</ref>.</bibl>
-                <bibl>Graham, Shawn, Scott Weingart and Ian Milligan. ”Getting Started with Topic
-                    Modeling and MALLET.” <hi rend="italic">Programming Historian</hi> (2 September
-                    2012). Accessed 19 July 2016. <ref target="http://programminghistorian.org/lessons/topic-modeling-and-mallet">http://programminghistorian.org/lessons/topic-modeling-and-mallet</ref>.</bibl>
-                <bibl>Haber, Peter. “Zeitgeschichte und Digital Humanities.” In: <hi rend="italic">Zeitgeschichte – Konzepte und Methoden</hi>, eds. Frank Bösch and Danyel
-                    Jürgen, 47<hi rend="italic">–</hi>66. Göttingen: Vandenhoeck &amp; Ruprecht,
-                    2012. Accessed 19 July 2016. <ref target="http://dx.doi.org/10.14765/zzf.dok.2.269.v1">http://dx.doi.org/10.14765/zzf.dok.2.269.v1</ref>.</bibl>
-                <bibl>Hajtnik, Tatjana. ”Strategija razvoja slovenskega javnega elektronskega arhiva
-                    ’e-ARH.si’.” <hi rend="italic">Knjižnica</hi> 55, no. 1 (2011): 39<hi rend="italic">–</hi>56. <ref target="http://revija-knjiznica.zbds-zveza.si/Izvodi/K1101/Hajtnik.pdf">http://revija-knjiznica.zbds-zveza.si/Izvodi/K1101/Hajtnik.pdf</ref>
-                </bibl>
-                <bibl>Jakubíček, Miloš and Vojtěch Kovář. CzechParl. “Corpus of Stenographic
-                    Protocols from Czech Parliament.” In: <hi rend="italic">Proceedings of Recent
-                        Advances in Slavonic Natural Language Processing, RASLAN 2010</hi>, eds.
-                    Petr Sojka and Aleš Horák, 41<hi rend="italic">–</hi>46. Tribun EU, 2010.
-                    Accessed 19 July 2016. <ref target="http://www.muni.cz/research/publications/914313">http://www.muni.cz/research/publications/914313</ref>.</bibl>
-                <bibl>Ljubešić, Nikola, Marija Stupar, Tereza Jurić and Željko Agić. “Combining
-                    Available Datasets for Building Named Entity Recognition Models of Croatian and
-                    Slovene.” <hi rend="italic">Slovenščina 2.0</hi> 1, no. 2 (2013): 35<hi rend="italic">–</hi>57.</bibl>
-                <bibl>Martin-Dancausa, Carlos and Maarten Marx. “Parliamentary documents from
-                    Spain.” In: <hi rend="italic">Proceedings of the International Conference on
-                        Language Resources and Evaluation</hi>, eds. Nicoletta Calzolari, Khalid
-                    Choukri, Bente Maegaard, Joseph Mariani, Jan Odijk, Stelios Piperidis, Mike
-                    Rosner and Daniel Tapias. Valetta: LREC, 2010. Accessed 19 July 2016. <ref target="https://www.researchgate.net/publication/239585911">https://www.researchgate.net/publication/239585911</ref>.</bibl>
-                <bibl>Marx, Maarten and Anne Schuth. “DutchParl. The Parliamentary Documents in
-                    Dutch.” In: <hi rend="italic">Proceedings of the International Conference on
-                        Language Resources and Evaluation</hi>, eds. Nicoletta Calzolari, Khalid
-                    Choukri, Bente Maegaard, Joseph Mariani, Jan Odijk, Stelios Piperidis, Mike
-                    Rosner and Daniel Tapias, 3670<hi rend="italic">–</hi>77. Valetta: LREC, 2010.
-                    Accessed 19 July 2016. <ref target="http://www.lrec-conf.org/proceedings/lrec2010/pdf/263_Paper.pdf">http://www.lrec-conf.org/proceedings/lrec2010/pdf/263_Paper.pdf</ref>.</bibl>
-                <bibl>Marx, Maarten. ”Advanced Information Access to Parliamentary Debates.” <hi rend="italic">Texas Digital Library</hi> 10, no. 6 (2009): 1<hi rend="italic">–</hi>11. Accessed 19 July 2016. <ref target="https://journals.tdl.org/jodi/index.php/jodi/article/view/668">https://journals.tdl.org/jodi/index.php/jodi/article/view/668</ref>.</bibl>
-                <bibl>McCallum, Andrew Kachites. <hi rend="italic">MALLET</hi>: <hi rend="italic">A
-                    Machine Learning for Language Toolkit</hi>. 2002. Accessed 19 July 2016.
-                    <ref target="http://mallet.cs.umass.edu/">http://mallet.cs.umass.edu/</ref>.</bibl>
-                <bibl>Nanni, Federico, Hiram Kumper and Simone Paolo Ponzetto. “Semi-Supervised
-                    Textual Analysis and Historical Research Helping Each Other: Some Thoughts and
-                    Observations.” <hi rend="italic">International Journal of Humanities and Arts
-                        Computing</hi> 10, no. 1 (2016): 63<hi rend="italic">–</hi>77. Accessed 19
-                    July 2016. <ref target="http://dx.doi.org/10.3366/ijhac.2016.0160">http://dx.doi.org/10.3366/ijhac.2016.0160</ref>.</bibl>
-                <bibl>Nicholson, Bob. “The Digital Turn: Exploring the methodological possibilities
-                    of digital newspaper archives.” <hi rend="italic">Media History</hi> 19, no. 1
-                    (2013): 59<hi rend="italic">–</hi>73. Accessed 30 September 2016. <ref target="http://dx.doi.org/10.1080/13688804.2012.752963">http://dx.doi.org/10.1080/13688804.2012.752963</ref>.</bibl>
-                <bibl>Ogrodniczuk, Maciej. “The Polish Sejm Corpus.” In: <hi rend="italic">LREC
-                    2010, Eight International Conference on Language Resources and
-                    Evaluation</hi>, eds. Nicoletta Calzolari, Khalid Choukri, Thierry Declerck,
-                    Mehmet Uğur Doğan, Bente Maegaard, Joseph Mariani, Asuncion Moreno, Jan Odijk
-                    and Stelios Piperidis, 2219<hi rend="italic">–</hi>23. Istanbul, 2012. Accessed
-                    19 July 2016. <ref target="http://www.lrec-conf.org/proceedings/lrec2012/pdf/653_Paper.pdf">http://www.lrec-conf.org/proceedings/lrec2012/pdf/653_Paper.pdf</ref>.</bibl>
-                <bibl>Pančur, Andrej. ”Označevanje zbirke zapisnikov sej slovenskega parlamenta s
-                    smernicami TEI” [Encoding the Slovenian Parliament Session Minutes in Line with
-                    the TEI Guidelines]. In:
-                    <hi rend="italic" xml:space="preserve">Zbornik konference Jezikovne tehnologije in digitalna humanistika </hi>[Proceedings
-                    of the Conference on Language Technologies &amp; Digital Humanities], eds. Tomaž
-                    Erjavec and Darja Fišer, 142<hi rend="italic">–</hi>48. Ljubljana: Znanstvena
-                    založba Filozofske fakultete v Ljubljani, 2016. Accessed 5 October 2016. <ref target="http://nl.ijs.si/isjt16/proceedings-en.html">http://nl.ijs.si/isjt16/proceedings-en.html</ref>. </bibl>
-                <bibl>Pesek, Rosvita. <hi rend="italic">Osamosvojitev Slovenije</hi>. Ljubljana:
-                    Nova revija, 2007.</bibl>
-                <bibl>Piersma, Hinke and Kees Ribbens. ”Digital Historical Research: Context,
-                    Concept and the Need for Reflection.” <hi rend="italic">BMGN – Low Countries
-                        Historical Review</hi> 128, no. 4 (2013): 78<hi rend="italic">–</hi>102.</bibl>
-                <bibl>Piersma, Hinke, Ismee Tames, Lars Buitinck and Maarten Marx. ”War in
-                    Parliament. What a Digital Approach Can Add to the Study of Parliamentary
-                    History.” <hi rend="italic">DHQ: Digital Humanities Quarterly</hi> 8, no. 1
-                    (2014). Accessed 30 September 2016. <ref target="http://www.digitalhumanities.org/dhq/vol/8/1/000176/000176.html">http://www.digitalhumanities.org/dhq/vol/8/1/000176/000176.html</ref>.</bibl>
-                <bibl>Robertson, Stephen. “The Differences between Digital Humanities and Digital
-                    History.” In: <hi rend="italic">Debates in Digital Humanities 2016</hi>, eds.
-                    Matthew K. Gold and Lauren F. Klein. Minneapolis and London: University of
-                    Minnesota Press, 2016. Accessed 25 September 2016. <ref target="http://dhdebates.gc.cuny.edu/debates/text/76">http://dhdebates.gc.cuny.edu/debates/text/76</ref>.</bibl>
-                <bibl>Rosenzwig, Roy. “Scarcity or Abundance? Preserving the Past in a Digital Era.”
-                    <hi rend="italic">American Historical Review</hi> 108, no. 3 (2003): 735<hi rend="italic">–</hi>62.</bibl>
-                <bibl>Schöch, Christof. ”Big? Smart? Clean? Messy? Data in the Humanities.” <hi rend="italic">Journal of Digital Humanities</hi> 2, no. 3 (2013). Accessed
-                    25 September 2016. <ref target="http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/">http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/</ref>.</bibl>
-                <bibl>Spiro, Lisa. “Access, Explore, Converse. The Impact (and Potential Impact) of
-                    the Digital Humanities on Scholarship.” In: <hi rend="italic">Keys for
-                        architectural history research in the digital era</hi>, eds. <hi rend="Strong"><seg rend="normalweight">Juliette</seg>
-                        </hi><hi rend="familyname">Hueber</hi><hi rend="Strong"><seg rend="normalweight" xml:space="preserve"> and Antonio </seg></hi><hi rend="familyname">Mendes da Silva.</hi> 2014. Accessed 25 September 2016.
-                    <ref target="https://inha.revues.org/4925">https://inha.revues.org/4925</ref>.</bibl>
-                <bibl>TEI Consortium. <hi rend="italic">TEI P5: Guidelines for Electronic Text
-                    Encoding and Interchange</hi>, Text Encoding Initiative Consortium, 2016.
-                    Accessed 19 July 2016. <ref target="http://www.tei-c.org/Guidelines/P5/">http://www.tei-c.org/Guidelines/P5/</ref>.</bibl>
-                <bibl>Zaagsma, Gerben. ”On Digital History.” <hi rend="italic">BMGN – Low Countries
-                    Historical Review</hi> 128, no. 4 (2013): 3<hi rend="italic">–</hi>29. <ref target="http://www.bmgn-lchr.nl/articles/10.18352/bmgn-lchr.9344/">http://www.bmgn-lchr.nl/articles/10.18352/bmgn-lchr.9344/</ref>.</bibl>
-            </listBibl>
-        </div>
+                <head>Sources and Literature</head>
+                <listBibl>
+                    <head>Dataset:</head>
+                    <bibl>Pančur, Andrej, Mojca Šorn and Tomaž Erjavec. <hi rend="italic">Slovenian
+                            parliamentary corpus SlovParl 1.0</hi> (2016). Distributed by Slovenian
+                        language resource repository CLARIN.SI. <ref
+                            target="http://hdl.handle.net/11356/1075"
+                            >http://hdl.handle.net/11356/1075</ref>.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Literature:</head>
+                    <bibl>Benardou, Agiatis, Alastair Dunning, Martin Schaller and Nephelie
+                        Chatzidiakou. <hi rend="italic">Research Themes for Aggregating Digital
+                            Content. Parliamentary Papers in Europe</hi>. Europeana Cloud, 2015.
+                        Accessed 28 September 2016. <ref
+                            target="http://pro.europeana.eu/files/Europeana_Professional/Projects/Project_list/Europeana_Cloud/WP1%20Research%20Needs/research-themes-for-aggregating-digital-content-parliamentary-papers.pdf"
+                            >http://pro.europeana.eu/files/Europeana_Professional/Projects/Project_list/Europeana_Cloud/WP1%20Research%20Needs/research-themes-for-aggregating-digital-content-parliamentary-papers.pdf</ref>.</bibl>
+                    <bibl>Collins, Sandra, Natalie Harrower, Dag Trygve Truslew Haug, Beat
+                        Immenhauser, Gerhard Lauer, Tito Orlandi, Laurent Romary and Eveline
+                        Wandl-Vogt. <hi rend="italic">ALLEA E-Humanities Working Group Report. Going
+                            Digital: Creating Change in the Humanities</hi>. Berlin: All European
+                        Academies, 2015. Accessed 19 July 2016. <ref
+                            target="http://www.allea.org/Content/ALLEA/WG%20E%20Humanities/Going%20Digital_digital%20version.pdf"
+                            >http://www.allea.org/Content/ALLEA/WG%20E%20Humanities/Going%20Digital_digital%20version.pdf</ref>.</bibl>
+                    <bibl>Cvelfar, Bojan, Tatjana Hajtnik, Miroslav Novak, Nada Čibej and Drago
+                        Trpin. <hi rend="italic">Strategija in izvedbeni načrt razvoja slovenskega
+                            elektronskega arhiva 2016 – 2020.</hi> Ljubljana: Arhiv Republike
+                        Slovenije, 2016.</bibl>
+                    <bibl>Deutsche Forschungsgemeinschaft. <hi rend="italic">DFG Practical
+                            Guidelines on Digitisation.</hi> Bonn: Deutsche Forschungsgemeinschaft,
+                        2013. Accessed 19 July 2016. <ref
+                            target="http://www.dfg.de/formulare/12_151/12_151_en.pdf"
+                            >http://www.dfg.de/formulare/12_151/12_151_en.pdf</ref>.</bibl>
+                    <bibl>Elliot, Devon, Robert MacDougall and William J. Turkel. “New Old Things:
+                        Fabrication, Physical Computing, and Experiment in Historical Practice.” <hi
+                            rend="italic">Canadian Journal of Communication</hi> 37 (2012): 122.
+                        Accessed 19 July 2016. <ref
+                            target="http://www.cjc-online.ca/index.php/journal/article/view/2506"
+                            >http://www.cjc-online.ca/index.php/journal/article/view/2506</ref>.</bibl>
+                    <bibl>Erjavec, Tomaž, Jan Jona Javoršek and Simon Krek. ”Raziskovalna
+                        infrastruktura CLARIN.SI.” In: <hi rend="italic">Proceedings of the 17th
+                            International Multiconference Information Society – IS 2014: Language
+                            Technologies</hi>, eds. Tomaž Erjavec and Jerneja Žganec Gros, 19<hi
+                            rend="italic">–</hi>24. Ljubljana: IJS, 2014. Accessed 30 September
+                        2016. <ref target="http://nl.ijs.si/isjt14/proceedings/isjt2014_03.pdf"
+                            >http://nl.ijs.si/isjt14/proceedings/isjt2014_03.pdf</ref>.</bibl>
+                    <bibl>Erjavec, Tomaž. ”Korpusi in konkordančniki na strežniku nl.ijs.si.” <hi
+                            rend="italic">Slovenščina 2.0</hi> 1, no. 1 (2013): 24-49. Accessed 19
+                        July 2016. <ref
+                            target="http://slovenscina2.0.trojina.si/arhiv/2013/1/Slo2.0_2013_1_03.pdf"
+                            >http://slovenscina2.0.trojina.si/arhiv/2013/1/Slo2.0_2013_1_03.pdf</ref>.</bibl>
+                    <bibl>Fokkens, Antske, Serge ter Braake, Niels Ockeloen, Piek Vossen, Susan
+                        Legêne and Guus Schreiber. ”BiographyNet: Methodological issues when NLP
+                        supports historical research.” In: <hi rend="italic">Proceedings of the
+                            Ninth International Conference on Language Resources and Evaluation
+                            (LREC'14)</hi>, eds. Nicoletta Calzolari, Khalid Choukri, Thierry
+                        Declerck, Hrafn Loftsson, Bente Maegaard, Joseph Mariani, Asuncion Moreno,
+                        Jan Odijk and Stelios Piperidis, 3728<hi rend="italic">–</hi>35. Reykjavik:
+                        European Language Resources Association (ELRA), 2014. Accessed 30 September
+                        2016. <ref
+                            target="http://www.lrec-conf.org/proceedings/lrec2014/pdf/1103_Paper.pdf"
+                            >http://www.lrec-conf.org/proceedings/lrec2014/pdf/1103_Paper.pdf</ref>.</bibl>
+                    <bibl>Gašparič, Jure. “Slovenian Socialist Parliament on the Eve of the
+                        Dissolution of the Yugoslav Federation. A feeble ”ratification body” or
+                        important political decision-maker?.” <hi rend="italic">Prispevki za novejšo
+                            zgodovino</hi> 55, no. 3 (2015): 41<hi rend="italic">–</hi>59. Accessed
+                        19 July 2016. <ref target="http://ojs.inz.si/pnz/article/view/123"
+                            >http://ojs.inz.si/pnz/article/view/123</ref>.</bibl>
+                    <bibl>Gašparič, Jure. ”Pisati politično zgodovino Republike Slovenije.” In: <hi
+                            rend="italic">Četrt stoletja Republike Slovenije – izzivi, dileme,
+                            pričakovanja</hi>, eds. Jure Gašparič and Mojca Šorn, 27<hi
+                            rend="italic">–</hi>37. Ljubljana: Institute of Contemporary History
+                        Institute of Contemporary History, 2016.</bibl>
+                    <bibl>Gašparič, Jure. <hi rend="italic">Državni zbor 1992 – 2012. O slovenskem
+                            parlamentarizmu</hi>. Ljubljana: Institute of Contemporary History,
+                        2012.</bibl>
+                    <bibl>Gašparič, Jure. <hi rend="italic">Slovenski parlament:
+                            politično-zgodovinski pregled od začetka prvega do konca šestega
+                            mandata (1992-2014)</hi>. Ljubljana: Institute of Contemporary History,
+                        2014. Accessed 19 July 2016. <ref target="http://hdl.handle.net/11686/26950"
+                            >http://hdl.handle.net/11686/26950</ref>.</bibl>
+                    <bibl>Graham, Shawn, Ian Milligan and Scott Weingart. <hi rend="italic"
+                            >Exploring Big Historical Data: The Historian’s Macroscope</hi>. London:
+                        Imperial College Press, 2015. Accessed 28 September 2016. <ref
+                            target="http://www.themacroscope.org"
+                        >http://www.themacroscope.org</ref>.</bibl>
+                    <bibl>Graham, Shawn, Scott Weingart and Ian Milligan. ”Getting Started with
+                        Topic Modeling and MALLET.” <hi rend="italic">Programming Historian</hi> (2
+                        September 2012). Accessed 19 July 2016. <ref
+                            target="http://programminghistorian.org/lessons/topic-modeling-and-mallet"
+                            >http://programminghistorian.org/lessons/topic-modeling-and-mallet</ref>.</bibl>
+                    <bibl>Haber, Peter. “Zeitgeschichte und Digital Humanities.” In: <hi
+                            rend="italic">Zeitgeschichte – Konzepte und Methoden</hi>, eds. Frank
+                        Bösch and Danyel Jürgen, 47<hi rend="italic">–</hi>66. Göttingen:
+                        Vandenhoeck &amp; Ruprecht, 2012. Accessed 19 July 2016. <ref
+                            target="http://dx.doi.org/10.14765/zzf.dok.2.269.v1"
+                            >http://dx.doi.org/10.14765/zzf.dok.2.269.v1</ref>.</bibl>
+                    <bibl>Hajtnik, Tatjana. ”Strategija razvoja slovenskega javnega elektronskega
+                        arhiva ’e-ARH.si’.” <hi rend="italic">Knjižnica</hi> 55, no. 1 (2011): 39<hi
+                            rend="italic">–</hi>56. <ref
+                            target="http://revija-knjiznica.zbds-zveza.si/Izvodi/K1101/Hajtnik.pdf"
+                            >http://revija-knjiznica.zbds-zveza.si/Izvodi/K1101/Hajtnik.pdf</ref>
+                    </bibl>
+                    <bibl>Jakubíček, Miloš and Vojtěch Kovář. CzechParl. “Corpus of Stenographic
+                        Protocols from Czech Parliament.” In: <hi rend="italic">Proceedings of
+                            Recent Advances in Slavonic Natural Language Processing, RASLAN
+                            2010</hi>, eds. Petr Sojka and Aleš Horák, 41<hi rend="italic">–</hi>46.
+                        Tribun EU, 2010. Accessed 19 July 2016. <ref
+                            target="http://www.muni.cz/research/publications/914313"
+                            >http://www.muni.cz/research/publications/914313</ref>.</bibl>
+                    <bibl>Ljubešić, Nikola, Marija Stupar, Tereza Jurić and Željko Agić. “Combining
+                        Available Datasets for Building Named Entity Recognition Models of Croatian
+                        and Slovene.” <hi rend="italic">Slovenščina 2.0</hi> 1, no. 2 (2013): 35<hi
+                            rend="italic">–</hi>57.</bibl>
+                    <bibl>Martin-Dancausa, Carlos and Maarten Marx. “Parliamentary documents from
+                        Spain.” In: <hi rend="italic">Proceedings of the International Conference on
+                            Language Resources and Evaluation</hi>, eds. Nicoletta Calzolari, Khalid
+                        Choukri, Bente Maegaard, Joseph Mariani, Jan Odijk, Stelios Piperidis, Mike
+                        Rosner and Daniel Tapias. Valetta: LREC, 2010. Accessed 19 July 2016. <ref
+                            target="https://www.researchgate.net/publication/239585911"
+                            >https://www.researchgate.net/publication/239585911</ref>.</bibl>
+                    <bibl>Marx, Maarten and Anne Schuth. “DutchParl. The Parliamentary Documents in
+                        Dutch.” In: <hi rend="italic">Proceedings of the International Conference on
+                            Language Resources and Evaluation</hi>, eds. Nicoletta Calzolari, Khalid
+                        Choukri, Bente Maegaard, Joseph Mariani, Jan Odijk, Stelios Piperidis, Mike
+                        Rosner and Daniel Tapias, 3670<hi rend="italic">–</hi>77. Valetta: LREC,
+                        2010. Accessed 19 July 2016. <ref
+                            target="http://www.lrec-conf.org/proceedings/lrec2010/pdf/263_Paper.pdf"
+                            >http://www.lrec-conf.org/proceedings/lrec2010/pdf/263_Paper.pdf</ref>.</bibl>
+                    <bibl>Marx, Maarten. ”Advanced Information Access to Parliamentary Debates.” <hi
+                            rend="italic">Texas Digital Library</hi> 10, no. 6 (2009): 1<hi
+                            rend="italic">–</hi>11. Accessed 19 July 2016. <ref
+                            target="https://journals.tdl.org/jodi/index.php/jodi/article/view/668"
+                            >https://journals.tdl.org/jodi/index.php/jodi/article/view/668</ref>.</bibl>
+                    <bibl>McCallum, Andrew Kachites. <hi rend="italic">MALLET</hi>: <hi
+                            rend="italic">A Machine Learning for Language Toolkit</hi>. 2002.
+                        Accessed 19 July 2016. <ref target="http://mallet.cs.umass.edu/"
+                            >http://mallet.cs.umass.edu/</ref>.</bibl>
+                    <bibl>Nanni, Federico, Hiram Kumper and Simone Paolo Ponzetto. “Semi-Supervised
+                        Textual Analysis and Historical Research Helping Each Other: Some Thoughts
+                        and Observations.” <hi rend="italic">International Journal of Humanities and
+                            Arts Computing</hi> 10, no. 1 (2016): 63<hi rend="italic">–</hi>77.
+                        Accessed 19 July 2016. <ref
+                            target="http://dx.doi.org/10.3366/ijhac.2016.0160"
+                            >http://dx.doi.org/10.3366/ijhac.2016.0160</ref>.</bibl>
+                    <bibl>Nicholson, Bob. “The Digital Turn: Exploring the methodological
+                        possibilities of digital newspaper archives.” <hi rend="italic">Media
+                            History</hi> 19, no. 1 (2013): 59<hi rend="italic">–</hi>73. Accessed 30
+                        September 2016. <ref target="http://dx.doi.org/10.1080/13688804.2012.752963"
+                            >http://dx.doi.org/10.1080/13688804.2012.752963</ref>.</bibl>
+                    <bibl>Ogrodniczuk, Maciej. “The Polish Sejm Corpus.” In: <hi rend="italic">LREC
+                            2010, Eight International Conference on Language Resources and
+                            Evaluation</hi>, eds. Nicoletta Calzolari, Khalid Choukri, Thierry
+                        Declerck, Mehmet Uğur Doğan, Bente Maegaard, Joseph Mariani, Asuncion
+                        Moreno, Jan Odijk and Stelios Piperidis, 2219<hi rend="italic">–</hi>23.
+                        Istanbul, 2012. Accessed 19 July 2016. <ref
+                            target="http://www.lrec-conf.org/proceedings/lrec2012/pdf/653_Paper.pdf"
+                            >http://www.lrec-conf.org/proceedings/lrec2012/pdf/653_Paper.pdf</ref>.</bibl>
+                    <bibl>Pančur, Andrej. ”Označevanje zbirke zapisnikov sej slovenskega parlamenta
+                        s smernicami TEI” [Encoding the Slovenian Parliament Session Minutes in Line
+                        with the TEI Guidelines]. In:
+                        <hi rend="italic" xml:space="preserve">Zbornik konference Jezikovne tehnologije in digitalna humanistika </hi>[Proceedings
+                        of the Conference on Language Technologies &amp; Digital Humanities], eds.
+                        Tomaž Erjavec and Darja Fišer, 142<hi rend="italic">–</hi>48. Ljubljana:
+                        Znanstvena založba Filozofske fakultete v Ljubljani, 2016. Accessed 5
+                        October 2016. <ref target="http://nl.ijs.si/isjt16/proceedings-en.html"
+                            >http://nl.ijs.si/isjt16/proceedings-en.html</ref>. </bibl>
+                    <bibl>Pesek, Rosvita. <hi rend="italic">Osamosvojitev Slovenije</hi>. Ljubljana:
+                        Nova revija, 2007.</bibl>
+                    <bibl>Piersma, Hinke and Kees Ribbens. ”Digital Historical Research: Context,
+                        Concept and the Need for Reflection.” <hi rend="italic">BMGN – Low Countries
+                            Historical Review</hi> 128, no. 4 (2013): 78<hi rend="italic"
+                        >–</hi>102.</bibl>
+                    <bibl>Piersma, Hinke, Ismee Tames, Lars Buitinck and Maarten Marx. ”War in
+                        Parliament. What a Digital Approach Can Add to the Study of Parliamentary
+                        History.” <hi rend="italic">DHQ: Digital Humanities Quarterly</hi> 8, no. 1
+                        (2014). Accessed 30 September 2016. <ref
+                            target="http://www.digitalhumanities.org/dhq/vol/8/1/000176/000176.html"
+                            >http://www.digitalhumanities.org/dhq/vol/8/1/000176/000176.html</ref>.</bibl>
+                    <bibl>Robertson, Stephen. “The Differences between Digital Humanities and
+                        Digital History.” In: <hi rend="italic">Debates in Digital Humanities
+                            2016</hi>, eds. Matthew K. Gold and Lauren F. Klein. Minneapolis and
+                        London: University of Minnesota Press, 2016. Accessed 25 September 2016.
+                            <ref target="http://dhdebates.gc.cuny.edu/debates/text/76"
+                            >http://dhdebates.gc.cuny.edu/debates/text/76</ref>.</bibl>
+                    <bibl>Rosenzwig, Roy. “Scarcity or Abundance? Preserving the Past in a Digital
+                        Era.” <hi rend="italic">American Historical Review</hi> 108, no. 3 (2003):
+                            735<hi rend="italic">–</hi>62.</bibl>
+                    <bibl>Schöch, Christof. ”Big? Smart? Clean? Messy? Data in the Humanities.” <hi
+                            rend="italic">Journal of Digital Humanities</hi> 2, no. 3 (2013).
+                        Accessed 25 September 2016. <ref
+                            target="http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/"
+                            >http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/</ref>.</bibl>
+                    <bibl>Spiro, Lisa. “Access, Explore, Converse. The Impact (and Potential Impact)
+                        of the Digital Humanities on Scholarship.” In: <hi rend="italic">Keys for
+                            architectural history research in the digital era</hi>, eds. <hi
+                            rend="Strong"><seg rend="normalweight">Juliette</seg>
+                        </hi><hi rend="familyname">Hueber</hi><hi rend="Strong"
+                            ><seg rend="normalweight" xml:space="preserve"> and Antonio </seg></hi><hi
+                            rend="familyname">Mendes da Silva.</hi> 2014. Accessed 25 September
+                        2016. <ref target="https://inha.revues.org/4925"
+                            >https://inha.revues.org/4925</ref>.</bibl>
+                    <bibl>TEI Consortium. <hi rend="italic">TEI P5: Guidelines for Electronic Text
+                            Encoding and Interchange</hi>, Text Encoding Initiative Consortium,
+                        2016. Accessed 19 July 2016. <ref
+                            target="http://www.tei-c.org/Guidelines/P5/"
+                            >http://www.tei-c.org/Guidelines/P5/</ref>.</bibl>
+                    <bibl>Zaagsma, Gerben. ”On Digital History.” <hi rend="italic">BMGN – Low
+                            Countries Historical Review</hi> 128, no. 4 (2013): 3<hi rend="italic"
+                            >–</hi>29. <ref
+                            target="http://www.bmgn-lchr.nl/articles/10.18352/bmgn-lchr.9344/"
+                            >http://www.bmgn-lchr.nl/articles/10.18352/bmgn-lchr.9344/</ref>.</bibl>
+                </listBibl>
+            </div>
             <div type="summary" xml:lang="sl">
-                <head type="main">PAMETNI MASIVNI PODATKI: UPORABA SLOVENSKIH PARLAMENTARNIH DOKUMENTOV V DIGITALNI
-                    ZGODOVINI</head>
+                <head type="main">PAMETNI MASIVNI PODATKI: UPORABA SLOVENSKIH PARLAMENTARNIH
+                    DOKUMENTOV V DIGITALNI ZGODOVINI</head>
                 <head>POVZETEK</head>
-                
+
                 <docAuthor>Andrej Pančur</docAuthor>
                 <docAuthor>Mojca Šorn</docAuthor>
-            <p>Avtorja v uvodu opozoriva na dejstvo, da velika količina računalniško berljivih
-                podatkov postaja stvarnost in neizogibno dejstvo tudi v zgodovinopisju, pri čemer
-                poudariva, da je prav ta fenomen spodbudil nastanek in uveljavitev digitalne
-                humanistike, ki s pomočjo digitalnih metod in orodij odgovarja na nova raziskovalna
-                vprašanja<hi rend="italic">.</hi></p>
-            <p>Ker so parlamentarni dokumenti bogat vir podatkov, ki ga uporabljajo različne
-                discipline v humanistiki, med drugim tudi v zgodovinopisju, avtorja v nadaljevanju
-                predstaviva primer uporabe parlamentarnih debat v digitalni zgodovini. Predstavljeni
-                primeri so ilustrativni vzorci, s pomočjo katerih hočeva prikazati ogromen
-                potencial, ki ga lahko imajo pametni množični podatki v raziskavah sodobne
-                zgodovine. Vzorčno sva v XML formatu označila 2,7 milijona besed parlamentarnih
-                debat v Zboru združenega dela Skupščine Republike Slovenije v letih 1990–1992. Pri
-                tem sva se odločila uporabiti Smernice Text Encoding Initiative (TEI), ki so v
-                digitalni humanistiki <hi rend="italic">de facto</hi> standard za kodiranje
-                tekstovnih besedil. Avtomatske pretvorbe sva izvajala s pomočjo XSLT stilov,
-                napisanih posebej za ta projekt. Ker avtomatske pretvorbe lahko vsebujejo tudi
-                napačne označbe, je označevanje potekalo delno tudi ročno. S tem delno avtomatskim
-                označevanjem sva krajše seje lahko označila v pol ure, za daljše seje sva po navadi
-                porabila do dve uri, za najdaljše (več kot 200000 besed) pa do štiri ure. Govore sva
-                označila v skladu s TEI modulom za dramska besedila (govor, govorec, didaskalija).
-                Označila sva še strukturo zborov in vrste sej, posameznih sej, vsebinskih sklopov
-                posameznih sej, datumov in časovnega poteka sej. Naredila sva povezave na kazala
-                vsebine in sezname govorcev.</p>
-            <p>Na podlagi tako označenih zapisnikov sej lahko raziskovalci naredijo različne vrste
-                osnovnih analiz. V 13894 govorih je bilo na 54 sejah tako skupaj izgovorjenih več
-                kot 2,7 milijonov besed. Na najdaljši – 36. seji – so v osmih dnevih skupaj govorili
-                29 ur in 3 minute, pri čemer so sejo kar enaindvajsetkrat prekinili. Na najkrajši –
-                9. seji – pa so nasprotno skupaj govorili samo eno uro. Največ so neprekinjeno
-                govorili 460 minut, v povprečju (mediana) pa so neprekinjeno govorili uro in
-                pol.</p>
-            <p>Osnovne analize zapisnikov torej pokažejo, da v prihodnosti zgodovinarji vedno večjih
-                količin digitalnega gradiva ne bodo več mogli obdelovati samo z uporabo klasičnih
-                zgodovinskih metod, temveč bodo morali začeti uporabljati metode in orodja, ki jih
-                razvija digitalna humanistika. Večina zgodovinarjev se bo pri tem (še naprej)
-                zanašala na različna orodja, ki jih razvijajo digitalni zgodovinarji z namenom, da
-                olajšajo delo svojim kolegom, ki se ne ukvarjajo z digitalno humanistiko. Pri tem pa
-                bodo digitalni zgodovinarji morali poznati omejitve, ki jih prinaša uporaba orodij,
-                razvitih v okrilju drugih disciplin, med drugim tudi jezikovne tehnologije. Avtorja
-                prispevka se dobro zavedava, da je za kakovostne analize poleg novih znanj, ki jih
-                prinaša digitalna zgodovina, neobhodno potrebno tudi temeljito poznavanje
-                raziskovalne domene. Zato lahko predvidimo, da bo raziskovanje sodobne zgodovine
-                potekalo v znamenju plodnega sodelovanja strokovnjakov iz različnih področij.</p>
+                <p>Avtorja v uvodu opozoriva na dejstvo, da velika količina računalniško berljivih
+                    podatkov postaja stvarnost in neizogibno dejstvo tudi v zgodovinopisju, pri
+                    čemer poudariva, da je prav ta fenomen spodbudil nastanek in uveljavitev
+                    digitalne humanistike, ki s pomočjo digitalnih metod in orodij odgovarja na nova
+                    raziskovalna vprašanja<hi rend="italic">.</hi></p>
+                <p>Ker so parlamentarni dokumenti bogat vir podatkov, ki ga uporabljajo različne
+                    discipline v humanistiki, med drugim tudi v zgodovinopisju, avtorja v
+                    nadaljevanju predstaviva primer uporabe parlamentarnih debat v digitalni
+                    zgodovini. Predstavljeni primeri so ilustrativni vzorci, s pomočjo katerih
+                    hočeva prikazati ogromen potencial, ki ga lahko imajo pametni množični podatki v
+                    raziskavah sodobne zgodovine. Vzorčno sva v XML formatu označila 2,7 milijona
+                    besed parlamentarnih debat v Zboru združenega dela Skupščine Republike Slovenije
+                    v letih 1990–1992. Pri tem sva se odločila uporabiti Smernice Text Encoding
+                    Initiative (TEI), ki so v digitalni humanistiki <hi rend="italic">de facto</hi>
+                    standard za kodiranje tekstovnih besedil. Avtomatske pretvorbe sva izvajala s
+                    pomočjo XSLT stilov, napisanih posebej za ta projekt. Ker avtomatske pretvorbe
+                    lahko vsebujejo tudi napačne označbe, je označevanje potekalo delno tudi ročno.
+                    S tem delno avtomatskim označevanjem sva krajše seje lahko označila v pol ure,
+                    za daljše seje sva po navadi porabila do dve uri, za najdaljše (več kot 200000
+                    besed) pa do štiri ure. Govore sva označila v skladu s TEI modulom za dramska
+                    besedila (govor, govorec, didaskalija). Označila sva še strukturo zborov in
+                    vrste sej, posameznih sej, vsebinskih sklopov posameznih sej, datumov in
+                    časovnega poteka sej. Naredila sva povezave na kazala vsebine in sezname
+                    govorcev.</p>
+                <p>Na podlagi tako označenih zapisnikov sej lahko raziskovalci naredijo različne
+                    vrste osnovnih analiz. V 13894 govorih je bilo na 54 sejah tako skupaj
+                    izgovorjenih več kot 2,7 milijonov besed. Na najdaljši – 36. seji – so v osmih
+                    dnevih skupaj govorili 29 ur in 3 minute, pri čemer so sejo kar enaindvajsetkrat
+                    prekinili. Na najkrajši – 9. seji – pa so nasprotno skupaj govorili samo eno
+                    uro. Največ so neprekinjeno govorili 460 minut, v povprečju (mediana) pa so
+                    neprekinjeno govorili uro in pol.</p>
+                <p>Osnovne analize zapisnikov torej pokažejo, da v prihodnosti zgodovinarji vedno
+                    večjih količin digitalnega gradiva ne bodo več mogli obdelovati samo z uporabo
+                    klasičnih zgodovinskih metod, temveč bodo morali začeti uporabljati metode in
+                    orodja, ki jih razvija digitalna humanistika. Večina zgodovinarjev se bo pri tem
+                    (še naprej) zanašala na različna orodja, ki jih razvijajo digitalni zgodovinarji
+                    z namenom, da olajšajo delo svojim kolegom, ki se ne ukvarjajo z digitalno
+                    humanistiko. Pri tem pa bodo digitalni zgodovinarji morali poznati omejitve, ki
+                    jih prinaša uporaba orodij, razvitih v okrilju drugih disciplin, med drugim tudi
+                    jezikovne tehnologije. Avtorja prispevka se dobro zavedava, da je za kakovostne
+                    analize poleg novih znanj, ki jih prinaša digitalna zgodovina, neobhodno
+                    potrebno tudi temeljito poznavanje raziskovalne domene. Zato lahko predvidimo,
+                    da bo raziskovanje sodobne zgodovine potekalo v znamenju plodnega sodelovanja
+                    strokovnjakov iz različnih področij.</p>
             </div>
         </back>
     </text>
