@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Raziskovanje vsakdanjega življenja: socialistični vsakdanjik in zgodovinopisje</title>
+                <author>
+                    <name>David</name>
+                    <forename>Petelin</forename>
+                    <roleName>Dr. zgodovine</roleName>
+                    <roleName>mag. upr. znan.</roleName>
+                    <roleName>podiplomski študent prava</roleName>
+                    <roleName>policist. kandidat</roleName>
+                    <affiliation>Policijska akademija</affiliation>
+                    <address>
+                        <addrLine>Rocenska cesta 56</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>david.petelin@gmail.com</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2016-09-02</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/165</pubPlace>
+                <date>2016</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">57</biblScope>
+                <biblScope unit="issue">2</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>everyday life</term>
+                    <term>historiography</term>
+                    <term>socialism</term>
+                    <term>post-war period</term>
+                    <term>methodology</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>vsakdanje življenje</term>
+                    <term>zgodovinopisje</term>
+                    <term>socializem</term>
+                    <term>povojno obdobje</term>
+                    <term>metodologija</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2017-03-17</date>
+                    <name>Neja Blaj Hribar</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>David Petelin<note place="foot" xml:id="ftn1" n="*">
+                        <hi rend="bold" >Dr. zgodovine, mag. upr. znan., podiplomski študent prava, policist. kandidat, Policijska akademija, Rocenska cesta 56, SI-1000 Ljubljana, </hi><ref target="mailto:david.petelin@gmail.com"><hi rend="bold">david.petelin@gmail.com</hi></ref>
+            </note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="UDC"></idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+            <p><hi rend="italic">Avtor v prispevku prikazuje raziskovanje vsakdanjega življenja,
+                    teoretično opredelitev koncepta in raziskovanje tega fenomena znotraj
+                    zgodovinopisja in drugih humanističnih znanosti, zgodovinski oris ter pregled
+                    raziskovanja vsakdanjega življenja v zgodovinopisju. V drugem delu prispevka pa
+                    predstavi tehnike raziskovanja, metodične postopke in najrazličnejše vire
+                    raziskovanja socialističnega vsakdanjika.</hi></p>
+            <p><hi rend="italic">Ključne besede</hi>: <hi rend="italic">vsakdanje življenje,
+                    zgodovinopisje, socializem, povojno obdobje, metodologija.</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+            <head>ABSTRACT</head>
+            <head>RESEARCHING EVERYDAY LIFE: DAILY LIFE IN SOCIALISM AND
+                    HISTORIOGRAPHY</head>
+            <p><hi rend="italic">In the following contribution the author describes the research of
+                    everyday life, the theoretical definition of the concept, the research of this
+                    phenomenon in the context of historiography and other humanities, as well as the
+                    historical outline and the overview of everyday life research in historiography.
+                    In the second part of the contribution the author presents the research
+                    techniques, methodology, and the various sources, useful for the research of
+                    everyday life in socialism.</hi></p>
+            <p><hi rend="italic">Keywords: everyday life, historiography, socialism, post-war
+                    period, methodology</hi></p>
+            </div>
+        </front>
+        <body>
+            <div><head>Uvod</head>
+            <p>Na raziskovalno polje zgodovine vsakdanjega življenja je doslej poseglo že nekaj
+                slovenskih zgodovinarjev, pri tem pa je treba opozoriti, da so raziskave vsakdanjega
+                življenja večinoma omejene na obdobja do konca druge svetovne vojne. Za širšo
+                primerjavo velja opozoriti na v zadnjih letih povečano zanimanje za vsakdanje
+                življenje v času socializma – tako v tujini<note place="foot" xml:id="ftn2" n="1"> Na primer: Antonio Cazorla Sanchez, <hi rend="italic">Fear and progress – Ordinary Lives in Francos Spain, 1939–1975</hi>
+                        (West Sussex: Wiley-Blackwell, 2010). Philippe Aries in Georges Duby, <hi rend="italic">A History of Private Life. Vol. 5: Riddles of Identity in
+                            Modern Times</hi> (Cambridge in London: The Belknap Press of Harvard
+                        University Press, 1991). Peter Borscheid, <hi rend="italic">Alltagsgeschichte – Modetorheit oder neues Tor zur Vergangenheit. Über
+                            das Studium der Geschichte</hi> (München: Dtv, 1990). Paulina Bren,
+                        »Weekend Getaways. The Chata, the Tramp and the Politics of Private Life in
+                        Post-1968 Czechoslovakia,« v: David Crowley, Paulina Bren in Mary Neuburger,
+                            <hi rend="italic">Communism Unwrapped. Consumption in Cold War Eastern
+                            Europe</hi> (New York: Oxford University Press, 2002). David Crowle in
+                        Susan Reid, <hi rend="italic">Socialist Spaces. Sites of Everyday Life in
+                            the Eastern Bloc</hi> (New York: Berd Publisher, 2002). Zsuzsa Ferge,
+                            <hi rend="italic">A Society in the Making. Hungarian Social and Societal
+                            Policy 1945–75</hi> (London: Penguin Books, Harmondsworth, 1979).
+                        Orlando Figes, <hi rend="italic">Šepetalci. Zasebno življenje v Stalinovi
+                            Rusiji</hi> (Ljubljana: Modrijan, 2009).</note> kot na prostoru
+                nekdanje države Jugoslavije.<note place="foot" xml:id="ftn3" n="2"> Na primer: Iris Adrić, ur., <hi rend="italic">Leksikon Yu
+                            mitologije</hi> (Beograd in Zagreb: Rende, Postscriptum, 2004). <hi rend="italic">Jugoslavija između Istoka i Zapada</hi>, <hi rend="italic">Obični ljudi u neobičnoj zemlji, Svakodnevni život u Bosni i
+                            Hercegovini, Srbiji i Hrvatskoj 1945–1990</hi> (Zagreb in Sarajevo:
+                        Euroclio, 2007). Dijana Dijanić et al., <hi rend="italic">Ženski biografski
+                            leksikon</hi>. <hi rend="italic">Sjećanje žena na život u
+                            socijalizmu</hi> (Zagreb: Centar za ženske studije, 2004). Ivana
+                        Dobrivojević, »Urbanization in Socialism. Everyday Life in Yugoslav Towns,
+                        1945 to 1955,« v: <hi rend="italic">Cityscapes in History. Creating the
+                            Urban Experience,</hi> ur. Helena Tóth in Katrina Gulliver (Farnham:
+                        Ashgate Publishing Limited, 2014), 81<hi rend="italic">–</hi>100). Igor
+                        Duda, <hi rend="italic">U potrazi za blagostanjem. O povijesti dokolice i
+                            potrošačkog društva u Hrvatskoj 1950-ih i 1960-ih</hi> (Zagreb: Srednja
+                        Europa, 2005). Hannes Grandits in Karin Taylor,
+                            <hi rend="italic" xml:space="preserve">Yugoslavia’s Sunny Side. A History of Tourism in Socialism </hi>(<hi rend="italic">1950s–1980s</hi>) (Budapest in New York: Central European
+                        University Press, 2010).</note> Glavni namen članka je predstaviti in
+                opisati okvir raziskovanja vsakdanjega življenja v povojni dobi, metodološki pristop
+                ter teoretsko osnovo, v skladu s tem pa pojasniti spremembe vsakdanjih praks oz.
+                dejanskosti (ponovljivih in večkratnih) kulture izgradnje socializma. V obdobju po
+                vojni gre namreč za spremembe, ki so se zgodile v procesu modernizacije<note place="foot" xml:id="ftn4" n="3"> V socialističnih
+                        družbah, ki so se konstituirale kot tranzicijske družbe, ima modernizacija
+                        ključno vlogo: družbe naj bi popeljala v boljši in modernejši jutri.
+                        Razprave o modernizaciji po drugi svetovni vojni so zajele
+                        industrializacijo, urbanizacijo in družbenopolitični razvoj v socialističnem
+                        duhu. Modernizacija je bila v času socialistične Jugoslavije predstavljena
+                        enoznačno kot vsakodnevni veliki skupni dosežki, ki naj bi razkrivali
+                        naprednost delavskega samoupravljanja in bili ljudem v ponos. Da bi
+                        celoviteje razumeli modernizacijo socialistične Jugoslavije, jo je treba
+                        razlagati z več vidikov. Sociološko gledano je šlo za avtoritaren režim, ki
+                        je deloma blokiral modernizacijo zaradi politične kulture, v katerega
+                        središču vladata komunistična partija in karizma njenega vodje. Zaradi
+                        poudarjanja evropocentrizma in konstitutivnih dejavnikov demokracije so
+                        vladajoče komunistične partije modernizacijo v glavnem odklanjale.
+                        Jugoslovanski komunisti so zagovarjali stališče, da je treba na proces
+                        modernizacije gledati kot na pluralizem različnih in tudi nasprotujočih si
+                        načinov modernizacije. To je pomenilo, da je zgrešeno govoriti o
+                        kapitalistični oziroma zahodnoevropski obliki modernizacije kot edini in
+                        obvezni poti k moderni industrijski družbi. Ko so jugoslovanski politiki in
+                        strokovnjaki govorili o procesu modernizacije, so mislili predvsem na njen
+                        gospodarski vidik. Obravnavali so jo kot prestrukturiranje gospodarske
+                        sestave družbe, posodobitev načina gospodarjenja in kot prizadevanja za
+                        oblikovanje samostojnega nacionalnega gospodarstva, ki je samo sposobno
+                        zagotoviti tekočo proizvodnjo in razvoj. – Nina Vodopivec, »Modernizacija in
+                        tranzicija,« v: <hi rend="italic">Podobe modernizacije</hi>.
+                        <hi rend="italic" xml:space="preserve">Poglavja iz gospodarske in socialne modernizacije Slovenije v 19. in 20. stoletju, </hi>ur.
+                        Žarko Lazarević in Aleksander Lorenčič (Ljubljana: Inštitut za novejšo
+                        zgodovino, 2009), 377–403.</note> predvsem na področju stanovanjskih
+                razmer, industrializacije, urbanizacije, načina življenja (dvig življenjskega
+                standarda, nova vloga družine in ženske, družabnost in prosti čas, vpliv Zahoda,
+                konec klasične meščanske družbene ureditve itd.) in demokratizacije materialnih
+                dobrin (npr. pojav in vloga televizije, hladilnika, avtomobilov itd.). Prav tako je
+                cilj predstaviti kompleksne kulturne, politične, družbene in zgodovinske dejavnike,
+                ki soustvarjajo vsakdanje življenje in vplivajo nanj.<note place="foot" xml:id="ftn5" n="4"> Drago Kos, ur.,
+                        <hi rend="italic" xml:space="preserve">Horizonti vsakdanjega življenja = Horizons of everyday life </hi>(Ljubljana:
+                        Slovene Sociological Association in Institute of Social Sciences, 1998)<hi rend="italic">.</hi></note> S prikazom vsakdanjega življenja
+                poskušamo dati tiste odgovore, na katere dosedanje zgodovinopisje ni postavljalo
+                vprašanj, saj je večina raziskav omejena na politični in gospodarski prikaz.<note place="foot" xml:id="ftn6" n="5"> Peter Berger in Thomas
+                        Luckmann, <hi rend="italic">Družbena konstrukcija realnosti</hi> (Ljubljana:
+                        Cankarjeva založba, 1988), 23.</note></p>
+            <p>Z raziskovanjem preteklega vsakdanjega življenja analiziramo kolektivne in posamezne
+                življenjske prakse, definiramo in orisujemo značilnosti, strukture ter akterje
+                vsakdanjega življenja, kot so dom kot arhetipski sedež in sidrišče vsakdanjega
+                življenja, javno in zasebno, prostor in čas vsakdanjega življenja, vez med
+                posameznikom, njegovim vsakdanjim neposrednim okoljem (vsakdanji svet) ter širšo
+                družbo. V največjem številu historičnih orisov socializma praviloma umanjkata prav
+                kulturni in družbeni vidik izkušenj vsakdanjih ljudi, poudarja pa se
+                institucionalno-politični vidik. Kljub temu dejstvu pa je za razumevanje
+                socialističnega vsakdanjega življenja potrebno poznavanje ideološkega ozadja
+                državnega okvira. Uradna ideologija namreč ni bila ločena od vsakdanjika, temveč ga
+                je soustvarjala. Da si je režim namreč pridobil tako množično in dolgoletno podporo,
+                je bilo mogoče ravno z ljudsko prisvojitvijo ključnih dominantnih vrednot.<note place="foot" xml:id="ftn7" n="6"> Gregor Bulc, recenzija <hi rend="italic">Remembering Utopia. The Culture of Everyday Life in Socialist
+                            Yugoslavia</hi> [Spominjanje utopije. Kultura vsakodnevnega življenja v
+                        socialistični Jugoslaviji], ur. Breda Luthar in Maruša Pušnik, <hi rend="italic">Književni listi</hi>, 9. 2. 2011.</note>
+            </p></div>
+            <div>
+            <head>O vsakdanjosti in vsakdanjem življenju</head>
+            <p>Vsakdan je zgodovinsko specifična in kulturno konstruirana temporalna struktura, ki
+                vzdržuje vsakdanjost vsakdanjega življenja. SSKJ<note place="foot" xml:id="ftn8" n="7">
+                        <hi rend="italic">Slovar slovenskega knjižnega jezika</hi> (Ljubljana:
+                        Slovenska akademija znanosti in umetnosti, Inštitut za slovenski jezik Frana
+                        Ramovša ZRC SAZU in Založba ZRC, 2000).</note> samostalnik vsakdan (z
+                eno besedo in z rodilnikom vsakdana, ne vsakega dneva) opredeljuje kot dan, ki se po
+                svojih značilnostih in dogodkih ne razlikuje bistveno od kateregakoli drugega dneva.
+                Izraz vsakdanje življenje se v navadni govorici in literaturi uporablja kot sinonim
+                za navadno življenje večine ljudi. Za nas je vsakdanje življenje sinonim za navadno,
+                ustaljeno življenje posameznika, kjer vladajo prikrita homogenost in temeljna
+                enoličnost dni, ki si sledijo, ter dogajanja, s katerim so zapolnjeni. Postavka
+                implicira, da je življenje strukturirano kot vsakdan in da je vsakdan kot struktura
+                proizveden. Proizvedenost ima dve razsežnosti – ta struktura ni tu od nekdaj, ampak
+                je nekoč nastala na novo; zdaj in za našo izkušnjo pa se vsakdan proizvaja vedno
+                znova, se skratka reproducira. Vedno in kontinuirano pa ni enako kot iz dneva v dan,
+                saj vsakdanje življenje ni vedno enako in nespremenljivo.<note place="foot" xml:id="ftn9" n="8"> Kos, <hi rend="italic">Horizonti vsakdanjega
+                            življenja</hi>, 25.</note> Spreminja se z naravnimi danostmi
+                (rojstvo, odraščanje in staranje) in zunanjimi dejavniki (sprememba bivališča, vojno
+                stanje, politično okolje in resursi). Vsakdanje življenje po neki vrsti
+                eksistencialnega avtomatizma običajno šteje za nekaj, kar je, kot je, in se mu kot
+                takemu ne more podati okvira ali kakršnekoli konceptualno-teoretične
+                racionalizacije. Enostavno je del trivialnosti, prisile, običajev in sprememb.<note place="foot" xml:id="ftn10" n="9"> Ibid., 37.</note> Ravno zaradi tega,
+                ker je vsakdan prerez celotnega življenja družbenega človeka, njegova podoba govori
+                o značaju konkretne družbe in družbenega človeka, jo je treba imeti za neizogiben
+                moment refleksije in raziskovanja. Vsakdanjosti se ne da zaobjeti ne v ortodoksni
+                marksistični shemi baze in nadgradnje ne v abstraktni subliminalni formi
+                tradicionalne filozofije in zgodovinopisja.<note place="foot" xml:id="ftn11" n="10"> Lev Kreft, »Zgodovina in vsakdanje življenje,« <hi rend="italic">Borec</hi> 51, št. 575/576 (1999): 64.</note>
+                Historično materialistična črno-bela shematika reducira njena mnogoznačnost in
+                bogastvo v iluziji, da se vse razreši v bazi in nadgradnji, spekulativna filozofija
+                pa o njej sodi, kot da gre za iluzijo, da je avtentično življenje mogoče samo kot
+                transcendenca vsakdana. Ne en ne drug položaj nista dorasla kompleksnosti
+                vsakdanjega življenja, saj se to ne odvija kot linearni proces zgodovinskih,
+                filozofskih, političnih, ekonomskih in socialnih danostih, temveč kot skupek
+                številnih interferenc: dela, družbenih odnosov, ideologije, represije, gest in
+                dejanj, položajev in diskurza. Obstaja neka celota brez ozira na moralna,
+                politično-ideološka ali neka druga oporišča. Zajetje te celovitosti in njenih
+                konkretnih izrazov zasleduje bistveno bogastvo vsakdanjega življenja izpod površine
+                siromašnih in repetitivnih stereotipov in kot raziskovalna naloga ostaja enako
+                pomembno za zavedanje modernega človeka ter za znanstveni odnos kot do dejstev
+                sveta.</p>
+            <p>Pred mnogimi desetletji je beseda vsakdanje označevala to, kar je vsakodnevno
+                neobhodno za življenje in preživetje: »<hi rend="italic">dajte nam naš vsakdanji
+                    kruh</hi>«.<note place="foot" xml:id="ftn12" n="11">
+                        Molitev <hi rend="italic">Oče naš</hi> v drugi kitici.</note> Od takrat
+                sta se smisel in pomen besed osrednje krščanske molitve spremenila. Vsakdanje
+                označuje skupek dnevnih postopkov, ki so povezani in tvorijo celovitost. Če družbe
+                ne definiramo samo s potrošnjo, postaja jasno, da je obravnavanje teh izoliranih
+                dejstev (ne)neizčrpana vsakdanjost, temveč je treba imeti uvid v njihov kontekst:
+                skozi družbene odnose, v katerih se dogajajo. Z drugimi besedami, vsakdanjost, kot
+                je jezik, vsebuje implicitne, čeprav ukrivljene funkcije evidentne forme in globlje
+                strukture. Vsakdanja dejstva se ponavljajo (reproducirajo) ravno zaradi te
+                povezanosti in tistega, kar implicira. So istočasno individualni, skupinski (družba,
+                prijatelji) in družbeni. Vsakdanjost je v tesnem odnosu z modalitetami organizacije
+                in eksistence družbe, ki zmehča odnose med posli, prostim časom, zasebnim in javnim
+                življenjem. </p>
+            <p>Vsakdanjost je kot prisila, ki članom družbe z malo izjem omogoča možnost
+                razpolaganja z neznatnimi variacijami v odnosu do družbenih norm. Da se družba
+                reproducira, je neobhodno zaradi reprodukcije posameznikov. Vsakdanje življenje je
+                celokupnost takih aktivnosti, saj konkretizirajo reprodukcijo posameznikov in
+                vsakokrat ustvarjajo možnost za družbeno reprodukcijo.<note place="foot" xml:id="ftn13" n="12"> Agnes Heller, <hi rend="italic">Svakodnevi život</hi>
+                        (Beograd: Nolit, 1978), 105.</note> Vsakdanje življenje obstaja v vsaki
+                družbi. Vsak človek ima vsakdanje življenje. Življenjskega okvira posameznika pa ne
+                določajo samo njegove psihofizične lastnosti, sposobnosti in danosti, temveč
+                družbeni okvir, v katerem se ta aktivno giblje (politični, ekonomski, kulturni in
+                tehnološki), ki ga določajo in omejujejo znotraj veljavnih družbenih in pravnih norm
+                ter vrednostno opredeljuje (morebitno) religiozno-moralno ozadje. Tukaj ni govora o
+                determinizmu posameznikovega razvoja in možnosti samouresničenja, temveč realnega
+                okolja, ki ga hkrati osvobaja in omejuje. Če parafraziramo filozofsko misel
+                Wittgensteina, so meje vsakdanjega sveta meje spoznavnega in razumevajočega ter
+                obratno. V vsakdanjem življenju vsakega človeka lahko najdemo maloštevilne in na
+                zelo abstraktni ravni identične, skupne aktivnosti. Vsak potrebuje spanec, vendar ne
+                pod enakimi pogoji in enako dolgo, ter hrano, vendar ne v isti količini in na isti
+                način, itd.<note place="foot" xml:id="ftn14" n="13"> Ibid., 157.</note> Vsak
+                človek z rojstvom vstopi v svet, ki obstaja neodvisno od njega. In ta svet se mu zdi
+                kot gotov, v tem smislu se mora obdržati in dokazati svojo sposobnost, da (pre)živi.
+                Z rojstvom pride v konkretne družbene odnose, v konkretne sisteme zahtev, v
+                konkretne institute. Naučiti se mora uporabljati stvari, sprejeti te sisteme, se
+                obdržati v določenem družbenem okolju.<note place="foot" xml:id="ftn15" n="14">
+                        Gorazd Makarovič, <hi rend="italic">Slovenci in čas. Odnos do časa kot okvir
+                            in sestavina vsakdanjega življenja</hi> (Ljubljana: Založba Krtina,
+                        1995), 30.</note> Reprodukcija posameznika je vedno reprodukcija nekega
+                zgodovinskega posameznika in nekega konkretnega sveta. »Vsakdan je neviden, ampak
+                vedno prisoten. Poln je kontradikcij, lahko je transcendenten, presežen. Dejanja, ki
+                soustvarjajo vsakdanje življenje, so manipulacija s pogoji eksistence in
+                    koeksistence.«<note place="foot" xml:id="ftn16" n="15">
+                        Erving Goffman, <hi rend="italic">The Presentation of Self in Everyday
+                            Life</hi> (London: Penguin Books, 1969), 19.</note></p>
+            <p>Vsakdanje življenje je heterogeno v najrazličnejših povezavah in vidikih. Zaradi tega
+                ima eno samo središče, in to je posameznik.<note place="foot" xml:id="ftn17" n="16"> Sigmund Freud,
+                        <hi rend="italic" xml:space="preserve">Psihopatologija vsakdanjega življenja </hi>(Ljubljana:
+                        Mladinska knjiga, 2009), 69.</note> Vsakdanjost dobi smisel samo v
+                drugem posredniku, to je v zgodovini, v zgodovinskem procesu kot substanci družbe. V
+                drugih časih in družbah, dovolj drugačnih od sodobne, so bile strukture preživljanja
+                časa bistveno drugačne. Življenje, izkušeno in dojeto kot vsakdanje, je specifičen
+                zgodovinski rezultat ter je kulturno konstruirano. Vsakdanje življenje pa nista le
+                politika in gospodarstvo, temveč nas zanimajo tudi miselni svet in predmeti, ki
+                izpričujejo duhovne, estetske in intelektualne poglede.<note place="foot" xml:id="ftn18" n="17"> Umetnost in estetika v pričujočem
+                        času.</note> Vsakdanje življenje je identificirano s potrošnjo
+                (konzumiranje) ter na drugi strani z zasebnim življenjem. Potrošnja v tem primeru
+                pomeni odnos potrošnje, torej pasiven način obnašanja do sveta in predmetov.
+                Vsakdanje mišljenje se ne more ločiti od oblik delovanja vsakdanjega življenja.<note place="foot" xml:id="ftn19" n="18"> Mirjana Ule, <hi rend="italic">Psihologija vsakdanjega življenja</hi> (Ljubljana: Znanstveno in
+                        publicistično središče, 1993), 38.</note> Tudi vsakdanje mišljenje je
+                heterogeno – prihaja iz vsakdanjosti. Skupne poteze mišljenja se kažejo v raznih
+                oblikah aktivnosti vsakdanjosti.<note place="foot" xml:id="ftn20" n="19"> Heller,
+                            <hi rend="italic">Svakodnevi život</hi>, 159.</note> Raziskovalci
+                fenomena vsakdanjega opredeljujejo enote vsakdanjega življenja, ki se povezujejo v
+                obsežnejše sekvence dogajanj.<note place="foot" xml:id="ftn21" n="20"> Ule, <hi rend="italic">Psihologija vsakdanjega
+                            življenja</hi>, 45.</note>
+            </p>
+            <p>Družbo v okviru vsakdanjega sveta definiramo<note place="foot" xml:id="ftn22" n="21"> Berger in Luckmann, <hi rend="italic">Družbena
+                            konstrukcija realnosti</hi>, 31. </note> kot obkroženost,
+                obkoljenost in stalno interakcijo posameznikov. Vsakdanje življenje je v veliki meri
+                sestavljeno iz rutin. Rutinizacija je temeljni mehanizem vsakdanjega življenja.
+                »Sprememba nekega postopka v vsakdanjo prakso je rutinizacija.«<note place="foot" xml:id="ftn23" n="22"> Max Weber, <hi rend="italic">Protestantska etika in duh kapitalizma</hi> (Ljubljana: Studia
+                        humanitatis, 2002), 55.</note> Družba je kontinuirano podjetje, početje,
+                proces. Ker je rutina, lahko govorimo, da družbo sestavljajo strukture. Zato
+                strukture razumemo kot modele vedenja, obnašanja ljudi v vsakdanjem življenju,
+                katerih mreže se povezujejo. Za strukturo vseh drugih razmerij je pomembna osebna
+                interakcija. Vsakdanji svet lahko definiramo kot neposredno naravno in družbeno
+                okoliščino posameznika, ki je relativno kostantna v času. Za posameznika je njegov
+                skrajni časovni horizont edini svet, v katerem lahko neposredno živi. Vsakdanje
+                življenje je edino, ki je za nas popolnoma aktualno in smo zanj popolnoma odgovorni,
+                to pa zato, ker ga določajo naša dogajanja in dejanja ljudi, ki nas obkrožajo. V tem
+                svetu se posamezniki dojemamo kot relativne subjekte svojih dejanj. Življenjski svet
+                označuje epistemološki status vsakdanjega življenja, ki je primarna realnost, na
+                katero se ljudje nanašajo, jo tematizirajo in problematizirajo.</p>
+            <p>Življenjski svet je fenomenološki pojem in primarna realnost, na katero se ljudje
+                vedno zanašamo, jo javno predpostavljamo in po potrebi delno problematiziramo.
+                Posameznik dojema vsakdanji svet kot skupen svet in paradigmo vsega. Habermas v
+                svojem opisu vsakdanjega življenjskega sveta poudarja,<note place="foot" xml:id="ftn24" n="23"> Jürgen Habermas, <hi rend="italic">The Structural Transformation of the Public Sphere. An
+                            Inquiry into a category of Bourgeois Society</hi> (Cambridge: Polity,
+                        1989), 87.</note> da moramo, da lahko vanj dvomimo, razumeti le
+                vprašljivost vsakdanjega sveta (kot) radikalno. Življenjski svet ni konstanta, pač
+                pa je zgodovinsko spremenljiva stvar, ki se spreminja pod vplivom dogajanj
+                (interakcij) z drugimi svetovi, prav tako starodavnimi človeškimi produkcijami. V
+                antiki in srednjem veku je bil vsakdanji svet tudi edini svet, v katerem so ljudje
+                delovali nesegmentirano. Z modernizacijo pa se življenje segmentira (delitev dela),
+                posamezni segmenti življenja pa se osamosvojijo v bolj abstraktne ločene svetove,
+                npr. znanost, umetnost, politika, zasebno življenje. Vsakdanji svet je omejen z
+                zmožnostmi spreminjanja tega sveta. Je svet, v katerem lahko nekaj počnemo, kar
+                pomeni, da ga določajo meje našega delovanja. Od vsega začetka je vsakdanji svet naš
+                skupni svet, je intersubjektiven. Luckmann temeljno strukturo dejanskosti
+                vsakdanjega sveta definira kot v enaki meri skupno meni in drugim ljudem.<note place="foot" xml:id="ftn25" n="24"> Berger in Luckmann,
+                            <hi rend="italic">Družbena konstrukcija realnosti</hi>, 77.</note>
+                Intersubjektivnost loči vsakdanji svet od drugih svetov.</p>
+            </div>
+            <div>
+            <head>Zgodovinopisje in vsakdanje življenje</head>
+            <p>Proučevanje t. i. zgodovine vsakdanjega življenja je postalo objekt širšega zanimanja
+                strokovne javnosti šele v drugi polovici 20. stoletja. Nikakor pa se takrat ni začel
+                razvoj raziskav na tem področju. Zgodovino vsakdanjega življenja je poznala že
+                historiografija 19. stoletja, le da je bila obravnavana kot obrobna tema za
+                popestritev t. i. velike zgodovine (politične in gospodarske).<note place="foot" xml:id="ftn26" n="25"> Marko Štuhec, <hi rend="italic">Rdeča postelja, ščurki in solze vdove Prešeren. Plemiški zapuščinski
+                            inventar 17. stoletja kot zgodovinski vir</hi> (Ljubljana: Studia
+                        humanitatis, 1995), 14, 15.</note> Kot pojem in koncept se je vsakdanje
+                življenje uveljavilo šele v prvi polovici 20. stoletja (zametki v analovski šoli) in
+                postalo priljubljena tema v družboslovnih in humanističnih disciplinah po drugi
+                svetovni vojni. Iz zanimanja za makrostrukture, kot so država, religija, politika,
+                se je zanimanje obrnilo na mikroraven, k človeku kot posamezniku, s tem pa je
+                postalo zanimivo tudi vsakdanje življenje ljudi. Pri tem moramo imeti v mislih, da
+                zgodovine in teorije namreč ne moremo preprosto posamezno odmisliti, saj ne
+                obstajata kot ločeni samostojni enoti ali antitezi. Obe predstavljata zapletena
+                koncepta, katerih izvor je tesno povezan, saj obstajajo teorije zgodovine in
+                zgodovina teorij.<note place="foot" xml:id="ftn27" n="26">
+                        Simon Gunn, <hi rend="italic">History and cultural theory</hi> (London:
+                        Pearson Education, 2006), 4.</note> Eno ključnih vprašanj v
+                zgodovinopisju tako postane, kako so ljudje v nekem obdobju živeli.<note place="foot" xml:id="ftn28" n="27"> Zdenko Čepič,
+                        »Politika življenjske ravni v prvem desetletju socializma v Jugoslaviji,«
+                            <hi rend="italic">Prispevki za novejšo zgodovino</hi> 46, št. 1 (2006):
+                        397.</note>
+            </p>
+            <p>Fenomen (vsakdanjega) življenja ljudi in družb ter njegovo raziskovanje sta sicer v
+                zgodovinopisju prisotna pravzaprav od začetka (Herodotove pripovedi o življenju in
+                navadah tujih ljudstev), vendar pa se je v zadnjih desetletjih razvila posebna smer
+                zgodovinopisja, ki se v celoti posveča tematiki vsakdanjega življenja. Med prvimi je
+                bila izrazito analovska šola v Franciji, že od dvajsetih let 20. stoletja, ki je
+                poleg zgodovine mentalitet dajala poudarek in impulz tudi raziskovanju zgodovine
+                vsakdanjega življenja oz. s svojo paradigmo poskušala zajeti totalnost zgodovine
+                (fr. <hi rend="italic">histoire totale</hi>). Zgodovina neke dobe je zgodovina
+                totalne družbe. Z vidika predmeta razprave in vidika geografije je francoski
+                zgodovinar Fernand Braudel prekoračil meje konvencionalne ekonomske zgodovine z
+                delom <hi rend="italic">Civilisation materielle et capitalisme</hi>. Namesto
+                tradicionalnih kategorij je opazoval vsakdanje življenje ljudi in stvari, »vse, kar
+                človeštvo ustvarja ali uporablja«.<note place="foot" xml:id="ftn29" n="28"> Peter Burke, <hi rend="italic">Revolucija v francoskem
+                            zgodovinopisju</hi> (Ljubljana: Studia Humanitatis, 1993),
+                    53.</note> V omenjenem delu je Braudel v prvem zvezku utemeljil koncept
+                »vsakdanjega življenja«, in zapisal, da cilj ni bil nič manj kot historizacija
+                vsakdanjega življenja (<hi rend="italic">l'introduction de la vie quotidienne dans
+                    la domaine de l'histoire</hi>).<note place="foot" xml:id="ftn30" n="29"> Ibid., 54.</note></p>
+            <p>Priznanje neelitne ljudske kulture kot raziskovalnega interesa je vodilo k novim
+                potem. Tudi v Združenih državah Amerike (ZDA) je počasi začelo prodirati zanimanje
+                za popularno kulturo, ki je kmalu postala predmet akademskega zanimanja.<note place="foot" xml:id="ftn31" n="30"> Borscheid, <hi rend="italic">Alltagsgeschichte – Modetorheit oder neues Tor zur Vergangenheit</hi>,
+                        55.</note> Medtem ko je zgodovina mentalitet v Franciji postala hitro
+                priljubljena, je bila nemška socialna zgodovina mnogo bolj pod vplivom strukturne
+                zgodovine (strukturalizem). To je bilo tudi gibanje »Gesellschaftshistorische«, ki
+                je dominiralo v šestdesetih letih. Začetki strukturalizma ležijo v razvoju
+                jezikoslovja okoli prve svetovne vojne (Saussure, Jakobson). Temeljna ideja je bila,
+                da je pomen neodvisen od posameznika in namesto tega inherenten v samem sistemu
+                jezika, katerega načela naj bi osvetljevali. Strukturalizem se je torej ukvarjal z
+                jezikovnim sistemom, ki omogoča pomen. Po letu 1945 so bile te ideje sprejete v
+                Franciji in se razširile na številna družboslovna področja, med drugim tudi v
+                antropologijo in marksistično politično teorijo. Strukturalisti so se v tem širšem
+                kontekstu ukvarjali z identifikacijo objektivnih pogojev, ki podpirajo in
+                soustvarjajo fenomene, naj bodo to kulture, literarna besedila ali pa celo družbeni
+                sistemi. Povojni francoski strukturalizem predstavlja odziv na nekatere nove tokove,
+                še posebno na Sartrovo fenomenologijo, ki izhaja iz posameznikovega utelešenja, in
+                njegov stvarni angažma ter hegeljanski marksizem, po katerem so bili razredi in ne
+                posamezniki tisti, ki so bili nosilci zgodovine. Prav nasprotno s tem so
+                strukturalisti zagovarjali stališče, da so posamezniki in razredi proizvod
+                sistemskega oziroma strukturnega procesa, ne pa subjekti ali pa celo aktivni
+                dejavniki zgodovine. Če je bil vpliv strukturalizma na francoski analovski
+                zgodovinski krog posreden, je bil vpliv na angloameriško zgodovinopisje v petdesetih
+                in šestdesetih letih 20. stoletja še toliko bolj šibek.<note place="foot" xml:id="ftn32" n="31"> Simon Gunn, <hi rend="italic">History and cultural theory</hi> (London: Pearson Education, 2006),
+                        10.</note></p>
+            <p>Na podlagi kritičnega in nedogmatičnega branja marksističnih tekstov so poskušali
+                rekonstruirati pretekle realnosti, jih narediti globlje razumljive, katerih
+                eksistenca ni bila odvisna od zunanjih okvirov razen socialnozgodovinskih struktur
+                (razred, religija, država, družba). Zglede za drugačno zgodovino predstavljajo
+                zgodovinarji Eric J. Hobsbawm, Edvard P. Thompson, Carlo Ginzburg in Francoz
+                Emmanuel Le Roy Ladurie s svojimi študijami.<note place="foot" xml:id="ftn33" n="32"> Burke, <hi rend="italic">Revolucija v francoskem
+                            zgodovinopisju</hi>.</note> Razlike med zgodovino vsakdanjega
+                življenja in etnologijo (narodopisja) ali novo kulturno zgodovino so bile vse bolj
+                očitne in opazne, vendar z manjkajočim tradicionalizmom in kritično
+                    perspektivo.<note place="foot" xml:id="ftn34" n="33"> Alf Lüdtke, <hi rend="italic">Alltagsgeschichte. Zur Rekonstruktion historischer
+                            Erfahrungen und Lebensweisen</hi> (Frankfurt am Main: Campus Verlag,
+                        1989), 18.</note> Različni pogledi so med drugim odpirali nove možnosti
+                zgodovinskega dojemanja iz lastne logike fenomena, razumevanje in postavljanje novih
+                vprašanj, kot npr. v kakšnem strukturnem odnosu so bili povezani posamezniki in
+                majhne skupnosti, ki so jih oblikovali, ter obratno. Zgodovina vsakdanjega življenja
+                je postala nova izrazna oblika mikrozgodovine.<note place="foot" xml:id="ftn35" n="34"> Burke, <hi rend="italic">Revolucija v francoskem
+                            zgodovinopisju</hi>, 87.</note>
+            </p>
+            <p>Prav pojav in priljubljenost »Alltagsgeschichte« v Nemčiji proti koncu sedemdesetih
+                morata biti vidna kot odziv v mnogih pogledih in predstavljata odziv na uporabo
+                teorij v družboslovju. V drugem smislu pa izražata naraščajoči skepticizem proti
+                modernizaciji, ki obravnava uporabno teorijo modernizacije v historični analizi in
+                kritičen vidik družbe, ki je bila mišljena kot moderna. Zgodovina vsakdanjega
+                življenja je dobila dodaten zagon v zgodnji dobi, še posebno zaradi t. i.
+                bielefeldske šole, ki je raziskovala socialno zgodovino brez ljudi in poudarjala
+                neosebne strukture, ki so popolnoma zaznamovale delovanje ljudi.<note place="foot" xml:id="ftn36" n="35"> Borscheid, <hi rend="italic">Alltagsgeschichte –
+                            Modetorheit oder neues Tor zur Vergangenheit</hi>, 68.</note> Močan
+                vpliv na zgodovino vsakdanjega življenja je imela nova narativna zgodovinska smer,
+                imenovana zgodovina od spodaj (angl. <hi rend="italic">history from
+                    below</hi>),<note place="foot" xml:id="ftn37" n="36">
+                        Lucien Febvre je prvi uporabil frazo »histoire vue d'en bas et non d'en
+                        haut« (zgodovina videna od spodaj in ne od zgoraj) leta 1932, ko je hvalil
+                        poskus pripovedi Alberta Mathieza »histoire des masses et non de vedettes«
+                        (zgodovina ljudskih množic, in ne zvezd). Thompsonov esej <hi rend="italic">History from Below in the Times Literary Supplement</hi> iz l. 1966 pa
+                        je uporabil pojem ljudska zgodovina (<hi rend="italic">people's
+                            history)</hi>. <hi rend="italic">–</hi> Burke, <hi rend="italic">Revolucija v francoskem zgodovinopisju</hi>, 87.</note> še posebno
+                pa je na razvoj nemške historiografije vplival švedski pisatelj in literarni
+                zgodovinar Sven Lindquist s svojo knjigo <hi rend="italic">Gräv där du står</hi>, ki
+                je izšla leta 1978. Dotedanja interpretacija delavske zgodovine, kot so jo videli
+                levičarski zgodovinarji, je bila zelo abstraktna in prepojena s teorijo, deloma tudi
+                zreducirana na prikaz zgodovine delavskega gibanja in brez kakršnegakoli interesa za
+                kulturno zgodovino delavcev.<note place="foot" xml:id="ftn38" n="37"> Borscheid,
+                            <hi rend="italic">Alltagsgeschichte – Modetorheit oder neues Tor zur
+                            Vergangenheit</hi>, 6.</note>
+            </p>
+            <p>V novejših študijah evropskega zgodovinopisja so avtorji skušali preseči biografsko
+                in politično zgodovino, da bi osvetlili posamezen kontekst, ki ni vedno razviden iz
+                virov. Kljub temu pa po mnenju Iggersa ne smemo precenjevati dela zgodovinarjev
+                (Rosenberga, Kocke, Wehlerja in Kosellecka), ki so v svojih študijah uporabili
+                koncepte socialnih struktur in sprememb. Še nekaj destletij nazaj so bile zgodovine
+                delavstva v Zahodni in Vzhodni Nemčiji predvsem prikazi razvoja sindikalnega in
+                političnega organiziranja delavskega razreda. Nemškemu zgodovinopisju je še do
+                osemdesetih let 20. stoletja primanjkovala t. i. history from below. Prav zaradi
+                tega manka in sočasnega razcveta te vrste zgodovinopisja v anglosaksonskem svetu so
+                v naslednjih desetletjih izšle številne študije, ki se niso ukvarjale zgolj z
+                ekonomskimi raziskavami, temveč so posegle tudi na področja raziskovanja družine in
+                bralnih navad (npr. Engelsing).<note place="foot" xml:id="ftn39" n="38"> Georg G. Iggers, <hi rend="italic">New Directions in
+                            European Historiography</hi> (Middletown, Connecticut: Wesleyan
+                        University Press, 1984), 94.</note></p>
+            <p>Raziskovalni temelji zgodovine vsakdanjega življenja tako koreninijo v različnih
+                družboslovnih disciplinah 20. stoletja, še posebno pa je ta tematika postala
+                priljubljena med nemškimi zgodovinarji (nem. <hi rend="italic">Alltagsgeschichte</hi>), z raziskavami pa sta jo kot novo zgodovinsko
+                disciplino »utrdila« Alf Luedke in Hans Medick. Zgodovino vsakdanjega življenja
+                lahko mislimo kot del širše marksistične zgodovinske šole (angl. <hi rend="italic">history from below</hi>). Njen namen je tako najti in pokazati zveze med
+                vsakdanjimi praksami, osnovnimi doživetji običajnih ljudi v družbi ter širših
+                socialnih in političnih sprememb, ki se dogajajo v družbi.<note place="foot" xml:id="ftn40" n="39"> Lüdtke,
+                        <hi rend="italic" xml:space="preserve">Alltagsgeschichte, </hi>124.</note>
+                Historiografska prenova, ki se je odvijala od prve polovice 20. stoletja z ekonomsko
+                in socialno zgodovino analovske šole, je dopustila iskanje objektov in subjektov
+                zgodovine z drugimi perspektivami. Ni naključje, da sta bila tej francoski šoli
+                blizu Philippe Aries in Georges Duby, ki sta konec osemdesetih lansirala verjetno
+                najbolj znane publikacije te discipline, izjemno delo, skorajda enciklopedijo v
+                petih zvezkih, ki prikazuje celoten zgodovinski pregled vsakdanjega oz. zasebnega
+                življenja v vseh zgodovinskih dobah (angl. <hi rend="italic">A history of private
+                    life</hi>).<note place="foot" xml:id="ftn41" n="40">
+                        Aries in Duby,
+                        <hi rend="italic" xml:space="preserve">A History of Private Life. Vol. 5, </hi>5.</note>
+                V Evropi so tako bile že uveljavljene raziskave, ki so zanimanje zgodovinarja
+                pomikale proti anonimnim, tihim procesom znotraj družbe in rutinskim vsakdanjim
+                strukturam. </p>
+            <p>V devetdesetih in nadaljnjih letih je zgodovina vsakdanjega življenja doživela pravi
+                bum, zanimanje zanjo pa je pljusknilo tudi med slovenske zgodovinarje. Prva dela s
+                tega področja smo v Sloveniji dobili šele z objavami Marka Štuhca,<note place="foot" xml:id="ftn42" n="41"> Marko Štuhec, »Kranjska suita za
+                        zrcalo, vilico, nož, žlico, kavno ročko, čajnik in njuhalni robec,« <hi rend="italic">Zgodovina za vse</hi> 1, št. 1 (1994): 1<hi rend="italic">–</hi>9. Marko Štuhec, »Materialna kultura plemstva na Kranjskem v prvi
+                        polovici 18. stoletja« (doktorska disertacija, Univerza v Ljubljani, 2000).
+                    </note> pokojnega Janeza Cvirna in Andreja Studna, v preteklih letih pa je
+                na področju raziskav tega fenomena zaznati pravi porast. Zgolj bežen pregled
+                slovenske historiografije zadnjih nekaj let kaže na izreden porast zanimanja na
+                področju vsakdanjega življenja, od seminarskih, diplomskih, magistrskih, doktorskih
+                nalog pa vse do znanstvenih člankov, posvetov in monografij različnih obdobij in
+                lokalizacij. Prav zaradi nove paradigme raziskovanja slovenske socialne in kulturne
+                zgodovine ter vrednotenja vsakdanjega življenja druge polovice 20. stoletja je tudi
+                v prihodnje pričakovati številna nova dela na tem področju.</p>
+            </div>
+            <div><head>Metodologija raziskovanja vsakdanjega življenja</head>
+            <p>Sistematično in načrtno proučevanje intimnega, zasebnega ali vsakdanjega življenja
+                ljudi je bilo dolga desetletja slepa pega zgodovinopisja. Raziskovalci preteklih
+                družbenih dogajanj so bili naklonjeni izključno javnim temam in dogodkom: zgodovini
+                političnih bojev, tehnoloških odkritij, ekonomske organiziranosti družb, umetnosti
+                in literature ter le izjemoma intimnemu življenju kvečjemu pomembnih družbenih
+                osebnosti. Če so svoj pogled kdaj usmerili na vsakdanje življenje navadnih ljudi, je
+                bilo to zgolj zato, da so popestrili veliko zgodovino. V šestdesetih in še zlasti v
+                sedemdesetih letih 20. stoletja pa so začeli odkrivati številne vire in podatke o
+                zasebnem, družinskem življenju običajnih ljudi v preteklosti. V starih popisih
+                prebivalstva, zapisih in dnevnikih posameznikov, njihovi osebni korespondenci,
+                biografijah in avtobiografijah so iskali informacije o značilnostih preteklih
+                družin, hišnih skupnosti in gospodinjstev.<note place="foot" xml:id="ftn43" n="42"> Reinhard
+                        Sieder<hi rend="italic" xml:space="preserve"> Socialna zgodovina družine</hi>
+                        (Ljubljana: Studia humanitatis, ZRC, 1998), 235.</note></p>
+            <p>Poleg teh neposrednih virov so začeli vse bolj uporabljati tudi vire, ki pričajo o
+                ostankih materialne kulture življenja ljudi v preteklosti, in iz njih črpati podatke
+                o načinu oblačenja, prehranjevanja in bivanja. Podatke so iskali tudi v takšnih
+                virih, kot so na primer stari računi trgovin, zapisi sodnih procesov, priročniki o
+                lepem vedenju, ikonografije in ljudsko pripovedništvo. V jedru so jih zanimali
+                predvsem struktura in velikost družinskih skupnosti, odnosi med partnerjema
+                (zakonska in zunajzakonska razmerja) ter odnosi med starši in otroki.<note place="foot" xml:id="ftn44" n="43"> Anthony Giddens, <hi rend="italic">Preobrazba intimnosti</hi> (Ljubljana: CF, 2000), 49.</note></p>
+            <p>Osnove metodološkega raziskovanja vsakdanjega življenja predstavljajo
+                (avto)biografije, življenjske pripovedi in zgodbe, oralna zgodovina, literarni viri,
+                publicistika, dnevniki in spomini, ki so za preučevanje fenomenov in stvarnosti
+                vsakdanjega družbenega življenja kot objektivne in subjektivne stvarnosti še posebej
+                primerni. Rezultati lahko odprejo polje širše analize, interpretacije vsakdanjega
+                življenja v socializmu ter primerljivosti in razumevanja ključnih pojmov, ki so
+                povezani z zgodovino socialistične vsakdanjosti. Z raziskavo in primerjavo
+                ideoloških posegov, odzivov in odobravanja prebivalstva v njihovem mikrohabitusu se
+                opiramo na metodologijo zgodovine vsakdanjega življenja (nem. <hi rend="italic">Alltagsgeschiche</hi>) v socializmu. Čeprav je ta zvrst zgodovine kritizirana
+                kot socialna zgodovina, kjer ni bistvenih poudarkov na politiki in ekonomskih
+                vprašanjih, ki predstavljajo t. i. klasično zgodovinopisno metodologijo pisanja od
+                zgoraj navzdol, se zgodovina vsakdanjega življenja začenja v sami življenjski
+                stvarnosti in se nato usmerja proti širšim družbenim strukturam v interaktivnem
+                odnosu med dnevnimi aktivnostmi običajnega prebivalstva in oblastnimi ravnanji.
+                Takšna metodologija omogoča identifikacijo mej diktature in zaznava motivacije ljudi
+                skozi analizo procesa graditve njihovega lastnega smisla ali konstrukcije
+                avtonomnega pomena, skovanega v besedi <hi rend="italic">Eigen-Sinn</hi>.<note place="foot" xml:id="ftn45" n="44"> Ana Kladnik,
+                        »Oblikovanje in razvoj socialističnega mesta v Jugoslaviji in na
+                        Češkoslovaškem, 1945–1965« (doktorska disertacija, Univerza v Ljubljani,
+                        2013), 440.</note> Socialistični sistem je pri vzpostavitvi novih norm,
+                vrednot in vzorcev obnašanja reproduciral tudi predsocialistične kulturne tradicije
+                in vzorce s prilagajanjem lokalnemu kontekstu.<note place="foot" xml:id="ftn46" n="45"> Lüdtke, <hi rend="italic">Alltagsgeschichte</hi>, 78.</note>
+            </p>
+            <p>Metodologija raziskovanja zgodovine vsakdanjega življenja je pogosto odvisna od
+                drugih raziskovalnih zgodovinopisnih disciplin (arhivistike, diplomatike),
+                kvantitativnih metod (npr. kliometrije) ali avtonomnih znanosti, kot je npr.
+                antropologija (historična antropologija). Pomožne discipline oziroma zvrsti so lahko
+                tudi socialna zgodovina, demografija, genealogija, mikrozgodovina, kulturna
+                zgodovina, zgodovina medicine, etnografija, regionalna zgodovina, domoznanstvo in
+                politična geografija.<note place="foot" xml:id="ftn47" n="46"> Borscheid, <hi rend="italic">Alltagsgeschichte – Modetorheit oder neues Tor zur
+                            Vergangenheit</hi>, 89.</note>
+            </p>
+            <p>Metodični postopek, ki ga najpogosteje uporabljajo, je t. i. <hi rend="italic">thick
+                    description</hi>, ki najbolj celovito in plastično obelodani socialne in
+                kulturne elemente. Prav tako je za raziskovanje novejše zgodovine pomembna ustna
+                zgodovina (angl. <hi rend="italic">oral history</hi>). Vidiki zgodovine vsakdanjega
+                življenja so lahko številni in različni. Kot viri služijo »vsakdanje priče«:
+                biografije, dnevniki, poročila, časopisi, pisma, ilustracije, slike, fotografije,
+                filmi in tonski zapisi. Posebno težišče so tudi upodabljajoče predstave vsakdanjosti
+                na plakatih, v katalogih in drugih reklamnih materialih.<note place="foot" xml:id="ftn48" n="47"> Ibid., 90.</note></p>
+            <p>Ustna zgodovina je sistematično zbiranje pričevanj živih ljudi o lastnih izkušnjah,
+                pri čemer se te izkušnje preverijo, analizirajo, poiščejo se vzporednice v drugih
+                virih in umestijo se v ustrezen družbenogospodarski in časovni kontekst. Velik
+                preobrat v humanistiki, ki se je zgodil v devetdesetih letih 20. stoletja, je nastal
+                prav s priznavanjem vrednosti zgodb ljudi, ki niso ne slavni, ne bogati, ne družbeno
+                priznani. Prejšnje zapostavljanje subjektivnega pogleda v znanosti je bilo
+                preostanek doktrine, ki je vdor subjektivnosti v humanistiko označevala kot
+                nezanimiv in nedostopen njenim disciplinarnim metodološkim dometom.<note place="foot" xml:id="ftn49" n="48"> Elisabeth Tonkin,
+                            <hi rend="italic">Narrating Our Pasts. The Social Construction of Oral
+                            History</hi> (New York: Cambridge University Press, 1995).</note>
+                Ustna zgodovina prvenstveno pomeni zbiranje govorjenih in zapisanih spominov na
+                ravni vsakdanjega življenja, ki evidentirajo pretekle dogodke zgodovinskega pomena
+                in posameznikov odnos do njih. V nasprotju z ustno tradicijo, ki se posveča predvsem
+                prenosu spominov skozi generacije, se ustna zgodovina posveča izkušnjam posameznikov
+                v bližnji preteklosti. Pripovedi in izpovedi vseh vrst so glavno gradivo, biografski
+                pristop pa glavno gibalo ustne zgodovine.<note place="foot" xml:id="ftn50" n="49"> Robert Perks in Alistair Thompson, <hi rend="italic">The Oral History Reader</hi> (London in New York: Routledge,
+                    1998).</note></p>
+            <p>Življenjska zgodba je pripoved posameznika o dogodkih in doživljanjih iz njegovega
+                življenja. V strokovni etnološki literaturi življenjske zgodbe pogosto imenujemo
+                tudi življenjska pripoved, življenjepis, biografija, življenjska zgodovina, osebna
+                pripoved. Življenjska zgodba je zgodba osebe, ki se odloči, največkrat ob
+                intervjuju, da bo kar se da popolno in stvarno pripovedovala o svojem življenju,
+                kolikor se ga spomni, oziroma o tistem delu življenja, za katerega meni, da je
+                dobro, da ga poznajo tudi drugi. Življenjska zgodba naj bi bila precej popolna
+                pripoved o vseh izkušnjah življenja kot celote in naj bi osvetlila njegove
+                najpomembnejše točke ter povzela, kar se je komu zgodilo. Ker pripoveduje o času od
+                rojstva do pripovedovanja, iz tega obdobja poudarja pomembne življenjske dogodke,
+                izkušnje in doživljanje. Od literarnih biografij se loči po izbiri subjekta. V
+                življenjski zgodbi nastopa navaden človek namesto javne osebe, neliteraren
+                predstavnik tradicionalne družbe, etnične manjšine ali urbane podkulture. Pomembna
+                razlika je tudi metodična.<note place="foot" xml:id="ftn51" n="50"> Paul Thompson in Hugo Slim, »Ways of Listening,« v:
+                            <hi rend="italic">The Oral History Reader</hi>, ur. Robert Perks et al.
+                        (London in New York: Routledge, 1998 in 2005), 300–10.</note>
+                Življenjska zgodba nastane ob terenskem delu, ki vključuje pogovor med raziskovalcem
+                in pripovedovalcem, pri tem so intervjuji največkrat posneti in transkribirani,
+                pogovore spremljata opazovanje in pogosto uporaba osebnih dokumentov, kot so
+                dnevniki, pisma in drugi zapisi ter fotografije. Življenjska zgodba se od literarnih
+                ubeseditev življenjskih dogodkov in izkušenj loči tudi po pozornosti na določene
+                teme (npr. kako posamezniki dosegajo ali pridobivajo določeno kulturno, spolno ali
+                politično identiteto).<note place="foot" xml:id="ftn52" n="51"> Samuel Schrager, »What is Social in Oral History,« <hi rend="italic">International Journal of Oral History</hi> 4, št. 2
+                        (2005): 76<hi rend="italic">–</hi>98.</note> Metoda, ki jo uporabljamo
+                za zbiranje in študij gradiva o življenjskih izkušnjah posameznika ali skupine, se
+                imenuje biografska metoda. Zbrano gradivo obsega avtobiografije, biografije,
+                dnevnike, pisma, nekrologe, življenjske zgodbe, memoare idr. Predmet biografske
+                metode so življenjske izkušnje posameznika, pri čemer se metodično ločita
+                subjektivno (avtobiografsko) in objektivno (biografsko) zapisovanje življenjskega
+                poteka in njegovih mejnikov.<note place="foot" xml:id="ftn53" n="52"> Ida Rožac Darovec, »Metodološki in teoretični problemi
+                        ustne zgodovine,« <hi rend="italic">Acta Histriae</hi> 14, št. 2 (2006):
+                        447.</note>
+            </p></div>
+            <div><head>Raziskave socialističnega vsakdanjika</head>
+            <p>Socializem kot nova družba se lahko konkretno definira samo na ravni vsakdanjega
+                življenja, ki obsega tudi politično življenje. Vsakdanje življenje prehaja v stalen
+                stik z državo in državnim aparatom z administracijo in družbenimi podsistemi. Z
+                druge strani se politično življenje loči od vsakdanjega življenja s koncentracijo na
+                privilegirane trenutke (npr. volitve) in omogoča specializirane aktivnosti. Tako
+                kritika vsakdanjega življenja zadrži kritiko političnega življenja, če vsakdanje
+                življenje zadrži in konstituira to kritiko. Socialistična revolucija ni samo
+                sprememba proizvajalnih sil in proizvajalskih odnosov, temveč tudi sprememba
+                vsakdanje resničnosti. Marksizem ni samo teorija socialne in politične revolucije,
+                temveč najprej kritična spoznanja vsakdanjega življenja. Socializem oblikuje novo
+                podobo vsakdanjosti, ki prevlada nad tipoma vulgarnega kolektivizma in zasebnega
+                izolacionizma. </p>
+            <p>Politična vladavina v socializmu deluje kot odtujena, pri čemer je politična
+                vladavina etatističnega socializma ena od najtežjih oblik odtujevanja v 20.
+                stoletju. Odtujitev v urbanih aglomeracijah industrijskega obdobja je vsa posvečena
+                interesu akumulacije kapitala in kapitalistične alokacije delovne sile, resursov in
+                dobrin. Socializem je v težnji po hitrejši akumulaciji in industrializaciji
+                enostavno nasledil ta strukturni obrazec urbanega življenja in socialistična mesta
+                so najboljši dokaz, ki govorijo o vsakdanjem življenju socialističnega človeka. Gre
+                za analizo konkretnega življenja v teh družbah, za proučevanje notranje logike
+                delovanja socialističnih režimov in vzrokov, ki so omogočali, da so se ohranili
+                dolga desetletja. O delovanju teh režimov je napisanih ogromno študij. Tradicionalno
+                zgodovinopisje se je osredotočalo predvsem na razčlembo političnih in ekonomskih
+                struktur, zlasti pa na sprejemanje odločitev znotraj komunističnih partij. Menili
+                so, da je s temi starimi metodami mogoče razložiti vse, kar se je dogajalo v
+                nekdanjih socialističnih družbah. Takšno lotevanje stvari pa zanemarja refleksije v
+                družbi sami, razmišljanja ljudi in njihovo odzivanje na socialistično vladavino. Gre
+                za procese, ki jih ni mogoče zaznati v resolucijah in referatih, vendar so bili in
+                so potekali mimo želje vladajoče strukture. Zato nas zanima družba sama po sebi,
+                zanimajo nas strukture, ki jih ni ustvarila samo politika, ampak so se vzpostavile
+                skozi družinske in družabne vezi, družbene podsisteme in z interakcijami med njimi.
+                V teh družbah ni bilo vse črno-belo in zanimajo nas tudi vse sence sive barve, vsi
+                njeni odtenki v družbi. Do spoznanj o tem pa se ni mogoče dokopati le z analizo
+                uradne politike. Kadar raziskujemo socializem skozi prizmo vsakdanjega življenja, se
+                je treba vprašati, ali je lahko vsakdanje življenje v socializmu kot tako vzrok za
+                množične politične in druge spremembe, in če, na kakšen način?<note place="foot" xml:id="ftn54" n="53"> Cathleen Giustino, Catherine J.
+                        Plum in Alexander Vari, <hi rend="italic">Socialist Escapes. Breaking Away
+                            from Ideology and Everyday Routine in Eastern Europe, 1945–1989</hi>
+                        (New York: Berghahn, 2013).</note></p>
+            <p>Velika večina zgodovinskih študij, ki se je ukvarjala s socialističnimi režimi
+                povojne vzhodne Evrope, se je osredotočala na politiko, montirane sodne procese,
+                policijsko represijo ali na dogodke, ko je bila socialistična oblast soočena z
+                notranjimi političnimi nemiri. Ta dela so bodisi popolnoma prezrla preoblikovanje na
+                ravni vsakdanjega življenja v desetletjih po letu 1945 ali pa so poskušala dokazati,
+                da lahko izkušnje teh transformacij razumemo le s pomočjo takratnih političnih
+                    dogajanj.<note place="foot" xml:id="ftn55" n="54"> Mark
+                        Pittaway, »Everyday Socialism, States and Social Transformation in Eastern
+                        Europe, 1945<hi rend="italic">–</hi>1965,« prispevek objavljen na konferenci
+                            <hi rend="italic">International Conference »Everyday Socialism«</hi>,
+                            24.<hi rend="italic">–</hi>26. april 2003.</note> Literatura, ki se
+                ukvarja s preučevanjem socialističnih režimov, večinoma navaja tendenco, da so bili
+                državni ukrepi v socialistični družbi motivirani z dvema ciljema. Prvi je bil
+                sovjetizacija družbe z nekritičnim posnemanjem modelov Sovjetske zveze, drugi pa
+                oblikovati totalno državo, ki pomeni totalni družbeni nadzor.<note place="foot" xml:id="ftn56" n="55"> Ibid.</note> V letih po drugi
+                svetovni vojni so države srednje in vzhodne Evrope (Albanija, Bolgarija,
+                Češkoslovaška, Nemška demokratična republika, Madžarska, Poljska, Romunija in
+                Jugoslavija) prešle pod vladavino komunističnih strank pod vplivom Sovjetske zveze
+                in doživele velikanske družbene spremembe, ki jih je dirigirala državna oblast.
+                Industrija je bila nacionalizirana, industrijska zaposlenost se je močno razširila
+                in zasebno lastništvo kmetijskih zemljišč je bilo drastično omejeno v interes
+                kolektivizacije. Prav tako so poskušali integrirati prej izključene posameznike in
+                skupine v družbo, spremenilo pa se je urbano in ruralno življenje.<note place="foot" xml:id="ftn57" n="56"> Ibid.</note></p>
+            <p>V začetku devetdesetih letih, ko so s padcem železne zavese postali arhivi nekdanjih
+                držav vzhodnega bloka dostopni zgodovinarjem, je bilo pričakovati hitrejši napredek
+                na področju preučevanja socialne zgodovine oziroma zgodovine vsakdanjega življenja,
+                kot pa se je dejansko zgodil. Za nepričakovano počasnost je več razlogov.
+                Zgodovinarji, ki se ukvarjajo z ekonomsko zgodovino, so se izogibali socialne
+                zgodovine socialističnega obdobja, saj je bila izkušnja socializma še preveč sveža –
+                polna bolečih spominov in izkušenj ter pogosto problematična zaradi metodološkega
+                pristopa, ki naj bi bil ideološko obremenjen. K začetnemu zastoju je prispevalo tudi
+                prestrukturiranje znanstvenih raziskovalnih inštitutov in univerz, poleg tega pa je
+                gradivo v novoodprtih državnih arhivih in strankarskih organih bolj privlačilo
+                domače in tuje zgodovinarje pri razkrivanju skrivnosti političnih ozadij
+                socialistične diktature. Navala tujih raziskovalcev ni bilo tudi zaradi pomanjkanja
+                znanja jezikov srednje- in vzhodnoevropskih držav, kar je še posebej očitno v
+                primerjavi z raziskavami Nemške demokratične republike in Rusije, saj sta nemščina
+                in ruščina zaradi kulturnega, gospodarskega in političnega vpliva veliko bolj
+                razširjeni. Mnogi ameriški in zahodnoevropski raziskovalci se prav tako ne zavedajo
+                različnosti socialističnega okvira na Češkoslovaškem, Madžarskem, Poljskem in v
+                Jugoslaviji, zato je veliko raziskav lokalno omejenih. </p>
+            <p>V zahodni Evropi in ZDA se je antropologija (post)socializma<note place="foot" xml:id="ftn58" n="57"> Večina etnologov oziroma
+                        antropologov, ki se ukvarjajo z obdobjem socializma in tranzicije
+                        (postsocializma), brez nadrobnejših argumentacij uporablja pojem
+                        postsocializem in ne npr. postkomunizem, pri čemer komunizem pomeni sklepno
+                        fazo družbenega prehoda.</note> kot del politične antropologije vzhodne
+                Evrope začela pojavljati v sedemdesetih letih 20. stoletja. Zgodnejše raziskave
+                tujih raziskovalcev v socialistični Evropi največkrat niso bile mogoče predvsem
+                zaradi sočasnih političnih razmer. V prvih študijah socializma so se raziskovalci
+                ukvarjali predvsem s skupnostmi, in sicer z obrobnimi skupinami oziroma s skupinami
+                na težje dostopnih območjih. Za zahodno »pokroviteljsko« antropologijo je bil
+                socializem po mnenju mnogih dolgo le kolonialni subjekt, tj. predmet študija
+                drugačnosti in eksotičnosti, preživetja malih tradicionalnih kultur v sodobnem
+                    svetu.<note place="foot" xml:id="ftn59" n="58"> Mateja
+                        Habinc, »Raziskave (post)socialističnih koledarskih praznikov,« <hi rend="italic">Traditiones</hi> 37, št. 1 (2008): 79<hi rend="italic">–</hi>97.</note> Vse od začetkov zanimanja za socializem so bili
+                socialistični prazniki in rituali predmet preučevanja raziskovalcev z zahoda,
+                preučevali pa so jih tudi nekateri domači, vzhodnoevropski etnologi in antropologi.
+                Bera literature je tako najobsežnejša za nekdanjo Sovjetsko zvezo, največjo izmed
+                bivših socialističnih držav. Toda ne glede na državo se raziskave precej razlikujejo
+                po tem, ali so bili raziskovalci domačini, morda tudi sami deležni »socialističnega
+                načina življenja«, ali ne. Po mnenju zahodnih preučevalcev domačinov kritična
+                analiza sprva sploh ni zanimala, saj glede na sočasne družbenopolitične razmere niti
+                ni bila zaželena. </p>
+            <p>Študij zahodnih raziskovalcev o socialistični Jugoslaviji je namreč v primerjavi z
+                raziskavami v drugih deželah bivšega socializma kar precej.<note place="foot" xml:id="ftn60" n="59"> Sharon Zukin, <hi rend="italic">Beyond Marx and Tito. Theory and Practice in Yugoslav Socialism</hi>
+                        (London in New York: Cambridge University Press, 2008), 16–7.</note>
+                Pionirsko delo tujega antropologa v nekdanji Jugoslaviji je opravil Američan Joel
+                Martin Halpern, ki je preučeval predvsem spreminjanje ruralnih skupnosti pod vplivom
+                modernizacije, pri čemer so se mu med pomembnejšimi zdele spremembe družinskega
+                življenja. V Srbiji je bilo sočasnih etnoloških raziskav socialističnega vsakdanjika
+                precej. Raziskovalci gradiva niso le popisovali, ampak tudi znanstveno analizirali,
+                kar etnologijo bivšega jugoslovanskega prostora tudi loči od etnologij drugih,
+                nekdaj socialističnih držav.<note place="foot" xml:id="ftn61" n="60"> Ingrid Slavec Gradišnik in Jurij Fikfak, »Povzetki,«
+                        prispevek objavljen na mednarodni konferenci <hi rend="italic">Ljudsko
+                            izročilo in religija med tradicijo in transformacijo</hi>, Ljubljana,
+                        ZRC SAZU, Inštitut za slovensko narodopisje, 2006.</note> Jugoslovanski
+                etnologi so s takšnim delom skušali prikazati, da socializem kulturološko ni
+                vpliven, v nekdanji Jugoslaviji pa so etnologije obstajale mimo socializma oziroma
+                kljub temu; ukvarjale so se z vsakdanjikom pod oziroma v nasprotju z globalnim
+                sistemom moči.<note place="foot" xml:id="ftn62" n="61">
+                        Habinc, »Raziskave (post)socialističnih koledarskih praznikov,«
+                    87.</note> Niso evidentirale niti kmečke kulture niti kulture delavstva,
+                temveč so se ukvarjale s tranzicijo, preživetjem urbane, nacionalne in razredne
+                elite. Srbski etnologi so tako že ob koncu osemdesetih let 20. stoletja, tj. še pred
+                zlomom socialističnega sistema in razpadom nekdanje skupne države, obravnavali npr.
+                sprejem v pionirsko organizacijo (v okviru praznovanja dneva republike) in dan žena,
+                analizo gradiva so povezovali s teorijo ritualov oziroma ženskih (feminističnih)
+                    študij.<note place="foot" xml:id="ftn63" n="62"> Vera
+                        Gudac Dodić, »Položaj žene u Srbiji (1945–2000),« v: <hi rend="italic">Žene
+                            i deca 2006. Srbija u modernizacijskim procesima XIX i XX veka</hi>
+                        (Beograd: Helsinški odbor za ljudska prava u Srbiji, 2006).</note></p>
+            <p>Še obsežnejša bibliografija hrvaških raziskav kaže, da že od konca osemdesetih let
+                20. stoletja zbirajo in interpretirajo domače gradivo o času socializma. Od začetkov
+                zanimanja za (socialistično) sodobnost je Inštitut za etnologijo in folkloristiko
+                gradivo in njegovo analizo nadgrajeval tudi z razmisleki o strukturi tradicijskega
+                mišljenja, o konceptih ritualov, ceremonij in navad ter dekonstruiral (hrvaško)
+                socialistično etnologijo.<note place="foot" xml:id="ftn64" n="63"> Dunja Rihtman Auguštin, <hi rend="italic">Etnologija
+                            naše svakodnevice</hi> (Zagreb: Školska knjiga, 1988).</note> V teh
+                okvirih so nastale problemske obravnave koledarskih praznikov in ritualov
+                polpreteklega obdobja v celoti ter tudi analize in interpretacije prazničnih dnevov,
+                npr. božiča in novega leta, velike noči in dneva žena.<note place="foot" xml:id="ftn65" n="64"> Mednarodni raziskovalni projekt
+                            <hi rend="italic">Women's Memories. Searching for Identity Within
+                            Socialism</hi>, 1998.</note> V primerjavi s Srbijo se zdi, da na
+                Hrvaškem ni bilo daljšega raziskovalnega premora (zaradi vojne). Te raziskave se
+                nadaljujejo z zbiranjem gradiva in ustrezno teoretsko refleksijo. Zbiranju sta
+                (bila) tako v pretežni meri namenjena delo o sodobnem praznovanju dneva
+                    mladosti<note place="foot" xml:id="ftn66" n="65"> Nevena
+                        Škrbić Alempijević in Kristi Mathiesen Hjemdahl, <hi rend="italic">O Titu
+                            kao mitu. Proslava Dana mladosti u Kumrovcu</hi> (Zagreb: Filozofski
+                        fakultet, 2006).</note> in pa aktualni projekt Hrvaškega etnološkega
+                društva <hi rend="italic">Hrvatska u periodu od 1945. do 1990.</hi><note place="foot" xml:id="ftn67" n="66"> Habinc, »Raziskave
+                        (post)socialističnih koledarskih praznikov,« 91.</note> Prav tako so
+                slovenski etnologi opravili številne raziskave in študije socialističnih praks,
+                najpomembnejši projekti s tega področja pa so <hi rend="italic">Način življenja
+                    Slovencev v 20. stoletju</hi>, <hi rend="italic">Etnološka topografija
+                    slovenskega ozemlja</hi> in <hi rend="italic">Etnološki leksikon</hi>.
+                Navsezadnje se je slovenska etnologija po letu 1945 poskušala redefinirati kot
+                disciplina, ki v ospredje raziskovalnega interesa postavlja ravno življenjske prakse
+                malih ljudi.</p>
+            <p>Raziskave socialističnega vsakdanjika v tuji literaturi lahko na splošno razdelimo v
+                štiri tematske sklope. <hi rend="italic">Sovjetizacija družbe</hi> (1) se kot
+                državni projekt nanaša na socialno politiko, delovne odnose, izobraževanje, varstvo
+                otrok in družine ter odstopanja pri kopiranju sovjetskega modela socialnih in
+                ekonomskih politik. Izkušnje socialističnih delovnih odnosov vključujejo
+                nacionalizacijo industrije, kolektivizacijo kmetijstva, povečanje deleža
+                industrijske delovne sile ter proces izenačevanja spolov z namenom vključevanja
+                celotne družbe v socialistični sistem. <hi rend="italic">Nove funkcije
+                    življenja</hi> (2) zunaj proizvodnje – nove organizacije, ki so nadomestile
+                stare institucije civilne družbe, načrtovanje novih mest in stanovanjskih naselij,
+                novih načinov zadovoljevanja potreb potrošnikov, ki so bili zasnovani kot del
+                tematskega kroga socialistične skupnosti. <hi rend="italic">Zasebna sfera</hi> (3)
+                vključuje iskanje dosega kolektivistične ideologije, značilnosti zasebnega
+                življenja, odnos med zasebnim in javnim, potrošnjo ter organiziranost družinskega
+                življenja. <hi rend="italic">Spomini socializma</hi> (4) so zasnovani kot
+                preizpraševanje nostalgične socialistične preteklosti, ki se je pojavila v
+                devetdesetih letih in je v prvi vrsti povezana z ohranjanjem spomina na takratno
+                vsakdanjo materialno kulturo (glasbo, literaturo, filmografijo, materialne izdelke,
+                arhitekturo, potrošniške izdelke).</p>
+            <p>Če so se prebivalci vzhodnoevropskih držav pred vojno in med njo spopadali z »izzivi«
+                nacizma, so po drugi svetovni vojni stali pred vrati drugega totalitarizma –
+                    komunizma.<note place="foot" xml:id="ftn68" n="67"> Žiga
+                        Koncilija, »Sovjetizacija Vzhodne Evrope po drugi svetovni vojni,« <hi rend="italic">Prispevki za novejšo zgodovino</hi> 50, št. 1 (2010):
+                        158.</note> Države Vzhodne Evrope so v povojnem obdobju doživele
+                temeljite prelome s svojo predvojno politično zapuščino in se hote ali nehote podale
+                v novo družbenopolitično avanturo.<note place="foot" xml:id="ftn69" n="68"> Sten Berglund in Frank Aarebrot, <hi rend="italic">The
+                            political history of Eastern Europe in the 20th Century</hi> (London:
+                        Edward Elgar Pub, 1997), 44.</note> Proces preobrazbe oz. sovjetizacije
+                omenjenih držav se je začel že med samo vojno in se zaključeval v letih po 1948.
+                Cilj sovjetizacije je bil v tem, da naj bi imele države vzhodnega bloka po zaključku
+                procesa poenotene sisteme vladanja, poenoteno ideologijo in gospodarski sistem ter
+                enotno zunanjo in vojaško politiko.<note place="foot" xml:id="ftn70" n="69"> Koncilija, »Sovjetizacija Vzhodne Evrope po drugi
+                        svetovni vojni,« 161.</note> Glavni nosilci sovjetizacije so bili
+                večinoma v Moskvi indoktrinirani komunisti, t. i. <hi rend="italic">moskoviti</hi>.
+                Države novih ljudskih demokracij so zvesto, čeprav s počasnejšim tempom, sledile
+                sovjetskemu modelu razvoja. Družbena osnova je bila od države do države
+                    različna.<note place="foot" xml:id="ftn71" n="70">
+                        Edward Arfon Rees, <hi rend="italic">The Sovietization of Eastern Europe.
+                            New Perspectives on the Postwar Period</hi> (London: New Academia
+                        Publishing, 2008), 11.</note></p>
+            <p>V središču poskusa »graditve socializma« v povojni vzhodni Evropi je bila politika
+                integracije osredotočena na sodelovanje celotne družbe skozi prizmo socialističnega
+                dela. To naj bi se zgodilo z nacionalizacijo industrije in kolektivizacije
+                kmetijstva ter s programi povečanja zaposlenosti v industriji. Enakost med spoloma
+                naj bi se dosegla z odpiranjem delovnih mest za ženske v industriji. Kot kažejo
+                raziskave, pa so bili ti cilji le delno doseženi. Obstanek sive ekonomije in
+                neprekinjenih vzorcev spolne diskriminacije na delovnem mestu pričata o omejenem
+                    uspehu.<note place="foot" xml:id="ftn72" n="71">
+                        Pittaway, »Everyday Socialism, States and Social Transformation in Eastern
+                        Europe, 1945<hi rend="italic">–</hi>1965.«</note> Po skorajda vsej
+                vzhodni Evropi je potekala industrializacija skupaj z načrtom ustvarjanja »novih«
+                socialističnih mest, ki bi reflektirala državne težnje po družbeni transformaciji.
+                Poleg tega je bilo treba reformirati potrošnjo, saj trg kot tak ni obstajal,
+                pojavile so se državne trgovine, ki pa niso zadovoljevale vseh pričakovanih potreb.
+                Ker so bile institucije civilne družbe odpravljene ali podrejene državni politiki,
+                so bile oblikovane uradne subpartijske organizacije (ženske, mladinske, delavske).
+                Nekateri vidiki vsakdanjega življenja v socialistični skupnosti so tako potekali
+                izven področja proizvodnje.<note place="foot" xml:id="ftn73" n="72"> Giustino, Plum in Vari, <hi rend="italic">Socialist
+                            Escapes</hi>, 22.</note></p>
+            <p>Vprašanje delitve med javnim in zasebnim v prvem obdobju socialističnega Vzhoda meče
+                pravo luč na naravo vzhodnoevropskega socializma. Evropske socialistične države, če
+                pogledamo njihovo zgodovino od spodaj, si ne delijo enakega vzorca sovjetizacije,
+                temveč je socializem v enaki meri bil uvozni in domači produkt. Nasprotje med javnim
+                in zasebnim ne osvetljuje le odnosov med spoloma, temveč nam omogoča, da obravnavamo
+                vprašanja, v kolikšni meri je bil socializem kot ideologija kolektivističen –
+                vprašanja gospodinjstva v socialističnem gospodarstvu, vprašanja stanovanj, zasebne
+                potrošnje in domačnosti. V vseh družbah so razpoložljivost, dostopnost ter kakovost
+                življenjsko potrebnih materialnih dobrin (hrane, vode, stanovanj, čistega zraka
+                itd.) pomembni dejavniki za vsakdanje življenje in vrednote, ki izhajajo iz tega. V
+                bogatih družbah je manj potrebno potrošniško blago (zabava, potovanja, televizorji,
+                gospodinjski aparati in modna oblačila) prav tako del vsakdanjega življenja. V
+                revnejših družbah so te potrošniške dobrine redke ali jih sploh ni, zato se dojemajo
+                kot toliko bolj eksotične in zaželene v vsakdanjiku. V očeh zahodnjakov naj bi
+                ljudje v komunistični Vzhodni Evropi velik del vsakdanjega življenja posvečali
+                iskanju in čakanju na osnovne materialne dobrine, vključno s hrano.<note place="foot" xml:id="ftn74" n="73"> David Crowley in
+                        Susan Reid, <hi rend="italic">Style and Socialism: Modernity and Material
+                            Culture in Post-War Eastern Europe</hi> (Oxford in New York: Berg,
+                        2000), 15.</note> Pregled izvorov razširjene nostalgije po socialistični
+                preteklosti v današnji Vzhodni Evropi kaže na potrebo po prispevkih, ki neposredno
+                obravnavajo odnos med sedanjostjo in družbenimi spremembami v (post)socialističnem
+                obdobju. Kar nas zanima, je predvsem nadaljevanje kulturnih vrednot, ki so formirale
+                del ozadja vsakdanjega življenja v letih socialistične preobrazbe, ostanki obdobja
+                socializma – pa naj gre za vsakdanjo materialno kulturo, pesmi, literaturo in film –
+                ki so jo oblikovali in jo še naprej oblikujejo (priljubljeni) spomini na režim.<note place="foot" xml:id="ftn75" n="74"> Pittaway, »Everyday
+                        Socialism, States and Social Transformation in Eastern Europe, 1945<hi rend="italic">–</hi>1965,« 33.</note> Ker se je večina
+                socialističnih družbenih in ekonomskih institucij v letih po 1990 razgradila, se je
+                pojavil nostalgičen spomin na vzorce socialističnega vsakdanjega življenja. To samo
+                po sebi sugerira, da je treba prevrednotiti vsesplošne izkušnje družbene preobrazbe,
+                ki jo je usmerjala državna oblast. Osredotočenost na transformacijo vsakdanjega
+                življenja nakazuje nov pogled na nekatere socialne in gospodarske politike v
+                socialističnih režimih, z namenom preoblikovanja našega razumevanja narave
+                    socializma.<note place="foot" xml:id="ftn76" n="75">
+                        Susan Gal in Gail Kligman, <hi rend="italic">The Politics of Gender after
+                            Socialism, A Comparative-Historical Essay</hi> (Princeton: Princeton
+                        University Press, 2000), 45<hi rend="italic">.</hi></note></p>
+            <p>Zgodovinopisje je sicer pokazalo, da zgodovina vsakdanjega življenja razkriva bolečo
+                in svetlo plat preteklega življenja, zato v tem kontekstu prihaja do neke vrste
+                nostalgije, pogostega pojava pri nekdanjih socialističnih državah, ki pa je ne smemo
+                povezovati s politično podporo propadlim režimom, saj gre za spomine na val
+                modernizacije, socialno varnost, zvoke glasbe, televizijske podobe, čustveno
+                zaznamovane produkte, otroštvo ali odraščanje mladih, torej dele vsakdanjega
+                življenja, ki so se izgubili v času tranzicije. Prav tako je treba opozoriti na
+                povezavo zgodovinopisja z antropologijo in sociologijo ter metodo ustne zgodovine,
+                ki se lahko izkaže za zelo občutljivo zaradi spreminjanja percepcije posameznika.
+                Velikokrat pride do nasprotujočih si virov, potvarjanj, lažnih dokumentov in
+                pričevanj iz socialističnega obdobja. Premalokrat se opozarja na sočasno
+                modernizacijo družbe in ruralizacijo mest zaradi socialnih, ekonomskih in
+                demografskih sprememb. Zaradi skoraj pol stoletja trajajočega obdobja socializma je
+                tudi to na svoj način oblikovalo spomine povojnih začetkov. Na drugi strani pa so
+                družbene spremembe v devetdesetih privedle do postsocialistične nostalgije, ki jo je
+                treba kritično preučiti ravno z raziskovanjem socialističnega vsakdanjika.<note place="foot" xml:id="ftn77" n="76"> Chris M. Hann, <hi rend="italic">Introduction, social anthropology and socialism</hi>, <hi rend="italic">Socialism, Ideals, Ideologies and Local Practice</hi>
+                        (London in New York: Routledge, 1993), 7.</note>
+            </p>
+            <p>Spomine in ustna izročila pa je treba preveriti s primerjalnimi študijami, ki bi
+                pokazale, kje in v čem je bil jugoslovanski vsakdanjik drugačen od tistega v
+                vzhodnem bloku in na Zahodu. V primerjavi z državami vzhodnega bloka je razlika
+                gotovo pozitivna, vendar je dojemanje teh razlik deloma posledica ideologije, saj je
+                jugoslovanski državni aparat načrtno poustvarjal občutek večvrednosti državljanov
+                Jugoslavije proti drugim socialističnim državam. Oznake jugonostalgija,
+                titostalgija, spomin titoizma ali jugoslovanska dediščina ter ostale reminiscence
+                življenja v socialistični Jugoslaviji so predmet številnih akademskih razprav.<note place="foot" xml:id="ftn78" n="77"> Karmen Kaučič,
+                        »Nostalgija po nedoživetem, nostalgija po socializmu med mlado generacijo«
+                        (diplomsko delo, Univerza v Ljubljani, 2010).</note> Podobne
+                raziskovalne usmeritve pogosto vsebujejo retrospektivne študije iz vsakdanjega
+                življenja, razvoja popularne kulture v jugoslovanskem socializmu ter njihove sedanje
+                    refleksije.<note place="foot" xml:id="ftn79" n="78">
+                        Ivana Spasić, »Jugoslavija kao mesto normalnog života: sećanja običnih ljudi
+                        u Srbiji,« <hi rend="italic">Sociologija</hi> 54, št. 4 (2002):
+                    577.</note></p>
+            <p>Po propadu evropskega socializma sta se bistveno spremenila okvir spomina in smisel
+                družbene korektnosti. Takoj ko sta se nacionalizem in kapitalizem normalizirala kot
+                dejstvo, je tudi Titova podoba dobila negativen predznak. A vendar je prihodnost
+                socialistične Jugoslavije negotova. Spomin na to obdobje ni statičen, ne le zaradi
+                sprememb znotraj kapitalizma, ki reflektira socializem, temveč tudi zaradi dejstva,
+                da ima vsaka nova generacija nove izkušnje ter zato drugačen pogled na
+                    preteklost.<note place="foot" xml:id="ftn80" n="79">
+                        Todor Kuljić, <hi rend="italic">Titoizam, tri perspektive</hi>. <hi rend="italic">Sečanje na titoizam, između diktata i otpora</hi>
+                        (Beograd: Čigoja štampa, 2011), 34.</note> Kakršnakoli bo nova
+                zgodovinska slika tega obdobja, je treba predpostavljati visoko stopnjo
+                zgodovinskosti, hermenevtične strpnosti in empatije, premišljeno in niansirano
+                sociološko-zgodovinsko ločevanje ključnih in nepomembnih družbenih procesov in ne
+                nazadnje, čeprav hipotetično, nujno filozofsko-zgodovinsko dialektično vizijo
+                    razvoja.<note place="foot" xml:id="ftn81" n="80">
+                        Ibid.</note></p></div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Seznam virov in literature</head>
+            <listBibl>
+                <bibl>Aries, Philippe in Georges Duby. <hi rend="italic">A History of Private Life.
+                        Vol. 5: Riddles of Identity in Modern Times</hi>. Cambridge in London: The
+                    Belknap Press of Harvard University Press, 1991. </bibl>
+                <bibl>Berger, Peter in Thomas Luckmann. <hi rend="italic">Družbena konstrukcija
+                        realnosti</hi>. Ljubljana: Cankarjeva založba, 1988.</bibl>
+                <bibl>Berglund, Sten in Frank Aarebrot. <hi rend="italic">The political history of
+                        Eastern Europe in the 20th Century</hi>. London: Edward Elgar Pub,
+                    1997.</bibl>
+                <bibl>Borscheid, Peter. <hi rend="italic">Alltagsgeschichte – Modetorheit oder neues
+                        Tor zur Vergangenheit. Über das Studium der Geschichte</hi>. München: Dtv,
+                    1990.</bibl>
+                <bibl>Bulc, Gregor. Recenzija <hi rend="italic">Remembering Utopia. The Culture of
+                        Everyday Life in Socialist Yugoslavia</hi> [Spominjanje utopije. Kultura
+                    vsakodnevnega življenja v socialistični Jugoslaviji], ur. Breda Luthar in Maruša
+                    Pušnik. <hi rend="italic">Književni listi</hi>, 9. 2. 2011.</bibl>
+                <bibl>Burke, Peter. <hi rend="italic">Revolucija v francoskem zgodovinopisju</hi>.
+                    Ljubljana: Studia Humanitatis, 1993.</bibl>
+                <bibl>Cazorla Sanchez, Antonio. <hi rend="italic">Fear and progress – Ordinary Lives
+                        in Francos Spain, 1939–1975</hi>. West Sussex: Wiley-Blackwell, 2010. </bibl>
+                <bibl>Crowle, David in Susan Reid. <hi rend="italic">Socialist Spaces. Sites of
+                        Everyday Life in the Eastern Bloc</hi>. New York: Berd Publisher,
+                    2002.</bibl>
+                <bibl>Čepič, Zdenko. »Politika življenjske ravni v prvem desetletju socializma v
+                    Jugoslaviji.« <hi rend="italic">Prispevki za novejšo zgodovino</hi> 46, št. 1
+                    (2006), 397–411.</bibl>
+                <bibl>Dobrivojević, Ivana. »Urbanization in Socialism. Everyday Life in Yugoslav
+                    Towns, 1945 to 1955.« V: <hi rend="italic">Cityscapes in History. Creating the
+                        Urban Experience</hi>, ur. Helena Tóth in Katrina Gulliver. Farnham: Ashgate
+                    Publishing Limited, 2014. </bibl>
+                <bibl>Duda, Igor. <hi rend="italic">U potrazi za blagostanjem. O povijesti dokolice
+                        i potrošačkog društva u Hrvatskoj 1950-ih i 1960-ih</hi>. Zagreb: Srednja
+                    Europa, 2005. </bibl>
+                <bibl>Freud, Sigmund. <hi rend="italic">Psihopatologija vsakdanjega življenja</hi>.
+                    Ljubljana: Mladinska knjiga, 2009.</bibl>
+                <bibl>Iggers, Georg G. <hi rend="italic">New Direcions in European
+                        Historiography</hi>. Middletown, Connecticut: Wesleyan University Press,
+                    1984.</bibl>
+                <bibl>Giddens, Anthony. <hi rend="italic">Preobrazba intimnosti.</hi> Ljubljana: CF,
+                    2000.</bibl>
+                <bibl>Giustino, Cathleen, Catherine J. Plum in Alexander Vari. <hi rend="italic">Socialist Escapes. Breaking Away from Ideology and Everyday Routine in
+                        Eastern Europe, 1945–1989</hi>. New York: Berghahn, 2013.</bibl>
+                <bibl>Goffman, Erving. <hi rend="italic">The Presentation of Self in Everyday
+                        Life</hi>. London: Penguin Books, 1969.</bibl>
+                <bibl>Gunn, Simon. <hi rend="italic">History and cultural theory</hi>. London:
+                    Pearson Education, 2006.</bibl>
+                <bibl>Habermas, Jürgen. <hi rend="italic">The Structural Transformation of the
+                        Public Sphere. An Inquiry into a category of Bourgeois Society</hi>.
+                    Cambridge: Polity, 1989.</bibl>
+                <bibl>Habinc, Mateja. »Raziskave (post)socialističnih koledarskih praznikov.« <hi rend="italic">Traditiones</hi> 37, št. 1 (2008), 79<hi rend="italic">–</hi>97.</bibl>
+                <bibl>Hann, Chris M. <hi rend="italic">Introduction, social anthropology and
+                        socialism. Socialism, Ideals, Ideologies and Local Practice</hi>. London in
+                    New York: Routledge, 1993.</bibl>
+                <bibl>Heller, Agnes. <hi rend="italic">Svakodnevi život</hi>. Beograd: Nolit,
+                    1978.</bibl>
+                <bibl><hi rend="italic">Jugoslavija između Istoka i Zapada. Obični ljudi u neobičnoj
+                        zemlji. Svakodnevni život u Bosni i Hercegovini, Srbiji i Hrvatskoj
+                        1945–1990</hi>. Zagreb in Sarajevo: Euroclio, 2007. </bibl>
+                <bibl>Kaučič, Karmen. »Nostalgija po nedoživetem, nostalgija po socializmu med mlado
+                    generacijo.« Diplomsko delo, Univerza v Ljubljani, 2010.</bibl>
+                <bibl>Koncilija, Žiga. »Sovjetizacija Vzhodne Evrope po drugi svetovni vojni.« <hi rend="italic">Prispevki za novejšo zgodovino</hi> 50, št. 1 (2010), 157–76.</bibl>
+                <bibl>Kos, Drago, ur. <hi rend="italic">Horizonti vsakdanjega življenja</hi>.
+                    <hi rend="italic" xml:space="preserve">= Horizons of everyday life. </hi>Ljubljana:
+                    Slovene Sociological Association in Institute of Social Sciences, 1998<hi rend="italic">.</hi></bibl>
+                <bibl>Kreft, Lev. »Zgodovina in vsakdanje življenje.« <hi rend="italic">Borec</hi>
+                    51, št. 575/576 (1999): 62–72.</bibl>
+                <bibl>Kuljić, Todor. <hi rend="italic">Titoizam, tri perspektive. Sečanje na
+                        titoizam, između diktata i otpora</hi>. Beograd: Čigoja štampa, 2011.</bibl>
+                <bibl>Lüdtke, Alf. <hi rend="italic">Alltagsgeschichte. Zur Rekonstruktion
+                        historischer Erfahrungen und Lebensweisen</hi>. Frankfurt am Main: Campus
+                    Verlag, 1989.</bibl>
+                <bibl>Luthar, Breda in Maruša Pušnik, ur. <hi rend="italic">Remembering Utopia. The
+                        Culture of Everyday Life in Socialist Yugoslavia</hi>. Washington DC: New
+                    Academia Publishing, 2010.</bibl>
+                <bibl>Makarovič, Gorazd. <hi rend="italic">Slovenci in čas. Odnos do časa kot okvir
+                        in sestavina vsakdanjega življenja</hi>. Ljubljana: Založba Krtina,
+                    1995.</bibl>
+                <bibl>Marković, Predrag J. <hi rend="italic">Trajnost i promena: društvena istorija
+                        socijalističke i postsocijalističke svakodnevice u Jugoslaviji i
+                    Srbiji</hi>. Beograd: Službeni glasnik, 2012.</bibl>
+                <bibl>Meh, Nina. »Novi jugoslavizem ali kako si mlajše generacije predstavljajo
+                    Jugoslavijo,« intervju z dr. Mitjo Velikonjo o novem jugoslavizmu v sodobni
+                    slovenski popularni glasbi. <hi rend="italic">– MMC RTV SLO</hi>. Pridobljeno
+                    14. 8. 2014. <ref target="https://www.rtvslo.si/mmc-priporoca/novi-jugoslavizem-ali-kako-si-mlajse-generacije-predstavljajo-jugoslavijo/344023">https://www.rtvslo.si/mmc-priporoca/novi-jugoslavizem-ali-kako-si-mlajse-generacije-predstavljajo-jugoslavijo/344023</ref>.</bibl>
+                <bibl>Perks, Robert in Alistair Thompson. <hi rend="italic">The Oral History
+                        Reader</hi>. London in New York: Routledge, 1998.</bibl>
+                <bibl>Pirjevec, Jože. <hi rend="italic">Jugoslavija 1918–1992</hi>. Koper: Založba
+                    Lipa, 1995.</bibl>
+                <bibl>Pittaway, Mark. »Everyday Socialism, States and Social Transformation in
+                    Eastern Europe, 1945–1965.« Prispevek objavljen na
+                    konferenci
+                    <hi rend="italic" xml:space="preserve">The Open University Conference Centre, London, </hi>24.
+                    – 26. april 2003.</bibl>
+                <bibl>Rees, Edward Arfon. <hi rend="italic">The Sovietization of Eastern Europe. New
+                        Perspectives on the Postwar Period</hi>. London: New Academia Publishing,
+                    2008.</bibl>
+                <bibl>Rihtman Auguštin, Dunja. <hi rend="italic">Etnologija naše svakodnevice</hi>.
+                    Zagreb: Školska knjiga, 1988.</bibl>
+                <bibl>Rožac Darovec, Ida. »Metodološki in teoretični problemi ustne zgodovine.« <hi rend="italic">Acta Histriae</hi> 14, št. 2 (2006): 447–67.</bibl>
+                <bibl>Schrager, Samuel. »What is Social in Oral History.« <hi rend="italic">International Journal of Oral History</hi> 4, št. 2 (2005): 76–98. </bibl>
+                <bibl>Sieder, Reinhard. <hi rend="italic">Socialna zgodovina družine</hi>.
+                    Ljubljana: Studia humanitatis, ZRC, 1998.</bibl>
+                <bibl><hi rend="italic">Slovar slovenskega knjižnega jezika</hi>. Ljubljana:
+                    Slovenska akademija znanosti in umetnosti, Inštitut za slovenski jezik Frana
+                    Ramovša ZRC SAZU, Založba ZRC, 2000.</bibl>
+                <bibl>Spasić, Ivana. »Jugoslavija kao mesto normalnog života: sećanja običnih ljudi
+                    u Srbiji.« <hi rend="italic">Sociologija</hi> 54, št. 4 (2002): 577–94.</bibl>
+                <bibl>Štuhec, Marko. »Kranjska suita za zrcalo, vilico, nož, žlico, kavno ročko,
+                    čajnik in njuhalni robec.« <hi rend="italic">Zgodovina za vse</hi> 1, št. 1
+                    (1994): 1–9.</bibl>
+                <bibl>Štuhec, Marko, »Materialna kultura plemstva na Kranjskem v prvi polovici 18.
+                    stoletja.« Doktorska disertacija, Univerza v Ljubljani, 2000. </bibl>
+                <bibl>Štuhec, Marko. <hi rend="italic">Rdeča postelja, ščurki in solze vdove
+                        Prešeren, Plemiški zapuščinski inventar 17. stoletja kot zgodovinski
+                        vir</hi>. Ljubljana: Studia humanitatis, 1995.</bibl>
+                <bibl>Thompson, Paul in Hugo Slim. »Ways of Listening.« V: <hi rend="italic">The
+                        Oral History Reader</hi>, ur. Robert Perks in Alistair Thomson. London in
+                    New York: Routledge, 1998 in 2005.</bibl>
+                <bibl>Tonkin, Elisabeth. <hi rend="italic">Narrating Our Pasts. The Social
+                        Construction of Oral History</hi>. New York: Cambridge University
+                    Press.</bibl>
+                <bibl>Ule, Mirjana. <hi rend="italic">Psihologija vsakdanjega življenja</hi>.
+                    Ljubljana: Znanstveno in publicistično središče, 1993.</bibl>
+                <bibl>Velikonja, Mitja. <hi rend="italic">Titostalgia – A Study of Nostalgia for
+                        Josip Broz</hi>. Ljubljana: Mirovni inštitut, 2009.</bibl>
+                <bibl>Vodopivec, Nina. »Modernizacija in tranzicija.« V: <hi rend="italic">Podobe
+                        modernizacije. Poglavja iz gospodarske in socialne modernizacije Slovenije v
+                        19. in 20. stoletju</hi>, ur. Žarko Lazarević in Aleksander Lorenčič,
+                    377–403. Ljubljana: Inštitut za novejšo zgodovino, 2009). </bibl>
+                <bibl>Weber, Max. <hi rend="italic">Protestantska etika in duh kapitalizma</hi>.
+                    Ljubljana: Studia humanitatis, 2002.</bibl>
+                <bibl>Zukin, Sharon. <hi rend="italic">Beyond Marx and Tito. Theory and Practice in
+                        Yugoslav Socialism</hi>. London in New York: Cambridge University Press,
+                    2008.</bibl>
+            </listBibl></div>
+            <div type="summary" xml:lang="en">
+             <head>RESEARCHING EVERYDAY LIFE: DAILY LIFE IN SOCIALISM AND HISTORIOGRAPHY</head>
+            <head>SUMMARY</head>
+                <docAuthor>David Petelin</docAuthor>
+            <p>Ever since the beginning of the 1960s, the systematic and methodical research of the
+                intimate, private or everyday life of the people has been the blind spot of
+                historiography. If historians have occasionally looked at the everyday life of
+                ordinary people, they have only done it in order to make "big history" more
+                interesting. However, in the 1960s and especially in the 1970s many sources and much
+                information about the private and family life of ordinary people in the past started
+                to be discovered. The history of everyday life focuses on the questions of how
+                people went about their daily routine and how they experienced history. The issue
+                involves recurrent living circumstances, subjective experience and perception, as
+                well as the long-term mentalities of people. The history of everyday life or the
+                history of private life is a recent phenomenon in historiography. It strives to
+                overcome the persistence of the official documentary sources: instead it focuses on
+                the lives of individuals rather than on the momentous occurrences that the
+                conventional history normally presents. The methodological research of everyday life
+                is based on (auto)biographies, accounts and stories, oral history, journals and
+                memoirs, which are especially suitable for studying the phenomena and reality of
+                everyday life as an objective and subjective reality. Besides these direct sources,
+                the research also uses sources attesting to the remainders of the culture of
+                people's lives in the past (what they wore, ate, how they lived, etc.). The history
+                of everyday life is by no means everyday history. The central focus of the
+                discipline is to explain the ever-changing and diverse spheres, concepts of the
+                public and private through time and space, in the various historical periods and
+                social formations. Depending on the approach, the discipline can possess dimensions
+                of general history, whether national, regional, or local. The research methodology
+                of the history of everyday life often depends on the auxiliary historical sciences,
+                quantitative methods, or autonomous sciences like anthropology, for example.
+                Auxiliary disciplines can include social history, demographics, genealogy,
+                micro-history, cultural history, history of medicine, ethnography, regional history,
+                national history and political geography. In terms of its topics and methodology,
+                the history of everyday life is closely related to social and cultural history and
+                micro-history. The most frequently used methodological procedure is the so-called
+                thick description, which sheds light on the social and cultural elements in a most
+                comprehensive and plastic manner. Furthermore, oral history is important for the
+                research of recent history as well. The political rule in socialism functions in an
+                estranged manner, and the political rule of state socialism is one of the most
+                severe forms of estrangement in the 20<hi rend="superscript">th</hi> century. The
+                estrangement involved in the urban agglomerations of the industrial period is, in
+                its entirety, dedicated to the accumulation of capital as well as to the capitalist
+                allocation of labour force, resources and goods. In its aspirations to ensure
+                swifter accumulation and industrialisation, socialism simply succeeded this
+                structural model of urban life. The socialist cities are the best proof, attesting
+                to the everyday life of people in socialism. The research involves an analysis of
+                the actual life in these societies, studying the internal logic of the functioning
+                of the socialist regimes as well as the reasons allowing for the preservation of
+                these regimes for many decades. Today it has almost become "popular history" to
+                study socialist history or the everyday life in that period, and reproaches that
+                such research involves nostalgia for the past or the wish to resurrect the past will
+                often be voiced. However, that is not the case. It is precisely this proper temporal
+                distance that is required in order to re-evaluate things as well as – if we can
+                resort to a slightly pejorative term – revise them. Films, documentary testimonies,
+                fashion, museum exhibits or even hotels furnished in the socialist style in
+                themselves attest to the need for a dialogic attitude to the past, for scientific
+                examination of the past and the former countries, and even for reflection from the
+                viewpoint of the today's crisis. A look at the origins of the frequent nostalgia for
+                the socialist past in the today's Eastern Europe attests to the need for articles
+                that directly focus on the relationship between the present and the social changes
+                in the (post)socialist period. Historiography may have demonstrated that the history
+                of everyday life uncovers the painful as well as the positive aspects of the former
+                life, and that is why a sort of nostalgia may occur in this context. This is a
+                frequent occurrence in the former socialist states. However, such nostalgia should
+                not be associated with the political support of the fallen regimes: instead it stems
+                from the memories of the modernisation wave, social security, sounds of music,
+                television images, products characterised by emotion, childhood, or the time when
+                the young were growing up... That is, memories of the parts of everyday life lost
+                during the time of transition.</p></div>
+        </back>
+    </text>
+</TEI>
