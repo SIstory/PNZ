@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Socialni program KNS/SLS skozi prizmo <hi rend="italic">Slovenskega
+                        naroda</hi> (1890–1914)</title>
+                <author>
+                    <name>
+                        <forename>Neja</forename>
+                        <surname>Blaj Hribar</surname>
+                    </name>
+                    <roleName>uni. dipl. zgod. in lit. komp.</roleName>
+                    <roleName>strokovna sodelavka</roleName>
+                    <affiliation>Inštitut za novejšo zgodovino</affiliation>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>neja.blaj-hribar@inz.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2017-03-06</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/209</pubPlace>
+                <date>2016</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">57</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>ideological struggle</term>
+                    <term>Carniola</term>
+                    <term>social programme</term>
+                    <term>newspaper</term>
+                    <term>politics</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>ideološki boj</term>
+                    <term>Kranjska</term>
+                    <term>socialni program</term>
+                    <term>časopisi</term>
+                    <term>politika</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2017-04-25</date>
+                    <name>Neja Blaj Hribar</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Neja Blaj Hribar<note place="foot" xml:id="ftn1" n="*">
+                    <hi rend="bold" xml:space="preserve">uni. dipl. zgod. in lit. komp., strokovna sodelavka, Inštitut za novejšo zgodovino, Kongresni trg 1, 1000 – Ljubljana, </hi><ref
+                        target="mailto:neja.blaj-hribar@inz.si"><hi rend="bold"
+                            >neja.blaj-hribar@inz.si</hi></ref>
+                </note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="UDC">UDK: </idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">Konec 19. stoletja je na Kranjskem prišlo do dokončne ločitve
+                        med ideološkimi bloki. Politični boji, ki so bili najbolj očitni v dnevnem
+                        časopisju, so postali del političnega vsakdana. Članek se osredotoča na
+                        socialni progam in organizacijo Katoliške narodne stranke ter kako so ju
+                        želeli prikazati v liberalnem Slovenskem narodu.</hi></p>
+                <p><hi rend="italic">Ključne besede: ideološki boj, Kranjska, socialni program,
+                        časopisi, politika</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head>THE KNS/SLS SOCIAL PROGRAMME THROUGH THE PRISM OF THE "SLOVENSKI NAROD"
+                    NEWSPAPER (1890-1914) </head>
+                <p><hi rend="italic">By the end of the 19</hi><hi rend="italic superscript"
+                        >th</hi><hi rend="italic"> century, the Slovenian »party« in Carniola had
+                        split into ideological blocks. Political disputes, most apparent in daily
+                        newspapers, became a part of the everyday political life. The following
+                        article focuses on the social programme and organisation of the Catholic
+                        National Party (Katoliško narodna stranka), and on how they were seen by the
+                        liberal daily newspaper Slovenski narod.</hi></p>
+                <p><hi rend="italic">Keywords: ideological struggle, Carniola, social programme,
+                        newspaper, politics</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <p>Po prvih »prepirih« med staro- in mladoslovenci v sedemdesetih, ki je sovpadal z
+                    liberalno-klerikalnimi trenji po vsej Avstriji, je do dokončnega preloma prišlo
+                    proti koncu 19. stoletja. Na Kranjskem politično ločitev taborov postavljam v
+                    leto 1890, ko je bilo ustanovljeno Katoliško politično društvo.<note
+                        place="foot" xml:id="ftn2" n="1"> Za to letnico in dogodek sem se odločila,
+                        ker se je takrat, kot je zapisal Ivan Prijatelj, »tudi na zunaj prerezal prt
+                        med slovensko narodno-napredno in konservativno stranko«. <hi rend="bold"
+                            >–</hi> Ivan Prijatelj, <hi rend="italic">Slovenska kulturnopolitična in
+                            slovstvena zgodovina 1848–1895, zv. 5</hi> (Ljubljana: Državna založba
+                        Slovenije, 1966), 312. To sicer ni pomenilo popolne prekinitve sodelovanja,
+                        a je ponovno slogo zagotovo onemogočilo. Prav tako je bistveno, da ima
+                        kakršno koli organizirano delovanje veliko večjo težo kot neorganizirano.
+                        Pregled zaključujem z začetkom prve svetovne vojne.</note> Seveda do razkola
+                    ni prišlo takoj, niti to ni bil enoznačen in enosmeren proces. Do trenj je
+                    prihajalo že ves čas sloge, do zaostritve je prišlo v osemdesetih. V <hi
+                        rend="italic">Slovencu</hi> so že leta 1886 zbadali
+                    <hi rend="italic" xml:space="preserve">Slovenski narod, </hi>da se bojijo
+                    ločitve, ker nanjo niso pripravljeni, in zavrnili kakršen koli liberalizem.<note
+                        place="foot" xml:id="ftn3" n="2"> Prijatelj, <hi rend="italic">Slovenska
+                            kulturnopolitična</hi>, 275.</note> K »osamosvojitvi« in samostojni
+                    politični organizaciji je katoliško stran spodbudil tudi II. katoliški shod na
+                    Dunaju maja 1889. Anton Mahnič je takrat v <hi rend="italic">Rimskem
+                        katoliku</hi> izrazil željo, da bi se takšni shodi organizirali po vseh
+                    deželah, članek pa zaključil z mislijo: »Morda bi bilo vender koristno naše
+                    javne zadeve malo preverjati ter liberalne pleve ločiti od zlatega katoliškega
+                        zrnja.«<note place="foot" xml:id="ftn4" n="3"> Dr. Mahnič [Anton Mahnič],
+                        »Katoliški shod na Dunaji,« <hi rend="italic">Rimski katolik</hi> (1888/89),
+                        348.</note></p>
+                <div>
+                    <head>Ločitev duhov in socialno organiziranje KNS/SLS</head>
+                    <p>Ustanovni shod Katoliškega političnega društva je bil 26. januarja 1890. V
+                            <hi rend="italic">Slovenskem narodu</hi> so ob ustanovitvi društvu sicer
+                        zaželeli vse dobro, niso pa mogli mimo nekaterih opazk. Društvo naj bi
+                        nastalo »čez noč«, skrbela jih je izpustitev pridevnika »slovenski.« Strah
+                        jim je vzbujalo predvsem dejstvo, da za društvom stoji »tista mlada
+                        duhovščina, ki prisega, da je dr. Mahnič izvrsten mož«, čeprav je vodstvo
+                        zaenkrat še v »zmernih rokah«.<note place="foot" xml:id="ftn5" n="4"> R.
+                            [Ivan Tavčar], »Katoliško politično društvo,« <hi rend="italic"
+                                >Slovenski narod</hi>, 1. 2. 1890, 1. </note> S političnim društvom
+                        je delo katoliške strani postalo organizirano in dobilo nov zagon. Prirejali
+                        so javne shode po vsej Kranjski in s tem širili svoje ideje predvsem med
+                        kmečkim prebivalstvom. Leto kasneje je bilo ustanovljeno Konservativno
+                        obrtno društvo, s čimer je bil postavljen »temelj katoliški stanovski
+                            organizaciji«.<note place="foot" xml:id="ftn6" n="5"> Fran Erjavec,
+                            <hi rend="italic" xml:space="preserve">Zgodovina katoliškega gibanja na Slovenskem </hi>(Ljubljana:
+                            Prosvetna zveza, 1928), 43, 44.</note>
+                    </p>
+                    <p>V Katoliško narodno stranko (KNS) so se preoblikovali na I. slovenskem
+                        katoliškem shodu, ki je potekal med 29. in 31. avgustom 1892 v Ljubljani.
+                        Tam sprejete resolucije so bile osnova za nadaljnje politično delovanje
+                        stranke, zajemale pa so skoraj vsa področja javnega življenja.
+                        Najpomembnejše za organizacijo so bile socialne resolucije, ki so temeljile
+                        na papeški okrožnici <hi rend="italic">Rerum novarum</hi> (1891) in
+                        resolucijah II. avstrijskega katoliškega shoda.<note place="foot"
+                            xml:id="ftn7" n="6"> Podrobneje o shodu in resolucijah: Ibid.<hi
+                                rend="italic">,</hi> 44-7. </note> Na podlagi tega programa so v
+                        naslednjih letih oblikovali svojo politično in gospodarsko organizacijo, ki
+                        je bila temeljna za postopno uresničitev »nove krščanske družbe«.<note
+                            place="foot" xml:id="ftn8" n="7"> Po prenovljeni rimski cerkveni
+                            politiki naj bi do »nove krščanske družbe« prišlo tako, da bi se:
+                            »<hi rend="italic" xml:space="preserve">katoličani </hi>organizirali v
+                            stranke in najraznovrstnejša združenja«, s katerimi bi ponovno skušali
+                                »<hi rend="italic">pokristjaniti posamezna področja zasebnega in
+                                javnega življenja.</hi>«
+                            <hi rend="italic" xml:space="preserve">– </hi>Jožko Pirc, »Utopija 'nove
+                            krščanske družbe'?,« v: <hi rend="italic">Cerkev, kultura in politika
+                                1890–1941,</hi> ur. France M. Dolinar, Joža Mahnič in Peter
+                            Vodopivec (Ljubljana: Slovenska matica, 1993), 109, 110.</note> V veliko
+                        pomoč jim je bila že izoblikovana cerkvena mreža, na katero so naslonili
+                        svojo organizacijo. Prvo Katoliško delavsko društvo je bilo osnovano v
+                        Idriji leta 1893, naslednje leto je bilo ustanovljeno Katoliško društvo za
+                        delavke v Ljubljani. Decembra 1895 je zaživela Zveza kranjskih posojilnic,
+                        kmalu za tem še prvo poljedelsko konsumno društvo v Starem trgu pri
+                            Ložu.<note place="foot" xml:id="ftn9" n="8"> Erjavec, <hi rend="italic"
+                                >Zgodovina</hi>, 103-9. Za podroben pregled ustanavljanja katoliških
+                            društev in drugih organizacij gl. Ibid.</note> Leta 1898 je bila
+                        ustanovljena krovna organizacija Gospodarska zveza. Nastale so tudi številne
+                        delniške družbe z industrijsko proizvodnjo in bančnimi posli, s čimer je
+                        stranka postala zanimiva tudi za višje sloje.<note place="foot"
+                            xml:id="ftn10" n="9"> Ferdo Gestrin in Vasilij Melik,
+                            <hi rend="italic" xml:space="preserve">Slovenska zgodovina. Od konca osemnajstega stoletja do 1918 </hi>(Ljubljana:
+                            Državna založba Slovenije, 1966), 282.</note> Do II. slovenskega
+                        katoliškega shoda leta 1900 so ustanovili že 80 posojilnic in 45 kmetijskih
+                        in gospodarskih društev. Isto leto se je v reorganizirano Gospodarsko zvezo
+                        včlanilo 126 zadrug, Zveza kranjskih posojilnic pa je združevala 45
+                        kreditnih zadrug.<note place="foot" xml:id="ftn11" n="10"> Erjavec, <hi
+                                rend="italic">Zgodovina</hi>, 111, 112.</note> Njihovo število je z
+                        leti še naraščalo. Predvsem socialnogospodarsko delovanje se je stranki
+                        hitro obrestovalo. Na volitvah leta 1895 v deželni zbor je dobila vse
+                        mandate v kmečkih kuriji. Po demokratizaciji volilnega reda leta 1896 pa se
+                        je okrepila tudi v mestih in industrijskih središčih.</p>
+                    <p>Liberalna stran je na ponovnem sklicu ustanovnega občnega zbora Slovenskega
+                        društva leta 1891 poudarila predvsem pomembnost narodnega vprašanja.<note
+                            place="foot" xml:id="ftn12" n="11"> Zvonko Bergant, <hi rend="italic"
+                                >Kranjska med dvema Ivanoma: idejno-politično soočenje slovenskega
+                                političnega katolicizma in liberalizma na prehodu iz 19. v 20.
+                                stoletje</hi> (Ljubljana: Inštitut za globalne politične študije,
+                            2004), 59.</note> Stranko (Napredna stranka, NS<note place="foot"
+                            xml:id="ftn13" n="12"> Konec devetdesetih so se preimenovali v Narodno
+                            napredno stranko (NNS).</note>) so ustanovili šele leta 1894. Čeprav je
+                        podpirala vse stanove, je že takrat poudarjala pomen meščanstva in
+                        inteligence, nato pa je vedno bolj postavljala v ospredje interese svoje
+                        volilne baze. Ta se je jasno izoblikovala po volitvah v deželni zbor leta
+                        1895. Takrat so izgubili vse kmečke mandate (po tem so jih osvojili le še
+                        trikrat, nazadnje leta 1901<note place="foot" xml:id="ftn14" n="13"> Vasilij
+                            Melik, »Jeglič in slovenska politika do leta 1918,«
+                            v:<hi rend="italic" xml:space="preserve"> Jegličev simpozij v Rimu, </hi>ur.
+                            Edo Škulj (Celje: Mohorjeva družba, 1991), 282.</note>), več liberalnih
+                        veljakov, ki so očitno že slutili volilni preobrat, pa je že pred volitvami
+                        prestopilo v katoliško stranko.<note place="foot" xml:id="ftn15" n="14">
+                            Vasilij Melik, »Družbene razmere v ljubljanski škofiji v drugi polovici
+                            19. stoletja,« v:
+                            <hi rend="italic" xml:space="preserve">Missiev simpozij v Rimu, </hi>ur.
+                            Edo Škulj (Celje: Mohorjeva družba, 1988), 93.</note>
+                    </p>
+                    <p>Po volilni reformi za državni zbor leta 1896 je NS predlagala spravo.<note
+                            place="foot" xml:id="ftn16" n="15"> Sodelovanje je bilo povezano
+                            predvsem z vzponom nemškega nacionalizma, zaradi jezikovnih naredb za
+                            Češko.</note> Ta je bila zavrnjena, a ideja, da bi se vsi slovenski
+                        poslanci združili v skupen jugoslovanski klub, je ostala. S Hrvati in
+                        Ukrajinci so osnovali Slovansko-krščansko zvezo. Ideja o spravi se je
+                        prenesla tudi na deželno raven, ponudila jo je KNS. Osnutek spravne pogodbe,
+                        o usklajenem delovanju v deželnem zboru, je bil podpisan na shodu slovenskih
+                        in istrsko-hrvaških poslancev septembra 1897 v Ljubljani.<note place="foot"
+                            xml:id="ftn17" n="16"> Spravna pogodba je bila podpisana 23. februarja,
+                            v <hi rend="italic">Slovenskem narodu</hi> je bila objavljena 18.
+                            marca.</note> Vsled tega je opaziti upad kritičnih člankov v <hi
+                            rend="italic">Slovenskem narodu</hi>, čeprav napadi niso popolnoma
+                        ponehali. Manjše praske so prihajale z obeh strani, dokler <hi rend="italic"
+                            >Slovenski narod</hi> ni obtožil klerikalcev, da kršijo spravno pogodbo.
+                        Po pogodbi naj bi na volitvah ohranjali obstoječe mandate, a je KNS drugače
+                        tolmačila pogodbo in na dopolnilnih volitvah v deželni zbor vseeno postavila
+                            protikandidata.<note place="foot" xml:id="ftn18" n="17"> »Deželnozborska
+                            volitev,« <hi rend="italic">Slovenski narod</hi>, 25. 10. 1898,
+                            1.</note> Večja zamera in hujši politični očitek so bila konsumna
+                        društva. Njihovo ustanavljanje naj bi se s pogodbo prenehalo oziroma bi
+                        nastala le v soglasju z NS. Vendar se KNS tega dogovora ni držala, zato so
+                        boji ponovno vzplamteli in <hi rend="italic">Slovenski narod</hi> je začel
+                        pravo gonjo proti konsumnim društvom. Ustanavljanju konsumov so nasprotovali
+                        tudi trgovci in obrtniki. V Ljubljani so 6. aprila 1899 organizirali
+                        protestni shod, ki so se ga udeležili tudi člani NS.<note place="foot"
+                            xml:id="ftn19" n="18"> »Shod trgovcev in obrtnikov,« <hi rend="italic"
+                                >Slovenski narod,</hi> 6. 4. 1899, 1.</note> Tam je bila ustvarjena
+                        podlaga za osnovanje Trgovskega in obrtnega društva za Kranjsko, ki je
+                        zaživelo junija isto leto.</p>
+                    <p>Liberalna stranka se je vse bolj osredotočala le na svojo volilno bazo, kmet
+                        pa je bil za njih večinoma le še neučen volivec klerikalcev, ki ga ima v
+                        oblasti duhovščina.<note place="foot" xml:id="ftn20" n="19"> Npr.
+                            »Klerikalne – Pyrrhove zmage,«
+                            <hi rend="italic" xml:space="preserve">Slovenski narod, </hi>9. 11.
+                            1895, 1. »Volitev v kmečkih občinah,« <hi rend="italic">Slovenski
+                                narod</hi>, 22. 11. 1895, 1.</note> Tudi zaradi gospodarske
+                        zaostalosti in nadvlade predvsem nemškega kapitala liberalna stranka ni
+                        imela širše podpore.<note place="foot" xml:id="ftn21" n="20"> Jurij
+                            Perovšek, <hi rend="italic">Na poti v moderno. Poglavja iz zgodovine
+                                evropskega in slovenskega liberalizma 19. in 20. stoletja</hi>
+                            (Ljubljana: Inštitut za novejšo zgodovino, 2005), 51.</note> Volilno
+                        bazo je že v začetku imela omejeno na premožnejši sloj (ki je bil politično
+                        nestabilen) in posvetno inteligenco.<note place="foot" xml:id="ftn22" n="21"
+                            > Vasilij Melik, »Slovenski liberalni tabor in njegovo razpadanje,« v:
+                                <hi rend="italic">Slovenci 1848–1918: razprave in članki</hi>
+                            (Maribor: Litera, 2002), 638, 639.</note> Tudi po strankarski
+                        organizaciji so zaostajali za glavnimi političnimi nasprotniki in se niso
+                        znali prilagoditi novi, na množicah temelječi politični realnosti.<note
+                            place="foot" xml:id="ftn23" n="22"> Irena Selišnik, »Vstop množic v
+                            polje političnega na prelomu 20. stoletja na Slovenskem,«
+                            <hi rend="italic" xml:space="preserve">Historični seminar 12 </hi>(2016):
+                            73.</note> Od njih so se postopoma odmikali mlajši radikalnejši elementi
+                        v stranki, obvladovali so samo še kulturno področje, medtem ko so politično
+                        vedno bolj slabeli. Tudi kasnejše delo NNS (predvsem mladih), povezano z
+                        zadružništvom in delavsko organizacijo, ni prineslo vidnejših uspehov. </p>
+                    <p>Po spremembi volilnega reda je SLS popolnoma prevzela oblast na Kranjskem.
+                        Pospeševala je modernizacijo kmetijstva, gradnjo železnic, elektrificirala
+                        deželo. Za večji dotok financ je posodobila davčni sistem in »razvijala
+                        lastne bančne in zavarovalne zavode«. Stranka je gospodarsko močno
+                        pripomogla k razvoju dežele, hkrati pa postopoma »monopolizirala oblast« na
+                        vseh področjih družbenega življenja.<note place="foot" xml:id="ftn24" n="23"
+                            > Janko Pleterski,
+                            <hi rend="italic" xml:space="preserve">Dr. Ivan Šušteršič, 1863–1925: pot prvaka slovenskega političnega katolicizma </hi>(Ljubljana:
+                            Znanstvenoraziskovalni center SAZU, Založba ZRC, 1998), 273.</note> To
+                        se je kazalo predvsem v nastavljanju strankinih pripadnikov v deželne službe
+                        in »izstradalni« politiki proti liberalnim učiteljem. Jasno so dali vedeti,
+                        da deželni odbor ne bo upošteval nobene občinske prošnje, če je ne bodo
+                        prinesli njihovi zastopniki. Podporo so dobivala njihova društva, med njimi
+                        zveza klerikalnih zadrug, ki so ji denar nakazali kar iz sklada za
+                        ustanovitev slovenske univerze.<note place="foot" xml:id="ftn25" n="24">
+                            Ibid., 274-9.</note></p>
+                    <p>Za uspešno vzpostavitev »nove katoliške družbe« sta bili potrebni
+                        organizacija in nov moralni in teoretski pristop.<note place="foot"
+                            xml:id="ftn26" n="25"> Srečo Dragoš, »'Do skrajnosti za sveto stvar!',«
+                                <hi rend="italic">Družboslovne razprave</hi> 14, št. 27/28 (1998):
+                            129.</note> Moralno in teoretsko osnovo je oznanjal že Luka Jeran,
+                        nadaljevala in nadgradila pa sta jo Anton Mahnič in Aleš Ušeničnik. Pri
+                        organiziranju se je katoliška stranka oprla na že izoblikovano cerkveno
+                        organizacijo. S pomočjo mreže kulturnih, gospodarskih, socialnih in drugih
+                        organizacij je izvedla t. i. »pilarizacijo« družbe. Organizacijska struktura
+                        Katoliške cerkve se je pokazala kot »najbolj zanesljivo politično orožje in
+                        mreža političnih postojank«. Najpomembnejša je bila socialna organizacija,
+                        ker je bila z njo sposobna vzeti v zaščito kmeta, s čimer si je omogočila
+                        »prevlado slovenskega političnega katolicizma za naslednjega pol
+                            stoletja«.<note place="foot" xml:id="ftn27" n="26"> Egon Pelikan,
+                            »Interpretacije 'posameznika, družbe in naroda' znotraj ideologije
+                            političnega katolicizma na Slovenskem,« <hi rend="italic">Acta
+                                Histriae</hi> 17, št. 1-2 (2009): 311, 312.</note>
+                    </p>
+                </div>
+                <div>
+                    <head>Ideološki boj v časopisju (na primeru socialnega programa)</head>
+                    <p>Politični časopisi v 19. stoletju niso bili neodvisni, ampak strankarska
+                        glasila. Pogosto so se v vlogah novinarjev oziroma urednikov pojavljali tudi
+                            politiki.<note place="foot" xml:id="ftn28" n="27"> Marko Zajc in Janez
+                            Polajnar, <hi rend="italic">Naši in vaši. Iz zgodovine slovenskega
+                                časopisnega diskurza v 19. in začetku 20. stoletja</hi> (Ljubljana:
+                            Mirovni inštitut, 2012), 43.</note> Časopisi so bili pomembno orodje
+                        političnega marketinga stranke, poročali so o aktualnem dogajanju in hkrati
+                        politično »vzgajali« bralce. Osrednji dnevnik liberalne stranke je bil <hi
+                            rend="italic">Slovenski narod</hi>. Politična »vzgoja« je potekala čez
+                        ves časopis, v katerem so predstavljali sami sebe in hkrati oblikovali
+                        podobo svojih političnih nasprotnikov. Ti prikazi ne predstavljajo nujno
+                        mnenja vseh liberalcev, gre za podobe, ki jih je ustvarjala strankarska
+                        politika, se pa ponavljajo pri različnih avtorjih, kar vseeno kaže na neko
+                        politično soglasje. Podobe so oblikovali v krajših novicah ter daljših
+                        poročilih in uvodnikih. Podobno velja za literarne in polliterarne zvrsti,
+                        ki se pojavljajo pod črto. Krajše pripovedi, pesmi in t. i. »pravi«
+                            feljtoni,<note place="foot" xml:id="ftn29" n="28"> Feljton oziroma
+                            podlistek ima dva pomena. Lahko gre za časnikarsko tehnični pojem,
+                            časopisno rubriko pod črto, ali eno izmed epskih zvrsti. Slednja,
+                            »pravi« feljton, je literarna oziroma bolje polliterarna zvrst, ki se
+                            navado nahaja v časopisu pod črto, a ne nujno. Kot tudi ni nujno, da je
+                            vse, zapisano pod črto, feljton.
+                            <hi rend="italic" xml:space="preserve">– </hi>France Vreg,
+                            <hi rend="italic" xml:space="preserve">Feljton. Novinarske, polliterarne in literarne oblike na Slovenskem </hi>(Ljubljana:
+                            Fakulteta za družbene vede, 2002), 26, 45. </note> ki se nanašajo na
+                        politično dogajanje, so večinoma satiričen odziv na točno določen dogodek,
+                        ki je (bil) zabeležen nad črto. Pri daljših pripovedih je aktualnost časovno
+                        razširjena. Niso osredotočena le na en dogodek ali osebo in imajo s tem
+                        večjo sporočilnost. Nasprotnika prikazujejo v več položajih, z več fiktivne
+                        snovi. Podobe klerikalcev se pod in nad črto večinoma podvajajo, le da so
+                        spodaj opisane bolj lahkotno, skozi drugačno obliko sporočanja. </p>
+                    <p>»V obče so klerikalci tako hudobni, brezvestni in perfidni, kakor si jih
+                        navadno mislimo, toda včasih prekose še same sebe in padejo tako globoko, da
+                        človeku kar sapa zastane, kadar vidi, česa je klerikalna duša
+                            sposobna.«<note place="foot" xml:id="ftn30" n="29"> »À la lanterne!,«
+                                <hi rend="italic">Slovenski narod</hi>, 26. 8. 1899, 1.</note>
+                        Slednji citat je eden najbolj zgovornih za liberalno prikazovanje klerikalne
+                        stranke. Tako kot je za KNS zapisal Janko Pleterski, da so postopoma začeli
+                        »Mahničevo ločitev duhov razumevati kot pravico do satanizacije nasprotnika,
+                        ki zasluži samo izključitev in uničenje«,<note place="foot" xml:id="ftn31"
+                            n="30"> Pleterski, <hi rend="italic">Dr. Ivan Šušteršič,</hi> 75.</note>
+                        so jo s svojega gledišča razumeli tudi liberalci. Napadali niso le stranke
+                        in političnih prepričanj, ampak tudi posamezne osebe. Zgled morale in
+                        resnicoljubja za njih niso bili ne člani ne podporniki klerikalne stranke.
+                        Glavni krivec za politični boj naj bi bila cerkev in njeno vodstvo, ki sta
+                        vero spremenila v »politično deklo.«<note place="foot" xml:id="ftn32" n="31"
+                            > Neja Blaj Hribar, »'Ločitev škofa-duhovnika in škofa-politika ni
+                            iznajdba tega peklenskega slovenskega liberalizma.' Duhovščina in
+                            Rimskokatoliška cerkev v publicističnih ter literarnih delih
+                            <hi rend="italic" xml:space="preserve">Slovenskega naroda </hi>(1890-1914),«
+                                <hi rend="italic">Zgodovina za vse</hi> 21, št. 2 (2014): 29.
+                        </note> Največkrat so jim pripisovali nenarodni značaj, okoriščanje na račun
+                        kmetov in delavcev ter neetično agitacijo med volitvami. Ko so se liberalci
+                        v deželnem zboru znašli v opoziciji, so dobili še več gradiva in možnosti za
+                        napade na vladajočo stranko. Očitali so jim površno upravljanje z deželnim
+                            denarjem,<note place="foot" xml:id="ftn33" n="32">»Klerikalci kot
+                            oskrbniki deželnega denarja,« <hi rend="italic">Slovenski narod,</hi>
+                            15. 1. 1911, 3. »Kako gospodarijo z deželnim denarjem?,« <hi
+                                rend="italic">Slovenski narod,</hi> 21. 8. 1913, 3.</note>
+                        neizpolnjevanje volilnih obljub<note place="foot" xml:id="ftn34" n="33"> »Če
+                            bi ljudstvo spregledalo...,« <hi rend="italic">Slovenski narod</hi>, 31.
+                            10. 1913, 1.</note> ter uvajanje »strahovlade«.<note place="foot"
+                            xml:id="ftn35" n="34"> »Strahovlada,« <hi rend="italic">Slovenski
+                                narod,</hi> 30. 1. 1912, 1.</note> Pred deželnozborskimi volitvami
+                        leta 1913 so zapisali, da kar »vidimo sedaj v naši deželi, to je boj
+                        klerikalne družbe proti slovenskemu ljudstvu, boj z duhovščino združene
+                        družbe širokovestnih ljudi za gospodstvo nad ljudstvom. /…/ Proti
+                        klerikalnemu agitacijskemu delu je treba ljudstvo opozarjati na neizpolnjene
+                        obljube, s katerimi so si klerikalci prisleparili zaupanje volilcev, na
+                        slabo gospodarstvo in na krivično, pristransko in koruptno klerikalno
+                        strahovlado ter vzbujati v ljudstvu čut dolžnosti, da je treba v blagor cele
+                        dežele in vsega prebivalstva napeti vse moči in spraviti na volišče zadnjega
+                        moža, da bo strto klerikalno strankarsko gospodstvo in da nastanejo nove,
+                        boljše in veselejše razmere v tej ubogi in izsesani kranjski deželi.«<note
+                            place="foot" xml:id="ftn36" n="35"> »V boju zoper ljudstvo,« <hi
+                                rend="italic">Slovenski narod,</hi> 18. 11. 1913, 1.</note></p>
+                    <p>Stališča glede gospodarskega in socialnega programa nasprotne stranke so
+                        liberalci spreminjali, prav tako kot svoje poglede na socialno vprašanje. V
+                        vabilu na ustanovni shod Slovenskega društva so v <hi rend="italic"
+                            >Slovenskem narodu</hi> zapisali, da se morajo izboljšati »trgovski in
+                        obrtniški interesi«, da se lahko kmečki stan »povzdigne v gmotnem in
+                        kulturnem oziru«.<note place="foot" xml:id="ftn37" n="36"> »Slovenskim
+                            rodoljubom,« <hi rend="italic">Slovenski narod</hi>, 26. 1. 1891,
+                            1.</note> Rešitev socialnega vprašanja so sprva videli tudi v uvedbi
+                        splošne in direktne volilne pravice, saj bi ta prinesla večjo zastopanost
+                        Slovanov v državnem zboru ter hkrati ublažila socialna nasprotja v državi. S
+                        tem bi se zajezilo tudi širjenje socializma.<note place="foot"
+                            xml:id="ftn38" n="37"> »Razne misli,« <hi rend="italic">Slovenski
+                                narod</hi>, 15. 10. 1890, 1, 2.</note> Temeljna zahteva liberalne
+                        stranke je bila narodna enakopravnost in s tem povezan napredek narodnega
+                        gospodarstva. Osvoboditev od nemškega kapitala naj bi omilila tudi socialno
+                        vprašanje. Ob ustanovitvi stranke so se v programu zavzeli tudi za napredek
+                        narodnega gospodarstva ter izboljšanje gmotnega stanja vseh stanov. V tem
+                        oziru so podprli posojilnice in hranilnice ter pozdravili krščanskosocialno
+                            gibanje.<note place="foot" xml:id="ftn39" n="38"> »‘Narodna stranka’ na
+                            Kranjskem,« <hi rend="italic">Slovenski narod,</hi> 1. 12. 1894,
+                            1-3.</note>
+                    </p>
+                    <p>Vendar liberalna stran ni verjela v socialni čut katoliških politikov.<note
+                            place="foot" xml:id="ftn40" n="39"> Izjema je bil Janez Evangelist Krek,
+                            ki so mu pripisovali celo socialistične ideje.</note>
+                        <hi rend="italic">Slovenski narod</hi> je socialni čut stare konservativne
+                            smeri<note place="foot" xml:id="ftn41" n="40"> Znotraj KNS sta bili
+                            združeni dve frakciji, stara konservativna in krščanskosocialna.
+                            Katoliška stran je bila prav tako razcepljena kot liberalna, le da je
+                            bilo to v javnosti manj znano.
+                            <hi rend="italic" xml:space="preserve">– </hi>Melik, »Družbene razmere,«
+                            91.</note> primerjal z bogatinom, ki se mu je utrnila solza med
+                        pripovedjo berača in je hlapcu naročil, naj ga vrže pred vrata, ker mu bo
+                        drugače od sočutja počilo srce. Drugače pa bi krščanski socialci, ironično
+                        dodaja <hi rend="italic">Slovenski narod</hi>, »predrugačili ves svet,
+                        razdrli sedanji socijalni red in na njegovih razvalinah zgradili nov dom, v
+                        katerem bi vladala sreča in blagostanje, v katerem bi bili vsi ljudje srečni
+                        in zadovoljni«.<note place="foot" xml:id="ftn42" n="41"> »Rudeči socijalist
+                            v črni suknji,« <hi rend="italic">Slovenski narod</hi>, 17. 2. 1897,
+                            1.</note> Na to dvojnost katoliške stranke so liberalci večkrat
+                        opozarjali. Ignacij Žitnik in Andrej Kalan naj bi sicer bila zagreta
+                        podpornika krščanskosocialne ideje (s pristavkom, da le v teoriji), a bosta
+                        le izvrševala »ukaze kapitalistov in nasprotnikov krščanskega socijalizma:
+                        škofa Missie in kanonika Kluna«.<note place="foot" xml:id="ftn43" n="42">
+                            »Klerikalni kandidati,« <hi rend="italic">Slovenski narod</hi>, 19. 11.
+                            1895, 1.</note> Missia sicer res ni bil pobudnik socialnega gibanja, ni
+                        mu pa nasprotoval, saj je želel ohraniti enotno katoliško gibanje.<note
+                            place="foot" xml:id="ftn44" n="43"> Walter Lukan, »Socialni katolicizem
+                            v Avstriji in pri Slovencih v drugi polovici 19. stoletja,« v: <hi
+                                rend="italic">Missiev simpozij</hi>, 118.</note>
+                    </p>
+                    <p>Krščanskosocialno gibanje, kot se je razvilo na Dunaju, je bilo za liberalce
+                        izključno gospodarsko združenje proti domnevnemu židovskemu oderuštvu, brez
+                        verskega pridiha. A potencial socialnega delovanja in antisemitizma so hitro
+                        izvohali klerikalci in se razglasili za krščanske socialce. Njihov namen je
+                        izključno »vladarstvo klerikalizma, neomejeno gospostvo duhovščine«. To naj
+                        bi veljalo za vse avstrijske klerikalce, tudi kranjske.<note place="foot"
+                            xml:id="ftn45" n="44"> »Klerikalizem in pravica,« <hi rend="italic"
+                                >Slovenski narod</hi>, 27. 10. 1896, 1. </note> Liberalna stran v
+                        njihovem programu in delovanju nikoli ni videla iskrenosti in je le iskala
+                        njihove pomanjkljivosti. Še bolj kot socialni program pa so bili za
+                        liberalce vprašljivi njegovi »izvajalci«. O »kakovosti« klerikalnih
+                        poslancev so vseskozi javno dvomili ter to dokazovali z njihovim (ne)delom.
+                        Njihovo poslansko skupino v deželnem zboru so prikazovali kot nesposobno za
+                        reševanje težjih gospodarskih vprašanj, »čepeli so na svojih stoleh in se
+                        dolgočasili, kadar so se razpravljala važna gospodarska vprašanja.
+                        Klerikalna stranka je bila v dež. zboru sterilna in neplodna kakor kraški
+                        svet«. Tako gredo le Narodni stranki zasluge za »malone vse, kar se je v
+                        gospodarskem oziru sklenilo«.<note place="foot" xml:id="ftn46" n="45">
+                            »Gospodarstvo in naši klerikalci,« <hi rend="italic">Slovenski
+                                narod</hi>, 14. 11. 1895, 1.</note> V tem članku izrecno poudarijo,
+                        da so, v nasprotju s klerikalci, oni usposobljeni za reševanje gospodarskih
+                        težav. Tega poudarka ne zasledimo vedno, saj že s prikazom nesposobnosti
+                        nasprotnikov samodejno oblikujejo lastno podobo gospodarsko kompetentne
+                        stranke. Tako na primer
+                        <hi rend="italic" xml:space="preserve">Slovenski narod </hi>piše, da so
+                        1894, leto pred deželnozborskimi volitvami, klerikalni poslanci in poslanski
+                        kandidati naredili veliko za turizem, saj »nobena dolina ni bila pregloboka,
+                        da bi se ne bili vanjo spustili«. O shodih ne želijo grdo govoriti, saj ti
+                        prinašajo marsikaj dobrega. Ljudem razlagajo gospodarske zadeve in o njih
+                        govorijo malo za šalo ter močno poenostavljeno, da jih tudi najpreprostejši
+                        ljudje razumejo. Medtem ko bi strokovnjaki govorili preveč učeno.<note
+                            place="foot" xml:id="ftn47" n="46"> »Nekoliko kritike,«
+                            <hi rend="italic" xml:space="preserve">Slovenski narod, </hi>15. 9.
+                            1894, 1.</note>
+                    </p>
+                    <p>Liberalci so ostro nastopali proti socializmu kot ekonomski predvsem pa
+                        politični ideji, a glede na gmotno stanje prebivalstva se jim je zdelo
+                        logično, da se širi tudi po slovenskih deželah. Širjenja pa naj ne bi bile
+                        krive le ekonomske razmere, ampak posredno tudi KNS. Ljudi so zastrupili s
+                        parolo, da je vera v nevarnosti, česar so krivi liberalci, ki so kapitalisti
+                        in oderuhi. Nadalje so jim obljubljali še nemogoče spremembe njihovega
+                        gmotnega stanja (nižanje davkov, odpuste dolgov itd.) in s tem zasejali
+                        »revolucionarno seme«. Njihov program, sestavljen na I. slovenskem
+                        katoliškem shodu, je precej socialističen. Ta program so zdaj pozabili, in
+                        ko se bo ljudstvo zavedelo, da je bilo prevarano, bo trumoma prestopilo v
+                        socialdemokratski tabor.<note place="foot" xml:id="ftn48" n="47"> »Kdo je
+                            kriv?,« <hi rend="italic">Slovenski narod</hi>, 25. 4. 1896, 1,
+                            2.</note></p>
+                    <p>Šest let kasneje so imeli o katoliškem socialnem programu spet drugačno
+                        mnenje. »Krščanski socijalizem« je le ukradena ideja »modernega
+                        liberalizma«. Ko se klerikalizmu ni niti »sanjalo o socijalnih zadevah«, je
+                        liberalizem že delal za »gospodarsko in duševno povzdigo vseh slojev«.
+                        Dokler so se držali tega programa, so med njimi vladale simpatije (te je
+                        izrazil tudi prvi zaupni shod narodne stranke leta 1894). Tudi papeževa
+                        okrožnica <hi rend="italic">Rerum novarum</hi> naj bi obsegala vse temeljne
+                        nauke modernega liberalizma. A zataknilo se je, ko se je začelo
+                        krščanskosocialno gibanje preveč razširjati in je zato vmes posegel Vatikan
+                        (za kar naj bi posredovali avstrijski škofje). Vodje krščanskih socialcev
+                        naj bi morali podpisati izjavo, da bodo v vsem pokorni svojim škofom in da
+                        bodo pustili kapital pri miru, saj je cerkev največji kapitalist. Tako je
+                        danes krščanskosocialno gibanje le še svoja karikatura, ki deluje zato, da
+                        narode organizira v »fevd katoliške cerkve«.<note place="foot"
+                            xml:id="ftn49" n="48"> »Krščansko socialstvo, I.,« <hi rend="italic"
+                                >Slovenski narod</hi>, 11. 10. 1902, 1.</note></p>
+                    <p>Najbolj pa je NNS motilo ustanavljanje gospodarskih združenj. Njihov edini
+                        namen naj bi bilo uničenje srednjega sloja in s tem političnega nasprotnika.
+                        Konec devetdesetih so proti konsumnim društvom začeli pravo časopisno vojno.
+                        Duhovniški agitatorji naj bi silili kmete kupovati v konsumih, kjer jim
+                        blago prodajajo po višji ceni in slabi »vagi«. Namesto humanitarne naloge
+                        konsumna društva pehajo kmeta v prepad, saj opravljajo tudi gostilniško
+                        funkcijo, kjer že tako obubožani kmetje zapravijo še zadnji denar za
+                        ponarejeno vino in žganje.<note place="foot" xml:id="ftn50" n="49">
+                            »Konsumna društva,« <hi rend="italic">Slovenski narod,</hi> 13., 14. 12.
+                            1898 in 28. 1. 1899.</note> Na udaru liberalcev niso bila le konsumna
+                        društva, ampak tudi ostale gospodarske organizacije katoliške stranke. Mnogo
+                        so pisali o njih, ne le zaradi njihovega kvarnega vpliva, ampak tudi slabega
+                        poslovanja. »Klerikalna stranka je našo deželo preplavila z vsakovrstnimi
+                        posojilnicami, konsumnimi društvi in psevdo-kmetijskimi zadrugami, a mej
+                        vsemi temi napravami ni ne jedne, katera zasluži zaupanje. Nobena teh naprav
+                        nima trdne in zanesljive podlage, pač pa se velika večina izmej njih že
+                        danes le na umeten način in na korist nekaterih posameznih spekulativnih
+                        glav vzdržuje. Ogromna večina teh naprav je pasivna ter živi le ob kreditu.
+                        Ta se jim dovoljuje, ker vedo vodilni krogi te katoliške organizacije, da
+                        nastane splošen polom, ako le jedna teh klerikalnih naprav napove
+                            bankerot.«<note place="foot" xml:id="ftn51" n="50"> »Na pesek zidajo,«
+                                <hi rend="italic">Slovenski narod</hi>, 11. 11. 1899, 1.</note>
+                        Njihovo delovanje je podvrženo korupciji,<note place="foot" xml:id="ftn52"
+                            n="51"> »V barju korupcije,« <hi rend="italic">Slovenski narod</hi>, 17.
+                            3. 1900, 1, 2.</note> dobičke pa uporabljajo v agitacijske namene.<note
+                            place="foot" xml:id="ftn53" n="52"> »Nekoliko odgovora,« <hi
+                                rend="italic">Slovenski narod</hi>, 5. 3. 1900, 1, 2.</note> Nadalje
+                        so se v <hi rend="italic">Slovenskem narodu</hi> vrstile objave o slabem
+                        poslovanju, bankrotih in propadih konsumov. </p>
+                    <p>Najbolj znana literarna upodobitev liberalnih kritik konsumnih društev je
+                        Tavčarjev »Izgubljeni Bog: Resnična povest, tiskana z nedovoljenjem
+                        visokočastitega knezoškofijskega ordinarjata.«<note place="foot"
+                            xml:id="ftn54" n="53"> Dr. Ivan Nevesekdo [Ivan Tavčar], »Izgubljeni
+                            Bog: Resnična povest, tiskana z nedovoljenjem visokočastitega
+                            knezoškofijskega ordinarjata,« <hi rend="italic">Slovenski narod,</hi>
+                            3., 7., 10., 14. in 17. 2. 1900.</note> Povest je izšla kot podlistek
+                            <hi rend="italic">Slovenskega naroda</hi>, nato pa je bila pri Narodni
+                        tiskarni izdana tudi kot samostojna knjižica, ki so jo trikrat
+                            ponatisnili.<note place="foot" xml:id="ftn55" n="54"> Marja Boršnik,
+                            »Opombe,« v: Ivan Tavčar, <hi rend="italic">Zbrano delo, 7. knjiga</hi>
+                            (Ljubljana: Državna založba Slovenije, 1958), 431.</note> Tavčar je več
+                        resničnih dogodkov<note place="foot" xml:id="ftn56" n="55"> Ibid., 425-40.
+                        </note> povezal v eno zgodbo, dodal nekaj lastnih vložkov, vse skupaj pa
+                        zvezal z namero oblatenja in smešenja nasprotne politične stranke. V prvem
+                        delu povesti je opisano delovanje konsumnega društva (vaščanom se je sprva
+                        zdelo nepotrebno), ki ga je v moravški župniji osnoval glavni »junak« kaplan
+                        Peter. Ker je bil župnik že star in bolan, je kaplan hitro začel dobivati
+                            veljavo.<note place="foot" xml:id="ftn57" n="56"> Več o podobi
+                            duhovščine in razlikovanju med »dobrimi« starimi in »slabimi« mladimi
+                            duhovniki gl. Blaj Hribar, »'Ločitev škofa-duhovnika',« 26-9.</note>
+                        Zgodba vsebuje večino očitkov konsumnim društvom, ki jih je redno ponavljal
+                            <hi rend="italic">Slovenski narod.</hi> Tabla nad prodajalnico ima
+                        simbol dveh stiskajočih se rok, večjo pest konsumnikov-duhovnikov in tanko
+                        ter izsušeno kmečko, kot prikaz pomoči. A avtor ironično pristavlja, da ne
+                        ve, ali se kmečko roko stiska iz prijateljstva ali zato, da se jo iztisne do
+                        »zadnje kapljice krvi«. Konsumno društvo toči alkohol, seveda tirolsko
+                        ponarejeno vino, ki je cenejše. <hi rend="italic">Slovenski narod</hi> je
+                        večkrat pisal o problemu ponarejenega vina iz vinskih tropin – petijota.
+                        Problematična ni le njegova nekakovost, ampak kot nizkocenoven izdelek
+                        predstavlja nelojalno konkurenco domačim vinogradnikom. Prodaja petijota v
+                        konsumnih društvih je za vinogradnike »hujša od trtne uši«.<note
+                            place="foot" xml:id="ftn58" n="57"> Dolenjski vinogradnik, »Glas iz
+                            kroga vinogradnikov,« <hi rend="italic">Slovenski narod</hi>, 27. 3.
+                            1899, 1, 2.</note> Tudi ostalo prodajno blago v konsumu kaplana Petra je
+                        slabe kakovosti. Blago za hlače se je hitro strgalo, omeni se, da je bilo
+                        kupljeno »pri Židu« (proti katerim naj bi se s konsumi borili). Poslovanja
+                        društva nihče ne pregleduje, odborniki na čast kaplana brez pregleda in na
+                        zaupanje odobrijo račune za preteklo leto. Za nameček so knjigovodske knjige
+                        le s številkami popisane strani različnih Blaznikovih pratik in starih
+                        Mohorjevih koledarjev. Odborniki društva, katerih karakterizacija je povzeta
+                        po resničnih osebah,<note place="foot" xml:id="ftn59" n="58"> Boršnik,
+                            »Opombe,« 433.</note> so nesposobni in nepošteni ljudje. Kot podpornika
+                        konsumnih društev Tavčar ošvrkne tudi knezoškofa Jegliča. »Presvitlemu« se
+                        je Peter zaradi društva prav prikupil. Ko je birmal v Moravčah, ga je ob
+                        večerji pohvalil. Ob negodovanju starega župnika Andreja ga je »presvitli«
+                        pokaral, da želijo le pomagati lačnemu ljudstvu, saj: »Mi vemo, kaj je
+                        lakot! [sic]«. Nato si je na krožnik dodal dve veliki postrvi in ju zaužil z
+                        »blagoslovljenim« apetitom.<note place="foot" xml:id="ftn60" n="59">
+                            »Izgubljeni Bog,« <hi rend="italic">Slovenski narod,</hi> 3. 2. 1900,
+                            2.</note></p>
+                    <p>Podobno poslovanje klerikalnih gospodarskih zavodov opisuje Alojzij Kokalj v
+                        delu »Cerkvene miši: Povest iz sedanjosti«. Pripoved prikazuje neuspešen
+                        poskus prevzema oblasti v vasi, ki sta ga narekovala škofovska palača in
+                        vodstvo SLS. V stereotipnem boju dobrega proti zlemu dobro predstavljata
+                        družina Novak, stari župnik Matija Koren, zlo pa duhovnika Jurij Podpečnik
+                        in Urh Čuk.<note place="foot" xml:id="ftn61" n="60"> Luigi Calco [Alojzij
+                            Kokalj], »Cerkvene miši. Povest iz sedanjosti,« <hi rend="italic"
+                                >Slovenski narod</hi>, 22. 10.–12. 12. 1913.</note> Kaplan Čuk se je
+                        kmalu po prihodu v vas z vso vnemo spustil v organizacijo posojilnice in
+                        konsumnega društva. Posojilnica je hitro zaživela, saj je šel Čuk takoj po
+                        ustanovitvi na »lov za hranilničnimi knjižicami«, ki so mu jih verne ženske
+                        dale brez ugovarjanja. Če je župnik Jurij Podpečnik ustanovitev posojilnice
+                        podpiral, je bil veliko bolj zadržan do ustanovitve konsuma. Vedel je, da je
+                        med »površno teorijo in resno realnostjo veliko brezno«.<note place="foot"
+                            xml:id="ftn62" n="61"> Ibid., 7. 11. 1913, 2.</note> Ker pa se je
+                        zavedal, da ustanavljanje konsumnih društev podpirajo v SLS in škofovski
+                        palači, je kaplana podprl. Le izgovoril se je, da mu ne more pomagati, saj
+                        se sam ne spozna na te stvari. Čuk je tako sam na hitro ustanovil konsum,
+                        določil odbornike in nadzornike, sebe pa postavil za vodjo. Blago je raje
+                        naročil pri »Židih« z Dunaja kot pri liberalcih iz Ljubljane. Zaposlil je
+                        dve čedni prodajalki, občasno pomagal tudi sam. Tam je preživljal večino
+                        svojega časa, prav tako tudi odborniki, ki so jedli in pili na račun
+                        konsuma. Zaradi teh pojedin in slabega vodenja sta se oba zavoda znašla v
+                        finančnih težavah. Za konsum je Čuk nakupil veliko nepotrebnega blaga,
+                        veliko ga je preplačal ter mnogo prodajal na up. S pomočjo prodajalke Rezike
+                        je pred prihodom revizorja ponaredil bilance, ki pa zaradi površnega
+                        pregleda ni ugotovil napak. Na Rezikino željo, s katero se je kaplan
+                        zapletel in je z njim zanosila, ji je zvišal plačo ter ji uredil visoko
+                        brezobrestno posojilo. Ko na koncu Čuk zapusti vas in z Reziko odide v
+                        Ameriko, izprazne blagajno konsuma ter posojilnice, ključe pa preda »najbolj
+                        zabitemu odborniku«.<note place="foot" xml:id="ftn63" n="62"> Ibid., 9. 12.
+                            1913, 2.</note> Po njegovem odhodu gresta oba zavoda v stečaj.</p>
+                    <p>Številni očitki o spornem delovanju v katoliških gospodarskih zavodih so
+                        opisani tudi v besedilu »Skušnjave Tomaža Krmežljavčka: Šaljiva povest«
+                        Miroslava Malovrha. V njej spremljamo Tomaževo življenje od rojstva do
+                        takrat, ko je postal pomemben klerikalni politik.<note place="foot"
+                            xml:id="ftn64" n="63"> L. Šepetalec [Miroslav Malovrh], »Skušnjave
+                            Tomaža Krmežljavčka: Šaljiva povest,« <hi rend="italic">Slovenski
+                                narod</hi>, 13. 3.–21. 7. 1911.</note> Z delovanjem konsumnih
+                        društev se je Krmežljavček srečal na svoji prvi reviziji pri Sv. Janezu.
+                        Konsum je bil kljub dobri prodaji pred propadom, saj so odborniki in
+                        župnikova kuharica menili, da lahko vse stvari vzamejo zastonj. Prodajalec,
+                        ki je imel drugače vse knjige urejene, je sam prosil za revizijo. Z
+                        vednostjo prodajalca je Tomaž poneveril nekatere račune in župniku oz.
+                        njegovi kuharici ter ostalim odbornikom zaračunal več, kot so vzeli, dobiček
+                        pa sta si razdelila. Odbornike je nato naučil, kako morajo ravnati v
+                        prihodnje, da konsum ne bo prišel v težave, oni pa bodo tudi dobro poplačani
+                        za svoje »delo«. Razložil jim je, »kako se moko in zmleto kavo umetno
+                        pomnoži, kako je treba računati obresti in kako se pameten človek pri
+                        zamudnih obrestih v svojo korist zaračuna in kar je bilo še drugih
+                        manipulacij, za katere so zadostovale umstvene zmožnosti konsumskih
+                            odbornikov«.<note place="foot" xml:id="ftn65" n="64"> Ibid., 19. 6.
+                            1911, 1.</note></p>
+                    <p>Propadanje konsuma pri Sv. Janezu spominja na notico v <hi rend="italic"
+                            >Slovenskem narodu</hi> o bankrotu konsuma v Kašlju leta 1899. Liberalni
+                        časopis je trdil, da so za propad krivi odborniki, ki so jemali blago brez
+                        plačila. Da jim ob bankrotu vzetega ne bi bilo treba plačati, so za stanje
+                        konsuma okrivili prodajalko. Knjige so bile neurejene, zato so nanjo lahko
+                        pritiskali, da je prodala vse svoje imetje in nato odšla v Ameriko.<note
+                            place="foot" xml:id="ftn66" n="65"> »Bankerotirano konsumno društvo,«
+                                <hi rend="italic">Slovenski narod</hi>, 2. 9. 1899, 3.</note> Zgodba
+                        se sicer ne ujema popolnoma, v Malovrhovem delu se stvari zaradi Tomaževega
+                        posredovanja iztečejo drugače. Konsum je tik pred propadom, župnik pa je
+                        prepričan, da je za to odgovoren prodajalec, čeprav so odborniki in njegova
+                        kuharica tisti, ki so jemali blago. Tomaž z izterjavo dolgov reši konsum in
+                        prodajalca. A hkrati odbornike nauči, kako jemati, ne da bi konsum
+                        bankrotiral. Blago po »slabi vagi« je drugi očitek liberalnega tabora
+                        konsumom. Tretji pa so nepravilnosti v delovanju, kar je opaziti pri
+                        Tomaževi drugi reviziji v Petelinjem. Tam je delovanje konsuma popolnoma
+                        nepregledno. Z revizijo je imel Tomaž kar nekaj dela, saj – kot je rekel
+                        župnik – sam nima nobenega smisla za organizacijo, konsum pa so ustanovili
+                        po odločbi škofije. Po končanem delu je ugotovil, da je denarja v blagajni
+                        preveč, a od kod ta pribitek zaradi neurejenosti knjig ni mogel ugotoviti.
+                        Polovico je zato »pravično« pospravil v svoj žep.</p>
+                    <p>Prikaz poslovanja katoliških gospodarskih organizacij se pri Tavčarju ne
+                        razlikuje od tistega v Malovrhovih »Skušnjavah Tomaža Krmežljavčka« in
+                        Kokaljevih »Cerkvenih miših«. Vsi prikažejo polno nepravilnosti, površno
+                        poslovanje in mnogo goljufij v konsumih ter drugih klerikalnih gospodarskih
+                        zavodih. V njih vodstvo zasedajo le mrhovinarji, ki se želijo samo
+                        okoristiti na tuj račun, zaradi česar trpi prevarano prebivalstvo.</p>
+                    <p>Skozi socialni program se zrcali največja ideološka razlika med strankama.
+                        »Ločitev duhov« in ideološki boj na Kranjskem sovpadata z večanjem
+                        demokratizacije družbe, ki je pripeljala do vstopa množic v javno življenje.
+                        Vzpenjal se je populizem, spreminjali so se načini političnega boja,
+                        strankarske organizacije in dela. Na ravni monarhije so se stranke že po
+                        letu 1880 začele osredotočati na posamezne interesne skupine.<note
+                            place="foot" xml:id="ftn67" n="66"> Pieter M. Judson, <hi rend="italic"
+                                >The Habsburg empire. The new History</hi> (Cambridge in London: The
+                            Belknap Press of Harvard University Press, 2016), 339.</note> Ta tok
+                        sprememb je ob spodbudi drugih krščanskosocialnih gibanj po monarhiji in
+                        spremenjeni politiki rimskokatoliške cerkve ujela tudi KNS. Organizacijsko
+                        se je prilagodila novemu času, program sestavila po stanovih in prepletla
+                        družbo z različnimi interesnimi društvi in združenji. Predvsem pa si je
+                        zagotovila prednost pred NNS, ko je s socialnim programom poskrbela za
+                        kmečko in delavsko prebivalstvo in ji je hkrati uspelo, tako kot po drugih
+                        delih monarhije, demonizirati liberalce kot oligarhe in oderuhe.<note
+                            place="foot" xml:id="ftn68" n="67"> Ibid.</note> Njena nasprotnica tega
+                        koraka ni bila sposobna narediti in je ostala v okvirih političnega
+                        delovanja iz obdobja sloge. Čeprav je vseskozi ponavljala pomembnost
+                        socialnega vprašanja, se je večinoma osredotočila le na branjenje
+                        privilegijev svoje volilne baze. Tako so v konsumnih društvih in drugih
+                        denarnih ter gospodarskih zavodih KNS videli predvsem kot konkurenco
+                        liberalnim trgovcem in obrtnikom. V časopisu so jih prikazovali kot
+                        gospodarsko neučinkovite, poslovno neuspešne in predvsem kmetom škodljive.
+                        Njihov namen naj bi bil, da dodatno »izsesajo« kmeta in omogočijo »gospostvo
+                        klerikalizma«. </p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <listBibl>
+                    <head>Časopisni viri:</head>
+                    <bibl><hi rend="italic">Rimski katolik,</hi> 1888/9.</bibl>
+                    <bibl><hi rend="italic">Slovenski narod,</hi> 1890-1914.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Literatura:</head>
+                    <bibl>Bergant, Zvonko. <hi rend="italic">Kranjska med dvema Ivanoma:
+                            idejno-politično soočenje slovenskega političnega katolicizma in
+                            liberalizma na prehodu iz 19. v 20. stoletje</hi>. Ljubljana: Inštitut
+                        za globalne politične študije, 2004.</bibl>
+                    <bibl>Blaj Hribar, Neja. »'Ločitev škofa-duhovnika in škofa-politika ni iznajdba
+                        tega peklenskega slovenskega liberalizma.' Duhovščina in Rimskokatoliška
+                        cerkev v publicističnih in literarnih delih
+                        <hi rend="italic" xml:space="preserve">Slovenskega naroda </hi>(1890–1914).«<hi rend="italic" xml:space="preserve"> Zgodovina za vse </hi>21,
+                        št. 2 (2014): 19-31. </bibl>
+                    <bibl>Boršnik, Marja. »Opombe.« V: Ivan Tavčar, <hi rend="italic">Zbrano delo,
+                            7. knjiga</hi>. Ljubljana: Državna založba Slovenije, 1958.</bibl>
+                    <bibl>Dragoš, Srečo. »‘Do skrajnosti za sveto stvar!’.« <hi rend="italic"
+                            >Družboslovne razprave</hi> 14, št. 27/28 (1998): 121-33.</bibl>
+                    <bibl>Erjavec, Fran. <hi rend="italic">Zgodovina katoliškega gibanja na
+                            Slovenskem</hi>. Ljubljana: Prosvetna zveza, 1928.</bibl>
+                    <bibl>Gestrin, Ferdo in Vasilij Melik. <hi rend="italic">Slovenska zgodovina. Od
+                            konca osemnajstega stoletja do 1918</hi>. Ljubljana: Državna založba
+                        Slovenije, 1966.</bibl>
+                    <bibl>Judson, Pieter M. <hi rend="italic">The Habsburg empire. The new
+                            History</hi>. Cambridge in London: The Belknap Press of Harvard
+                        University Press, 2016.</bibl>
+                    <bibl>Lukan, Walter. »Socialni katolicizem v Avstriji in pri Slovencih v drugi
+                        polovici 19. stoletja.« V: <hi rend="italic">Missiev simpozij v Rimu</hi>,
+                        ur. Edo Škulj, 7-17. Celje: Mohorjeva družba, 1988.</bibl>
+                    <bibl>Melik, Vasilij. »Družbene razmere v ljubljanski škofiji v drugi polovici
+                        19. stoletja.« V: <hi rend="italic">Missiev simpozij v Rimu</hi>, ur. Edo
+                        Škulj, 84-94. Celje: Mohorjeva družba, 1988. </bibl>
+                    <bibl>Melik, Vasilij. »Jeglič in slovenska politika do leta 1918.« V: <hi
+                            rend="italic">Jegličev simpozij v Rimu</hi>, ur. Edo Škulj, 621-8.
+                        Celje: Mohorjeva družba, 1991.</bibl>
+                    <bibl>Melik, Vasilij. »Slovenski liberalni tabor in njegovo razpadanje.« V: <hi
+                            rend="italic">Slovenci 1848–1918: razprave in članki</hi>, ur. Viktor
+                        Vrbnjak, 637-42. Maribor: Litera, 2002.</bibl>
+                    <bibl>Pelikan, Egon. »Interpretacije ‘posameznika, družbe in naroda’ znotraj
+                        ideologije političnega katolicizma na Slovenskem.« <hi rend="italic">Acta
+                            Histriae</hi> 17, št. 1-2 (2009), 307-20.</bibl>
+                    <bibl>Perovšek, Jurij. <hi rend="italic">Na poti v moderno. Poglavja iz
+                            zgodovine evropskega in slovenskega liberalizma 19. in 20.
+                        stoletja</hi>. Ljubljana: Inštitut za novejšo zgodovino, 2005.</bibl>
+                    <bibl>Pleterski, Janko. <hi rend="italic">Dr. Ivan Šušteršič, 1863–1925: pot
+                            prvaka slovenskega političnega katolicizma</hi>. Ljubljana:
+                        Znanstvenoraziskovalni center SAZU, Založba ZRC, 1998.</bibl>
+                    <bibl>Pirc, Jožko. »Utopija 'nove krščanske družbe'?« V: <hi rend="italic"
+                            >Cerkev, kultura in politika, 1890–1941</hi>, ur. France M. Dolinar,
+                        Joža Mahnič in Peter Vodopivec, 107-20. Ljubljana: Slovenska matica,
+                        1993.</bibl>
+                    <bibl>Prijatelj, Ivan. <hi rend="italic">Slovenska kulturnopolitična in
+                            slovstvena zgodovina 1848–1895</hi>, <hi rend="italic">zvezek 5</hi>.
+                        Ljubljana: Državna založba Slovenije, 1966.</bibl>
+                    <bibl>Selišnik, Irena. »Vstop množic v polje političnega na prelomu 20. stoletja
+                        na Slovenskem.«
+                        <hi rend="italic" xml:space="preserve">Historični seminar </hi>12 (2016):
+                        65-85.</bibl>
+                    <bibl>Vreg, France. <hi rend="italic">Feljton. Novinarske, polliterarne in
+                            literarne oblike na Slovenskem</hi>. Ljubljana: Fakulteta za družbene
+                        vede, 2002.</bibl>
+                    <bibl>Zajc, Marko in Janez Polajnar, <hi rend="italic">Naši in vaši. Iz
+                            zgodovine slovenskega časopisnega diskurza v 19. in začetku 20.
+                            stoletja</hi>. Ljubljana: Mirovni inštitut, 2012.</bibl>
+                </listBibl>
+            </div>
+            <div type="summary" xml:lang="en">
+                <docAuthor>Neja Blaj Hribar</docAuthor>
+                <head>THE KNS/SLS SOCIAL PROGRAMME THROUGH THE PRISM OF THE "SLOVENSKI NAROD"
+                    NEWSPAPER (1890-1914)</head>
+                <head>SUMMARY</head>
+                <p>The political division of the Slovenian »party« in Carniola at the end of the
+                        19<hi rend="superscript">th</hi> century resulted in a new political front
+                    that initiated an eager struggle for voters. The split took place in the time of
+                    democratisation, establishment of new mass parties, and emergence of new types
+                    of party organisation throughout the Austro-Hungarian Empire. The Catholic
+                    National Party was better at adjusting to the new times than the liberal
+                    National Party. The Catholic National Party adapted their organisation with
+                    regard to interest groups, actualized its social programme, and with the aid of
+                    the clergy and the Church it implemented certain very successful methods of
+                    agitation and organisation. Their liberal opponents lacked organisational
+                    structure. They limited themselves to their political base – the bourgeoisie,
+                    intellectuals, and wealthier farmers. The liberals mostly focused on the
+                    newspaper war, especially in their main daily newspaper <hi rend="italic"
+                        >Slovenski narod</hi>. There we can read about their political views on the
+                    contemporaneous political situation, how they saw their opponents and their
+                    programme. The liberals never believed in the sincerity of the Catholic social
+                    programme. They saw all of the Catholic economic organisations and activities as
+                    agitation: leading to the overall rule of the Church. They deemed the economic
+                    associations as most problematic, as these supposedly did nothing to help the
+                    lower classes, but instead drained them and made them dependent on the Catholic
+                    party.</p>
+            </div>
+
+        </back>
+    </text>
+</TEI>
