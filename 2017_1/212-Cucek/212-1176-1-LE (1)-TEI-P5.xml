@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pregled slovenskih političnih taborov pred nastankom modernih političnih
+                        strank<note place="foot" xml:id="ftn1" n="*"> Raziskovalni program
+                        <hi rend="italic" xml:space="preserve">Idejnopolitični in kulturni pluralizem in monizem na Slovenskem v 20. stoletju </hi>(št.
+                        P6-0281, vodja Jurij Perovšek) je sofinancirala Javna agencija za
+                        raziskovalno dejavnost Republike Slovenije iz državnega
+                    proračuna.</note></title>
+                <author>
+                    <name>
+                        <forename>Filip</forename>
+                        <surname>Čuček</surname>
+                        <roleName>Dr.</roleName>
+                        <roleName>znanstveni sodelavec</roleName>
+                        <affiliation>Inštitut za novejšo zgodovino</affiliation>
+                        <address>
+                            <addrLine>Kongresni trg 1</addrLine>
+                            <addrLine>SI – 1000 Ljubljana</addrLine>
+                        </address>
+                        <email>filip.cucek@inz.si</email>
+                    </name>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2017-03-07</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/212</pubPlace>
+                <date>2016</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">57</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Austria</term>
+                    <term>Slovenian provinces</term>
+                    <term>political camps</term>
+                    <term>newspapers</term>
+                    <term>the 19<hi rend="italic superscript"
+                        >th</hi><hi rend="italic" xml:space="preserve"> century</hi></term>
+                    <term>Ormož</term>
+                    <term>Središče</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>Avstrija</term>
+                    <term>slovenske dežele</term>
+                    <term>politični tabori</term>
+                    <term>časopisje</term>
+                    <term>19. stoletje</term>
+                   </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2017-05-12</date>
+                    <name>Neja Blaj Hribar</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Filip Čuček<note place="foot" xml:id="ftn2" n="**"><hi rend="bold">Dr.,
+                        znanstveni sodelavec, Inštitut za novejšo zgodovino, Kongresni trg 1, SI –
+                        1000 Ljubljana,<ref target="mailto:filip.cucek@inz.si"
+                            >filip.cucek@inz.si</ref></hi></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="UDC">UDK: 329(497.4)"1848/1914"</idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">V razpravi avtor obravnava organizacijo slovenskih političnih
+                        taborov v drugi polovici 19. stoletja, v času, ki še ni poznal moderne
+                        politične »infrastrukture« oziroma klasičnega strankarstva. V letih marčne
+                        revolucije se je politika osredinila v deželnih zborih in v državnem zboru,
+                        na drugi strani pa tudi v časnikih in časopisih. Po obnovi ustavnega
+                        življenja sta se v slovenski politiki izoblikovala dva politična tabora:
+                        tabor, ki je zagovarjal previdno politiko državnih poslancev
+                        (staroslovenci), in tabor opozicije (mladoslovenci), ki se je zavzemal za
+                        odločno nacionalno politiko po češkem zgledu. Glavni politični centri so
+                        bili poleg deželnih zborov (in po letu 1873 državnega zbora) časopisi (in
+                        društva). Kljub načelni slogi so v ozadju vseskozi tlela politična
+                        nesoglasja. Dokončno ločitev duhov je leta 1888 z Rimskim katolikom dosegel
+                        Anton Mahnič, profesor bogoslovja v Gorici. Januarja 1890 je bilo v
+                        Ljubljani ustanovljeno Katoliško politično društvo, liberalci pa so
+                        februarja 1891 ustanovili Slovensko društvo. V drugih deželah s slovenskim
+                        prebivalstvom je bila pluralizacija političnega prostora nekoliko kasnejša
+                        ali pa do nje sploh ni prišlo.</hi></p>
+                <p><hi rend="italic">Ključne besede: Avstrija, slovenske dežele, politični tabori,
+                        časopisje, 19. stoletje</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head>OVERVIEW OF THE SLOVENIAN POLITICAL CAMPS BEFORE THE CREATION OF MODERN
+                    POLITICAL PARTIES</head>
+                <p><hi rend="italic">In the following discussion the author focuses on the
+                        organisation of the Slovenian political camps in the second half of the
+                        19</hi><hi rend="italic superscript"
+                    >th</hi><hi rend="italic" xml:space="preserve"> century, in the time when the modern political "infrastructure" or classic political parties did not yet exist. During the March Revolution, politics converged in the Provincial Assemblies and the National Assembly, and on the other hand also in newspapers and magazines. After the restoration of the constitutional life, two political camps formed in the Slovenian politics: the camp arguing for the cautious politics of the National Assembly deputies (the so-called "Old Slovenians"), and the opposition camp (the so-called "Young Slovenians"), which advocated a decisive national policy according to the Czech example. Besides Provincial Assemblies (and after 1873 the National Assembly), newspapers (and societies) were among the main political centres as well. Despite what was in principle unity, political disagreements kept smouldering in the background. The final separation of opinions was achieved by Anton Mahnič, professor of theology in Gorizia, and the Rimski katolik magazine. In January 1890 the Catholic Political Society was founded in Ljubljana, while the liberals founded the Slovenian Society in February 1891. In the other provinces inhabited by Slovenians, the pluralisation of the political space took place somewhat later or not at all.</hi></p>
+                <p><hi rend="italic">Keywords: Austria, Slovenian provinces, political camps,
+                        newspapers, the 19</hi><hi rend="italic superscript"
+                    >th</hi><hi rend="italic" xml:space="preserve"> century</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>Uvod</head>
+                <p>Dandanes je strankarstvo povsem običajna in samoumevna zadeva. Živimo v
+                    parlamentarno urejeni večstrankarski državi (ki je del širše Evropske unije), v
+                    kateri sta svoboda govora in mišljenja ena izmed temeljnih družbenih postulatov.
+                    Toda temu ni bilo zmeraj tako. Začetki modernih političnih strank so na
+                    slovenskih »tleh« sicer vezani na avstrijsko dvojno monarhijo, natančneje na
+                    devetdeseta leta 19. stoletja, po drugi svetovni vojni pa je večstrankarstvo za
+                    več desetletij (do leta 1991, ko se je Slovenija osamosvojila in se pridružila
+                    evropskim parlamentarnim državam) ugasnilo. Tradicija strankarskega pluralizma
+                    je na Slovenskem tako dolga približno 50 let. Pluralizacija v slovenski politiki
+                    je, sprva na Kranjskem, odpirala novo polje v dojemanju demokratičnih tendenc in
+                    »svobodne« svetovnonazorske usmeritve. Z nastankom katoliških političnih društev
+                    se je tam oblikovala široko razvejena katoliška politična organizacija, ki se je
+                    pred volitvami v kranjski deželni zbor leta 1895 preimenovala v Katoliško
+                    narodno stranko. Na drugi strani so liberalci leta 1894 ustanovili Narodno
+                        stranko.<note place="foot" xml:id="ftn3" n="1"> Prim. <hi rend="italic"
+                            >Slovenec</hi>, 26. 11.
+                        1895.<hi rend="italic" xml:space="preserve"> Slovenski narod</hi>, 1. 12.
+                        1894.</note> Obe stranki sta se hitro »opremili« z vso potrebno strankarsko
+                    infrastrukturo. Po prvem slovenskem katoliškem shodu je katoliški tabor hotel
+                    prežeti vso družbo s katoliškimi načeli. Ker je kmečko prebivalstvo sestavljalo
+                    večino slovenskega prebivalstva, je bil ob širitvi volilne pravice postavljen
+                    temelj za vse večje volilne uspehe katoliškega tabora. Ta si je zaradi strahu
+                    pred širjenjem socialdemokracije prizadeval razširiti svoj vpliv tudi med
+                    delavstvom (v okviru političnih in izobraževalnih društev), toda tudi po
+                    ustanovitvi Jugoslovanske socialdemokratske stranke leta 1896 socialdemokracija
+                    zaradi majhne volilne baze (predvsem delavci v industrijskih obratih) ni
+                    dosegala pomembnejših uspehov.<note place="foot" xml:id="ftn4" n="2"> Andrej
+                        Pančur, »Nastanek političnih strank,« v: <hi rend="italic">Slovenska novejša
+                            zgodovina. Od programa Zedinjena Slovenija do mednarodnega priznanja
+                            Republike Slovenije, 1</hi>, ur. Jasna Fischer et al. (Ljubljana:
+                        Mladinska knjiga in Inštitut za novejšo zgodovino, 2005), 32–36. Andrej
+                        Pančur, »Nacionalni spori,« v: <hi rend="italic">Slovenska novejša
+                            zgodovina, 1</hi>, 37.</note> Kakorkoli, sredi devetdesetih let so bili
+                    znotraj kranjske slovenske politike formirani bloki vseh treh idejnopolitičnih
+                    usmeritev, Kranjska (z Ljubljano) pa je že zavzemala osrednjo (slovensko) vlogo
+                    (v drugih »slovenskih« deželah je bila pluralizacija političnega prostora
+                    nekoliko kasnejša: na Goriškem leta 1899, na Štajerskem leta 1907, v Trstu tik
+                    pred vojno, medtem ko na Koroškem do nje sploh ni prišlo). </p>
+            </div>
+            <div>
+                <head>Marčna revolucija in neoabsolutizem</head>
+                <p>Toda v času marčne revolucije, ko se je svet bidermajerja praktično čez noč
+                    porušil, tradicionalni fevdalni družbeni sistem pa je zamenjal pravi
+                    parlamentarizem po zahodnem zgledu, modernih političnih strank v Avstriji seveda
+                    še ni bilo. Potem ko so junija 1848 (po deželnozborskih volitvah) izvedli prve
+                    državnozborske volitve v monarhiji, so v novoizvoljeni parlament na Dunaju
+                    prišli prvi poslanci iz vseh delov monarhije, ki so se med seboj povezovali v
+                    prvi vrsti po deželnem ključu. Poslanci so bili brez vsakršnih parlamentarnih
+                    (oziroma sploh političnih) izkušenj, saj je bil parlamentarni družbeni ustroj v
+                    Avstriji popolni novum. Kmalu po otvoritvi (22. julija) se je državni zbor
+                    razdelil v tri nove politične »skupine«; te so dobile naziv po prostoru, ki so
+                    ga zasedale v parlamentu glede na njegovega predsednika. Steber desnice so tako
+                    predstavljali Čehi, ki so se tja usedli zato, ker je bil ostali prostor ob
+                    njihovem prihodu večinoma že zaseden. Čehe so podpirali južnoslovanski (tudi
+                    večina slovenskih), rusinski in poljski poslanci kmečke provenience. V sredini
+                    so sedeli konservativni poslanci (»centrum«), levici pa so pripadali v glavnem
+                    nemški, italijanski in poljski liberalno usmerjeni poslanci.<note place="foot"
+                        xml:id="ftn5" n="3"> Razdelitve parlamenta na levico, desnico in center ne
+                        smemo enačiti z današnjimi parlamentarnimi pojmi (pa tudi ne z merili,
+                        prevladujočimi v tedanji zahodni Evropi). Pojma levica in desnica, vzeta iz
+                        francoskega parlamentarizma, sta v habsburški monarhiji namreč manj
+                        označevala različno stopnjo liberalnosti, veliko bolj pa različne poglede na
+                        izgradnjo države (levica je v glavnem zagovarjala centralizem po jožefinskem
+                        zgledu, medtem ko je bila desnica na strani federalizma). – Janez Cvirn, <hi
+                            rend="italic">Dunajski državni zbor in Slovenci 1848</hi>–<hi
+                            rend="italic">1918</hi> (Celje in Ljubljana: Zgodovinsko društvo in
+                        Znanstvena založba Filozofske fakultete, 2015), 38, 39.</note> Dunajski
+                    parlament je v prestolnici (zaradi oktobrske revolucije) zasedal zgolj do konca
+                    oktobra, ponovno pa se je sestal konec novembra v malem moravskem mestecu
+                    Kroměřížu. Tam so se nekoliko spremenile tudi politične »skupine«: na desnici
+                    najmočnejši 120-članski Avstrijsko-slovanski klub, ki si je prizadeval za
+                    federalizacijo Avstrije, potem Centralni klub (ki se je januarja 1849 razcepil v
+                    Klub levega centra in Klub desnega centra) in (opazno šibkejša) levica, ki so jo
+                    kot na Dunaju tvorili radikalni nemški poslanci ter večina liberalno usmerjenih
+                    Italijanov in Poljakov.<note place="foot" xml:id="ftn6" n="4"> Ibid., 49,
+                        50.</note>
+                </p>
+                <p>Na Slovenskem se je v času marčne revolucije »politika« osredinila v deželnih
+                    zborih, ki so se v glavnem ukvarjali z občinami, zemljiško odvezo in deželno
+                    ustavo, in v državnem zboru, na drugi strani pa tudi v obstoječih (<hi
+                        rend="italic">Kmetijske in rokodelske novice</hi>) in novonastalih časnikih
+                    ter časopisih, ki so zrasli kot gobe po dežju. »Slovenski« poslanci v državnem
+                    zboru niso delovali enotno, pač pa so do glavnih problemov zavzemali različna
+                    stališča (do nasprotij je prihajalo zlasti med kmečkimi in mestnimi poslanci).
+                    Njihova orientacija je bila v glavnem deželna, zastopali pa so predvsem svojo
+                    lokalno volilno bazo.<note place="foot" xml:id="ftn7" n="5"> Ibid.,
+                        68–71.</note> Kljub temu je bila glavna zahteva (»slovenskih«) političnih
+                    programov leta 1848 Zedinjena Slovenija (ki pa je nastala v več središčih). Eno
+                    takih političnih »središč« je predstavljal celovški stolni kaplan Matija Majar
+                    Ziljski, ki se je v peticiji cesarju in v tiskanem letaku <hi rend="italic">Kaj
+                        Slovenci terjamo?</hi> v začetku aprila zavzel za posebno samoupravno
+                    notranjeavstrijsko enoto z lastnim predstavništvom. Drugi center je bil Dunaj;
+                    tam je dunajska Slovenija zahtevala, »da se politiško razkropljeni narod
+                    Slovencov na Kranjskim, Štajerskim, Primorskim in Koroškim, kakor jeden narod v
+                    eno kraljestvo z imenom Slovenija zedini«. Tretji center pa se je osredinil v
+                    Gradcu. Slovenska inteligenca, ki je delovala v štajerskem deželnem mestu, je
+                    sredi aprila ustanovila društvo Slovenija, ki je usmerjalo spodnještajersko
+                    slovensko politiko in že čez slab teden formuliralo svoje zahteve v <hi
+                        rend="italic">Gratzer Zeitung.</hi><note place="foot" xml:id="ftn8" n="6">
+                        Prim. Stane Granda, <hi rend="italic">Prva odločitev Slovencev za
+                            Slovenijo</hi> (Ljubljana: Nova revija, 1999),72.</note> Graška in
+                    dunajska Slovenija sta bili tudi glavni protagonistki (predvsem na podeželju)
+                    protifrankfurtskega razpoloženja (kmetje so bili proti volitvam iz sicer povsem
+                    pragmatičnih razlogov, saj jih je bilo strah, da bi morali služiti dvema
+                    cesarjema, kar bi posledično pomenilo višje davke) in pobudnici podpisovanja
+                    peticij za Zedinjeno Slovenijo. Ta pa je imela precej slab uspeh, saj je zajela
+                    le del izobraženstva in študentov, med kmečkim prebivalstvom pa zanjo ni bilo
+                    pravega posluha. »Aktivisti« (študentje in duhovniki)<note place="foot"
+                        xml:id="ftn9" n="7"> Prim. Stane Granda, »Graška Slovenija v letu 1848/49,«
+                            <hi rend="italic">Zgodovinski časopis</hi> 28, št. 1-2 (1974): 57, 58,
+                        65, 66.</note> so se sicer pridružili pobudi dunajske Slovenije in začeli
+                    zbirati podpise, toda kmete so morali v prid ustanovitve zedinjene Slovenije
+                    prepričevati (tudi) s povsem pragmatičnimi razlogi (češ da bo uradovanje
+                    slovensko, da bodo lahko tudi nepismeni in nemškega jezika nevešči vse svoje
+                    zadeve reševali sami in jih uradniki ne bodo mogli goljufati).<note place="foot"
+                        xml:id="ftn10" n="8"> Akcija torej ni naletela na množično podporo, ki bi
+                        odražala vseslovensko mišljenje in moderno slovensko čustvovanje, pač pa je
+                        šlo za prve poskuse »slovenske« elite, ki je že »osvojila« idejo
+                        nadregionalne povezave, k mobilizaciji prebivalstva. Prim. Jernej Kosi, <hi
+                            rend="italic">Kako je nastal slovenski narod. Začetki slovenskega
+                            nacionalnega gibanja v prvi polovici 19. stoletja</hi> (Ljubljana:
+                        Sophia, 2013), 359, 360. Prim. tudi Stane Granda, »Podpisovanje peticij za
+                        zedinjeno Slovenijo 1848 – manipulacija ali zavestno politično dejanje?,« v:
+                            <hi rend="italic">Historični seminar</hi>, ur. Oto Luthar (Ljubljana:
+                        Založba ZRC, ZRC SAZU, 1994), 252.</note>
+                </p>
+                <p>Leta 1848 ustanovljeni časopisi in društva (<hi rend="italic">Slovenija</hi> in
+                        <hi rend="italic">Slovenski cerkveni časopis, Slovensko društvo</hi> v
+                    Ljubljani, <hi rend="italic">Celske slovenske novine, Društvo za posredovanje
+                        med slovansko in nemško narodnostjo</hi> v Celju, <hi rend="italic"
+                        >Sloveniens Blatt</hi> v Novem mestu, <hi rend="italic">Slavjanski rodoljub,
+                        Slavjanski zbor</hi> v Trstu, <hi rend="italic">Slavjansko bralno
+                        društvo</hi> v Celovcu, itd.) so (na deželni oziroma regionalni ravni)
+                    postali središče, okrog katerega se je zbiralo podobno misleče meščanstvo. Na
+                    eni strani so svoje politične zahteve izražali liberalno usmerjeni
+                    intelektualci, ki so se zavzemali za uveljavitev temeljnih zahtev človeka in
+                    državljana, na drugi strani pa se je na Kranjskem organizirala tudi katoliška
+                    stran (kar pa tedaj še ni vodilo k idejnopolitičnim razhajanjem). Po ponovni
+                    uvedbi absolutizma je zaradi stroge cenzure prenehala izhajati vrsta časnikov. V
+                    Ljubljani so v slovenščini izhajale le še <hi rend="italic">Novice</hi>, ki so
+                    bile osrednje politično čtivo (če jim je seveda uspelo poročati) na Kranjskem
+                    (pa tudi širše), katoliška <hi rend="italic">Zgodnja Danica</hi> in od marca
+                    1850 do konca leta 1851 <hi rend="italic">Ljubljanski časnik</hi>, ki ga je
+                    kranjska deželna vlada ustanovila kot nekakšen uradni list v slovenskem jeziku.
+                    V Celovcu je izhajala katoliška revija <hi rend="italic">Drobtinice</hi>, v
+                    letih 1850–53 revija <hi rend="italic">Slovenska Bčela</hi> in od leta 1852 list
+                        <hi rend="italic">Šolski prijatelj</hi>. S cesarskim patentom (marec 1849)
+                    so bila precej omejena tudi politična društva, novi društveni zakon (november
+                    1852) pa je povsem onemogočil obstoj in delovanje čistih političnih
+                        društev.<note place="foot" xml:id="ftn11" n="9"> Smilja Amon in Karmen
+                        Erjavec, <hi rend="italic">Slovensko časopisno izročilo</hi> (Ljubljana:
+                        Fakulteta za družbene vede, Založba FDV, 2011), 84–102. </note>
+                </p>
+            </div>
+            <div>
+                <head>Obnova ustavnega življenja, prvi idejnopolitični razcep</head>
+                <p>Po desetletju absolutizma, v katerem je zaradi ostre represije politično
+                    življenje povsem zamrlo (Matija Majar je leta 1851 v pismu Josipu Muršcu
+                    zapisal, da si »s politiko sedaj ni nič začeti – samo pozorovati moramo, kaj se
+                    godi – i skerbno se literarnega dela poprijeti«),<note place="foot"
+                        xml:id="ftn12" n="10"> Janez Cvirn, »'Le delavnost, stanovitnost in
+                        pogumnost so nam potrebne.' Štefan Kočevar in Celje (1851–1883),« v: <hi
+                            rend="italic">Štefan Kočevar – rodoljub slovenski</hi>, ur. Janez Cvirn
+                        (Celje: Zgodovinsko društvo, 2006), 85.</note> so se po obnovi ustavnega
+                    življenja tudi na Slovenskem »odprla vrata« modernim demokratičnim idealom.
+                    »Modernizacija« političnega (in javnega) življenja je sprožila postopno
+                    mobilizacijo množic, to pa je vodilo do odločilnega zasuka proti nacionalizmu,
+                    ko se je bilo prebivalstvo (sprva meščanstvo) prisiljeno nacionalno
+                        opredeliti.<note place="foot" xml:id="ftn13" n="11"> Janez Cvirn,
+                        <hi rend="italic" xml:space="preserve">Trdnjavski trikotnik. Politična orientacija Nemcev na Spodnjem Štajerskem 1861–1914 </hi>(Maribor:
+                        Obzorja, 1997), 9–12.</note> Znotraj nacionalne diferenciacije so se tako
+                    formirale različne politične opcije. Na eni strani nemška (italijanska) stran,
+                    na drugi strani pa šibka slovenska stran, ki je svoje delo začela v težkih
+                    pogojih. Znotraj obeh nacionalno-političnih polov je bila sprva dejavna zgolj
+                    peščica ljudi. Med »elito« se je prištevalo izobraženo meščanstvo, ki se je na
+                    podlagi politične orientacije oziroma naklonjenosti eni ali drugi
+                    politično-kulturni usmeritvi opredelilo za eno ali drugo stran. (Na podeželju se
+                    mobilizacija prebivalstva – seveda s pomočjo »elite« – za eno ali drugo stran še
+                    ni niti dobro pričela). </p>
+                <p>Slovenska stran je v parlamentarno dobo vstopila precej neorganizirana in brez
+                    pravih ciljev<note place="foot" xml:id="ftn14" n="12"> Prim. Vasilij Melik,
+                        »Problemi in dosežki slovenskega narodnega boja v šestdesetih in
+                        sedemdesetih letih v 19. stoletju,« v:
+                        <hi rend="italic" xml:space="preserve">Vasilij Melik: Slovenci 1848–1918. Razprave in članki, </hi>ur.
+                        Viktor Vrbnjak (Maribor: Litera, 2002), 239.</note> (politika še ni poznala
+                    moderne politične »infrastrukture« oziroma klasičnega strankarstva; politiki so
+                    delovali po načelu pripadnosti določenim političnim vizijam, takšne usmeritve pa
+                    so se v ekskluzivnih predstavniških telesih bolj ali manj združevale v
+                    »nacionalne« politične skupine). Toda tudi v dunajskem parlamentu so poslanci,
+                    za katere se je zdelo, da bodo zastopali slovenske barve, delovali precej
+                    zbegano; od petih poslancev poslanske zbornice (Anton Černe, Anton Gorjup, Lovro
+                    Toman, Dragotin Dežman in Johann Mörtl) sta od slovenstva hitro »odpadla«
+                        Dežman<note place="foot" xml:id="ftn15" n="13"> Več gl. Janez Cvirn, »Kdor
+                        te sreča, naj te sune, če te more, v zobe plune. Dragotin Dežman in
+                        slovenstvo,« <hi rend="italic">Zgodovina za vse</hi> 14, št. 2 (2007):
+                        38–56.</note> in Mörtl, ostali trije pa so bili precej neusklajeni (Toman se
+                    je postavil v vrste opozicije, medtem ko sta Černe in Gorjup podpirala vlado (pa
+                    še ta dva nista našla skupnega jezika)). A položaj se je začel hitro
+                    spreminjati. Mariborski program iz septembra 1865, ki je predvideval obnovo
+                    notranjeavstrijskih dežel,<note place="foot" xml:id="ftn16" n="14"> Več gl.
+                        Cvirn, <hi rend="italic">Dunajski državni zbor</hi>, 106–08, 182,
+                        183.</note> je na Slovenskem (predvsem zaradi različnih pogledov slovenske
+                    in nemške strani glede preoblikovanja monarhije) okrepil nacionalni impulz. Ta
+                    se je stopnjeval do deželnozborskih volitev leta 1867, ko so Slovenci že
+                    nastopili z jasnim političnim programom.<note place="foot" xml:id="ftn17" n="15"
+                        > Vasilij Melik, »Slovenska politika ob začetku dualizma,« v: <hi
+                            rend="italic">Vasilij Melik: Slovenci 1848–1918</hi>, 296, 297. Vasilij
+                        Melik,
+                        <hi rend="italic" xml:space="preserve">Volitve na Slovenskem </hi>(Ljubljana:
+                        Slovenska matica, 1965), 388–92. Prim. Janez Cvirn, »Deutsche und Slowenen
+                        in der Untersteiermark. Zwischen Kooperation und Konfrontation,« v: <hi
+                            rend="italic">Slowenen und Deutsche im gemeinsamen Raum,</hi> ur. Harald
+                        Heppner (München: R. Oldenbourg, 2002), 115, 116. Cvirn, <hi rend="italic"
+                            >Dunajski državni zbor</hi>, 106–08.</note> Medtem pa so se (ob
+                    liberalni zakonodaji in vprašanjih konkordata) zaostrili odnosi v slovenski
+                    politiki. V nasprotju s konservativno (Janez Bleiweis s <hi rend="italic"
+                        >Kmetijskimi in rokodelskimi novicami</hi>) in katoliško kranjsko politiko
+                    (Luka Jeran z <hi rend="italic">Zgodnjo Danico</hi>), s katero se ni strinjal že
+                    Fran Levstik s časnikom <hi rend="italic">Naprej</hi>,<note place="foot"
+                        xml:id="ftn18" n="16"> Prim. Smilja Amon, »Vloga slovenskega časopisja v
+                        združevanju in ločevanju slovenske javnosti od 1797–1945,«
+                        <hi rend="italic" xml:space="preserve">Prispevki k zgodovini slovenskih medijev, </hi>vol.
+                        15, supl. (2008): 13, 14.</note> so namreč vodstvu narodne »stranke« dajali
+                    ton liberalno usmerjeni politiki (predvsem na Štajerskem; Josip Vošnjak<note
+                        place="foot" xml:id="ftn19" n="17"> Vošnjak se je najprej uveljavil kot
+                        organizator in pisec programov, vabil in dopisov, hitro pa postal eden
+                        vodilnih slovenskih politikov na Spodnjem Štajerskem. Prim. Josip Vošnjak,
+                            <hi rend="italic">Spomini</hi>, ur. Vasilij Melik (Ljubljana: Slovenska
+                        matica, 1982), 646–58.</note> v Mariboru, Štefan Kočevar<note place="foot"
+                        xml:id="ftn20" n="18"> Več o njem gl. <hi rend="italic">Štefan Kočevar –
+                            rodoljub slovenski</hi>.</note> v Celju, Božidar Raič na ptujskem
+                    koncu), ki so Levstika tudi najbolj podprli (in zavrnili Mariborski
+                        program).<note place="foot" xml:id="ftn21" n="19"> V času največjih
+                        pričakovanj po nastopu Belcredija je notranjeavstrijska ideja (Andrej
+                        Einspieler) dobila najširšo podporo, ki so jo sprejeli slovenski politiki s
+                        Štajerske, Koroške in Kranjske na sestanku v Mariboru 25. septembra 1865,
+                        kljub temu da večina udeležencev ni verjela v uresničitev programa.
+                        Einspielerjeva zasnova oktobrske diplome in ideje Františka Palackéga o
+                        federalizaciji monarhije je predvidevala obnovo notranjeavstrijske skupine
+                        dežel z deželnim zborom za vsako deželo in cesarsko-kraljevim namestništvom
+                        (v narodnostno mešanih deželah pa tudi ustanovitev narodnih kurij). Toda pot
+                        do uresničitve tega načrta je bila seveda precej na trhlih temeljih. V
+                        tedanjih razmerah, ko se je že jasno nakazovala dualistična zasnova
+                        monarhije, je bil federalizem, ki ga je zagovarjal predvsem Palacký, po
+                        njegovem vzoru pa kot eno izmed federativnih enot (Notranjo Avstrijo)
+                        osmislil tudi Einspieler, (pre)velika utopija. Vlada in dvor nista bila
+                        naklonjena predlaganim rešitvam, kljub temu da se je zdelo, da je za
+                        »razpadajočo« monarhijo dobrodošla vsaka sprememba ustavnih določil. Toda
+                        preoblikovanje države v duhu federalizma je bilo vseeno preveč, da bi jo
+                        državne elite uvrstile v svoj politični »program«. Več o tem gl. Cvirn, <hi
+                            rend="italic">Dunajski državni zbor</hi>, 106–108. Prim. tudi Dragotin
+                        Lončar, »Adolf Fischhof,« v: <hi rend="italic">Veda</hi> (1912): 33.</note>
+                    Politično polarizacijo je leta 1867 pospešilo glasovanje državnozborskih
+                    poslancev – osem poslancev (kranjski Lovro Toman, Luka Svetec, Lovro Pintar,
+                    grof Jožef Barbo, Vinko Fereri Klun, goriški Anton Černe in štajerska Alojzij
+                    Lenček in Janez Lipold), ki so se (skupaj s srbskim poslancem iz Dalmacije
+                    Stevanom Ljubišo) povezali v samostojen klub (ter v širšega z nemškimi
+                    klerikalnimi Tirolci) – za dualistično adreso, kar je v slovenski javnosti
+                    vzbudilo val ogorčenja.<note place="foot" xml:id="ftn22" n="20"> Cvirn, <hi
+                            rend="italic">Dunajski državni zbor</hi>, 184, 185.</note> Dokončno sta
+                    se izoblikovala dva politična tabora: tabor, ki je zagovarjal previdno politiko
+                    državnih poslancev (staroslovenci), in tabor opozicije (mladoslovenci), ki se je
+                    zavzemal za odločno nacionalno politiko po češkem zgledu.<note place="foot"
+                        xml:id="ftn23" n="21"> Melik, »Slovenska politika ob začetku dualizma,«
+                        299–302.</note> Staroslovence so vodili Janez Bleiweis, Etbin H. Costa in
+                    drugi, ki so imeli v rokah tudi najbolj razširjen časopis <hi rend="italic"
+                        >Kmetijske in rokodelske novice</hi>. Sklicevali so se na krščansko kulturo,
+                    vdanost habsburški monarhiji in historično pravo. Delovali so pod geslom »Vse za
+                    vero, dom, cesarja«, oporo pa iskali med konservativnimi duhovniki. Idejni vodja
+                    mladoslovencev je bil Fran Levstik, ki je zasnoval liberalni politični in
+                    kulturni program. Ob njem so stali mladi slovenski izobraženci in celo liberalno
+                    usmerjeni duhovniki, ki so skušali pridobiti somišljenike za radikalnejšo
+                    politiko pod geslom »Vse za domovino, omiko in svobodo«. Opredeljevali so se za
+                    svobodomiselnost, naravno pravo in liberalizem.<note place="foot" xml:id="ftn24"
+                        n="22"> Amon, »Vloga slovenskega časopisja,« 13, 14.</note> Nasprotja med
+                    obema taboroma so se od jeseni hitro zaostrovala.</p>
+                <p>Medtem je leto 1867 prineslo dokončno spremembo družbenega sistema v
+                    predstavniški parlamentarizem, moderna infrastruktura (izgradnja železniškega
+                    omrežja, (skromna) kapitalistična proizvodnja, razvoj trgovine, svoboda tiska,
+                    zborovalno in društveno pravo, še posebej pa obvezno osnovno šolstvo po letu
+                    1869) pa je prinesla »novosti«, ki so v ustavni dobi postale gibalo političnega
+                    in nacionalnega razvoja ter pospešile proces nacionalnega oblikovanja. Slovenska
+                    liberalna politika je konec šestdesetih in v začetku sedemdesetih let, torej v
+                    času, ko je politično življenje že postalo del vsakdana, kulminirala v
+                        taborih.<note place="foot" xml:id="ftn25" n="23"> O sestankih v Sisku in
+                        Ljubljani leta 1870 gl. več Marko Zajc, <hi rend="italic">Kje se hrvaško
+                            neha in slovensko začne. Slovensko-hrvaška meja v 19. in na začetku 20.
+                            stoletja</hi> (Ljubljana: Modrijan, 2006), 173–78.</note> Taborskemu
+                    gibanju, ki so ga začeli liberalci (po češkem zgledu), so se (z zamudo)
+                    pridružili tudi konservativci. Glavni politični centri so poleg deželnih zborov
+                    (in po letu 1873 državnega zbora) postali časopisi (in društva), s čimer so med
+                    širši krog ljudi prihajali novi pogledi in sveže (nacionalne) ideje.<note
+                        place="foot" xml:id="ftn26" n="24"> Prim. Janez Cvirn, »'Naj se vrne
+                        cenzura, ljubša bi nam bila.' Avstrijsko tiskovno pravo in slovensko
+                        časopisje (1848–1914),« v: <hi rend="italic">Cenzurirano. Zgodovina cenzure
+                            na Slovenskem od 19. stoletja do danes</hi>, ur. Mateja Režek
+                        (Ljubljana: Nova revija, 2010), 31–41. </note> Ideja o Slovencih kot
+                    posebni, na jeziku in zgodovini utemeljeni skupnosti se je med širšim
+                    prebivalstvom pričela »prijemati« s povečano pismenostjo (šolstvom) in
+                    literarno-publicistično produkcijo, ki je prinašala nacionalna sporočila. Toda v
+                    ozadju so vseskozi tlela politična nesoglasja; pokazala so se z ustanovitvijo
+                    idejnopolitičnih listov: liberalnega <hi rend="italic">Slovenca</hi> v Celovcu
+                    (1865–67), konservativne <hi rend="italic">Domovine</hi> na Goriškem
+                        (1867),<note place="foot" xml:id="ftn27" n="25"> Melik, »Slovenska politika
+                        ob začetku dualizma,« 311.</note> liberalnega <hi rend="italic">Slovenskega
+                        naroda</hi> v Mariboru (1868) in <hi rend="italic">Pavlihe</hi> (1870) v
+                        Ljubljani.<note place="foot" xml:id="ftn28" n="26"> Prim. Janez Cvirn,
+                        »Slovenska politika na Štajerskem ob koncu 60-ih let 19. stoletja,« <hi
+                            rend="italic">Zgodovinski časopis</hi> 47, št. 4 (1993): 523. Franjo
+                            Baš<hi rend="italic">, Prispevki k zgodovini severovzhodne
+                            Slovenije</hi> (Maribor: Obzorja, 1989), 20. Amon, »Vloga slovenskega
+                        časopisja,« 14.</note> Razcep se je intenziviral, ko so se na
+                    deželnozborskih volitvah pojavile dvojne (liberalne in konservativne)
+                        kandidature.<note place="foot" xml:id="ftn29" n="27"> Prim. <hi
+                            rend="italic">Slovenski narod</hi>, 25. 8. 1870.</note> A mladoslovenci
+                    so staroslovenskemu pritisku vse bolj popuščali in vsaj na zunaj sprejeli
+                    katoliško etiketo. Ker pa so konservativci vseeno želeli preveč (pridružili so
+                    se Hohenwartovemu klubu, zahtevali široko deželno avtonomijo na podlagi
+                    historičnega prava, krščanska načela na področju ustave in šolstva ter narodno
+                    enakopravnost), tega mladoslovenci niso mogli sprejeti.<note place="foot"
+                        xml:id="ftn30" n="28"> Prim. Andrej Pančur, »Uveljavitev slovenskega
+                        narodnega gibanja,« v: <hi rend="italic">Slovenska novejša zgodovina,
+                        I</hi>, 29, 30.</note> Medtem se je liberalni <hi rend="italic">Slovenski
+                        narod</hi> skupaj z urednikom Josipom Jurčičem preselil v Ljubljano, prav
+                    tako pa tudi eden vodilnih štajerskih liberalcev Josip Vošnjak. Idejnopolitični
+                    razkol se je v kranjski prestolnici pokazal že septembra 1872 na zboru Slovenske
+                    matice, v ostrih razpravah v kranjskem deželnem zboru, še posebej pa z
+                    ustanovitvijo konservativnega časnika
+                        <hi rend="italic" xml:space="preserve">Slovenec </hi>(1873);<note
+                        place="foot" xml:id="ftn31" n="29"> Vasilij Melik, »Razcep med staroslovenci
+                        in mladoslovenci,« v: <hi rend="italic">Vasilij Melik: Slovenci
+                            1848–1918</hi>, 470–83.</note> na Goriškem se je pokazal z liberalno <hi
+                        rend="italic">Sočo</hi> (1871), s konservativnim časnikom <hi rend="italic"
+                        >Glas</hi> (1872) in društvom Gorica leto pozneje.<note place="foot"
+                        xml:id="ftn32" n="30"> Gl. Branko Marušič, <hi rend="italic">Pregled
+                            politične zgodovine Slovencev na Goriškem 1848–1899</hi> (Nova Gorica:
+                        Goriški muzej, 2005), 239–77.</note> Razdor se je kazal z ustanavljanjem
+                    katoliških političnih in tiskovnih društev.<note place="foot" xml:id="ftn33"
+                        n="31"> Melik, »Slovenska politika ob začetku dualizma,« 310.</note> Na
+                    Štajerskem se je katoliški tabor (okrog
+                    časnika<hi rend="italic" xml:space="preserve"> Slovenski gospodar</hi>) opazno
+                    okrepil v Mariboru, v zameno za sodelovanje v narodni politiki pa je od
+                    liberalne strani zahteval obrambo pravic Katoliške cerkve.<note place="foot"
+                        xml:id="ftn34" n="32"> Cvirn, »Slovenska politika na Štajerskem,« 524,
+                        525.</note> Razpad sloge je na Slovenskem kulminiral na državnozborskih
+                    volitvah leta 1873 in na deželnozborskih volitvah leta 1874, ko je konservativna
+                    struja zavzemala cerkveno-politična stališča, medtem ko so liberalce zanimala
+                    samo vprašanja narodne politike. Kljub temu je pospešeni nemški (italijanski)
+                    nacionalizem sredi desetletja sporazumel slovenske vrste in jih prisilil k
+                    ponovni slogaški politiki (na Goriškem npr. z ustanovitvijo političnega društva
+                        Sloga).<note place="foot" xml:id="ftn35" n="33"> Gl. Marušič, <hi
+                            rend="italic">Pregled politične zgodovine</hi>, 277–97.</note> Strasti
+                    so se dokončno pomirile leta 1876, ko so tudi mladoslovenci vstopili v
+                    Hohenwartov klub.<note place="foot" xml:id="ftn36" n="34"> Pančur, »Uveljavitev
+                        slovenskega narodnega gibanja,« 30. Prim. Dušan Kermavner, <hi rend="italic"
+                            >Prvi taktični razhod slovenskih politikov v Taaffe-Winklerjevi
+                            dobi</hi> (Ljubljana: Državna založba Slovenije, 1963). Peter Vodopivec,
+                            <hi rend="italic">Od Pohlinove slovnice do samostojne države. Slovenska
+                            zgodovina od konca 18. do konca 20. stoletja</hi> (Ljubljana: Modrijan,
+                        2010), 65–84.</note>
+                    <hi rend="italic">Slovenski narod</hi> je zapisal, da si »le zedinjeni moremo
+                    pomagati, razcepljeni, drug druzega ovirajoči propademo. Žalostne skušnje
+                    zadnjih let so nam neovrgljiv dokaz, da niti liberalci brez klerikalcev, niti
+                    klerikalci brez liberalcev, niti v narodni politiki, niti v narodnem
+                    gospodarstvu, niti v literaturi, kaj vspešnega doseči ne morejo.«<note
+                        place="foot" xml:id="ftn37" n="35"> Amon, »Vloga slovenskega časopisja,« 14,
+                        15. </note></p>
+            </div>
+            <div>
+                <head>Ponovna sloga, nastanek modernih političnih strank</head>
+                <p>Po uvedbi direktnih državnozborskih volitev leta 1873 je večja demokratičnost
+                    volitev sprožila politično dinamiko, ki je bila dotlej v domeni deželnih zborov.
+                    Slovencem je uspelo na Dunaj poslati osem predstavnikov, šibka slovenska
+                    delegacija pa ni delovala enotno. Medtem ko je bil Andrej Winkler član Kluba
+                    levice, so bili preostali slovenski poslanci v opoziciji (trije konservativni
+                    poslanci, grof Karl Hohenwart, grof Jožef Barbo in Mihael Herman, so se
+                    pridružili Hohenwartovemu klubu Pravne stranke, mladoslovenski poslanci Josip
+                    Vošnjak, Radoslav Razlag, Ivan Nabergoj in Viljem Pfeifer pa so v državnem zboru
+                    do novembra 1876, ko so se pridružili Hohenwartovemu klubu, delovali
+                        samostojno).<note place="foot" xml:id="ftn38" n="36"> Cvirn, <hi
+                            rend="italic">Dunajski državni zbor</hi>, 193–96. </note></p>
+                <p>V drugi polovici sedemdesetih let je vse pomembnejšo vlogo v Istri začelo
+                    prevzemati društvo Edinost, ustanovljeno leta 1874 (in časopis od leta 1876).
+                    Svoje delovanje je postopoma razširilo na vse avstrijsko Primorje in ga
+                    uskladilo z društvom Sloga.<note place="foot" xml:id="ftn39" n="37"> Prim.
+                        Marušič, <hi rend="italic">Pregled politične zgodovine</hi>, 277–97. </note>
+                    Na Koroškem je bila razporeditev volilnih okrajev »začrtana« v korist nemškega
+                    prebivalstva, ki se mu – v nasprotju s Štajersko, kjer se je bilo prisiljeno
+                    braniti pred vse večjo slovensko »povodnjijo« – za popolno prevlado v deželi ni
+                    bilo treba preveč »naprezati«. Kljub aktivnosti društva Trdnjava<note
+                        place="foot" xml:id="ftn40" n="38"> Prim. Iris M. Binder, »Der Kärntner
+                        Landtag,« v: <hi rend="italic">Die Habsburgermonarchie 1848–1918, VII/2</hi>
+                        (Wien: Verlag der österreichischen Akademie der Wissenschaften, 2000),
+                        1734.</note> je bil razvoj slovenske politike precej skromen,<note
+                        place="foot" xml:id="ftn41" n="39"> Prim. Bernhard Perchinig, <hi
+                            rend="italic">'Wir sind Kärtner und damit hat sich's …'.
+                            Deutschnationalismus und politische Kultur in Kärnten</hi>
+                        (Klagenfurt/Celovec: Drava, 1989), 42–55.</note> po njegovi ukinitvi (1876)
+                    pa na Koroškem (razen Družbe sv. Mohorja) ni bilo več nobenega pomembnejšega
+                    slovenskega političnega društva.<note place="foot" xml:id="ftn42" n="40">
+                        Andreas Moritsch, »Politična zgodovina Celovca v drugi polovici 19.
+                        stoletja,« v: <hi rend="italic">Od Maribora do Trsta</hi>, ur. Darko Friš in
+                        Franc Rozman (Maribor: Pedagoška fakulteta, 1998), 38.</note></p>
+                <p>Volitve leta 1879, na katerih je zmagala naveza nemških klerikalcev in nenemških
+                    narodov, so pokazale, da je državnozborsko večino vedno bolj kreirala volja
+                    volivcev, ki so postajali ključen dejavnik pri razdelitvi mandatov (še bolj se
+                    je to poznalo leta 1885).<note place="foot" xml:id="ftn43" n="41"> Taaffejev
+                        kabinet je leta 1882 znižal pogojni davčni cenzus (z 10 na 5 goldinarjev),
+                        kar je pomenilo 400.000 novih volivcev. – Cvirn, <hi rend="italic">Dunajski
+                            državni zbor</hi>, 140.</note> Taaffejeva politika je sicer skušala po
+                    sistemu »sporazuma in sprave« (brez vladnega pritiska) posredovati med koalicijo
+                    na eni in nemškimi liberalci, ki so se znašli v opoziciji, na drugi strani,<note
+                        place="foot" xml:id="ftn44" n="42"> Cvirn, <hi rend="italic">Trdnjavski
+                            trikotnik</hi>, 102–06.</note> toda z njo je nastopil ugoden čas za
+                    prodor nacionalne ideologije v vse pore javnega (in zasebnega) življenja,
+                    prednacionalno »sožitje« pa je postalo preteklost. </p>
+                <p>Kljub složnemu slovenskemu političnemu nastopanju (do začetka devetdesetih let)
+                    sta idejnopolitično in svetovnonazorsko polarizacijo na Slovenskem ves čas
+                    narekovala <hi rend="italic">Slovenec</hi> in <hi rend="italic">Slovenski
+                        narod</hi>. Prav tako sta oba tabora vodila skupno slovensko politiko v
+                    deželnih zborih in državnem zboru. Toda liberalno časopisje (med pomembnejšimi
+                    zunaj Kranjske so bili <hi rend="italic" xml:space="preserve">Edinost </hi>iz
+                    Trsta, <hi rend="italic">Soča</hi> iz Gorice in
+                    <hi rend="italic" xml:space="preserve">Domovina </hi>(1891) iz Celja; spadali so
+                    med politično-informativno časopisje, ki se je opiralo predvsem na politična
+                    društva oziroma njihove člane) je izgubljalo v iskanju političnih kompromisov s
+                    katoliškim taborom. Liberalni tabor so podpirali predvsem mestni izobraženci,
+                    bogatejši kmetje in učiteljstvo. Na drugi strani se je slovenska politična
+                    katoliška misel nenehno krepila tudi v času slogaštva, medtem ko je liberalni
+                    tabor zagotavljal krščanska načela in vodil strpno narodno politiko. Vodilno
+                    vlogo <hi rend="italic">Slovenca</hi> so v slovenski javnosti podpirali številni
+                    katoliški časopisi (npr. <hi rend="italic">Domoljub</hi> (1888)), zunaj Kranjske
+                    pa <hi rend="italic">Slovenski gospodar</hi> (1867) v Mariboru, <hi
+                        rend="italic">Dolenjske novice</hi> (1885) v Novem mestu, <hi rend="italic"
+                        >Mir</hi> v Celovcu (1882), ki so bili najbolj razširjeni krajevni
+                    informativni listi.<note place="foot" xml:id="ftn45" n="43"> Amon, »Vloga
+                        slovenskega časopisja,« 15–18.</note>
+                </p>
+                <p>Medtem so Slovenci na Kranjskem leta 1883 ponovno dobili večino v deželnem zboru.
+                    Zaradi »drobtiničarske« politike vlade pa so se pojavila nasprotja v liberalnem
+                    taboru (elastiki in radikali). Toda slovensko (slogaško) narodno stranko je
+                    razdvajalo predvsem nasprotje med liberalnim in konservativnim taborom, kljub
+                    temu da so slovenski (in Slovencem naklonjeni) poslanci v državnem zboru (Viljem
+                    Pfeifer, Josip Poklukar, Karel Klun, Adolf Obreza, Peter Grasselli, grof Karl
+                    Hohenwart, knez Ernst Windischgraetz, baron Albin Margheri-Comandano, Josip
+                    Vošnjak, Božidar Raič, baron Hermann Godel-Lannoy, Josip Tonkli in Ivan
+                    Nabergoj) nastopali složno in bili vsi člani Hohenwartovega kluba.<note
+                        place="foot" xml:id="ftn46" n="44"> Prim. Cvirn, <hi rend="italic">Dunajski
+                            državni zbor</hi>, 196–206.</note> Liberalci so le navzven sprejemali
+                    katoliška stališča, sloga pa je bila vseskozi na preizkušnji. Na nekaterih
+                    volitvah so proti uradnim slogaškim kandidatom nastopili protikandidati iz
+                    liberalnih in katoliških vrst. Slogaštvo se je začelo krhati po imenovanju
+                    Jakoba Missie za ljubljanskega škofa (leta 1884), dokončno ločitev duhov pa je
+                    leta 1888 z <hi rend="italic">Rimskim katolikom</hi> dosegel Anton Mahnič,
+                    profesor bogoslovja v Gorici.<note place="foot" xml:id="ftn47" n="45"> Prim.
+                        Fran Erjavec, <hi rend="italic">Zgodovina katoliškega gibanja na
+                            Slovenskem</hi> (Ljubljana: Prosvetna zveza, 1928), 28–47.</note> Pod
+                    vplivom drugega avstrijskega katoliškega shoda leta 1889 in radikalnejšega
+                    političnega katolicizma je bilo januarja 1890 v Ljubljani ustanovljeno Katoliško
+                    politično društvo (od leta 1895 Katoliška narodna stranka),<note place="foot"
+                        xml:id="ftn48" n="46"> Prim. <hi rend="italic">Slovenec</hi>, 12. 1. 1890.
+                            <hi rend="italic">Slovenski narod</hi>, 1. 2. 1890.</note> ki je še
+                    posebej po prvem slovenskem katoliškem shodu v Ljubljani avgusta 1892 spodbudilo
+                    nastanek številnih katoliških političnih društev na Kranjskem. Organiziranje
+                    katoliškega tabora je prisililo liberalce, da so februarja 1891 ustanovili
+                    Slovensko društvo (od leta 1894 Narodna stranka). V takšnih razmerah so bile
+                    državnozborske volitve marca 1891 in nadomestne v Ljubljani istega leta zadnje,
+                    za katere je kandidate postavil skupni volilni odbor. Naslednje leto je v
+                    kranjskem deželnem zboru razpadel skupni slovenski poslanski klub.<note
+                        place="foot" xml:id="ftn49" n="47"> Andrej Pančur, »Doba slogaštva,« v: <hi
+                            rend="italic">Slovenska novejša zgodovina, 1</hi>, 30, Pančur, »Nastanek
+                        političnih strank,« 30–32. Andrej Pančur, »Delovanje slovenskih strank,« v:
+                            <hi rend="italic">Slovenska novejša zgodovina, 1</hi>, 38. Prim.
+                        Vodopivec, <hi rend="italic">Od Pohlinove slovnice</hi>, 92–98.</note> Na
+                    Dunaju so se slovenski poslanci po Taaffejevem padcu novembra 1893 razdelili v
+                    dva kluba. »Oportunisti« Miha Vošnjak, Karl Klun, Fran Šuklje, Fran Povše, Anton
+                    Globočnik, Franc Robič in Viljem Pfeifer so ostali v Hohenwartovem klubu in
+                    podpirali novo, Windischgraetzovo vlado, zagovorniki radikalnejše politike
+                    (Andrej Ferjančič, Anton Gregorčič, Lavoslav Gregorec, Alfred Coronini, Josip
+                    Kušar in Ivan Nabergoj) pa so se s štirimi hrvaškimi poslanci povezali v Klub
+                    hrvatskih in slovenskih poslancev ter prešli v opozicijo. Razcep pa ni bil
+                    toliko rezultat ideološko-politične polarizacije na Kranjskem, pač pa predvsem
+                    taktična poteza, s pomočjo katere naj bi Slovenci čim več izsilili od vlade. V
+                    takšni konstelaciji so vztrajali do leta 1897, ko so se povezali v Slovansko
+                    krščansko nacionalno zvezo, ki je do konca stoletja podpirala vlade.<note
+                        place="foot" xml:id="ftn50" n="48"> Cvirn, <hi rend="italic">Dunajski
+                            državni zbor</hi>, 206–211.</note></p>
+                <p>Leta 1896 je bila ustanovljena še Jugoslovanska demokratska delavska stranka, s
+                    čimer so bili (sprva na Kranjskem) formirani vsi trije idejnopolitični tabori.
+                    Od začetkov organiziranega delavskega gibanja na Slovenskem (decembrska ustava
+                    leta 1867 je dovoljevala ustanavljanje delavskih društev) pa vse do srede
+                    sedemdesetih let so bili socialdemokrati na Slovenskem v glavnem obrtniški
+                    pomočniki in vajenci, mojstri pa le delno (oziroma bolj množično od osemdesetih
+                    let dalje v Ljubljani, Celju, na Ptuju, v Slovenski Bistrici, Celovcu, nekoliko
+                    manj pa v Mariboru, Trstu in v revirjih). Kljub krizi avstrijskega delavskega
+                    gibanja od srede sedemdesetih let naprej (poostren je bil pritisk oblasti,
+                    številna delavska društva so bila razpuščena, ostalim pa je bilo delovanje močno
+                        oteženo)<note place="foot" xml:id="ftn51" n="49"> Franc Rozman, »Delavsko
+                        gibanje na Slovenskem v Taaffejevi dobi,« <hi rend="italic">Zgodovinski
+                            časopis</hi> 29, št. 1-2 (1975): 119–22. Prim. Karin Maria
+                        Schmidlechner, <hi rend="italic">Die steirischen Arbeiter im 19.
+                            Jahrhundert</hi> (Wien: Europaverlag, 1983), 259–94.</note> sta bili na
+                    Spodnjem Štajerskem, ki je bila socialdemokratsko najbolje organizirana, v letih
+                    1883/84 dve rudarski stavki (Hrastnik), v Mariboru, centru spodnještajerske
+                    socialdemokracije, pa je sredi leta 1885 izšlo sedem številk lista <hi
+                        rend="italic">Die Arbeit</hi>. Toda leta 1886 je bilo mariborsko delavsko
+                    izobraževalno društvo razpuščeno, delavsko gibanje pa je na Spodnjem Štajerskem
+                    ponovno »zadihalo« šele po kongresu v Hainfeldu (sprva je bilo ustanovljeno
+                    društvo v Mariboru, nato v Celju in Trbovljah).<note place="foot" xml:id="ftn52"
+                        n="50"> Franc Rozman, »Socialistično gibanje na slovenskem Štajerskem do
+                        leta 1889,« <hi rend="italic">Prispevki za zgodovino delavskega gibanja</hi>
+                        13, št. 1-2 (1973): 88–96. Franc Rozman, <hi rend="italic">Socialistično
+                            delavsko gibanje na slovenskem Štajerskem</hi> (Ljubljana: Borec, 1979),
+                        73–83.</note> Leta 1889 je izbruhnila množična stavka v Trbovljah, Zagorju
+                    in Hrastniku, delavski nemiri in izgredi pa so spremljali tudi prvomajsko
+                    praznovanje leta 1890.<note place="foot" xml:id="ftn53" n="51"> Rozman,
+                        »Delavsko gibanje na Slovenskem,« 123. Rozman, <hi rend="italic"
+                            >Socialistično delavsko gibanje</hi>, 203–05, 239, 240. Franc Rozman in
+                        Miroslav Stiplovšek, <hi rend="italic">Prve rudarske stavke na Slovenskem
+                            1883–1923</hi> (Ljubljana: Delavska enotnost, 1983), 6–10, 16–20.
+                        Pančur, »Nastanek političnih strank,« 32–36. Pančur, »Nacionalni spori,«
+                        37.</note> Drugje (Kranjska, Koroška, Trst) je bila socialdemokracija slabše
+                    organizirana. V Ljubljani je bilo glavno delavsko-izobraževalno društvo (do leta
+                    1884 v radikalnih rokah), druga skupina pa je bila (kot nekakšen most med
+                    socialdemokracijo in meščansko organiziranimi obrtniki in delavci) zmernejša
+                    obrtniško demokratična skupina, ki je nekaj let izdajala list <hi rend="italic"
+                        >Ljudski glas</hi>.<note place="foot" xml:id="ftn54" n="52"> Prim. Jasna
+                        Fischer, <hi rend="italic">Čas vesolniga socialnega punta se bliža: socialna
+                            in politična zgodovina delavskega gibanja v Ljubljani od začetkov do
+                            leta 1889</hi> (Ljubljana: Republiška konferenca ZSMS, 1984).</note> Na
+                    Koroškem je bilo leta 1879 delavsko-izobraževalno društvo razpuščeno, leta 1885
+                    pa še ostala, tudi največje, beljaško. V prvi polovici osemdesetih let je
+                    prevladala radikalna smer in leta 1885 je (po Mariboru) v Beljaku izšlo nekaj
+                    številk lista <hi rend="italic">Die Arbeit</hi>. Po letu 1885 se je delavsko
+                    gibanje začelo obnavljati, po Heinfeldu pa se je (podobno kot drugod) pričel
+                    hiter vzpon socialdemokracije (sindikalne organizacije, praznovanje 1. maja,
+                    stavke itd.). Socialdemokracija je bila tudi v devetdesetih letih najbolje
+                    organizirana na Štajerskem, kljub temu pa do začetka 20. stoletja ni dosegala
+                    večjih uspehov.<note place="foot" xml:id="ftn55" n="53"> Rozman, »Delavsko
+                        gibanje na Slovenskem,« 123, 124.</note></p>
+            </div>
+            <div>
+                <ab type="milestone" style="text-align:center">* * *</ab>
+                <p>Nastanek modernih političnih strank je odpiral novo polje v dojemanju
+                    demokratičnih tendenc in »svobodne« svetovnonazorske usmeritve (ki je pod
+                    slogaškim »skupnim imenovalcem« sicer obstajala že prej). V nasprotju s Kranjsko
+                    so morali štajerski Slovenci, ki so se opirali na Slovensko politično društvo
+                    (ustanovljeno leta 1882 v Mariboru), zaradi močnega nemškega pritiska postopati
+                    slogaško ter mnogo bolj taktično in previdno. Kljub temu se je sloga že vse od
+                    druge polovice devetdesetih let počasi krhala. Če se je v Celju krepila
+                    liberalna »meščanska« struja (Vekoslav Kukovec), so se pod vplivom politične
+                    diferenciacije na Kranjskem v Mariboru vse bolj uveljavljali katoliški politiki
+                    mlajše generacije z Antonom Korošcem na čelu in svojo aktivnost (s pomočjo
+                    večinsko slovenske duhovščine) usmerjali na podeželje.<note place="foot"
+                        xml:id="ftn56" n="54"> Prim. Baš, <hi rend="italic">Prispevki</hi>,
+                        74–79.</note> K notranji cepitvi pa so ključno prispevali prav nemški
+                        uspehi.<note place="foot" xml:id="ftn57" n="55"> Več o tem gl. Branko
+                        Goropevšek, »Razpad sloge na slovenskem Štajerskem,« v: <hi rend="italic"
+                            >Celjski zbornik</hi> (Celje: Osrednja knjižnica, 1993), 143–61.</note>
+                    Dokončen razdor so prinesle nadomestne državnozborske volitve leta 1906, ko sta
+                    se v splošni kuriji spopadla liberalec Ivan Rebek in katoliški kandidat Anton
+                        Korošec.<note place="foot" xml:id="ftn58" n="56"> Prim. Branko Goropevšek,
+                            <hi rend="italic">Štajerski Slovenci, kaj hočemo!</hi> (Celje:
+                        Zgodovinsko društvo, 2005), 19–23. Gl. tudi <hi rend="italic">Slovenski
+                            gospodar</hi>, 10., 26., 31. 5. 1906.</note> Januarja 1907 sta bili tako
+                    oblikovani stranki obeh blokov (»celjska« Narodna stranka in »mariborska«
+                    Slovenska kmečka zveza). Toda razpad sloge kljub vsemu ni oslabil slovenske
+                    politike, saj je bil aprila 1907 za enotni nastop obeh blokov glede skupnih
+                    »narodnih« zadev ustanovljen Spodnještajerski narodni svet.<note place="foot"
+                        xml:id="ftn59" n="57"> Janez Cvirn, »Celje – izginjajoči nemški otok na
+                        Spodnjem Štajerskem,« v: <hi rend="italic">Od Maribora do Trsta</hi>,
+                        59.</note>
+                </p>
+                <p>Medtem je slovenska stran na Koroškem doživljala pravi politični polom.<note
+                        place="foot" xml:id="ftn60" n="58"> Janko Pleterski, <hi rend="italic"
+                            >Narodna in politična zavest na Koroškem. Narodna zavest in politična
+                            orientacija prebivalstva slovenske Koroške v letih 1848–1914</hi>
+                        (Ljubljana: Slovenska matica, 1965), 212, 213.</note> Nemška premoč ni bila
+                    le posledica gospodarske odvisnosti koroških Slovencev, temveč tudi
+                    nepripravljenosti slovenske stranke na Koroškem na širjenje volilne pravice.
+                    Nemška propaganda je pritegovala k liberalizmu nagnjene kmečke posestnike, ki
+                    jih je bilo v nasprotju z drugimi slovenskimi deželami na Koroškem precej
+                        več.<note place="foot" xml:id="ftn61" n="59"> Melik, <hi rend="italic"
+                            >Volitve</hi>, 246–48.</note> Tudi prihod odvetnika Janka Brejca (leta
+                    1903), ki je želel povezati slovensko politiko, ni bistveno spremenil razmerja
+                    sil na Koroškem.<note place="foot" xml:id="ftn62" n="60"> Prim. Andrej Rahten,
+                        »Pomen Janka Brejca in drugih pravnikov za koroške Slovence,« v:
+                        <hi rend="italic" xml:space="preserve">Eliten und Nationwerdung/Elite in narodovanje, </hi>ur.
+                        Tina Bahovec (Celovec, Ljubljana in Dunaj: Mohorjeva založba, 2003),
+                        9–26.</note> Koroški Nemci so vse bolj pozivali k slogi in odločnejši
+                    obrambi pred »slovenizacijo« dežele,<note place="foot" xml:id="ftn63" n="61">
+                        <hi rend="italic">Mir</hi>, 11. 4. 1908.</note> ki pa je nikjer ni bilo. Po
+                    zaslugi društva Edinost so se slovenski delavci v Trstu od leta 1896 aktivno
+                    vključevali v Jugoslovansko socialdemokratsko stranko, in ne v italijanska
+                    delavska združenja (vloga društva se je dodatno okrepila leta 1905, ko je pod
+                    njegovim okriljem začela delovati Narodna delavska organizacija).<note
+                        place="foot" xml:id="ftn64" n="62"> Jože Pirjevec, »Socialni in nacionalni
+                        problemi v Trstu 1860–1914,« v: <hi rend="italic">Od Maribora do Trsta</hi>,
+                        24.</note> Od leta 1897 so v Trstu delovale tri stranke (italijanska
+                    liberalna, slovenska nacionalna in socialdemokratska).<note place="foot"
+                        xml:id="ftn65" n="63"> Vasilij Melik, »O razvoju slovenske
+                        nacionalnopolitične zavesti,« v: <hi rend="italic">Vasilij Melik: Slovenci
+                            1848–1918</hi>, 218. Prim. Boris M. Gombač, »Trst in Slovenstvo,« v<hi
+                            rend="italic">: Slovenija 1848–1998: iskanje lastne poti</hi>, ur. Stane
+                        Granda in Barbara Šatej (Ljubljana: Zveza zgodovinskih društev Slovenije,
+                        1998), 96–101.</note> V drugih mestih slovenske Istre (Koper, Izola, Piran)
+                    so popolnoma prevladovali Italijani, ki so okrepili svoj pritisk.<note
+                        place="foot" xml:id="ftn66" n="64"> Prim. Melik, »O razvoju slovenske
+                        nacionalnopolitične zavesti,« 219.</note> Čeprav je slovenska goriška
+                    politika v devetdesetih letih zastopala slogaško usmeritev, je postajala
+                    politična polarizacija vse očitnejša. Dokončno je goriško slogo leta 1898 razbil
+                    novi škof Jakob Missia, namesto nje pa sta se oblikovala dva povsem ločena
+                    politična tabora.<note place="foot" xml:id="ftn67" n="65"> Prim. Henrik Tuma,
+                        <hi rend="italic" xml:space="preserve">Iz mojega življenja, </hi>ur. Branko
+                        Marušič (Ljubljana: Tuma, 1997), 242–48.</note> V Trstu se je
+                    krščanskosocialni del katoliškega tabora leta 1908 kljub italijanskemu pritisku
+                    oddaljil od slogaške politike (zbrane okrog Edinosti). Leta 1909 so liberalci in
+                    klerikalci na tržaških občinskih volitvah in leta 1911 na državnozborskih
+                    volitvah še nastopili složno, toda ustanovitev Slovenske ljudske stranke za Trst
+                    in Istro leta 1909 in Katoliškega političnega društva za Hrvate leta 1911 je
+                    jasno nakazovala postopni konec slogaške tradicije.<note place="foot"
+                        xml:id="ftn68" n="66"> Erjavec, <hi rend="italic">Zgodovina katoliškega
+                            gibanja</hi>, 286–303.</note>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div>
+                <head>Viri in literatura</head>
+                <listBibl>
+                    <head>Časopisni viri:</head>
+                    <bibl><hi rend="italic">Mir</hi>, 1908.</bibl>
+                    <bibl><hi rend="italic">Slovenec</hi>, 1890, 1895.</bibl>
+                    <bibl>S<hi rend="italic">lovenski narod</hi>, 1870, 1890, 1894.</bibl>
+                    <bibl><hi rend="italic">Slovenski gospodar</hi>, 1906.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Literatura:</head>
+                    <bibl>Amon, Smilja in Karmen Erjavec. <hi rend="italic">Slovensko časopisno
+                            izročilo</hi>. Ljubljana: Fakulteta za družbene vede, Založba FDV, 2011. </bibl>
+                    <bibl>Amon, Smilja. »Vloga slovenskega časopisja v združevanju in ločevanju
+                        slovenske javnosti od 1797–1945.«
+                        <hi rend="italic">Prispevki k zgodovini slovenskih medijev, </hi>Vol.
+                        15, supl. (2008): 9–24.</bibl>
+                    <bibl>Baš, Franjo. <hi rend="italic">Prispevki k zgodovini severovzhodne
+                            Slovenije</hi>. Maribor: Obzorja, 1989.</bibl>
+                    <bibl>Binder, Iris M. »Der Kärntner Landtag.« V: <hi rend="italic">Die
+                            Habsburgermonarchie 1848–1918, VII/2</hi>, 1719–37. Wien: Verlag der
+                        österreichischen Akademie der Wissenschaften, 2000.</bibl>
+                    <bibl>Cvirn, Janez. »'Le delavnost, stanovitnost in pogumnost so nam potrebne.'
+                        Štefan Kočevar in Celje (1851–1883).« V: <hi rend="italic">Štefan Kočevar –
+                            rodoljub slovenski</hi>, ur. Janez Cvirn, 81–96. Celje: Zgodovinsko
+                        društvo, 2006.</bibl>
+                    <bibl>Cvirn, Janez. »'Naj se vrne cenzura, ljubša bi nam bila.' Avstrijsko
+                        tiskovno pravo in slovensko časopisje (1848–1914).« V: <hi rend="italic"
+                            >Cenzurirano. Zgodovina cenzure na Slovenskem od 19. stoletja do
+                            danes</hi>, ur. Mateja Režek, 13–44. Ljubljana: Nova revija,
+                        2010.</bibl>
+                    <bibl>Cvirn, Janez. »Celje – izginjajoči nemški otok na Spodnjem Štajerskem.« V:
+                            <hi rend="italic">Od Maribora do Trsta</hi>, ur. Darko Friš in Franc
+                        Rozman, 57–65. Maribor: Pedagoška fakulteta, 1998.</bibl>
+                    <bibl>Cvirn, Janez. »Deutsche und Slowenen in der Untersteiermark. Zwischen
+                        Kooperation und Konfrontation.« V: <hi rend="italic">Slowenen und Deutsche
+                            im gemeinsamen Raum,</hi> ur. Harald Heppner, 111–25. München: R.
+                        Oldenbourg, 2002.</bibl>
+                    <bibl>Cvirn, Janez. <hi rend="italic">Dunajski državni zbor in Slovenci
+                            (1848</hi>–<hi rend="italic">1918).</hi> Celje in Ljubljana: Zgodovinsko
+                        društvo in Znanstvena založba Filozofske fakultete, 2015.</bibl>
+                    <bibl>Cvirn, Janez. »Kdor te sreča, naj te sune, če ti more, v zobe plune.
+                        Dragotin Dežman in slovenstvo.« <hi rend="italic">Zgodovina za vse</hi> 14,
+                        št. 2 (2007): 38–56.</bibl>
+                    <bibl>Cvirn, Janez. »Slovenska politika na Štajerskem ob koncu 60-ih let 19.
+                        stoletja.« <hi rend="italic">Zgodovinski časopis</hi> 47, št. 4 (1993):
+                        523–29.</bibl>
+                    <bibl>Cvirn, Janez. <hi rend="italic">Trdnjavski trikotnik. Politična
+                            orientacija Nemcev na Spodnjem Štajerskem (1861–1914).</hi> Maribor:
+                        Obzorja, 1997.</bibl>
+                    <bibl>Erjavec, Fran. <hi rend="italic">Zgodovina katoliškega gibanja na
+                            Slovenskem</hi>. Ljubljana: Prosvetna zveza, 1928.</bibl>
+                    <bibl>Fischer, Jasna. <hi rend="italic">Čas vesolniga socialnega punta se bliža:
+                            socialna in politična zgodovina delavskega gibanja v Ljubljani od
+                            začetkov do leta 1889</hi>. Ljubljana: Republiška konferenca ZSMS,
+                        1984.</bibl>
+                    <bibl>Gombač, Boris M. »Trst in Slovenstvo.« V<hi rend="italic">: Slovenija
+                            1848–1998: iskanje lastne poti</hi>, ur. Stane Granda in Barbara Šatej,
+                            90<hi rend="italic">–</hi>103. Ljubljana: Zveza zgodovinskih društev
+                        Slovenije, 1998.</bibl>
+                    <bibl>Goropevšek, Branko. »Razpad sloge na slovenskem Štajerskem.« V:
+                        <hi rend="italic" xml:space="preserve">Celjski zbornik, </hi>143–61. Celje:
+                        Osrednja knjižnica, 1993.</bibl>
+                    <bibl>Goropevšek, Branko. <hi rend="italic">Štajerski Slovenci, kaj
+                            hočemo!.</hi> Celje: Zgodovinsko društvo, 2005.</bibl>
+                    <bibl>Granda, Stane. »Graška Slovenija v letu 1848/49.« <hi rend="italic"
+                            >Zgodovinski časopis</hi> 28, št. 1-2 (1974): 45–84.</bibl>
+                    <bibl>Granda, Stane. »Podpisovanje peticij za zedinjeno Slovenijo 1848 –
+                        manipulacija ali zavestno politično dejanje?.« V: <hi rend="italic"
+                            >Historični seminar</hi>, ur. Oto Luthar, 239–55. Ljubljana: Založba
+                        ZRC, ZRC SAZU, 1994. </bibl>
+                    <bibl>Granda, Stane. <hi rend="italic">Prva odločitev Slovencev za
+                            Slovenijo</hi>. Ljubljana: Nova revija, 1999.</bibl>
+                    <bibl>Kermavner, Dušan. <hi rend="italic">Prvi taktični razhod slovenskih
+                            politikov v Taaffe-Winklerjevi dobi</hi>. Ljubljana: Državna založba
+                        Slovenije, 1963.</bibl>
+                    <bibl>Kosi, Jernej. <hi rend="italic">Kako je nastal slovenski narod. Začetki
+                            slovenskega nacionalnega gibanja v prvi polovici 19. stoletja</hi>.
+                        Ljubljana: Sophia, 2013. </bibl>
+                    <bibl>Lončar, Dragotin. »Adolf Fischhof.« <hi rend="italic">Veda</hi>, 1912:
+                        27–37.</bibl>
+                    <bibl>Marušič, Branko<hi rend="italic">. Pregled politične zgodovine Slovencev
+                            na Goriškem 1848–1899</hi>. Nova Gorica: Goriški muzej, 2005. </bibl>
+                    <bibl>Melik, Vasilij. »O razvoju slovenske nacionalnopolitične zavesti
+                        1861–1918.« V:
+                        <hi rend="italic" xml:space="preserve">Vasilij Melik: Slovenci 1848–1918. Razprave in članki, </hi>ur.
+                        Viktor Vrbnjak, 208–21. Maribor: Litera, 2002.</bibl>
+                    <bibl>Melik, Vasilij. »Problemi in dosežki slovenskega narodnega boja v
+                        šestdesetih in sedemdesetih letih v 19. stoletju.« V:
+                        <hi rend="italic" xml:space="preserve">Vasilij Melik: Slovenci 1848–1918. Razprave in članki, </hi>ur.
+                        Viktor Vrbnjak, 239–44. Maribor: Litera, 2002.</bibl>
+                    <bibl>Melik, Vasilij. »Razcep med staroslovenci in mladoslovenci.« V:
+                        <hi rend="italic" xml:space="preserve">Vasilij Melik: Slovenci 1848–1918. Razprave in članki, </hi>ur.
+                        Viktor Vrbnjak, 470–84. Maribor: Litera, 2002.</bibl>
+                    <bibl>Melik, Vasilij. »Slovenska politika ob začetku dualizma.« V:
+                        <hi rend="italic" xml:space="preserve">Vasilij Melik: Slovenci 1848–1918. Razprave in članki, </hi>ur.
+                        Viktor Vrbnjak, 290–323. Maribor: Litera, 2002.</bibl>
+                    <bibl>Melik, Vasilij. <hi rend="italic">Volitve na Slovenskem</hi>. Ljubljana:
+                        Slovenska matica, 1965.</bibl>
+                    <bibl>Moritsch, Andreas. »Politična zgodovina Celovca v drugi polovici 19.
+                        stoletja.« V: <hi rend="italic">Od Maribora do Trsta</hi>, ur. Darko Friš in
+                        Franc Rozman, 35–41. Maribor: Pedagoška fakulteta, 1998.</bibl>
+                    <bibl>Pančur, Andrej. »Delovanje slovenskih strank.« V: <hi rend="italic"
+                            >Slovenska novejša zgodovina. Od programa Zedinjena Slovenija do
+                            mednarodnega priznanja Republike Slovenije, 1</hi>, ur. Jasna Fischer et
+                        al., 38, 39. Ljubljana: Mladinska knjiga in Inštitut za novejšo zgodovino,
+                        2005.</bibl>
+                    <bibl>Pančur, Andrej. »Doba slogaštva.« V: <hi rend="italic">Slovenska novejša
+                            zgodovina. Od programa Zedinjena Slovenija do mednarodnega priznanja
+                            Republike Slovenije, 1</hi>, ur. Jasna Fischer et al., 30, 31.
+                        Ljubljana: Mladinska knjiga in Inštitut za novejšo zgodovino, 2005.</bibl>
+                    <bibl>Pančur, Andrej. »Nacionalni spori. V: <hi rend="italic">Slovenska novejša
+                            zgodovina. Od programa Zedinjena Slovenija do mednarodnega priznanja
+                            Republike Slovenije, 1</hi>, ur. Jasna Fischer et al., 36–38. Ljubljana:
+                        Mladinska knjiga in Inštitut za novejšo zgodovino, 2005.</bibl>
+                    <bibl>Pančur, Andrej. »Nastanek političnih strank.« V: <hi rend="italic"
+                            >Slovenska novejša zgodovina. Od programa Zedinjena Slovenija do
+                            mednarodnega priznanja Republike Slovenije, 1</hi>, ur. Jasna Fischer et
+                        al., 31–36. Ljubljana: Mladinska knjiga in Inštitut za novejšo zgodovino,
+                        2005.</bibl>
+                    <bibl>Pančur, Andrej. »Uveljavitev slovenskega narodnega gibanja.« V: <hi
+                            rend="italic">Slovenska novejša zgodovina. Od programa Zedinjena
+                            Slovenija do mednarodnega priznanja Republike Slovenije, 1</hi>, ur.
+                        Jasna Fischer et al., 28, 29. Ljubljana: Mladinska knjiga in Inštitut za
+                        novejšo zgodovino, 2005.</bibl>
+                    <bibl>Perchinig, Bernhard. <hi rend="italic">»Wir sind Kärtner und damit hat
+                            sich's …«. Deutschnationalismus und politische Kultur in Kärnten</hi>.
+                        Klagenfurt/Celovec: Drava, 1989.</bibl>
+                    <bibl>Pirjevec, Jože. »Socialni in nacionalni problemi v Trstu 1860–1914.« V:
+                            <hi rend="italic">Od Maribora do Trsta</hi>, ur. Darko Friš in Franc
+                        Rozman, 19–25. Maribor: Pedagoška fakulteta, 1998.</bibl>
+                    <bibl>Pleterski, Janko. <hi rend="italic">Narodna in politična zavest na
+                            Koroškem. Narodna zavest in politična orientacija prebivalstva slovenske
+                            Koroške v letih 1848–1914</hi>. Ljubljana: Slovenska matica, 1965. </bibl>
+                    <bibl>Rahten, Andrej. »Pomen Janka Brejca in drugih pravnikov za koroške
+                        Slovence.« V:
+                        <hi rend="italic" xml:space="preserve">Eliten und Nationwerdung/Elite in narodovanje, </hi>ur.
+                        Tina Bahovec, 9–28. Celovec, Ljubljana in Dunaj: Mohorjeva založba,
+                        2003.</bibl>
+                    <bibl>Rozman, Franc in Miroslav Stiplovšek. <hi rend="italic">Prve rudarske
+                            stavke na Slovenskem (1883–1923).</hi> Ljubljana: Delavska enotnost,
+                        1983.</bibl>
+                    <bibl>Rozman, Franc. »Delavsko gibanje na Slovenskem v Taaffejevi dobi.« <hi
+                            rend="italic">Zgodovinski časopis</hi> 29, št. 1-2 (1975):
+                        119–25.</bibl>
+                    <bibl>Rozman, Franc. <hi rend="italic">Socialistično delavsko gibanje na
+                            slovenskem Štajerskem</hi>. Ljubljana: Borec, 1979.</bibl>
+                    <bibl>Rozman, Franc. »Socialistično gibanje na slovenskem Štajerskem do leta
+                        1889.« <hi rend="italic">Prispevki za zgodovino delavskega gibanja</hi> 13,
+                        št. 1-2 (1973): 53–103.</bibl>
+                    <bibl>Schmidlechner, Karin Maria. <hi rend="italic">Die steirischen Arbeiter im
+                            19. Jahrhundert</hi>. Wien: Europaverlag, 1983.</bibl>
+                    <bibl><hi rend="italic">Štefan Kočevar – rodoljub slovenski</hi>, ur. Janez
+                        Cvirn. Celje: Zgodovinsko društvo, 2006.</bibl>
+                    <bibl>Tuma, Henrik.
+                        <hi rend="italic" xml:space="preserve">Iz mojega življenja, </hi>ur. Branko
+                        Marušič. Ljubljana: Tuma, 1997.</bibl>
+                    <bibl>Vodopivec, Peter. <hi rend="italic">Od Pohlinove slovnice do samostojne
+                            države. Slovenska zgodovina od konca 18. do konca 20. stoletja</hi>.
+                        Ljubljana: Modrijan, 2010.</bibl>
+                    <bibl>Vošnjak, Josip. <hi rend="italic">Spomini</hi>, ur. Vasilij Melik.
+                        Ljubljana: Slovenska matica, 1982.</bibl>
+                    <bibl>Zajc, Marko.
+                        <hi rend="italic" xml:space="preserve">Kje se hrvaško neha in slovensko začne. Slovensko-hrvaška meja v 19. in na začetku 20. stoletja. </hi>Ljubljana:
+                        Modrijan, 2006.</bibl>
+                </listBibl>
+            </div>
+            <div type="summary">
+                <head>OVERVIEW OF THE SLOVENIAN POLITICAL CAMPS BEFORE THE CREATION OF MODERN POLITICAL
+                    PARTIES </head>
+                <head>SUMMARY</head>
+                <docAuthor>Filip Čuček</docAuthor>
+                <p>During the March Revolution, when the Biedermeier period ended practically
+                    overnight, the traditional feudal social system was replaced by true
+                    parliamentarism according to the Western example, while, naturally, modern
+                    political parties did not yet exist in Austria. In Slovenia at this time,
+                    "politics" converged in the Provincial Assemblies – which mostly dealt with
+                    municipalities, abolishment of serfdom, and the provincial constitution – and in
+                    the National Assembly (as well as, on the other hand, in the existing and
+                    newly-established newspapers and magazines which had started flourishing). The
+                    loudest demand of the ("Slovenian") political programmes in 1848 was the United
+                    Slovenia Programme (created in several centres). One of such political "centres"
+                    was represented by the cathedral curate Matija Majar Ziljski in Klagenfurt.
+                    Another centre was located in Vienna, and the third one in Graz. After the
+                    restoration of the constitutional life in 1861, politics did not yet know the
+                    modern political "infrastructure" or classic political parties: politicians
+                    operated in accordance with the principle of adherence to certain political
+                    visions, and these orientations came together, more or less, in the "national"
+                    political groups within the exclusive representative bodies. However, Slovenian
+                    politics was quite disorganised, and even in the Vienna Parliament the
+                    "Slovenian" MPs came across as rather confused. However, the situation started
+                    changing soon. The Maribor Programme of September 1865, calling for the
+                    restoration of the Inner Austrian provinces, strengthened the national impulse
+                    in Slovenia. The impulse mounted until the Provincial Assembly elections in
+                    1867, when Slovenians already presented a clear political programme. Meanwhile,
+                    the relations within the Slovenian politics became more conflicting (with regard
+                    to the liberal legislation and the Concordat issues). In 1867 the political
+                    polarisation was encouraged by the voting of the National Assembly deputies on
+                    the dualist address. Two political camps formed definitively in the Slovenian
+                    politics: the camp arguing for the cautious politics of the National Assembly
+                    deputies (the so-called "Old Slovenians"), and the opposition camp (the
+                    so-called "Young Slovenians"), which advocated a decisive national policy
+                    according to the Czech example. At the end of the 1860s and in the beginning of
+                    the 1870s – in the time when the political life had already become an everyday
+                    occurrence – the Slovenian liberal politics culminated in the political camps.
+                    The political camps movement, initiated by the liberals in accordance with the
+                    Czech example, was also (belatedly) joined by the conservatives. Apart from the
+                    Provincial Assemblies (and the National Assembly after 1873), the main political
+                    centres also formed around newspapers (and societies), which is how new outlooks
+                    and fresh (national) ideas made their way among the wider circle of people.
+                    However, political disagreements kept smouldering in the background. The
+                    division intensified, and the ideological-political rupture manifested itself in
+                    the establishment of ideological-political newspapers and foundation of Catholic
+                    political and press societies. Nevertheless, the intensified German (Italian)
+                    nationalism in the middle of the decade consolidated the Slovenian ranks,
+                    forcing them to return to the unification policy.</p>
+                <p>Despite the united Slovenian political efforts (until the beginning of the
+                    1890s), the ideological-political and world-view polarisation in Slovenia was
+                    constantly dictated by the <hi rend="italic">Slovenec</hi> and <hi rend="italic"
+                        >Slovenski narod</hi> newspapers. However, the liberal press kept losing
+                    ground in its search of political compromises with the Catholic camp. The
+                    Slovenian political Catholic thought kept strengthening during the time of
+                    unification as well, while the liberal camp advocated the Christian principles
+                    and subscribed to tolerant national policy. The final separation of opinions was
+                    achieved by Anton Mahnič, professor of theology in Gorizia, and the <hi
+                        rend="italic">Rimski katolik</hi> magazine. In January 1890 the Catholic
+                    Political Society (as of 1895 the Catholic National Party) was founded in
+                    Ljubljana. The organisation of the Catholic camp forced the liberal side to
+                    establish the Slovenian Society (as of 1894 the National Party) in February
+                    1891. In such circumstances the National Assembly elections in March 1891 and
+                    the by-elections in Ljubljana in the same year were the last occasions when the
+                    joint electoral committee nominated the candidates. In the following year the
+                    joint Slovenian deputies' group in the Carniolan Provincial Assembly dissolved.
+                    In 1896 the Yugoslav Democratic Workers' Party was founded as well, marking the
+                    formation of all three ideological-political camps (initially in Carniola). In
+                    the other provinces populated by Slovenians, the pluralisation of the political
+                    space took place somewhat later: in 1899 in Gorizia, in 1907 in Styria, shortly
+                    before World War I in Trieste, while it never took place at all in
+                    Carinthia.</p>
+            </div>
+        </back>
+    </text>
+</TEI>
