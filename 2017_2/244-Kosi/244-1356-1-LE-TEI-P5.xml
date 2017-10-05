@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>"However, the language here is changing gradually, and in the presence of so
+                    many local dialects the Croatian and its kindred Slovenian world cannot be
+                    separated very precisely" – Drawing the Slovenian-Croatian National Border in
+                    the Territory of the Present-day Prekmurje Region<note place="foot"
+                        xml:id="ftn1" n="*"> The article is a result of the research project,
+                        co-financed by the Slovenian Research Agency in the framework of "Slovene
+                        History" (P6-0235) research core funding, and the project "History of
+                        Administrative Borders and Boundaries: Slovenian-Croatian Border 1800 – 1991
+                        (J6-4132; the article was finished in May 2016 and was translated from
+                        Slovene by Borut Praper). I would hereby like to thank Rok Stergar and Marko
+                        Zajc for their invaluable advice and assistance. </note></title>
+                <author>
+                    <name>
+                        <forename>Jernej</forename>
+                        <surname>Kosi</surname>
+                    </name>
+                    <roleName>Researcher</roleName>
+                    <roleName>PhD</roleName>
+                    <affiliation>Department of History, Faculty of Arts, University of
+                        Ljubljana</affiliation>
+                    <address>
+                        <addrLine>Aškerčeva cesta 2</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>jernej.kosi@ff.uni-lj.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2017-09-20</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/244</pubPlace>
+                <date>2016</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">57</biblScope>
+                <biblScope unit="issue">2</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>national border</term>
+                    <term>Slovenian national territory</term>
+                    <term>Prekmurje</term>
+                    <term>Slovenian national movement</term>
+                    <term>Croats and Slovenians</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>nacionalna meja</term>
+                    <term>slovensko nacionalno ozemlje</term>
+                    <term>Prekmurje</term>
+                    <term>slovensko nacionalno gibanje</term>
+                    <term>Hrvati in Slovenci</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2017-10-05</date>
+                    <name>Neja Blaj Hribar</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor> Jernej Kosi<note place="foot" xml:id="ftn2" n="**">
+                    <hi rend="bold">Researcher, PhD, Department of History, Faculty of Arts,
+                        University of Ljubljana, Aškerčeva cesta 2, SI-1000 Ljubljana,</hi>
+                    <ref target="jernej.kosi@ff.uni-lj.si"><hi rend="bold"
+                            >jernej.kosi@ff.uni-lj.si</hi></ref></note>
+            </docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss type: 1.01</idno>
+                <idno type="UDC">UDC: </idno>
+            </docImprint>
+            <div type="abstract" xml:lang="sl">
+                <head>IZVLEČEK</head>
+                <head>"KER SE PA JEZIK TU PO MALEM SPREMENUJE, IN JE TOLIKO KRAJNIH NAREČIJ, SE
+                    HERVAŠKI IN SORODNI SLOVENSKI SVET NE MORETA PRAV NA TANJKO S POTEZO LOČITI" –
+                    ZAČRTOVANJE SLOVENSKO-HRVAŠKE NACIONALNE MEJE NA PODROČJU DANAŠNJEGA
+                    PREKMURJA</head>
+                <p><hi rend="italic" xml:space="preserve">V članku obravnavam proces nastajanja zamisli o meji med </hi>"<hi
+                        rend="italic"
+                        >slovenskim</hi>"<hi rend="italic" xml:space="preserve"> in </hi>"<hi
+                        rend="italic">hrvaškim</hi>" <hi rend="italic">nacionalnim ozemljem na
+                        področju zahodne Ogrske. Zamisel je bila sprva artikulirana kot jezikovna
+                        premisa v delih slavnega jezikoslovca Jerneja Kopitarja, ki je ozemlje
+                        današnjega Prekmurja razumel kot prostor, kjer se govori slovenski jezik. Od
+                        srede 19. stoletja naprej je Kopitarjevo klasifikacijo apropriiralo
+                        slovensko nacionalno gibanje, ki je predpostavljalo, da so govorci
+                        slovenskega jezika na Ogrskem tudi pripadniki zamišljene slovenske
+                        skupnosti. V tem kontekstu je bila slovenska jezikovna – nacionalna meja
+                        sredi 19. stoletja prvič upodobljena na zemljevidu (Peter Kozler). V vsega
+                        nekaj desetletjih se je predstava o nacionalni ločnici v današnjem
+                        Prekmurju, ki da v odnosu do Hrvatov poteka po reki Muri, dodobra utrdila
+                        med slovenskimi nacionalnimi aktivisti na področju cislajtanskih dežel. Ob
+                        razpadu Avstro-Ogrske in po podpisu trianonske mirovne pogodbe pa je tudi
+                        dejansko začela razmejevati slovenski nacionalni prostor od sosednjega
+                        hrvaškega.</hi></p>
+                <p><hi rend="italic">Ključne besede: nacionalna meja, slovensko nacionalno ozemlje,
+                        Prekmurje, slovensko nacionalno gibanje, Hrvati in Slovenci</hi></p>
+            </div>
+            <div type="abstract">
+                <head>ABSTRACT</head>
+                <p><hi rend="italic">The article analyses the process involved in the formation of
+                        the idea to separate the "Slovenian" and "Croatian" national territory in
+                        the west of the Kingdom of Hungary. The concept was initially articulated as
+                        a linguistic premise in the works written by the famous linguist Jernej
+                        Kopitar, who understood the territory of the today's Prekmurje region as an
+                        area where Slovenian language was spoken. As of the middle of the 19th
+                        century, Kopitar's classification had been appropriated by the Slovenian
+                        national movement, which presupposed that the speakers of the Slovenian
+                        language in the Kingdom of Hungary were also members of the envisioned
+                        Slovenian community. In this context the Slovenian linguistic – national
+                        border was, in the middle of the 19th century, depicted on a map for the
+                        first time (Peter Kozler). In just a few decades, the idea of the national
+                        demarcation line in the today's Prekmurje, supposedly separating Slovenians
+                        from Croats at the river Mura, had strengthened considerably among the
+                        Slovenian national activists in the Cisleithanian lands. After the
+                        dissolution of Austro-Hungary and the signing of the Treaty of Trianion,
+                        this line in fact became a border between the Slovenian and the neighbouring
+                        Croatian national space.</hi></p>
+                <p><hi rend="italic">Keywords: national border, Slovenian national territory,
+                        Prekmurje, Slovenian national movement, Croats and Slovenians</hi></p>
+            </div>
+        </front>
+        <body>
+            <p>The territorial pretensions of the individual national movements and later political
+                elites in the newly-established national states have been – approximately since
+                1830, but especially as of 1848 – the most frequent reason for the changes and
+                rearrangements of the European national and internal administrative borders.
+                Numerous European national movements that managed to assert their social and
+                political power notably after the middle of the 19th century proclaimed their
+                demands for the adaptation of the political and administrative borders to the
+                national boundaries as their primary long-term programme goal. The social, cultural,
+                and especially political strategies of the European national movements within the
+                "non-national" state entities or the state policies of the nationalist elites in the
+                newly-established states were therefore, in the 19th and 20th century, largely
+                focused precisely on the attainment of this primary programme goal.<note
+                    place="foot" xml:id="ftn3" n="1"> For a comparative historical outline of the
+                    European national movements and nationalism in the 19th century see Oliver
+                    Zimmer, <hi rend="italic">Nationalism in Europe, 1890-1940</hi> (London:
+                    Palgrave, 2003). The following work focuses on the national(ist) cultural
+                    practices and symbolic representations: Joep Leersen, <hi rend="italic">National
+                        Thought in Europe: A Cultural History</hi> (Amsterdam: AUP, 2006). In this
+                    article the term nationalism and all the derived words are used in accordance
+                    with Gellner's definition of the expression. Therefore, nationalism is
+                    understood especially as "a political principle, which holds that the political
+                    and the national unit should be congruent". – Ernest Gellner, <hi rend="italic"
+                        >Nations and Nationalism</hi> (Oxford: Blackwell, 1983), 1.</note> This was
+                also more or less characteristic for the Slovenian national movement, as the demand
+                that "all Slovenians as well as their closest brothers should unite in a single
+                nation, in order to create a united, single Slovenian Assembly" was clearly
+                expressed already in 1848, in the first Slovenian national political programme.<note
+                    place="foot" xml:id="ftn4" n="2"> In the text of the flier <hi rend="italic"
+                        >What do Slovenians Want? (Kaj Slovenci terjamo?)</hi>, published by Matija
+                    Majar (1809–1892) in the second half of March 1848, after he had received news
+                    of the beginning of the revolution in Vienna.– The text of the flier is quoted
+                    in Janko Prunk, <hi rend="italic">Slovenski narodni programi: narodni programi v
+                        slovenski politični misli od 1848 do 1945</hi> (Ljubljana: Društvo 2000,
+                    1986), 152–59. For the reproduction of the flier see Andreas Moritsch and
+                    Vincenc Rajšp, eds., <hi rend="italic">Matija Majar-Ziljski</hi> (Klagenfurt:
+                    Hermagoras, 1995), 105, 106.</note>
+            </p>
+            <p>It is absolutely certain that the social and political achievements of the European
+                national movements and individual nationalist elites in the 19th and 20th century
+                were by no means negligible. The specific unification, separatist, irredentist, or
+                centralist national political programmes in fact contributed importantly to the
+                dissolution of the existing empires and unification of what had previously been
+                separated political-territorial units in the newly-formed national states.
+                Furthermore, the new national(ist) elites in the newly-created national states were,
+                in this period, quite successful in their efforts to abolish the "intra-state"
+                social and regional differences as soon as possible, and effectively ensure that the
+                class oppositions could be overcome. In this context the national movements
+                attempted to fulfil their desire to gradually replace these sorts of differences and
+                oppositions with the cultural unification of what had been very heterogeneous
+                populations under the wing of national cultures. The circumstances were often such
+                that the new national institutional frameworks had been created first, while the
+                population was in fact nationalised subsequently (which, in turn, meant that modern
+                national identity categories were adopted by the wider strata of the
+                    population).<note place="foot" xml:id="ftn5" n="3"> For a comparative
+                    description of these sort of efforts and activities in the name of the nation
+                    and for the nation see Miroslav Hroch, <hi rend="italic">Das Europa der
+                        Nationen: Die moderne Nationsbildung im europäischen Vergleich</hi>
+                    (Göttingen: Vandenhoeck &amp; Ruprecht, 2005), 109–234. Comparatively on the
+                    formation of the European mass nations: Hagen Schulze, <hi rend="italic">States,
+                        Nations, and Nationalism: From the Middle Ages to the Present</hi> (Oxford:
+                    Blackwell Publishing, 1996). On nationalist policies and national culture:
+                    Leersen, <hi rend="italic">National Thought</hi>, 105–219. On the
+                    nationalisation of the masses and nationalism as a mass phenomenon: Zimmer, <hi
+                        rend="italic">Nationalism</hi>, 27–49. On state institutions as a means of
+                    promoting the nationally-defined identity categories: Rogers Brubaker, <hi
+                        rend="italic">Nationalism Reframed: Nationhood and the National Question in
+                        the New Europe</hi> (Cambridge: Cambridge University Press, 1996). A classic
+                    study of the state's role in the "top to bottom" construction of a nation: Eugen
+                    Weber, <hi rend="italic">Peasants Into Frenchmen</hi> (Stanford: Stanford
+                    University Press, 1976).</note>
+            </p>
+            <p>The history of the creation and formation of the European national states in the
+                    19<hi rend="superscript">th</hi> and 20<hi rend="superscript">th</hi> centuries
+                confirms that numerous European national movements were quite successful in the
+                realisation of their political programmes. In this regard we should obviously not
+                overlook that precisely these attempts to implement the individual nationalist
+                policies can be deemed as largely responsible for the unprecedented horrors that the
+                European peoples have experienced in the past two hundred years. In the first half
+                of the 20<hi rend="superscript">th</hi> century it turned out that the nationalist
+                state policies and their intentional encouragement of the unexpected expansion of
+                xenophobia and hatred between the nations contributed very significantly to the
+                outbreak of two unprecedented military conflicts. In the nationalist imagery, such
+                sacrifices as well as casualties of military conflicts, which the European national
+                states had been involved in in the earlier as well as subsequent periods, were most
+                often seen as expected and sensible. As such they were also worth remembering, at
+                least judging from the frequency of commemorative gatherings and incidence of
+                memorials that the national elites in the 19<hi rend="superscript">th</hi> and 20<hi
+                    rend="superscript">th</hi> century dedicated to the preservation of the memory
+                of their respective nations' heroic acts throughout the European continent. Within
+                the national context of remembrance, sacrificing oneself for one's nation and in its
+                name has been understood as a contribution to the realisation of the thousand-year
+                national aspirations and endeavours, and at the same time also as a contribution to
+                overcoming the at least equally ancient national traumas.<note place="foot"
+                    xml:id="ftn6" n="4"> On commemorative practices: Zimmer, <hi rend="italic"
+                        >Nationalism</hi>, 28–49; and literature listed therein. A classic work
+                    about this topic: George L. Mosse, <hi rend="italic">Fallen Soldiers: Reshaping
+                        the Memory of the World Wars</hi> (New York: Oxford University Press,
+                    1990).</note>
+            </p>
+            <p>In the 19<hi rend="superscript">th</hi> and 20<hi rend="superscript">th</hi> century,
+                national traumas and aspirations would very frequently focus on the issue of
+                constituting national territories. Consequently, it is not surprising that so much
+                attention in the context of commemorative practices and national imagery is
+                dedicated to the idea that the military and civilian lives should be sacrificed on
+                the altar of their respective homelands, precisely in the name of fighting for the
+                preservation of the national territories or with the intention of establishing the
+                supposedly more natural national borders of the individual national communities. As
+                it was, in the minds of zealous nationalists of the 19<hi rend="superscript">th</hi>
+                and 20<hi rend="superscript">th</hi> centuries, national territories would often be
+                understood as incomplete, i.e. as something that had yet to be finalised – most
+                often on the account of the neighbouring political entities. This would supposedly
+                once and for all make up for all the national injustices that had supposedly taken
+                place in the past.<note place="foot" xml:id="ftn7" n="5"> Such conceptions could
+                    also be mobilised for propaganda purposes, which is amply proven by an allegoric
+                    example of a German postcard from the time of World War I (<hi rend="italic"
+                        >Gegen welsche Tücke und Raubgier!</hi>), which defined the goals of the
+                    armed conflicts as follows: "Wir wollen, daß deutsch bleibt, was deutsch ist,
+                    und deutsch wird, was deutsch war!" ("We want what is German to remain German,
+                    and what was German once to become German again!"). <hi rend="italic">–
+                        Historische Bildpostkarten - 14.8 Bildpostkarten/Gegen welsche Tücke und
+                        Raubgier!.</hi> accessed December 12, 2015, <ref
+                        target="http://www.bildpostkarten.uni-osnabrueck.de/displayimage.php?album=102&amp;pos=87"
+                        >http://www.bildpostkarten.uni-osnabrueck.de/displayimage.php?album=102&amp;pos=87</ref>.</note>
+            </p>
+            <p>It seems that all the tragedy and absurdity of the millions of deaths, caused by the
+                world wars as well as by all the other European conflicts between nations in the
+                    19<hi rend="superscript">th</hi> and 20<hi rend="superscript">th</hi> century,
+                can be considered in the context of the fact that not even the armies of the
+                victorious states have ever secured the true national borders. It is obvious that
+                national borders are, in their essence, neither natural nor objectively
+                identifiable: not a single unbiased, indisputable, and irrefutable criterion exists
+                that could definitely and objectively draw the line between two national communities
+                on the map. Not even geographical obstacles or characteristics that in themselves
+                stand out as the most obvious, apparent, and therefore believable criteria meet such
+                requirements. Even if it seems, at the first glance, that geographical features can
+                easily adopt the role of national demarcation lines as well, numerous examples of
+                successful national movements that did not consider such barriers as insurmountable
+                for the expansion of their nationally-determined visions speak in favour of the
+                opposite. For this reason, it was already Ernest Renan (1823–1892) in his work <hi
+                    rend="italic">What is a Nation? (Qu'est-ce qu'une nation?</hi>, 1882) that
+                proposed as well as convincingly argued in favour of the standpoint that national
+                borders did not depend on the geographical features.<note place="foot" xml:id="ftn8"
+                    n="6"> Ernest Renan, “What is a Nation?,” in: <hi rend="italic">Becoming
+                        National: A Reader</hi>, ed. Geoff Eley and Ronald Grigor Suny (Oxford:
+                    Oxford University Press, 1996), 41–55.</note>
+            </p>
+            <p>It would be even harder to argue in favour of the thesis involving the existence of
+                certain objectively specifiable cultural "markers", i.e. specific cultural
+                characteristics, by means of which we could separate a certain population from
+                another according to a definite national criterion. After all, the idea of hermetic
+                and different mutually-exclusive national cultures and national cultural patterns
+                can be immediately refuted, simply with a short and superficial excursion into the
+                frontier-zone space on either side of any so-called national border. Precisely in
+                such contemporary interstate or international regions we can easily note that the
+                cultural and social phenomena are by no means conditioned solely with the adherence
+                to a certain administrative-political unit or what we could, in the absence of a
+                better expression, refer to as the "institutionally-supported national cultural
+                framework". Quite the opposite: to a very significant extent, cultural patterns have
+                never depended merely on the collection of the presupposed national determinants, as
+                they have most often appeared either within wider supranational or narrower regional
+                spaces, conditioned by very heterogeneous social and cultural forces. As Eric J.
+                Wolf explained with a witty yet very extensively substantiated metaphor: nations,
+                societies, or cultures simply do not possess any "qualities of internally
+                homogeneous and externally distinctive bounded objects", which is why they do not
+                spin off each other like billiard balls.<note place="foot" xml:id="ftn9" n="7"> Eric
+                    J. Wolf, <hi rend="italic">Europe and the People Without History</hi> (Berkeley
+                    and Los Angeles: University of California, 2010), 6.</note>
+            </p>
+            <p>After all, national borders are hardly eternal, and they have especially not been
+                with us always and forever. All of this is also true of the present-day Slovenian
+                borders. It is certainly true that the national borders, envisioned in the past,
+                could correspond to the older pre-existing administrative borders with a very long
+                history. The southern border – today the border between Slovenia and Croatia – is an
+                example of such an adaptation. The concept of the demarcation line between the
+                "Slovenian" and "Croatian" nation that was formed in the 19<hi rend="superscript"
+                    >th</hi> century largely corresponded to what had been a far older border of the
+                medieval German state.<note place="foot" xml:id="ftn10" n="8"> Bogo Grafenauer,
+                    “Etnična struktura in zgodovinski pomen jugoslovanskih narodov v srednjem veku,”
+                        <hi rend="italic">Zgodovinski časopis</hi> 21 (1967): 23.</note> Naturally,
+                this by no means implies that the existing borders simply predestined the subsequent
+                formation of national communities and consequently the creation of national borders.
+                Quite the opposite: national borders, even Slovenian, could be drawn completely
+                anew, <hi rend="italic">ex nihilo</hi>, so to speak; which is what the history of
+                nationalisms and nationalistic political endeavours in the 19th and 20th centuries
+                actually addresses.<note place="foot" xml:id="ftn11" n="9"> See for instance Jason
+                    D. Hansen, <hi rend="italic">Mapping the Germans: Statistical Science,
+                        Cartography, and the Visualization of the German Nation, 1848-1914</hi> (New
+                    York: Oxford University Press, 2015). </note> Generally we could therefore
+                conclude that the creation of national borders depends, from the historical
+                perspective, on a combination of numerous factors – and chance is one of them, as
+                well. At the same time the European history of the last two centuries also amply
+                confirms the following: the border between two national communities or national
+                states can only be established when the majority agrees with the line, drawn on the
+                maps; or at least when this is agreed by the majority of those that possess the
+                decision-making power or simply the political power in a given moment.</p>
+            <p>It seems that the history of establishing the Slovenian-Croatian border in the
+                territory of the present-day Prekmurje region also underlines the importance of
+                innovations, coincidences, and agreements for the definition and implementation of
+                national borders. As it happened, in the 19th century, when this border was being
+                defined, it was impossible to resort to the pre-existing administrative or political
+                divisions and ascribe a new national significance to them. At the same time the
+                Slovenian territory was impossible to clearly separate from the Croatian land, not
+                even according to the linguistic criterion. Namely, the dialects, characteristic of
+                this region – i.e. the today's Slovenian Prekmurje region dialects and the today's
+                Croatian Kajkavian dialects from the Medjimurje region – have always been a part of
+                the natural linguistic continuum.<note place="foot" xml:id="ftn12" n="10"> Mijo
+                    Lončarić and Anita Celinić, "Susret slovenskih prekmurskih i hrvatskih
+                    međimurskih govora," <hi rend="italic">Slavistična revija</hi> 55 (2007): 41–46.
+                    – See also Matej Šekli, “Zemljepisnojezikoslovna členitev kajkavščine ter
+                    slovensko-kajkavska jezikovna meja,”
+                    <hi rend="italic" xml:space="preserve">Slovenski jezik – Slovene Linguistic Studies </hi>9
+                    (2013): 3–53. Šekli claims that present-day “distinctive marginal Kajkavian
+                    local dialects” are, in the genetic-linguistic sense, “in fact part of the
+                    diasystem of the Slovene language”. However, continues Šekli, such a linguistic
+                    delineation obviously does not presuppose Slovene national adherence of local
+                    population at the territory of Croatia.</note> This means that both groups of
+                dialects would even be difficult to separate today, if they were not already divided
+                precisely by the strict territorial-political, administrative and/or national
+                border. Naturally, in the 19th century such a border did not yet exist in the
+                territory of what is today Prekmurje. Furthermore, it is difficult to imagine that a
+                Slovenian-Croatian national border, envisioned in the 19th century, could also in
+                fact assert itself as the administrative or territorial delimitation without the
+                radical transformation of the European interstate relations at the end of World War
+                I – namely, the transformation that stemmed from the introduction of a new
+                principle, according to which the European interstate and international relations
+                would be settled from then on: the nations' right to self-determination. Only in
+                this context and on the basis of the revolutionary movement in Hungary could
+                Slovenian diplomats as a part of the Yugoslav delegation at the peace negotiations
+                in Paris even have the opportunity to argue for the standpoint that certain parts in
+                the west of the Kingdom of Hungary should be treated as parts of the Slovenian
+                national territory and therefore annexed to the Kingdom of Serbs, Croats and
+                    Slovenes.<note place="foot" xml:id="ftn13" n="11"> On the self-determination of
+                    nations as a principle of the territorial-political organisation, argued for and
+                    promoted by the American President Wilson: Uroš Lipušček, <hi rend="italic">Ave
+                        Wilson: ZDA in prekrajanje Slovenije v Versaillesu 1919-1920</hi>
+                    (Ljubljana: Založba Sophia, 2003). On the legal aspects of the concept of
+                    self-determination: Daniel Thürer and Thomas Burri, "Self-Determination," Max
+                    Planck Encyclopedia of Public International Law, accessed October 20, 2015, <ref
+                        target="http://opil.ouplaw.com/view/10.1093/law:epil/9780199231690/law-9780199231690-e873?rskey=YVjdhp&amp;result=1&amp;prd=EPIL"
+                        >http://opil.ouplaw.com/view/10.1093/law:epil/9780199231690/law-9780199231690-e873?rskey=YVjdhp&amp;result=1&amp;prd=EPIL</ref>
+                    A clear and in-depth insight into the activities of the Slovenian political
+                    elite during and after World War I: Walter Lukan, <hi rend="italic">Iz
+                        "črnožolte kletke narodov" v "zlato svobodo"? Habsburška monarhija in
+                        Slovenci v prvi svetovni vojni</hi> (Ljubljana: Znanstvena založba FF,
+                    2014). </note>
+            </p>
+            <p>To summarise: until as late as the dissolution of the Austro-Hungarian Empire at the
+                end of World War I, the ideas of the Slovenian national activists about the national
+                delimitations in the territory of the present-day Prekmurje region had nothing
+                whatsoever to do with reality. The envisioned national border existed merely in the
+                minds of a handful of Slovenians who lived and campaigned in the "Cisleithanian"
+                territory, i.e. west of Prekmurje. The territory of what is today the Prekmurje
+                region was, together with the territory of Medjimurje further to the south, a part
+                of the Kingdom of Hungary for several centuries, since the Middle Ages until as late
+                as the end of World War I.<note place="foot" xml:id="ftn14" n="12"> On the formation
+                    of the state border that had, since the Middle Ages, initially separated the
+                    territory of the present-day Prekmurje (until 1919 a part of the Kingdom of
+                    Hungary) from the rest of the present-day Slovene territory (in the late
+                    imperial period a part of the various Cisleithanian crown lands): Peter Štih,
+                    "Salzburg, Ptuj in nastanek štajersko-madžarske meje v današnji Sloveniji," <hi
+                        rend="italic">Zgodovinski časopis</hi> 50 no. 4 (1996): 535–44.</note>
+            </p>
+            <p>The state border, established in such a manner on the river Mura, therefore very
+                obviously separated the present-day Prekmurje from the other regions that the 19<hi
+                    rend="superscript">th</hi>-century Slovenian national activists considered to be
+                Slovenian. Moreover, Slovenian national activists in "Cisleithania" started using
+                the name "Prekmurje" for the supposedly Slovenian regions on the opposite bank of
+                Mura relatively late, not until the second half of the 19<hi rend="superscript"
+                    >th</hi> century. The name became fully recognised at the end of World War I, in
+                the context of the efforts to annex this territory to the Kingdom of Serbs, Croats
+                and Slovenes at the 1919 Paris Peace Conference. In the materials, prepared for
+                these purposes by Matija Slavič (1877–1958) and Fran Kovačič (1867–1939), the name
+                Prekmurje was used consistently, and therefore it also officially asserted itself as
+                the name for this distinct geographical and historical territory.<note place="foot"
+                    xml:id="ftn15" n="13"> Metka Fujs, "Prekmurje – podoba prostora," <hi
+                        rend="italic">Podravina: časopis za multidisciplinarna istraživanja</hi> 3,
+                    no. 6 (2004): 49–61. </note> Otherwise the territory of the present-day
+                Prekmurje "found itself in the same territorial unit: a diocese, although divided
+                into two deanships – the Murska Sobota and Dolnja Lendava Deanship – separated by
+                what had until then been the former Zagreb–Győr Diocese border, identical to the
+                county border" as late as in 1777, after the establishment of the Diocese of
+                    Szombathely.<note place="foot" xml:id="ftn16" n="14"> Boris Golec<hi
+                        rend="italic">, Nedokončana kroatizacija delov vzhodne Slovenije med 16. in
+                        19. stoletjem: po sledeh hrvaškega lingvonima in etnonima v Beli krajini,
+                        Kostelu, Prekmurju in Prlekiji</hi> (Ljubljana: Založba ZRC, 2012),
+                    105.</note> Therefore the territory that is today the Prekmurje region had not
+                existed as a unit in any sense until as late as the Marias Theresia's rearrangement
+                of dioceses. Moreover, its southern part was especially strongly connected with
+                Medjimurje across the river Mura (nowadays Croatia), as these regions had (until
+                then) shared a common diocese and (until the very end) also administrative, i.e.
+                county, framework. Before the merging within the borders of the same diocese (1777),
+                the territory of the present day Prekmurje could be most easily defined
+                descriptively, "as the frontier-zone space of the Kingdom of Hungary in the vicinity
+                of the Holy Roman Empire, inhabited by the people who called themselves Sloveni and
+                their language Slovenian".<note place="foot" xml:id="ftn17" n="15"> Ibid., 105,
+                    106.</note>
+            </p>
+            <p>Ever since the Middle Ages and until the dissolution of Austro-Hungary, the state,
+                administrative, and for the large part of this period also the customs frontier
+                followed the flow of the river Mura between Radgona in the north and the territory
+                east of Ljutomer in the south, separating the today's Slovenian part of the former
+                Austrian crown land of Styria from the territory of the today's Prekmurje. The
+                significance of this border and the strictness of the frontier-zone regime have
+                changed through the centuries – naturally, depending on the broader political
+                circumstances on the one hand and the territorial changes in the immediate
+                surroundings on the other hand.<note place="foot" xml:id="ftn18" n="16"> On the
+                    Ottoman conquests and invasions of the north in particular, as in the 16th and
+                    17th century the Ottomans got very close to the territory of the today's
+                    Prekmurje and sporadically enforced their authority in this region: Bogo
+                    Grafenauer, "O turški oblasti in o nastanku drobne zemljiške posesti v
+                    Prekmurju," in: <hi rend="italic">Prekmurski Slovenci v zgodovini: zbornik
+                        razprav o posebnih potezah zgodovinskega razvoja Prekmurja</hi>, ed. Bogo
+                    Grafenauer (Murska Sobota: Pomurska založba, 1961), 79–90.</note> However, the
+                border on the river Mura has certainly been never completely airtight for the
+                frontier-zone population, even though these people lived in two different
+                territorial-administrative units. The cross-border contacts strengthened
+                significantly in the 19<hi rend="superscript">th</hi> century, when customs
+                restrictions and controls on the Austrian-Hungarian border initially relaxed, only
+                to be completely abolished for a while in 1850 and 1851.<note place="foot"
+                    xml:id="ftn19" n="17"> On the customs regime and rules: Boštjan Hepe et al., <hi
+                        rend="italic">Zgodovina carine na slovenskem od antike do slovenske
+                        osamosvojitve</hi> (Ljubljana: Carinska uprava RS, 2011), 36–40.</note>
+                Consequently the contacts in this period were particularly lively and diverse,
+                actively participated in by the communities that inhabited both banks of the river
+                and its immediate vicinity.<note place="foot" xml:id="ftn20" n="18"> The fundamental
+                    work explaining the history of cross-border relations and contacts between the
+                    population on both sides of the border: Marko Zajc, <hi rend="italic">Kje se
+                        slovensko neha in hrvaško začne: slovensko-hrvaška meja v 19. in na začetku
+                        20. stoletja</hi> (Ljubljana: Modrijan, 2006), 287–320; and literature
+                    listed therein. On the contacts between the inhabitants of the today's Prekmurje
+                    and today's Slovenian Štajerska (Styria) regions: Fran Mohorič, "Prekmurje in
+                    Medjimurje," <hi rend="italic">Časopis za zgodovino in narodopisje</hi> 16
+                    (1920): 29.</note>
+            </p>
+            <p>However, even though the border by no means represented an insurmountable obstacle in
+                the lives of the Habsburg subjects and simultaneously citizens of two different
+                political entities on the left or the right bank of the river Mura in the 19<hi
+                    rend="superscript">th</hi> century, from the political or administrative
+                viewpoint this border was nevertheless understood as a fact –a very tangible fact,
+                at that, which asserted itself as virtually unchangeable in the 19<hi
+                    rend="superscript">th</hi> century due to what had by that time become a very
+                long history of the extremely complicated relations between the Hungarian nobility
+                and the Habsburg rulers. The river Mura represented the border, separating two
+                administrative entities that may have shared a common ruler for a very long time,
+                while they remained separate in the political and administrative sense. </p>
+            <p>How, then, was the concept that the today's Prekmurje should count as a specific
+                Slovenian territory established in light of such circumstances – in the context of
+                the borders that apparently had no parallels with the actually existing
+                administrative-territorial delimitations in the long 19th century? When and why was
+                the today's region of Prekmurje registered as Slovenian territory?</p>
+            <p>In the long 19th century, the idea of a distinct Slovenian territory – understood as
+                the land inhabited by the members of the Slovenian nation – formed on the basis of
+                the belief that all those subjects of the Austrian emperor who spoke Slovenian were
+                also members of the Slovenian nation – in short, Slovenians. This sort of
+                equalisation between the Slovenian language and Slovenian nation was, in turn, based
+                on the completely new implications of the expressions "Slovenian language" or
+                "Slovenians", as they had first been invented and disseminated by certain members of
+                the intellectual circle that would gather regularly at the house of Sigismund Zois
+                (1747–1819) in Ljubljana. These concepts were based on the so-called Carantanian
+                Theory, initially formed by Anton Tomaž Linhart (1756–1795), as well as on the
+                tradition of the Protestant literary endeavours in the Slovenian language,
+                rediscovered and reinterpreted precisely at this time. Since the end of the first or
+                the beginning of the second decade of the 19th century, what had in fact been a
+                small circle of Inner Austrian intellectuals thus no longer used the expressions
+                "Slovenian" and "Slovenian language" merely to denote the Slavic population and
+                their language or to specifically refer to the Slavic people and their language in
+                Styria or Carinthia, but rather, increasingly often, to define the Slavs and their
+                language in the territory of Inner Austria, in the Kajkavian regions around Zagreb,
+                and in certain western parts of Hungary.</p>
+            <p>These intellectual processes and mental transformations can be illustrated
+                appropriately with the example of Valentin Vodnik's (1758–1819) literary opus. In
+                Vodnik's essays, poems, and correspondence, precisely at this time the Carniolan
+                provincial identification or identification as Carniolans started to be replaced by
+                the ideas of a sort of a Slovenian community in the present-day meaning of the word.
+                The latter is very tellingly illustrated by the corrections of Vodnik's <hi
+                    rend="italic">Poem for my Fellow Countrymen (Péſma na moje rojáke)</hi>,
+                preserved as a part of his heritage. The poem was written towards the end of the
+                18th century within the exceedingly Carniolan context and way of thinking. However,
+                in one of his first corrections of 1816, Vodnik already entitled it <hi
+                    rend="italic">A Wakeup Call for my Fellow Countrymen (Dramílo mojih
+                    rojakov)</hi> and changed the first line of the first stanza – from "Carniolan!
+                Your land is healthy" ("Krajnz! tvoja dežèla je sdrava") to "Slovenian, your land is
+                healthy" ("Slovenz, tvoja zemla je zdrava").<note place="foot" xml:id="ftn21" n="19"
+                    > Facsimile in Alfonz Gspan and Lino Legiša,
+                    <hi rend="italic" xml:space="preserve">Zgodovina slovenskega slovstva I </hi>(Ljubljana:
+                    Slovenska matica, 1956) 417. Valentin Vodnik, <hi rend="italic">Zbrano
+                    delo</hi>, ed. Janko Kos (Ljubljana: DZS, 1988), 392, 393.</note> However, this
+                was not the first time that Carniolans transformed into Slovenians in this poem by
+                Vodnik. The line "Slovenz, tvoja zemla je zdrava" or "Slovene! dein Land iſt
+                geſegnet" had already appeared three years earlier in the reader, compiled in Graz
+                by Vodnik's former student and correspondent at the time, Janez Nepomuk Primic
+                    (1785–1823).<note place="foot" xml:id="ftn22" n="20"> Janez Nepomuk Primic, <hi
+                        rend="italic">Némshko-Slovénske branja = Deutsch-Slovenisches Lesebuch</hi>,
+                    (Graz, 1813), 61.</note>
+            </p>
+            <p>The idea of this sort of a definition of the terms "Slovenian language" and
+                "Slovenian", different in terms of contents, was based on the original
+                classification of the Slavic peoples, constructed by Jernej Kopitar (1780–1844) on
+                the basis of the previous historiographical findings of Anton Tomaž Linhart
+                (1756–1795). Kopitar presented his classification for the first time in his renowned
+                work entitled
+                <hi rend="italic" xml:space="preserve">Grammar of the Slavic Language in Carniola, Carinthia, and Styria (Grammatik der Slavischen Sprache in Krain, Kärnten und Steyermark, </hi>1808).
+                The originality of the scheme that Kopitar would further upgrade and substantiate in
+                the years and decades to come stemmed from the fact – to put it briefly – that by
+                agreeing with certain Linhart's claims, Kopitar rejected the thesis of the famous
+                Czech philologist Josef Dobrovski (1753–1829), who claimed that the so-called <hi
+                    rend="italic">Windisch</hi> language in Carniola, Styria, and Carinthia should
+                be considered Croatian, which he counted as one of the five major Slavic dialects
+                (besides Russian, Polish, Illyrian, and Czech).<note place="foot" xml:id="ftn23"
+                    n="21"> Janko Kos, ed., <hi rend="italic">Izbrano delo / Jernej Kopitar, Matija
+                        Čop</hi> (Ljubljana: Mladinska knjiga, 1973) 35, 36.</note> Even though
+                Kopitar agreed with the claim that the (Kajkavian) Croatian and the Inner Austrian
+                Slovenian language were parts of the same Slavic dialect, he also – unlike Dobrovski
+                – believed that on the basis of the historical primate of Carantania this language
+                should be defined as Carantanian language, language of Carantanian Slavs, or, in
+                German, as <hi rend="italic">Windisch</hi> – i.e. Slovenian language. As it was,
+                Carantanians were allegedly the oldest or longest-living Slavic people in this
+                territory, and therefore they, as such, had the right to name the language after
+                themselves rather than after Croats.<note place="foot" xml:id="ftn24" n="22"> More
+                    detailed account on the formation of Kopitar's classification in Jernej Kosi,
+                        <hi rend="italic">Kako je nastal slovenski narod</hi> (Ljubljana: Sophia,
+                    2013), 150–70; and literature listed therein. On the emergence of Slovene
+                    national movement see also Joachim Hösler,
+                    <hi rend="italic" xml:space="preserve">Von Krain zu Slowenien: die Anfänge der nationalen Differenzierungsprozesse in Krain und der Untersteiermark von der Aufklärung bis zur Revolution. 1768 bis 1848 </hi>(München
+                    : R. Oldenbourg, 2006).</note>
+            </p>
+            <p>Consequently, immediately after the publication of his <hi rend="italic"
+                >Grammar</hi>, Kopitar and his correspondents in fact started using the expression
+                "Carantanian" and shortly afterwards the term "Slovenian language".<note
+                    place="foot" xml:id="ftn25" n="23"> France Kidrič, <hi rend="italic">Dobrovský
+                        in slovenski preporod njegove dobe</hi> (Ljubljana: Znanstveno društvo,
+                    1930) 156.</note> In March 1811 Kopitar, in a letter to his patron Baron Žiga
+                Zois (1747–1819), clearly defined the geographical dimensions of the envisioned
+                separate Slavic language for the first time: "Therefore: 1. Slovenian in Carniola,
+                Styria, and Carinthia; 2. so-called Croatian around Zagreb and so on; and 3.
+                Slovenian (<hi rend="italic underline">ſtari</hi>
+                <hi rend="italic">ſlovénski jesik</hi>) in the Hungarian counties near Lake Balaton;
+                are three <hi rend="italic">eusdem</hi>
+                <hi rend="italic underline">speciei</hi> variations"<note place="foot"
+                    xml:id="ftn26" n="24"> France Kidrič, <hi rend="italic">Zoisova korespondenca
+                        (1809–1810)</hi> (Ljubljana: Akademija znanosti in umetnosti, 1941), 144.
+                    See also Luka Vidmar, <hi rend="italic">A Slavic Republic of Letters. The
+                        Correspondence between Jernej Kopitar and Baron Žiga Zois</hi> (Frankfurt am
+                    Main: Peter Lang, 2016).</note>, i.e., of the same kind. In the beginning of the
+                19th century, Kopitar thus defined in the modern sense, for the first time, who
+                Slovenians were at all: those subjects of the Austrian Emperor that spoke Slovenian
+                within the geographical borders specified for this language by Kopitar. In the
+                following decades it turned out, of course, that all the speakers of the language
+                constructed in such a manner did not also become the members of the modern Slovenian
+                national community. This was especially true of the Kajkavian area around Zagreb,
+                the part of the Civil Croatia that Matija Majar referred to in 1848 as "Banatsko".
+                Nevertheless, the following holds true: in the middle of the 19<hi
+                    rend="superscript">th</hi> century, the equation between the geographical scope
+                of Kopitar's Slovenian language on the one hand and the territorial dimensions of
+                the Slovenian nation on the other hand asserted itself as the central ideological
+                supposition of the nascent Slovenian national movement.</p>
+            <p>Even the earliest recorded statements about the integration of the present-day
+                Prekmurje region into the wider Slovenian space were, precisely for this reason,
+                made in the field of linguistic research. As France Kidrič established, this
+                occurred for the first time in the writings of Jernej Kopitar, who "on 3 August 1809
+                in his letters to Zois and Zupan, but in the spring of 1810 also publicly,
+                emphasised the adherence of the inhabitants of Prekmurje to the Slovenian
+                    nation".<note place="foot" xml:id="ftn27" n="25"> France Kidrič, <hi
+                        rend="italic">Dobrovský</hi>, 154.</note> On the basis of Jernej Kopitar's
+                works, Janez Nepomuk Primic (1785–1823), a professor at the Department of Slovenian
+                Language at the lyceum in Graz, counted certain parts of the western Hungary to <hi
+                    rend="italic">Slovenien</hi> in his 1814 work <hi rend="italic">The New
+                    German-Slovenian Reader (Novi Nemſhko-Slovenſki Bukvar).</hi><note place="foot"
+                    xml:id="ftn28" n="26"> Janez Nepomuk Primic, <hi rend="italic">Novi
+                        némshko-slovénshki bukvar, al A. B. C. otrokon léhko sastoplen = Neues
+                        Slovenisch-Deutsches der Fassungskraft der Kinder angemessenes A. B. C.:
+                        welches auserlesene, leichte und belehrende Aufgaben, Erzählungen und
+                        Unterhaltungen enthält</hi> (Graz, 1814), 122.</note>
+            </p>
+            <p>Outside the field of linguistic research and discussions, the present-day territory
+                of Prekmurje was registered as a Slovenian territory in the 1840s, on the pages of
+                Bleiweis's <hi rend="italic">Kmetijske in rokodelske novice</hi> publication. In
+                1846, in the <hi rend="italic">Novice</hi> newspaper, the Styrian priest Oroslav Caf
+                (1814–1874) thus called upon the collectors of Slovenian words, urging them to send
+                him their materials so that he could perfect his dictionary. On this occasion Caf
+                wrote: "Slovenians! Do not forget or neglect the fact that your own authentic words
+                are spoken in <hi rend="italic">six countries</hi> among a variety of neighbours: in
+                Hungary, Styria, Croatia, Carniola, Italy, and Carinthia; and that you are speaking
+                the <hi rend="italic">hallowed words</hi>, in which your great compatriot <hi
+                    rend="italic">Kopitar</hi> chose to find the ancient Slavic language."<note
+                    place="foot" xml:id="ftn29" n="27"> “Proglas zastran noviga slovenskiga slovnika
+                    in slovnice,” <hi rend="italic">Kmetijske in rokodelske novice</hi>, March 11,
+                    1846, 40.</note> In 1847 the author of the article entitled
+                    <hi rend="italic" xml:space="preserve">Slovenian Dictionary for Education and Amusement </hi>(<hi
+                    rend="italic">Slovenski besédnik za poduk in kratek čas</hi>) in the <hi
+                    rend="italic">Novice</hi> newspaper listed the dioceses where Slovenians
+                allegedly lived, and wrote the following: "In Hungary – in the Vas and Zala Counties
+                – 52,000 Slovenians live in 160 villages, in 18 Catholic and 4 Protestant
+                    parishes."<note place="foot" xml:id="ftn30" n="28">
+                    <hi rend="italic">Kmetijske in rokodelske novice,</hi> April 21, 1847, 63. See
+                    also Nataša Stergar, "Narodnostno vprašanje v predmarčnih letnikih Bleiweisovih
+                    Novic," <hi rend="italic">Kronika: Časopis za slovensko krajevno zgodovino</hi>
+                    25 no. 3 (1977): 184–89.</note>
+            </p>
+            <p>In the pre-March decades, Kopitar's construction of the separate Slovenian language,
+                which also included the today's Prekmurje region in terms of territory, asserted
+                itself among certain intellectuals who spoke and/or wrote in Slovenian; as did the
+                conviction, based thereon, that the inhabitants of certain parts of western Hungary
+                should count among Slovenians or among the speakers of Slovenian. With the onset of
+                the revolutionary turmoil in 1848, very favourable political and social
+                circumstances emerged as well, allowing for the politicisation of this kind of ideas
+                and the public articulation of the nationally-defined political demands and
+                expectations, thus paving the way for the formation of the Slovenian national
+                movement.</p>
+            <p>The beginnings of the Slovenian national movement are related to the journalistic
+                contributions and political endeavours of the Klagenfurt vicar Matija Majar
+                (1809–1892). His writings should be understood as a sort of a foundation for the
+                Slovenian nationalist ideology, as he is focusing precisely on the demand that all
+                Slovenians, who had until then lived in the various Habsburg provinces, should come
+                together in a single territorial and administrative unit and elect their political
+                representatives themselves. In March or April 1848, Majar illustrated the latter
+                even more clearly in the flier <hi rend="italic">What do Slovenians Demand? (Kaj
+                    Slovenci terjamo?)</hi>, which begins with the plea that "all Slovenians should
+                unite in a single nation like brothers, and all of us should have a single Slovenian
+                Provincial Assembly. There are 116,000 of us in Carinthia, 378,000 in Styria,
+                438,000 in Carniola, 217,000 in the Gorizia and Trieste regions, 22,000 in Banatsko,
+                60,000 in Hungary, and 230,000 in Istria. Thus we are divided between seven sides,
+                all of us separated and paupers everywhere. Wherever we may raise our voices, there
+                are not enough of us; whatever we may say can be easily ignored; but if we are
+                united, there are almost a million and a half of us... Our word will have weight and
+                will be heard everywhere; and all of us will benefit from this. We simply must have
+                a single Assembly for the whole of Slovenia, joined by the estates and deputies from
+                all the Slovenian lands with all the rights that they currently possess."<note
+                    place="foot" xml:id="ftn31" n="29"> Cited in Prunk, <hi rend="italic">Slovenski
+                        narodni</hi>.</note> Such nationally-defined political aspirations had not
+                appeared before, in either the currently known pre-March or older sources. Even if
+                Majar most probably based the formulation of his ideas extensively on the reports on
+                the developments in the wider area of the German Confederation, his way of thinking
+                and outlook on the social, territorial, and political organisation of the Habsburg
+                lands was nevertheless completely original, nationally-influenced, and
+                chronologically new. His assertion that the 60,000 Slovenians who lived "in Hungary"
+                should be a part of this special Slovenian territorial-administrative unit as well
+                is especially important for the research at hand.</p>
+            <p>Judging from the available sources, the incorporation of the present-day territory of
+                Prekmurje or the local population into the concept of the Slovenian territory,
+                Slovenian language, and Slovenian nation should be observed in the context of the
+                formation of the Slovenian national thought, its expansion, as well as the
+                subsequent emergence and assertion of the Slovenian national movement as of 1848.
+                This means that, chronologically speaking, the idea of the Slovenian adherence or
+                the Slovenian character of the today's territory of Prekmurje formed in the first
+                half of the 19th century, very gradually and step by step: i.e., from the idea of
+                the linguistic adherence of this area; through the cultivation of the Slovenian
+                national thought; to the political development of this way of thinking in 1848, when
+                Slovenians "in Hungary" were for the first time understood as a part of the single
+                Slovenian national political body, which should, as such, be embodied in a separate
+                political-territorial entity: Slovenia. However, in this regard the following should
+                be underlined as well: in the pre-March period, the idea of the Slovenian adherence
+                of the territory of what is today Prekmurje remained at the theoretical level
+                throughout that time. Namely, the borders of the Slovenian territory in the modern
+                national sense of the expression had never been clearly defined in the western parts
+                of Hungary until the middle of the 19th century. Only after the outbreak of the
+                March Revolution was the extent of the territory where Slovenians allegedly lived
+                specified more precisely. </p>
+            <p>The first geographer to focus on the Slovenian geography and thus also the
+                specification of the Slovenian border soon after the March events was, as it is very
+                well known, Peter Kozler (1824–1879). His intention was to draw up "a map of the
+                Slovenian land", which would, as he himself stated later, "show as precisely as
+                possible how far and wide the Slovenian language is spoken".<note place="foot"
+                    xml:id="ftn32" n="30"> Peter Kozler,
+                    <hi rend="italic" xml:space="preserve">Kratek slovenski zemljopis in pregled politične in pravosodne razdelitve ilirskega kraljestva in štajerskega vojvodstva s pridanim slovenskim in nemškim imenikom mest, tergov, krajev i.t.d., </hi>reproduced
+                    reprint (Ljubljana: Cankarjeva založba, 1975), unpaginated introduction.</note>
+                To a degree, Kozler was able to base his efforts on certain pre-March ethnographic
+                depictions and maps, but he also acquired extensive new information either by
+                himself or with the assistance of friends and acquaintances. As a curiosity it is
+                worth mentioning that he had not intended to include the today's territory of
+                Prekmurje in the map, as he had been unable to gather enough reliable
+                    information.<note place="foot" xml:id="ftn33" n="31"> Valter Bohinec, <hi
+                        rend="italic">Peter Kozler in prvi zemljevid slovenskega ozemlja</hi>
+                    (Ljubljana: Cankarjeva založba, 1975). – On Kozler see also Ivan Kordiš, “Peter
+                    Kozler and His Map of the Slovenian Land and Its Provinces (1849–1871),” <hi
+                        rend="italic">Imago Mundi</hi>, 68, no. 2 (2016): 212–231.</note> He only
+                acquired this information subsequently, and used it immediately for his article <hi
+                    rend="italic">Slovenians in Hungary (Slovenci na Ogrskim)</hi>, published in the
+                    <hi rend="italic">Slovenija</hi> newspaper in 1849. The article was intended to
+                contribute "to a greater recognisability of Slovenians living in Hungary, kindred to
+                the Slovenians living in Styria and Illyria."<note place="foot" xml:id="ftn34"
+                    n="32">
+                    <hi rend="italic">Slovenija</hi>, July 10, 1849, 220.</note> In his article,
+                Kozler defined the supposed scope of the Slovenian national settlement in Hungary
+                and concluded that "the whole Hungarian – Slovenian territory includes around 170
+                towns and villages, located in 21 Catholic and 5 Protestant parishes".<note
+                    place="foot" xml:id="ftn35" n="33"> Ibid.</note> Kozler went on to list and
+                describe these parishes, in the administrative-political sense belonging to the Zala
+                or Vas Counties, and name them with their Slovenian names.</p>
+            <p>Furthermore, in 1849 everything was ready for the printing of the famous Kozler's
+                map. Ultimately this did not occur that year, as the copperplate engraver whom
+                Kozler had entrusted with the printing fled from Vienna and the copperplate vanished
+                mysteriously. However, when the plate was finally located in 1851, Kozler organised
+                the printing again, as well as prepared, as an annex to the map, "<hi rend="italic"
+                    >A Short Slovenian Geography and Overview of Political and Legal Division of the
+                    Illyrian Kingdom and Styrian Duchy with an Appendix of Slovenian and German
+                    Registry of Towns, Hamlets, Places etc.</hi>" (<hi rend="italic">Kratek
+                    slovenski zemljopis in pregled politične in pravosodne razdelitve Ilirskega
+                    kraljestva in Štajerskega vojvodstva s pridanim slovenskim in nemškim imenikom
+                    mest, tergov, krajev i.t.d.</hi>). Next year the <hi rend="italic">Novice</hi>
+                newspaper published an advert for the pre-ordering of the map, which allegedly
+                "shows the borders of the Slovenian nation, its language, and its domain". However,
+                the map had been confiscated and subject to many complications; and albeit dated
+                1853, it was not released until as late as 1861, i.e. eight years later.<note
+                    place="foot" xml:id="ftn36" n="34"> Valter Bohinec, <hi rend="italic">Peter
+                        Kozler</hi>, 11, 12.</note>
+            </p>
+            <p>As it has already been pointed out, the map was also accompanied by the <hi
+                    rend="italic">Short Slovenian Geography (Kratek slovenski zemljopis)</hi>, where
+                Kozler argued, in writing, "how far the Slovenian word reaches". In the booklet that
+                accompanied the map (<hi rend="italic">Short Slovenian Geography</hi>), he defined
+                the Slovenian-Croatian border in the territory of the today's Prekmurje as follows:
+                »A dialect more similar to Slovenian rather than the Croatian language is spoken in
+                the Croatian Littoral and by the Styrian border, in the Zagreb and Varaždin Counties
+                nearly as far as Zagreb. However, the language here is changing gradually, and in
+                the presence of so many local dialects the Croatian and its kindred Slovenian world
+                cannot be separated very precisely. We can thus, for example, draw the border
+                between these nations from the river Sava further towards Sotla, and the Styrian
+                provincial borders as far as the rivers Drava and Mura.</p>
+            <p>From Mura and further to the north, the Slovenian language borders on Hungarian –
+                i.e. from Dolnja Lendava through Hodož towards Szentgotthárd on the Rába river, and
+                from there the national border runs towards the borders of the province of Styria
+                and the border stream of Kučenica.”<note place="foot" xml:id="ftn37" n="35"> Peter
+                    Kozler, <hi rend="italic">Kratek slovenski zemljopis</hi>, XX-XXI.</note>
+            </p>
+            <p>This implies that at this time the initial Kopitar's idea of the scope of the
+                Slovenian language in the south and east already digressed from the definition of
+                the Slovenian-Croatian national borders. It is therefore obvious that in certain
+                areas the idea of the linguistic border was not as relevant for the definition of
+                the national territories as the old administrative borders. Moreover, in the case of
+                Prekmurje, Kozler even had to resort to an analogy with the situation in Styria and
+                promote the flow of the river Mura from the Styrian border as a sort of a dividing
+                line between the nations, because, according to Kozler, "the language here is
+                changing gradually, and in the presence of so many local dialects the Croatian and
+                its kindred Slovenian world cannot be separated very precisely".</p>
+            <p>Apparently the territorial proximity and linguistic familiarity or permeability of
+                the frontier-zone "Slovenian" and "Croatian" dialects had to be even far more
+                obvious in the period before the introduction of the standard national languages in
+                the administrative apparatus and in schools than it is today, and the originators of
+                the national or ethnographic borders in the middle of the 19th century were clearly
+                very confused by this fact. It seems that the question where the Slovenian language
+                ended and Croatian began was not easy to solve, taking into account the dialects of
+                the local population. We can also note this dilemma in the renowned
+                <hi rend="italic" xml:space="preserve">Ethnography of the Austrian Monarchy (Ethnographie der österreichischen Monarchie, </hi>1855–57),
+                in which Czoernig – still following Kopitar's theory on the Slovenian adherence of
+                the speakers of the Kajkavian dialect in the territory of Croatia – described the
+                Slovenian-Croatian linguistic border as follows: »Die slovenisch-slovenokroatische
+                Sprachgränze wird durch die Landesgränze zwischen Krain, Süd-Steiermark und Ungern
+                einerseits, Kroatien anderseits bis Kott an der Mur gebildet. Doch zeigen manche
+                Strecken, z.B. jene um Möttling in Krain, dann jene von Krapina bis gegen Varasdin,
+                einen gegenseitigen sprachlichen Einfluss, so dass in ersterer kroatische und in
+                letzerer häufiger als sonst slovenische Spracheigenheiten und Worte zu hören
+                    sind.«<note place="foot" xml:id="ftn38" n="36"> Carl Czörnig, <hi rend="italic"
+                        >Ethnographie der österreichischen Monarchie</hi> (Vienna, 1855),
+                55.</note></p>
+            <p>However, judging from certain subsequent ethnographic descriptions from this period
+                we can definitely conclude that the consciousness of the Slovenian adherence of the
+                today's Prekmurje region nevertheless spread and strengthened considerably among the
+                intellectuals and national-aware Slovenian Habsburg subjects from Cisleithania in
+                the second half of the 19th century.<note place="foot" xml:id="ftn39" n="37"> See
+                    for example Božidar Raič, "Črtice o Prekmurcih in o njihovem govoru," <hi
+                        rend="italic">Narodni koledar in letopis matice slovenske za leto 1868</hi>
+                    1 (1868): 54. – The first part of Raič's texts was published already in 1863 in
+                    the <hi rend="italic">Naprej</hi> newspaper. Viljem Urbas, <hi rend="italic">Die
+                        Slovenen: etnographische Skizze</hi> (Trst, 1870), 3. Josip Šuman, <hi
+                        rend="italic">Die Slovenen</hi> (Vienna, Teschen: K. Prochaska, 1881), 1.
+                    Anton Trstenjak, "Ogrski Slovenci," <hi rend="italic">Ljubljanski zvon</hi> 21
+                    (1901): 173.</note> Furthermore, it seems that such a viewpoint was also
+                unconditionally received among the readers of the Slovenian literature and
+                supporters of the Slovenian national movement at the beginning of the 20th century.
+                For this reason, it is also not surprising that the question of the adherence of
+                Prekmurje also surfaced at the end of World War I, when the new borders between the
+                newly-formed states were being defined and drawn after the defeat and dissolution of
+                Austro-Hungary. At the Paris Peace Conference, the Yugoslav delegation thus insisted
+                on the standpoint that Prekmurje should be included in the Kingdom of Serbs, Croats
+                and Slovenes as a part of the Slovenian national territory. Eventually this in fact
+                happened, despite the opposition from a certain percentage of the local inhabitants.
+                In the favourable political circumstances, the Army of the Kingdom of SHS first
+                occupied Prekmurje on 12 August 1919, and with the Treaty of Trianon a new state
+                border with Hungary was determined on 4 June 1920. Thus Prekmurje in fact became a
+                part of the Kingdom of SHS. Even though different proposals, opinions, and
+                standpoints would occasionally be voiced in the post-war time, in this period the
+                demarcation along the river Mura – i.e. the delimitation as proposed by Peter Kozler
+                in the middle of the 19th century – was conclusively implemented as the dividing
+                line that separated the "Slovenian" from the "Croatian" in this area.<note
+                    place="foot" xml:id="ftn40" n="38"> On the diplomatic efforts for the
+                    acquisition of Prekmurje at the Paris Peace Conference see Matija Slavič, <hi
+                        rend="italic">Naše Prekmurje: zbrane razprave in članki</hi> (Murska Sobota:
+                    Pomurska založba, 1999). On the social and political condition in Prekmurje in
+                    the inter-war period: Miroslav Kokolj, <hi rend="italic">Prekmurski Slovenci od
+                        narodne osvoboditve do nacistične okupacije:
+                    1919</hi>–<hi rend="italic" xml:space="preserve">1941 </hi>(Murska Sobota:
+                    Pomurska založba, 1984). – It should by all means be underlined that Prekmurje
+                    remained a contentious territory in the inter-war period. Judging from the
+                    article and map, published in the <hi rend="italic">Slovenski gospodar</hi>
+                    newspaper – in which the readers were informed that "Prekmurje is not the same
+                    as Medmurje" and that Medmurje was now inhabited by Croatians and Prekmurje by
+                    Slovenians – some terminological and territorial confusion was still present as
+                    late as in 1926. – "Prekmurje – Slovenska Krajina," <hi rend="italic">Slovenski
+                        gospodar</hi>, September 1, 1926, accessied December 20, 2015, <ref
+                        target="http://www.dlib.si/?URN=URN:NBN:SI:DOC-FW15RFZE%20"
+                        >http://www.dlib.si/?URN=URN:NBN:SI:DOC-FW15RFZE</ref>.</note></p>
+            <p>After the dissolution of Austro-Hungary and with the signing of the Treaty of
+                Trianon, the administrative and subsequently also the state border that separated
+                the Kingdom of Hungary into the Slovenian and Croatian part was finally implemented
+                in the territory of the present-day Prekmurje, at the southern border with what is
+                today the Croatian province of Međimurje. The dividing line between the two national
+                communities, which had not formed as an idea until as late as the mid-19<hi
+                    rend="superscript">th</hi> century, thus became the political reality a few
+                decades later.</p>
+
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Sources and Literature</head>
+                <listBibl>
+                    <head>Literature:</head>
+                    <bibl>Brubaker, Rogers. <hi rend="italic">Nationalism reframed: Nationhood and
+                            the national question in the New Europe</hi>. Cambridge: Cambridge
+                        University Press, 1996. </bibl>
+                    <bibl>Bohinec, Valter. <hi rend="italic">Peter Kozler in prvi zemljevid
+                            slovenskega ozemlja</hi>. Ljubljana: Cankarjeva založba, 1975.</bibl>
+                    <bibl>Fujs, Metka. "Prekmurje – podoba prostora." <hi rend="italic">Podravina:
+                            časopis za multidisciplinarna istraživanja</hi> 3, no. 6 (2004):
+                        49–61.</bibl>
+                    <bibl>Gellner, Ernst. <hi rend="italic">Nations and Nationalism</hi>. Oxford:
+                        Blackwell Publishing, 1983.</bibl>
+                    <bibl>Golec,
+                        Boris.<hi rend="italic" xml:space="preserve"> Nedokončana kroatizacija delov vzhodne Slovenije med 16. in 19. stoletjem: po sledeh hrvaškega lingvonima in etnonima v Beli krajini, Kostelu, Prekmurju in Prlekiji</hi>.
+                        Ljubljana: Založba ZRC, 2012.</bibl>
+                    <bibl>Grafenauer, Bogo. "O turški oblasti in o nastanku drobne zemljiške posesti
+                        v Prekmurju." In: <hi rend="italic">Prekmurski Slovenci v zgodovini: zbornik
+                            razprav o posebnih potezah zgodovinskega razvoja Prekmurja</hi>, ed.
+                        Bogo Grafenauer, 79–90. Murska Sobota: Pomurska založba, 1961.</bibl>
+                    <bibl>Grafenauer, Bogo. "Etnična struktura in zgodovinski pomen jugoslovanskih
+                        narodov v srednjem veku." <hi rend="italic">Zgodovinski časopis</hi> 21
+                        (1967): 7–48.</bibl>
+                    <bibl>Gspan, Alfonz and Lino Legiša<hi rend="italic">. Zgodovina slovenskega
+                            slovstva I. Do začetkov romantike</hi>. Ljubljana: Slovenska matica,
+                        1956.</bibl>
+                    <bibl>Hansen, Jason D.
+                        <hi rend="italic" xml:space="preserve">Mapping the Germans: Statistical Science, Cartography, and the Visualization of the German Nation, 1848–1914. </hi>Oxford
+                        and New York: Oxford University Press, 2015.</bibl>
+                    <bibl>Hösler, Joachim.
+                        <hi rend="italic" xml:space="preserve">Von Krain zu Slowenien: die Anfänge der nationalen Differenzierungsprozesse in Krain und der Untersteiermark von der Aufklärung bis zur Revolution. 1768 bis 1848. </hi>München:
+                        R. Oldenbourg, 2006.</bibl>
+                    <bibl>Hepe, Boštjan, Katarina Janjič, Stanislav Mikuž and Ivan Živko. <hi
+                            rend="italic">Zgodovina carine na Slovenskem od antike do slovenske
+                            osamosvojitve</hi>. Ljubljana: Carinska uprava RS, 2011.</bibl>
+                    <bibl>Hroch, Miroslav. <hi rend="italic">Das Europa der Nationen: Die moderne
+                            Nationsbildung im europäischen Vergleich</hi>. Göttingen: Vandenhoeck
+                        &amp; Ruprecht, 2005. </bibl>
+                    <bibl>Kidrič, France. <hi rend="italic">Dobrovský in slovenski preporod njegove
+                            dobe</hi>. Ljubljana: Znanstveno društvo, 1930.</bibl>
+                    <bibl>Kidrič, France. <hi rend="italic">Zoisova korespondenca (1809–1810)</hi>.
+                        Ljubljana: Akademija znanosti in umetnosti, 1941.</bibl>
+                    <bibl>Kordiš, Ivan. "Peter Kozler and His Map of the Slovenian Land and Its
+                        Provinces (1849–1871)." <hi rend="italic">Imago Mundi</hi>, 68, no. 2
+                        (2016): 212–31.</bibl>
+                    <bibl>Kokolj, Miroslav. <hi rend="italic">Prekmurski Slovenci od narodne
+                            osvoboditve do nacistične okupacije: 1919–1941</hi>. Murska Sobota:
+                        Pomurska založba, 1984.</bibl>
+                    <bibl>Kosi, Jernej. <hi rend="italic">Kako je nastal slovenski narod. Začetki
+                            slovenskega nacionalnega gibanja v prvi polovici 19. stoletja</hi>.
+                        Ljubljana: Sophia, 2013.</bibl>
+                    <bibl>Leersen, Joep. <hi rend="italic">National Thought in Europe: A Cultural
+                            History</hi>. Amsterdam: Amsterdam University Press, 2006.</bibl>
+                    <bibl>Lipušček, Uroš. <hi rend="italic">Ave Wilson: ZDA in prekrajanje Slovenije
+                            v Versaillesu 1919-1920</hi>. Ljubljana: Založba Sophia, 2003.</bibl>
+                    <bibl>Lončar, Dragotin. "Anton Globočnik in slovenski narodni program 1848.
+                        leta." <hi rend="italic">Carniola: Izvestja muzejskega društva za
+                            Kranjsko</hi> 3, no. 3 (1912): 208, 209.</bibl>
+                    <bibl>Lončarić, Mijo and Anita Celinić. "Susret slovenskih prekmurskih i
+                        hrvatskih međimurskih govora." <hi rend="italic">Slavistična revija</hi> 55
+                        (2007): 41–46.</bibl>
+                    <bibl>Lukan, Walter. <hi rend="italic">Iz "črnožolte kletke narodov" v "zlato
+                            svobodo"? Habsburška monarhija in Slovenci v prvi svetovni vojni</hi>.
+                        Ljubljana: Znanstvena založba FF, 2014.</bibl>
+                    <bibl>Mohorič, Fran. "Prekmurje in Medjimurje." <hi rend="italic">Časopis za
+                            zgodovino in narodopisje</hi> 16 (1920): 28–40.</bibl>
+                    <bibl>Moritsch, Andreas and Vincenc Rajšp, ed. <hi rend="italic">Matija
+                            Majar-Ziljski</hi>. Klagenfurt: Hermagoras, 1995.</bibl>
+                    <bibl>Mosse, George L. <hi rend="italic">Fallen soldiers: reshaping the memory
+                            of the world wars</hi>. Oxford: Oxford University Press, 1990.</bibl>
+                    <bibl>Prunk, Janko. <hi rend="italic">Slovenski narodni programi: narodni
+                            programi v slovenski politični misli od 1848 do 1945</hi>. Ljubljana:
+                        Društvo 2000, 1986.</bibl>
+                    <bibl>Schulze, Hagen. <hi rend="italic">States, Nations, and Nationalism: From
+                            the Middle Ages to the Present</hi>. Oxford: Blackwell Publishing, 1996. </bibl>
+                    <bibl>Stergar, Nataša. "Narodnostno vprašanje v predmarčnih letnikih
+                        Bleiweisovih Novic." <hi rend="italic">Kronika: časopis za slovensko
+                            krajevno zgodovino</hi> 25, no. 3 (1977): 184–89.</bibl>
+                    <bibl>Slavič, Matija. <hi rend="italic">Naše Prekmurje: zbrane razprave in
+                            članki</hi>. Murska Sobota: Pomurska založba, 1999.</bibl>
+                    <bibl>Šekli, Matej. "Zemljepisnojezikoslovna členitev kajkavščine ter
+                        slovensko-kajkavska jezikovna meja."
+                        <hi rend="italic" xml:space="preserve">Slovenski jezik – Slovene Linguistic Studies </hi>9
+                        (2013): 3–53.</bibl>
+                    <bibl>Štih, Peter. "Salzburg, Ptuj in nastanek štajersko-madžarske meje v
+                        današnji Sloveniji." <hi rend="italic">Zgodovinski časopis</hi> 50, no. 4
+                        (1996): 535–44.</bibl>
+                    <bibl>Thürer, Daniel and Thomas Burri. "Self-Determination." <hi rend="italic"
+                            >Max Planck Encyclopedia of Public International Law</hi>. Accessed
+                        October 20, 2015. <ref
+                            target="http://opil.ouplaw.com/view/10.1093/law:epil/9780199231690/law-9780199231690-e873?rskey=YVjdhp&amp;result=1&amp;prd=EPIL"
+                            >http://opil.ouplaw.com/view/10.1093/law:epil/9780199231690/law-9780199231690-e873?rskey=YVjdhp&amp;result=1&amp;prd=EPIL</ref><hi
+                            rend="Hyperlink">.</hi></bibl>
+                    <bibl>Vidmar, Luka. <hi rend="italic">A Slavic Republic of Letters. The
+                            Correspondence between Jernej Kopitar and Baron Žiga Zois</hi>
+                        (Frankfurt am Main: Peter Lang, 2016).</bibl>
+                    <bibl>Weber, Eugen. <hi rend="italic">Peasants into Frenchmen</hi>. Stanford:
+                        Stanford University Press, 1976.</bibl>
+                    <bibl>Wolf, Eric J. <hi rend="italic">Europe and the People Without
+                        History</hi>. 2<hi rend="superscript">nd</hi> edition. Berkeley and Los
+                        Angeles: University of California, 2010.</bibl>
+                    <bibl>Zajc, Marko. <hi rend="italic">Kje se slovensko neha in hrvaško začne:
+                            slovensko-hrvaška meja v 19. in na začetku 20. stoletja</hi>. Ljubljana:
+                        Modrijan, 2006.</bibl>
+                    <bibl>Zimmer, Oliver. <hi rend="italic">Nationalism in Europe, 1890-1940</hi>.
+                        London: Palgrave, 2003.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Newspaper sources:</head>
+                    <bibl><hi rend="italic">Kmetijske in rokodelske Novice</hi>, March 11, 1846.
+                        "Proglas zastran noviga slovenskiga slovnika in slovnice." </bibl>
+                    <bibl><hi rend="italic">Kmetijske in rokodelske Novice,</hi> April 21, 1847.
+                        "Slovenski besédnik za poduk in kratek čas." </bibl>
+                    <bibl><hi rend="italic">Slovenija</hi>, July 10, 1849. "Slovenci na Ogrskim." </bibl>
+                    <bibl><hi rend="italic">Slovenski gospodar</hi>, September 1, 1926. "Prekmurje –
+                        Slovenska Krajina." Accessed December 20, 2015. <ref
+                            target="http://www.dlib.si/?URN=URN:NBN:SI:DOC-FW15RFZE%20"
+                            >http://www.dlib.si/?URN=URN:NBN:SI:DOC-FW15RFZE</ref>.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Other sources:</head>
+                    <bibl>Czörnig, Carl. <hi rend="italic">Ethnographie der österreichischen
+                            Monarchie</hi>. Wien, 1855.</bibl>
+                    <bibl><hi rend="italic">Historische Bildpostkarten - 14.8 Bildpostkarten/Gegen
+                            welsche Tücke und Raubgier!.</hi> Accessed December 16, 2015. <ref
+                            target="http://www.bildpostkarten.uni-osnabrueck.de/displayimage.php?album=102&amp;pos=87"
+                            >http://www.bildpostkarten.uni-osnabrueck.de/displayimage.php?album=102&amp;pos=87</ref><hi
+                            rend="Hyperlink">.</hi></bibl>
+                    <bibl>Kos, Janko, ed. <hi rend="italic">Izbrano delo / Jernej Kopitar, Matija
+                            Čop</hi>. Ljubljana: Mladinska knjiga, 1973.</bibl>
+                    <bibl>Kozler, Peter. <hi rend="italic">Kratek slovenski zemljopis in pregled
+                            politične in pravosodne razdelitve ilirskega kraljestva in štajerskega
+                            vojvodstva s pridanim slovenskim in nemškim imenikom mest, tergov,
+                            krajev i.t.d.</hi> Ljubljana: Cankarjeva založba, 1975.</bibl>
+                    <bibl>Primic, Janez Nepomuk. <hi rend="italic">Némshko-Slovénske branja =
+                            Deutsch-Slovenisches Lesebuch</hi>. Graz, 1813.</bibl>
+                    <bibl>Primic, Janez Nepomuk. <hi rend="italic">Novi némshko-slovénshki bukvar,
+                            al A. B. C. otrokon léhko sastoplen = Neues Slovenisch-Deutsches der
+                            Fassungskraft der Kinder angemessenes A. B. C. : welches auserlesene,
+                            leichte und belehrende Aufgaben, Erzählungen und Unterhaltungen
+                            enthält.</hi> Graz, 1814.</bibl>
+                    <bibl>Raič, Božidar. "Črtice o Prekmurcih in o njihovem govoru." In: <hi
+                            rend="italic">Narodni koledar in letopis matice slovenske za leto
+                            1868</hi>, 53–76. Ljubljana: Matica Slovenska, 1867.</bibl>
+                    <bibl>Renan, Ernest. "What is a Nation?." In: <hi rend="italic">Becoming
+                            National: A Reader</hi>, ed. Geoff Eley and Ronald Grigor Suny, 41–55.
+                        New York and Oxford: Oxford University Press, 1996. </bibl>
+                    <bibl>Šuman, Josip. <hi rend="italic">Die Slovenen</hi>. Dunaj, Teschen: K.
+                        Prochaska, 1881.</bibl>
+                    <bibl>Trstenjak, Anton. "Ogrski Slovenci." <hi rend="italic">Ljubljanski
+                            zvon</hi> 21 (1901): 173–78, 240–43, 313–16.</bibl>
+                    <bibl>Urbas, Viljem. <hi rend="italic">Die Slovenen: etnographische Skizze</hi>.
+                        Trieste, 1870.</bibl>
+                    <bibl>Vodnik, Valentin. <hi rend="italic">Zbrano delo</hi>. Ed. Janko Kos.
+                        Ljubljana: DZS, 1988.</bibl>
+                </listBibl>
+            </div>
+            <div type="summary" xml:lang="sl">
+                <docAuthor>Jernej Kosi</docAuthor>
+                <head>"KER SE PA JEZIK TU PO MALEM SPREMENUJE, IN JE TOLIKO KRAJNIH NAREČIJ, SE
+                    HERVAŠKI IN SORODNI SLOVENSKI SVET NE MORETA PRAV NA TANJKO S POTEZO LOČITI" –
+                    ZAČRTOVANJE SLOVENSKO-HRVAŠKE NACIONALNE MEJE NA PODROČJU DANAŠNJEGA
+                    PREKMURJA</head>
+                <head>POVZETEK</head>
+                <p>V članku obravnavam proces nastajanja zamisli o meji med "slovenskim" in
+                    "hrvaškim" nacionalnim ozemljem na področju zahodne Ogrske. Zamisel je bila
+                    sprva artikulirana kot jezikovna premisa v delih slavnega jezikoslovca Jerneja
+                    Kopitarja, ki je ozemlje današnjega Prekmurja razumel kot prostor, kjer se
+                    govori slovenski jezik. Od srede 19. stoletja naprej je Kopitarjevo
+                    klasifikacijo apropriiralo slovensko nacionalno gibanje, ki je predpostavljalo,
+                    da so govorci slovenskega jezika na Ogrskem tudi pripadniki zamišljene slovenske
+                    skupnosti. V tem kontekstu je bila slovenska jezikovna – nacionalna meja sredi
+                    19. stoletja prvič upodobljena na zemljevidu (Peter Kozler). V vsega nekaj
+                    desetletjih se je predstava o nacionalni ločnici v današnjem Prekmurju, ki da v
+                    odnosu do Hrvatov poteka po reki Muri, dodobra utrdila med slovenskimi
+                    nacionalnimi aktivisti na področju cislajtanskih dežel. Ob razpadu Avstro-Ogrske
+                    in po podpisu trianonske mirovne pogodbe pa je tudi dejansko začela razmejevati
+                    slovenski nacionalni prostor od sosednjega hrvaškega.</p>
+            </div>
+        </back>
+    </text>
+</TEI>
