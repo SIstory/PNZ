@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Okupacija kot prelomnica v organiziranju slovenskih političnih subjektov – o
+                    »zgodovinski« vlogi Narodnega sveta za Slovenijo<note place="foot" xml:id="ftn2"
+                        n="*"> Raziskava je nastala v okviru raziskovalnega programa P6-0281 <hi
+                            rend="italic">Idejnopolitični in kulturni pluralizem in monizem na
+                            Slovenskem v 20. stoletju</hi>, ki ga sofinancira Javna agencija za
+                        raziskovalno dejavnost Republike Slovenije iz državnega
+                    proračuna.</note></title>
+                <author>
+                    <name>
+                        <forename>Bojan</forename>
+                        <surname>Godeša</surname>
+                    </name>
+                    <roleName>Dr.</roleName>
+                    <roleName>znanstveni svetnik</roleName>
+                    <affiliation>Inštitut za novejšo zgodovino</affiliation>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>bojan.godesa@inz.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2017-09-15</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/238</pubPlace>
+                <date>2016</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">57</biblScope>
+                <biblScope unit="issue">2</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>World War II</term>
+                    <term>Slovenia</term>
+                    <term>occupation</term>
+                    <term>Slovene People's Party</term>
+                    <term>National Council for Slovenia</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>druga svetovna vojna</term>
+                    <term>Slovenija</term>
+                    <term>okupacija</term>
+                    <term>Slovenska ljudska stranka</term>
+                    <term>Narodni svet za Slovenijo</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2017-10-10</date>
+                    <name>Neja Blaj Hribar</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Bojan Godeša<note place="foot" xml:id="ftn1" n="**">
+                    <hi rend="bold" xml:space="preserve">Dr., znanstveni svetnik, Inštitut za novejšo zgodovino, Kongresni trg 1, SI-1000 Ljubljana, </hi><ref
+                        target="mailto:bojan.godesa@inz.si"><hi rend="bold"
+                        >bojan.godesa@inz.si</hi></ref>
+                </note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="UDC">UDK: 341.324:323.1(497.4)"1941"</idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">Razprava obravnava problematiko Narodnega sveta za Slovenijo,
+                        ki je bil na predlog bana Dravske banovine, dr. Marka Natlačena, ustanovljen
+                        ob napadu sil osi na Jugoslavijo 6. aprila 1941. V njem so bili zastopani
+                        predstavniki predvojnih političnih strank z izjemo komunistov. Ustanovitev
+                        Narodnega sveta za Slovenijo z jugoslovansko ustavo ni bila predvidena, šlo
+                        je za protizakonito, ad hoc oblikovano telo. Naročilo strankarskim
+                        sodelavcem, naj ob predvidenem napadu sil osi na Jugoslavijo ustanovijo
+                        Narodni svet za Slovenijo, po zgledu enakega telesa iz leta 1918, ki je
+                        urejalo slovenske interese ob razpadanju habsburške monarhije, je sporočil
+                        načelnik SLS, Fran Kulovec. Ta je prav s tem namenom 3. aprila 1941 prišel v
+                        Ljubljano in se takoj nato vrnil v Beograd, kjer je kot minister še
+                        sodeloval v Simovićevi vladi. Do ideje o ustanovitvi Narodnega sveta je
+                        Kulovec prišel na podlagi informacij, ki jih je dobil v Beogradu, da po
+                        nemškemu napadu Jugoslavija kot država ne bo več obstajala. Na njenih
+                        ruševinah naj bi nastala hrvaška država pa tudi »Slovenija bo najverjetneje
+                        postala neke vrste nemški protektorat«. Prav za uresničitev takšne rešitve,
+                        to je vzpostavitve slovenske države pod protektoratom nacistične Nemčije, je
+                        bil nato 6. aprila 1941 ustanovljen Narodni svet za Slovenijo. Odločitev je
+                        pomenila, da je slovenska politična elita povezala svoj obstoj z usodo sil
+                        osi v vojni. Pri takšni opredelitvi so nosilci oblasti v Dravski banovini
+                        izhajali iz prepričanja, da bodo v svetovnem spopadu zmagale sile osi. Po
+                        vesti, da je bila v Zagrebu 10. aprila 1941 proglašena NDH, je Narodni svet
+                        prevzel vrhovno oblast in s tem namenom začel pogovore s predstavniki
+                        jugoslovanske vojske v Dravski banovini o njihovi podreditvi Narodnemu
+                        svetu, ki pa niso bili uspešni. Tudi nadaljnja prizadevanja Narodnega sveta
+                        za uveljavitev suverenosti in njeno priznanje od Hitlerja niso obrodila
+                        sadov, ker jim ni uspelo niti priti v stik z nemško vlado v Berlinu. Po
+                        prihodu italijanske vojske v Ljubljano je predsednik Narodnega sveta za
+                        Slovenijo Natlačen 17. aprila 1941 izročil upravo civilnemu predstavniku
+                        italijanske vojaške uprave. Tako se je tudi povsem izčrpala njegova
+                        »zgodovinska« vloga, ki mu jo je namenil načelnik SLS Kulovec 3. aprila
+                        1941, ko je strankarskim somišljenikom naročil ustanovitev Narodnega sveta
+                        za Slovenijo.</hi></p>
+                <p><hi rend="italic">Ključne besede: druga svetovna vojna, okupacija, Slovenska
+                        ljudska stranka, Slovenija, Narodni svet za Slovenijo</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head>OCCUPATION AS A TURNING POINT IN THE ORGANISATION OF SLOVENIAN POLITICAL
+                    ENTITIES – ON THE HISTORICAL ROLE OF THE NATIONAL COUNCIL FOR SLOVENIA</head>
+                <p><hi rend="italic">This paper examines the problems of the National Council for
+                        Slovenia, which was established at the proposal of Dr. Marko Natlačen, ban
+                        of the Drava Banate, when the Axis powers invaded Yugoslavia on 6 April
+                        1941. The Council included representatives of all pre-war political parties,
+                        save for the Communists. The Yugoslav constitution did not predict the
+                        establishment of the National Council for Slovenia, therefore it was an
+                        illegal entity that was formed ad hoc. The order for establishing the
+                        National Council for Slovenia after the anticipated attack of the Axis
+                        powers on Yugoslavia was conveyed to his party colleagues by head of the
+                        Slovene People's Party, Franc Kulovec, following the example of the same
+                        entity from 1918, when it helped manage the Slovenian interests during the
+                        dissolution of the Habsburg Monarchy. It is precisely with this purpose that
+                        Kulovec came to Ljubljana on 3 April 1941 and immediately afterwards
+                        returned to Belgrade, where he was still serving in Simović's government as
+                        a minister. Kulovec based the idea of establishing the National Council on
+                        the information he acquired in Belgrade, namely that, after the German
+                        attack, Yugoslavia would cease to exist as a state. A Croatian state would
+                        allegedly be built on its ruins and “Slovenia would most probably become
+                        some sort of a German protectorate”. For realising such a solution, namely
+                        the establishment of a Slovenian state under the protectorate of the Nazi
+                        Germany, the National Council for Slovenia was established on 6 April 1941.
+                        This decision meant that the Slovenian political elite tied its existence to
+                        the fate of the Axis powers in the war. Those who held power in the Drava
+                        Banate founded such decision on a belief that the Axis powers would win the
+                        global conflict. After the news emerged about the establishment of the
+                        Independent State of Croatia on 10 April 1941 in Zagreb, the National
+                        Council took over the supreme authority and opened talks with
+                        representatives of the Yugoslav Army in the Drava Banate about their
+                        subjection to the National Council, but nothing came of them. Further
+                        efforts of the National Council to implement sovereignty and obtain Hitler's
+                        recognition of it were also fruitless, since the Council did not manage to
+                        get into contact with the German government in Berlin. On 17 April 1941,
+                        after the Italian army reached Ljubljana, president of the National Council
+                        for Slovenia, Natlačen, handed over the administration to Emilio Grazioli,
+                        the civil representative of the Italian military administration. At the same
+                        time, it was the end of Natlačen's “historical” role, which Kulovec, who was
+                        head of the Slovene People's Party, designated for him on 3 April 1941, when
+                        he ordered the like-minded members of his party to establish the National
+                        Council for Slovenia.</hi></p>
+                <p><hi rend="italic">Keywords: World War II, occupation, Slovene People's Party,
+                        Slovenia, National Council for Slovenia</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>27. marec 1941 – spremembe v organiziranju strankarskega življenja v
+                    Jugoslaviji</head>
+                <p>Po državnemu udaru 27. marca 1941 je nastop vlade Dušana Simovića prinesel povsem
+                    novo dinamiko v jugoslovansko strankarsko življenje, in to ne zgolj v smislu
+                    prerazporeditve politične moči, temveč tudi v pogledu političnega organiziranja.
+                    V vladi Dušana Simovića, sestavljeni 27. marca 1941, so bile zastopane skoraj
+                    vse politične skupine. Ob Vladku Mačku kot podpredsedniku vlade so Hrvatsko
+                    seljačko stranko (HSS) zastopali še Juraj Šutej, Bariša Smoljan, Ivan Andres in
+                    Josip Torbar. Slovensko ljudsko stranko (SLS) sta zastopala njen načelnik Fran
+                    Kulovec in Miha Krek, bosansko-hercegovske muslimane, organizirane v
+                    Jugoslovenski muslimanski organizaciji (JMO), pa po smrti dolgoletnega voditelja
+                    Mehmeda Spaha njen vodja Džafer Kulenović. Združeno opozicijo sta zastopala
+                    Milan Grol in Markovićeva Demokratska stranka, radikale (Narodnoradikalna
+                    stranka – NRS) so predstavljali Miloš Trifunović, Božidar Marković in Momčilo
+                    Ninčić ter »zemljoradnike« Milan Gavrilović in Branko Čubrilović. Politično
+                    opcijo Samostojne demokratske stranke (SDS) sta zastopala Srđan Budisavljević in
+                    Sava Kosanović, Jugoslovensko nacionalno stranko (JNS) pa Miloš Banjanin in
+                    Bogoljub Jeftić. Poleg tega so bili v vladi tudi ugledni intelektualci, kot je
+                    bil predsednik Srbskega kluba Slobodan Jovanović, in neodvisni politiki, kot je
+                    bil Marko Daković. Interese vojske sta zastopala generala Petar Ilić in seveda
+                    sam Simović. Personalna kontinuiteta je bila ustvarjena z vključitvijo osmih
+                    ministrov prejšnje vlade v novi vladni kabinet. Namen Simovićeve vlade je bil
+                    jasen, tj. da pri vprašanju usodnih odločitev, pred katerimi se je nahajala
+                    država, pridobi čim širšo politično podporo. Največ težav je imela nova vladna
+                    garnitura z Mačkom, ki je bil ob državnem udaru v Zagrebu in je šele 3. aprila
+                    1941 po Simovićevih zagotovilih o spoštovanju sporazuma Cvetković-Maček odšel v
+                    Beograd ter vstopil v vlado.<note place="foot" xml:id="ftn3" n="1"> Ljubo Boban,
+                        <hi rend="italic" xml:space="preserve">Maček i politika Hrvatske seljačke stranke 1928–1941 (II. knjiga) </hi>(Zagreb:
+                        Liber, 1974), 386-436.</note> Čeprav ustava iz leta
+                    1931, ki je dopuščala le »vsedržavne« politične stranke, ki niso bile
+                    organizirane na »plemenski osnovi«, ni bila razveljavljena ali spremenjena, je
+                    prišlo v tedanjih dramatičnih okoliščinah in kaotičnih razmerah dejansko tudi v
+                    pogledu organiziranj političnih subjektov do znatnih sprememb. Simovićeva ekipa,
+                    ki je zamenjala Cvetkovićevo garnituro, v kateri sta bila srbski in slovenski
+                    del iz vrst Jugoslovenske radikalne zajednice (JRZ), je zaradi z zunanjo
+                    ogroženostjo države pogojeno težnjo po notranji homogenizaciji in tudi želje, da
+                    prevrat ne bi izpadel zgolj kot »srbska stvar«, v novi vladi hotela imeti tudi
+                    reprezentativne predstavnike hrvaške, slovenske in bosanske (muslimanske)
+                    politike. Tako so dobesedno prisilili ministra dotedanje Cvetkovićeve vlade,
+                    Frana Kulovca, sicer člana slovenskega dela JRZ (Kulovec je bil uradno načelnik
+                    banovinskega odbora JRZ in podpredsednik vsedržavnega odbora JRZ), da je vstopil
+                    tudi v Simovićevo vlado, čeprav se ni strinjal niti s prevratom niti z
+                    zunanjepolitično usmeritvijo pretežnega dela njenih članov. V vlado pa mu je
+                    uspelo pritegniti še strankarskega kolega in (tudi) dotedanjega ministra v
+                    Cvetkovićevi vladi Miho Kreka.<note place="foot" xml:id="ftn4" n="2"> Kazimir
+                        Zakrajšek, <hi rend="italic">Ko smo šli v morje bridkosti</hi> (Washington,
+                        D. C.: [s. n.], 1942), 72, 73.</note> V takih
+                    okoliščinah sta ministra Kulovec in Krek v Simovićevi vladi nastopala kot
+                    predstavnika SLS in ne več kot del vsejugoslovanske JRZ. Prav tako kot
+                    predstavnika SLS so tudi bosansko-hercegovski muslimani, ki so bili dotlej tudi
+                    v sklopu JRZ, v vladi (minister je postal Kulenović) delovali s svojim »starim«
+                    nazivom, to je kot predstavniki JMO. Enako je veljalo tudi za večino srbskih
+                    ministrov nove vlade, namreč, da so nastopali kot predstavniki političnih strank
+                    (NRS, SDS), ki po septembrski ustavi iz leta 1931 sicer niso bile dovoljene. V
+                    tem pogledu so edino izjemo predstavljali ministri iz vrst JNS, ki so zadržali
+                    formalnopravno ustrezen naziv. Seveda je Simovićeva vlada v tem pogledu delovala
+                    v nasprotju z obstoječo ustavo predvsem iz pragmatičnih razlogov, ker je bila s
+                    prevratom z oblasti odstranjena jerezejevska garnitura, vendar zaradi omenjenih
+                    razlogov zgolj osrednji, to je srbski del JRZ, s Cvetkovićem na čelu. </p>
+                <p>V nasprotju z obstoječim ustavnim redom, vendar v duhu tistega časa, so bila tudi
+                    prizadevanja slovenskih liberalcev, ki so sicer delovali v sklopu vsedržavne
+                    JNS, za legalizacijo delovanja socialistov (Socialistična stranka Jugoslavije –
+                        SSJ).<note place="foot" xml:id="ftn5" n="3"> Anka Vidovič-Miklavčič, <hi
+                            rend="italic">Mladina med nacionalizmom in katolicizmom. Pregled razvoja
+                            in dejavnosti mladinskih organizacij, društev in gibanj v
+                            liberalno-unitarnem in katoliškem taboru v letih 1929–1941 v
+                            jugoslovanskem delu Slovenije</hi> (Ljubljana: Študentska organizacija
+                        Univerze, 1994), 274.</note>
+                </p>
+                <p>Istočasno so tudi jugoslovanski komunisti v nastalih okoliščinah stopili iz
+                    ilegale, kot to slikovito opisuje Milan Đilas v svojih spominih,<note
+                        place="foot" xml:id="ftn6" n="4"> Milovan
+                        Đilas,<hi rend="italic" xml:space="preserve"> Memoir of a Revolutionary</hi>
+                        (New York: Harcourt Brace Jovanovich, 1973), 352<hi rend="italic"
+                        >–</hi>61.</note> in začeli delovati legalno, čeprav tudi za to ni bilo
+                    nobene formalnopravne podlage, saj so bili komunisti v ilegalo potisnjeni že z
+                    zakonom o zaščiti države leta 1921. Sicer pa si je minister Daković, ki je nato
+                    ob umiku iz Jugoslavije umrl v letalski nesreči, prizadeval, da bi vlada
+                    komunistom tudi uradno dovolila javno politično delovanje.<note place="foot"
+                        xml:id="ftn7" n="5">
+                        <hi rend="italic">Zapisnici sa sednica Ministarskog saveta Kraljevine
+                            Jugoslavije 1941–1945,</hi> ur. Zoran Živković in Miladin Milošević
+                        (Beograd: Arhiv Srbije i Crne Gore, 2004), 14-17.</note>
+                </p>
+                <p>Dejansko okvir političnega delovanja, zamejen s septembrsko ustavo iz leta 1931,
+                    po prevratu 27. marca 1941 ni bil več aktualen. Vendar je vse pobude, ki so
+                    nakazovale tudi formalno liberalizacijo in spremembo političnega življenja v
+                    Jugoslaviji, prehitel napad sil osi na Jugoslavijo 6. aprila 1941. </p>
+            </div>
+            <div>
+                <head>Napad sil osi na Jugoslavijo in ustanovitev Narodnega sveta za
+                    Slovenijo</head>
+                <p>Zgodaj zjutraj 6. aprila 1941 so sile osi brez vojne napovedi napadle Kraljevino
+                    Jugoslavijo. Takoj ko je za to izvedel, je ban Dravske banovine dr. Marko
+                    Natlačen najprej odredil, da je bil po ljubljanskem radiu izdan razglas »Vsem
+                    slovenskim županom«, »da s prisebnostjo ukrepov držite svoje občine v redu in
+                    disciplini, naši dični vojski pa ste vsekakor in vselej v pomoč«.<note
+                        place="foot" xml:id="ftn8" n="6"> »Dr. Marko Natlačen o svojem delovanju med
+                        6. aprilom in 14. junijem 1941,« <hi rend="italic">Prispevki za novejšo
+                            zgodovino</hi> 41, št. 1 (2001): 121.</note> Natlačen je nato še isto
+                    dopoldne sklical predstavnike predvojnega strankarskega življenja v bansko
+                    palačo in jim predlagal ustanovitev Narodnega sveta. Natlačenov predlog so
+                    predstavniki političnih strank sprejeli in predlagali, naj predsednika iz svojih
+                    vrst izberejo zastopniki tedaj v slovenski družbi najvplivnejše SLS. Nato so se
+                    predstavniki SLS zbrali na ločeni seji. Na njej je Natlačen dr. Andreju Gosarju
+                    izročil pismo načelnika SLS dr. Frana Kulovca, datirano s tretjim aprilom 1941,
+                    ko je ta, bil je namreč član Simovičeve vlade, prišel iz Beograda v Ljubljano. V
+                    pismu je Kulovec opozarjal, da bodo za slovenski narod prišli težki časi in da
+                    naj Gosar stopi na čelo socialni akciji, ki naj Slovencem lajša bedno stanje, ki
+                    jim grozi. Gosar je Kulovčevo pismo tolmačil tako, kakor da je Kulovec v njem
+                    izrazil svojo željo in voljo, da on postane predsednik Narodnega sveta za
+                    Slovenijo. Drugi zastopniki SLS pa po besedah Marka Kranjca pisma niso razumeli
+                    tako. Ker Gosar ni bil niti član vrha SLS in ker so se v vodstvu stranke v
+                    Ljubljani že prej dogovorili, da bo predsednik Narodnega sveta za Slovenijo
+                    Natlačen, je bil ban Dravske banovine soglasno sprejet na ta položaj. Gosar naj
+                    bi bil zaradi tega užaljen in je pisal Natlačenu, da se sej ne bo udeleževal,
+                    vendar si je nato premislil.<note place="foot" xml:id="ftn9" n="7"> SI_AS/1898,
+                        š. 122. Zbirka Slovenske ljudske stranke. Poročilo Marka Kranjca o odnosih v
+                        SLS.</note> Vendar je zamero gojil tudi še kasneje in je ob neki priložnosti
+                    rekel: »Veliko napako ste napravili, da ste me v Narodnem svetu postavili na
+                    drugo mesto.«<note place="foot" xml:id="ftn10" n="8"> Ibid.</note>
+                </p>
+                <p>O Kulovčevi pobudi je Franc Snoj kasneje zapisal: »Povedal<note place="foot"
+                        xml:id="ftn11" n="9"> Mišljen je Kulovec.</note> je tudi, da so na seji<note
+                        place="foot" xml:id="ftn12" n="10"> Mišljena je seja vlade.</note>
+                    razpravljali o imenovanju novih banov. Dejal je, da je morda prišel tudi čas, da
+                    bi tudi v Ljubljani napravili spremembo. Dr. Kulovec z Natlačenom ni bil
+                    zadovoljen in se je ves čas, odkar je nasledil dr. Korošca, ukvarjal z mislijo
+                    na spremembo. Kulovčev kandidat je bil dr. Gosar.«<note place="foot"
+                        xml:id="ftn13" n="11"> Franc Snoj, »Spomini člana emigrantske vlade«
+                        (začetek), <hi rend="italic">Delo</hi>, 16. 4. 1998.</note> Za takšno
+                    odločitev naj bi Kulovca pregovoril Engelbert Besednjak, ki je tedaj živel v
+                    Beogradu kot predstavnik primorske emigracije.<note place="foot" xml:id="ftn14"
+                        n="12"> SI_AS/1898, š. 122. Zbirka Slovenske ljudske stranke. Akcija za
+                        ustanovitev Slovenske Gospodarske Stranke.</note> Ker je načelnik stranke
+                    Kulovec medtem umrl ob nemškem bombardiranju Beograda zgodaj zjutraj 6. aprila
+                    1941, seveda ni mogel pojasniti, kakšen je bil dejanski namen njegovega pisanja
+                    Gosarju. Zato si je Natlačen, ki je bil medtem iz Beograda telefonsko obveščen o
+                    Kulovčevi usodi,<note place="foot" xml:id="ftn15" n="13"> Lavo Čermelj, <hi
+                            rend="italic">Med prvim in drugim tržaškim procesom</hi> (Ljubljana:
+                        Slovenska matica, 1972), 106.</note> lahko privoščil, da vztraja pri lastni
+                    interpretaciji in uveljavi svoje težnje. Dejstvo pa je, da v SLS Kulovčeve volje
+                    vendar niso povsem obšli in se je Gosar, ki se v zadnjih letih pred okupacijo v
+                    stranki sicer ni udejstvoval in je bil kritičen do njene politike, ponovno
+                    vključil v politično delovanje z vstopom v Narodni svet prav na podlagi
+                    Kulovčevega pisma. Spor med Natlačenom in Gosarjem za mesto predsednika
+                    Narodnega sveta pa je imel še širše razsežnosti, ko je po potrditvi novice o
+                    Kulovčevi smrti postalo odprto tudi mesto njegovega naslednika na čelu tedaj
+                    največje slovenske stranke.<note place="foot" xml:id="ftn16" n="14"> Janez A.
+                        Arnež, <hi rend="italic">Ciril Žebot in njegov politični nastop</hi>
+                        (Ljubljana in Washington, D. C.: Studia slovenica, 2006), 103, 104.</note>
+                    Tako sta si tudi za mesto voditelja stranke kasneje prizadevala tako Natlačen,
+                    ki je v ta namen izrabljal svoj trenutni položaj osrednje politične osebnosti v
+                    domovini, kot tudi Gosar, ki se je predvsem skliceval na omenjeno Kulovčevo
+                        pismo.<note place="foot" xml:id="ftn17" n="15"> Bojan Godeša, »Dr. Andrej
+                        Gosar v času okupacije 1941–1945,« v:
+                        <hi rend="italic" xml:space="preserve">Dr. Andrej Gosar (1887–1970), </hi>ur.
+                        Jure Gašparič in Alenka Veber (Celje: Društvo Mohorjeva družba-Celjska
+                        Mohorjeva družba, 2015), 47<hi rend="italic">–</hi>56.</note>
+                </p>
+                <p>Gosar je bil namreč vseskozi prepričan, da ga je Kulovec v omenjenem pismu,
+                    katerega vsebina ni znana, določil za predsednika Narodnega sveta in da mu s tem
+                    po Kulovčevi smrti po moralni in politični upravičenosti pripada tudi pravica za
+                    voditelja SLS. Dejansko je bilo to vprašanje po Kulovčevi smrti v katoliških
+                    vrstah za mnoge vse obdobje okupacije skrajno problematično zaradi izrednih
+                    razmer, ki niso dopuščale povsem transparentnega postopka izbire predsednika oz.
+                    načelnika stranke, ne gre pa spregledati tudi, da so bili njeni pomembni člani v
+                    emigraciji. Nekateri so celo opozarjali, da bo mogoče predsednika legitimno
+                    izbrati šele po vojni, do tedaj pa naj bi stranko vodilo zgolj začasno
+                    kolektivno vodstvo.<note place="foot" xml:id="ftn18" n="16"> SI_AS/1660, š. 7.
+                        Osebna zbirka Izidorja Cankarja. Pripombe k poročilu, ki še ni
+                        napisano.</note> Tudi po Natlačenovi smrti je Gosar še naprej vztrajal pri
+                    svojih stališčih. Tako je npr. leta 1943 zatrjeval, da se toliko časa ne bo
+                    podredil strankinemu vodstvu, dokler ne bo to legitimno izbrano. Od tega
+                    stališča Gosar ni bil pripravljen odstopiti in v tem smislu je bilo usmerjeno
+                    tudi njegovo celotno medvojno politično delovanje (skupaj z Jakobom Šolarjem sta
+                    ustanovila skupino Združeni Slovenci, ki si je prizadevala za sredinsko
+                    politiko) vse do aretacije od gestapa in odhoda v Dachau jeseni 1944.<note
+                        place="foot" xml:id="ftn19" n="17"> Godeša, »Dr. Andrej Gosar v času
+                        okupacije,« 47-56.</note></p>
+                <p>Čeprav so vodilni predstavniki SLS v domovini prvenstvo v stranki sčasoma
+                    priznali Mihi Kreku, ki je pretežni del okupacije deloval kot član jugoslovanske
+                    emigrantske vlade, vprašanje vodstva v domovini, ki se je odprlo s Kulovčevo
+                    smrtjo ob ustanovitvi Narodnega sveta, dejansko ves čas okupacije ni bilo povsem
+                    umaknjeno z dnevnega reda.</p>
+                <p>Drugi zaplet ob ustanavljanju Narodnega sveta, ki je imel dolgoročne in za
+                    nadaljnji razvoj v času okupacije zelo usodne posledice, je bil povezan z
+                    vprašanjem vključitve slovenskih komunistov vanj. Ko so izvedeli za ustanovitev
+                    Narodnega sveta, so namreč želeli vanj vstopiti tudi komunisti (Komunistična
+                    partija Slovenije – KPS) in zahtevali odločno obrambno akcijo. Njihovo željo je
+                    na seji Narodnega sveta posredoval Darko Černej, a so jo zavrnili z
+                    utemeljitvijo, da »naj bi Narodni svet sestavljali samo zastopniki organiziranih
+                    in priznanih političnih strank«.<note place="foot" xml:id="ftn20" n="18"> »Dr.
+                        Marko Natlačen o svojem delovanju,« 123.</note>
+                </p>
+                <p>Da je šlo pri utemeljitvi razlogov za zavrnitev predloga slovenskih komunistov za
+                    izgovor, kaže dejstvo, da je bila izmed vseh strank v Narodnem svetu za
+                    Slovenijo, v skladu z oktroirano ustavo iz septembra leta 1931, zakonita zgolj
+                    JNS oziroma njeni predstavniki v Sloveniji. V tem pogledu seveda tudi slovenska
+                    katoliška stranka po odločitvi o ponovnem preimenovanju iz JRZ v staro ime, SLS,
+                    po Simovićevem udaru 27. marca 1941 ni bila skladna z ustavo iz leta 1931.
+                    Temeljni razlog, da je Narodni svet zavrnil sodelovanje s KPS, je bil tako
+                    povezan predvsem z obrambno usmerjenostjo komunistov ter seveda zlasti z vlogo,
+                    ki naj bi jo odigral Narodni svet po napadu sil osi na Jugoslavijo, o čemer bo
+                    tekla beseda v nadaljevanju razprave. V gradivu, ki se nahaja v zbirki Frančka
+                    Sajeta, se je namreč ohranila naslednja pripoved Darka Černeja o tedanjem
+                    dogajanju: »Šestega aprila 1941 je v imenu centralnega komiteja Komunistične
+                    partije Slovenije k Černeju prišel Aleš Bebler s prošnjo, naj oblasti dovolijo
+                    tiskanje letaka s pozivom delavcem k obrambi domovine (klic k odporu je hvalil
+                    nemški proletariat in grajal Angleže). Černej je s tem predlogom odšel k
+                    načelniku občinskega oddelka, ta pa ga je poslal k podbanu Otmarju Pirkmajerju,
+                    ki je odgovoril, da naj ravnajo kot dotlej. Nato je Černej šel k Natlačenu, ko
+                    so ravno ustanavljali Narodni svet, in mu razložil, zakaj je prišel. O pogovoru
+                    z Natlačenom je nato Černej obvestil Beblerja. Bebler je dejal, da bo prinesel
+                    letak, in predlagal, da naj član Narodnega sveta postane tudi en komunist. Ta
+                    predlog je nato Černej predstavil na seji Narodnega sveta in kot dokaz predložil
+                    letak centralnega komiteja Komunistične partije Slovenije. Potem ko so letak
+                    prebrali, so bili zaradi vsebine, nad katero so bili nekateri prav zaprepadeni
+                    (npr. Ivan Ahčin), vsi proti vstopu komunistov v Narodni svet.«<note
+                        place="foot" xml:id="ftn21" n="19"> SI_AS/2065, š. 16. Zbirka Frančka
+                        Sajeta. </note>
+                </p>
+                <p>Kasneje so v medsebojnem obtoževanju skušali protikomunisti stvari sicer obrniti
+                    na glavo, tako da je bil Boris Kidrič v članku <hi rend="italic">Obrekovanja in
+                        podtikanja sovražnikov naše partije</hi> v majski (1942) številki glasila
+                    centralnega komiteja KPS <hi rend="italic">Delo</hi> prisiljen obtožbe
+                    demantirati z besedami: »Bela garda širi ustno in pismeno, da je KPS aprila 1941
+                    pozivala k dezertiranju. Resnica pa je, da je KPS organizirala dobrovoljce, da
+                    je morala svoj poziv na obrambo izvršiti nelegalno, ker ji legalno nista
+                    dovolila Natlačen in Narodni svet, in da je bila v prvih vrstah obrambe, medtem
+                    ko so današnji belogardisti uganjali že takrat kapitulantsko in petokolonsko
+                        početje.«<note place="foot" xml:id="ftn22" n="20">
+                        <hi rend="italic">Dokumenti ljudske revolucije v Sloveniji</hi>, <hi
+                            rend="italic">knjiga 2 (april 1942–julij 1942)</hi> (Ljubljana: Inštitut
+                        za zgodovino delavskega gibanja, 1964), 23.</note>
+                </p>
+                <p>V tem pogledu lahko pritrdimo mnenju Igorja Grdine, da je šlo pri zavrnitvi
+                    sodelovanja KPS v Narodnem svetu za odločitev z dolgoročnimi negativnimi
+                    posledicami za razvoj dogodkov na Slovenskem.<note place="foot" xml:id="ftn23"
+                        n="21"> Igor Grdina, »Usodne odločitve slovenskih politikov in
+                        intelektualcev,« v:
+                        <hi rend="italic" xml:space="preserve">Slovenska kultura v vojnem času, </hi>ur.
+                        Peter Vodopivec, Drago Jančar in Katja Kleindienst (Ljubljana: Slovenska
+                        matica, 2005), 22.</note> Kot je pokazal poznejši razvoj, je bila z
+                    zavrnitvijo sodelovanja s slovenskimi komunisti zapravljena edinstvena
+                    priložnost za vzpostavitev vsenarodne politične koncentracije. Slovenski
+                    komunisti, oboroženi s to negativno izkušnjo, so sklenili, da bodo poslej
+                    delovali mimo predvojnih strankarskih struktur in da bodo pobudo prevzeli v
+                    lastne roke. Tako so slovenski komunisti v drugi polovici aprila 1941 sklenili
+                    ponovno povabiti k sodelovanju tiste politične skupine, s katerimi so se pred
+                    okupacijo povezali v Društvu prijateljev Sovjetske zveze. Josip Rus, predstavnik
+                    Sokolov v odporniški organizaciji, se je tedanjih dogodkov spominjal z
+                    naslednjimi besedami: »Kmalu po vrnitvi iz Novega mesta, kjer je bil zbirni
+                    center prostovoljcev, se je Boris Kidrič oglasil pri meni in mi predlagal
+                    ustanovitev vsenarodne politične organizacije z imenom OF, v kateri naj ne bi
+                    sodelovale priznane politične stranke. Torej brez vseh tistih strank, ki so se
+                    udeležile seje, katero je takoj 6. aprila sklical ban Natlačen. Tem dogodkom je
+                    sledil tudi ustanovni sestanek OF v Vidmarjevi vili v Rožni dolini.«<note
+                        place="foot" xml:id="ftn24" n="22"> Josip Andrej Rus, <hi rend="italic"
+                            >Pričevanja in spomini. O sokolstvu, Osvobodilni fronti in novi
+                            Jugoslaviji,</hi> ur. Jurij Perovšek (Ljubljana: Založba Borec, 1989),
+                        294.</note> V prvih dneh po napadu sil osi na Jugoslavijo se namreč
+                    komunisti na te skupine, kot se je spominjal Tone Fajfar, niso ozirali ali
+                    iskali stika z njimi, ampak so delovali povsem samostojno.<note place="foot"
+                        xml:id="ftn25" n="23"> Tone Fajfar, <hi rend="italic">Odločitev. Spomini in
+                            partizanski dnevnik</hi> (druga, dopolnjena izdaja) (Ljubljana: Založba
+                        Borec, 1981), 142.</note>
+                </p>
+                <p>Narodni svet za Slovenijo se je 6. aprila 1941 po »razrešitvi« teh dveh zapletov
+                    končno konstituiral v naslednji sestavi: predsednik dr. Marko Natlačen, ban
+                    Dravske banovine (SLS); člani: dr. Juro Adlešič, župan mesta Ljubljane (SLS),
+                    dr. Ivan Ahčin, glavni urednik časnika <hi rend="italic">Slovenec</hi> (SLS),
+                    dr. Darko Černej, odvetnik v Ljubljani (SDS), dr. Andrej Gosar, bivši minister,
+                    univerzitetni profesor (SLS), Marko Kranjec, bivši narodni poslanec v Mariboru
+                    (SLS), Stanko Likar, tajnik Okrožnega urada za zavarovanje delavcev v Ljubljani
+                    (SSJ), kasneje ga je nadomestil Josip Petejan, tajnik Okrožnega urada za
+                    zavarovanje delavcev v Mariboru (SSJ); dr. Dinko Puc, bivši ban Dravske banovine
+                    in bivši ljubljanski župan (NRS), njegov namestnik je bil dr. Janko Köstl; Ivan
+                    Pucelj, minister v pokoju (JNS), namestnika sta bila dr. Alojzij Zalokar in dr.
+                    Marjan Zajec; ter Miloš Stare, bivši narodni poslanec in odvetnik v Ljubljani
+                        (SLS).<note place="foot" xml:id="ftn26" n="24"> Franček Saje,
+                        <hi rend="italic" xml:space="preserve">Belogardizem </hi>(druga, dopolnjena
+                        izdaja) (Ljubljana: Slovenski knjižni zavod, 1952), 24<hi rend="italic"
+                            >–</hi>36.</note>
+                </p>
+                <p>Sestava Narodnega sveta priča o popolni prevladi SLS. V tem telesu je bilo šest
+                    njenih članov, preostale stranke pa so imele le po enega predstavnika. Takšno
+                    razmerje je po eni strani sicer odražalo razmerje politične moči v predvojni
+                    slovenski družbi, predvsem pa kazalo, da je bila tedanja pobuda povsem v rokah
+                    katoliške stranke. Vse kasnejše medvojne koncentracije protikomunističnega
+                    tabora (Slovenska zaveza, Narodni odbor za Slovenijo) niso več imele takšne
+                    očitne prevlade SLS, kar so njeni privrženci večkrat obžalovali.<note
+                        place="foot" xml:id="ftn27" n="25"> SI_AS/1660, š. 8. Zbirka Izidorja
+                        Cankarja. </note> Ob tem sta se dva člana aprilskega (1941) Narodnega sveta
+                    (Dinko Puc in Darko Černej) pozneje znašla v nasprotnem političnem taboru, v
+                    Osvobodilni fronti. </p>
+            </div>
+            <div>
+                <head>Vprašanje pravnega statusa Narodnega sveta za Slovenijo</head>
+                <p>Glede na to, da so člani Narodnega sveta ravno ilegalnost KPS navajali kot razlog
+                    za zavrnitev njihove prošnje za vstop vanj, se seveda zastavlja tudi vprašanje,
+                    kakšen pa je bil pravni položaj Narodnega sveta. Ustanovitev Narodnega sveta za
+                    Slovenijo je namreč predstavljala korak predvojne slovenske politične elite, ki
+                    ga v jugoslovanskem okviru ni posnemal nihče, tudi na Hrvaškem ne. Obstoj
+                    Narodnega sveta je tako predstavljal v jugoslovanskem merilu izjemo. V očeh
+                    vlade v Beogradu, s katero je bil neposredni stik sicer prekinjen, je bil že
+                    obstoj Narodnega sveta za Slovenijo nesprejemljiv in ga vlada ni priznavala, saj
+                    v nobenem formalnopravnem aktu jugoslovanske zakonodaje ni bila predvidena
+                    vzporedna oblast. Tako je po pričevanju divizijskega generala Leva Rupnika, ki
+                    je bil v aprilskih dneh v vojaškem poveljstvu jugoslovanske vojske v Zagrebu,
+                    predsednik vlade Dušan Simović, ko je izvedel za ustanovitev Narodnega sveta, v
+                    brzojavki vojaškim oblastem v Zagrebu 8. ali 9. aprila 1941 zapisal, »da so
+                    prepovedani kakršnikoli narodni sveti, da je treba njihove člane postaviti ob
+                    steno in streljati«.<note place="foot" xml:id="ftn28" n="26">
+                        <hi rend="italic">Proces proti vojnim zločincem in izdajalcem Rupniku,
+                            Rösenerju, Rožmanu, Kreku, Vizjaku in Hacinu</hi> (Ljubljana: Slovenski
+                        knjižni zavod, 1946), 101.</note> Vzrok za tako odločen Simovićev odziv je
+                    bilo očitno poročanje graškega in dunajskega radia, da je bila v Ljubljani 6.
+                    aprila 1941 ustanovljena vlada za odcepitev od jugoslovanske države in da so
+                    Srbi v Beogradu ubili Kulovca.<note place="foot" xml:id="ftn29" n="27">
+                        SI_AS/2065, š. 16. Zbirka Frančka Sajeta. </note> Pri teh vesteh je bila
+                    seveda mišljena ustanovitev Narodnega sveta za Slovenijo, ki so jo nemški mediji
+                    v tem smislu interpretirali (in to pravilno, kot bo razvidno iz nadaljnjega
+                    besedila!) na podlagi pobude, ki sta jo Kulovec in Krek 5. aprila 1941 po
+                    slovaških diplomatih v Beogradu sporočila nacističnim oblastem v Berlinu, da
+                    jima gre za njuno deželo bolj kot za jugoslovansko državo. Bila sta prepričana,
+                    da je vojna neizbežna in da »z njo prihaja konec Jugoslavije«, zato sta
+                    predlagala ustanovitev slovenske države oz. iz Slovenije in Hrvaške izoblikovane
+                    skupne države. Pri tem sta posebej poudarila, da mora biti takšna rešitev v
+                    vsakem primeru izpeljana v sodelovanju z Nemčijo.<note place="foot"
+                        xml:id="ftn30" n="28"> »Prevod poročila nemškega odpravnika poslov v
+                        Beogradu 5. aprila 1941 zunanjemu uradu v Berlin o usodi Slovenije v
+                        sodelovanju z Nemčijo,« v: <hi rend="italic">Narodnoosvobodilni boj v
+                            slovenskem narodnem spominu: Slovenski zbornik 2007</hi>, ur. Janez
+                        Stanovnik, Slavko Grčar in Hardvik Pirnovar (Ljubljana: GO ZZB NOB
+                        Slovenije, 2007), 348, 349. Izvirnik objavljen v <hi rend="italic">ADAP
+                            1918–1945, Serie D: 1937–1941, Band XII. 1, Die Kriegsjahre,</hi> 5. <hi
+                            rend="italic">Band, 1. Halbband (Februar–April 1941)</hi>. Der
+                        Geschäftsträger in Belgrad an das Auswärtige Amt, 5. April 1941. Dok. 273,
+                        383–384. Angleški prevod dokumenta v
+                        <hi rend="italic" xml:space="preserve">DGFP 1918–1945, </hi>Series D, Vol.
+                        XII, The Chargé d'Affaires in Yugoslavia to the Foreign Ministry, Apr. 5,
+                        1941. Dok. 273, 464. Podrobneje o celotni problematiki gl. Bojan Godeša, <hi
+                            rend="italic">Čas odločitev. Katoliški tabor in začetek okupacije</hi>
+                        (Ljubljana: Mladinska knjiga, 2011), 189-263.</note> Prav tako se je v
+                    svojem dnevniku nad neustavnostjo Narodnega sveta pridušal tudi Črtomir
+                        Nagode.<note place="foot" xml:id="ftn31" n="29"> SI_AS/1931, š. 588. Dnevnik
+                        dr. Črtomirja Nagodeta.</note> V skladu z obravnavo Narodnega sveta kot
+                    protizakonitega telesa so tudi jugoslovanski vojaški poveljniki, ki so
+                    operativno delovali na območju Dravske banovine, Natlačena v medsebojni
+                    komunikaciji vseskozi vztrajno naslavljali z (gospodom) banom, in ne s
+                    predsednikom Narodnega sveta, čeprav so za ustanovitev sveta seveda vedeli, a
+                    glede na obstoječe kaotične razmere niti niso skušali preprečevati njegovega
+                    delovanja. </p>
+                <p>Tudi v zapisniku, ki sta ga v Celju 14. aprila 1941 podpisala nemški predstavnik
+                    polkovnik Bossi-Fedrigotti in Marko Kranjc, je bilo izrecno zabeleženo, da
+                    Narodni svet po jugoslovanski ustavi ni predviden.<note place="foot"
+                        xml:id="ftn32" n="30"> »Dr. Marko Natlačen o svojem delovanju,« 132-34. </note> Skratka, tudi pobudnikom in
+                    ustanoviteljem Narodnega sveta za Slovenijo je bilo vseskozi jasno, da gre za
+                    protizakonito telo. </p>
+            </div>
+            <div>
+                <head>Kdo je bil pobudnik in zakaj je prišlo do ustanovitve Narodnega sveta za
+                    Slovenijo</head>
+                <p>V slovenskem zgodovinopisju velja za splošno sprejeto, da je bil pobudnik
+                    ustanovitve Narodnega sveta za Slovenijo Kulovec.<note place="foot"
+                        xml:id="ftn33" n="31"> V tem pogledu predstavlja izjemo zgolj mnenje Tomaža
+                        Ivešića, »Delovanje dr. Franca Kulovca na čelu SLS in ključni dogodki pred
+                        vojno,« <hi rend="italic">Časopis za zgodovino in narodopisje</hi> 84 (49),
+                        št. 1 (2013): 83-118. Avtor zapisa je namreč
+                        prepričan, da so pobudo za ustanovitev Narodnega sveta, ki je bil
+                        ustanovljen 6. aprila 1941, dali slovenski liberalci.</note> Takšno stališče
+                    se je uveljavilo v zgodovinopisju na podlagi Ahčinovega povojnega zapisa
+                    »Začetki naše tragedije«, objavljenega v <hi rend="italic">Koledarju svobodne
+                        Slovenije 1951</hi>.<note place="foot" xml:id="ftn34" n="32"> Ivan Ahčin,
+                        »Spomini na začetek naše tragedije,« <hi rend="italic">Koledar svobodne
+                            Slovenije 1951</hi>.</note> Načelnik SLS je namreč prišel v Ljubljano 3.
+                    aprila 1941 (na poti iz Beograda sta ga spremljala predsednik Zadružne zveze
+                    Franc Gabrovšek in Ciril Žebot) in je na hitro sklicanem sestanku vodstvu
+                    stranke predlagal, da stopijo v stik s predstavniki drugih strank in ob napadu
+                    sil osi na državo ustanovijo Narodni svet. Takoj naslednji dan se je Kulovec z
+                    nočnim vlakom vrnil v državno prestolnico, kjer je kot minister še naprej
+                    sodeloval v Simovićevi vladi. </p>
+                <p>Zakaj je Kulovec predlagal ustanovitev Narodnega sveta za Slovenijo, čeprav je
+                    bilo že vnaprej znano, da ne le njegova ustanovitev, predvidena ob agresiji sil
+                    osi na Jugoslavijo, ampak tudi že sam predlog vzpostavitve vzporedne oz.
+                    nadomestne oblasti pomenita zavestno kršenje obstoječega pravnega reda in tudi
+                    odpoved lojalnosti jugoslovanski (Simovićevi) vladi, katere član je bil kot
+                    minister za gradnje, ter nazadnje tudi odpoved pokornosti kralju kot suverenu.
+                    Po Ahčinovem zapisu je Kulovec predvideno vlogo Narodnega sveta na omenjenem
+                    sestanku pojasnil z besedami: »Osnujte Narodni svet, ki se bo brigal za
+                    slovenske interese, posebej, če v Beogradu ne bo vlade. Ali bodete mogli kaj
+                    storiti, ne vem. To ve sam Bog. Kar zadeva SLS, si sedaj tu obljubimo dve
+                    stvari: Prvič, da v primeru okupacije stranka kot takšna ne bo dala svoje pomoči
+                    in imena nobeni politični akciji, ki bi bila v prid okupatorju. Drugič, da ne
+                    bomo delali drug proti drugemu, pa bodo oni, ki bomo zunaj ali oni, ki bodete
+                    doma ostali /…/«<note place="foot" xml:id="ftn35" n="33"> Ahčin, »Spomini na
+                        začetek naše tragedije,«, 132. Treba je opozoriti, da je v tem pričevanju
+                        Ahčin sestanku s Kulovcem 3. aprila 1941 pripisal tudi sklepe, ki jih je
+                        sprejelo vodstvo SLS brez Kulovčeve prisotnosti, dejansko že 30. marca 1941.
+                        Tedaj so se dogovorili, kakšno bo strankino delovanje, če pride do vojne.
+                        Takrat je bila namreč med drugim sprejeta tudi odločitev o nesodelovanju s
+                        sovražnikom, in ne z okupatorjem, kot je zapisal Ahčin. Poleg tega je Ahčin
+                        dodal formulacijo »stranka kot taka«, kar tudi ne ustreza sklepom, sprejetim
+                        30. marca 1941.</note></p>
+                <p>Do spoznanja o nujnosti ustanovitve Narodnega sveta je Kulovec prišel na podlagi
+                    informacij o nemški načrtih po napadu na Jugoslavijo, ki so jih imeli na voljo v
+                    beograjskih vladnih krogih. Kakšne vesti so tedaj krožile v jugoslovanski
+                    prestolnici, je mogoče razbrati tudi iz poročila slovaškega poslaništva v
+                    Beogradu 31. marca 1941. V njem so poročali, da so izvedeli, da nemški
+                    veleposlanik Viktor von Heeren odhaja v Nemčijo in da se zdi, da se ne bo vrnil
+                    nazaj. Iz Berlina pa je prispel jugoslovanski veleposlanik Ivo Andrić. Sklep
+                    slovaškega diplomata je bil: »Vojna«.<note place="foot" xml:id="ftn36" n="34">
+                        SI_AS/2065, š. 21. Zbirka Frančka Sajeta. Za pomoč pri prevodu dokumentov iz
+                        slovaščine se iskreno zahvaljujem Juretu Gašpariču.</note>
+                </p>
+                <p>Za celovito razumevanje delovanja predvojne slovenske politične elite po državnem
+                    udaru 27. marca 1941, ki je privedla do Kulovčeve odločitve o ustanovitvi
+                    Narodnega sveta za Slovenijo, in tudi vseh njenih nadaljnjih korakov v prvih
+                    mesecih okupacije,<note place="foot" xml:id="ftn37" n="35"> Ta problematika je
+                        poglobljeno predstavljena v monografiji
+                        Godeša,<hi rend="italic" xml:space="preserve"> Čas odločitev</hi>.</note> je
+                    bila ključna razprava na seji vlade (ministrskega sveta), o kateri so 1. aprila
+                    1941 iz Beograda poročali tudi slovaški diplomati zunanjemu ministrstvu v
+                    Bratislavi. V tem dokumentu je bilo zapisano: »Danes je zavladalo v Beogradu
+                    bolj mirno vzdušje. Srbski ministri so se zbrali in zdaj vidijo zelo temno
+                    prihodnost. Izvedel sem, da so na seji ministrskega sveta, kjer so civilni
+                    ministri vprašali generale, če se je možno zanesti na vojsko in do kakšne mere,
+                    ti odgovorili, da je mogoče zajamčiti le zvestobo srbske vojske. Zunanji
+                    minister Ninčić je na ministrskem svetu povedal naslednje: </p>
+                <p>V primeru konflikta se bo zgodilo v Jugoslaviji naslednje: </p>
+                <list type="ordered">
+                    <item>Hrvaška se bo razglasila za samostojno državo.</item>
+                    <item>Slovenija bo najverjetneje postala neke vrste nemški protektorat.</item>
+                    <item>Črna gora bo vzpostavila svojo vlado.</item>
+                    <item>Vojvodina bo vzpostavila neke vrste romunsko-madžarsko vlado.«<note
+                            place="foot" xml:id="ftn38" n="36"> SI_AS/2065, š. 21. Zbirka Frančka
+                            Sajeta.</note></item>
+                </list>
+                <p>Ninčić je na seji ministrskega sveta nato nadaljeval: »Mi se bomo borili z našo
+                    srbsko vojsko in se lahko preselimo z našim kraljem v Grčijo in po možnosti v
+                    Afriko, kjer bi čakali na konec vojne. Vojne je lahko konec čez dve, tri leta.
+                    Tudi, če bi Anglija zmagala, lahko ustvari le tako Jugoslavijo kot je danes. Kdo
+                    nam bo zagotovil, da bodo jamstva Anglije in Amerike vzdržala tudi do mirovne
+                    konference, kjer se lahko uveljavi teza Beneša in Ota Habsburškega. Mi lahko
+                    vzdržimo s srbsko vojsko maksimalno šest mesecev in minimalno tri mesece. In kaj
+                    smo imeli od tega, ko izgubljamo kri, razbijamo državo in se bomo morali
+                    zadovoljiti le z upanjem. Tako je govoril na ministrskem svetu zunanji minister
+                    Ninčić. Iz tega se vidi, da se Srbi zavedajo velike odgovornosti in se danes
+                    nahajajo v slepi ulici, v katero jih je privedla ulica, katero so nahujskali
+                    agenti provokatorji.«<note place="foot" xml:id="ftn39" n="37"> Ibid.</note>
+                    Poročilo je slovaški diplomat zaključil z ugotovitvijo: »Nekaj je gotovo,
+                    Nemčija je svoje povedala in je kompromisna rešitev ne zanima.«<note
+                        place="foot" xml:id="ftn40" n="38"> Ibid.</note>
+                </p>
+                <p>Kulovec, ki se je kot minister te seje vlade seveda tudi udeležil, je dokončno
+                    prišel do spoznanja, da po nemškemu napadu, za katerega je postalo povsem
+                    očitno, da je neizogiben, za Jugoslavijo v agresorjevih načrtih ni več prostora
+                    ter bo prenehala obstajati kot državna tvorba. Kakšna ureditev bo nastala v tem
+                    prostoru na njenih ruševinah, je Kulovec lahko razbral zlasti na podlagi
+                    izvajanja zunanjega ministra Ninčića, ki je med nemškimi načrti preureditve tega
+                    prostora omenil tudi, da bo »Slovenija /…/ najverjetneje postala neke vrste
+                    nemški protektorat«. </p>
+                <p>Dotlej glavna Kulovčeva skrb, kako ohraniti mir, kar je konkretno pomenilo, da bi
+                    sporazum o pridružitvi Jugoslavije k trojnemu paktu ostal v veljavi, država pa
+                    bi s tem ostala v interesni orbiti sil osi, je s tem spoznanjem dobila povsem
+                    nove razsežnosti. Na podlagi teh informacij je Kulovec tudi oblikoval strateško
+                    usmeritev, s katero naj bi SLS ustrezno pripravljena pričakala agresijo sil osi
+                    na Jugoslavijo in se nanjo tudi primerno pozitivno odzvala. V teh pripravah je
+                    bila Kulovčeva dejavnost osredotočena zlasti na čimprejšnjo vzpostavitev stikov
+                    z nemškimi oblastmi, predvsem po nemških diplomatih v Beogradu. </p>
+                <p>Ko je v tem času Franc Snoj, ki je prišel v Beograd, obiskal Kulovca, mu je ta
+                    pojasnil svoje prepričanje o neizogibnosti vojne. Kulovec je v pogovoru s Snojem
+                    tudi ponovil mnenje zunanjega ministra Ninčića, izraženo na seji vlade, da
+                    Jugoslavija ne bo vzdržala več kot nekaj tednov. To prepričanje je Kulovec še
+                    podkrepil z argumenti, ki so jih na sejah kronskega sveta navajali generali
+                    Petar Kosić, Petar Pešić in drugi. Načelnik SLS je Snoju tudi povedal, da se je
+                    odločil, da bo ob izbruhu vojne izstopil iz vlade in se vrnil v Slovenijo.<note
+                        place="foot" xml:id="ftn41" n="39"> Franc Snoj, »Spomini člana emigrantske
+                        vlade« (začetek), <hi rend="italic">Delo</hi>, 16. 4. 1998.</note>
+                </p>
+                <p>Po poročilu nekega nemškega zaupnika z dne 31. marca 1941 naj bi imela, če bi
+                    prišlo do nemškega napada na Jugoslavijo, Kulovec in Maček enako stališče;
+                    nameravala sta se javno obrniti na nemško stran po zaščito in pozvati
+                    prebivalstvo k redu in miru.<note place="foot" xml:id="ftn42" n="40"> Bojan
+                        Godeša, <hi rend="italic">Slovensko nacionalno vprašanje med drugo svetovno
+                            vojno</hi> (Ljubljana: Inštitut za novejšo zgodovino, 2006), 213.</note>
+                    Dopoldne 2. aprila 1941 je imel Kulovec v Beogradu razgovor s članoma vodstva
+                    HSS, senatorjem Augustom Košutićem in finančnim ministrom Jurajem Šutejem, od
+                    katerih je želel izvedeti položaj in stališče Hrvatov.<note place="foot"
+                        xml:id="ftn43" n="41"> Alojzij Kuhar, <hi rend="italic">Beg iz Beograda
+                            aprila 1941</hi> (Ljubljana in Washington, D. C.: Studia slovenica,
+                        1998), 16.</note> Alojzij Kuhar, ki se je po sklepu vodstva SLS 30. marca
+                    1941 odpravil v Beograd, da odide v emigracijo, je opisal tedanje delovanje
+                    načelnika katoliške stranke: »Z vseh teh sestankov se je dr. Kulovec vračal
+                    utrujen, in – črnogled. Čedalje bolj je postajal prepričan, da gre za dvojno
+                    igro. Medtem ko se na eni strani dela optimistični videz, nekateri ministri že
+                    računajo popolnoma z vojno in postopajo temu primerno.«<note place="foot"
+                        xml:id="ftn44" n="42"> Ibid.</note> Kuhar je zvečer, 2. aprila 1941, iz
+                    Beograda pod takšnim vtisom tudi pisal Ivanu Ahčinu, uredniku <hi rend="italic"
+                        >Slovenca</hi>, da se »hitro bližamo vojni«, da se Hrvati še niso povsem
+                    odločili in da je tudi pri njih »vidno vodstvo« igralo na jugoslovansko karto,
+                    medtem ko je »nevidni del« računal z drugimi možnostmi in se nanje tudi
+                    pripravljal. Zato »se moramo tudi mi Slovenci hitro pripraviti« in je treba
+                    iskati zveze z vidnim in nevidnim delom hrvaškega narodnega vodstva. V pismu je
+                    Kuhar poudaril: »Naša zastopnika v vladi in midva z Gabrovškom da bomo nosilci
+                    oficijelne politike Slovencev in da jo bomo branili do svoje smrti, medtem ko je
+                    treba na slovenski zemlji sami pripraviti tudi vse za 'človeške rešitve', da ne
+                    bi slovenski narod preveč trpel, ker je tako maloštevilen.«<note place="foot"
+                        xml:id="ftn45" n="43"> Kuhar, <hi rend="italic">Beg iz Beograda</hi>,
+                        23.</note>
+                </p>
+                <p>Dejansko je bil Kulovec v Simovićevi vladi edini minister, ki si je po von
+                    Heerenovi odklonitvi (nemški veleposlanik se je namreč odločil vrniti v Berlin!)
+                    sprejema predsednika vlade Simovića 30. marca 1941 prizadeval obdržati stik z
+                    nemško vlado. V teh usodnih dneh (31. marca, 1. in 2. aprila 1941) je Kulovec v
+                    svojem kabinetu še sprejel nemškega dopisnika <hi rend="italic">Deutsche
+                        Nachrichten Bureau</hi> (DNB) dr. Gruberja in se z njim pogovarjal o
+                    položaju. Ko se je zadnjič sestal z nemškim novinarjem, je dejal: »Tako daleč
+                    smo torej, da z nemško vlado sploh nimamo nobenih stikov več, da se z njo sploh
+                    ne moremo več razgovarjati in da je edina vez, ki še obstaja, vez med gradbenim
+                    ministrom in nemškim časnikarjem.«<note place="foot" xml:id="ftn46" n="44">
+                            Ibid., 20.</note>
+                </p>
+                <p>Po neuspešnih poskusih vzpostavitve neposrednega stika z vlado v Berlinu je
+                    Kulovec presodil, da mora o predvidenem poteku dogodkov seznaniti tudi
+                    strankarske somišljenike v Ljubljani, tj. z informacijo o nemških načrtih, po
+                    katerih Jugoslavije kot državne tvorbe ne bo več, na njenih ruševinah pa bo
+                    verjetno ustanovljena tudi slovenska država pod nemškim protektoratom, in jim v
+                    smislu takšnih predvidevanj tudi pojasniti, kako naj katoliška stranka, sicer v
+                    dogovoru z ostalimi političnimi subjekti v Dravski banovini, ravna ob napadu sil
+                    osi na Jugoslavijo. To je bil tudi temeljni namen Kulovčevega odhoda v Ljubljano
+                    3. aprila 1941, namreč, da osebno seznani strankino vodstvo z novimi
+                    okoliščinami, vse druge oblike komunikacije bi glede na pomembnost in
+                    občutljivost sporočila predstavljale preveliko tveganje. Zadeva, o kateri se je
+                    bilo treba dogovoriti, je bila namreč preveč delikatna, da bi to mogli opraviti
+                    posredniki ali da bi se to izvedlo po telefonskih in brzojavnih povezavah. Tako
+                    je Kulovec ob prihodu v Ljubljano 3. aprila 1941 ponovil Ninčićeve besede,
+                    izrečene na vladni seji, in izrazil prepričanje, da je usoda Jugoslavije kot
+                    državne tvorbe zapečatena. Ruda Jurčec je v svojih spominih <hi rend="italic"
+                        >Skozi luči in sence</hi> zabeležil tedanje Kulovčevo mnenje, da so Srbi
+                    odgovorni za razpad države.<note place="foot" xml:id="ftn47" n="45"> Ruda
+                        Jurčec, <hi rend="italic">Skozi luči in sence 1918–1958</hi> (<hi
+                            rend="italic">3. del: 1935–1941)</hi> (Buenos Aires, 1969).</note> Tudi
+                    Kazimir Zakrajšek je v pismu Mihi Kreku 31. oktobra 1941 o teh Kulovčevih
+                    stališčih zapisal, »da je slišal iz ust dr. Kulovca izjavo ob navzočnosti dr.
+                    Kuharja, na tiho nedeljo 1941: 'Jugoslavije ni več in težko, morda nikoli več se
+                    je ne bo dalo ustanoviti.'«<note place="foot" xml:id="ftn48" n="46"> Janez A.
+                        Arnež, <hi rend="italic">Slovenska ljudska stranka 1941–1945</hi> (Ljubljana
+                        in Washington, D. C.: Studia slovenica, 2002) 376.</note> Zakrajšek je nato
+                    v knjigi <hi rend="italic">Ko smo šli v morje bridkosti</hi>, ki je izšla že
+                    leta 1942 v Združenih državah Amerike, Kulovčevo mnenje zaupal tudi širši
+                    javnosti: »'Vlada ve, da se bo takoj ustanovila samostojna hrvatska država, ako
+                    pride do vojne, in s tem bo Jugoslavija razbita,' je povedal ob svojem prihodu v
+                    Ljubljano 3. aprila 1941 Kulovec.«<note place="foot" xml:id="ftn49" n="47">
+                        Zakrajšek, <hi rend="italic">Ko smo šli</hi>, 50. Zakrajšek sicer v spominih
+                        napačno navaja datum, kdaj naj bi Kulovec to povedal.</note></p>
+                <p>Kulovčeva odločitev o oblikovanju Narodnega sveta, s katero je seznanil
+                    strankarske somišljenike ob svojem prihodu v Ljubljano 3. aprila 1941, se je
+                    napajala iz analogije z letom 1918 in vloge, ki jo je imel pri tem Narodni svet:
+                    v prelomnih časih poskrbeti za prehod Slovencev iz enega državnega okvira, torej
+                    habsburškega, v drugega, to je v Jugoslavijo oziroma Kraljevino Srbov, Hrvatov
+                    in Slovencev. V skladu s takšno pozitivno tradicijo iz časov agonije habsburške
+                    monarhije je Kulovec računal, da bo Narodni svet za Slovenijo tudi tokrat
+                    odigral podobno zgodovinsko vlogo. Glede ideje o predvideni vlogi Narodnega
+                    sveta, da ta v času interregnuma prevzame oblast na slovenskem ozemlju,
+                    Kulovčevo naročilo samo po sebi seveda tako niti ni moglo biti povsem izvirno,
+                    vsekakor pa je bila konkretna pobuda za ustanovitev takšnega telesa nedvomno
+                    izključno plod tedanjega Kulovčevega političnega razmisleka. Kulovčevo
+                    prepričanje, da konflikt, ki se je upravičeno zdel neizbežen, pomeni konec
+                    Jugoslavije kot državne tvorbe, da pa bo Sloveniji namenjen status nekakšnega
+                    nemškega protektorata, je bilo namreč temeljno izhodišče za njegovo nadaljnje
+                    ukrepanje ob prihodu v Ljubljano 3. aprila 1941 in tudi edini razlog, da je
+                    predlagal ustanovitev takšnega, sicer popolnoma protizakonitega telesa, kot ga
+                    je nato ob napadu sil osi na Jugoslavijo 6. aprila 1941 predstavljal
+                    ustanovljeni Narodni svet za Slovenijo. Po takšnem Kulovčevem predvidevanju
+                    razpleta dogodkov po razpadu Jugoslavije naj bi Narodni svet torej prevzel
+                    oblast v Sloveniji in izpeljal vse potrebne ukrepe, da bi prišlo do uresničitve
+                    in vzpostavitve pričakovane slovenske države pod protektoratom nacistične
+                    Nemčije. </p>
+                <p>Na podlagi odločitve o ustanovitvi Narodnega sveta, sprejete 3. aprila 1941, je
+                    skušala SLS nato graditi svoje nadaljnje politično delovanje, ki s sklepi s
+                    strankine seje 30. marca 1941 o nesodelovanju s sovražniki ni imelo (več)
+                    nikakršne zveze. S tem je postala strategija za delovanje v času vojne, ki jo je
+                    vodstvo katoliške stranke sprejelo 30. marca 1941, brezpredmetna in je bila v
+                    bistvu mrtvorojeno dete.<note place="foot" xml:id="ftn50" n="48"> Mnenje, da so
+                        sklepe z dne 30. marca 1941 v SLS nato obšli, zagovarja tudi Stane Granda,
+                            <hi rend="italic">Mala zgodovina Slovenije</hi> (Celje: Celjska
+                        Mohorjeva družba, 2008), 269, 270. </note> Ob napadu sil osi na Jugoslavijo
+                    se je vodstvo SLS, nato pa tudi nekateri predstavniki drugih strank, zastopanih
+                    v Narodnem svetu, odločilo svoj obstoj povezati z usodo sil osi, ki so skušale z
+                    vojno ustvariti totalitarni in rasistični »novi red«. </p>
+            </div>
+            <div>
+                <head>»Zgodovinska« vloga Narodnega sveta za Slovenijo</head>
+                <p>V razglasu, ki sta ga objavila tedanja osrednja časnika <hi rend="italic"
+                        >Slovenec</hi> in <hi rend="italic">Jutro</hi>, je bilo zabeleženo, da so »v
+                    teh težkih časih, ki so zajeli našo državo, smatrale vse slovenske stranke za
+                    potrebno, da v vseh važnejših vprašanjih slovenskega naroda nastopajo
+                    sporazumno«. V zadnjem odstavku razglasa pa so poudarili, da »ustanovitev
+                    Narodnega sveta za Slovenijo smatramo za zelo važen dogodek, ki ga pozdravljamo
+                    predvsem zaradi tega, ker dokazuje, da zna naš narod v odločilnih trenutkih
+                    složno in enotno nastopati v obrambo svojih narodnih in državnih koristi. To, da
+                    so v narodnem svetu stopile namesto strankarskih vidikov skupne narodne in
+                    državne koristi, daje tej ustanovi zgodovinski pomen. Naša sloga in strnjenost
+                    sta v teh težkih časih najbolje jamstvo naše svobode.« </p>
+                <p>V skladu z dogovorjeno usmeritvijo že pred napadom sil osi na Jugoslavijo si
+                    Narodni svet ni zadal nobenih obrambnih nalog, temveč je v prvi vrsti pozival »k
+                    redu in miru«, da bi ozemlje ohranili čim bolj nepoškodovano. Ob tem pa je
+                    pozival tudi k zaščiti nemške manjšine. V nasprotju z običaji v vojnih razmerah
+                    je ljubljanski radio poročal »objektivno« in navajal tudi skrb zbujajoče
+                    informacije iz nemških virov (npr. o padcu celotne južne Srbije (Makedonije),
+                    nemškem napredovanju proti Solunu, bojih na Hrvaškem), kar seveda ni prispevalo
+                    k bojni morali branilcev, temveč je med prebivalstvom in vojaškimi enotami
+                    širilo defetizem in preplah.<note place="foot" xml:id="ftn51" n="49"> Mile
+                        Bjelajac in Predrag Trifunović, <hi rend="italic">Između vojske i politike.
+                            Biografija generala Dušana Trifunovića (1880–1942)</hi> (Beograd: INIS –
+                        Narodni Muzej Kruševac, 1997), 229.</note> S takšno usmeritvijo bana
+                    Natlačena in Narodnega sveta v jugoslovanskih vojaških krogih niso bili
+                    zadovoljni in so pri banu večkrat protestirali ter hkrati ocenjevali, kot se je
+                    izrazil general Dragiša Pandurović, da pri tem »ne kaže, da gre za naivnost,
+                    temveč se to dela tendenciozno«.<note place="foot" xml:id="ftn52" n="50"> Mile
+                        S. Bjelajac, <hi rend="italic">General Dragiša Pandurović. Život i
+                            svedočenja</hi> (Beograd: INIS, 2007), 128, 129.</note>
+                </p>
+                <p>Po Natlačenovem poročilu se je Narodni svet sicer sestajal vsak dan, vendar je
+                    deloval bolj ali manj pasivno, tako da njegova predvidena zgodovinska vloga,
+                    zaradi katere je bil (sploh) ustanovljen, tedaj še ni mogla priti do izraza.
+                    Narodni svet je vseskozi budno spremljal razmere in predvsem pripravljal teren
+                    za trenutek, ki so ga pričakovali, tj. konec vojnih operacij. </p>
+            </div>
+            <div>
+                <head>Razglasitev Neodvisne države Hrvaške 10. aprila 1941 – »zgodovinska« vloga
+                    Narodnega sveta za Slovenijo na preizkušnji</head>
+                <p>Do prave »zgodovinske« vloge, zaradi katere je bil ustanovljen, je Narodni svet
+                    za Slovenijo skušal priti po vesti o ustanovitvi Neodvisne države Hrvaške (NDH).
+                    Tedaj je po pričevanju Josipa Petejana, sicer predstavnika SSJ v Narodnem svetu,
+                    Natlačen vzkliknil: »Hrvatska je samostojna država! Tudi mi Slovenci smo sedaj
+                    razvezani vseh obvez in moramo računati samo na sebe. To je posledica srbskega
+                        puča.«<note place="foot" xml:id="ftn53" n="51"> Godeša, <hi rend="italic"
+                            >Čas odločitev</hi>, 200, 201.</note>
+                </p>
+                <p>V takih okoliščinah se je Narodni svet takoj odločil, da prevzame »na našem
+                    ozemlju izvrševanje vrhovne oblasti ter s tem skrb za red in mir ter za
+                    nadaljnjo usodo slovenskega naroda«.<note place="foot" xml:id="ftn54" n="52">
+                        Saje, <hi rend="italic">Belogardizem</hi>, 21.</note> S proglasitvijo
+                    suverenosti nad ozemljem Dravske banovine sta ban in Narodni svet za Slovenijo,
+                    ki ga jugoslovanska vlada sicer ni nikoli priznala, dejansko odpovedala
+                    poslušnost oblastem v Beogradu. S preoblikovanjem Narodnega sveta v vlado in
+                    poskusom snovanja slovenske vojske (z organiziranjem Slovenske legije) so bili
+                    storjeni koraki k uresničitvi zastavljenih načrtov, kjer so računali z
+                    rešitvijo, da bo »Slovenija /…/ najverjetneje postala neke vrste nemški
+                    protektorat«. </p>
+                <p>Takšno pričakovanje o zgodovinski vlogi Narodnega sveta za Slovenijo, ki ga je z
+                    naročilom o njegovi ustanovitvi izrazil Kulovec 3. aprila 1941 v Ljubljani,
+                    lahko razberemo tudi iz dnevniškega zapisa dr. Marjana Zajca, ki je bil kot
+                    štabni kurir dodeljen diviziji generala Dragiše Pandurovića in si je pred
+                    pogajanji Narodnega sveta in vojaškega poveljstva v noči z 10. na 11. april 1941
+                    v Zagradcu zabeležil tudi naslednje: »Okoli polnoči sta prispela dva močno
+                    razsvetljena avtomobila, ki sem ju ustavil in iz katerih so stopili dr. Natlačen
+                    ter člani Narodnega sveta dr. Adlešič, dr. Zalokar, dr. Gosar, Miloš Stare,
+                    Marko Kranjc /…/ Preden so šli v sobo, me je dr. Zalokar potegnil na stran in
+                    povedal na kratko, da je za nas vojne konec, ker so Hrvati proglasili nezavisno
+                    državo. Nasvetoval mi je, naj se kar s člani Narodnega sveta odpeljem nazaj v
+                    Ljubljano. Pokazal mi je tudi razglas Narodnega sveta glede na novo nastali
+                    položaj in me vprašal, če ga odobravam. Jaz sem mu pritrdilno odgovoril.
+                    Razgovoru med nama so se priključili še dr. Kravina, Miloš Stare, Marko Kranjc,
+                    dr. Gosar in še nekateri. Povedali so mi, da so prišli našemu generalu staviti
+                    predlog, da se Slovenija proglasi za samostojno državo, ki naj pristopi k osi,
+                    proglasi našo divizijo in ostale še organizirane edinice na slovenskem
+                    teritoriju za Slovensko Narodno vojsko, ki naj bi obenem takoj zaprosila za
+                        premirje.«<note place="foot" xml:id="ftn55" n="53"> Ibid., 20.</note></p>
+                <p>Namen Narodnega sveta za Slovenijo je bil podreditev jugoslovanske kraljeve
+                    vojske, ki se je nahajala na ozemlju Dravske banovine, in podpis premirja z
+                    nemškimi oboroženimi silami. Vendar se vojaški poveljniki niso strinjali z
+                    Natlačenovo razlago in predlogi ter so dejali, da o zahtevi po premirju ne more
+                    biti govora, ker »obstaja jugoslovanska vojska na ozemlju Slovenije, ki mora
+                    svojo jugoslovansko dolžnost izvajati do konca, ne glede na dogodke na Hrvaškem,
+                    pri čemer še ne vemo, če se dogodki tam ne morejo odpraviti«.<note place="foot"
+                        xml:id="ftn56" n="54"> Bjelajac in Trifunović, <hi rend="italic">Između
+                            vojske i politike</hi>, 239-43.</note> Hkrati pa
+                    je general Pandurović še dejal, da »s čisto formalne strani, kot tudi z
+                    državnopravnega vidika ne morem sprejeti kot merodajnega tega prevzema vrhovne
+                    oblasti s strani narodnega sveta«.<note place="foot" xml:id="ftn57" n="55">
+                        Ibid.</note></p>
+                <p>Tako je »zgodovinska« vloga, ki so jo pobudniki namenili Narodnemu svetu, že
+                    takoj naletela na nepredvidene ovire, saj se je Narodnemu svetu načrt zalomil že
+                    ob prvem koraku, to je ob poskusu podreditve jugoslovanske kraljeve vojske na
+                    slovenskem ozemlju. Kljub temu je Narodni svet nadaljeval zastavljeno delo in
+                    zjutraj 11. aprila 1941 je bila Natlačenova »prva skrb, kako bi prišel v stik z
+                    nemško vojsko in to zaradi ustavitve sovražnosti, zaradi razgovora o neoviranem
+                    povratku pripadnikov naše vojske k normalnemu poklicnemu delu in zaradi usode
+                    slovenskega ozemlja in civilne uprave na tem ozemlju«.<note place="foot"
+                        xml:id="ftn58" n="56"> »Dr. Marko Natlačen o svojem delovanju«, 129.</note>
+                    V tem smislu je Natlačen mrzlično iskal zvezo z nemškimi oboroženimi silami, a
+                    je bil izkupiček teh prizadevanj popolnoma negativen, saj je iz Berlina prišlo
+                    sporočilo, da ne vidijo možnosti, da bi prišli v stik z Narodnim svetom.<note
+                        place="foot" xml:id="ftn59" n="57"> Ibid., 135.</note>
+                </p>
+                <p>Takšen odgovor je v bistvu pomenil, da nemška vlada zavrača možnost ustanovitve
+                    slovenske države pod njeno zaščito. V Berlinu so namreč zelo natančno vedeli, s
+                    kakšnimi razlogi je bil 6. aprila 1941 v Ljubljani ustanovljen Narodni svet in
+                    zakaj je skušal Natlačen priti v stik z nemško vlado, saj so že v večernih urah
+                    5. aprila 1941 prejeli brzojavko s Kulovčevo in Krekovo prošnjo za ustanovitev
+                    slovenske (oz. skupne slovensko-hrvaške) države.<note place="foot"
+                        xml:id="ftn60" n="58">
+                        <hi rend="italic">Slovenski zbornik 2007</hi>, 348, 349<hi rend="italic"
+                            >.</hi></note> V Berlinu so namreč dobro »povezali« obisk Kulovca in
+                    Kreka pri slovaškem odpravniku poslov 5. aprila v Beogradu in ustanovitev
+                    Narodnega sveta 6. aprila 1941. Zato so bili Nemci natančno seznanjeni, s
+                    kakšnimi nameni je Natlačen skušal navezati stike z nemško vlado, ko je
+                    delegacija Narodnega sveta odšla v Celje. Hitlerjev oz. nemški odgovor na pobudo
+                    o ustanovitvi slovenske države oz. države, sestavljene iz Slovenije in Hrvaške,
+                    ki sta jo Kulovec in Krek 5. aprila 1941 izrazila po slovaškem posredništvu, je
+                    tako dejansko prispel, ne sicer v Beograd, temveč v Celje, najprej 11. aprila
+                    1941, nato pa dokončno 14. aprila 1941, ko je bilo Marku Kranjcu lakonično
+                    sporočeno, »da predstavnik ministrstva zunanjih zadev ne vidi možnosti, da bi se
+                    mogel sestati s predsednikom Slovenskega narodnega sveta«.<note place="foot"
+                        xml:id="ftn61" n="59"> Godeša, <hi rend="italic">Čas odločitev</hi>, 200-215. </note>
+                </p>
+            </div>
+            <div>
+                <head>Usoda Narodnega sveta za Slovenijo</head>
+                <p>Že v času vzpostavljanja stikov z nemško stranjo so se razmere na slovenskem
+                    ozemlju od prvotnih pričakovanj v Narodnem svetu, ki je vse stavil na nemško
+                    karto, bistveno spremenile. Natlačena in sodelavce je neprijetno presenetil
+                    prihod italijanske vojske v Ljubljano popoldne 11. aprila 1941. Dotlej so namreč
+                    pričakovali prihod Nemcev, zato je Natlačen odposlance tudi pošiljal k njim. </p>
+                <p>Ker prizadevanja Narodnega sveta za uveljavitev suverenosti in njeno priznanje od
+                    Hitlerja niso obrodila sadov, so se medtem predstavniki predvojne politične
+                    elite za uresničitev zastavljenih načrtov odločili obrniti na fašistično
+                    Italijo. V ta namen so sestavili posebno spomenico in jo 18. aprila 1941
+                    naslovili na Mussolinija. V njej so med drugim poudarili, da je »v sedanjih
+                    usodnih trenotkih /…/ naša najbolj elementarna želja, da bi Slovenija ostala
+                    nerazdeljena in bi kot celota prišla pod nov režim. Na ta način kot politična in
+                    upravna enota organizirana Slovenija, ki teži po svoji geopolitični legi in
+                    strukturi že sama k Jadranskemu morju, bi se mogla tudi politično gospodarsko
+                    uspešno nasloniti na Kraljevino Italijo.«<note place="foot" xml:id="ftn62"
+                        n="60"> Ibid., 224.</note> Podpisniki spomenice so bili Natlačen, Gosar,
+                    ljubljanski župan Juro Adlešič in Ivan Pucelj, in ne Narodni svet za Slovenijo.
+                    Dan pred tem, 17. aprila 1941 popoldan, je namreč predsednik Narodnega sveta za
+                    Slovenijo Marko Natlačen izročil upravo civilnemu predstavniku italijanske
+                    vojaške uprave Emiliju Grazioliju. S tem je tudi prenehala oblastna funkcija
+                    Narodnega sveta, ki ga je Grazioli nemudoma razpustil. Tako se je povsem
+                    izčrpala njegova »zgodovinska« vloga, ki mu jo je namenil načelnik SLS Kulovec
+                    3. aprila 1941, ko je strankarskim somišljenikom naročil ustanovitev Narodnega
+                    sveta za Slovenijo. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <list type="unordered">
+                    <head>Arhivski viri:</head>
+                    <item>SI_ AS, Arhiv Republike Slovenije:<list>
+                            <item>SI_ AS/1660, Osebna zbirka Izidorja Cankarja.</item>
+                            <item>SI_ AS/1898, Zbirka Slovenske ljudske stranke.</item>
+                            <item>SI_ AS/1931, Republiški sekretariat za notranje zadeve. </item>
+                            <item>SI_ AS/2065, Zbirka Frančka Sajeta.</item>
+                        </list></item>
+                </list>
+                <listBibl>
+                    <head>Tiskani viri in literatura:</head>
+                    <bibl>Ahčin, Ivan. »Spomini na začetek naše tragedije.« <hi rend="italic"
+                            >Koledar Svobodne Slovenije 1951</hi>. Buenos Aires, 1951.</bibl>
+                    <bibl><hi rend="italic">Akten zur Deutschen auswärtigen Politik 1918–1945, Serie
+                            D: 1937-1941, Band XII. 1, Die Kriegsjahre,</hi> 5. <hi rend="italic"
+                            >Band, 1. Halbband (Februar-April 1941).</hi> Göttingen, 1969. </bibl>
+                    <bibl>Arnež, Janez A. <hi rend="italic">Ciril Žebot in njegov politični
+                            nastop</hi>. Ljubljana in Washington, D.C.: Studia slovenica, 2006. </bibl>
+                    <bibl>Arnež, Janez A. <hi rend="italic">Slovenska ljudska stranka
+                        1941–1945</hi>. Ljubljana in Washington, D.C.: Studia slovenica,
+                        2002.</bibl>
+                    <bibl>Bjelajac, Mile in Predrag Trifunović. <hi rend="italic">Između vojske i
+                            politike. Biografija generala Dušana Trifunovića (1880–1942)</hi>.
+                        Beograd: INIS – Narodni Muzej Kruševac, 1997. </bibl>
+                    <bibl>Bjelajac, Mile S. <hi rend="italic">General Dragiša Pandurović. Život i
+                            svedočenja.</hi> Beograd: INIS, 2007.</bibl>
+                    <bibl>Boban, Ljubo. <hi rend="italic">Maček i politika Hrvatske seljačke stranke
+                            1928–1941 (II. knjiga).</hi> Zagreb: Liber, 1974.</bibl>
+                    <bibl>Čermelj, Lavo.
+                        <hi rend="italic" xml:space="preserve">Med prvim in drugim tržaškim procesom. </hi>Ljubljana:
+                        Slovenska matica, 1972.</bibl>
+                    <bibl><hi rend="italic">Documents on German Foreign Policy 1918-1945. Series D
+                            (1937), Volume XII, The War Years. February 1-June 22, 1941</hi>.
+                        Washington, 1962. Dosegljivo na: <ref
+                            target="https://ia601404.us.archive.org/17/bibls/DocumentsOnGermanForeignPolicy-SeriesD-VolumeXii-February1-June/DocumentsOnGermanForeignPolicy-SeriesD-VolumeXii-February1-June221941_text.pdf"
+                            >https://ia601404.us.archive.org/17/bibls/DocumentsOnGermanForeignPolicy-SeriesD-VolumeXii-February1-June/DocumentsOnGermanForeignPolicy-SeriesD-VolumeXii-February1-June221941_text.pdf</ref>.</bibl>
+                    <bibl><hi rend="italic">Dokumenti ljudske revolucije v Sloveniji, knjiga 2
+                            (april 1942 – julij 1942).</hi> Ljubljana: Inštitut za zgodovino
+                        delavskega gibanja, 1964.</bibl>
+                    <bibl>Đilas, Milovan<hi rend="italic">. Memoir of a Revolutionary</hi>. New
+                        York: Harcourt Brace Jovanovich, 1973.</bibl>
+                    <bibl>Fajfar, Tone. <hi rend="italic">Odločitev. Spomini in partizanski
+                            dnevnik</hi> (druga, dopolnjena izdaja). Ljubljana: Založba Borec,
+                        1981.</bibl>
+                    <bibl>Godeša, Bojan. »Dr. Andrej Gosar v času okupacije 1941–1945.« V: <hi
+                            rend="italic">Dr. Andrej Gosar (1887-1970), </hi>ur. Jure Gašparič in
+                        Alenka Veber, 47–56. Celje: Društvo Mohorjeva družba-Celjska Mohorjeva
+                        družba, 2015.</bibl>
+                    <bibl>Godeša, Bojan. <hi rend="italic">Čas odločitev. Katoliški tabor in začetek
+                            okupacije</hi>. Ljubljana: Mladinska knjiga, 2011.</bibl>
+                    <bibl>Godeša, Bojan. <hi rend="italic">Slovensko nacionalno vprašanje med drugo
+                            svetovno vojno.</hi> Ljubljana: Inštitut za novejšo zgodovino,
+                        2006.</bibl>
+                    <bibl>Granda,
+                        Stane.<hi rend="italic" xml:space="preserve"> Mala zgodovina Slovenije</hi>.
+                        Celje: Celjska Mohorjeva družba, 2008.</bibl>
+                    <bibl>Grdina, Igor. »Usodne odločitve slovenskih politikov in intelektualcev.«
+                        V:
+                        <hi rend="italic" xml:space="preserve">Slovenska kultura v vojnem času, </hi>ur.
+                        Peter Vodopivec, Drago Jančar in Katja Kleindienst, 10–24. Ljubljana:
+                        Slovenska matica, 2005.</bibl>
+                    <bibl>Ivešić, Tomaž. »Delovanje dr. Franca Kulovca na čelu SLS in ključni
+                        dogodki pred vojno.« <hi rend="italic">Časopis za zgodovino in
+                            narodopisje</hi>, 84 (49), št. 1 (2013): 83–118.</bibl>
+                    <bibl>Jurčec, Ruda. <hi rend="italic">Skozi luči in sence 1918-1958 (3. del:
+                            1935-1941).</hi> Buenos Aires, 1969. </bibl>
+                    <bibl>Kuhar, Alojzij. <hi rend="italic">Beg iz Beograda aprila 1941.</hi>
+                        Ljubljana in Washington, D. C.: Studia slovenica, 1998.</bibl>
+                    <bibl><hi rend="italic">Narodnoosvobodilni boj v slovenskem narodnem spominu:
+                            Slovenski zbornik 2007</hi>, ur. Janez Stanovnik, Slavko Grčar in
+                        Hardvik Pirnovar, 348, 349. Ljubljana: GO ZZB NOB Slovenije, 2007. »Prevod
+                        poročila nemškega odpravnika poslov v Beogradu 5. aprila 1941 zunanjemu
+                        uradu v Berlin o usodi Slovenije v sodelovanju z Nemčijo.« </bibl>
+                    <bibl><hi rend="italic">Prispevki za novejšo zgodovino</hi> 41, št. 1 (2001):
+                        117–48. »Dr. Marko Natlačen o svojem delovanju med 6. aprilom in 14. junijem
+                        1941.« </bibl>
+                    <bibl><hi rend="italic">Proces proti vojnim zločincem in izdajalcem Rupniku,
+                            Rösenerju, Rožmanu, Kreku, Vizjaku in Hacinu</hi>. Ljubljana: Slovenski
+                        knjižni zavod, 1946.</bibl>
+                    <bibl>Rus, Josip Andrej. <hi rend="italic">Pričevanja in spomini. O sokolstvu,
+                            Osvobodilni fronti in novi Jugoslaviji</hi>. (Besedilo uredil ter uvodno
+                        študijo napisal Jurij Perovšek). Ljubljana: Založba Borec, 1989.</bibl>
+                    <bibl>Saje, Franček.
+                        <hi rend="italic" xml:space="preserve">Belogardizem </hi>(druga, dopolnjena
+                        izdaja). Ljubljana: Slovenski knjižni zavod, 1952.</bibl>
+                    <bibl>Snoj Franc. »Spomini člana emigrantske vlade.« (začetek). <hi
+                            rend="italic">Delo</hi>, 16. 4. 1998.</bibl>
+                    <bibl> Vidovič-Miklavčič, Anka. <hi rend="italic">Mladina med nacionalizmom in
+                            katolicizmom. Pregled razvoja in dejavnosti mladinskih organizacij,
+                            društev in gibanj v liberalno-unitarnem in katoliškem taboru v letih
+                            1929–1941 v jugoslovanskem delu Slovenije.</hi> Ljubljana: Študentska
+                        organizacija Univerze, 1994.</bibl>
+                    <bibl>Zakrajšek, Kazimir. <hi rend="italic">Ko smo šli v morje bridkosti.</hi>
+                        Washington, D.C.: <hi rend="color(333333)">[s. n.]</hi>, 1942.</bibl>
+                    <bibl><hi rend="italic">Zapisnici sa sednica Ministarskog saveta Kraljevine
+                            Jugoslavije 1941-1945,</hi> ur. Zoran Živković in Miladin Milošević.
+                        Beograd: Arhiv Srbije i Crne Gore, 2004.</bibl>
+                </listBibl>
+            </div>
+            <div type="summary" xml:lang="en">
+                <docAuthor>Bojan Godeša</docAuthor>
+                <head>OCCUPATION AS A TURNING POINT IN THE ORGANISATION OF SLOVENIAN POLITICAL
+                    ENTITIES – ON THE HISTORICAL ROLE OF THE NATIONAL COUNCIL FOR SLOVENIA</head>
+                <head>SUMMARY</head>
+                <p>This paper examines the problems of the National Council for Slovenia, which was
+                    established at the proposal of Dr. Marko Natlačen, ban of the Drava Banate, when
+                    the Axis powers invaded Yugoslavia on 6 April 1941. The Council included
+                    representatives of all pre-war political parties, save for the Communists. The
+                    efforts of the Communists to join the Council were rejected with a justification
+                    that the Communist Party of Slovenia was an illegal party. The only legal party
+                    in the National Council was the Yugoslav National Party, which included the
+                    Slovenian liberals, while all the others, including the Slovene People's Party,
+                    which abolished its name of the Yugoslav Radical Union after Simović's coup and
+                    readopted its old name, i.e. the Independent Democratic Party, as well as the
+                    People's Radical Party and the Socialist Party of Yugoslavia, were illegal
+                    according to the provision in the 1931 Yugoslav constitution that forbade
+                    operation on a “tribal” (national) basis. Furthermore, the Yugoslav constitution
+                    alone did not include provisions for the establishment of the National Council
+                    for Slovenia, which rendered the council an illegal entity that was established
+                    ad hoc. The order for establishing the National Council for Slovenia after the
+                    anticipated attack of the Axis powers on Yugoslavia was conveyed to his party
+                    colleagues by head of the Slovene People's Party, Franc Kulovec, following the
+                    example of the same entity from 1918, when it helped manage the Slovenian
+                    interests during the dissolution of the Habsburg Monarchy. It is precisely with
+                    this purpose that Kulovec came to Ljubljana on 3 April 1941 and immediately
+                    afterwards returned to Belgrade, where he was still serving in Simović's
+                    government as a minister. Kulovec based the idea to establish the National
+                    Council on the information he had obtained in Belgrade. Based on this news, head
+                    of the Slovene People's Party came to a conclusion that Yugoslavia as a state
+                    would no longer be able to exist after the inevitable German attack. According
+                    to the news circulating in Belgrade, a Croatian state would allegedly be built
+                    on its ruins and “Slovenia would become some sort of a German protectorate”. For
+                    realising such a solution, namely the establishment of a Slovenian state under
+                    the protectorate of the Nazi Germany, the National Council for Slovenia was
+                    established on 6 April 1941. This decision meant that the Slovenian political
+                    elite tied its existence to the fate of the Axis powers in the war. Those who
+                    held power in the Drava Banate founded such decision on a belief that the Axis
+                    powers would win the global conflict. After France capitulated in the summer of
+                    1940, such strategic orientation was outlined by the long-time charismatic
+                    leader of the Slovenian Catholic political circles, Dr. Anton Korošec. Only a
+                    good month before his death in December 1940, head of the Slovene People's Party
+                    based the essence of such strategy during a conversation with German ambassador
+                    to Belgrade on a belief that “the unequivocal and sole option to protect his
+                    Slovenian homeland is to strongly lean on the Axis, especially Germany”.</p>
+                <p>After the news emerged about the establishment of the Independent State of
+                    Croatia on 10 April 1941 in Zagreb, the National Council took over the supreme
+                    authority and opened talks with representatives of the Yugoslav Army in the
+                    Drava Banate about their subjection to the National Council, but nothing came of
+                    them. Further efforts of the National Council to implement sovereignty and
+                    obtain Hitler's recognition of it were also fruitless, since the Council did not
+                    manage to get into contact with the German government in Berlin. After the
+                    Italian army reached Ljubljana, the president of the National Council for
+                    Slovenia, Marko Natlačen, in the afternoon of 17 April 1941, handed over the
+                    administration to Emilio Grazioli, the civil representative of the Italian
+                    military administration. This deed terminated the authoritative function of the
+                    National Council, which Grazioli immediately dissolved. At the same time, it was
+                    the end of Natlačen's “historical” role which Kulovec, who was head of the
+                    Slovene People's Party, designated for him on 3 April 1941, when he ordered the
+                    like-minded members of his party to establish the National Council for
+                    Slovenia.</p>
+            </div>
+        </back>
+    </text>
+</TEI>
