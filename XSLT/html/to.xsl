@@ -8,7 +8,7 @@
     version="2.0">
   <!-- import base conversion style -->
   
-  <xsl:import href="https://raw.githubusercontent.com/TEIC/Stylesheets/dev/html/html.xsl"/>
+  <xsl:import href="../../../../GitHub\Stylesheets/html/html.xsl"/>
   
 
   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl" scope="stylesheet" type="stylesheet">
