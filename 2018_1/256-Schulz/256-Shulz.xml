@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>»What does it have to do with us?« – Rethinking the Russian
+                        Revolution in Germany</title>
+                <author>
+                    <name>
+                        <forename>Andreas</forename>
+                        <surname>Schulz</surname>
+                    </name>
+                    <roleName>Professor</roleName>
+                    <roleName>PhD</roleName>
+                    <affiliation>Kommission für Geschichte des
+                        Parlamentarismus und der politischen Parteien,</affiliation>
+                    <address>
+                        <addrLine>Schiffbauerdamm 40</addrLine>
+                        <addrLine>D-10117 Berlin</addrLine>
+                    </address>
+                    <email>Schulz@kgparl.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2018-02-20</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/256</pubPlace>
+                <date>2018</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">58</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Commemorating the »World Revolution«, , </term>
+                    <term>Global effects of 1917</term>
+                    <term>Impacts of the Red October on Germany</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>čaščenje spomina na "svetovno revolucijo"</term>
+                    <term>globalne posledice leta 1917</term>
+                    <term>vplivi Rdečega oktobra na Nemčijo</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2018-02-23</date>
+                    <name>Neja Blaj Hribar</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Andreas Schulz<note place="foot" xml:id="ftn1" n="*">
+                <hi rend="bold">Professor, PhD, Kommission für Geschichte des
+                    Parlamentarismus und der politischen Parteien,<lb/>Schiffbauerdamm 40,
+                    D-10117 Berlin, </hi><ref target="mailto:Schulz@kgparl.de"><hi rend="bold">Schulz@kgparl.de</hi></ref></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss type: 1.01</idno>
+                <idno type="UDC">UDC: </idno>
+            </docImprint>
+            <div type="abstract" xml:lang="sl">
+                <head>IZVLEČEK</head>
+                <head>»KAJ IMA ZA OPRAVITI Z NAMI?« – PONOVNO VREDNOTENJE RUSKE REVOLUCIJE V NEMČIJI</head>
+                <p><hi rend="italic">Avtor predstavlja pregled razstav in novejših publikacij v Nemčiji,
+                    posvečenih stoti obletnici oktobrske revolucije leta 1917. Po stoletju
+                    raziskovanja sta veličastnost in herojstvo iz časov rojstva "velike
+                    socialistične oktobrske revolucije" že povsem zbledela. Z demistifikacijo se je
+                    tako imenovana "svetovna revolucija" premaknila v okvir ruske zgodovine. Vendar
+                    ta nacionalizacija revolucije marginalizira globalne posledice Rdečega oktobra,
+                    zlasti kadar se boljševiški prevzem oblasti razlaga preprosto kot uspešno
+                    prizadevanje za preoblikovanje anarhije v organizirani režim terorja, ki ga je
+                    izvajala odločna in požrtvovalna avantgarda. Medtem ko totalitarni pristop
+                    zanemarja socialne korenine revolucije, novejše kulturne študije poudarjajo
+                    naključne dejavnike in degradirajo revolucionarno vstajo kot eskalacijo
+                    državljanske vojne na kontaminiranih "območjih nasilja". Avtor v drugem delu
+                    tega prispevka pusti za sabo vse takšne celovite razlage in velike načrte ter
+                    opozori na dolgotrajne strukturne spremembe, ki jih je ruska revolucija
+                    povzročila v povojni Evropi. Svoje argumente osredotoči na tri ravni – najprej
+                    na politične institucije, nato na gospodarski in družbeni red, nazadnje pa na
+                    demografske spremembe.</hi></p>
+                <p><hi rend="italic">Ključne besede: čaščenje spomina na "svetovno revolucijo", globalne
+                    posledice leta 1917, vplivi Rdečega oktobra na Nemčijo</hi></p></div>
+            <div type="abstract"><head>ABSTRACT</head>
+                <p><hi rend="italic">The author reviews exhibitions and recent publications in Germany
+                    which commemorate the centennial of the October Revolution 1917. After a full
+                    century of research there is little left of glory and heroism that had been
+                    present at the dawn of the »Great Socialist October Revolution«. A
+                    de-mystification has taken place which relocates the proclaimed »World
+                    Revolution« into the frame of Russian history. But this nationalization of the
+                    revolution tends to marginalize the global effects of the Red October,
+                    especially when the Bolshevik seizure of power is simply explained as a
+                    successful effort to transform anarchy into an organised regime of terror
+                    practised by a determined and self-sacrificing Avantgarde. While the
+                    totalitarian approach neglects the social origins of the Revolution, recent
+                    cultural studies emphasise contingent factors downrating revolutionary uprisings
+                    as an escalation of civil war in contaminated »landscapes of violence«. Leaving
+                    behind such entire explanations and grand designs, the second part of this paper
+                    wants to draw attention to the enduring structural changes which the Russian
+                    Revolution caused in post-war Europe. The author concentrates his arguments on
+                    three levels, beginning with the political institutions, secondly, the economic
+                    and social order, and thirdly, the demographic change.</hi></p>
+                <p><hi rend="italic">Keywords: Commemorating the »World Revolution«, Global effects of
+                    1917, Impacts of the Red October on Germany</hi></p></div>
+        </front>
+        <body>
+            <div><p>In the calendar of centennial commemorations of the October Revolution in Germany,
+                the exhibition »<hi rend="italic">1917 Revolution – Russland und die Folgen«</hi> in
+                the <hi rend="italic">Deutsche Historische Museum</hi> in Berlin had a prominent
+                place. »What does the revolution have to do with us? « – is a rhetorical question,
+                which the curators did not specifically answer because they were more interested in
+                the celebrations of the revolutionary heritage in post-soviet Russia.<note place="foot" xml:id="ftn2" n="1"> Kristiane Janeke,
+                        "Einführung," in:
+                        <hi rend="italic" xml:space="preserve">1917. Revolution: Russland und die Folgen </hi>(Berlin:
+                        Sandstein Verlag, 2017), 10–13.</note> But indeed, looking back from
+                2017, it is evident that nothing is left of the hopes and fears that contemporaries
+                all over the world shared when the Bolsheviks announced the dawn of a new age of
+                mankind under the name of the »Great Socialist October Revolution«.<note place="foot" xml:id="ftn3" n="2"> Eric J. Hobsbawm, <hi rend="italic">Das Zeitalter der Extreme: Weltgeschichte des 20.
+                            Jahrhunderts 1914–1991</hi> (München: Hanser, 1995), 91–93.</note>
+                With the end of the Cold War, it seemed as if the global revolutionary challenge and
+                the utopian promises, which the Soviet Union held up as the legitimate heir of
+                Leninism, completely disappeared.<note place="foot" xml:id="ftn4" n="3"> Jan Claas Behrends et. al., "100 Jahre Roter Oktober.
+                        Versuche zur Historisierung der Russischen Revolution," in: <hi rend="italic">100 Jahre Roter Oktober. Zur Weltgeschichte der Russian
+                            Revolution</hi> (Berlin: Christoph Links, 2017), 9. Jan C. Behrends,
+                        "Was bleibt vom Kommunismus? Eine historische Betrachtung zum 100. Jahrestag
+                        der Russischen Revolution," in: <hi rend="italic">1917. 100 Jahre
+                            Oktoberrevolution und ihre Fernwirkungen auf Deutschland</hi>
+                        (Baden-Baden: Nomos, 2017), 23‒37.</note> A brief look at the bestseller
+                book list shows that the year 1917 has become a rather forgotten time in history.
+                While the commemoration of the »Great War« from 1914 to 1918 produced a rich harvest
+                of detailed studies<note place="foot" xml:id="ftn5" n="4">
+                        Books on First World War are bestsellers, see for example: Jörn Leonhard,
+                            <hi rend="italic">Die Büchse der Pandora. Geschichte des Ersten
+                            Weltkriegs</hi> (München: C.H.Beck, <hi rend="superscript">5</hi>2014).
+                        Herfried Münkler, <hi rend="italic">Der große Krieg. Die Welt 1914‒1918</hi>
+                        (Berlin: Rowohlt, <hi rend="superscript">4</hi>2014).</note>, which
+                claim to deliver new insights, recent publications about the Russian Revolution of
+                1917 remain in the shadow of latest historiographical research. Nonetheless, it is
+                worth considering its significant importance once again after a hundred years,
+                despite the fact that the »World Revolution«, which Lenin and the Bolsheviks
+                proclaimed, never happened.</p></div>
+            <div><head>A Final Farewell to the World
+                Revolution?</head>
+            <div><p>A full century of research has de-mystified the Russian Revolution, leaving little of
+                the glory and heroism which had always surrounded memories and historiography.<note place="foot" xml:id="ftn6" n="5"> Gerd Koenen, "Der
+                        »Rote Oktober« als Mythos und Utopicum," in: <hi rend="italic">Russland und
+                            die Folgen</hi>, 141‒57.</note> Some historians wonder if the
+                revolution really mattered enough to call it a break of continuity in contemporary
+                world history at all. There is a growing tendency to locate the years 1917‒1920 in
+                the frame of <hi rend="italic">Russian</hi> history, so that we may speak of a
+                »de-globalisation« and »nationalisation« of the October Revolution. How this
+                rearrangement has changed our general perception of the Russian Revolution will be
+                discussed in the first part of this paper. It is evident that with the end of the
+                Cold War, ideological debates ceased and grand narratives fell silent. However,
+                there is reason enough to consider the immediate impacts and long-term structural
+                changes that the revolution caused. This will be explored in the second part of this
+                paper.</p></div>
+            <div><head>Relocating the Russian Revolution</head>
+            <p>It has long been common knowledge that the Russian Revolution was a turning point in
+                world history because it laid the foundations for a global bi-polar division between
+                liberal-capitalist »Western« democracies and the socialist hemisphere, dominated by
+                a Soviet system and based on social collectivism and state economy. Historians in
+                the GDR periodically celebrated the Bolshevik Revolution as the beginning of an age
+                of emancipation which liberated mankind from expropriation and imperialistic wars.
+                Their »bourgeois« counterparts in West Germany agreed with them insofar as they
+                recognised the global historical dimension of the revolution. In the aftermath of
+                the dissolution of the Soviet Union, this perception entirely changed. Only a
+                marginalised group of convinced Marxist-Leninists remains engaged in periodical
+                commemorations of the »Great Socialist October Revolution«, thus preserving the
+                canonical interpretation of the Bolsheviks’ historical mission.<note place="foot" xml:id="ftn7" n="6"> See for example the contributions
+                        to the 10th conference of Historical Research organised by the »Marxistische
+                        Arbeitskreis zur Geschichte der deutschen Arbeiterbewegung bei der
+                        Historischen Kommission der Partei des Demokratischen Sozialismus (PDS)« in
+                        1997: Lothar Berthold, "»Sie war und bleibt die Große Sozialistische
+                        Oktoberrevolution!«," in: <hi rend="italic">Die Oktoberrevolution 1917 und
+                            ihr Platz in der Geschichte</hi> (Bonn: Pahl-Rugenstein, 1997), 71–81.
+                        Stefan Doernberg, "Oktoberrevolution ‒ Epochenwechsel oder Weg in die
+                        Sackgasse?," in: <hi rend="italic">Die Oktoberrevolution 1917 und ihr Platz
+                            in der Geschichte,</hi> 9–26. Martin Sabrow, "Der »Rote Oktober« und
+                        sein Nachhall im geteilten Deutschland," in: <hi rend="italic">Russland und
+                            die Folgen</hi>, 125‒39.</note> With the vanishing aurora of the
+                »Red October«<note place="foot" xml:id="ftn8" n="7">
+                        François Furet, <hi rend="italic">Das Ende der Illusion. Der Kommunismus im
+                            20. Jahrhundert</hi> (München and Zürich: Piper, <hi rend="superscript">2</hi>1996) 87–137, 549–97. Behrends et. al., <hi rend="italic">Historisierung</hi>, 26.</note>, the main stream of research is
+                re-directing its orientation, substituting the outlook on the global impacts of the
+                revolution with a retrospection on its national origins. Historians are turning
+                their attention to the late Empire, explaining the Russian Revolutions in view of
+                the economic crises and social uprisings which accelerated the breakdown of the
+                    Empire.<note place="foot" xml:id="ftn9" n="8"> Manfred
+                        Hildermeyer, <hi rend="italic">Geschichte Russlands vom Mittelalter bis zur
+                            Oktoberrevolution</hi> (München: C.H.Beck, 2013). Manfred Hildermeyer,
+                            <hi rend="italic">Die Sowjetunion 1917‒1991</hi> (Berlin: De Gruyter,
+                            <hi rend="superscript">3</hi>2016). Helmut Altrichter, <hi rend="italic">Russland 1917. Ein Land auf der Suche nach sich selbst</hi> (Paderborn:
+                        Ferdinand Schöningh, <hi rend="superscript">2</hi>2017).</note> The
+                great narratives published in Germany during the last few years tell us about <hi rend="italic">Russian</hi> history, thereby emphasising the singularity of
+                the<hi rend="italic" xml:space="preserve"> Russian</hi> revolutions from February to
+                October 1917. However, nationalising the October Revolution does not necessarily
+                imply neglecting or denying its considerable impacts on other countries, which will
+                be demonstrated later in the paper. It is not a complete revision but rather a
+                de-mystification of the glorious »Great Socialist Revolution« that has taken place,
+                returning Red October back into Russian history. </p></div>
+            <div><head><hi rend="italic">Revolutionary Leviathan</hi></head>
+            <p>Marxist historiography has failed to validate its »scientific« dogma of the
+                inevitability of a socialist world revolution terminating the age of capitalism.
+                Treating history as a continuous progression of mankind towards perfection, made the
+                October Revolution appear inevitable. Quite a corresponding teleology is offered by
+                Western theories of modernisation, which presume a final destination of modern civil
+                societies. According to each country’s current level of participation,
+                industrialisation and pluralism, standards of »advanced democracies« are developed,
+                dividing the world into areas of progression and regression. In reference to this
+                paradigm of progress, the Russian Revolutions were qualified as »crises«, resulting
+                from the disability of an autocratic state to adjust its traditional society and
+                local economy to global modernisation. </p>
+            <p>Anticipations concerning the irreversibility of the emancipation of mankind, the
+                progress of democracy and economic globalisation did affect historiographic research
+                on the Russian Revolution for quite some time. Obviously, the progressive approach
+                to history tended to emphasise the structural deficiencies of the autocratic system
+                in the late Empire. Unlike the dynasty’s violent physical elimination, the Empire of
+                the Romanovs suffered a silent breakdown rather than being swept away by
+                revolutionary force. The »failed« Empire did not simply drown in anarchy and civil
+                war, contrary to what the liberal opponents of the Russian revolutionaries have
+                always maintained. Against all expectations, the Bolshevik Revolution finally
+                succeeded in establishing a centralised bureaucratic party-rule. It continued to
+                submit civil society to the restructured state authority. Converting the former
+                imperial military and police forces to loyal instruments, the Bolshevik Leviathan
+                practised (red) terror in similar ways to how the autocratic monarchy had exerted
+                    power.<note place="foot" xml:id="ftn10" n="9"> See
+                        chapter II »Ein Staat in der Krise,« in: Altrichter, <hi rend="italic">Russland 1917</hi>, 192–259. Resuming latest research: Hildermeyer, <hi rend="italic">Sowjetunion</hi>. For a differentiating and critical
+                        Marxist interpretation see: Helmut Bock, "Die Russische Revolution 1917‒1921
+                        ‒ Sieg oder Tragödie?," <hi rend="italic">Pankower Vorträge,</hi> No. 71
+                        (2005).</note></p>
+            <p>Recent historiography evidently adopts a renewed totalitarianism-paradigm, explaining
+                that the seizure of power and the regime of total control, that the Bolshevik
+                intelligentsia established, was for their own sake. After the victorious
+                pacification of the Civil War, the mission of authoritarian rule and state
+                monopolism was accomplished.<note place="foot" xml:id="ftn11" n="10"> Martin Malia, <hi rend="italic">Vollstreckter Wahn.
+                            Russland 1917–1991</hi> (Stuttgart: Klett-Cotta, 1994). Hildermeyer, <hi rend="italic">Sowjetunion</hi>, 117–22.</note> Its centralised state
+                power and modernism was pushed forward by a determined elite, who acted with
+                revolutionary energy. The analogy of this narrative to Tocqueville’s »Ancien Régime
+                and the Revolution« and the liberal interpretation of the French Revolution is
+                    obvious.<note place="foot" xml:id="ftn12" n="11"> Arno
+                        J. Mayer, <hi rend="italic">The Furies. Violence and Terror in the French
+                            and the Russian Revolution</hi> (Princeton/NJ: Princeton University
+                        Press, 2000).</note> Aside from this »statist« view, there is a growing
+                inclination to avoid such all-embracing »entire« explanations. Recent research has
+                taken into account the peculiarities, singularities and contingencies of Russian
+                history which might not be derived from general assumptions about authoritarian
+                pre-dispositions of a centralised state. The outstanding personality of Lenin, the
+                self-sacrificing ideological determination of the revolutionary »Avantgarde«, and
+                the massive agrarian discontent might be mentioned as crucial elements of an
+                exceptional case of revolutionary pre-conditions.<note place="foot" xml:id="ftn13" n="12"> Bock, <hi rend="italic">Russische
+                            Revolution</hi>, 29–46.</note></p></div>
+            <div><head>Extinguishing Revolutionary Time ‒ The Continuous Experience of War
+                    and Violence.</head>
+            <p>Not surprisingly, the cultural turn produced some essential revisions in
+                historiography which might be considered as a marginalisation of the October
+                Revolution. Historians representing the current main-stream of »culturalism« have
+                dismissed the breaking-point of 1917 in the continuum of a history of violence
+                linking Imperial Russia, the October Revolution and the Civil War.<note place="foot" xml:id="ftn14" n="13"> Jörg Baberowski and Gabriele
+                        Metzler, eds. <hi rend="italic">Gewalträume ‒ soziale Ordnungen im
+                            Ausnahmezustand</hi> (Frankfurt am Main: Campus Verlag, 2012). Jörg
+                        Baberowski, <hi rend="italic">Räume der Gewalt</hi> (Frankfurt am Main: S.
+                        Fischer, <hi rend="superscript">2</hi>2015). Dietrich Beyrau, <hi rend="italic">Krieg und Revolution. Russische Erfahrungen</hi>
+                        (Paderborn: Ferdinand Schöningh, 2017), 200<hi rend="italic">‒</hi>26. Felix
+                        Schnell, <hi rend="italic">Räume des Schreckens. Gewalträume und
+                            Gruppenmilitanz in der Ukraine 1905‒1933</hi> (Hamburg: Hamburger
+                        Edition, 2012). Peter Holquist, <hi rend="italic">Making War, Forging
+                            Revolution. Russia’s Continuum of Crisis, 1914‒1921</hi>
+                        (Cambridge/Mass.: Harvard University Press, 2002). Anna Greifman, <hi rend="italic">Thou shalt kill. Revolutionary Terrorism in Russia,
+                            1894‒1917</hi> (Princeton/NJ: Princeton University Press,
+                    1993).</note> A landscape of »killing fields« and »areas of violence«
+                (»Gewalträume«) is constructed, where everyone is exposed to an overwhelming
+                experience of destruction, lawlessness and murder. Deprived of the ability to
+                establish civil order, people submit to the iron circle of violence and
+                counter-violence, thereby losing control of themselves and becoming active
+                participants of crime. Criminals and victims merge in a »timeless« slaughter, in an
+                »orgy of destruction«<note place="foot" xml:id="ftn15" n="14"> Jörg Baberowski, "Die Russische Revolution und die
+                        Neuordnung der Welt," in: <hi rend="italic">1917 Revolution ‒ Russland und
+                            die Folgen</hi>, 21.</note> where terror and revenge, banditry and
+                looting, hooliganism and alcoholism, ethnic fighting, pogroms and deportations
+                eliminate social order until state authority finally collapses. Amidst this
+                apocalyptic battlefield, the Bolsheviks advance to the stage, presenting themselves
+                as the only players who are determined to re-establish order by force of
+                    violence.<note place="foot" xml:id="ftn16" n="15">
+                        Beyrau, <hi rend="italic">Krieg und Revolution</hi>, 207.</note></p>
+            <p>In this perspective, the Russian Revolution and Civil War merely appear as an
+                escalation of violence, and the Bolshevik seizure of power as a successful effort to
+                transform anarchy into an organised regime of »Red Terror«. Did Leninism
+                conceptualise party rule and social control as self-serving, creating nothing else
+                but a revolutionary culture of force and order? Recent cultural studies pay
+                attention to the popular claim for terminating war and pacifying civil conflicts
+                which the Bolshevik’s political agenda supported. Nevertheless, a historiographic
+                creation of »landscapes of violence« obviously neglects social incentives for
+                popular uprisings in Russia. Grand designs of revolution and war history tend to
+                disconnect the time and place of the Revolution of 1917, illustrating Red October as
+                either a collective effort to terminate fighting or as a revolutionary coup d’état
+                which established an organised terror regime in a contaminated area where violence
+                and killing is an elementary »timeless« experience.<note place="foot" xml:id="ftn17" n="16"> Jörg Baberowski, "Verwüstetes Land: Macht und
+                        Gewalt in der frühen Sowjetunion," in: <hi rend="italic">Gewalträume</hi>,
+                        169–89. A more differentiated study is: Stefan Plaggenborg, <hi rend="italic">Revolutionskultur. Menschenbilder und kulturelle Praxis in
+                            Sowjetrussland zwischen Oktoberrevolution und Stalinismus</hi> (Köln et
+                        al.: Böhlau, 1996). Stefan Plaggenborg, <hi rend="italic">Ordnungen der
+                            Gewalt: Sozialismus, Kemalismus, Faschismus</hi> (München: Oldenbourg
+                        Wissenschaftsverlag, 2012).</note></p>
+            <p>The de-mystification and nationalisation of Red October has drawn attention away from
+                the reverberations that the Russian Revolution released far beyond its borders,
+                especially in the belligerent countries of the First World War. The immediate
+                impacts of the revolution and the enduring structural changes it caused in post-war
+                Europe will be discussed in the second part of this paper. </p></div></div>
+            <div><head>Impacts of the Russian Revolution in Europe: the German and the
+                    British case</head>
+            <p>Immediate reactions all throughout Europe occurred when the news of the February
+                Revolution spread. In war-sick Germany, hopes of reaching a separate peace agreement
+                with Russia grew, and the massive intervention of the Entente powers during the
+                Civil War provoked solidarity with the Bolsheviks, especially among workers. The
+                British suffragist Emmeline Pankhurst, who had travelled on a 4-month journey to
+                Revolutionary Russia to urge the Provisional Government to carry on the war against
+                the <hi rend="italic">Mittelmächte</hi> on the Eastern front, had initially welcomed
+                the February Revolution as a step towards parliamentary democracy. When she returned
+                home in October 1917, she warned that a political seizure of power by the Bolsheviks
+                was near. They would take Russia out of the war and then conclude a separate peace
+                with Germany.</p>
+            <p>While Pankhurst was performing her patriotic mission in Petrograd, the German
+                secretary of the International League of Women, Clara Zetkin, had concluded her
+                break from the Social Democratic party which had been her home from the beginning of
+                her political life. The revolutions in Russia turned Zetkin’s misery into excited
+                expectations of a decisive turnover of world history. Recovering from a period of
+                depression and loneliness caused by her disillusion about the failure of workers
+                internationalism against imperialistic war, Zetkin was literally reborn as a
+                communist activist, preparing herself for the prospective venue of the forthcoming
+                World Revolution. In a message to the <hi rend="italic">Komintern</hi> (Communist
+                International), she declared her devotion to »socialist Soviet Russia«, celebrating
+                the October Revolution as » the mighty sun, rising in crimson splendor out of the
+                darkness and horror of the World War«.<note place="foot" xml:id="ftn18" n="17"> »[ …] die große gewaltige Sonne, die in purpurner
+                        Pracht aus dem Dunkel und Grauen des Weltkriegs emporsteigt«; quoted in:
+                        Tânia Puschnerat, <hi rend="italic">Clara Zetkin ‒ Bürgerlichkeit und
+                            Marxismus. Eine Biografie</hi> (Essen: Klartext Verlag, 2003), 222
+                        f.</note> One of the signatures on an international address of
+                solidarity, which she directed to the Bolsheviks in November 1919, was written by
+                Sylvia Pankhurst who had openly diverted from the political course of her mother,
+                Emmeline.</p>
+            <p>The reflections on the revolutions in Russia from two outstanding political women
+                could not have been more conflicting. Whereas Emmeline Pankhurst had turned away
+                from her radical origins, Zetkin embraced the Red Revolution as the dawn of a
+                liberated mankind. Apart from their personal involvement, their reactions also
+                reflect the different impacts that the revolutions in Russia had on the belligerent
+                nations in the First World War. While the victorious Entente countries soon returned
+                to parliamentary government, the monarchies of the Central powers were swept away by
+                revolutionary uprisings. However, all efforts to light a revolutionary fire failed,
+                and the slogan “Proletarier aller Länder, vereinigt euch!” (Proletarians of all
+                countries, unite!), which was first addressed to German workers, was met with weak
+                support among the Spartacus League and the Internationalists. </p>
+            <p>Although expectations of a coming World Revolution were soon disappointed, people
+                would not lose hope for a better future in post-war Europe. Some parts of the
+                political Left observed the Russian experience following the October Revolution.
+                Promises that the Bolsheviks made concerning social reform, land re-distribution,
+                popular education and women’s emancipation supported the European workers movement’s
+                essential claims. Russia and the Soviet-Union remained a point of reference for
+                labour force, and an incentive and challenge for European democracies. While recent
+                German historiography commemorates the Revolution in Russia, after 100 years, there
+                is reason enough to re-consider the long-term effects it might have had on the
+                Weimar Republic’s liberal democracy.</p>
+            <p>The year 1917 was a turning point for the constitutional monarchies in Germany and
+                Austria. When the Social Democratic Party refused to give further approval to war
+                loans, this signalled the end of the national war consensus which the Emperor had
+                proclaimed in August 1914. An informal political coalition of the »Parliamentary
+                Left«, which included the catholic <hi rend="italic">Zentrumspartei</hi>, Left
+                Liberals and Social Democrats, agreed on a resolution in the <hi rend="italic">Reichstag</hi>, announcing to the world that Germany should declare its will to
+                conclude a peace without annexations and reparations. The famous Reichstag Peace
+                Resolution of July 1917 openly referred to the Petrograd Soviet which had proclaimed
+                a fundamental rupture with the conventional logic of fighting and waging war earlier
+                in the year. When the German Supreme Command ignored the parliamentarian majority’s
+                initiative by submitting Russia to a dictatorial Peace Treaty and intensified its
+                useless war efforts, the Germany public lost faith in the military and political
+                leadership of the monarchy. News about the Revolution in Russia aggravated the
+                growing discontent in Germany, but it can hardly be claimed that the constant loss
+                of popular loyalty was due to the propaganda war that the Bolsheviks staged against
+                imperialism. It was not the suspected »stab-in-the-back« (<hi rend="italic">Dolchstoss</hi>) led by revolutionary elements of a treacherous »Homefront«,
+                but rather the failed <hi rend="italic">Siegfrieden</hi>-strategy which caused the
+                collapse of the monarchies. Therefore, if we want to reflect the impacts of the
+                Russian Revolution, we have to go beyond the political turnover of the German
+                November Revolution in 1918 and consider the long-term effects. My paper
+                concentrates on three levels, beginning with political institutions, secondly, the
+                economic and social order, and thirdly, the demographic change.</p>
+            <list type="ordered">
+                <item><p>The complete failure of the military and political leadership’s war strategy
+                    made constitutional reforms, including the enfranchisement of the bulk of the
+                    working population, indispensable. However, the sudden turn over of the 1918
+                    October cabinet to a republican order came too late. Mutinies in the army, as
+                    well as in major factories, had already broken out, leading directly to the
+                    German November Revolution. Spontaneous, grass-roots councils of soldiers and
+                    workers were spreading all over the country. They directly referred to the
+                    Russian soviets, such as the Workers and Soldiers Council of the Free City of
+                    Hamburg which proclaimed that »Soviet Russia and the Soviets of Hamburg are
+                    inseparably connected«.<note place="foot" xml:id="ftn19" n="18"> »[…] das revolutionäre Hamburg hat durch die Tat
+                            bewiesen, dass das Russland der Räteregierung und die Räteregierung
+                            Hamburgs eine Einheit sind, die nichts trennen kann«, in: <hi rend="italic smallcaps">Hamburger Echo</hi>, 7. 11. 1918, quoted in:
+                            Volker Stalmann and Jutta Stehling, <hi rend="italic">Der Hamburger
+                                Arbeiter- und Soldatenrat 1918/19</hi> (Düsseldorf: Droste, 2013),
+                            43.</note> Even in England, where labour movement and trade unions
+                    had ceased their strike activities in 1914, a Council of Workmen of more than a
+                    thousand representatives gathered in the Coliseum of the industrial city of
+                    Leeds, which was known as <hi rend="italic">The Leeds Soviet</hi>. It warmly
+                    hailed the Russian Revolution and called upon the establishment of »Councils of
+                    Workmen and Soldiers« in every town, urban and rural district. They regarded the
+                    Russian Soviets as a historical achievement of the working class which would one
+                    day become the nucleus of a new social order in Britain. Similar conventions in
+                    Newcastle and Manchester were soon suppressed by police force under the
+                    provisions of the Defense of the Realm Act.<note place="foot" xml:id="ftn20" n="19">
+                            <hi rend="italic">Northern Voices: The Leeds Soviet – 1917!</hi>, 15
+                            February 2018,
+                            http://northernvoicesmag.blogspot.de/2017/01/the-leeds-soviet-1917.html.
+                            Ian Bullock, <hi rend="italic">Romancing the revolution: the myth of
+                                Soviet democracy and the British Left</hi> (Edmonton: Athabasca
+                            University Press, 2011), 41‒88.</note> Although their hope of
+                    launching a British network of extra-parliamentarian Soviets with sovereign
+                    powers failed, workers felt encouraged by their Russian comrades to enforce
+                    their bargaining power. They were politicised by watching the Russian
+                    revolutionary experience. </p>
+            
+            <p>But whereas the British version of Soviets remained a marginal
+                phenomenon that did not cause much attention in historiography, there was a lengthy
+                debate in Germany during the 1970s about the reform potential of the <hi rend="italic">Rätebewegung</hi> (Council Movement). Evidence proved that most of
+                the revolutionary delegates themselves did not claim to represent a political
+                alternative to parliamentary democracy, but rather a means of political control to
+                secure the transfer of power to the parties of the working class. Apart from this,
+                people did not believe that the Russian experience would survive much longer, and
+                even the radical Left rejected »bolshevist terror«.<note place="foot" xml:id="ftn21" n="20"> Heinrich Laufenberg (1872‒1937) former member of
+                        the Social Democrats (SPD), 1919 member of the Communist Party (KPD), first
+                        President of the Hamburg Workers and Soldiers Council until 21/1/1919,
+                        quoted in: <anchor xml:id="Hlk505333623"/>Stalmann and Stehling, <hi rend="italic">Der Hamburger Arbeiter- und Soldatenrat
+                    1918/19</hi>.</note> However, one should not underestimate the <hi rend="italic">Rätebewegung’s</hi> commitment and solidarity with the Russian
+                soviets which they perceived as a strong symbol of the Revolution, showing that the
+                working class was prepared to seize power and establish a participatory model of
+                workers democracy.<note place="foot" xml:id="ftn22" n="21">
+                        David Priestland, "The Left and the Revolutions," in: <hi rend="italic">The
+                            Oxford Handbook of European History, 1914‒1945</hi> (Oxford: Oxford
+                        University Press, 2016), 88‒91.</note> Indeed, the independent <hi rend="italic">Rätebewegung</hi> practised a transfer of revolutionary experience
+                from Russia to Germany, and when the elected representatives of German workers
+                referred to the Russian Soviets, they were demonstrating their solidarity with them.
+                Yet, revolutionary internationalism soon faded away when the soviets were
+                subordinated to the »iron discipline« of the centralised Bolshevik party-rule.
+                Whereas the soviets became virtually powerless, the <hi rend="italic">Betriebsräte</hi> (Work Council) in Germany survived as an instrument of
+                participatory democracy in industrial working relations. The so-called »Paritätische
+                Mitbestimmung« (Equal Participation) remains, to this day, a basic institutional
+                pillar of the Social Market Economy of the Federal Republic.</p></item>
+               <item><p>Although the origins of the national welfare state go back to the last quarter
+                    of the 19<hi rend="superscript">th</hi> century, there can be no doubt about the
+                    importance of social legislation following the First World War. Total war meant
+                    heavy casualties, broken lives and financial losses for most families at home.
+                    War victims had to be compensated for enduring sacrifices. The obligation to
+                    care for the masses of war veterans, disabled people, widows and orphans,
+                    refugees and displaced persons led to a vast extension of state allowances,
+                    pensions and other sources of material relief. Social Security was thus,
+                    essentially, a material compensation for the war commitment of European
+                    populations. Nevertheless, the strong demand for social improvements has to be
+                    interpreted in close relation to the rising force of working class movements all
+                    across Europe. Strike activities returned in 1917 after the patriotic war
+                    consensus in the belligerent nations ended, also affecting neutral countries
+                    such as Spain. The Bolshevik government in Russia indicated the power of the
+                    labour force, increasing trade unionism and industrial unrest, even in remote
+                    England, where some leading members of the Labour Party »felt disquiet about
+                    “the potential for a revolutionary situation”«.<note place="foot" xml:id="ftn23" n="22"> June Purvis, <hi rend="italic">Emmeline
+                                Pankhurst ‒ a Biography</hi> (London: Routledge, 2002),
+                        303.</note> Obviously, British parliamentary government was discredited
+                    since it couldn’t solve the Irish Question, nor conclude peace with its enemies
+                    of war. Political polarisation divided the country and split the women’s
+                    liberation movement from which Sylvia Pankhurst and her radical comrades turned
+                    away in order to join the Communist International in 1919. She called for a
+                    peace settlement and dreamed of a »Socialist Commonwealth«, whereas her mother
+                    Emmeline patriotically continued to support the war efforts of the British
+                    Government.</p> 
+            <p>It is evident that when industrial strikes targeted the
+                capitalist economy, their agenda was at least partly influenced by the Russian
+                Revolution. The Soviet State proclaimed a fundamental reverse of labour relations,
+                setting free peasants and industrial workers as a political force.<note place="foot" xml:id="ftn24" n="23"> See Altrichter, <hi rend="italic">Russland 1917</hi>, 259–307, 330–67.</note> Factory workers’
+                self-governing committees, the centralisation of distribution and the promise of a
+                socialist producers’ community that would replace market relations offered an
+                alternative model of a non-capitalist political economy. The Russian experience thus
+                remained a source of permanent incentives and challenges for Western capitalism,
+                which forced post-war governments to improve social relations at home. Corporatism
+                and organised capitalism in England or Weimar Germany could therefore be seen as a
+                reaction to Soviet »State Capitalism«, bringing forth preventive Social Welfare
+                legislation, destined to discipline and integrate the labour force.</p></item>
+            <item><p>War and revolution caused an unprecedented population transfer, especially in
+                    Eastern and South-Eastern Europe. The decomposition of the Habsburg, Ottoman and
+                    Romanov Empires led to a massive demographic drain of expatriates, creating new
+                    ethnic urban quarters in those countries which took them in. Ethnic cleansing
+                    had its origins in the war when national minorities were suspected as enemies
+                    who posed a threat to the national political community. The Civil War in Russia
+                    motivated the beleaguered Soviet government to dislocate greater parts of its
+                    native population which it suspected as being politically unreliable. Political
+                    pressure exerted on minorities released a second wave of mass migration which
+                    followed the millions of people fleeing from war and violence inside the
+                    territory of Imperial Russia – <hi rend="italic">a whole empire walking</hi>, to
+                    use the famous phrase from Peter Gatrell.<note place="foot" xml:id="ftn25" n="24"> Peter A. Gatrell, <hi rend="italic">A Whole
+                                Empire Walking. Refugees in Russia During World War I</hi>
+                            (Bloomington/Indiana: Indiana University Press, 1999).</note> The
+                    bulk of refugees were expropriated and expatriated individuals and families, now
+                    »stateless«, former residents of aristocratic or bourgeois origin and also
+                    ethnic minorities that were forced to seek shelter elsewhere. When these groups
+                    targeted European capitals such as Constantinople, Paris, Prague, Belgrade or
+                    Berlin, they experienced new hardships laid upon them by authorities who
+                    perceived them as strangers or even hostile groups who threatened the social
+                    homogeneity of the indigenous community.</p>
+           
+            <p>The Russian Revolution challenged the world with the »first
+                modern refugee-crisis«.<note place="foot" xml:id="ftn26" n="25"> Behrends et. al., <hi rend="italic">Historisierung</hi>, 14. Catherine Gousseff, <hi rend="italic">L’exile
+                            russe. La fabrique du réfugié apatride (1920–1939)</hi> (Paris: CNRS
+                        Éditions, 2008).</note> Stateless <hi rend="italic">émigrés</hi> from
+                Russia either had to rely on the acceptance of the Nansen-passport by foreign
+                countries, or address single refugee relief organisations supported by the League of
+                Nations. Immigrants arriving in Weimar-Germany were treated in different ways
+                according to administrative categories referring to their supposed ethnic origins or
+                social status, such as the Jewish refugees from Russia, Latvia or Poland who were
+                merged into a single ethnic category labelled »<hi rend="italic">Ostjuden</hi>«.<note place="foot" xml:id="ftn27" n="26"> Heiko Haumann, <hi rend="italic">Geschichte der Ostjuden</hi> (München:
+                        DTV, <hi rend="superscript">6</hi>2008 [1990]), 77–89, 190–196. Frank M.
+                        Schuster, <hi rend="italic">Zwischen allen Fronten. Osteuropäische Juden
+                            während des Ersten Weltkrieges (1914‒1919)</hi> (Köln et al.: Böhlau,
+                        2004).</note> This East-Jewish minority population remained an object of
+                popular disdain, whereas the Russian community in Weimar-Germany, which numbered
+                about half a million people at its peak at the beginning of the 1920s, succeeded to
+                establish enduring cultural and social structures. Although Russian refugees were
+                dispersed soon after living conditions deteriorated in late Weimar Germany and moved
+                on westwards, they left the memory of <hi rend="italic">Russki Berlin</hi> behind
+                them which remains, even today, an essential part of the history of Berlin, for
+                example »<hi rend="italic">Charlottengrad«</hi> amongst other places.</p> </item>
+            </list>
+            <p><hi rend="italic">What does the Russian Revolution have to do with us</hi>? Reviewing
+                the present state of research, it might seem as if the revolution was closely linked
+                to war and the crisis of Imperial Russia. The vast literature on the World War has
+                emphasised the contingent factors of military events and, at the same time,
+                neglected social forces and political power structures in the belligerent societies.
+                Finally, Red October appears merely as a secondary act in the grand drama of the
+                European theatre of war.<note place="foot" xml:id="ftn28" n="27"> Münkler, <hi rend="italic">Der Große Krieg</hi>,
+                        546‒58, 617‒18, 653‒56, is rating the decay of the Imperial Army and the
+                        violent military suppression of social uprisings in Petrograd much higher
+                        than the social origins of the Revolution. </note> Much has been written
+                about »blood lands« and »killing fields« in certain contaminated areas, where
+                violence has been a constant experience of everyday life since the beginning of the
+                20th century. Culturalist liberal historians tend to pay more attention to mental
+                and cultural dispositions, which they consider to be relevant, to explain popular
+                uprisings. However, a globalising approach which lacks to investigate specific
+                constellations which caused revolutions in Russia, Germany, Hungary, or elsewhere
+                risks downrating them as secondary phenomena to the Great War or as just another
+                stage in an ongoing rage of civil war which turned the heart of Europe into a united
+                slaughterhouse. What we tried to do here instead was to consider the different
+                settings of political and social conditions that separated European countries during
+                the war and which made them more or less susceptible to the challenges of the
+                Russian Revolutions. Differentiations and comparisons are necessary to help us
+                understand why the »Great Socialist October Revolution« is still relevant after 100
+                years.</p></div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Sources and Literature</head>
+            <listBibl>
+                <bibl>Altrichter, Helmut. <hi rend="italic">Russland 1917. Ein Land auf der Suche
+                    nach sich selbst</hi>. Paderborn: Ferdinand Schöningh, <hi rend="superscript">2</hi>2017 (1997).</bibl>
+                <bibl>Baberowski, Jörg and Gabriele Metzler, eds. <hi rend="italic">Gewalträume ‒
+                    soziale Ordnungen im Ausnahmezustand</hi>. Frankfurt am Main: Campus Verlag,
+                    2012.</bibl>
+                <bibl>Baberowski, Jörg. "Die Russische Revolution und die Neuordnung der Welt." In:
+                    <hi rend="italic">1917. Revolution: Russland und die Folgen</hi>, eds.
+                    Deutsches Historisches Museum and Schweizer Nationalmuseum, 15–26. Berlin:
+                    Sandstein Verlag, 2017.</bibl>
+                <bibl>Baberowski, Jörg. <hi rend="italic">Räume der Gewalt</hi>. Frankfurt am Main:
+                    S. Fischer, <hi rend="superscript">2</hi>2015. </bibl>
+                <bibl>Baberowski, Jörg. "Verwüstetes Land: Macht und Gewalt in der frühen
+                    Sowjetunion." In: <hi rend="italic">Gewalträume</hi>, eds. Jörg Baberowski and
+                    Gabriele Metzler, 169‒89. Frankfurt am Main: Campus Verlag, 2012.</bibl>
+                <bibl>Behrends, Jan C., Nikolaus Katzer and Thomas Lindenberger. "100 Jahre Roter
+                    Oktober. Versuche zur Historisierung der Russischen Revolution." In: <hi rend="italic">100 Jahre Roter Oktober. Zur Weltgeschichte der Russian
+                        Revolution</hi>, eds. Jan C. Behrends, Nikolaus Katzer and Thomas
+                    Lindenberger, 9. Berlin: Christoph Links, 2017.</bibl>
+                <bibl>Behrends, Jan C. "Was bleibt vom Kommunismus? Eine historische Betrachtung zum
+                    100. Jahrestag der Russischen Revolution." In: <hi rend="italic">1917. 100 Jahre
+                        Oktoberrevolution und ihre Fernwirkungen auf Deutschland</hi>, eds. Tilman
+                    Mayer and Julia Reuschenbach, 23‒37. Baden-Baden: Nomos, 2017.</bibl>
+                <bibl>Berthold, Lothar. "»Sie war und bleibt die Große Sozialistische
+                    Oktoberrevolution!«." In: <hi rend="italic">Die Oktoberrevolution 1917 und ihr
+                        Platz in der Geschichte</hi>, ed. Marx-Engels-Stiftung, 71‒81. Bonn:
+                    Pahl-Rugenstein, 1997.</bibl>
+                <bibl>Beyrau, Dietrich. <hi rend="italic">Krieg und Revolution. Russische
+                    Erfahrungen</hi>. Paderborn: Ferdinand Schöningh, 2017.</bibl>
+                <bibl>Bock, Helmut. "Die Russische Revolution 1917‒1921 ‒ Sieg oder Tragödie?." <hi rend="italic">Pankower Vorträge</hi>, No. 71 (2005).</bibl>
+                <bibl>Bullock, Ian. <hi rend="italic">Romancing the revolution: the myth of Soviet
+                    democracy and the British Left</hi>. Edmonton: Athabasca University Press,
+                    2011.</bibl>
+                <bibl>Doernberg, Stefan. "Oktoberrevolution ‒ Epochenwechsel oder Weg in die
+                    Sackgasse?." In: <hi rend="italic">Die Oktoberrevolution 1917 und ihr Platz in
+                        der Geschichte</hi>, ed. Marx-Engels-Stiftung, 9‒26. Bonn: Pahl-Rugenstein,
+                    1997.</bibl>
+                <bibl>Furet, François. <hi rend="italic">Das Ende der Illusion. Der Kommunismus im
+                    20. Jahrhundert</hi>. München and Zürich: Piper, <hi rend="superscript">2</hi>1996 [<hi rend="italic">Le passé d’une illusion. Essai sur l’idée
+                        communiste au XXe siècle</hi>, Paris: R. Laffont/Calmann-Léyy, 1995].</bibl>
+                <bibl>Gatrell, Peter A. <hi rend="italic">A Whole Empire Walking. Refugees in Russia
+                    During World War I</hi>. Bloomington/Indiana: Indiana University Press,
+                    1999.</bibl>
+                <bibl>Gousseff, Catherine. <hi rend="italic">L’exile russe. La fabrique du réfugié
+                    apatride (1920–1939)</hi>. Paris: CNRS Éditions, 2008.</bibl>
+                <bibl>Greifman, Anna. <hi rend="italic">Thou shalt kill. Revolutionary Terrorism in
+                    Russia, 1894‒1917</hi>. Princeton/NJ: Princeton University Press
+                    1993.</bibl>
+                <bibl>Haumann, Heiko. <hi rend="italic">Geschichte der Ostjuden</hi>. München: DTV,
+                    <hi rend="superscript">6</hi>2008 (1990).</bibl>
+                <bibl>Hildermeyer, Manfred. <hi rend="italic">Die Sowjetunion 1917‒1991</hi>.
+                    Berlin: De Gruyter, <hi rend="superscript">3</hi>2016.</bibl>
+                <bibl>Hildermeyer, Manfred. <hi rend="italic">Geschichte Russlands vom Mittelalter
+                    bis zur Oktoberrevolution</hi>. München: C.H.Beck, 2013.</bibl>
+                <bibl>Hobsbawm, Eric J. <hi rend="italic">Das Zeitalter der Extreme: Weltgeschichte
+                    des 20. Jahrhunderts 1914–1991</hi>. München: Hanser, 1995 [<hi rend="italic">The Age of Extremes: A History of the World, 1914-1991</hi>.
+                    New York: Vintage Books, 1996].</bibl>
+                <bibl>Holquist, Peter. <hi rend="italic">Making War, Forging Revolution. Russia’s
+                    Continuum of Crisis, 1914‒1921</hi>. Cambridge/Mass.: Harvard University
+                    Press, 2002.</bibl>
+                <bibl>Janeke, Kristiane. "Einführung." In: <hi rend="italic">1917. Revolution:
+                    Russland und die Folgen</hi>, eds. Deutsches Historisches Museum and
+                    Schweizer Nationalmuseum, 10‒13. Berlin: Sandstein Verlag 2017.</bibl>
+                <bibl>Koenen, Gerd. "Der »Rote Oktober« als Mythos und Utopicum." In: <hi rend="italic">1917. Revolution: Russland und die Folgen</hi>, eds. Deutsches
+                    Historisches Museum and Schweizer Nationalmuseum, 141‒57. Berlin: Sandstein
+                    Verlag, 2017.</bibl>
+                <bibl>Leonhard, Jörn. <hi rend="italic">Die Büchse der Pandora. Geschichte des
+                    Ersten Weltkriegs</hi>. München: C.H.Beck, <hi rend="superscript">5</hi>2014.</bibl>
+                <bibl>Malia, Martin. <hi rend="italic">Vollstreckter Wahn. Russland 1917‒1991</hi>.
+                    Stuttgart: Klett-Cotta, 1994.</bibl>
+                <bibl>Mayer, Arno J. <hi rend="italic">The Furies. Violence and Terror in the French
+                    and the Russian Revolution</hi>, Princeton/NJ: Princeton University Press,
+                    2000.</bibl>
+                <bibl>Münkler, Herfried. <hi rend="italic">Der Große Krieg. Die Welt 1914‒1918</hi>.
+                    Berlin: Rowohlt, <hi rend="superscript">7</hi>2014.</bibl>
+                <bibl><hi rend="italic">Northern Voices: The Leeds Soviet – 1917!</hi>. 15 February
+                    2018. http://northernvoicesmag.blogspot.de/2017/01/the-leeds-soviet-1917.html.</bibl>
+             <bibl>Plaggenborg, Stefan. <hi rend="italic">Ordnungen der Gewalt: Sozialismus,
+                    Kemalismus, Faschismus</hi>. München: Oldenbourg Wissenschaftsverlag,
+                    2012.</bibl>
+                <bibl>Plaggenborg, Stefan. <hi rend="italic">Revolutionskultur. Menschenbilder und
+                    kulturelle Praxis in Sowjetrussland zwischen Oktoberrevolution und
+                    Stalinismus</hi>. Köln et al.: Böhlau, 1996.</bibl>
+                <bibl>Priestland, David. "The Left and the Revolutions." In: <hi rend="italic">The
+                    Oxford Handbook of European History</hi>, ed. Nicholas Doumanis, 88‒91.
+                    Oxford: Oxford University Press, 2016.</bibl>
+                <bibl>Purvis, June. <hi rend="italic">Emmeline Pankhurst ‒ a Biography</hi>. London:
+                    Routledge, 2002.</bibl>
+                <bibl>Puschnerat, Tânia. <hi rend="italic">Clara Zetkin ‒ Bürgerlichkeit und
+                    Marxismus. Eine Biografie</hi>. Essen: Klartext Verlag, 2003.</bibl>
+                <bibl>Sabrow, Martin. "Der »Rote Oktober« und sein Nachhall im geteilten
+                    Deutschland." In: <hi rend="italic">1917. Revolution: Russland und die
+                        Folgen</hi>, eds. Deutsches Historisches Museum and Schweizer
+                    Nationalmuseum, 125‒139. Berlin: Sandstein Verlag, 2017.</bibl>
+                <bibl>Schnell, Felix. <hi rend="italic">Räume des Schreckens. Gewalträume und
+                    Gruppenmilitanz in der Ukraine 1905‒1933</hi>. Hamburg: Hamburger Edition,
+                    2012.</bibl>
+                <bibl>Schuster, Frank M. <hi rend="italic">Zwischen allen Fronten. Osteuropäische
+                    Juden während des Ersten Weltkrieges (1914‒1919)</hi>. Köln et al.: Böhlau,
+                    2004.</bibl>
+                <bibl>Stalmann, Volker and Jutta Stehling. <hi rend="italic">Der Hamburger Arbeiter-
+                    und Soldatenrat 1918/19</hi>. Düsseldorf: Droste, 2013.</bibl>
+            </listBibl></div>
+            <div type="summary" xml:lang="sl"><docAuthor>Andreas Schulz</docAuthor>
+                <head>»KAJ IMA ZA OPRAVITI Z NAMI?«– PONOVNO VREDNOTENJE RUSKE REVOLUCIJE V NEMČIJI</head>
+            <head>POVZETEK</head>
+            <p>"Kaj ima za opraviti z nami?"– Ponovno vrednotenje ruske revolucije
+                v Nemčiji Če pogledamo trenutno stanje na področju raziskav, bi lahko
+                dobili vtis, da je bila revolucija tesno povezana z vojno in krizo carske Rusije. V
+                obsežni literaturi o svetovni vojni so poudarjeni naključni dejavniki vojaških
+                dogodkov, hkrati pa se zanemarjajo nekatere družbene sile in strukture politične
+                moči v vojskujočih se družbah. Rdeči oktober se pojavi zgolj kot dejanje drugotnega
+                pomena v veliki drami evropskega bojišča. Veliko je bilo napisanega o "krvavi
+                zemlji" in "poljih smrti" na nekaterih kontaminiranih območjih, kjer je bilo nasilje
+                od začetka 20. stoletja nenehno del vsakdanjega življenja. Kulturalistični liberalni
+                zgodovinarji se pri razlaganju ljudskih vstaj navadno bolj osredotočajo na miselne
+                in kulturne dispozicije, ki se jim zdijo pomembne. Vendar pa pri globalističnem
+                pristopu, v okviru katerega se ne preučujejo specifična razmerja, ki so povzročila
+                revolucije v Rusiji, Nemčiji, na Madžarskem in drugod, obstaja tveganje, da se te
+                revolucije degradirajo v pojave drugotnega pomena glede na veliko vojno ali zgolj v
+                eno od faz razbesnele državljanske vojne, ki je srce Evrope spremenila v skupinsko
+                klavnico. Avtor namesto tega obravnava različne politične in družbene pogoje, ki so
+                ločevali evropske države med vojno in zaradi katerih so bile te bolj ali manj
+                dovzetne za izzive ruskih revolucij. Razlikovanja in primerjave so potrebne, da bi
+                lahko razumeli, zakaj je "velika socialistična oktobrska revolucija" po 100 letih še
+                vedno pomembna.</p></div>
+        </back>
+    </text>
+</TEI>
