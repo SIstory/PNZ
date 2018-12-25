@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Journal Istarski Borac/IBOR in the Context of the Culture of Dissent</title>
+                <author>
+                    <name>
+                        <forename>Lidija</forename>
+                        <surname>Bencetić</surname>
+                    </name>
+                    <roleName>Research Fellow</roleName>
+                    <roleName>PhD</roleName>
+                    <affiliation>Croatian Institute of History</affiliation>
+                    <address>
+                        <addrLine>Opatička 10</addrLine>
+                        <addrLine>10000–Zagreb</addrLine>
+                        <addrLine>Croatia</addrLine>
+                    </address>
+                    <email>lidija.bencetic@gmail.com</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2018-09-20</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/293</pubPlace>
+                <date>2018</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">58</biblScope>
+                <biblScope unit="issue">3</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Istarski borac</term>
+                    <term>IBOR</term>
+                    <term>culture of dissent</term>
+                    <term>youth press</term>
+                    <term>Yugoslavia</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>Istarski borac</term>
+                    <term>IBOR</term>
+                    <term>kultura nesoglasij</term>
+                    <term>mladinski tisk</term>
+                    <term>Jugoslavija</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2017-12-25</date>
+                    <name>Neja Blaj Hribar</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Lidija Bencetić<note place="foot" xml:id="ftn1" n="*">
+                <hi rend="bold">Research Fellow, PhD, Croatian Institute of History,
+                    Opatička 10, 10000–Zagreb, Croatia,</hi>
+                <ref target="mailto:lidija.bencetic@gmail.com"><hi rend="bold">lidija.bencetic@gmail.com</hi></ref></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss type: 1.01</idno>
+                <idno type="UDC">UDC: 070.18:329.052 (497.5)"1945/1990"</idno>
+            </docImprint>
+            <div type="abstract" xml:lang="sl"><head>IZVLEČEK</head>
+                <head>ČASOPIS ISTARSKI BORAC/IBOR V KONTEKSTU KULTURE NESOGLASIJ</head>
+                <p>
+                    <hi rend="italic">Prvi hrvaški mladinski časopis Istarski borac/IBOR je z dvema
+                        krajšima vmesnima premoroma izhajal med leti 1953 in 1979 v Pulju. Časopis je
+                        izdajal Književni klub Istarski borac, in sicer z namenom ohranjanja hrvaškega
+                        jezika v Istri kot temeljnim vodilom. V sedemdesetih letih 20. stoletja je
+                        časopis prevzel značaj kritičnega medija in postopoma uvajal vse več kulturnih,
+                        lokalnih in družbenih tem, katerih ton pa socialistična oblast ni dobro
+                        sprejela. Jeseni 1979 je izbruhnil »primer IBOR«. Časopisu so istega leta
+                        ukinili financiranje, zaradi česar je prenehal izhajati. Povod za ukinitev
+                        časopisa je bila sicer pesem z naslovom Please, master (hrv.: Molim te,
+                        učitelju) Allena Ginsberga, toda partijski dokumenti razkrivajo, da je bil
+                        razlog političen. Pričujoča razprava poskuša odgovoriti na vprašanje, ali je
+                        delovanje zadnjega uredništva časopisa Istarski borac/IBOR mogoče obravnavati
+                        kot kulturo nesoglasja.</hi></p>
+                <p><hi rend="italic">Ključne besede: Istarski borac, IBOR, kultura nesoglasij, mladinski
+                    tisk, Jugoslavija</hi></p></div>
+            <div type="abstract">
+                <head>ABSTRACT</head>
+                <p><hi rend="italic">The first Croatian youth journal Istarski borac/IBOR was published
+                    in Pula from 1953 to 1979 (with two minor interruptions). The journal was
+                    published by the Istarski Borac Literary Club with the objective of preserving
+                    the Croatian language in Istria. The journal developed a reputation as a
+                    critical media in the 1970s, covering more and more cultural, local and social
+                    themes whose tone was not well – received by the socialist authorities, so the
+                    financing of the journal was cancelled in 1979 after which it ceased
+                    publication. The reason for the suspension of the journal was the poem “Please
+                    Master” by Allen Ginsberg, but the party documents reveal that the motive was
+                    also political. The question this article is trying to answer is whether the
+                    work of the last editorial board of Istarski borac/IBOR can be considered a
+                    culture of dissent.</hi></p>
+                <p><hi rend="italic">Keywords: Istarski borac, IBOR, culture of dissent, youth press,
+                    Yugoslavia</hi></p>
+            </div>
+        </front>
+        <body>
+            <div><head>Introduction</head>
+            <p>The youth journal of Pula Gymnasium students, <hi rend="italic">Istarski borac</hi>
+                was launched in Pula on October 15, 1953. The first issue of <hi rend="italic">Istarski borac</hi> was released at the initiative of the literary section of
+                the Branko Semelić Gymnasium and their mentor Ljubica Ivezić, with the subtitle
+                Literary Section Gazette of the Branko Semelić Gymnasium. As of the second issue,
+                the journal was called the “Istrian Youth Journal” and was financed by the National
+                Youth District Committee, and this status was likely obtained through the party
+                line. According to Ljubica Ivezić, the editorial section was reserved for
+                ideological and political articles.<note place="foot" xml:id="ftn2" n="1"> Ljubica Ivezić, “I jedna važna obljetnica između na
+                        koju ne treba zaboraviti,” <hi rend="italic">Dometi</hi> (Rijeka), No. 5–6
+                        (1992): 95–100. </note></p>
+            <p>It was the first youth journal in Yugoslavia, which was published continually, with
+                two interruptions (from 1964 to 1969 and from 1974 to 1976) until September 1979,
+                i.e. until the “IBOR Case” arose. <hi rend="italic">Istarski borac</hi> is important
+                to the development of the Croatian language, literature and culture in Istria,
+                especially in terms of the development of young writers and intellectuals who later
+                became important to the development of culture, history and socio–political life in
+                Istria. Ljubica Ivezić, the initiator of <hi rend="italic">Istarski borac</hi>,
+                explained it this way: the students “took on the task of using their literary and
+                cultural work in the first place to fight for the affirmation of their domestic <hi rend="italic">word</hi>, which was severely persecuted under the Italian
+                    fascism”.<note place="foot" xml:id="ftn3" n="2"> Ibid.,
+                        97. </note> In the introduction to the first issue of <hi rend="italic">Istarski borac</hi>, the editorial board explained the reasons for launching
+                the journal: “The authors of original works will find their topics firstly in their
+                personal lives, then in Istrian and Yugoslav socialistic reality. With this kind of
+                work, we will foster a love for the mother tongue, for our socialist country and our
+                people. We will constantly prove to each and every one that the youngest Istrian
+                generations do not want to substitute their beloved native tongue with a foreign
+                one, nor their national government for dominion by foreigners ever again”.<note place="foot" xml:id="ftn4" n="3">
+                        <hi rend="italic">Istarski borac</hi> (Pula), No. 1 (1953): 1. </note>
+                The journal was intended for young people from elementary school to university
+                students and mostly financed by the Self–management Interest Community (SIC,
+                croatian: Samoupravna interesna zajednica – SIZ) for the culture of the Municipality
+                of Pula. The funding of the journal was increased between 1973 and 1979, amounting
+                from 20,000 dinars in 1973 to 50,000 in 1978 and 74,000 in 1979.<note place="foot" xml:id="ftn5" n="4"> HR HDA 1220, Savez komunista
+                        Hrvatske. Centralni komitet (further: HR HDA 1220, SKH. CK), No. D-11334,
+                        “Analiza glasila mladih Istre ‘IBOR’”, 20 November 1979, 2, 3.
+                </note></p>
+            <p>However, as time passed, the circumstances, policies and generations changed and the
+                editorial approach of <hi rend="italic">Istarski borac</hi> also changed, and it no
+                longer sided with the Party. A different attitude toward the journal was first
+                reflected in critiques of their work presented at the Party’s meetings as well as
+                publicly, and later in the termination of their funding, which was the end of the
+                journal. According to a member of the last editorial board, Boris Domagoj Biletić:
+                    “<hi rend="italic">Istarski borac</hi> was the only truly democratic light of
+                the written word not only by young people in Istria and beyond, sometimes formally
+                but most often never under the control of any political institution, from the
+                beginning of the 1950s until democratic changes in 1990”.<note place="foot" xml:id="ftn6" n="5">
+                        <hi rend="italic">Istarski borac</hi>,
+                            <hi rend="color(212121)" xml:space="preserve">accessed December 18, 2018, </hi><hi rend="italic">Metelgrad - Digitalizirani časopisi</hi>, <ref target="http://library.foi.hr/m3/kds1.php?B=1&amp;sqlx=S02008&amp;ser=&amp;sqlid=1&amp;sqlnivo=&amp;css=&amp;H=pula&amp;U=05">http://library.foi.hr/m3/kds1.php?B=1&amp;sqlx=S02008&amp;ser=&amp;sqlid=1&amp;sqlnivo=&amp;css=&amp;H=pula&amp;U=05</ref>.
+                    </note>
+            </p>
+            <p>Did <hi rend="italic">Istarski borac/IBOR</hi> really oppose the dogmas imposed by
+                the Party and the self–managing socialist system that it was supposed to promote in
+                its publications? Or was it about the generational gap and conservative social
+                environment in which the journal was being published and where there was no place
+                for poems like “Please Master”? Maybe it was a combination of one and the other,
+                together with non-fulfillment of obligations by the editorial board that published
+                only a half of the planned issues for 1978 and 1979?</p></div>
+            <div><head>The Youth Press in the 1970s and 1980s</head>
+            <p>The Yugoslav authorities used the youth press as a tool of youth organizations -
+                Socialist Youth of Croatia (SYC, Croatian: Socijalistička omladina Hrvatske – SOH)
+                and later the Alliance of Socialist Youth of Croatia (ASYC, Croatian: Savez
+                socijalističke omladine Hrvatske – SSOH) to indoctrinate, educate and direct the
+                activities of young people according to the guidelines of the League of Communists
+                of Croatia (LCC, Croatian: Saveza komunista Hrvatske – SKH).<note place="foot" xml:id="ftn7" n="6"> Marko Zubak, <hi rend="italic">The
+                            Yugoslav Youth Press: (1968–1980): student movements, youth subcultures
+                            and Communist alternative media</hi> (Zagreb: Srednja Europa; Hrvatski
+                        institut za povijest, 2018), 307.</note> However, with its engagement
+                and the introduction of numerous novelties (design, popular culture from the West,
+                analysis of neglected social themes) the youth press established itself among young
+                people inclined toward the LCC/SKH, but also among a wider reading audience,
+                becoming some sort of a brand. Youth journals were funded either from the funds of
+                the Republic Self-management Interest Community for Culture (RSIC, Croatian:
+                Republička samoupravna interesna zajednica kulture - RSIZ) and its local affiliates
+                or through the ASYC/SSOH.<note place="foot" xml:id="ftn8" n="7"> See: HR HDA 1231, Republička konferencija Saveza
+                        socijalističke omladine Hrvatske (HR HDA 1231, RK SSOH) and HR HDA 1605,
+                        Republička samoupravna interesna zajednica kulture (HR HDA 1605 RSIZ).
+                    </note> The book <hi rend="italic">The Yugoslav Youth Press</hi> by author
+                Marko Zubak should be consulted for a detailed description of the phenomenon of
+                Yugoslav youth press.</p>
+            <p>The youth press in Croatia went through sort of a crisis, primarily a financial one,
+                but also a personnel crisis, in the 1970s. None of the youth journals were
+                profitable, but they were financed from the republic or local budget because the
+                political significance of their publication was greater than the financial one.
+                Personnel problems are partly related to the inadequate number of highly educated
+                young journalists, the “personnel void” created after the Croatian Spring in 1971
+                and the dismissal of a large number of journalists, as well as their inadequate
+                ideological background.<note place="foot" xml:id="ftn9" n="8"> Željko Krušelj, <hi rend="italic">Igraonica za
+                            odrasle: Polet 1976.–1990.</hi> (Rijeka: Adamić, 2015), 37.</note>
+                Omladinski tjednik, the only Croatian journal with a broader republic and federal
+                media reach, stopped coming out in 1976.<note place="foot" xml:id="ftn10" n="9"> Ibid., 27. </note> Several local youth journals -
+                    <hi rend="italic">Laus, Val</hi> and <hi rend="italic">Riječ mladih</hi> - were
+                coming out in Croatia at the time, and Pula’s youth journal was launched again in
+                1976 under the new name <hi rend="italic">IBOR</hi>. In the same year, <hi rend="italic">Omladinski tjednik</hi>, a journal whose launch has long been
+                invoked by youth leaders from RC of ASYC/RK SSOH and the more prominent media (<hi rend="italic">Komunist</hi>), replaced <hi rend="italic">Polet</hi> as the
+                republic youth journal.<note place="foot" xml:id="ftn11" n="10"> Ibid., 30, 31. </note></p>
+            <p>The Information Committee of the Republic Conference of the Alliance of Socialist
+                Youth of Croatia (RC ASYC/RK SSOH) held a meeting on May 29, 1980. The topic of the
+                meeting was “current problems of the youth press” and the writings of <hi rend="italic">Studentski list</hi>, <hi rend="italic">Omladinska iskra</hi> and
+                    <hi rend="italic">Polet</hi> were discussed. An analysis of the situation in the
+                youth newspapers was prepared for the meeting, from which the expectations of the
+                government and the relationship towards the youth press can be seen.<note place="foot" xml:id="ftn12" n="11"> HR HDA 1231, RK
+                        SSOH, box. 586, “Aktualni problemi omladinske štampe,” May 27,
+                    1980.</note> Their opinion is that “a lot of effort needs to be made to
+                ensure that the youth press is truly an integral element of socio-political
+                activities and in the role of the Alliance of Socialist Youth”.<note place="foot" xml:id="ftn13" n="12"> Ibid., 1. </note> At the same
+                time, the role and tasks of the youth press should be judged “precisely from the
+                standpoint of putting them into the function of accomplishing the complex tasks of
+                the Alliance of Socialist Youth of Croatia in social transformation and development
+                of socialist self-management”.<note place="foot" xml:id="ftn14" n="13"> Ibid., 2. </note> Furthermore, the ASYC/SSOH is of
+                the opinion that youth newspapers in the self-managing society should work together
+                with the ASYC/SSOH, and that the youth press serves not only to provide information,
+                but must also work actively in the youth organization and the society as a whole.
+                The ASYC/SSOH thought that in the youth newspapers there are visible deviations
+                going to two extremes: “The youth newspapers informs about the actions of the
+                Alliance of Socialist Youth of Croatia in a dull, non-communicative and to youth
+                unattractive newsletter style, and other, far more often is that youth newspapers
+                ‘forget’ their founder, their social role, responsibility and tasks, and turn not to
+                the ASYC/SSOH, as a socio-political organization of youth, but simply to young
+                people, forgetting that as the ASYC/SSOH journal they should be, not only
+                generationally, but necessarily ideologically committed, therefore in the function
+                of interests and activities of youth that is socialist-oriented”.<note place="foot" xml:id="ftn15" n="14"> HR HDA1231, RK SSOH, box. 586,
+                        “Aktualni problemi omladinske štampe,” May 27, 1980, 2. </note></p>
+            <p>The aforementioned document about the state of the youth press in 1980 highlights
+                that the overall information system is designed to activate and involve “working
+                people” and youth in self-managing processes, in order to “objectively inform” the
+                youth about the issues of “social life, work and creativity (...) and in the
+                function of achieving the social tasks of the Alliance of Socialist Youth”. It is
+                stated that the youth press has a great educational function in “explaining the
+                essence and contradictions in our development, which clearly makes it an active
+                element of the ideological struggle against provincialism (philistinism),
+                bureaucratism, technocracy, nationalism, dogmatism, and other anti-socialist and
+                anti-self-managing tendencies”.<note place="foot" xml:id="ftn16" n="15"> Ibid., 3. </note> It is further stated that the
+                youth press is largely focused on the “marginal problems of the society as a whole”,
+                that it often problematizes the “marginal social groups and phenomena” and thus
+                poses a certain “danger in the conceptual sense, not because these phenomena are not
+                worth writing about but because in regards to the real problems, questions, and
+                dilemmas concerning further development of society, these marginal problems are
+                being overemphasized”, thus opening the possibility for the “manipulating
+                anti-self-managing and anti-socialistic forces to misuse it”.<note place="foot" xml:id="ftn17" n="16"> Ibid., 4, 5.</note> It was
+                also mentioned that the youth newspapers should distinguish themselves by “engaging
+                and affirming in the revolution”, but how such youth attitude was known to become “a
+                dogma, turn into criticism, leftism, result in incidents, prohibitions, and wrongly
+                highlighted social issues”.<note place="foot" xml:id="ftn18" n="17"> Ibid., 3.</note></p>
+            <p>The same document also states that the FR of Croatia had nine youth newspapers in the
+                late 1970s: <hi rend="italic">Polet, Studentski list, Val, Laus, Pet, Omladinska
+                    iskra, Lok, Ibor</hi> and <hi rend="italic">Omladinac</hi>, all of them having
+                in common unresolved material, personnel and spatial requirements.<note place="foot" xml:id="ftn19" n="18"> Ibid., 7. </note></p></div>
+           <div> <head>Istarski Borac Literary Club and Journal <hi rend="italic">Istarski borac</hi>
+                / <hi rend="italic bold">IBOR</hi></head>
+            <p>The Istarski borac Literary Club was the literary section of Pula’s high school
+                students, established in 1953. At its beginnings, the club was called the Literary
+                Section of the Branko Semelić Gymnasium, and after its first issue in 1977 it was
+                renamed the Istarski borac Literary Club. The year of the club’s establishment was
+                also the year when the journal of the same name was launched. Ljubica Ivezić was the
+                mentor of the club during its entire existence, and also its founder. According to
+                the editorial board of the first issue, the purpose of forming the club and
+                launching the journal was to preserve the Croatian language and Croatian heritage in
+                Istria and foster the development and affirmation of Istrian writers and
+                intellectuals, cultural workers, journalists, scholars and politicians.</p>
+            <p>The activities of the Istarski borac Club are best known from the <hi rend="italic">Istarski borac</hi>. The journal was published from 1953 to 1979, with two
+                interruptions (1964 to 1969 and from 1974 to 1976) and it changed its name several
+                times: 1953 to 1961 it was called <hi rend="italic">Istarski borac</hi>, from 1961
+                to 1964, <hi rend="italic">Glas mladih</hi>, from 1969 to 1974, <hi rend="italic">Istarski borac</hi>, and from 1976 to 1979, <hi rend="italic">IBOR</hi>.</p>
+            <p>In the twenty-six years of its existence, the literary club had produced numerous
+                intellectuals and artists who left a great mark in the cultural history of Istria
+                and Croatia and it achieved its basic objective: preserving the Croatian language.
+                According to the Marija Petener-Lorenzin, author of the bibliography of <hi rend="italic">Istarski borac</hi>/<hi rend="italic">IBOR</hi>, this periodical
+                “left a mark in the recent cultural history of Istria and journalistic production in
+                this area,” so that the compilation of its bibliography became a necessity.<note place="foot" xml:id="ftn20" n="19"> Marija
+                        Petener–Lorenzin, <hi rend="italic">Bibliografija časopisa “Istarski borac”
+                            – “Ibor”: (1953.–1979.)</hi> (Pula: Istarski ogranak Društva hrvatskih
+                        književnika, 2006), 5.</note>
+            </p></div>
+            <div><head>“IBOR Case”</head>
+            <p>There was a debate going on among the government bodies of ASYC/SSOH and RSIC/RSIZ
+                about the cessation of its funding even before <hi rend="italic">Istarski
+                    borac/IBOR</hi> became the “IBOR Case”. The stated reasons for termination of
+                funding were failure to fulfill the taken obligations, primarily half as many
+                published issues as planned in the years 1978 and 1979, and not submitting annual
+                work reports. After the “IBOR Case” became public, and after making a detailed
+                analysis of the journal’s writing (see the succeeding text), objections were
+                directed toward the journal’s wrong approach when writing about social issues and an
+                “ideological orientation that is foreign to our self-managing socialist
+                    society”.<note place="foot" xml:id="ftn21" n="20"> HR
+                        HDA 1220 SKH. CK, No. D-11334, “Analiza glasila mladih Istre ‘IBOR,’”
+                        November 20, 1979, 2. </note></p>
+            <p>Dolores Petrinić thinks that <hi rend="italic">Istarski borac</hi> was started “with
+                the mission of spreading literacy and a positive attitude toward the Croatian
+                language and literature”.<note place="foot" xml:id="ftn22" n="21"> Dolores Petrinić, <hi rend="italic">Hrvatska
+                            književnost u istarskim časopisima druge polovice XX. st</hi>. (Rijeka:
+                        Društvo hrvatskih književnika, 2007), 9. </note> And since it published
+                texts that “reflected the current cultural and social issues in a reasoned and
+                engaging way” and how the <hi rend="italic">IBOR</hi> had a tendency of growing into
+                a journal “that would seriously and critically address not only literature but also
+                culture and society in general.” Petrinić believes that escaping political control
+                led to the termination of the journal.<note place="foot" xml:id="ftn23" n="22"> Ibid., 11. </note> The crucial moment was the
+                publication of a translation of the English-language poem with
+                paedophiliac/homosexual content, “Please Master,” by Allen Ginsberg, published under
+                the issue’s theme “Total Institutions.” The Istrian editions of the daily newspaper
+                    <hi rend="italic">Večernji list</hi> and <hi rend="italic">Glas Istre</hi>
+                repeatedly wrote about the “IBOR Case,” and the youth journals in Zagreb also became
+                interested. After several months of Party and media debate, funding for the journal
+                was cancelled, and as the result of a private lawsuit by journalist Armand Černjul,
+                the editorial board was convicted for defamation on October 8, 1980.</p>
+            <p>Boris Domagoj Biletić was a member of the last editorial board of <hi rend="italic">IBOR</hi>, and one of the people conditionally sentenced to one month and
+                fifteen days in prison for defamation of the journalist Armand Černjul. As Biletić
+                testified, the formal reason for the verdict was “quasi-naive: translation of the
+                poem ‘Please Master’ by Allen Ginsberg (who wrote a dedication to the last editorial
+                board a few years later). But the real reasons were, in fact, that in some youthful
+                texts (...) we had dared to question them (the Party!), and we were additionally
+                interested in anti-psychiatry, in the almost poetically pure student year of 1968 in
+                Europe and here, i.e. student protests, the Croatian Spring, Jim Morrison, anarchism
+                (...) Can you imagine, at that time, some young people in some place called Pula
+                wrote, published, and were the leaders of the whole generation, and not under the
+                umbrella of the so-called socialist youth?!”<note place="foot" xml:id="ftn24" n="23">
+                        <hi rend="italic">Matica hrvatska</hi> [Matrix Croatica], <ref target="http://www.matica.hr/kolo/408/nacionalno-i-univerzalno-u-obzorima-zavicajnosti-23142/">http://www.matica.hr/kolo/408/nacionalno-i-univerzalno-u-obzorima-zavicajnosti-23142/</ref>.</note></p></div>
+            <div><head>IBOR’s Last Issue and Poem “Please
+                    Master”</head>
+            <p>The last issue of <hi rend="italic">IBOR</hi> dealing with the topic of total
+                institutions or comprehensive institutions, with special emphasis on psychiatric
+                institutions, came out in September 1979. Using the deductive approach, starting
+                with the profiling of totalitarian institutions, focusing on psychiatric
+                institutions and their patients, the editorial draws conclusions, referring to
+                eminent historical personalities from the fields of philosophy, historiography and
+                culture, that an artist can only be a person who is either on the border of madness
+                or has already passed that boundary. This is backed up by a series of texts and
+                poems, the most provocative among them being “Please Master” by American poet Allen
+                Ginsberg. The poem deals about a paedophiliac-homosexual relationship between a
+                pupil and a teacher and is accompanied by a photo of a child named after the
+                poem.</p>
+            <p>The poem aroused great controversy in Pula’s Party and youth circles, and in
+                republic, local and youth publications, and it was the formal reason for abolishing
+                the journal’s funding. Speaking of topics that were considered undesirable in
+                conservative Pula, but also about the social circumstances in Yugoslavia that
+                bothered the state-party leadership, the <hi rend="italic">IBOR</hi> editorial
+                board’s notable cultural-opposition activity was what ultimately led to the
+                cessation of its funding.</p></div>
+            <div><head>Governmental Attitude Toward “IBOR Case”</head>
+            <p>The relation of socialist authorities toward the <hi rend="italic">IBOR</hi> journal
+                and the “IBOR Case” can be seen from the documentation of the Alliance of Socialist
+                Youth of Croatia (ASYC/SSOH), the Central Committee of the League of Communists of
+                Croatia (CC LCC/SKH CK) and the Republic Self- Management Interest Community for
+                Culture (RSIC/RSIZ).</p>
+            <p>The work and funding of youth and other journals were followed by the RSIC/RSIZ
+                Commission for Journals and Newspapers in Culture. In its report from February 1979,
+                it mentioned <hi rend="italic">IBOR</hi> and journal <hi rend="italic">Vrabac</hi>,
+                clearly stating that: “Following the work of these journals through 1978, the
+                Commission concluded that contributions do not exceed the level of quality of the
+                first attempts and therefore do not meet the criteria. The source of funding should
+                certainly be the municipal SIC/SIZ for culture.”<note place="foot" xml:id="ftn25" n="24"> HR HDA 1605, RSIZ, box 4, 57. Session IO
+                        (26.3.1979.), “Prijedlog programa časopisa za 1979. godinu,” February 1979,
+                        10. </note> Two months later <hi rend="italic">IBOR</hi> was again
+                mentioned in the report of the same commission because it did not submit the report
+                and was therefore denied payment of the remaining funds for 1978: “The Commission
+                proposes that the journals which did not carry out the obligation of submitting the
+                report even after the repeated warning be denied payment of the remaining funds.
+                This refers to journals: <hi rend="italic">Čakavska rič, Dubrovnik, Haiku, Ibor,
+                    Polet</hi> and <hi rend="italic">Vidik</hi>.”<note place="foot" xml:id="ftn26" n="25"> HR HDA 1605, RSIZ, box 4, 58. Session IO
+                        (13.4.1979.), “Prijedlog za isplatu preostalih sredstava iz 1978. godine,”
+                        April 1979, 2. </note></p>
+            <p>Certainly the most important document pertaining to the “IBOR Case” is the “Analysis
+                of Istria’s Youth Journal “IBOR’”. The document, signed under the name “Workgroup”
+                and dated Pula, November 20, 1979, was created for the 37<hi rend="superscript">th</hi> session of the Municipal Conference Committee of the LCC/SKH Pula held
+                on November 27, 1979. The main topic of the meeting was the journal <hi rend="italic">IBOR</hi>. It is a seven-page document that analyzes <hi rend="italic">IBOR</hi>’s work from 1973 to the latest issue 4-5 in 1979. The
+                analysis focuses primarily on the editorial and associate staff of the journal,
+                which, following the conclusions of the analysis is not up to the task, and does not
+                give enough space to young authors instead forcing the affirmed authors. At the same
+                time, <hi rend="italic">IBOR</hi> was publishing primarily the works of the members
+                of the Istarski Borac Literary Club, and very rarely the works of “young authors
+                from the wider area of Istria”. <note place="foot" xml:id="ftn27" n="26"> HR HDA 1220, SKH. CK, No. D-11334, “Analiza glasila
+                        mladih Istre ‘IBOR’”, November 20, 1979, 1. </note> It is seen from the
+                document that the editorial board has been previously warned to give more space to
+                the non-established authors. <hi rend="italic">IBOR</hi>’s unfulfilled obligations
+                were also pointed out, as fewer issues than planned were published annually. For
+                example, eight issues were planned for the year 1978 and only three (1, 2-3 and 4-5)
+                were realized. Another eight issues were planned for the next year (1979), five were
+                officially published, while only two double issues (1-3, 4-5) were actually
+                published. The topics that the journal dealt with were also problematic, they were
+                not satisfactory because they “exclusively dealt with the issues from the area of
+                the Pula commune”.<note place="foot" xml:id="ftn28" n="27">
+                        Ibid., 1.</note></p>
+            <p>From the document we find out that the Istarski Borac Literary Club had 50 members
+                (20 high school students, 15 university students and 15 employees) in the final year
+                of its publishing (1979), and was conceptually oriented toward three areas -
+                culture, literary creativity and social issues.<note place="foot" xml:id="ftn29" n="28"> Ibid. </note> The journal was criticized for
+                not writing enough about young people “about young man’s role and place in our
+                self-managing society, his problems and aspirations beyond the rock music and sports
+                like problems of young people’s employment, student self-management, deviations in
+                young people’s behavior”.<note place="foot" xml:id="ftn30" n="29"> Ibid., 2.</note> It was also pointed out that in
+                most cases <hi rend="italic">IBOR’s</hi> writing was destructive, and the reason for
+                this was that for some authors “this approach and a way of writing about our social
+                reality reflects their ideological orientation which is foreign to our self-managing
+                socialist society”.<note place="foot" xml:id="ftn31" n="30">
+                        HR HDA 1220, SKH. CK, D-11334, “Analiza glasila mladih Istre ‘IBOR,’”
+                        November 20, 1979, 2. </note></p>
+            <p>The Executive Board of the SIC/SIZ discussed the <hi rend="italic">IBOR</hi> at its
+                session on October 6, 1978, with a special emphasis on the “socio-political
+                orientation and literary value of the journal”. It was then concluded: that the
+                approved conception of the journal was not achieved; that the program orientation of
+                the journal was to be taken over by the DC ASYC/OK SSOH Pula; that the journal
+                should be made more “social” by applying the delegate principle, and that the funds
+                are to be suspended until this condition are fulfilled.<note place="foot" xml:id="ftn32" n="31"> Ibid., 4. </note> Soon the DC
+                ASYC/OK SSOH Pula held another session which concluded that the financing of <hi rend="italic">IBOR</hi> should be continued until a joint youth journal for
+                whole Istria is launched and that one representative from the DC ASYC/OK SSOH Pula
+                and the SIC/SIZ for Culture Pula should enter the editorial board of <hi rend="italic">IBOR</hi>.<note place="foot" xml:id="ftn33" n="32"> Ibid. </note> Aliče Davosyr as a representative of
+                the SIC/SIZ and Ljubo Marčeta on behalf of the DC ASYC/OK SSOH entered the editorial
+                board. As the plan for the first half of 1979 was not realized, the Republic SIC/SIZ
+                suspended the financing of <hi rend="italic">IBOR</hi>.<note place="foot" xml:id="ftn34" n="33"> Ibid., 5. </note> The
+                Istarski Borac Literary Club proposed that the journal should also be funded in
+                1980, but the Republic SIC/SIZ rejected it again. The SIC/SIZ thought that the <hi rend="italic">IBOR</hi> “is not oriented toward socially acceptable movements
+                and that it must contain socially acceptable content”. The analysis concluded that
+                financing of <hi rend="italic">IBOR</hi> should be continued but at the local
+                    level.<note place="foot" xml:id="ftn35" n="34"> Ibid.,
+                        6, 7. </note> However, <hi rend="italic">IBOR’s</hi> funding was
+                nevertheless suspended. It is not possible to determine from the archives why
+                weren't the recommendations of the working group that made the analysis acted upon.
+                The record of the session held on November 27, 1979, on which <hi rend="italic">IBOR</hi> was discussed, does not exist. In the Croatian State Archives in
+                Zagreb and in the State Archives in Pazin there is only a call to the session and
+                the document “Analysis of Istria’s Youth Journal ‘IBOR’” but not the record of the
+                session itself.</p>
+            <p>In the entire document, only one sentence mentions the last issue of <hi rend="italic">IBOR</hi> (4–5/1979) because of which the entire “IBOR Case” was
+                initiated. The sentence reads: “Meanwhile, the latest double issue 4–5/79 came out
+                containing a lot of inappropriate articles especially for the age group journal is
+                intended for i.e. young people”.<note place="foot" xml:id="ftn36" n="35"> Ibid., 6. </note> Such disregard for the content
+                of the last issue gives the impression that the poem “Please Master” may not be a
+                reason <hi rend="italic">IBOR</hi>’s funding got canceled. Even more so because the
+                emphasis of the key analysis was on non-fulfilling the obligations, the absence of
+                young non-established authors and the ideological turn of the editorial board which
+                is reflected in improper writing about the Yugoslav self-managing socialist
+                society.</p></div>
+            <div><head>Media and “IBOR Case”</head>
+            <p>The “IBOR Case” had, in addition to great interest of the government, also caused
+                great interest of regional media and youth journals. As mentioned earlier – it was
+                mostly written about in <hi rend="italic">Glas Istre</hi> and the Istrian edition of
+                    <hi rend="italic">Večernji list</hi>, as well as the republican youth journals
+                    <hi rend="italic">Polet</hi>, <hi rend="italic">Pitanja</hi> and <hi rend="italic">Studentski List</hi>. The republic newspaper <hi rend="italic">Vjesnik – Sedam dana</hi> devoted a series of seven articles to the “IBOR Case”
+                in which the case was analyzed in detail. The articles published in <hi rend="italic">Glas Istre</hi> are of a more informative character and primarily
+                present the conclusions of the DC LCC/OK SKH Pula and the DC ASYC/OK SSOH. The
+                articles in the Istrian edition of <hi rend="italic">Vecernji list</hi> are signed
+                by Armando Černjul, and are partly characterized by the informative approach and
+                partly by the author’s engagement and his unreserved condemnation of the <hi rend="italic">IBOR’s</hi> editorial board for the poem “Please Master”. Youth
+                journals make room for discussion by publishing articles signed by <hi rend="italic">IBOR</hi>’s last editorial board and articles by Armand Černjul, as well as
+                texts by authors not directly related to the “IBOR Case”.</p>
+            <p>In one of Armando Černjul’s first articles about the “IBOR Case” published in the
+                Istrian edition of Večernji list the author wonders whether people in <hi rend="italic">IBOR</hi> think that Istria’s youth “for whom the journal is
+                intended is interested in homosexual ranting?”<note place="foot" xml:id="ftn37" n="36"> Armando Černjul, ‘Kome služi “Ibor’?,” <hi rend="italic">Večernji list</hi> (Istrian), October 3, 1979, 6.
+                    </note> The <hi rend="italic">IBOR’s</hi> editorial staff answered in the
+                same newspaper to the allegations in relation to publishing the poem “Please
+                Master”. They stated that the “unfortunate Ginsberg is a cause of much casual gossip
+                and labeling of IBOR’s editorial staff from the “filters” of social morality such as
+                A. Č. The civil terms “swear words” and “vulgarities” simply fade away as archaism
+                compared to those as stylemes without which one period of literary creativity is
+                missing in the world and here. It seems that the individuals must be repeatedly
+                reminded of the well-worn statement that the appreciation of the artistic level of a
+                particular literary work is mainly in the domain of poetics, literary criticism and
+                aesthetics, and by no means a tool for political discredit by drawing out of the
+                context of a whole”.<note place="foot" xml:id="ftn38" n="37"> IBOR Redaction, “Fusnote za A. Černjula”, <hi rend="italic">Večernji
+                            list</hi> (Istrian), November 1, 1979, 6.</note> Černjul wrote his
+                answer already in the next issue: “As for the poem ‘Please Master’ by A. Ginsberg,
+                which is presented by the members of IBOR’s editorial staff, thinking perhaps that
+                Pula and other places in Istria have problems with homosexuality in education, then
+                they should have disclosed their opinion on their own, and not seek ‘help’ from the
+                American poet and professor. How to otherwise explain to the reader of <hi rend="italic">IBOR</hi>, and now ‘Večernji List’, that the people in <hi rend="italic">IBOR</hi> are mistaken. They would have to look at the last page
+                of the <hi rend="italic">IBOR</hi>, on which the photo was published showing at best
+                three year old lying prone on the road, surrounded by adults and signed ‘Please
+                Master’. If people in <hi rend="italic">IBOR</hi> don't know what they have done
+                with it, then they are not up to the job they are doing, because the photograph in
+                the context of the poem ‘Please Master’ by which it is named, undoubtedly puts the
+                innocent child into the center of homosexual lust. Everyone must be disgusted by
+                    it!”<note place="foot" xml:id="ftn39" n="38"> Armando
+                        Černjul, “Bez kormila,” <hi rend="italic">Večernji list</hi> (Istrian),
+                        November 2, 1979, 6.</note></p>
+            <p>A cosmopolitan, writer and scholar Predrag Matvejević also referred to “IBOR Case” in
+                an interview for <hi rend="italic">Polet</hi>. When asked by journalist Vladimir
+                Cvitan: “When it comes to ‘Ibor’ and dismissing its editorial staff, it is generally
+                taken as known that by publishing Ginsberg’s poem ‘Please Master’ a mistake has been
+                made?” Matvejević answered: “I think publishing one somewhat challenging poem of one
+                good poet (a poem that speaks of homosexuality) is more mischief than a mistake. Do
+                not forget that one issue of ‘Domet’ dedicated to erotics was nearly prohibited in
+                    Rijeka.”<note place="foot" xml:id="ftn40" n="39">
+                        Vladimir Cvitan, “Intervju: Predrag Matvejević. Dosta gruba smjenjivanja,”
+                            <hi rend="italic">Polet</hi> (Zagreb), January 23, 1980, 9,
+                    10.</note> Regarding Matvejević’s response in which he stated that the poem
+                is of homosexual character, the question arises as to whether Matvejević was really
+                familiar with the words of the poem and the fact that the editorial team accompanied
+                the poem with a photograph which they named after the poem’s title and which shows
+                the boy of preschool age. Given the words of the poem and the photograph which is
+                explicitly related to the poem, it is more than obvious that it is a poem of
+                pedophilic character, while the homosexual part of the poem’s character is probably
+                less important because homosexualism was decriminalized in socialist Yugoslavia in
+                1977. Armando Černjul referred to an interview with Matvejević in the earlier
+                mentioned article “Enough with crude disinformation”. Černjul stated that Matvejević
+                and journalist Cvitan give inaccurate information about the “IBOR Case” and how they
+                are wrongly informed. Černjul thinks that one of the reasons for Matvejević’s
+                misinformation is the visit of <hi rend="italic">IBOR</hi>’s editorial board to
+                Professor Matvejević.<note place="foot" xml:id="ftn41" n="40"> Armando Černjul, “Dosta grube dezinformacije,” <hi rend="italic">Polet</hi> (Zagreb), February 6, 1980, 2.</note></p>
+            <p>Slavko Kalčić and Aldo Monfardin, two members of the last editorial board of <hi rend="italic">Istarski Borac/IBOR</hi>, published the article “IBOR Case” in the
+                newspaper <hi rend="italic">Pitanja</hi> in 1980. In the article they respond to the
+                attacks in other newspapers, especially Armando Černjul’s texts and the accusations
+                from the DC ASYC/OK SSOH. As a defense to Černjul’s accusations of vulgarism, and in
+                relation to the poem “Please Master”, they state that Černjul takes the photograph
+                and the poem “out of the context of the issue’s theme (Total institutions),
+                pretending not to understand or indeed not understanding the term <hi rend="italic">literary</hi>, simultaneously vulgarizing it and attacking IBOR with low blows
+                using the arsenal of Christian moralism”.<note place="foot" xml:id="ftn42" n="41"> Slavko Kalčić and Aldo Monfardin, “Slučaj ‘Ibor,’” <hi rend="italic">Pitanja</hi> (Zagreb), No. 3 (1980), 71–77. </note>
+                Answering the accusations from the DC ASYC/OK SSOH (which were published in <hi rend="italic">Glas Istre,</hi> issue from December 3, 1979), that many articles
+                published in <hi rend="italic">IBOR</hi> were “not suitable, especially for the age
+                of those the journal was intended for”, the editorial staff relativised these claims
+                and said that such a label could “usually be found on Danish-Swedish film
+                co-productions!”. They focused on the second part of the accusations, which state
+                that part of the inscriptions is unacceptable “as a way of presenting our social
+                reality”. The part about presenting “our social reality” is deemed crucial by <hi rend="italic">IBOR</hi>’s editorial board, and they confirm it with Rakočević’s
+                article published in the Istrian edition of <hi rend="italic">Večernji list</hi>
+                from December 4, 1979. In the article Rakočević accused them of publishing the texts
+                with “views that are foreign to our self-managing and socialist society, impose a
+                destructive approach to the treatment of social topics and problems, and instead of
+                being a forum for young people, <hi rend="italic">IBOR</hi> increasingly becomes a
+                ground for the nebulous wisdom of individuals.”<note place="foot" xml:id="ftn43" n="42"> Ibid., 73.</note> Further in the text, as a
+                sort of conclusion, the authors pointed out that one “poem instead of giving
+                aesthetic and cognitive pleasure resulted in extraordinary sessions, work groups
+                (...) It is wrong, however, to think that the song missed its purpose. On the
+                contrary, it fulfilled it entirely by bringing to light the hereditary illness of a
+                closed community. Instead of a word no one listens to under the dome of deaf
+                indifference, the poem has become the catalyst for the events.”<note place="foot" xml:id="ftn44" n="43"> Ibid.</note> As a key part of
+                their defense in this article, the authors emphasized the “Marxism” of their actions
+                and the fact that “the coupling of sexual and political inhibition” is joined
+                against them: “To speak out about this means to touch into the sacrosanctness of the
+                ‘guardians’ of such activity. We come to an important problem in the whole case:
+                isn’t the ‘freedom of speech’ lower in provincial conditions where the local totems
+                rule, and where political and sexual are not yet free from taboos? It is not by
+                chance that in one particular case sexual and political merge by cause and effect
+                relationship as the initiators and the mechanisms of silencing. Historical analysis
+                of the written/spoken word in relation to these two areas would show that they were,
+                in fact, its limiters in societies without freedom/democracy. Boasting with
+                progressive consciousness is not uncommon in these times, but progressive
+                consciousness is not in Marxist phrases, but in Marxist deeds. We think that <hi rend="italic">IBOR’s</hi> work is Marxist in its critical, open and
+                argumentative writing. In the surroundings where ideas are often critiques for the
+                local autocracy, every critique is known to be met with intolerance. That is why
+                people in <hi rend="italic">IBOR</hi> were marked as critics and were objected for
+                not highlighting the positive examples from our reality”.<note place="foot" xml:id="ftn45" n="44"> Slavko Kalčić and Aldo Monfardin,
+                        “Slučaj ‘Ibor,’” <hi rend="italic">Pitanja</hi> (Zagreb), No. 3 (1980):
+                        71–77.</note></p></div>
+            <div><head>Verdict Against the IBOR Editorial Board</head>
+            <p>The “IBOR Case” was mostly covered by journalist Armando Černjul, writing for the
+                Istrian edition of the daily newspaper <hi rend="italic">Večernji list</hi> and <hi rend="italic">Polet</hi>. It was his article in <hi rend="italic">Polet</hi>
+                (“Enough with crude disinformation,” February 6, 1980) that prompted <hi rend="italic">IBOR</hi>’s editorial board to react with another article in <hi rend="italic">Polet</hi> (“Photogenic falsifier,” February 19, 1980), in which
+                they stated that Černjul has a “Zhdanovist temper”, that he is a “press-agent in the
+                service of power”, and a philistine.<note place="foot" xml:id="ftn46" n="45">
+                        <hi rend="italic">Polet</hi> (Zagreb), February 19, 1980, 2.</note>
+                Černjul filed a private lawsuit for slander and defamation against the <hi rend="italic">IBOR</hi>’s editorial staff. The court dismissed the part of the
+                suit pertaining to slander, but ruled against members of the <hi rend="italic">IBOR</hi>’s editorial board (Nevenko Petrić, Boris Biletić, Slavko Kalčić,
+                Miomir Kalčić, Josip Ivančić and Ivan Pletikos) for defamation and assigned each “a
+                month and a half suspended sentence and one year of probation.” At the request of
+                the plaintiff (Černjul), and pursuant to the court’s decision, the verdict was
+                published in <hi rend="italic">Polet</hi>.<note place="foot" xml:id="ftn47" n="46">
+                        <hi rend="italic">Polet</hi> (Zagreb), November 5, 1980, 2.</note></p>
+            <p>The trial was held at the County Court in Pula and the second-instance verdict was
+                passed on October 8, 1980. The Council that issued the second-instance verdict was
+                constituted of the Council’s president Zvonimir Pajdaš and members Ante Črnja and
+                Milojka Vučković, while Željko Franješević
+                defended<hi rend="italic" xml:space="preserve"> IBOR</hi>’s editorial board. As
+                mentioned earlier, the second-instance court rejected part of allegations referring
+                to slander and the editorial board of <hi rend="italic">Istarski borac/IBOR</hi> was
+                only convicted for defamation. In addition to paying the cost of publishing the
+                verdict in the <hi rend="italic">Polet</hi> newspaper, the members of the editorial
+                board were obliged to pay the costs of the criminal proceedings and each paid the
+                sum of 200 dinars. The verdict contains the court’s belief that the offenders “will
+                not repeat such and similar criminal offenses in the future”.<note place="foot" xml:id="ftn48" n="47">
+                        <hi rend="italic">Polet</hi> (Zagreb), November 5, 1980, 2. </note></p></div>
+            <div><head>Conclusion</head>
+            <p>Following all that was said, it is evident that the “IBOR Case” is very complex and
+                it is not easy answering the question of whether it classifies as a culture of
+                dissent or not. The <hi rend="italic">IBOR</hi> was discussed in the party circles
+                even before it became a public case, i.e. prior to publishing the issue 4–5/79 and
+                the poem “Please Master”. At the time <hi rend="italic">IBOR</hi> was criticized for
+                not giving enough space to young authors, not submitting reports, publishing only a
+                half of planned issues for 1978 and 1979, and dealing primarily with the issues of
+                the Pula commune. After the outbreak of the
+                “<hi rend="italic" xml:space="preserve">IBOR </hi>Case”, Party’s analysis of
+                the<hi rend="italic" xml:space="preserve"> IBOR</hi> put an emphasis on the
+                non-fulfillment of obligations, the absence of young non-established authors and the
+                ideological turn of the editorial board, which is reflected in improper writing
+                about the Yugoslav self-managing socialist society. The analysis ignored the poem
+                “Please Master” only briefly stating that the last issue of <hi rend="italic">IBOR</hi> was full of vulgarity. This disregard for content of the last issue
+                gives the impression that the poem “Please Master” was perhaps not the reason why
+                the financing of <hi rend="italic" xml:space="preserve">IBOR </hi>was cancelled and
+                that the reason lies in the “destructive” writing of some authors – “this approach
+                and a way of writing about our social reality reflects their ideological orientation
+                which is foreign to our self-managing socialist society”.</p>
+            <p>On the other hand, the editorial board thought that their writing is critical, but
+                not (culture of dissent) towards Marxism: “We think that <hi rend="italic">IBOR</hi>’s work is Marxist in its critical, open and argumentative writing” - but
+                towards negative phenomena in society. Has the <hi rend="italic">IBOR</hi>’s
+                editorial board really thought that their activity was Marxist or was it a defense
+                against an attack that would reduce the damage done to <hi rend="italic">IBOR</hi>
+                and to them as individuals – this remains an open question and is subject to further
+                interpretation. The <hi rend="italic">IBOR</hi>’s last editorial board can hardly be
+                denied the courage to write about topics which were taboo and caused discontent in
+                Pula’s conservative surroundings. However, the editorial board was probably aware
+                that the same topics would bring about discontent from the Party and that their
+                actions put them at the limits of tolerance. With this kind of work, the editorial
+                board of <hi rend="italic">IBOR</hi> showed courage and resisted, if not to Marxism
+                as they themselves say, then to the community in which they lived and worked.</p></div>
+        </body>
+        <back>
+            <div type="bibliography"><head>Sources and References</head>
+            <list type="unordered">
+                <head>Archival Sources:</head>
+                <item>Hrvatski državni arhiv (Croatian State Archive), Zagreb (Croatia):<list type="unordered">
+                    <item>HR HDA 1220, Savez komunista Hrvatske. Centralni komitet.</item>
+                    <item>HR HDA 1605, Republička samoupravna interesna zajednica
+                        kulture.</item>
+                    <item>HR HDA 1231, Republička konferencija Saveza socijalističke omladine
+                        Hrvatske.</item>
+                </list></item>
+            </list>
+            <listBibl>
+                <head>Literature:</head>
+                <bibl>Krušelj, Željko. <hi rend="italic">Igraonica za odrasle: Polet
+                    1976.–1990.</hi> Rijeka: Adamić, 2015.</bibl>
+                <bibl>Peternel–Lorenzin, Marija. <hi rend="italic">Bibliografija časopisa “Istarski
+                    borac” – “Ibor”: (1953.–1979.)</hi>. Pula: Istarski ogranak Društva
+                    hrvatskih književnika, 2006.</bibl>
+                <bibl>Petrinić, Dolores. <hi rend="italic">Hrvatska književnost u istarskim
+                    časopisima druge polovice XX. st</hi>. Rijeka: Društvo hrvatskih
+                    književnika, 2007. </bibl>
+                <bibl>Zubak, Marko. <hi rend="italic">The Yugoslav Youth Press: (1968 – 1980):
+                    student movements, youth subcultures and Communist alternative media</hi>.
+                    Zagreb: Srednja Europa; Hrvatski institut za povijest, 2018.</bibl>
+            </listBibl>
+            <listBibl>
+                <head>Newspaper Sources:</head>
+                <bibl>Crnobori, Albino. “Što je za moju generaciju značio literarni klub ‘Istarski
+                    borac’.” <hi rend="italic">Istarski mozaik</hi>, No. 5–6 (1968): 412–15.</bibl>
+                <bibl>Cvitan, Vladimir. “Intervju: Predrag Matvejević. Dosta gruba smjenjivanja.”
+                    <hi rend="italic">Polet</hi> (Zagreb), January 23, 1980, 9, 10.</bibl>
+                <bibl>Černjul, Armando. “Dosta grube dezinformacije.” <hi rend="italic">Polet</hi>
+                    (Zagreb), February 6, 1980, 2.</bibl>
+                <bibl>Černjul, Armando. “Kome služi ‘Ibor’?” <hi rend="italic">Večernji list</hi>
+                    (Istrian), October 3, 1979, 6.</bibl>
+                <bibl><hi rend="italic">Glas Istre</hi>, 1979.</bibl>
+                <bibl>IBOR Redaction. “Fusnote za A. Černjula.” <hi rend="italic">Večernji list</hi>
+                    (Istrian), November 1, 1979, 6.</bibl>
+                <bibl><hi rend="italic">Istarski borac</hi>, 1953–1979.</bibl>
+                <bibl>Ivezić, Ljubica. “I jedna važna obljetnica između na koju ne treba
+                    zaboraviti,” <hi rend="italic">Dometi</hi> (Rijeka) No. 5–6 (1992):
+                    95–100.</bibl>
+                <bibl><hi rend="italic">Pitanja</hi>, 1980.</bibl>
+                <bibl><hi rend="italic">Polet</hi>, 1980.</bibl>
+                <bibl><hi rend="italic">Večernji list</hi> (Istrian), 1979.</bibl>
+            </listBibl>
+            <p>Online Sources:</p>
+            <listBibl>
+                <bibl><hi rend="italic">Istarski borac</hi>. Accessed December 18, 2018, <hi rend="italic">Metelgrad - Digitalizirani časopisi</hi>. <ref target="http://library.foi.hr/m3/kds1.php?B=1&amp;sqlx=S02008&amp;ser=&amp;sqlid=1&amp;sqlnivo=&amp;css=&amp;H=pula&amp;U=05">http://library.foi.hr/m3/kds1.php?B=1&amp;sqlx=S02008&amp;ser=&amp;sqlid=1&amp;sqlnivo=&amp;css=&amp;H=pula&amp;U=05</ref>.</bibl>
+                <bibl><hi rend="italic">Matica hrvatska</hi> [Matrix Croatica]. <ref target="http://www.matica.hr/kolo/408/nacionalno-i-univerzalno-u-obzorima-zavicajnosti-23142/">http://www.matica.hr/kolo/408/nacionalno-i-univerzalno-u-obzorima-zavicajnosti-23142/</ref>.</bibl>
+            </listBibl></div>
+            <div type="summary">
+                <docAuthor>Lidija Bencetić</docAuthor>
+            <head><hi rend="allcaps" xml:space="preserve">Journal </hi><hi rend="italic allcaps">Istarski
+                Borac/IBOR</hi><hi rend="allcaps" xml:space="preserve"> in the Context of the Culture of Dissent</hi></head>
+            <head>SUMMARY</head>
+            <p>Following all that was said, it is evident that the “IBOR Case” is very complex and
+                it is not easy answering the question of whether it classifies as a culture of
+                dissent or not. The <hi rend="italic">IBOR</hi> was discussed in the party circles
+                even before it became a public case, i.e. prior to publishing the issue 4–5/79 and
+                the poem “Please Master”. At the time <hi rend="italic">IBOR</hi> was criticized for
+                not giving enough space to young authors, not submitting reports, publishing only a
+                half of planned issues for 1978 and 1979, and dealing primarily with the issues of
+                the Pula commune. After the outbreak of the
+                “<hi rend="italic" xml:space="preserve">IBOR </hi>Case”, Party’s analysis of
+                the<hi rend="italic" xml:space="preserve"> IBOR</hi> put an emphasis on the
+                non-fulfillment of obligations, the absence of young non-established authors and the
+                ideological turn of the editorial board, which is reflected in improper writing
+                about the Yugoslav self-managing socialist society. The analysis ignored the poem
+                “Please Master” only briefly stating that the last issue of <hi rend="italic">IBOR</hi> was full of vulgarity. This disregard for content of the last issue
+                gives the impression that the poem “Please Master” was perhaps not the reason why
+                the financing of <hi rend="italic" xml:space="preserve">IBOR </hi>was cancelled and
+                that the reason lies in the “destructive” writing of some authors – “this approach
+                and a way of writing about our social reality reflects their ideological orientation
+                which is foreign to our self-managing socialist society”.</p>
+            <p>On the other hand, the editorial board thought that their writing is critical, but
+                not (culture of dissent) towards Marxism: “We think that <hi rend="italic">IBOR</hi>’s work is Marxist in its critical, open and argumentative writing” - but
+                towards negative phenomena in society. Has the <hi rend="italic">IBOR</hi>’s
+                editorial board really thought that their activity was Marxist or was it a defense
+                against an attack that would reduce the damage done to <hi rend="italic">IBOR</hi>
+                and to them as individuals – this remains an open question and is subject to further
+                interpretation. The <hi rend="italic">IBOR</hi>’s last editorial board can hardly be
+                denied the courage to write about topics which were taboo and caused discontent in
+                Pula’s conservative surroundings. However, the editorial board was probably aware
+                that the same topics would bring about discontent from the Party and that their
+                actions put them at the limits of tolerance. With this kind of work, the editorial
+                board of <hi rend="italic">IBOR</hi> showed courage and resisted, if not to Marxism
+                as they themselves say, then to the community in which they lived and worked.</p></div>
+            <div type="summary" xml:lang="sl"><docAuthor>Lidija Bencetić</docAuthor>
+            <head>ČASOPIS <hi rend="italic">ISTARSKI
+                BORAC</hi>/<hi rend="italic">IBOR</hi> V KONTEKSTU KULTURE NESOGLASIJ</head>
+            <head>POVZETEK</head>
+            <p>Prvi hrvaški mladinski časopis <hi rend="italic">Istarski borac</hi>/<hi rend="italic">IBOR</hi> je z dvema krajšima vmesnima premoroma izhajal med leti
+                1953 in 1979 v Pulju. Časopis je izdajal Književni klub Istarski borac, in sicer z
+                namenom ohranjanja hrvaškega jezika v Istri kot temeljnim vodilom. V sedemdesetih
+                letih 20. stoletja je časopis prevzel značaj kritičnega medija in postopoma uvajal
+                vse več kulturnih, lokalnih in družbenih tem, katerih ton pa socialistična oblast ni
+                dobro sprejela. Jeseni leta 1979 je izbruhnil »primer IBOR«. Časopisu so istega leta
+                ukinili financiranje, zaradi česar je prenehal izhajati. Povod za ukinitev časopisa
+                je bila sicer pesem z naslovom <hi rend="italic">Please, master</hi> (hrv.: <hi rend="italic">Molim te, učitelju</hi>) Allena Ginsberga, toda partijski
+                dokumenti razkrivajo, da je bil razlog političen. Pričujoča razprava poskuša
+                odgovoriti na vprašanje, ali je delovanje zadnjega uredništva časopisa <hi rend="italic">Istarski borac</hi>/<hi rend="italic">IBOR</hi> mogoče obravnavati
+                kot kulturo nesoglasja. </p>
+            <p>»<hi rend="italic">Primer IBOR</hi>« je dokaj zapleten, zato odgovor na vprašanje,
+                ali je pri njem šlo za kulturo nesoglasij ali ne, ni preprost. O časopisu <hi rend="italic">IBOR</hi> so v partijskih krogih razpravljali še pred javnim
+                odprtjem primera oziroma pred izdajo številke 4–5/79 in pesmi <hi rend="italic">Please, master</hi>. Takrat se je govorilo, da časopis ne daje dovolj prostora
+                mladim avtorjem, da ne oddaja poročil o delu, da je leta 1978 in 1979 objavil pol
+                manj številk, kot je bilo predvideno, in da se ukvarja predvsem s problematiko
+                puljske komune. Po izbruhu »primera <hi rend="italic">IBOR</hi>« je v partijski
+                analizi opaziti poudarek na neizpolnjevanju obveznosti, izpustu mladih, še
+                neuveljavljenih avtorjev in idejnem odklonu uredništva, kar naj bi se odražalo v
+                nepravilnem pisanju o jugoslovanski samoupravni socialistični družbi. V analizi je
+                sicer prezrta pesem <hi rend="italic">Please, master</hi>, pri čemer je zgolj na
+                kratko omenjeno, da je zadnja številka časopisa <hi rend="italic">IBOR</hi> polna
+                prostaštva. Tovrstno ignoriranje vsebine zadnje številke zbuja vtis, da pesem <hi rend="italic">Please, master</hi> ni bila razlog za umik financiranja časopisa
+                <hi rend="italic">IBOR</hi>. Nakazuje namreč, da je razlog vendarle
+                »destruktivno« pisanje nekaterih avtorjev, saj da »tak pristop in način pisanja o
+                naši družbeni stvarnosti odražata idejno opredelitev, ki ni v skladu z našo
+                samoupravno socialistično družbo«. </p>
+            <p>Po drugi strani pa je samo uredništvo bilo mnenja, da je njihovo pisanje sicer
+                kritično, vendar ni kritično (culture of dissent) do marksizma: »Menimo, da je
+                delovanje časopisa <hi rend="italic">IBOR</hi> marksistično po svojem kritično
+                usmerjenem, odprtem in argumentiranem pisanju«, toda kritično naravnano do
+                negativnosti v družbi. Vprašanje o tem, ali je uredništvo časopisa <hi rend="italic">IBOR</hi> v resnici menilo, da je njihovo delovanje marksistično, ali je šlo
+                zgolj za obrambo pred napadom, s katero so hoteli omiliti škodo, ki so jo utrpeli
+                <hi rend="italic">IBOR</hi> in člani uredništva kot posamezniki, je ostalo
+                odprto in predmet naknadnih interpretacij. Nikakor pa zadnjemu uredništvu časopisa
+                <hi rend="italic">IBOR</hi> ne gre oporekati poguma, s katerim so se lotili
+                pisanja o tabu temah, ki so izzvale nezadovoljstvo v konservativnem puljskem okolju.
+                Kljub temu so se njegovi člani najbrž zavedali, da bodo ravno te teme povzročile
+                negodovanje tudi v Partiji in da se s svojim delovanjem pomikajo proti sami meji
+                tolerance. S takim delovanjem je uredništvo revije <hi rend="italic">IBOR</hi>
+                pokazalo pogum in se uprlo, če že ne marksizmu, kot so dejali sami, pa gotovo vsaj
+                skupnosti, v kateri so delovali in živeli.</p></div>
+        </back>
+    </text>
+</TEI>
