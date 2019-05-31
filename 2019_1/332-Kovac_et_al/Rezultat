@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+                <author/>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2019-05-30</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>unknown</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+                    <label>DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change><date>2019-05-31T13:30:50Z</date><name/></change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p><anchor xml:id="gjdgxs"/><hi style="font-size:10pt">Cobiss type [NOTE: To be inserted
+                    by the editor.]</hi></p>
+            <p><hi style="font-size:10pt">Prejeto [NOTE: To be inserted by the editor.]</hi></p>
+            <p><hi style="font-size:10pt">UDK: [NOTE: To be inserted by the editor.]</hi></p>
+            <p><hi style="font-size:10pt">DOI: [NOTE: To be inserted by the editor.]</hi></p>
+            <p style="text-align:center;">Aniko Kovač,<note place="foot" xml:id="ftn1" n="0"><hi rend="footnote_reference">∗</hi>
+                        <hi rend="bold">Department of Language Science and Technology, Saarland
+                            University Campus A2 2, 66123 Saarbrücken, Germany,</hi>
+                        <ref target="mailto:anikok@coli.uni-saarland.de"><hi rend="bold">anikok@coli.uni-saarland.de</hi></ref></note> Maja
+                    Markovič<note place="foot" xml:id="ftn2" n="0"><hi rend="footnote_reference">∗∗</hi>
+                        <hi rend="bold">Department of English Language and Literature, Faculty of
+                            Philosophy, University of Novi Sad Dr Zorana Đinđića 2, 21000 Novi Sad,
+                            Serbia,</hi>
+                        <ref target="mailto:majamarkovic@ff.uns.ac.rs"><hi rend="bold">majamarkovic@ff.uns.ac.rs</hi></ref></note></p>
+            <p style="text-align:center;"><hi rend="bold" style="font-size:16pt">A mixed-principle
+                    rule-based approach to the automatic syllabification of Serbian</hi></p>
+            <p style="text-align:center;"><hi rend="allcaps" xml:space="preserve">Mešani pristop k avtomatskemu zlogovanju v srbščini na podlagi načel in pravil </hi></p>
+            <p style="text-align:center;"><hi rend="italic">IZVLEČEK</hi></p>
+            <p>
+                <hi rend="italic" style="font-size:10pt" xml:space="preserve">V tem prispevku predstavljamo mešani pristop k avtomatskemu zlogovanju v srbščini na podlagi načel in pravil, ki temelji na predpisnih pravilih tradicionalne slovnice v kombinaciji z načelom zaporedja glede na zvočnost (Sonority Sequencing Principle). Proučujemo težave in omejitve obeh uveljavljenih pristopov, ki temeljita na zbirki pravil in zvočnosti; vpeljujemo algoritem, ki uporablja oba načina za doseganje natančnejše členitve besed na zloge, ki bi bila skladnejša z intuicijo rojenih govorcev; in predstavljamo statistične podatke, povezane z razporeditvijo zlogov in njihovo strukturo v srbščini. </hi></p>
+            <p>
+                <hi rend="italic" style="font-size:10pt">Ključne besede: zlog, pristop na podlagi
+                    pravil, zvočnost, računalniško jezikoslovje, fonologija</hi></p>
+            <p style="text-align:center;"><hi rend="italic">ABSTRACT</hi></p>
+            <p>
+                <hi rend="italic" style="font-size:10pt">In this paper we present a mixed-principle
+                    rule-based approach to the automatic syllabification of Serbian, based on
+                    prescriptive rules from traditional grammar in combination with the Sonority
+                    Sequencing Principle. We explore the problems and limitations of the existing
+                    rule set and sonority-based approaches, introduce an algorithm that utilizes
+                    both means in an attempt to produce a more accurate segmentation of words into
+                    syllables that is better aligned with the intuition of the native speakers, and
+                    present the statistical data related to the distribution of syllables and their
+                    structure in Serbian.</hi></p>
+            <p>
+                <hi rend="italic" style="font-size:10pt">Keywords: syllable, rule-based approach,
+                    sonority, computational linguistics, phonology</hi></p>
+            <p style="text-align:center;"><hi rend="bold">Introduction</hi></p>
+            <p> Syllables have been considered — although not unequivocally (cf. Koehler 1966) — to
+                be one of the basic units in phonology constituting the minimal units of
+                pronunciation, and to play a role in prosody, phonotactics, and phonological
+                processing (Ladefoged and Johnson 2014). The role of the segmentation of words into
+                syllables and their distributional properties began to see an increase in importance
+                in speech technologies in the 1990s (Iacoponi and Savy 2011), most notably in the
+                areas of speech recognition (SR) and text-to-speech synthesis (TTS).</p>
+            <p> Syllable segmentation today plays a role in speech technologies on the segmental
+                level — conditioning the length of segmental units such as consonants and vowels —
+                as well as on the prosodic level — governing rhythmical alternations (Bigi and
+                Petrone 2014). Syllable segmentation is also a key component in hyphenation (e.g.
+                Kaplar et al. 2018), although it should be noted that, at least in Serbian,
+                hyphenation is governed by a partially diverging set of rules from those governing
+                    syllabification<note place="foot" xml:id="ftn3" n="1"><hi style="font-size:10pt" xml:space="preserve"> For example, hyphenation rules ban the segmentation after a syllable consisting of a single vowel at word onset, while this segmentation is allowed and expected according to the rules of syllabification.</hi></note>.
+                Syllable distribution data is also of crucial importance for psycholinguistic
+                experiments, as syllable frequency has been shown to play a role in the processing
+                of words (e.g. Barber et al. 2004; Cholin et al. 2006; Cholin and Levelt 2009).
+                Developing an automatic system of syllabification allows for the segmentation of
+                large-scale language corpora needed for the development of automatic systems or the
+                extraction of relevant data related to frequency syllable distributions, which would
+                otherwise require a large number of trained annotators and would be a resource and
+                cost heavy undertaking.</p>
+            <p> The two generally distinguishable approaches to automatic syllabification are
+                rule-based versus data-driven approaches (Marchand et al. 2009). While data-driven
+                approaches have taken over many aspects of natural language processing, and there
+                are a number of data-driven models of syllable segmentation using artificial neural
+                networks (e.g. Daelemans and van den Bosch 1992; Hunt 1993; Stoianov et al. 1997;
+                Landsiedel et al. 2011), the unavailability of segmented data for Serbian makes
+                rule-based approaches the only viable option for automatic syllabification in
+                Serbian.</p>
+            <p> To the best of our knowledge, there is a single publicly available attempt at
+                developing a rule-based syllabifier for Serbian by Kaplar et al. (2018). In this
+                paper we lay out a number of problems and limitations with the ruleset used in their
+                syllabification system and why relying on the existing set of prescriptive rule
+                descriptions from traditional grammar is insufficient to capture and describe a
+                syllabification system that is aligned with the intuition of native speakers of
+                Serbian. A relatable attempt at automatic syllabification was developed by Meštrović
+                et al. (2015) for Croatian, the key difference between their work and ours being in
+                the principle behind the syllabification algorithm which in their case relied solely
+                on the onset maximization principle — limiting possible syllable onsets to valid
+                onsets at the beginning of words. Taking into account Morelli’s (1999) limitations
+                on possible syllable onsets in Serbo-Croatian, the onset maximization principle
+                employed by Meštrović et al. could be considered a comparatively liberal system. In
+                order to attempt to constrain our syllabifer, we are decided on a different approach
+                that will not rely on onset maximization, but rather a combination of a number of
+                alternative principles.</p>
+            <p> In this paper we present a mixed-principle rule-based approach to the
+                syllabification of Serbian. Our starting set of rules is based on the <hi rend="italic">Gramatika srpskoga jezika</hi> by Stanojčić and Popović (2005), a
+                prescriptive textbook for Serbian grammar that presents a set of rule descriptions
+                for the segmentation of words into syllables. In a previous version of our
+                syllabification algorithm (Kovač and Marković 2018), we made a number of changes to
+                the rule descriptions of Stanojčić and Popović (2005) as the formulation of some of
+                the descriptions proved to be redundant, some were example-based and not specific
+                enough for a formal implementation, and we also expanded them with three added
+                modifications related to the treatment of nasals and the alveolar sonorant /<hi rend="italic">r</hi>/ based on Kašić (2014) and the treatment of alveolar
+                sonorants /<hi rend="italic">l</hi>/ and /<hi rend="italic">n</hi>/ based on Zec
+                (2000). In this paper we extend our previous algorithm to include a module for
+                validating the structure of syllables in terms of their compliance with the Sonority
+                Sequencing Principle (SSP), thus further fine-tuning the accuracy of our
+                segmentation, and resolving a number of problems noted in our earlier
+                implementation.</p>
+            <p> The goal of the paper is threefold: i) to improve our system for automatic
+                rule-based syllabification for Serbian based on the formalization of existing rule
+                descriptions by the addition of the sonority sequencing validation module, ii) to
+                provide an analysis of the outcomes of the automatic syllabification process in
+                order to address possible theoretical considerations and serve as a basis for the
+                development of future syllabifiers, and iii) to present statistical data related to
+                the distribution of syllables and their structure in Serbian.</p>
+            <p style="text-align:center;"><hi rend="bold">Prescriptive rule descriptions</hi></p>
+            <p> Our starting set of rules was based on the formalization of the rule descriptions
+                governing the segmentation of words into syllables from the <hi rend="italic">Gramatika srpskoga jezika</hi> by Stanojčić and Popović (2005). Being a
+                prescriptive textbook on Serbian grammar used at a high school level by all student
+                profiles, we expected these rules to constitute the common knowledge base shared by
+                the majority of native speakers.</p>
+            <p> Regarding syllable boundaries, Stanojčić and Popović (2005, 37) establish the
+                following general rule (1).</p>
+            <p>(1)
+                <hi rend="italic" xml:space="preserve">In words made up of multiple phonemes, consonants, sonorants and vowels, the syllable boundary comes after the vowel and before the consonant (e.g. </hi>či-ta-ti<hi rend="italic" xml:space="preserve"> [</hi>to
+                    read<hi rend="italic">]).</hi></p>
+            <p>In addition to this general rule, they list the following rules — (2), (3), (4), (5)
+                and (6) — that further specify medial syllable boundaries depending on consonant
+                manner of articulation.</p>
+            <p>(2)
+                <hi rend="italic" xml:space="preserve">Medially, in a consonant cluster which has an affricate or fricative sound in its initial position, the syllable boundary will be before that consonant cluster (e.g. </hi>po-šta
+                    <hi rend="italic">[</hi>post<hi rend="italic" xml:space="preserve">], </hi>ma-čka <hi rend="italic">[</hi>cat<hi rend="italic">]).</hi></p>
+            <p>(3) <hi rend="italic">The syllable boundary will be before a consonant cluster if, in
+                    a consonant cluster found medially in a word, the second position in the cluster
+                    is occupied by one of the sonorants /</hi>v<hi rend="italic">/, /</hi>j<hi rend="italic">/, /</hi>r<hi rend="italic">/, /</hi>l<hi rend="italic">/ or
+                    /</hi>ʎ<hi rend="italic" xml:space="preserve">/ preceded by any other consonant besides a sonorant (e.g. </hi>sve-tlost
+                    <hi rend="italic">[</hi>light<hi rend="italic">]).</hi></p>
+            <p>(4)
+                <hi rend="italic" xml:space="preserve">If a consonant cluster consists of two sonorants, the syllable boundary will be between them so that one sonorant belongs to the preceding, and one sonorant belongs to the following syllable (e.g. </hi>lom-ljen
+                    <hi rend="italic">[</hi>broken<hi rend="italic">]).</hi></p>
+            <p>(5) <hi rend="italic">If a consonant cluster consists of a plosive in its initial
+                    position and some other consonant except the sonorants /</hi>j<hi rend="italic">/, /</hi>v<hi rend="italic">/, /</hi>l<hi rend="italic">/, /</hi>ʎ<hi rend="italic">/ and
+                /</hi>r<hi rend="italic" xml:space="preserve">/, the syllable boundary will be between the consonants (e.g. </hi>lep-tir
+                    <hi rend="italic">[</hi>butterfly<hi rend="italic">]).</hi></p>
+            <p>(6) <hi rend="italic">If in a cluster of two sonorants, the second position is
+                    occupied by the sonorant /</hi>j<hi rend="italic">/ from je corresponding to the
+                    ijekavica dialect to
+                /</hi>e<hi rend="italic" xml:space="preserve">/ in the ekavica dialect, the syllable boundary will be before that group (e.g. </hi>čo-vjek
+                    <hi rend="italic">[</hi>man<hi rend="italic">]).</hi></p>
+            <p>Stanojčić and Popović (2005, 32) also introduce the rule descriptions (7) and (8) to
+                define when the sonorants /<hi rend="italic">r</hi>/, /<hi rend="italic">l</hi>/,
+                and /<hi rend="italic">n</hi>/ constitute syllable nuclei.</p>
+            <p>(7) <hi rend="italic">The sonorant /</hi>r<hi rend="italic">/ can be a syllable
+                    carrier in standard Serbian when:</hi></p>
+            <list type="ordered">
+                <item><hi rend="italic" xml:space="preserve">it is found medially between two consonants (e.g. </hi>tr-ča-ti
+                        <hi rend="italic">[</hi>to run<hi rend="italic">]),</hi></item>
+                <item><hi rend="italic" xml:space="preserve">it is found initially before a consonant (e.g. </hi>r-va-ti
+                    se <hi rend="italic">[</hi>to wrestle<hi rend="italic">]),</hi></item>
+                <item><hi rend="italic" xml:space="preserve">it is found after a vowel in compounds (e.g. </hi>za-r-đa-ti<hi rend="italic" xml:space="preserve"> [</hi>to
+                        rust<hi rend="italic">]),</hi></item>
+                <item><hi rend="italic">before /</hi>o<hi rend="italic">/ that is realized as an
+                        /</hi>l<hi rend="italic" xml:space="preserve">/ in other members of the paradigm (e.g. </hi>o-tr-o
+                    <hi rend="italic" xml:space="preserve">(m.) from </hi>o-tr-la <hi rend="italic">(f.) [</hi>wiped<hi rend="italic">]).</hi></item>
+            </list>
+            <p>(8) <hi rend="italic">The other two alveolar sonorants, /</hi>l<hi rend="italic">/
+                    and
+                /</hi>n<hi rend="italic" xml:space="preserve">/ can be syllable carriers in dialectal toponyms (e.g. </hi>Stlp<hi rend="italic" xml:space="preserve">, </hi>Vlča
+                glava<hi rend="italic" xml:space="preserve">, </hi>Žlne<hi rend="italic" xml:space="preserve">) or foreign toponyms (e.g. </hi>Vltava<hi rend="italic" xml:space="preserve">, </hi>Plzen<hi rend="italic" xml:space="preserve">) but also in other personal names (e.g. English </hi>Idn
+                <hi rend="italic" xml:space="preserve">or Arabic </hi>Ibn-Saud<hi rend="italic" xml:space="preserve">), and in the word </hi>bicikl
+                    <hi rend="italic">[</hi>bicycle<hi rend="italic">].</hi></p>
+            <p style="text-align:center;"><hi rend="bold">Revising the existing rule set</hi></p>
+            <p> The development of our syllabification algorithm has been an iterative process
+                testing the existing rule set and making changes as needed. While other authors
+                (e.g. Kaplar et al. 2018) used the rule descriptions of Stanojčić and Popović (2005)
+                directly to implement a software architecture for syllabification in Serbian, we
+                have found a number of problems with this approach.</p>
+            <p> The definition of the rule description under (1) causes the initial member of a
+                consonant cluster in the rule descriptions under (2)–(6) to be understood as the
+                first consonant following a vowel. However, given that the sonorants /<hi rend="italic">r</hi>/, /<hi rend="italic">l</hi>/, and /<hi rend="italic">n</hi>/ can also constitute syllable nuclei in Serbian in certain positions, as
+                presented under rule descriptions (7) and (8), a more precise definition would be
+                that the initial member of a consonant cluster is the first consonant following an
+                element that constitutes a syllable nucleus. The general rule under (1) should be
+                then revised as follows.</p>
+            <p>(1*) <hi rend="italic">In words made up of multiple phonemes, consonants, sonorants
+                    and vowels, the syllable boundary comes after the vowel or sonorants /</hi>r<hi rend="italic">/,
+                /</hi>l<hi rend="italic" xml:space="preserve">/, and /n/ in syllable bearing positions and before the consonant (e.g. </hi>či-ta-ti<hi rend="italic" xml:space="preserve"> [</hi>to
+                read<hi rend="italic" xml:space="preserve">], </hi>tr-ča-ti<hi rend="italic" xml:space="preserve"> [</hi>to
+                    run<hi rend="italic">]).</hi></p>
+            <p>In addition to our expansion of the general rule presented under (1) to include the
+                syllable bearing sonorants, while formalizing the rule descriptions via finite-state
+                automata, rules (2) and (3) proved to be redundant as they produced identical
+                outcomes to the general rule under (1*). Because of this, these rules were
+                disregarded in our syllabification algorithm.</p>
+            <p> During our early testing of the verbatim implementation of the rule descriptions, we
+                also noticed that the existing rule descriptions treated a consonant cluster
+                consisting of a nasal in initial position followed by a consonant that is not one of
+                the sonorants /<hi rend="italic">j</hi>/, /<hi rend="italic">v</hi>/, /<hi rend="italic">l</hi>/, /<hi rend="italic">ʎ</hi>/, and /<hi rend="italic">r</hi>/ as a part of the following syllable onset, producing outcomes such as: <hi rend="italic">gu-ngula</hi> [<hi rend="italic">commotion</hi>], <hi rend="italic">mo-mci</hi> [<hi rend="italic">guys</hi>], <hi rend="italic">ka-ncelarije</hi> [<hi rend="italic">offices</hi>], <hi rend="italic">su-nce</hi> [<hi rend="italic">sun</hi>], etc. Contrary to Stanojčić and
+                Popović (2005), authors such as Kašić (2014) argue that nasals should be treated
+                analogously to plosives during syllabification because there is a complete occlusion
+                in the oral cavity during their production. If this principle were to be employed,
+                rule (5) should be revised as follows.</p>
+            <p>(5*)<hi rend="italic" xml:space="preserve"> If a consonant cluster consists of a plosive or nasal in its initial position and some other consonant except the sonorants</hi>
+                    /<hi rend="italic">j</hi>/, /<hi rend="italic">v</hi>/, /<hi rend="italic">l</hi>/, /<hi rend="italic">ʎ</hi>/, and /<hi rend="italic">r</hi>/,<hi rend="italic" xml:space="preserve"> the syllable boundary will be between the consonants.</hi></p>
+            <p>Following rule (5*), the examples above would then be segmented as: <hi rend="italic">gun-gula</hi> [<hi rend="italic">commotion</hi>], <hi rend="italic">mom-ci</hi>
+                    [<hi rend="italic">guys</hi>], <hi rend="italic">kan-celarije</hi> [<hi rend="italic">offices</hi>], <hi rend="italic">sun-ce</hi> [<hi rend="italic">sun</hi>], etc. Even though in the earlier implementation of our syllabifier
+                (Kovač and Marković 2018) we did not want to employ the Sonority Sequencing
+                Principle (SSP), we opted for the treatment of nasals by Kašić (2014) in our
+                implementation, which respected the limitations put forward by the Sonority
+                Hierarchy, and was more in line with native speaker intuition.</p>
+            <p style="text-align:center;"><hi rend="bold">The Sonority Hierarchy</hi></p>
+            <p> Sonority Theory accounts for the organization of segments into well-formed
+                sequences, both within the syllable and across syllabic boundaries. This
+                organization is driven by principles of sonority, a property that is used as the
+                basis of ranking all sounds along a scale, from less sonorous to more sonorous ones.
+                Although there is a general consensus that segments are ranked by their inherent
+                sonority, the notion of sonority itself is not unambiguously described in the
+                phonetic and phonological literature. Among the phonetic approaches, Ladefoged
+                (1982) defines sonority as the perceptual salience or loudness of a sound, and Bloch
+                and Trager (1942; according to Goldsmith 1995) define it as the amount of airflow in
+                the resonance chamber. For others, sonority is dependent on multiple phonetic
+                parameters (Ohala and Kawasaki 1984; Ohala 1990; Butt 1992). In the phonological
+                literature, sonority is generally defined as a multi-valued feature (Foley 1972;
+                Hankamer and Aissen 1974; Selkirk 1984), although there are also authors who argue
+                that it is derivable from the more basic binary features of phonological theory
+                (Clements 1990). Other questions that are often addressed are whether sonority
+                scales are universal or language-specific, allowing freedom to languages in
+                assigning sonority values, and how fine-grained distinctions sonority scales should
+                capture. For example, Clements’ universal sonority scale includes only four major
+                classes of consonants (Clements 1990), ranked from least sonorous to most sonorous,
+                as in (i):<lb/></p>
+            <list type="ordered">
+                <item>O &lt; N &lt; L &lt; G</item>
+            </list>
+            <p rend="List Paragraph">(O=obstruents, N=nasals, L=liquids, G=glides)</p>
+            <p><lb/>Selkirk (1984, 112) proposes a much more detailed scale, which divides all
+                sounds into 11 groups, assuming more subtle differences in sonority values. Selkirk
+                also states that the sonority indices may not be as important in themselves as the
+                sonority relations that they express. Selkirk’s scale of sonority in consonants is
+                given in (ii):</p>
+            <p><lb/>(ii) p, t, k &lt; b, d, g &lt; f, θ &lt; v, z, ð &lt; s &lt; m, n &lt; l &lt;
+                r</p>
+            <p><lb/>Sonority scales serve as the basis of constructing segment sequences within
+                syllables. The universal cross-linguistic generalization is that in the sequence of
+                segments, the one ranking highest on the sonority scale constitutes the peak of the
+                syllable, i.e. it is the syllabic nucleus. As for the other segments around the
+                nucleus, they are organized so that the more sonorous ones are closer to the
+                nucleus, and less sonorous ones are more distant. This generalization is referred to
+                as Sonority Sequencing Principle (SSP). Thus a syllable with an ascending sonority
+                slope in the onset and a descending slope in the coda, such as, for example <hi rend="italic">blunt</hi>, is a well-formed syllable, whereas *<hi rend="italic">lbutn</hi> is prohibited, due to the violation of the SSP. Adopting thee SSP
+                often solves the problems of syllabic consonants, since they generally occur in
+                environments where they constitute a sonority peak, as in the Serbian word <hi rend="italic">pr-vi</hi>.<lb/></p>
+            <p style="text-align:center;"><hi rend="bold">The need for Sonority</hi></p>
+            <p> Apart from the segmentation of nasals analogously to plosives following Kašić (2014)
+                that relied on principles of the SSP, in our initial attempt at the formalization of
+                the rule description under (8) of Stanojčić and Popović (2005) we had to rely on
+                sonority to define the criteria for when the alveolar sonorants /<hi rend="italic">l</hi>/ and /<hi rend="italic">n</hi>/ act as syllable nuclei. </p>
+            <p> As Stanojčić and Popović gave no formal criteria defining the contexts of syllable
+                bearing /<hi rend="italic">l</hi>/ and /<hi rend="italic">n</hi>/, our initial
+                attempt to draw on generalizations based on their examples for syllable carrying
+                    /<hi rend="italic">l</hi>/ (<hi rend="italic">Stlp, Vlča glava, Žlne, Vlava,
+                    Plzen</hi>) and /<hi rend="italic">n</hi>/ (<hi rend="italic">Idn,
+                Ibn-Saud</hi>). In analogy to the rules descriptions under (7a) and (7b) and our
+                added rule (7c*) defining the contexts in which the alveolar phoneme /<hi rend="italic">r</hi>/ can act as a syllable nucleus, we implemented rule (8*) to
+                define the conditions under which the phonemes /<hi rend="italic">l</hi>/ and /<hi rend="italic">n</hi>/ can act as syllable bearing nuclei.</p>
+            <p>(8*)<hi rend="italic" xml:space="preserve"> The other two alveolar sonorants, /</hi>l<hi rend="italic">/ and /</hi>n<hi rend="italic">/, can be syllable carriers if they
+                    are found:</hi></p>
+            <list type="ordered">
+                <item><hi rend="italic" xml:space="preserve"> medially between two consonants,</hi></item>
+                <item><hi rend="italic">initially before a consonant, or</hi></item>
+                <item><hi rend="italic">finally after a consonant.</hi></item>
+            </list>
+            <p>However, the formulation under (8*) allowed for outcomes such as: <hi rend="italic">Be-rn</hi>, <hi rend="italic">Ka-rl</hi>, <hi rend="italic">erla-jn</hi>, <hi rend="italic">Kla-jn</hi>, <hi rend="italic">kasa-rn-skim</hi>, <hi rend="italic">Linko-ln</hi>, <hi rend="italic">Va-jl-om</hi>, etc. in which the
+                phonemes /<hi rend="italic">l</hi>/ and /<hi rend="italic">n</hi>/ identified as
+                syllable nuclei have a lower sonority level than the consonants in their onset or
+                coda. Because the phonemes /<hi rend="italic">r</hi>/ and /<hi rend="italic">j</hi>/
+                are more sonorous than the phonemes /<hi rend="italic">l</hi>/ and /<hi rend="italic">n</hi>/, and the lateral phoneme /<hi rend="italic">l</hi>/ is
+                more sonorous than the nasal phoneme /<hi rend="italic">n</hi>/, native speakers do
+                not perceive the elements of lower sonority as syllable nuclei in these contexts.
+                Zec (2000) states that alveolar sonorants can be syllable bearing elements in
+                Serbian only in contexts in which there is no segment of a higher level of sonority
+                in their immediate vicinity. Because of this, we needed to further specify rule (8*)
+                to take sonority constraints into consideration as follows.</p>
+            <p>(8**)<hi rend="italic" xml:space="preserve"> The other two alveolar sonorants, /</hi>l<hi rend="italic">/ and /</hi>n<hi rend="italic">/, can be syllable carriers if they
+                    are found:</hi></p>
+            <list type="ordered">
+                <item><hi rend="italic">medially between two consonants of lower
+                    sonority,</hi></item>
+                <item><hi rend="italic">initially before a consonant of lower sonority,
+                    or</hi></item>
+                <item><hi rend="italic">finally after a consonant of lower sonority.</hi></item>
+            </list>
+            <p>It turns out that this principle can also account for the behavior of the syllable
+                bearing /<hi rend="italic">r</hi>/ in Serbian. In fact, it does not only provide a
+                general account for consonantal syllabic nuclei in Serbian that subsumes the rules
+                under (7) and (8**) it also accounts for our extension of rule (7) that keeps the
+                the consonant cluster /<hi rend="italic">rje</hi>/ of the ijekavica dialect
+                unsegmented in initial position<note place="foot" xml:id="ftn4" n="2"><hi style="font-size:10pt" xml:space="preserve">   It should be noted that while sonority sequencing accounts for the non-syllabic treatment of /</hi><hi rend="italic" style="font-size:10pt">r</hi><hi style="font-size:10pt">/
+                            before /</hi><hi rend="italic" style="font-size:10pt">je</hi><hi style="font-size:10pt" xml:space="preserve">/ in initial position, our rule extension is still needed as it has a more general scope than the sonority rule and accounts for segmentation in medial positions as well (e.g. in words such as </hi><hi rend="italic" style="font-size:10pt">isko-rje-nilo</hi><hi style="font-size:10pt" xml:space="preserve"> [</hi><hi rend="italic" style="font-size:10pt">eradicated</hi><hi style="font-size:10pt">]).</hi></note>. Because the phoneme /<hi rend="italic">j</hi>/ has a higher level of sonority than /<hi rend="italic">r</hi>/, the phoneme /<hi rend="italic">r</hi>/ should not be treated as a
+                syllable nucleus initially in words such as
+                    <hi rend="italic" xml:space="preserve">rjeka </hi>[<hi rend="italic">river</hi>].</p>
+            <p> In our previous implementation of the syllabifier (Kovač and Marković 2018), we
+                attempted to limit our reliance on the Sonority Sequencing Principle to the cases
+                above. However, during the evaluation of our algorithm, we encountered a number of
+                syllable structures that were unexpected due to their absence from the onset
+                maximization approach to syllabification developed for Croatian by Meštrović et al.
+                (2015). Namely, we encountered the syllable structure CCCCCVC in <hi rend="italic">mo-na-</hi><hi rend="italic underline">rhstvom</hi> [<hi rend="italic">with the
+                    monarchy</hi>], the structure CCCCCV in the words <hi rend="italic">se-</hi><hi rend="italic underline">rbska</hi> [<hi rend="italic">Serbian</hi>], <hi rend="italic">ca-</hi><hi rend="italic underline">rstva</hi> [<hi rend="italic">kingdoms</hi>], and <hi rend="italic">sta-ra-te-</hi><hi rend="italic underline">ljstva</hi> [<hi rend="italic">custody</hi>], and the
+                structure CCCCVC in <hi rend="italic">se-</hi><hi rend="italic underline">rbskom</hi> [<hi rend="italic">Serbian</hi>], <hi rend="italic">de-</hi><hi rend="italic underline">jstvom</hi> [<hi rend="italic">with
+                    effect</hi>],<hi rend="italic" xml:space="preserve"> vo-</hi><hi rend="italic underline">đstvom</hi> [<hi rend="italic">leadership</hi>], <hi rend="italic">spo-</hi><hi rend="italic underline">rtskim</hi> [<hi rend="italic">sport</hi>], and <hi rend="italic">a-</hi><hi rend="italic underline">lpskog</hi> [<hi rend="italic">alpine</hi>].</p>
+            <p> The way we attempted to remedy this issue was to limit the syllable onset length
+                three-syllable clusters, which is the maximum length of non-syllabic consonant
+                clusters word initially in Serbian (Kašić 2014). While this constraint, in
+                combination with rules (5) and (6), resolved the issues in the examples we
+                encountered — with this limitation, they are segmented as
+                    <hi rend="italic" xml:space="preserve">mo-narh-stvom </hi>[<hi rend="italic">with the monarchy</hi>],
+                    <hi rend="italic" xml:space="preserve">serb-ska </hi>[<hi rend="italic">Serbian</hi>] (three-syllable onset limitation + rule (5)),
+                    <hi rend="italic" xml:space="preserve">car-stva </hi>[<hi rend="italic">kingdoms</hi>], <hi rend="italic">sta-ra-telj-stva</hi> [<hi rend="italic">custody</hi>], <hi rend="italic">serb-skom</hi> [<hi rend="italic">Serbian</hi>],<hi rend="italic" xml:space="preserve"> dej-stvom</hi> [<hi rend="italic">with effect</hi>],
+                    <hi rend="italic" xml:space="preserve">vođ-stvom </hi>[<hi rend="italic">leadership</hi>], <hi rend="italic" xml:space="preserve">sport-skim </hi>[<hi rend="italic">sport</hi>], <hi rend="italic">alp-sko</hi>g [<hi rend="italic">alpine</hi>] — some medial clusters with a syllabic consonant still remained a
+                problem. For example, in the word
+                    <hi rend="italic" xml:space="preserve">najstrpljiviji </hi>[<hi rend="italic">most patient</hi>], which contains a syllabic /<hi rend="italic">r</hi>/, the
+                syllable boundary that would be placed between /<hi rend="italic">na</hi>/ and /<hi rend="italic">jstr</hi>/ — <hi rend="italic">na-jstr-pljiviji</hi> — which does
+                not coincide with native speaker intuition. The Sonority Sequencing Principle seems
+                like a perfect solution for this cases, as it would require the structure of a
+                syllable to follow a sonority scale, with the syllable nucleus being the most
+                sonorous element, while sonority would gradually decrease towards the periphery of
+                the syllable (Zec 2000). With this added sonority requirement, the phoneme /<hi rend="italic">j</hi>/, being more sonorous than /<hi rend="italic">s</hi>/ and
+                    /<hi rend="italic">t</hi>/, would have to constitute a part of the previous
+                syllable where it would be of a lower sonority when compared to its neighbouring
+                syllable bearing vowel, and the syllable boundary would be
+                <hi rend="italic" xml:space="preserve">naj-str-pljiviji </hi>which is in line with
+                native speaker intuition.</p>
+            <p> As a final check following rules (1)–(8**), we add rule (9) that has the ability to
+                shift the syllable boundary in order to avoid a violation of the sonority
+                hierarchy.</p>
+            <p>(9)<hi rend="italic" xml:space="preserve"> If the syllable structure resulting from rules (1)–(8**) does not conform to the Sonority Sequencing Principle, move the boundary so that the phoneme violating the sonority sequence is shifted into the neighboring syllable.</hi></p>
+            <p style="text-align:center;"><hi rend="bold">An adapted Sonority Hierarchy</hi></p>
+            <p> In our sonority sequencing module, we relied on a combination of Selkirk’s (1984)
+                sonority scale, the sonority apertures for Serbian described by Subotić et al.
+                (2012), and some notes on sonority sequencing in Serbian from Zec (2000). Our
+                sonority scale is shown under (iii).</p>
+            <p>(iii) p, t, k &lt; b, d, g &lt; ts, tʃ, tɕ &lt; f, ʃ, h &lt; v, z, ʒ &lt; s &lt; m,
+                n, ɲ &lt; l, ʎ &lt; j, r &lt; a, e, i o, u</p>
+            <p>The highest sonority group in our implementation was made up by the vowels of
+                Serbian. As vowels constitute syllable nuclei and there can only be a single vowel
+                per syllable, we did not need to make a distinction between three sonority apertures
+                of vowels (i, u &lt; e, o &lt; a) as it is the case in the hierarchy of Subotić et
+                al. (2012). Following Selkirk (1984), we divided sonorants into three sonority
+                classes, and following Zec (2000), we treated liquids as more sonorous than nasals,
+                and, within liquids, the phoneme /<hi rend="italic">r</hi>/ as more sonorous than
+                laterals. For the needs of our implementation, we treated the phoneme /<hi rend="italic">r</hi>/ and glide /<hi rend="italic">j</hi>/ as a single sonority
+                group, although from a theoretical standpoint /<hi rend="italic">j</hi>/ would be
+                considered as more sonorous out of the two given its semi-vowel nature. We opted for
+                treating /s/ as an element of higher sonority than voiced fricative despite its
+                voiceless nature following Selkirk (1984), and expanded Selkirk’s hierarchy with the
+                addition of affricates between voiceless fricatives and voiced plosives as a
+                parallel to the aperture order presented by Subotić et al. (2012).</p>
+            <p> It is important to note that there are sequences which clearly do not conform with
+                the SSP in a number of languages, and which may undermine the relevance and power of
+                the sonority hierarchy. A very common pattern, found across a number of unrelated
+                languages, is the possibility of an /<hi rend="italic">s</hi>/ + plosive sequence in
+                the syllable onset, which would be in clear violation if we were to adopt the
+                sonority scale outlined above. In Serbian, there is a known ambiguity in syllable
+                segmentation in the case of continuant fricative phonemes. For example, the word
+                    <hi rend="italic" xml:space="preserve">postaviti </hi>[<hi rend="italic">to
+                    set</hi>] can be syllabified as both <hi rend="italic">po-sta-vi-ti</hi> and
+                <hi rend="italic" xml:space="preserve">pos-ta-vi-ti </hi>(Gvozdanović 2011). We
+                therefore adopt the view put forward in Morelli (1999), who argues that fricatives
+                and plosives may be treated as a single class with respect to sonority in these
+                cases — since splitting them into separate classes would make wrong typological
+                predictions — and add an exception to our sonority sequencing module that leaves
+                fricative + plosive sequences as a viable sequence in the syllable onset.</p>
+            <p style="text-align:center;"><hi rend="bold">Our algorithm</hi><note place="foot" xml:id="ftn5" n="3"><hi style="font-size:10pt" xml:space="preserve"> Our implementation of the algorithm can be found at </hi><ref target="https://github.com/versi-regular/rule-based_syllabifier_sr"><hi style="font-size:10pt">https://github.com/versi-regular/rule-based_syllabifier_sr</hi></ref><hi style="font-size:10pt">, licensed under the GNU General Public License
+                            v3.0. It was developed using Python 3.x and processes 10380 tokens/s on
+                            average estimated on a 4,681,713 token corpus processed on an Intel®
+                            Core™ i5-3210M CPU @ 2.50GHz with 8.00 GBs of DDR3L-1600 SODIMM,
+                            including pre-processing, clean-up, and
+                transliteration.</hi></note></p>
+            <p> Our mixed-principle syllabification algorithms consists of the following steps:</p>
+            <list type="ordered">
+                <item>Identify vowels in the word and mark their positions as positions capable of
+                    constituting syllable nuclei (based on (1)).</item>
+                <item>If a word contains the letters<hi rend="italic" xml:space="preserve"> l</hi>,
+                        <hi rend="italic">n</hi> or the
+                    letter<hi rend="italic" xml:space="preserve"> r</hi> not followed by the
+                    sequence <hi rend="italic">je</hi> in the center of a consonant cluster
+                    consisting of elements of lower sonority or at the beginning or a word followed
+                    by a consonant of lower sonority, or the letters <hi rend="italic">l</hi> or <hi rend="italic">n</hi> at the end of a word preceded by a consonant of lower
+                    sonority, treat those positions in the word as capable of constituting syllable
+                    nuclei (based on (1*), (7), and (8**)).</item>
+                <item>For each position identified as capable of constituting a syllable
+                        nucleus:<list type="ordered">
+                        <item>If it is followed by a sequence of two sonorants, mark the syllable
+                            boundary between the two sonorants (based on (4)), except if the second
+                            sonorant is <hi rend="italic">j</hi> and it is followed by <hi rend="italic">e</hi>. If the second sonorant is <hi rend="italic">j</hi> followed by <hi rend="italic">e</hi>, mark the syllable
+                            boundary before the sonorant cluster (based on (6)).</item>
+                        <item>If it is followed by a sequence of a plosive or nasal and a plosive,
+                            fricative, affricate or nasal, mark the syllable boundary between the
+                            two consonants (based on (5*)).</item>
+                        <item>In all other cases mark the syllable boundary after the syllable
+                            nucleus (based on (1*)).</item>
+                    </list></item>
+                <item>Run a recursive sonority check (based on (9)):<list type="ordered">
+                        <item>If the word consists of more than one syllable, convert the syllable
+                            structures identified by the previous steps into sonority group
+                            values.</item>
+                        <item>For each syllable, check if there is a violation of the SSP at the
+                            edges of the syllable ignoring the check at the onset on the
+                            word-initial syllable and the check in the coda of the word-final
+                            syllable.</item>
+                        <item>If a violation found is a sequence of a fricative followed by a
+                            plosive in the onset, ignore the violation.</item>
+                        <item>If there is a violation, remove the letter from the edge of the
+                            syllable, and add it onto the neighboring syllable.</item>
+                        <item>Repeat until no violation is found.</item>
+                    </list></item>
+            </list>
+            <p style="text-align:center;"><hi rend="bold">Syllable distribution data</hi></p>
+            <p> In this section, we present the statistical distribution data of syllables in
+                Serbian based on our updated syllabification process applied to the Serbian
+                Lemmatized and PoS Annotated Corpus
+                <hi rend="italic" xml:space="preserve">SrpLemKor </hi>(Popović 2010; Utvić 2011). We
+                chose <hi rend="italic" xml:space="preserve">SrpLemKor </hi>for our analysis,
+                because its annotation allowed us to filter out numbers, Roman numerals,
+                abbreviations and non-Serbian words or suffixes in compounds (at least to some
+                extent) and thus reduce noise in the data.</p>
+            <p> The following results show the syllable distribution statistics based on 3,648,543
+                non-unique word-forms (word tokens) from <hi rend="italic">SrpLemKor</hi>. From a
+                total of 4,681,713 entities (punctuation and word tokens) in our version of the
+                corpus, 113,679 (2.43%) entities of texts #260, #4505 and #4517 were excluded
+                because the files contained faulty encoding. Based on corpus tags, we excluded
+                919,161 (19.63%) entities tagged PUNCT (punctuation), SENT (sentence separator
+                full-stops), RN (Roman numerals), NUM @card@ (Arabic numerals), ABB (abbreviations)
+                and ? (non-Serbian words and other uncategorized entries). An additional 815 (0.02%)
+                entities that contained the characters w, q and x were removed in an attempt to
+                further reduce noise stemming from foreign words, as not all foreign words were
+                tagged as such in the corpus. In the process of syllabification, an additional
+                12,877 (0.28%) entities were removed as they were solely made up of consonant
+                clusters with no available syllable nucleus candidate.</p>
+            <p style="text-align:center;"><hi rend="bold">Syllable type distributions in
+                    Serbian</hi></p>
+            <p> In the 3,648,543 word-forms from <hi rend="italic">SrpLemKor</hi>, a total of
+                8,196,771 syllables were identified. Table 1 presents the syllable type distribution
+                based on our mixed-principle syllabification algorithm.</p>
+            <p>#file: table_1.xlsx</p>
+            <p>Table 1: Syllable structure distribution of syllables in the
+                <hi rend="italic" xml:space="preserve">SrpLemKor </hi>corpus<lb/></p>
+            <p> These results show the distribution of syllables in a somewhat noisy data. We found
+                there are still foreign words annotated as non-foreign in the corpus constituting
+                some of the less-frequent syllable structures listed as “Other” in Table 1. For
+                example, an instance of the syllable structure VCCCCC was found to correspond to the
+                segmentation of the German word <hi rend="italic">Pe-</hi><hi rend="italic underline">itscht</hi> [<hi rend="italic">lashes</hi>], the
+                syllable structure CCCCVCCC was identified in the German word <hi rend="italic">Fle-i-</hi><hi rend="italic underline">schmarkt</hi> [<hi rend="italic">meat
+                    market</hi>], and the structure CCCCCVC was found in the German word <hi rend="italic">Gle-i-</hi><hi rend="italic underline">chschal</hi><hi rend="italic">-tung</hi> [<hi rend="italic">co-ordination</hi>]. The structure
+                CCCCCCVC was found in the German word <hi rend="italic">Na-</hi><hi rend="italic underline">chtschat</hi><hi rend="italic">-ten</hi> [<hi rend="italic">nightshade</hi>] and in the toponym <hi rend="italic">CRYSLER</hi>. The syllable structure CCVCCCC was found in the source transcription
+                of the last name <hi rend="italic">Pe-</hi><hi rend="italic underline">tritsch</hi>
+                and in the English word <hi rend="italic">knights</hi>. The syllable structure
+                CCCVCCC was identified to be a part of the German words <hi rend="italic">Wol-</hi><hi rend="italic underline">fsmilch</hi> [<hi rend="italic">spurge</hi>] and <hi rend="italic">E-in-ge-</hi><hi rend="italic underline">schickt</hi> [<hi rend="italic">sent in</hi>] and to correspond to the English
+                word <hi rend="italic">string</hi>. The syllable structure CCCCCCV was identified in
+                the German words <hi rend="italic">We-i-hna-</hi><hi rend="italic underline">chtsbra</hi><hi rend="italic">-e-u-che</hi> [<hi rend="italic">Christmas
+                    trees</hi>], <hi rend="italic">Stor-</hi><hi rend="italic underline">chschna</hi><hi rend="italic">-bel</hi> [Crane’s bill], while the structure
+                CCCCCV was found in the words <hi rend="italic">Re-</hi><hi rend="italic underline">chtsge</hi><hi rend="italic">-schi-chte</hi> [<hi rend="italic">history of
+                    law</hi>] and <hi rend="italic">Um-gan-</hi><hi rend="italic underline">gsspra</hi><hi rend="italic">-che</hi> [<hi rend="italic">vernacular</hi>], as
+                well as in the sequences <hi rend="italic">šttske</hi> and <hi rend="italic">su-</hi><hi rend="italic underline">žnjstva</hi>. The syllable structure
+                CCCCVCC was found in the German word <hi rend="italic">Ze-it-</hi><hi rend="italic underline">schrift</hi> [<hi rend="italic">magazine</hi>], and in
+                multiple occurrences of the source spelling of the last names <hi rend="italic">Schmidt</hi> and <hi rend="italic">Rot-</hi><hi rend="italic underline">hchild</hi>. The structure VCCCC was found in the German words <hi rend="italic">Deutsch</hi> [<hi rend="italic">German</hi>],
+                    <hi rend="italic" xml:space="preserve">Ernst </hi>[<hi rend="italic">seriousness</hi>], in the sequence <hi rend="italic">der-demnaechst</hi> [<hi rend="italic">soon</hi>], and in the strings
+                <hi rend="italic" xml:space="preserve">ikvbv </hi>and <hi rend="italic">EHCmc</hi>.
+                As can be seen from the examples above, besides foreign origin words, noise in the
+                data can also be found in typos and strings we did not manage to identify. Another
+                example of such string was
+                <hi rend="italic" xml:space="preserve">ngBpJKTnQ </hi>identified as the structure
+                VCCCCCCCC. Most structures identified as CVCCCC were the result of typos, e.g.
+                serbsk, kra-levstv, pod-danstv, carstv, slav-jansk, ju-go-slo-venskg, cr-no-gorskg,
+                but also foreign origin names, e.g. <hi rend="italic">Hirsch, Herbst</hi>, <hi rend="italic">Lokotsch</hi>, and <hi rend="italic">Worlds</hi> in additions to
+                strings such as <hi rend="italic">majnds and Gorrrr</hi>. In addition to these, one
+                occurrence of the syllable structure CVCCCCCCCC that stood for the onomatopoeic
+                vulgarism <hi rend="italic">mršššššššš</hi> [<hi rend="italic">go away</hi>].</p>
+            <p> We also found 2 syllable structures that differed from the structures found by
+                Meštrović et al. (2005) for Croatian. The structure CCCCVC was identified in the
+                words <hi rend="italic">vo-</hi><hi rend="italic underline">đstvom</hi> [<hi rend="italic">with leadership</hi>], <hi rend="italic">za-ko-no-da-</hi><hi rend="italic underline">vstvom</hi> [<hi rend="italic">with legislature</hi>],
+                    <hi rend="italic">mo-nar-hstvom</hi> [<hi rend="italic">with monkhood</hi>], <hi rend="italic">lu-ka-</hi><hi rend="italic underline">vstvom</hi> [<hi rend="italic">with slyness</hi>], <hi rend="italic">be-zzglob-na</hi> [<hi rend="italic">without wrists</hi>], and in the paradigm members of the word <hi rend="italic">po-</hi><hi rend="italic underline">sthlad</hi><hi rend="italic">-no-ra-to-vski</hi> [<hi rend="italic">post-cold-war</hi>]. It also occurred in
+                the Russian word <hi rend="italic">Zdra-</hi><hi rend="italic underline">vstvuj</hi>
+                [hello], in the German-origin word <hi rend="italic">Ha-up-</hi><hi rend="italic underline">tstrum</hi><hi rend="italic" xml:space="preserve">-fi-rer </hi>[<hi rend="italic">mid-level commander</hi>], in the German <hi rend="italic">Ra-u-</hi><hi rend="italic underline">schmit</hi><hi rend="italic">-tel</hi>
+                    [<hi rend="italic">intoxicant</hi>] and <hi rend="italic">Li-e-be-</hi><hi rend="italic underline">spflan</hi><hi rend="italic">-ze</hi> [<hi rend="italic">love plant</hi>] and in the misspelled Serbian words <hi rend="italic">pri-ja-</hi><hi rend="italic underline">tljskih</hi> [<hi rend="italic">friendly</hi>] and <hi rend="italic" xml:space="preserve">kvdrat </hi>[<hi rend="italic">square</hi>]. The structure CCCCV was found in the words <hi rend="italic">bi-</hi><hi rend="italic underline">vstvu</hi> [<hi rend="italic">existence</hi>], <hi rend="italic">va-zdu-ho-plo-</hi><hi rend="italic underline">vstvo</hi> [<hi rend="italic">aviation</hi>], <hi rend="italic">kra-lje-</hi><hi rend="italic underline">vstva</hi> [<hi rend="italic">kingdoms</hi>], <hi rend="italic">zdra-</hi><hi rend="italic underline">vstve</hi><hi rend="italic">-noj</hi> [<hi rend="italic">health</hi>], <hi rend="italic">vo-</hi><hi rend="italic underline">đstvo</hi>
+                    [<hi rend="italic">leadership</hi>], <hi rend="italic">ču-</hi><hi rend="italic underline">vstva</hi> [<hi rend="italic">feeling</hi>], <hi rend="italic">pre-i-mu-</hi><hi rend="italic underline">ćstva</hi> [<hi rend="italic">advantages</hi>], and <hi rend="italic">mo-gu-</hi><hi rend="italic underline">ćstvu</hi> [<hi rend="italic">possibility</hi>]. It also
+                occurred in German words such as <hi rend="italic">Pfin-</hi><hi rend="italic underline">gstro</hi><hi rend="italic" xml:space="preserve">-se </hi>[<hi rend="italic">peony</hi>], <hi rend="italic">Ke-u-</hi><hi rend="italic underline">schhe</hi><hi rend="italic" xml:space="preserve">-it </hi>[<hi rend="italic">chastity</hi>], <hi rend="italic underline">Schne</hi><hi rend="italic" xml:space="preserve">-e-glo-ec-kchen </hi>[<hi rend="italic">snowdrop</hi>], <hi rend="italic underline">Schne</hi><hi rend="italic" xml:space="preserve">-e-ro-se </hi>[<hi rend="italic">Chrismas rose</hi>], <hi rend="italic">Ge-i-</hi><hi rend="italic underline">sskle</hi><hi rend="italic">-e</hi> [<hi rend="italic">cystus</hi>], <hi rend="italic">Vol-</hi><hi rend="italic underline">ksbra</hi><hi rend="italic">-uch</hi> [<hi rend="italic">popular custom</hi>],
+                    <hi rend="italic">Vol-</hi><hi rend="italic underline">ksgla</hi><hi rend="italic">-u-ben</hi> [<hi rend="italic">popular belief</hi>], <hi rend="italic underline">Schri</hi><hi rend="italic">-ften</hi> [<hi rend="italic">regulations</hi>], <hi rend="italic underline">Schlu</hi><hi rend="italic">-e-ssel-blu-me</hi> [<hi rend="italic">cowslip</hi>], and more<hi rend="italic">.</hi> We discuss the implications of these for our
+                syllabification algorithm in the Discussion section below.</p>
+            <p style="text-align:center;"><hi rend="bold">Syllable type positional distributions in
+                    Serbian</hi></p>
+            <p> We also examined the syllable type frequencies with respect to their position in a
+                word. Four positional frequencies are presented in Table 2: syllable type
+                frequencies in monosyllabic words, and syllables type frequencies in the initial
+                position, in medial positions, and in the final position of polysyllabic words.</p>
+            <p>#file: table_2.xlsx</p>
+            <p>Table 2: Syllable structure distribution of syllables in the
+                <hi rend="italic" xml:space="preserve">SrpLemKor </hi>corpus categorized by
+                position</p>
+            <p>Based on <hi rend="italic">SrpLemKor</hi>, the most frequent monosyllabic syllable
+                structures in Serbian are CV (50%), V (25%) and CVC (11%). The most frequent
+                syllable structures in the initial position of polysyllabic words are CV (56%), CCV
+                (15%) and V (15%). In medial positions in polysyllabic words, the most frequent
+                syllable structures are CV (69%), CCV (14%) and CVC (10%). The most frequent
+                syllable structures in the final position of polysyllabic words are CV (65%), CVC
+                (16%) and CCV (8%). It is interesting to note the asymmetry that the syllable
+                structures CCCVCC, VCCC, and CCCCVC occurred only in monosyllabic words and in the
+                final position of polysyllabic words, while the syllable structure CCCCVC occurred
+                in all positions except the initial position in polysyllabic words.</p>
+            <p style="text-align:center;"><hi rend="bold">Syllable nuclei statistics in
+                Serbian</hi></p>
+            <p> The distribution of different syllable nuclei in Serbian based on the <hi rend="italic">SrpLemKor</hi> corpus is presented in Table 3.</p>
+            <p>#file: table_3.xlsx</p>
+            <p>Table 3: Syllable nuclei statistics and positional frequencies of syllables in the
+                    <hi rend="italic">SrpLemKor</hi> corpus</p>
+            <p>Based on the positional nucleus distribution data, it can be seen that overall /a/
+                and /o/ constitute the most frequent nuclei in Serbian. However, there is some
+                positional variation. While the most frequent nuclei in final, medial, and initial
+                position of polysyllabic words are also /a/ and /o/, in monosyllabic words, the most
+                frequent nuclei are /a/ and /e/.</p>
+            <p style="text-align:center;"><hi rend="bold">Discussion</hi></p>
+            <p> While our mixed-principle rule-based syllabification algorithm is suitable for the
+                segmentation of words into syllables following the ruleset we devised based by the
+                combination of prescriptive rule descriptions and the employment of the Sonority
+                Sequencing Principle, there are still some practical and theoretical considerations
+                to be addressed.</p>
+            <p> While reporting on the syllable distribution data, we mentioned that the 3,648,543
+                word-forms extracted from <hi rend="italic">SrpLemKor</hi> used for the calculation
+                of statistical data related to the distribution of syllables and their structure in
+                Serbian still contained some noise such as foreign words, typos, and possibly random
+                character strings. Based on 500 random samples taken from the syllable output data
+                checked by a human evaluator, the estimate of the amount of such noise in the data
+                is &lt;2%. Given the nature of corpus-based data, this noise should not
+                significantly impact the reliability of the distributional information.</p>
+            <p> From a theoretical standpoint, in formulating our algorithm, we disregarded the
+                three-syllable consonant cluster limitation put forward by Kašić (2014) in favor of
+                exploring the limitations of the sonority module. The occurrence of the two syllable
+                types CCCCVC and CCCCV, which were not present in the onset-maximization-based
+                syllabification algorithm for Croatian (Meštrović et al. 2015), shows that in a
+                limited number of instances this constraint is needed to exclude syllable clusters
+                that are in accordance with the SSP and prescriptive rule descriptions, but seem
+                contrary to native speaker intuition about syllable boundaries. In addition to this,
+                there is the ambiguity in syllable segmentation in the case of continuant fricative
+                phonemes (Gvozdanović 2011) with the continuant constituting either the first place
+                in the onset of the syllable or the last place in the coda of the previous syllable,
+                e.g. the possibility to syllabify <hi rend="italic">postaviti</hi> [<hi rend="italic">to set</hi>] as <hi rend="italic">po-sta-vi-ti</hi> and <hi rend="italic">pos-ta-vi-ti</hi>, would require a larger-scale study examining
+                the intuition of native speakers on syllabification to make an assumption about
+                contemporary tendencies in the segmentation in these contexts.</p>
+            <p> In order to verify the syllabic status of different clusters, it would be
+                interesting to conduct a series of monitoring studies modeled after Mehler et al.
+                (1981), who have shown that reaction times to a word are faster if the word is
+                primed by a sequence corresponding to a syllable in the word when compared to
+                priming with a string that does not constitute a syllable. Bradley et al. (1993)
+                argue that these effects produce mixed results in some languages which contain a
+                large number of ambisyllabic segments, so these studies may also reveal whether and
+                to what extent syllables play a</p>
+            <p>role in pre-lexical processing in Serbian.</p>
+            <p style="text-align:center;"><hi rend="bold">Conclusion</hi></p>
+            <p> In this paper we presented a mixed-principle rule-based syllabifier modelled after
+                the rule descriptions found in Stanojčić and Popović (2005), extended by rule
+                specifications from Kašić (2014) and Zec (2000), and complemented by a sonority
+                sequencing module based on Selkirk (1984), Subotić et al. (2012), and Zec
+                (2000).</p>
+            <p> An implementation of the existing prescriptive rules for the segmentation of words
+                into syllables allowed us to gain an insight into the problem areas of the rule
+                descriptions, and propose a number of revisions and amendments to the existing
+                rules. The sonority sequencing module revealed the need for an additional
+                onset-length limitation constraint, and pointed out the limitations of sonority in
+                ambiguous consonant clusters that would require further exploration and validation
+                by native speaker intuition. We have also gained an insight into the distribution of
+                different syllable structures and syllable nuclei following this approach, which
+                will be useful for comparison with the performance of alternative syllabification
+                systems.</p>
+            <p> In the future, we plan to compare our system to an onset-maximization-based
+                syllabifier for Serbian in combination with the prescriptive rules to see if we can
+                create an alternative system that will produce outputs consistent with the intuition
+                of native speakers of Serbian. It would be interesting to see a systematic
+                comparison of our current approach and the onset-maximization approach with data
+                gathered from the intuition of contemporary native speakers of Serbian.</p>
+            <p> We also believe that, while phonological criteria present a basis for
+                syllabification, in the future we will also need to test whether and to what extent
+                approaches based solely on phonological criteria result in syllable boundaries that
+                coincide with morphological boundaries. Our assumption is that phonological rules
+                will need to be amended by morphological criteria to result in syllabification that
+                respects morphological boundaries as well.</p>
+            <p> In addition to these, the question of the treatment of foreign origin words and
+                transcribed foreign words might be an additional point to consider. As an extension
+                of</p>
+            <p>a syllabifier, a language detection algorithm might be employed to properly segment
+                the former, while the latter might not need special treatment as the process of
+                transcription should in itself contain a degree of phonological adaptation.</p>
+            <p style="text-align:center;"><hi rend="bold">Acknowledgment</hi></p>
+            <p> This research was supported by the Serbian Ministry of Education and Science under
+                the projects Development of Dialogue Systems for Serbian and Other South Slavic
+                Languages (TR-32035) and Languages and Cultures in Time and Space (ON-178002).</p>
+            <p style="text-align:center;"><hi rend="bold">Sources and literature</hi></p>
+            <p><hi rend="bold">Literature:</hi></p>
+            <list type="unordered">
+                <item><hi style="font-size:10pt" xml:space="preserve">Barber, Horacio, Marta Vergara, and Manuel Carreiras. 2004. “Syllable-frequency effects in visual word recognition: evidence from ERPs.” </hi><hi rend="italic" style="font-size:10pt">Neuroreport</hi><hi style="font-size:10pt" xml:space="preserve"> 15 (3): 545–8.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Bradley, Dianne C., Rosa M. Sánchez-Casas, and José E. García-Albea. 2007. “The status of the syllable in the perception of Spanish and English.” </hi><hi rend="italic" style="font-size:10pt">Language and Cognitive
+                    Processes</hi><hi style="font-size:10pt" xml:space="preserve"> 8 (2): 197–233.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Bigi, Brigitte, and Caterina Petrone. 2014. “A generic tool for the automatic syllabification of Italian.” In </hi><hi rend="italic" style="font-size:10pt">Proceedings of The First Italian
+                        Conference on Computational Linguistics,
+                        CLiC-it</hi><hi style="font-size:10pt" xml:space="preserve">, 73–77. Pisa: Pisa University Press. </hi><ref target="http://siti.fileli.unipi.it/projects/clic/proceedings/Proceedings-CLICit-2014.pdf"><hi style="font-size:10pt">http://siti.fileli.unipi.it/projects/clic/proceedings/Proceedings-CLICit-2014.pdf</hi></ref><hi style="font-size:10pt">.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Butt, Matthias. 1992. “Sonority and the Explanation of Syllable Structure.” </hi><hi rend="italic" style="font-size:10pt">Linguistische
+                    Berichte</hi><hi style="font-size:10pt" xml:space="preserve"> 137: 45–67.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Cholin, Joana, Willem J. M. Levelt, and Niels O. Schiller. 2006. “Effects of syllable frequency in speech production.” </hi><hi rend="italic" style="font-size:10pt">Cognition</hi><hi style="font-size:10pt" xml:space="preserve"> 99 (2): 205–35.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Cholin Joana, and Willem J. M. Levelt. 2009. “Effects of syllable preparation and syllable frequency in speech production: Further evidence for syllabic units at a post-lexical level.” </hi><hi rend="italic" style="font-size:10pt">Language and Cognitive
+                    Processes</hi><hi style="font-size:10pt" xml:space="preserve"> 24(5): 662–84.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Clements, George N. 1990. “The Role of the Sonority Cycle in Core Syllabification.” In </hi><hi rend="italic" style="font-size:10pt">Papers in Laboratory Phonology I:
+                        Between the Grammar and Physics of Speech</hi><hi style="font-size:10pt">,
+                        edited by John Kingston, John and Mary E. Beckman, 282–333. Cambridge:
+                        Cambridge University Press.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Daelemans, Walter, and Antal van den Bosch. 1992. “Generalization Performance of Backpropagation Learning on a Syllabification Task.” In </hi><hi rend="italic" style="font-size:10pt">Connectionism and Natural Language
+                        Processing: Proceedings of the 3rd Twente Workshop on Language Technology,
+                        TWLT3</hi><hi style="font-size:10pt" xml:space="preserve">, 27–38. Enschede: University of Twente, Department of Computer Science. </hi><ref target="https://pure.uvt.nl/portal/files/760578/generalization.pdf"><hi style="font-size:10pt">https://pure.uvt.nl/portal/files/760578/generalization.pdf</hi></ref><hi style="font-size:10pt">.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Foley, James. 1972. “Rule Precursors and Phonological Change by Meta-rule.” In </hi><hi rend="italic" style="font-size:10pt">Linguistic change and generative
+                        theory</hi><hi style="font-size:10pt">, edited by Robert P. Stockwell and
+                        Ronald K. S. Macaulay, 96–100. Bloomington: Indiana University
+                    Press.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Goldsmith, John A. 1995. </hi><hi rend="italic" style="font-size:10pt">The handbook of phonological
+                        theory</hi><hi style="font-size:10pt">. London: Blackwell
+                    Publishers.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Gvozdanović, Jadranka. 2011. “Phonological domains.” In </hi><hi rend="italic" style="font-size:10pt">Sandhi Phenomena in the Languages of
+                        Europe,</hi><hi style="font-size:10pt" xml:space="preserve"> edited by Henning Andersen, 27–54. Berlin: Mouton de Gruyter.</hi>
+                </item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Hankamer, Jorge, and Judith Aissen. 1974. “The sonority hierarchy.” In </hi><hi rend="italic" style="font-size:10pt">Papers from the Parasession on Natural
+                        Phonology</hi><hi style="font-size:10pt">, edited by Anthony Bruck, Robert
+                        Allen Fox, and Michael W. La Galy, 131–45. Chicago: Chicago Linguistic
+                        Society.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Hunt, Andrew. 1993. “Recurrent Neural Networks for Syllabification.” </hi><hi rend="italic" style="font-size:10pt">Speech
+                    Communication</hi><hi style="font-size:10pt" xml:space="preserve"> 13 (3–4): 323–32.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Iacoponi, Luca, and Renata Savy. 2011. “Sylli: Automatic Phonological Syllabification for Italian.” In </hi><hi rend="italic" style="font-size:10pt">INTERSPEECH 2011, 12th Annual
+                        Conference of the International Speech Communication Association</hi><hi style="font-size:10pt">, 641–44. Florence: International Speech
+                        Communication Association.</hi>
+                    <ref target="http://eden.rutgers.edu/~li51/php/papers/interspeech2011.pdf"><hi style="font-size:10pt">http://eden.rutgers.edu/~li51/php/papers/interspeech2011.pdf</hi></ref><hi style="font-size:10pt">.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Kaplar, Sebastijan, Marija Radojičić, Ivan Obradović, Biljana Lazić, and Ranka Stanković. 2018. “Solution for quantitative analysis of texts in Serbian based on syllables.” In </hi><hi rend="italic" style="font-size:10pt">ICIST 2018
+                        Proceedings</hi><hi style="font-size:10pt" xml:space="preserve"> 2, 315–20. Belgrade: Society for Information Systems and Computer Networks. </hi><ref target="http://www.eventiotic.com/eventiotic/library/paper/429"><hi style="font-size:10pt">http://www.eventiotic.com/eventiotic/library/paper/429</hi></ref><hi style="font-size:10pt">.</hi></item>
+                <item><hi style="font-size:10pt">Kašić, Zorka. 2014. “Opšta lingvistika 2
+                        (Fonologija).” Lecture Materials, Faculty of Philosophy, University of
+                        Belgrade.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Koehler, Klaus J. 1966. “Is the syllable a phonological universal?” </hi>
+                    <hi rend="italic" style="font-size:10pt">Journal of
+                    Linguistics</hi><hi style="font-size:10pt" xml:space="preserve"> 2: 207–208.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Kovač, Aniko, and Maja Marković. 2018. “A Rule-Based Syllabifier for Serbian.” In </hi><hi rend="italic" style="font-size:10pt">Proceedings of the Conference on
+                        Language Technologies and Digital Humanities 2018</hi><hi style="font-size:10pt">, 140–46. Ljubljana: Ljubljana University
+                    Press.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Ladefoged, Peter, and Keith Johnson. 2014. </hi><hi rend="italic" style="font-size:10pt">A Course in Phonetics</hi><hi style="font-size:10pt">. Belmont: Wadsworth Publishing.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Ladefoged, Peter. 1982. </hi><hi rend="italic" style="font-size:10pt">A Course in Phonetics</hi><hi style="font-size:10pt">. New York: Harcourt Brace Jovanovich.</hi></item>
+                <item><hi style="font-size:10pt">Landsiedel, Christian, Jens Edlund, Florian Eyben,
+                        Daniel Neiberg, and Björn Schuller. 2011. “Syllabification of conversational
+                        speech using Bidirectional Long-Short-Term Memory Neural Networks.”
+                        In</hi><hi rend="italic" style="font-size:10pt" xml:space="preserve"> 2011 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</hi><hi style="font-size:10pt" xml:space="preserve">, 5256–9. Prague: IEEE. </hi><ref target="http://ieeexplore.ieee.org/abstract/document/5947543"><hi style="font-size:10pt">http://ieeexplore.ieee.org/abstract/document/5947543</hi></ref><hi style="font-size:10pt">.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Marchand, Yannick, Connie R. Adsett, and Robert I. Damper. 2009. “Automatic syllabification in English: A comparison of different algorithms.” </hi><hi rend="italic" style="font-size:10pt">Language and
+                    Speech</hi><hi style="font-size:10pt" xml:space="preserve"> 52 (1): 1–27.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Mehler, Jacques, Jean Yves Dommergues, Uli Frauenfelder, and Juan Segui. 1981. “The syllable's role in speech segmentation.” </hi><hi rend="italic" style="font-size:10pt">Journal of Verbal Learning and Verbal
+                        Behavior</hi><hi style="font-size:10pt" xml:space="preserve"> 20 (3): 298–305.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Meštrović, Ana, Sanda Martinčić-Ipšić, and Mihaela Matešić. 2015. “Postupak automatskoga slogovanja temeljem načela najvećega pristupa i statistika slogova za hrvatski jezik.” </hi><hi rend="italic" style="font-size:10pt">Govor</hi><hi style="font-size:10pt">,
+                        32: 3–34.</hi></item>
+                <item><hi style="font-size:10pt">Morelli, Frida. 1999. “The phonotactics and
+                        phonology of obstruent clusters in optimality theory.” PhD diss., University
+                        of Maryland.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Ohala, John, and Haruko Kawasaki. 1984. “Prosodic Phonology and Phonetics.” </hi><hi rend="italic" style="font-size:10pt">Phonology Yearbook</hi><hi style="font-size:10pt">, 1: 113–27.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Ohala, John. 1990. “The Phonetics and Phonology of Aspects of Assimilation.” In </hi><hi rend="italic" style="font-size:10pt">Papers in Laboratory Phonology
+                        I</hi><hi style="font-size:10pt">, edited by John Kingston, John and Mary E.
+                        Beckman, 258–75. Cambridge: Cambridge University Press.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Popović, Zoran. 2010. “Taggers Applied on Texts in Serbian.” </hi><hi rend="italic" style="font-size:10pt">INFOtheca</hi><hi style="font-size:10pt" xml:space="preserve"> 11 (2): 21a–38a.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Selkirk, Elisabeth O. 1984. “On the Major Class Features and Syllable Theory.” In </hi><hi rend="italic" style="font-size:10pt">Language Sound Structure</hi><hi style="font-size:10pt">, edited by Mark Aronoff and Richard T. Oehrle,
+                        107–36. Cambridge: MIT Press.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Stanojčić, Živojin, and Ljubomir Popović. 2005. </hi><hi rend="italic" style="font-size:10pt">Gramatika srpskoga jezika</hi><hi style="font-size:10pt">. Belgrade: Zavod za udžbenike i nastavna sredstva
+                        Beograd.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Stoianov, Ivelin, John Nerbonne, and Huub Bouma. 1997. “Modelling the phonotactic structure of natural language words with Simple Recurrent Networks.” In </hi><hi rend="italic" style="font-size:10pt">Computational Linguistics in the
+                        Netherlands 1997: Selected Papers from the Eight Clin Meeting</hi><hi style="font-size:10pt">, 77–95. Amsterdam: Rodopi.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Subotić, Ljiljana, Dejan Sredojević, and Isidora Bjelaković. 2012. </hi>
+                    <hi rend="italic" style="font-size:10pt">Fonetika i fonologija: Ortoepska i
+                        ortografska norma standardnog srpskog jezika</hi><hi style="font-size:10pt">. Novi Sad: Filozofski fakultet Univerziteta u Novom Sadu.</hi></item>
+                <item><hi style="font-size:10pt" xml:space="preserve">Utvić, Miloš. 2011. “Annotating the Corpus of Contemporary Serbian.” </hi><hi rend="italic" style="font-size:10pt">INFOtheca</hi><hi style="font-size:10pt" xml:space="preserve"> 12 (2): 36a–37a.</hi></item>
+                <item><hi style="font-size:10pt">Zec, Draga. 2000. “O strukturi sloga u srpskom
+                        jeziku.”</hi>
+                    <hi rend="italic" style="font-size:10pt">Južnoslovenski
+                    filolog</hi><hi style="font-size:10pt" xml:space="preserve"> 56 (1-2): 435–48.</hi></item>
+            </list>
+            <p style="text-align:center;"><hi style="font-size:10pt">Aniko Kovač, Maja
+                Marković</hi></p>
+            <p style="text-align:center;"><hi rend="allcaps" style="font-size:10pt">A
+                    mixed-principle rule-based approach to the automatic syllabification of
+                    Serbian</hi></p>
+            <p style="text-align:center;"><hi rend="allcaps" style="font-size:10pt">SUMMARY</hi></p>
+            <p>
+                <hi style="font-size:10pt">In this paper we present a mixed-principle rule-based
+                    approach to the automatic syllabification of Serbian based on prescriptive rule
+                    descriptions from traditional grammar found in Stanojčić and Popović (2005),
+                    extended by rule specifications from Kašić (2014) and Zec (2000), and
+                    complemented by a sonority sequencing module based on Selkirk (1984), Subotić et
+                    al. (2012), and Zec (2000).</hi></p>
+            <p>
+                <hi style="font-size:10pt" xml:space="preserve">Syllable segmentation plays a role in speech technologies – most notably in the areas of speech recognition and text-to-speech synthesis – at both the segmental and prosodic levels. It is also one of the governing factors in hyphenation, and syllable frequency distribution data is used in psycholinguistic experiments as a covariate. The unavailability of segmented data for Serbian makes a rule-based approach to automatic syllabification the only viable option as there is no data available for training a data-driven neural network model, and the segmentation of large-scale language corpora by trained annotators would be a resource and cost heavy undertaking. </hi></p>
+            <p>
+                <hi style="font-size:10pt">Our goal in this paper is threefold: i) we extend and
+                    improve an earlier version of our syllabification algorithm by introducing a
+                    sonority sequencing validation module which resolves a number of issues present
+                    in the earlier version of our syllabifier, ii) we provide a detailed analysis of
+                    the outcomes of the automatic syllabification process in order to address
+                    possible theoretical considerations and serve as a basis for the development of
+                    future syllabifiers, and iii) we present the statistical data related to the
+                    distribution of syllables and their structure in Serbian to be used in
+                    psycholinguistic experiments.</hi></p>
+            <p>
+                <hi style="font-size:10pt">The implementation of the existing set of prescriptive
+                    rules for the segmentation of words into syllables in Serbian allowed us to gain
+                    an insight into problem areas of the rule descriptions, and propose a number of
+                    revisions and amendments to the existing rules. The sonority sequencing module
+                    revealed the need for an additional onset-length limitation constraint, and
+                    pointed out the limitations of sonority in ambiguous consonant clusters – such
+                    is the case with continuant fricative phonemes that seem to be able to occupy
+                    either the first place in the onset of a syllable or the last place in the coda
+                    of a previous syllable – that would require further exploration and validation
+                    by native speaker intuition.</hi>
+            </p>
+            <p>
+                <hi style="font-size:10pt">The data on the distribution of different syllable
+                    structures and syllable nuclei following this approach will be useful for
+                    comparison with the performance of alternative syllabification systems. In the
+                    future, it would be interesting to see a systematic comparison of our current
+                    approach to alternative approaches such as an onset-maximization approach
+                    evaluated on segmentation data gathered from the native speakers of
+                    Serbian.</hi></p>
+            <p style="text-align:center;"><hi style="font-size:10pt">Aniko Kovač, Maja
+                Markovič</hi></p>
+            <p style="text-align:center;"><hi rend="allcaps" style="font-size:10pt" xml:space="preserve">Mešani pristop k avtomatskemu zlogovanju v srbščini na podlagi načel in pravil </hi></p>
+            <p style="text-align:center;"><hi rend="allcaps" style="font-size:10pt">Povzetek</hi></p>
+            <p>
+                <hi style="font-size:10pt">V tem prispevku predstavljamo mešani pristop k
+                    avtomatskemu zlogovanju v srbščini na podlagi načel in pravil, ki temelji na
+                    opisih predpisnih pravil tradicionalne slovnice (kot jih navajata Stanojčić in
+                    Popović 2005), razširjenih z opredelitvami pravil (kot jih navajata Kašić (2014)
+                    in Zec (2000)) in dopolnjenih z modulom za zaporedje glede na zvočnost (na
+                    podlagi del avtorjev Selkirk 1984; Subotić et al. 2012; Zec 2000).</hi></p>
+            <p><hi style="font-size:10pt" xml:space="preserve">	Členitev na zloge ima pomembno vlogo v govornih tehnologijah – zlasti na področjih prepoznavanja govora in pretvorbe besedila v govor – na segmentalni in prozodični ravni. Je tudi eden od vodilnih dejavnikov pri deljenju besed. Podatki o frekvenčni porazdelitvi zlogov se uporabljajo v psiholingvističnih poskusih kot sočasna spremenljivka. Pristop k avtomatskemu zlogovanju, ki temelji na pravilih, je edina smiselna izbira, saj za srbščino ni na voljo segmentiranih podatkov, iz katerih bi se model nevronske mreže lahko učil. Projekt, pri katerem bi usposobljeni komentatorji razčlenjevali obsežne jezikovne korupse, pa bi bil zelo zahteven in drag. </hi></p>
+            <p>
+                <hi style="font-size:10pt">Naš prispevek ima tri cilje: i) razširiti in izboljšati
+                    predhodno različico našega algoritma za zlogovanje z vpeljavo modula za
+                    potrjevanje zaporedja glede na zvočnost, ki odpravlja vrsto težav iz predhodne
+                    različice našega zlogovalnika; ii) predstaviti podrobno analizo rezultatov
+                    avtomatskega postopka zlogovanja, da bi spodbudili morebitne teoretične
+                    razmisleke in zagotovili podlago za razvoj prihodnjih zlogovalnikov; in iii)
+                    predstaviti statistične podatke, povezane s porazdelitvijo in strukturo zlogov v
+                    srbščini, ki jih bo mogoče uporabiti pri psiholingivstičnih poskusih.</hi>
+            </p>
+            <p><hi style="font-size:10pt" xml:space="preserve">Uporaba uveljavljene zbirke predpisnih pravil za členitev besed na zloge v srbščini nam je omogočila, da smo dobili podroben vpogled v težavna področja pri opisih pravil in predlagali vrsto sprememb in popravkov uveljavljenih pravil. Modul za zaporedje glede na zvočnost je razkril potrebo po dodatni omejitvi dolžine vzglasja in izpostavil omejitve zvočnosti pri dvoumnih soglasniških sklopih (na primer priporniki, ki očitno lahko zavzemajo prvo mesto na začetku zloga ali zadnje mesto na koncu predhodnega zloga), ki bi jih bilo treba dodatno raziskati in potrditi s pomočjo intuicije rojenega govorca.   </hi></p>
+            <p><hi style="font-size:10pt"> Podatke o porazdelitvi različnih zlogovnih struktur in
+                    jeder, pridobljene s tem pristopom, bo mogoče uporabiti za primerjavo z
+                    delovanjem drugih sistemov za zlogovanje. Zanimivo bi bilo opraviti sistematično
+                    primerjavo našega pristopa z drugimi pristopi, na primer pristopom maksimizacije
+                    vzglasja, ovrednotenim na podlagi podatkov o členitvi, pridobljenih od rojenih
+                    govorcev srbščine.</hi></p>
+        </body>
+    </text>
+</TEI>
