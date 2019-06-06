@@ -601,10 +601,10 @@
                     transliteration.</hi></note></head>
                 <p> Our mixed-principle syllabification algorithms consists of the following
                     steps:</p>
-                <list type="unordered">
-                    <item n="I.">Identify vowels in the word and mark their positions as positions capable
+                <list rend="numbered">
+                    <item n="I">Identify vowels in the word and mark their positions as positions capable
                         of constituting syllable nuclei (based on (1)).</item>
-                    <item n="II.">If a word contains the
+                    <item n="II">If a word contains the
                         letters<hi rend="italic" xml:space="preserve"> l</hi>, <hi rend="italic"
                             >n</hi> or the letter<hi rend="italic" xml:space="preserve"> r</hi> not
                         followed by the sequence <hi rend="italic">je</hi> in the center of a
@@ -614,8 +614,8 @@
                         word preceded by a consonant of lower sonority, treat those positions in the
                         word as capable of constituting syllable nuclei (based on (1*), (7), and
                         (8**)).</item>
-                    <item n="III.">For each position identified as capable of constituting a syllable
-                            nucleus:<list type="numbered">
+                    <item n="III">For each position identified as capable of constituting a syllable
+                        nucleus:<list type="numbered">
                             <item n="A.">If it is followed by a sequence of two sonorants, mark the
                                 syllable boundary between the two sonorants (based on (4)), except
                                 if the second sonorant is <hi rend="italic">j</hi> and it is
@@ -629,7 +629,7 @@
                             <item n="C.">In all other cases mark the syllable boundary after the syllable
                                 nucleus (based on (1*)).</item>
                         </list></item>
-                    <item n="IV.">Run a recursive sonority check (based on (9)):<list type="ordered">
+                    <item n="IV">Run a recursive sonority check (based on (9)):<list type="ordered">
                             <item>If the word consists of more than one syllable, convert the
                                 syllable structures identified by the previous steps into sonority
                                 group values.</item>
