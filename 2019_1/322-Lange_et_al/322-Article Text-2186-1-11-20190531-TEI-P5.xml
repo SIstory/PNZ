@@ -115,16 +115,16 @@
     </teiHeader>
     <text>
         <front>
-            <docAuthor>Milan M. van Lange<note place="foot" xml:id="ftn1" n="*"><hi
-                        rend="footnote_reference"/>
-                    <hi rend="bold" style="font-size:10pt" xml:space="preserve">NIOD, Institute for War, Holocaust and Genocide Studies, Herengracht 380, 1016CJ Amsterdam, The Netherlands, </hi><ref
+            <docAuthor>Milan M. van Lange<note place="foot" xml:id="ftn1" n="*">
+                    <hi rend="bold">NIOD, Institute for War, Holocaust and Genocide Studies,
+                        Herengracht 380, 1016CJ Amsterdam, The Netherlands, </hi><ref
                         target="mailto:m.van.lange@niod.knaw.nl"><hi rend="bold"
-                            style="font-size:10pt">m.van.lange@niod.knaw.nl</hi></ref></note></docAuthor>
-            <docAuthor>Ralf D. Futselaar<note place="foot" xml:id="ftn2" n="**"><hi
-                        rend="footnote_reference"/>
-                    <hi rend="bold" style="font-size:10pt" xml:space="preserve">NIOD, Institute for War, Holocaust and Genocide Studies, Herengracht 380, 1016CJ Amsterdam, The Netherlands, </hi><ref
+                            >m.van.lange@niod.knaw.nl</hi></ref></note></docAuthor>
+            <docAuthor>Ralf D. Futselaar<note place="foot" xml:id="ftn2" n="**">
+                    <hi rend="bold">NIOD, Institute for War, Holocaust and Genocide Studies,
+                        Herengracht 380, 1016CJ Amsterdam, The Netherlands, </hi><ref
                         target="mailto:r.futselaar@niod.knaw.nl"><hi rend="bold"
-                            style="font-size:10pt">r.futselaar@niod.knaw.nl</hi></ref></note></docAuthor>
+                            >r.futselaar@niod.knaw.nl</hi></ref></note></docAuthor>
             <docImprint>
                 <idno type="cobissType">Cobiss type: 1.01</idno>
                 <idno type="UDC">UDC:003.295:342.537.6:355.012(492)"1940/1945"</idno>
@@ -162,18 +162,20 @@
         </front>
         <body>
             <div>
-                <head style="font-size:14pt">The Case: War Criminals</head>
-                <p> Soon after German forces in the Netherlands surrendered in May of 1945, the
+                <head>The Case: War Criminals</head>
+                <p>Soon after German forces in the Netherlands surrendered in May of 1945, the
                     question arose how the hundreds of suspected war criminals and thousands of Nazi
                     collaborators in Dutch custody were to be treated. For the next five decades,
                     this question caused a series of heated political controversies. The debates in
                     Dutch parliament about the punishment, penalty reduction, or release of these
                     people are not only among the longest debates in Dutch parliamentary history,
-                    but are generally considered to have been the most emotionally charged (Bootsma
-                    and Griensven 2003; Futselaar 2015; Tames 2013).</p>
+                    but are generally considered to have been the most emotionally charged (<ref
+                        target="#Bootsma.2003">Bootsma and Griensven 2003</ref>; <ref
+                        target="#Futselaar.2015">Futselaar 2015</ref>; <ref target="#Tames.2013"
+                        >Tames 2013</ref>).</p>
                 <div>
                     <head>Discourse and Controversy</head>
-                    <p> In this paper, we use an implementation of word embedding models (WEMs) to
+                    <p>In this paper, we use an implementation of word embedding models (WEMs) to
                         analyse parliamentary discussions concerning incarcerated war criminals and
                         Nazi collaborators after the end of the German occupation. At peak, in the
                         summer of 1945, more than a hundred thousand people were incarcerated. They
@@ -187,8 +189,10 @@
                         officials and officers, whose initial death sentences had been commuted to
                         life in prison. These prisoners became the flashpoint of intense political
                         and media attention. As long as they remained behind bars, plans for their
-                        release continued to resurface, and cause political controversy (Piersma
-                        2005; Tames 2013; Futselaar 2015; Grevers 2013).</p>
+                        release continued to resurface, and cause political controversy (<ref
+                            target="#Piersma.2005">Piersma 2005</ref>; <ref target="#Tames.2013"
+                            >Tames 2013</ref>; <ref target="#Futselaar.2015">Futselaar 2015</ref>;
+                            <ref target="#Grevers.2013">Grevers 2013</ref>).</p>
                     <p>The main medium of parliamentary communication is spoken language. We aim to
                         demonstrate that a systematic investigation of the verbatim records of the
                         language used in Dutch parliament to discuss these cases can reveal
@@ -198,9 +202,10 @@
                         war criminals in Dutch society. We aim to link these developments in
                         parliamentary vocabulary to actual historical events, developments
                         concerning the post-war dealing with war criminals, and discursive shifts in
-                        Dutch society (Olieman et al. 2017). Specifically, we aim to investigate the
-                        changing political attitude towards incarcerated war criminals and use our
-                        findings to test established notions prevalent in Dutch historiography.</p>
+                        Dutch society (<ref target="#Olieman.2017">Olieman et al. 2017</ref>).
+                        Specifically, we aim to investigate the changing political attitude towards
+                        incarcerated war criminals and use our findings to test established notions
+                        prevalent in Dutch historiography.</p>
                     <p>The published proceedings of the two houses of parliament provide us with a
                         dataset comprising of all the words spoken in the plenary sessions. The
                         completeness of the parliamentary dataset allows us to investigate the
@@ -219,8 +224,8 @@
                 </div>
             </div>
             <div>
-                <head style="font-size:14pt">Parliamentary Proceedings</head>
-                <p> In this investigation, we rely entirely on parliamentary proceedings, known in
+                <head>Parliamentary Proceedings</head>
+                <p>In this investigation, we rely entirely on parliamentary proceedings, known in
                     Dutch as the Handelingen der Staten-Generaal. The Handelingen are available in
                     machine-readable form. The minutes of both houses of parliament for the period
                     1814-1995 were first digitised by the Royal Library of the Netherlands and made
@@ -231,30 +236,29 @@
                     files containing the complete minutes of all the meetings of the lower and upper
                     chambers of parliament, separated by date, speaker, political affiliation, etc.
                     This makes it an excellent corpus for various forms of automated text analysis
-                    (Marx et al. 2012).</p>
+                        (<ref target="#Marx.2012">Marx et al. 2012</ref>).</p>
             </div>
             <div>
-                <head style="font-size:14pt">Word Embedding Models and Historical Research</head>
-                <p> We investigate the vocabularies used in parliament to discuss a broad category
-                    of inmates that could be described as political delinquents, as well as the
-                    changes of these vocabularies through time. This is a fairly normal
-                    investigation to undertake in traditional historical research - that is to say
-                    without computational analyses. Historians typically work by reading the
-                    relevant texts. This enables them to use and expand their domain knowledge while
-                    processing the data. Although this hermeneutic step is inevitably part of
-                    historical research, this approach has several disadvantages. In this particular
-                    case the corpus to be assessed is enormous, making reading and manual encoding
-                    of text problematic. More importantly, the traditional research process is
-                    highly vulnerable to the biases of the reader/researcher. When studying
-                    ethically charged controversies in the relatively recent past, this
-                    vulnerability to bias is evidently problematic. People with an interest in
-                    recent history and knowledge of the Dutch language almost inevitably hold an
-                    opinion on these issues and on the actors in the debate. How do we ensure that
-                    our personal political preferences do not influence our reading of the source
-                    materials?</p>
+                <head>Word Embedding Models and Historical Research</head>
+                <p>We investigate the vocabularies used in parliament to discuss a broad category of
+                    inmates that could be described as political delinquents, as well as the changes
+                    of these vocabularies through time. This is a fairly normal investigation to
+                    undertake in traditional historical research - that is to say without
+                    computational analyses. Historians typically work by reading the relevant texts.
+                    This enables them to use and expand their domain knowledge while processing the
+                    data. Although this hermeneutic step is inevitably part of historical research,
+                    this approach has several disadvantages. In this particular case the corpus to
+                    be assessed is enormous, making reading and manual encoding of text problematic.
+                    More importantly, the traditional research process is highly vulnerable to the
+                    biases of the reader/researcher. When studying ethically charged controversies
+                    in the relatively recent past, this vulnerability to bias is evidently
+                    problematic. People with an interest in recent history and knowledge of the
+                    Dutch language almost inevitably hold an opinion on these issues and on the
+                    actors in the debate. How do we ensure that our personal political preferences
+                    do not influence our reading of the source materials?</p>
                 <div>
-                    <head><hi rend="italic bold">Words in Vector Space</hi></head>
-                    <p> A WEM provides a possible solution to these problems. WEMs are techniques to
+                    <head>Words in Vector Space</head>
+                    <p>A WEM provides a possible solution to these problems. WEMs are techniques to
                         investigate words, and relations between words, in large text corpora. WEMs
                         are based on the calculation of the average distance of unique words to all
                         other unique words in a corpus. The position of each unique word can then be
@@ -279,11 +283,11 @@
                         insight in these relations is very useful, and goes far beyond mere
                         closeness. With WEMs we are able to identify associations between words that
                         are not self-evident and would not have been found by traditional means
-                        (Schmidt 2015).</p>
+                            (<ref target="#Schmidt.2015">Schmidt 2015</ref>).</p>
                 </div>
                 <div>
-                    <head><hi rend="italic bold">Limitations of WEMs</hi></head>
-                    <p> WEMs also have an important downside that is particularly relevant to
+                    <head>Limitations of WEMs</head>
+                    <p>WEMs also have an important downside that is particularly relevant to
                         historical research. Since the training of the model determines the position
                         of a word relative to all other words in that specific corpus, its vector is
                         meaningless in any other model. Word vectors, hence, can only be compared
@@ -307,8 +311,8 @@
                         different models by using cosine similarity.</p>
                 </div>
                 <div>
-                    <head><hi rend="italic bold">Word2Vec</hi></head>
-                    <p> For this investigation, we have used the relatively popular Word2Vec
+                    <head>Word2Vec</head>
+                    <p>For this investigation, we have used the relatively popular Word2Vec
                         implementation of WEMs to train and analyse word embedding models. Word2Vec
                         was developed by a team of Google engineers and published in 2013. It has
                         been shown to be a particularly effective implementation. This algorithm,
@@ -322,19 +326,20 @@
                         used in political speech.</p>
                     <p>For researchers using the R programming language, a package is readily
                         available to analyse texts. This package, created and maintained by Benjamin
-                        Schmidt, has been used in this investigation as well (Schmidt 2015, 2017).
-                        Our method, however, is in no way dependent on this particular platform and
-                        could also be used in Python or any other environment. Neither is the method
-                        reliant on the Word2Vec algorithm. It would work broadly in the same way
-                        with another implementation of word embeddings. Here, however, we have
-                        chosen to use a popular WEM implementation in a relatively user friendly and
-                        accessible environment, with the added benefit of using open-source, free
-                        software.</p>
+                        Schmidt, has been used in this investigation as well (<ref
+                            target="#Schmidt.2015">Schmidt 2015</ref>, <ref target="#Schmidt.2017"
+                            >2017</ref>). Our method, however, is in no way dependent on this
+                        particular platform and could also be used in Python or any other
+                        environment. Neither is the method reliant on the Word2Vec algorithm. It
+                        would work broadly in the same way with another implementation of word
+                        embeddings. Here, however, we have chosen to use a popular WEM
+                        implementation in a relatively user friendly and accessible environment,
+                        with the added benefit of using open-source, free software.</p>
                 </div>
             </div>
             <div>
-                <head style="font-size:14pt">Analytical Process</head>
-                <p> Text analysis with WEMs involves two necessary steps. The first of these, the
+                <head>Analytical Process</head>
+                <p>Text analysis with WEMs involves two necessary steps. The first of these, the
                     training of the corpus, creates the spatial model, the WEM itself. The second
                     step is the analysis of the positions of specific words or word clusters within
                     the virtual space of the model.</p>
@@ -342,17 +347,19 @@
                     (millions of words per year), but not very large for the kind of analysis we are
                     undertaking. For the purpose of WEMs, the size is barely adequate. Therefore we
                     have trained our dataset with a Skip-GramWord2Vec model, which has anecdotally
-                    been shown to yield better results on smaller samples (Gelbukh 2015). The
-                    vectors of different words can be compared within the model by using cosine
-                    similarity. Within a vector space, any two vectors by can be described, by
-                    definition, as lying within a horizontal plane. Cosine similarity calculates the
-                    angle between these vectors. Perfectly overlapping vectors would result in a
-                    cosine similarity of 1, a perfectly opposite relationship -1. In practice, WEMs
-                    consist only of positive space, which means that scores fall between 0 (low, or
-                    no similarity) and 1 (high, or perfect) similarity (Singhal 2001).</p>
+                    been shown to yield better results on smaller samples (<ref
+                        target="#Gelbukh.2015">Gelbukh 2015</ref>). The vectors of different words
+                    can be compared within the model by using cosine similarity. Within a vector
+                    space, any two vectors by can be described, by definition, as lying within a
+                    horizontal plane. Cosine similarity calculates the angle between these vectors.
+                    Perfectly overlapping vectors would result in a cosine similarity of 1, a
+                    perfectly opposite relationship -1. In practice, WEMs consist only of positive
+                    space, which means that scores fall between 0 (low, or no similarity) and 1
+                    (high, or perfect) similarity (<ref target="#Singhal.2001">Singhal
+                    2001</ref>).</p>
                 <div>
-                    <head><hi rend="italic bold">Training the Models</hi></head>
-                    <p> The first step of our workaround is to train two WEMs (more than two is
+                    <head>Training the Models</head>
+                    <p>The first step of our workaround is to train two WEMs (more than two is
                         equally feasible), based on two subsets of the corpus (in this case
                         1945-1955 and 1965-1975). Each of these subsets contains ten years of
                         parliamentary speeches. When using this approach, it is necessary to use
@@ -368,8 +375,8 @@
                         hundreds of dimensions also requires far more computational power.</p>
                 </div>
                 <div>
-                    <head><hi rend="italic bold">Analysing Word Vectors</hi></head>
-                    <p> Within each spatial model, we have identified the 250 words with the highest
+                    <head>Analysing Word Vectors</head>
+                    <p>Within each spatial model, we have identified the 250 words with the highest
                         cosine similarity to the Dutch terms for ‘war criminal’ (singular and
                         plural, see Table 1). With these 250 nearest neighbours, we have defined the
                         time specific vocabulary used in the discussion of war criminals. Obviously,
@@ -406,43 +413,32 @@
                     <table rend="rules">
                         <head>Table 1: Word sets used in Debating Evil</head>
                         <row>
-                            <cell role="label"><hi rend="bold" style="font-size:12pt">Concept</hi></cell>
-                            <cell role="label"><hi rend="bold" style="font-size:12pt">Concept represented by
-                                combined vector of the Dutch words:</hi></cell>
+                            <cell role="label">Concept</cell>
+                            <cell role="label">Concept represented by combined vector of the Dutch
+                                words:</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi style="font-size:12pt">Death penalty</hi>
-                            </cell>
-                            <cell role="data"><hi style="font-size:12pt">‘doodstraf’ and
-                                ‘doodstraffen’</hi></cell>
+                            <cell role="data">Death penalty </cell>
+                            <cell role="data">‘doodstraf’ and ‘doodstraffen’</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi style="font-size:12pt">Life imprisonment</hi>
-                            </cell>
-                            <cell role="data"><hi style="font-size:12pt">‘levenslang’, ‘levenslange’,
-                                ‘vrijheidsstraf’, ‘gevangenisstraffen’, ‘gevangenisstraf’, ‘opsluiting’,
-                                and ‘hechtenis’</hi></cell>
+                            <cell role="data">Life imprisonment </cell>
+                            <cell role="data">‘levenslang’, ‘levenslange’, ‘vrijheidsstraf’,
+                                ‘gevangenisstraffen’, ‘gevangenisstraf’, ‘opsluiting’, and
+                                ‘hechtenis’</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi style="font-size:12pt">Treason/traitor</hi></cell>
-                            <cell role="data"><hi style="font-size:12pt">‘landverrader’, ‘landverraders’,
-                                ‘verrader’,</hi></cell>
+                            <cell role="data">Treason/traitor</cell>
+                            <cell role="data">‘landverrader’, ‘landverraders’, ‘verrader’,
+                                ‘verraders’, and ‘landverraad’</cell>
                         </row>
                         <row>
-                            <cell role="data"/>
-                            <cell role="data"><hi style="font-size:12pt">‘verraders’, and
-                                ‘landverraad’</hi></cell>
+                            <cell role="data">Victim</cell>
+                            <cell role="data">‘slachtoffer’ and ‘slachtoffers’</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi style="font-size:12pt">Victim</hi></cell>
-                            <cell role="data"><hi style="font-size:12pt">‘slachtoffer’ and
-                                ‘slachtoffers’</hi></cell>
-                        </row>
-                        <row>
-                            <cell role="data"><hi style="font-size:12pt">War Criminal</hi>
-                            </cell>
-                            <cell role="data"><hi style="font-size:12pt">‘oorlogsmisdadiger’ and
-                                ‘oorlogsmisdadigers’</hi></cell>
+                            <cell role="data">War Criminal </cell>
+                            <cell role="data">‘oorlogsmisdadiger’ and ‘oorlogsmisdadigers’</cell>
                         </row>
                     </table>
                     <p>After selecting two concepts that are present in each of the two corpora, we
@@ -470,14 +466,14 @@
                 </div>
             </div>
             <div>
-                <head style="font-size:14pt">Results</head>
-                <p> Here, we present only two examples using four concepts and two time periods
+                <head>Results</head>
+                <p>Here, we present only two examples using four concepts and two time periods
                     (1945-1955 and 1965-1975). Specifically, we try to identify differences in the
                     way incarcerated war criminals and collaborators were discussed in the immediate
                     aftermath of the Nazi occupation of the Netherlands, and at the height of
                     controversies surrounding the intended release of a number of German war
-                    criminals from Dutch prisons - namely Kotälla, Aus der Fünten, and Fischer
-                    (Piersma 2005).</p>
+                    criminals from Dutch prisons - namely Kotälla, Aus der Fünten, and Fischer (<ref
+                        target="#Piersma.2005">Piersma 2005</ref>).</p>
                 <p>Obviously, the discussions in the two periods refer to different groups of
                     perpetrators. In the immediate aftermath of the Nazi occupation the population
                     of inmates was large and diverse, consisting of small-time war profiteers, minor
@@ -492,22 +488,24 @@
                     political delinquents that (if true) should be reflected in these discussions.
                     Two changes have been identified in particular:</p>
                 <list rend="numbered">
-                <item n="1."> A turn in focus from the nature of the crime committed and the person of the
-                    perpetrator towards the lasting, psychological damage endured by the victims
-                    (Heijden 2012; Haan 1997). </item>
-                <item n="2."> A decline in the support, both public and political, for harsh, vengeful
-                    punishments, exemplified here in the discussions about the propriety of the
-                    death penalty. Although the death penalty was (again) abolished in the 1950s, it
-                    remained a point of discussion with regard to war criminals in custody
-                    (Futselaar 2015; Smits 2008).</item>
+                    <item n="1.">A turn in focus from the nature of the crime committed and the
+                        person of the perpetrator towards the lasting, psychological damage endured
+                        by the victims (<ref target="#Heijden.2012">Heijden 2012</ref>; <ref
+                            target="#Haan.1997">Haan 1997</ref>). </item>
+                    <item n="2.">A decline in the support, both public and political, for harsh,
+                        vengeful punishments, exemplified here in the discussions about the
+                        propriety of the death penalty. Although the death penalty was (again)
+                        abolished in the 1950s, it remained a point of discussion with regard to war
+                        criminals in custody (<ref target="#Futselaar.2015">Futselaar 2015</ref>;
+                            <ref target="#Smits.2008">Smits 2008</ref>).</item>
                 </list>
                 <div>
-                    <p style="text-align:center;"><hi rend="italic bold">Historical Case</hi></p>
-                    <p> Over the course of three decades, attitudes to incarcerated war criminals,
-                        as represented by the vocabularies used to discuss them, changed. In the
-                        first period the emphasis lay on crimes against the collective, whereas the
-                        focus shifted more towards the plight of individual victims. As can be seen
-                        in Figure 1, the initial emphasis on crimes against the nation (treason) in
+                    <head>Historical Case</head>
+                    <p>Over the course of three decades, attitudes to incarcerated war criminals, as
+                        represented by the vocabularies used to discuss them, changed. In the first
+                        period the emphasis lay on crimes against the collective, whereas the focus
+                        shifted more towards the plight of individual victims. As can be seen in
+                        Figure 1, the initial emphasis on crimes against the nation (treason) in
                         debates about war criminals declined. The average cosine similarity between
                         war-criminal words and treason words (horizontal lines) decreased
                         significantly when we compare 1945-1955 to 1965-1975. At the same time, we
@@ -516,18 +514,19 @@
                         in Figure 1.</p>
                     <figure>
                         <graphic url="figure1.jpg" height="900px"/>
-                        <head>Figure 1: Top 250 war criminal related words
-                            1945-1955 (grey) and 1965-1975 (black) plotted by their cosine
-                            similarity to victim (x) and traitor (y) words.</head>                    
-                    </figure>     
+                        <head>Figure 1: Top 250 war criminal related words 1945-1955 (grey) and
+                            1965-1975 (black) plotted by their cosine similarity to victim (x) and
+                            traitor (y) words.</head>
+                    </figure>
                     <p>At first glance, this observation is completely in line with the relevant
                         historiography. Several authors have emphasized the sharp rise of interest
                         into the mental health of individual war victims and their families as a
                         decisive factor in policy making and the formation of political opinion.
                         Figure 1 also indicates the observed shift in discourse from focusing on the
                         initial crimes, committed by the war criminals, to the consequences of their
-                        deeds for individual people involved (Haan 1997; Heijden 2012; Smits 2008;
-                        Withuis 2002).</p>
+                        deeds for individual people involved (<ref target="#Haan.1997">Haan
+                            1997</ref>; <ref target="#Heijden.2012">Heijden 2012</ref>; <ref
+                            target="#Smits.2008">Smits 2008</ref>; Withuis 2002).</p>
                     <p>This development can, however, not be considered a mere discursive change:
                         the observed shifts in parliamentary vocabulary represent actual historical
                         developments in the post-war dealing with war criminals. In the early 1970s,
@@ -551,11 +550,10 @@
                         importance for perpetration and treason in the war criminal debates.</p>
                     <figure>
                         <graphic url="figure2.jpg" height="900px"/>
-                        <head>Figure 2: Top 250 war criminal related words
-                            1945-1955 (grey) and 1965-1975 (black) plotted by their cosine
-                            similarity to life imprisonment (x) and death sentence words
-                            (y).</head>                    
-                    </figure> 
+                        <head>Figure 2: Top 250 war criminal related words 1945-1955 (grey) and
+                            1965-1975 (black) plotted by their cosine similarity to life
+                            imprisonment (x) and death sentence words (y).</head>
+                    </figure>
                     <p>It remains imperative to remain aware of the possible pitfalls of this type
                         of investigation. This is evident in the sharp rise of references to the
                         death penalty in war criminal vocabulary that we observed (see Figure 2).
@@ -568,14 +566,13 @@
                         Several members of parliament felt that a pardon would mean that the
                         original verdict (death penalty) would be watered down twice. In these
                         discussions, capital punishment was often referenced, even when its
-                        application was not a viable (or even legal) option (Futselaar 2015).</p>
+                        application was not a viable (or even legal) option (<ref
+                            target="#Futselaar.2015">Futselaar 2015</ref>).</p>
                 </div>
             </div>
             <div>
-                
-                <head style="font-size:14pt">Conclusion</head>
-                
-                <p> This paper outlines a method for studying discursive changes in history. We
+                <head>Conclusion</head>
+                <p>This paper outlines a method for studying discursive changes in history. We
                     trained WEMs and calculated cosine similarities between two opposite or related
                     concepts for specific periods. This enabled us to compare WEMs for different
                     periods. This opens the door for the use of word embeddings as a tool for
@@ -611,10 +608,10 @@
                     historical change using WEMs.</p>
             </div>
             <div>
-                <head style="font-size:14pt">Discussion</head>
+                <head>Discussion</head>
                 <div>
-                    <head><hi rend="italic bold">Method Evaluation</hi></head>
-                    <p> For this paper, we have used two corpora, each representing ten years of
+                    <head>Method Evaluation</head>
+                    <p>For this paper, we have used two corpora, each representing ten years of
                         parliamentary debate to train our WEMs. More interesting, from a research
                         perspective, would be to find out how stable our results are when using
                         smaller, overlapping windows of corpora over time, say with one year steps.
@@ -631,8 +628,8 @@
                         for example, unanimity and/or homogeneity in parliamentary discussions.</p>
                 </div>
                 <div>
-                    <head><hi rend="italic bold">Historical Evaluation</hi></head>
-                    <p> Another remaining ambition is to compare the parliamentary vocabularies used
+                    <head>Historical Evaluation</head>
+                    <p>Another remaining ambition is to compare the parliamentary vocabularies used
                         to discuss ‘domestic’ collaborators and foreign (usually German) war
                         criminals. Furthermore, we also hope to position the war criminal debates in
                         a broader context: how distinct are they from other war related debates, and
@@ -647,8 +644,8 @@
                         in the groups emphasized in political debate about the topic.</p>
                 </div>
                 <div>
-                    <head><hi rend="bold">Acknowledgements</hi></head>
-                    <p> We are grateful to the participants of our Text Mining workshop at the
+                    <head>Acknowledgements</head>
+                    <p>We are grateful to the participants of our Text Mining workshop at the
                         Luxembourg Centre for Contemporary and Digital History (C<hi
                             rend="superscript">2</hi>DH) in Esch-sur-Alzette (June 2018), for their
                         comments, input, and criticism. We would also like to thank the participants
@@ -663,207 +660,200 @@
                 <div>
                     <head>Datasets and Academic Software:</head>
                     <listBibl>
-                        <bibl><hi style="font-size:10pt" xml:space="preserve">Van Lange, Milan. </hi><hi
-                                rend="italic" style="font-size:10pt">Debating Evil
-                                Repository</hi><hi style="font-size:10pt" xml:space="preserve">. Distributed by Github. </hi><ref
-                                target="https://github.com/MilanvanL/debating_evil"><hi
-                                    style="font-size:10pt"
-                                    >https://github.com/MilanvanL/debating_evil</hi></ref><hi
-                                style="font-size:10pt">.</hi>
-                        </bibl>
-                        <bibl><hi style="font-size:10pt" xml:space="preserve">Marx, M., J. Van Doornik, A. Nusselder, and L. Buitinck. 2012. “Thematic collection: PoliticalMashup and Dutch Parliamentary Proceedings 1814-2013.” Distributed by </hi>
-                            <hi rend="italic" style="font-size:10pt">Data Archiving and Networked
-                                Services
-                                (DANS)</hi><hi style="font-size:10pt" xml:space="preserve">. </hi><ref
-                                target="https://doi.org/10.17026/dans-zg8-9x2v"><hi
-                                    style="font-size:10pt"
-                                    >https://doi.org/10.17026/dans-zg8-9x2v</hi></ref><hi
-                                style="font-size:10pt">.</hi></bibl>
+                        <bibl xml:id="VanLange.2019">Van Lange, Milan. 2019. <hi rend="italic"
+                                >Debating Evil</hi>. Distributed by Github. <ref
+                                target="https://github.com/MilanvanL/debating_evil"
+                                >https://github.com/MilanvanL/debating_evil</ref>. </bibl>
+                        <bibl xml:id="Marx.2012">Marx, M., J. Van Doornik, A. Nusselder, and L.
+                            Buitinck. 2012. “Thematic collection: PoliticalMashup and Dutch
+                            Parliamentary Proceedings 1814-2013.” Distributed by <hi rend="italic"
+                                >Data Archiving and Networked Services (DANS)</hi>. <ref
+                                target="https://doi.org/10.17026/dans-zg8-9x2v"
+                                >https://doi.org/10.17026/dans-zg8-9x2v</ref>.</bibl>
                     </listBibl>
                 </div>
                 <div>
                     <head>Literature:</head>
                     <listBibl>
-                        <bibl><hi style="font-size:10pt" xml:space="preserve">Bootsma, Peter, and Peter van Griensven. 2003. “‘Teleurstelling Is Mijn Opperste Emotie’: Vragen over Emotie in de Politiek Aan A.A.M. van Agt.” In </hi><hi
-                                rend="italic" style="font-size:10pt">Jaarboek Parlementaire
-                                Geschiedenis, 2003. Emotie in de Politiek</hi><hi
-                                style="font-size:10pt">, edited by Carla van Baalen, Willem
-                                Breedveid, Jan Willem Brouwer, Peter van Griensven, Jan Ramakers,
-                                and Inke Secker, 121 – 25. Den Haag: SDU Uitgevers.</hi></bibl>
-                        <bibl><hi style="font-size:10pt" xml:space="preserve">Futselaar, Ralf. 2015. </hi><hi
-                                rend="italic" style="font-size:10pt">Gevangenissen in oorlogstijd:
-                                1940-1945</hi><hi style="font-size:10pt">. 1st ed. Amsterdam:
-                                Boom.</hi></bibl>
-                        <bibl><hi style="font-size:10pt" xml:space="preserve">Gelbukh, Alexander. 2015. </hi><hi
-                                rend="italic" style="font-size:10pt">Computational Linguistics and
-                                Intelligent Text Processing: 16th International Conference, CICLing
-                                2015, Cairo, Egypt, April 14-20, 2015, Proceedings</hi><hi
-                                style="font-size:10pt">. Springer.</hi></bibl>
-                        <bibl><hi style="font-size:10pt" xml:space="preserve">Grevers, Helen. 2013. </hi><hi
-                                rend="italic" style="font-size:10pt">Van landverraders tot goede
-                                vaderlanders: de opsluiting van collaborateurs in Nederland en
-                                België, 1944-1950</hi><hi style="font-size:10pt">. Amsterdam:
-                                Balans.</hi></bibl>
-                        <bibl><hi style="font-size:10pt" xml:space="preserve">Haan, Ido de. 1997. </hi><hi
-                                rend="italic" style="font-size:10pt">Na de ondergang: de herinnering
-                                aan de Jodenvervolging in Nederland 1945-1995</hi><hi
-                                style="font-size:10pt">. Den Haag: SDU.</hi></bibl>
-                        <bibl><hi style="font-size:10pt" xml:space="preserve">Heijden, Chris van der. 2012. </hi><hi
-                                rend="italic" style="font-size:10pt">Dat nooit meer: de nasleep van
-                                de Tweede Wereldoorlog in Nederland</hi><hi style="font-size:10pt">.
-                                3rd ed. Amsterdam: Atlas Contact.</hi></bibl>
-                        <bibl><hi style="font-size:10pt">Olieman, Alex, Kaspar Beelen, Milan van
-                                Lange, Jaap Kamps, and Maarten Marx. 2017. “Good Applications for
-                                Crummy Entity Linkers? The Case of Corpus Selection in Digital
-                                Humanities.”</hi>
-                            <hi rend="italic" style="font-size:10pt">CoRR</hi><hi style="font-size:10pt" xml:space="preserve"> abs/1708.01162.</hi>
-                            <ref target="http://arxiv.org/abs/1708.01162"><hi style="font-size:10pt"
-                                    >http://arxiv.org/abs/1708.01162</hi></ref><hi
-                                style="font-size:10pt">.</hi></bibl>
-                        <bibl><hi style="font-size:10pt" xml:space="preserve">Piersma, Hinke. 2005. </hi><hi
-                                rend="italic" style="font-size:10pt">De Drie van Breda: Duitse
-                                Oorlogsmisdadigers in Nederlandse Gevangenschap, 1945-1989</hi><hi
-                                style="font-size:10pt">. 1st ed. Amsterdam: Balans.</hi></bibl>
-                        <bibl><hi style="font-size:10pt" xml:space="preserve">Schmidt, Benjamin. 2015. “Vector Space Models for the Digital Humanities.” Ben’s Bookworm Blog. Accessed October 25, 2015. </hi><ref
+                        <bibl xml:id="Bootsma.2003">Bootsma, Peter, and Peter van Griensven. 2003.
+                            “‘Teleurstelling Is Mijn Opperste Emotie’: Vragen over Emotie in de
+                            Politiek Aan A.A.M. van Agt.” In <hi rend="italic">Jaarboek
+                                Parlementaire Geschiedenis, 2003. Emotie in de Politiek</hi>, edited
+                            by Carla van Baalen, Willem Breedveid, Jan Willem Brouwer, Peter van
+                            Griensven, Jan Ramakers, and Inke Secker, 121 – 25. Den Haag: SDU
+                            Uitgevers.</bibl>
+                        <bibl xml:id="Futselaar.2015">Futselaar, Ralf. 2015. <hi rend="italic"
+                                >Gevangenissen in oorlogstijd: 1940-1945</hi>. 1st ed. Amsterdam:
+                            Boom.</bibl>
+                        <bibl xml:id="Gelbukh.2015">Gelbukh, Alexander. 2015. <hi rend="italic"
+                                >Computational Linguistics and Intelligent Text Processing: 16th
+                                International Conference, CICLing 2015, Cairo, Egypt, April 14-20,
+                                2015, Proceedings</hi>. Springer.</bibl>
+                        <bibl xml:id="Grevers.2013">Grevers, Helen. 2013. <hi rend="italic">Van
+                                landverraders tot goede vaderlanders: de opsluiting van
+                                collaborateurs in Nederland en België, 1944-1950</hi>. Amsterdam:
+                            Balans.</bibl>
+                        <bibl xml:id="Haan.1997">Haan, Ido de. 1997. <hi rend="italic">Na de
+                                ondergang: de herinnering aan de Jodenvervolging in Nederland
+                                1945-1995</hi>. Den Haag: SDU.</bibl>
+                        <bibl xml:id="Heijden.2012">Heijden, Chris van der. 2012. <hi rend="italic"
+                                >Dat nooit meer: de nasleep van de Tweede Wereldoorlog in
+                                Nederland</hi>. 3rd ed. Amsterdam: Atlas Contact.</bibl>
+                        <bibl xml:id="Olieman.2017">Olieman, Alex, Kaspar Beelen, Milan van Lange,
+                            Jaap Kamps, and Maarten Marx. 2017. “Good Applications for Crummy Entity
+                            Linkers? The Case of Corpus Selection in Digital Humanities.” <hi
+                                rend="italic">CoRR</hi> abs/1708.01162. <ref
+                                target="http://arxiv.org/abs/1708.01162"
+                                >http://arxiv.org/abs/1708.01162</ref>.</bibl>
+                        <bibl xml:id="Piersma.2005">Piersma, Hinke. 2005. <hi rend="italic">De Drie
+                                van Breda: Duitse Oorlogsmisdadigers in Nederlandse Gevangenschap,
+                                1945-1989</hi>. 1st ed. Amsterdam: Balans.</bibl>
+                        <bibl xml:id="Schmidt.2015">Schmidt, Benjamin. 2015. “Vector Space Models
+                            for the Digital Humanities.” Ben’s Bookworm Blog. Accessed October 25,
+                            2015. <ref
                                 target="http://bookworm.benschmidt.org/posts/2015-10-25-Word-Embeddings.html"
-                                    ><hi style="font-size:10pt"
-                                    >http://bookworm.benschmidt.org/posts/2015-10-25-Word-Embeddings.html</hi></ref><hi
-                                style="font-size:10pt">.</hi></bibl>
-                        <bibl><hi style="font-size:10pt" xml:space="preserve">Schmidt, Benjamin. 2017. “Bmschmidt/WordVectors: Tools for Creating and Analyzing Vector-Space Models of Texts Version 2.0 from GitHub.” GitHub. Accessed on November 5, 2017. </hi><ref
-                                target="https://rdrr.io/github/bmschmidt/wordVectors/"><hi
-                                    style="font-size:10pt"
-                                    >https://rdrr.io/github/bmschmidt/wordVectors/</hi></ref><hi
-                                style="font-size:10pt">.</hi></bibl>
-                        <bibl><hi style="font-size:10pt">Singhal, Amit. 2001. “Modern Information
-                                Retrieval: A Brief Overview.”</hi>
-                            <hi rend="italic" style="font-size:10pt">Bulletin of the IEEE Computer
-                                Society Technical Committee on Data
-                            Engineering</hi><hi style="font-size:10pt" xml:space="preserve"> 24: 9.</hi></bibl>
-                        <bibl><hi style="font-size:10pt" xml:space="preserve">Smits, Hans. 2008. </hi><hi
-                                rend="italic" style="font-size:10pt">Strafrechthervormers en
-                                hemelbestormers: opkomst en teloorgang van de Coornhert-Liga</hi><hi
-                                style="font-size:10pt">. Amsterdam: Aksant.</hi></bibl>
-                        <bibl><hi style="font-size:10pt" xml:space="preserve">Tames, Ismee. 2013. </hi><hi
-                                rend="italic" style="font-size:10pt">Doorn in het vlees: foute
-                                Nederlanders in de jaren vijftig en zestig</hi><hi
-                                style="font-size:10pt">. Erfenissen van Collaboratie. Amsterdam:
-                                Balans.</hi></bibl>
-                        <bibl><hi style="font-size:10pt" xml:space="preserve">Withuis, Jolande. 2002. </hi><hi
-                                rend="italic" style="font-size:10pt">Erkenning: van oorlogstrauma
-                                naar klaagcultuur</hi><hi style="font-size:10pt">. Amsterdam: De
-                                Bezige Bij.</hi>
-                        </bibl>
+                                >http://bookworm.benschmidt.org/posts/2015-10-25-Word-Embeddings.html</ref>.</bibl>
+                        <bibl xml:id="Schmidt.2017">Schmidt, Benjamin. 2017. “Bmschmidt/WordVectors:
+                            Tools for Creating and Analyzing Vector-Space Models of Texts Version
+                            2.0 from GitHub.” GitHub. Accessed on November 5, 2017. <ref
+                                target="https://rdrr.io/github/bmschmidt/wordVectors/"
+                                >https://rdrr.io/github/bmschmidt/wordVectors/</ref>.</bibl>
+                        <bibl xml:id="Singhal.2001">Singhal, Amit. 2001. “Modern Information
+                            Retrieval: A Brief Overview.” <hi rend="italic">Bulletin of the IEEE
+                                Computer Society Technical Committee on Data Engineering</hi> 24:
+                            9.</bibl>
+                        <bibl xml:id="Smits.2008">Smits, Hans. 2008. <hi rend="italic"
+                                >Strafrechthervormers en hemelbestormers: opkomst en teloorgang van
+                                de Coornhert-Liga</hi>. Amsterdam: Aksant.</bibl>
+                        <bibl xml:id="Tames.2013">Tames, Ismee. 2013. <hi rend="italic">Doorn in het
+                                vlees: foute Nederlanders in de jaren vijftig en zestig</hi>.
+                            Erfenissen van Collaboratie. Amsterdam: Balans.</bibl>
+                        <bibl xml:id="Withuis.2002">Withuis, Jolande. 2002. <hi rend="italic"
+                                >Erkenning: van oorlogstrauma naar klaagcultuur</hi>. Amsterdam: De
+                            Bezige Bij. </bibl>
                     </listBibl>
                 </div>
             </div>
             <div type="summary">
-                <docAuthor>Milan van Lange</docAuthor> 
+                <docAuthor>Milan van Lange</docAuthor>
                 <docAuthor>Ralf Futselaar</docAuthor>
-                <head rend="allcaps">DEBATING EVIL: Using Word Embeddings to Analyse
-                        Parliamentary Debates on War Criminals in the Netherlands</head>
+                <head rend="allcaps">DEBATING EVIL: Using Word Embeddings to Analyse Parliamentary
+                    Debates on War Criminals in the Netherlands</head>
                 <head>SUMMARY</head>
-                <p>
-                    <hi style="font-size:10pt" xml:space="preserve">This paper presents a case study to investigate the application of text mining techniques in historical research. We demonstrate the usability, advantages, and limitations of distributional semantics when investigating large diachronic historical datasets with word embedding models (WEMs). WEMs are applied to a large digitised and machine-readable historical dataset, namely the verbatim proceedings of both houses of Dutch parliament for the period 1945-1975. </hi></p>
-                <p>
-                    <hi style="font-size:10pt">WEMs are techniques to investigate relations between
-                        words in large corpora. WEMs are based on the calculation of the average
-                        distance of unique words to all other unique words in a corpus. The position
-                        of each unique word can then be described as a list of numerical values,
-                        representing its distance to all other words. This list of values is called
-                        the ‘vector’ of the word. These numerical vectors can be compared. That is
-                        to say, the closeness of one vector to another can be calculated. High
-                        closeness often reflects a close semantic relationship between words. Some
-                        words with similar vectors are (near) synonyms or have very similar usages
-                        (tea and coffee, for example). For historical research insight in these
-                        relations is very useful. It goes far beyond mere closeness. With WEMs we
-                        are able to identify associations between words that are not self-evident
-                        and would not have been found by traditional means.</hi></p>
-                <p>
-                    <hi style="font-size:10pt">The paper uses WEMs to investigate a case study on
-                        the vocabulary in parliamentary discussions concerning the punishment,
-                        incarceration, and release of Nazi collaborators and war criminals in the
-                        Netherlands. We identify changes related to historical events and
-                        developments in the post-war dealing with war criminals. Recent
-                        historiography on the topic has suggested a dramatic shift away from the
-                        crime committed by war criminals and towards the consequences of these deeds
-                        for victims and their relatives. We focus on two questions directly related
-                        to the treatment of these delinquents in the Dutch penal system. The first
-                        of these concerns the focus on the identification of the wronged party: did
-                        politicians focus on crimes against the Dutch nation as a whole, or against
-                        specific groups of individual victims? The second concerns the
-                        appropriateness of harsh punishments, specifically whether or not life
-                        imprisonment was considered a just alternative for the death penalty. These
-                        questions both derive directly from historiography and serve to answer an
-                        overarching question: can we assess the validity of traditional scholarship
-                        using text mining?</hi></p>
-                <p>
-                    <hi style="font-size:10pt" xml:space="preserve">In the paper we show how victims became more prominent in discussions about war criminals. This did, however, not diminish the importance of the deed they committed. In other words, the shift is there, but it appears to be far less radical then suggested. We also demonstrate that actual historical developments regarding the type of war criminals incarcerated in the Netherlands (from many local convicts in 1945, to a handful of foreigners in the 1970s) were reflected by a discursive shift in the debates. This paper also shows examples of pitfalls of an overly enthusiastic reliance on WEMs as an analytical tool in historical research. Capital punishment was mentioned particularly frequently in the debates of the 1970s, but not because MPs discussed the actual possibility of executing the war criminals. </hi></p>
-                <p>
-                    <hi style="font-size:10pt" xml:space="preserve">To conclude: distributional semantics are a powerful new tool for historians, but they do not remove the need for hermeneutic awareness. In this paper, the method is itself the main object of inquiry. We believe we have shown that it possible, feasible, and useful to develop and implement a coherent and widely applicable method for investigating historical change using WEMs. We believe that the outcomes of this investigation show that WEMs can be a useful and powerful tool in historical research, provided they are used cautiously and with sufficient domain knowledge. </hi></p>
+                <p>This paper presents a case study to investigate the application of text mining
+                    techniques in historical research. We demonstrate the usability, advantages, and
+                    limitations of distributional semantics when investigating large diachronic
+                    historical datasets with word embedding models (WEMs). WEMs are applied to a
+                    large digitised and machine-readable historical dataset, namely the verbatim
+                    proceedings of both houses of Dutch parliament for the period 1945-1975. </p>
+                <p>WEMs are techniques to investigate relations between words in large corpora. WEMs
+                    are based on the calculation of the average distance of unique words to all
+                    other unique words in a corpus. The position of each unique word can then be
+                    described as a list of numerical values, representing its distance to all other
+                    words. This list of values is called the ‘vector’ of the word. These numerical
+                    vectors can be compared. That is to say, the closeness of one vector to another
+                    can be calculated. High closeness often reflects a close semantic relationship
+                    between words. Some words with similar vectors are (near) synonyms or have very
+                    similar usages (tea and coffee, for example). For historical research insight in
+                    these relations is very useful. It goes far beyond mere closeness. With WEMs we
+                    are able to identify associations between words that are not self-evident and
+                    would not have been found by traditional means.</p>
+                <p>The paper uses WEMs to investigate a case study on the vocabulary in
+                    parliamentary discussions concerning the punishment, incarceration, and release
+                    of Nazi collaborators and war criminals in the Netherlands. We identify changes
+                    related to historical events and developments in the post-war dealing with war
+                    criminals. Recent historiography on the topic has suggested a dramatic shift
+                    away from the crime committed by war criminals and towards the consequences of
+                    these deeds for victims and their relatives. We focus on two questions directly
+                    related to the treatment of these delinquents in the Dutch penal system. The
+                    first of these concerns the focus on the identification of the wronged party:
+                    did politicians focus on crimes against the Dutch nation as a whole, or against
+                    specific groups of individual victims? The second concerns the appropriateness
+                    of harsh punishments, specifically whether or not life imprisonment was
+                    considered a just alternative for the death penalty. These questions both derive
+                    directly from historiography and serve to answer an overarching question: can we
+                    assess the validity of traditional scholarship using text mining?</p>
+                <p>In the paper we show how victims became more prominent in discussions about war
+                    criminals. This did, however, not diminish the importance of the deed they
+                    committed. In other words, the shift is there, but it appears to be far less
+                    radical then suggested. We also demonstrate that actual historical developments
+                    regarding the type of war criminals incarcerated in the Netherlands (from many
+                    local convicts in 1945, to a handful of foreigners in the 1970s) were reflected
+                    by a discursive shift in the debates. This paper also shows examples of pitfalls
+                    of an overly enthusiastic reliance on WEMs as an analytical tool in historical
+                    research. Capital punishment was mentioned particularly frequently in the
+                    debates of the 1970s, but not because MPs discussed the actual possibility of
+                    executing the war criminals. </p>
+                <p>To conclude: distributional semantics are a powerful new tool for historians, but
+                    they do not remove the need for hermeneutic awareness. In this paper, the method
+                    is itself the main object of inquiry. We believe we have shown that it possible,
+                    feasible, and useful to develop and implement a coherent and widely applicable
+                    method for investigating historical change using WEMs. We believe that the
+                    outcomes of this investigation show that WEMs can be a useful and powerful tool
+                    in historical research, provided they are used cautiously and with sufficient
+                    domain knowledge. </p>
             </div>
             <div type="summary" xml:lang="sl">
-                <docAuthor>Milan van Lange</docAuthor> 
+                <docAuthor>Milan van Lange</docAuthor>
                 <docAuthor>Ralf Futselaar</docAuthor>
-                <head>RAZPRAVE O ZLU:
-                        ANALIZIRANJE PARLAMENTARNIH RAZPRAV O VOJNIH ZLOČINCIH NA NIZOZEMSKEM Z
-                        VEKTORSKIMI VLOŽITVAMI BESED</head>
+                <head>RAZPRAVE O ZLU: ANALIZIRANJE PARLAMENTARNIH RAZPRAV O VOJNIH ZLOČINCIH NA
+                    NIZOZEMSKEM Z VEKTORSKIMI VLOŽITVAMI BESED</head>
                 <head>Povzetek</head>
-                <p>
-                    <hi style="font-size:10pt">V prispevku je prikazana študija primera, pri kateri
-                        se proučuje uporaba metod za rudarjenje besedil v zgodovinskih raziskavah.
-                        Predstavljamo uporabnost, prednosti in omejitve distribucijske semantike pri
-                        proučevanju obsežnih diahronih zgodovinskih podatkovnih nizov z modeli
-                        vektorske vložitve besed (</hi>
-                    <hi rend="italic" style="font-size:10pt">word embedding
-                    models</hi><hi style="font-size:10pt" xml:space="preserve"> – modeli WEM). Modele WEM smo uporabili za analizo obsežnih digitaliziranih in strojno berljivih zgodovinskih podatkovnih nizov, in sicer dobesednih zapisov postopkov v obeh domovih nizozemskega parlamenta v obdobju 1945–1975.</hi>
-                </p>
-                <p>
-                    <hi style="font-size:10pt" xml:space="preserve">Modeli WEM so metode za proučevanje povezav med besedami v obsežnih korupusih. Temeljijo na izračunu povprečne oddaljenosti edinstvenih besed od vseh drugih edinstvenih besed v korpusu. Položaj vsake edinstvene besede se potem lahko opiše kot seznam numeričnih vrednosti, ki predstavlja njeno oddaljenost od vseh drugih besed. Seznam vrednosti se imenuje "vektor" besede. Te numerične vektorje je mogoče primerjati. To pomeni, da je mogoče izračunati, kako blizu so si posamezni vektorji. Če so si zelo blizu, to pogosto pomen, da so besede tesno semantično povezane. Nekatere besede s podobnimi vektorji so (skoraj) sopomenke ali imajo zelo podobno rabo (na primer čaj in kava). Vpogled v te povezave je zelo koristen za zgodovinske raziskave in presega samo vprašanje bližine. Z modeli WEM lahko prepoznamo povezave med besedami, ki niso očitne in jih ne bi bilo mogoče najti na tradicionalne načine. </hi>
-                </p>
-                <p>
-                    <hi style="font-size:10pt">V prispevku smo uporabili modele WEM za proučitev
-                        študije primera besedišča iz parlamentarnih razprav o kaznovanju, zaporni
-                        kazni in izpustitvi nacističnih kolaborantov in vojnih zločincev na
-                        Nizozemskem. Ugotavljali smo spremembe, povezane z zgodovinskimi dogodki in
-                        dogajanjem v povojni obravnavi vojnih zločincev. V novejšem zgodovinopisju,
-                        posvečenem tej tematiki, lahko opazimo precejšen premik od zločinov, ki so
-                        jih zagrešili vojnih zločinci, k posledicam teh dejanj za žrtve in njihove
-                        sorodnike. Osredotočili smo se na dve vprašanji, ki sta neposredno povezani
-                        z obravnavo teh zločincev v nizozemskem sistemu kazenskega pregona. Prvo
-                        vprašanje je povezano z osredotočanjem na opredelitev žrtev: ali so se
-                        politiki osredotočali na zločine proti nizozemskemu narodu kot celoti ali
-                        proti posameznim skupinam individualnih žrtev? Drugo vprašanje zadeva
-                        ustreznost strogih kazni, zlasti ali je dosmrtna zaporna kazen veljala za
-                        pravično alternativo smrtni kazni. Obe vprašanji izhajata neposredno iz
-                        zgodovinopisja in omogočata odgovor na širše vprašanje: ali lahko presojamo
-                        tehtnost tradicionalne znanosti z rudarjenjem besedil?</hi>
-                </p>
-                <p>
-                    <hi style="font-size:10pt">V prispevku smo pokazali, kako lahko žrtve dobijo
-                        pomembnejše mesto v razpravah o vojnih zločincih. S tem pa se ni zmanjšal
-                        pomen dejanj, ki so jih zločinci zagrešili. Povedano drugače, premik je
-                        mogoče opaziti, vendar se zdi, da je precej manjši od pričakovanega.
-                        Pokazali smo tudi, da so se dejanski zgodovinski dogodki, povezani z vojnimi
-                        zločinci, ki so bili na Nizozemskem kaznovani z zaporom (od številnih
-                        lokalnih obsojencev leta 1945 do nekaj tujcev v sedemdesetih letih 20.
-                        stoletja), izrazili v diskurzivnem premiku v razpravah. V prispevku so
-                        prikazani tudi primeri različnih pasti, ki jih prinese preveč navdušeno
-                        opiranje na modele WEM kot analitično orodje v zgodovinskih raziskavah.
-                        Smrtna kazen se je pogosto omenjala predvsem v razpravah v sedemdesetih
-                        letih 20. stoletja, vendar ne zato, ker bi poslanci razpravljali o dejanski
-                        možnosti usmrtitve vojnih zločincev.</hi>
-                </p>
-                <p>
-                    <hi style="font-size:10pt">Zaključimo lahko, da je distribucijska semantika
-                        koristno novo orodje za zgodovinarje, vendar to ne pomeni, da hermenevtična
-                        zavest ni več potrebna. V tem prispevku je glavni predmet proučevanja sama
-                        metoda. Menimo, da smo dokazali, da je mogoče, izvedljivo in koristno
-                        razviti in uporabljati usklajeno ter za široko rabo primerno metodo za
-                        proučevanje zgodovinskih sprememb z modeli WEM. Verjamemo, da rezultati te
-                        raziskave dokazujejo, da so modeli WEM lahko koristno in uporabno orodje v
-                        zgodovinskih raziskavah, če jih uporabljamo previdno in z ustreznim
-                        znanjem.</hi>
-                </p>
+                <p>V prispevku je prikazana študija primera, pri kateri se proučuje uporaba metod za
+                    rudarjenje besedil v zgodovinskih raziskavah. Predstavljamo uporabnost,
+                    prednosti in omejitve distribucijske semantike pri proučevanju obsežnih
+                    diahronih zgodovinskih podatkovnih nizov z modeli vektorske vložitve besed ( <hi
+                        rend="italic">word embedding models</hi> – modeli WEM). Modele WEM smo
+                    uporabili za analizo obsežnih digitaliziranih in strojno berljivih zgodovinskih
+                    podatkovnih nizov, in sicer dobesednih zapisov postopkov v obeh domovih
+                    nizozemskega parlamenta v obdobju 1945–1975. </p>
+                <p>Modeli WEM so metode za proučevanje povezav med besedami v obsežnih korupusih.
+                    Temeljijo na izračunu povprečne oddaljenosti edinstvenih besed od vseh drugih
+                    edinstvenih besed v korpusu. Položaj vsake edinstvene besede se potem lahko
+                    opiše kot seznam numeričnih vrednosti, ki predstavlja njeno oddaljenost od vseh
+                    drugih besed. Seznam vrednosti se imenuje "vektor" besede. Te numerične vektorje
+                    je mogoče primerjati. To pomeni, da je mogoče izračunati, kako blizu so si
+                    posamezni vektorji. Če so si zelo blizu, to pogosto pomen, da so besede tesno
+                    semantično povezane. Nekatere besede s podobnimi vektorji so (skoraj) sopomenke
+                    ali imajo zelo podobno rabo (na primer čaj in kava). Vpogled v te povezave je
+                    zelo koristen za zgodovinske raziskave in presega samo vprašanje bližine. Z
+                    modeli WEM lahko prepoznamo povezave med besedami, ki niso očitne in jih ne bi
+                    bilo mogoče najti na tradicionalne načine. </p>
+                <p>V prispevku smo uporabili modele WEM za proučitev študije primera besedišča iz
+                    parlamentarnih razprav o kaznovanju, zaporni kazni in izpustitvi nacističnih
+                    kolaborantov in vojnih zločincev na Nizozemskem. Ugotavljali smo spremembe,
+                    povezane z zgodovinskimi dogodki in dogajanjem v povojni obravnavi vojnih
+                    zločincev. V novejšem zgodovinopisju, posvečenem tej tematiki, lahko opazimo
+                    precejšen premik od zločinov, ki so jih zagrešili vojnih zločinci, k posledicam
+                    teh dejanj za žrtve in njihove sorodnike. Osredotočili smo se na dve vprašanji,
+                    ki sta neposredno povezani z obravnavo teh zločincev v nizozemskem sistemu
+                    kazenskega pregona. Prvo vprašanje je povezano z osredotočanjem na opredelitev
+                    žrtev: ali so se politiki osredotočali na zločine proti nizozemskemu narodu kot
+                    celoti ali proti posameznim skupinam individualnih žrtev? Drugo vprašanje zadeva
+                    ustreznost strogih kazni, zlasti ali je dosmrtna zaporna kazen veljala za
+                    pravično alternativo smrtni kazni. Obe vprašanji izhajata neposredno iz
+                    zgodovinopisja in omogočata odgovor na širše vprašanje: ali lahko presojamo
+                    tehtnost tradicionalne znanosti z rudarjenjem besedil? </p>
+                <p>V prispevku smo pokazali, kako lahko žrtve dobijo pomembnejše mesto v razpravah o
+                    vojnih zločincih. S tem pa se ni zmanjšal pomen dejanj, ki so jih zločinci
+                    zagrešili. Povedano drugače, premik je mogoče opaziti, vendar se zdi, da je
+                    precej manjši od pričakovanega. Pokazali smo tudi, da so se dejanski zgodovinski
+                    dogodki, povezani z vojnimi zločinci, ki so bili na Nizozemskem kaznovani z
+                    zaporom (od številnih lokalnih obsojencev leta 1945 do nekaj tujcev v
+                    sedemdesetih letih 20. stoletja), izrazili v diskurzivnem premiku v razpravah. V
+                    prispevku so prikazani tudi primeri različnih pasti, ki jih prinese preveč
+                    navdušeno opiranje na modele WEM kot analitično orodje v zgodovinskih
+                    raziskavah. Smrtna kazen se je pogosto omenjala predvsem v razpravah v
+                    sedemdesetih letih 20. stoletja, vendar ne zato, ker bi poslanci razpravljali o
+                    dejanski možnosti usmrtitve vojnih zločincev. </p>
+                <p>Zaključimo lahko, da je distribucijska semantika koristno novo orodje za
+                    zgodovinarje, vendar to ne pomeni, da hermenevtična zavest ni več potrebna. V
+                    tem prispevku je glavni predmet proučevanja sama metoda. Menimo, da smo
+                    dokazali, da je mogoče, izvedljivo in koristno razviti in uporabljati usklajeno
+                    ter za široko rabo primerno metodo za proučevanje zgodovinskih sprememb z modeli
+                    WEM. Verjamemo, da rezultati te raziskave dokazujejo, da so modeli WEM lahko
+                    koristno in uporabno orodje v zgodovinskih raziskavah, če jih uporabljamo
+                    previdno in z ustreznim znanjem. </p>
             </div>
         </back>
     </text>
