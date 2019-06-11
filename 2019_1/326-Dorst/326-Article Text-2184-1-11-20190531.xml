@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -100,11 +99,8 @@
     </teiHeader>
     <text>
         <front>
-            <docAuthor>Isolde van Dorst<note place="foot" xml:id="ftn1" n="*"><hi
-                        rend="footnote_reference"/>
-                    <hi rend="bold" style="font-size:10pt" xml:space="preserve">ESRC Centre for Corpus Approaches to Social Science, Lancaster University, Faculty of ICT, University of Malta, Faculty of Arts, University of Groningen, </hi><ref
-                        target="mailto:isoldevd@hotmail.com"><hi rend="bold" style="font-size:10pt"
-                            >isoldevd@hotmail.com</hi></ref></note>
+            <docAuthor>Isolde van Dorst<note place="foot" xml:id="ftn1" n="*"><hi rend="footnote_reference"/>
+                    <hi rend="bold">ESRC Centre for Corpus Approaches to Social Science, Lancaster University, Faculty of ICT, University of Malta, Faculty of Arts, University of Groningen, </hi><ref target="mailto:isoldevd@hotmail.com"><hi rend="bold">isoldevd@hotmail.com</hi></ref></note>
             </docAuthor>
             <docImprint>
                 <idno type="cobissType">Cobiss type: 1.01</idno>
@@ -112,7 +108,7 @@
             </docImprint>
             <div type="abstract" xml:lang="sl">
                 <head>IZVLEČEK</head>
-                <head><hi rend="allcaps" xml:space="preserve">You, thou in thee: statistična analiza uporabe izrazov zaimkovnega naslavljanja pri Shakespearu </hi></head>
+                <head><hi rend="allcaps">You, thou in thee: statistična analiza uporabe izrazov zaimkovnega naslavljanja pri Shakespearu </hi></head>
                 <p>
                     <hi rend="italic">Študija se ukvarja z oblikovanjem napovednega modela,
                         namenjenega ugotavljanju, katere jezikovne in nejezikovne značilnosti
@@ -126,9 +122,7 @@
                         pogovora. Trije uporabljeni algoritmi – naivni Bayesov klasifikator,
                         odločitveno drevo in metoda podpornih vektorjev – so izbrani kot
                         ilustrativni nabor možnih modelov zaradi njihovih kontrastnih predpostavk in
-                        učne pristranskosti. Opravita se dve napovedi, prva o binarnem (</hi><hi
-                        rend="italic smallcaps">you</hi><hi rend="italic">/</hi><hi
-                        rend="italic smallcaps">thou</hi><hi rend="italic">) razlikovanju in druga o
+                        učne pristranskosti. Opravita se dve napovedi, prva o binarnem (</hi><hi rend="italic smallcaps">you</hi><hi rend="italic">/</hi><hi rend="italic smallcaps">thou</hi><hi rend="italic">) razlikovanju in druga o
                         trinarnem (you/thou/thee) razlikovanju. Od vseh treh algoritmov daje
                         najboljše rezultate metoda podpornih vektorjev. Po ugotovitvah so
                         značilnosti, ki najbolje napovejo izbiro zaimka, besede iz neposrednega
@@ -140,15 +134,9 @@
                     modeliranje</hi></p>
             </div>
             <div type="abstract">
-                <p style="text-align:center;">ABSTRACT</p>
+                <head>ABSTRACT</head>
                 <p>
-                    <hi rend="italic" xml:space="preserve">This study creates a prediction model to identify which linguistic and extra-linguistic features influence pronoun choices in the plays of Shakespeare. In the English of Shakespeare’s time, the now-archaic distinction between </hi><hi
-                        rend="italic smallcaps"
-                        >you</hi><hi rend="italic" xml:space="preserve"> and </hi><hi
-                        rend="italic smallcaps"
-                        >thou</hi><hi rend="italic" xml:space="preserve"> persisted, and is usually reported as being determined by relative social status and personal closeness of speaker and addressee. However, it remains to be determined whether statistical machine learning will support this traditional explanation. 23 features are investigated, having been selected from multiple linguistic areas, such as pragmatics, sociolinguistics and conversation analysis. The three algorithms used, Naive Bayes, decision tree and support vector machine, are selected as illustrative of a range of possible models in light of their contrasting assumptions and learning biases. Two predictions are performed, firstly on a binary (</hi><hi
-                        rend="italic smallcaps">you</hi><hi rend="italic">/</hi><hi
-                        rend="italic smallcaps">thou</hi><hi rend="italic">) distinction and then on
+                    <hi rend="italic">This study creates a prediction model to identify which linguistic and extra-linguistic features influence pronoun choices in the plays of Shakespeare. In the English of Shakespeare’s time, the now-archaic distinction between </hi><hi rend="italic smallcaps">you</hi><hi rend="italic"> and </hi><hi rend="italic smallcaps">thou</hi><hi rend="italic"> persisted, and is usually reported as being determined by relative social status and personal closeness of speaker and addressee. However, it remains to be determined whether statistical machine learning will support this traditional explanation. 23 features are investigated, having been selected from multiple linguistic areas, such as pragmatics, sociolinguistics and conversation analysis. The three algorithms used, Naive Bayes, decision tree and support vector machine, are selected as illustrative of a range of possible models in light of their contrasting assumptions and learning biases. Two predictions are performed, firstly on a binary (</hi><hi rend="italic smallcaps">you</hi><hi rend="italic">/</hi><hi rend="italic smallcaps">thou</hi><hi rend="italic">) distinction and then on
                         a trinary (you/thou/thee) distinction. Of the three algorithms, the support
                         vector machine models score best. The features identified as the best
                         predictors of pronoun choice are the words in the direct linguistic context.
@@ -162,17 +150,13 @@
         </front>
         <body>
             <div>
-                <head><hi rend="bold" style="font-size:14pt">Introduction</hi></head>
-                <p> For several decades much research has been undertaken on the use of <hi
-                        rend="italic">you</hi>, <hi rend="italic">thou</hi> and <hi rend="italic"
-                        >thee</hi> in Shakespeare’s works. However, the results so far have yet to
+                <head><hi rend="bold">Introduction</hi></head>
+                <p> For several decades much research has been undertaken on the use of <hi rend="italic">you</hi>, <hi rend="italic">thou</hi> and <hi rend="italic">thee</hi> in Shakespeare’s works. However, the results so far have yet to
                     arrive at an exact and conclusive answer regarding how these pronouns were
                     used.</p>
                 <p> This study combines the strengths of multiple research fields in an effort to
                     determine via hitherto unused methods which linguistic and extra-linguistic
-                    features influence the choice of second person singular pronoun (<hi
-                        rend="italic">you</hi> versus <hi rend="italic">thou</hi> or <hi
-                        rend="italic">thee</hi>) in the plays of William Shakespeare. Prior findings
+                    features influence the choice of second person singular pronoun (<hi rend="italic">you</hi> versus <hi rend="italic">thou</hi> or <hi rend="italic">thee</hi>) in the plays of William Shakespeare. Prior findings
                     in literary and linguistic studies are utilised to find which features could be
                     relevant in this choice, and tools and applications created for corpus
                     linguistics and computer science are exploited to analyse the data in a more
@@ -186,31 +170,26 @@
                     will be used based on a set of linguistic and extra-linguistic features taken
                     from the text itself and selected on the basis of knowledge that we have of
                     English in the late 1500s and early 1600s? To accomplish this, all occurrences
-                    of <hi rend="italic">you</hi>, <hi rend="italic">thou</hi> and <hi rend="italic"
-                        >thee</hi> are extracted from Shakespeare’s plays, and every instance is
+                    of <hi rend="italic">you</hi>, <hi rend="italic">thou</hi> and <hi rend="italic">thee</hi> are extracted from Shakespeare’s plays, and every instance is
                     manually coded for 23 linguistic and extra-linguistic features, creating data
                     which will serve to ascertain the answer to this primary question. A second
                     question to be addressed is whether some features perform better as predictors
                     of the pronoun choice than others. Thirdly, the issue of whether the use of
                     different algorithms affects the prediction outcomes will be considered.</p>
-                <p> Throughout this paper, italicised <hi rend="italic">you</hi>, <hi rend="italic"
-                        >thou</hi> and <hi rend="italic">thee</hi> refer to specific pronoun forms.
+                <p> Throughout this paper, italicised <hi rend="italic">you</hi>, <hi rend="italic">thou</hi> and <hi rend="italic">thee</hi> refer to specific pronoun forms.
                     However, whereas <hi rend="italic">you</hi> – in Early Modern English as in
                     contemporary English – does not exhibit any formal variation for pronoun case,
-                        <hi rend="italic">thou</hi> is strictly a nominative form with <hi
-                        rend="italic">thee</hi> as its accusative/dative form. <hi rend="italic"
-                        >Thou</hi> and <hi rend="italic">thee</hi> are therefore related
+                        <hi rend="italic">thou</hi> is strictly a nominative form with <hi rend="italic">thee</hi> as its accusative/dative form. <hi rend="italic">Thou</hi> and <hi rend="italic">thee</hi> are therefore related
                     inflectional forms of a single pronoun lemma; <hi rend="italic">you</hi> exists
                     in variation with both. Small capitals are used to indicate the pronoun lemmas,
                     thus: <hi rend="smallcaps">you</hi> and <hi rend="smallcaps">thou</hi>, where
                         <hi rend="smallcaps">thou</hi> includes both <hi rend="italic">thou</hi> and
                         <hi rend="italic">thee</hi>. Whenever discussing pronouns in this paper, I
-                    am strictly referring to the singular second-person pronouns <hi rend="italic"
-                        >you</hi>, <hi rend="italic">thou</hi> and <hi rend="italic">thee</hi> that
+                    am strictly referring to the singular second-person pronouns <hi rend="italic">you</hi>, <hi rend="italic">thou</hi> and <hi rend="italic">thee</hi> that
                     are examined in this study.</p>
             </div>
             <div>
-                <head><hi rend="bold" style="font-size:14pt">Background</hi></head>
+                <head><hi rend="bold">Background</hi></head>
                 <div>
                     <head><hi rend="italic bold">Digital Humanities</hi></head>
                     <p> Over the past few years, computational research has branched out into other
@@ -229,12 +208,9 @@
                         computational model and its outcomes.</p>
                 </div>
                 <div>
-                    <head><hi rend="italic bold" xml:space="preserve">Early Modern English and </hi><hi
-                            rend="italic bold smallcaps">you</hi><hi rend="italic bold">/</hi><hi
-                            rend="italic bold smallcaps">thou</hi></head>
+                    <head><hi rend="italic bold">Early Modern English and </hi><hi rend="italic bold smallcaps">you</hi><hi rend="italic bold">/</hi><hi rend="italic bold smallcaps">thou</hi></head>
                     <p> In Early Modern English (EModE), two different second person singular
-                        pronouns were used, namely the formally singular <hi rend="smallcaps"
-                            >thou</hi> and the formally plural (but pragmatically also
+                        pronouns were used, namely the formally singular <hi rend="smallcaps">thou</hi> and the formally plural (but pragmatically also
                         respectful-singular) <hi rend="smallcaps">you</hi>, with only the latter
                         surviving the EModE period (Taavitsainen and Jucker 2003). The difference
                         between the uses of these two pronouns is evident from multiple literary
@@ -250,8 +226,7 @@
                         to English native speakers of the period.</p>
                     <p> Shakespeare lived during the Early Modern English period, and thus used both
                             <hi rend="smallcaps">you</hi> and <hi rend="smallcaps">thou</hi> in his
-                        writing. His work was written less than 100 years before <hi rend="italic"
-                            >thou</hi> and <hi rend="italic">thee</hi> disappeared from the standard
+                        writing. His work was written less than 100 years before <hi rend="italic">thou</hi> and <hi rend="italic">thee</hi> disappeared from the standard
                         language (surviving in dialects and archaicised registers, such as pious
                         addresses to the divinity). Thus we may straightforwardly posit that the
                         disappearance of <hi rend="smallcaps">thou</hi> was likely already in
@@ -263,31 +238,23 @@
                         conversation at that time (Calvo 1992).</p>
                 </div>
                 <div>
-                    <head><hi rend="italic bold" xml:space="preserve">Prior studies on </hi><hi
-                            rend="italic bold smallcaps">you</hi><hi rend="italic bold">/</hi><hi
-                            rend="italic bold smallcaps">thou</hi></head>
-                    <p> Most studies of Shakespeare’s use of <hi rend="smallcaps">you</hi> and <hi
-                            rend="smallcaps">thou</hi> so far have been literary and nonnumeric
+                    <head><hi rend="italic bold">Prior studies on </hi><hi rend="italic bold smallcaps">you</hi><hi rend="italic bold">/</hi><hi rend="italic bold smallcaps">thou</hi></head>
+                    <p> Most studies of Shakespeare’s use of <hi rend="smallcaps">you</hi> and <hi rend="smallcaps">thou</hi> so far have been literary and nonnumeric
                         studies (Brown and Gilman 1960; Quirk 1974; Calvo 1992); the relative few to
                         have used data-based or quantitative techniques did not implement any method
                         beyond directly comparing raw frequency counts (Busse 2003; Mazzon 2003;
                         Stein 2003). Moreover, these studies did not look at all the extant
                         Shakespeare plays, but instead chose a few plays to focus on. Nonetheless,
-                        these studies have demonstrated some patterns in the use of <hi
-                            rend="smallcaps">you</hi> and <hi rend="smallcaps">thou</hi> and thus
+                        these studies have demonstrated some patterns in the use of <hi rend="smallcaps">you</hi> and <hi rend="smallcaps">thou</hi> and thus
                         provide a workable foundation for a more in-depth study of the usage of
                         those two pronouns.</p>
-                    <p> These prior studies support in the overall conclusion that the pronouns <hi
-                            rend="smallcaps">you</hi> and <hi rend="smallcaps">thou</hi> appear to
+                    <p> These prior studies support in the overall conclusion that the pronouns <hi rend="smallcaps">you</hi> and <hi rend="smallcaps">thou</hi> appear to
                         be used to support the explicit expression of respect, social status, and
                         familiarity. Quirk (1974) and Mazzon (2003) characterise the role of the
                         pronoun as a linguistic marker, whose usage can be seen as either marked or
                         unmarked. In other words, the use of a particular pronoun can be seen as
-                        marked when it is used unexpectedly, for example when <hi rend="smallcaps"
-                            >you</hi> is expected based on social status, but <hi rend="smallcaps"
-                            >thou</hi> is used instead. Thus, in contrast to earlier studies (Brown
-                        and Gilman 1960), they do not perceive <hi rend="smallcaps">you</hi> and <hi
-                            rend="smallcaps">thou</hi> to be in direct contrast, and to have a more
+                        marked when it is used unexpectedly, for example when <hi rend="smallcaps">you</hi> is expected based on social status, but <hi rend="smallcaps">thou</hi> is used instead. Thus, in contrast to earlier studies (Brown
+                        and Gilman 1960), they do not perceive <hi rend="smallcaps">you</hi> and <hi rend="smallcaps">thou</hi> to be in direct contrast, and to have a more
                         variable interpretation than was assumed until then, based on the context it
                         occurs in. Calvo (1992) and Stein (2003) expand on this by concluding that
                         markedness of the pronoun is dependent on the context and the situation, in
@@ -295,8 +262,7 @@
                         social statuses of, and the level of familiarity between, the characters in
                         Shakespeare’s plays; the speakers and addressees in this study – rather than
                             <hi rend="italic">just</hi> the latter factors (Brown and Gilman 1960).
-                        The emotive effect of the utterances within which the <hi rend="smallcaps"
-                            >you/thou</hi> distinction is utilised is of importance as well;
+                        The emotive effect of the utterances within which the <hi rend="smallcaps">you/thou</hi> distinction is utilised is of importance as well;
                         feelings such as anger and love for another character may find expression
                         through pronoun choice. This is connected to the notion of respect, as, in
                         an angry remark, marked pronouns can be used to disrespect the addressee
@@ -312,14 +278,12 @@
                 </div>
             </div>
             <div>
-                <head><hi rend="bold" style="font-size:14pt">Methodology</hi></head>
+                <head><hi rend="bold">Methodology</hi></head>
                 <p> As has already been mentioned, this is a strictly empirical study which attempts
                     to verify the findings of earlier research through a computational approach. The
                     use of a computational, statistical method is motivated by the goal of creating
-                    a more objective<hi rend="annotation_reference"
-                        ><seg style="font-size:12pt" xml:space="preserve"> r</seg></hi>epresentation
-                    of Shakespeare’s use of <hi rend="smallcaps">you</hi> and <hi rend="smallcaps"
-                        >thou</hi> in his plays than has been accomplished so far, since it does not
+                    a more objective<hi rend="annotation_reference"><seg style="font-size:12pt" xml:space="preserve"> r</seg></hi>epresentation
+                    of Shakespeare’s use of <hi rend="smallcaps">you</hi> and <hi rend="smallcaps">thou</hi> in his plays than has been accomplished so far, since it does not
                     require analysis of meaning-in-context by a human being, but rather proceeds
                     directly from quantitative measurements.</p>
                 <div>
@@ -337,8 +301,7 @@
                         application of literature, sociolinguistics, pragmatics and conversation
                         analysis all combined into a computational model will be able to
                         successfully predict the pronoun choice as it includes all the factors that
-                        might influence the choice for either <hi rend="smallcaps">you</hi> or <hi
-                            rend="smallcaps">thou</hi>.</p>
+                        might influence the choice for either <hi rend="smallcaps">you</hi> or <hi rend="smallcaps">thou</hi>.</p>
                     <list type="ordered">
                         <item>The features of social status, age and sentiment will be better
                             predictors of the pronoun choice than other features.</item>
@@ -367,31 +330,115 @@
                 <div>
                     <head><hi rend="italic bold">Data</hi></head>
                     <p> The data for this study comes from the <hi rend="italic">Encyclopaedia of
-                            Shakespeare’s Language</hi> project<note place="foot" xml:id="ftn2"
-                            n="1"
-                                ><hi style="font-size:10pt" xml:space="preserve"> More information on this project, which is funded by the Arts and Humanities Research Council (AH/N002415/1), can be found on </hi><ref
-                                target="http://wp.lancs.ac.uk/shakespearelang/"><hi
-                                    style="font-size:10pt"
-                                    >http://wp.lancs.ac.uk/shakespearelang/</hi></ref><hi
-                                style="font-size:10pt">.</hi></note>, which is a research project at
+                            Shakespeare’s Language</hi> project<note place="foot" xml:id="ftn2" n="1"> More information on this project, which is funded by the Arts and Humanities Research Council (AH/N002415/1), can be found on <ref target="http://wp.lancs.ac.uk/shakespearelang/">http://wp.lancs.ac.uk/shakespearelang/</ref>.</note>, which is a research project at
                         Lancaster University (UK). The project corpus consists of 38 of
                         Shakespeare’s plays, which includes all 36 plays from the First Folio with
-                        the addition of <hi rend="italic">The Two Noble Kinsmen</hi> and <hi
-                            rend="italic">Pericles: Prince of Tyre</hi>. A broadly annotated version
-                        of the full Shakespeare corpus can be found online<note place="foot"
-                            xml:id="ftn3" n="2">
-                            <hi style="font-size:10pt">CQPweb Main Page,</hi>
-                            <ref target="http://cqpweb.lancs.ac.uk"><hi style="font-size:10pt"
-                                    >http://cqpweb.lancs.ac.uk</hi></ref><hi style="font-size:10pt"
-                                >.</hi></note>. Some of the annotation and all of the abbreviations
+                        the addition of <hi rend="italic">The Two Noble Kinsmen</hi> and <hi rend="italic">Pericles: Prince of Tyre</hi>. A broadly annotated version
+                        of the full Shakespeare corpus can be found online<note place="foot" xml:id="ftn3" n="2">
+                            CQPweb Main Page,
+                            <ref target="http://cqpweb.lancs.ac.uk">http://cqpweb.lancs.ac.uk</ref>.</note>. Some of the annotation and all of the abbreviations
                         used for the titles of the plays follow <hi rend="italic">The Arden
                             Shakespeare</hi>.</p>
                     <div>
-                        <head><hi rend="italic">Linguistic and extra-linguistic features</hi></head>
-                        <figure>
-                            <graphic url="#file: table_1.docx"/>
-                            <head>Table 1: List of all features used in this study</head>
-                        </figure>
+                        <head>Linguistic and extra-linguistic features</head>
+                        <table rend="border">
+                                <head>Table 1: List of all features used in this study</head>
+                                <row>
+                                    <cell rend="left"><hi rend="bold">Feature</hi></cell>
+                                    <cell rend="center"><hi rend="bold">Acronym</hi></cell>
+                                    <cell rend="center"><hi rend="bold">Annotation</hi></cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">Genre</cell>
+                                    <cell rend="center">Genre</cell>
+                                    <cell rend="center">Pre-annotated</cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">Play name</cell>
+                                    <cell rend="center">Play</cell>
+                                    <cell rend="center">Pre-annotated</cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">Play, act, scene</cell>
+                                    <cell rend="center">Scene</cell>
+                                    <cell rend="center">Pre-annotated</cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">Speaker ID</cell>
+                                    <cell rend="center">S_ID</cell>
+                                    <cell rend="center">Pre-annotated</cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">Speaker gender</cell>
+                                    <cell rend="center">S_Gender</cell>
+                                    <cell rend="center">Pre-annotated</cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">Speaker status</cell>
+                                    <cell rend="center">S_Status</cell>
+                                    <cell rend="center">Pre-annotated</cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">Production date</cell>
+                                    <cell rend="center">Prod_Date</cell>
+                                    <cell rend="center">Pre-annotated</cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">N-gram</cell>
+                                    <cell rend="center"><p style="text-align:center;">LW1-3,</p><p style="text-align:center;">RW1-3</p></cell>
+                                    <cell rend="center">Automatic</cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">Positive sentiment</cell>
+                                    <cell rend="center">Pos_Sent</cell>
+                                    <cell rend="center">Automatic</cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">Negative sentiment</cell>
+                                    <cell rend="center">Neg_Sent</cell>
+                                    <cell rend="center">Automatic</cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">Speaker age</cell>
+                                    <cell rend="center">S_Age</cell>
+                                    <cell rend="center">Manual</cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">Location</cell>
+                                    <cell rend="center">Location</cell>
+                                    <cell rend="center">Manual</cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">Addressee ID</cell>
+                                    <cell rend="center">A_ID</cell>
+                                    <cell rend="center">Automatic</cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">Addressee gender</cell>
+                                    <cell rend="center">A_Gender</cell>
+                                    <cell rend="center">Pre-annotated</cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">Addressee status</cell>
+                                    <cell rend="center">A_Status</cell>
+                                    <cell rend="center">Pre-annotated</cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">Addressee age</cell>
+                                    <cell rend="center">A_Age</cell>
+                                    <cell rend="center">Manual</cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">Status differential</cell>
+                                    <cell rend="center">Stat_Diff</cell>
+                                    <cell rend="center">Automatic</cell>
+                                </row>
+                                <row>
+                                    <cell rend="left">No. of people addressed</cell>
+                                    <cell rend="center">A_Number</cell>
+                                    <cell rend="center">Pre-annotated</cell>
+                                </row>
+                            </table>
                         <p> The Encyclopaedia of Shakespeare’s Language corpus is richly annotated.
                             However, some additional annotation was necessary to perform a full
                             analysis of what extra-linguistic features could be predictors of the
@@ -412,8 +459,7 @@
                             predict the pronoun choice.</p>
                         <p> Another feature noted as critical in prior studies is sentiment, that is
                             the use of the pronoun to convey positivity or negativity. Sentiment was
-                            annotated with the use of the 7-gram described above. <hi rend="italic"
-                                >SentiStrength</hi> is a lexicon-based sentiment analysis program
+                            annotated with the use of the 7-gram described above. <hi rend="italic">SentiStrength</hi> is a lexicon-based sentiment analysis program
                             that scores phrases with a score for positivity and negativity (Thelwall
                             et al. 2010). Since <hi rend="italic">SentiStrength</hi> was developed
                             to work with online comments rather than complete sentences as in formal
@@ -480,8 +526,7 @@
                         Naive Bayes, decision trees and support vector machines. Whereas it would be
                         ideal to achieve a high precision and recall score, the main goal of this
                         research is to see whether it is even possible to predict the second person
-                        singular pronoun choice through a computational application <hi
-                            rend="italic">at all</hi>. If this is indeed the case, what features
+                        singular pronoun choice through a computational application <hi rend="italic">at all</hi>. If this is indeed the case, what features
                         contribute to this prediction? It is thus more important to verify which
                         features influence the choice and to what extent they do so. </p>
                     <p> The reason for using three algorithms, and in particular these three, is
@@ -494,24 +539,13 @@
                         models is small.</p>
                     <p> As well as applying three algorithms, I will also look at the difference
                         between keeping <hi rend="italic">thou</hi> and <hi rend="italic">thee</hi>
-                        separate and combining them into the one category <hi rend="smallcaps"
-                            >thou</hi>. For this, I will run both a binary (<hi rend="smallcaps"
-                            >you</hi> and <hi rend="smallcaps">thou</hi>) and a trinary (<hi
-                            rend="italic">you</hi>, <hi rend="italic">thou</hi> and <hi
-                            rend="italic">thee</hi>) classification, to see whether this affects the
+                        separate and combining them into the one category <hi rend="smallcaps">thou</hi>. For this, I will run both a binary (<hi rend="smallcaps">you</hi> and <hi rend="smallcaps">thou</hi>) and a trinary (<hi rend="italic">you</hi>, <hi rend="italic">thou</hi> and <hi rend="italic">thee</hi>) classification, to see whether this affects the
                         scores or changes which features are included in the best models.</p>
                 </div>
                 <div>
                     <head><hi rend="italic bold">Overview of implementation</hi></head>
                     <p> I ran the three algorithms using the Waikato Environment for Knowledge
-                        Analysis (Weka<note place="foot" xml:id="ftn4" n="3"
-                                ><hi style="font-size:10pt" xml:space="preserve"> Weka 3 - Data Mining with Open Source Machine Learning Software in Java, </hi><ref
-                                target="http://www.cs.waikato.ac.nz/ml/weka/"><hi
-                                    style="font-size:10pt"
-                                >http://www.cs.waikato.ac.nz/ml/weka/</hi></ref><hi
-                                style="font-size:10pt">.</hi></note>) software<note place="foot"
-                            xml:id="ftn5" n="4"
-                            ><hi style="font-size:10pt" xml:space="preserve"> In Weka, Naive Bayes is identified as NaiveBayesMultinominal, decision tree as J48, and support vector machine as SMO.</hi></note>
+                        Analysis (Weka<note place="foot" xml:id="ftn4" n="3"> Weka 3 - Data Mining with Open Source Machine Learning Software in Java, <ref target="http://www.cs.waikato.ac.nz/ml/weka/">http://www.cs.waikato.ac.nz/ml/weka/</ref>.</note>) software<note place="foot" xml:id="ftn5" n="4"> In Weka, Naive Bayes is identified as NaiveBayesMultinominal, decision tree as J48, and support vector machine as SMO.</note>
                         with the default settings. The algorithms were run using a 10-fold
                         cross-validation to ensure the best model based on training and testing of
                         all folds combined.</p>
@@ -520,8 +554,7 @@
                         number of such pronouns in the dataset. The pronouns were extracted using a
                         Python script with simple heuristics. About 0.5% was missed due to noise in
                         the dataset. The number of instances of <hi rend="italic">you/thou/thee</hi>
-                        that were extracted from each play range from 363 (in <hi rend="italic"
-                            >Macbeth</hi>) to 811 (in <hi rend="italic">Coriolanus</hi>).</p>
+                        that were extracted from each play range from 363 (in <hi rend="italic">Macbeth</hi>) to 811 (in <hi rend="italic">Coriolanus</hi>).</p>
                     <p> I attempted to improve or maintain the scores while making the model simpler
                         by excluding features, that is, through feature ablation. When there were
                         conflicting changes in the scores, the scores of precision and F-measure
@@ -546,7 +579,7 @@
                 </div>
             </div>
             <div>
-                <head><hi rend="bold" style="font-size:14pt">Results</hi></head>
+                <head><hi rend="bold">Results</hi></head>
                 <div>
                     <p style="text-align:center;"><hi rend="italic bold">Trinary classification
                             scores</hi></p>
@@ -554,23 +587,260 @@
                         each model performed significantly better than the baseline model, on all
                         scores. The F-measure of the best model, the support vector machine model,
                         is highlighted in bold.</p>
-                    <figure>
-                        <graphic url="#file: table_2.docx"/>
-                        <head>Table 2: Scores for precision, recall, F-measure and accuracy for
-                            trinary pronoun prediction</head>
-                    </figure>
-                </div>
+                        <table rend="border">
+                            <head>Table 2: Scores for precision, recall, F-measure and accuracy for
+                                trinary pronoun prediction</head>
+                            <row>
+                                <cell rend="left"><hi rend="bold">Algorithm</hi></cell>
+                                <cell rend="center"/>
+                                <cell rend="center"><hi rend="bold">Precision</hi></cell>
+                                <cell rend="center"><hi rend="bold">Recall</hi></cell>
+                                <cell rend="center"><hi rend="bold">F-measure</hi></cell>
+                                <cell rend="center"><hi rend="bold">Accuracy</hi></cell>
+                            </row>
+                            <row>
+                                <cell rend="left">Baseline</cell>
+                                <cell rend="center">Weighted Avg.</cell>
+                                <cell rend="center">0.392</cell>
+                                <cell rend="center">0.626</cell>
+                                <cell rend="center">0.483</cell>
+                                <cell rend="center">62.6417%</cell>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="center"><hi rend="italic">you</hi></cell>
+                                <cell rend="center">0.626</cell>
+                                <cell rend="center">1.000</cell>
+                                <cell rend="center">0.770</cell>
+                                <cell rend="center"/>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="center"><hi rend="italic">thou</hi></cell>
+                                <cell rend="center">0.000</cell>
+                                <cell rend="center">0.000</cell>
+                                <cell rend="center">0.000</cell>
+                                <cell rend="center"/>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="center"><hi rend="italic">thee</hi></cell>
+                                <cell rend="center">0.000</cell>
+                                <cell rend="center">0.000</cell>
+                                <cell rend="center">0.000</cell>
+                                <cell rend="center"/>
+                            </row>
+                            <row>
+                                <cell rend="left">Naive Bayes</cell>
+                                <cell rend="center">Weighted Avg.</cell>
+                                <cell rend="center">0.826</cell>
+                                <cell rend="center">0.826</cell>
+                                <cell rend="center">0.826</cell>
+                                <cell rend="center">82.64%</cell>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="center"><hi rend="italic">you</hi></cell>
+                                <cell rend="center">0.880</cell>
+                                <cell rend="center">0.885</cell>
+                                <cell rend="center">0.882</cell>
+                                <cell rend="center"/>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="center"><hi rend="italic">thou</hi></cell>
+                                <cell rend="center">0.865</cell>
+                                <cell rend="center">0.850</cell>
+                                <cell rend="center">0.857</cell>
+                                <cell rend="center"/>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="center"><hi rend="italic">thee</hi></cell>
+                                <cell rend="center">0.509</cell>
+                                <cell rend="center">0.510</cell>
+                                <cell rend="center">0.510</cell>
+                                <cell rend="center"/>
+                            </row>
+                            <row>
+                                <cell rend="left">Decision Tree</cell>
+                                <cell rend="center">Weighted Avg.</cell>
+                                <cell rend="center">0.732</cell>
+                                <cell rend="center">0.752</cell>
+                                <cell rend="center">0.712</cell>
+                                <cell rend="center">75.2093%</cell>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="center"><hi rend="italic">you</hi></cell>
+                                <cell rend="center">0.738</cell>
+                                <cell rend="center">0.960</cell>
+                                <cell rend="center">0.835</cell>
+                                <cell rend="center"/>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="center"><hi rend="italic">thou</hi></cell>
+                                <cell rend="center">0.896</cell>
+                                <cell rend="center">0.574</cell>
+                                <cell rend="center">0.700</cell>
+                                <cell rend="center"/>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="center"><hi rend="italic">thee</hi></cell>
+                                <cell rend="center">0.408</cell>
+                                <cell rend="center">0.097</cell>
+                                <cell rend="center">0.157</cell>
+                                <cell rend="center"/>
+                            </row>
+                            <row>
+                                <cell rend="left">Support Vector Machine</cell>
+                                <cell rend="center">Weighted Avg.</cell>
+                                <cell rend="center">0.854</cell>
+                                <cell rend="center">0.857</cell>
+                                <cell rend="center"><hi rend="bold">0.854</hi></cell>
+                                <cell rend="center">85.675%</cell>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="center"><hi rend="italic">you</hi></cell>
+                                <cell rend="center">0.871</cell>
+                                <cell rend="center">0.927</cell>
+                                <cell rend="center">0.898</cell>
+                                <cell rend="center"/>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="center"><hi rend="italic">thou</hi></cell>
+                                <cell rend="center">0.919</cell>
+                                <cell rend="center">0.836</cell>
+                                <cell rend="center">0.876</cell>
+                                <cell rend="center"/>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="center"><hi rend="italic">thee</hi></cell>
+                                <cell rend="center">0.659</cell>
+                                <cell rend="center">0.566</cell>
+                                <cell rend="center">0.609</cell>
+                                <cell rend="center"/>
+                            </row>
+                        </table>
+                 </div>
                 <div>
                     <head><hi rend="italic bold">Binary classification scores</hi></head>
                     <p> Table 3 shows the results of the best models for the binary classification.
                         The F-measure of the best model, again the support vector machine model, is
                         highlighted in bold. This is also the best scoring model out of all models
                         presented in this paper.</p>
-                    <figure>
-                        <graphic url="#file: table_3.docx"/>
-                        <head>Table 3: Scores for precision, recall, F-measure and accuracy for
-                            binary pronoun prediction</head>
-                    </figure>
+                    <table rend="border">
+                        <head>Table 3: Scores for precision, recall, F-measure and accuracy for binary pronoun prediction</head>
+                        <row>
+                            <cell rend="both"><hi rend="bold">Algorithm</hi></cell>
+                            <cell rend="center"/>
+                            <cell rend="center"><hi rend="bold">Precision</hi></cell>
+                            <cell rend="center"><hi rend="bold">Recall</hi></cell>
+                            <cell rend="center"><hi rend="bold">F-measure</hi></cell>
+                            <cell rend="center"><hi rend="bold">Accuracy</hi></cell>
+                        </row>
+                        <row>
+                            <cell rend="both">Baseline</cell>
+                            <cell rend="center">Weighted Avg.</cell>
+                            <cell rend="center">0.392</cell>
+                            <cell rend="center">0.626</cell>
+                            <cell rend="center">0.483</cell>
+                            <cell rend="center">62.6417%</cell>
+                        </row>
+                        <row>
+                            <cell rend="both"/>
+                            <cell rend="center"><hi rend="smallcaps">you</hi></cell>
+                            <cell rend="center">0.626</cell>
+                            <cell rend="center">1.000</cell>
+                            <cell rend="center">0.770</cell>
+                            <cell rend="center"/>
+                        </row>
+                        <row>
+                            <cell rend="both"/>
+                            <cell rend="center"><hi rend="smallcaps">thou</hi></cell>
+                            <cell rend="center">0.000</cell>
+                            <cell rend="center">0.000</cell>
+                            <cell rend="center">0.000</cell>
+                            <cell rend="center"/>
+                        </row>
+                        <row>
+                            <cell rend="both">Naive Bayes</cell>
+                            <cell rend="center">Weighted Avg.</cell>
+                            <cell rend="center">0.868</cell>
+                            <cell rend="center">0.868</cell>
+                            <cell rend="center">0.867</cell>
+                            <cell rend="center">86.8306%</cell>
+                        </row>
+                        <row>
+                            <cell rend="both"/>
+                            <cell rend="center"><hi rend="smallcaps">you</hi></cell>
+                            <cell rend="center">0.876</cell>
+                            <cell rend="center">0.920</cell>
+                            <cell rend="center">0.897</cell>
+                            <cell rend="center"/>
+                        </row>
+                        <row>
+                            <cell rend="both"/>
+                            <cell rend="center"><hi rend="smallcaps">thou</hi></cell>
+                            <cell rend="center">0.853</cell>
+                            <cell rend="center">0.782</cell>
+                            <cell rend="center">0.816</cell>
+                            <cell rend="center"/>
+                        </row>
+                        <row>
+                            <cell rend="both">Decision Tree</cell>
+                            <cell rend="center">Weighted Avg.</cell>
+                            <cell rend="center">0.818</cell>
+                            <cell rend="center">0.818</cell>
+                            <cell rend="center">0.818</cell>
+                            <cell rend="center">81.8376%</cell>
+                        </row>
+                        <row>
+                            <cell rend="both"/>
+                            <cell rend="center"><hi rend="smallcaps">you</hi></cell>
+                            <cell rend="center">0.849</cell>
+                            <cell rend="center">0.863</cell>
+                            <cell rend="center">0.856</cell>
+                            <cell rend="center"/>
+                        </row>
+                        <row>
+                            <cell rend="both"/>
+                            <cell rend="center"><hi rend="smallcaps">thou</hi></cell>
+                            <cell rend="center">0.764</cell>
+                            <cell rend="center">0.744</cell>
+                            <cell rend="center">0.754</cell>
+                            <cell rend="center"/>
+                        </row>
+                        <row>
+                            <cell rend="both">Support Vector Machine</cell>
+                            <cell rend="center">Weighted Avg.</cell>
+                            <cell rend="center">0.872</cell>
+                            <cell rend="center">0.873</cell>
+                            <cell rend="center"><hi rend="bold">0.872</hi></cell>
+                            <cell rend="center">87.2798%</cell>
+                        </row>
+                        <row>
+                            <cell rend="both"/>
+                            <cell rend="center"><hi rend="smallcaps">you</hi></cell>
+                            <cell rend="center">0.886</cell>
+                            <cell rend="center">0.914</cell>
+                            <cell rend="center">0.900</cell>
+                            <cell rend="center"/>
+                        </row>
+                        <row>
+                            <cell rend="both"/>
+                            <cell rend="center"><hi rend="smallcaps">thou</hi></cell>
+                            <cell rend="center">0.848</cell>
+                            <cell rend="center">0.803</cell>
+                            <cell rend="center">0.825</cell>
+                            <cell rend="center"/>
+                        </row>
+                    </table>
                 </div>
                 <div>
                     <head><hi rend="italic bold">Feature comparison of the models</hi></head>
@@ -579,27 +849,66 @@
                         classification model for the decision tree is very different from the other
                         models: it does not contain any of the words from the n-gram as a predictor,
                         whereas the others did.</p>
-                    <figure>
-                        <graphic url="#file: table_4.docx "/>
-                        <head>Table 4: Features included in the best model of each algorithm</head>
-                    </figure>
+                       <table rend="border">
+                           <head>Table 4: Features included in the best model of each algorithm</head>
+                            <row>
+                                <cell rend="left"><hi rend="bold">Algorithm</hi></cell>
+                                <cell rend="center"><hi rend="bold">Type</hi></cell>
+                                <cell rend="left"><hi rend="bold">Features
+                                    included</hi></cell>
+                            </row>
+                            <row>
+                                <cell rend="left">Naive Bayes</cell>
+                                <cell rend="center">Trinary</cell>
+                                <cell rend="left">LW1, LW2, RW1, RW2,
+                                    S_ID</cell>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="center">Binary</cell>
+                                <cell rend="left">LW1, LW2, LW3, RW1, RW2, RW3,
+                                    A_ID</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">Decision Tree</cell>
+                                <cell rend="center">Trinary</cell>
+                                <cell rend="left">LW1, LW2, RW1, RW2, S_ID,
+                                    Stat_Diff, Neg_Sent</cell>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="center">Binary</cell>
+                                <cell rend="left">Scene, S_ID, S_Gender, A_ID,
+                                    A_Status, A_Age, Stat_Diff, Pos_Sent</cell>
+                            </row>
+                            <row>
+                                <cell rend="left">Support Vector Machine</cell>
+                                <cell rend="center">Trinary</cell>
+                                <cell rend="left">LW1, RW1, S_ID, S_Age, A_ID, A_Age,
+                                    A_Number, Stat_Diff, Pos_Sent, Neg_Sent</cell>
+                            </row>
+                            <row>
+                                <cell rend="left"/>
+                                <cell rend="center">Binary</cell>
+                                <cell rend="left">LW1, RW1, S_ID, S_Age, A_ID, A_Age,
+                                    A_Number, Stat_Diff, Pos_Sent, Neg_Sent</cell>
+                            </row>
+                        </table>
                 </div>
             </div>
             <div>
-                <head><hi rend="bold" style="font-size:14pt">Discussion</hi></head>
+                <head><hi rend="bold">Discussion</hi></head>
                 <p> This study has given some new insights into the analysis of pronominal address
                     terms. Looking at the second person singular pronoun choice as a binary and a
                     trinary classification problem resulted in slightly different outcomes. Even
                     though the highest scores were achieved in the binary classification, one might
                     still wonder whether this is the best method for addressing the second person
                     singular pronoun choice. Looking back at prior studies on pronoun interpretation
-                    and comparing them to the features used in this study, we can conclude that <hi
-                        rend="italic">thee</hi> and <hi rend="italic">thou</hi> are equal in their
+                    and comparing them to the features used in this study, we can conclude that <hi rend="italic">thee</hi> and <hi rend="italic">thou</hi> are equal in their
                     opposition to <hi rend="italic">you</hi>, with the main difference being their
                     grammatical role. From the model comparison, we have seen that the co-text is
                     most important when predicting the pronoun. This is evidence of the purely
-                    grammatical difference between <hi rend="italic">thou</hi> and <hi rend="italic"
-                        >thee</hi> and their overall similarity in other aspects. Therefore, both
+                    grammatical difference between <hi rend="italic">thou</hi> and <hi rend="italic">thee</hi> and their overall similarity in other aspects. Therefore, both
                     linguistically and computationally, it makes more sense to perform a binary
                     classification.</p>
                 <p> Differences between the algorithms were observed, but all three algorithms
@@ -637,10 +946,9 @@
                     another.</p>
             </div>
             <div>
-                <head><hi rend="bold" style="font-size:14pt">Conclusions</hi></head>
+                <head><hi rend="bold">Conclusions</hi></head>
                 <p> The primary finding of this study is that it is indeed possible to build a
-                    prediction model for the use of <hi rend="smallcaps">you</hi> versus <hi
-                        rend="smallcaps">thou</hi> with a singular referent in the plays of
+                    prediction model for the use of <hi rend="smallcaps">you</hi> versus <hi rend="smallcaps">thou</hi> with a singular referent in the plays of
                     Shakespeare that is based on linguistic and extra-linguistic features. Moreover,
                     in particular, the direct linguistic co-text of the second person singular
                     pronoun is important. Other important features include the speaker’s and
@@ -654,8 +962,7 @@
                     and POS-tags. This will help us gain more information about the linguistic
                     co-text directly surrounding the second person singular pronoun, which will
                     likely give more insight into why this direct co-text is so important in
-                    deciding the choice of <hi rend="smallcaps">you</hi> or <hi rend="smallcaps"
-                        >thou</hi>. Moreover, including familiarity between characters (social
+                    deciding the choice of <hi rend="smallcaps">you</hi> or <hi rend="smallcaps">thou</hi>. Moreover, including familiarity between characters (social
                     distance) as a feature would be beneficial, as this has been noted multiple
                     times in prior research as an influential factor, but was beyond the scope of
                     this study.</p>
@@ -666,7 +973,7 @@
                     into <hi rend="smallcaps">you</hi> and <hi rend="smallcaps">thou</hi>.</p>
             </div>
             <div>
-                <head><hi rend="bold" style="font-size:14pt">Acknowledgements</hi></head>
+                <head><hi rend="bold">Acknowledgements</hi></head>
                 <p> The research presented in this article was conducted in collaboration with the
                     Encyclopaedia of Shakespeare’s Language project at Lancaster University. This
                     project is funded by the UK’s Arts and Humanities Research Council (AHRC), grant
@@ -679,174 +986,121 @@
         </body>
         <back>
             <div type="bibliography">
-                <head><hi style="font-size:14pt">References</hi></head>
+                <head>References</head>
                 <listBibl>
                     <head>Literature:</head>
-                    <bibl><hi style="font-size:10pt" xml:space="preserve">Bate, Jonathan, and Eric Rasmussen, eds. 2007. </hi>
-                        <hi rend="italic" style="font-size:10pt">William Shakespeare: Complete
-                            works</hi><hi style="font-size:10pt">. London: The Royal Shakespeare
-                            Company.</hi></bibl>
-                    <bibl><hi style="font-size:10pt" xml:space="preserve">Brown, Roger W., and Albert Gilman. 1960. “The pronouns of power and solidarity.” In </hi><hi
-                            rend="italic" style="font-size:10pt">Style in language</hi><hi
-                            style="font-size:10pt">, edited by Thomas A. Sebeok, 253-76. Cambridge:
-                            MIT Press.</hi></bibl>
-                    <bibl><hi style="font-size:10pt" xml:space="preserve">Busse, Beatrix. 2006. </hi><hi
-                            rend="italic" style="font-size:10pt">Vocative constructions in the
-                            language of Shakespeare</hi><hi style="font-size:10pt">. Amsterdam: John
-                            Benjamins.</hi></bibl>
-                    <bibl><hi style="font-size:10pt" xml:space="preserve">Busse, Ulrich. 2003. “The co-occurrence of nominal and pronominal address forms in the Shakespeare Corpus: Who says thou or you to whom?”, in </hi><hi
-                            rend="italic" style="font-size:10pt">Diachronic perspectives on address
-                            term systems</hi><hi style="font-size:10pt">, edited by Irma
+                    <bibl>Bate, Jonathan, and Eric Rasmussen, eds. 2007. 
+                        <hi rend="italic">William Shakespeare: Complete
+                            works</hi>. London: The Royal Shakespeare
+                            Company.</bibl>
+                    <bibl>Brown, Roger W., and Albert Gilman. 1960. “The pronouns of power and solidarity.” In <hi rend="italic">Style in language</hi>, edited by Thomas A. Sebeok, 253-76. Cambridge:
+                            MIT Press.</bibl>
+                    <bibl>Busse, Beatrix. 2006. <hi rend="italic">Vocative constructions in the
+                            language of Shakespeare</hi>. Amsterdam: John
+                            Benjamins.</bibl>
+                    <bibl>Busse, Ulrich. 2003. “The co-occurrence of nominal and pronominal address forms in the Shakespeare Corpus: Who says thou or you to whom?”, in <hi rend="italic">Diachronic perspectives on address
+                            term systems</hi>, edited by Irma
                             Taavitsainen and Andreas H. Jucker, 193-221. Amsterdam: John
-                            Benjamins.</hi></bibl>
-                    <bibl><hi style="font-size:10pt" xml:space="preserve">Busse, Ulrich. 2002. </hi><hi
-                            rend="italic" style="font-size:10pt">The function of linguistic
+                            Benjamins.</bibl>
+                    <bibl>Busse, Ulrich. 2002. <hi rend="italic">The function of linguistic
                             variation in the Shakespeare corpus: A corpus-based study of the
                             morpho-syntactic variability of the address pronouns and their
-                            socio-historical and pragmatic implications</hi><hi
-                            style="font-size:10pt">. Amsterdam: John Benjamins.</hi></bibl>
-                    <bibl><hi style="font-size:10pt" xml:space="preserve">Calvo, Clara. 1992. “Pronouns of address and social negotiation in As You Like It.” In </hi><hi
-                            rend="italic" style="font-size:10pt">Language and Literature</hi><hi
-                            style="font-size:10pt">, Vol. 1(1), 5-27. London: Longman Group UK
-                            Ltd.</hi></bibl>
-                    <bibl><hi style="font-size:10pt" xml:space="preserve">Greenblatt, Stephen, Walter Cohen, Jean E. Howard, and Katherine E. Maus. 1997. </hi>
-                        <hi rend="italic" style="font-size:10pt">The Norton Shakespeare: Based on
-                            the Oxford edition</hi><hi style="font-size:10pt">. New York: W.W.
-                            Norton &amp; Company, Inc.</hi></bibl>
-                    <bibl><hi style="font-size:10pt" xml:space="preserve">Mazeland, Harrie. 2003. </hi><hi
-                            rend="italic" style="font-size:10pt">Inleiding in de
-                            conversatieanalyse</hi><hi style="font-size:10pt">. Bussum: Coutinho
-                            bv.</hi>
+                            socio-historical and pragmatic implications</hi>. Amsterdam: John Benjamins.</bibl>
+                    <bibl>Calvo, Clara. 1992. “Pronouns of address and social negotiation in As You Like It.” In <hi rend="italic">Language and Literature</hi>, Vol. 1(1), 5-27. London: Longman Group UK
+                            Ltd.</bibl>
+                    <bibl>Greenblatt, Stephen, Walter Cohen, Jean E. Howard, and Katherine E. Maus. 1997. 
+                        <hi rend="italic">The Norton Shakespeare: Based on
+                            the Oxford edition</hi>. New York: W.W.
+                            Norton &amp; Company, Inc.</bibl>
+                    <bibl>Mazeland, Harrie. 2003. <hi rend="italic">Inleiding in de
+                            conversatieanalyse</hi>. Bussum: Coutinho
+                            bv.
                     </bibl>
-                    <bibl><hi style="font-size:10pt">Mazzon, Gabriella. 2003. “Pronouns and nominal
+                    <bibl>Mazzon, Gabriella. 2003. “Pronouns and nominal
                             address in Shakespearean English: A socio-affective marking system in
-                            transition.” In</hi>
-                        <hi rend="italic" style="font-size:10pt">Diachronic perspectives on address
-                            term systems</hi><hi style="font-size:10pt">, edited by Irma
+                            transition.” In
+                        <hi rend="italic">Diachronic perspectives on address
+                            term systems</hi>, edited by Irma
                             Taavitsainen and Andreas H. Jucker, 223-49. Amsterdam: John
-                            Benjamins.</hi></bibl>
-                    <bibl><hi style="font-size:10pt" xml:space="preserve">Quennell, Peter, and Hamish Johnson. 2002. </hi>
-                        <hi rend="italic" style="font-size:10pt">Who’s who in Shakespeare</hi><hi
-                            style="font-size:10pt">. London: Routledge.</hi></bibl>
-                    <bibl><hi style="font-size:10pt" xml:space="preserve">Quirk, Randolph. 1974. “Shakespeare and the English language.” In </hi><hi
-                            rend="italic" style="font-size:10pt">The linguist and the English
-                            language</hi><hi style="font-size:10pt">, edited by R. Quirk, 46-64.
-                            London: Edward Arnold.</hi></bibl>
-                    <bibl><hi style="font-size:10pt" xml:space="preserve">Stein, Dieter. 2003. “Pronomial usage in Shakespeare: Between sociolinguistics and conversation analysis.” In </hi><hi
-                            rend="italic" style="font-size:10pt">Diachronic perspectives on address
-                            term systems</hi><hi style="font-size:10pt">, edited by Irma
+                            Benjamins.</bibl>
+                    <bibl>Quennell, Peter, and Hamish Johnson. 2002. 
+                        <hi rend="italic">Who’s who in Shakespeare</hi>. London: Routledge.</bibl>
+                    <bibl>Quirk, Randolph. 1974. “Shakespeare and the English language.” In <hi rend="italic">The linguist and the English
+                            language</hi>, edited by R. Quirk, 46-64.
+                            London: Edward Arnold.</bibl>
+                    <bibl>Stein, Dieter. 2003. “Pronomial usage in Shakespeare: Between sociolinguistics and conversation analysis.” In <hi rend="italic">Diachronic perspectives on address
+                            term systems</hi>, edited by Irma
                             Taavitsainen and Andreas H. Jucker, 251-307. Amsterdam: John
-                            Benjamins.</hi></bibl>
-                    <bibl><hi style="font-size:10pt" xml:space="preserve">Taavitsainen, Irma, and Andreas H. Jucker. 2003. “Introduction.” In </hi>
-                        <hi rend="italic" style="font-size:10pt">Diachronic perspectives on address
-                            term systems</hi><hi style="font-size:10pt">, edited by Irma
+                            Benjamins.</bibl>
+                    <bibl>Taavitsainen, Irma, and Andreas H. Jucker. 2003. “Introduction.” In 
+                        <hi rend="italic">Diachronic perspectives on address
+                            term systems</hi>, edited by Irma
                             Taavitsainen and Andreas H. Jucker, 1-25. Amsterdam: John
-                            Benjamins.</hi></bibl>
-                    <bibl><hi style="font-size:10pt">Thelwall, Mike, Kevan Buckley, Georgious
+                            Benjamins.</bibl>
+                    <bibl>Thelwall, Mike, Kevan Buckley, Georgious
                             Paltoglou, Di Cai, and Arvid Kappas. 2010. “Sentiment strength detection
-                            in short informal text.”</hi>
-                        <hi rend="italic" style="font-size:10pt">Journal of the American Society for
-                            Information Science and Technology</hi><hi style="font-size:10pt">,
-                            61(12): 2544-58.</hi>
-                        <ref target="https://doi.org/10.1002/asi.21416"><hi style="font-size:10pt"
-                                >https://doi.org/10.1002/asi.21416</hi></ref><hi
-                            style="font-size:10pt">.</hi></bibl>
-                    <bibl><hi style="font-size:10pt">Walker, Terry. 2003. “</hi><hi rend="italic"
-                            style="font-size:10pt"
-                            >You</hi><hi style="font-size:10pt" xml:space="preserve"> and </hi><hi
-                            rend="italic" style="font-size:10pt"
-                            >thou</hi><hi style="font-size:10pt" xml:space="preserve"> in Early Modern English dialogues: Patterns of usage.” In </hi><hi
-                            rend="italic" style="font-size:10pt">Diachronic perspectives on address
+                            in short informal text.”
+                        <hi rend="italic">Journal of the American Society for
+                            Information Science and Technology</hi>,
+                            61(12): 2544-58.
+                        <ref target="https://doi.org/10.1002/asi.21416">https://doi.org/10.1002/asi.21416</ref>.</bibl>
+                    <bibl>Walker, Terry. 2003. “<hi rend="italic">You</hi> and <hi rend="italic">thou</hi> in Early Modern English dialogues: Patterns of usage.” In <hi rend="italic">Diachronic perspectives on address
                             term systems,</hi>
-                        <hi style="font-size:10pt">edited by Irma Taavitsainen and Andreas H.
-                            Jucker, 309-42. Amsterdam: John Benjamins.</hi></bibl>
+                        edited by Irma Taavitsainen and Andreas H.
+                            Jucker, 309-42. Amsterdam: John Benjamins.</bibl>
                 </listBibl>
             </div>
             <div type="summary">
                 <docAuthor>Isolde van Dorst</docAuthor>
-                <head><hi rend="bold allcaps" style="font-size:14pt">You, thou and thee: A
+                <head><hi rend="bold allcaps">You, thou and thee: A
                         statistical analysis of Shakespeare’s use of pronominal address
                     terms</hi></head>
                 <head><hi rend="allcaps">Summary</hi></head>
                 <p>
-                    <hi style="font-size:10pt" xml:space="preserve">Much research has been undertaken on the use of </hi><hi
-                        rend="italic" style="font-size:10pt"
-                        >you</hi><hi style="font-size:10pt" xml:space="preserve">, </hi><hi
-                        rend="italic" style="font-size:10pt"
-                        >thou</hi><hi style="font-size:10pt" xml:space="preserve"> and </hi><hi
-                        rend="italic" style="font-size:10pt"
-                        >thee</hi><hi style="font-size:10pt" xml:space="preserve"> in Shakespeare’s works. However, the results so far have yet to arrive at an exact and conclusive answer regarding how these pronouns were used. This study combines the strengths of multiple research fields in an effort to determine via hitherto unused computational methods which linguistic and extra-linguistic features influence the second person singular pronoun choices in the plays of Shakespeare. In the English of Shakespeare’s time, the now-archaic distinction between </hi><hi
-                        rend="smallcaps" style="font-size:10pt"
-                        >you</hi><hi style="font-size:10pt" xml:space="preserve"> and </hi><hi
-                        rend="smallcaps" style="font-size:10pt"
-                    >thou</hi><hi style="font-size:10pt" xml:space="preserve"> persisted, and is usually reported as being determined by relative social status and personal closeness of speaker and addressee. However, even between studies with similar outcomes, the results vary massively on the degree of influence and by the inclusion or exclusion of a wide range of other potential influencing factors. Therefore, it remains to be determined whether statistical machine learning will support this traditional explanation.</hi></p>
-                <p><hi style="font-size:10pt"> In this study, 23 linguistic and extra-linguistic
+                    Much research has been undertaken on the use of <hi rend="italic">you</hi>, <hi rend="italic">thou</hi> and <hi rend="italic">thee</hi> in Shakespeare’s works. However, the results so far have yet to arrive at an exact and conclusive answer regarding how these pronouns were used. This study combines the strengths of multiple research fields in an effort to determine via hitherto unused computational methods which linguistic and extra-linguistic features influence the second person singular pronoun choices in the plays of Shakespeare. In the English of Shakespeare’s time, the now-archaic distinction between <hi rend="smallcaps">you</hi> and <hi rend="smallcaps">thou</hi> persisted, and is usually reported as being determined by relative social status and personal closeness of speaker and addressee. However, even between studies with similar outcomes, the results vary massively on the degree of influence and by the inclusion or exclusion of a wide range of other potential influencing factors. Therefore, it remains to be determined whether statistical machine learning will support this traditional explanation.</p>
+                <p> In this study, 23 linguistic and extra-linguistic
                         features are investigated, having been selected from multiple linguistic
                         areas, such as pragmatics, sociolinguistics and conversation analysis. The
                         three algorithms used, Naive Bayes, decision tree and support vector
                         machine, are selected as illustrative of a range of possible models in light
                         of their contrasting assumptions and learning biases. Two predictions are
-                        performed, firstly on a binary (</hi><hi rend="smallcaps"
-                        style="font-size:10pt">you</hi><hi style="font-size:10pt">/</hi><hi
-                        rend="smallcaps" style="font-size:10pt">thou</hi><hi style="font-size:10pt"
-                        >) distinction and then on a trinary (</hi><hi rend="italic"
-                        style="font-size:10pt">you</hi><hi style="font-size:10pt">/</hi><hi
-                        rend="italic" style="font-size:10pt">thou</hi><hi style="font-size:10pt"
-                        >/</hi><hi rend="italic" style="font-size:10pt">thee</hi><hi
-                        style="font-size:10pt">) distinction, giving six final models to compare.
+                        performed, firstly on a binary (<hi rend="smallcaps">you</hi>/<hi rend="smallcaps">thou</hi>) distinction and then on a trinary (<hi rend="italic">you</hi>/<hi rend="italic">thou</hi>/<hi rend="italic">thee</hi>) distinction, giving six final models to compare.
                         This is a strictly empirical study, which attempts to verify the findings of
                         earlier research through a computational approach. Its aim and main focus is
                         to try and find a pattern or model that best explains the use of second
                         person singular pronominal address terms in Shakespeare, rather than simply
-                        achieve the best performing model.</hi></p>
-                <p><hi style="font-size:10pt" xml:space="preserve">	The primary finding of this study is that it is indeed possible to build a prediction model for the use of singular second person pronouns in the plays of Shakespeare based on linguistic and extra-linguistic features. Moreover, in particular, the direct linguistic context of the pronoun is the most important feature in all of the models except one. Several other features are also influencing the pronoun prediction, including the names of the speaker and addressee, the status differential, and positive and negative sentiment. Additionally, all three algorithms easily outperformed the baseline. Out of the three algorithms, the support vector machine models score best. However, the Naive Bayes models perform almost equally well. This reveals that the features are, for the most part, independent of one another. When comparing the binary and trinary classification outcomes, the binary models scored better than the trinary ones. Looking back at prior studies on pronoun interpretation and comparing them to the features used in this study, we can conclude that </hi>
-                    <hi rend="italic" style="font-size:10pt"
-                        >thee</hi><hi style="font-size:10pt" xml:space="preserve"> and </hi><hi
-                        rend="italic" style="font-size:10pt"
-                        >thou</hi><hi style="font-size:10pt" xml:space="preserve"> are equal in their opposition to </hi><hi
-                        rend="italic" style="font-size:10pt">you</hi><hi style="font-size:10pt">,
+                        achieve the best performing model.</p>
+                <p>	The primary finding of this study is that it is indeed possible to build a prediction model for the use of singular second person pronouns in the plays of Shakespeare based on linguistic and extra-linguistic features. Moreover, in particular, the direct linguistic context of the pronoun is the most important feature in all of the models except one. Several other features are also influencing the pronoun prediction, including the names of the speaker and addressee, the status differential, and positive and negative sentiment. Additionally, all three algorithms easily outperformed the baseline. Out of the three algorithms, the support vector machine models score best. However, the Naive Bayes models perform almost equally well. This reveals that the features are, for the most part, independent of one another. When comparing the binary and trinary classification outcomes, the binary models scored better than the trinary ones. Looking back at prior studies on pronoun interpretation and comparing them to the features used in this study, we can conclude that 
+                    <hi rend="italic">thee</hi> and <hi rend="italic">thou</hi> are equal in their opposition to <hi rend="italic">you</hi>,
                         with the main difference being their grammatical role. Therefore, both
                         linguistically and computationally, it makes most sense to use the binary
-                        classification.</hi>
+                        classification.
                 </p>
             </div>
             <div type="summary" xml:lang="sl">
                 <docAuthor>Isolde van Dorst</docAuthor>
-                <head><hi rend="bold allcaps" style="font-size:14pt" xml:space="preserve">You, thou in thee: statistična analiza uporabe izrazov zaimkovnega naslavljanja pri Shakespearu </hi></head>
+                <head><hi rend="bold allcaps">You, thou in thee: statistična analiza uporabe izrazov zaimkovnega naslavljanja pri Shakespearu </hi></head>
                 <head><hi rend="allcaps">Povzetek</hi></head>
                 <p>
-                    <hi style="font-size:10pt" xml:space="preserve">O uporabi zaimkov </hi><hi
-                        rend="italic" style="font-size:10pt"
-                        >you</hi><hi style="font-size:10pt" xml:space="preserve">, </hi><hi
-                        rend="italic" style="font-size:10pt"
-                        >thou</hi><hi style="font-size:10pt" xml:space="preserve"> in </hi><hi
-                        rend="italic" style="font-size:10pt"
-                    >thee</hi><hi style="font-size:10pt" xml:space="preserve"> v Shakespearovih delih je bilo opravljenih veliko raziskav. Vendar rezultati doslej še niso dali natančnega in dokončnega odgovora o tem, kako so se ti zaimki uporabljali. Študija združuje prednosti z različnih raziskovalnih področij, da bi z računalniškimi metodami, ki doslej še niso bile uporabljene, ugotovili, katere jezikovne in nejezikovne značilnosti vplivajo na izbiro osebnega zaimka druge osebe ednine v Shakespearovih igrah. V angleščini, ki se je uporabljala v Shakespearovem obdobju, je razlikovanje med YOU in THOU, ki je danes arhaično, še obstajalo. Običajno se navaja, da sta ga določala relativni družbeni status ter osebna bližina govorca in naslovljenca. Vendar pa se tudi med študijami s podobnimi rezultati ti zelo razlikujejo glede stopnje vplivanja ter upoštevanja ali neupoštevanja številnih drugih mogočih dejavnikov vpliva. Zato je treba še ugotoviti, ali bo statistično strojno učenje potrdilo to tradicionalno razlago.</hi>
+                    O uporabi zaimkov <hi rend="italic">you</hi>, <hi rend="italic">thou</hi> in <hi rend="italic">thee</hi> v Shakespearovih delih je bilo opravljenih veliko raziskav. Vendar rezultati doslej še niso dali natančnega in dokončnega odgovora o tem, kako so se ti zaimki uporabljali. Študija združuje prednosti z različnih raziskovalnih področij, da bi z računalniškimi metodami, ki doslej še niso bile uporabljene, ugotovili, katere jezikovne in nejezikovne značilnosti vplivajo na izbiro osebnega zaimka druge osebe ednine v Shakespearovih igrah. V angleščini, ki se je uporabljala v Shakespearovem obdobju, je razlikovanje med YOU in THOU, ki je danes arhaično, še obstajalo. Običajno se navaja, da sta ga določala relativni družbeni status ter osebna bližina govorca in naslovljenca. Vendar pa se tudi med študijami s podobnimi rezultati ti zelo razlikujejo glede stopnje vplivanja ter upoštevanja ali neupoštevanja številnih drugih mogočih dejavnikov vpliva. Zato je treba še ugotoviti, ali bo statistično strojno učenje potrdilo to tradicionalno razlago.
                 </p>
-                <p><hi style="font-size:10pt"> V tej študiji se proučuje 23 jezikovnih in
+                <p> V tej študiji se proučuje 23 jezikovnih in
                         nejezikovnih značilnosti, izbranih z različnih jezikoslovnih področij, kot
                         so pragmatika, sociolingvistika in analiza pogovora. Trije uporabljeni
                         algoritmi – naivni Bayesov klasifikator, odločitveno drevo in metoda
                         podpornih vektorjev – so izbrani kot ilustrativni nabor možnih modelov
                         zaradi njihovih kontrastnih predpostavk in učne pristranskosti. Opravita se
-                        dve napovedi, prva o binarnem (</hi>
-                    <hi rend="italic" style="font-size:10pt">you/thou</hi><hi style="font-size:10pt"
-                        >) razlikovanju in druga o trinarnem (</hi><hi rend="italic"
-                        style="font-size:10pt">you/thou/thee</hi><hi style="font-size:10pt">)
+                        dve napovedi, prva o binarnem (
+                    <hi rend="italic">you/thou</hi>) razlikovanju in druga o trinarnem (<hi rend="italic">you/thou/thee</hi>)
                         razlikovanju, s čimer dobimo šest končnih modelov, ki jih lahko primerjamo.
                         Študija je strogo empirična, njen cilj pa je z računalniškim pristopom
                         preveriti ugotovitve predhodnih raziskav. Osredotoča se predvsem na iskanje
                         vzorca ali modela, ki bi najbolje pojasnil uporabo izrazov zaimkovnega
                         naslavljanja za drugo osebo ednine pri Shakespearu, in ne le na oblikovanje
-                        modela, ki deluje najbolje.</hi>
+                        modela, ki deluje najbolje.
                 </p>
-                <p><hi style="font-size:10pt" xml:space="preserve">	Temeljna ugotovitev te študije je, da je resnično mogoče oblikovati napovedni model za uporabo zaimkov za drugo osebo ednine v Shakespearovih igrah na podlagi jezikovnih in nejezikovnih značilnosti. Poleg tega je neposredni jezikovni kontekst zaimka najpomembnejša značilnost v vseh modelih razen v enem. Na napoved zaimka vpliva tudi več drugih značilnosti, vključno z imenom govorca in naslovljenca, razliko v statusu ter pozitivnim ali negativnim mnenjem. Vsi trije algoritmi so tudi z lahkoto dosegli boljše rezultate od izhodišča. Od vseh treh algoritmov daje najboljše rezultate metoda podpornih vektorjev. Vendar tudi modeli naivnega Bayesovega klasifikatorja dosegajo skoraj enako dobre rezultate. Iz tega izhaja, da so značilnosti večinoma neodvisne druga od druge. Primerjava binarne in trinarne klasifikacije je pokazala, da so rezultati binarnih modelov boljši od rezultatov trinarnih. Če primerjamo predhodne študije o interpretaciji zaimkov z značilnostmi, uporabljenimi v tej študiji, lahko ugotovimo, da sta zaimka </hi>
-                    <hi rend="italic" style="font-size:10pt"
-                        >thee</hi><hi style="font-size:10pt" xml:space="preserve"> in </hi><hi
-                        rend="italic" style="font-size:10pt"
-                        >thou</hi><hi style="font-size:10pt" xml:space="preserve"> v opoziciji z zaimkom </hi><hi
-                        rend="italic" style="font-size:10pt"
-                    >you</hi><hi style="font-size:10pt" xml:space="preserve"> enakovredna, pri čemer je najpomembnejša razlika njihova slovnična vloga. Zato je z jezikoslovnega in računalniškega stališča najbolj smiselna uporaba binarne klasifikacije.</hi>
+                <p>	Temeljna ugotovitev te študije je, da je resnično mogoče oblikovati napovedni model za uporabo zaimkov za drugo osebo ednine v Shakespearovih igrah na podlagi jezikovnih in nejezikovnih značilnosti. Poleg tega je neposredni jezikovni kontekst zaimka najpomembnejša značilnost v vseh modelih razen v enem. Na napoved zaimka vpliva tudi več drugih značilnosti, vključno z imenom govorca in naslovljenca, razliko v statusu ter pozitivnim ali negativnim mnenjem. Vsi trije algoritmi so tudi z lahkoto dosegli boljše rezultate od izhodišča. Od vseh treh algoritmov daje najboljše rezultate metoda podpornih vektorjev. Vendar tudi modeli naivnega Bayesovega klasifikatorja dosegajo skoraj enako dobre rezultate. Iz tega izhaja, da so značilnosti večinoma neodvisne druga od druge. Primerjava binarne in trinarne klasifikacije je pokazala, da so rezultati binarnih modelov boljši od rezultatov trinarnih. Če primerjamo predhodne študije o interpretaciji zaimkov z značilnostmi, uporabljenimi v tej študiji, lahko ugotovimo, da sta zaimka 
+                    <hi rend="italic">thee</hi> in <hi rend="italic">thou</hi> v opoziciji z zaimkom <hi rend="italic">you</hi> enakovredna, pri čemer je najpomembnejša razlika njihova slovnična vloga. Zato je z jezikoslovnega in računalniškega stališča najbolj smiselna uporaba binarne klasifikacije.
                 </p>
             </div>
         </back>
