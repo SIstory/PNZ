@@ -1,0 +1,1919 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mml="http://www.w3.org/1998/Math/MathML">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Predicting Slovene Text Complexity Using Readability Measures</title>
+                <author/>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2019-05-31</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>unknown</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
+                    <label>DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change><date>2019-06-09T14:26:06Z</date><name/></change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Tadej Škvorc<note place="foot" xml:id="ftn1" n="*">University of Ljubljana,
+                    Faculty of Computer and Information Science, Večna Pot 113, SI-1000 Ljubljana,
+                    Jožef Stefan Institute, Jamova cesta 39, SI-1000 Ljubljana, <ref
+                        target="mailto:tadej.skvorc@fri.uni-lj.si"
+                    >tadej.skvorc@fri.uni-lj.si</ref></note></docAuthor>
+            <docAuthor>Simon Krek,<note place="foot" xml:id="ftn2" n="**">Jožef Stefan Institute,
+                    Jamova cesta 39, SI-1000 Ljubljana, University of Ljubljana, Faculty of Arts,
+                    Aškerčeva 2, SI-1000 Ljubljana, <ref target="mailto:simon.krek@guest.arnes.si"
+                        >simon.krek@guest.arnes.si</ref></note></docAuthor>
+            <docAuthor>Senja Pollak<note place="foot" xml:id="ftn3" n="∗∗∗">Jožef Stefan Institute,
+                    Jamova cesta 39, SI-1000 Ljubljana, <ref target="mailto:senja.pollak@ijs.si"
+                        >senja.pollak@ijs.si</ref></note></docAuthor>
+            <docAuthor>Špela Arhar Holdt<note place="foot" xml:id="ftn4" n="∗∗∗∗">University of
+                    Ljubljana, Faculty of Arts, Aškerčeva 2, SI-1000 Ljubljana, University of
+                    Ljubljana, Faculty of Computer and Information Science, Večna Pot 113, SI-1000
+                    Ljubljana, <ref target="mailto:spela.arharholdt@ff.uni-lj.si"
+                        >spela.arharholdt@ff.uni-lj.si</ref></note></docAuthor>
+            <docAuthor>Marko Robnik-Šikonja<note place="foot" xml:id="ftn5" n="∗∗∗∗∗">University of
+                    Ljubljana, Faculty of Computer and Information Science, Večna Pot 113, SI-1000
+                    Ljubljana, <ref target="mailto:marko.robnik@fri.uni-lj.si"
+                        >marko.robnik@fri.uni-lj.si</ref></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss type: 1.01</idno>
+                <idno type="UDC">UDC: 003.295:821.163.6</idno>
+            </docImprint>
+            <div type="abstract" xml:lang="sl">
+                <head>IZVLEČEK</head>
+                <head><hi rend="allcaps">Napovedovanje kompleksnosti slovenskih besedil z uporabo
+                        mer berljivosti</hi></head>
+                <p>
+                    <hi rend="italic">Večina obstoječih formul za merjenje berljivosti je zasnovana
+                        za besedila v angleškem jeziku, na katerih je tudi ocenjena njihova
+                        kakovost. V našem članku predstavimo prilagoditev izbranih mer za
+                        slovenščino. Uspešnost desetih znanih formul ter osmih dodatnih kriterijev
+                        berljivosti ocenimo na petih skupinah besedil: otroških revijah, splošnih
+                        revijah, časopisih, tehničnih revijah in zapisnikih sej državnega zbora. Te
+                        skupine besedil imajo različne ciljne publike, zaradi česar predpostavimo,
+                        da uporabljajo različne stile pisanja, ki bi jih formule in kriteriji
+                        berljivosti morali zaznati. V analizi pokažemo, katere formule in kriteriji
+                        berljivosti delujejo dobro in s katerimi razlik med skupinami nismo mogli
+                        zaznati.</hi></p>
+                <p>
+                    <hi rend="italic">Ključne besede: berljivost, obdelava naravnega jezika, analiza
+                        besedil</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <p>
+                    <hi rend="italic">The majority of existing readability measures are designed for
+                        English texts. We aim to adapt and test the readability measures on Slovene.
+                        We test ten well-known readability formulas and eight additional readability
+                        criteria on five types of texts: children’s magazines, general magazines,
+                        daily newspapers, technical magazines, and transcriptions of national
+                        assembly sessions. As these groups of texts target different audiences, we
+                        assume that the differences in writing styles should be reflected in their
+                        readability scores. Our analysis shows which readability measures perform
+                        well on this task and which fail to distinguish between the groups.</hi>
+                </p>
+                <p>
+                    <hi rend="italic">Keywords: readability, natural language processing, text
+                        analysis</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p>In English, the problem of determining text readability (i.e. how easy a text is
+                    to understand) has long been a topic of research, with its origins in the 19th
+                    century (<ref target="#Sherman.1893">Sherman 1893</ref>). Since then, many
+                    different methods and readability measures have been developed, often with the
+                    goal of determining whether a text is too difficult for its target age group.
+                    Even though the question of readability is complex from a linguistic standpoint,
+                    a large majority of existing measures are based on simple heuristics. There has
+                    been little research on readability of languages other than English, therefore
+                    we aim to apply these measures to Slovene and evaluate how well they
+                    perform.</p>
+                <p>There are several factors that might cause these measures to perform poorly on
+                    non-English languages, such as:</p>
+                <list type="unordered">
+                    <item>Many measures are fine-tuned to correspond to the grade levels of the
+                        United States education system. It is likely a different fine-tuning would
+                        be needed for other languages, as a.) their education system is different
+                        from the US system, and b.) the differences in readability between grade
+                        levels are likely to be different between languages, meaning that each
+                        language would require specifically tuned parameters.</item>
+                    <item>Some measures utilize a list of common English words and their results
+                        depend on the definition of this list. For Slovene, there currently does not
+                        exist a publicly available list of common words, so it is not known how such
+                        measures would perform.</item>
+                    <item>The existing readability measures do not use the morphological information
+                        to determine difficult words but rely on syllable and character counts, or a
+                        list of difficult words. As Slovene is morphologically much more complex
+                        than English, words with complex morphology are harder to understand than
+                        those with simple morphology, even if they have the same number of
+                        characters or syllables.</item>
+                </list>
+                <p>We analyze the commonly used readability measures (as well as some novel
+                    measures) on Slovene texts and propose a word list needed to implement the
+                    word-list-based measures. We calculate statistical distributions of scores for
+                    each readability measure across subcorpora and assess the ability of measures to
+                    distinguish between different subcorpora using a variety of statistical tests.
+                    We show that machine learning classification models, using a combination of
+                    readability measures, can predict the subcorpus a given text belongs to. </p>
+                <p>The paper extends the short version of the paper presented in <ref
+                        target="#Škvorc.2018">Škvorc et al. (2018)</ref> and is structured as
+                    follows. We first present the related work on readability measures and describe
+                    the readability measures used in our analysis. The methodology of the analysis
+                    is presented next, followed by the results split into three sections. The last
+                    section concludes the paper and presents ideas for further work.</p>
+            </div>
+            <div>
+                <head>Related Work</head>
+                <p>For English, there exists a variety of works focused on determining readability
+                    by using readability formulas. Those formulas rely on different features of the
+                    text such as the average sentence length, percentage of difficult words, and the
+                    average number of characters per word. Examples of such measures include the
+                    Coleman-Liau index (<ref target="#Coleman.1975">Coleman and Liau 1975</ref>),
+                    LIX (<ref target="#Björnsson.1968">Björnsson 1968</ref>), and the automated
+                    readability index (ARI) (<ref target="#Senter.1967">Senter and Smith
+                    1967</ref>). Some formulas, like the Flesch-Kincaid grade level (<ref
+                        target="#Kincaid.1975">Kincaid et al. 1975</ref>) and SMOG (<ref
+                        target="#McLaughlin.1969">Mc Laughlin 1969</ref>) use the number of
+                    syllables per word to determine if a word is difficult. Additionally, some
+                    measures (e.g., the Spache readability formula (<ref target="#Spache.1953"
+                        >Spache 1953</ref>) and Dale-Chall readability formula (<ref
+                        target="#Dale.1948">Dale and Chall 1948</ref>) rely on a pre-constructed
+                    list of difficult words.</p>
+                <p>Aside from the readability formulas, there exists a variety of other approaches
+                    that can be used to determine readability (<ref target="#Bailin.2016">Bailin and
+                        Grafstein 2016</ref>). For example, various machine-learning approaches can
+                    be used to obtain better results than readability formulas, such as the approach
+                    presented in <ref target="#François.2012">Francois and Miltsakaki (2012)</ref>,
+                    which outperforms readability formulas on French text.</p>
+                <p>There is little work attempting to apply these measures to Slovene texts. Most
+                    work dealing with the readability of Slovene text is focused on manual methods.
+                    For example, <ref target="#Justin.2003">Justin (2009)</ref> analyzes Slovene
+                    textbooks from a variety of angles, including readability. On the other hand,
+                    works that focus on automatic readability measures are rare. <ref
+                        target="#ZwitterVitez.2014">Zwitter Vitez (2014)</ref> uses a variety of
+                    readability measures for author recognition in Slovene text, but we found no
+                    works that used them to determine readability.</p>
+                <p>In addition to Slovene, some related works evaluate readability measures on other
+                    languages. <ref target="#Dębowski.2015">Debowski et al. (2015)</ref> evaluate
+                    readability formulas on Polish text and show that they obtain better results by
+                    using a more complex, machine-learning-based approach.</p>
+            </div>
+            <div>
+                <head>Readability measures</head>
+                <p>In our analysis, we used two groups of readability measures:</p>
+                <list type="unordered">
+                    <item><hi rend="bold">Existing readability formulas for English:</hi> we focused
+                        mainly on popular methods that have been shown to achieve good results on
+                        English texts. These measures mostly rely on easy-to-obtain features such as
+                        a number of difficult words, sentence length, and word length.</item>
+                    <item><hi rend="bold">Natural-language-processing-based readability
+                            criteria:</hi> we used additional criteria that are not present in the
+                        existing readability formulas but can be obtained from tools for automatic
+                        language processing, such as the percentage of verbs, number of unique
+                        words, and morphological difficulty of words. In the existing English
+                        formulas, such criteria are not used but they might contain useful
+                        information for determining the readability of Slovene texts.</item>
+                </list>
+                <p>In the following two subsections we present the established readability measures
+                    for grading English text and our proposed additional criteria.</p>
+            </div>
+            <div>
+                <head>Existing Readability Formulas</head>
+                <p>There exists a variety of ways to measure the readability of texts written in
+                    English. For our analysis, we used 10 readability formulas given below. The
+                    entities used in the expressions correspond to the number of occurrences of a
+                    given entity, e.g., word corresponds to the number of words in a measured
+                    text.</p>
+                <list type="unordered">
+                    <item><hi rend="bold">Gunning fog index</hi> (<ref target="#Gunning.1952"
+                            >Gunning 1952</ref>) is calculated as: <formula notation="MathML">
+                            <mml:math display="block">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML" mathvariant="normal"
+                                    >GFI</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">0.4</mn>
+                                <mfrac xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi mathvariant="normal">words</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi mathvariant="normal">sentences</mi>
+                                    </mrow>
+                                </mfrac>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">+</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">100</mn>
+                                <mfrac xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi mathvariant="normal">complex words</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi mathvariant="normal">words</mi>
+                                    </mrow>
+                                </mfrac>
+                                <mml:mtext>, </mml:mtext>
+                            </mml:math>
+                        </formula> where a word is considered complex if it contains three or more
+                        syllables. As there exists no established automatic method for counting
+                        syllables of Slovene words, we used a rule-based approach designed for
+                        English. The resulting score is calibrated to the grade level of the USA
+                        education system.</item>
+                    <item><hi rend="bold">Flesch reading ease</hi> (<ref target="#Kincaid.1975"
+                            >Kincaid et al. 1975</ref>) is calculated as: <formula notation="MathML">
+                            <mml:math display="block">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML" mathvariant="normal"
+                                    >FRE</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">206.835</mn>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">-</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">1.015</mn>
+                                <mfrac xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi mathvariant="normal">words</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi mathvariant="normal">sentences</mi>
+                                    </mrow>
+                                </mfrac>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">-</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">84.6</mn>
+                                <mfrac xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi mathvariant="normal">syllables</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi mathvariant="normal">words</mi>
+                                    </mrow>
+                                </mfrac>
+                                <mml:mtext>.</mml:mtext>
+                            </mml:math>
+                        </formula> The score does not correspond to grade levels. Instead, the
+                        higher the value, the easier the text is considered to be. A text with a
+                        score of 100 should be easily understood by 11-year-old students, while a
+                        text with a score of 0 should be intended for university graduates.</item>
+                    <item><hi rend="bold">Flesch–Kincaid grade level</hi> (<ref
+                            target="#Kincaid.1975">Kincaid et al. 1975</ref>) is similar to Flesch
+                        reading ease, but does correspond to grade levels. It is calculated as:
+                            <formula notation="MathML">
+                            <mml:math display="block">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML" mathvariant="normal"
+                                    >FKGL</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">0.39</mn>
+                                <mfrac xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi mathvariant="normal">words</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi mathvariant="normal">sentences</mi>
+                                    </mrow>
+                                </mfrac>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">+</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">11.8</mn>
+                                <mfrac xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi mathvariant="normal">syllables</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi mathvariant="normal">words</mi>
+                                    </mrow>
+                                </mfrac>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">-</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">15.59</mn>
+                                <mml:mtext>.</mml:mtext>
+                            </mml:math>
+                        </formula></item>
+                    <item><hi rend="bold">Dale–Chall readability formula</hi> (<ref
+                            target="#Dale.1948">Dale and Chall 1948</ref>) is calculated as:
+                            <formula notation="MathML">
+                            <mml:math display="block">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML" mathvariant="normal"
+                                    >DCRF</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">0.1579</mn>
+                                <mfrac xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi mathvariant="normal">difficult words</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi mathvariant="normal">words</mi>
+                                    </mrow>
+                                </mfrac>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">+</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">0.0496</mn>
+                                <mfrac xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi mathvariant="normal">words</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi mathvariant="normal">sentences</mi>
+                                    </mrow>
+                                </mfrac>
+                                <mml:mtext>.</mml:mtext>
+                            </mml:math>
+                        </formula><p>The formula requires a predefined list of common (easy) words
+                            and the words which are not on the list are considered as difficult. The
+                            novelty of the Dale-Chall Formula was that it did not use word-length
+                            counts but a count of “hard” words which do not appear on a specially
+                            designed list of common words. This list was defined as the words
+                            familiar to most of the 4th-grade students: when 80 percent of the
+                            fourth-graders indicated that they knew a word, the word was added to
+                            the list.</p>
+                        <p>Higher scores indicate that the text is harder, but the resulting score
+                            does not correspond to grade levels, nor is it appropriate for text
+                            aimed at children below 4th grade. In our analysis, we obtained the
+                            difficult words in two ways:</p>
+                        <list type="ordered">
+                            <item>By constructing a list of “easy” words and considering every word
+                                not on the list as difficult. The list of easy words is described
+                                later in the paper.</item>
+                            <item>By considering words with more than seven characters as
+                                difficult.</item>
+                        </list></item>
+                    <item><hi rend="bold">Spache readability formula</hi> (<ref
+                            target="#Spache.1953">Spache 1953</ref>) is calculated as: <formula
+                            notation="MathML">
+                            <mml:math display="block">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML" mathvariant="normal"
+                                    >SRF</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">0.141</mn>
+                                <mfrac xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi mathvariant="normal">words</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi mathvariant="normal">sentences</mi>
+                                    </mrow>
+                                </mfrac>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">+</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">8.6</mn>
+                                <mfrac xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi mathvariant="normal">unique difficult words</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi mathvariant="normal">unique words</mi>
+                                    </mrow>
+                                </mfrac>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">+</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">0.839</mn>
+                                <mml:mtext>.</mml:mtext>
+                            </mml:math>
+                        </formula> Difficult words are defined as words that do not appear in the
+                        list of commonly used words, which is the same as the one used in the
+                        Dale–Chall readability formula. This method was specifically designed for
+                        texts targeting children up to the fourth grade and was not designed to
+                        perform well on harder text. The obtained score corresponds to grade
+                        levels.</item>
+                    <item><hi rend="bold">Automated readability index</hi> (<ref
+                            target="#Senter.1967">Senter and Smith 1967</ref>) is calculated as:
+                            <formula notation="MathML">
+                            <mml:math display="block">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML" mathvariant="normal"
+                                    >ARI</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">4.71</mn>
+                                <mfrac xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi mathvariant="normal">characters</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi mathvariant="normal">words</mi>
+                                    </mrow>
+                                </mfrac>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">+</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">0.5</mn>
+                                <mfrac xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi mathvariant="normal">words</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi mathvariant="normal">sentences</mi>
+                                    </mrow>
+                                </mfrac>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">-</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">21.43</mn>
+                                <mml:mtext>.</mml:mtext>
+                            </mml:math>
+                        </formula> The formula was designed so that it could be automatically
+                        captured in times when texts were written on typewriters and therefore it
+                        does not use information relating to syllables or difficult words. The
+                        obtained score corresponds to grade levels.</item>
+                    <item><hi rend="bold">SMOG (Simple Measure of Gobbledygook)</hi> (<ref
+                            target="#McLaughlin.1969">McLaughlin 1969</ref>) can be calculated as:
+                            <formula notation="MathML">
+                            <mml:math display="block">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML" mathvariant="normal"
+                                    >SMOG</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">1.043</mn>
+                                <mroot xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi mathvariant="normal">difficult words</mi>
+                                        <mfrac>
+                                            <mrow>
+                                                <mn>30</mn>
+                                            </mrow>
+                                            <mrow>
+                                                <mi mathvariant="normal">sentences</mi>
+                                            </mrow>
+                                        </mfrac>
+                                    </mrow>
+                                    <mrow/>
+                                </mroot>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">+</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">3.1291</mn>
+                                <mml:mtext>,</mml:mtext>
+                            </mml:math>
+                        </formula> where difficult words are defined as words with three or more
+                        syllables. The score corresponds to grade levels.</item>
+                    <item><hi rend="bold">LIX</hi> (<ref target="#Björnsson.1968">Bjornsson
+                            1968</ref>) is calculated as: <formula notation="MathML">
+                            <mml:math display="block">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML" mathvariant="normal"
+                                    >LIX</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                <mfrac xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi mathvariant="normal">words</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi mathvariant="normal">sentences</mi>
+                                    </mrow>
+                                </mfrac>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">+</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">100</mn>
+                                <mfrac xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi mathvariant="normal">long words</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi mathvariant="normal">words</mi>
+                                    </mrow>
+                                </mfrac>
+                                <mml:mtext>,</mml:mtext>
+                            </mml:math>
+                        </formula> where long words are defined as words consisting of more than six
+                        characters. LIX is the only measure we used that was not designed
+                        specifically for English but for a variety of languages. Because of this, it
+                        does not use syllables or a list of unique words. The score does not
+                        correspond to grade levels.</item>
+                    <item><hi rend="bold">RIX</hi> (<ref target="#Anderson.1983">Anderson
+                        1983</ref>) is a simplification of LIX, and is calculated as: <formula
+                            notation="MathML">
+                            <mml:math display="block">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML" mathvariant="normal"
+                                    >RIX</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                <mfrac xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mrow>
+                                        <mi mathvariant="normal">long words</mi>
+                                    </mrow>
+                                    <mrow>
+                                        <mi mathvariant="normal">sentences</mi>
+                                    </mrow>
+                                </mfrac>
+                                <mml:mtext>.</mml:mtext>
+                            </mml:math>
+                        </formula></item>
+                    <item><hi rend="bold">Coleman-Liau index</hi> (<ref target="#Coleman.1975"
+                            >Coleman and Liau 1975</ref>) is calculated as: <formula
+                            notation="MathML">
+                            <mml:math display="block">
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML" mathvariant="normal"
+                                    >CLI</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">0.0588</mn>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML" mathvariant="normal"
+                                    >L</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">-</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">0.296</mn>
+                                <mi xmlns="http://www.w3.org/1998/Math/MathML" mathvariant="normal"
+                                    >S</mi>
+                                <mo xmlns="http://www.w3.org/1998/Math/MathML">-</mo>
+                                <mn xmlns="http://www.w3.org/1998/Math/MathML">15.8</mn>
+                                <mml:mtext>,</mml:mtext>
+                            </mml:math>
+                        </formula> where L is the average number of letters per 100 words and S is
+                        the average number of sentences per 100 words. The obtained score
+                        corresponds to grade levels.</item>
+                </list>
+            </div>
+            <div>
+                <head>Language-Processing-Based Readability Criteria</head>
+                <p>The readability formulas described in the previous section use a low number of
+                    common criteria, such as the number of syllables in words or the number of words
+                    in a sentence. In our analysis, we also analyzed Slovene texts using the
+                    following additional statistics:</p>
+                <list type="unordered">
+                    <item>percentage of long words,</item>
+                    <item>percentage of difficult words,</item>
+                    <item>percentage of verbs,</item>
+                    <item>percentage of adjectives,</item>
+                    <item>percentage of unique words,</item>
+                    <item>average sentence length.</item>
+                </list>
+                <p>Many of these (percentage of long words, difficult words, unique words, and
+                    average sentence length) are used as features in the readability measures
+                    described above. We evaluate them individually to determine how important each
+                    of them is for Slovene texts. The <hi rend="bold">percentage of verbs</hi> is
+                    used because a higher number of verbs can indicate more complex sentences with
+                    multiple clauses. The <hi rend="bold">percentage of adjectives </hi>was chosen
+                    because we assumed a higher percentage of adjectives could indicate longer, more
+                    descriptive sentences that are harder to understand. </p>
+                <p>To take into account richer morphology of Slovene and a less fixed word order
+                    compared to English, we computed two additional criteria:</p>
+                <list type="unordered">
+                    <item><hi rend="bold">Context of difficult words</hi>, which is the average
+                        number of difficult words that appear in a context (i.e. the three words
+                        before or after the word) of a difficult word. Difficult words are defined
+                        as words that do not appear on the list of common words. The intuition
+                        behind this metric is that a difficult word that appears in the context of
+                        easy words is easier to understand than if it is surrounded by other
+                        difficult words since its meaning can be more easily inferred from the
+                        context.</item>
+                    <item><hi rend="bold">Average morphological difficulty</hi>, where we use the
+                        Slovene morphological lexicon Sloleks (<ref target="#ArharHoldt.2009">Arhar
+                            Holdt 2009</ref>) to assign a “morphological difficulty” score to each
+                        word. Sloleks is a lexicon of word forms and contains frequency information
+                        for morphological variants of over 100,000 lemmas (base forms of words as
+                        defined in a dictionary). We use the relative frequency of a word variant
+                        compared to other variants of the same lemma as the morphological difficulty
+                        score.</item>
+                </list>
+                <p>In addition, we also calculated the number of words in each document, even if in
+                    our case, it cannot be interpreted as a criterion for determining readability
+                    since it is largely determined by the type of document. E.g., the documents
+                    belonging to the subcorpus of newspapers contain individual articles and are
+                    therefore short, while the subcorpus of computer magazines contains entire
+                    magazines which are considerably longer.</p>
+            </div>
+            <div>
+                <head>Analysis of Slovene texts</head>
+                <p>In this section, we describe the methodology used for our analysis. In the first
+                    subsection, we describe the data sets on which we conducted our analysis. In the
+                    second subsection, we describe how we constructed the list of easy words used in
+                    some of the readability measures.</p>
+                <div>
+                    <head>Data sets</head>
+                    <p>We created a set of subcorpora from the Gigafida reference corpus of written
+                        Slovene (<ref>Logar et al. 2012</ref>). Gigafida contains 39,427 Slovene
+                        texts released from 1990 to 2011, for a total of 1,187,002,502 words. We
+                        focused on texts published in magazines, newspapers, and books while
+                        ignoring texts collected from the internet. The texts in the Gigafida corpus
+                        are segmented into paragraphs and sentences, tokenized, and part-of-speech
+                        tagged using the Obeliks tagger (<ref target="#Grčar.2012">Grčar et al.
+                            2012</ref>). We grouped the texts based on the intended audience,
+                        resulting in the following subcorpora: </p>
+                    <list type="unordered">
+                        <item><hi rend="bold">Children's magazines</hi> include magazines aimed at
+                            younger children (to be read independently or by their parents), namely
+                            Cicido and Ciciban.</item>
+                        <item><hi rend="bold">Pop magazines</hi> contain magazines aimed at the
+                            general public, namely Lisa, Gloss, and Stop. </item>
+                        <item><hi rend="bold">Newspapers</hi> contain general adult population
+                            newspapers, namely Delo and Dolenjski list.</item>
+                        <item><hi rend="bold">Computer magazines</hi> include magazines focusing on
+                            technical topics relating to computers, namely Monitor, Računalniške
+                            novice, PC &amp; Mediji, and Moj Mikro.</item>
+                        <item><hi rend="bold">National Assembly</hi> includes transcriptions of
+                            sessions from the National Assembly of Slovenia. </item>
+                    </list>
+                    <p>In Table 1 we show the number of documents in each subcorpus and the average
+                        number of words per document. The subcorpus of newspapers contains the
+                        largest number of documents, while the subcorpus of text sourced from the
+                        National Assembly of Slovenia contains the fewest.</p>
+                    <table rend="border">
+                        <head>Table 1: The number of documents and the average number of words per
+                            document for each subcorpus.</head>
+                        <row role="label">
+                            <cell rend="both">Subcorpus</cell>
+                            <cell rend="right">#docs</cell>
+                            <cell rend="right">Avg. #words / doc</cell>
+                            <cell rend="right">Total #words</cell>
+                        </row>
+                        <row>
+                            <cell rend="both">Children's magazines</cell>
+                            <cell rend="right">125</cell>
+                            <cell rend="right">5,488</cell>
+                            <cell rend="right">686,000</cell>
+                        </row>
+                        <row>
+                            <cell rend="both">Pop magazines</cell>
+                            <cell rend="right">247</cell>
+                            <cell rend="right">33,967</cell>
+                            <cell rend="right">8,389,849</cell>
+                        </row>
+                        <row>
+                            <cell rend="both">Newspapers</cell>
+                            <cell rend="right">14,011</cell>
+                            <cell rend="right">12,881</cell>
+                            <cell rend="right">180,475,691</cell>
+                        </row>
+                        <row>
+                            <cell rend="both">Computer magazines</cell>
+                            <cell rend="right">163</cell>
+                            <cell rend="right">110,875</cell>
+                            <cell rend="right">18,072,625</cell>
+                        </row>
+                        <row>
+                            <cell rend="both">National Assembly</cell>
+                            <cell rend="right">35</cell>
+                            <cell rend="right">58,841</cell>
+                            <cell rend="right">2,059,435</cell>
+                        </row>
+                    </table>
+                    <p>Our hypothesis is that the readability measures will be able to distinguish
+                        texts from different subcorpora. We assume that children's magazines will be
+                        easily distinguishable from other genres that are addressing an adult
+                        population. We also suppose that general magazines are less complex than
+                        specialized magazines. The National Assembly transcripts were included as
+                        they differ from other texts in two major ways: a.) they are transcripts of
+                        spoken language and b.) they relate to a highly technical subject matter.
+                        Because of this, we were interested in how readability measures would grade
+                        them. To test our hypothesis and to determine how well each readability
+                        measure works, we analyzed texts from each subcorpus to obtain a score
+                        distribution for each measure. The scores were calculated separately for
+                        each source text (e.g., one magazine article, a newspaper, or one assembly
+                        session).</p>
+                </div>
+                <div>
+                    <head>List of Common Words</head>
+                    <p>For designing the list of common words, we took a corpus-based approach. Note
+                        that the methodology to create a list of common words from language corpora
+                        was already tested for other languages, (see e.g., <ref
+                            target="#Kilgarriff.2014">Kilgarriff et al. 2014</ref>). We used four
+                        corpora to create a list of common words: Kres, Janes, Gos, and Šolar:</p>
+                    <list type="unordered">
+                        <item><hi rend="bold">Šolar</hi> (<ref target="#Kosem.2011">Kosem et al.
+                                2011</ref>) contains 2,703 texts written by pupils in Slovenia from
+                            grades 6 to 13 (grade 6 to 9 in primary school, and grade 1 to 4 in
+                            secondary school). The texts include essays, summaries, and answers to
+                            examination questions.</item>
+                        <item><hi rend="bold">Gos</hi> (<ref target="#Verdonik.2011">Verdonik et al.
+                                2011</ref>) contains around 120 hours of recorded spoken Slovene
+                            (1,035,101 words), as well as transcriptions of the recordings. The
+                            recordings are collected from a variety of sources, including
+                            conversations, television, radio, and phone calls. Around 10% of the
+                            corpus consists of recorded lessons in primary and secondary
+                            schools.</item>
+                        <item>
+                            <hi rend="bold">Janes</hi> (<ref target="#Fišer.2014">Fišer et al.
+                                2014</ref>) contains Slovene texts from various internet sources,
+                            such as tweets, forum posts, blogs, comments, and Wikipedia talk
+                            pages.</item>
+                        <item>
+                            <hi rend="bold">Kres</hi> (<ref target="#LogarBerginc.2009">Logar
+                                Berginc and Šuster 2009</ref>) is a sub-corpus of Gigafida that is
+                            balanced with respect to the source (e.g. newspapers, magazines, or
+                            internet).</item>
+                    </list>
+                    <p>We extracted the most common words and defined the common words as the ones
+                        that appear frequently in all four corpora (and are therefore not specific
+                        to a certain text type). We use four corpora to include texts that primarily
+                        reflect language production by different language users (Gos, Janes, Šolar),
+                        as well as texts that primarily reflect standard language (Kres). We aimed
+                        at covering younger school-going population (Šolar) and adults. For some
+                        corpora, we could have assigned words to different age levels (e.g. using
+                        pupils' grade levels in Šolar or using the age groups available in Gos
+                        metadata), but these corpora are very specific and the resulting word groups
+                        would mainly reflect the genre instead of age levels. Because of this, we
+                        opted for the approach of crossing the word lists to obtain a single list.
+                        The overlap of the most common words in four corpora eliminates frequent
+                        words which are typical for only one of the corpora (e.g. administrative
+                        language in Kres, spoken language markers in Gos, Twitter-specific usage in
+                        Janes, and literary references from essays in Šolar).</p>
+                    <p>From each corpus, we extracted the 10,000 most frequent word lemmas and
+                        part-of-speech tuples. In order to construct a list of common words
+                        representative of Slovene language, we selected the word lemmas that
+                        occurred in the most frequent word lists of all the four corpora. We
+                        obtained a list of 2,562 common words, which we used in readability
+                        measures.</p>
+                </div>
+            </div>
+            <div>
+                <head>Results</head>
+                <p>For each text in each subcorpus, we calculated readability scores using all
+                    readability measures described in the previous section. In Figure 1 we present a
+                    few examples of obtained score distributions. We show distributions for three
+                    text subcorpora (children’s magazines, newspapers, and technical magazines) and
+                    three readability scores (Goobledygook, Coleman-Liau, and the average number of
+                    words in a sentence).</p>
+                <figure>
+                    <head>Figure 1: The score distributions for three text subcorpora and three
+                        readability measures. The distributions show that technical magazines
+                        readability scores are the most consistent, while newspapers' scores are
+                        more diverse. Children's magazines' scores have a strong peak on the
+                        left-hand side (easier texts) that is well separated from the other
+                        sources.</head>
+                    <graphic url="fig_dist.png" height="600px"/>
+                </figure>
+                <p>To show a compact overview of all included readability measures we calculated the
+                    median, first and third quartiles of the distribution for each score and each
+                    text subcorpus. The box-and-whiskers plots showing these results are visualized
+                    in Figure 2 which shows that most readability measures are able to distinguish
+                    between different subcorpora. Additionally, some of the readability measures
+                    confirm our original hypothesis, i.e. they are able to distinguish children's
+                    magazines from other genres that are addressing adult population, and evaluate
+                    general magazines as less complex than computer magazines.</p>
+                <figure>
+                    <head>Figure 2: The scores of each readability measure for each subcorpus of
+                        texts, represented with box plots. The subcorpora depicted from left to
+                        right are: 1.) Children's magazines, 2.) General magazines, 3.) Newspapers,
+                        4.) Computer magazines, and 5.) National assembly transcriptions. The boxes
+                        show the first, second, and third quartile of the distributions while the
+                        whiskers extend for 1.5 IQR past the first and third quartile.</head>
+                    <graphic url="fig_bar_plots.png" height="1600px"/>
+                </figure>
+                <p>Figure 2 allows for an additional interpretation of readability measures. For
+                    example, children's magazines vs. general magazines vs. newspapers mean scores
+                    show increasing complexity in the following measures: Percentage of long words,
+                    Flesh Kincaid Grade Level, Gunning Fog Index, Dale-Chall Readability Formula
+                    (based on complexity defined by syllables), Context of Difficult Words, SMOG,
+                    LIX, RIX and Automated Readability Index. All these measures consider the length
+                    of words and/or sentences. The percentage of adjectives also seems to correlate
+                    with the complexity of these three text types, although to a lesser extent. The
+                    same holds for Flesh Reading Ease, since higher scores indicate lower
+                    complexity. For the majority of these measures, the distinction between
+                    newspapers and specialized computer magazines is either less evident or not
+                    evident at all, but they do indicate that computer magazines are less readable
+                    than general magazines. </p>
+                <p>Scores using the list of common words do not lead to the same conclusions.
+                    Percentage of Difficult Words and Dale-Chall Readability Formula with word list
+                    do not reflect the complexity of genres, but to some extent, they do distinguish
+                    between general and specialized texts (i.e. newspapers and general magazines
+                    have lower scores than specialized computer magazines). One of the reasons for
+                    the relatively high scores for the complexity of children magazines might be in
+                    the large proportion of literary language, such as in poems for children with
+                    many words not in the list of common words. For example, “KRAH, KRAH, KRAH! MENE
+                    NIČ NI STRAH!” (Krah, krah, krah! I am not afraid!) has 7 words, out of which 4
+                    are on the list of simple words, while the interjection KRAH is not on the
+                    simple words list. Therefore, the proportion of difficult words in this segment
+                    is 42.8% (3 occurrences of word KRAH out of 7 words in total). On the other
+                    hand, the words are short, therefore length-based measures consider them to be
+                    simple words.</p>
+                <p>The readability scores for the National Assembly subcorpus show high variability
+                    across the measures, which might be attributed to the fact that it is a
+                    different genre (spoken, but specialized). E.g., in several measures where the
+                    readability complexity rises from children's magazines to general magazines and
+                    newspapers, the National assembly scores are close to general magazines. Very
+                    long words are less likely used in spoken language, even in a political context.
+                    Average morphological difficulty and context of difficult words lead to the
+                    interpretation that this genre is more complex (less “readable”). The very high
+                    score for the context of difficult words might be attributed to enumeration of
+                    Assembly members (e.g., “Obveščen sem, da so zadržani in se današnje seje ne
+                    morejo udeležiti naslednje poslanke in poslanci: Ciril Pucko, Franc Kangler,
+                    Vincencij Demšar, Branko Kalalemina, ...” (I was informed that the following
+                    deputies are occupied and cannot attend this session: …). The relatively high
+                    percentage of verbs can also be interpreted from this perspective, e.g., the
+                    National assembly text include many performatives, such as “Pričenjam
+                    nadaljevanje seje” (Starting the continuation of the session) and “Ugotavljamo
+                    prisotnost v dvorani” (Establishing the presence).</p>
+                <p>In summary, using a list of common words did not improve the partitioning of the
+                    text subcorpora perceived as easy and as difficult to read. Both measures that
+                    use it (Dale-Chall and Spache readability formulas) are poor separators. A
+                    number of simple readability measures worked well, such as the percentage of
+                    long words, the percentage of verbs/adjectives, and the average morphological
+                    difficulty.</p>
+                <p>We also calculated the sample mean and standard deviation of readability measures
+                    for each text subcorpus. The results are shown in Table 2.</p>
+                <table rend="border">
+                    <head>Table 2: The mean and standard deviation for each subcorpus of texts and
+                        each readability score.</head>
+                    <row role="label">
+                        <cell rend="both">Measure</cell>
+                        <cell rend="both">Children's mag.</cell>
+                        <cell rend="both">Magazines</cell>
+                        <cell rend="both">Newspapers</cell>
+                        <cell rend="both">Technical mag.</cell>
+                        <cell rend="both">National assembly</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">% long words </cell>
+                        <cell rend="both"> 0.065 (0.015) </cell>
+                        <cell rend="both"> 0.109 (0.011) </cell>
+                        <cell rend="both"> 0.137 (0.029) </cell>
+                        <cell rend="both"> 0.146 (0.010) </cell>
+                        <cell rend="both"> 0.137 (0.046)</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Number of words </cell>
+                        <cell rend="both"> 5488 (6184) </cell>
+                        <cell rend="both"> 33966 (34821) </cell>
+                        <cell rend="both"> 12881 (84708) </cell>
+                        <cell rend="both"> 110875 (151007) </cell>
+                        <cell rend="both"> 58841 (106515)</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">% adjectives </cell>
+                        <cell rend="both"> 0.078 (0.016) </cell>
+                        <cell rend="both"> 0.111 (0.013) </cell>
+                        <cell rend="both"> 0.120 (0.020) </cell>
+                        <cell rend="both"> 0.120 (0.008) </cell>
+                        <cell rend="both"> 0.096 (0.022)</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">% verbs </cell>
+                        <cell rend="both"> 0.216 (0.026) </cell>
+                        <cell rend="both"> 0.170 (0.015) </cell>
+                        <cell rend="both"> 0.161 (0.034) </cell>
+                        <cell rend="both"> 0.144 (0.013) </cell>
+                        <cell rend="both"> 0.180 (0.044)</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">% unique words </cell>
+                        <cell rend="both"> 0.517 (0.077) </cell>
+                        <cell rend="both"> 0.375 (0.053) </cell>
+                        <cell rend="both"> 0.513 (0.114) </cell>
+                        <cell rend="both"> 0.244 (0.144) </cell>
+                        <cell rend="both"> 0.277 (0.173)</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Context of difficult words</cell>
+                        <cell rend="both"> 0.756 (0.054) </cell>
+                        <cell rend="both"> 0.834 (0.027) </cell>
+                        <cell rend="both"> 0.849 (0.133) </cell>
+                        <cell rend="both"> 0.808 (0.036) </cell>
+                        <cell rend="both"> 0.929 (0.044)</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">% difficult words </cell>
+                        <cell rend="both"> 0.464 (0.048) </cell>
+                        <cell rend="both"> 0.369 (0.022) </cell>
+                        <cell rend="both"> 0.356 (0.122) </cell>
+                        <cell rend="both"> 0.389 (0.032) </cell>
+                        <cell rend="both"> 0.280 (0.036)</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Gunning Fog Index</cell>
+                        <cell rend="both"> 9.950 (1.255) </cell>
+                        <cell rend="both"> 14.272 (1.271) </cell>
+                        <cell rend="both"> 18.662 (9.319) </cell>
+                        <cell rend="both"> 17.470 (0.800) </cell>
+                        <cell rend="both"> 15.901 (3.493)</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Flesch reading ease</cell>
+                        <cell rend="both"> 37.592 (4.989) </cell>
+                        <cell rend="both"> 23.855 (5.217) </cell>
+                        <cell rend="both"> 10.002 (24.128) </cell>
+                        <cell rend="both"> 12.520 (4.340) </cell>
+                        <cell rend="both"> 19.178 (13.098)</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Flesch–Kincaid grade level </cell>
+                        <cell rend="both"> 10.500 (0.894) </cell>
+                        <cell rend="both"> 13.596 (1.193) </cell>
+                        <cell rend="both"> 17.356 (8.959) </cell>
+                        <cell rend="both"> 15.999 (0.741) </cell>
+                        <cell rend="both"> 14.523 (2.761)</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Dale–Chall </cell>
+                        <cell rend="both"> 2.845 (0.425) </cell>
+                        <cell rend="both"> 4.036 (0.306) </cell>
+                        <cell rend="both"> 4.972 (1.270) </cell>
+                        <cell rend="both"> 4.941 (0.258) </cell>
+                        <cell rend="both"> 4.560 (0.971)</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Dale–Chall with word list</cell>
+                        <cell rend="both"> 7.781 (0.720) </cell>
+                        <cell rend="both"> 6.534 (0.357) </cell>
+                        <cell rend="both"> 6.643 (2.163) </cell>
+                        <cell rend="both"> 6.955 (0.484) </cell>
+                        <cell rend="both"> 5.208 (0.539)</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Spache readability formula </cell>
+                        <cell rend="both"> 6.217 (0.368) </cell>
+                        <cell rend="both"> 6.079 (0.348) </cell>
+                        <cell rend="both"> 6.977 (3.499) </cell>
+                        <cell rend="both"> 6.685 (0.323) </cell>
+                        <cell rend="both"> 5.482 (0.600)</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Automated readability index </cell>
+                        <cell rend="both"> 12.873 (1.086) </cell>
+                        <cell rend="both"> 16.117 (1.428) </cell>
+                        <cell rend="both"> 20.474 (11.456) </cell>
+                        <cell rend="both"> 19.007 (0.885) </cell>
+                        <cell rend="both"> 17.014 (3.371)</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">SMOG </cell>
+                        <cell rend="both"> 12.206 (0.759) </cell>
+                        <cell rend="both"> 15.095 (1.066) </cell>
+                        <cell rend="both"> 18.200 (2.757) </cell>
+                        <cell rend="both"> 17.194 (0.611) </cell>
+                        <cell rend="both"> 15.849 (2.500)</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">LIX </cell>
+                        <cell rend="both"> 33.676 (3.384) </cell>
+                        <cell rend="both"> 44.999 (3.282) </cell>
+                        <cell rend="both"> 56.016 (23.123) </cell>
+                        <cell rend="both"> 53.260 (2.077) </cell>
+                        <cell rend="both"> 47.909 (9.073)</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">RIX </cell>
+                        <cell rend="both"> 2.381 (0.496) </cell>
+                        <cell rend="both"> 4.481 (0.781) </cell>
+                        <cell rend="both"> 7.370 (3.836) </cell>
+                        <cell rend="both"> 6.354 (0.518) </cell>
+                        <cell rend="both"> 5.250 (2.574)</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Coleman-Liau index </cell>
+                        <cell rend="both"> 17.785 (1.120) </cell>
+                        <cell rend="both"> 19.823 (0.861) </cell>
+                        <cell rend="both"> 21.220 (1.807) </cell>
+                        <cell rend="both"> 21.762 (0.903) </cell>
+                        <cell rend="both"> 20.318 (2.170)</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Avg. morphological difficulty</cell>
+                        <cell rend="both"> 0.419 (0.017) </cell>
+                        <cell rend="both"> 0.428 (0.010) </cell>
+                        <cell rend="both"> 0.436 (0.044) </cell>
+                        <cell rend="both"> 0.441 (0.017) </cell>
+                        <cell rend="both"> 0.445 (0.026)</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Avg. sentence length</cell>
+                        <cell rend="both"> 8.353 (0.820) </cell>
+                        <cell rend="both"> 13.389 (2.843) </cell>
+                        <cell rend="both"> 21.120 (4.043) </cell>
+                        <cell rend="both"> 18.641 (1.960) </cell>
+                        <cell rend="both"> 19.063 (3.826)</cell>
+                    </row>
+                </table>
+                <p>Using these results, we calculated the Bhattacharyya distance between the
+                    distributions of Children's magazines and newspapers for each score. The
+                    Bhattacharyya distance measures the similarity between two statistical
+                    distributions. We assumed the scores were distributed normally, as the results
+                    shown in Figure 1 show that the scores approximately follow a normal
+                    distribution, and calculated the distance using the following formula: <formula
+                        notation="MathML">
+                        <mml:math display="block">
+                            <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                <mrow>
+                                    <mi>D</mi>
+                                </mrow>
+                                <mrow>
+                                    <mi>B</mi>
+                                </mrow>
+                            </msub>
+                            <mfenced xmlns="http://www.w3.org/1998/Math/MathML" separators="|">
+                                <mrow>
+                                    <mi>p</mi>
+                                    <mo>,</mo>
+                                    <mi> </mi>
+                                    <mi>q</mi>
+                                </mrow>
+                            </mfenced>
+                            <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                            <mfrac xmlns="http://www.w3.org/1998/Math/MathML">
+                                <mrow>
+                                    <mn>1</mn>
+                                </mrow>
+                                <mrow>
+                                    <mn>4</mn>
+                                </mrow>
+                            </mfrac>
+                            <mrow xmlns="http://www.w3.org/1998/Math/MathML">
+                                <mrow>
+                                    <mi mathvariant="normal">ln</mi>
+                                </mrow>
+                                <mo>⁡</mo>
+                                <mrow>
+                                    <mfenced open="[" close="]" separators="|">
+                                        <mrow>
+                                            <mfrac>
+                                                <mrow>
+                                                  <mn>1</mn>
+                                                </mrow>
+                                                <mrow>
+                                                  <mn>4</mn>
+                                                </mrow>
+                                            </mfrac>
+                                            <mfenced separators="|">
+                                                <mrow>
+                                                  <mfrac>
+                                                  <mrow>
+                                                  <msubsup>
+                                                  <mrow>
+                                                  <mi>σ</mi>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mi>p</mi>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mn>2</mn>
+                                                  </mrow>
+                                                  </msubsup>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <msubsup>
+                                                  <mrow>
+                                                  <mi>σ</mi>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mi>q</mi>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mn>2</mn>
+                                                  </mrow>
+                                                  </msubsup>
+                                                  </mrow>
+                                                  </mfrac>
+                                                  <mo>+</mo>
+                                                  <mfrac>
+                                                  <mrow>
+                                                  <msubsup>
+                                                  <mrow>
+                                                  <mi>σ</mi>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mi>q</mi>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mn>2</mn>
+                                                  </mrow>
+                                                  </msubsup>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <msubsup>
+                                                  <mrow>
+                                                  <mi>σ</mi>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mi>p</mi>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mn>2</mn>
+                                                  </mrow>
+                                                  </msubsup>
+                                                  </mrow>
+                                                  </mfrac>
+                                                  <mo>+</mo>
+                                                  <mn>2</mn>
+                                                </mrow>
+                                            </mfenced>
+                                        </mrow>
+                                    </mfenced>
+                                    <mo>+</mo>
+                                    <mfrac>
+                                        <mrow>
+                                            <mn>1</mn>
+                                        </mrow>
+                                        <mrow>
+                                            <mn>4</mn>
+                                        </mrow>
+                                    </mfrac>
+                                    <mfenced separators="|">
+                                        <mrow>
+                                            <mfrac>
+                                                <mrow>
+                                                  <msup>
+                                                  <mrow>
+                                                  <mfenced separators="|">
+                                                  <mrow>
+                                                  <msub>
+                                                  <mrow>
+                                                  <mi>μ</mi>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mi>p</mi>
+                                                  </mrow>
+                                                  </msub>
+                                                  <mo>-</mo>
+                                                  <msub>
+                                                  <mrow>
+                                                  <mi>μ</mi>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mi>q</mi>
+                                                  </mrow>
+                                                  </msub>
+                                                  </mrow>
+                                                  </mfenced>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mn>2</mn>
+                                                  </mrow>
+                                                  </msup>
+                                                </mrow>
+                                                <mrow>
+                                                  <msubsup>
+                                                  <mrow>
+                                                  <mi>σ</mi>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mi>p</mi>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mn>2</mn>
+                                                  </mrow>
+                                                  </msubsup>
+                                                  <mo>+</mo>
+                                                  <msubsup>
+                                                  <mrow>
+                                                  <mi>σ</mi>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mi>q</mi>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mn>2</mn>
+                                                  </mrow>
+                                                  </msubsup>
+                                                </mrow>
+                                            </mfrac>
+                                        </mrow>
+                                    </mfenced>
+                                </mrow>
+                            </mrow>
+                        </mml:math>
+                    </formula></p>
+                <p>We also show the Bhattacharyya coefficient, which measures the overlap between
+                    two statistical distributions and can be calculated as: <formula
+                        notation="MathML">
+                        <mml:math display="block">
+                            <mi xmlns="http://www.w3.org/1998/Math/MathML">BC</mi>
+                            <mfenced xmlns="http://www.w3.org/1998/Math/MathML" separators="|">
+                                <mrow>
+                                    <mi>p</mi>
+                                    <mo>,</mo>
+                                    <mi> </mi>
+                                    <mi>q</mi>
+                                </mrow>
+                            </mfenced>
+                            <mo xmlns="http://www.w3.org/1998/Math/MathML">=</mo>
+                            <msup xmlns="http://www.w3.org/1998/Math/MathML">
+                                <mrow>
+                                    <mi>e</mi>
+                                </mrow>
+                                <mrow>
+                                    <mo>(</mo>
+                                    <mo>-</mo>
+                                    <msub>
+                                        <mrow>
+                                            <mi>D</mi>
+                                        </mrow>
+                                        <mrow>
+                                            <mi>B</mi>
+                                        </mrow>
+                                    </msub>
+                                    <mfenced separators="|">
+                                        <mrow>
+                                            <mi>p</mi>
+                                            <mo>,</mo>
+                                            <mi> </mi>
+                                            <mi>q</mi>
+                                        </mrow>
+                                    </mfenced>
+                                    <mo>)</mo>
+                                </mrow>
+                            </msup>
+                        </mml:math>
+                    </formula></p>
+                <p>The results are presented in Table 3. These results are similar to the ones shown
+                    in Figure 2, with the readability formulas using the list of difficult words
+                    showing less dichotomization power. The largest distance is obtained using
+                    average sentence lengths.</p>
+                <table rend="border">
+                    <head>Table 3: The Bhattacharyya distances and coefficients between the
+                        distributions of scores for children's magazines and newspapers for each
+                        readability measure. The results are sorted by decreasing distance.</head>
+                    <row role="label">
+                        <cell rend="both">Measure</cell>
+                        <cell rend="both">Distance</cell>
+                        <cell rend="both">Coefficient</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Average sentence length </cell>
+                        <cell rend="both"><hi rend="bold"> 2.866 </hi></cell>
+                        <cell rend="both"><hi rend="bold"> 0.057 </hi></cell>
+                    </row>
+                    <row>
+                        <cell rend="both">SMOG </cell>
+                        <cell rend="both"> 1.433 </cell>
+                        <cell rend="both"> 0.239 </cell>
+                    </row>
+                    <row>
+                        <cell rend="both">% long words </cell>
+                        <cell rend="both"> 1.350 </cell>
+                        <cell rend="both"> 0.259</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">RIX </cell>
+                        <cell rend="both"> 1.101 </cell>
+                        <cell rend="both"> 0.333</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Flesch-Kincaid grade level </cell>
+                        <cell rend="both"> 0.956 </cell>
+                        <cell rend="both"> 0.385</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Automated readability index </cell>
+                        <cell rend="both"> 0.945 </cell>
+                        <cell rend="both"> 0.389</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Dale-Chall readability formula </cell>
+                        <cell rend="both"> 0.885 </cell>
+                        <cell rend="both"> 0.413</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Gunning fog index </cell>
+                        <cell rend="both"> 0.880 </cell>
+                        <cell rend="both"> 0.415</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">LIX </cell>
+                        <cell rend="both"> 0.853 </cell>
+                        <cell rend="both"> 0.426</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Spache readability formula </cell>
+                        <cell rend="both"> 0.797 </cell>
+                        <cell rend="both"> 0.451 </cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Flesch reading ease </cell>
+                        <cell rend="both"> 0.776 </cell>
+                        <cell rend="both"> 0.460</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">% adjectives </cell>
+                        <cell rend="both"> 0.719 </cell>
+                        <cell rend="both"> 0.487</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Coleman-Liau index </cell>
+                        <cell rend="both"> 0.708 </cell>
+                        <cell rend="both"> 0.493</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">% verbs </cell>
+                        <cell rend="both"> 0.432 </cell>
+                        <cell rend="both"> 0.649</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">% difficult words </cell>
+                        <cell rend="both"> 0.365 </cell>
+                        <cell rend="both"> 0.694 </cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Dale-Chall with word list </cell>
+                        <cell rend="both"> 0.318 </cell>
+                        <cell rend="both"> 0.728 </cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Context of difficult words </cell>
+                        <cell rend="both"> 0.285 </cell>
+                        <cell rend="both"> 0.752 </cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Avg. morphological difficulty </cell>
+                        <cell rend="both"> 0.235 </cell>
+                        <cell rend="both"> 0.790 </cell>
+                    </row>
+                    <row>
+                        <cell rend="both">% unique words </cell>
+                        <cell rend="both"> 0.039 </cell>
+                        <cell rend="both"> 0.961</cell>
+                    </row>
+                </table>
+            </div>
+            <div>
+                <head>Additional statistical tests</head>
+                <p>In addition to the initial analysis presented in the previous section, we
+                    performed additional, more thorough statistical tests to determine which of the
+                    evaluated measures are better at predicting the group a text belongs to. We used
+                    the following approaches:</p>
+                <list type="unordered">
+                    <item><hi rend="bold">Mutual information.</hi> This measure reports the amount
+                        of information we get about a random variable <hi rend="italic">Y</hi> by
+                        observing another random variable <hi rend="italic">X</hi>. In our case,
+                        mutual information reports the amount of information we get about the group
+                        of texts by knowing a score of certain readability measure. Mutual
+                        information is defined as: <formula notation="MathML">
+                            <mml:math display="block">
+                                <msub xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mo>∑</mo>
+                                    <mrow>
+                                        <mi>y</mi>
+                                        <mo>∈</mo>
+                                        <mi>Y</mi>
+                                    </mrow>
+                                </msub>
+                                <mrow xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <msub>
+                                        <mo>∑</mo>
+                                        <mrow>
+                                            <mi>x</mi>
+                                            <mo>∈</mo>
+                                            <mi>X</mi>
+                                        </mrow>
+                                    </msub>
+                                    <mrow>
+                                        <mi>p</mi>
+                                        <mfenced separators="|">
+                                            <mrow>
+                                                <mi>x</mi>
+                                                <mo>,</mo>
+                                                <mi> </mi>
+                                                <mi>y</mi>
+                                            </mrow>
+                                        </mfenced>
+                                        <mi>l</mi>
+                                        <mi>o</mi>
+                                        <mi>g</mi>
+                                        <mfenced separators="|">
+                                            <mrow>
+                                                <mfrac>
+                                                  <mrow>
+                                                  <mi>p</mi>
+                                                  <mfenced separators="|">
+                                                  <mrow>
+                                                  <mi>x</mi>
+                                                  <mo>,</mo>
+                                                  <mi>y</mi>
+                                                  </mrow>
+                                                  </mfenced>
+                                                  </mrow>
+                                                  <mrow>
+                                                  <mi>p</mi>
+                                                  <mfenced separators="|">
+                                                  <mrow>
+                                                  <mi>x</mi>
+                                                  </mrow>
+                                                  </mfenced>
+                                                  <mi>p</mi>
+                                                  <mfenced separators="|">
+                                                  <mrow>
+                                                  <mi>y</mi>
+                                                  </mrow>
+                                                  </mfenced>
+                                                  </mrow>
+                                                </mfrac>
+                                            </mrow>
+                                        </mfenced>
+                                    </mrow>
+                                </mrow>
+                                <mml:mtext>,</mml:mtext>
+                            </mml:math>
+                        </formula> where p(x) and p(y) are the marginal probability distribution
+                        functions of <hi rend="italic">X</hi> and <hi rend="italic">Y</hi> and p(x,
+                        y) is the joint probability function of <hi rend="italic">X</hi> and <hi
+                            rend="italic">Y.</hi> In our case, X represents the distributions of
+                        readability measures and Y the distribution of groups. The higher the mutual
+                        information between the readability measure and the groups, the more useful
+                        the measure for determining the group membership.</item>
+                    <item><hi rend="bold">Analysis of variance (ANOVA). </hi>This measure first
+                        splits samples of a statistical distribution into several groups (in our
+                        case, based on the group the texts belong to) and then calculates if the
+                        groups are significantly different from one another. We use this measure to
+                        determine if the distributions obtained by calculating a single measure on
+                        each group of texts are significantly different. If they are, they can be
+                        useful for determining the group membership of a given text. </item>
+                    <item><hi rend="bold">Feature selection using a chi-squared test.</hi> Similarly
+                        to mutual information, we use the chi-squared test to determine whether the
+                        readability measures and the group memberships are mutually dependent. If
+                        they are, this indicates that knowing the value of the readability measure
+                        is useful when determining which group a text belongs to.</item>
+                </list>
+                <p>In addition to the four statistical tests used above, we also ranked each feature
+                    using a random forest classifier (<ref target="#Breiman.2001">Breiman
+                    2001</ref>). The classifier is capable of automatically combining different
+                    readability measures in order to predict which subcorpus a given text belongs to
+                    and is also capable of calculating how important each readability measure was
+                    when making the prediction. The classifier is described in more detail in the
+                    next section. Using each of these tests, we obtained scores that tell us how
+                    useful each readability measure is when trying to predict the subcorpus it came
+                    from. The results are presented in Table 4, with higher scores indicating better
+                    (more informative) readability measures.</p>
+                <table rend="border">
+                    <head>Table 4: The ranks of readability measures obtained by the statistical
+                        tests, which report the usefulness of readability measures for predicting
+                        group membership. The measures are ordered from the most useful to the least
+                        useful.</head>
+                    <row role="label">
+                        <cell rend="left">Random Forest</cell>
+                        <cell rend="left">ANOVA</cell>
+                        <cell rend="left">Mutual information</cell>
+                        <cell rend="left">Chi2</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Average sentence length</cell>
+                        <cell rend="left">Average sentence length</cell>
+                        <cell rend="left">Average sentence length</cell>
+                        <cell rend="left">% new words</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">% new words</cell>
+                        <cell rend="left">% difficult words SPG</cell>
+                        <cell rend="left">RIX</cell>
+                        <cell rend="left">Number of words</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Number of words</cell>
+                        <cell rend="left">% long words</cell>
+                        <cell rend="left">SMOG</cell>
+                        <cell rend="left">% unique words</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">% unique words</cell>
+                        <cell rend="left">SMOG</cell>
+                        <cell rend="left">Percentage of new words</cell>
+                        <cell rend="left">Flesch reading ease</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">% difficult words SPG</cell>
+                        <cell rend="left">Dale-Chall</cell>
+                        <cell rend="left">Automated readability index</cell>
+                        <cell rend="left">LIX</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Gunning fog index</cell>
+                        <cell rend="left">Percentage of adjectives</cell>
+                        <cell rend="left">Gunning fog index</cell>
+                        <cell rend="left">Average sentence length</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Percentage of verbs</cell>
+                        <cell rend="left">Coleman-Liau index</cell>
+                        <cell rend="left">LIX</cell>
+                        <cell rend="left">% difficult words</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">RIX</cell>
+                        <cell rend="left">Percentage of unique words</cell>
+                        <cell rend="left">Number of words</cell>
+                        <cell rend="left">Gunning fog index</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Dale-Chall (word list)</cell>
+                        <cell rend="left">RIX</cell>
+                        <cell rend="left">Flesch-Kincaid grade level</cell>
+                        <cell rend="left">Automated readability index</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">SMOG</cell>
+                        <cell rend="left">% verbs</cell>
+                        <cell rend="left">Flesch reading ease</cell>
+                        <cell rend="left">% difficult words SPG</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">LIX</cell>
+                        <cell rend="left">Flesch reading ease</cell>
+                        <cell rend="left">Dale-Chall</cell>
+                        <cell rend="left">Flesch-Kincaid grade level</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Flesch-Kincaid grade level</cell>
+                        <cell rend="left">Context of difficult words</cell>
+                        <cell rend="left">% unique words</cell>
+                        <cell rend="left">SMOG</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Context of difficult words</cell>
+                        <cell rend="left">LIX</cell>
+                        <cell rend="left">% long words</cell>
+                        <cell rend="left">RIX</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Dale-Chall</cell>
+                        <cell rend="left">Gunning fog index</cell>
+                        <cell rend="left">% difficult words</cell>
+                        <cell rend="left">Coleman-Liau index</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">% long words</cell>
+                        <cell rend="left">Flesch-Kincaid grade level</cell>
+                        <cell rend="left">% difficult words SPG</cell>
+                        <cell rend="left">Dale-Chall</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">% difficult words</cell>
+                        <cell rend="left">% difficult words</cell>
+                        <cell rend="left">Spache readability formula</cell>
+                        <cell rend="left">Spache readability formula</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Avg morphological difficulty</cell>
+                        <cell rend="left">Automated readability index</cell>
+                        <cell rend="left">Context of difficult words</cell>
+                        <cell rend="left">Dale-Chall (word list)</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Automated readability index</cell>
+                        <cell rend="left">% new words</cell>
+                        <cell rend="left">Coleman-Liau index</cell>
+                        <cell rend="left">% long words</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">% adjectives</cell>
+                        <cell rend="left">Number of words</cell>
+                        <cell rend="left">% verbs</cell>
+                        <cell rend="left">Context of difficult words</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Flesch reading ease</cell>
+                        <cell rend="left">Dale-Chall (word list)</cell>
+                        <cell rend="left">% adjectives</cell>
+                        <cell rend="left">% verbs</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Spache readability formula</cell>
+                        <cell rend="left">Spache readability formula</cell>
+                        <cell rend="left">Dale-Chall (word list)</cell>
+                        <cell rend="left">% adjectives</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Coleman-Liau index</cell>
+                        <cell rend="left">Avg morphological difficulty</cell>
+                        <cell rend="left">Avg morphological difficulty</cell>
+                        <cell rend="left">Avg morphological difficulty</cell>
+                    </row>
+                </table>
+                <p>The results of the statistical tests show that the features commonly used by the
+                    readability formulas (i.e. an average sentence length and number of long words)
+                    are useful when it comes to determining group membership. In particular, the
+                    average sentence length stands out since it is ranked as the most important
+                    measure in three out of the four tests. At least one of either LIX or RIX is
+                    also highly ranked (in the top 50% of all measures) by all the tests. Those
+                    measures are the only ones from the tested measures that were not designed
+                    specifically for English, which could be one of the reasons why they perform
+                    better on Slovene texts. The results also show that a number of proposed simpler
+                    readability criteria, such as the percentage of verbs, percentage of adjectives,
+                    and the average morphological difficulty are less useful than the established
+                    statistical formulas. The results are inconclusive about the most useful
+                    readability criterion for Slovene. Several formulas and statistics are useful,
+                    but the rankings are different by different tests. When using our list of common
+                    words Dale-Chall and Spache readability formulas are again shown to perform
+                    worse than the formulas that consider long words as difficult.</p>
+            </div>
+            <div>
+                <head>Classification results</head>
+                <p>In addition to statistical evaluation, we also performed a test with machine
+                    learning classifiers (<ref target="#Kononenko.2007">Kononenko and Kukar
+                        2007</ref>) to see whether we could use our readability measures to predict
+                    which subcorpus a text belongs to. With classification models, we can
+                    automatically learn how to split the texts into different subcorpora based on
+                    readability formulas and other readability criteria. We used the following
+                    classification models.</p>
+                <list type="unordered">
+                    <item><hi rend="bold">Decision trees</hi> construct a binary decision tree where
+                        each node splits the training set based on one readability measure. The
+                        trained tree can predict the subcorpus of a given text.</item>
+                    <item><hi rend="bold">Random forests (<ref target="#Breiman.2001">Breiman
+                                2001</ref>)</hi> create multiple decision trees in a random manner.
+                        This reduces the variance of a model and often gives better prediction
+                        accuracy than using a single decision tree. </item>
+                    <item><hi rend="bold">Naive Bayes</hi> is a probabilistic model based on the
+                        Bayes’ theorem. The model assumes that the readability measures are
+                        independent.</item>
+                    <item><hi rend="bold">Extreme gradient boosting (<ref target="#Chen.2016">Chen
+                                and Carlos 2016</ref>)</hi> constructs a large number of simple
+                        classifiers and combines them to achieve state-of-the-art results on many
+                        classification problems.</item>
+                </list>
+                <p>In order to use classification models, we first train them on a training subset
+                    of our data set. We used randomly selected 75% of our data set for the training.
+                    To evaluate the models, we calculated the classification accuracy (i.e. the
+                    percentage of texts each model predicted correctly) on the remaining 25% of the
+                    data set. The obtained results are presented in Table 5. The results obtained by
+                    the majority classifier (i.e. classifying everything as the most frequent group)
+                    are presented as a baseline score.</p>
+                <table rend="border">
+                    <head>Table 5: The classification accuracies for each of the models. The numbers
+                        show the percentage of texts for which the group membership was correctly
+                        predicted.</head>
+                    <row role="label">
+                        <cell rend="left">Model</cell>
+                        <cell rend="left">Classification Accuracy</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Random Forest</cell>
+                        <cell rend="left"><hi rend="bold">0.984</hi></cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Extreme Gradient Boosting</cell>
+                        <cell rend="left">0.979</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Decision Tree</cell>
+                        <cell rend="left">0.960</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Majority Classifier</cell>
+                        <cell rend="left">0.791</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Naive Bayes</cell>
+                        <cell rend="left">0.553</cell>
+                    </row>
+                </table>
+                <p>Table 5 shows that we are able to predict the correct group of a text with high
+                    accuracy, over 98% with the best-performing model (Random forest). This shows
+                    that a combination of readability measures that we evaluated in this paper can
+                    be used to accurately distinguish between different groups of text.</p>
+            </div>
+            <div>
+                <head>Conclusion and future work</head>
+                <p>We analyzed statistical distributions of well-known readability measures on
+                    Slovene texts. We extracted five subcorpora of texts from the Gigafida corpus
+                    with commonly perceived different readability levels: children magazines,
+                    popular magazines, newspapers, technical magazines, and national assembly texts.
+                    We find that the readability formulas are able to distinguish between these
+                    subcorpora reasonably well, with the exception of national assembly texts, which
+                    are of a different, spoken, genre and the used measures were not originally
+                    designed to handle it. A number of simple readability statistics, such as the
+                    context of difficult words and average sentence length, also dichotomize the
+                    different subcorpora of text.</p>
+                <p>In this work, we only focused on simple readability formulas along with some
+                    additional readability criteria. There exist several more complex methods for
+                    evaluating the complexity of texts, such as the one presented in <ref
+                        target="#Lu.2009">Lu (2009)</ref> and <ref target="#Wiersma.2010">Wiersma et
+                        al. (2010)</ref>. Such advanced methods might be more suitable for Slovene
+                    texts than the simple methods used in this paper, and we plan to test them in
+                    future work.</p>
+                <p>Most of the used English readability formulas were designed to correlate with
+                    school grades and were initially tuned on that domain. For Slovene, there
+                    currently is no publicly available data set with texts tagged according to the
+                    appropriate grade level. This disallows analysis of the readability measures
+                    from this perspective. In future work, we plan to prepare such a corpus and
+                    design several readability scores fit for different purposes. This will allow us
+                    to frame text complexity as a classification problem with the goal of predicting
+                    the grade level of a text instead of predicting its group membership. In a
+                    similar approach, experts would annotate texts with readability scores. This
+                    would allow us to fit a regression model using the readability measures analyzed
+                    in this paper.</p>
+                <p>Another area that we plan to explore is the use of coherence and cohesion
+                    measures (<ref target="#Barzilay.2008">Barzilay and Lapata 2008</ref>; <ref
+                        target="#Crossley.2016">Crossley et al. 2016</ref>), which are used to
+                    determine if words, sentences, and paragraphs are logically connected. Coherence
+                    and cohesion methods usually use machine learning approaches that mostly rely on
+                    language-specific features and shall be therefore evaluated on Slovene texts.
+                    The same applies to readability measures based on machine learning (<ref
+                        target="#François.2012">Francois and Miltsakaki 2012</ref>) which we also
+                    plan to analyze in the future.</p>
+            </div>
+            <div>
+                <head>Acknowledgments</head>
+                <p>The research was financially supported by the Slovenian Research Agency through
+                    project J6-8256 (New grammar of contemporary standard Slovene: sources and
+                    methods), project J5-7387 (Influence of formal and informal corporate
+                    communications on capital markets), a young researcher grant, research core
+                    fundings no. P6-0411 and P2-0103; Republic of Slovenia, Ministry of Education,
+                    Science and Sport/European social fund/European fund for regional
+                    development/European cohesion fund (project Quality of Slovene textbooks, KaUč).
+                    This work has received funding from the European Union’s Horizon 2020 research
+                    and innovation programme under grant agreement No 825153 (EMBEDDIA).</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Sources and literature</head>
+                <listBibl>
+                    <head>Literature:</head>
+                    <bibl xml:id="Anderson.1983">Anderson, Jonathan. 1983. “LIX and RIX: Variations
+                        on a little-known readability index.” <hi rend="italic">Journal of
+                            Reading</hi> 26, No. 6: 490-96.</bibl>
+                    <bibl xml:id="ArharHoldt.2009">Arhar Holdt, Špela. 2009. “Učni korpus SSJ in
+                        leksikon besednih oblik za slovenščino.” <hi rend="italic">Jezik in
+                            slovstvo</hi> 54, No. 3-4: 43-56.</bibl>
+                    <bibl xml:id="Bailin.2016">Bailin, Alan, and Ann Grafstein. 2016. <hi
+                            rend="italic">Readability: Text and context</hi>. Springer.</bibl>
+                    <bibl xml:id="Barzilay.2008">Barzilay, Regina, and Mirella Lapata. 2008.
+                        “Modeling local coherence: An entity-based approach.” <hi rend="italic"
+                            >Computational Linguistics</hi> 34, No. 1: 1-34.</bibl>
+                    <bibl xml:id="Björnsson.1968">Björnsson, Carl Hugo. 1968. <hi rend="italic"
+                            >Läsbarhet</hi>. Liber. </bibl>
+                    <bibl xml:id="Breiman.2001">Breiman, Leo. 2001. “Random forests.” <hi
+                            rend="italic">Machine learning</hi> 45, No. 1: 5-32.</bibl>
+                    <bibl xml:id="Chen.2016">Chen, Tianqi, and Carlos Guestrin. 2016. “Xgboost: A
+                        scalable tree boosting system.” In <hi rend="italic">Proceedings of the
+                            22</hi><hi rend="italic superscript">nd</hi><hi rend="italic"> ACM
+                            SIGKDD international conference on knowledge discovery and data
+                            mining</hi>, 785-794. ACM.</bibl>
+                    <bibl xml:id="Coleman.1975">Coleman, Meri, and Ta Lin Liau. 1975. “A computer
+                        readability formula designed for machine scoring.” <hi rend="italic">Journal
+                            of Applied Psychology</hi> 60, No. 2: 283.</bibl>
+                    <bibl xml:id="Crossley.2016">Crossley, Scott A., Kristopher Kyle, and Danielle
+                        S. McNamara. 2016. “The tool for the automatic analysis of text cohesion
+                        (TAACO): Automatic assessment of local, global, and text cohesion.” <hi
+                            rend="italic">Behavior research methods</hi> 48, No. 4: 1227-37.</bibl>
+                    <bibl xml:id="Dale.1948">Dale, Edgar, and Jeanne S. Chall. 1948. “A formula for
+                        predicting readability: Instructions.” <hi rend="italic">Educational
+                            research bulletin</hi>: 37-54.</bibl>
+                    <bibl xml:id="Dębowski.2015">Dębowski, Łukasz, Bartosz Broda, Bartłomiej Nitoń,
+                        and Edyta Charzyńska. 2015. “Jasnopis–A Program to Compute Readability of
+                        Texts in Polish Based on Psycholinguistic Research.” In <hi rend="italic"
+                            >Natural Language Processing and Cognitive Science</hi>, edited by B.
+                        Sharp, W Lubaszewski and R. Delmonte, 51-61. Liberia Editrice Cafoscarina. </bibl>
+                    <bibl xml:id="Fišer.2014">Fišer, Darja, Tomaž Erjavec, Ana Zwitter Vitez, and
+                        Nikola Ljubešić. 2014. “JANES se predstavi: metode, orodja in viri za
+                        nestandardno pisno spletno slovenščino.” In <hi rend="italic">Language
+                            technologies : proceedings of the 17th International Multiconference
+                            Information Society - IS 2014</hi>, edited by Tomaž Erjavec and Jerneja
+                        Žganec Gros, 56-61. Ljubljana: Jožef Stefan Institute. </bibl>
+                    <bibl xml:id="François.2012">François, Thomas, and Eleni Miltsakaki. 2012. “Do
+                        NLP and machine learning improve traditional readability formulas?” In <hi
+                            rend="italic">Proceedings of the First Workshop on Predicting and
+                            Improving Text Readability for target reader populations</hi>, edited by
+                        Sandra Williams, Advaith Siddharthan and Ani Nenkova, 49-57. Association for
+                        Computational Linguistics. </bibl>
+                    <bibl xml:id="Grčar.2012">Grčar, Miha, Simon Krek, and Kaja Dobrovoljc. 2012.
+                        “Obeliks: statisticni oblikoskladenjski oznacevalnik in lematizator za
+                        slovenski jezik.” In <hi rend="italic">Proceedings of the Eighth Language
+                            Technologies Conference, </hi>edited by Tomaž Erjavec and Jerneja Žganec
+                        Gros, 89-94. Ljubljana: Jožef Stefan Institute. </bibl>
+                    <bibl xml:id="Gunning.1952">Gunning, Robert. 1952. <hi rend="italic">The
+                            technique of clear writing</hi>. McGraw-Hill.</bibl>
+                    <bibl xml:id="Justin.2003">Justin, J. 2003. <hi rend="italic">Učbenik kot
+                            dejavnik uspešnosti kurikularne prenove: poročilo o rezultatih
+                            evalvacijske študije.</hi></bibl>
+                    <bibl xml:id="Kilgarriff.2014">Kilgarriff, Adam, Frieda Charalabopoulou, Maria
+                        Gavrilidou, Janne Bondi Johannessen, Saussan Khalil, Sofie Johansson
+                        Kokkinakis, Robert Lew, Serge Sharoff, Ravikiran Vadlapudi, and Elena
+                        Volodina. 2014. “Corpus-based vocabulary lists for language learners for
+                        nine languages.” <hi rend="italic">Language resources and evaluation</hi>
+                        48, No. 1: 121-63.</bibl>
+                    <bibl xml:id="Kincaid.1975">Kincaid, J. Peter, Robert P. Fishburne Jr, Richard
+                        L. Rogers, and Brad S. Chissom. 1975. <hi rend="italic">Derivation of new
+                            readability formulas (Automated Readability Index, Fog Count and Flesch
+                            Reading Ease formula) for navy enlisted personnel</hi>. Report No.
+                        8-75.</bibl>
+                    <bibl xml:id="Kononenko.2007">Kononenko, Igor, and Matjaž Kukar. 2007. <hi
+                            rend="italic">Machine learning and data mining</hi>. Chichester, Horwood
+                        Publishing.</bibl>
+                    <bibl xml:id="Kosem.2011">Kosem, Iztok, Tadeja Rozman, and Mojca Stritar. 2011.
+                        “How do Slovenian primary and secondary school students write and what their
+                        teachers correct: A corpus of student writing.” In <hi rend="italic"
+                            >Proceedings of Corpus Linguistics Conference 2011, ICC Birmingham</hi>,
+                        20-22.</bibl>
+                    <bibl xml:id="LogarBerginc.2009">Logar Berginc, Nataša, and Simon Šuster. 2009.
+                        “Gradnja novega korpusa slovenščine.” <hi rend="italic">Jezik in
+                            slovstvo</hi> 54: 57-68.</bibl>
+                    <bibl xml:id="LogarBerginc.2012">Logar Berginc, Nataša, Miha Grčar, Marko
+                        Brakus, Tomaž Erjavec, Špela Arhar Holdt, Simon Krek, and Iztok Kosem. 2012.
+                            <hi rend="italic">Korpusi slovenskega jezika Gigafida, KRES, ccGigafida
+                            in ccKRES: gradnja, vsebina, uporaba</hi>. Ljubljana: Trojina, zavod za
+                        uporabno slovenistiko and Faculty of Social Sciences.</bibl>
+                    <bibl xml:id="Lu.2009">Lu, Xiaofei. 2009. “Automatic measurement of syntactic
+                        complexity in child language acquisition.” <hi rend="italic">International
+                            Journal of Corpus Linguistics</hi> 14, No. 1: 3-28.</bibl>
+                    <bibl xml:id="McLaughlin.1969">Mc Laughlin, G. Harry. 1969. “SMOG grading - a
+                        new readability formula.” <hi rend="italic">Journal of reading</hi> 12, No.
+                        8: 639-46.</bibl>
+                    <bibl xml:id="Senter.1967">Senter, R. J., and Edgar A. Smith. 1967. <hi
+                            rend="italic">Automated readability index</hi>. Ohio; University of
+                        Cincinnati. </bibl>
+                    <bibl xml:id="Sherman.1893">Sherman, Lucius Adelno. 1893. <hi rend="italic"
+                            >Analytics of literature: A manual for the objective study of English
+                            prose and poetry</hi>. Boston: Ginn.</bibl>
+                    <bibl xml:id="Škvorc.2018">Škvorc, Tadej, Simon Krek, Senja Pollak, Špela Arhar
+                        Holdt, and Marko Robnik-Šikonja. 2018. “Evaluation of Statistical
+                        Readability Measures on Slovene texts.” In <hi rend="italic">Proceedings of
+                            the conference on Language Technologies &amp; Digital Humanities
+                            2018,</hi> edited by Darja Fišer and Andrej Pančur, 240-47<hi
+                            rend="italic">.</hi> Ljubljana: Ljubljana University Press, Faculty of
+                        Arts.</bibl>
+                    <bibl xml:id="Spache.1953">Spache, George. 1953. “A new readability formula for
+                        primary-grade reading materials.” <hi rend="italic">The Elementary School
+                            Journal</hi> 53, No. 7: 410-13.</bibl>
+                    <bibl xml:id="Verdonik.2011">Verdonik, Darinka, Ana Zwitter Vitez, and Hotimir
+                        Tivadar. 2011. <hi rend="italic">Slovenski govorni korpus Gos</hi>. Trojina,
+                        zavod za uporabno slovenistiko.</bibl>
+                    <bibl xml:id="Wiersma.2010">Wiersma, Wybo, John Nerbonne, and Timo Lauttamus.
+                        2010. “Automatically extracting typical syntactic differences from corpora.”
+                            <hi rend="italic">Literary and Linguistic Computing</hi> 26, No. 1:
+                        107-24.</bibl>
+                    <bibl xml:id="ZwitterVitez.2014">Zwitter Vitez, Ana. 2014. “Ugotavljanje
+                        avtorstva besedil: primer »Trenirkarjev«.” In <hi rend="italic">zbornik
+                            Devete konference Jezikovne Tehnologije Informacijska družba – IS</hi>,
+                        edited by Tomaž Erjavec and Jerneja Žganec Gros, 131-34. Ljubljana: Jožef
+                        Stefan Institute. </bibl>
+                </listBibl>
+            </div>
+            <div type="summary">
+                <docAuthor>Tadej Škvorc</docAuthor>
+                <docAuthor>Simon Krek</docAuthor>
+                <docAuthor>Senja Pollak</docAuthor>
+                <docAuthor>Špela Arhar Holdt</docAuthor>
+                <docAuthor>Marko Robnik-Šikonja</docAuthor>
+                <head><hi rend="allcaps">Predicting Slovene text complexity using readability
+                        measures</hi></head>
+                <head><hi rend="allcaps">SUMMARY</hi></head>
+                <p>In English, the problem of determining text readability (i.e. how easy a text is
+                    to understand) has long been a topic of research, with its origins in the 19th
+                    century. Since then, many different methods and readability measures have been
+                    developed, often with the goal of determining whether a text is too difficult
+                    for its target age group. Even though the question of readability is complex
+                    from a linguistic standpoint, a large majority of existing measures are based on
+                    simple heuristics. Since most of these measures were developed for English
+                    texts, it is hard to say how well they would perform on Slovene texts. Measures
+                    designed for English are designed to correspond with the American school system,
+                    are sometimes based on pre-constructed lists of easy words which do not exist
+                    for Slovene and do not take into account morphological information when
+                    determining whether a word is difficult or not. </p>
+                <p>In our work, we analyze some common readability measures on Slovene text. We also
+                    introduce and analyze two additional readability criteria that do not appear in
+                    any of the analyzed readability measures: <hi rend="bold">morphological
+                        difficulty</hi>, where we assume word forms that appear rarely are harder to
+                    understand than the ones that appear commonly and the <hi rend="bold">context of
+                        difficult words, </hi>where we assume difficult words are easier to
+                    understand in a context of simple words, as their meaning can be inferred from
+                    that context. We performed the analysis on 14,581 text documents from the
+                    Gigafida corpus, which were split into five groups based on their target
+                    audience (childrens’ magazines, pop magazines, newspaper articles, computer
+                    magazines, and transcriptions of sessions of the National Assembly). We assumed
+                    that the groups should have different readability scores due to their differing
+                    target audiences and writing styles. </p>
+                <p>For each analyzed readability measure we checked how well it separates texts from
+                    different groups. We did this by first obtaining the statistical distribution of
+                    readability scores for texts in each group and checking how much the
+                    distributions differ. We show that a number of common readability measures
+                    designed for English work well on Slovene texts. To determine which of the
+                    measures perform the best we used several statistical tests.</p>
+                <p>We also show that machine-learning methods can be used to accurately (over 98%
+                    chance of a correct prediction) predict which group a text belongs to based on
+                    its readability scores. We trained four different machine-learning models
+                    (decision trees, random forests, naïve Bayes classifier, and extreme gradient
+                    boosting) and evaluated them on our dataset. We obtained the best result (98.4%
+                    classification accuracy) by using random forests.</p>
+            </div>
+            <div type="summary">
+                <docAuthor>Tadej Škvorc</docAuthor>
+                <docAuthor>Simon Krek</docAuthor>
+                <docAuthor>Senja Pollak</docAuthor>
+                <docAuthor>Špela Arhar Holdt</docAuthor>
+                <docAuthor>Marko Robnik-Šikonja</docAuthor>
+                <head><hi rend="allcaps">Napovedovanje kompleksnosti slovenskih besedil z uporabo
+                        mer berljivosti</hi></head>
+                <head><hi rend="allcaps">POVZETEK</hi></head>
+                <p>Problem berljivosti (t.j. kako enostavno je besedilo za branje) je v angleščini
+                    dobro raziskan. Obstaja veliko različnih metod in formul, s katerimi lahko
+                    analiziramo angleška besedila z vidika berljivosti. Kljub temu, da je vprašanje
+                    berljivosti z lingvističnega vidika zapleteno večina metod za ugotavljanje
+                    berljivosti temelji na preprostih značilnostih besedil. Ker je bila večina mer
+                    berljivosti zasnovanih za angleška besedila, ne moremo biti prepričani da bodo
+                    enako dobro delovala na slovenskih besedilih. Angleške mere berljivosti so
+                    namreč usklajene z ameriškim šolskim sistemom, včasih temeljijo na vnaprej
+                    sestavljenih seznamih lahkih besed in ne upoštevajo težavnosti besed z
+                    morfološkega vidika.</p>
+                <p>V našem delu analiziramo pogoste mere berljivosti na slovenskih besedilih. Poleg
+                    tega uvedemo in analiziramo dva dodatna kazalnika berljivosti ki ne nastopata v
+                    pogostih merah berljivosti: <hi rend="bold">morfološka zahtevnost besed</hi>, s
+                    katero želimo zajeti predpostavko da so redkejše morfološke oblike besed težko
+                    berljive, in <hi rend="bold">kontekst težkih besed</hi>, s katero želimo zajeti
+                    predpostavko, da so neznane besede, ki se pojavijo v kontekstu znanih besed
+                    lažje berljive, saj lahko njihov pomen razberemo iz konteksta. Analizo smo
+                    izvedli na 14,581 besedilih iz korpusa Gigafida, ki smo jih razdelili v pet
+                    skupin glede na njihovo ciljno publiko (Otroške revije, splošne revije,
+                    časopisni članki, računalniške revije in transkripcije sej Državnega zbora).
+                    Predpostavili smo, da imajo revije zaradi različnih ciljnih publik in tematik
+                    različne sloge pisanja in posledično različne stopnje berljivosti.</p>
+                <p>Za vsako izmed mer berljivosti smo preverili, kako dobro med seboj loči besedila
+                    iz različnih skupin. Za vsako izmed njih smo pridobili statistično distribucijo
+                    vrednosti berljivosti vsake skupine in preverili, ali so distribucije ustrezno
+                    ločene. V analizi pokažemo, da se številne uveljavljene mere, ki so bile
+                    zasnovane za angleščino, dobro obnesejo tudi na slovenskih besedilih. Da bi
+                    ugotovili, katere mere najbolje razlikujejo med skupinami smo uporabili
+                    statistične teste. </p>
+                <p>Poleg tega pokažemo, da lahko z modeli strojnega učenja in kombinacijo
+                    analiziranih metod berljivosti z visoko točnostjo (nad 98%) napovemo, v katero
+                    skupino spada določeno besedilo. Za to analizo smo uporabili štiri različne
+                    metode strojnega učenja (odločitvena drevesa, naključne gozdove, naivni Bayesov
+                    klasifikator, in extreme gradient boosting). Najboljši rezultat (98,4%) smo
+                    dobili z metodo naključnih gozdov.</p>
+            </div>
+        </back>
+    </text>
+</TEI>
