@@ -102,11 +102,15 @@
     </teiHeader>
     <text>
         <front>
-            <docAuthor style="text-align:center;">Ajda Pretnar<note place="foot" xml:id="ftn1" n="*">
+            <docAuthor>Ajda Pretnar<note place="foot" xml:id="ftn1" n="*">
                     <hi rend="bold">Laboratory of Bioinformatics, Faculty of Computer and
                         Information Science, University of Ljubljana, Večna pot 113, SI-1000
                         Ljubljana, </hi><ref target="mailto:ajda.pretnar@fri.uni-lj.si"
-                        >&gt;ajda.pretnar@fri.uni-lj.si</ref></note></docAuthor>
+                        >ajda.pretnar@fri.uni-lj.si</ref></note></docAuthor>
+            <docAuthor>Dan Podjed
+                <note place="foot" xml:id="ftn1a" n="**"><hi rend="bold">Institute of Slovenian Ethnology, Research Centre of the Slovenian Academy
+                    of Sciences and ArtsNovi trg 2, SI-1000 Ljubljana</hi>, 
+                    <ref target="mailto:dan.podjed@zrc-sazu.si">dan.podjed@zrc-sazu.si</ref></note></docAuthor>
             <docImprint>
                 <idno type="cobissType">Cobiss type: 1.01</idno>
                 <idno type="UDC">UDC: 003.295:572+316.7</idno>
@@ -162,7 +166,7 @@
                 <p>Social sciences and humanities are rapidly adopting computational approaches and
                     software tools, resulting in an emerging field of digital humanities (<ref
                         target="#Klein.2016">Klein and Gold 2016</ref>) and computational social
-                    sciences (<ref>Conte et al. 2012</ref>). Among these is anthropology, which is
+                    sciences (<ref target="#Conte.2012">Conte et al. 2012</ref>). Among these is anthropology, which is
                     particularly suitable for traversing between quantitative and qualitative
                     methods. Anthropologists study and analyse human habits, practices, behaviours
                     and cultures, with a particular focus on participant observation and long-term
@@ -276,7 +280,7 @@
                         >Bonilla and Rosa (2015)</ref> described how to use hashtags for
                     ethnographic research. Moreover, a discussion has been opened on what does ‘big
                     data’ mean for social sciences and how to ethically address its retrieval and
-                    analysis (<ref target="#boyd.2012">Boyd and Crawford 2012</ref>; <ref
+                    analysis (<ref target="#boyd.2012">boyd and Crawford 2012</ref>; <ref
                         target="#Mittelstadt.2016">Mittelstadt et al. 2016</ref>).</p>
                 <p>There was a discussion on the methodological front as well. <ref
                         target="#Anderson.2009">Anderson et al. (2009)</ref> argue for a method that
@@ -482,7 +486,7 @@
                     the paper refer only to 2016. The rooms are anonymised to ensure data privacy
                     and results for two of the rooms are not reported at the request of their
                     occupants.</p>
-                <table rend="rules">
+                <table>
                     <head>Table 1: Original data.</head>
                     <row>
                         <cell role="label">Date</cell>
@@ -535,7 +539,7 @@
                     regime, since this feature registered human behaviour the best, and room
                     temperature. We also generated additional features, such as the day of the week
                     and room type (cabinet, laboratory, and administration).</p>
-                <table rend="rules">
+                <table>
                     <head>Table 2: Data transformed into a behaviour vector. 1 denotes occupancy of
                         the room, meaning daily regime value was either 0 (comfort) or 4 (window
                         open).</head>
@@ -843,10 +847,14 @@
                         “#Ferguson: Digital Protest, Hashtag Ethnography, and the Racial Politics of
                         Social Media in the United States.” <hi rend="italic">American
                             Ethnologist</hi> 42 (1): 4–17. </bibl>
-                    <bibl xml:id="boyd.2012">Boyd, Danah, and Kate Crawford. 2012. “Critical
+                    <bibl xml:id="boyd.2012">boyd, danah, and Kate Crawford. 2012. “Critical
                         Questions for Big Data: Provocations for a Cultural, Technological, and
                         Scholarly Phenomenon.” <hi rend="italic">Information, Communication &amp;
                             Society</hi> 15 (5): 662–79. </bibl>
+                    <bibl xml:id="Conte.2012">Conte, Rosaria, Nigel Gilbert, Giulia Bonelli, Claudio Cioffi-Revilla
+                        et al. 2012. "Manifesto of Computational Social Science.” <hi 
+                            rend="italic">The European Physical Journal Special Topics</hi> 214
+                        (1): 325-346.</bibl>
                     <bibl xml:id="Creswell.2007">Creswell, John W., and Vicki L. Plano Clark. 2007.
                             <hi rend="italic">Designing and Conducting Mixed Methods Research</hi>.
                         Thousand Oaks: Sage publications. </bibl>

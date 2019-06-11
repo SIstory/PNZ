@@ -1,32 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mml="http://www.w3.org/1998/Math/MathML" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Predicting Slovene Text Complexity Using Readability Measures</title>
-                <author/>
+                <author>
+                    <name>
+                        <forename>Tadej</forename>
+                        <surname>Škvorc</surname>
+                        <affiliation>University of Ljubljana,
+                            Faculty of Computer and Information Science</affiliation>
+                        <address>
+                            <addrLine>Večna Pot 113</addrLine>
+                            <addrLine>SI-1000 Ljubljana</addrLine>
+                        </address>
+                        <email>tadej.skvorc@fri.uni-lj.si</email>
+                        <affiliation>Jožef Stefan Institute</affiliation>
+                        <address>
+                            <addrLine>Jamova cesta 39</addrLine>
+                            <addrLine>SI-1000 Ljubljana</addrLine>
+                        </address>
+                    </name>
+                </author>
+                <author>
+                    <name>
+                        <forename>Simon</forename>
+                        <surname>Krek</surname>                        
+                        <affiliation>Jožef Stefan Institute</affiliation>
+                        <address>
+                            <addrLine>Jamova cesta 39</addrLine>
+                            <addrLine>SI-1000 Ljubljana</addrLine>
+                        </address>
+                        <affiliation>University of Ljubljana, Faculty of Arts</affiliation>
+                        <address>
+                            <addrLine>Aškerčeva 2</addrLine>
+                            <addrLine>SI-1000 Ljubljana</addrLine>                            
+                        </address>
+                        <email>simon.krek@guest.arnes.si</email>
+                    </name>                    
+                </author>
+                <author>
+                    <name>
+                        <forename>Senja</forename>
+                        <surname>Pollak</surname>
+                        <affiliation>Jožef Stefan Institute</affiliation>
+                        <address>
+                            <addrLine>Jamova cesta 39</addrLine>
+                            <addrLine>SI-1000 Ljubljana</addrLine>                            
+                        </address>
+                        <email>senja.pollak@ijs.si</email>
+                    </name>                    
+                </author>
+                <author>
+                    <name>
+                        <forename>Špela</forename>
+                        <surname>Arhar Holdt</surname>
+                        <affiliation>University of
+                            Ljubljana, Faculty of Arts</affiliation>
+                        <address>
+                            <addrLine>Aškerčeva 2</addrLine>
+                            <addrLine>SI-1000 Ljubljana</addrLine>                            
+                        </address>
+                        <email>spela.arharholdt@ff.uni-lj.si</email>
+                        <affiliation>University of
+                            Ljubljana, Faculty of Computer and Information Science</affiliation>
+                        <address>
+                            <addrLine>Večna Pot 113</addrLine>
+                            <addrLine>SI-1000 Ljubljana</addrLine>                            
+                        </address>
+                        
+                    </name>                    
+                </author>
+                <author>
+                    <name>
+                        <forename>Marko</forename>
+                        <surname>Robnik-Šikonja</surname>
+                        <affiliation>University of
+                            Ljubljana, Faculty of Computer and Information Science</affiliation>
+                        <address>
+                            <addrLine>Večna Pot 113</addrLine>
+                            <addrLine>SI-1000
+                            Ljubljana</addrLine>                            
+                        </address>
+                        <email>marko.robnik@fri.uni-lj.si</email>
+                    </name>                    
+                </author>
+                
             </titleStmt>
             <editionStmt>
-                <edition><date>2019-05-31</date></edition>
+                <edition><date>2019-04-15</date></edition>
             </editionStmt>
             <publicationStmt>
-                <p>unknown</p>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/323</pubPlace>
+                <date>2019</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">59</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
             <sourceDesc>
-                <p>Converted from a Word document</p>
+                <p>No source, born digital.</p>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <appInfo>
-                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
-                    <label>DOCX to TEI</label>
-                </application>
-            </appInfo>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
         </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>readability</term>
+                    <term>natural language processing</term>
+                    <term>text analysis</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>berljivost</term>
+                    <term>obdelava naravnega jezika</term>
+                    <term>analiza besedil</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <revisionDesc>
             <listChange>
-                <change><date>2019-06-09T14:26:06Z</date><name/></change>
+                <change>
+                    <date>2019-06-11</date>
+                    <name>Andrej Pančur</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -37,7 +172,7 @@
                     Jožef Stefan Institute, Jamova cesta 39, SI-1000 Ljubljana, <ref
                         target="mailto:tadej.skvorc@fri.uni-lj.si"
                     >tadej.skvorc@fri.uni-lj.si</ref></note></docAuthor>
-            <docAuthor>Simon Krek,<note place="foot" xml:id="ftn2" n="**">Jožef Stefan Institute,
+            <docAuthor>Simon Krek<note place="foot" xml:id="ftn2" n="**">Jožef Stefan Institute,
                     Jamova cesta 39, SI-1000 Ljubljana, University of Ljubljana, Faculty of Arts,
                     Aškerčeva 2, SI-1000 Ljubljana, <ref target="mailto:simon.krek@guest.arnes.si"
                         >simon.krek@guest.arnes.si</ref></note></docAuthor>
