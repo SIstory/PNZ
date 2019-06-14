@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mml="http://www.w3.org/1998/Math/MathML" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9,8 +11,8 @@
                     <name>
                         <forename>Tadej</forename>
                         <surname>Škvorc</surname>
-                        <affiliation>University of Ljubljana,
-                            Faculty of Computer and Information Science</affiliation>
+                        <affiliation>University of Ljubljana, Faculty of Computer and Information
+                            Science</affiliation>
                         <address>
                             <addrLine>Večna Pot 113</addrLine>
                             <addrLine>SI-1000 Ljubljana</addrLine>
@@ -26,7 +28,7 @@
                 <author>
                     <name>
                         <forename>Simon</forename>
-                        <surname>Krek</surname>                        
+                        <surname>Krek</surname>
                         <affiliation>Jožef Stefan Institute</affiliation>
                         <address>
                             <addrLine>Jamova cesta 39</addrLine>
@@ -35,10 +37,10 @@
                         <affiliation>University of Ljubljana, Faculty of Arts</affiliation>
                         <address>
                             <addrLine>Aškerčeva 2</addrLine>
-                            <addrLine>SI-1000 Ljubljana</addrLine>                            
+                            <addrLine>SI-1000 Ljubljana</addrLine>
                         </address>
                         <email>simon.krek@guest.arnes.si</email>
-                    </name>                    
+                    </name>
                 </author>
                 <author>
                     <name>
@@ -47,46 +49,43 @@
                         <affiliation>Jožef Stefan Institute</affiliation>
                         <address>
                             <addrLine>Jamova cesta 39</addrLine>
-                            <addrLine>SI-1000 Ljubljana</addrLine>                            
+                            <addrLine>SI-1000 Ljubljana</addrLine>
                         </address>
                         <email>senja.pollak@ijs.si</email>
-                    </name>                    
+                    </name>
                 </author>
                 <author>
                     <name>
                         <forename>Špela</forename>
                         <surname>Arhar Holdt</surname>
-                        <affiliation>University of
-                            Ljubljana, Faculty of Arts</affiliation>
+                        <affiliation>University of Ljubljana, Faculty of Arts</affiliation>
                         <address>
                             <addrLine>Aškerčeva 2</addrLine>
-                            <addrLine>SI-1000 Ljubljana</addrLine>                            
+                            <addrLine>SI-1000 Ljubljana</addrLine>
                         </address>
                         <email>spela.arharholdt@ff.uni-lj.si</email>
-                        <affiliation>University of
-                            Ljubljana, Faculty of Computer and Information Science</affiliation>
+                        <affiliation>University of Ljubljana, Faculty of Computer and Information
+                            Science</affiliation>
                         <address>
                             <addrLine>Večna Pot 113</addrLine>
-                            <addrLine>SI-1000 Ljubljana</addrLine>                            
+                            <addrLine>SI-1000 Ljubljana</addrLine>
                         </address>
-                        
-                    </name>                    
+                    </name>
                 </author>
                 <author>
                     <name>
                         <forename>Marko</forename>
                         <surname>Robnik-Šikonja</surname>
-                        <affiliation>University of
-                            Ljubljana, Faculty of Computer and Information Science</affiliation>
+                        <affiliation>University of Ljubljana, Faculty of Computer and Information
+                            Science</affiliation>
                         <address>
                             <addrLine>Večna Pot 113</addrLine>
-                            <addrLine>SI-1000
-                            Ljubljana</addrLine>                            
+                            <addrLine>SI-1000 Ljubljana</addrLine>
                         </address>
                         <email>marko.robnik@fri.uni-lj.si</email>
-                    </name>                    
+                    </name>
                 </author>
-                
+
             </titleStmt>
             <editionStmt>
                 <edition><date>2019-04-15</date></edition>
@@ -194,8 +193,8 @@
             </docImprint>
             <div type="abstract" xml:lang="sl">
                 <head>IZVLEČEK</head>
-                <head><hi rend="allcaps">Napovedovanje kompleksnosti slovenskih besedil z uporabo
-                        mer berljivosti</hi></head>
+                <head style="text-transform: uppercase;">Napovedovanje kompleksnosti slovenskih besedil z uporabo
+                        mer berljivosti</head>
                 <p>
                     <hi rend="italic">Večina obstoječih formul za merjenje berljivosti je zasnovana
                         za besedila v angleškem jeziku, na katerih je tudi ocenjena njihova
@@ -314,7 +313,7 @@
                     using a more complex, machine-learning-based approach.</p>
             </div>
             <div>
-                <head>Readability measures</head>
+                <head>Readability Measures</head>
                 <p>In our analysis, we used two groups of readability measures:</p>
                 <list type="unordered">
                     <item><hi rend="bold">Existing readability formulas for English:</hi> we focused
@@ -704,13 +703,13 @@
                     magazines which are considerably longer.</p>
             </div>
             <div>
-                <head>Analysis of Slovene texts</head>
+                <head>Analysis of Slovene Texts</head>
                 <p>In this section, we describe the methodology used for our analysis. In the first
                     subsection, we describe the data sets on which we conducted our analysis. In the
                     second subsection, we describe how we constructed the list of easy words used in
                     some of the readability measures.</p>
                 <div>
-                    <head>Data sets</head>
+                    <head>Data Sets</head>
                     <p>We created a set of subcorpora from the Gigafida reference corpus of written
                         Slovene (<ref>Logar et al. 2012</ref>). Gigafida contains 39,427 Slovene
                         texts released from 1990 to 2011, for a total of 1,187,002,502 words. We
@@ -738,44 +737,44 @@
                         number of words per document. The subcorpus of newspapers contains the
                         largest number of documents, while the subcorpus of text sourced from the
                         National Assembly of Slovenia contains the fewest.</p>
-                    <table rend="border">
+                    <table rend="table-scroll">
                         <head>Table 1: The number of documents and the average number of words per
                             document for each subcorpus.</head>
                         <row role="label">
-                            <cell rend="both">Subcorpus</cell>
-                            <cell rend="right">#docs</cell>
-                            <cell rend="right">Avg. #words / doc</cell>
-                            <cell rend="right">Total #words</cell>
+                            <cell>Subcorpus</cell>
+                            <cell style="text-align:right;">#docs</cell>
+                            <cell style="text-align:right;">Avg. #words / doc</cell>
+                            <cell style="text-align:right;">Total #words</cell>
                         </row>
                         <row>
-                            <cell rend="both">Children's magazines</cell>
-                            <cell rend="right">125</cell>
-                            <cell rend="right">5,488</cell>
-                            <cell rend="right">686,000</cell>
+                            <cell>Children's magazines</cell>
+                            <cell style="text-align:right;">125</cell>
+                            <cell style="text-align:right;">5,488</cell>
+                            <cell style="text-align:right;">686,000</cell>
                         </row>
                         <row>
-                            <cell rend="both">Pop magazines</cell>
-                            <cell rend="right">247</cell>
-                            <cell rend="right">33,967</cell>
-                            <cell rend="right">8,389,849</cell>
+                            <cell>Pop magazines</cell>
+                            <cell style="text-align:right;">247</cell>
+                            <cell style="text-align:right;">33,967</cell>
+                            <cell style="text-align:right;">8,389,849</cell>
                         </row>
                         <row>
-                            <cell rend="both">Newspapers</cell>
-                            <cell rend="right">14,011</cell>
-                            <cell rend="right">12,881</cell>
-                            <cell rend="right">180,475,691</cell>
+                            <cell>Newspapers</cell>
+                            <cell style="text-align:right;">14,011</cell>
+                            <cell style="text-align:right;">12,881</cell>
+                            <cell style="text-align:right;">180,475,691</cell>
                         </row>
                         <row>
-                            <cell rend="both">Computer magazines</cell>
-                            <cell rend="right">163</cell>
-                            <cell rend="right">110,875</cell>
-                            <cell rend="right">18,072,625</cell>
+                            <cell>Computer magazines</cell>
+                            <cell style="text-align:right;">163</cell>
+                            <cell style="text-align:right;">110,875</cell>
+                            <cell style="text-align:right;">18,072,625</cell>
                         </row>
                         <row>
-                            <cell rend="both">National Assembly</cell>
-                            <cell rend="right">35</cell>
-                            <cell rend="right">58,841</cell>
-                            <cell rend="right">2,059,435</cell>
+                            <cell>National Assembly</cell>
+                            <cell style="text-align:right;">35</cell>
+                            <cell style="text-align:right;">58,841</cell>
+                            <cell style="text-align:right;">2,059,435</cell>
                         </row>
                     </table>
                     <p>Our hypothesis is that the readability measures will be able to distinguish
@@ -932,176 +931,176 @@
                     difficulty.</p>
                 <p>We also calculated the sample mean and standard deviation of readability measures
                     for each text subcorpus. The results are shown in Table 2.</p>
-                <table rend="border">
+                <table rend="table-scroll">
                     <head>Table 2: The mean and standard deviation for each subcorpus of texts and
                         each readability score.</head>
                     <row role="label">
-                        <cell rend="both">Measure</cell>
-                        <cell rend="both">Children's mag.</cell>
-                        <cell rend="both">Magazines</cell>
-                        <cell rend="both">Newspapers</cell>
-                        <cell rend="both">Technical mag.</cell>
-                        <cell rend="both">National assembly</cell>
+                        <cell>Measure</cell>
+                        <cell>Children's mag.</cell>
+                        <cell>Magazines</cell>
+                        <cell>Newspapers</cell>
+                        <cell>Technical mag.</cell>
+                        <cell>National assembly</cell>
                     </row>
                     <row>
-                        <cell rend="both">% long words </cell>
-                        <cell rend="both"> 0.065 (0.015) </cell>
-                        <cell rend="both"> 0.109 (0.011) </cell>
-                        <cell rend="both"> 0.137 (0.029) </cell>
-                        <cell rend="both"> 0.146 (0.010) </cell>
-                        <cell rend="both"> 0.137 (0.046)</cell>
+                        <cell>% long words</cell>
+                        <cell>0.065 (0.015)</cell>
+                        <cell>0.109 (0.011)</cell>
+                        <cell>0.137 (0.029)</cell>
+                        <cell>0.146 (0.010)</cell>
+                        <cell>0.137 (0.046)</cell>
                     </row>
                     <row>
-                        <cell rend="both">Number of words </cell>
-                        <cell rend="both"> 5488 (6184) </cell>
-                        <cell rend="both"> 33966 (34821) </cell>
-                        <cell rend="both"> 12881 (84708) </cell>
-                        <cell rend="both"> 110875 (151007) </cell>
-                        <cell rend="both"> 58841 (106515)</cell>
+                        <cell>Number of words</cell>
+                        <cell>5488 (6184)</cell>
+                        <cell>33966 (34821)</cell>
+                        <cell>12881 (84708)</cell>
+                        <cell>110875 (151007)</cell>
+                        <cell>58841 (106515)</cell>
                     </row>
                     <row>
-                        <cell rend="both">% adjectives </cell>
-                        <cell rend="both"> 0.078 (0.016) </cell>
-                        <cell rend="both"> 0.111 (0.013) </cell>
-                        <cell rend="both"> 0.120 (0.020) </cell>
-                        <cell rend="both"> 0.120 (0.008) </cell>
-                        <cell rend="both"> 0.096 (0.022)</cell>
+                        <cell>% adjectives</cell>
+                        <cell>0.078 (0.016)</cell>
+                        <cell>0.111 (0.013)</cell>
+                        <cell>0.120 (0.020)</cell>
+                        <cell>0.120 (0.008)</cell>
+                        <cell>0.096 (0.022)</cell>
                     </row>
                     <row>
-                        <cell rend="both">% verbs </cell>
-                        <cell rend="both"> 0.216 (0.026) </cell>
-                        <cell rend="both"> 0.170 (0.015) </cell>
-                        <cell rend="both"> 0.161 (0.034) </cell>
-                        <cell rend="both"> 0.144 (0.013) </cell>
-                        <cell rend="both"> 0.180 (0.044)</cell>
+                        <cell>% verbs</cell>
+                        <cell>0.216 (0.026)</cell>
+                        <cell>0.170 (0.015)</cell>
+                        <cell>0.161 (0.034)</cell>
+                        <cell>0.144 (0.013)</cell>
+                        <cell>0.180 (0.044)</cell>
                     </row>
                     <row>
-                        <cell rend="both">% unique words </cell>
-                        <cell rend="both"> 0.517 (0.077) </cell>
-                        <cell rend="both"> 0.375 (0.053) </cell>
-                        <cell rend="both"> 0.513 (0.114) </cell>
-                        <cell rend="both"> 0.244 (0.144) </cell>
-                        <cell rend="both"> 0.277 (0.173)</cell>
+                        <cell>% unique words</cell>
+                        <cell>0.517 (0.077)</cell>
+                        <cell>0.375 (0.053)</cell>
+                        <cell>0.513 (0.114)</cell>
+                        <cell>0.244 (0.144)</cell>
+                        <cell>0.277 (0.173)</cell>
                     </row>
                     <row>
-                        <cell rend="left">Context of difficult words</cell>
-                        <cell rend="both"> 0.756 (0.054) </cell>
-                        <cell rend="both"> 0.834 (0.027) </cell>
-                        <cell rend="both"> 0.849 (0.133) </cell>
-                        <cell rend="both"> 0.808 (0.036) </cell>
-                        <cell rend="both"> 0.929 (0.044)</cell>
+                        <cell>Context of difficult words</cell>
+                        <cell>0.756 (0.054)</cell>
+                        <cell>0.834 (0.027)</cell>
+                        <cell>0.849 (0.133)</cell>
+                        <cell>0.808 (0.036)</cell>
+                        <cell>0.929 (0.044)</cell>
                     </row>
                     <row>
-                        <cell rend="both">% difficult words </cell>
-                        <cell rend="both"> 0.464 (0.048) </cell>
-                        <cell rend="both"> 0.369 (0.022) </cell>
-                        <cell rend="both"> 0.356 (0.122) </cell>
-                        <cell rend="both"> 0.389 (0.032) </cell>
-                        <cell rend="both"> 0.280 (0.036)</cell>
+                        <cell>% difficult words</cell>
+                        <cell>0.464 (0.048)</cell>
+                        <cell>0.369 (0.022)</cell>
+                        <cell>0.356 (0.122)</cell>
+                        <cell>0.389 (0.032)</cell>
+                        <cell>0.280 (0.036)</cell>
                     </row>
                     <row>
-                        <cell rend="left">Gunning Fog Index</cell>
-                        <cell rend="both"> 9.950 (1.255) </cell>
-                        <cell rend="both"> 14.272 (1.271) </cell>
-                        <cell rend="both"> 18.662 (9.319) </cell>
-                        <cell rend="both"> 17.470 (0.800) </cell>
-                        <cell rend="both"> 15.901 (3.493)</cell>
+                        <cell>Gunning Fog Index</cell>
+                        <cell>9.950 (1.255)</cell>
+                        <cell>14.272 (1.271)</cell>
+                        <cell>18.662 (9.319)</cell>
+                        <cell>17.470 (0.800)</cell>
+                        <cell>15.901 (3.493)</cell>
                     </row>
                     <row>
-                        <cell rend="left">Flesch reading ease</cell>
-                        <cell rend="both"> 37.592 (4.989) </cell>
-                        <cell rend="both"> 23.855 (5.217) </cell>
-                        <cell rend="both"> 10.002 (24.128) </cell>
-                        <cell rend="both"> 12.520 (4.340) </cell>
-                        <cell rend="both"> 19.178 (13.098)</cell>
+                        <cell>Flesch reading ease</cell>
+                        <cell>37.592 (4.989)</cell>
+                        <cell>23.855 (5.217)</cell>
+                        <cell>10.002 (24.128)</cell>
+                        <cell>12.520 (4.340)</cell>
+                        <cell>19.178 (13.098)</cell>
                     </row>
                     <row>
-                        <cell rend="both">Flesch–Kincaid grade level </cell>
-                        <cell rend="both"> 10.500 (0.894) </cell>
-                        <cell rend="both"> 13.596 (1.193) </cell>
-                        <cell rend="both"> 17.356 (8.959) </cell>
-                        <cell rend="both"> 15.999 (0.741) </cell>
-                        <cell rend="both"> 14.523 (2.761)</cell>
+                        <cell>Flesch–Kincaid grade level</cell>
+                        <cell>10.500 (0.894)</cell>
+                        <cell>13.596 (1.193)</cell>
+                        <cell>17.356 (8.959)</cell>
+                        <cell>15.999 (0.741)</cell>
+                        <cell>14.523 (2.761)</cell>
                     </row>
                     <row>
-                        <cell rend="both">Dale–Chall </cell>
-                        <cell rend="both"> 2.845 (0.425) </cell>
-                        <cell rend="both"> 4.036 (0.306) </cell>
-                        <cell rend="both"> 4.972 (1.270) </cell>
-                        <cell rend="both"> 4.941 (0.258) </cell>
-                        <cell rend="both"> 4.560 (0.971)</cell>
+                        <cell>Dale–Chall</cell>
+                        <cell>2.845 (0.425)</cell>
+                        <cell>4.036 (0.306)</cell>
+                        <cell>4.972 (1.270)</cell>
+                        <cell>4.941 (0.258)</cell>
+                        <cell>4.560 (0.971)</cell>
                     </row>
                     <row>
-                        <cell rend="left">Dale–Chall with word list</cell>
-                        <cell rend="both"> 7.781 (0.720) </cell>
-                        <cell rend="both"> 6.534 (0.357) </cell>
-                        <cell rend="both"> 6.643 (2.163) </cell>
-                        <cell rend="both"> 6.955 (0.484) </cell>
-                        <cell rend="both"> 5.208 (0.539)</cell>
+                        <cell>Dale–Chall with word list</cell>
+                        <cell>7.781 (0.720)</cell>
+                        <cell>6.534 (0.357)</cell>
+                        <cell>6.643 (2.163)</cell>
+                        <cell>6.955 (0.484)</cell>
+                        <cell>5.208 (0.539)</cell>
                     </row>
                     <row>
-                        <cell rend="both">Spache readability formula </cell>
-                        <cell rend="both"> 6.217 (0.368) </cell>
-                        <cell rend="both"> 6.079 (0.348) </cell>
-                        <cell rend="both"> 6.977 (3.499) </cell>
-                        <cell rend="both"> 6.685 (0.323) </cell>
-                        <cell rend="both"> 5.482 (0.600)</cell>
+                        <cell>Spache readability formula</cell>
+                        <cell>6.217 (0.368)</cell>
+                        <cell>6.079 (0.348)</cell>
+                        <cell>6.977 (3.499)</cell>
+                        <cell>6.685 (0.323)</cell>
+                        <cell>5.482 (0.600)</cell>
                     </row>
                     <row>
-                        <cell rend="both">Automated readability index </cell>
-                        <cell rend="both"> 12.873 (1.086) </cell>
-                        <cell rend="both"> 16.117 (1.428) </cell>
-                        <cell rend="both"> 20.474 (11.456) </cell>
-                        <cell rend="both"> 19.007 (0.885) </cell>
-                        <cell rend="both"> 17.014 (3.371)</cell>
+                        <cell>Automated readability index</cell>
+                        <cell>12.873 (1.086)</cell>
+                        <cell>16.117 (1.428)</cell>
+                        <cell>20.474 (11.456)</cell>
+                        <cell>19.007 (0.885)</cell>
+                        <cell>17.014 (3.371)</cell>
                     </row>
                     <row>
-                        <cell rend="both">SMOG </cell>
-                        <cell rend="both"> 12.206 (0.759) </cell>
-                        <cell rend="both"> 15.095 (1.066) </cell>
-                        <cell rend="both"> 18.200 (2.757) </cell>
-                        <cell rend="both"> 17.194 (0.611) </cell>
-                        <cell rend="both"> 15.849 (2.500)</cell>
+                        <cell>SMOG</cell>
+                        <cell>12.206 (0.759)</cell>
+                        <cell>15.095 (1.066)</cell>
+                        <cell>18.200 (2.757)</cell>
+                        <cell>17.194 (0.611)</cell>
+                        <cell>15.849 (2.500)</cell>
                     </row>
                     <row>
-                        <cell rend="both">LIX </cell>
-                        <cell rend="both"> 33.676 (3.384) </cell>
-                        <cell rend="both"> 44.999 (3.282) </cell>
-                        <cell rend="both"> 56.016 (23.123) </cell>
-                        <cell rend="both"> 53.260 (2.077) </cell>
-                        <cell rend="both"> 47.909 (9.073)</cell>
+                        <cell>LIX</cell>
+                        <cell>33.676 (3.384)</cell>
+                        <cell>44.999 (3.282)</cell>
+                        <cell>56.016 (23.123)</cell>
+                        <cell>53.260 (2.077)</cell>
+                        <cell>47.909 (9.073)</cell>
                     </row>
                     <row>
-                        <cell rend="both">RIX </cell>
-                        <cell rend="both"> 2.381 (0.496) </cell>
-                        <cell rend="both"> 4.481 (0.781) </cell>
-                        <cell rend="both"> 7.370 (3.836) </cell>
-                        <cell rend="both"> 6.354 (0.518) </cell>
-                        <cell rend="both"> 5.250 (2.574)</cell>
+                        <cell>RIX</cell>
+                        <cell>2.381 (0.496)</cell>
+                        <cell>4.481 (0.781)</cell>
+                        <cell>7.370 (3.836)</cell>
+                        <cell>6.354 (0.518)</cell>
+                        <cell>5.250 (2.574)</cell>
                     </row>
                     <row>
-                        <cell rend="both">Coleman-Liau index </cell>
-                        <cell rend="both"> 17.785 (1.120) </cell>
-                        <cell rend="both"> 19.823 (0.861) </cell>
-                        <cell rend="both"> 21.220 (1.807) </cell>
-                        <cell rend="both"> 21.762 (0.903) </cell>
-                        <cell rend="both"> 20.318 (2.170)</cell>
+                        <cell>Coleman-Liau index</cell>
+                        <cell>17.785 (1.120)</cell>
+                        <cell>19.823 (0.861)</cell>
+                        <cell>21.220 (1.807)</cell>
+                        <cell>21.762 (0.903)</cell>
+                        <cell>20.318 (2.170)</cell>
                     </row>
                     <row>
-                        <cell rend="left">Avg. morphological difficulty</cell>
-                        <cell rend="both"> 0.419 (0.017) </cell>
-                        <cell rend="both"> 0.428 (0.010) </cell>
-                        <cell rend="both"> 0.436 (0.044) </cell>
-                        <cell rend="both"> 0.441 (0.017) </cell>
-                        <cell rend="both"> 0.445 (0.026)</cell>
+                        <cell>Avg. morphological difficulty</cell>
+                        <cell>0.419 (0.017)</cell>
+                        <cell>0.428 (0.010)</cell>
+                        <cell>0.436 (0.044)</cell>
+                        <cell>0.441 (0.017)</cell>
+                        <cell>0.445 (0.026)</cell>
                     </row>
                     <row>
-                        <cell rend="left">Avg. sentence length</cell>
-                        <cell rend="both"> 8.353 (0.820) </cell>
-                        <cell rend="both"> 13.389 (2.843) </cell>
-                        <cell rend="both"> 21.120 (4.043) </cell>
-                        <cell rend="both"> 18.641 (1.960) </cell>
-                        <cell rend="both"> 19.063 (3.826)</cell>
+                        <cell>Avg. sentence length</cell>
+                        <cell>8.353 (0.820)</cell>
+                        <cell>13.389 (2.843)</cell>
+                        <cell>21.120 (4.043)</cell>
+                        <cell>18.641 (1.960)</cell>
+                        <cell>19.063 (3.826)</cell>
                     </row>
                 </table>
                 <p>Using these results, we calculated the Bhattacharyya distance between the
@@ -1338,114 +1337,114 @@
                     in Figure 2, with the readability formulas using the list of difficult words
                     showing less dichotomization power. The largest distance is obtained using
                     average sentence lengths.</p>
-                <table rend="border">
+                <table rend="table-scroll">
                     <head>Table 3: The Bhattacharyya distances and coefficients between the
                         distributions of scores for children's magazines and newspapers for each
                         readability measure. The results are sorted by decreasing distance.</head>
                     <row role="label">
-                        <cell rend="both">Measure</cell>
-                        <cell rend="both">Distance</cell>
-                        <cell rend="both">Coefficient</cell>
+                        <cell>Measure</cell>
+                        <cell>Distance</cell>
+                        <cell>Coefficient</cell>
                     </row>
                     <row>
-                        <cell rend="both">Average sentence length </cell>
-                        <cell rend="both"><hi rend="bold"> 2.866 </hi></cell>
-                        <cell rend="both"><hi rend="bold"> 0.057 </hi></cell>
+                        <cell>Average sentence length</cell>
+                        <cell><hi rend="bold">2.866</hi></cell>
+                        <cell><hi rend="bold">0.057</hi></cell>
                     </row>
                     <row>
-                        <cell rend="both">SMOG </cell>
-                        <cell rend="both"> 1.433 </cell>
-                        <cell rend="both"> 0.239 </cell>
+                        <cell>SMOG</cell>
+                        <cell>1.433</cell>
+                        <cell>0.239</cell>
                     </row>
                     <row>
-                        <cell rend="both">% long words </cell>
-                        <cell rend="both"> 1.350 </cell>
-                        <cell rend="both"> 0.259</cell>
+                        <cell>% long words</cell>
+                        <cell>1.350</cell>
+                        <cell>0.259</cell>
                     </row>
                     <row>
-                        <cell rend="both">RIX </cell>
-                        <cell rend="both"> 1.101 </cell>
-                        <cell rend="both"> 0.333</cell>
+                        <cell>RIX</cell>
+                        <cell>1.101</cell>
+                        <cell>0.333</cell>
                     </row>
                     <row>
-                        <cell rend="both">Flesch-Kincaid grade level </cell>
-                        <cell rend="both"> 0.956 </cell>
-                        <cell rend="both"> 0.385</cell>
+                        <cell>Flesch-Kincaid grade level</cell>
+                        <cell>0.956</cell>
+                        <cell>0.385</cell>
                     </row>
                     <row>
-                        <cell rend="both">Automated readability index </cell>
-                        <cell rend="both"> 0.945 </cell>
-                        <cell rend="both"> 0.389</cell>
+                        <cell>Automated readability index</cell>
+                        <cell>0.945</cell>
+                        <cell>0.389</cell>
                     </row>
                     <row>
-                        <cell rend="both">Dale-Chall readability formula </cell>
-                        <cell rend="both"> 0.885 </cell>
-                        <cell rend="both"> 0.413</cell>
+                        <cell>Dale-Chall readability formula</cell>
+                        <cell>0.885</cell>
+                        <cell>0.413</cell>
                     </row>
                     <row>
-                        <cell rend="both">Gunning fog index </cell>
-                        <cell rend="both"> 0.880 </cell>
-                        <cell rend="both"> 0.415</cell>
+                        <cell>Gunning fog index</cell>
+                        <cell>0.880</cell>
+                        <cell>0.415</cell>
                     </row>
                     <row>
-                        <cell rend="both">LIX </cell>
-                        <cell rend="both"> 0.853 </cell>
-                        <cell rend="both"> 0.426</cell>
+                        <cell>LIX</cell>
+                        <cell>0.853</cell>
+                        <cell>0.426</cell>
                     </row>
                     <row>
-                        <cell rend="both">Spache readability formula </cell>
-                        <cell rend="both"> 0.797 </cell>
-                        <cell rend="both"> 0.451 </cell>
+                        <cell>Spache readability formula</cell>
+                        <cell>0.797</cell>
+                        <cell>0.451</cell>
                     </row>
                     <row>
-                        <cell rend="both">Flesch reading ease </cell>
-                        <cell rend="both"> 0.776 </cell>
-                        <cell rend="both"> 0.460</cell>
+                        <cell>Flesch reading ease</cell>
+                        <cell>0.776</cell>
+                        <cell>0.460</cell>
                     </row>
                     <row>
-                        <cell rend="both">% adjectives </cell>
-                        <cell rend="both"> 0.719 </cell>
-                        <cell rend="both"> 0.487</cell>
+                        <cell>% adjectives</cell>
+                        <cell>0.719</cell>
+                        <cell>0.487</cell>
                     </row>
                     <row>
-                        <cell rend="both">Coleman-Liau index </cell>
-                        <cell rend="both"> 0.708 </cell>
-                        <cell rend="both"> 0.493</cell>
+                        <cell>Coleman-Liau index</cell>
+                        <cell>0.708</cell>
+                        <cell>0.493</cell>
                     </row>
                     <row>
-                        <cell rend="both">% verbs </cell>
-                        <cell rend="both"> 0.432 </cell>
-                        <cell rend="both"> 0.649</cell>
+                        <cell>% verbs</cell>
+                        <cell>0.432</cell>
+                        <cell>0.649</cell>
                     </row>
                     <row>
-                        <cell rend="both">% difficult words </cell>
-                        <cell rend="both"> 0.365 </cell>
-                        <cell rend="both"> 0.694 </cell>
+                        <cell>% difficult words</cell>
+                        <cell>0.365</cell>
+                        <cell>0.694</cell>
                     </row>
                     <row>
-                        <cell rend="both">Dale-Chall with word list </cell>
-                        <cell rend="both"> 0.318 </cell>
-                        <cell rend="both"> 0.728 </cell>
+                        <cell>Dale-Chall with word list</cell>
+                        <cell>0.318</cell>
+                        <cell>0.728</cell>
                     </row>
                     <row>
-                        <cell rend="both">Context of difficult words </cell>
-                        <cell rend="both"> 0.285 </cell>
-                        <cell rend="both"> 0.752 </cell>
+                        <cell>Context of difficult words</cell>
+                        <cell>0.285</cell>
+                        <cell>0.752</cell>
                     </row>
                     <row>
-                        <cell rend="both">Avg. morphological difficulty </cell>
-                        <cell rend="both"> 0.235 </cell>
-                        <cell rend="both"> 0.790 </cell>
+                        <cell>Avg. morphological difficulty</cell>
+                        <cell>0.235</cell>
+                        <cell>0.790</cell>
                     </row>
                     <row>
-                        <cell rend="both">% unique words </cell>
-                        <cell rend="both"> 0.039 </cell>
-                        <cell rend="both"> 0.961</cell>
+                        <cell>% unique words</cell>
+                        <cell>0.039</cell>
+                        <cell>0.961</cell>
                     </row>
                 </table>
             </div>
             <div>
-                <head>Additional statistical tests</head>
+                <head>Additional Statistical Tests</head>
                 <p>In addition to the initial analysis presented in the previous section, we
                     performed additional, more thorough statistical tests to determine which of the
                     evaluated measures are better at predicting the group a text belongs to. We used
@@ -1552,148 +1551,148 @@
                     useful each readability measure is when trying to predict the subcorpus it came
                     from. The results are presented in Table 4, with higher scores indicating better
                     (more informative) readability measures.</p>
-                <table rend="border">
+                <table rend="table-scroll">
                     <head>Table 4: The ranks of readability measures obtained by the statistical
                         tests, which report the usefulness of readability measures for predicting
                         group membership. The measures are ordered from the most useful to the least
                         useful.</head>
                     <row role="label">
-                        <cell rend="left">Random Forest</cell>
-                        <cell rend="left">ANOVA</cell>
-                        <cell rend="left">Mutual information</cell>
-                        <cell rend="left">Chi2</cell>
+                        <cell>Random Forest</cell>
+                        <cell>ANOVA</cell>
+                        <cell>Mutual information</cell>
+                        <cell>Chi2</cell>
                     </row>
                     <row>
-                        <cell rend="left">Average sentence length</cell>
-                        <cell rend="left">Average sentence length</cell>
-                        <cell rend="left">Average sentence length</cell>
-                        <cell rend="left">% new words</cell>
+                        <cell>Average sentence length</cell>
+                        <cell>Average sentence length</cell>
+                        <cell>Average sentence length</cell>
+                        <cell>% new words</cell>
                     </row>
                     <row>
-                        <cell rend="left">% new words</cell>
-                        <cell rend="left">% difficult words SPG</cell>
-                        <cell rend="left">RIX</cell>
-                        <cell rend="left">Number of words</cell>
+                        <cell>% new words</cell>
+                        <cell>% difficult words SPG</cell>
+                        <cell>RIX</cell>
+                        <cell>Number of words</cell>
                     </row>
                     <row>
-                        <cell rend="left">Number of words</cell>
-                        <cell rend="left">% long words</cell>
-                        <cell rend="left">SMOG</cell>
-                        <cell rend="left">% unique words</cell>
+                        <cell>Number of words</cell>
+                        <cell>% long words</cell>
+                        <cell>SMOG</cell>
+                        <cell>% unique words</cell>
                     </row>
                     <row>
-                        <cell rend="left">% unique words</cell>
-                        <cell rend="left">SMOG</cell>
-                        <cell rend="left">Percentage of new words</cell>
-                        <cell rend="left">Flesch reading ease</cell>
+                        <cell>% unique words</cell>
+                        <cell>SMOG</cell>
+                        <cell>Percentage of new words</cell>
+                        <cell>Flesch reading ease</cell>
                     </row>
                     <row>
-                        <cell rend="left">% difficult words SPG</cell>
-                        <cell rend="left">Dale-Chall</cell>
-                        <cell rend="left">Automated readability index</cell>
-                        <cell rend="left">LIX</cell>
+                        <cell>% difficult words SPG</cell>
+                        <cell>Dale-Chall</cell>
+                        <cell>Automated readability index</cell>
+                        <cell>LIX</cell>
                     </row>
                     <row>
-                        <cell rend="left">Gunning fog index</cell>
-                        <cell rend="left">Percentage of adjectives</cell>
-                        <cell rend="left">Gunning fog index</cell>
-                        <cell rend="left">Average sentence length</cell>
+                        <cell>Gunning fog index</cell>
+                        <cell>Percentage of adjectives</cell>
+                        <cell>Gunning fog index</cell>
+                        <cell>Average sentence length</cell>
                     </row>
                     <row>
-                        <cell rend="left">Percentage of verbs</cell>
-                        <cell rend="left">Coleman-Liau index</cell>
-                        <cell rend="left">LIX</cell>
-                        <cell rend="left">% difficult words</cell>
+                        <cell>Percentage of verbs</cell>
+                        <cell>Coleman-Liau index</cell>
+                        <cell>LIX</cell>
+                        <cell>% difficult words</cell>
                     </row>
                     <row>
-                        <cell rend="left">RIX</cell>
-                        <cell rend="left">Percentage of unique words</cell>
-                        <cell rend="left">Number of words</cell>
-                        <cell rend="left">Gunning fog index</cell>
+                        <cell>RIX</cell>
+                        <cell>Percentage of unique words</cell>
+                        <cell>Number of words</cell>
+                        <cell>Gunning fog index</cell>
                     </row>
                     <row>
-                        <cell rend="left">Dale-Chall (word list)</cell>
-                        <cell rend="left">RIX</cell>
-                        <cell rend="left">Flesch-Kincaid grade level</cell>
-                        <cell rend="left">Automated readability index</cell>
+                        <cell>Dale-Chall (word list)</cell>
+                        <cell>RIX</cell>
+                        <cell>Flesch-Kincaid grade level</cell>
+                        <cell>Automated readability index</cell>
                     </row>
                     <row>
-                        <cell rend="left">SMOG</cell>
-                        <cell rend="left">% verbs</cell>
-                        <cell rend="left">Flesch reading ease</cell>
-                        <cell rend="left">% difficult words SPG</cell>
+                        <cell>SMOG</cell>
+                        <cell>% verbs</cell>
+                        <cell>Flesch reading ease</cell>
+                        <cell>% difficult words SPG</cell>
                     </row>
                     <row>
-                        <cell rend="left">LIX</cell>
-                        <cell rend="left">Flesch reading ease</cell>
-                        <cell rend="left">Dale-Chall</cell>
-                        <cell rend="left">Flesch-Kincaid grade level</cell>
+                        <cell>LIX</cell>
+                        <cell>Flesch reading ease</cell>
+                        <cell>Dale-Chall</cell>
+                        <cell>Flesch-Kincaid grade level</cell>
                     </row>
                     <row>
-                        <cell rend="left">Flesch-Kincaid grade level</cell>
-                        <cell rend="left">Context of difficult words</cell>
-                        <cell rend="left">% unique words</cell>
-                        <cell rend="left">SMOG</cell>
+                        <cell>Flesch-Kincaid grade level</cell>
+                        <cell>Context of difficult words</cell>
+                        <cell>% unique words</cell>
+                        <cell>SMOG</cell>
                     </row>
                     <row>
-                        <cell rend="left">Context of difficult words</cell>
-                        <cell rend="left">LIX</cell>
-                        <cell rend="left">% long words</cell>
-                        <cell rend="left">RIX</cell>
+                        <cell>Context of difficult words</cell>
+                        <cell>LIX</cell>
+                        <cell>% long words</cell>
+                        <cell>RIX</cell>
                     </row>
                     <row>
-                        <cell rend="left">Dale-Chall</cell>
-                        <cell rend="left">Gunning fog index</cell>
-                        <cell rend="left">% difficult words</cell>
-                        <cell rend="left">Coleman-Liau index</cell>
+                        <cell>Dale-Chall</cell>
+                        <cell>Gunning fog index</cell>
+                        <cell>% difficult words</cell>
+                        <cell>Coleman-Liau index</cell>
                     </row>
                     <row>
-                        <cell rend="left">% long words</cell>
-                        <cell rend="left">Flesch-Kincaid grade level</cell>
-                        <cell rend="left">% difficult words SPG</cell>
-                        <cell rend="left">Dale-Chall</cell>
+                        <cell>% long words</cell>
+                        <cell>Flesch-Kincaid grade level</cell>
+                        <cell>% difficult words SPG</cell>
+                        <cell>Dale-Chall</cell>
                     </row>
                     <row>
-                        <cell rend="left">% difficult words</cell>
-                        <cell rend="left">% difficult words</cell>
-                        <cell rend="left">Spache readability formula</cell>
-                        <cell rend="left">Spache readability formula</cell>
+                        <cell>% difficult words</cell>
+                        <cell>% difficult words</cell>
+                        <cell>Spache readability formula</cell>
+                        <cell>Spache readability formula</cell>
                     </row>
                     <row>
-                        <cell rend="left">Avg morphological difficulty</cell>
-                        <cell rend="left">Automated readability index</cell>
-                        <cell rend="left">Context of difficult words</cell>
-                        <cell rend="left">Dale-Chall (word list)</cell>
+                        <cell>Avg morphological difficulty</cell>
+                        <cell>Automated readability index</cell>
+                        <cell>Context of difficult words</cell>
+                        <cell>Dale-Chall (word list)</cell>
                     </row>
                     <row>
-                        <cell rend="left">Automated readability index</cell>
-                        <cell rend="left">% new words</cell>
-                        <cell rend="left">Coleman-Liau index</cell>
-                        <cell rend="left">% long words</cell>
+                        <cell>Automated readability index</cell>
+                        <cell>% new words</cell>
+                        <cell>Coleman-Liau index</cell>
+                        <cell>% long words</cell>
                     </row>
                     <row>
-                        <cell rend="left">% adjectives</cell>
-                        <cell rend="left">Number of words</cell>
-                        <cell rend="left">% verbs</cell>
-                        <cell rend="left">Context of difficult words</cell>
+                        <cell>% adjectives</cell>
+                        <cell>Number of words</cell>
+                        <cell>% verbs</cell>
+                        <cell>Context of difficult words</cell>
                     </row>
                     <row>
-                        <cell rend="left">Flesch reading ease</cell>
-                        <cell rend="left">Dale-Chall (word list)</cell>
-                        <cell rend="left">% adjectives</cell>
-                        <cell rend="left">% verbs</cell>
+                        <cell>Flesch reading ease</cell>
+                        <cell>Dale-Chall (word list)</cell>
+                        <cell>% adjectives</cell>
+                        <cell>% verbs</cell>
                     </row>
                     <row>
-                        <cell rend="left">Spache readability formula</cell>
-                        <cell rend="left">Spache readability formula</cell>
-                        <cell rend="left">Dale-Chall (word list)</cell>
-                        <cell rend="left">% adjectives</cell>
+                        <cell>Spache readability formula</cell>
+                        <cell>Spache readability formula</cell>
+                        <cell>Dale-Chall (word list)</cell>
+                        <cell>% adjectives</cell>
                     </row>
                     <row>
-                        <cell rend="left">Coleman-Liau index</cell>
-                        <cell rend="left">Avg morphological difficulty</cell>
-                        <cell rend="left">Avg morphological difficulty</cell>
-                        <cell rend="left">Avg morphological difficulty</cell>
+                        <cell>Coleman-Liau index</cell>
+                        <cell>Avg morphological difficulty</cell>
+                        <cell>Avg morphological difficulty</cell>
+                        <cell>Avg morphological difficulty</cell>
                     </row>
                 </table>
                 <p>The results of the statistical tests show that the features commonly used by the
@@ -1714,7 +1713,7 @@
                     worse than the formulas that consider long words as difficult.</p>
             </div>
             <div>
-                <head>Classification results</head>
+                <head>Classification Results</head>
                 <p>In addition to statistical evaluation, we also performed a test with machine
                     learning classifiers (<ref target="#Kononenko.2007">Kononenko and Kukar
                         2007</ref>) to see whether we could use our readability measures to predict
@@ -1745,33 +1744,33 @@
                     data set. The obtained results are presented in Table 5. The results obtained by
                     the majority classifier (i.e. classifying everything as the most frequent group)
                     are presented as a baseline score.</p>
-                <table rend="border">
+                <table rend="table-scroll">
                     <head>Table 5: The classification accuracies for each of the models. The numbers
                         show the percentage of texts for which the group membership was correctly
                         predicted.</head>
                     <row role="label">
-                        <cell rend="left">Model</cell>
-                        <cell rend="left">Classification Accuracy</cell>
+                        <cell>Model</cell>
+                        <cell>Classification Accuracy</cell>
                     </row>
                     <row>
-                        <cell rend="left">Random Forest</cell>
-                        <cell rend="left"><hi rend="bold">0.984</hi></cell>
+                        <cell>Random Forest</cell>
+                        <cell><hi rend="bold">0.984</hi></cell>
                     </row>
                     <row>
-                        <cell rend="left">Extreme Gradient Boosting</cell>
-                        <cell rend="left">0.979</cell>
+                        <cell>Extreme Gradient Boosting</cell>
+                        <cell>0.979</cell>
                     </row>
                     <row>
-                        <cell rend="left">Decision Tree</cell>
-                        <cell rend="left">0.960</cell>
+                        <cell>Decision Tree</cell>
+                        <cell>0.960</cell>
                     </row>
                     <row>
-                        <cell rend="left">Majority Classifier</cell>
-                        <cell rend="left">0.791</cell>
+                        <cell>Majority Classifier</cell>
+                        <cell>0.791</cell>
                     </row>
                     <row>
-                        <cell rend="left">Naive Bayes</cell>
-                        <cell rend="left">0.553</cell>
+                        <cell>Naive Bayes</cell>
+                        <cell>0.553</cell>
                     </row>
                 </table>
                 <p>Table 5 shows that we are able to predict the correct group of a text with high
@@ -1780,7 +1779,7 @@
                     be used to accurately distinguish between different groups of text.</p>
             </div>
             <div>
-                <head>Conclusion and future work</head>
+                <head>Conclusion and Future Work</head>
                 <p>We analyzed statistical distributions of well-known readability measures on
                     Slovene texts. We extracted five subcorpora of texts from the Gigafida corpus
                     with commonly perceived different readability levels: children magazines,
@@ -1958,14 +1957,11 @@
                 </listBibl>
             </div>
             <div type="summary">
-                <docAuthor>Tadej Škvorc</docAuthor>
-                <docAuthor>Simon Krek</docAuthor>
-                <docAuthor>Senja Pollak</docAuthor>
-                <docAuthor>Špela Arhar Holdt</docAuthor>
-                <docAuthor>Marko Robnik-Šikonja</docAuthor>
-                <head><hi rend="allcaps">Predicting Slovene text complexity using readability
-                        measures</hi></head>
-                <head><hi rend="allcaps">SUMMARY</hi></head>
+                <docAuthor>Tadej Škvorc, Simon Krek, Senja Pollak, Špela Arhar Holdt, Marko
+                    Robnik-Šikonja</docAuthor>
+                <head style="text-transform: uppercase;">Predicting Slovene text complexity using
+                    readability measures</head>
+                <head rend="subheader">SUMMARY</head>
                 <p>In English, the problem of determining text readability (i.e. how easy a text is
                     to understand) has long been a topic of research, with its origins in the 19th
                     century. Since then, many different methods and readability measures have been
@@ -2005,14 +2001,11 @@
                     classification accuracy) by using random forests.</p>
             </div>
             <div type="summary">
-                <docAuthor>Tadej Škvorc</docAuthor>
-                <docAuthor>Simon Krek</docAuthor>
-                <docAuthor>Senja Pollak</docAuthor>
-                <docAuthor>Špela Arhar Holdt</docAuthor>
-                <docAuthor>Marko Robnik-Šikonja</docAuthor>
-                <head><hi rend="allcaps">Napovedovanje kompleksnosti slovenskih besedil z uporabo
-                        mer berljivosti</hi></head>
-                <head><hi rend="allcaps">POVZETEK</hi></head>
+                <docAuthor>Tadej Škvorc, Simon Krek, Senja Pollak, Špela Arhar Holdt, Marko
+                    Robnik-Šikonja</docAuthor>
+                <head style="text-transform: uppercase;">Napovedovanje kompleksnosti slovenskih
+                    besedil z uporabo mer berljivosti</head>
+                <head rend="subheader">POVZETEK</head>
                 <p>Problem berljivosti (t.j. kako enostavno je besedilo za branje) je v angleščini
                     dobro raziskan. Obstaja veliko različnih metod in formul, s katerimi lahko
                     analiziramo angleška besedila z vidika berljivosti. Kljub temu, da je vprašanje

@@ -226,27 +226,30 @@
                     use.</p>
                 <p>However, this is not a trivial task. Definitions and categorisations of MWEs
                     differ according to their methodological and theoretical basis and research
-                        goals.<note place="foot" xml:id="ftn5" n="1">For an overview of MWE
-                        classifications according to different methodological approaches, see Gantar
-                        et al. (2018).</note> A lexicographic perspective focuses on the semantic
-                    characteristics of MWEs and defines them as “different types of phrases that
-                    demonstrate a certain degree of idiomatic meaning” (Atkins and Rundell 2008,
-                    166) or as phrases whose “exact meaning is not directly obtained from its
-                    component parts” (Sag et al. 2002). On the other hand, the definition of MWEs
-                    from the perspective of machine processing emphasizes their statistical
-                    significance: “a group of tokens in a sentence that cohere more strongly than
-                    ordinary syntactic combinations: that is, they are idiosyncratic in form,
-                    function, or frequency” (Schneider et al. 2014) and their inability to be split
-                    into independent lexemes and at the same time maintain their semantic and
-                    syntactic functions, as well as their lexical, syntactic, semantic, pragmatic
-                    and statistical idiomaticity (Baldwin and Kim 2010, 3). Although no universally
-                    accepted definition of MWEs exists, researchers in linguistics and NLP both
-                    agree that the key feature separating MWEs from free phrases is the special
-                    relation between the elements that form the MWE. This relation is usually
-                    defined using such concepts as collocability (or statistical idiomaticity),
-                    idiomaticity (or semantic non-compositionality), syntactic (in)flexibility,
-                    which also includes the possibility of an internal modification of the phrase
-                    and the flexible order of its lexicalized elements, and lexical variance. </p>
+                        goals.<note place="foot" xml:id="ftn5" n="1"> For an overview of MWE
+                        classifications according to different methodological approaches, see <ref
+                            target="#Gantar.Colman.2018">Gantar et al. (2018)</ref>.</note> A
+                    lexicographic perspective focuses on the semantic characteristics of MWEs and
+                    defines them as “different types of phrases that demonstrate a certain degree of
+                    idiomatic meaning” (<ref target="#Atkins.2008">Atkins and Rundell 2008,
+                        166</ref>) or as phrases whose “exact meaning is not directly obtained from
+                    its component parts” (<ref target="#Sag.2002">Sag et al. 2002</ref>). On the
+                    other hand, the definition of MWEs from the perspective of machine processing
+                    emphasizes their statistical significance: “a group of tokens in a sentence that
+                    cohere more strongly than ordinary syntactic combinations: that is, they are
+                    idiosyncratic in form, function, or frequency” (<ref target="#Schneider.2014"
+                        >Schneider et al. 2014</ref>) and their inability to be split into
+                    independent lexemes and at the same time maintain their semantic and syntactic
+                    functions, as well as their lexical, syntactic, semantic, pragmatic and
+                    statistical idiomaticity (<ref target="#Baldwin.2010">Baldwin and Kim 2010,
+                        3</ref>). Although no universally accepted definition of MWEs exists,
+                    researchers in linguistics and NLP both agree that the key feature separating
+                    MWEs from free phrases is the special relation between the elements that form
+                    the MWE. This relation is usually defined using such concepts as collocability
+                    (or statistical idiomaticity), idiomaticity (or semantic non-compositionality),
+                    syntactic (in)flexibility, which also includes the possibility of an internal
+                    modification of the phrase and the flexible order of its lexicalized elements,
+                    and lexical variance. </p>
                 <p>An attempt to provide the much needed guidelines and a pilot study on the
                     annotation of MWEs in language corpora was made as part of the PARSEME COST
                     Action Shared Task 1.1.<note place="foot" xml:id="ftn6" n="2">
@@ -256,18 +259,19 @@
                     of the task, universal guidelines for VMWE classification were compiled
                     containing examples for all languages involved. Based on the guidelines, a
                     multi-lingual corpus was manually annotated with VMWEs and made available under
-                    a Creative Commons licence. </p>
+                    a Creative Commons licence.</p>
                 <p>While the categories of MWEs were designed as language-independent, the specific
                     characteristics of all the included languages had to be taken into account to
                     reach a solution that was universally applicable. In this paper, we focus on the
                     Slovene results, which will be useful when compiling a digital lexicon of
                     Slovene MWEs, as well as other language resources such as the Dictionary of
-                    Modern Slovene (Gorjanc et al. 2017) and a corpus-based grammar of Slovene. The
-                    topic was presented in Gantar et al. (2018) with a focus on MWEs and their
-                    theoretical framework in Slovene studies. This paper focuses on MWEs from the
-                    perspective of a unified concept that was applied to 20 different languages
-                    within the PARSEME Shared Task 1.1. A comparison of the results can be found in
-                    Ramisch et al. (2018). </p>
+                    Modern Slovene (<ref target="#Gorjanc.2017">Gorjanc et al. 2017</ref>) and a
+                    corpus-based grammar of Slovene. The topic was presented in <ref
+                        target="#Gantar.Colman.2018">Gantar et al. (2018)</ref> with a focus on MWEs
+                    and their theoretical framework in Slovene studies. This paper focuses on MWEs
+                    from the perspective of a unified concept that was applied to 20 different
+                    languages within the PARSEME Shared Task 1.1. A comparison of the results can be
+                    found in <ref target="#Ramisch.2018">Ramisch et al. (2018)</ref>. </p>
             </div>
             <div>
                 <head>Identifying and Categorizing Verbal Multi-Word Expressions</head>
@@ -288,7 +292,7 @@
                     individual categories, their characteristics, and the potential problems of the
                     approach.</p>
                 <div>
-                    <head>Verbal Multiword expressions – Slovenian case</head>
+                    <head>Verbal Multiword Expressions – Slovenian Case</head>
                     <p>In Slovene studies, MWEs are divided into a) phraseological units (PUs), in
                         which at least one component carries meaning that differs from one of its
                         denotative “dictionary” senses, and expresses figurativeness, and b) all
@@ -297,12 +301,14 @@
                         be predicted from the meanings of their elements. PUs are further divided by
                         syntactic structure: the clausal type (which also includes proverbs) and the
                         phrasal type (all non-verbal PUs). In Slovene linguistic theory, verbal MWEs
-                        are determined by their morphosyntactic features (Toporišič 1973/74;
-                        Kržišnik 1994): a MWE is classified as a VMWE if it includes a verbal
-                        element and if it functions as a predicate. However, it remains unclear how
-                        to classify examples in which the verbal MWE does not function as a
-                        predicate, e.g. <hi rend="italic">hočeš nočeš</hi> ‘like it or not’, which
-                        includes two verbal elements, but functions as an adverbial. </p>
+                        are determined by their morphosyntactic features (<ref
+                            target="#Toporišič.1973-74">Toporišič 1973/74</ref>; <ref
+                            target="#Kržišnik.1994">Kržišnik 1994</ref>): a MWE is classified as a
+                        VMWE if it includes a verbal element and if it functions as a predicate.
+                        However, it remains unclear how to classify examples in which the verbal MWE
+                        does not function as a predicate, e.g. <hi rend="italic">hočeš nočeš</hi>
+                        ‘like it or not’, which includes two verbal elements, but functions as an
+                        adverbial.</p>
                     <p>The problem of categorizing MWEs according to their morphological structure
                         and syntactic function was resolved in PARSEME shared task through the
                         definition that the main criterion for VMWEs is that their syntactic head in
@@ -311,10 +317,11 @@
                         have so far never treated verbs with the <hi rend="italic">se/si</hi>
                         morpheme as a separate MWE category. Phrasal verbs that consist of a verb
                         and a preposition and carry an independent meaning were categorized as MWEs
-                        only conditionally (Kržišnik 1994, 58).</p>
+                        only conditionally (<ref target="#Kržišnik.1994">Kržišnik 1994,
+                        58</ref>).</p>
                 </div>
                 <div>
-                    <head>Verbal Multiword expressions within the Parseme Shared task 1.1</head>
+                    <head>Verbal Multiword Expressions within the Parseme Shared Task 1.1</head>
                     <p>For the categorization of VMWEs within the Parseme Shared task 1.1,
                         exhaustive guidelines<note place="foot" xml:id="ftn7" n="3">
                             <hi rend="italic">PARSEME Shared Task 1.1 - Annotation guidelines</hi>,
@@ -351,24 +358,28 @@
             </div>
             <div>
                 <head>The Corpus and Annotation Tool</head>
-                <p>VMWEs were annotated in the Slovene ssj500k 2.0 training corpus (Krek et al.
-                    2017), which consists of approximately 500,000 tokens and just under 28,000
-                    sentences sampled from the FidaPLUS corpus of Slovene (Arhar Holdt and Gorjanc
-                    2007). The entire corpus is morphosyntactically tagged (Grčar et al. 2012).
-                    Certain portions also contain named-entity annotations and syntactic
-                    dependencies (Dobrovoljc et al. 2012). In the first annotation phase, 11,411
-                    sentences were annotated by two annotators with VMWEs as defined by the first
-                    version of the PARSEME Guidelines (Candito et al. 2016). Disagreements in
-                    annotation were discussed and adjusted accordingly. In the second phase, the
-                    categories were automatically modified based on the second version of the
-                    PARSEME Guidelines and manually checked. The second phase continued with the
-                    annotation of an additional 2,100 sentences annotated in packages by individual
-                    annotators. Problematic examples were discussed and correctly annotated. </p>
+                <p>VMWEs were annotated in the Slovene ssj500k 2.0 training corpus (<ref
+                        target="#Krek.2017">Krek et al. 2017</ref>), which consists of approximately
+                    500,000 tokens and just under 28,000 sentences sampled from the FidaPLUS corpus
+                    of Slovene (<ref target="#ArharHoldt.2007">Arhar Holdt and Gorjanc 2007</ref>).
+                    The entire corpus is morphosyntactically tagged (<ref target="#Grčar.2012">Grčar
+                        et al. 2012</ref>). Certain portions also contain named-entity annotations
+                    and syntactic dependencies (<ref target="#Dobrovoljc.2012">Dobrovoljc et al.
+                        2012</ref>). In the first annotation phase, 11,411 sentences were annotated
+                    by two annotators with VMWEs as defined by the first version of the PARSEME
+                    Guidelines (<ref target="#Candito.2016">Candito et al. 2016</ref>).
+                    Disagreements in annotation were discussed and adjusted accordingly. In the
+                    second phase, the categories were automatically modified based on the second
+                    version of the PARSEME Guidelines and manually checked. The second phase
+                    continued with the annotation of an additional 2,100 sentences annotated in
+                    packages by individual annotators. Problematic examples were discussed and
+                    correctly annotated.</p>
                 <p>The tool used for annotation in the first phase was SentenceMarkup System (Figure
                     1), a custom tool primarily developed for syntactic dependency annotation of
-                    Slovene texts (Dobrovoljc et al. 2012). The tool was adjusted for the annotation
-                    of VMWEs by adding an additional independent and interconnectable annotation
-                    layer (cf. Gantar et al. 2017). </p>
+                    Slovene texts (<ref target="#Dobrovoljc.2012">Dobrovoljc et al. 2012</ref>). The
+                    tool was adjusted for the annotation of VMWEs by adding an additional
+                    independent and interconnectable annotation layer (cf. <ref
+                        target="#Gantar.2017">Gantar et al. 2017</ref>).</p>
                 <figure>
                     <graphic url="SentenceMarkup_VMWEs.PNG"/>
                     <head>Figure 1: Annotations in the SentenceMarkup System</head>
@@ -381,18 +392,19 @@
                     TSV, while annotated files are exported in XML. All annotations are saved
                     automatically. The interface also features text search using CQL.</p>
                 <figure>
-                    <graphic url="FLAT_WMWEs.PNG"/>
+                    <graphic url="FLAT_WMWEs.png"/>
                     <head>Figure 2: Annotations in FLAT</head>
                 </figure>
             </div>
             <div>
-                <head> Quantitative Analysis </head>
-                <p>The annotated VMWEs were imported into the ssj500k 2.1 training corpus (Krek et
-                    al. 2018). Among the 13,511 sentences annotated in the first two annotation
-                    phases, 2,290 of them (approximately 22%) contain at least one VMWE. On average,
-                    each of these sentences features 1.15 VMWEs. Taking into account all the
-                    annotated sentences, each sentence contains approximately 0.25 VMWEs; in other
-                    words, on average, one VMWE is present in every fourth sentence.</p>
+                <head>Quantitative Analysis </head>
+                <p>The annotated VMWEs were imported into the ssj500k 2.1 training corpus (<ref
+                        target="#Krek.2017">Krek et al. 2018</ref>). Among the 13,511 sentences
+                    annotated in the first two annotation phases, 2,290 of them (approximately 22%)
+                    contain at least one VMWE. On average, each of these sentences features 1.15
+                    VMWEs. Taking into account all the annotated sentences, each sentence contains
+                    approximately 0.25 VMWEs; in other words, on average, one VMWE is present in
+                    every fourth sentence.</p>
                 <p>Table 1 shows the distribution of the annotated VMWEs by category. The final
                     number of VMWEs in the training corpus is 3,364. The number of different VMWEs
                     (i.e. without any repetitions of the same unit) was just under 1,100. When
@@ -401,69 +413,66 @@
                     number of different VMWEs are VID and IAV, while LVC.full and LVC.cause are the
                     least diverse categories. We describe each category in more detail in section
                     5.</p>
-                <table rend="border">
+                <table rend="table-scroll">
                     <head>Table 1: Distribution of annotated VMWEs by category</head>
+                    <row role="label">
+                        <cell>Category</cell>
+                        <cell>Example</cell>
+                        <cell>Translation</cell>
+                        <cell>All VMWEs</cell>
+                        <cell>Percent</cell>
+                        <cell>Different VMWEs </cell>
+                    </row>
                     <row>
-                        <cell rend="left" role="label"><hi rend="bold">Category</hi>
+                        <cell>Inherently Reflexive Verbs (IRV) </cell>
+                        <cell><hi rend="italic">bati se</hi></cell>
+                        <cell>to be afraid</cell>
+                        <cell style="text-align:right;">1,627</cell>
+                        <cell style="text-align:right;">48%</cell>
+                        <cell style="text-align:right;">345</cell>
+                    </row>
+                    <row>
+                        <cell>Inherently Adpositional Verbs (IAV) </cell>
+                        <cell><hi rend="italic">priti do</hi></cell>
+                        <cell>to come about</cell>
+                        <cell style="text-align:right;">710</cell>
+                        <cell style="text-align:right;">21%</cell>
+                        <cell style="text-align:right;">154</cell>
+                    </row>
+                    <row>
+                        <cell>Verbal Idioms (VID) </cell>
+                        <cell><hi rend="italic">spati kot ubit</hi>
                         </cell>
-                        <cell rend="left" role="label"><hi rend="bold">Example</hi></cell>
-                        <cell rend="left" role="label"><hi rend="bold">Translation</hi></cell>
-                        <cell rend="right" role="label"><hi rend="bold">All VMWEs</hi>
-                        </cell>
-                        <cell rend="right" role="label"><hi rend="bold">Percent</hi></cell>
-                        <cell rend="right" role="label"><hi rend="bold">Different VMWEs</hi>
-                        </cell>
+                        <cell>(lit.) to sleep like a dead person </cell>
+                        <cell style="text-align:right;">724</cell>
+                        <cell style="text-align:right;">22%</cell>
+                        <cell style="text-align:right;">457</cell>
                     </row>
                     <row>
-                        <cell rend="left">Inherently Reflexive Verbs (IRV) </cell>
-                        <cell rend="left"><hi rend="italic">bati se</hi></cell>
-                        <cell rend="left">to be afraid</cell>
-                        <cell rend="right">1,627</cell>
-                        <cell rend="right">48%</cell>
-                        <cell rend="right">345</cell>
+                        <cell>Light Verb Constructions (LVC):<lb/>
+                            LVC.cause</cell>
+                        <cell><hi rend="italic">spraviti koga v smeh</hi></cell>
+                        <cell>to make someone laugh </cell>
+                        <cell style="text-align:right;">64</cell>
+                        <cell style="text-align:right;">2%</cell>
+                        <cell style="text-align:right;">27</cell>
                     </row>
                     <row>
-                        <cell rend="left">Inherently Adpositional Verbs (IAV) </cell>
-                        <cell rend="left"><hi rend="italic">priti do</hi></cell>
-                        <cell rend="left">to come about</cell>
-                        <cell rend="right">710</cell>
-                        <cell rend="right">21%</cell>
-                        <cell rend="right">154</cell>
+                        <cell>Light Verb Constructions (LVC):<lb/>
+                            LVC.full</cell>
+                        <cell><hi rend="italic">biti v pomoč</hi></cell>
+                        <cell>to be of help </cell>
+                        <cell style="text-align:right;">239</cell>
+                        <cell style="text-align:right;">7%</cell>
+                        <cell style="text-align:right;">103</cell>
                     </row>
                     <row>
-                        <cell rend="left">Verbal Idioms (VID) </cell>
-                        <cell rend="left"><hi rend="italic">spati kot ubit</hi>
-                        </cell>
-                        <cell rend="left">(lit.) to sleep like a dead person </cell>
-                        <cell rend="right">724</cell>
-                        <cell rend="right">22%</cell>
-                        <cell rend="right">457</cell>
-                    </row>
-                    <row>
-                        <cell rend="left"><p>Light Verb Constructions (LVC):
-                            </p><p>LVC.cause</p></cell>
-                        <cell rend="left"><hi rend="italic">spraviti koga v smeh</hi></cell>
-                        <cell rend="left">to make someone laugh </cell>
-                        <cell rend="right">64</cell>
-                        <cell rend="right">2%</cell>
-                        <cell rend="right">27</cell>
-                    </row>
-                    <row>
-                        <cell rend="left"><p>Light Verb Constructions (LVC):
-                            </p><p>LVC.full</p></cell>
-                        <cell rend="left"><hi rend="italic">biti v pomoč</hi></cell>
-                        <cell rend="left">to be of help </cell>
-                        <cell rend="right">239</cell>
-                        <cell rend="right">7%</cell>
-                        <cell rend="right">103</cell>
-                    </row>
-                    <row>
-                        <cell rend="left">Total</cell>
-                        <cell rend="left">-</cell>
-                        <cell rend="left">-</cell>
-                        <cell rend="right">3,364</cell>
-                        <cell rend="right">100%</cell>
-                        <cell rend="right">1,086</cell>
+                        <cell>Total</cell>
+                        <cell>-</cell>
+                        <cell>-</cell>
+                        <cell style="text-align:right;">3,364</cell>
+                        <cell style="text-align:right;">100%</cell>
+                        <cell style="text-align:right;">1,086</cell>
                     </row>
                 </table>
                 <p>Table 2 shows the most common VMWE structures by parts of speech (V – verb, N –
@@ -472,106 +481,105 @@
                     categorized as Other. The most frequent structures are V + Pro, V + Pre, V + N
                     and V + Pre + N. Collectively, they account for approximately 85% of all
                     annotated VMWEs.</p>
-                <table rend="border">
+                <table rend="table-scroll">
                     <head>Table 2: Distribution of annotated VMWEs by part-of-speech structure </head>
-                    <row>
-                        <cell rend="left"><hi rend="bold">Structure</hi>
-                        </cell>
-                        <cell rend="left"><hi rend="bold">Example</hi></cell>
-                        <cell rend="left"><hi rend="bold">Translation</hi></cell>
-                        <cell rend="left"><hi rend="bold">Frequency</hi></cell>
-                        <cell rend="left"><hi rend="bold">Percent</hi></cell>
+                    <row role="label">
+                        <cell>Structure</cell>
+                        <cell>Example</cell>
+                        <cell>Translation</cell>
+                        <cell>Frequency</cell>
+                        <cell>Percent</cell>
                     </row>
                     <row>
-                        <cell rend="left">V + Pro</cell>
-                        <cell rend="left"><hi rend="italic">bati se</hi></cell>
-                        <cell rend="left">to be afraid</cell>
-                        <cell rend="left">1,663</cell>
-                        <cell rend="left">49%</cell>
+                        <cell>V + Pro</cell>
+                        <cell><hi rend="italic">bati se</hi></cell>
+                        <cell>to be afraid</cell>
+                        <cell style="text-align:right;">1,663</cell>
+                        <cell style="text-align:right;">49%</cell>
                     </row>
                     <row>
-                        <cell rend="left">V + Pre</cell>
-                        <cell rend="left"><hi rend="italic">priti do</hi></cell>
-                        <cell rend="left">to come about</cell>
-                        <cell rend="left">535</cell>
-                        <cell rend="left">16%</cell>
+                        <cell>V + Pre</cell>
+                        <cell><hi rend="italic">priti do</hi></cell>
+                        <cell>to come about</cell>
+                        <cell style="text-align:right;">535</cell>
+                        <cell style="text-align:right;">16%</cell>
                     </row>
                     <row>
-                        <cell rend="left">V + N</cell>
-                        <cell rend="left"><hi rend="italic">imeti odnos</hi></cell>
-                        <cell rend="left">to have a relationship</cell>
-                        <cell rend="left">372</cell>
-                        <cell rend="left">11%</cell>
+                        <cell>V + N</cell>
+                        <cell><hi rend="italic">imeti odnos</hi></cell>
+                        <cell>to have a relationship</cell>
+                        <cell style="text-align:right;">372</cell>
+                        <cell style="text-align:right;">11%</cell>
                     </row>
                     <row>
-                        <cell rend="left">V + Pre + N</cell>
-                        <cell rend="left"><hi rend="italic">biti pod vtisom</hi></cell>
-                        <cell rend="left">to be under the impression</cell>
-                        <cell rend="left">303</cell>
-                        <cell rend="left">9%</cell>
+                        <cell>V + Pre + N</cell>
+                        <cell><hi rend="italic">biti pod vtisom</hi></cell>
+                        <cell>to be under the impression</cell>
+                        <cell style="text-align:right;">303</cell>
+                        <cell style="text-align:right;">9%</cell>
                     </row>
                     <row>
-                        <cell rend="left">V + Pro + A</cell>
-                        <cell rend="left"><hi rend="italic">biti si edini</hi></cell>
-                        <cell rend="left">to be unanimous</cell>
-                        <cell rend="left">146</cell>
-                        <cell rend="left">4%</cell>
+                        <cell>V + Pro + A</cell>
+                        <cell><hi rend="italic">biti si edini</hi></cell>
+                        <cell>to be unanimous</cell>
+                        <cell style="text-align:right;">146</cell>
+                        <cell style="text-align:right;">4%</cell>
                     </row>
                     <row>
-                        <cell rend="left">V + R</cell>
-                        <cell rend="left"><hi rend="italic">biti res</hi></cell>
-                        <cell rend="left">to be true</cell>
-                        <cell rend="left">136</cell>
-                        <cell rend="left">4%</cell>
+                        <cell>V + R</cell>
+                        <cell><hi rend="italic">biti res</hi></cell>
+                        <cell>to be true</cell>
+                        <cell style="text-align:right;">136</cell>
+                        <cell style="text-align:right;">4%</cell>
                     </row>
                     <row>
-                        <cell rend="left">V + Pro + Pre + N</cell>
-                        <cell rend="left"><hi rend="italic">ujeti se v past</hi></cell>
-                        <cell rend="left">to get caught in a trap</cell>
-                        <cell rend="left">24</cell>
-                        <cell rend="left">1%</cell>
+                        <cell>V + Pro + Pre + N</cell>
+                        <cell><hi rend="italic">ujeti se v past</hi></cell>
+                        <cell>to get caught in a trap</cell>
+                        <cell style="text-align:right;">24</cell>
+                        <cell style="text-align:right;">1%</cell>
                     </row>
                     <row>
-                        <cell rend="left">V + A</cell>
-                        <cell rend="left"><hi rend="italic">biti jasno</hi></cell>
-                        <cell rend="left">to be clear</cell>
-                        <cell rend="left">20</cell>
-                        <cell rend="left">1%</cell>
+                        <cell>V + A</cell>
+                        <cell><hi rend="italic">biti jasno</hi></cell>
+                        <cell>to be clear</cell>
+                        <cell style="text-align:right;">20</cell>
+                        <cell style="text-align:right;">1%</cell>
                     </row>
                     <row>
-                        <cell rend="left">V + A + N</cell>
-                        <cell rend="left"><hi rend="italic">imeti glavno besedo</hi></cell>
-                        <cell rend="left">to have the last word</cell>
-                        <cell rend="left">19</cell>
-                        <cell rend="left">1%</cell>
+                        <cell>V + A + N</cell>
+                        <cell><hi rend="italic">imeti glavno besedo</hi></cell>
+                        <cell>to have the last word</cell>
+                        <cell style="text-align:right;">19</cell>
+                        <cell style="text-align:right;">1%</cell>
                     </row>
                     <row>
-                        <cell rend="left">N + V + Pre + N</cell>
-                        <cell rend="left"><hi rend="italic">biti na robu propada</hi></cell>
-                        <cell rend="left">to be on the verge of collapse </cell>
-                        <cell rend="left">12</cell>
-                        <cell rend="left">&lt;1%</cell>
+                        <cell>N + V + Pre + N</cell>
+                        <cell><hi rend="italic">biti na robu propada</hi></cell>
+                        <cell>to be on the verge of collapse </cell>
+                        <cell style="text-align:right;">12</cell>
+                        <cell style="text-align:right;">&lt;1%</cell>
                     </row>
                     <row>
-                        <cell rend="left">V + Pro + N</cell>
-                        <cell rend="left"><hi rend="italic">vzeti si čas</hi></cell>
-                        <cell rend="left">to take one's time</cell>
-                        <cell rend="left">11</cell>
-                        <cell rend="left">&lt;1%</cell>
+                        <cell>V + Pro + N</cell>
+                        <cell><hi rend="italic">vzeti si čas</hi></cell>
+                        <cell>to take one's time</cell>
+                        <cell style="text-align:right;">11</cell>
+                        <cell style="text-align:right;">&lt;1%</cell>
                     </row>
                     <row>
-                        <cell rend="left">Other</cell>
-                        <cell rend="left">-</cell>
-                        <cell rend="left">-</cell>
-                        <cell rend="left">123</cell>
-                        <cell rend="left">4%</cell>
+                        <cell>Other</cell>
+                        <cell>-</cell>
+                        <cell>-</cell>
+                        <cell style="text-align:right;">123</cell>
+                        <cell style="text-align:right;">4%</cell>
                     </row>
                     <row>
-                        <cell rend="left">Total</cell>
-                        <cell rend="left">-</cell>
-                        <cell rend="left">-</cell>
-                        <cell rend="left">3,364</cell>
-                        <cell rend="left">100%</cell>
+                        <cell>Total</cell>
+                        <cell>-</cell>
+                        <cell>-</cell>
+                        <cell style="text-align:right;">3,364</cell>
+                        <cell style="text-align:right;">100%</cell>
                     </row>
                 </table>
             </div>
@@ -645,28 +653,32 @@
                         the function of the morpheme or the reflexive pronoun in terms of denoting
                         different degrees of agentness or the subject's (un)involvedness, as in the
                         case of the non-singular (<hi rend="italic">zbrati se</hi> 'to gather') or
-                        generic agent (<hi rend="italic">tiskati se</hi> 'to be printed') (Žele
-                        2012, 44; Toporišič 1982, 244; 2000, 503). The identification of IRVs in
-                        text from the perspective of their semantic and syntactic is particularly
-                        important for the automatic identification of MWEs. In future lexicons and
-                        dictionaries, IRVs should thus be treated either as independent entries or
-                        as part of polysemy.</p>
+                        generic agent (<hi rend="italic">tiskati se</hi> 'to be printed') (<ref
+                            target="#Žele.2012">Žele 2012, 44</ref>; <ref target="#Toporišič.1982"
+                            >Toporišič 1982, 244</ref>; <ref target="#Toporišič.2000">2000,
+                            503</ref>). The identification of IRVs in text from the perspective of
+                        their semantic and syntactic is particularly important for the automatic
+                        identification of MWEs. In future lexicons and dictionaries, IRVs should
+                        thus be treated either as independent entries or as part of polysemy.</p>
                 </div>
                 <div>
                     <head>Light Verb Constructions (LVC)</head>
                     <p>Light verb constructions have been treated from different perspectives by
-                        different authors (for an overview, see Soršak 2013). In most definitions,
-                        the verbs in LVCs are categorized as something between full verbs and
-                        auxiliary verbs, while the expressions that feature them are categorized as
-                        a phenomenon between fixed and free expressions. Using existing typologies
-                        for Slovene (Toporišič 2000; Žele 1999), Soršak analyzes Slovene LVCs based
-                        on the entries in the Dictionary of Standard Slovene (SSKJ). The results
-                        highlight that the dictionary often mentions the semantically light use of a
-                        verb in places where the use is stylistically marked, most frequently as
-                        expressive (Soršak 2013, 514; e.g. <hi rend="italic">groza ga sprehaja,
-                        </hi>lit. 'terror is walking him'). The results described in this paper show
-                        the opposite – in the annotated corpus, LVCs are typical, stylistically
-                        neutral, and frequently occurring.</p>
+                        different authors (for an overview, see <ref target="#GodecSoršak.2013"
+                            >Soršak 2013</ref>). In most definitions, the verbs in LVCs are
+                        categorized as something between full verbs and auxiliary verbs, while the
+                        expressions that feature them are categorized as a phenomenon between fixed
+                        and free expressions. Using existing typologies for Slovene (<ref
+                            target="#Toporišič.2000">Toporišič 2000</ref>; <ref target="#Žele.1999"
+                            >Žele 1999</ref>), Soršak analyzes Slovene LVCs based on the entries in
+                        the Dictionary of Standard Slovene (<ref target="#SSSK.">SSKJ</ref>). The
+                        results highlight that the dictionary often mentions the semantically light
+                        use of a verb in places where the use is stylistically marked, most
+                        frequently as expressive (<ref target="#GodecSoršak.2013">Soršak 2013,
+                            514</ref>; e.g. <hi rend="italic">groza ga sprehaja, </hi>lit. 'terror
+                        is walking him'). The results described in this paper show the opposite – in
+                        the annotated corpus, LVCs are typical, stylistically neutral, and
+                        frequently occurring.</p>
                     <p>As per the PARSEME Guidelines, a LVC must fulfil the following conditions: it
                         consists of a verb and a noun or a noun phrase that can also take the form
                         of a prepositional phrase (<hi rend="italic">imeti mnenje</hi> 'to have an
@@ -694,31 +706,32 @@
                         categorized incorrectly), 78.8% were LVC.full and 21.2% LVC.cause. 87.1% of
                         them were combinations of a verb and a noun, while 12.9% were combinations
                         of a verb and a prepositional phrase. The annotated LVCs contained a total
-                        of 19 different verbs,<note place="foot" xml:id="ftn9" n="5"> This is the
+                        of 19 different verbs,<note place="foot" xml:id="ftn9" n="5">This is the
                             full set of the LVCs in the data, confirming that the set of verbs
-                            occurring in these expressions is limited. In the dictionary, Soršak
-                            (2013, 513) finds mentions of semantic lightness in 420 verb entries.
-                            However, as mentioned, the labels often signify stylistically marked and
-                            atypical language use.</note> predominantly the verb <hi rend="italic"
-                            >imeti</hi> 'to have' (65.6%), but also <hi rend="italic">biti</hi> 'to
-                        be' (13.6%) and <hi rend="italic">dati/dajati</hi> 'to give' (a total of
-                            9.6%).<note place="foot" xml:id="ftn10" n="6"> In Slovene lingustics,
-                            verb phrases with <hi rend="italic">imeti</hi> 'to have' and <hi
-                                rend="italic">biti</hi> 'to be' have been most frequently treated as
-                            the equivalent of LVCs, but analyzed from different perspectives (see
-                            e.g. Vidovič Muha 1998).</note> Other verbs (<hi rend="italic"
-                            >narediti</hi> 'to do', <hi rend="italic">postaviti</hi>/<hi
-                            rend="italic">postavljati</hi> 'to put', <hi rend="italic">ostati</hi>
-                        'to remain', <hi rend="italic">voditi</hi> 'to lead', <hi rend="italic"
-                            >namenjati</hi> 'to pay [attention]', <hi rend="italic">delati</hi> 'to
-                        do/make', <hi rend="italic">storiti</hi> 'to do', <hi rend="italic"
-                            >vzbujati</hi>/<hi rend="italic">zbujati</hi> 'to incite', <hi
-                            rend="italic">dobiti</hi> 'to get', <hi rend="italic">zastaviti</hi> 'to
-                        pose', <hi rend="italic">spraviti</hi> 'to make', <hi rend="italic"
-                            >doseči</hi> 'to achieve' and <hi rend="italic">nositi</hi> 'to wear')
-                        occur less frequently, often in a single expression (<hi rend="italic"
-                            >ostati v spominu</hi> 'to remain in one's memory', <hi rend="italic"
-                            >namenjati pozornost</hi> 'to pay attention to sth').</p>
+                            occurring in these expressions is limited. In the dictionary, <ref
+                                target="#GodecSoršak.2013">Soršak (2013, 513)</ref> finds mentions
+                            of semantic lightness in 420 verb entries. However, as mentioned, the
+                            labels often signify stylistically marked and atypical language
+                            use.</note> predominantly the verb <hi rend="italic">imeti</hi> 'to
+                        have' (65.6%), but also <hi rend="italic">biti</hi> 'to be' (13.6%) and <hi
+                            rend="italic">dati/dajati</hi> 'to give' (a total of 9.6%).<note
+                            place="foot" xml:id="ftn10" n="6"> In Slovene lingustics, verb phrases
+                            with <hi rend="italic">imeti</hi> 'to have' and <hi rend="italic"
+                                >biti</hi> 'to be' have been most frequently treated as the
+                            equivalent of LVCs, but analyzed from different perspectives (see e.g.
+                            Vidovič Muha 1998).</note> Other verbs (<hi rend="italic">narediti</hi>
+                        'to do', <hi rend="italic">postaviti</hi>/<hi rend="italic">postavljati</hi>
+                        'to put', <hi rend="italic">ostati</hi> 'to remain', <hi rend="italic"
+                            >voditi</hi> 'to lead', <hi rend="italic">namenjati</hi> 'to pay
+                        [attention]', <hi rend="italic">delati</hi> 'to do/make', <hi rend="italic"
+                            >storiti</hi> 'to do', <hi rend="italic">vzbujati</hi>/<hi rend="italic"
+                            >zbujati</hi> 'to incite', <hi rend="italic">dobiti</hi> 'to get', <hi
+                            rend="italic">zastaviti</hi> 'to pose', <hi rend="italic">spraviti</hi>
+                        'to make', <hi rend="italic">doseči</hi> 'to achieve' and <hi rend="italic"
+                            >nositi</hi> 'to wear') occur less frequently, often in a single
+                        expression (<hi rend="italic">ostati v spominu</hi> 'to remain in one's
+                        memory', <hi rend="italic">namenjati pozornost</hi> 'to pay attention to
+                        sth').</p>
                     <p>Combinations of a verb and a prepositional phrase are somewhat more typical
                         of the LVC.cause category. In the annotated data, LVC.cause occurs
                         exclusively with the prepositions <hi rend="italic">v</hi> 'in' (33
@@ -747,27 +760,27 @@
                         the category depends on the meaning of the verb (<hi rend="italic">dati
                             prednost</hi> 'to give an advantage' → LVC.cause and <hi rend="italic"
                             >imeti prednost</hi> 'to have an advantage' → LVC.full.</p>
-                    <p>In accordance with the conclusions made by Soršak (2013, 519), the results
-                        show that the featured verbs can also be used with full meaning, while the
-                        semantic lightness in LVCs is complemented by the nominal part (<hi
-                            rend="italic">imeti</hi> 'to have' meaning 'to possess' compared to <hi
-                            rend="italic">imeti posledice</hi> 'to have consequences' meaning 'to
-                        cause/lead to consequences'). Semantically, the noun groups occurring in
-                        LVC.cause describe the result of an action, be it a type of result (<hi
-                            rend="italic">učinek</hi> 'effect', <hi rend="italic">vpliv</hi>
-                        'influence', <hi rend="italic">vtis</hi> 'impression'), a positive (<hi
-                            rend="italic">korist</hi> 'benefit', <hi rend="italic">užitek</hi>
-                        'pleasure') or negative consequence (<hi rend="italic">muka</hi> 'torment',
-                            <hi rend="italic">preglavica</hi> 'trouble'). The semantically light
-                        verb binds the result to the subject (<hi rend="italic">nekdo</hi>/<hi
-                            rend="italic">nekaj daje vtis</hi> 'smn/sth makes an impression', i.e.
-                        the agent is the cause of the action). In certain cases, LVCs can be
-                        converted into semantically full verbs with a similar morphological base
-                            (<hi rend="italic">dosegati učinek</hi> 'to achieve an effect' – <hi
-                            rend="italic">učinkovati</hi> 'to affect'; <hi rend="italic">imeti
-                            vpliv</hi> 'to have an influence' – <hi rend="italic">vplivati</hi> 'to
-                        influence'), but not always (<hi rend="italic">imeti posledice</hi> 'to have
-                        consequences' – /).</p>
+                    <p>In accordance with the conclusions made by <ref target="#GodecSoršak.2013"
+                            >Soršak (2013, 519)</ref>, the results show that the featured verbs can
+                        also be used with full meaning, while the semantic lightness in LVCs is
+                        complemented by the nominal part (<hi rend="italic">imeti</hi> 'to have'
+                        meaning 'to possess' compared to <hi rend="italic">imeti posledice</hi> 'to
+                        have consequences' meaning 'to cause/lead to consequences'). Semantically,
+                        the noun groups occurring in LVC.cause describe the result of an action, be
+                        it a type of result (<hi rend="italic">učinek</hi> 'effect', <hi
+                            rend="italic">vpliv</hi> 'influence', <hi rend="italic">vtis</hi>
+                        'impression'), a positive (<hi rend="italic">korist</hi> 'benefit', <hi
+                            rend="italic">užitek</hi> 'pleasure') or negative consequence (<hi
+                            rend="italic">muka</hi> 'torment', <hi rend="italic">preglavica</hi>
+                        'trouble'). The semantically light verb binds the result to the subject (<hi
+                            rend="italic">nekdo</hi>/<hi rend="italic">nekaj daje vtis</hi> 'smn/sth
+                        makes an impression', i.e. the agent is the cause of the action). In certain
+                        cases, LVCs can be converted into semantically full verbs with a similar
+                        morphological base (<hi rend="italic">dosegati učinek</hi> 'to achieve an
+                        effect' – <hi rend="italic">učinkovati</hi> 'to affect'; <hi rend="italic"
+                            >imeti vpliv</hi> 'to have an influence' – <hi rend="italic"
+                            >vplivati</hi> 'to influence'), but not always (<hi rend="italic">imeti
+                            posledice</hi> 'to have consequences' – /).</p>
                     <p>The nouns occurring in LVC.full are semantically more diverse. Dividing them
                         into semantic groups reveals that the common ground of these expressions can
                         be defined as planning or estimating success. Among the encountered LVCs are
@@ -797,35 +810,38 @@
                 <div>
                     <head>Inherently Adpositional Verbs (IAV)</head>
                     <p>Inherently adpositional verbs, also called verbs with a lexicalized
-                        prepositional morpheme (Žele 2002), were included in the PARSEME Guidelines
-                        during the second annotation phase as an optional test category.<note
-                            place="foot" xml:id="ftn11" n="7"> Based on the feedback from the first
-                            annotation campaign and the issues discussed among the contributors,
-                            idiomatic combinations of verbs with prepositions or postpositions
-                            (IAVs) were separated from verb-particle constructions (VPCs) such as
-                                <hi rend="italic">put off, to blow up, to do in</hi>, in which the
-                            particle completely changes the meaning or adds a partly predictable but
-                            non-spatial meaning to the verb. Unlike VPCs, which are characteristic
-                            of Germanic languages and Hungarian, less so of Romance languages, and
-                            absent in Slavic languages, IAVs can exclusively be found in the
-                            Balto-Slavic language group.</note> The guidelines define IAVs as verbs
-                        that only occur with a prepositional morpheme (<hi rend="italic"
-                            >simpatizirati z</hi> 'to sympathize with') or verbs that change meaning
-                        when occurring with a prepositional morpheme (<hi rend="italic">biti za</hi>
-                        'be for, to support' vs. <hi rend="italic">biti</hi> 'to be'). The
-                        participants required by the verb phrase as a whole are not a part of the
-                        VMWE, as opposed to e.g. <hi rend="italic">stati na + trdnih tleh</hi> 'to
-                        stand on + solid groud', which is categorized as a VID.</p>
-                    <p>Prepositions have been treated as free verb morphemes as early as in
-                        Metelko's Grammar of Slovene (1825, 247–56) and were analyzed in further
-                        detail by Breznik (1916, 250; 1934, 225). Verbs with a lexicalized
-                        prepositional morpheme were also analyzed by Žele (2002) and Kržišnik
-                        (1994), the former from the perspective of the degree of lexicality of the
-                        preposition and the latter from the perspective of phrase fixedness as
-                        either a phraseological unit with structural fixedness (<hi rend="italic"
-                            >biti ob čem</hi> 'to be next to sth' meaning 'to be positioned next to
-                        sth') or phrasemes with lexical fixedness (<hi rend="italic">biti ob
-                            kaj</hi> 'to lose sth').</p>
+                        prepositional morpheme (<ref target="#Žele.2002">Žele 2002</ref>), were
+                        included in the PARSEME Guidelines during the second annotation phase as an
+                        optional test category.<note place="foot" xml:id="ftn11" n="7">Based on the
+                            feedback from the first annotation campaign and the issues discussed
+                            among the contributors, idiomatic combinations of verbs with
+                            prepositions or postpositions (IAVs) were separated from verb-particle
+                            constructions (VPCs) such as <hi rend="italic">put off, to blow up, to
+                                do in</hi>, in which the particle completely changes the meaning or
+                            adds a partly predictable but non-spatial meaning to the verb. Unlike
+                            VPCs, which are characteristic of Germanic languages and Hungarian, less
+                            so of Romance languages, and absent in Slavic languages, IAVs can
+                            exclusively be found in the Balto-Slavic language group.</note> The
+                        guidelines define IAVs as verbs that only occur with a prepositional
+                        morpheme (<hi rend="italic">simpatizirati z</hi> 'to sympathize with') or
+                        verbs that change meaning when occurring with a prepositional morpheme (<hi
+                            rend="italic">biti za</hi> 'be for, to support' vs. <hi rend="italic"
+                            >biti</hi> 'to be'). The participants required by the verb phrase as a
+                        whole are not a part of the VMWE, as opposed to e.g. <hi rend="italic">stati
+                            na + trdnih tleh</hi> 'to stand on + solid groud', which is categorized
+                        as a VID.</p>
+                    <p>Prepositions have been treated as free verb morphemes as early as in <ref
+                            target="#Metelko.1825">Metelko's Grammar of Slovene (1825, 247–56)</ref>
+                        and were analyzed in further detail by <ref target="#Breznik.1916">Breznik
+                            (1916, 250</ref>; <ref target="#Breznik.1934">1934, 225</ref>). Verbs
+                        with a lexicalized prepositional morpheme were also analyzed by <ref
+                            target="#Žele.2002">Žele (2002)</ref> and <ref target="#Kržišnik.1994"
+                            >Kržišnik (1994)</ref>, the former from the perspective of the degree of
+                        lexicality of the preposition and the latter from the perspective of phrase
+                        fixedness as either a phraseological unit with structural fixedness (<hi
+                            rend="italic">biti ob čem</hi> 'to be next to sth' meaning 'to be
+                        positioned next to sth') or phrasemes with lexical fixedness (<hi
+                            rend="italic">biti ob kaj</hi> 'to lose sth').</p>
                     <p>In the training corpus, IAVs account for approximately 20% of all annotated
                         VMWEs (see Table 1). Among the 710 examples, 154 diverse IAVs were
                         identified. The following examples appear with a frequency of at least 20:
@@ -859,7 +875,7 @@
                     <p>Verbs with a lexicalized prepositional morpheme can also be identified based
                         on common semantic features, e.g. the expression of (a) function or quality:
                             <hi rend="italic">veljati za</hi> [<hi rend="italic">favorita</hi>] 'to
-                        be considered [a favorite]',<note place="foot" xml:id="ftn12" n="8"> With
+                        be considered [a favorite]',<note place="foot" xml:id="ftn12" n="8">With
                             IAVs, we also list typical collocates from the Gigafida Corpus of
                             Written Slovene to ease semantic disambiguation.</note>
                         <hi rend="italic">imenovati [direktorja]</hi> 'to name [smn a director]',
@@ -931,12 +947,13 @@
                         in Slovene linguistics in that it focuses on the verb as the head and the
                         lexicalized elements within the verb's sentence pattern. On the other hand,
                         Slovene linguistics focuses primarily on the ability of the verb phrase as a
-                        whole to take the role of the predicate (Toporišič 1973/74; Kržišnik 1994).
-                        From this point of view, it is problematic to treat phrases that feature a
-                        verb as the fixed part, but as a whole do not always take the role of the
-                        predicate. In some cases, they can take the role of an object complement
-                            (<hi rend="italic">[ne spodobi se] voditi za nos </hi>'lit. [it is not
-                        proper] to lead someone by the nose' in the sense 'fooling someone is
+                        whole to take the role of the predicate (<ref target="#Toporišič.1973-74"
+                            >Toporišič 1973/74</ref>; <ref target="#Kržišnik.1994">Kržišnik
+                            1994</ref>). From this point of view, it is problematic to treat phrases
+                        that feature a verb as the fixed part, but as a whole do not always take the
+                        role of the predicate. In some cases, they can take the role of an object
+                        complement (<hi rend="italic">[ne spodobi se] voditi za nos </hi>'lit. [it
+                        is not proper] to lead someone by the nose' in the sense 'fooling someone is
                         frowned upon'), a sentence (<hi rend="italic">srce se trga</hi> [<hi
                             rend="italic">komu</hi>] '[someone's] heart is breaking'), or an
                         adverbial (<hi rend="italic">hočeš nočeš</hi> 'like it or not').</p>
@@ -951,7 +968,7 @@
                         rush to smn's aid', and <hi rend="italic">imeti opravka s/z</hi> 'to busy
                         oneself with'), along with fixed discourse markers (cf. Dobrovoljc 2017):
                             <hi rend="italic">se pravi</hi> 'which is to say', <hi rend="italic">kdo
-                            ve</hi> 'who knows'. </p>
+                            ve</hi> 'who knows'.</p>
                     <p>As mentioned above, the most frequent structures are combinations of the verb
                             <hi rend="italic">biti</hi> 'to be' and an adverb/adjective/noun. Taking
                         into account their structural fixedness and semantic vagueness of the verb,
@@ -1094,92 +1111,100 @@
             <div type="bibliography">
                 <head>Sources and Literature</head>
                 <listBibl>
-                    <bibl>Arhar Holdt, Špela, and Vojko Gorjanc. 2007. “Korpus FidaPLUS: nova
-                        generacija slovenskega referenčnega korpusa.” <hi rend="italic">Jezik in
-                            slovstvo</hi> 52, No. 2 (January): 95–110.</bibl>
-                    <bibl>Atkins, Sue B. T., and Michael Rundell. 2008. <hi rend="italic">The Oxford
-                            Guide to Practical Lexicography.</hi> New York: Oxford University Press. </bibl>
-                    <bibl>Baldwin, Timothy, and Su Nam Kim. 2010. “Multiword Expressions” In <hi
-                            rend="italic">Handbook of Natural Language Processing</hi>, edited by
-                        Nitin Indurkhya and Fred J. Damerau, Second Edition, 267–92. Boca Raton: CRC
-                        Press.</bibl>
-                    <bibl>Breznik, Anton. 1916. <hi rend="italic">Slovenska slovnica za srednje
-                            šole</hi>. Celovec: Družba sv. Mohorja.</bibl>
-                    <bibl>Breznik, Anton. 1934. <hi rend="italic">Slovenska slovnica za srednje
-                            šole</hi>. 4th, enlarged edition. Celje: Družba sv. Mohorja.</bibl>
-                    <bibl>Candito Marie, Fabienne Cap, Silvio Cordeiro, Vassiliki Foufi, Polona
-                        Gantar, Voula Giouli, Carlos Herrero, Mihaela Ionescu, Verginica Mititelu,
-                        Johanna Monti, Joakim Nivre, Mihaela Onofrei, Carla Parra Escartín, Manfred
-                        Sailer, Carlos Ramisch, Monica-Mihaela Rizea, Agata Savary, Ivelina
-                        Stonayova, Sara Stymne, Veronika Vincze. 2016. <hi rend="italic">PARSEME
-                            shared task 1.0 annotation guidelines - version 1.6b</hi> – last updated
-                        on November 26, 2016. <ref
+                    <bibl xml:id="ArharHoldt.2007">Arhar Holdt, Špela, and Vojko Gorjanc. 2007.
+                        “Korpus FidaPLUS: nova generacija slovenskega referenčnega korpusa.” <hi
+                            rend="italic">Jezik in slovstvo</hi> 52, No. 2 (January): 95–110.</bibl>
+                    <bibl xml:id="Atkins.2008">Atkins, Sue B. T., and Michael Rundell. 2008. <hi
+                            rend="italic">The Oxford Guide to Practical Lexicography.</hi> New York:
+                        Oxford University Press. </bibl>
+                    <bibl xml:id="Baldwin.2010">Baldwin, Timothy, and Su Nam Kim. 2010. “Multiword
+                        Expressions” In <hi rend="italic">Handbook of Natural Language
+                            Processing</hi>, edited by Nitin Indurkhya and Fred J. Damerau, Second
+                        Edition, 267–92. Boca Raton: CRC Press.</bibl>
+                    <bibl xml:id="Breznik.1916">Breznik, Anton. 1916. <hi rend="italic">Slovenska
+                            slovnica za srednje šole</hi>. Celovec: Družba sv. Mohorja.</bibl>
+                    <bibl xml:id="Breznik.1934">Breznik, Anton. 1934. <hi rend="italic">Slovenska
+                            slovnica za srednje šole</hi>. 4th, enlarged edition. Celje: Družba sv.
+                        Mohorja.</bibl>
+                    <bibl xml:id="Candito.2016">Candito, Marie, Fabienne Cap, Silvio Cordeiro,
+                        Vassiliki Foufi, Polona Gantar, Voula Giouli, Carlos Herrero, Mihaela
+                        Ionescu, Verginica Mititelu, Johanna Monti, Joakim Nivre, Mihaela Onofrei,
+                        Carla Parra Escartín, Manfred Sailer, Carlos Ramisch, Monica-Mihaela Rizea,
+                        Agata Savary, Ivelina Stonayova, Sara Stymne, Veronika Vincze. 2016. <hi
+                            rend="italic">PARSEME shared task 1.0 annotation guidelines - version
+                            1.6b</hi> – last updated on November 26, 2016. <ref
                             target="http://parsemefr.lif.uiv-mrs.fr/parseme-st-guidelines/1.0/"
                             >http://parsemefr.lif.uiv-mrs.fr/parseme-st-guidelines/1.0/</ref>.</bibl>
-                    <bibl>Dobrovoljc, Kaja. 2017. “Multi-word discourse markers and their
-                        corpus-driven identification: the case of MWDM extraction from the reference
-                        corpus of spoken Slovene.” <hi rend="italic">International journal of corpus
-                            linguistics</hi> 22, No. 4 (December): 551–82. </bibl>
-                    <bibl>Dobrovoljc, Kaja, Simon Krek, and Jan Rupnik. 2012. “Skladenjski
-                        razčlenjevalnik za slovenščino.” In <hi rend="italic">Zbornik Osme
-                            konference Jezikovne tehnologije</hi>, edited by Tomaž Erjavec and
-                        Jerneja Žganec Gros, 42–47. Ljubljana: Jožef Stefan Institute. </bibl>
-                    <bibl>Gantar, Polona, Lut Colman, Carla Parra Escartín and Héctor Martínez
-                        Alonso. 2018. “Multiword Expressions: Between Lexicography and NLP.” <hi
-                            rend="italic">International Journal of Lexicography</hi>: 1–25. </bibl>
-                    <bibl>Gantar, Polona, Špela Arhar Holdt, Jaka Čibej, Taja Kuzman, and Teja
-                        Kavčič. 2018. “Glagolske večbesedne enote v učnem korpusu ssj500k 2.1.” In
-                            <hi rend="italic">Proceedings of the Conference on Language Technologies
-                            &amp; Digital Humanities</hi>, edited by Darja Fišer and Andrej Pančur,
-                        85-92. Ljubljana: Znanstvena založba Filozofske fakultete.</bibl>
-                    <bibl>Gantar, Polona, Simon Krek, and Taja Kuzman. 2017. “Verbal multiword
-                        expressions in Slovene.” <hi rend="italic">Europhras 2017, Computational and
-                            Corpus-Based Phraseology: proceedings</hi>, edited by Ruslan Mitkov,
-                        247–59. Cham: Springer. </bibl>
-                    <bibl>Godec Soršak, Lara. 2013. “Glagoli z oslabljenim pomenom v Slovarju
-                        slovenskega knjižnega jezika.” <hi rend="italic">Slavistična revija</hi> 61,
-                        No. 3 (March): 507–22.</bibl>
-                    <bibl>Gorjanc, Vojko, Polona Gantar, Iztok Kosem, and Simon Krek, eds. 2017. <hi
-                            rend="italic">Dictionary of modern Slovene: problems and solutions</hi>.
-                        Ljubljana: Ljubljana University Press, Faculty of Arts. <ref
+                    <bibl xml:id="Dobrovoljc.2017">Dobrovoljc, Kaja. 2017. “Multi-word discourse
+                        markers and their corpus-driven identification: the case of MWDM extraction
+                        from the reference corpus of spoken Slovene.” <hi rend="italic"
+                            >International journal of corpus linguistics</hi> 22, No. 4 (December):
+                        551–82. </bibl>
+                    <bibl xml:id="Dobrovoljc.2012">Dobrovoljc, Kaja, Simon Krek, and Jan Rupnik.
+                        2012. “Skladenjski razčlenjevalnik za slovenščino.” In <hi rend="italic"
+                            >Zbornik Osme konference Jezikovne tehnologije</hi>, edited by Tomaž
+                        Erjavec and Jerneja Žganec Gros, 42–47. Ljubljana: Jožef Stefan Institute. </bibl>
+                    <bibl xml:id="Gantar.Colman.2018">Gantar, Polona, Lut Colman, Carla Parra
+                        Escartín and Héctor Martínez Alonso. 2018. “Multiword Expressions: Between
+                        Lexicography and NLP.” <hi rend="italic">International Journal of
+                            Lexicography</hi>: 1–25. </bibl>
+                    <bibl xml:id="Gantar.ArharHoldt.2018">Gantar, Polona, Špela Arhar Holdt, Jaka
+                        Čibej, Taja Kuzman, and Teja Kavčič. 2018. “Glagolske večbesedne enote v
+                        učnem korpusu ssj500k 2.1.” In <hi rend="italic">Proceedings of the
+                            Conference on Language Technologies &amp; Digital Humanities</hi>,
+                        edited by Darja Fišer and Andrej Pančur, 85-92. Ljubljana: Znanstvena
+                        založba Filozofske fakultete.</bibl>
+                    <bibl xml:id="Gantar.2017">Gantar, Polona, Simon Krek, and Taja Kuzman. 2017.
+                        “Verbal multiword expressions in Slovene.” <hi rend="italic">Europhras 2017,
+                            Computational and Corpus-Based Phraseology: proceedings</hi>, edited by
+                        Ruslan Mitkov, 247–59. Cham: Springer. </bibl>
+                    <bibl xml:id="GodecSoršak.2013">Godec Soršak, Lara. 2013. “Glagoli z oslabljenim
+                        pomenom v Slovarju slovenskega knjižnega jezika.” <hi rend="italic"
+                            >Slavistična revija</hi> 61, No. 3 (March): 507–22.</bibl>
+                    <bibl xml:id="Gorjanc.2017">Gorjanc, Vojko, Polona Gantar, Iztok Kosem, and
+                        Simon Krek, eds. 2017. <hi rend="italic">Dictionary of modern Slovene:
+                            problems and solutions</hi>. Ljubljana: Ljubljana University Press,
+                        Faculty of Arts. <ref
                             target="https://e-knjige.ff.uni-lj.si/znanstvena-zalozba/catalog/book/15"
                             >https://e-knjige.ff.uni-lj.si/znanstvena-zalozba/catalog/book/15</ref>.</bibl>
-                    <bibl>Grčar, Miha, Simon Krek, and Kaja Dobrovoljc. 2012. “Obeliks: statistični
-                        oblikoskladenjski označevalnik in lematizator za slovenski jezik.” In <hi
-                            rend="italic">Zbornik Osme konference Jezikovne tehnologije, </hi>edited
-                        by Tomaž Erjavec and Jerneja Žganec Gros<hi rend="italic">.</hi> Ljubljana:
-                        Jožef Stefan Institute.</bibl>
-                    <bibl>Krek, Simon, Kaja Dobrovoljc, Tomaž Erjavec, Sara Može, Nina Ledinek,
-                        Nanika Holz, Katja Zupan, Polona Gantar, and Taja Kuzman. 2017. “Training
-                        corpus ssj500k 2.0.” <hi rend="italic">Slovenian language resource
-                            repository CLARIN.SI.</hi>
+                    <bibl xml:id="Grčar.2012">Grčar, Miha, Simon Krek, and Kaja Dobrovoljc. 2012.
+                        “Obeliks: statistični oblikoskladenjski označevalnik in lematizator za
+                        slovenski jezik.” In <hi rend="italic">Zbornik Osme konference Jezikovne
+                            tehnologije, </hi>edited by Tomaž Erjavec and Jerneja Žganec Gros<hi
+                            rend="italic">.</hi> Ljubljana: Jožef Stefan Institute.</bibl>
+                    <bibl xml:id="Krek.2017">Krek, Simon, Kaja Dobrovoljc, Tomaž Erjavec, Sara Može,
+                        Nina Ledinek, Nanika Holz, Katja Zupan, Polona Gantar, and Taja Kuzman.
+                        2017. “Training corpus ssj500k 2.0.” <hi rend="italic">Slovenian language
+                            resource repository CLARIN.SI.</hi>
                         <ref target="http://hdl.handle.net/11356/1165"
                             >http://hdl.handle.net/11356/1165</ref>.</bibl>
-                    <bibl>Kržišnik, Erika. 1994. “Slovenski glagolski frazemi (ob primeru glagolov
-                        govorjenja).” PhD diss., Faculty of Arts, University of Ljubljana.</bibl>
-                    <bibl>Metelko, Franc Serafin. 1825. <hi rend="italic">Lehrgebäude der
-                            slowenischen Sprache im Königreiche Illyrien und in den benachbarten
-                            Provinzen</hi>. Laibach: Leopold Eger.</bibl>
-                    <bibl>Ramisch, Carlos, Silvio Ricardo Cordeiro, Agata Savary, Veronika Vincze,
-                        Verginica Barbu Mititelu, Archna Bhatia, Maja Buljan, Marie Candito, Polona
-                        Gantar et al. 2018. “Edition 1.1 of the PARSEME shared task on automatic
-                        identification of verbal multiword expressions.” In <hi rend="italic"
-                            >Proceedings: LAW-MWE-CxG 2018, The 12th Linguistic Annotation Workshop
-                            (LAW XII) and the 14th Workshop on Multiword Expressions (MWE
-                        2018)</hi>, edited by Agata Savary, Carlos Ramisch, Jena D. Hwang, Nathan
-                        Schneider, Melanie Andresen, Sameer Pradhan, and Miriam R. L. Petruck,
-                        222-40. Santa Fe: Association for Computational Linguistics. <ref
-                            target="http://aclweb.org/anthology/W18-49"
+                    <bibl xml:id="Kržišnik.1994">Kržišnik, Erika. 1994. “Slovenski glagolski frazemi
+                        (ob primeru glagolov govorjenja).” PhD diss., Faculty of Arts, University of
+                        Ljubljana.</bibl>
+                    <bibl xml:id="Metelko.1825">Metelko, Franc Serafin. 1825. <hi rend="italic"
+                            >Lehrgebäude der slowenischen Sprache im Königreiche Illyrien und in den
+                            benachbarten Provinzen</hi>. Laibach: Leopold Eger.</bibl>
+                    <bibl xml:id="Ramisch.2018">Ramisch, Carlos, Silvio Ricardo Cordeiro, Agata
+                        Savary, Veronika Vincze, Verginica Barbu Mititelu, Archna Bhatia, Maja
+                        Buljan, Marie Candito, Polona Gantar et al. 2018. “Edition 1.1 of the
+                        PARSEME shared task on automatic identification of verbal multiword
+                        expressions.” In <hi rend="italic">Proceedings: LAW-MWE-CxG 2018, The 12th
+                            Linguistic Annotation Workshop (LAW XII) and the 14th Workshop on
+                            Multiword Expressions (MWE 2018)</hi>, edited by Agata Savary, Carlos
+                        Ramisch, Jena D. Hwang, Nathan Schneider, Melanie Andresen, Sameer Pradhan,
+                        and Miriam R. L. Petruck, 222-40. Santa Fe: Association for Computational
+                        Linguistics. <ref target="http://aclweb.org/anthology/W18-49"
                             >http://aclweb.org/anthology/W18-49</ref>.</bibl>
-                    <bibl>Sag, Ivan, Timothy Baldwin, Francis Bond, Ann Copestake, and Dan
-                        Flickinger. 2002. “Multiword Expressions: a Pain in the Neck for NLP.” In
-                            <hi rend="italic">Proceedings of the 3rd International Conference on
-                            Intelligent Text Processing and Computational Linguistics</hi> (CICLing
-                        2002), edited by Alexander Gelbukh, 1-15. Berlin, Heidelberg, New York:
-                        Springer. </bibl>
-                    <bibl>Schneider, Nathan, Spencer Onuffer, Nora Kazour, Emily Danchik, Michael T.
-                        Mordowanec, Henrietta Conrad, and Noah A. Smith. 2014. “Comprehensive
-                        annotation of multiword expressions in a social web corpus.” <ref
+                    <bibl xml:id="Sag.2002">Sag, Ivan, Timothy Baldwin, Francis Bond, Ann Copestake,
+                        and Dan Flickinger. 2002. “Multiword Expressions: a Pain in the Neck for
+                        NLP.” In <hi rend="italic">Proceedings of the 3rd International Conference
+                            on Intelligent Text Processing and Computational Linguistics</hi>
+                        (CICLing 2002), edited by Alexander Gelbukh, 1-15. Berlin, Heidelberg, New
+                        York: Springer. </bibl>
+                    <bibl xml:id="Schneider.2014">Schneider, Nathan, Spencer Onuffer, Nora Kazour,
+                        Emily Danchik, Michael T. Mordowanec, Henrietta Conrad, and Noah A. Smith.
+                        2014. “Comprehensive annotation of multiword expressions in a social web
+                        corpus.” <ref
                             target="https://aclweb.org/anthology/volumes/proceedings-of-the-ninth-international-conference-on-language-resources-and-evaluation-lrec-2014/"
                                 ><hi rend="italic">Proceedings of the Ninth International Conference
                                 on Language Resources and Evaluation (LREC-2014)</hi></ref><hi
@@ -1187,36 +1212,36 @@
                         Thierry Declerck, Hrafn Loftsson, Bente Maegaard, Joseph Mariani, Asuncion
                         Moreno, Jan Odijk and Stelios Piperidis, 455-61. European Languages
                         Resources Association (ELRA).</bibl>
-                    <bibl><hi rend="italic">Slovar slovenskega knjižnega jezika</hi>. 2nd edition.
-                        Ljubljana: SAZU and Fran Ramovš Institute of the Slovenian Language ZRC
-                        SAZU. <ref target="http://www.fran.si">www.fran.si</ref>.</bibl>
-                    <bibl>Toporišič, Jože. 1973/74. “K izrazju in tipologiji slovenske
-                        frazeologije.” <hi rend="italic">Jezik in slovstvo </hi>19, No. 8 (Spring):
-                        273–79.</bibl>
-                    <bibl>Toporišič, Jože. 1982. <hi rend="italic">Nova slovenska skladnja</hi>.
-                        Ljubljana: Državna Založba Slovenije.</bibl>
-                    <bibl>Toporišič, Jože. 2000. <hi rend="italic">Slovenska slovnica</hi>. Maribor:
-                        Založba Obzorja.</bibl>
-                    <bibl>Vidovič-Muha, Ada. 1998. “Pomenski preplet glagolov imeti in biti – njuna
-                        jezikovnosistemska stilistika.” <hi rend="italic">Slavistična revija</hi>
-                        46, No. 4: 293–323.</bibl>
-                    <bibl>Žele, Andreja. 1999. “Vezljivost v slovenskem knjižnem jeziku (s poudarkom
-                        na glagolu).” PhD diss., Faculty of Arts, University of Ljubljana.</bibl>
-                    <bibl>Žele, Andreja. 2002. “Prostomorfemski glagoli kot slovarska gesla.” <hi
-                            rend="italic">Jezikoslovni zapiski</hi> 8, No. 1: 95–108.</bibl>
-                    <bibl>Žele, Andreja. 2012<hi rend="italic">. Pomensko-skladenjske lastnosti
-                            slovenskega glagola.</hi> Linguistica et philologica 27. Ljubljana:
-                        Založba ZRC, ZRC SAZU.</bibl>
+                    <bibl xml:id="SSSK."><hi rend="italic">Slovar slovenskega knjižnega jezika</hi>.
+                        2nd edition. Ljubljana: SAZU and Fran Ramovš Institute of the Slovenian
+                        Language ZRC SAZU. <ref target="http://www.fran.si"
+                        >www.fran.si</ref>.</bibl>
+                    <bibl xml:id="Toporišič.1973-74">Toporišič, Jože. 1973/74. “K izrazju in
+                        tipologiji slovenske frazeologije.” <hi rend="italic">Jezik in slovstvo
+                        </hi>19, No. 8 (Spring): 273–79.</bibl>
+                    <bibl xml:id="Toporišič.1982">Toporišič, Jože. 1982. <hi rend="italic">Nova
+                            slovenska skladnja</hi>. Ljubljana: Državna Založba Slovenije.</bibl>
+                    <bibl xml:id="Toporišič.2000">Toporišič, Jože. 2000. <hi rend="italic">Slovenska
+                            slovnica</hi>. Maribor: Založba Obzorja.</bibl>
+                    <bibl xml:id="Vidovič-Muha.1998">Vidovič-Muha, Ada. 1998. “Pomenski preplet
+                        glagolov imeti in biti – njuna jezikovnosistemska stilistika.” <hi
+                            rend="italic">Slavistična revija</hi> 46, No. 4: 293–323.</bibl>
+                    <bibl xml:id="Žele.1999">Žele, Andreja. 1999. “Vezljivost v slovenskem knjižnem
+                        jeziku (s poudarkom na glagolu).” PhD diss., Faculty of Arts, University of
+                        Ljubljana.</bibl>
+                    <bibl xml:id="Žele.2002">Žele, Andreja. 2002. “Prostomorfemski glagoli kot
+                        slovarska gesla.” <hi rend="italic">Jezikoslovni zapiski</hi> 8, No. 1:
+                        95–108.</bibl>
+                    <bibl xml:id="Žele.2012">Žele, Andreja. 2012<hi rend="italic">.
+                            Pomensko-skladenjske lastnosti slovenskega glagola.</hi> Linguistica et
+                        philologica 27. Ljubljana: Založba ZRC, ZRC SAZU.</bibl>
                 </listBibl>
             </div>
             <div type="summary">
-                <docAuthor>Polona Gantar</docAuthor>
-                <docAuthor>Špela Arhar Holdt</docAuthor>
-                <docAuthor>Jaka Čibej</docAuthor>
-                <docAuthor>Taja Kuzman</docAuthor>
-                <head><hi rend="allcaps">Structural and Semantic Classification of Verbal Multi-Word
-                        Expressions in Slovene</hi></head>
-                <head><hi rend="allcaps">Summary</hi></head>
+                <docAuthor>Polona Gantar, Špela Arhar Holdt, Jaka Čibej, Taja Kuzman</docAuthor>
+                <head style="text-transform: uppercase;">Structural and Semantic Classification of Verbal Multi-Word
+                        Expressions in Slovene</head>
+                <head rend="subheader" style="text-transform: uppercase;">Summary</head>
                 <p>In the paper, we present an analysis of Slovene verbal multi-word expressions
                     (VMWEs) based on the categorization made within PARSEME COST Action Shared Task
                     1.1 for 20 different languages. The purpose of the task was to identify VMWEs in
@@ -1227,23 +1252,25 @@
                     theoretical framework that takes into account the specific characteristics of
                     Slovene while still fulfilling international criteria.</p>
                 <p>Unlike the functional-syntactic criteria advocated thus far in Slovene studies
-                    (Toporišič 1973/74; Kržišnik 1994), the classification of VMWEs within the
-                    PARSEME Shared Task 1.1 focuses on the identification of the syntactic head of
-                    the MWE. This allows MWEs to be divided into e.g. verbal, adjectival, and
-                    nominal MWEs regardless of the function they have in the sentence as a semantic
-                    and syntactic whole. The PARSEME classification consists of both universal and
-                    language-specific categories. Universal categories include verbal idioms (VID;
-                        <hi rend="italic">plačati ceno</hi> 'to pay the price') and light verb
-                    constructions, which are further divided into full (LVC.full; <hi rend="italic"
-                        >imeti mnenje</hi> 'to have an opinion') and causal (LVC.cause; <hi
-                        rend="italic">spraviti v smeh</hi> 'to make smn laugh'). Language-specific
-                    categories encompass inherently reflexive verbs (IRV; <hi rend="italic">zdeti
-                        se</hi> 'to seem'), which are typical of most Slavic languages; phrasal
-                    verbs (VPC), typical of Germanic languages; and inherently adpositional verbs
-                    (IAV), also typical of most Slavic languages, including Slovene. A total of
-                    13,511 sentences in the Slovene training corpus ssj500k 2.0 (Krek et al. 2017)
-                    were annotated with 3,364 VMWEs: 1,627 IRV (48%), 724 VID (22%), 710 IAV (21%),
-                    239 LVC.full (7%), and 64 LVC.cause (2%).</p>
+                        (<ref target="#Toporišič.1973-74">Toporišič 1973/74</ref>; <ref
+                        target="#Kržišnik.1994">Kržišnik 1994</ref>), the classification of VMWEs
+                    within the PARSEME Shared Task 1.1 focuses on the identification of the
+                    syntactic head of the MWE. This allows MWEs to be divided into e.g. verbal,
+                    adjectival, and nominal MWEs regardless of the function they have in the
+                    sentence as a semantic and syntactic whole. The PARSEME classification consists
+                    of both universal and language-specific categories. Universal categories include
+                    verbal idioms (VID; <hi rend="italic">plačati ceno</hi> 'to pay the price') and
+                    light verb constructions, which are further divided into full (LVC.full; <hi
+                        rend="italic">imeti mnenje</hi> 'to have an opinion') and causal (LVC.cause;
+                        <hi rend="italic">spraviti v smeh</hi> 'to make smn laugh').
+                    Language-specific categories encompass inherently reflexive verbs (IRV; <hi
+                        rend="italic">zdeti se</hi> 'to seem'), which are typical of most Slavic
+                    languages; phrasal verbs (VPC), typical of Germanic languages; and inherently
+                    adpositional verbs (IAV), also typical of most Slavic languages, including
+                    Slovene. A total of 13,511 sentences in the Slovene training corpus ssj500k 2.0
+                        (<ref target="#Krek.2017">Krek et al. 2017</ref>) were annotated with 3,364
+                    VMWEs: 1,627 IRV (48%), 724 VID (22%), 710 IAV (21%), 239 LVC.full (7%), and 64
+                    LVC.cause (2%).</p>
                 <p>A linguistic analysis of the individual categories highlights numerous semantic
                     and syntactic characteristics of the identified VMWEs that can be taken into
                     account in the compilation of a MWE lexicon and the automatic identification of
@@ -1266,13 +1293,10 @@
                     the sentence.</p>
             </div>
             <div type="summary" xml:lang="sl">
-                <docAuthor>Polona Gantar</docAuthor>
-                <docAuthor>Špela Arhar Holdt</docAuthor>
-                <docAuthor>Jaka Čibej</docAuthor>
-                <docAuthor>Taja Kuzman</docAuthor>
+                <docAuthor>Polona Gantar, Špela Arhar Holdt, Jaka Čibej, Taja Kuzman</docAuthor>
                 <head>STRUKTURNA IN POMENSKA KLASIFIKACIJA GLAGOLSKIH VEČBESEDNIH ENOT V
                     SLOVENŠČINI</head>
-                <head><hi rend="allcaps">Povzetek</hi></head>
+                <head rend="subheader" style="text-transform: uppercase;">Povzetek</head>
                 <p>V prispevku predstavljamo analizo glagolskih večbesednih enot (GVBE) v
                     slovenščini na podlagi kategorizacije, kot je bila izdelana v okviru PARSEME
                     COST Action Shared Task 1.1 za 20 različnih jezikov. Namen naloge je bil
@@ -1283,22 +1307,24 @@
                     teoretičnih izhodišč, ki upoštevajo specifike slovenščine in so hkrati usklajena
                     z mednarodnimi merili.</p>
                 <p>Klasifikacija VMWE znotraj Parseme Shared task 1.1 za razliko od
-                    funkcijskoskladenjskih meril, ki jih predvideva slovenistično jezikoslovje
-                    (Toporišič 1973/74; Kržišnik 1994), postavlja v izhodišče prepoznavanje
-                    skladenjskega jedra MWE, kar omogoča njihovo delitev na glagolske, pridevniške,
-                    samostalniške ipd. GVBE, neodvisno od funkcije, ki jo v stavku opravljajo kot
-                    pomenska in skladenjska celota. V izhodišču predvideva Parsemovska klasifikacija
-                    univerzalne in jezikovnospecifične kategorije. Znotraj prvih loči glagolske
-                    idiome (VID; <hi rend="italic">plačati ceno</hi>) in zveze z glagoli v pomensko
-                    oslabljeni rabi, ki so členjeni na prave (LVC.full; <hi rend="italic">imeti
-                        mnenje</hi>) in vzročne (LVC.cause; <hi rend="italic">spraviti v smeh</hi>).
-                    Znotraj druge skupine pa inherentno povratne glagole (IRV; <hi rend="italic"
-                        >zdeti se</hi>), ki so tipični za večino slovanskih jezikov, frazne glagole
-                    (VPC), značilne za germanske jezike, in glagole z leksikaliziranim predložnim
-                    morfemom (IAV), ki so tipični za slovenščino in večino slovanskih jezikov. V
-                    učnem korpusu ssj500k 2.0 (Krek et al. 2017) smo označili 13,511 stavkov, v
-                    katerih smo identificirali skupno 3,364 VMWE v naslednjih deležih: 1,627 IRV (48
-                    %), 724 VID (22 %), 710 IAV (21 %), 239 LVC.full (7 %) in 64 LVC.cause (2 %). </p>
+                    funkcijskoskladenjskih meril, ki jih predvideva slovenistično jezikoslovje (<ref
+                        target="#Toporišič.1973-74">Toporišič 1973/74</ref>; <ref
+                        target="#Kržišnik.1994">Kržišnik 1994</ref>), postavlja v izhodišče
+                    prepoznavanje skladenjskega jedra MWE, kar omogoča njihovo delitev na glagolske,
+                    pridevniške, samostalniške ipd. GVBE, neodvisno od funkcije, ki jo v stavku
+                    opravljajo kot pomenska in skladenjska celota. V izhodišču predvideva
+                    Parsemovska klasifikacija univerzalne in jezikovnospecifične kategorije. Znotraj
+                    prvih loči glagolske idiome (VID; <hi rend="italic">plačati ceno</hi>) in zveze
+                    z glagoli v pomensko oslabljeni rabi, ki so členjeni na prave (LVC.full; <hi
+                        rend="italic">imeti mnenje</hi>) in vzročne (LVC.cause; <hi rend="italic"
+                        >spraviti v smeh</hi>). Znotraj druge skupine pa inherentno povratne glagole
+                    (IRV; <hi rend="italic">zdeti se</hi>), ki so tipični za večino slovanskih
+                    jezikov, frazne glagole (VPC), značilne za germanske jezike, in glagole z
+                    leksikaliziranim predložnim morfemom (IAV), ki so tipični za slovenščino in
+                    večino slovanskih jezikov. V učnem korpusu ssj500k 2.0 (<ref target="#Krek.2017"
+                        >Krek et al. 2017</ref>) smo označili 13,511 stavkov, v katerih smo
+                    identificirali skupno 3,364 VMWE v naslednjih deležih: 1,627 IRV (48 %), 724 VID
+                    (22 %), 710 IAV (21 %), 239 LVC.full (7 %) in 64 LVC.cause (2 %). </p>
                 <p>Jezikoslovna analiza posameznih kategorij je pokazala številne semantične in
                     skladenjske značilnosti identificiranih GVBE, ki jih bo mogoče upoštevati pri
                     izdelavi leksikona VBE ter pri njihovi avtomatski identifikaciji v besedilu. Med

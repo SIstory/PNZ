@@ -107,8 +107,7 @@
                         Information Science, University of Ljubljana, Večna pot 113, SI-1000
                         Ljubljana, </hi><ref target="mailto:ajda.pretnar@fri.uni-lj.si"
                         >ajda.pretnar@fri.uni-lj.si</ref></note></docAuthor>
-            <docAuthor>Dan Podjed
-                <note place="foot" xml:id="ftn1a" n="**"><hi rend="bold">Institute of Slovenian Ethnology, Research Centre of the Slovenian Academy
+            <docAuthor>Dan Podjed<note place="foot" xml:id="ftn1a" n="**"><hi rend="bold">Institute of Slovenian Ethnology, Research Centre of the Slovenian Academy
                     of Sciences and ArtsNovi trg 2, SI-1000 Ljubljana</hi>, 
                     <ref target="mailto:dan.podjed@zrc-sazu.si">dan.podjed@zrc-sazu.si</ref></note></docAuthor>
             <docImprint>
@@ -117,7 +116,7 @@
             </docImprint>
             <div type="abstract" xml:lang="sl">
                 <head>IZVLEČEK</head>
-                <head>Podatkovno rudarjenje senzorjev v delovnem okolju: nov pristop k
+                <head style="text-transform: uppercase;">Podatkovno rudarjenje senzorjev v delovnem okolju: nov pristop k
                     antropologiji</head>
                 <p>
                     <hi rend="italic">Antropologija po nepotrebnem zaostaja pri vključevanju
@@ -486,49 +485,49 @@
                     the paper refer only to 2016. The rooms are anonymised to ensure data privacy
                     and results for two of the rooms are not reported at the request of their
                     occupants.</p>
-                <table>
+                <table rend="table-scroll">
                     <head>Table 1: Original data.</head>
-                    <row>
-                        <cell role="label">Date</cell>
-                        <cell role="label">Room temperature</cell>
-                        <cell role="label">Daily regime</cell>
-                        <cell role="label">Room</cell>
+                    <row role="label">
+                        <cell>Date</cell>
+                        <cell>Room temperature</cell>
+                        <cell>Daily regime</cell>
+                        <cell>Room</cell>
                     </row>
                     <row>
-                        <cell role="label">2016-01-01 02:10:00</cell>
-                        <cell role="data">20.94266</cell>
-                        <cell role="data">1</cell>
-                        <cell role="data">C</cell>
+                        <cell>2016-01-01 02:10:00</cell>
+                        <cell>20.94266</cell>
+                        <cell>1</cell>
+                        <cell>C</cell>
                     </row>
                     <row>
-                        <cell role="label">2016-01-01 02:10:00</cell>
-                        <cell role="data">21.65854</cell>
-                        <cell role="data">1</cell>
-                        <cell role="data">B</cell>
+                        <cell>2016-01-01 02:10:00</cell>
+                        <cell>21.65854</cell>
+                        <cell>1</cell>
+                        <cell>B</cell>
                     </row>
                     <row>
-                        <cell role="label">2016-01-01 02:10:00</cell>
-                        <cell role="data">20.63234</cell>
-                        <cell role="data">1</cell>
-                        <cell role="data">K</cell>
+                        <cell>2016-01-01 02:10:00</cell>
+                        <cell>20.63234</cell>
+                        <cell>1</cell>
+                        <cell>K</cell>
                     </row>
                     <row>
-                        <cell role="label">2016-01-01 02:10:00</cell>
-                        <cell role="data">22.41270</cell>
-                        <cell role="data">1</cell>
-                        <cell role="data">D</cell>
+                        <cell>2016-01-01 02:10:00</cell>
+                        <cell>22.41270</cell>
+                        <cell>1</cell>
+                        <cell>D</cell>
                     </row>
                     <row>
-                        <cell role="label">2016-01-01 02:10:00</cell>
-                        <cell role="data">20.25890</cell>
-                        <cell role="data">1</cell>
-                        <cell role="data">M</cell>
+                        <cell>2016-01-01 02:10:00</cell>
+                        <cell>20.25890</cell>
+                        <cell>1</cell>
+                        <cell>M</cell>
                     </row>
                     <row>
-                        <cell role="label">2016-01-01 02:10:00</cell>
-                        <cell role="data">21.45220</cell>
-                        <cell role="data">3</cell>
-                        <cell role="data">C</cell>
+                        <cell>2016-01-01 02:10:00</cell>
+                        <cell>21.45220</cell>
+                        <cell>3</cell>
+                        <cell>C</cell>
                     </row>
                     <note n="">Source: Author data.</note>
                 </table>
@@ -539,86 +538,86 @@
                     regime, since this feature registered human behaviour the best, and room
                     temperature. We also generated additional features, such as the day of the week
                     and room type (cabinet, laboratory, and administration).</p>
-                <table>
+                <table rend="table-scroll">
                     <head>Table 2: Data transformed into a behaviour vector. 1 denotes occupancy of
                         the room, meaning daily regime value was either 0 (comfort) or 4 (window
                         open).</head>
-                    <row>
-                        <cell role="label">Date</cell>
-                        <cell role="label">0 am</cell>
-                        <cell role="label">1 am</cell>
-                        <cell role="label">2 am</cell>
-                        <cell role="label">3 am</cell>
-                        <cell role="label">…</cell>
-                        <cell role="label">Room</cell>
-                        <cell role="label">Day</cell>
-                        <cell role="label">Type</cell>
+                    <row role="label">
+                        <cell>Date</cell>
+                        <cell>0 am</cell>
+                        <cell>1 am</cell>
+                        <cell>2 am</cell>
+                        <cell>3 am</cell>
+                        <cell>…</cell>
+                        <cell>Room</cell>
+                        <cell>Day</cell>
+                        <cell>Type</cell>
                     </row>
                     <row>
-                        <cell role="label">2016-01-01</cell>
-                        <cell role="data">0</cell>
-                        <cell role="data">1</cell>
-                        <cell role="data">1</cell>
-                        <cell role="data">0</cell>
-                        <cell role="data">…</cell>
-                        <cell role="data">C</cell>
-                        <cell role="data">Fri</cell>
-                        <cell role="data">laboratory</cell>
+                        <cell>2016-01-01</cell>
+                        <cell>0</cell>
+                        <cell>1</cell>
+                        <cell>1</cell>
+                        <cell>0</cell>
+                        <cell>…</cell>
+                        <cell>C</cell>
+                        <cell>Fri</cell>
+                        <cell>laboratory</cell>
                     </row>
                     <row>
-                        <cell role="label">2016-01-01</cell>
-                        <cell role="data">0</cell>
-                        <cell role="data">0</cell>
-                        <cell role="data">0</cell>
-                        <cell role="data">0</cell>
-                        <cell role="data">…</cell>
-                        <cell role="data">B</cell>
-                        <cell role="data">Fri</cell>
-                        <cell role="data">laboratory</cell>
+                        <cell>2016-01-01</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                        <cell>…</cell>
+                        <cell>B</cell>
+                        <cell>Fri</cell>
+                        <cell>laboratory</cell>
                     </row>
                     <row>
-                        <cell role="label">2016-01-01</cell>
-                        <cell role="data">0</cell>
-                        <cell role="data">0</cell>
-                        <cell role="data">1</cell>
-                        <cell role="data">1</cell>
-                        <cell role="data">…</cell>
-                        <cell role="data">K</cell>
-                        <cell role="data">Fri</cell>
-                        <cell role="data">administration</cell>
+                        <cell>2016-01-01</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                        <cell>1</cell>
+                        <cell>1</cell>
+                        <cell>…</cell>
+                        <cell>K</cell>
+                        <cell>Fri</cell>
+                        <cell>administration</cell>
                     </row>
                     <row>
-                        <cell role="label">2016-01-01</cell>
-                        <cell role="data">0</cell>
-                        <cell role="data">0</cell>
-                        <cell role="data">0</cell>
-                        <cell role="data">1</cell>
-                        <cell role="data">…</cell>
-                        <cell role="data">D</cell>
-                        <cell role="data">Fri</cell>
-                        <cell role="data">cabinet</cell>
+                        <cell>2016-01-01</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                        <cell>1</cell>
+                        <cell>…</cell>
+                        <cell>D</cell>
+                        <cell>Fri</cell>
+                        <cell>cabinet</cell>
                     </row>
                     <row>
-                        <cell role="label">2016-01-01</cell>
-                        <cell role="data">0</cell>
-                        <cell role="data">1</cell>
-                        <cell role="data">1</cell>
-                        <cell role="data">1</cell>
-                        <cell role="data">…</cell>
-                        <cell role="data">M</cell>
-                        <cell role="data">Fri</cell>
-                        <cell role="data">administration</cell>
+                        <cell>2016-01-01</cell>
+                        <cell>0</cell>
+                        <cell>1</cell>
+                        <cell>1</cell>
+                        <cell>1</cell>
+                        <cell>…</cell>
+                        <cell>M</cell>
+                        <cell>Fri</cell>
+                        <cell>administration</cell>
                     </row>
                     <row>
-                        <cell role="label">2016-01-02</cell>
-                        <cell role="data">0</cell>
-                        <cell role="data">0</cell>
-                        <cell role="data">1</cell>
-                        <cell role="data">1</cell>
-                        <cell role="data">…</cell>
-                        <cell role="data">C</cell>
-                        <cell role="data">Sat</cell>
-                        <cell role="data">laboratory</cell>
+                        <cell>2016-01-02</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                        <cell>1</cell>
+                        <cell>1</cell>
+                        <cell>…</cell>
+                        <cell>C</cell>
+                        <cell>Sat</cell>
+                        <cell>laboratory</cell>
                     </row>
                     <note n="">Source: Author data.</note>
                 </table>
@@ -987,23 +986,23 @@
                 </listBibl>
             </div>
             <div type="summary">
-                <docAuthor>Ajda Pretnar</docAuthor>
-                <head>Data Mining Workspace Sensors: A New Approach to Anthropology</head>
-                <head>Summary</head>
-                <p> With an increasing availability of data coming from social networks and wearable
+                <docAuthor>Ajda Pretnar, Dan Podjed</docAuthor>
+                <head style="text-transform: uppercase;">Data Mining Workspace Sensors: A New Approach to Anthropology</head>
+                <head rend="subheader" style="text-transform: uppercase;">Summary</head>
+                <p>With an increasing availability of data coming from social networks and wearable
                     devices among other sources, anthropologists can easier than ever dive into data
                     analysis and study humans and their societies, subcultures and cultures
                     quantitatively as well as qualitatively. In this contribution we extend the
                     interdisciplinarity of anthropology by employing circular mixed methods that
                     combine qualitative (ethnographic) approaches with quantitative approaches from
                     data mining and machine learning.</p>
-                <p> The research, which is the basis for this contribution, began in October 2017
+                <p>The research, which is the basis for this contribution, began in October 2017
                     and includes 14 workspaces of one of University of Ljubljana's buildings. For
                     the purpose of our study, we designed a novel methodological approach and named
                     it <hi rend="italic">circular mixed methods</hi>. We employed it to analyse
                     workspace behaviours and practices of employees and to develop sustainable
                     solutions for encouraging a healthy lifestyle.</p>
-                <p> As we explain in the contribution, circular mixed methods are appropriate for
+                <p>As we explain in the contribution, circular mixed methods are appropriate for
                     uncovering detailed longitudinal patterns, which are impossible to detect
                     manually. The suggested approach is effective for analysing diachronic
                     phenomena, where we retrieve the data from several locations at once, thus
@@ -1012,32 +1011,32 @@
                     collections. Some such collections are interesting for anthropologists as well,
                     namely social media, archival data, wearables, sensors or audio-visual
                     recordings.</p>
-                <p> While quantitative analysis helps us generate hypotheses and uncover patterns in
+                <p>While quantitative analysis helps us generate hypotheses and uncover patterns in
                     the data, qualitative approaches, such as ethnography and fieldwork, explain
                     those patterns and substantiate data with rich details. Combining the two
                     approaches, we can interpret the data in a contextually rich and
                     anthropologically relevant way.</p>
             </div>
             <div type="summary" xml:lang="sl">
-                <docAuthor>Ajda Pretnar</docAuthor>
-                <head>Podatkovno rudarjenje senzorjev v delovnem okolju: nov pristop k
+                <docAuthor>Ajda Pretnar, Dan Podjed</docAuthor>
+                <head style="text-transform: uppercase;">Podatkovno rudarjenje senzorjev v delovnem okolju: nov pristop k
                     antropologiji</head>
-                <head>Povzetek</head>
-                <p> Z vse večjo množico podatkov, pridobljenih, med drugim, z družbenih omrežij in
+                <head rend="subheader" style="text-transform: uppercase;">Povzetek</head>
+                <p>Z vse večjo množico podatkov, pridobljenih, med drugim, z družbenih omrežij in
                     pametnih naprav, lahko antropologi lažje kot kadarkoli prej pri raziskovanju
                     uporabijo podatkovno analitiko in preučujejo ljudi in njihove navade ter kulture
                     in podkulture, in to tako s kvantitativnega kot kvalitativnega vidika. V
                     prispevku razširimo idejo interdisciplinarnosti v antropologiji z uporabo
                     krožnih mešanih metod, ki povezujejo kvalitativne (etnografske) pristope s
                     kvantitativnimi pristopi rudarjenja podatkov in strojnega učenja. </p>
-                <p> Raziskava, ki je podlaga pričujočega prispevka, se je začela oktobra 2017 in
+                <p>Raziskava, ki je podlaga pričujočega prispevka, se je začela oktobra 2017 in
                     vključuje 14 delovnih prostorov ene od stavb Univerze v Ljubljani. Za
                     vzpostavljanje novih pogledov na navade ljudi v stavbi in snovanje potencialno
                     relevantnih hipotez smo uporabili <hi rend="italic">krožne mešane metode</hi>, s
                     katerimi smo analizirali vedenje in prakse ter na podlagi le-teh razvili
                     celostne rešitve za spodbujanje zdravega načina življenja in izboljšanje počutja
                     na delovnem mestu.</p>
-                <p> Kot pojasni prispevek, so krožne mešane metode najprimernejše za odkrivanje
+                <p>Kot pojasni prispevek, so krožne mešane metode najprimernejše za odkrivanje
                     podrobnih in dolgotrajnih vzorcev, ki jih raziskovalec ne more sam opazovati in
                     zaznati. Pristop je učinkovit tudi za opazovanje sočasnih dogodkov, kjer podatke
                     hkrati pridobimo z več lokacij, s čimer presežemo raziskovalčeve fizične
@@ -1045,7 +1044,7 @@
                     velikih podatkovnih zbirk, med katerimi so za antropologe posebej zanimivi
                     podatki z družbenih omrežij, pametnih naprav in senzorjev, avdio-vizualno
                     gradivo ter digitalizirani arhivski viri.</p>
-                <p> Medtem ko kvantitativna analiza omogoča postavitev hipotez in odkrivanje vzorcev
+                <p>Medtem ko kvantitativna analiza omogoča postavitev hipotez in odkrivanje vzorcev
                     v podatkih, jih kvalitativne metode, zlasti etnografija in opazovanje na terenu,
                     razložijo in obogatijo s podrobnostmi. Kombinacija obeh pristopov zagotavlja, da
                     podatke interpretiramo na vsebinsko bogat in antropološko relevanten način.</p>

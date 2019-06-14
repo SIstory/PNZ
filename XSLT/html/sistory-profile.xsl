@@ -68,6 +68,9 @@
    
    <xsl:param name="title-bar-sticky">false</xsl:param>
    
+   <!-- če želiš procesirati MathML ipd. formule v vseh brskalnikih -->
+   <xsl:param name="math">true</xsl:param>
+   
    <!-- V html/head izpisani metapodatki -->
    <xsl:param name="description"></xsl:param>
    <xsl:param name="keywords"></xsl:param>
@@ -92,6 +95,7 @@
       <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css" rel="stylesheet" type="text/css" />
       <link href="{concat($path-general,'themes/plugin/TipueSearch/6.1/tipuesearch/css/normalize.css')}" rel="stylesheet" type="text/css" />
       <link href="{concat($path-general,'themes/css/plugin/TipueSearch/6.1/my-tipuesearch.css')}"  rel="stylesheet" type="text/css" />
+      <!-- PNZ specific CSS -->
       <style type="text/css">
          div.stdheader{
            text-align:center;
@@ -99,7 +103,8 @@
          
          div.docAuthor{
            text-align:center;
-         }
+           font-size: 120%;
+           }
          
          div.docImprint{
            border-top:3pt solid black;
@@ -120,14 +125,20 @@
          
          p.docAuthor{
            text-align:center;
-         }
+           font-size: 120%;
+           }
          
          p {
-         text-align: justify;
+           text-align: justify;
+         }
+         
+         dl, ol, ul {
+           padding: 0 1.25em 0 0.5625em;
+           margin-bottom: 1rem;
          }
       </style>
    </xsl:template>
-   
+   <!-- p margin-bottom: 1rem; -->
    
    <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
       <desc></desc>

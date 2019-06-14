@@ -131,7 +131,7 @@
             </docImprint>
             <div type="abstract" xml:lang="sl">
                 <head>IZVLEČEK</head>
-                <head>Razprave o zlu: analiziranje parlamentarnih razprav o vojnih zločincih na
+                <head style="text-transform: uppercase;">Razprave o zlu: analiziranje parlamentarnih razprav o vojnih zločincih na
                     Nizozemskem z vektorskimi vložitvami besed</head>
                 <p>
                     <hi rend="italic">Predstavljamo metodo za raziskovanje sprememb v zgodovinskem
@@ -410,35 +410,35 @@
                         single-word vector. This combined vector allows us to investigate our corpus
                         using all synonyms and near-synonyms of terms as if they were a single term,
                         with a single vector.</p>
-                    <table>
+                    <table rend="table-scroll">
                         <head>Table 1: Word sets used in Debating Evil</head>
-                        <row>
-                            <cell role="label">Concept</cell>
-                            <cell role="label">Concept represented by combined vector of the Dutch
+                        <row role="label">
+                            <cell>Concept</cell>
+                            <cell>Concept represented by combined vector of the Dutch
                                 words:</cell>
                         </row>
                         <row>
-                            <cell role="data">Death penalty </cell>
-                            <cell role="data">‘doodstraf’ and ‘doodstraffen’</cell>
+                            <cell>Death penalty </cell>
+                            <cell>‘doodstraf’ and ‘doodstraffen’</cell>
                         </row>
                         <row>
-                            <cell role="data">Life imprisonment </cell>
-                            <cell role="data">‘levenslang’, ‘levenslange’, ‘vrijheidsstraf’,
+                            <cell>Life imprisonment </cell>
+                            <cell>‘levenslang’, ‘levenslange’, ‘vrijheidsstraf’,
                                 ‘gevangenisstraffen’, ‘gevangenisstraf’, ‘opsluiting’, and
                                 ‘hechtenis’</cell>
                         </row>
                         <row>
-                            <cell role="data">Treason/traitor</cell>
-                            <cell role="data">‘landverrader’, ‘landverraders’, ‘verrader’,
+                            <cell>Treason/traitor</cell>
+                            <cell>‘landverrader’, ‘landverraders’, ‘verrader’,
                                 ‘verraders’, and ‘landverraad’</cell>
                         </row>
                         <row>
-                            <cell role="data">Victim</cell>
-                            <cell role="data">‘slachtoffer’ and ‘slachtoffers’</cell>
+                            <cell>Victim</cell>
+                            <cell>‘slachtoffer’ and ‘slachtoffers’</cell>
                         </row>
                         <row>
-                            <cell role="data">War Criminal </cell>
-                            <cell role="data">‘oorlogsmisdadiger’ and ‘oorlogsmisdadigers’</cell>
+                            <cell>War Criminal </cell>
+                            <cell>‘oorlogsmisdadiger’ and ‘oorlogsmisdadigers’</cell>
                         </row>
                     </table>
                     <p>After selecting two concepts that are present in each of the two corpora, we
@@ -513,10 +513,10 @@
                         related words to words associated with (individual) victims, as can be seen
                         in Figure 1.</p>
                     <figure>
-                        <graphic url="figure1.jpg" height="900px"/>
                         <head>Figure 1: Top 250 war criminal related words 1945-1955 (grey) and
                             1965-1975 (black) plotted by their cosine similarity to victim (x) and
                             traitor (y) words.</head>
+                        <graphic url="figure1.jpg" height="900px"/>
                     </figure>
                     <p>At first glance, this observation is completely in line with the relevant
                         historiography. Several authors have emphasized the sharp rise of interest
@@ -549,10 +549,10 @@
                         vocabulary, as our analysis also indicates continuity and a lasting
                         importance for perpetration and treason in the war criminal debates.</p>
                     <figure>
-                        <graphic url="figure2.jpg" height="900px"/>
                         <head>Figure 2: Top 250 war criminal related words 1945-1955 (grey) and
                             1965-1975 (black) plotted by their cosine similarity to life
                             imprisonment (x) and death sentence words (y).</head>
+                        <graphic url="figure2.jpg" height="900px"/>
                     </figure>
                     <p>It remains imperative to remain aware of the possible pitfalls of this type
                         of investigation. This is evident in the sharp rise of references to the
@@ -735,11 +735,10 @@
                 </div>
             </div>
             <div type="summary">
-                <docAuthor>Milan van Lange</docAuthor>
-                <docAuthor>Ralf Futselaar</docAuthor>
-                <head rend="allcaps">DEBATING EVIL: Using Word Embeddings to Analyse Parliamentary
+                <docAuthor>Milan van Lange, Ralf Futselaar</docAuthor>
+                <head style="text-transform: uppercase;">DEBATING EVIL: Using Word Embeddings to Analyse Parliamentary
                     Debates on War Criminals in the Netherlands</head>
-                <head>SUMMARY</head>
+                <head rend="subheader">SUMMARY</head>
                 <p>This paper presents a case study to investigate the application of text mining
                     techniques in historical research. We demonstrate the usability, advantages, and
                     limitations of distributional semantics when investigating large diachronic
@@ -794,11 +793,10 @@
                     domain knowledge. </p>
             </div>
             <div type="summary" xml:lang="sl">
-                <docAuthor>Milan van Lange</docAuthor>
-                <docAuthor>Ralf Futselaar</docAuthor>
+                <docAuthor>Milan van Lange, Ralf Futselaar</docAuthor>
                 <head>RAZPRAVE O ZLU: ANALIZIRANJE PARLAMENTARNIH RAZPRAV O VOJNIH ZLOČINCIH NA
                     NIZOZEMSKEM Z VEKTORSKIMI VLOŽITVAMI BESED</head>
-                <head>Povzetek</head>
+                <head rend="subheader" style="text-transform: uppercase;">Povzetek</head>
                 <p>V prispevku je prikazana študija primera, pri kateri se proučuje uporaba metod za
                     rudarjenje besedil v zgodovinskih raziskavah. Predstavljamo uporabnost,
                     prednosti in omejitve distribucijske semantike pri proučevanju obsežnih

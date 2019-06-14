@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Corporate communication on Twitter in Slovenia: A corpus analysis</title>
+                <title>Corporate Communication on Twitter in Slovenia: A Corpus Analysis</title>
                 <author>
                     <name>
                         <forename>Darja</forename>
@@ -142,7 +142,7 @@
                         Twitter, korpusna analiza</hi></p>
             </div>
             <div type="abstract">
-                <head><hi rend="allcaps">Abstract</hi></head>
+                <head style="text-transform: uppercase;">Abstract</head>
                 <p>
                     <hi rend="italic">The paper presents a corpus analysis of
                         corporate communication on Twitter, which was performed with a combination
@@ -212,7 +212,7 @@
                     analysis and Section 4 concludes the paper and outlines future work.</p>
             </div>
             <div>
-                <head>Related work</head>
+                <head>Related Work</head>
                 <p>In communication studies, three main strands of research into corporate social
                     media communication practices can be identified. The first group focuses on
                     investigating posting behaviour, the second looks into content analysis, and the
@@ -295,7 +295,7 @@
                     smaller market size the corporate accounts are serving).</p>
             </div>
             <div>
-                <head>Corpus analysis of corporate communication on Twitter</head>
+                <head>Corpus Analysis of Corporate Communication on Twitter</head>
                 <p>The analysis has been performed on the Janes-Tweet corpus (<ref target="#Erjavec.2018">Erjavec et al. 2018</ref>)
                     consisting of 11.3 million Slovene tweets or 160 million tokens published by
                     more than 10,200 users. Depending on their communication purpose, users in the
@@ -322,33 +322,33 @@
                     the new media to maximize their reach and relationship strength? 3) Can we
                     identify the Slovene corporate tweeting code?</p>
                 <div>
-                    <head>Account analysis</head>
-                    <table>
+                    <head>Account Analysis</head>
+                    <table rend="table-scroll">
                         <head>Table 1: Share of corporate and private users and their production in
                             the Janes-Tweet corpus.</head>
-                        <row>
-                            <cell role="label">Users</cell>
-                            <cell role="label">No. of users (%)</cell>
-                            <cell role="label">No. of tokens (%)</cell>
-                            <cell role="label">No. of tweets (%)</cell>
+                        <row role="label">
+                            <cell>Users</cell>
+                            <cell>No. of users (%)</cell>
+                            <cell>No. of tokens (%)</cell>
+                            <cell>No. of tweets (%)</cell>
                         </row>
                         <row>
-                            <cell role="data">Corporate</cell>
-                            <cell role="data">2612 (25.57%)</cell>
-                            <cell role="data">30,003,182 (18.70%)</cell>
-                            <cell role="data">2,112,910 (18.64%)</cell>
+                            <cell>Corporate</cell>
+                            <cell style="text-align:right;">2612<lb/> (25.57%)</cell>
+                            <cell style="text-align:right;">30,003,182<lb/> (18.70%)</cell>
+                            <cell style="text-align:right;">2,112,910<lb/> (18.64%)</cell>
                         </row>
                         <row>
-                            <cell role="daya">Private</cell>
-                            <cell role="data">7627 (74.44%)</cell>
-                            <cell role="data">130,401,083 (81.30%)</cell>
-                            <cell role="data">9,223,736 (81.36%)</cell>
+                            <cell>Private</cell>
+                            <cell style="text-align:right;">7627<lb/> (74.44%)</cell>
+                            <cell style="text-align:right;">130,401,083<lb/> (81.30%)</cell>
+                            <cell style="text-align:right;">9,223,736<lb/> (81.36%)</cell>
                         </row>
                         <row>
-                            <cell role="data">Total</cell>
-                            <cell role="data">10,248 (10.00%)</cell>
-                            <cell role="data">160,404,265 (100.00%)</cell>
-                            <cell role="data">11,336,646 (100.00%)</cell>
+                            <cell>Total</cell>
+                            <cell style="text-align:right;">10,248<lb/> (10.00%)</cell>
+                            <cell style="text-align:right;">160,404,265<lb/> (100.00%)</cell>
+                            <cell style="text-align:right;">11,336,646<lb/> (100.00%)</cell>
                         </row>
                     </table>
                     <p>
@@ -357,47 +357,47 @@
                         less than a fifth of all the tweets in the corpus have been posted by
                         corporate users. This means that in Slovenia, Twitter is mainly used for
                         private communication.</p>
-                    <table>
+                    <table rend="table-scroll">
                         <head>Table 2: Distribution of tweets by corporate and private users based
                             on gender in the Janes-Tweet corpus.</head>
-                        <row>
-                            <cell role="label" rows="2"> Gender</cell>
-                            <cell role="label" cols="2">Corporate</cell>
-                            <cell role="label" cols="2">Private</cell>
+                        <row role="label">
+                            <cell style="border:0.5px solid #333333;" rows="2"> Gender</cell>
+                            <cell style="border:0.5px solid #333333;" cols="2">Corporate</cell>
+                            <cell style="border:0.5px solid #333333;" cols="2">Private</cell>
                         </row>
                         <row>
-                            <cell role="label">no. of tweets</cell>
-                            <cell role="label">%</cell>
-                            <cell role="label">no. of tweets</cell>
-                            <cell role="label">%</cell>
+                            <cell style="border:0.5px solid #333333;">no. of tweets</cell>
+                            <cell style="border:0.5px solid #333333;">%</cell>
+                            <cell style="border:0.5px solid #333333;">no. of tweets</cell>
+                            <cell style="border:0.5px solid #333333;">%</cell>
                         </row>
                         <row>
-                            <cell role="data">Unknown</cell>
-                            <cell role="data">1,730,258</cell>
-                            <cell role="data">81.89%</cell>
-                            <cell role="data">134,048</cell>
-                            <cell role="data">1.45%</cell>
+                            <cell>Unknown</cell>
+                            <cell style="text-align:right;">1,730,258</cell>
+                            <cell style="text-align:right;">81.89%</cell>
+                            <cell style="text-align:right;">134,048</cell>
+                            <cell style="text-align:right;">1.45%</cell>
                         </row>
                         <row>
-                            <cell role="data">Male</cell>
-                            <cell role="data">271,729</cell>
-                            <cell role="data">12.86%</cell>
-                            <cell role="data">6,136,470</cell>
-                            <cell role="data">66.53%</cell>
+                            <cell>Male</cell>
+                            <cell style="text-align:right;">271,729</cell>
+                            <cell style="text-align:right;">12.86%</cell>
+                            <cell style="text-align:right;">6,136,470</cell>
+                            <cell style="text-align:right;">66.53%</cell>
                         </row>
                         <row>
-                            <cell role="data">Female</cell>
-                            <cell role="data">110,923</cell>
-                            <cell role="data">5.25%</cell>
-                            <cell role="data">2,953,218</cell>
-                            <cell role="data">32.02%</cell>
+                            <cell>Female</cell>
+                            <cell style="text-align:right;">110,923</cell>
+                            <cell style="text-align:right;">5.25%</cell>
+                            <cell style="text-align:right;">2,953,218</cell>
+                            <cell style="text-align:right;">32.02%</cell>
                         </row>
                         <row>
-                            <cell role="data">Total</cell>
-                            <cell role="data">2,112,910</cell>
-                            <cell role="data">100.00%</cell>
-                            <cell role="data">9,223,736</cell>
-                            <cell role="data">100.00%</cell>
+                            <cell>Total</cell>
+                            <cell style="text-align:right;">2,112,910</cell>
+                            <cell style="text-align:right;">100.00%</cell>
+                            <cell style="text-align:right;">9,223,736</cell>
+                            <cell style="text-align:right;">100.00%</cell>
                         </row>
                     </table>
                     <p>
@@ -410,7 +410,7 @@
                         do not distinguish the gender of the writer. </p>
                 </div>
                 <div>
-                    <head>Posting analysis</head>
+                    <head>Posting Analysis</head>
                     <p>
                         <hi rend="bold">Post quantity.</hi> There are only 29
                         (1%) corporate users who are very active on social media and have posted
@@ -427,48 +427,48 @@
                         the number of posts, which are simultaneous for both user groups, were
                         caused by the technical issues during data collection and are not related to
                         the seasonal fluctuations or other content-related phenomena.</p>
-                    <table>
+                    <table rend="table-scroll">
                         <head>Table 3: Activity of corporate and private users in the Janes-Tweet
                             corpus.</head>
-                            <row>
-                            <cell role="data" rend="border-none"/>
-                            <cell role="label" cols="2">Corporate</cell>
-                            <cell role="label" cols="2">Private</cell>
-                            </row>
-                        <row>
-                            <cell role="label">No. of all accounts</cell>
-                            <cell role="data">2612</cell>
-                            <cell role="data">%</cell>
-                            <cell role="data">7627</cell>
-                            <cell role="data">%</cell>
+                        <row role="label">
+                            <cell/>
+                            <cell cols="2">Corporate</cell>
+                            <cell cols="2">Private</cell>
                         </row>
                         <row>
-                            <cell role="label">&gt; 10,000 tweets</cell>
-                            <cell role="data">29</cell>
-                            <cell role="data">1.11%</cell>
-                            <cell role="data">129</cell>
-                            <cell role="data">1.69%</cell>
+                            <cell>No. of all accounts</cell>
+                            <cell style="text-align:right;">2612</cell>
+                            <cell style="text-align:right;">%</cell>
+                            <cell style="text-align:right;">7627</cell>
+                            <cell style="text-align:right;">%</cell>
                         </row>
                         <row>
-                            <cell role="label">Between 10,000 and 1,000 tweets</cell>
-                            <cell role="data">422</cell>
-                            <cell role="data">16.16%</cell>
-                            <cell role="data">1867</cell>
-                            <cell role="data">24.48%</cell>
+                            <cell>&gt; 10,000 tweets</cell>
+                            <cell style="text-align:right;">29</cell>
+                            <cell style="text-align:right;">1.11%</cell>
+                            <cell style="text-align:right;">129</cell>
+                            <cell style="text-align:right;">1.69%</cell>
                         </row>
                         <row>
-                            <cell role="label">Between 1,000 and 100 tweets</cell>
-                            <cell role="data">1640</cell>
-                            <cell role="data">62.79%</cell>
-                            <cell role="data">4055</cell>
-                            <cell role="data">53.17%</cell>
+                            <cell>Between 10,000 and 1,000 tweets</cell>
+                            <cell style="text-align:right;">422</cell>
+                            <cell style="text-align:right;">16.16%</cell>
+                            <cell style="text-align:right;">1867</cell>
+                            <cell style="text-align:right;">24.48%</cell>
                         </row>
                         <row>
-                            <cell role="label">&lt; 100 tweets</cell>
-                            <cell role="data">521</cell>
-                            <cell role="data">19.95%</cell>
-                            <cell role="data">1576</cell>
-                            <cell role="data">20.66%</cell>
+                            <cell>Between 1,000 and 100 tweets</cell>
+                            <cell style="text-align:right;">1640</cell>
+                            <cell style="text-align:right;">62.79%</cell>
+                            <cell style="text-align:right;">4055</cell>
+                            <cell style="text-align:right;">53.17%</cell>
+                        </row>
+                        <row>
+                            <cell>&lt; 100 tweets</cell>
+                            <cell style="text-align:right;">521</cell>
+                            <cell style="text-align:right;">19.95%</cell>
+                            <cell style="text-align:right;">1576</cell>
+                            <cell style="text-align:right;">20.66%</cell>
                         </row>
                     </table>
                     <figure>
@@ -493,7 +493,7 @@
                     </figure>
                 </div>
                 <div>
-                    <head>Analysis of interactive elements</head>
+                    <head>Analysis of Interactive Elements</head>
                     <p>
                         <hi rend="bold">Likes.</hi> As can be seen from Table 4, nearly 80% of
                         corporate tweets do not receive any likes, 12% have one like and only 9%
@@ -504,106 +504,106 @@
                         users and that corporate tweets are just one of the channels of the same
                         type of (one-directional) communication disseminated through different
                         genres.</p>
-                    <table>
+                    <table rend="table-scroll">
                         <head>Table 4: Share of liked and retweeted tweets of corporate and private users
                             in the Janes-Tweet corpus.</head>
-                        <row>
-                            <cell role="label" cols="5">No. of likes</cell>
+                        <row role="label" style="border-top:0.5px solid #333333;">
+                            <cell cols="5">No. of likes</cell>
+                        </row>
+                        <row role="label">
+                            <cell rows="2"/>
+                            <cell style="border:0.5px solid #333333;" cols="2">Corporate users</cell>
+                            <cell style="border:0.5px solid #333333;" role="label" cols="2">Private users</cell>
+                        </row>
+                        <row role="label" style="border-bottom:0.5px solid #333333;">
+                            <cell style="border:0.5px solid #333333;">No. of tweets</cell>
+                            <cell style="border:0.5px solid #333333;" role="label">%</cell>
+                            <cell style="border:0.5px solid #333333;" role="label">No. of tweets</cell>
+                            <cell style="border:0.5px solid #333333;" role="label">%</cell>
                         </row>
                         <row>
-                            <cell role="data" rows="2"/>
-                            <cell role="label" cols="2">Corporate users</cell>
-                            <cell role="label" cols="2">Private users</cell>
+                            <cell>0</cell>
+                            <cell style="text-align:right;">1,663,755</cell>
+                            <cell style="text-align:right;">78.74%</cell>
+                            <cell style="text-align:right;">610,9048</cell>
+                            <cell style="text-align:right;">66.23%</cell>
                         </row>
                         <row>
-                            <cell role="label">No. of tweets</cell>
-                            <cell role="label">%</cell>
-                            <cell role="label">No. of tweets</cell>
-                            <cell role="label">%</cell>
+                            <cell>1</cell>
+                            <cell style="text-align:right;">265,385</cell>
+                            <cell style="text-align:right;">12.56%</cell>
+                            <cell style="text-align:right;">1,890,549</cell>
+                            <cell style="text-align:right;">20.50%</cell>
                         </row>
                         <row>
-                            <cell role="label">0</cell>
-                            <cell role="data">1,663,755</cell>
-                            <cell role="data">78.74%</cell>
-                            <cell role="data">610,9048</cell>
-                            <cell role="data">66.23%</cell>
+                            <cell>2-10</cell>
+                            <cell style="text-align:right;">175,788</cell>
+                            <cell style="text-align:right;">8.32%</cell>
+                            <cell style="text-align:right;">1,160,057</cell>
+                            <cell style="text-align:right;">12.58%</cell>
                         </row>
                         <row>
-                            <cell role="label">1</cell>
-                            <cell role="data">265,385</cell>
-                            <cell role="data">12.56%</cell>
-                            <cell role="data">1,890,549</cell>
-                            <cell role="data">20.50%</cell>
+                            <cell>&gt;10</cell>
+                            <cell style="text-align:right;">7,982</cell>
+                            <cell style="text-align:right;">0.38%</cell>
+                            <cell style="text-align:right;">64,082</cell>
+                            <cell style="text-align:right;">0.69%</cell>
                         </row>
                         <row>
-                            <cell role="label">2-10</cell>
-                            <cell role="data">175,788</cell>
-                            <cell role="data">8.32%</cell>
-                            <cell role="data">1,160,057</cell>
-                            <cell role="data">12.58%</cell>
+                            <cell>Total</cell>
+                            <cell style="text-align:right;">2,112,910</cell>
+                            <cell style="text-align:right;">100.00%</cell>
+                            <cell style="text-align:right;">9,223,736</cell>
+                            <cell style="text-align:right;">100.00%</cell>
+                        </row>
+                        <row role="label" style="border-top:0.5px solid #333333;">
+                            <cell cols="5">No. of retweets</cell>
+                        </row>
+                        <row role="label">
+                            <cell rows="2"/>
+                            <cell style="border:0.5px solid #333333;" cols="2">Corporate users</cell>
+                            <cell style="border:0.5px solid #333333;" cols="2">Private users</cell>
+                        </row>
+                        <row role="label" style="border-bottom:0.5px solid #333333;">
+                            <cell style="border:0.5px solid #333333;">No. of tweets</cell>
+                            <cell style="border:0.5px solid #333333;">%</cell>
+                            <cell style="border:0.5px solid #333333;">No. of tweets</cell>
+                            <cell style="border:0.5px solid #333333;">%</cell>
                         </row>
                         <row>
-                            <cell role="label">&gt;10</cell>
-                            <cell role="data">7,982</cell>
-                            <cell role="data">0.38%</cell>
-                            <cell role="data">64,082</cell>
-                            <cell role="data">0.69%</cell>
+                            <cell>0</cell>
+                            <cell style="text-align:right;">1,754,988</cell>
+                            <cell style="text-align:right;">83.06%</cell>
+                            <cell style="text-align:right;">8,414,713</cell>
+                            <cell style="text-align:right;">91.23%</cell>
                         </row>
                         <row>
-                            <cell role="label">Total</cell>
-                            <cell role="data">2,112,910</cell>
-                            <cell role="data">100.00%</cell>
-                            <cell role="data">9,223,736</cell>
-                            <cell role="data">100.00%</cell>
+                            <cell>1</cell>
+                            <cell style="text-align:right;">219,698</cell>
+                            <cell style="text-align:right;">10.40%</cell>
+                            <cell style="text-align:right;">490,346</cell>
+                            <cell style="text-align:right;">5.32%</cell>
                         </row>
                         <row>
-                            <cell role="label" cols="5">No. of retweets</cell>
+                            <cell>2-10</cell>
+                            <cell style="text-align:right;">134,184</cell>
+                            <cell style="text-align:right;">6.35%</cell>
+                            <cell style="text-align:right;">300,319</cell>
+                            <cell style="text-align:right;">3.26%</cell>
                         </row>
                         <row>
-                            <cell role="data" rows="2"/>
-                            <cell role="label" cols="2">Corporate users</cell>
-                            <cell role="label" cols="2">Private users</cell>
+                            <cell>&gt;10</cell>
+                            <cell style="text-align:right;">4,040</cell>
+                            <cell style="text-align:right;">0.19%</cell>
+                            <cell style="text-align:right;">18,358</cell>
+                            <cell style="text-align:right;">0.19%</cell>
                         </row>
                         <row>
-                            <cell role="label">No. of tweets</cell>
-                            <cell role="label">%</cell>
-                            <cell role="label">No. of tweets</cell>
-                            <cell role="label">%</cell>
-                        </row>
-                        <row>
-                            <cell role="label">0</cell>
-                            <cell role="data">1,754,988</cell>
-                            <cell role="data">83.06%</cell>
-                            <cell role="data">8,414,713</cell>
-                            <cell role="data">91.23%</cell>
-                        </row>
-                        <row>
-                            <cell role="label">1</cell>
-                            <cell role="data">219,698</cell>
-                            <cell role="data">10.40%</cell>
-                            <cell role="data">490,346</cell>
-                            <cell role="data">5.32%</cell>
-                        </row>
-                        <row>
-                            <cell role="label">2-10</cell>
-                            <cell role="data">134,184</cell>
-                            <cell role="data">6.35%</cell>
-                            <cell role="data">300,319</cell>
-                            <cell role="data">3.26%</cell>
-                        </row>
-                        <row>
-                            <cell role="label">&gt;10</cell>
-                            <cell role="data">4,040</cell>
-                            <cell role="data">0.19%</cell>
-                            <cell role="data">18,358</cell>
-                            <cell role="data">0.19%</cell>
-                        </row>
-                        <row>
-                            <cell role="label">Total</cell>
-                            <cell role="data">2,112,910</cell>
-                            <cell role="data">100.00%</cell>
-                            <cell role="data">9,223,736</cell>
-                            <cell role="data">100.00%</cell>
+                            <cell>Total</cell>
+                            <cell style="text-align:right;">2,112,910</cell>
+                            <cell style="text-align:right;">100.00%</cell>
+                            <cell style="text-align:right;">9,223,736</cell>
+                            <cell style="text-align:right;">100.00%</cell>
                         </row>
                     </table>
                     <figure>
@@ -612,92 +612,92 @@
                         <graphic url="image3.png" height="300px"/>
                         <graphic url="image4.png" height="300px"/>
                     </figure>
-                    <table>
+                    <table rend="table-scroll">
                         <head>Table 5: Use of hashtags, emoji, hyperlinks and mentions by corporate and
                             private users in the Janes-Tweet corpus.</head>
-                        <row>
-                            <cell role="label" cols="4">Hashtags</cell>
+                        <row role="label" style="border-top:0.5px solid #333333;">
+                            <cell cols="4">Hashtags</cell>
+                        </row>
+                        <row role="label" style="border-bottom:0.5px solid #333333;">
+                            <cell/>
+                            <cell>Abs. freq.</cell>
+                            <cell>Per million</cell>
+                            <cell>Per tweet</cell>
                         </row>
                         <row>
-                            <cell role="data"/>
-                            <cell role="label">Abs. freq.</cell>
-                            <cell role="label">Per million</cell>
-                            <cell role="label">Per tweet</cell>
+                            <cell>Corporate</cell>
+                            <cell style="text-align:right;">922,504</cell>
+                            <cell style="text-align:right;">30,746.9</cell>
+                            <cell style="text-align:right;">0.44</cell>
                         </row>
                         <row>
-                            <cell role="label">Corporate</cell>
-                            <cell role="data">922,504</cell>
-                            <cell role="data">30,746.9</cell>
-                            <cell role="data">0.44</cell>
+                            <cell>Private</cell>
+                            <cell style="text-align:right;">2,241,693</cell>
+                            <cell style="text-align:right;">17,190.8</cell>
+                            <cell style="text-align:right;">0.24</cell>
+                        </row>
+                        <row role="label" style="border-top:0.5px solid #333333;">
+                            <cell cols="4">Emoji</cell>
+                        </row>
+                        <row role="label" style="border-bottom:0.5px solid #333333;">
+                            <cell/>
+                            <cell>Abs. freq.</cell>
+                            <cell>Per million</cell>
+                            <cell>Per tweet</cell>
                         </row>
                         <row>
-                            <cell role="label">Private</cell>
-                            <cell role="data">2,241,693</cell>
-                            <cell role="data">17,190.8</cell>
-                            <cell role="data">0.24</cell>
+                            <cell>Corporate</cell>
+                            <cell style="text-align:right;">1,285,696</cell>
+                            <cell style="text-align:right;">42,852.0</cell>
+                            <cell style="text-align:right;">0.61</cell>
                         </row>
                         <row>
-                            <cell role="label" cols="4">Emoji</cell>
+                            <cell>Private</cell>
+                            <cell style="text-align:right;">12,061,885</cell>
+                            <cell style="text-align:right;">92,498.3</cell>
+                            <cell style="text-align:right;">1.31</cell>
+                        </row>
+                        <row role="label" style="border-top:0.5px solid #333333;">
+                            <cell cols="4">Hyperlinks</cell>
+                        </row>
+                        <row role="label" style="border-bottom:0.5px solid #333333;">
+                            <cell/>
+                            <cell>Abs. freq.</cell>
+                            <cell>Per million</cell>
+                            <cell>Per tweet</cell>
                         </row>
                         <row>
-                            <cell role="data"/>
-                            <cell role="label">Abs. freq.</cell>
-                            <cell role="label">Per million</cell>
-                            <cell role="label">Per tweet</cell>
+                            <cell>Corporate</cell>
+                            <cell style="text-align:right;">1,989,643</cell>
+                            <cell style="text-align:right;">66,314.4</cell>
+                            <cell style="text-align:right;">0.94</cell>
                         </row>
                         <row>
-                            <cell role="label">Corporate</cell>
-                            <cell role="data">1,285,696</cell>
-                            <cell role="data">42,852.0</cell>
-                            <cell role="data">0.61</cell>
+                            <cell>Private</cell>
+                            <cell style="text-align:right;">2,583,651</cell>
+                            <cell style="text-align:right;">19,813.1</cell>
+                            <cell style="text-align:right;">0.28</cell>
+                        </row>
+                        <row role="label" style="border-top:0.5px solid #333333;">
+                            <cell cols="4">Mentions</cell>
+                        </row>
+                        <row role="label" style="border-bottom:0.5px solid #333333;">
+                            <cell/>
+                            <cell>Abs. freq.</cell>
+                            <cell>Per million</cell>
+                            <cell>Per tweet</cell>
                         </row>
                         <row>
-                            <cell role="label">Private</cell>
-                            <cell role="data">12,061,885</cell>
-                            <cell role="data">92,498.3</cell>
-                            <cell role="data">1.31</cell>
+                            <cell>Corporate</cell>
+                            <cell style="text-align:right;">659,211</cell>
+                            <cell style="text-align:right;">21,971.4</cell>
+                            <cell style="text-align:right;">0.31</cell>
                         </row>
                         <row>
-                            <cell role="label" cols="4">Hyperlinks</cell>
-                        </row>
-                        <row>
-                            <cell role="data"/>
-                            <cell role="label">Abs. freq.</cell>
-                            <cell role="label">Per million</cell>
-                            <cell role="label">Per tweet</cell>
-                        </row>
-                        <row>
-                            <cell role="label">Corporate</cell>
-                            <cell role="data">1,989,643</cell>
-                            <cell role="data">66,314.4</cell>
-                            <cell role="data">0.94</cell>
-                        </row>
-                        <row>
-                            <cell role="label">Private</cell>
-                            <cell role="data">2,583,651</cell>
-                            <cell role="data">19,813.1</cell>
-                            <cell role="data">0.28</cell>
-                        </row>
-                        <row>
-                            <cell role="label" cols="4">Mentions</cell>
-                        </row>
-                        <row>
-                            <cell role="data"/>
-                            <cell role="label">Abs. freq.</cell>
-                            <cell role="label">Per million</cell>
-                            <cell role="label">Per tweet</cell>
-                        </row>
-                        <row>
-                            <cell role="label">Corporate</cell>
-                            <cell role="data">659,211</cell>
-                            <cell role="data">21,971.4</cell>
-                            <cell role="data">0.31</cell>
-                        </row>
-                        <row>
-                            <cell role="label">Private</cell>
-                            <cell role="data">9,216,857</cell>
-                            <cell role="data">57,460.2</cell>
-                            <cell role="data">1.00</cell>
+                            <cell>Private</cell>
+                            <cell style="text-align:right;">9,216,857</cell>
+                            <cell style="text-align:right;">57,460.2</cell>
+                            <cell style="text-align:right;">1.00</cell>
                         </row>
                     </table>
                     <p>
@@ -743,162 +743,161 @@
                         emojis are a much more recent phenomenon, but this could also be a
                         consequence of corporate users more frequently tweeting from their computers
                         rather than smart phones which better support the use of emojis.</p>
-                    <table>
+                    <table rend="table-scroll">
                         <head>Table 6: Ten most frequent hashtags in corporate and private tweets.</head>
-                        <row>
-                            <cell role="label" cols="2">Corporate users</cell>
-                            <cell role="label" cols="2">Private users</cell>
+                        <row role="label">
+                            <cell style="border:0.5px solid #333333;" cols="2">Corporate users</cell>
+                            <cell style="border:0.5px solid #333333;" cols="2">Private users</cell>
+                        </row>
+                        <row role="label">
+                            <cell style="border:0.5px solid #333333;">Hashtag</cell>
+                            <cell style="border:0.5px solid #333333;">Frequency</cell>
+                            <cell style="border:0.5px solid #333333;">Hashtag</cell>
+                            <cell style="border:0.5px solid #333333;">Frequency</cell>
                         </row>
                         <row>
-                            <cell role="label">Hashtag</cell>
-                            <cell role="label">Frequency</cell>
-                            <cell role="label">Hashtag</cell>
-                            <cell role="label">Frequency</cell>
+                            <cell><hi rend="bold">#plts</hi></cell>
+                            <cell style="text-align:right;">18,03</cell>
+                            <cell><hi rend="bold">#plts</hi></cell>
+                            <cell style="text-align:right;">26,370</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="bold">#plts</hi></cell>
-                            <cell role="data">18,03</cell>
-                            <cell role="data"><hi rend="bold">#plts</hi></cell>
-                            <cell role="data">26,370</cell>
+                            <cell><hi rend="bold">#slonews</hi></cell>
+                            <cell style="text-align:right;">18,247</cell>
+                            <cell><hi rend="bold">#slonews</hi></cell>
+                            <cell style="text-align:right;">18,270</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="bold">#slonews</hi></cell>
-                            <cell role="data">18,247</cell>
-                            <cell role="data"><hi rend="bold">#slonews</hi></cell>
-                            <cell role="data">18,270</cell>
+                            <cell><hi rend="bold">#PLTS</hi></cell>
+                            <cell style="text-align:right;">9,620</cell>
+                            <cell><hi rend="bold">#junaki</hi></cell>
+                            <cell style="text-align:right;">18,167</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="bold">#PLTS</hi></cell>
-                            <cell role="data">9,620</cell>
-                            <cell role="data"><hi rend="bold">#junaki</hi></cell>
-                            <cell role="data">18,167</cell>
+                            <cell><hi rend="bold">#Ljubljana</hi></cell>
+                            <cell style="text-align:right;">5,724</cell>
+                            <cell>#slochi</cell>
+                            <cell style="text-align:right;">13,195</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="bold">#Ljubljana</hi></cell>
-                            <cell role="data">5,724</cell>
-                            <cell role="data">#slochi</cell>
-                            <cell role="data">13,195</cell>
+                            <cell>#izvršba</cell>
+                            <cell style="text-align:right;">5,167</cell>
+                            <cell><hi rend="bold">#PLTS</hi></cell>
+                            <cell style="text-align:right;">10,943</cell>
                         </row>
                         <row>
-                            <cell role="data">#izvršba</cell>
-                            <cell role="data">5,167</cell>
-                            <cell role="data"><hi rend="bold">#PLTS</hi></cell>
-                            <cell role="data">10,943</cell>
+                            <cell>#NKDomzale</cell>
+                            <cell style="text-align:right;">4,437</cell>
+                            <cell>#Slovenia</cell>
+                            <cell style="text-align:right;">10,780</cell>
                         </row>
                         <row>
-                            <cell role="data">#NKDomzale</cell>
-                            <cell role="data">4,437</cell>
-                            <cell role="data">#Slovenia</cell>
-                            <cell role="data">10,780</cell>
+                            <cell>#olimpija</cell>
+                            <cell style="text-align:right;">4,176</cell>
+                            <cell><hi rend="bold">#Ljubljana</hi></cell>
+                            <cell style="text-align:right;">10,141</cell>
                         </row>
                         <row>
-                            <cell role="data">#olimpija</cell>
-                            <cell role="data">4,176</cell>
-                            <cell role="data"><hi rend="bold">#Ljubljana</hi></cell>
-                            <cell role="data">10,141</cell>
+                            <cell>#rokomet</cell>
+                            <cell style="text-align:right;">4,143</cell>
+                            <cell>#radiobattleSI</cell>
+                            <cell style="text-align:right;">9,184</cell>
                         </row>
                         <row>
-                            <cell role="data">#rokomet</cell>
-                            <cell role="data">4,143</cell>
-                            <cell role="data">#radiobattleSI</cell>
-                            <cell role="data">9,184</cell>
+                            <cell><hi rend="bold">#junaki</hi></cell>
+                            <cell style="text-align:right;">3,941</cell>
+                            <cell>#ligaprvakov</cell>
+                            <cell style="text-align:right;">9,091</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="bold">#junaki</hi></cell>
-                            <cell role="data">3,941</cell>
-                            <cell role="data">#ligaprvakov</cell>
-                            <cell role="data">9,091</cell>
-                        </row>
-                        <row>
-                            <cell role="data">#skupajdovrha</cell>
-                            <cell role="data">3,864</cell>
-                            <cell role="data">#sp14si</cell>
-                            <cell role="data">8,351</cell>
+                            <cell>#skupajdovrha</cell>
+                            <cell style="text-align:right;">3,864</cell>
+                            <cell>#sp14si</cell>
+                            <cell style="text-align:right;">8,351</cell>
                         </row>
                     </table>
-                    
-                    <table>
+                    <table rend="table-scroll">
                         <head>Table 7: Ten most frequent emoticons and emojis in corporate and private
                             tweets and the ten corporate accounts with the highest relative frequency of
                             emoticons and emojis.</head>
-                        <row>
-                            <cell role="label">Emoji</cell>
-                            <cell role="label">Frequency</cell>
-                            <cell role="label">User</cell>
-                            <cell role="label">Frequency</cell>
-                            <cell role="label">Rel. freq<note place="foot" xml:id="ftn5" n="3">
+                        <row role="label">
+                            <cell>Emoji</cell>
+                            <cell>Frequency</cell>
+                            <cell>User</cell>
+                            <cell>Frequency</cell>
+                            <cell>Rel. freq<note place="foot" xml:id="ftn5" n="3">
                                     Relative frequency is the average frequency of the phenomenon in
                                     one million tokens.</note></cell>
                         </row>
                         <row>
-                            <cell role="data">:)</cell>
-                            <cell role="data">114,602</cell>
-                            <cell role="data">RecycleMan</cell>
-                            <cell role="data">530</cell>
-                            <cell role="data">12.711,5</cell>
+                            <cell>:)</cell>
+                            <cell style="text-align:right;">114,602</cell>
+                            <cell>RecycleMan</cell>
+                            <cell style="text-align:right;">530</cell>
+                            <cell style="text-align:right;">12.711,5</cell>
                         </row>
                         <row>
-                            <cell role="data">;)</cell>
-                            <cell role="data">55,763</cell>
-                            <cell role="data">JennParisBags</cell>
-                            <cell role="data">188</cell>
-                            <cell role="data">11.522,1</cell>
+                            <cell>;)</cell>
+                            <cell style="text-align:right;">55,763</cell>
+                            <cell>JennParisBags</cell>
+                            <cell style="text-align:right;">188</cell>
+                            <cell style="text-align:right;">11.522,1</cell>
                         </row>
                         <row>
-                            <cell role="data">:D</cell>
-                            <cell role="data">17,715</cell>
-                            <cell role="data">EtiVelikonja</cell>
-                            <cell role="data">160</cell>
-                            <cell role="data">10.409,8</cell>
+                            <cell>:D</cell>
+                            <cell style="text-align:right;">17,715</cell>
+                            <cell>EtiVelikonja</cell>
+                            <cell style="text-align:right;">160</cell>
+                            <cell style="text-align:right;">10.409,8</cell>
                         </row>
                         <row>
-                            <cell role="data">&amp;lt;3</cell>
-                            <cell role="data">13,688</cell>
-                            <cell role="data">ApartmaNet</cell>
-                            <cell role="data">184</cell>
-                            <cell role="data">10.104,9</cell>
+                            <cell>&amp;lt;3</cell>
+                            <cell style="text-align:right;">13,688</cell>
+                            <cell>ApartmaNet</cell>
+                            <cell style="text-align:right;">184</cell>
+                            <cell style="text-align:right;">10.104,9</cell>
                         </row>
                         <row>
-                            <cell role="data">:-)</cell>
-                            <cell role="data">9,672</cell>
-                            <cell role="data">TRENDtrgovina</cell>
-                            <cell role="data">436</cell>
-                            <cell role="data">10.049,3</cell>
+                            <cell>:-)</cell>
+                            <cell style="text-align:right;">9,672</cell>
+                            <cell>TRENDtrgovina</cell>
+                            <cell style="text-align:right;">436</cell>
+                            <cell style="text-align:right;">10.049,3</cell>
                         </row>
                         <row>
-                            <cell role="data">;-)</cell>
-                            <cell role="data">4,926</cell>
-                            <cell role="data">Pawla40</cell>
-                            <cell role="data">228</cell>
-                            <cell role="data">9.720,0</cell>
+                            <cell>;-)</cell>
+                            <cell style="text-align:right;">4,926</cell>
+                            <cell>Pawla40</cell>
+                            <cell style="text-align:right;">228</cell>
+                            <cell style="text-align:right;">9.720,0</cell>
                         </row>
                         <row>
-                            <cell role="data">:))</cell>
-                            <cell role="data">4,680</cell>
-                            <cell role="data">iPlacesi</cell>
-                            <cell role="data">125</cell>
-                            <cell role="data">8.860,0</cell>
+                            <cell>:))</cell>
+                            <cell style="text-align:right;">4,680</cell>
+                            <cell>iPlacesi</cell>
+                            <cell style="text-align:right;">125</cell>
+                            <cell style="text-align:right;">8.860,0</cell>
                         </row>
                         <row>
-                            <cell role="data">❤</cell>
-                            <cell role="data">3,679</cell>
-                            <cell role="data">bozicluka</cell>
-                            <cell role="data">92</cell>
-                            <cell role="data">8.290,2</cell>
+                            <cell>❤</cell>
+                            <cell style="text-align:right;">3,679</cell>
+                            <cell>bozicluka</cell>
+                            <cell style="text-align:right;">92</cell>
+                            <cell style="text-align:right;">8.290,2</cell>
                         </row>
                         <row>
-                            <cell role="data">:P</cell>
-                            <cell role="data">3,558</cell>
-                            <cell role="data">matejgaber22</cell>
-                            <cell role="data">99</cell>
-                            <cell role="data">7.222,6</cell>
+                            <cell>:P</cell>
+                            <cell style="text-align:right;">3,558</cell>
+                            <cell>matejgaber22</cell>
+                            <cell style="text-align:right;">99</cell>
+                            <cell style="text-align:right;">7.222,6</cell>
                         </row>
                         <row>
-                            <cell role="data">&#128521;</cell>
-                            <cell role="data">3,436</cell>
-                            <cell role="data">Modniovitki</cell>
-                            <cell role="data">424</cell>
-                            <cell role="data">7.010,9</cell>
+                            <cell>&#128521;</cell>
+                            <cell style="text-align:right;">3,436</cell>
+                            <cell>Modniovitki</cell>
+                            <cell style="text-align:right;">424</cell>
+                            <cell style="text-align:right;">7.010,9</cell>
                         </row>
                     </table>
                     <p>
@@ -925,83 +924,83 @@
                         in private tweets we find social media influencers, two journalists and a
                         politician. Both lists have only two mentions in common, i.e. YouTube and
                         Janez Janša, one of the oldest and best known Slovenian politicians.</p>
-                    <table>
+                    <table rend="table-scroll">
                         <head>Table 8: Ten most frequently mentioned accounts in the tweets posted by
                             corporate and by private users.</head>
-                        <row>
-                            <cell role="label" cols="2">Corporate users</cell>
-                            <cell role="label" cols="3">Private users</cell>
+                        <row role="label">
+                            <cell style="border:0.5px solid #333333;" cols="2">Corporate users</cell>
+                            <cell style="border:0.5px solid #333333;" cols="3">Private users</cell>
+                        </row>
+                        <row role="label">
+                            <cell style="border:0.5px solid #333333;">Mention</cell>
+                            <cell style="border:0.5px solid #333333;">Frequency</cell>
+                            <cell style="border:0.5px solid #333333;">Mention</cell>
+                            <cell style="border:0.5px solid #333333;">Frequency</cell>
                         </row>
                         <row>
-                            <cell role="label">Mention</cell>
-                            <cell role="label">Frequency</cell>
-                            <cell role="label">Mention</cell>
-                            <cell role="label">Frequency</cell>
+                            <cell><hi rend="bold">@YouTube</hi></cell>
+                            <cell style="text-align:right;">8,325</cell>
+                            <cell>@petrasovdat</cell>
+                            <cell style="text-align:right;">91,328</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="bold">@YouTube</hi></cell>
-                            <cell role="data">8,325</cell>
-                            <cell role="data">@petrasovdat</cell>
-                            <cell role="data">91,328</cell>
+                            <cell>@Nova24TV</cell>
+                            <cell style="text-align:right;">6,903</cell>
+                            <cell><hi rend="bold">@YouTube</hi></cell>
+                            <cell style="text-align:right;">71,859</cell>
                         </row>
                         <row>
-                            <cell role="data">@Nova24TV</cell>
-                            <cell role="data">6,903</cell>
-                            <cell role="data"><hi rend="bold">@YouTube</hi></cell>
-                            <cell role="data">71,859</cell>
+                            <cell>@Val202</cell>
+                            <cell style="text-align:right;">3,992</cell>
+                            <cell>@MarkoSket</cell>
+                            <cell style="text-align:right;">57,333</cell>
                         </row>
                         <row>
-                            <cell role="data">@Val202</cell>
-                            <cell role="data">3,992</cell>
-                            <cell role="data">@MarkoSket</cell>
-                            <cell role="data">57,333</cell>
+                            <cell>@rtvslo</cell>
+                            <cell style="text-align:right;">3,866</cell>
+                            <cell><hi rend="bold">@JJansaSDS</hi></cell>
+                            <cell style="text-align:right;">53,482</cell>
                         </row>
                         <row>
-                            <cell role="data">@rtvslo</cell>
-                            <cell role="data">3,866</cell>
-                            <cell role="data"><hi rend="bold">@JJansaSDS</hi></cell>
-                            <cell role="data">53,482</cell>
+                            <cell>@kzssi</cell>
+                            <cell style="text-align:right;">3,736</cell>
+                            <cell>@lucijausaj</cell>
+                            <cell style="text-align:right;">51,391</cell>
                         </row>
                         <row>
-                            <cell role="data">@kzssi</cell>
-                            <cell role="data">3,736</cell>
-                            <cell role="data">@lucijausaj</cell>
-                            <cell role="data">51,391</cell>
+                            <cell>@unionolimpija</cell>
+                            <cell style="text-align:right;">3,616</cell>
+                            <cell>@leaathenatabako</cell>
+                            <cell style="text-align:right;">44,453</cell>
                         </row>
                         <row>
-                            <cell role="data">@unionolimpija</cell>
-                            <cell role="data">3,616</cell>
-                            <cell role="data">@leaathenatabako</cell>
-                            <cell role="data">44,453</cell>
+                            <cell><hi rend="bold">@JJansaSDS</hi></cell>
+                            <cell style="text-align:right;">3,464</cell>
+                            <cell>@petrajansa</cell>
+                            <cell style="text-align:right;">44,102</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="bold">@JJansaSDS</hi></cell>
-                            <cell role="data">3,464</cell>
-                            <cell role="data">@petrajansa</cell>
-                            <cell role="data">44,102</cell>
+                            <cell>@radioPrvi</cell>
+                            <cell style="text-align:right;">3,128</cell>
+                            <cell>@savicdomen</cell>
+                            <cell style="text-align:right;">43,394</cell>
                         </row>
                         <row>
-                            <cell role="data">@radioPrvi</cell>
-                            <cell role="data">3,128</cell>
-                            <cell role="data">@savicdomen</cell>
-                            <cell role="data">43,394</cell>
+                            <cell>@vladaRS</cell>
+                            <cell style="text-align:right;">2,764</cell>
+                            <cell>@darkob</cell>
+                            <cell style="text-align:right;">42,363</cell>
                         </row>
                         <row>
-                            <cell role="data">@vladaRS</cell>
-                            <cell role="data">2,764</cell>
-                            <cell role="data">@darkob</cell>
-                            <cell role="data">42,363</cell>
-                        </row>
-                        <row>
-                            <cell role="data">@nkmaribor</cell>
-                            <cell role="data">2,758</cell>
-                            <cell role="data">@zzTurk</cell>
-                            <cell role="data">40,534</cell>
+                            <cell>@nkmaribor</cell>
+                            <cell style="text-align:right;">2,758</cell>
+                            <cell>@zzTurk</cell>
+                            <cell style="text-align:right;">40,534</cell>
                         </row>
                     </table>
                 </div>
                 <div>
-                    <head>Language analysis</head>
+                    <head>Language Analysis</head>
                     <p>
                         <hi rend="bold">Language of tweets.</hi> Corporate
                         users almost exclusively post messages in Slovene (93%), which is
@@ -1015,54 +1014,54 @@
                         French), as well as the accounts of the Ministry of Foreign Affairs, the
                         president and the prime minister who occasionally use English tweets to
                         inform the international community about major events (e.g. arbitration). </p>
-                    <table>
+                    <table rend="table-scroll">
                         <head>Table 9: Language use in the tweets posted by corporate and private
                             users.</head>
-                        <row>
-                            <cell role="label" rows="2">Language</cell>
-                            <cell role="label" cols="2">Corporate</cell>
-                            <cell role="label" cols="2">Private</cell>
+                        <row role="label">
+                            <cell style="border:0.5px solid #333333;" rows="2">Language</cell>
+                            <cell style="border:0.5px solid #333333;" cols="2">Corporate</cell>
+                            <cell style="border:0.5px solid #333333;" cols="2">Private</cell>
+                        </row>
+                        <row role="label">
+                            <cell style="border:0.5px solid #333333;">No. of tweets</cell>
+                            <cell style="border:0.5px solid #333333;">%</cell>
+                            <cell style="border:0.5px solid #333333;">No. of tweets</cell>
+                            <cell style="border:0.5px solid #333333;">%</cell>
                         </row>
                         <row>
-                            <cell role="label">No. of tweets</cell>
-                            <cell role="label">%</cell>
-                            <cell role="label">No. of tweets</cell>
-                            <cell role="label">%</cell>
+                            <cell>Slovene</cell>
+                            <cell style="text-align:right;">1,973,677</cell>
+                            <cell style="text-align:right;">93.41%</cell>
+                            <cell style="text-align:right;">8,074,681</cell>
+                            <cell style="text-align:right;">87.54%</cell>
                         </row>
                         <row>
-                            <cell role="label">Slovene</cell>
-                            <cell role="data">1,973,677</cell>
-                            <cell role="data">93.41%</cell>
-                            <cell role="data">8,074,681</cell>
-                            <cell role="data">87.54%</cell>
+                            <cell>English</cell>
+                            <cell style="text-align:right;">104,955</cell>
+                            <cell style="text-align:right;">4.97%</cell>
+                            <cell style="text-align:right;">983,141</cell>
+                            <cell style="text-align:right;">10.66%</cell>
                         </row>
                         <row>
-                            <cell role="label">English</cell>
-                            <cell role="data">104,955</cell>
-                            <cell role="data">4.97%</cell>
-                            <cell role="data">983,141</cell>
-                            <cell role="data">10.66%</cell>
+                            <cell>Bosnian/Croatian/Serbian</cell>
+                            <cell style="text-align:right;">16,058</cell>
+                            <cell style="text-align:right;">0.76%</cell>
+                            <cell style="text-align:right;">57,017</cell>
+                            <cell style="text-align:right;">0.62%</cell>
                         </row>
                         <row>
-                            <cell role="label">Bosnian/Croatian/Serbian</cell>
-                            <cell role="data">16,058</cell>
-                            <cell role="data">0.76%</cell>
-                            <cell role="data">57,017</cell>
-                            <cell role="data">0.62%</cell>
+                            <cell>Other</cell>
+                            <cell style="text-align:right;">18,220</cell>
+                            <cell style="text-align:right;">0.86%</cell>
+                            <cell style="text-align:right;">108,897</cell>
+                            <cell style="text-align:right;">1.18%</cell>
                         </row>
                         <row>
-                            <cell role="label">Other</cell>
-                            <cell role="data">18,220</cell>
-                            <cell role="data">0.86%</cell>
-                            <cell role="data">108,897</cell>
-                            <cell role="data">1.18%</cell>
-                        </row>
-                        <row>
-                            <cell role="label">Total</cell>
-                            <cell role="data">2,112,910</cell>
-                            <cell role="data">100.00%</cell>
-                            <cell role="data">9,223,736</cell>
-                            <cell role="data">100.00%</cell>
+                            <cell>Total</cell>
+                            <cell style="text-align:right;">2,112,910</cell>
+                            <cell style="text-align:right;">100.00%</cell>
+                            <cell style="text-align:right;">9,223,736</cell>
+                            <cell style="text-align:right;">100.00%</cell>
                         </row>
                     </table>
                     <p>
@@ -1074,46 +1073,46 @@
                         only a quarter positive. This is another indication of the PR nature of
                         corporate tweets which try to convey a positive corporate image, attract
                         customers, sell products, etc.</p>
-                    <table>
+                    <table rend="table-scroll">
                         <head>Table 10: Sentiment of tweets posted by corporate and private users.</head>
-                        <row>
-                            <cell role="label" rows="2"> sentiment</cell>
-                            <cell role="label" cols="2">corporate</cell>
-                            <cell role="label" cols="2">private</cell>
+                        <row role="label">
+                            <cell style="border:0.5px solid #333333;" rows="2">sentiment</cell>
+                            <cell style="border:0.5px solid #333333;" cols="2">corporate</cell>
+                            <cell style="border:0.5px solid #333333;" cols="2">private</cell>
+                        </row>
+                        <row role="label">
+                            <cell style="border:0.5px solid #333333;">no. of tweets</cell>
+                            <cell style="border:0.5px solid #333333;">%</cell>
+                            <cell style="border:0.5px solid #333333;">no. of tweets</cell>
+                            <cell style="border:0.5px solid #333333;">%</cell>
                         </row>
                         <row>
-                            <cell role="label">no. of tweets</cell>
-                            <cell role="label">%</cell>
-                            <cell role="label">no. of tweets</cell>
-                            <cell role="label">%</cell>
+                            <cell>positive</cell>
+                            <cell style="text-align:right;">1,024,238</cell>
+                            <cell style="text-align:right;">48.48%</cell>
+                            <cell style="text-align:right;">2,320,841</cell>
+                            <cell style="text-align:right;">25.16%</cell>
                         </row>
                         <row>
-                            <cell role="label">positive</cell>
-                            <cell role="data">1,024,238</cell>
-                            <cell role="data">48.48%</cell>
-                            <cell role="data">2,320,841</cell>
-                            <cell role="data">25.16%</cell>
+                            <cell>neutral</cell>
+                            <cell style="text-align:right;">729,811</cell>
+                            <cell style="text-align:right;">34.54%</cell>
+                            <cell style="text-align:right;">4,411,516</cell>
+                            <cell style="text-align:right;">47.83%</cell>
                         </row>
                         <row>
-                            <cell role="label">neutral</cell>
-                            <cell role="data">729,811</cell>
-                            <cell role="data">34.54%</cell>
-                            <cell role="data">4,411,516</cell>
-                            <cell role="data">47.83%</cell>
+                            <cell>negative</cell>
+                            <cell style="text-align:right;">358,861</cell>
+                            <cell style="text-align:right;">16.98%</cell>
+                            <cell style="text-align:right;">2,491,379</cell>
+                            <cell style="text-align:right;">27.01%</cell>
                         </row>
                         <row>
-                            <cell role="label">negative</cell>
-                            <cell role="data">358,861</cell>
-                            <cell role="data">16.98%</cell>
-                            <cell role="data">2,491,379</cell>
-                            <cell role="data">27.01%</cell>
-                        </row>
-                        <row>
-                            <cell role="label">total</cell>
-                            <cell role="data">2,112,910</cell>
-                            <cell role="data">100.00%</cell>
-                            <cell role="data">9,223,736</cell>
-                            <cell role="data">100.00%</cell>
+                            <cell>total</cell>
+                            <cell style="text-align:right;">2,112,910</cell>
+                            <cell style="text-align:right;">100.00%</cell>
+                            <cell style="text-align:right;">9,223,736</cell>
+                            <cell style="text-align:right;">100.00%</cell>
                         </row>
                     </table>
                     <p>
@@ -1126,143 +1125,143 @@
                         among the accounts of public personalities (e.g. stand-up comics, radio
                         presenters, musicians) who often purposefully tweet in nonstandard Slovene
                         because informal communication is a major part of their corporate image.</p>
-                    <table>
+                    <table rend="table-scroll">
                         <head>Table 11: Language standardness level in the tweets posted by corporate and
                             private users.</head>
-                        <row>
-                            <cell role="label" rows="2">Standardness</cell>
-                            <cell role="label" cols="2">Corporate</cell>
-                            <cell role="label" cols="2">Private</cell>
+                        <row role="label">
+                            <cell style="border:0.5px solid #333333;" rows="2">Standardness</cell>
+                            <cell style="border:0.5px solid #333333;" cols="2">Corporate</cell>
+                            <cell style="border:0.5px solid #333333;" cols="2">Private</cell>
+                        </row>
+                        <row role="label">
+                            <cell style="border:0.5px solid #333333;">No. of tweets</cell>
+                            <cell style="border:0.5px solid #333333;">%</cell>
+                            <cell style="border:0.5px solid #333333;">Sentiment</cell>
+                            <cell style="border:0.5px solid #333333;">No. of tweets</cell>
                         </row>
                         <row>
-                            <cell role="label">No. of tweets</cell>
-                            <cell role="label">%</cell>
-                            <cell role="label">Sentiment</cell>
-                            <cell role="label">No. of tweets</cell>
+                            <cell>L1</cell>
+                            <cell style="text-align:right;">1,688,244</cell>
+                            <cell style="text-align:right;">79.90%</cell>
+                            <cell style="text-align:right;">4,515,310</cell>
+                            <cell style="text-align:right;">48.95%</cell>
                         </row>
                         <row>
-                            <cell role="label">L1</cell>
-                            <cell role="data">1,688,244</cell>
-                            <cell role="data">79.90%</cell>
-                            <cell role="data">4,515,310</cell>
-                            <cell role="data">48.95%</cell>
+                            <cell>L2</cell>
+                            <cell style="text-align:right;">353,397</cell>
+                            <cell style="text-align:right;">16.73%</cell>
+                            <cell style="text-align:right;">3,489,743</cell>
+                            <cell style="text-align:right;">37.83%</cell>
                         </row>
                         <row>
-                            <cell role="label">L2</cell>
-                            <cell role="data">353,397</cell>
-                            <cell role="data">16.73%</cell>
-                            <cell role="data">3,489,743</cell>
-                            <cell role="data">37.83%</cell>
+                            <cell>L3</cell>
+                            <cell style="text-align:right;">71,269</cell>
+                            <cell style="text-align:right;">3.37%</cell>
+                            <cell style="text-align:right;">1,218,683</cell>
+                            <cell style="text-align:right;">13.21%</cell>
                         </row>
                         <row>
-                            <cell role="label">L3</cell>
-                            <cell role="data">71,269</cell>
-                            <cell role="data">3.37%</cell>
-                            <cell role="data">1,218,683</cell>
-                            <cell role="data">13.21%</cell>
-                        </row>
-                        <row>
-                            <cell role="data" rend="border-none"></cell>
-                            <cell role="data">2,112,910</cell>
-                            <cell role="data">100.00%</cell>
-                            <cell role="data">9,223,736</cell>
-                            <cell role="data">100.00%</cell>
+                            <cell></cell>
+                            <cell style="text-align:right;">2,112,910</cell>
+                            <cell style="text-align:right;">100.00%</cell>
+                            <cell style="text-align:right;">9,223,736</cell>
+                            <cell style="text-align:right;">100.00%</cell>
                         </row>
                     </table>
-                    <table>
+                    <table rend="table-scroll">
                         <head>Table 12: Comparison of the language used in corporate and private tweets
                             according to part of speech.</head>
-                        <row>
-                            <cell role="label">Part of speech</cell>
-                            <cell role="label">Corporate (per million)</cell>
-                            <cell role="label">Private (per million)</cell>
-                            <cell role="label">Ratio<note place="foot" xml:id="ftn6" n="4"> Ratio
+                        <row role="label">
+                            <cell>Part of speech</cell>
+                            <cell>Corporate (per million)</cell>
+                            <cell>Private (per million)</cell>
+                            <cell>Ratio<note place="foot" xml:id="ftn6" n="4"> Ratio
                                     between the frequency in corporate and in private
                                 tweets.</note></cell>
                         </row>
                         <row>
-                            <cell role="data">Proper nouns</cell>
-                            <cell role="data">66,738.4</cell>
-                            <cell role="data">33,507.8</cell>
-                            <cell role="data">1.99</cell>
+                            <cell>Proper nouns</cell>
+                            <cell style="text-align:right;">66,738.4</cell>
+                            <cell style="text-align:right;">33,507.8</cell>
+                            <cell style="text-align:right;">1.99</cell>
                         </row>
                         <row>
-                            <cell role="data">Numerals</cell>
-                            <cell role="data">30,564.9</cell>
-                            <cell role="data">16,109.7</cell>
-                            <cell role="data">1.90</cell>
+                            <cell>Numerals</cell>
+                            <cell style="text-align:right;">30,564.9</cell>
+                            <cell style="text-align:right;">16,109.7</cell>
+                            <cell style="text-align:right;">1.90</cell>
                         </row>
                         <row>
-                            <cell role="data">Conjunctions</cell>
-                            <cell role="data">54,381.1</cell>
-                            <cell role="data">33,302.1</cell>
-                            <cell role="data">1.63</cell>
+                            <cell>Conjunctions</cell>
+                            <cell style="text-align:right;">54,381.1</cell>
+                            <cell style="text-align:right;">33,302.1</cell>
+                            <cell style="text-align:right;">1.63</cell>
                         </row>
                         <row>
-                            <cell role="data">Prepositions</cell>
-                            <cell role="data">86,947.2</cell>
-                            <cell role="data">54,549.6</cell>
-                            <cell role="data">1.59</cell>
+                            <cell>Prepositions</cell>
+                            <cell style="text-align:right;">86,947.2</cell>
+                            <cell style="text-align:right;">54,549.6</cell>
+                            <cell style="text-align:right;">1.59</cell>
                         </row>
                         <row>
-                            <cell role="data">Adjectives</cell>
-                            <cell role="data">76,889.9</cell>
-                            <cell role="data">48,254.8</cell>
-                            <cell role="data">1.59</cell>
+                            <cell>Adjectives</cell>
+                            <cell style="text-align:right;">76,889.9</cell>
+                            <cell style="text-align:right;">48,254.8</cell>
+                            <cell style="text-align:right;">1.59</cell>
                         </row>
                         <row>
-                            <cell role="data">Common nouns</cell>
-                            <cell role="data">186,446.6</cell>
-                            <cell role="data">127,056.0</cell>
-                            <cell role="data">1.47</cell>
+                            <cell>Common nouns</cell>
+                            <cell style="text-align:right;">186,446.6</cell>
+                            <cell style="text-align:right;">127,056.0</cell>
+                            <cell style="text-align:right;">1.47</cell>
                         </row>
                         <row>
-                            <cell role="data">Abbreviations</cell>
-                            <cell role="data">3,826.0</cell>
-                            <cell role="data">3,458.9</cell>
-                            <cell role="data">1.11</cell>
+                            <cell>Abbreviations</cell>
+                            <cell style="text-align:right;">3,826.0</cell>
+                            <cell style="text-align:right;">3,458.9</cell>
+                            <cell style="text-align:right;">1.11</cell>
                         </row>
                         <row>
-                            <cell role="data">Punctuation</cell>
-                            <cell role="data">143,234.6</cell>
-                            <cell role="data">158,188.2</cell>
-                            <cell role="data">0.91</cell>
+                            <cell>Punctuation</cell>
+                            <cell style="text-align:right;">143,234.6</cell>
+                            <cell style="text-align:right;">158,188.2</cell>
+                            <cell style="text-align:right;">0.91</cell>
                         </row>
                         <row>
-                            <cell role="data">Main verbs</cell>
-                            <cell role="data">62,631.9</cell>
-                            <cell role="data">75,795.7</cell>
-                            <cell role="data">0.83</cell>
+                            <cell>Main verbs</cell>
+                            <cell style="text-align:right;">62,631.9</cell>
+                            <cell style="text-align:right;">75,795.7</cell>
+                            <cell style="text-align:right;">0.83</cell>
                         </row>
                         <row>
-                            <cell role="data">Auxiliary verbs</cell>
-                            <cell role="data">36,974.7</cell>
-                            <cell role="data">52,968.0</cell>
-                            <cell role="data">0.70</cell>
+                            <cell>Auxiliary verbs</cell>
+                            <cell style="text-align:right;">36,974.7</cell>
+                            <cell style="text-align:right;">52,968.0</cell>
+                            <cell style="text-align:right;">0.70</cell>
                         </row>
                         <row>
-                            <cell role="data">Adverbs</cell>
-                            <cell role="data">38,192.1</cell>
-                            <cell role="data">55,483.1</cell>
-                            <cell role="data">0.69</cell>
+                            <cell>Adverbs</cell>
+                            <cell style="text-align:right;">38,192.1</cell>
+                            <cell style="text-align:right;">55,483.1</cell>
+                            <cell style="text-align:right;">0.69</cell>
                         </row>
                         <row>
-                            <cell role="data">Pronouns</cell>
-                            <cell role="data">39,118.2</cell>
-                            <cell role="data">62,678.8</cell>
-                            <cell role="data">0.62</cell>
+                            <cell>Pronouns</cell>
+                            <cell style="text-align:right;">39,118.2</cell>
+                            <cell style="text-align:right;">62,678.8</cell>
+                            <cell style="text-align:right;">0.62</cell>
                         </row>
                         <row>
-                            <cell role="data">Particles</cell>
-                            <cell role="data">19,816.6</cell>
-                            <cell role="data">35,540.7</cell>
-                            <cell role="data">0.56</cell>
+                            <cell>Particles</cell>
+                            <cell style="text-align:right;">19,816.6</cell>
+                            <cell style="text-align:right;">35,540.7</cell>
+                            <cell style="text-align:right;">0.56</cell>
                         </row>
                         <row>
-                            <cell role="data">Interjections</cell>
-                            <cell role="data">1,740.9</cell>
-                            <cell role="data">6,194.5</cell>
-                            <cell role="data">0.28</cell>
+                            <cell>Interjections</cell>
+                            <cell style="text-align:right;">1,740.9</cell>
+                            <cell style="text-align:right;">6,194.5</cell>
+                            <cell style="text-align:right;">0.28</cell>
                         </row>
                     </table>
                     <p>
@@ -1371,173 +1370,173 @@
                         tweets often contain interjections in foreign language (<hi rend="italic">btw, lol</hi>) and swear words. </p>
                 </div>
                 <div>
-                    <head>Keyword analysis</head>
+                    <head>Keyword Analysis</head>
                     <p>This section highlights the results of the keyword analysis performed on
                         corporate tweets. In this paper, the keywords are understood as the words
                         which are unexpectedly more frequent in the tweets of corporate users
                         compared to the entire Janes-Tweet corpus as reference.</p>
-                    <table>
+                    <table rend="table-scroll">
                         <head>Table 13: List of 20 most key lemmas in corporate tweets according to
                             sentiment.</head>
-                        <row>
-                            <cell role="label">Negative</cell>
-                            <cell role="label">Keyness index</cell>
-                            <cell role="label">Positive</cell>
-                            <cell role="label">Keyness index</cell>
-                            <cell role="label">Neutral</cell>
-                            <cell role="label">Keyness index</cell>
+                        <row role="label">
+                            <cell>Negative</cell>
+                            <cell>Keyness index</cell>
+                            <cell>Positive</cell>
+                            <cell>Keyness index</cell>
+                            <cell>Neutral</cell>
+                            <cell>Keyness index</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">oviran</hi></cell>
-                            <cell role="data">22.2</cell>
-                            <cell role="data">čestitka</cell>
-                            <cell role="data">3.5</cell>
-                            <cell role="data">novice.si</cell>
-                            <cell role="data">10.1</cell>
+                            <cell>oviran</cell>
+                            <cell style="text-align:right;">22.2</cell>
+                            <cell>čestitka</cell>
+                            <cell style="text-align:right;">3.5</cell>
+                            <cell>novice.si</cell>
+                            <cell style="text-align:right;">10.1</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">trčenje</hi></cell>
-                            <cell role="data">19.1</cell>
-                            <cell role="data">vabljen</cell>
-                            <cell role="data">3.5</cell>
-                            <cell role="data">zemljišče</cell>
-                            <cell role="data">8.7</cell>
+                            <cell>trčenje</cell>
+                            <cell style="text-align:right;">19.1</cell>
+                            <cell>vabljen</cell>
+                            <cell style="text-align:right;">3.5</cell>
+                            <cell>zemljišče</cell>
+                            <cell style="text-align:right;">8.7</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">trčiti</hi></cell>
-                            <cell role="data">18.0</cell>
-                            <cell role="data">bravo</cell>
-                            <cell role="data">3.4</cell>
-                            <cell role="data">pivniški</cell>
-                            <cell role="data">8.3</cell>
+                            <cell>trčiti</cell>
+                            <cell style="text-align:right;">18.0</cell>
+                            <cell>bravo</cell>
+                            <cell style="text-align:right;">3.4</cell>
+                            <cell>pivniški</cell>
+                            <cell style="text-align:right;">8.3</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">priključek</hi></cell>
-                            <cell role="data">15.4</cell>
-                            <cell role="data">album</cell>
-                            <cell role="data">3.4</cell>
-                            <cell role="data">ebel</cell>
-                            <cell role="data">8.3</cell>
+                            <cell>priključek</cell>
+                            <cell style="text-align:right;">15.4</cell>
+                            <cell>album</cell>
+                            <cell style="text-align:right;">3.4</cell>
+                            <cell>ebel</cell>
+                            <cell style="text-align:right;">8.3</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">evakuirati</hi></cell>
-                            <cell role="data">15.3</cell>
-                            <cell role="data">beautiful</cell>
-                            <cell role="data">3.4</cell>
-                            <cell role="data">katarinin</cell>
-                            <cell role="data">8.1</cell>
+                            <cell>evakuirati</cell>
+                            <cell style="text-align:right;">15.3</cell>
+                            <cell>beautiful</cell>
+                            <cell style="text-align:right;">3.4</cell>
+                            <cell>katarinin</cell>
+                            <cell style="text-align:right;">8.1</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">ranjen</hi></cell>
-                            <cell role="data">15.1</cell>
-                            <cell role="data">hvala</cell>
-                            <cell role="data">3.4</cell>
-                            <cell role="data">petv</cell>
-                            <cell role="data">8.0</cell>
+                            <cell>ranjen</cell>
+                            <cell style="text-align:right;">15.1</cell>
+                            <cell>hvala</cell>
+                            <cell style="text-align:right;">3.4</cell>
+                            <cell>petv</cell>
+                            <cell style="text-align:right;">8.0</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">poškodovan</hi></cell>
-                            <cell role="data">15.0</cell>
-                            <cell role="data">posted</cell>
-                            <cell role="data">3.4</cell>
-                            <cell role="data">šloganje</cell>
-                            <cell role="data">7.9</cell>
+                            <cell>poškodovan</cell>
+                            <cell style="text-align:right;">15.0</cell>
+                            <cell>posted</cell>
+                            <cell style="text-align:right;">3.4</cell>
+                            <cell>šloganje</cell>
+                            <cell style="text-align:right;">7.9</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">razcep</hi></cell>
-                            <cell role="data">14.9</cell>
-                            <cell role="data">photos</cell>
-                            <cell role="data">3.4</cell>
-                            <cell role="data">solaten</cell>
-                            <cell role="data">7.8</cell>
+                            <cell>razcep</cell>
+                            <cell style="text-align:right;">14.9</cell>
+                            <cell>photos</cell>
+                            <cell style="text-align:right;">3.4</cell>
+                            <cell>solaten</cell>
+                            <cell style="text-align:right;">7.8</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">novicejutro.si</hi></cell>
-                            <cell role="data">14.9</cell>
-                            <cell role="data">odličen</cell>
-                            <cell role="data">3.3</cell>
-                            <cell role="data">ugnati</cell>
-                            <cell role="data">7.8</cell>
+                            <cell>novicejutro.si</cell>
+                            <cell style="text-align:right;">14.9</cell>
+                            <cell>odličen</cell>
+                            <cell style="text-align:right;">3.3</cell>
+                            <cell>ugnati</cell>
+                            <cell style="text-align:right;">7.8</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">osumljen</hi></cell>
-                            <cell role="data">14.6</cell>
-                            <cell role="data">polepšati</cell>
-                            <cell role="data">3.3</cell>
-                            <cell role="data">pripravljalen</cell>
-                            <cell role="data">7.7</cell>
+                            <cell>osumljen</cell>
+                            <cell style="text-align:right;">14.6</cell>
+                            <cell>polepšati</cell>
+                            <cell style="text-align:right;">3.3</cell>
+                            <cell>pripravljalen</cell>
+                            <cell style="text-align:right;">7.7</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">nesreča</hi></cell>
-                            <cell role="data">14.5</cell>
-                            <cell role="data">odlično</cell>
-                            <cell role="data">3.3</cell>
-                            <cell role="data">koel</cell>
-                            <cell role="data">7.6</cell>
+                            <cell>nesreča</cell>
+                            <cell style="text-align:right;">14.5</cell>
+                            <cell>odlično</cell>
+                            <cell style="text-align:right;">3.3</cell>
+                            <cell>koel</cell>
+                            <cell style="text-align:right;">7.6</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">aretirati</hi></cell>
-                            <cell role="data">14.3</cell>
-                            <cell role="data">prijeten</cell>
-                            <cell role="data">3.3</cell>
-                            <cell role="data">novinec</cell>
-                            <cell role="data">7.6</cell>
+                            <cell>aretirati</cell>
+                            <cell style="text-align:right;">14.3</cell>
+                            <cell>prijeten</cell>
+                            <cell style="text-align:right;">3.3</cell>
+                            <cell>novinec</cell>
+                            <cell style="text-align:right;">7.6</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">avtocesta</hi></cell>
-                            <cell role="data">14.1</cell>
-                            <cell role="data">super</cell>
-                            <cell role="data">3.3</cell>
-                            <cell role="data">napovednik</cell>
-                            <cell role="data">7.4</cell>
+                            <cell>avtocesta</cell>
+                            <cell style="text-align:right;">14.1</cell>
+                            <cell>super</cell>
+                            <cell style="text-align:right;">3.3</cell>
+                            <cell>napovednik</cell>
+                            <cell style="text-align:right;">7.4</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">neurje</hi></cell>
-                            <cell role="data">14.1</cell>
-                            <cell role="data">čudovit</cell>
-                            <cell role="data">3.3</cell>
-                            <cell role="data">zoofa</cell>
-                            <cell role="data">7.3</cell>
+                            <cell>neurje</cell>
+                            <cell style="text-align:right;">14.1</cell>
+                            <cell>čudovit</cell>
+                            <cell style="text-align:right;">3.3</cell>
+                            <cell>zoofa</cell>
+                            <cell style="text-align:right;">7.3</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">strmoglaviti</hi></cell>
-                            <cell role="data">13.9</cell>
-                            <cell role="data">čestitati</cell>
-                            <cell role="data">3.3</cell>
-                            <cell role="data">prerokovanje</cell>
-                            <cell role="data">7.3</cell>
+                            <cell>strmoglaviti</cell>
+                            <cell style="text-align:right;">13.9</cell>
+                            <cell>čestitati</cell>
+                            <cell style="text-align:right;">3.3</cell>
+                            <cell>prerokovanje</cell>
+                            <cell style="text-align:right;">7.3</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">osumljenec</hi></cell>
-                            <cell role="data">13.1</cell>
-                            <cell role="data">srečno</cell>
-                            <cell role="data">3.3</cell>
-                            <cell role="data">poiesis</cell>
-                            <cell role="data">7.2</cell>
+                            <cell>osumljenec</cell>
+                            <cell style="text-align:right;">13.1</cell>
+                            <cell>srečno</cell>
+                            <cell style="text-align:right;">3.3</cell>
+                            <cell>poiesis</cell>
+                            <cell style="text-align:right;">7.2</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">magnituda</hi></cell>
-                            <cell role="data">13.1</cell>
-                            <cell role="data">facebook</cell>
-                            <cell role="data">3.3</cell>
-                            <cell role="data">apod</cell>
-                            <cell role="data">7.1</cell>
+                            <cell>magnituda</cell>
+                            <cell style="text-align:right;">13.1</cell>
+                            <cell>facebook</cell>
+                            <cell style="text-align:right;">3.3</cell>
+                            <cell>apod</cell>
+                            <cell style="text-align:right;">7.1</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">prometen</hi></cell>
-                            <cell role="data">12.8</cell>
-                            <cell role="data">welcome</cell>
-                            <cell role="data">3.3</cell>
-                            <cell role="data">wt</cell>
-                            <cell role="data">7.1</cell>
+                            <cell>prometen</cell>
+                            <cell style="text-align:right;">12.8</cell>
+                            <cell>welcome</cell>
+                            <cell style="text-align:right;">3.3</cell>
+                            <cell>wt</cell>
+                            <cell style="text-align:right;">7.1</cell>
                         </row>
                         <row>
-                            <cell role="data"><hi rend="italic">ubit</hi></cell>
-                            <cell role="data">12.8</cell>
-                            <cell role="data">summer</cell>
-                            <cell role="data">3.3</cell>
-                            <cell role="data">sklepen</cell>
-                            <cell role="data">6.9</cell>
+                            <cell>ubit</cell>
+                            <cell style="text-align:right;">12.8</cell>
+                            <cell>summer</cell>
+                            <cell style="text-align:right;">3.3</cell>
+                            <cell>sklepen</cell>
+                            <cell style="text-align:right;">6.9</cell>
                         </row>
                     </table>
                     <p>
@@ -1560,194 +1559,194 @@
                         fine-grained analysis of corporate communication on Twitter it could be
                         useful to consider separating the tweets generated by media from those that
                         are created by companies or institutions.</p>
-                    <table>
+                    <table rend="table-scroll">
                         <head>Table 14: Comparison of key word forms in corporate tweets, written in
                             standard and non-standard language.</head>
-                        <row>
-                            <cell role="label">Standard tweets</cell>
-                            <cell role="label">Keyness index</cell>
-                            <cell role="label">Non-standard tweets</cell>
-                            <cell role="label">Keyness index</cell>
+                        <row role="label">
+                            <cell>Standard tweets</cell>
+                            <cell>Keyness index</cell>
+                            <cell>Non-standard tweets</cell>
+                            <cell>Keyness index</cell>
                         </row>
                         <row>
-                            <cell role="data">Izkl</cell>
-                            <cell role="data">6.4</cell>
-                            <cell role="data">Posetite</cell>
-                            <cell role="data">562.3</cell>
+                            <cell>Izkl</cell>
+                            <cell style="text-align:right;">6.4</cell>
+                            <cell>Posetite</cell>
+                            <cell style="text-align:right;">562.3</cell>
                         </row>
                         <row>
-                            <cell role="data">Novice.SI</cell>
-                            <cell role="data">6.4</cell>
-                            <cell role="data">potrazi</cell>
-                            <cell role="data">557.6</cell>
+                            <cell>Novice.SI</cell>
+                            <cell style="text-align:right;">6.4</cell>
+                            <cell>potrazi</cell>
+                            <cell style="text-align:right;">557.6</cell>
                         </row>
                         <row>
-                            <cell role="data">dražba</cell>
-                            <cell role="data">6.0</cell>
-                            <cell role="data">sjajan</cell>
-                            <cell role="data">553.5</cell>
+                            <cell>dražba</cell>
+                            <cell style="text-align:right;">6.0</cell>
+                            <cell>sjajan</cell>
+                            <cell style="text-align:right;">553.5</cell>
                         </row>
                         <row>
-                            <cell role="data">[hyperlink]</cell>
-                            <cell role="data">5.9</cell>
-                            <cell role="data">Jeste</cell>
-                            <cell role="data">455.0</cell>
+                            <cell>[hyperlink]</cell>
+                            <cell style="text-align:right;">5.9</cell>
+                            <cell>Jeste</cell>
+                            <cell style="text-align:right;">455.0</cell>
                         </row>
                         <row>
-                            <cell role="data">SiOL</cell>
-                            <cell role="data">5.8</cell>
-                            <cell role="data">tim</cell>
-                            <cell role="data">308.5</cell>
+                            <cell>SiOL</cell>
+                            <cell style="text-align:right;">5.8</cell>
+                            <cell>tim</cell>
+                            <cell style="text-align:right;">308.5</cell>
                         </row>
                         <row>
-                            <cell role="data">Petv</cell>
-                            <cell role="data">5.8</cell>
-                            <cell role="data">[hyperlink]</cell>
-                            <cell role="data">307.2</cell>
+                            <cell>Petv</cell>
+                            <cell style="text-align:right;">5.8</cell>
+                            <cell>[hyperlink]</cell>
+                            <cell style="text-align:right;">307.2</cell>
                         </row>
                         <row>
-                            <cell role="data">APOD</cell>
-                            <cell role="data">5.8</cell>
-                            <cell role="data">[hyperlink]</cell>
-                            <cell role="data">186.6</cell>
+                            <cell>APOD</cell>
+                            <cell style="text-align:right;">5.8</cell>
+                            <cell>[hyperlink]</cell>
+                            <cell style="text-align:right;">186.6</cell>
                         </row>
                         <row>
-                            <cell role="data">Moia</cell>
-                            <cell role="data">5.7</cell>
-                            <cell role="data">li</cell>
-                            <cell role="data">166.4</cell>
+                            <cell>Moia</cell>
+                            <cell style="text-align:right;">5.7</cell>
+                            <cell>li</cell>
+                            <cell style="text-align:right;">166.4</cell>
                         </row>
                         <row>
-                            <cell role="data">spletnem</cell>
-                            <cell role="data">5.7</cell>
-                            <cell role="data">koketo</cell>
-                            <cell role="data">145.9</cell>
+                            <cell>spletnem</cell>
+                            <cell style="text-align:right;">5.7</cell>
+                            <cell>koketo</cell>
+                            <cell style="text-align:right;">145.9</cell>
                         </row>
                         <row>
-                            <cell role="data">Zurnal24</cell>
-                            <cell role="data">5.7</cell>
-                            <cell role="data">trombeto</cell>
-                            <cell role="data">143.3</cell>
+                            <cell>Zurnal24</cell>
+                            <cell style="text-align:right;">5.7</cell>
+                            <cell>trombeto</cell>
+                            <cell style="text-align:right;">143.3</cell>
                         </row>
                         <row>
-                            <cell role="data">ugodne</cell>
-                            <cell role="data">5.7</cell>
-                            <cell role="data">[hyperlink]</cell>
-                            <cell role="data">130.0</cell>
+                            <cell>ugodne</cell>
+                            <cell style="text-align:right;">5.7</cell>
+                            <cell>[hyperlink]</cell>
+                            <cell style="text-align:right;">130.0</cell>
                         </row>
                         <row>
-                            <cell role="data">astronomska</cell>
-                            <cell role="data">5.7</cell>
-                            <cell role="data">belooranžnega</cell>
-                            <cell role="data">129.5</cell>
+                            <cell>astronomska</cell>
+                            <cell style="text-align:right;">5.7</cell>
+                            <cell>belooranžnega</cell>
+                            <cell style="text-align:right;">129.5</cell>
                         </row>
                         <row>
-                            <cell role="data">SMUČANJE</cell>
-                            <cell role="data">5.6</cell>
-                            <cell role="data">deejaytime</cell>
-                            <cell role="data">111.2</cell>
+                            <cell>SMUČANJE</cell>
+                            <cell style="text-align:right;">5.6</cell>
+                            <cell>deejaytime</cell>
+                            <cell style="text-align:right;">111.2</cell>
                         </row>
                         <row>
-                            <cell role="data">KOŠARKA</cell>
-                            <cell role="data">5.6</cell>
-                            <cell role="data">Živjo</cell>
-                            <cell role="data">111.0</cell>
+                            <cell>KOŠARKA</cell>
+                            <cell style="text-align:right;">5.6</cell>
+                            <cell>Živjo</cell>
+                            <cell style="text-align:right;">111.0</cell>
                         </row>
                         <row>
-                            <cell role="data">oviran</cell>
-                            <cell role="data">5.6</cell>
-                            <cell role="data">Skupne</cell>
-                            <cell role="data">109.6</cell>
+                            <cell>oviran</cell>
+                            <cell style="text-align:right;">5.6</cell>
+                            <cell>Skupne</cell>
+                            <cell style="text-align:right;">109.6</cell>
                         </row>
                         <row>
-                            <cell role="data">[hyperlink]</cell>
-                            <cell role="data">5.6</cell>
-                            <cell role="data">pritisne</cell>
-                            <cell role="data">92.8</cell>
+                            <cell>[hyperlink]</cell>
+                            <cell style="text-align:right;">5.6</cell>
+                            <cell>pritisne</cell>
+                            <cell style="text-align:right;">92.8</cell>
                         </row>
                         <row>
-                            <cell role="data">ALPSKO</cell>
-                            <cell role="data">5.6</cell>
-                            <cell role="data">oglasiš</cell>
-                            <cell role="data">66.2</cell>
+                            <cell>ALPSKO</cell>
+                            <cell style="text-align:right;">5.6</cell>
+                            <cell>oglasiš</cell>
+                            <cell style="text-align:right;">66.2</cell>
                         </row>
                         <row>
-                            <cell role="data">HOKEJ</cell>
-                            <cell role="data">5.6</cell>
-                            <cell role="data">[hyperlink]</cell>
-                            <cell role="data">65.9</cell>
+                            <cell>HOKEJ</cell>
+                            <cell style="text-align:right;">5.6</cell>
+                            <cell>[hyperlink]</cell>
+                            <cell style="text-align:right;">65.9</cell>
                         </row>
                         <row>
-                            <cell role="data">zamudite</cell>
-                            <cell role="data">5.6</cell>
-                            <cell role="data">cheers</cell>
-                            <cell role="data">60.3</cell>
+                            <cell>zamudite</cell>
+                            <cell style="text-align:right;">5.6</cell>
+                            <cell>cheers</cell>
+                            <cell style="text-align:right;">60.3</cell>
                         </row>
                         <row>
-                            <cell role="data">Preverite</cell>
-                            <cell role="data">5.5</cell>
-                            <cell role="data">hajskul</cell>
-                            <cell role="data">56.5</cell>
+                            <cell>Preverite</cell>
+                            <cell style="text-align:right;">5.5</cell>
+                            <cell>hajskul</cell>
+                            <cell style="text-align:right;">56.5</cell>
                         </row>
                         <row>
-                            <cell role="data">Nogometaši</cell>
-                            <cell role="data">5.5</cell>
-                            <cell role="data">[hyperlink]</cell>
-                            <cell role="data">49.6</cell>
+                            <cell>Nogometaši</cell>
+                            <cell style="text-align:right;">5.5</cell>
+                            <cell>[hyperlink]</cell>
+                            <cell style="text-align:right;">49.6</cell>
                         </row>
                         <row>
-                            <cell role="data">TENIS</cell>
-                            <cell role="data">5.5</cell>
-                            <cell role="data">gnargnar</cell>
-                            <cell role="data">49.6</cell>
+                            <cell>TENIS</cell>
+                            <cell style="text-align:right;">5.5</cell>
+                            <cell>gnargnar</cell>
+                            <cell style="text-align:right;">49.6</cell>
                         </row>
                         <row>
-                            <cell role="data">ciganskih</cell>
-                            <cell role="data">5.4</cell>
-                            <cell role="data">sporočimo</cell>
-                            <cell role="data">47.0</cell>
+                            <cell>ciganskih</cell>
+                            <cell style="text-align:right;">5.4</cell>
+                            <cell>sporočimo</cell>
+                            <cell style="text-align:right;">47.0</cell>
                         </row>
                         <row>
-                            <cell role="data">NOGOMET</cell>
-                            <cell role="data">5.4</cell>
-                            <cell role="data">najbrš</cell>
-                            <cell role="data">46.8</cell>
+                            <cell>NOGOMET</cell>
+                            <cell style="text-align:right;">5.4</cell>
+                            <cell>najbrš</cell>
+                            <cell style="text-align:right;">46.8</cell>
                         </row>
                         <row>
-                            <cell role="data">ROKOMET</cell>
-                            <cell role="data">5.4</cell>
-                            <cell role="data">pridte</cell>
-                            <cell role="data">45.3</cell>
+                            <cell>ROKOMET</cell>
+                            <cell style="text-align:right;">5.4</cell>
+                            <cell>pridte</cell>
+                            <cell style="text-align:right;">45.3</cell>
                         </row>
                         <row>
-                            <cell role="data">[hyperlink]</cell>
-                            <cell role="data">5.4</cell>
-                            <cell role="data">javimo</cell>
-                            <cell role="data">41.9</cell>
+                            <cell>[hyperlink]</cell>
+                            <cell style="text-align:right;">5.4</cell>
+                            <cell>javimo</cell>
+                            <cell style="text-align:right;">41.9</cell>
                         </row>
                         <row>
-                            <cell role="data">Astrolife.si</cell>
-                            <cell role="data">5.4</cell>
-                            <cell role="data">Poslali</cell>
-                            <cell role="data">41.5</cell>
+                            <cell>Astrolife.si</cell>
+                            <cell style="text-align:right;">5.4</cell>
+                            <cell>Poslali</cell>
+                            <cell style="text-align:right;">41.5</cell>
                         </row>
                         <row>
-                            <cell role="data">Izbrane</cell>
-                            <cell role="data">5.4</cell>
-                            <cell role="data">dm</cell>
-                            <cell role="data">41.2</cell>
+                            <cell>Izbrane</cell>
+                            <cell style="text-align:right;">5.4</cell>
+                            <cell>dm</cell>
+                            <cell style="text-align:right;">41.2</cell>
                         </row>
                         <row>
-                            <cell role="data">Slovenske</cell>
-                            <cell role="data">5.4</cell>
-                            <cell role="data">javiš</cell>
-                            <cell role="data">41.2</cell>
+                            <cell>Slovenske</cell>
+                            <cell style="text-align:right;">5.4</cell>
+                            <cell>javiš</cell>
+                            <cell style="text-align:right;">41.2</cell>
                         </row>
                         <row>
-                            <cell role="data">SMUČARSKI</cell>
-                            <cell role="data">5.4</cell>
-                            <cell role="data">unc</cell>
-                            <cell role="data">41.0</cell>
+                            <cell>SMUČARSKI</cell>
+                            <cell style="text-align:right;">5.4</cell>
+                            <cell>unc</cell>
+                            <cell style="text-align:right;">41.0</cell>
                         </row>
                     </table>
                     <p>
@@ -1764,194 +1763,194 @@
                             phoneticized spelling of high school, najbrš – nonstandard for I guess,
                             pridte –nonstandard for come, dm – abbreviation for direct message,
                             javiš – nonstandard for answer</hi>).</p>
-                    <table>
+                    <table rend="table-scroll">
                         <head>Tabela 15: Comparison of key word forms in corporate tweets written by male
                             and female users.</head>
-                        <row>
-                            <cell role="label">Female</cell>
-                            <cell role="label">Keyness index</cell>
-                            <cell role="label">Male</cell>
-                            <cell role="label">Keyness index</cell>
+                        <row role="label">
+                            <cell>Female</cell>
+                            <cell>Keyness index</cell>
+                            <cell>Male</cell>
+                            <cell>Keyness index</cell>
                         </row>
                         <row>
-                            <cell role="data">foodwalks</cell>
-                            <cell role="data">7.7</cell>
-                            <cell role="data">Moia</cell>
-                            <cell role="data">41.7</cell>
+                            <cell>foodwalks</cell>
+                            <cell style="text-align:right;">7.7</cell>
+                            <cell>Moia</cell>
+                            <cell style="text-align:right;">41.7</cell>
                         </row>
                         <row>
-                            <cell role="data">Posodobljen</cell>
-                            <cell role="data">7.0</cell>
-                            <cell role="data">dražba</cell>
-                            <cell role="data">39.9</cell>
+                            <cell>Posodobljen</cell>
+                            <cell style="text-align:right;">7.0</cell>
+                            <cell>dražba</cell>
+                            <cell style="text-align:right;">39.9</cell>
                         </row>
                         <row>
-                            <cell role="data">Patsy</cell>
-                            <cell role="data">6.1</cell>
-                            <cell role="data">APOD</cell>
-                            <cell role="data">37.2</cell>
+                            <cell>Patsy</cell>
+                            <cell style="text-align:right;">6.1</cell>
+                            <cell>APOD</cell>
+                            <cell style="text-align:right;">37.2</cell>
                         </row>
                         <row>
-                            <cell role="data">KOEL</cell>
-                            <cell role="data">5.9</cell>
-                            <cell role="data">astronomska</cell>
-                            <cell role="data">36.4</cell>
+                            <cell>KOEL</cell>
+                            <cell style="text-align:right;">5.9</cell>
+                            <cell>astronomska</cell>
+                            <cell style="text-align:right;">36.4</cell>
                         </row>
                         <row>
-                            <cell role="data">[hyperlink]</cell>
-                            <cell role="data">5.9</cell>
-                            <cell role="data">premičnin</cell>
-                            <cell role="data">35.4</cell>
+                            <cell>[hyperlink]</cell>
+                            <cell style="text-align:right;">5.9</cell>
+                            <cell>premičnin</cell>
+                            <cell style="text-align:right;">35.4</cell>
                         </row>
                         <row>
-                            <cell role="data">info@patsy.si</cell>
-                            <cell role="data">5.5</cell>
-                            <cell role="data">UGANKA</cell>
-                            <cell role="data">33.9</cell>
+                            <cell>info@patsy.si</cell>
+                            <cell style="text-align:right;">5.5</cell>
+                            <cell>UGANKA</cell>
+                            <cell style="text-align:right;">33.9</cell>
                         </row>
                         <row>
-                            <cell role="data">[hyperlink]</cell>
-                            <cell role="data">5.5</cell>
-                            <cell role="data">[hyperlink]</cell>
-                            <cell role="data">30.7</cell>
+                            <cell>[hyperlink]</cell>
+                            <cell style="text-align:right;">5.5</cell>
+                            <cell>[hyperlink]</cell>
+                            <cell style="text-align:right;">30.7</cell>
                         </row>
                         <row>
-                            <cell role="data">foodwalk</cell>
-                            <cell role="data">5.5</cell>
-                            <cell role="data">Izhodišče</cell>
-                            <cell role="data">30.3</cell>
+                            <cell>foodwalk</cell>
+                            <cell style="text-align:right;">5.5</cell>
+                            <cell>Izhodišče</cell>
+                            <cell style="text-align:right;">30.3</cell>
                         </row>
                         <row>
-                            <cell role="data">Lylo</cell>
-                            <cell role="data">5.3</cell>
-                            <cell role="data">FOTOGRAFIJE</cell>
-                            <cell role="data">30.0</cell>
+                            <cell>Lylo</cell>
+                            <cell style="text-align:right;">5.3</cell>
+                            <cell>FOTOGRAFIJE</cell>
+                            <cell style="text-align:right;">30.0</cell>
                         </row>
                         <row>
-                            <cell role="data">ORTO</cell>
-                            <cell role="data">5.1</cell>
-                            <cell role="data">GLASBA</cell>
-                            <cell role="data">29.6</cell>
+                            <cell>ORTO</cell>
+                            <cell style="text-align:right;">5.1</cell>
+                            <cell>GLASBA</cell>
+                            <cell style="text-align:right;">29.6</cell>
                         </row>
                         <row>
-                            <cell role="data">UriKuri</cell>
-                            <cell role="data">4.6</cell>
-                            <cell role="data">Dopolni</cell>
-                            <cell role="data">29.5</cell>
+                            <cell>UriKuri</cell>
+                            <cell style="text-align:right;">4.6</cell>
+                            <cell>Dopolni</cell>
+                            <cell style="text-align:right;">29.5</cell>
                         </row>
                         <row>
-                            <cell role="data">yummy</cell>
-                            <cell role="data">4.6</cell>
-                            <cell role="data">UE</cell>
-                            <cell role="data">29.1</cell>
+                            <cell>yummy</cell>
+                            <cell style="text-align:right;">4.6</cell>
+                            <cell>UE</cell>
+                            <cell style="text-align:right;">29.1</cell>
                         </row>
                         <row>
-                            <cell role="data">Ordered</cell>
-                            <cell role="data">4.4</cell>
-                            <cell role="data">javna</cell>
-                            <cell role="data">27.5</cell>
+                            <cell>Ordered</cell>
+                            <cell style="text-align:right;">4.4</cell>
+                            <cell>javna</cell>
+                            <cell style="text-align:right;">27.5</cell>
                         </row>
                         <row>
-                            <cell role="data">Shellac</cell>
-                            <cell role="data">4.4</cell>
-                            <cell role="data">sedežna</cell>
-                            <cell role="data">27.2</cell>
+                            <cell>Shellac</cell>
+                            <cell style="text-align:right;">4.4</cell>
+                            <cell>sedežna</cell>
+                            <cell style="text-align:right;">27.2</cell>
                         </row>
                         <row>
-                            <cell role="data">Cosmo</cell>
-                            <cell role="data">4.2</cell>
-                            <cell role="data">GCC</cell>
-                            <cell role="data">26.5</cell>
+                            <cell>Cosmo</cell>
+                            <cell style="text-align:right;">4.2</cell>
+                            <cell>GCC</cell>
+                            <cell style="text-align:right;">26.5</cell>
                         </row>
                         <row>
-                            <cell role="data">LPG</cell>
-                            <cell role="data">3.8</cell>
-                            <cell role="data">PRIPOROČAMO</cell>
-                            <cell role="data">26.4</cell>
+                            <cell>LPG</cell>
+                            <cell style="text-align:right;">3.8</cell>
+                            <cell>PRIPOROČAMO</cell>
+                            <cell style="text-align:right;">26.4</cell>
                         </row>
                         <row>
-                            <cell role="data">Starševski</cell>
-                            <cell role="data">3.7</cell>
-                            <cell role="data">Espargaro</cell>
-                            <cell role="data">26.4</cell>
+                            <cell>Starševski</cell>
+                            <cell style="text-align:right;">3.7</cell>
+                            <cell>Espargaro</cell>
+                            <cell style="text-align:right;">26.4</cell>
                         </row>
                         <row>
-                            <cell role="data">e-trgovine</cell>
-                            <cell role="data">3.5</cell>
-                            <cell role="data">[hyperlink]</cell>
-                            <cell role="data">26.3</cell>
+                            <cell>e-trgovine</cell>
+                            <cell style="text-align:right;">3.5</cell>
+                            <cell>[hyperlink]</cell>
+                            <cell style="text-align:right;">26.3</cell>
                         </row>
                         <row>
-                            <cell role="data">[hyperlink]</cell>
-                            <cell role="data">3.5</cell>
-                            <cell role="data">zemljišča</cell>
-                            <cell role="data">26.0</cell>
+                            <cell>[hyperlink]</cell>
+                            <cell style="text-align:right;">3.5</cell>
+                            <cell>zemljišča</cell>
+                            <cell style="text-align:right;">26.0</cell>
                         </row>
                         <row>
-                            <cell role="data">Elle</cell>
-                            <cell role="data">3.3</cell>
-                            <cell role="data">[hyperlink]</cell>
-                            <cell role="data">25.3</cell>
+                            <cell>Elle</cell>
+                            <cell style="text-align:right;">3.3</cell>
+                            <cell>[hyperlink]</cell>
+                            <cell style="text-align:right;">25.3</cell>
                         </row>
                         <row>
-                            <cell role="data">info@tjasaseme.si</cell>
-                            <cell role="data">3.3</cell>
-                            <cell role="data">Pomurskem</cell>
-                            <cell role="data">24.8</cell>
+                            <cell>info@tjasaseme.si</cell>
+                            <cell style="text-align:right;">3.3</cell>
+                            <cell>Pomurskem</cell>
+                            <cell style="text-align:right;">24.8</cell>
                         </row>
                         <row>
-                            <cell role="data">boxa</cell>
-                            <cell role="data">3.2</cell>
-                            <cell role="data">ENERGIJE</cell>
-                            <cell role="data">24.5</cell>
+                            <cell>boxa</cell>
+                            <cell style="text-align:right;">3.2</cell>
+                            <cell>ENERGIJE</cell>
+                            <cell style="text-align:right;">24.5</cell>
                         </row>
                         <row>
-                            <cell role="data">derivatov</cell>
-                            <cell role="data">3.2</cell>
-                            <cell role="data">Žurnal24</cell>
-                            <cell role="data">24.4</cell>
+                            <cell>derivatov</cell>
+                            <cell style="text-align:right;">3.2</cell>
+                            <cell>Žurnal24</cell>
+                            <cell style="text-align:right;">24.4</cell>
                         </row>
                         <row>
-                            <cell role="data">IBU</cell>
-                            <cell role="data">3.1</cell>
-                            <cell role="data">LITERATURA</cell>
-                            <cell role="data">24.3</cell>
+                            <cell>IBU</cell>
+                            <cell style="text-align:right;">3.1</cell>
+                            <cell>LITERATURA</cell>
+                            <cell style="text-align:right;">24.3</cell>
                         </row>
                         <row>
-                            <cell role="data">Onaplus</cell>
-                            <cell role="data">3.1</cell>
-                            <cell role="data">gozda</cell>
-                            <cell role="data">24.2</cell>
+                            <cell>Onaplus</cell>
+                            <cell style="text-align:right;">3.1</cell>
+                            <cell>gozda</cell>
+                            <cell style="text-align:right;">24.2</cell>
                         </row>
                         <row>
-                            <cell role="data">Aquafresh</cell>
-                            <cell role="data">3.0</cell>
-                            <cell role="data">[hyperlink]</cell>
-                            <cell role="data">23.5</cell>
+                            <cell>Aquafresh</cell>
+                            <cell style="text-align:right;">3.0</cell>
+                            <cell>[hyperlink]</cell>
+                            <cell style="text-align:right;">23.5</cell>
                         </row>
                         <row>
-                            <cell role="data">naftnih</cell>
-                            <cell role="data">3.0</cell>
-                            <cell role="data">PRS</cell>
-                            <cell role="data">23.1</cell>
+                            <cell>naftnih</cell>
+                            <cell style="text-align:right;">3.0</cell>
+                            <cell>PRS</cell>
+                            <cell style="text-align:right;">23.1</cell>
                         </row>
                         <row>
-                            <cell role="data">Watercolour</cell>
-                            <cell role="data">3.0</cell>
-                            <cell role="data">Ekipa24</cell>
-                            <cell role="data">22.8</cell>
+                            <cell>Watercolour</cell>
+                            <cell style="text-align:right;">3.0</cell>
+                            <cell>Ekipa24</cell>
+                            <cell style="text-align:right;">22.8</cell>
                         </row>
                         <row>
-                            <cell role="data">[hyperlink]</cell>
-                            <cell role="data">3.0</cell>
-                            <cell role="data">[hyperlink]</cell>
-                            <cell role="data">22.3</cell>
+                            <cell>[hyperlink]</cell>
+                            <cell style="text-align:right;">3.0</cell>
+                            <cell>[hyperlink]</cell>
+                            <cell style="text-align:right;">22.3</cell>
                         </row>
                         <row>
-                            <cell role="data">foodwalks</cell>
-                            <cell role="data">7.7</cell>
-                            <cell role="data">Moia</cell>
-                            <cell role="data">41.7</cell>
+                            <cell>foodwalks</cell>
+                            <cell style="text-align:right;">7.7</cell>
+                            <cell>Moia</cell>
+                            <cell style="text-align:right;">41.7</cell>
                         </row>
                     </table>
                     <p>
@@ -2127,11 +2126,10 @@
                 </listBibl>
             </div>
             <div type="summary">
-                <docAuthor>Darja Fišer</docAuthor>
-                <docAuthor>Monika Kalin Golob</docAuthor>
-                <head><hi rend="allcaps">Corporate communication on Twitter
-                        in Slovenia: A corpus analysis</hi></head>
-                <head>SUMMARY</head>
+                <docAuthor>Darja Fišer, Monika Kalin Golob</docAuthor>
+                <head style="text-transform: uppercase;">Corporate communication on Twitter
+                        in Slovenia: A corpus analysis</head>
+                <head rend="subheader">SUMMARY</head>
                 <p>In the past decade, social media have transformed
                         corporate communications by enabling direct and instant communication with
                         the stakeholders. In communication studies, three main strands of research
@@ -2182,11 +2180,9 @@
                 </p>
             </div>
             <div type="summary" xml:lang="sl">
-                <docAuthor>Darja Fišer</docAuthor>
-                <docAuthor>Monika Kalin Golob</docAuthor>
-                <head>SLOVENSKO KORPORATIVNO
-                        SPOROČANJE NA DRUŽBENEM OMREŽJU TWITTER: KORPUSNA ANALIZA</head>
-                <head>POVZETEK</head>
+                <docAuthor>Darja Fišer, Monika Kalin Golob</docAuthor>
+                <head>SLOVENSKO KORPORATIVNO SPOROČANJE NA DRUŽBENEM OMREŽJU TWITTER: KORPUSNA ANALIZA</head>
+                <head rend="subheader">POVZETEK</head>
                 <p>V zadnjem desetletju so z omogočanjem neposrednega in
                         takojšnjega stika z deležniki družbena omrežja močno vplivala tudi na
                         korporativno kominiciranje. V komunikologiji korporativne komunikacijske
