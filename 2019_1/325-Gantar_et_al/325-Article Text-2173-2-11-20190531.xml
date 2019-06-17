@@ -216,7 +216,7 @@
                     and machine-readable data, and training corpora in which authentic texts are
                     annotated with different linguistic categories. In this regard, digital
                     lexicography, whose aim is to prepare the dictionary part of this language
-                    infrastructure, plays an important role in the field of digital humanities.</p>
+                    infrastructure, plays an essential role in the field of digital humanities.</p>
                 <p>In the field of digital lexicography, multi-word expressions (MWEs) are
                     considered important for constructing machine-readable language resources that
                     in turn enable the compilation of electronic MWE lexicons and the development of
@@ -235,8 +235,8 @@
                         166</ref>) or as phrases whose “exact meaning is not directly obtained from
                     its component parts” (<ref target="#Sag.2002">Sag et al. 2002</ref>). On the
                     other hand, the definition of MWEs from the perspective of machine processing
-                    emphasizes their statistical significance: “a group of tokens in a sentence that
-                    cohere more strongly than ordinary syntactic combinations: that is, they are
+                    emphasises their statistical significance: “a group of tokens in a sentence that
+                    cohere more strongly than ordinary syntactic combinations. That is, they are
                     idiosyncratic in form, function, or frequency” (<ref target="#Schneider.2014"
                         >Schneider et al. 2014</ref>) and their inability to be split into
                     independent lexemes and at the same time maintain their semantic and syntactic
@@ -244,11 +244,11 @@
                     statistical idiomaticity (<ref target="#Baldwin.2010">Baldwin and Kim 2010,
                         3</ref>). Although no universally accepted definition of MWEs exists,
                     researchers in linguistics and NLP both agree that the key feature separating
-                    MWEs from free phrases is the special relation between the elements that form
+                    MWEs from free phrases is the special relationship between the elements that form
                     the MWE. This relation is usually defined using such concepts as collocability
                     (or statistical idiomaticity), idiomaticity (or semantic non-compositionality),
                     syntactic (in)flexibility, which also includes the possibility of an internal
-                    modification of the phrase and the flexible order of its lexicalized elements,
+                    modification of the phrase and the flexible order of its lexicalised elements,
                     and lexical variance. </p>
                 <p>An attempt to provide the much needed guidelines and a pilot study on the
                     annotation of MWEs in language corpora was made as part of the PARSEME COST
@@ -262,7 +262,7 @@
                     a Creative Commons licence.</p>
                 <p>While the categories of MWEs were designed as language-independent, the specific
                     characteristics of all the included languages had to be taken into account to
-                    reach a solution that was universally applicable. In this paper, we focus on the
+                    reach a universally applicable solution. In this paper, we focus on the
                     Slovene results, which will be useful when compiling a digital lexicon of
                     Slovene MWEs, as well as other language resources such as the Dictionary of
                     Modern Slovene (<ref target="#Gorjanc.2017">Gorjanc et al. 2017</ref>) and a
@@ -279,8 +279,8 @@
                     which is why the PARSEME Shared Task focused on verbal multi-word expressions
                     (VMWEs). For further analysis, it is crucial to determine the differences
                     between the definitions and categorizations of VMWEs as established in Slovene
-                    studies on one hand, and in the international PARSEME COST Action on the other.
-                    The aim of our task is to adapt the international annotation scheme in order to
+                    studies on the one hand, and the international PARSEME COST Action on the other.
+                    Our task aims to adopt the international annotation scheme in order to
                     include Slovene. Our research question focuses on the applicability of the
                     PARSEME system to authentic Slovene texts. Can the adapted PARSEME categories be
                     applied in practice? Are they attributable, robust, one-dimensional, and
@@ -288,7 +288,7 @@
                     terms of syntax), how can they contribute to the development of new automatic
                     extraction methods, and finally, which problems arise when applying the system
                     to text? In the following sections, we present the annotation method. This is
-                    followed by a quantitative and qualitative analysis. The latter is focusing on
+                    followed by quantitative and qualitative analysis. The latter is focusing on
                     individual categories, their characteristics, and the potential problems of the
                     approach.</p>
                 <div>
@@ -333,7 +333,7 @@
                         and categorization process consisted of three steps. In the first step, we
                         identified potential VMWEs consisting of a verb as the syntactic head of the
                         phrase and at least one other word. In the second step, we identified the
-                        lexicalized elements within the phrase. In the third step, we used detailed
+                        lexicalised elements within the phrase. In the third step, we used detailed
                         linguistic tests consisting of generic and specific language criteria to
                         determine the correct category of the identified VMWE.</p>
                     <p>Based on the guidelines, VMWEs are further divided into two classes based on
@@ -348,8 +348,8 @@
                         guidelines, an additional quasi-universal category was added: inherently
                         adpositional verbs (IAV), which require an open syntactic slot and are
                         typical of Slovene and several other Slavic languages. </p>
-                    <p>For Slovene, examples of VMWEs can be found for all the categories with the
-                        exception of VPC. For certain categories, however, there are specific
+                    <p>For Slovene, examples of VMWEs can be found for all the categories except for
+                        VPC. For certain categories, however, there are specific
                         characteristics based on syntactic or morphological features of Slovene or
                         on grammatical categories that are generally accepted in Slovene but differ
                         to some extent from other languages. The specific Slovene features will be
@@ -408,7 +408,7 @@
                 <p>Table 1 shows the distribution of the annotated VMWEs by category. The final
                     number of VMWEs in the training corpus is 3,364. The number of different VMWEs
                     (i.e. without any repetitions of the same unit) was just under 1,100. When
-                    looking at absolute frequencies, the most frequent category is IRV (48%) and the
+                    looking at absolute frequencies, the most frequent category is IRV (48%), and the
                     least frequent category is LVC.cause (2%). The categories with the highest
                     number of different VMWEs are VID and IAV, while LVC.full and LVC.cause are the
                     least diverse categories. We describe each category in more detail in section
@@ -603,12 +603,12 @@
                         the morpheme <hi rend="italic">se/si</hi> does not exist (<hi rend="italic"
                             >zdeti se</hi> 'to seem', *<hi rend="italic">zdeti</hi>) or in which the
                         presence of <hi rend="italic">se/si</hi> changes the meaning of the verb
-                            (<hi rend="italic">pobrati se</hi> 'to recover' vs. <hi rend="italic"
+                            (<hi rend="italic">pobrati se</hi> 'to recover' vs <hi rend="italic"
                             >pobrati</hi> 'to pick up').</p>
                     <p>Inherently reflexive verbs cover the largest percentage of VMWEs in the
                         training corpus (see Table 1). Among the correctly categorized examples
                         (1,621 in total)<note place="foot" xml:id="ftn8" n="4"> Among the 1,627
-                            annotated examples, four were mis-categorized. In two examples, the
+                            annotated examples, four were miscategorized. In two examples, the
                             elements of the expressions were incorrectly annotated. These examples
                             were excluded from further analysis.</note> we identified 339 different
                         IRVs, with the following most frequently occurring verbs: <hi rend="italic"
@@ -617,7 +617,7 @@
                             rend="italic">pojaviti se</hi> 'to appear'. </p>
                     <p>To test whether the expression is semantically integral and to differentiate
                         it from other types of verb phrases with <hi rend="italic">se/si</hi> that
-                        are not defined as VMWEs, we examined the behavior of the verb in terms of
+                        are not defined as VMWEs, we examined the behaviour of the verb in terms of
                         its opening up syntactic positions as a phrase. Inherently reflexive verbs
                         keep <hi rend="italic">se</hi>/<hi rend="italic">si</hi> as an obligatory
                         verb morpheme in all forms of their inflectional paradigm and can be
@@ -647,9 +647,9 @@
                         verb denotes a metaphorical meaning <hi rend="italic">pobrati se</hi> 'to
                         recover': <hi rend="italic">pobrati</hi> 'to pick sth up'; <hi rend="italic"
                             >gristi se</hi> 'to worry' : <hi rend="italic">gristi</hi> 'to bite'. </p>
-                    <p>In Slovene linguistics, lexicalized phrases consisting of a verb and the <hi
+                    <p>In Slovene linguistics, lexicalised phrases consisting of a verb and the <hi
                             rend="italic">se</hi>/<hi rend="italic">si</hi> morpheme have so far not
-                        been treated as a fixed expressions. The main focus has been recognition of
+                        been treated as fixed expressions. The main focus has been recognition of
                         the function of the morpheme or the reflexive pronoun in terms of denoting
                         different degrees of agentness or the subject's (un)involvedness, as in the
                         case of the non-singular (<hi rend="italic">zbrati se</hi> 'to gather') or
@@ -715,7 +715,7 @@
                             use.</note> predominantly the verb <hi rend="italic">imeti</hi> 'to
                         have' (65.6%), but also <hi rend="italic">biti</hi> 'to be' (13.6%) and <hi
                             rend="italic">dati/dajati</hi> 'to give' (a total of 9.6%).<note
-                            place="foot" xml:id="ftn10" n="6"> In Slovene lingustics, verb phrases
+                            place="foot" xml:id="ftn10" n="6"> In Slovene linguistics, verb phrases
                             with <hi rend="italic">imeti</hi> 'to have' and <hi rend="italic"
                                 >biti</hi> 'to be' have been most frequently treated as the
                             equivalent of LVCs, but analyzed from different perspectives (see e.g.
@@ -809,7 +809,7 @@
                 </div>
                 <div>
                     <head>Inherently Adpositional Verbs (IAV)</head>
-                    <p>Inherently adpositional verbs, also called verbs with a lexicalized
+                    <p>Inherently adpositional verbs, also called verbs with a lexicalised
                         prepositional morpheme (<ref target="#Žele.2002">Žele 2002</ref>), were
                         included in the PARSEME Guidelines during the second annotation phase as an
                         optional test category.<note place="foot" xml:id="ftn11" n="7">Based on the
@@ -828,13 +828,13 @@
                             rend="italic">biti za</hi> 'be for, to support' vs. <hi rend="italic"
                             >biti</hi> 'to be'). The participants required by the verb phrase as a
                         whole are not a part of the VMWE, as opposed to e.g. <hi rend="italic">stati
-                            na + trdnih tleh</hi> 'to stand on + solid groud', which is categorized
+                            na + trdnih tleh</hi> 'to stand on + solid ground', which is categorized
                         as a VID.</p>
                     <p>Prepositions have been treated as free verb morphemes as early as in <ref
                             target="#Metelko.1825">Metelko's Grammar of Slovene (1825, 247–56)</ref>
                         and were analyzed in further detail by <ref target="#Breznik.1916">Breznik
                             (1916, 250</ref>; <ref target="#Breznik.1934">1934, 225</ref>). Verbs
-                        with a lexicalized prepositional morpheme were also analyzed by <ref
+                        with a lexicalised prepositional morpheme were also analyzed by <ref
                             target="#Žele.2002">Žele (2002)</ref> and <ref target="#Kržišnik.1994"
                             >Kržišnik (1994)</ref>, the former from the perspective of the degree of
                         lexicality of the preposition and the latter from the perspective of phrase
@@ -854,16 +854,16 @@
                             rend="italic">veljati za</hi> 'to be considered' and <hi rend="italic"
                             >biti proti</hi> 'to be against'. As per the guidelines, the IAV
                         category also includes verb phrases that consist of an inherently reflexive
-                        verb (see 5.1) and a lexicalized prepositional morpheme (<hi rend="italic"
+                        verb (see 5.1) and a lexicalised prepositional morpheme (<hi rend="italic"
                             >nanašati se na</hi> 'to refer to sth').</p>
-                    <p>The most frequent lexicalized prepositional morpheme is <hi rend="italic"
+                    <p>The most frequent lexicalised prepositional morpheme is <hi rend="italic"
                             >za</hi> 'for', occurring with 34 different verbs (e.g. <hi
                             rend="italic">gre za</hi> 'to be about'), followed by <hi rend="italic"
                             >na</hi> 'on', occurring with 33 different verbs (e.g. <hi rend="italic"
                             >vplivati na</hi> 'to influence'). Frequent prepositional morphemes are
                         also <hi rend="italic">z/s</hi> 'with', <hi rend="italic">do</hi> 'to' and
                             <hi rend="italic">v</hi> 'in'.</p>
-                    <p>The lexicalized prepositional morpheme is usually positioned after the verb,
+                    <p>The lexicalised prepositional morpheme is usually positioned after the verb,
                         which is true in 86% of the annotated examples. In the vast majority of
                         cases, the morpheme is positioned directly after the verb or in a narrow
                         window (+3 words). An exception is <hi rend="italic">gre za</hi>, where an
@@ -872,7 +872,7 @@
                         In less frequent examples where the prepositional morpheme is positioned
                         before the verb, the distance between the verb and the morpheme is
                         significantly larger (in 20% of the cases, the distance is 3+ words).</p>
-                    <p>Verbs with a lexicalized prepositional morpheme can also be identified based
+                    <p>Verbs with a lexicalised prepositional morpheme can also be identified based
                         on common semantic features, e.g. the expression of (a) function or quality:
                             <hi rend="italic">veljati za</hi> [<hi rend="italic">favorita</hi>] 'to
                         be considered [a favorite]',<note place="foot" xml:id="ftn12" n="8">With
@@ -913,7 +913,7 @@
                         bursting of [joy]'.</p>
                     <p>Identifying inherently adpositional verbs poses a challenge both for human
                         annotators and language technology tools as additional elements can
-                        intervene between the lexicalized morpheme and the verb. In addition,
+                        intervene between the lexicalised morpheme and the verb. In addition,
                         numerous verb-preposition combinations can denote a literal meaning while
                         not exhibiting any change in the case of the object complement (<hi
                             rend="italic">stati za</hi> [<hi rend="italic">vrati</hi>] 'to stand
@@ -929,7 +929,7 @@
                 <div>
                     <head>Verbal Idioms (VID)</head>
                     <p>The PARSEME Guidelines define verbal idioms (VID) as the combination of two
-                        lexicalized elements in which the verb is the syntactic head that requires
+                        lexicalised elements in which the verb is the syntactic head that requires
                         at least one participant in the sentence pattern. The participants can take
                         different syntactic roles, e.g. a direct or prepositional object complement
                             (<hi rend="italic">plačati ceno</hi> 'to pay a price', <hi rend="italic"
@@ -945,7 +945,7 @@
                         with lexical variance, etc.</p>
                     <p>The definition provided by the PARSEME Guidelines differs from the one found
                         in Slovene linguistics in that it focuses on the verb as the head and the
-                        lexicalized elements within the verb's sentence pattern. On the other hand,
+                        lexicalised elements within the verb's sentence pattern. On the other hand,
                         Slovene linguistics focuses primarily on the ability of the verb phrase as a
                         whole to take the role of the predicate (<ref target="#Toporišič.1973-74"
                             >Toporišič 1973/74</ref>; <ref target="#Kržišnik.1994">Kržišnik
@@ -1034,7 +1034,7 @@
                     shows that all categories are robust and present in authentic texts. </p>
                 <p>Based on the annotated VMWEs, we were able to identify certain pattern features
                     on the syntactic and semantic levels. These patterns represent a good starting
-                    point for a set of rules for the automatic extraction of VMWEs and for further
+                    point for a set of rules for the automatic extraction of VMWEs and further
                     language description. Methodologically, we made a shift in focus from a
                     functional-syntactic perspective to the description of interconnected features
                     on the morphosyntactic, syntactic, semantic, and lexical levels.</p>
@@ -1045,7 +1045,7 @@
                     position in the sentence pattern. The degree to which the meaning of the verb as
                     an element of the MWE contributes to the meaning of the whole is often difficult
                     to determine, one of the reasons being that numerous verb phrases structurally
-                    coincide with several categories, but denote no idiomatic meaning. In text, they
+                    coincide with several categories, but denote no idiomatic meaning. In the text, they
                     are difficult to distinguish from free phrases or collocations (frequent,
                     semantically sensible and structurally adequate word co-occurrences). </p>
                 <p>On the other hand, the initial structural and semantic analysis has shown that
@@ -1066,7 +1066,7 @@
                     VMWEs in text.</p>
                 <p>While our research did not include a systematic analysis of the sentence
                     patterns, it should be mentioned that the training corpus includes the syntactic
-                    (formalized syntactic dependencies) and semantic (semantic role labeling) data
+                    (formalized syntactic dependencies) and semantic (semantic role labelling) data
                     that can be used to analyze them. This would allow us to identify more general
                     sentence patterns for a certain VMWE type and use them in automatic
                     extraction.</p>

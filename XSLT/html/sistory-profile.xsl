@@ -186,20 +186,6 @@
       <br /><xsl:apply-templates/>
    </xsl:template>
    
-   <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
-      <desc>Sem moral okleščiti prvotni listBibl is sistory profila, ker je dvakrat kazal listBibl/head</desc>
-   </doc>
-   <xsl:template match="tei:listBibl">
-      <ul>
-         <xsl:if test="@xml:id">
-            <xsl:attribute name="id">
-               <xsl:value-of select="@xml:id"/>
-            </xsl:attribute>
-         </xsl:if>
-         <xsl:apply-templates/>
-      </ul>
-   </xsl:template>
-   
    <!-- sem ga moral dodati, ker po novem ne procesira več ol/@rend kot a A i I vrednosti -->
    <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
       <desc>
