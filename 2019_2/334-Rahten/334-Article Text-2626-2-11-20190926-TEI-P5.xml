@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Slovenski pravniki na diplomatskem parketu do mednarodnega priznanja nove države<note place="foot" xml:id="ftn1" n="*">Članek je nastal v okviru
+                        raziskovalnega projekta J6–7069 (A) Družbena in identitetna mobilnost v
+                        slovenskem prostoru med poznim srednjim vekom in razpadom habsburške
+                        monarhije.</note></title>
+                <author>
+                    <name>
+                        <forename>Andrej</forename>
+                        <surname>Rahten</surname>
+                        <roleName>Prof.</roleName>
+                        <roleName>Dr.</roleName>
+                       <affiliation>Zgodovinski inštitut Milka Kosa Znanstvenoraziskovalnega centra SAZU</affiliation>
+                        <address>
+                            <addrLine>Novi trg 2</addrLine>
+                            <addrLine>SI – 1000 Ljubljana</addrLine>
+                        </address>
+                        <affiliation>Filozofska fakulteta Univerze v Mariboru</affiliation>
+                        <address>
+                            <addrLine>Koroška cesta 160</addrLine>
+                            <addrLine>SI-2000 Maribor</addrLine>
+                        </address>
+                        <email>andrej.rahten@zrc-sazu.si</email>
+                    </name>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2019-04-05</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/334</pubPlace>
+                <date>2019</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">59</biblScope>
+                <biblScope unit="issue">2</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="sl">
+                    <term>diplomacija</term>
+                    <term>pravo</term>
+                    <term>Kraljevina Srbov, Hrvatov in Slovencev</term>
+                    <term>Ivan Žolger</term>
+                    <term>Bogumil Vošnjak</term>
+                </keywords>
+                <keywords xml:lang="en">
+                    <term>diplomacy</term>
+                    <term>law</term>
+                    <term>Kingdom of Serbs, Croats and Slovenes</term>
+                    <term>Ivan Žolger</term>
+                    <term>Bogumil Vošnjak</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2017-05-12</date>
+                    <name>Neja Blaj Hribar</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Andrej Rahten<note place="foot" xml:id="ftn2" n="*">
+                <hi rend="bold" style="font-size:10pt">Prof. dr., Zgodovinski inštitut Milka
+                    Kosa Znanstvenoraziskovalnega centra SAZU, Novi trg 2, SI-1000 Ljubljana
+                    in Filozofska fakulteta Univerze v Mariboru, Koroška cesta 160, SI-2000
+                    Maribor, andrej.rahten@zrc-sazu.si</hi></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="UDC">UDK: </idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic" style="font-size:10pt">V razpravi, ki temelji na arhivskih in
+                    memoarskih virih, je opisano delovanje slovenskih pravnikov v okviru
+                    diplomatskih prizadevanj Kraljevine Srbov, Hrvatov in Slovencev na pariški
+                    mirovni konferenci leta 1919. Ovrednotena je njihova dejavnost v Parizu in tudi
+                    v ljubljanski komisiji za mirovno konferenco, pri čemer izstopa predvsem
+                    osebnost Ivana Žolgerja, nekdanjega avstrijskega ministra in ključnega
+                    slovenskega člana jugoslovanske delegacije.</hi></p>
+                <p><hi rend="italic" style="font-size:10pt">Ključne besede: diplomacija, pravo,
+                    Kraljevina Srbov, Hrvatov in Slovencev, Ivan Žolger, Bogumil Vošnjak</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <p><hi rend="italic" style="font-size:10pt">The following discussion, based on archival
+                    sources and memoirs, describes the activities of Slovenian lawyers in the
+                    context of the diplomatic efforts of the Kingdom of Serbs, Croats and Slovenes
+                    at the 1919 Paris Peace Conference. Their efforts in Paris as well as in the
+                    Ljubljana Commission for the Peace Conference have been evaluated. In this
+                    regard, Ivan Žolger, a former Austrian minister and key Slovenian member of the
+                    Yugoslav delegation, stands out.</hi></p>
+               <p><hi rend="italic" style="font-size:10pt">Keywords: diplomacy, law, Kingdom of Serbs,
+                    Croats and Slovenes, Ivan Žolger, Bogumil Vošnjak</hi></p>
+            </div>
+        </front>
+        <body>
+            <p>O pomembni vlogi slovenskih pravnikov v diplomatskih prizadevanjih jugoslovanske
+                države na pariški mirovni konferenci, ki je začela zasedati sredi januarja 1919,
+                priča že zanimiva podrobnost iz ustanovne dobe pravne fakultete v Ljubljani. Ko so
+                bili 31. avgusta tega leta na novoustanovljeni fakulteti imenovani prvi štirje redni
+                profesorji, eden od njih (Ivan Žmavc) imenovanja ni sprejel, trije pa so bili
+                namesto v Ljubljani v Parizu: Bogumil Vošnjak, Leonid Pitamic in Ivan Žolger. Vsi
+                trije so bili namreč takrat člani jugoslovanske delegacije na pariški mirovni
+                konferenci. Med novimi profesorji ljubljanske univerze je bil v pravniških krogih
+                najbolj poznan Žolger, v tistem času nedvomno največji strokovnjak za avstro-ogrski
+                dualizem in avstrijsko dvorno pravo. Med prvo svetovno vojno je v Seidlerjevi vladi
+                postal minister brez listnice, zadolžen za ustavno reformo, prvi in zadnji južni
+                Slovan v avstrijski zgodovini. Na ljubljanski pravni fakulteti je bil imenovan za
+                rednega profesorja meddržavnega prava. Družbo naj bi mu delala še dva pravnika,
+                izšolana v stari Avstriji: predavatelj na Univerzi v Černovicah Leonid Pitamic je
+                postal profesor ustavnega in meddržavnega prava, bil je tudi prvi dekan pravne
+                fakultete, Bogumil Vošnjak pa je bil imenovan za profesorja jugoslovanskega javnega
+                prava. Ker so imele takrat diplomatske zadolžitve v službi nove države prednost, so
+                najpotrebnejša pripravljalna dela za nastop na ljubljanski univerzi opravili menda
+                kar v Parizu.<note place="foot" xml:id="ftn3" n="1"> Gorazd
+                        Kušej, »Ob 50-letnici slovenske pravne fakultete (1920–1970),«
+                        <hi rend="italic" xml:space="preserve">Zbornik znanstvenih razprav </hi>34
+                        (1970): 1–18, tu 4. Tea Anžur, »Oris pravne fakultete med obema vojnama,«
+                            <hi rend="italic">Kronika</hi> 46, št. 3 (1998): 97–106, tu
+                    97.</note>
+            </p>
+            <p>V prvih mesecih so bili Slovenci sicer uradno člani delegacije Kraljevine Srbije,
+                kajti Kraljevina Srbov, Hrvatov in Slovencev takrat predvsem zaradi nasprotovanja
+                Italije namreč še ni bila mednarodnopravno priznana.<note place="foot" xml:id="ftn4" n="2">
+                        <hi style="font-size:10pt" xml:space="preserve">V zgodovinopisju je vprašanje, pod katerim imenom je uradno nastopala delegacija nove države, manj osvetljeno. Razloge gre iskati predvsem v poudarjanju ozemeljske problematike </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Londonskega pakta </hi><hi style="font-size:10pt" xml:space="preserve">in razmejitve na Koroškem, nekoliko manj tudi vprašanja pripadnosti Slovenske Štajerske in Prekmurja. Večinoma se je za delegacijo, sestavljeno iz predstavnikov Kraljevine Srbije in južnih Slovanov nekdanje habsburške monarhije, udomačil naziv »jugoslovanska«, čeprav je bilo v novi državi precej politikov, ki jugoslovanskega imena niso sprejemali. Paradoksalno pa so se nad trodelnim imenom Kraljevine SHS navduševali tudi nekateri nekoč najbolj antisrbsko usmerjeni hrvaški politiki, a tudi njihovi slovenski sopotniki. Bolj kot romantično zveneča »Jugoslavija« jih je zanimalo dejstvo, da je z akronimom SHS v imenu nove kraljevine hrvaško in slovensko ime sedaj formalno vstopilo v diplomatsko terminologijo. </hi></note>
+                V svoji vnemi, da ne priznajo naziva delegacije Kraljevine SHS in vztrajajo pri
+                Srbiji, so italijanski državniki šli zelo daleč. Na roko jim je šlo tudi ravnanje
+                črnogorskega kralja Nikole, ki ni želel priznati sklepov »podgoriške skupščine« o
+                združitvi črnogorske kraljevine s srbsko.<note place="foot" xml:id="ftn5" n="3">
+                        <hi style="font-size:10pt">Vprašanje statusa črnogorske kraljevine je v
+                            historiografiji zaradi hitrega razvoja združevalnih procesov pod
+                            taktirko Srbije prav tako manj znana tema.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve">Kralju Nikoli, ki je takrat živel v emigraciji v Parizu, sicer ni uspelo dobiti avdience pri ameriškem predsedniku Thomasu Woodrowu Wilsonu, a je nedvomno užival ameriške simpatije. Na koncu je bil sprejet sklep, da se na konferenci tudi Črni gori rezervira sedež, ostalo pa je odprto vprašanje, kdo naj ga zasede. Nekaj časa je celo kazalo, da bo Srbija dobila zgolj dva sedeža, a so zaradi srbskega protesta Francozi le izsilili še tretjega. A tudi omenjena sedežna zmeda je bila Italijanom dovolj, da so nadaljevali politiko nepriznavanja Kraljevine SHS na Balkanu. In zaradi obzirov do Italijanov so s priznanjem čakale tudi druge udeleženke. Edina, ki se je do konca januarja 1919 opogumila in priznala Kraljevino SHS, je bila Norveška. Italijani pa so v svoji vnemi šli celo tako daleč, da so novega poslanika Livia kneza Borgheseja v Beograd poslali kar s poverilnimi pismi, naslovljenimi na kralja Srbije. Ministrski predsednik Stojan Protić je ob Borghesejevem prihodu konec februarja ogorčen zavrnil njihov sprejem in zahteval, da se naslovijo pravilno. Več sreče so imeli Jugoslovani pri prepričevanju Američanov, ki so 9. februarja 1919 s posebno izjavo vendarle pozdravili združitev južnih Slovanov. Toda ostale velesile so glede priznanja še naprej ostale zadržane. Več o tem Livia Kardum, »Pitanje međunarodnog priznanja Kraljevine Srba, Hrvata i Slovenaca,« </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Politička misao </hi><hi style="font-size:10pt">23, št. 3 (1986): 119–130.</hi></note> Do
+                večjega premika pri mednarodnem priznanju nove države je prišlo šele konec aprila
+                1919 v okviru priprav na podpis <hi rend="italic">Versajske pogodbe</hi>, ko so
+                Jugoslovani zavrnili izmenjavo pooblastil z nemško delegacijo, če jim ne bodo prej
+                ugodili. Pa še takrat se je pri oblikovanju zadnjega osnutka pogodbe, predloženega
+                7. maja 1919, v besedilo prikradla neljuba napaka. Res je, da v dokumentu ni več
+                nastopala Kraljevina Srbija, a sedaj je bila med podpisnicami našteta
+                »Srbija-Hrvaška-Slavonija«. »Slovenijo« (<hi rend="italic">Slovénie</hi>) so pri tem
+                pomotoma zamenjali za Slavonijo (<hi rend="italic">Slavonie</hi>).<note place="foot" xml:id="ftn6" n="4">
+                        <hi style="font-size:10pt" xml:space="preserve">Dejan Djokić, </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Pašić and Trumbić. The Kingdom of Serbs, Croats and Slovenes </hi><hi style="font-size:10pt">(London: Haus Publishing, 2010), 130.</hi>
+                    </note>
+            </p>
+            <p>V tem prispevku ne bodo predstavljeni pogledi slovenskih predstavnikov v Parizu do
+                politično-razmejitvenih problemov na dnevnem redu konference, saj je bilo to že
+                večkrat obravnavano na drugih mestih. Omejili se bomo na vprašanje, kdo so bili
+                pravniki v slovenskem delu delegacije nove države in kakšno vlogo so imeli. Zanimalo
+                nas bo, kako je potekal njihov izbor, kako je bilo organizirano njihovo delo in kako
+                se je njihova dejavnost odražala na delovanju celotne delegacije na mirovni
+                konferenci. </p>
+            <p rend="HTML Preformatted">
+                <hi style="font-size:12pt">Če so bili v delegacijah velesil večinoma premieri,
+                    ministri in drugi najvišji predstavniki izvršne oblasti, ni bilo v
+                    jugoslovanski, ki jo je vodil legendarni srbski državnik Nikola Pašić, niti
+                    enega aktivnega člana vlade, izjema je bil le zunanji minister, dalmatinski
+                    Hrvat in predsednik emigrantskega Jugoslovanskega odbora Ante Trumbić.</hi><note place="foot" xml:id="ftn7" n="5"> Andrej Mitrović,
+                        <hi rend="italic" xml:space="preserve">Jugoslavija na konferenciji mira 1919–1920 </hi>(Beograd:
+                        Zavod za izdavanje udžbenika SR Srbije, 1969), 18.</note>
+                <hi style="font-size:12pt">Tako je pogajalsko moč slovenskega dela delegacije
+                    nedvomno zmanjševalo dejstvo, da v njej ni bilo Antona Korošca, takratnega
+                    podpredsednika kraljeve vlade. Po drugi strani pa je res, da je bila Pašićeva
+                    ekipa v Parizu po številu članov med največjimi, celo četrta od skupno 26
+                    delegacij. V literaturi se največkrat omenja število 110, torej je imela
+                    jugoslovanska delegacija celo dva člana več od ameriške; več so jih imele samo
+                    še Velika Britanija, Francija in Italija.</hi><note place="foot" xml:id="ftn8" n="6"> Djokić, <hi rend="italic">Pašić</hi>,
+                    67.</note><hi style="font-size:12pt" xml:space="preserve"> To gre pripisati precejšnjemu številu izvedencev, ki so delovali kot podpora sedmerici delegatov.</hi></p>
+            <p rend="HTML Preformatted">
+                <hi style="font-size:12pt">Za slovenski del delegacije je prve usmeritve določil
+                    podpredsednik vlade Kraljevine SHS Korošec, ki je največjo odgovornost naložil
+                    Žolgerju. Nekdanji avstrijski minister je od 5. novembra 1918 bival v Ljubljani,
+                    kjer je kot predsednik upravne komisije pripravljal gradiva za prehodno
+                    upravo.</hi>
+                <note place="foot" xml:id="ftn9" n="7"> Lambert Ehrlich,
+                        »Pariška mirovna konferenca in Slovenci 1919/20,« <hi rend="italic">Acta
+                            Ecclesiastica Sloveniae</hi>, št. 24 (2002): 53–640, tu 63.</note>
+                <hi style="font-size:12pt">Korošec je 16. decembra 1918 Narodni vladi SHS v
+                    Ljubljani poslal pismo, s katerim je predlagal, naj Žolger (v pismu ga še
+                    naslavlja kot »viteza«) sestavi komisijo za pripravo gradiv za mirovno
+                    konferenco v Parizu.</hi>
+                <note place="foot" xml:id="ftn10" n="8"> SI AS 1164, š.
+                        1346, Koroščevo pismo Narodni vladi SHS v Ljubljani, 16. 12. 1918,
+                        prepis.</note>
+                <hi style="font-size:12pt">Ker mu sam ni mogel razložiti vseh podrobnosti, je to
+                    nalogo zaupal svojemu takratnemu tesnemu sodelavcu, liberalnemu prvaku Gregorju
+                    Žerjavu. Z njim naj bi se Žolger tudi dogovoril glede sestave komisije. Korošec
+                    je dal jasno vedeti, da ga diplomatske naloge takrat niso zanimale: »Jaz ostanem
+                    v Belem gradu še dalj časa.«</hi><note place="foot" xml:id="ftn11" n="9"> SI AS 1164, š. 1346, Koroščevo pismo Žolgerju, 17. 12.
+                        1918. </note></p>
+            <p>Žolger se je takoj lotil dela in pripravil ustrezne pravne podlage za delovanje
+                    komisije.<note place="foot" xml:id="ftn12" n="10">
+                        <hi style="font-size:10pt" xml:space="preserve">SI AS 1164, š. 1347, Delokrog komisije za mirovno konferenco, tipkopis. </hi>
+                    </note> Na številne naslove je poslal tudi prošnje za pomoč pri iskanju
+                    gradiva.<note place="foot" xml:id="ftn13" n="11"> SI AS
+                        1164, š. 1346, Žolgerjevo pismo poverjeniku za notranje zadeve Janku Brejcu,
+                        21. 12. 1918.</note> Pri tem je komisiji, ki je delovala kot poseben
+                urad ljubljanske vlade, pomagala tudi pisarna za zasedeno ozemlje.<note place="foot" xml:id="ftn14" n="12">
+                        <hi style="font-size:10pt">Dušan Nećak, »Pisarna za zasedeno ozemlje,«</hi>
+                        <hi rend="italic" style="font-size:10pt">Kronika</hi><hi style="font-size:10pt" xml:space="preserve"> 20, št. 2 (1972): 101–106.</hi></note></p>
+            <p>Beograjska vlada je 22. decembra 1918 Žolgerja formalno imenovala za pooblaščenega
+                delegata na mirovni konferenci. Žolger je na božični dan predsedniku delegacije
+                Nikoli Pašiću napisal pismo, v katerem je ob imenovanju izrazil »veliko zadoščenje«,
+                ker lahko opravlja naloženi posel prav pod njegovim vodstvom. Izrazil je željo, da
+                bi mu pred odhodom v Pariz dali dovolj časa za pripravo ustreznih gradiv: »Vprašanje
+                meja se dopolnjuje z gradivom z geopolitičnega, prometnega in gospodarskega
+                stališča.« Pašića pa je obvestil o nedavnem obisku Dunaja, kjer je imel pogovore o
+                problematiki likvidacije stare monarhije. Žolger je Pašića obvestil tudi o srečanju,
+                ki ga je imel na to temo 24. decembra na Dunaju z nekdanjim državnozborskim
+                poslancem Vlastimilom Tusarjem, ki je na Dunaju po prevratu skrbel za komunikacijo
+                med oblastmi češkoslovaške in avstrijske republike. Tusar je podprl Žolgerja, »da bi
+                se pri ugotovitvi inventarja skupne lastnine nekdanje Avstrije tozadevni češki in
+                jugoslovanski organi medsebojno podpirali«. Na lastno pobudo pa je Tusar spregovoril
+                tudi »o onih bojaznih, ki se javljajo med Jugoslovani glede razmerja med
+                Češko-slovaško državo in Italijo«. Slovenskega kolega je poskušal ohrabriti, da si
+                ni mogoče predstavljati, da ne bi Češkoslovaška »stala odločno ob strani
+                Jugoslavije, kajti to ne izhaja samo iz celega dosedanjega skupnega političnega
+                boja, ampak tudi iz tega, da je na jugoslovanskem primorju interesirana tudi Češka«.
+                Ta interes pa naj bi se še povečal, če bi bilo mogoče doseči »geografično sosedstvo
+                med obema državama«. Tusar, ki je s tem namigoval na zamisel, o kateri se je takrat
+                precej razpravljalo, o vzpostavitvi koridorja med državama, je še poudaril, »da je
+                bil ob prihodu Masaryka nagovor na adreso italijanskega odposlanca v tonu po vsem
+                drugačen kakor oni na francoskega in angleškega odposlanca«. Italijanska poslanica
+                naj bi bila po Tusarjevem pričevanju za vlado Češkoslovaške »veliko presenečenje in
+                zadrega«, a je ni bilo mogoče preprečiti: »Prečitati se je pa v zbornici morala, ker
+                je bil odposlanec v loži navzoč.« Tusarjeva poanta v pogovoru z Žolgerjem pa je
+                končno bila, da mora Kraljevina SHS v Pragi čim prej ustanoviti »regularno
+                diplomatično zastopstvo«. Poudaril je, da namerava Italija v najkrajšem času
+                imenovati poslanika v Pragi. Tusar je povedal, »da bi Masaryk in praška vlada
+                želela, da Jugoslavija stori to prej kakor Italija«. Na Žolgerjevo vprašanje, ali je
+                Masaryk nedavno obiskal Rim zaradi pogovorov o italijansko-jugoslovanskem sporu, je
+                Tusar odgovoril, »da je poset bil le akt diplomatične kurtvozije, češ da so Lahi
+                češki legiji nudili vse ugodnosti in jo nazadnje tudi opremili kar najboljše«.<note place="foot" xml:id="ftn15" n="13">
+                        <hi style="font-size:10pt" xml:space="preserve">SI AS 1164, š. 1346, Žolgerjevo pismo Pašiću, 25. 12. 1918. O koridorju, ki je bil uvodoma predmet pogovora med Žolgerjem in Tusarjem, prim. Filip Čuček, »K zgodovini češkoslovaško-jugoslovanskega koridorja (češko-slovenski zorni kot),« </hi>
+                        <hi rend="italic" style="font-size:10pt" xml:space="preserve">Zgodovinski časopis </hi><hi style="font-size:10pt">70, št. 1–2 (2016): 206–25.</hi>
+                    </note>
+            </p>
+            <p>Pašić na citirano pisno poročilo sploh ni odgovoril, čeprav je Žolger 30. decembra
+                ponovno poizvedoval, kdaj naj bi bil odhod v Pariz. Slišal je namreč, da naj bi
+                Pašić tja že kmalu odpotoval. Ponovno je poudaril, da v Pariz še ne more oditi, saj
+                vseh gradiv še nima pripravljenih.<note place="foot" xml:id="ftn16" n="14"> SI AS 1164, š. 1346, Žolgerjev telegram Pašiću, 30.
+                        12. 1918.</note> Namesto Pašića pa mu je 2. januarja 1919 odgovoril
+                predsednik vlade Stojan Protić s telegramom, v katerem ga je obvestil, da je Pašić
+                zapustil Beograd – že pred dvema dnevoma.<note place="foot" xml:id="ftn17" n="15"> SI AS 1164, š. 1346, Protićev telegram Žolgerju, 2. 1.
+                        1919.</note> Še istega dne so Žolgerju posredovali tudi Protićevo
+                sporočilo, da mora takoj priti v Beograd, ker bo treba odpotovati na mirovno
+                    konferenco.<note place="foot" xml:id="ftn18" n="16"> SI
+                        AS 1164, š. 1347, telegram pisarne ministrskega sveta Žolgerju, 2. 1.
+                        1919.</note> Ne da bi končal pripravo gradiv v Ljubljani, se je Žolger
+                5. januarja odpravil z vlakom proti Zemunu.<note place="foot" xml:id="ftn19" n="17"> SI AS 1164, š. 1347, Žolgerjev telegram pisarni
+                        ministrskega sveta, 3. 1. 1919.</note> Za namestnika pri vodenju
+                ljubljanske komisije za mirovno konferenco je Žolger imenoval dr. Frana Vodopivca,
+                nekdanjega ministerialnega podtajnika v avstrijskem poljedelskem ministrstvu.<note place="foot" xml:id="ftn20" n="18"> SI AS 1164, š. 1347,
+                        Žolgerjev dopis Narodni vladi SHS v Ljubljani, 1. 1. 1919.</note>
+            </p>
+            <p rend="List Paragraph"><hi style="font-size:12pt">Glavnina slovenskih izvedencev je
+                    potovala v Pariz sredi januarja 1919 skozi Dunaj. Toda potovanje ni minilo brez
+                    zapletov, o čemer priča korespondenca med Vodopivcem in Beogradom. 20. januarja
+                    1919 je Vodopivec poslal telegram na zunanje ministrstvo, saj je švicarsko
+                    poslaništvo na Dunaju izjavilo, da je pripravljeno vidirati potne liste
+                    slovenskih ekspertov samo, če bodo dobili dovoljenje francoske vlade za
+                    potovanje v Pariz. Beograjsko ministrstvo je zaprosil, naj brzojavi poslaniku v
+                    Bernu, ali bi lahko od tamkajšnjega francoskega kolega dobil omenjeno
+                    dovoljenje, nato pa naj bi srbski poslanik v Bernu brzojavil švicarskemu
+                    zunanjemu ministrstvu, naj poslaniku na Dunaju sporoči, da lahko slovenski
+                    delegati odpotujejo v Pariz na mirovno konferenco.</hi>
+                <note place="foot" xml:id="ftn21" n="19"> SI AS 1164, š.
+                        1346, Vodopivčev telegram zunanjemu ministrstvu, 20. 1. 1919.</note>
+                <hi style="font-size:12pt">Pri ravnanju švicarskih diplomatov na Dunaju je treba
+                    vedeti, da je bila Švica takrat še edina država, ki ni priznavala republikanske
+                    vlade na Dunaju, in je v Bernu še vedno delovalo cesarsko in kraljevo
+                    poslaništvo.</hi><note place="foot" xml:id="ftn22" n="20">
+                        <hi rend="italic">November 1918 auf dem Ballhausplatz. Erinnerungen Ludwigs
+                            Freiherrn von Flotow, des letzten Chefs des österreichisch-ungarischen
+                            auswärtigen Dienstes 1895–1920</hi>, ur. Erwin Matsch (Wien – Köln –
+                        Graz: Hermann Böhlaus Nachf., 1982), 336, 337.</note></p>
+            <p rend="List Paragraph"><hi style="font-size:12pt" xml:space="preserve">Položaj je bil tako zapleten, da je moral posredovati tudi Korošec, ki je v ta namen sestavil prošnjo za švicarsko poslaništvo na Dunaju. Koroščev telegram je bil v nemščini, napisal pa ga je kar na papir z glavo urednika revije </hi><hi rend="italic" style="font-size:12pt">Dom in svet</hi>
+                <hi style="font-size:12pt">Izidorja Cankarja. Švicarsko poslaništvo je podpredsednik
+                    vlade Kraljevine SHS zaprosil, naj olajša prehod delegatom za mirovno
+                    konferenco, ki so jim potne liste izdali »v imenu njegovega veličanstva srbskega
+                    kralja«. Torej v Pariz niso potovali kot člani delegacije Kraljevine SHS, ker ta
+                    takrat še ni bila mednarodno priznana.</hi><note place="foot" xml:id="ftn23" n="21"> SI AS 1164, š. 1346, Koroščev telegram za
+                        švicarsko poslaništvo na Dunaju, brez datuma.</note><hi style="font-size:12pt" xml:space="preserve"> V imenu beograjske vlade pa je posredoval tudi Protić, ki je srbskemu poslaniku v Bernu naročil, naj zahteva dovoljenje za odhod slovenskih delegatov v Pariz.</hi>
+                <note place="foot" xml:id="ftn24" n="22"> SI AS 1164, š.
+                        1346, Protićev telegram Vodopivcu, 24. 1. 1919.</note>
+            </p>
+            <p>S seznama potnikov za Pariz, ki je bil priložen prošnji, naslovljeni na švicarsko
+                poslaništvo, je razvidno, da Žolgerja ni bilo med njimi. V Francijo je odpotoval
+                posebej, spremljal pa ga je pravnik Bruno Hugo Stare, nekdanji ministerialni
+                koncipist v predsedstvu avstrijskega ministrskega sveta.<note place="foot" xml:id="ftn25" n="23"> SI AS 1164, š. 1346, pismo Franja
+                        Vesela Vodopivcu, 20. 1. 1919. Iz pisma sledi, da je Žolger 17. januarja
+                        1919 prispel v Trst in od tam potoval naprej v Pariz. </note> Za njegovo
+                vključitev v delegacijo se je osebno zavzel Žolger, pri čemer je Narodno vlado SHS v
+                Ljubljani zaprosil, naj ima Stare značaj uradnika jugoslovanske države. Torej bi ga
+                v politično-administrativno službo Narodne vlade SHS v Ljubljani sprejeli na enak
+                način. Žolger je tudi zaprosil, da Staretu dovolijo potreben dopust za čas, ko bo
+                deloval na mirovni konferenci.<note place="foot" xml:id="ftn26" n="24"> SI AS 1164, š. 1347, Žolgerjev dopis Narodni vladi SHS
+                        v Ljubljani, 2. 1. 1919. </note> Na podoben način so rešili tudi status
+                drugih udeležencev iz vrst uradništva. Stare je nato v Parizu opravljal naloge
+                tajnika Žolgerjeve pisarne. </p>
+            <p rend="HTML Preformatted">
+                <hi style="font-size:12pt">Že pred Žolgerjem pa je v Pariz pripotoval še drugi
+                    slovenski delegat – Otokar Rybář. S Pašićem očitno ni imel takšnih
+                    komunikacijskih težav kot Žolger, saj je na mirovno konferenco potoval kar
+                    skupaj s srbskim državnikom.</hi><note place="foot" xml:id="ftn27" n="25"> NUK, Rokopisni oddelek, Ms 1963, Ostalina Janka
+                        Mačkovška, Pismo Janka Meti Mačkovšek, 1. 1.
+                    1919.</note><hi style="font-size:12pt" xml:space="preserve"> Tudi Rybář je bil pravnik, kot poslanec v dunajskem parlamentu pa je zastopal tržaške Slovence.</hi><note place="foot" xml:id="ftn28" n="26"> Več o Rybářu Andrej
+                        Vrčon, »Otokar Rybář,« v: <hi rend="italic">Tvorci slovenske pomorske
+                            identitete</hi>, ur. Andrej Rahten et al. (Ljubljana: Založba ZRC,
+                        2010),
+                    225–34.</note><hi style="font-size:12pt" xml:space="preserve"> Podobno kot Žolgerja je tudi njega predlagal Korošec, ki je primorskega kolega dobro poznal še iz časov, ko sta delovala v Jugoslovanskem klubu na Dunaju. A v nasprotju z Žolgerjem, ki je bil pooblaščeni delegat, je bil Rybář samo politični. Imel je pravico do glasovanja znotraj jugoslovanske delegacije, ni pa smel podpisovati pravnih aktov. Glavno breme pogajanj v Parizu je med Slovenci seveda nosil Žolger, za katerega je zaradi Koroščeve podpore veljalo, da je v političnem smislu privrženec Koroščeve Vseslovenske ljudske stranke, čeprav se v javnosti ni izpostavljal.</hi><note place="foot" xml:id="ftn29" n="27"> Djokić je v svoji
+                        študiji zapisal, da je bil Žolger »Koroščev neformalni predstavnik v
+                        Parizu«. – Djokić, <hi rend="italic">Pašić</hi>, 73. Nikakor pa ne drži
+                        zapis na nedavni razstavi o Prekmurju, da je bil Žolger visok strankarski
+                        funkcionar.</note></p>
+            <p rend="HTML Preformatted">
+                <hi style="font-size:12pt">Natančno število vseh slovenskih udeležencev mirovne
+                    konference v Parizu je težko ugotoviti. V prestolnici so namreč bivali različno
+                    dolgo, pa tudi njihov status ni bil vedno povsem jasen. V Pitamičevem gradivu se
+                    na seznamu za pripravljalno delo mirovne konference nahaja 11 oseb, a se je nato
+                    njihovo število precej povečalo. Če se v tej predstavitvi omejimo na pravnike,
+                    lahko ugotovimo, da jih je bilo že na omenjenem seznamu kar sedem. Torej so bili
+                    glede na izobrazbeni profil v večini. Zanimivo pa je, da so v jugoslovanski
+                    delegaciji delovali tudi kar štirje slovenski duhovniki.</hi>
+                <note place="foot" xml:id="ftn30" n="28"> Več o tem Andrej
+                        Rahten, »'Škandal prve vrste'. Diplomatska izkušnja slovenskih duhovnikov na
+                        pariški mirovni konferenci,«
+                        <hi rend="italic" xml:space="preserve">Koledar Mohorjeve družbe v Celovcu </hi>(2019):
+                        61–66.</note><hi style="font-size:12pt" xml:space="preserve"> Za posebej koristno pa se je spričo številnih problemov pri določanju meja nove države izkazala prisotnost kartografa in statistika Janka Mačkovška.</hi></p>
+            <p rend="HTML Preformatted">
+                <hi style="font-size:12pt">Žolger je izbiral v prvi vrsti med višjimi uradniki stare
+                    države. To je bilo tudi logično, saj je bil tudi sam eden izmed njih. Dva sta
+                    bila njegova sodelavca iz predsedstva ministrskega sveta, Pitamic in Stare. Po
+                    rangu pa je bil višji od njiju Ivo Šubelj, dvorni in ministerialni svetnik, ki
+                    je od preloma stoletja deloval večinoma na oddelku za šifre zunanjega
+                    ministrstva. Šubelj je podobno kot Vodopivec izhajal iz kroga nekdanjega
+                    trgovinskega ministra in koroškega državnozborskega poslanca Feliksa barona
+                    Pina-Friedenthala, pri katerem sta oba svojčas delovala kot prevajalca in tudi
+                    izpopolnila znanje tujih jezikov. Šubelj je kariero na zunanjem ministrstvu
+                    zaključil poleti 1918, ko je zaradi zdravstvenih razlogov odšel v pokoj. Prevrat
+                    je dočakal v Kamniku in se nato na Žolgerjevo prošnjo reaktiviral. S sabo v
+                    Pariz je odnesel tudi svoje zapiske, ki so nastali med službovanjem v stari
+                    monarhiji.</hi>
+                <note place="foot" xml:id="ftn31" n="29"> NUK, Rokopisni
+                        oddelek, Ms 1834, Zapuščina Frana Vidica, biografija Iva Šublja,
+                        tipkopis.</note><hi style="font-size:12pt" xml:space="preserve"> Poleg Šublja je iz sistema nekdanjega zunanjega ministrstva izhajal tudi generalni konzul dr. Hans Schwegel alias Ivan Švegel, sicer zadnji avstro-ogrski konzul v St. Louisu.</hi><note place="foot" xml:id="ftn32" n="30"> Prim. Andrej Rahten,
+                        <hi rend="italic" xml:space="preserve">Med Kakanijo in Wilsonio. Poklicne in politične preizkušnje Hansa Schwegla alias Ivana Švegla </hi>(Celovec
+                        – Ljubljana – Dunaj: Mohorjeva založba, 2018).</note>
+                <hi style="font-size:12pt">Na seznamu pravnikov pa sta se znašla tudi dva člana
+                    Jugoslovanskega odbora, poleg Vošnjaka še tajnik odbora Tomaž Šorli, ki je bil
+                    pred vojno notar v istrskem Podgradu.</hi>
+                <note place="foot" xml:id="ftn33" n="31"> SI AS 1164, š.
+                        1343, seznam osebja za pripravljalno delo na mirovni konferenci. V arhivskem
+                        gradivu je seznam ohranjen v štirih različicah.</note>
+            </p>
+            <p rend="HTML Preformatted">
+                <hi style="font-size:12pt">Če ta seznam primerjamo s tistim, ki je bil ob odhodu
+                    glavnine udeležencev poslan na švicarsko poslaništvo, se večinoma ujema. Manjša
+                    odstopanja so pretežno posledica različnih načinov potovanja v Pariz. Zdi se, da
+                    je tako še najbolj popolna skupinska fotografija »slovenske sekcije«
+                    jugoslovanske delegacije, ki jo hrani Narodna in univerzitetna knjižnica v
+                    Ljubljani, čeprav na njej manjka najpomembnejši član ekipe – Žolger.</hi>
+                <note place="foot" xml:id="ftn34" n="32">
+                        <hi style="font-size:10pt">Fotografija je morala nastati v času od druge
+                            polovice maja do konca junija. Na njej je namreč tudi koroški duhovnik
+                            Jurij M. Trunk, ki je bil na konferenci samo v tem obdobju. – SI AS,
+                            1164, š. 1346, dopis komisije za mirovno konferenco Trunku, 15. 5. 1919.
+                            V dopisu so Trunka zaprosili, naj se čim prej odpravi v Pariz.
+                            Predsednik Deželne vlade za Slovenijo Janko Brejc je bil namreč »mnenja,
+                            da bi bilo potrebno, ako bi se nahajalo sedaj v Parizu večje število
+                            oseb, ki se dobro spoznajo v koroških zadevah, ker bo treba primerno
+                            nastopiti proti prvovrstnim delegatom Nemške Avstrije«. Brejc je Trunka
+                            predlagal predvsem zato, »da se plebiscit v Celovcu in okolici
+                            prepreči«.</hi>
+                    </note>
+            </p>
+            <p rend="HTML Preformatted">
+                <hi style="font-size:12pt">Kakšen pa je bil položaj slovenskih pravnikov v
+                    hierarhiji celotne jugoslovanske delegacije? Ožji, politični del jugoslovanske
+                    delegacije je po sklepu beograjske vlade z dne 22. decembra 1918 sestavljalo
+                    sedem članov: trije Srbi, dva Hrvata in dva Slovenca. Po položaju sta bila
+                    vodilna Pašić in Trumbić, zato bi bilo v skladu s formulo »SHS« verjetno
+                    logično, da bi bil tretji po vrsti Slovenec, a se to ni zgodilo. Pred Žolgerja
+                    je namreč beograjska vlada postavila srbskega poslanika v Parizu Milenka
+                    Vesnića. Na podlagi ohranjenega Pitamičevega gradiva je mogoče sklepati, da so
+                    bila pričakovanja Slovencev drugačna. O tem pričajo različne verzije poslovnika
+                    za zastopstvo Jugoslavije pri mirovni konferenci, ki je zelo verjetno nastal v
+                    sodelovanju Žolgerja in Pitamica. Sprva je §1 predvideval, da zastopstvo
+                    Jugoslavije pri mirovnih pogajanjih tvorijo naslednji delegati: Pašić, Trumbić
+                    in Žolger. Tem delegatom pa bi bili dodani svetovalci, in sicer: Vesnić,
+                    nekdanji poslanik v Londonu Mata Bošković, bivši dalmatinski poslanec Josip
+                    Smodlaka in Rybář. V eni od nadaljnjih različic je zastopstvo Jugoslavije
+                    tvorila že sedmerica: Pašić kot predsednik, nato pa naj bi si po vrstnem redu
+                    sledili Trumbić, Žolger, Vesnić, Rybář, Smodlaka in Bošković. Samo prvi trije
+                    naj bi bili »oficijelni delegati«, torej poleg Pašića in Trumbića tudi
+                    Žolger.</hi>
+                <note place="foot" xml:id="ftn35" n="33">
+                        <hi style="font-size:10pt" xml:space="preserve">SI AS 1164, š. 1343, variantna besedila poslovnika za zastopstvo Jugoslavije pri mirovni konferenci. </hi></note>
+            </p>
+            <p rend="HTML Preformatted">
+                <hi style="font-size:12pt" xml:space="preserve">Tretje mesto v delegaciji ni imelo zgolj prestižnega pomena. V skladu s sedežnim redom je imela jugoslovanska delegacija v plenarni dvorani zgolj tri sedeže, kar je pomenilo, da so tam sedeli Pašić, Trumbić in Vesnić. Res pa je, da so znotraj delegacije dosegli dogovor o možnosti zamenjave z Žolgerjem, če je šlo za posebej pomembne teme z vidika Slovencev. Omenjena četverica je imela status pooblaščenih delegatov, torej s pravico do podpisovanja pravno zavezujočih aktov, sledili pa so jim še trije vladni delegati. Kot peti po rangu je bil naposled postavljen Bošković, sledil pa mu je Smodlaka. In čisto na koncu, na sedmi položaj je bil kot drugi Slovenec imenovan še Rybář. Ker pa so se Slovenci zaradi opisane razporeditve v ožji delegaciji čutili le nekoliko preveč zapostavljene, so jim namenili še en relativno pomemben položaj: generalni sekretar delegacije. To je postal Vošnjak, ki si je karto za Pariz prislužil kot član Trumbićevega Jugoslovanskega odbora. </hi>
+            </p>
+            <p>Medtem ko je Žolger z vlado v Beogradu komuniciral po Vošnjakovem generalnem
+                tajništvu delegacije, pa je stike z Deželno vlado za Slovenijo vzdrževal neposredno.
+                Njegova pisarna je zato v popisu predstavnikov Kraljevine SHS na konferenci iz
+                novembra 1919 navedena celo kot »Slovenačka delegacija«. Poleg Žolgerja je imel
+                znotraj jugoslovanske delegacije poseben kabinet samo še Trumbić, kar pa je za
+                zunanjega ministra seveda tudi logično.<note place="foot" xml:id="ftn36" n="34"> Mitrović, <hi rend="italic">Jugoslavija</hi>, 9,
+                        37–38, 244. </note>
+            </p>
+            <p>Nihče od Slovencev na konferenci se ni mogel pohvaliti z diplomatskimi izkušnjami v
+                mednarodni politiki, izstopali sta zgolj dve izjemi. Prva je bil Vošnjak, ki se je
+                med vojno kot član Jugoslovanskega odbora dodobra naužil diplomatskega vzdušja v
+                Rimu, Parizu, Londonu in Washingtonu.<note place="foot" xml:id="ftn37" n="35">
+                        <hi style="font-size:10pt" xml:space="preserve">Prim. Aleksandra Gačić, </hi><hi rend="italic" style="font-size:10pt">Bogumil Vošnjak</hi><hi style="font-size:10pt">.</hi>
+                        <hi rend="italic" style="font-size:10pt" xml:space="preserve">Politik in diplomat </hi><hi style="font-size:10pt" xml:space="preserve">(Ljubljana: Založništvo Jutro, 2017). Kot že rečeno, je v Jugoslovanskem odboru deloval tudi Šorli, a se zdi, da se na diplomatskem parketu ni toliko angažiral. </hi></note>
+                Čeprav so bila ob koncu vojne razhajanja med Jugoslovanskim odborom in srbsko vlado
+                že precejšnja, pa je slednja od vsega začetka njegovega delovanja nudila
+                avstro-ogrskim južnoslovanskim emigrantom občutno logistično in finančno podporo. To
+                je v spominih poudaril tudi Vošnjak, ko je primerjal položaj svojih kolegov iz
+                odbora s češkimi emigranti, med katerimi je sprva bolj ali manj osamljeno deloval
+                zgolj Masaryk, ki se mu je šele jeseni 1915 pridružil tudi Edvard Beneš. Toda srbska
+                podpora Trumbićevi ekipi ni bila povsem samoumevna, kar se je videlo v pogosto
+                zamudnih postopkih odobravanja srbskih potnih listov, kjer je bilo po Vošnjakovem
+                pričevanju tudi precej »pravnega nategovanja«. Je pa tudi res, da se mu vsaj ni
+                dogajalo to, kar je izkusil Beneš, ki je bil zaradi neurejenega statusa večkrat
+                zaprt v Veliki Britaniji in tudi Franciji. Nasprotno pa se je Vošnjak lahko celo
+                veselil diplomatskega vizuma. Tako je lahko svoje znanje ob srbski podpori nemoteno
+                uporabljal pri antihabsburški propagandi. Pogosto mu je prav prišla tudi njegova
+                znanstvena ekspertiza, kar se je pokazalo ob njegovem predavanju na Sorboni, ko je
+                pred polno dvorano razlagal o Ilirskih provincah. Po različnih nastopih in sestankih
+                v zahodnoevropskih prestolnicah se je Vošnjak leta 1918 močno izpostavil zlasti v
+                ZDA, kjer pa njegova propagandna dejavnost v korist Karađorđevićev, temelječa na <hi rend="italic">Krfski deklaraciji</hi>, ki jo je tudi sopodpisal, med ameriškimi
+                Slovenci ni bila ravno uspešna. Vsekakor pa so mu diplomatske izkušnje, ki si jih je
+                nabral med vojno, kasneje zelo koristile, kar je priznal tudi v spominih: »Svetovna
+                vojna je bila najsijajnejša diplomatska šola, ki si jo lahko zamislimo. Tiste, ki so
+                sodelovali pri različnih dejavnostih, je spravljala v različne diplomatske
+                situacije. In ni bil samo diplomat po stroki tisti, ki se je lahko uril v tem spoju
+                neizmerno bogatih diplomatskih kombinacij, ampak je tudi za prijatelja mednarodnih
+                odnosov napočil čas, da iz tega kaosa nastane nov velik koncept mednarodnega
+                    prava.«<note place="foot" xml:id="ftn38" n="36"> Bogumil
+                        Vošnjak, <hi rend="italic">U borbi za ujedinjenu narodnu državu. Utisci i
+                            opažanja iz doba svetskog rata i stvaranja naše države</hi> (Ljubljana –
+                        Beograd – Zagreb: Tiskovna zadruga u Ljubljani – izdavačke knjižare Geca
+                        Kona u Beogradu – Z. i V. Vasića u Zagrebu, 1928), 33, 122, 123, 143,
+                        154.</note>
+            </p>
+            <p>Poleg Vošnjaka, ki je v diplomacijo vstopil kot samouk, pa je bil v vrstah
+                jugoslovanske delegacije tudi Švegel, nekdanji gojenec konzularne akademije na
+                Dunaju, ki je hkrati na innsbruški univerzi doktoriral iz prava. Bil je nečak
+                slavnejšega blejskega diplomata Josefa barona Schwegla in je od preloma stoletja
+                služboval na številnih avstro-ogrskih konzulatih, zlasti v ZDA in Kanadi, vojno pa
+                je pričakal kot konzul v St. Louisu. Po vstopu ZDA v vojno se je Švegel vrnil v
+                domovino in se odlikoval na albanski fronti. Tudi njega je izbral Žolger.<note place="foot" xml:id="ftn39" n="37"> SI AS 1164, š. 1347,
+                        Žolgerjevo navodilo za telegram Šveglu, 26. 12. 1919. </note> Takoj po
+                prihodu v Pariz je Švegel navezal stike z ameriškimi kolegi, pri čemer se je uspešno
+                skliceval na svojo konzularno preteklost v ZDA. Nastanil se je v mondenem hotelu <hi rend="italic">Continental</hi> na <hi rend="italic">Place de la Concorde</hi>, v
+                bližini ameriške delegacije. Bil je prijatelj ali vsaj znanec številnih ameriških
+                ekspertov, večinoma uglednih profesorjev, kot sta bila geografa Douglas Wilson
+                Johnson in Robert Joseph Kerner.<note place="foot" xml:id="ftn40" n="38"> Albin Prepeluh,
+                        <hi rend="italic" xml:space="preserve">Pripombe k naši prevratni dobi </hi>(Ljubljana:
+                        Založba univerzitetne tiskarne J. Blasnika, 1938), 276.</note>
+                Vzpostavil je stik tudi s Charlesom Seymourjem, vodilnim članom izvedenske skupine
+                za avstro-ogrsko problematiko znotraj znamenite komisije <hi rend="italic">Inquiry</hi>, ki je Wilsona oskrbovala z analizami.<note place="foot" xml:id="ftn41" n="39"> Uroš Lipušček,
+                        <hi rend="italic" xml:space="preserve">Ave Wilson: ZDA in prekrajanje Slovenije v Versaillesu </hi>(Ljubljana:
+                        Založba Sophia, 2003), 107, 108, 115.</note>
+            </p>
+            <p>S poznanstvi z Američani se je že pred konferenco lahko pohvalil tudi Vošnjak, ko je
+                kot član Jugoslovanskega odbora deloval med rojaki v ZDA. Čeprav se je sredi
+                decembra 1918 v časniku <hi rend="italic" xml:space="preserve">Slovenec </hi>celo
+                pojavilo sporočilo, da je Vošnjak pripotoval v Pariz na mirovno konferenco z isto
+                ladjo kot Wilson, se je izkazalo, da je šlo za napačno informacijo. Vošnjaku je med
+                delovanjem v ZDA uspelo priti do nekaterih uglednih intelektualcev, kot je bil
+                mednarodni pravnik James Brown Scott, ki je bil zelo blizu Wilsonu. Med drugim je
+                znameniti pravnik uredil predsednikove govore in druga dela, Vošnjaku pa je napisal
+                predgovor k ameriški izdaji knjige <hi rend="italic">A Bulwark against Germany</hi>.
+                Toda vseeno je bilo Vošnjakovo ameriško omrežje manjše, kot ga je v poldrugem
+                desetletju službovanja uspelo splesti zadnjemu avstro-ogrskemu konzulu v St. Louisu
+                Šveglu (v ZDA se je Vošnjak sicer januarja 1918 pripeljal na ladji z imenom – »St.
+                Louis«). O njunem sodelovanju na pariški mirovni konferenci je sploh malo znanega.
+                Ve pa se, da je imel Vošnjak o avstro-ogrskih konzulih v ZDA zelo slabo mnenje, češ
+                da so z ustanavljanjem raznih veteranskih patriotičnih društev med nekdanjimi
+                podložniki habsburške monarhije širili »strup«.<note place="foot" xml:id="ftn42" n="40"> Vošnjak, <hi rend="italic">U borbi</hi>, 289,
+                        318, 344.</note>
+            </p>
+            <p>Žolgerju nekdanja avstrijska ministrska funkcija na konferenci ni ravno koristila,
+                saj so bili zlasti Italijani in Čehi do njega kot ministra poražene države
+                    zadržani.<note place="foot" xml:id="ftn43" n="41">
+                        Prepeluh, <hi rend="italic">Pripombe</hi>, 270, 271. </note> A tudi na
+                nekatere člane jugoslovanske delegacije je Žolgerjeva prisotnost delovala moteče.
+                Nad vladnim izborom se je zmrdoval tudi Vošnjak, ki je sicer kolegu pravniku
+                priznaval »dobro strokovno kvalifikacijo«, očital pa mu je, da je bil »včasih velik
+                avstrijakant, ki je postal minister ne vsled svoje slovenske pripadnosti, temveč
+                radi dobre avstrijske reputacije«. Vošnjaka je zmotilo tudi to, da se je Žolger
+                ameriškemu državnemu sekretarju Robertu Lansingu menda predstavil tako, »da bi mogel
+                slednji skoraj misliti, da ima opravka s starim pruskim junkerjem«.<note place="foot" xml:id="ftn44" n="42"> Bojan Himmelreich,
+                        »Slovenski člani jugoslovanske delegacije na pariški mirovni konferenci
+                        1919–1920,« <hi rend="italic" xml:space="preserve">Celjski zbornik </hi>29
+                        (1993): 163–79, tu 168.</note> Po pričevanju Vošnjakovega nekdanjega
+                kolega iz Jugoslovanskega odbora, kiparja Ivana Meštrovića, je imel Žolger menda
+                sprva v delegaciji celo nekaj težav v komunikaciji. Menda ni znal ne hrvaško ne
+                srbsko, zlobni jeziki pa so govorili, da tudi slovenščine ni bil najbolj vešč. Pri
+                bolj kompleksnih zadevah se je po Meštrovićevih trditvah raje zatekal k nemščini,
+                kar je baje iritiralo nekatere jugoslovanske kolege.<note place="foot" xml:id="ftn45" n="43"> Ivan Meštrović,
+                        <hi rend="italic" xml:space="preserve">Uspomene na političke ljude i događaje </hi>(Zagreb:
+                        Nakladni zavod Matice Hrvatske, 1993), 116.</note> Pašić je na začetku
+                konference celo predlagal vladi v Beogradu zamenjavo Žolgerja, češ da je bil
+                minister države, ki se je vojskovala proti Antanti, in kot tak tudi podpiral
+                politiko Avstro-Ogrske do Srbije, ki pa je bila na koncu poražena.<note place="foot" xml:id="ftn46" n="44">
+                        <hi rend="italic">Zapisnici sa sednica delegacije Kraljevine SHS na mirovnoj
+                            konferenciji u Parizu 1919–1920</hi>, ur. Bogdan Krizman in Bogumil
+                        Hrabak (Beograd: Inštitut društvenih nauka, 1960), 19. </note> Na
+                njegovem položaju bi menda raje videl Ivana Hribarja, s katerim sta se poznala že iz
+                časa balkanskih vojn. Toda vlada v Beogradu, ki ji je predsedoval Stojan Protić,
+                Korošec pa je bil njen podpredsednik, je to zavrnila, pa tudi Pašić je naknadno
+                našel skupni jezik z Žolgerjem.<note place="foot" xml:id="ftn47" n="45"> Meštrović, <hi rend="italic">Uspomene</hi>, 116.
+                        Mitrović, <hi rend="italic">Jugoslavija</hi>, 11. </note>
+            </p>
+            <p>Habsburške sence so očitno še vedno negativno vplivale na enotnost med Slovenci na
+                konferenci. Podobnih očitkov, češ da »je vedno stari avstrijski advokat«, je bil
+                namreč deležen tudi Rybář. Po Himmelreichovih ugotovitvah so se v Žolgerjevi ekipi
+                nakazovali obrisi dveh skupin. Na eni strani so bili tisti, ki so že v Avstro-Ogrski
+                imeli visoke položaje. Poleg Žolgerja in Rybářa so sem sodili še Šubelj, Švegel in
+                Stare. V drugi skupini pa so bili mlajši kolegi. Med temi so bili izvedenca Janko
+                Mačkovšek in Milko Brezigar ter medvojni člani Jugoslovanskega odbora: Bogumil
+                Vošnjak, Ivan Marija Čok in Drago Marušič. <note place="foot" xml:id="ftn48" n="46"> Himmelreich, »Slovenski člani,«
+                172.</note></p>
+            <p>Žolger je na sedežu delegacije neumorno sestankoval in se trudil s pisanjem
+                najrazličnejših besedil, ki jih je sestavljal z veliko skrbnostjo, manj uspešen pa
+                je bil pri pridobivanju osebnih vezi. Njegova preteklost ministra črno-žolte
+                monarhije ga je seveda pri tem precej ovirala, zato tudi svojega dobrega znanja
+                francoščine ni mogel v celoti izkoristiti. Uspelo mu je sicer priti do profesorja
+                Émila Haumonta, ki je svetoval predsedujočemu na konferenci, Georgesu Clemenceauju.
+                Vzpostavil je tudi nekaj zanimivih stikov s francosko aristokracijo in maršalom
+                Ferdinandom Fochem, a se ti niso izkazali kot odločilni. Šveglove metode so bile
+                nedvomno drugačne od Žolgerjevih, kar je v svojem opisu pariške mirovne konference
+                odlično analiziral njun sodobnik Albin Prepeluh, ki je o nekdanjem konzulu zapisal:
+                »Znal si je pridobiti osebne naklonjenosti s svojim uglajenim nastopom, z vabili na
+                razne soareje in podobno ter se uveljaviti kot poznavalec politične in diplomatske
+                zgodovine avstro-ogrske monarhije v dolgi dobi vladanja Franca Jožefa I.«<note place="foot" xml:id="ftn49" n="47"> Prepeluh, <hi rend="italic">Pripombe</hi>, 275, 276.</note> Seveda je bila med
+                obema Ivanoma velika razlika v rangu: Žolger je bil po funkciji četrti v hierarhiji
+                jugoslovanske delegacije, Švegel pa zgolj izvedenec v tiskovni sekciji. Zanimivo pa
+                je, da je prvemu avstro-ogrska kariera v stikih z diplomati v Parizu škodila in jo
+                je skušal prikrivati, drugi pa se je v svojih nastopih nanjo skliceval in jo v
+                stikih z Američanih tudi dobro izrabil. Najbolj je bilo to očitno, ko mu je uspelo
+                doseči dve avdienci Slovencev pri Wilsonu.</p>
+            <p>Žolgerja je že med pariško konferenco vleklo nazaj v znanost. Konec leta 1919 je tako
+                že bil odločen, da odide domov, in je prosil za razrešitev. Na seji jugoslovanske
+                delegacije 7. decembra 1919 je kolegom dejal, da ga doma čakajo nujni posli, med
+                drugim je omenil »organizacijo pravne fakultete v Ljubljani«. Rybář se je zavzel, da
+                Žolger še vendarle ostane v delegaciji. Zaradi pomembnih diplomatskih nalog si je
+                nato tudi Žolger premislil. Tako je ostal v Parizu do začetka poletja 1920, ko je
+                beograjska vlada tudi uradno razrešila delegacijo. Povod je bila Pašićeva prošnja,
+                da odstopi, nakar se je vlada odločila za razpustitev celotne delegacije. Njene
+                naloge naj bi kot zunanji minister prevzel Trumbić. Pašić je sicer zatrjeval, da to
+                ni bil njegov namen in da je želel zgolj lastno razrešitev. Žolger je na seji
+                delegacije 24. junija 1920 izrazil začudenje nad takšno vladno odločitvijo po
+                formalni in vsebinski plati. Menil je, da vladni postopek v formalnem smislu »ni
+                brezhiben«, vendar se v podrobnosti ni želel spuščati. Še bolj pa ga je motilo, da
+                je prišlo do razpustitve delegacije, ko najpomembnejša vprašanja sploh še niso bila
+                rešena. V mislih je imel jadransko vprašanje, kjer z Italijo še vedno ni bilo
+                dogovora, pa tudi koroški plebiscit, ki naj bi bil izveden že čez dobre tri mesece.
+                Kljub dvomom v formalno in vsebinsko pravilnost vladnega postopka je Žolger izjavil,
+                da se bo umaknil, saj si je to že zdavnaj želel.<note place="foot" xml:id="ftn50" n="48"> Krizman in Hrabak, <hi rend="italic">Zapisnici</hi>, 202, 298.</note>
+            </p>
+            <p>Ob koncu pariške konference so Žolgerju predlagali, da bi vstopil v diplomacijo, a je
+                poudarjal, da hoče biti le profesor in znanstvenik. Beograjska vlada mu je na primer
+                ponudila, da bi zastopal Kraljevino SHS na mednarodni konferenci v Barceloni, a je
+                vztrajal pri svoji odločitvi. Sprejel pa je poziv, da kot zastopnik Kraljevine SHS
+                sodeluje na prvi skupščini Društva narodov, ki je bila v Ženevi od 14. novembra do
+                22. decembra 1920. Postal je tudi član Stalnega meddržavnega razsodišča v Haagu.
+                Nedvomno pa ga je prav pariška diplomatska izkušnja po vrnitvi v Ljubljano usmerila,
+                da se je namesto ustavnega poglobil v mednarodno, takrat imenovano še »meddržavno
+                pravo«. Žolger je po končanih diplomatskih obveznostih 16. marca 1921 končno opravil
+                nastopno predavanje z naslovom <hi rend="italic">Novo meddržavno pravo</hi>.<note place="foot" xml:id="ftn51" n="49"> Ivan Žolger, »Novo
+                        meddržavno pravo,«
+                        <hi rend="italic" xml:space="preserve">Slovenski pravnik </hi>35 (1921):
+                        1–17.</note>
+            </p>
+            <p>Na pravno fakulteto je odšel tudi Pitamic, ki je postal sploh njen prvi dekan. Uvodno
+                predavanje <hi rend="italic" xml:space="preserve">Pravo in revolucija </hi>je imel
+                15. aprila 1920. Ob Žolgerju je imel nedvomno največje zasluge, da se je v okviru
+                fakultete razvila tudi stolica za mednarodno pravo z občo in nacionalno diplomatsko
+                zgodovino (slednja se ni izvajala).<note place="foot" xml:id="ftn52" n="50"> Anžur, »Oris,« 97, 100, 103.</note> Zanimivo je,
+                da je Pitamic prav v letu vzpostavitve kraljeve diktature leta 1929 prišel do
+                položaja poslanika v Washingtonu. S štiriinštiridesetimi leti je postal sploh
+                najmlajši jugoslovanski poslanik. A to je bila tudi njegova zadnja diplomatska
+                funkcija v karieri.<note place="foot" xml:id="ftn53" n="51">
+                        Rahten, <hi rend="italic">Med Kakanijo in Wilsonio</hi>, 185.</note></p>
+            <p>Še trije slovenski pravniki, ki so se udeležili pariške konference, so v novi državi
+                dobili poslaniški položaj. Drugi slovenski delegat Otokar Rybář, ki so mu fašisti
+                medtem v Trstu razdejali odvetniško pisarno, je marca 1921 sprejel ponujeno
+                diplomatsko službo. Bil je med drugim prvi delegat Kraljevine SHS na prvi in drugi
+                konferenci nasledstvenih držav v Rimu leta 1921 in 1922. Sodeloval je tudi pri
+                pogajanjih z Italijo za izvršitev <hi rend="italic">Rapalske pogodbe</hi>. Sredi
+                avgusta 1922 je bil imenovan za poslanika v Bruslju, vendar je bila ta funkcija
+                zgolj titularna, saj je delo opravljal v Beogradu. Podobno je bil kasneje imenovan
+                še za poslanika v Tirani in Carigradu. Od začetka septembra 1922 je v Beogradu vodil
+                oddelek za mednarodne pogodbe v zunanjem ministrstvu in nato sodeloval v številnih
+                pogajanjih, zlasti z Italijo.<note place="foot" xml:id="ftn54" n="52"> Vrčon, »Otokar Rybář«, 232, 233.</note> S svojim
+                nekdanjim kolegom z mirovne konference Žolgerjem se je Rybář leta 1923 zapletel v
+                polemiko glede vprašanja, ali je Kraljevina SHS nova ali stara država. Žolger je
+                izhajal s stališča, da je Kraljevina SHS nova država in ne predstavlja zgolj
+                razširitve nekdanje Kraljevine Srbije na nova ozemlja, kot je trdil Rybář.<note place="foot" xml:id="ftn55" n="53"> Prim. Ivan Žolger,
+                        »Da li je naša kraljevina nova ili stara država?,« <hi rend="italic">Slovenski pravnik</hi> 37 (1923): 68–85. Otokar Rybář, »Da li je naša
+                        kraljevina nova ili stara država?,« <hi rend="italic">Arhiv za pravne i
+                            društvene nauke</hi> 23 (1923): 241–61.</note>
+            </p>
+            <p>Tudi nekdanji generalni sekretar jugoslovanske delegacije v Parizu Vošnjak se je
+                zavihtel na poslaniški položaj. Zdi se, da je diplomatsko vstopnico bolj kot v
+                zahvalo za delo na mirovni konferenci dobil kot pohvalo za držo pri sprejemanju <hi rend="italic">Vidovdanske ustave</hi> v konstituanti. A njegovo imenovanje za
+                poslanika Kraljevine SHS v Pragi konec julija 1921 je bilo bolj kratkega veka in je
+                bil predčasno odpoklican. V spominih se je pritoževal, da je bil menda moteč za
+                srbsko diplomatsko elito, pri čemer menda tudi njegov nekdanji pariški šef Pašić »ni
+                igral lepe igre«.<note place="foot" xml:id="ftn56" n="54">
+                        Vošnjak, <hi rend="italic">U borbi</hi>, 382.</note> V Pragi je Vošnjak
+                nasledil Ivana Hribarja, nesojenega Pašićevega kandidata za Žolgerjev položaj v
+                    Parizu.<note place="foot" xml:id="ftn57" n="55"> Sicer
+                        so tudi Hribarju očitali, da si je nekoliko preveč podjetno razlagal
+                        diplomatske kompetence. To lahko sklepamo na podlagi sodnih spisov, ko sta
+                        se v letih 1927–1929 tožarila s političnim nasprotnikom Franom Šukljetom.
+                        Tam lahko preberemo tudi, da se je Hribar v Pragi »na široko bavil s
+                        kupčijskimi posredovanji«. Med drugim je bilo v spisu mogoče najti tudi
+                        naslednji očitek na njegov račun: »Ko je prišel tedanji minister dr. Kramer
+                        v Prago so ga merodajni češki krogi od vseh strani rotili, da naj se napravi
+                        temu konec, rekoč, da tožnik ni nikak diplomat niti konzul, ampak navadni
+                        agent, da je z njim težko delati, ker samo na to gleda, kako bi kaj
+                        zaslužil; prosili so dr. Kramerja, naj se pošlje v Prago moža, ki bo
+                        zastopnik Kraljevine ne pa trgovine.« – Jelka Melik, »Hribar in Šuklje pred
+                        sodiščem,« v: <hi rend="italic">Melikov zbornik. Slovenci v zgodovini in
+                            njihovi srednjeevropski sosedje</hi>, ur. Vincenc Rajšp et al.
+                        (Ljubljana: Založba ZRC, 2001), 977–92, tu 980, 981.</note> Poslaniški
+                mandat pa je predčasno zaključil tudi Švegel, ki je v letih 1931–1932 služboval v
+                Buenos Airesu, a se je od tam poslovil iz protesta zaradi nestrinjanja z ravnanjem
+                srbskih kolegov. Tudi v njegovem primeru se je pokazalo, da so se običaji in navade
+                v diplomaciji nove države razlikovali od tistih v nekdanji.</p>
+            <p>Na koncu lahko ugotovimo, da so slovenski pravniki z udeležbo in organizacijo svojega
+                strokovnega dela za pariško mirovno konferenco pokazali visoko stopnjo odgovornosti,
+                ki je bila v prvi vrsti izraz njihovega domoljubja. Kljub očitkom, ki so jih bili
+                nekateri deležni zaradi svojega domnevnega »avstrijakantstva«, njihova lojalnost
+                novi državi ni bila sporna. Prej nasprotno, morda jih je prav habsburška preteklost
+                še bolj motivirala pred srbskimi in hrvaškimi kolegi v jugoslovanski delegaciji. </p>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <list>
+                    <head>Arhivski viri:</head>
+                    <item>
+                <list type="unordered">
+                <item>SI AS, Arhiv Republike Slovenije: </item>
+                <item>SI AS 1164.</item>
+                </list></item>
+            <item><list type="unordered">
+                <item>NUK, Narodna in univerzitetna knjižnica:</item>
+                <item>Rokopisni oddelek, Ms 1834, Zapuščina Frana Vidica.</item>
+                <item>Rokopisni oddelek, Ms 1963, Ostalina Janka Mačkovška.</item>
+            </list></item></list>
+            <listBibl>
+                <head>Literatura:</head>
+                <bibl><hi style="font-size:12pt" xml:space="preserve">Anžur, Tea. »Oris pravne fakultete med obema vojnama.« </hi><hi rend="italic" style="font-size:12pt">Kronika</hi><hi style="font-size:12pt" xml:space="preserve"> 46, št. 3 (1998): 97–106.</hi></bibl>
+                <bibl>Čuček, Filip. »K zgodovini češkoslovaško-jugoslovanskega koridorja
+                    (češko-slovenski zorni kot).«
+                    <hi rend="italic" xml:space="preserve">Zgodovinski časopis </hi>70, št. 1–2
+                    (2016): 206–25.</bibl>
+                <bibl>Djokić, Dejan. <hi rend="italic">Pašić and Trumbić. The Kingdom of Serbs,
+                    Croats and Slovenes</hi>. London: Haus Publishing, 2010.</bibl>
+                <bibl>Ehrlich, Lambert. »Pariška mirovna konferenca in Slovenci 1919/20.« <hi rend="italic">Acta Ecclesiastica Sloveniae</hi>, št. 24 (2002):
+                    53–640.</bibl>
+                <bibl>Gačić, Aleksandra. <hi rend="italic">Bogumil Vošnjak</hi>. <hi rend="italic">Politik in diplomat</hi>. Ljubljana: Založništvo Jutro, 2017.</bibl>
+                <bibl>Himmelreich, Bojan. »Slovenski člani jugoslovanske delegacije na pariški
+                    mirovni konferenci 1919–1920.«
+                    <hi rend="italic" xml:space="preserve">Celjski zbornik </hi>29 (1993):
+                    163–79.</bibl>
+                <bibl>Kardum, Livia. »Pitanje međunarodnog priznanja Kraljevine Srba, Hrvata i
+                    Slovenaca.« <hi rend="italic" xml:space="preserve">Politička misao </hi>23, št.
+                    3 (1986): 119–30.</bibl>
+                <bibl><hi style="font-size:12pt">Krizman, Bogdan in Bogumil Hrabak, ur.,</hi>
+                    <hi rend="italic" style="font-size:12pt" xml:space="preserve"> Zapisnici sa sednica delegacije Kraljevine SHS na mirovnoj konferenciji u Parizu 1919–1920</hi><hi style="font-size:12pt">. Beograd: Inštitut društvenih nauka,
+                        1960.</hi></bibl>
+                <bibl><hi style="font-size:12pt" xml:space="preserve">Kušej, Gorazd. »Ob 50-letnici slovenske pravne fakultete (1920–1970).« </hi><hi rend="italic" style="font-size:12pt" xml:space="preserve">Zbornik znanstvenih razprav </hi><hi style="font-size:12pt" xml:space="preserve">34 (1970): 1–18. </hi></bibl>
+                <bibl><hi style="font-size:12pt" xml:space="preserve">Lipušček, Uroš. </hi><hi rend="italic" style="font-size:12pt">Ave Wilson: ZDA in prekrajanje
+                    Slovenije v Versaillesu</hi><hi style="font-size:12pt">. Ljubljana: Založba
+                        Sophia, 2003.</hi></bibl>
+                <bibl><hi style="font-size:12pt" xml:space="preserve">Matsch, Erwin, ur. </hi><hi rend="italic" style="font-size:12pt">November 1918 auf dem Ballhausplatz.
+                    Erinnerungen Ludwigs Freiherrn von Flotow, des letzten Chefs des
+                    österreichisch-ungarischen auswärtigen Dienstes 1895–1920</hi><hi style="font-size:12pt">. Wien – Köln – Graz: Hermann Böhlaus Nachf.,
+                        1982.</hi></bibl>
+                <bibl><hi style="font-size:12pt" xml:space="preserve">Melik, Jelka. »Hribar in Šuklje pred sodiščem.« V: </hi><hi rend="italic" style="font-size:12pt">Melikov zbornik. Slovenci v zgodovini
+                    in njihovi srednjeevropski sosedje</hi><hi style="font-size:12pt">, ur.
+                        Vincenc Rajšp et al., 977–92. Ljubljana: Založba ZRC, 2001.</hi></bibl>
+                <bibl><hi style="font-size:12pt" xml:space="preserve">Meštrović, Ivan. </hi><hi rend="italic" style="font-size:12pt">Uspomene na političke ljude i
+                    događaje</hi><hi style="font-size:12pt">. Zagreb: Nakladni zavod Matice
+                        Hrvatske, 1993.</hi></bibl>
+                <bibl><hi style="font-size:12pt">Mitrović, Andrej.</hi>
+                    <hi rend="italic" style="font-size:12pt">Jugoslavija na konferenciji mira
+                        1919–1920</hi><hi style="font-size:12pt">. Beograd: Zavod za izdavanje
+                            udžbenika SR Srbije, 1969.</hi></bibl>
+                <bibl><hi style="font-size:12pt" xml:space="preserve">Nećak, Dušan. »Pisarna za zasedeno ozemlje.« </hi><hi rend="italic" style="font-size:12pt">Kronika</hi><hi style="font-size:12pt" xml:space="preserve"> 20 (1972): 101–106.</hi></bibl>
+                <bibl><hi style="font-size:12pt" xml:space="preserve">Prepeluh, Albin. </hi><hi rend="italic" style="font-size:12pt">Pripombe k naši prevratni dobi</hi><hi style="font-size:12pt">. Ljubljana: Založba univerzitetne tiskarne J.
+                    Blasnika, 1938.</hi></bibl>
+                <bibl><hi style="font-size:12pt" xml:space="preserve">Rahten, Andrej. </hi><hi rend="italic" style="font-size:12pt">Med Kakanijo in Wilsonio. Poklicne in
+                    politične preizkušnje Hansa Schwegla alias Ivana Švegla</hi><hi style="font-size:12pt">. Celovec – Ljubljana – Dunaj: Mohorjeva založba,
+                        2018.</hi></bibl>
+                <bibl><hi style="font-size:12pt" xml:space="preserve">Rahten, Andrej. »'Škandal prve vrste'. Diplomatska izkušnja slovenskih duhovnikov na pariški mirovni konferenci.« </hi><hi rend="italic" style="font-size:12pt" xml:space="preserve">Koledar Mohorjeve družbe v Celovcu </hi><hi style="font-size:12pt" xml:space="preserve">(2019): 61–66.  </hi></bibl>
+                <bibl><hi style="font-size:12pt" xml:space="preserve">Rybář, Otokar. »Da li je naša kraljevina nova ili stara država?« </hi><hi rend="italic" style="font-size:12pt">Arhiv za pravne i društvene
+                    nauke</hi><hi style="font-size:12pt" xml:space="preserve"> 23 (1923): 241–61.</hi></bibl>
+                <bibl><hi style="font-size:12pt" xml:space="preserve">Vošnjak, Bogumil. </hi><hi rend="italic" style="font-size:12pt">U borbi za ujedinjenu narodnu državu.
+                    Utisci i opažanja iz doba svetskog rata i stvaranja naše države</hi><hi style="font-size:12pt">. Ljubljana – Beograd – Zagreb: Tiskovna zadruga u
+                        Ljubljani – izdavačke knjižare Geca Kona u Beogradu – Z. i V. Vasića u
+                        Zagrebu, 1928.</hi></bibl>
+                <bibl><hi style="font-size:12pt" xml:space="preserve">Vrčon, Andrej. »Otokar Rybář.« V: </hi><hi rend="italic" style="font-size:12pt">Tvorci slovenske pomorske
+                    identitete</hi><hi style="font-size:12pt" xml:space="preserve">, ur. Andrej Rahten et al., 225–34. Ljubljana: Založba ZRC, 2010. </hi></bibl>
+                <bibl><hi style="font-size:12pt" xml:space="preserve">Žolger, Ivan. »Novo meddržavno pravo.« </hi><hi rend="italic" style="font-size:12pt" xml:space="preserve">Slovenski pravnik </hi><hi style="font-size:12pt">35 (1921): 1–17.</hi>
+                </bibl>
+                <bibl><hi style="font-size:12pt" xml:space="preserve">Žolger, Ivan. »Da li je naša kraljevina nova ili stara država?« </hi><hi rend="italic" style="font-size:12pt">Slovenski
+                    pravnik</hi><hi style="font-size:12pt" xml:space="preserve"> 37 (1923): 68–85.</hi></bibl>
+            </listBibl></div>
+            <div type="summary" xml:lang="en">
+                <docAuthor>Andrej Rahten</docAuthor>
+            <head>SLOVENIAN LAWYERS AS DIPLOMATS UNTIL THE INTERNATIONAL RECOGNITION OF THE NEW STATE </head>
+            <head>SUMMARY</head>
+            <p>An interesting detail from the time when the Faculty of Law was being established in
+                Ljubljana attests to the vital role of Slovenian lawyers in the diplomatic efforts
+                of the Kingdom of Serbs, Croats and Slovenes. When the first four full professors of
+                this Faculty were appointed on 31 August 1919, one of these lawyers – Ivan Žmavc –
+                rejected his appointment, while three of them – Bogumil Vošnjak, Leonid Pitamic, and
+                Ivan Žolger – were in Paris rather than in Ljubljana. At the time, all three were
+                members of the Yugoslav delegation at the Paris Peace Conference. In the legal
+                circles, Žolger was the most widely known of the new professors of the University of
+                Ljubljana. He was undoubtedly the greatest contemporaneous expert in the
+                Austro-Hungarian dualism and Austrian imperial law. During World War I, he was even
+                a minister in the Austrian government. On 22 December 1918, Žolger was appointed for
+                the Yugoslav delegation with the support of the Vice President of the Government of
+                the Kingdom of SHS Anton Korošec, who also proposed that Žolger should establish a
+                commission tasked with preparing the materials for the Paris Peace Conference.
+                Otokar Rybář, the second Slovenian delegate, was a lawyer as well. Before the
+                dissolution of Austro-Hungary, he represented the Trieste Slovenians in the Vienna
+                Parliament, and his familiarity with the questions of the Adriatic was therefore
+                exceedingly beneficial. The General Secretary of the Yugoslav delegation Bogumil
+                Vošnjak, otherwise a member of the anti-Austrian emigrant circles during the war,
+                was also a Slovenian lawyer. Lawyers were the most numerous occupational group among
+                the Slovenian participants of the Peace Conference. However, with only two
+                exceptions, none of them could boast any diplomatic experience in international
+                politics. The first exception was Vošnjak: as a member of the Yugoslav Committee, he
+                had obtained ample experience in the diplomatic scenes in Rome, Paris, London, and
+                Washington during the war. The second exception in the ranks of the Yugoslav
+                delegation was Hans Schwegel a.k.a. Ivan Švegel, the former student at the Vienna
+                Consular Academy who had simultaneously attained a doctorate in law from the
+                University of Innsbruck. As of the beginning of the century, he had worked at many
+                Austro-Hungarian consulates, in particular in the United States of America and
+                Canada. At the beginning of the war, he had been a consul in St. Louis. Žolger and
+                Švegel managed to establish the most diverse network of diplomatic relations in
+                Paris. The former was more successful in obtaining the French support, while the
+                latter had more success with the Americans. This was most obvious from the fact that
+                Švegel managed to ensure two Slovenian audiences with the American President Thomas
+                Woodrow Wilson. Generally, it can be ascertained that by organising their
+                professional work for the Paris Peace Conference and taking part in it, the
+                Slovenian lawyers exhibited a high level of responsibility, which was primarily a
+                reflection of their patriotism. </p></div>
+        </back>
+    </text>
+</TEI>
