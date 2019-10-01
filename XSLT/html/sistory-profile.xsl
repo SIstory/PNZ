@@ -54,7 +54,7 @@
    <!-- Uredi parametre v skladu z dodatnimi zahtevami za pretvorbo te publikacije: -->
    <!-- ../../../../pub/  -->
    <!-- http://www2.sistory.si/publikacije/ -->
-   <xsl:param name="path-general">http://www2.sistory.si/publikacije/</xsl:param>
+   <xsl:param name="path-general">https://www2.sistory.si/publikacije/</xsl:param>
    
    <xsl:param name="outputDir"></xsl:param>
    
