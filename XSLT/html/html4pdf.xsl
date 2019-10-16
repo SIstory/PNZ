@@ -51,7 +51,7 @@
       </desc>
    </doc>
   
-   
+   <xsl:output method="xhtml" indent="no"/>
    
    
    <!-- Uredi parametre v skladu z dodatnimi zahtevami za pretvorbo te publikacije: -->
