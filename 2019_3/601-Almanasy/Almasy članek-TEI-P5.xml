@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Linguistic
+                    Landscape of Lower Styria on Picture Postcards (1890-1920)</title>
+                <author>
+                    <name>
+                        <forename>Karin</forename>
+                        <surname>Almasy</surname>
+                        <roleName>Mag. Dr. phil. MA</roleName>
+                        <affiliation>University of Graz, Institut für Translationswissenschaft</affiliation>
+                        <address>
+                            <addrLine>Merangasse 70/1</addrLine>
+                            <addrLine>8010 Graz, Austria</addrLine>
+                        </address>
+                        <email>karin.almasy@uni-graz.at</email>
+                    </name>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2019-10-03</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/601</pubPlace>
+                <date>2019</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">59</biblScope>
+                <biblScope unit="issue">3</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Lower Styria</term>
+                    <term>picture postcards</term>
+                    <term>history of everyday life</term>
+                    <term>bilingualism</term>
+                    <term>language contact</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>Spodnja Štajerska</term>
+                    <term>razglednice</term>
+                    <term>zgodovina vsakdanjega življenja</term>
+                    <term>dvojezičnost</term>
+                    <term>jezikovni stik</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2019-12-29</date>
+                    <name>Neja Blaj Hribar</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Karin Almasy<note place="foot" xml:id="ftn1" n="*"><hi rend="bold">Mag. Dr. phil. MA, University of Graz, Institut für Translationswissenschaft, Merangasse 70/1, 8010 Graz, Austria; <ref target="mailto:karin.almasy@uni-graz.at">
+                    &gt;karin.almasy@uni-graz.at</ref></hi>
+            </note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="UDC">UDC: 323.1:81'246.2:77.047(497.4:436)"1890/1920"</idno>
+            </docImprint>
+            <div type="abstract" xml:lang="sl">
+                <head>EZIKOVNA KRAJINA SPODNJE
+                    ŠTAJERSKE NA RAZGLEDNICAH (1890–1920)</head>
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic" style="font-size:10pt">Ob koncu devetnajstega stoletja je v
+                    večjezični Habsburški monarhiji jezik postal pomemben – če ne kar najpomembnejši
+                    – etnični označevalec pri oblikovanju različnih nacionalnih identitet. V
+                    jezikovno mešanih pokrajinah monarhije jezik ni več veljal le za preprosto
+                    orodje komunikacije, ki ga je mogoče pragmatično izbirati glede na govorne
+                    okoliščine, ampak je postal simbol nacionalne identitete. Koliko pa je res
+                    znanega o dejanski uporabi jezika v dvojezičnih pokrajinah? S primerom
+                    dvojezične slovensko-nemške pokrajine Spodnje Štajerske je v prispevku
+                    predstavljeno, kako lahko razglednice kot bogat vir, ki je na voljo v velikih
+                    količinah, pomagajo osvetliti navzočnost jezika oziroma jezikov v javni sferi,
+                    družbeno stratifikacijo in geografsko porazdelitev jezikov, jezik v formalni in
+                    neformalni komunikaciji ter različne vrste dvojezičnosti in jezikovnega stika.
+                    Preučevanje razglednic s preloma stoletja – sredstva, ki je del vsakdanjega
+                    življenja – nam torej omogoči vpogled v jezikovno krajino Spodnje Štajerske in
+                    naslika podobo pokrajine, za katero niso bili značilni samo nacionalni
+                    konflikti, ampak tudi miren soobstoj.</hi></p>
+                <p><hi rend="italic" style="font-size:10pt">Ključne besede: Spodnja Štajerska,
+                    razglednice, zgodovina vsakdanjega življenja, dvojezičnost, jezikovni
+                    stik</hi></p>
+            </div>
+            <div type="abstract">
+                <head>ABSTRACT</head>
+                <p><hi rend="italic" style="font-size:10pt">Towards the end of the nineteenth century in
+                    the multilingual Habsburg Empire, language became an important – if not the most
+                    essential – ethnic marker in the construction of different national identities.
+                    In the linguistically mixed regions of the Empire, language was no longer
+                    perceived merely as a tool for communication that could be chosen pragmatically,
+                    depending on the social situations, and instead became an emblem of one’s
+                    national identity. However, how much is really known about how language was
+                    actually used in bilingual regions? By using the example of the bilingual
+                    Slovenian/German-speaking region of Lower Styria (Spodnja
+                    Štajerska/Untersteiermark), this paper suggests that picture postcards – a rich
+                    source available in large quantities – can help shed light on the visibility of
+                    language(s) in the public sphere, the social stratification and geographic
+                    distribution of languages, the language of formal and informal communication, as
+                    well as on the various forms of bilingualism and language contact. In short, the
+                    examination of picture postcards from the turn of the century, a medium close to
+                    everyday life, yields insights into the linguistic landscape of Lower Styria and
+                    paints a picture of a region characterised not only by national conflicts but
+                    also peaceful coexistence.</hi></p>
+                <p><hi rend="italic" style="font-size:10pt">Keywords: Lower Styria, picture postcards,
+                    history of everyday life, bilingualism, language contact</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p><hi style="font-size:12pt">Picture postcards were the first truly mass medium of
+                    communication. Even though they were long overlooked by historians as a
+                    seemingly “banal” source of information, after the “pictorial turn”</hi>
+                <note place="foot" xml:id="ftn2" n="1"> W. J. Thomas
+                        Mitchell, <hi rend="italic">Picture Theory: Essays on Verbal and Visual
+                            Representation</hi> (Chicago, Ill.: Univ. of Chicago Press,
+                    1995).</note><hi style="font-size:12pt" xml:space="preserve"> they have no longer been conceptualised as passive representations but rather as media apparatuses that condition the viewer’s patterns of perception. Postcards are multimodal specimens, characterised by an intersection of visual and textual information, and should be studied not only as visual items but also as linguistic ones.</hi>
+                <note place="foot" xml:id="ftn3" n="2"> We stress this claim
+                        in our upcoming publication: Karin Almasy, Heinrich Pfandl and Eva Tropper,
+                        eds., <hi rend="italic">Bildspuren, Sprachspuren. Postkarten als Quelle zur
+                            Mehrsprachigkeit in der späten Habsburger Monarchie</hi> (Bielefeld:
+                        transcript, 2020). </note>
+                <hi style="font-size:12pt">Precisely because of this multimodal character, postcards
+                    are nowadays of great historical interest. They are now appreciated as a mass
+                    medium close to everyday life, which can help tell a different story than other
+                    traditional sources. For instance, in this case, they are a vital source of
+                    information about language distribution, language contact, the prevailing
+                    (albeit asymmetrical) bilingualism, and the coexistence of the Slovenian and
+                    German languages in Lower Styria. The predominant topographical views of places,
+                    regions, and tourist attractions were framed primarily with German captions as
+                    well as Slovenian and bilingual captions by various producers and personalised
+                    with handwritten elements by their individual senders. Language in the public
+                    sphere is documented by the postcard photographs through elements like
+                    commercial signs on storefronts and business institutions. Postcards thus served
+                    as a sort of a stage on which the claims to the shared territory could be
+                    presented visually and textually, and where traces of language are evident in
+                    many different forms. They constitute an opportunity to portray the “linguistic
+                    landscape”</hi>
+                <note place="foot" xml:id="ftn4" n="3"> Rodrique Landry and
+                        Richard Bourghis, “Linguistic Landscape and Ethnolinguistic Vitality. An
+                        Empirical Study,” <hi rend="italic">Journal of Language and Social
+                            Psychology</hi> 16, 23–49 (1997):
+                23.</note><hi style="font-size:12pt" xml:space="preserve"> of a historical region by providing relevant information about the relative power and status of the competing languages. This paper aims to portray this linguistic landscape in Lower Styria during the period between 1890 and 1920. The general observations about the history of the medium and the methodological challenges and advantages of working with postcards will first be discussed, followed by examples of the multi-layered information extracted from postcards. These observations are based on the results of a three-year research project on postcards from Lower Styria, conducted at the University of Graz, which will also be discussed.</hi>
+            </p></div>
+            <div><head>Postcarding Lower
+                    Styria</head>
+            <p><hi style="font-size:12pt">Lower Styria (Špodnja Štajerska/Untersteiermark), the
+                    southern part of the crown land of Styria and one of the bilingual regions of
+                    the Monarchy, was characterised by the peaceful albeit asymmetrical coexistence
+                    of the German and Slovenian languages well into the second half of the
+                    nineteenth century.</hi>
+                <note place="foot" xml:id="ftn5" n="4"> See e.g. in memoirs
+                        of the anational times, such as: Anton Šantel, <hi rend="italic">Zgodbe moje
+                            pokrajine: [z lastnimi risbami]</hi>, ed. Janez Kajzer (Ljubljana: Nova
+                        revija, 2006). And further: Karin Almasy, <hi rend="italic">Wie aus
+                            Marburgern “Slowenen” und “Deutsche” Wurden: Ein Beispiel zur
+                            beginnenden nationalen Differenzierung in Zentraleuropa zwischen 1848
+                            und 1861</hi> (Graz: Artikel-VII-Kulturverein für Steiermark -
+                        Pavelhaus, 2014).</note>
+                <hi style="font-size:12pt">German had certain advantages over Slovenian: it had been
+                    codified earlier than Slovenian; it was the dominant language in the urban
+                    areas; and it was considered to be the language of the upper class and higher
+                    education. Given that in most cases, social advancement was connected to
+                    acculturation, a good command of German was, above all, economically relevant
+                    for Slovenian families. Bilingualism and “extended diglossia”</hi>
+                <note place="foot" xml:id="ftn6" n="5"> Joshua Fishman,
+                        “Bilingualism with and Without Diglossia; Diglossia with and Without
+                        Bilingualism,” <hi rend="italic">Journal of Social Issues,</hi> XXXIII,
+                        No. 2 (1967).</note><hi style="font-size:12pt" xml:space="preserve"> was therefore widespread, especially among the educated Slovenian elite. German was predominantly used in the public discourse in the towns of Lower Styria, which were the centres of trade, higher education, and political power, while Slovenian was much more common in the rural areas. While this bilingual situation in Lower Styria remained mostly indifferent to the national identity and remained – despite the beginnings of nationalist movements – without friction well into the 1860s, things changed in the 1870s and the 1880s. The politics of identity, which kept pushing the nationalist concept of homogeneous linguistic groupings and the discursive construction of nationalist hostility, came to the fore. The last decades of the Habsburg Monarchy were shaped by the formation of nationalist movements and the nationalist mobilisation of the masses.</hi>
+                <note place="foot" xml:id="ftn7" n="6"> For Lower Styria,
+                        see: Janez Cvirn, <hi rend="italic">Trdnjavski trikotnik: politična
+                            orientacija Nemcev na Spodnjem Štajerskem (1861–1914)</hi> (Maribor:
+                        Obzorja, 1997). Janez Cvirn, <hi rend="italic">Aufbiks!: Nacionalne razmere
+                            v Celju na prelomu 19. v 20. stoletje</hi> (Celje: Visual Production,
+                        2006). Pieter M. Judson, <hi rend="italic">Guardians of the Nation:
+                            Activists on the Language Frontiers of Imperial Austria</hi> (Cambridge,
+                        Mass: Harvard University Press, 2006).</note><hi style="font-size:12pt" xml:space="preserve"> Language was no longer simply a means of communication but instead came to be understood as “an emblem of nation-ness.”</hi>
+                <note place="foot" xml:id="ftn8" n="7"> Benedict R. O’G
+                        Anderson, <hi rend="italic">Imagined Communities: Reflections on the Origin
+                            and Spread of Nationalism</hi>, Rev. ed. (London, New York: Verso,
+                        2006),
+                133.</note><hi style="font-size:12pt" xml:space="preserve"> Nevertheless, Styrians, whose mother tongue was either Slovenian or German, continued to live together in this shared territory and kept communicating with each other daily. They were no hermetically sealed ethnolinguistic groups that were at odds with each other, as national historiographies would later claim. </hi>
+            </p>
+            <p><hi style="font-size:12pt" xml:space="preserve">Within the same timeframe when Lower Styria was pervaded by questions of nationality, and when faster means of transportation, including the expanding railways, had already increased people’s mobility, postcards became a popular medium of mass communication in the decades leading up to World War I. The world’s first correspondence cards (in German </hi>
+                <hi rend="italic" style="font-size:12pt">Korrespondenzkarten</hi><hi style="font-size:12pt">, in Slovenian</hi>
+                <hi rend="italic" style="font-size:12pt">listnice</hi><hi style="font-size:12pt" xml:space="preserve"> and later</hi>
+                <hi rend="italic" style="font-size:12pt">dopisnice</hi><hi style="font-size:12pt">)
+                    were introduced in the Habsburg Monarchy as an official means of written
+                    communication in 1869. At this time, they were not illustrated, and they quickly
+                    grew in popularity because they were less expensive than letters to send by
+                    post. The first illustrated examples came into circulation in 1885, when private
+                    companies within the Monarchy were authorised to print their own illustrated
+                    postcards. In the 1890s, they became a form of mass media, “occupied a
+                    significant social communicative space,” and became “the first writing-related
+                    technology to be a truly mass vernacular medium.”</hi>
+                <note place="foot" xml:id="ftn9" n="8"> Nigel Hall and Julia
+                        Gillen, “Purchasing Pre-Packed Words: Complaint and Reproach in Early
+                        British Postcards,” in: <hi rend="italic">Ordinary Writings, Personal
+                            Narratives: Writing Practices in 19</hi><hi rend="italic superscript">th</hi><hi rend="italic" xml:space="preserve"> and Early 20</hi><hi rend="italic superscript">th</hi><hi rend="italic">-Century Europe</hi>,
+                        ed. Martyn Lyons (Bern: Lang, 2007), 102, 103.</note>
+                <hi style="font-size:12pt">As of approximately 1897, when the photomechanical
+                    reproduction process was adopted as the standard procedure using collotype and
+                    halftones, the social use of this particular form of media expanded rapidly and
+                    large numbers of postcards came into circulation. By 1912, some 272.7 million
+                    postcards had been sent in Austria.</hi>
+                <note place="foot" xml:id="ftn10" n="9"> For this number,
+                        Békesi is citing the statistics of the Austrian postage service and it
+                        refers to the territory of today’s Republic of Austria. See: Sándor Békéski,
+                        “Die topografische Ansichtskarte. Zur Geschichte und Theorie eines
+                        Massenmediums,” <hi rend="italic">Relation. Beiträge zur vergleichenden
+                            Kommunikationsforschung. Online Edition</hi> 1 (2004): 385.</note>
+                <hi style="font-size:12pt">Because they were related to the emergence of a
+                    travelling public, they played a central role in tourism discourse by directing
+                    the tourists’ attention through displays of what was worth seeing and by staging
+                    and presenting a region, city, or territory.</hi>
+                <note place="foot" xml:id="ftn11" n="10"> David Barton and
+                        Nigel Hall, eds., <hi rend="italic">Letter Writing as a Social Practice,
+                            Studies in written language and literacy v. 9</hi> (Amsterdam:
+                        Benjamins, 2000), 107. Crispin Thurlow, Adam Jaworski and Virpi
+                        Ylänne-McEwen, “‘Half-Hearted Tokens of Transparent Love’: Host and Tourist
+                        Perceptions of Postcard Representations,” <hi rend="italic">Tourism,
+                            Culture, Communication,</hi> 5, No. 1 (2005). Adam Jaworski, “Linguistic
+                        Landscapes on Postcards: Tourist Mediation and the Sociolinguistic
+                        Communities of Contact,” <hi rend="italic">Sociolinguistic studies</hi> 4,
+                        No. 3 (2010)</note>
+                <hi style="font-size:12pt">However, the impact of postcards during this period that
+                    predated the telephone went far beyond the tourism industry. Due to a
+                    well-established postal service, they were also the fastest means of
+                    communicating messages about day-to-day business and events. Their widespread
+                    use by a large number of people meant that writing practices used in postcard
+                    messages are also of significant historical interest. Since they were a form of
+                    informal, everyday writing, postcards were embedded in sets of social practices
+                    by which identities were negotiated and social relationships, however far or
+                    distant, were stabilised.</hi>
+                <note place="foot" xml:id="ftn12" n="11"> See further:
+                        Barton and Hall, <hi rend="italic">Letter Writing as</hi>, 7. See also:
+                        Esther Milne, <hi rend="italic">Letters, Postcards, Email: Technologies of
+                            Presence</hi> (New York, London: Routledge Taylor &amp; Francis Group,
+                        2013). Anett Holzheid, <hi rend="italic">Das Medium Postkarte: Eine
+                            Sprachwissenschaftliche und mediengeschichtliche Studie</hi> (Berlin:
+                        Erich Schmidt Verlag, 2011).</note>
+                <hi style="font-size:12pt">Postcards were a “young” and somewhat unconventional
+                    medium, unencumbered by the rather stiff conventions that applied to letter
+                    writing. This also motivated people from all social classes – even those who
+                    seldom wrote letters – to start using them.</hi>
+            </p></div>
+            <div><head>On the Methodology
+                    of Working with Postcards</head>
+            <p><hi style="font-size:12pt">In general, when working primarily with postcards, one can
+                    choose either a quantitative or a qualitative approach. A qualitative approach,
+                    which examines single items in depth, is preferable when trying to get a sense
+                    of the ordinary people’s identifications and feelings of belonging,</hi><note place="foot" xml:id="ftn13" n="12"> Karin Almasy, “The
+                        Linguistic and Visual Portrayal of Identifications in Slovenian and German
+                        Picture Postcards (1890–1920),” <hi rend="italic">Austrian history
+                            yearbook,</hi> 49 (2018). Heinrich Pfandl, “Slowenische Identität(En)
+                        auf Ansichtskarten der Monarchie zwischen 1890 und 1918. Am Beispiel des
+                        Österreichischen Kronlandes Steiermark,” in: <hi rend="italic">Konfliktszenarien um 1900: Politisch - Sozial - Kulturell;
+                            Österreich-Ungarn und das russische Imperium im Vergleich = Scenarii
+                            Konfliktov Na Rubeže XIX - XX Vekov; Političeskie - Socialʹnye -
+                            Kulʹturnye; Avstro-Vengerskaja I Rossijskaja Imperii</hi>, ed. Peter
+                        Deutschmann, Volker Munz and Ol’ga Pavlenko (Wien: Praesens-Verl.,
+                        2011).</note>
+                <hi style="font-size:12pt">the everyday life of common people,</hi><note place="foot" xml:id="ftn14" n="13"> Martin Sauerbrey,
+                        “"Danes na peči faulencam. Jutri grem pa na ‘Jegerbal’" – Was man aus
+                        Postkarten aus der Untersteiermark aus den Jahren 1880–1920 lernen kann,”
+                            <hi rend="italic">VII. Jahresschrift des Pavelhauses</hi>,
+                    2017.</note>
+                <hi style="font-size:12pt">actual (written) language use in everyday life,</hi><note place="foot" xml:id="ftn15" n="14"> Heinrich Pfandl,
+                        “Razglednice Spodnje Štajerske kot vir informacij o obdobju med letoma 1890
+                        in 1918,” in: <hi rend="italic">Rokopisi slovenskega slovstva od srednjega
+                            veka do moderne</hi>, eds. Aleksander Bjelčevič, Matija Ogrin and Urška
+                        Perenič (Ljubljana: Znanstvena založba Filozofske fakultete, 2017). Heinrich
+                        Pfandl, “"Wie ist es bei den Slowenen Lustig". Slowenisches auf
+                        topographischen Ansichtskarten des Kronlandes Steiermark 1890–1918,” <hi rend="italic">Signal. Jahresschrift des Pavelhauses</hi> (2010/2011).
+                    </note><hi style="font-size:12pt" xml:space="preserve"> and the general atmosphere during specific time frames, e.g. during World War I.</hi><note place="foot" xml:id="ftn16" n="15"> Karin Almasy and
+                        Martin Sauerbrey, “"Noviga ni nič. Vojska je hudič." Prva svetovna vojna na
+                        razglednicah s Spodnje Štajerske,” <hi rend="italic">Zgodovina za vse</hi>
+                        (2019):
+                    46–61.</note><hi style="font-size:12pt" xml:space="preserve"> Furthermore, the focus can be on the visual information</hi><note place="foot" xml:id="ftn17" n="16"> Karin Almasy,
+                        “Prosperität und Modernisierung der Untersteiermark zu Beginn des 20.
+                        Jahrhunderts im Spiegel illustrierter Postkarten,” in: <hi rend="italic">Prosperität und Wirtschaftsaufschwung im Donau-Karpaten-Raum
+                            (Arbeitstitel)</hi>, ed. Harald Heppner
+                    (2019).</note><hi style="font-size:12pt" xml:space="preserve"> or the textual information,</hi><note place="foot" xml:id="ftn18" n="17"> Karin Almasy,
+                        “Postkartengeschichte(N). Der Unterschätzte Quellenwert von
+                        handschriftlichen Spuren auf Postkarten für Sozial-, Alltags- und
+                        Mikrogeschichte,” in: <hi rend="italic">Bildspuren, Sprachspuren. Postkarten
+                            als Quelle zu mehrsprachigen Regionen Der späten Habsburger
+                            Monarchie</hi>, eds. Karin Almasy, Heinrich Pfandl and Eva Tropper
+                        (Bielefeld: transcript, 2020).</note><hi style="font-size:12pt" xml:space="preserve"> though preferably both layers of information (textual and visual) should always be considered because in this medium they are inextricably linked. When taking a qualitative approach, it is preferable to connect postcards as a medium “from below” with other sources “from above” (e.g. macro data such as census statistics or official sources). In these instances, microhistory</hi>
+                <note place="foot" xml:id="ftn19" n="18"> For a good
+                        overview and the methodology of microhistory, see: Sigurður G. Magnússon and
+                        István Szíjártó, <hi rend="italic">What Is Microhistory? Theory and
+                            Practice</hi> (Milton Park, Abingdon, Oxon: Routledge, 2013).</note>
+                <hi style="font-size:12pt">can be reconstructed with a few meaningful postcards, or
+                    they can be used to create a more vivid picture of a particular period or set of
+                    circumstances than would be possible through isolated numbers or statistics. In
+                    this paper, however, a quantitative approach will be used.</hi>
+            </p>
+            <p><hi style="font-size:12pt">The advantage of a broader view, facilitated by large
+                    quantities of postcards, is that the researcher can have a better sense of
+                    whether or not a particular specimen is typical or common. Looking at the
+                    frequency within a large sample results in a more accurate picture than narrowly
+                    focusing on a particular type of postcard or a specific theme. Moreover, when
+                    working with larger quantities of postcards, the relationships between the uses
+                    of the different languages in a bilingual region such as Lower Styria become
+                    more discernable. These relationships, however, need to be interpreted with
+                    considerable caution. Every postcard is the product of different interests,
+                    which could be financial, pragmatic, or ethnically motivated. Therefore, it is
+                    essential to bear in mind that the language printed on postcards does not
+                    necessarily reflect the population ratios of a particular area or period, and a
+                    single modern collection of postcards does not allow researchers to draw direct
+                    conclusions regarding the ethnic distribution patterns. Nevertheless, more
+                    extensive collections of postcards from a specific region could portray a
+                    linguistic landscape of the power relations at the time they were produced
+                    and/or circulated.</hi>
+            </p>
+            <p><hi style="font-size:12pt">One of the methodological challenges of working with
+                    postcards is the need to manage them in large quantities. With the exception of
+                    privately produced specimens (mostly photographic postcards), postcards are not
+                    one-offs—they are printed and brought onto the market in series. Due to these
+                    large quantities, it is not possible to examine every single circulated postcard
+                    from a region, so researchers can only try to ensure as broad an overview as
+                    possible by examining collections assembled by various institutions and private
+                    collectors. Consulting a variety of collections is important because the
+                    contents of collections are always dictated by the interests or focus (date of
+                    origin, geographical location, etc.) of the institutions and individuals
+                    assembling them. For instance, a regional library is usually primarily
+                    interested in postcards of the city it is located in and its immediate
+                    surroundings, while a supralocal or national collection will generally endeavour
+                    to represent an entire region or area of a particular ethnic group. More recent
+                    rationales behind the sorting and collecting by public institutions have been
+                    guided by nationalist categories of thought as well as by the subsequently-drawn
+                    state and administrative boundaries. For example, we found that the postcard
+                    collection at the Slovenian National and University Library tends to reflect a
+                    more “Slovenian” Lower Styria than the postcard collection at the Styrian
+                    Provincial Archives in Graz, which reflects a more “German” version.</hi>
+                <note place="foot" xml:id="ftn20" n="19"> For an overview of
+                        our quantitative findings, see <hi rend="italic">Postcarding Lower
+                            Styria</hi>, <ref target="http://gams.uni-graz.at/archive/objects/context:polos/methods/sdef:Context/get?mode=statistics">http://gams.uni-graz.at/archive/objects/context:polos/methods/sdef:Context/get?mode=statistics</ref><hi rend="Hyperlink" xml:space="preserve"> (18 October 2019).</hi></note><hi style="font-size:12pt" xml:space="preserve"> The same is also true of private collectors. The content of these private collections is shaped by both the different goals and interests of individuals and by the varying market conditions. For example, if a collector sources postcards primarily from flea markets in Klagenfurt or Vienna, these will often contain German handwritten text, since many of the postcards at these markets have been sent to these same predominantly German-speaking cities or regions. In contrast, if postcards are acquired from postcard collectors specialising in a Slovenian region, the percentage of postcards written or printed in Slovenian would, naturally, be higher.</hi>
+            </p>
+            <p><hi style="font-size:12pt">The three-year research project “Postcarding Lower Styria.
+                    Nation, Language and Identities on Picture Postcards (1890–1920)”,</hi><note place="foot" xml:id="ftn21" n="20"> Funded by the
+                        Austrian Science Fund FWF (project number 28950-G28) and carried out between
+                        2016 and 2019 at the Department of Slavic Studies at the University of Graz
+                        under the direction of Heinrich Pfandl. The author of this paper was a
+                        research assistant within this project. The result is the digital repository
+                        of postcards from Lower Styria called POLOS, an exhibition, and two
+                        travelling exhibitions as well as a monographic publication framing the
+                        exhibition, all called <hi rend="italic">Štajer</hi>-mark. For more
+                        information about our work, see <hi rend="italic">Postcarding Lower
+                            Styria</hi>
+                        <ref target="https://postcarding.uni-graz.at/en/projekt/">https://postcarding.uni-graz.at/en/projekt/</ref><hi rend="Hyperlink" xml:space="preserve"> (18 October 2019) </hi>and:
+                        Karin Almasy and Eva Tropper, <hi rend="italic">Štajer-Mark: 1890-1920: Der
+                            gemeinsamen Geschichte auf der Spur: Postkarten der historischen
+                            Untersteiermark = Po sledeh skupne preteklosti: Razglednice zgodovinske
+                            Spodnje Štajerske</hi> (Laafeld: Artikel-VII-Kulturverein für Steiermark
+                        – Pavelhaus; = Kulturno društvo Člen 7 za avstrijsko Štajersko - Pavlova
+                        hiša, 2018).</note>
+                <hi style="font-size:12pt">which this paper is based on, was also assembled
+                    according to a particular interest. In this case, the main research focus was on
+                    how postcards could provide evidence of the intensifying linguistic and ethnic
+                    polarisation or whether they would also reflect bilingualism and national
+                    indifference. To this end, we examined large quantities of postcards from Lower
+                    Styria from ten different collections that had originated from or had been
+                    circulated between 1890 and 1920, and which we recorded and presented in a
+                    tabular form. A small selection of them (over 2,200 items) was digitalised,
+                    dated, described, categorised, and incorporated into POLOS, our digital
+                    repository, where they are now available to the general public.</hi>
+                <note place="foot" xml:id="ftn22" n="21"> Available at <hi rend="italic">Postcarding Lower Styria,</hi>
+                        <ref target="http://gams.uni-graz.at/context:polos">http://gams.uni-graz.at/context:polos</ref> (18 October 2019). Our
+                        thanks to the institutions and private collectors who granted us access to
+                        their collections – without their cooperation, our research would not have
+                        been possible. Thanks also to the Centre for Digital Humanities ZIM of the
+                        University of Graz, which has developed the repository with us. Our partners
+                        were the following: the regional libraries Osrednja knjižnica Celje,
+                        Univerzitetna knjižnica Maribor, Knjižnica Ivana Potrča Ptuj, the Admont
+                        monastery, the Slovenian National and University Library (NUK) and the
+                        Museum of Contemporary History of Slovenia (MNZS) in Ljubljana, the Styrian
+                        Regional Archive Steiermärkisches Landesarchiv, as well as the private
+                        collectors Walter Lukan, Teodor Domej, and Heinrich Pfandl. All institutions
+                        and collectors with the exception of the Styrian Regional Archive allowed us
+                        to scan a selection of the most relevant postcards and put them in our
+                        digital repository. Therefore, we carried out our research within ten
+                        different postcard collections, but scans from only nine are available on
+                        POLOS. The inventory polos-numbers in the citations of specific postcards
+                        cited later on refer to their identification within the digital
+                        repository.</note>
+                <hi style="font-size:12pt">Postcards were scanned and incorporated into the
+                    repository if they exhibited content or language relevant to our research
+                    questions – that is, if they documented bilingualism, ethnic indifference,
+                    hybrid language use, ethnic tensions, and/or a symbolic occupation of a
+                    territory, etc. Postcards were also selected for the collection to represent the
+                    selected timeframe as well as the geographical area. This means that as many
+                    postcards as possible were gathered from small villages throughout Lower Styria,
+                    whereas in case of the bigger towns of Maribor/Marburg, Celje/Cilli, and
+                    Ptuj/Pettau, we relied on a limited amount of samples. This led to a slightly
+                    more “Slovenian” representation of Lower Styria than larger quantities of
+                    postcards from the larger towns would have resulted in, since they were most
+                    often produced with German captions and in much larger numbers.</hi>
+                <note place="foot" xml:id="ftn23" n="22"> In the POLOS
+                        repository, 55 % of postcards include printed German captions, while 28 %
+                        are Slovenian and 17 % are bilingual. However, only 48 % of handwritten
+                        messages are in German, while 41 % are Slovenian and the remaining 4 %
+                        contain some sort of language contact (e.g. different people writing in
+                        different languages, a message from a single writer exhibiting bilingual or
+                        diglottic use, code switching, or other hybrid lexical forms). See as a pie
+                        chart: <hi rend="italic">Postcarding Lower Styria</hi>, <ref target="http://gams.uni-graz.at/archive/objects/context:polos/methods/sdef:Context/get?mode=statistics">http://gams.uni-graz.at/archive/objects/context:polos/methods/sdef:Context/get?mode=statistics</ref>
+                        (18 October 2019).</note>
+                <hi style="font-size:12pt">Overall, POLOS provides a quantitative overview of
+                    postcards produced and circulated in Lower Styria between 1890 and 1920 and can
+                    claim some intersubjectivity, since it incorporates postcards from nine
+                    different public and private collections from Slovenia and Austria. The
+                    observations of the linguistic landscape in Lower Styria discussed here are all
+                    based on these different institutional and private postcards collections and the
+                    selection available in the POLOS repository.</hi>
+            </p></div>
+            <div><head>Linguistic
+                    Landscapes and Language(s) on Postcards</head>
+            <p><hi style="font-size:12pt">The concept of linguistic landscapes encompasses
+                    multilingual societies by referring “to the visibility and salience of language
+                    […] in a given territory.”</hi><note place="foot" xml:id="ftn24" n="23"> Landry and Bourghis, “Linguistic Landscape”
+                    23.</note><hi style="font-size:12pt" xml:space="preserve"> It suggests that the visual representation of languages serves essential informational and symbolic functions by “marking the boundaries of linguistic territories” and transmitting vital information about the “relative power and status of competing language groups.”</hi>
+                <note place="foot" xml:id="ftn25" n="24"> Ibid.,
+                    24.</note>
+                <hi style="font-size:12pt">Therefore, the concept of linguistic landscapes offers a
+                    new approach to multilingualism. Even though most research that applies this
+                    concept focuses on present-day bilingual regions or cities,</hi>
+                <note place="foot" xml:id="ftn26" n="25"> For examples, see
+                        the case studies (of modern-day Israel, Bangkok, Tokyo, Friesland and the
+                        Basque country) discussed in: Durk Gorter, ed., <hi rend="italic">Linguistic
+                            Landscape: A New Approach to Multilingualism</hi> (Clevedon:
+                        Multilingual Matters, 2006),
+                        http://site.ebrary.com/lib/alltitles/docDetail.action?docID=10132110.</note>
+                <hi style="font-size:12pt">I believe it can also be easily applied to historical
+                    regions, provided that the necessary material is available. In the case of
+                    postcards from the 1890–1920 period, such material is available in large
+                    quantities.</hi>
+            </p>
+            <p><hi style="font-size:12pt">When looking at the salience of language in a given
+                    territory or city, researchers usually distinguish between private, i.e.
+                    bottom-up, and government, i.e. top-down, signs. Whereas private signs include,
+                    for example, commercial signs on storefronts and businesses and advertising on
+                    billboards (in modern-day research also graffiti), government signs refer to
+                    public signs such as road signs, place names, street names, and inscriptions on
+                    government buildings and public institutions.</hi>
+                <note place="foot" xml:id="ftn27" n="26"> Landry and
+                        Bourghis, “Linguistic Landscape” 26. Gorter, <hi rend="italic">Linguistic
+                            landscape</hi>, 3</note><hi style="font-size:12pt" xml:space="preserve"> I would argue that postcards can also be conceived of as a part of public space and can be considered along with other private signs. Firstly, unlike letters, they can be read by anyone handling them, including a landlord or a mail carrier, and are therefore semi-private. People, including those in Lower Styria, were aware of this when writing postcards and were thus more secretive, while private topics were elaborated on in letters, as demonstrated by a common phrase used on postcards from that time:</hi>
+                <hi rend="italic" style="font-size:12pt">Brief
+                    folgt</hi><hi style="font-size:12pt" xml:space="preserve"> or </hi><hi rend="italic" style="font-size:12pt">Pismo sledi</hi>
+                <hi style="font-size:12pt">(A letter will follow). Secondly, postcards were present
+                    in the public sphere as well, since they were sold almost everywhere: in
+                    stationery shops, railway stations, restaurants and inns, nearby tourist sites,
+                    pubs, and at private clubs. They were displayed in shop windows or on racks in
+                    front of stores, which also represented a display of language in the public
+                    sphere (see fig. 1).</hi>
+                <note place="foot" xml:id="ftn28" n="27"> Due to limited
+                        space, I will refrain from always including both sides of a postcard, even
+                        though this would be preferable. In cases like these here, in which I
+                        discuss a certain phenomenon on just one side, only this side is depicted.
+                    </note>
+                <hi style="font-size:12pt" xml:space="preserve">Thirdly, postcards depict the public sphere with portrayals of important buildings, sites, streets, and places, which further perpetuates an image of the public sphere. </hi>
+            </p>
+                <figure>
+                    <head>Figure 1: A picture postcard from Maribor/Marburg. In the lower right, Marie Pristernik’s stationery shop with postcards in the shop windows. <hi rend="italic" style="font-size:12pt">Marburg a. D. Franziskanerkirche.
+                        Hauptportal. Tegetthoffstrasse. Franziskanerkirche</hi>, produced most likely by Marie Pristernik, sent in 1904 from Maribor/Marburg to Carniola.</head>
+                    <graphic url="figure_1.jpg" height="700px"/>
+                </figure>
+            <p><hi style="font-size:12pt">Source: Private collection Pfandl, polos_2085.</hi></p>
+            <p><hi style="font-size:12pt">The visibility of languages on postcards can be analysed
+                    on different levels. The printed captions accompanying the images are most
+                    obvious, which raises the issue of which language was used to frame the image.
+                    The decision of which language to use in these captions was, at least until
+                    1918, made by postcard producers and publishers. German-only, Slovenian-only,
+                    and bilingual captions existed (usually starting with German followed by a
+                    Slovenian translation). German captions were more common on postcards with
+                    images of larger towns, whereas Slovenian and bilingual captions were more
+                    frequent on postcards depicting small rural villages.</hi>
+                <note place="foot" xml:id="ftn29" n="28"> POLOS, which
+                        contains 2,243 postcards, provides evidence for this claim, since it is
+                        possible to search for various villages and towns. Within the Collection,
+                        you can search for specific villages and towns by both their Slovenian and
+                        their historical German names. </note><hi style="font-size:12pt" xml:space="preserve"> It is interesting to note, however, that this is a contrast in linguistic framing only. At the visual level, a common visual culture on postcards from Lower Styria emerged when we were able to establish that the mostly topographic postcards were widely identical in their expressions and visual codes but differed only in the language of their captions. Examples of visually identical postcards with captions in different languages by the same producers seem to indicate that their choice of language was probably motivated more by demand and profit from the potential sales rather than a desire to support nationalist causes.</hi>
+                <note place="foot" xml:id="ftn30" n="29"> Almasy and
+                        Tropper, <hi rend="italic">Štajer-mark</hi>, 38–41.</note>
+            </p>
+            <p><hi style="font-size:12pt" xml:space="preserve">Secondly, the staging of language in the public sphere on postcards can be detected in the mostly photographic representations of public space. The pictures on postcards offer insights about written signs within the public space when looking at which languages were present in the public sphere through street names, commercial shop signs, advertising billboards, or other written signs. Some of them are government signs (such as inscriptions on public buildings like schools, train stations, etc.), but more frequently they are private signs (such as inscriptions on stores, taverns, restaurants, and advertisements). Evidence collected from examining larger quantities of postcards suggests that in the larger towns, along railway routes, and in tourist resorts, German dominated the public sphere, whereas Slovenian and bilingual signs were much more widely used in the countryside. </hi>
+            </p>
+            <p><hi style="font-size:12pt">Thirdly, language is, of course, visible in the
+                    handwritten messages added by senders. Written language use on postcards can be
+                    considered semi-public, as it represented private communication between the
+                    sender and the addressee. However, more people could read these messages than
+                    just the two primary agents. Even though writing postcards was considered a
+                    rather bourgeois activity, members of other social classes also wrote and sent
+                    postcards. Hence, traces of a heterogeneous linguistic situation are evident,
+                    including a wide range of linguistic proficiency (from highly educated to a very
+                    basic command of language), different varieties of language use (particularly
+                    with Slovenian texts, which ranged from dialectical and/or vernacular and
+                    colloquial language to sophisticated formal language in elegant handwriting),
+                    and various forms of language contact. This final category is evident not only
+                    from the somewhat rare forms of real code-switching, in which a writer would
+                    switch from one language to the other in a single message, but also from the
+                    combination of different messages in different languages by different senders
+                    (see fig. 7). Moreover, given that Slovenian was, at the time, in the first
+                    stages of becoming a fully codified and standardised supraregional “national”
+                    language, the influence of other languages (mostly German) is often evident in
+                    Slovenian handwritten messages through loan words, loan translations, calques,
+                    the acquisition of German syntax and phrases, and so on. This situation also
+                    makes postcards a rich source for diachronic linguistics, and in this case for
+                    Slovenian Studies.</hi>
+                <note place="foot" xml:id="ftn31" n="30"> See further for
+                        Slovenian: Pfandl, “Razglednice Spodnje Štajerske,” in: <hi rend="italic">Rokopisi slovenskega slovstva od srednjega veka do moderne</hi>. For
+                        Bulgarian, see: Sebastian Kempgen, “Postkarten Als Quelle Zur Bulgarischen
+                        Sprachgeschichte Der Ersten Hälfte des 20. Jahrhunderts,” <hi rend="italic">Slavistische Linguistik</hi> 2006/2007 (2009).</note></p>
+            <p><hi style="font-size:12pt">In terms of social practices, handwritten messages on
+                    postcards can offer insights in the way people reacted to the linguistic staging
+                    of public space, e.g. erasing expressions in one language or the other, crossing
+                    out text printed by publishers, or replacing captions by hand in another
+                    language. This phenomenon was rather common at the time (see fig. 2), and
+                    examples of this can be found for both languages. Symbolically, these acts deny
+                    the language of the other linguistic and national group a place in the
+                    semi-public sphere of the postcard as well as in the bilingual region, town, or
+                    village. The sender of the postcard in fig. 2 was undoubtedly motivated by
+                    nationalist sentiments when crossing out the German toponym and replacing it
+                    with the Slovenian equivalent, because he complains in the handwritten message,
+                    “</hi>
+                <hi rend="italic" style="font-size:12pt">Tukaj mi je grozno dolg čas, a to le zato,
+                    ker sem med samimi nemčurji</hi><hi style="font-size:12pt" xml:space="preserve"> [It’s so boring here, but only because I’m surrounded by all these German wannabes]!” and ends his message with the Slavic salute </hi>
+                <hi rend="italic" style="font-size:12pt">Na zdar!</hi><hi style="font-size:12pt">.</hi>
+            </p>
+                <figure>
+                    <head>Figure 2: A picture postcard from Laško/Markt Tüffer. The German toponym was crossed out by the sender and replaced with the Slovenian equivalent.
+                        <hi rend="italic" style="font-size:12pt">Markt
+                            Tüffer,</hi> produced by <hi rend="italic" style="font-size:12pt">Andreas Elsbacher, Markt
+                                Tüffer</hi>, sent in 1903 from Laško/Tüffer to Celje/Cilli. </head>
+                    <graphic url="figure_2.jpg" height="400px"/>
+                    <p style="text-align:center">Source: Osrednja knjižnica Celje, polos_0045.</p>
+                </figure>
+            <p><hi style="font-size:12pt" xml:space="preserve">Finally, there are the postmarks used by the local post offices, which also contribute to the linguistic staging of public space and are of an official character. As with town signs or writing on public buildings, Slovenian terminology on postmarks became more frequent over time, which indicates a decisively firm claim to the public recognition of the population distribution. Some cities and towns used German postmarks exclusively until 1918, while others – especially small villages in the countryside – used bilingual postmarks. For these, the toponym was in German at the top and then in Slovenian below. If all the previously mentioned traces of language – printed captions, handwritten messages, and most of the signs in the photographic representations of the public sphere – were produced by publishers in the private sector and can be considered private signs, postmarks provide political and administrative legitimacy and are thus government signs. </hi>
+            </p></div>
+            <div>
+            <head>Towns and Rural
+                    Villages</head>
+            <p><hi style="font-size:12pt" xml:space="preserve">The different layers of information on postcards and the previously mentioned contrast between the urban and rural areas can be illustrated with examples of rather prototypical postcards. Fig. 3+4, the front and back of a postcard depicting Grajski trg/Burgplatz in Maribor/Marburg, is a typical example from the Lower Styrian towns. The almost hegemonic dominance of German on the postcards was especially present in the city of Maribor/Marburg as well as in the towns of Ptuj/Pettau and Celje/Cilli, which reflected the urban, middle-class ambitions to normatively establish the German character of the representative culture. Maribor/Marburg was also one of the places in Lower Styria that, up until 1918, had a postmark only in German. The printed caption on this postcard is in German, as is the handwritten message. The photograph also contains various signs in the public space, all in German. On the right-hand side is a street sign for </hi>
+                <hi rend="italic" style="font-size:12pt">I. Stadt. Burg-Gasse</hi><hi style="font-size:12pt">, which is a government sign. Below it are advertisements
+                    exclusively in German, promoting sewing machines and cultural events. Other
+                    parts of this scene contain shop signs on the fronts of the buildings, all of
+                    them also exclusively in German. The space depicted here is modern, as is
+                    demonstrated by the paved sidewalk and the public streetlights attached to the
+                    facades.</hi>
+            </p>
+                <figure>
+                    <head>Figure 3 and 4: <hi rend="italic" style="font-size:12pt">Marburg a. d. Drau. Burgplatz mit
+                        Viktringhofgasse</hi>, produced by <hi rend="italic" style="font-size:12pt">Rudolf Gaisser,
+                            Marburg</hi>, sent between 1808 and 1914 from Maribor/Marburg to Vienna. </head>
+                    <graphic url="figure_3.jpg" width="600px"/>
+                    <graphic url="figure_4.jpg" width="600px"/>
+                    <p style="text-align:center">Source: Private collection Lukan, polos_3563.</p>
+                </figure>
+           <p><hi style="font-size:12pt">This example should not be taken as an indication that
+                    there were no Slovenian captions or handwritten texts on postcards from
+                    Maribor/Marburg, nor should it be used to indicate that Slovenian was not spoken
+                    in Maribor/Marburg. However, postcards from Maribor/Marburg always had an
+                    exclusively German postmark, predominantly German captions and handwritten
+                    messages, and the photographic representations on postcards depict a public
+                    space dominated by signs in the German language.</hi>
+                <note place="foot" xml:id="ftn32" n="31"> POLOS contains 282
+                        specimens from Maribor/Marburg, of which only 29 (10 %) had a Slovenian
+                        caption, 17 had a bilingual one, and 8 had no inscription. The rest – 228
+                        out of 282 (81 %) of these postcards from Maribor/Marburg – had a German
+                        caption. The results for the handwritten messages is quite similar, even
+                        though the Slovenian-speaking population becomes slightly more visible here:
+                        of the 241 postcards from Maribor/Marburg that contain a handwritten message
+                        (41 empty ones were not considered), 52 (22 %) have a Slovenian message, 8
+                        have some kind of language contact (bilingualism, code-switching, etc.), 24
+                        were written in other languages (Czech, Italian, Croatian, etc.), while the
+                        majority (157 or 65 %) contained messages handwritten in German.
+                </note><hi style="font-size:12pt" xml:space="preserve"> To the visitor’s eye or to the recipient of such a postcard, Maribor/Marburg around 1900 indeed appeared to be a German city, and Slovenian occupied very little space in the public sphere.</hi>
+            </p>
+            <p><hi style="font-size:12pt" xml:space="preserve">A different picture of Lower Styria, however, emerges when looking at postcards from the more rural areas like the one in fig. 5+6, which was sent to Ljubljana/Laibach from the Slovenske Gorice/Windische Büheln in the eastern part of Lower Styria. The captions are exclusively Slovenian, the address side uses </hi>
+                <hi rend="italic" style="font-size:12pt">dopisnica</hi><hi style="font-size:12pt">,
+                    the Slovenian word for a postcard, and the producer – a local photographer from
+                    Sveta Trojica/Heilige Dreifaltigkeit – is mentioned in Slovenian as well. It
+                    should be noted that the postmark for this tiny village of Vitomarci (called
+                    Sveti Andraž v Slovenskih Goricah until 1952) was bilingual. Typically of such
+                    village postcards, the picture side includes a collage of three images depicting
+                    what was considered most important in the area.</hi>
+                <note place="foot" xml:id="ftn33" n="32"> Almasy and
+                        Tropper, <hi rend="italic">Štajer-mark</hi>, 54–57.</note>
+                <hi style="font-size:12pt">The above image is a wide-angle view of the village
+                    church, and below are images of a building containing the local post office/shop
+                    on the left and the local elementary school on the right with the locals posing
+                    for the camera in front of both buildings. Both buildings bear signs in
+                    Slovenian (</hi>
+                <hi rend="italic" style="font-size:12pt">Prodajalnica</hi>
+                <hi style="font-size:12pt" xml:space="preserve">– shop and </hi><hi rend="italic" style="font-size:12pt">Narodna šola</hi>
+                <hi style="font-size:12pt">– national school, meaning elementary school), which
+                    shows that the Slovenian language was present in the village’s public sphere.
+                    The handwritten message with friendly if rather superficial content is also in
+                    Slovenian.</hi>
+                <note place="foot" xml:id="ftn34" n="33"> The sample for
+                        Vitomarci is much smaller than the one for Maribor/Marburg in our database,
+                        and it paints a definite picture: both the captions and the handwritten
+                        messages of these five items were in Slovenian only. If for argument’s sake
+                        the sample were to be extended to other neighboring villages in the area of
+                        Slovenske Gorice – like Cerkvenjak (formerly Sv. Anton), Sv. Trojica,
+                        Juršinci (formerly Sv. Lovrenc), Benedikt (formerly Sv. Benedikt), Trnovska
+                        Vas (formerly Sv. Bolfenk) and Mala Nedelja – the sample would include 41
+                        postcards from these 7 small villages. Of these 41 postcards, 39 had a
+                        printed caption (two were empty), of which only 5 had a German caption, 7 a
+                        bilingual caption, while the majority of 27 cards (66 %) had a Slovenian
+                        caption. The language of the handwritten messages on the postcards from
+                        these villages paints a similar picture: of these 41, 2 were empty, 2 were
+                        written in other languages, 8 were in German, and the majority of 29
+                        postcards (71 %) had a Slovenian handwritten message.</note>
+            </p>
+                <figure>
+                    <head>Figure 5 and 6: <hi rend="italic" style="font-size:12pt">Sv. Andraž v Slov. Gor. C.k. poštni urad in
+                        trgovina V. Zorko.
+                        Šola.</hi>, producer <hi rend="italic" style="font-size:12pt">Fr. Kurnik, Sv.
+                            Trojica</hi>, sent between 1910 and 1914 from Sv. Andraž/St. Andrä (the today’s Vitomarci) to Ljubljana/Laibach.</head>
+                    <graphic url="figure_5.jpg" width="600px"/>
+                    <graphic url="figure_6.jpg" width="600px"/>
+                    <p style="text-align:center">Source: Narodna in univerzitetna knjižnica, polos_1151.</p>
+                </figure>
+            <p><hi style="font-size:12pt" xml:space="preserve">Naturally, there is a broad range of possible language combinations between these two prototypical examples, including postcards from the countryside with German messages, postcards from the urban areas with Slovenian captions and Slovenian messages etc. Fig. 7 from Ormož/Friedau is an example that falls somewhere in this range. </hi>
+            </p>
+                <figure>
+                    <head>Figure 7: <hi rend="italic" style="font-size:12pt">Pozdrav iz Ormoža. Mesto Ormož. Glavni
+                        trg.</hi>, producer unknown, sent in 1904 from Ormož/Friedau to Morava.</head>
+                    <graphic url="figure_7.jpg" width="600px"/>
+                    <p style="text-align:center">Source: Univerzitetna knjižnica Maribor, polos_0617.</p>
+                </figure>
+            <p><hi style="font-size:12pt">Ormož/Friedau – one of the small towns that, until 1918,
+                    had an exclusively German postmark – was framed on postcards with both German
+                    and Slovenian captions, and was situated in a predominantly Slovenian-speaking
+                    environment.</hi>
+                <note place="foot" xml:id="ftn35" n="34"> Ormož/Friedau is a
+                        good example of a truly mixed language situation: of the 21 postcards of
+                        Ormož/Friedau in our sample, 13 had a German caption and 8 a Slovenian one.
+                        Of these 21 postcards, 19 contained a handwritten message: 3 included
+                        language contact, 7 were written in Slovenian, and 8 in German, so the
+                        distribution of languages was somewhat more
+                even.</note><hi style="font-size:12pt" xml:space="preserve"> The postcard in fig. 7 contains Slovenian captions and was sent by a group of friends. The messages were written in three different hands: one in Slovenian and two in German. The addressee must have understood both languages, since he was addressed in both. Postcards like these are examples that give a glimpse into the linguistic variety present at the time, and they demonstrate that until 1918, Lower Styria was a truly bilingual area with considerable differences between the urban and rural areas.</hi>
+            </p></div>
+            <div><head>Official Language
+                    Change: 1918–1920</head>
+            <p><hi style="font-size:12pt">Postcards can also be used to reconstruct the changes in
+                    the political system (as well as the often simultaneous changes in language
+                    policy). When the Habsburg Monarchy collapsed in 1918, the balance of power
+                    between the language groups shifted dramatically in the public sphere, as did
+                    the languages’ visibility. After the new and eventually short-lived State of
+                    Slovenes, Croats, and Serbs (the State of SHS) was established, Slovenian was
+                    declared the only official language in November 1918. When the Kingdom of Serbs,
+                    Croats, and Slovenes (the Kingdom of SHS) was formed one month later, in June
+                    1919 this order was followed by a directive that all official and private signs
+                    placed in public could only be written in the official language, which was known
+                    as Serbo-Croatian-Slovenian.</hi>
+                <note place="foot" xml:id="ftn36" n="35"> Reinhard Reimann,
+                        “‘Für echte deutsche Gibt es bei uns genügend Rechte’. Die Slowenen und Ihre
+                        deutsche Minderheit 1918-1941,” in: <hi rend="italic">Slowenen und Deutsche
+                            im gemeinsamen Raum: Neue Forschungen zu einem komplexen Thema</hi>, ed.
+                        Harald Heppner (München: R. Oldenburg, 2002), 134.</note>
+                <hi style="font-size:12pt">Along with this attempt to Slovenianise the public sphere
+                    in regions such as Lower Styria, the German language had to be removed from the
+                    semi-public sphere of postcards as well. To continue to sell and use postcards
+                    that had already been produced and stocked, postcard vendors would
+                    systematically stamp over or cross out German captions, place names, and
+                    greetings, and replace them with their Slovenian equivalents. Accordingly, new
+                    postage stamps, known as the</hi>
+                <hi rend="italic" style="font-size:12pt">Verigarji</hi><hi style="font-size:12pt" xml:space="preserve"> stamps, also came into circulation and are still popular today among philatelists. The former German or bilingual postmarks were not suitable for the new state, but due to the general shortage of supply and material, they could not be removed from circulation as quickly as the new legislators would have liked, while the local postage authorities had to continue using the old Austrian postmarks. The German name on bilingual postmarks was simply scraped off, leaving the postmark half empty in the upper part. Postmarks that were exclusively German were usually left as is, or, in some cases, the German toponym was also scraped off, leaving the postmark completely empty or “mute.” Under the new state, postmarks were gradually replaced by new ones with the toponym in Slovenian above a transliteration in Cyrillic letters (e.g. Maribor – Марибор).</hi>
+                <note place="foot" xml:id="ftn37" n="36"> For visual
+                        examples of all the signs of system change on postcards, see: Almasy and
+                        Tropper, <hi rend="italic">Štajer-mark</hi>, 162–69.</note>
+            </p>
+                <figure>
+                    <head>Figure 8 and 9: <hi rend="italic" style="font-size:12pt">Pettau. Pozdrav iz
+                        Ptuja.</hi> [stamped over after 1918] producer <hi rend="italic" style="font-size:12pt">Wilhelm Blanke,
+                            Pettau</hi>, produced before 1918, sent in 1919 from Ptuj/Pettau to Silesia.</head>
+                    <graphic url="figure_8.jpg" width="600px"/>
+                    <graphic url="figure_9.jpg" width="600px"/>
+                    <p style="text-align:center">Source: Private collection Pfandl, polos_2120.</p>
+                </figure>
+            <p><hi style="font-size:12pt">Fig 8+9 is an item produced before 1918 but later adapted
+                    by a vendor who stamped a Slovenian greeting on it, even though the old German
+                    caption (</hi>
+                <hi rend="italic" style="font-size:12pt">Pettau</hi><hi style="font-size:12pt" xml:space="preserve">) is still legible. The postcard features a </hi><hi rend="italic" style="font-size:12pt">Verigar</hi><hi style="font-size:12pt" xml:space="preserve"> postage stamp handed out by the State of SHS that was still in use from 1919 to 1920 (even though the short-lived state no longer existed). In 1920/21, new postage stamps with King Alexander Karađorđević were issued by the Kingdom of SHS.</hi>
+                <note place="foot" xml:id="ftn38" n="37"> Bezljaj Krevel,
+                        “Slovenska pošta, telegraf,” in: <hi rend="italic">Pošta na slovenskih
+                            tleh</hi>, ed. Andrej Hozjan (Maribor: Delo, 1997), 190.</note>
+                <hi style="font-size:12pt" xml:space="preserve">Interestingly, in July 1919, the old German k.k. postmark was still being used in Ptuj/Pettau. The handwritten message in fig. 8+9 was written in German, illustrating that German had not vanished as a language of private communication after 1918, since a considerable number of Germans stayed, even though many others left Lower Styria after 1918. </hi>
+            </p>
+            <p><hi style="font-size:12pt">As these examples demonstrate, postcards can also serve as
+                    a valuable source of information for illustrating a systematic shift to the new
+                    statehood during the years of change between 1918 and 1920. In this competition
+                    for linguistic visibility and the associated encoded concepts of identity in the
+                    semi-public sphere, a differentiation must again be made between private senders
+                    and governmental language use: crossing out and stamping over postcard captions
+                    occurred after 1918 was ordered by the state, so these – along with the new
+                    postmarks and postage stamps – can be categorised as government signs.</hi>
+            </p></div>
+           <div> <head>Conclusion</head>
+            <p><hi style="font-size:12pt">Picture postcards in considerable numbers can help portray
+                    the linguistic landscape of a particular region and create a clearer picture of
+                    language distribution patterns in the linguistically mixed regions and of power
+                    relations between certain linguistically diverse – although not necessarily
+                    culturally diverse – groups. As illustrated in this paper using the example of
+                    Lower Styria at the beginning of the twentieth century, which was a region
+                    inhabited by Slovenian- and German-speaking Styrians, postcards can be a
+                    valuable source of information for historically linguistically mixed regions.
+                    When looking back in history from a modern perspective and often guided by the
+                    national narratives or the borders of the today’s national states, even
+                    historians can sometimes tend to underestimate how linguistically mixed large
+                    parts of the Habsburg Empire actually were. Research using postcards similar to
+                    the project discussed in this paper could also be conducted for other
+                    multiethnic and multilinguistic empires or other linguistically mixed regions of
+                    the Habsburg Empire such as Southern Tyrol, Galicia, Bukovina, Bohemia, Moravia,
+                    the Austrian Littoral, Carinthia, or Carniola. A comparative approach looking at
+                    different regions during the same timeframe would be a desideratum. It could
+                    illustrate not only the extent to which German remained a supraregional</hi>
+                <hi rend="italic" style="font-size:12pt">lingua franca</hi>
+                <hi style="font-size:12pt" xml:space="preserve">in the Austrian half of the empire, but also the extent to which other languages became increasingly salient in the late Habsburg Empire and claimed their part of the public discourse and visibility in the public sphere. Furthermore, as was the case during the years of the system change between 1918 and 1920, postcards can also illustrate the power relations changes in the public sphere as well as new language policies, applied under a new rule. In conclusion, postcards also illustrate how language as the central ethnic marker in the Habsburg Central Europe ceased being simply a pragmatic tool of communication and instead became a symbol of national identity. </hi>
+            </p></div>
+        </body>
+        <back>
+            <div type="bibliography"><head>Sources and
+                literature</head>
+            <list type="unordered">
+                <head>Primary Sources</head>
+                <item>NUK - Narodna in univerzitetna Knjižnica:
+                    <list type="unordered">
+                        <item>Kartografska in slikovna zbirka
+                            razglednic.
+                        </item>
+                    </list></item>
+                <item>OKC - Osrednja knjižnica Celje, oddelek za domoznanstvo, zbirka razglednic. 
+                </item>
+                <item>Private postcard collection Lukan.</item>
+                <item>Private postcard collection Pfandl.</item>
+                <item>UKM - Univerzitetna knjižnica Maribor:
+                    <list type="unordered">
+                        <item>Zbirka drobnih tiskov, zbirka
+                            razglednic.
+                        </item>
+                    </list></item>
+            </list>
+            <p><hi style="font-size:10pt" xml:space="preserve">All the postcards cited come from these postcard collections; available as well on the digital repository of postcards from Lower Styria </hi><hi rend="italic" style="font-size:10pt">POLOS</hi><hi style="font-size:10pt" xml:space="preserve">: </hi><ref target="http://gams.uni-graz.at/context:polos"><hi style="font-size:10pt">http://gams.uni-graz.at/context:polos</hi></ref><hi rend="Hyperlink"><seg style="font-size:10pt">.</seg></hi>
+            </p>
+            <listBibl>
+                <head>Literature</head>
+                <bibl>Almasy, Karin. <hi rend="italic">Wie aus Marburgern "Slowenen" und "Deutsche"
+                    wurden: Ein Beispiel zur beginnenden nationalen Differenzierung in
+                    Zentraleuropa zwischen 1848 und 1861.</hi> Graz: Artikel-VII-Kulturverein
+                    für Steiermark – Pavelhaus, 2014.</bibl>
+                <bibl><anchor xml:id="CTVL0017b662f29b4b047d4889fe434873e3392"/>Almasy, Karin. <hi rend="italic">Wie aus Marburgern "Slowenen" und "Deutsche" wurden: Ein
+                    Beispiel zur beginnenden nationalen Differenzierung in Zentraleuropa
+                    zwischen 1848 und 1861.</hi> Graz: Artikel-VII-Kulturverein für Steiermark –
+                    Pavelhaus, 2014.</bibl>
+                <bibl>Almasy, Karin. “The Linguistic and Visual Portrayal of Identifications in
+                    Slovenian and German Picture Postcards (1890–1920).” <hi rend="italic">Austrian
+                        history yearbook,</hi> 49 (2018): 41–57.<anchor xml:id="CTVL001e069557135bc4e78bbab95c767194d7e"/></bibl>
+                <bibl>Almasy, Karin. “Prosperität und Modernisierung der Untersteiermark zu Beginn
+                    des 20. Jahrhunderts im Spiegel Illustrierter Postkarten.” In: <hi rend="italic">Prosperität und Wirtschaftsaufschwung im Donau-Karpaten-Raum</hi>. Edited
+                    by Harald Heppner, [upcoming 2019].<anchor xml:id="CTVL00128e888f28f9d43669ae1e036ea8bd87e"/></bibl>
+                <bibl>Almasy, Karin. “Postkartengeschichte(n). Der Unterschätzte Quellenwert von
+                    handschriftlichen Spuren auf Postkarten für Sozial-, Alltags- Und
+                    Mikrogeschichte.” In: <hi rend="italic">Bildspuren, Sprachspuren. Postkarten als
+                        Quelle zu mehrsprachigen Regionen der Späten Habsburger Monarchie</hi>.
+                    Edited by Karin Almasy, Heinrich Pfandl and Eva Tropper, [upcoming].
+                    Bielefeld: transcript, 2020.<anchor xml:id="CTVL001a48424fa378a4bd7b416b6866e398f73"/></bibl>
+                <bibl>Almasy, Karin, Heinrich Pfandl, and Eva Tropper, eds. <hi rend="italic">Bildspuren, Sprachspuren. Postkarten als Quelle zu mehrsprachigkeit in der
+                    späten Habsburger Monarchie</hi>. Bielefeld: transcript, [upcoming
+                    2020].<anchor xml:id="CTVL001492a366a225c4a939de3ba7bedccfbef"/></bibl>
+                <bibl>Almasy, Karin, and Martin Sauerbrey. “"Noviga ni nič. Vojska je hudič." Prva
+                    svetovna vojna na razglednicah s Spodnje Štajerske.” <hi rend="italic">Zgodovina
+                        za vse</hi> (2019): 45–61.<anchor xml:id="CTVL001089a005f18624759b87d3fd925493512"/></bibl>
+                <bibl>Almasy, Karin, and Eva Tropper. <hi rend="italic">Štajer-Mark: 1890-1920: Der
+                    gemeinsamen Geschichte auf der Spur: Postkarten der historischen
+                    Untersteiermark = Po sledeh skupne preteklosti: Razglednice zgodovinske
+                    Spodnje Štajerske</hi>. Laafeld: Kulturno društvo Člen 7 za avstrijsko
+                    Štajersko – Pavlova hiša, 2018.<anchor xml:id="CTVL0011f1d61fe9eca43fabc1fefefb6cd232f"/></bibl>
+                <bibl>Anderson, Benedict R. O'G. <hi rend="italic">Imagined Communities: Reflections
+                    on the Origin and Spread of Nationalism</hi>. Rev. ed. London, New York:
+                    Verso, 2006.<anchor xml:id="CTVL001119f09e8ad984956ad48e6d62b21f2f4"/></bibl>
+                <bibl>Barton, David, and Nigel Hall, eds.
+                    <hi rend="italic" xml:space="preserve">Letter Writing as a Social Practice. </hi>Amsterdam:
+                    Benjamins, 2000.<anchor xml:id="CTVL00126074a8ac6fe46a19a29e689c87d3be7"/></bibl>
+                <bibl>Békéski, Sándor. “Die topografische Ansichtskarte. Zur Geschichte und Theorie
+                    eines Massenmediums.” <hi rend="italic">Relation. Beiträge zur vergleichenden
+                        Kommunikationsforschung. Online Edition</hi> 1 (2004): 382–404.<anchor xml:id="CTVL001eb58d32f1696497dacfd9a9dfe1da421"/></bibl>
+                <bibl>Bezljaj Krevel, Ljudmila. “Slovenska pošta, telegraf in telefon v Kraljevini
+                    Jugoslaviji.” In: <hi rend="italic">Pošta na slovenskih tleh</hi>. Edited by
+                    Andrej Hozjan, 178–239. Maribor: Delo, 1997.<anchor xml:id="CTVL0016aa7035690f94f8a934e5a69377aaa9f"/></bibl>
+                <bibl>Cvirn, Janez. <hi rend="italic">Trdnjavski trikotnik: Politična orientacija
+                    Nemcev na Spodnjem Štajerskem (1861–1914)</hi>. Maribor: Obzorja,
+                    1997.<anchor xml:id="CTVL001415b66508b794a999abd1600011f4d6e"/></bibl>
+                <bibl>Cvirn, Janez. <hi rend="italic">Aufbiks! Nacionalne razmere v Celju na prelomu
+                    19. v 20. stoletje</hi>. Celje: Visual Production, 2006.<anchor xml:id="CTVL001070df04162e549668ae779a99d78850e"/></bibl>
+                <bibl>Fishman, Joshua. “Bilingualism with and Without Diglossia; Diglossia with and
+                    Without Bilingualism.” <hi rend="italic">Journal of Social Issues,</hi> XXXIII,
+                    No. 2 (1967): 29–38.<anchor xml:id="CTVL0011f053e2e02b148b29854b69037d651b7"/></bibl>
+                <bibl>Gorter, Durk, ed. <hi rend="italic">Linguistic Landscape: A New Approach to
+                    Multilingualism</hi>. Clevedon: Multilingual Matters, 2006.<anchor xml:id="CTVL00182323ae26a8c4352aae721f6cb127c4a"/></bibl>
+                <bibl>Hall, Nigel, and Julia Gillen. “Purchasing Pre-Packed Words: Complaint and
+                    Reproach in Early British Postcards.” In: <hi rend="italic">Ordinary Writings,
+                        Personal Narratives: Writing Practices in 19</hi><hi rend="italic superscript">th</hi><hi rend="italic" xml:space="preserve"> and Early 20</hi><hi rend="italic superscript">th</hi><hi rend="italic">-Century Europe</hi>.
+                    Edited by Martyn Lyons, 101–18. Bern: Lang, 2007.<anchor xml:id="CTVL001cadb72e60071430aabb489d83522f692"/></bibl>
+                <bibl>Holzheid, Anett.
+                    <hi rend="italic" xml:space="preserve">Das Medium Postkarte: Eine Sprachwissenschaftliche und Mediengeschichtliche Studie. </hi>Berlin:
+                    Erich Schmidt Verlag, 2011.<anchor xml:id="CTVL001d2363cd9a25042459ce2374d8ea1d505"/></bibl>
+                <bibl>Jaworski, Adam. “Linguistic Landscapes on Postcards: Tourist Mediation and the
+                    Sociolinguistic Communities of Contact.” <hi rend="italic">Sociolinguistic
+                        studies,</hi> 4, No. 3 (2010): 569–94.<anchor xml:id="CTVL001d25bfeb14f7e4ee4b59984c808ca3eaa"/></bibl>
+                <bibl>Judson, Pieter M. <hi rend="italic">Guardians of the Nation: Activists on the
+                    Language Frontiers of Imperial Austria</hi>. Cambridge, Mass: Harvard
+                    University Press, 2006.<anchor xml:id="CTVL001a6213f1a22dd4e92a55063fcbd64ca82"/></bibl>
+                <bibl>Kempgen, Sebastian. “Postkarten als Quelle zur bulgarischen Sprachgeschichte
+                    der esten Hälfte des 20. Jahrhunderts.” <hi rend="italic">Slavistische
+                        Linguistik</hi> 2006/2007 (2009): 221–46.<anchor xml:id="CTVL001d80efc435c49408e9e795ec1817a3794"/></bibl>
+                <bibl>Landry, Rodrique, and Richard Bourghis. “Linguistic Landscape and
+                    Ethnolinguistic Vitality. An Empirical Study.” <hi rend="italic">Journal of
+                        Language and Social Psychology,</hi> 16, 23–49 (1997).<anchor xml:id="CTVL001afd3c284d12b4f6fae0b2184c01ddb2c"/></bibl>
+                <bibl>Magnússon, Sigurður G., and István Szíjártó. <hi rend="italic">What Is
+                    Microhistory? Theory and Practice</hi>. Milton Park, Abingdon, Oxon:
+                    Routledge, 2013.<anchor xml:id="CTVL0012e19203ee5d24c30ad1b090c62530c5e"/></bibl>
+                <bibl>Milne, Esther. <hi rend="italic">Letters, Postcards, Email: Technologies of
+                    Presence</hi>. New York, London: Routledge Taylor &amp; Francis Group,
+                    2013.<anchor xml:id="CTVL00115be8f75fcba497784660ff4e779e8a1"/></bibl>
+                <bibl>Mitchell, W. J. Thomas. <hi rend="italic">Picture Theory: Essays on Verbal and
+                    Visual Representation</hi>. Chicago, Ill.: Univ. of Chicago Press,
+                    1995.<anchor xml:id="CTVL001001902729a814bf29a8484853c74431c"/></bibl>
+                <bibl>Pfandl, Heinrich. “"Wie ist es bei den Slowenen lustig". Slowenisches auf
+                    topographischen Ansichtskarten des Kronlandes Steiermark 1890-1918.” <hi rend="italic">Signal. Jahresschrift des Pavelhauses</hi> 2010/2011:
+                    10–32.<anchor xml:id="CTVL00111c59fbdda9e4e30bab19e0003d4d19c"/></bibl>
+                <bibl>Pfandl, Heinrich. “Slowenische Identität(en) auf Ansichtskarten der Monarchie
+                    zwischen 1890 und 1918. Am Beispiel des österreichischen Kronlandes Steiermark.”
+                    In: <hi rend="italic">Konfliktszenarien um 1900: Politisch – Sozial – Kulturell;
+                        Österreich-Ungarn und das russische Imperium im Vergleich = Scenarii
+                        Konfliktov Na Rubeže XIX - XX Vekov; Političeskie – Socialʹnye – Kulʹturnye;
+                        Avstro-Vengerskaja I Rossijskaja Imperii</hi>. Edited by Peter Deutschmann,
+                    Volker Munz and Ol'ga Pavlenko, 251–88. Wien: Praesens-Verl., 2011.<anchor xml:id="CTVL001a919bddd651d4fed92b07f3d462d7548"/></bibl>
+                <bibl>Pfandl, Heinrich. “Razglednice Spodnje Štajerske kot vir informacij o obdobju
+                    med letoma 1890 in 1918.” In: <hi rend="italic">Rokopisi slovenskega slovstva od
+                        srednjega veka do moderne</hi>. Edited by Aleksander Bjelčevič, Matija Ogrin
+                    and Urška Perenič. Ljubljana: Znanstvena založba Filozofske fakultete, 2017,
+                    197–210.<anchor xml:id="CTVL0019289ff6f43eb480b9bdac12edf524446"/></bibl>
+                <bibl>Reimann, Reinhard. “"Für echte Deutsche gibt es bei uns genügend Rechte". Die
+                    Slowenen und Ihre deutsche Minderheit 1918-1941.” In: <hi rend="italic">Slowenen
+                        und Deutsche im gemeinsamen Raum: Neue Forschungen zu einem komplexen
+                        Thema</hi>. Edited by Harald Heppner, München: R. Oldenburg, 2002,
+                    126–51.<anchor xml:id="CTVL00169a487d930054a67a567e1d35361e020"/></bibl>
+                <bibl>Šantel, Anton. <hi rend="italic">Zgodbe moje pokrajine: [z lastnimi
+                    risbami]</hi>. Edited by Janez Kajzer. Ljubljana: Nova revija, 2006.<anchor xml:id="CTVL00100201e841332444085ecc1efe94c909b"/></bibl>
+                <bibl>Sauerbrey, Martin. “"Danes na peči faulencam. Jutri grem pa na 'Jegerbal'" -
+                    Was man aus Postkarten aus der Untersteiermark aus den Jahren 1880-1920 lernen
+                    kann.” <hi rend="italic">VII. Jahresschrift des Pavelhauses</hi> (2017):
+                    102–117.<anchor xml:id="CTVL001f820d5280f0f43508fc7b7f5c0ecfe8d"/></bibl>
+                <bibl>Thurlow, Crispin, Adam Jaworski, and Virpi Ylänne-McEwen. “'Half-Hearted
+                    Tokens of Transparent Love’: Host and Tourist Perceptions of Postcard
+                    Representations.” <hi rend="italic">Tourism, Culture, Communication,</hi> 5,
+                    No. 1 (2005): 93–104.</bibl>
+            </listBibl></div>
+            <div type="summary" xml:lang="sl">
+                <docAuthor>Karin Almasy</docAuthor>
+            <head>JEZIKOVNA KRAJINA SPODNJE
+                ŠTAJERSKE NA RAZGLEDNICAH (1890–1920)</head>
+            <head>POVZETEK</head>
+            <p><hi style="font-size:10pt">Ilustrirana razglednica je v devetdesetih letih 19.
+                stoletja postala prvi množični fenomen komunikacije in je bila v času pred
+                telefonom tudi najpomembnejše in najhitrejše vsakodnevno komunikacijsko
+                sredstvo. Razglednice so se uporabljale ne le v prvem nastajajočem turizmu,
+                temveč tudi za opravljanje vsakodnevne komunikacije. Uporabljali so jih ljudje
+                različnih družbenih slojev in različnih stopenj izobraženosti. Zato je
+                razglednica z začetka 20. stoletja inovativen vir za zgodovinopisje, ker je bila
+                zelo blizu vsakdanjemu življenju in jo je na mnogoterih ravneh oblikovalo
+                sožitje več jezikov v jezikovno mešanih področjih habsburške monarhije. Tako
+                lahko raziskovalcem nudi poseben dostop do struktur dvo- ali večjezičnih
+                pokrajin. Pričujoči članek s pomočjo razglednic nudi vpogled v takšno dvojezično
+                regijo habsburške monarhije: v Spodnjo Štajersko (Untersteiermark/Lower
+                Styria/današnja Štajerska).</hi>
+            </p>
+            <p><hi style="font-size:10pt" xml:space="preserve">V obdobju, ko so razglednice postale množični fenomen splošne komunikacije, je Spodnjo Štajersko, južno pokrajino kronovine Štajerske, prežemalo vprašanje »narodnosti«. Ločnica med narodnima skupinama je postal jezik. Jezik ni bil več pragmatično sredstvo komunikacije, temveč je postal vir identitete in simbol narodnosti. V drugi polovici 19. stoletja je bila dvojezična pokrajina v razpravah označena za miroljubno, čeprav asimetrično sobivanje obeh jezikov. Nemščina je bila v zavidljivejšem položaju. Kodificirana je bila prej kot slovenščina, bila je dominanten jezik urbanega okolja in je veljala za jezik višjega sloja ter višje izobrazbe. Glede na to je bila v večini primerov družbenega napredka povezana s prilagajanjem, dobro obvladanje nemščine pa je bilo ekonomsko relevantno predvsem za slovenske družine. Tako je bila dvojezičnost zelo razširjena, še posebej med Slovenci. Nemški jezik prevladuje na razglednicah večjih mest in trgov Spodnje Štajerske, medtem ko so bile slovenske in dvojezične razglednice bolj razširjene na podeželju. </hi></p>
+            <p><hi style="font-size:10pt">Članek se naslanja na koncept »jezikovnih zemljevidov«
+                (</hi><hi rend="italic" style="font-size:10pt">linguistic
+                    landscapes</hi><hi style="font-size:10pt" xml:space="preserve">). Ta koncept k večjezičnim družbam pristopa z opiranjem na »vidnost in prepoznavnost jezika […] na danem področju«. Pri tem izhaja iz domneve, da vizualna reprezentacija jezikov služi pomembnim informativnim in simbolnim funkcijam, »označuje meje jezikovnega področja« in posreduje pomembne informacije o »sorazmerni moči in statusu tekmujočih jezikovnih skupin« (Landry/Bourghis 1997: 24). Zato koncept »jezikovnih zemljevidov« ponuja nov pristop k večjezičnosti. Medtem ko se raziskovalci v prvi vrsti osredinjajo na opaznost različnih jezikov na javnih in komercialnih oznakah v današnjem javnem prostoru, želi ta članek pokazati, da so lahko razglednice z začetka 20. stoletja prav tako razumljene kot del tega – zgodovinskega – javnega prostora. S primeri razglednic Spodnje Štajerske in z vpogledi v rezultate triletnega raziskovalnega projekta »Postcarding Lower Styria. Nation, Language and Identities on Picture Postcards (1890–1920)« članek nudi pregled o »jezikovnem zemljevidu« Spodnje Štajerske in želi pokazati dvojezično sobivanje slovenščine in nemščine v skupnem prostoru Spodnje Štajerske med 1890 in 1920. </hi>
+            </p></div>
+        </back>
+    </text>
+</TEI>
