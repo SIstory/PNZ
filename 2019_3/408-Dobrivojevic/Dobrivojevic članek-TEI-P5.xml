@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sr">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Trajnost i promena. Abortusna kultura, liberalizacija propisa i pokušaji
+                    seksualne edukacije stanovništva Jugoslavije (1918–1991)</title>
+                <author>
+                    <name>
+                        <forename>Ivana</forename>
+                        <surname>Dobrivojević Tomić</surname>
+                        <roleName>Dr.</roleName>
+                        <roleName>viši naučni saradnik</roleName>
+                        <affiliation>Institut za savremenu istoriju</affiliation>
+                        <address>
+                            <addrLine>Trg Nikole Pašića 11</addrLine>
+                            <addrLine>SR-11000 Beograd</addrLine>
+                        </address>
+                        <email>tjasa.konovsek@inz.si</email>
+                    </name>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2019-09-02</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/408</pubPlace>
+                <date>2019</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">59</biblScope>
+                <biblScope unit="issue">3</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Yugoslavia</term>
+                    <term>family planning</term>
+                    <term>abortion</term>
+                    <term>parenthood</term>
+                    <term>contraception</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>Jugoslavija</term>
+                    <term>načrtovanje družine</term>
+                    <term>splav</term>
+                    <term>starševstvo</term>
+                    <term>kontracepcija</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2019-03-12</date>
+                    <name>Neja Blaj Hribar</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Ivana Dobrivojević Tomić<note place="foot" xml:id="ftn1" n="*"><hi
+                        rend="bold">Dr., viši naučni saradnik, Institut za savremenu istoriju, Trg
+                        Nikole Pašića 11, Beograd, </hi><ref
+                        target="mailto:ivanadobrivojevic@hotmail.com"><hi rend="bold"
+                            >ivanadobrivojevic@hotmail.com</hi></ref></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="UDC">UDK: 613.888.15: 618.39(497.1)"1918/1991"</idno>
+            </docImprint>
+            <div type="abstract" xml:lang="sl">
+                <head>IZVLEČEK</head>
+                <head>TRAJNOST IN SPREMEMBE. KULTURA SPLAVA, LIBERALIZACIJA UREDITVE IN POSKUSI
+                    SPOLNE VZGOJE PREBIVALSTVA JUGOSLAVIJE (1918 – 1991) </head>
+                <p><hi rend="italic" style="font-size:10pt">Prispevek preučuje ureditev in prakso
+                        načrtovanja družin v Jugoslaviji v 20. stoletju. Čeprav so se
+                        družbeno-gospodarske razmere v državi spreminjale, dvigal se je življenjski
+                        standard in kontracepcija je postala širše dostopna, je za večino parov v
+                        celotnem dvajsetem stoletju splav, najprej nezakonit, nato zakonit, ostal
+                        eden od osnovnih "metod" spontanega in nepremišljenega načrtovanja
+                        starševstva. Paradoksalno je, da je bil, kljub svobodnejši spolnosti in
+                        seksualni revoluciji, ki sta se zgodili po vojni, ter prizadevanjem za
+                        odpiranje svetovalnih centrov, širjenju kontracepcije in t. i. "humanizaciji
+                        odnosov med spoloma", eden temeljnih uspehov državne politike na področju
+                        načrtovanja družine dekriminaliziranje splava in njegova "selitev" v
+                        bolnišnice in ambulante. Na podlagi virov iz Arhiva Jugoslavije in
+                        relevantnih periodičnih publikacij ter literature bo avtorica skušala
+                        odgovoriti na vprašanje, zakaj je imela državna politika pri tem skromne
+                        rezultate, pa tudi, kakšni motivi so vplivali na pare, da so se odločali za
+                        družine z enim ali dvema otrokoma.</hi></p>
+                <p><hi rend="italic" style="font-size:10pt" xml:space="preserve"> Ključne besede: Jugoslavija, načrtovanje družine, splav, starševstvo, kontracepcija </hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head>DURABILITY AND CHANGE. CULTURE OF ABORTION, LIBERALISATION OF REGULATION AND
+                    ATTEMPTS AT SEX EDUCATION OF THE PEOPLE OF YUGOSLAVIA (1918–1991)</head>
+                <p><hi rend="italic" style="font-size:10pt" xml:space="preserve">The work considers the regulation and practice of family planning in Yugoslavia in the 20th Century. Despite many changes in socio-economic conditions in the country, growth of standard of living and availibility of contraception,  for most couples during the whole of the 20th Century abortion, first illegal then legal, remained one of the main „methods“ of spontaneous and short term family planning. Paradoxically, despite liberalisation of sexuality and the sexual revolution after World War 2 and attempts at creating counselling centres, promotion of contraception and the so called „humanization of relations between the sexes“, one of the main successes of state policy in the field of family planning was the decriminalisation of abortion and its „move“ to hospitals and ambulatory care clinics. On the basis of sources from the Archives of Yugoslavia and relevant periodical press and literature, the author will attempt to answer the question why this state policy had such poor results and which motives influenced couples to decide on families with one or two children. </hi></p>
+                <p>
+                    <hi rend="italic" style="font-size:10pt">Key words: Yugoslavia, family planning,
+                        abortion, parenthood, contraception</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>Nasleđe Kraljevine Jugoslavije</head>
+                <p><hi style="font-size:12pt">Iskustvo i posledice Prvog svetskog rata temeljno su
+                        izmenili društva gotovo svih evropskih zemalja. Preživljene strahote uticale
+                        su na ljude da se, po završetku četvorogodišnjeg vojevanja, više okrenu sebi
+                        i sopstvenim životnim zadovoljstvima. Jačanje individualizma bilo je praćeno
+                        popuštanjem stega u odnosu među polovima, slobodnijem iskazivanju emocija i
+                        transformisanjem porodice i porodičnih odnosa. Ekonomsko-socijalni problemi
+                        i jačanje shvatanja da deci treba omogućiti koliko-toliko sigurnu
+                        egzistenciju doveli su do smanjenja želje za velikim potomstvom i nastojanja
+                        da se rađanje ograniči. Iako je pokušaja kontrole rađanja kroz istoriju bilo
+                        uvek, namerni pobačaji su se do Prvog svetskog rata, po pravilu, dešavali
+                        sporadično. Izmenjene društvene prilike dovele su do povećanja njihovog
+                        broja, pa se već od tridesetih godina prošlog veka počelo govoriti o
+                        „postojanju pandemije abortusa“, s obzirom na to da je, iz socijalnih
+                        razloga, u Francuskoj godišnje obavljano na stotine hiljada pobačaja, a u
+                        Nemačkoj čak milion.</hi><note place="foot" xml:id="ftn2" n="1"> Milovan
+                        Milovanović, <hi rend="italic">„</hi>Letalni namerni pobačaj,“ <hi
+                            rend="italic">Medicinski pregled</hi> (oktobar 1936): 375. </note>
+                </p>
+                <p><hi style="font-size:12pt" xml:space="preserve">Trend ograničavanja poroda nije mimoišao ni industrijski nerazvijena društva na evropskoj periferiji. U siromašnoj i ratom opustošenoj Kraljevini Jugoslaviji, ekonomska kriza, relativna agrarna prenaseljenost i visok prirodni prirašaj, poput spojenih sudova, kočili su privredni napredak i modernizaciju. Teret visoke stope rađanja najviše je pogađao seosko stanovništvo, večito gladno zemlje. „Ne mnogo stari ljudi pričaće vam“, pisao je Sreten Vukosavljević u </hi><hi
+                        rend="italic" style="font-size:12pt"
+                        >Pravdi</hi><hi style="font-size:12pt" xml:space="preserve"> 1937, „kako pamte da je na jednom imanju, na kome sad živi jedanaest kuća, živela samo jedna kad su oni bili mladi“.</hi><note
+                        place="foot" xml:id="ftn3" n="2"> Sreten Vukosavljević, <hi rend="italic"
+                            >Pisma sa sela</hi> (Beograd: Savremena škola, 1962),
+                    92.</note><hi style="font-size:12pt" xml:space="preserve"> Povećanje broja stanovnika i dodatno usitnjavanje ionako patuljastih seljačkih poseda, uz ekonomsku krizu i teške uslove života, ali i postepen porast životnih očekivanja, predstavljali su osnovne motive kontrole rađanja. </hi></p>
+                <p><hi style="font-size:12pt">Regionalne razlike kako u ekonomskoj razvijenosti tako
+                        i u shvatanjima stanovništva po pitanju brojnosti potomstva bile su velike.
+                        Iako je za većinu Jugoslovena polni odnos bio, pre svega, izvor uživanja, pa
+                        tek onda neophodan korak ka proširenju porodice, na rođenje se u svim
+                        delovima zemlje gledalo kao na božji blagoslov.</hi><note place="foot"
+                        xml:id="ftn4" n="3"> Aleksandar Petrović, „Deca prema shvatanju našeg
+                        naroda,“ <hi rend="italic">Socijalno-medicinski pregled</hi> (oktobar –
+                        novembar – decembar 1940):
+                        457.</note><hi style="font-size:12pt" xml:space="preserve"> Što su životne prilike bile skromnije, privreda naturalnija, nepismenost izraženija, a udaljenost od kulturnih i ekonomskih centara veća, rasla je i stopa rađanja. Neslavni rekod držali su bosanski srezovi Cazin, Travnik i Jajce, u kojima je prirodni priraštaj bio blizu 60 promila. Istraživanja Vere Stein Erlich sprovedena krajem tridesetih30-tih godina u tri stotine jugoslovenskih sela pokazuju, međutim, da stanovništvo Bosne, Makedonije i Crne Gore, uprkos velikom siromaštvu, nije ni razmišljalo o organičavanju poroda. Religioznost i patrijarhalni nazori uticali su na žitelje ovih krajeva da broj dece bespogovorno prihvataju kao svoju sudbinu i božju volju. Verovalo se da su abortusi „veliki greh“, „da protiv božje volje ne valja raditi“, kao i da će se svakom detetu „naći hljeba“. Potpuno drugačije prilike vladale su u Srbiji i Hrvatskoj, gde je stanovništvo pokušavalo da ograniči i kontroliše rađanje. Nedovoljna znanja o mehaničkim načinima sprečavanja začeća uticala su na to da osnovno sredstvo kontrole rađanja postane pobačaj. Prema podacima iz posavskog sreza u Srbiji polovina trudnoća namerno je prekidana. Abortusi su predstavljali javnu tajnu, koja je na osudu nailazila samo u slučaju smrtnog ishoda.</hi><note
+                        place="foot" xml:id="ftn5" n="4"> Priraštaj u srezu Cazin je iznosio 56
+                        promila, u srezu Travnik 59, a u srezu Jajce 60. – Vera Stein Erlich, <hi
+                            rend="italic">Jugoslavenska porodica u transformaciji. Studija u tri
+                            stotine sela</hi> (Zagreb: Liber, 1971), 263, 268–73.
+                    </note><hi style="font-size:12pt" xml:space="preserve"> Donošenje odluke o prekidu trudnoće žene su neretko preuzimale na sebe, krijući pobačaj od muža. Ekonomske teškoće, ali i opterećenost poslom oko kuće, na njivi, ali i u trgovini, ukoliko se radilo o naprednijim domaćinstvima, koja su višak proizvoda iznosila na pijacu, uticale su na žene da relativno lako donose odluku o prekidu trudnoće. „Kako da ne pobacujem“, pričala je doktoru Aleksandru Petroviću 26-godišnja majka troje dece, „Kad kažem svekrvi da sam nejaka (trudna), pa mi je teško da radim, a oni mi se svi u kući smeju… Kad sam pobacila, muž me je odmah, još istog dana, naterao da donesem vodu, natopim košulje… Posle sam celo popodne vukla đubre iz štale“. </hi></p>
+                <p><hi style="font-size:12pt" xml:space="preserve">Žene u Rakovici, tada selu nadomak Beograda, obično su rađale prvo, drugo, pa i treće dete, ali, u slučajnu narednih trudnoća, obavezno su postavljale pitanje „roditi ili ne roditi“. Ovu moralnu dilemu u Srbiji olakšavalo je odsustvo snažnijeg uticaja crkve, ali i shvatanje da život počinje tek danom rođenja.</hi><note
+                        place="foot" xml:id="ftn6" n="5"> Aleksandar Petrović, <hi rend="italic"
+                            >Rakovica: socijalno-zdravstvene i higijenske prilike</hi>, <hi
+                            rend="italic">t. 2</hi> (Beograd: Centralni higijenski zavod, 1939), 28.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> Ne bi li se rešile neželjenog ploda, žene su se dovijale kako su znale i umele, rizikujući svoje zdravlje i svoje živote. U nehigijenskim uslovima vršile su pobačaje, samostalno ili uz pomoć „za to čuvenih žena u selu“.</hi><note
+                        place="foot" xml:id="ftn7" n="6"> Momčilo Isić, „Dete i žena na selu u
+                        Srbiji između dva svetska rata,” u: <hi rend="italic">Žene i deca. 4. Srbija
+                            u modernizacijskim procesima XIX i XX veka</hi> (Beograd: Helsinški
+                        odbor za ljudska prava, 2006),
+                        152.</note><hi style="font-size:12pt" xml:space="preserve"> Kamfor, koren od kukureka i ženetrge, vreteno, žica i igle za pletenje predstavljali su glavne „instrumente“ za vršenje abortusa.</hi><note
+                        place="foot" xml:id="ftn8" n="7"> Petrović, <hi rend="italic">Rakovica</hi>,
+                        28,
+                        29.</note><hi style="font-size:12pt" xml:space="preserve"> Iako su pobačaju kao osnovnom „metodu“ kontrole rađanja pribegavale pre svega udate žene, vladajući patrijarhalni nazori terali su devojke da, gotovo po pravilu, prekidaju trudnoće nastale iz nedozvoljenih veza. Stigmu vanbračne trudnoće bilo je teško nositi. Teret moralne osude okoline nosila je ne samo samohrana majka već i nezakonito rođeno dete, budući da se smatralo da su „kopilad… opšta nesreća sela“, da prouzrokuju mnoge „bede i nevolje“, pa čak i elementarne nepogode.</hi><note
+                        place="foot" xml:id="ftn9" n="8">
+                        <anchor xml:id="dovde"/>Petrović, „Deca prema shvatanju našeg naroda,“ 458.
+                        V. i Juraj Кulaš, „Кrivično-pravno delo pobačaja,“ <hi rend="italic"
+                            >Branič</hi> 9 (1935): 423.</note>
+                </p>
+                <p><hi style="font-size:12pt">Do donošenja Krivičnog zakonika 1929. godine u
+                        Kraljevini Jugoslaviji važili su propisi koji su se temeljili na srpskom i
+                        crnogorskom zakoniku, odnosno austrijskom i mađarskom kaznenom pravu, pa se
+                        dešavalo da se pobačaji u jednom delu zemlje kažnjavaju strože nego u
+                        drugom.</hi><note place="foot" xml:id="ftn10" n="9"> Svetlana Stefanović,
+                        "Žensko pitanje u beogradskoj štampi i periodici 1918–1941" (magistarski rad
+                        u rukopisu, Beograd),
+                        169.</note><hi style="font-size:12pt" xml:space="preserve"> „Državljani jedne iste države“, pisao je Metod Dolenc, pledirajući za hitno ujednačavanje zakonodavstva, „za delikat jedne iste naravi u Ljubljani kažnjavaju se, u Beogradu ne. I kad se kažnjavaju, u Beogradu je druga kazna, sad manja, sad veća, u Ljubljani sad veća, sad manja; a u Crnoj Gori može ići i do doživotne robije, koja kazna inače nigde ne postoji“.</hi><note
+                        place="foot" xml:id="ftn11" n="10"> Metod Dolenc, „Problem krivično-pravne
+                        zaštite ploda utrobe,“ <hi rend="italic">Arhiv za pravne i društvene
+                            nauke</hi>, VII, 4 (1924): 165. Navedeno u celini prema: Gordana Drakić,
+                        „Prekid trudnoće prema Кrivičnom zakoniku kraljevine Jugoslavije i
+                        projektima koji su mu prethodili,” <hi rend="italic">Zbornik radova Pravnog
+                            fakulteta u Novom Sadu</hi> 3 (2011): 537.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> Članovi 171, 172 i 173 jedinstvenog Krivičnog zakonika donekle su izmenili položaj žene. Iako je pobačaj i dalje inkriminisan kao kriminalni akt kažnjiv sa tri do pet godina robije, zakonodavac je predvideo i važnu novinu. Uvedena je medicinska indikacija, koja je omogućila lekarima da prekidaju trudnoću ne bi li spasli ženino zdravlje ili život. Štaviše, od principa opšte kažnjivosti odstupilo se i u slučaju vanbračnih trudnoća s obzirom na to da su neudate devojke, koje bi same izvršile pobačaj, mogle biti oslobođene odlukom suda.</hi><note
+                        place="foot" xml:id="ftn12" n="11"> Ibid., 540, 541. </note>
+                </p>
+                <p><hi style="font-size:12pt">Propisane kaznene mere nisu mogle da zaustave
+                        epidemiju pobačaja nastalu, pre svega, iz socijalnih razloga. Dok su
+                        boljestojeće gradske dame mogle platiti (ilegalan) pobačaj u nekom od
+                        „diskretnih“ sanatorijuma, koji su za tu uslugu naplaćivali čak 2.000
+                        dinara, iznos koji je bio ekvivalentan tromesečnoj ili četvoromesečnoj plati
+                        nekvalifikovane radnice,</hi><note place="foot" xml:id="ftn13" n="12">
+                        Predrag Marković, <hi rend="italic">Beograd i Evropa 1918–1941. Evropski
+                            uticaji na proces modernizacije Beograda</hi> (Beograd: Savremena
+                        administracija, 1991), 62.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> žene skromnog ekonomskog stanja o takvom „luksuzu“ nisu mogle ni razmišljati. Rupture materice, sepse, teška krvarenja i trovanja predstavljale su samo neke od posledica nestručno izvedenih abortusa. Iz godine u godinu zdravlje žena bivalo je sve ugroženije, a smrtni ishodi sve češći, što pokazuju i podaci izvršenih obdukcija u beogradskom Sudsko-medicinskom zavodu. Iako je paralelno sa trendom porasta pobačaja rastao i broj lekara i babica, koji su bili spremni da pomognu ženama da, iz socijalnih razloga, okončaju neželjenu trudnoću, žurba, neiskustvo, nedovoljno sterilni uslovi i neposedovanje odgovarajućih instrumenata uzimali su svoj danak, pa je smrtnost i kod ovih polustručno izvedenih pobačaja i dalje bila velika.</hi><note
+                        place="foot" xml:id="ftn14" n="13"> Godine 1919. zabeležen je samo jedan
+                        smrtni slučaj od nestručno izvedenog pobačaja, a 1935. ih je bilo čak 38.
+                        –Milovanović, <hi rend="italic">„</hi>Letalni namerni pobačaj,” 185, 187,
+                        188. </note>
+                </p>
+                <p><hi style="font-size:12pt" xml:space="preserve">Strogi zakonski propisi koji su, međutim, bili donekle u raskoraku sa sudskom praksom, s obzirom na to da se zbog vršenja ilegalnog abortusa retko završavalo na sudu, veliki broj ginekoloških oboljenja i smrtnih ishoda, a samim tim ugroženost i čitavih porodica, podstakli su polemiku u javnosti. Pokret za promenu članova Krivičnog zakonika koji su se odnosili na nedozvoljeni pobačaj bio je naročito jak u Sloveniji. Maja 1933. tri ljubljanska ženska udruženja održala su zbor na kome su zahtevala da se pobačaj dozvoli u određenim slučajevima, da se otvore savetovališta za seksualna pitanja, organizuju tečajevi o kontracepciji i pobačaju, ali i proizvodnja i prodaja prezervativa. </hi><note
+                        place="foot" xml:id="ftn15" n="14"> Stefanović, "Žensko pitanje u
+                        beogradskoj štampi," 171–74, 177.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> Kampanju je pratila i levičarska </hi><hi
+                        rend="italic" style="font-size:12pt">Delavska
+                        politika,</hi><hi style="font-size:12pt" xml:space="preserve"> koja je u dva navrata tokom 1933. godine izveštavala o idejama i zahtevima za delimičnu legalizaciju abortusa.</hi><note
+                        place="foot" xml:id="ftn16" n="15">AJ, 142 / II – 417; A. Milojković, G.
+                        Žarković, M. Džumhur, Historijat liberalizacije pobačaja u Jugoslaviji.
+                        Savetovanje o izgradnji društvenih stavova o populacionoj politici u
+                        Jugoslaviji (1973). V. „Impozantna udeležba rudarjev na socijalnem tečaju v
+                        Črni,“ <hi rend="italic">Delavska politika</hi>, 12. 7. 1933, 3, dostupno
+                        na: <hi rend="italic">Digitalna knjižnica Slovenije</hi>, <ref
+                            target="https://www.dlib.si/stream/URN:NBN:SI:doc-T7YYARFT/f1847cf6-1a78-43f7-9e4a-0b15b1e47d41/PDF"
+                            >https://www.dlib.si/stream/URN:NBN:SI:doc-T7YYARFT/f1847cf6-1a78-43f7-9e4a-0b15b1e47d41/PDF</ref><hi
+                            rend="Hyperlink">, preuzeto 9. 10. 2019</hi>. „Impozantno zborovanje žen
+                        in deklet,“ <hi rend="italic">Delavska politika</hi>, 10. 5. 1933, 2,
+                        dostupno na: <hi rend="italic">Digitalna knjižnica Slovenije</hi>, <ref
+                            target="https://www.dlib.si/stream/URN:NBN:SI:doc-TYSVVUPB/73b28186-9e4c-48cc-8a2f-0f83b56a0229/PDF"
+                            >https://www.dlib.si/stream/URN:NBN:SI:doc-TYSVVUPB/73b28186-9e4c-48cc-8a2f-0f83b56a0229/PDF</ref><hi
+                            rend="Hyperlink">, preuzeto 9. 10.
+                        2019.</hi></note><hi style="font-size:12pt" xml:space="preserve"> Potreba liberalizacije propisa argumentovana je demografskim, ekonomsko-socijalnim i eugeničkim motivima. U diskusiju su se uključili i pojedini pravnici, poput advokata Juraja Kuliša, koji je na stranicama </hi><hi
+                        rend="italic" style="font-size:12pt">Braniča</hi><hi style="font-size:12pt" xml:space="preserve"> otvoreno isticao da roditeljima, koji ne mogu da izdržavaju veći broj dece, „treba pružiti mogućnost i dozvoliti im da ne pređu granicu rađanja“. </hi>
+                    <note place="foot" xml:id="ftn17" n="16"> Кulaš, „Кrivično-pravno delo
+                        pobačaja,“ 425.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> Najglasniji su, međutim, bili lekari, koji su svakodnevno gledali kako u bolnice donose žene sa teškim krvarenjima nastalim usled nestručno izvedenog abortusa. Oni su na 17. kongresu Srpskog lekarskog društva doneli rezoluciju u kojoj je traženo da se potpomogne podizanje dece, da se otvore porodična savetovališta, a da se članovi Krivičnog zakonika koji se odnose na pobačaj izmene tako što bi se uvažili „socijalno-ekonomski, duševno higijenski i rasno biološki momenti“. „Imaju li pravo društvo i država da od svojih građana traže da ispune sve građanske dužnosti“, stajalo je u komentaru ove rezolucije, „i da rađaju i izdržavaju decu kad im to isto društvo ničim ne izlazi u susret“.</hi><note
+                        place="foot" xml:id="ftn18" n="17"> Predrag Marković, „Seksualnost između
+                        privatnog i javnog u 20. veku,“ u: <hi rend="italic">Privatni život kod Srba
+                            u 20. veku</hi>, ur. Milan Ristović (Beograd: Clio, 2007), 115. </note>
+                </p>
+                <p><hi style="font-size:12pt">Iako su u jugoslovenskom društvu, počev od tridesetih
+                        godina XX veka, seksualnost, slobodna ljubav i kontracepcija postale teme o
+                        kojima se sve više pisalo i govorilo,</hi><note place="foot" xml:id="ftn19"
+                        n="18"> V. Aleksandar Kostić<hi rend="italic">, Polni život čoveka</hi>
+                        (Beograd: Panteon, 1932).
+                        </note><hi style="font-size:12pt" xml:space="preserve"> sistematskih napora na edukaciji stanovništva nije bilo. Lekari angažovani na aktivnostima Centralnog higijenskog zavoda, koji su imali veliku ulogu u podizanju zdravstvene svesti u međuratnom periodu, bili su zaokupljeni drugim temama – poboljšanjem ishrane, lične higijene i higijene doma, borbom protiv tuberkuloze, malarije, endemskog sifilisa i izrazito velike dečje smrtnosti. Iako je na državnom nivou prepoznato da veliki broj pobačaja ugrožava žensko zdravlje i uzrokuje veliku smrtnost, manjak lekarskog i babičkog kadra, kao i ograničenost ambulantno-bolničke službe na gradove, onemogućavali su ozbiljnije napore na planu edukacije stanovništva. Kontracepcija je bila zabranjena,</hi><note
+                        place="foot" xml:id="ftn20" n="19"> AJ, 142 / II – 417; A. Milojković, G.
+                        Žarković, M. Džumhur, Historijat liberalizacije pobačaja u Jugoslaviji.
+                        Savetovanje o izgradnji društvenih stavova o populacionoj politici u
+                        Jugoslaviji
+                        (1973).</note><hi style="font-size:12pt" xml:space="preserve"> a patrijarhalni nazori i puritanski odnos prema slobodnoj ljubavi su, uz objektivan nedostatak resursa, svakako uticali na politiku suzbijanja pobačaja isključivo kazneno-represivnim merama. U nedostatku sistemskog rada na podizanju znanja o polnom životu Jugosloveni su o ovoj temi mogli nešto više saznati iz članaka sporadično objavljivanih u novinama i ženskim časopisima, kao i knjigama koje su izlazile u ediciji „Eros“, pokrenutoj u Zagrebu, i „Biblioteci za seksualna pitanja“, koju je štampao beogradski Napredak. Prosvetni efekti ovih popularnih tekstova bili su ograničeni na uzak krug relativno obrazovanih žitelja jugoslovenskih gradova. O stepenu nepoznavanja sopstvenog tela, suprotnog pola i načina da se neželjeno začeće izbegne svedočila je i tvrdnja doktora Bukića Pijade, koji je isticao „da moderna žena često ništa ne zna o svojoj seksualnosti, čak ni o intimnoj higijeni“.</hi><note
+                        place="foot" xml:id="ftn21" n="20"> Marković, „Seksualnost između privatnog
+                        i javnog u 20. veku,“ 112. </note></p>
+            </div>
+            <div>
+                <head>Iskustvo socijalističke Jugoslavije</head>
+                <p><hi style="font-size:12pt">Iako je još na Petoj zemaljskoj konferenciji
+                        Komunističke partije održanoj 1940. godine zahtevana legalizacija abortusa
+                        „dok se ne steknu uslovi za bezbrižno roditeljstvo“</hi><note place="foot"
+                        xml:id="ftn22" n="21"> Neda Božinović, <hi rend="italic">Žensko pitanje u
+                            Srbiji u 19. i 20. veku</hi> (Beograd: Devedesetčetvrta, 1996), 127.
+                        </note><hi style="font-size:12pt" xml:space="preserve">, sve do početka pedesetih godina politika socijalističke Jugoslavije prema pobačajima kao obliku „planiranja porodice“ umnogome je podsećala na praksu viđenu u Kraljevini. Zdravstvena služba bila je ograničena na pružanje pomoći ženama pri legalnim i inkompletnim pobačajima.</hi><note
+                        place="foot" xml:id="ftn23" n="22"> AJ, 142 / II – 417; A. Milojković, G.
+                        Žarković, M. Džumhur, Historijat liberalizacije pobačaja u Jugoslaviji.
+                        Savetovanje o izgradnji društvenih stavova o populacionoj politici u
+                        Jugoslaviji (1973).</note><hi style="font-size:12pt" xml:space="preserve"> Partijski čelnici, angažovani na saniranju posledica rata, izgradnji novog društva i obračunu sa političkim neistomišljenicima, pitanje pobačaja su zaobilazili, prenebregavajući posledice ovakve kontrole rađanja. Uzroci takve politike bili su brojni: velika dečja smrtnost kao posledica bolesti, gladi, loše higijene i sveopšte nemaštine,</hi>
+                    <note place="foot" xml:id="ftn24" n="23"> AJ, 141 – 33 – 187; Zaštita matera i
+                        dece</note><hi style="font-size:12pt" xml:space="preserve"> mali broj lekara, posebno ginekologa, nedovoljan broj postelja i dotrajala ambulantna i bolnička infrastruktura.</hi><note
+                        place="foot" xml:id="ftn25" n="24"> AJ, 31 – 8 – 22; nezavedeno, bez
+                        naslova.</note><hi style="font-size:12pt" xml:space="preserve"> Izvesnu nelagodu je svakako izazivala i, u ono vreme, delikatnost i intimnost teme. Dok je u međuratnom razdoblju Partija osuđivala „dvojni moral“ i zalagala se za ravnopravnost bračne i vanbračne dece i jednakost polova,</hi><note
+                        place="foot" xml:id="ftn26" n="25"> Božinović, <hi rend="italic">Žensko
+                            pitanje u Srbiji u 19. i 20. veku</hi>,
+                        127.</note><hi style="font-size:12pt" xml:space="preserve"> po njenom dolasku na vlast stvari su se promenile. Sve do kraja pedesetih godina oslobađanje seksualnosti i „lakomisleno“ stupanje mladih u ljubavne veze izazivalo je nezadovoljstvo i nelagodu kod partijskih čelnika,</hi><note
+                        place="foot" xml:id="ftn27" n="26"> AJ, 114 – 76; Moralno vaspitanje
+                        omladine.</note><hi style="font-size:12pt" xml:space="preserve"> pa je milicija imala ovlašćenja da privodi parove koji su se ljubili na javnom mestu. </hi><note
+                        place="foot" xml:id="ftn28" n="27"> Marković, „Seksualnost između privatnog
+                        i javnog u 20. veku,“ 125.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> Sledstveno tome, na abortus dugo nije gledano kao na pravo žene da odlučuje o sopstvenom telu. Po ugledu na sovjetska shvatanja i praksu pobačaj je u prvim posleratnim godinama shvatan kao „sredstvo“ koje će biti dozvoljeno do izgradnje socijalističkog društva u kome će brigu o majkama i deci preuzeti država.</hi><note
+                        place="foot" xml:id="ftn29" n="28"> Simić Ivan, "Soviet Influences on
+                        Yugoslav Gender Policies, 1945–1955“ (doktorska disertacija, UCL, 2015), 81.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> Ni većina lekara, međutim, nije blagonaklono gledala na pobačaj, smatrajući da je „i stručno i pravilno izveden abortus štetan i opasan“.</hi><note
+                        place="foot" xml:id="ftn30" n="29"> AJ, 142 / II – 623; Dr Franc Novak,
+                        Abortus i kontracepcija.</note></p>
+                <p><hi style="font-size:12pt">Iako su žene u razvijenijim delovima Jugoslavije, tj.
+                        na teritoriji Slovenije, Hrvatske i tzv. uže Srbije, u međuratnom razdoblju
+                        izbegavale rađanje velikog broja dece, kraj rata je doneo novu nadu i veću
+                        želju za potomstvom. Ovaj trend, uočljiv posle svakog rata, odrazio se i na
+                        lagani porast nataliteta, koji je bio u funkciji saniranja pretrpljenih
+                        demografskih gubitaka. U nedostatku bilo kakvih statistika o abortusima i
+                        čedomorstvima, a na osnovu podataka o kretanju nataliteta,</hi><note
+                        place="foot" xml:id="ftn31" n="30"> Karakterističan je primer Slovenije u
+                        kojoj je natalitet opadao još od polovine 19. veka, kada se kretao oko 35
+                        promila. Za vreme Prvog svetskog rata je bio nešto malo iznad 30, da bi do
+                        1939. godine pao na 22 promila. Po oslobođenju, natalitet je narastao na
+                        skoro 25 promila, ali se već od 1950. godine pokazalo da je taj trend
+                        prolazan, pa je polovinom pedesetih godina priraštaj pao do granice
+                        „jednostavne reprodukcije“ od 20 promila. Neprestano opadanje nataliteta
+                        beleženo je i u užoj Srbiji i Hrvatskoj, gde se, baš kao i u Sloveniji,
+                        rađalo manje dece na 1.000 stanovnika nego u Sjedinjenim Američkim Državama.
+                        – AJ, 142 / II – 623; Dr Franc Novak, Abortus i kontracepcija.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> možemo pretpostaviti da je broj namernih prekida trudnoće u prve dve-tri poratne godine bio nešto manji nego u međuratnom razdoblju. O kolikom broju se radilo, teško je reći. Doktor Pavel Lunaček je, na skupštinskom zasedanju, februara 1951. godine, izneo podatak da svake godine namerno prekine trudnoću oko 250.000 Jugoslovenki.</hi><note
+                        place="foot" xml:id="ftn32" n="31"> Izlaganje dr Pavela Lunačeka, <hi
+                            rend="italic">Treće redovno zasedanje Veća naroda i Saveznog veća (drugi
+                            saziv) 25–27. februara 1951. Stenografske beleške</hi> (Beograd:
+                        Prezidijum Narodne skupštine FNRJ), 87.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> Dr Franc Novak, jedan od najeminentnijih jugoslovenskih ginekologa toga doba, rezignirano je konstatovao da abortusa ima mnogo više nego što se misli. O svojevrsnoj abortusnoj kulturi nije se otvoreno govorilo, pa je javnost za ilegalne pobačaje saznavala jedino u slučajevima tragedija i naročito upadljivih nesreća,</hi><note
+                        place="foot" xml:id="ftn33" n="32"> AJ, 142 / II – 623; Dr Franc Novak,
+                        Abortus i
+                        kontracepcija.</note><hi style="font-size:12pt" xml:space="preserve"> poput smrti dve devojke, koje su početkom pedesetih godina umrle od posledica pobačaja u koji su bili umešani lekar i dve babice.</hi><note
+                        place="foot" xml:id="ftn34" n="33"> Vida Tomšič, Da li je legalizacija
+                        pobačaja prihvatljivo rešenje. – AJ, 142 / II – A 816.</note></p>
+                <p><hi style="font-size:12pt" xml:space="preserve">Razmere abortusne epidemije ilustrovali su nedovoljno reprezentativni, ali svakako važni podaci dobijeni u anketi sprovedenoj na ginekološkoj klinici u Beogradu 1949. godine. Od ukupno 361 pacijentkinje, koje su došle na lečenje usled nestručno izvršenog pobačaja, čak 83% je bilo udato. Prema prikupljenim podacima, one su do tada imale ukupno 533 porođaja i 726 pobačaja, tj. jedan abortus na 0,7 porođaja. </hi><note
+                        place="foot" xml:id="ftn35" n="34"> AJ, 142 / II – 623; Dr Franc Novak,
+                        Abortus i
+                        kontracepcija.</note><hi style="font-size:12pt" xml:space="preserve"> Sumornu sliku „regulisanja“ trudnoće prosečnih Jugoslovenki dodatno je usložnjavala i činjenica da se nisu svi pobačaji, kako se obično pretpostavlja, izvodili u ranoj ili relativno ranoj trudnoći. Bilo je i slučajeva koji su, zapravo, bili na granici između abortusa i čedomorstva. Dešavalo se, tako, da se već u sedmom mesecu izazove porođaj, budući da se znalo da u tom slučaju dete ne može preživeti.</hi><note
+                        place="foot" xml:id="ftn36" n="35"> Izlaganje Jože Potrča, <hi rend="italic"
+                            >Treće redovno zasedanje Veća naroda i Saveznog veća (drugi saziv)
+                            25–27. februara 1951. Stenografske beleške</hi> (Beograd: Prezidijum
+                        Narodne skupštine FNRJ), 91. Vera Gudac Dodić, „Žena u socijalizmu: sfere
+                        privatnosti,“ u: <hi rend="italic">Privatni život kod Srba u 20. veku</hi>,
+                        ur. Milan Ristović (Beograd: Clio, 2007), 196. AJ, 142 / II – 623;
+                        Stenografske beleške sa savetovanja održanog u Konferenciji za društvenu
+                        aktivnost žena u vezi sa pripremnim savetovanjem. Izlaganje Gordane
+                        Dragićević. </note>
+                </p>
+                <p><hi style="font-size:12pt">Potreba izmene zakonodavstva,</hi><note place="foot"
+                        xml:id="ftn37" n="36"> Godine 1947. donet je, po ugledu na sovjetski, <hi
+                            rend="italic">Krivični zakonik. Opšti deo</hi> u kome nije bilo članova
+                        koji su se odnosili na pobačaj; <hi rend="italic">Službeni list FNRJ,</hi>
+                        br. 106 / 47, Krivični zakonik. Opšti deo.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> ali i sve veći broj žena koji je zbog ginekoloških komplikacija usled ilegalno izvršenog ili započetog pobačaja završavao u klinikama, predstavljali su podsticaj Komitetu za zaštitu narodnog zdravlja Vlade FNRJ da zaduži ginekologe da se, počev od 1948. godine, angažuju na sakupljanju podataka i mišljenja koji bi poslužili za uobličavanje nove kaznene politike prema abortusu. U periodu od dve godine napisani su brojni referati,</hi><note
+                        place="foot" xml:id="ftn38" n="37"> AJ, 142 / II – 623; Dr Franc Novak,
+                        Abortus i
+                        kontracepcija.</note><hi style="font-size:12pt" xml:space="preserve"> a učinjeni su i prvi koraci u pravcu proizvodnje kontraceptiva u zemlji. Na ovom velikom poslu sarađivale su sve vodeće ginekološke klinike i svi medicinski fakulteti, a stavove koji su se čuli na sastancima ginekoloških klinika u Beogradu, Zagrebu i Ljubljani, kao i mišljenja izložena u referatima najznačajnih jugoslovenskih ginekologa, sumirao je dr Franc Novak, izvestilac Komiteta za zaštitu narodnog zdravlja. Stav struke je bio da se abortus može vršiti najkasnije do tri meseca trudnoće, da se pobačaj ne sme izvoditi ambulantno, već samo u određenim ustanovama, da socijalna indikacija ne može biti razlog za prekid trudnoće, kao i da u pojam zabranjenog pobačaja ne treba ubrojiti kontracepciju.</hi><note
+                        place="foot" xml:id="ftn39" n="38"> Ivana Dobrivojević Tomić, „Za željeno
+                        roditeljstvo. Državna politika Jugoslavije u oblasti planiranja porodice
+                        1945–1974“, <hi rend="italic">Istorija 20. veka</hi> 1, (2018): 121. V. i
+                        AJ, 142 / II – 417; A. Milojković, G. Žarković, M. Džumhur, Historijat
+                        liberalizacije pobačaja u Jugoslaviji. Savetovanje o izgradnji društvenih
+                        stavova o populacionoj politici u Jugoslaviji (1973).</note>
+                </p>
+                <p><hi style="font-size:12pt">Iako se na novom Krivičnom zakoniku radilo još od
+                        1949. godine, o predlogu sankcionisanja ilegalnih pobačaja nije bilo opšte
+                        saglasnosti. Vlada FNRJ je u članu 140 predlagala kažnjavanje samo abortera,
+                        ali ne i žene,</hi><note place="foot" xml:id="ftn40" n="39"> Izlaganje
+                        ministra pravosuđa Frane Frola, <hi rend="italic">Treće redovno zasedanje
+                            Veća naroda i Saveznog veća (drugi saziv) 25–27. februara 1951.
+                            Stenografske beleške</hi> (Beograd: Prezidijum Narodne skupštine FNRJ),
+                        90.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> da bi Zakonodavni odbor, posle velike diskusije, taj član preinačio, predviđajući kaznu od tri meseca i za ženu koja je pristala na nezakonit prekid trudnoće.</hi><note
+                        place="foot" xml:id="ftn41" n="40"> Izlaganje Josipa Hrnčevića, izvestioca
+                        Zakonodavnog odbora, <hi rend="italic">Treće redovno zasedanje Veća naroda i
+                            Saveznog veća (drugi saziv) 25–27. februara 1951. Stenografske
+                            beleške</hi> (Beograd: Prezidijum Narodne skupštine FNRJ), 89.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> Verujući da bi predložene represivne mere obeshrabrile žene da u slučaju komplikacija potraže medicinsku pomoć, što bi ujedno značilo i povećanje broja smrtnih ishoda, dr Pavel Lunaček se založio za to da se za ilegalne pobačaje kažnjavaju jedino aborteri. Iako je Lunačekov amandman usvojen, za vreme diskusije se moglo čuti i da „dete koje žena nosi nije samo njeno“, jer „nama treba stanovnika“, „graditelja socijalizma“, te da stoga, u funkciji nataliteta, ne treba olako odustajati od kažnjavanja žena koje bi se odlučile na prekid trudnoće.</hi><note
+                        place="foot" xml:id="ftn42" n="41"> Izlaganje dr Zlatana Sremeca, <hi
+                            rend="italic">Treće redovno zasedanje Veća naroda i Saveznog veća (drugi
+                            saziv) 25–27. februara 1951. Stenografske beleške</hi> (Beograd:
+                        Prezidijum Narodne skupštine FNRJ), 90. </note>
+                </p>
+                <p><hi style="font-size:12pt">Donošenje novog Krivičnog zakonika (1951)
+                        predstavljalo je prvi korak u pravcu postepene liberalizacije pobačaja.
+                        Međuratna pravna praksa opšte kažnjivosti abortusa je napuštena, a već
+                        sledeće, 1952. godine, doneta je Uredba kojom je abortus omogućen ne samo iz
+                        medicinskih razloga već i usled određenih socijalnih problema. U skladu sa
+                        mišljenjem da mnoge žene koje traže pobačaj „nemaju jedno takvo socijalno
+                        stanje“, koje bi se moglo prihvatiti kao razlog legalnog abortusa, s obzirom
+                        „na sve širu brigu“ države za majku i dete,</hi><note place="foot"
+                        xml:id="ftn43" n="42"> Vida Tomšič, Da li je legalizacija pobačaja
+                        prihvatljivo rešenje. –AJ, 142 / II – A
+                        816.</note><hi style="font-size:12pt" xml:space="preserve"> komisije su, sve do 1956. godine, pokazivale veliku krutost u odlučivanju.</hi><note
+                        place="foot" xml:id="ftn44" n="43">AJ, 142 / II – 658; Planiranje porodice –
+                        potreba savremenog društva. AJ, 142 / II – 623; Savetovanje o problemima
+                        prekida trudnoće i kontracepcije
+                        (1963).</note><hi style="font-size:12pt" xml:space="preserve"> Iako su se vodile idejom da je abortus relativno zahtevna medicinska intervencija, koju ne treba olako izvoditi, činjenica je da su, u prvim godinama po donošenju uredbe, i bolnički resursi onemogućavali manje selektivno donošenje odluka.</hi><note
+                        place="foot" xml:id="ftn45" n="44"> Primera radi, 1951. godine u Beogradu,
+                        prestonici sa gotovo pola miliona stanovnika, bilo je svega 213 ginekoloških
+                        postelja, pa se dešavalo „da su žene u porođajnim bolovima vraćane kući“ ili
+                        pak da se po dve bolesnice smeštaju u jedan krevet. – AJ, 31 – 8 – 22,
+                        nezavedeno, januar
+                        1951.</note><hi style="font-size:12pt" xml:space="preserve"> Štaviše, priznavanje i ove, u početku ograničene, socijalne indikacije izazvalo je velike polemike među lekarima, koje će potrajati sve do šezdesetih godina. „Kad bismo vodili u našoj državi depopulacijsku politiku“, stajalo je u Rezoluciji donetoj na Drugom kongresu ginekologa i akušera, održanom u oktobru 1953, „trebalo bi postići smanjenje porođaja sredstvima koja su kudikamo manje opasna nego što je pobačaj, kao na primer, kontracepcijom i sterilizacijom“. </hi><note
+                        place="foot" xml:id="ftn46" n="45"> Vida Tomšič, Da li je legalizacija
+                        pobačaja prihvatljivo rešenje. -AJ, 142 / II – A 816.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> Državne vlasti oštro su se suprotstavljale ovim stavovima, pa se elastičnije tumačenje propisa nastavilo, a kasnije i njihova liberalizacija. Do razlika u shvatanjima između partijskih čelnika i vodećih jugoslovenskih ginekologa dolazilo je, pre svega, zbog ugla posmatranja. Lekari su na problem pobačaja gledali uglavnom iz medicinskog, stručnog ugla, smatrajući da je reč o komplikovanoj intervenciji, koja može imati posledice po reproduktivno zdravlje žene, čak i kada se obavlja u bolničkim uslovima. Vlasti su, sa druge strane, bile više fokusirane na socijalno-ekonomsku dimenziju problema, s obzirom na to da su u novom društvu žene bile majke i domaćice, ali i radnice – samoupravljači koji, jednako kao i muškarci, treba da učestvuju u izgradnji socijalizma i industrijskom preobražaju države i društva. Nije bilo retko, stoga, da se u izveštajima o epidemiji pobačaja i reproduktivnom zdravlju žena uopšte najviše govorilo kroz prizmu broja dana koji su utrošeni na bolovanja.</hi><note
+                        place="foot" xml:id="ftn47" n="46"> V. AJ, 142 / II – 626; Problemi
+                        kontracepcije, prekida trudnoće i obrazovno-vaspitnog rada sa područja
+                        odnosa među polovima
+                        (1965).</note><hi style="font-size:12pt" xml:space="preserve"> Država se vešto zaklanjala iza deklarativnih izjava o brizi za majku i dete, ali je socijalistička stvarnost, posebno tokom pedesetih i ranih šezdesetih godina, bila nešto drugačija. Ukidanje dečjeg dodatka 1951, prelazak vrtića i jaslica na samostalno finansiranje i smanjivanje kapaciteta u njima,</hi><note
+                        place="foot" xml:id="ftn48" n="47"> AJ, 142 / I – 15 – 50; Informacija o
+                        nekim problemima porodice
+                        (1955).</note><hi style="font-size:12pt" xml:space="preserve"> ali i netrpeljivost preduzeća prema samohranim majkama stvarali su klimu u kojoj su radnice koje su na posao kasnile zbog dece prebacivane na mesta sa manjom zaradom i raspoređivane na „najgrublje poslove“ uz objašnjenje: „Radi šta znaš sa decom“.</hi><note
+                        place="foot" xml:id="ftn49" n="48"> Izveštaj ekipe Glavnog odbora AFŽ Srbije
+                        sa obilaska beogradske organizacije AFŽ-a. -AJ, 141–13–70.</note>
+                    <hi style="font-size:12pt">Iako u izvorima koji govore o planiranju porodice
+                        problemi ove vrste nisu ni pominjani, partijski čelnici su svakako morali
+                        biti svesni da su ozbiljni nedostaci iz domena socijalne zaštite i staranja
+                        delimično učvršćivali sve veći broj Jugoslovenki u nameri da rode samo jedno
+                        dete.</hi></p>
+                <p><hi style="font-size:12pt">U godinama niskog životnog standarda i velike stambene
+                        oskudice ni relativno liberalniji zakonodavni propisi nisu uspeli da smanje
+                        broj ilegalnih pobačaja. Preko 80% svih abortusa odobravano je iz
+                        socijalno-medicinskih razloga. Javna je tajna, međutim, bila da su se pod
+                        ovim indikacijama „krili vrlo teški socijalni razlozi, a da su se medicinski
+                        manje-više dodavali i da oni ne bi mogli izdržati medicinske stručne ocene
+                        kao odlučujući faktor.“</hi><note place="foot" xml:id="ftn50" n="49">
+                        <hi rend="italic">Savetovanje o problemima trudnoće i kontracepcije</hi>
+                        (Beograd: Novinsko izdavačka ustanova Beogradske novine, 1963), 23, 24.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> Prilagođavajući se novonastalim prilikama, vlasti su daljom liberalizacijom propisa zapravo samo legalizovale već postojeće stanje. Februara 1960. godine doneta je nova </hi><hi
+                        rend="italic" style="font-size:12pt">Uredba o uslovima i postupku za
+                        dozvoljavanje pobačaja</hi><hi style="font-size:12pt">, u kojoj su socijalne
+                        indikacije postale dovoljan razlog za izvršenje pobačaja. Zakonodavac je,
+                        tako, predvideo da se abortus može odobriti i u svim onim slučajevima „kad
+                        se može očekivano očekivati da bi bremenita žena zbog rođenja deteta došla u
+                        teške lične, porodične ili materijalne prilike koje se na drugi način ne
+                        mogu otkloniti“. Zahtevi za pobačaj su razmatrani pred prvostepenim i
+                        drugostepenim komisijama ustanovljenim pri opštim bolnicama, porodilištima i
+                        ginekološko-akušerskim klinikama. Uz zahtev za odobrenje prekida trudnoće
+                        žene su bile dužne da podnesu i dokumentaciju koja je svedočila o teškim
+                        stambenim prilikama, besparici, bračnom stanju, broju dece u porodici i
+                        ostalim problemima, koji su joj ugrožavali i u pitanje dovodili
+                        egzistenciju.</hi><note place="foot" xml:id="ftn51" n="50"> Ivana
+                        Dobrivojević, „Planiranje porodice u Jugoslaviji 1945–1974,“ <hi
+                            rend="italic">Istorija 20. veka</hi> 2 (2016): 88. </note>
+                </p>
+                <p><hi style="font-size:12pt" xml:space="preserve">Praksa je, međutim, pokazala da su socijalni razlozi za pobačaj bili do te mere široko formulisani da se „abortus mogao dozvoliti takoreći svakoj trudnici“ koja je to tražila.</hi><note
+                        place="foot" xml:id="ftn52" n="51"> AJ, 672 – 84; Dr Berislav Berić i
+                        profesor dr Miloš Stevanov, Epidemiološko-pravni aspekt
+                        pobačaja.</note><hi style="font-size:12pt" xml:space="preserve"> Uredba je imala i pozitivne i negativne strane. Broj ilegalnih pobačaja je iz godine u godinu opadao, ali je blagonaklonost komisija stvorila privid da je isključivo na ženi da odluči hoće li trudnoću izneti do kraja.</hi><note
+                        place="foot" xml:id="ftn53" n="52"> AJ, 142 / II – 658; Planiranje porodice
+                        – potreba savremenog
+                        društva.</note><hi style="font-size:12pt" xml:space="preserve"> Iako su abortusi teško ugrožavali reproduktivno zdravlje, izazivajući perforacije, krvarenje, sepsu, sterilitet, poremećaj menstrualnog cikusa,</hi><note
+                        place="foot" xml:id="ftn54" n="53"> Dušan Кusovac, S. Teodorović, D.
+                        Stojanović, „Posledice veštačkog prekida trudnoće u periodu od tri godine na
+                        materijalu od oko 20.000 pobačaja,“ u: <hi rend="italic">V kongres
+                            ginekologa i opstetričara Jugoslavije. Diskusija I</hi> (Sarajevo:
+                        Medicinska knjiga, 1964), 188. </note><hi style="font-size:12pt"> pa čak i
+                        smrt, niska zdravstvena kultura uticala je da Jugosloveni svesno biraju
+                        abortus kao najpogodniji metod kontrolisanja rađanja. Edukativno-vaspitni
+                        rad komisija, koji je bio predviđen Uredbom iz 1960. godine, izostao je.
+                        Lekari su konstatovali da postoji izvestan otpor većine ljudi prema svim
+                        sredstvima kontracepcije, koji, verovatno, „počiva na nesvesnoj bojazni da
+                        će na taj način poremetiti najintimnija doživljavanja“.</hi><note
+                        place="foot" xml:id="ftn55" n="54"> AJ, 142 / II – 623; Savetovanje o
+                        problemima prekida trudnoće i kontracepcije
+                        (1963).</note><hi style="font-size:12pt" xml:space="preserve"> U ovakvim okolnostima abortusi su poprimili razmere prave epidemije. Već 1961. godine na području čitave zemlje na jedan porođaj je dolazilo 1,33 abortusa. Neslavan rekord u nepromišljenom planiranju porodice držali su stanovnici Srbije i Hrvatske, gde je na jedan porođaj dolazilo čak 2,5–3 pobačaja.</hi><note
+                        place="foot" xml:id="ftn56" n="55"> Dobrivojević, „Planiranje porodice u
+                        Jugoslaviji 1945–1974,“
+                        89.</note><hi style="font-size:12pt" xml:space="preserve"> Trend rasta pobačaja nastavio se i u narednim godinama. Ginekolozi, suočeni sa narastajućim problemom, nisu skrivali nezadovoljstvo. „Ja imam žulj od kirete“, govorio je dr Milojković na jednom od savetovanja, „jer lekari moraju da kiretiraju dnevno 30 do 40 žena u gradu od 170.000 stanovnika i kad dođe smena, kad dođe sledeća ekipa, to je svađa, lekari odbijaju i onda im se pismeno naređuje… Ako bude ovako i dalje, mi ćemo jednostavno, jer zakon to odobrava, odbiti kiretažu, jer mi smo se pretvorili u abortere, a ne vršimo dužnost lekara, našu dužnost da pomognemo u zdravstvenom pogledu… Mi možemo ići u dve krajnosti – ili da abortus potpuno zabranimo, osim kada se radi o medicinskim inidikacijama, ili da ga legalizujemo… Na način na koji se to danas radi, abortus je legalizovan sa velikim maltretiranjem za žene. Ona mora proći kroz toliko komisija, mora da čeka, da izgubi veliki broj radnih dana, a to je sve maltretiranje i ona dolazi kući izmučena“.</hi><note
+                        place="foot" xml:id="ftn57" n="56"> AJ, 142 / II – 623; Stenografske beleške
+                        sa sastanka održanog na konferenciji za društvenu aktivnost žena Jugoslavije
+                        u vezi sa pripremom savetovanja. Izlaganje dr Milojkovića (12. 3.
+                        1963).</note>
+                </p>
+                <p><hi style="font-size:12pt">Široko prihvatanje abortusa kao „metoda“ planiranja
+                        porodice dovelo je do situacije da se nemali broj žena, posebno iz nižih
+                        društvenih slojeva, odlučivao i na po nekoliko abortusa godišnje.</hi><note
+                        place="foot" xml:id="ftn58" n="57"> V. AJ, 142/II – 623; Informacija sa
+                        sastanka održanog 27. 5. 1963. sa socijalnim radnicima – članovima komisije
+                        za prekid trudnoće; AJ, 142 / II – 626; Problemi kontracepcije, prekida
+                        trudnoće i obrazovno-vaspitnog rada sa područja odnosa među polovima
+                        (1965).</note><hi style="font-size:12pt" xml:space="preserve"> Da bi smanjili broj ponovljenih abortusa, pojedini ginekolozi su krenuli linijom manjeg otpora i počeli vršiti sterilizacije, o čijoj (ne)dobrovoljnosti nema dovoljno podataka u arhivskoj građi. Liberalizacija pobačaja shvaćena je tako i kao liberalizacija sterilizacije, pa je u periodu od 1953–1964, a naročito od donošenja Uredbe 1960. godine, broj sterilizacija povećan. Prema saopštenjima pojedinih autora, iznetim na stručnim i naučnim skupovima, na nekim klinikama radilo se nekoliko desetina, a ponekad više i od stotinu sterilizacija godišnje. Najčešće se radilo o sterilizacijama u vidu hirurških zahvata koji su pratili neke druge operacije, poput ponovljenog carskog reza i nekih abdominalnih intervencija.</hi><note
+                        place="foot" xml:id="ftn59" n="58"> AJ, 142 / II – S 266; Prof. dr Miloš
+                        Stevanov, prof. dr Berislav Berić, Sterilizacija de lege ferenda.
+                        Savetovanje u Ohridu, 6.–7. 10. 1977.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> Primera rada, u periodu 1957–1961. samo u Sloveniji su izvršene 2.122 sterilizacije. Socijalna indikacija je poslužila kao razlog za čak 1.606 sterilizacija, koje su u gotovo polovini slučajeva (48,3%) bile urađene zbog velikog broja dece. Ova praksa je potrajala sve do 1964. godine, kada je na V kongresu ginekologa usvojeno stanovište da je sterilizaciju opravdano vršiti jedino iz medicinskih razloga.</hi><note
+                        place="foot" xml:id="ftn60" n="59"> Dobrivojević Tomić, „Za željeno
+                        roditeljstvo“, 123. V. AJ, 142 / II – 417; F. Novak, L. Andolšek, M.
+                        Kuštrin, I. Veter, Prikaz razvoja odnosa do celokupne problematike
+                        planiranja porodice u medicinskim krugovima. Savetovanje o izgradnji
+                        društvenih stavova o populacionoj politici u Jugoslaviji
+                        (1973).</note><hi style="font-size:12pt" xml:space="preserve"> Međutim, prema navodima profesora Stevanova, pravnika, i profesora Berića, ginekologa, sterilizacije su, posle Prvog jugoslovenskog simpozijuma o problemima fertiliteta i steriliteta vršene u „ograničenom, daleko manjem broju“, kada su za to postojale „najčešće kombinovane medicinsko–socijalne indikacije“. Iako je sterilizacija kvalifikovana kao krivično delo teške telesne povrede, bez obzira na to da li je izvršena sa pristankom ili bez pristanka pacijenta, u Jugoslaviji je u pogledu ove ginekološke intervencije „postojala skoro potpuna tolerancija organa gonjenja“, s obzirom na to da, koliko je poznato, nikad niko nije bio pozvan na odgovornost zbog ovog dela.</hi><note
+                        place="foot" xml:id="ftn61" n="60"> AJ, 142 / II – S 266; Prof. dr Miloš
+                        Stevanov, prof. dr Berislav Berić, Sterilizacija de lege ferenda.
+                        Savetovanje u Ohridu, 6.–7. 10. 1977. </note></p>
+                <p><hi style="font-size:12pt">Nemoć države da edukuje stanovništvo bila je
+                        evidentna. Zakonodavni okvir menjan je u hodu i prilagođavan situaciji u
+                        zemlji. U rasponu od nepunih dvadeset godina, sa medicinske indikacije se
+                        prešlo na medicinsko-socijalnu, pa na socijalnu, da bi socijalna, čak i pre
+                        donošenja Opšteg zakona o prekidu trudnoće (1969),</hi><note place="foot"
+                        xml:id="ftn62" n="61">
+                        <hi rend="italic">Službeni list SFRJ</hi>, 20/69, Opšti zakon o prekidu
+                        trudnoće.</note><hi style="font-size:12pt" xml:space="preserve"> u praksi bila do te mere elastično tumačena da se zapravo pretvorila u individualnu. Međutim, i krajem šezdesetih godina, podeljenost u društvu po pitanju potpune legalizacija abortusa bila je evidentna. Rimokatolička crkva bila je ne samo protiv pobačaja već i protiv kontracepcije, mnogi lekari su i dalje zahtevali dozvoljavanje abortusa samo iz medicinskih razloga, dok su brojni pravnici „tražili da se pobačaj proglasi kao pravo i sloboda trudne žene, a ne samo kao medicinsko-socijalna pomoć“.</hi><note
+                        place="foot" xml:id="ftn63" n="62"> AJ, 142 / II – A 816; Planiranje
+                        porodice u Jugoslaviji.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> Rezolucija o planiranju porodice, doneta u Saveznoj skupštini aprila 1969. godine, predstavljala je uvod u potpunu liberalizaciju abortusa, prekidajući, jednom za svagda, ozbiljne diskusije po ovom pitanju. Roditeljima je dato pravo da sami odlučuju o broju dece i razmaku između porođaja, a prekid trudnoće je definisan kao najnepoželjniji vid kontrole rađanja, kome treba pribegavati jedino kao „krajnjem sredstvu“ kada do neželjenog začeća već dođe.</hi><note
+                        place="foot" xml:id="ftn64" n="63"> AJ, 142 / II – 342; Rezolucija o
+                        planiranju
+                        porodice.</note><hi style="font-size:12pt" xml:space="preserve"> Pet godina kasnije, pravo čoveka da slobodno odlučuje o brojnosti potomstva ušlo je u Ustav (1974),</hi><note
+                        place="foot" xml:id="ftn65" n="64">
+                        <hi rend="italic">Ustav Socijalističke Federativne Republike Jugoslavije sa
+                            ustavnim zakonom za sprovođenje ustava Socijalističke Federativne
+                            Republike Jugoslavije</hi> (Beograd: Službeni list, 1974), 115, čl.
+                        191.</note><hi style="font-size:12pt" xml:space="preserve"> a zatim i u republičke i pokrajinske ustave.</hi><note
+                        place="foot" xml:id="ftn66" n="65"> AJ, 142 / II – 1173; Stavovi, mišljenja,
+                        preporuke.</note></p>
+                <p><hi style="font-size:12pt">Po svojim ciljevima i programskoj orijentaciji
+                        planiranje porodice u Jugoslaviji nije bilo zasnovano ni na pronatalističkom
+                        ni na antinatalističkom konceptu. Jugoslovenski model planiranja porodice
+                        kao ljudskog prava nije se ograničavao samo na kontrolu rađanja, pobačaj i
+                        tehniku kontracepcije,već je trebalo da preraste u odgovorno roditeljstvo u
+                        skladu sa „opštim društvenim naporima za odlučujuću ulogu radnog čoveka u
+                        raspolaganju stvorenim dohotkom, učešćem u određivanju društvenih prioriteta
+                        za ekonomski i socijalni razvoj u socijalističkom samoupravljanju“.
+                        Planiranje porodice predstavljalo je, stoga, sastavni deo podruštvljavanja
+                        brige za dete, uz učešće roditelja u njegovom odgoju i vaspitanju.</hi><note
+                        place="foot" xml:id="ftn67" n="66"> AJ, 142 / II – A 816; Planiranje
+                        porodice u Jugoslaviji; AJ, 142 / II – A 808; Uticaj porodičnih struktura i
+                        uslova na ulogu žene u razvoju i obrnuto, maj
+                        1979.</note><hi style="font-size:12pt" xml:space="preserve"> Međutim, baš kao i veliki deo evropskih zemalja, početkom osamdesetih godina, Jugoslavija se našla pred ozbiljnim demografskim izazovom na koji pravog odgovora nije bilo. Pad fertiliteta na području Jugoslavije otpočeo je još 1955,</hi><note
+                        place="foot" xml:id="ftn68" n="67"> Aleksandra Pavićević, <hi rend="italic"
+                            >Na udaru ideologija. Brak, porodica i polni moral u Srbiji u drugoj
+                            polovini 20. veka</hi> (Beograd: Etnografski institut SANU, 2006), 207.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> kontinuirano smanjenje želje za većim brojem dece dovodilo je do smanjenja nataliteta, a samim tim i do depopulacije čitavih oblasti. Prva upozorenja ginekologa i demografa o starenju stanovništva čula su se već šezdesetih godina,</hi><note
+                        place="foot" xml:id="ftn69" n="68"> V. AJ, 142 / II – 623; Stenografske
+                        beleške sa sastanka održanog na konferenciji za društvenu aktivnost žena
+                        Jugoslavije u vezi sa pripremom savetovanja. Izlaganje dr Milojkovića (12.
+                        3.
+                        1963).</note><hi style="font-size:12pt" xml:space="preserve"> da bi krajem sedamdesetih i početkom osamdesetih ova tema postala sveprisutna i u medijima. Naime, stope nataliteta u Hrvatskoj, užoj Srbiji i Vojvodini su bile veoma niske, u Sloveniji na umerenom nivou, dok su u Bosni i Hercegovini i u Crnoj Gori bile, prema ocenama demografa, na umereno visokom nivou. Odnos stanovništva prema reprodukciji se menjao, pa je, prema procenama, preko 75% Jugoslovena u „u visokom procentu svesno planiralo veličinu svoje porodice“. Da drugačija kaznena regulativa i ograničavanje prava na abortus ne bi promenili negativne demografske trendove, najbolje je ilustrovala anketa sprovedena 1970. godine na reprezentativnom uzorku udatih žena starih od 15–49 godina iz čitave Jugoslavije. Na pitanje: „Da li žena treba da rodi dece koliko može“, čak 77,9% Jugoslovenki je odgovorilo sa „ne“, a samo 9,6% sa „da“. Štaviše, čak 59,3% ispitanica je bilo za liberalizaciju abortusa.</hi><note
+                        place="foot" xml:id="ftn70" n="69"> AJ, 142 / II – S 266; Dušan Bereznik,
+                        Demografski razvitak i planiranje porodice. Savetovanje u Ohridu 6.–7. 10.
+                        1977.</note></p>
+                <p><hi style="font-size:12pt">Na optiranje Jugoslovena za male porodice uticali su i
+                        razlozi ekonomsko-socijalne prirode. Relativno nizak životni standard,
+                        rastuća nezaposlenost, nerešeno stambeno pitanje,</hi><note place="foot"
+                        xml:id="ftn71" n="70"> AJ, 142 / II – A 840; Ivanka Ginić, Stan kao faktor
+                        fertiliteta i planiranja porodice u Jugoslaviji,
+                        148–53.</note><hi style="font-size:12pt" xml:space="preserve"> opterećenost žene na poslu i u domaćinstvu, ali i ograničavanje neprivrednih investicija, u koje su ubrajana i mesta za dečji boravak, kao i visoke cene proizvoda namenjenih deci</hi><note
+                        place="foot" xml:id="ftn72" n="71"> AJ, 142 / II – S 276; Analiza
+                        sprovođenja rezolucije Savezne skupštine o planiranju porodice
+                        (1987).</note><hi style="font-size:12pt" xml:space="preserve"> predstavljali su bitne faktore o kojima se vodilo računa pri planiranju porodice. Uprkos znatnim varijacijama u stopama nataliteta u republikama i pokrajinama, jugoslovenski zvaničnici koji su se bavili ovom problematikom smatrali su da su različiti stavovi o planiranju porodice ili formulisanje različitih principa populacione politike nedopustivi, tj. da se pri utvrđivanju konkretnih mera populacione politike ne smeju narušiti Ustavom utvrđena i zagarantovana ljudska prava. Isticano je da je zadatak društva da razmatra demografske tokove i sagledava ih kao deo opšteg razvoja, ulažući napore da postigne balans između stepena razvoja i stope priraštaja stanovništva. To nije, međutim, značilo određivanje „idealnog broja članova porodice“ niti je uslovljavalo roditelje da odluku o rađanju ili nerađanju donose u skladu sa demografskom i populacionom politikom republika.</hi><note
+                        place="foot" xml:id="ftn73" n="72"> AJ, 142 / II – Populaciona politika u
+                        socijalističkom samoupravnom društvu. Savetovanje, decembar 1982. </note>
+                </p>
+            </div>
+            <div>
+                <head>Između proklamovanog i stvarnog. Razlozi za neuspeh seksualne edukacije
+                    stanovništva </head>
+                <p><hi style="font-size:12pt">Stvaranje Koordinacionog odbora za društvenu aktivnost
+                        žena (1963), koji će nekoliko godina kasnije prerasti u Savezni savez za
+                        planiranje porodice (1967),</hi><note place="foot" xml:id="ftn74" n="73">
+                        AJ, 142 / II – 279. Pravila Saveznog saveta za planiranje porodice. Bilten
+                        br. 1
+                        (1967).</note><hi style="font-size:12pt" xml:space="preserve"> otvaranje ginekoloških savetovališta, organizovanje brojnih konferencija, savetovanja i diskusija, uredbe i razni zakonski i podzakonski akti, koji su omogućavali izdavanje kontraceptivnih sredstava na teret socijalnog osiguranja, stvarali su privid da su napori države i društvenih organizacija na prosvećivanju stanovnika i iskorenjivanju abortusa kao osnovnog sredstva kontrole rađanja veliki. Stvarnost je, donekle, ipak bila drugačija. Mada su Centralni ginekološki dispanzer u Ljubljani i Ginekološko akušerska klinika u Beogradu otvorili svoja prva savetovališta za planiranje porodice još 1955. godine,</hi><note
+                        place="foot" xml:id="ftn75" n="74"> AJ, 142 / II – A 837; Socijalni aspekti
+                        planiranja porodice u Jugoslaviji.</note><hi style="font-size:12pt">
+                        Jugosloveni su, sve do raspada države, uglavnom izbegavali upotrebu
+                        kontraceptivnih sredstava. Nedovoljna obrazovanost i zainteresovanost,
+                        patrijarhalna shvatanja i osećaj stida sprečavali su mnoge da odu do
+                        savetovališta i potraže savet ili pomoć. Iako svest stanovništva godinama
+                        naviklog da ilegalni, a zatim i legalni abortus koristi kao osnovni „metod“
+                        kontrole rađanja nije bilo lako promeniti, deo odgovornosti za sporadičnu
+                        upotrebu kontracepcijskih sredstava snosile su savezna i republičke
+                        zdravstvene službe, odnosno tela zadužena za planiranje porodice. Napori na
+                        prosvećivanju stanovništva bili su kampanjski, čitav teret popularizacije
+                        kontracepcije padao je na pleća malobrojnih entuzijasta – lekara, pre svega,
+                        ginekologa i članova nekih društvenih organizacija, a višegodišnja
+                        sistematična edukativna kampanja, koja je jedina mogla dati rezultate,
+                        nikada nije organizovana. Mere štednje su, umesto da unaprede
+                        infrastrukturu, ponekad uništavale i ono što već postoji. Početkom
+                        šezdesetih, usled ekonomske krize, savetovališta za kontracepciju su masovno
+                        zatvarana,</hi><note place="foot" xml:id="ftn76" n="75"> Dobrivojević,
+                        „Planiranje porodice u Jugoslaviji 1945–1974,“ 91, 92.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> a socijalno osiguranje u pojedinim republikama je teret kupovine kontraceptiva prebacivalo na stanovništvo. Karakterističan primer nerazumog odnosa prema kontraceptivnim sredstvima zabeležen je u Bosni i Hercegovini početkom šezdesetih godina. Naime, tamošnje socijalno osiguranje bilo je spremnije da ženama iz unutrašnjosti dva-tri puta plaća putne troškove do Sarajeva radi abortusa, nego da o sopstvenom trošku izda gel od 150 dinara ili dijafragmu od 400.</hi><note
+                        place="foot" xml:id="ftn77" n="76"> AJ, 142 / II – 623; Stenografske beleške
+                        sa sastanka održanog na konferenciji za društvenu aktivnost žena Jugoslavije
+                        u vezi sa pripremom savetovanja. Izlaganje dr Milojkovića (12. 3.
+                        1963).</note>
+                </p>
+                <p><hi style="font-size:12pt">Savezni zavod za socijalno osiguranje je 1963. godine
+                        doneo Odluku kojom je predviđeno da se kontraceptivna sredstva izdaju pod
+                        istim uslovima kao i lekovi,</hi><note place="foot" xml:id="ftn78" n="77">
+                        AJ, 142/ II – 623; nezavedeno, bez
+                        datuma.</note><hi style="font-size:12pt" xml:space="preserve"> ali jugoslovenska industrija, zbog slabe tražnje, nije bila preterano zainteresovana za njihovu proizvodnju. Problema je bilo čak i u Sloveniji, republici u kojoj je najveći broj stanovnika koristio kontracepciju.</hi><note
+                        place="foot" xml:id="ftn79" n="78"> AJ, 142 / II – 417; G. Žarković, A.
+                        Milojković, M. Džumhur, Djelatnost zdravstvenih ustanova na planiranju
+                        porodice u Jugoslaviji (1973). Savetovanje o izgradnji društvenih stavova o
+                        populacionoj politici u Jugoslaviji
+                        (1973).</note><hi style="font-size:12pt" xml:space="preserve"> Stoga je fabrika „Sava“ polovinom šezdesetih godina obustavila proizvodnju dijafragme, pošto je od 12.000 napravljenih komada čak 5.000 ostalo neprodato.</hi><note
+                        place="foot" xml:id="ftn80" n="79"> AJ, 142 / II – 626; Sastanak grupe za
+                        kontracepciju od 20. 4. 1966.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> Osim dijafragmi, u fabrikama širom zemlje proizvodili su se još i prezervativi, spermicidna sredstva, spirale, a od 1964. godine i pilule.</hi><note
+                        place="foot" xml:id="ftn81" n="80"> AJ, 142 / II – A 837; Socijalni aspekti
+                        planiranja porodice u
+                        Jugoslaviji.</note><hi style="font-size:12pt" xml:space="preserve"> Nezadovoljavajući kvalitet proizvoda i loša distribucija unosili su pometnju na tržištu i pretili da poljujaju poverenje u kontracepciju uopšte. Rezolucija o planiranju porodice, koja je trebalo da stvori društvenu klimu u kojoj će neplanirane i neželjene trudnoće biti retkost, ipak nije donela ništa novo. Broj pobačaja je neprestano rastao,</hi><note
+                        place="foot" xml:id="ftn82" n="81"> AJ, 142 / II – S 276; Analiza
+                        sprovođenja rezolucije Savezne skupštine o planiranju porodice
+                        (1987).</note><hi style="font-size:12pt" xml:space="preserve"> izbor kontracepcijskih sredstava po apotekama je bio nezadovoljavajući,</hi><note
+                        place="foot" xml:id="ftn83" n="82"> AJ, 142 / II; Lidija Andolšek,
+                        Dosadašnja saznanja i stavovi u pogledu regulisanja fertiliteta sa
+                        medicinskog
+                        aspekta.</note><hi style="font-size:12pt" xml:space="preserve"> izdvajanja socijalnog osiguranja za ovu namenu mala,</hi><note
+                        place="foot" xml:id="ftn84" n="83"> AJ, 142 / II – 417; G. Žarković, A.
+                        Milojković, M. Džumhur, Djelatnost zdravstvenih ustanova na planiranju
+                        porodice u Jugoslaviji (1973). Savetovanje o izgradnji društvenih stavova o
+                        populacionoj politici u Jugoslaviji (1973).</note><hi style="font-size:12pt"
+                        > informisanost žena o metodama sprečavanja neželjenog začeća
+                        loša,</hi><note place="foot" xml:id="ftn85" n="84"> AJ, 142 / II – 417; G.
+                        Žarković, A. M. Džumhur, S. M. Džumhur, Š. Segetlija, M. Maglajić, A.
+                        Softić, Znanje, stavovi i praksa planiranja porodice kod ženskog
+                        stanovništva u fertilnoj dobi u Jugoslaviji. Savetovanje o izgradnji
+                        društvenih stavova o populacionoj politici u Jugoslaviji (1973).</note><hi
+                        style="font-size:12pt"> a nije bila retkost da, uprkos odmakloj društvenoj
+                        modernizaciji, muškarci u braku odbijaju da koriste savremene metode
+                        kontracepcije.</hi><note place="foot" xml:id="ftn86" n="85"> Rada Drezgić<hi
+                            rend="italic">, „Bela kuga“ među „Srbima“. O naciji, rodu i rađanju na
+                            prelazu vekova</hi> (Beograd: Institut za filozofiju i društvenu
+                        teoriju, 2010), 43, 44.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> Zahvaljujući medijima, pre svega, ali i slobodnijim stavovima adolescenata, tokom osamdesetih godina znanja mlađih stanovnika Jugoslavije po pitanju metoda za sprečavanje neželjenog začeća bila su nešto bolja. Veća obaveštenost, paradoksalno, nije značila da je abortus kao „metod“ regulisanja rađanja izgubio na svojoj popularnosti. Loša komunikacija među partnerima, želja da se o sprečavanju trudnoće brine muški partner, strah od neželjenih posledica kontraceptiva,</hi><note
+                        place="foot" xml:id="ftn87" n="86"> Berislav Berić, „Neki problemi
+                        planiranja humane reprodukcije u SAP Vojvodini,“ <hi rend="italic">Zbornik
+                            Matice srpske za društvene nauke</hi> 80, (1986): 93.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> ali i bojazan žena da će izgledati promiskuitetno,</hi><note
+                        place="foot" xml:id="ftn88" n="87"> Branka Bogdan, „Cold War Entanglements
+                        and Abortion Technology: Writing Yugoslavia into the Global History of
+                        Vacuum Aspiration, 1964–1974,” <hi rend="italic">Australian Journal of
+                            Politics and History</hi>, 64, br. 3 (2018): 414.
+                    </note><hi style="font-size:12pt" xml:space="preserve"> predstavljali su samo od nekih razloga izbegavanja modernih sredstava zaštite. </hi></p>
+                <p><hi style="font-size:12pt">Pokazalo se da ni potpuno liberalizovani odnosi među
+                        polovima nisu bili garant nestanka starih strahova i predrasuda. Svako
+                        negativno iskustvo sa kontraceptivima, bilo sopstveno ili tuđe,
+                        generalizovano je do mere da su moderna sredstva zaštite smatrana
+                        „komplikovanim za upotrebu“, ali i potencijalno zdravstveno
+                        rizičnim.</hi><note place="foot" xml:id="ftn89" n="88"> Nila Kapor
+                        Stanulović i Henry P. David, „ Former Yugoslavia and Successor States“ u:
+                            <hi rend="italic">From Abortion to Contraception: a Resource to Public
+                            Policies and Reproductive Behavior in Central and Eastern Europe from
+                            1917 to the present</hi>, ur. Henry P. David (Westport, CT, US:
+                        Greenwood Press/Greenwood Publishing Group, 1999), 306.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> Paradoksalno, Jugoslovenke su više strahovale od (nepostojećih) zdravstvenih posledica upotrebe kontraceptiva, nego što su razmišljale o ozbiljnim zdravstvenim rizicima abortusa. Štaviše, rezultati reprezentativnog istraživanja, sprovedenog na uzorku od 400 beogradskih žena (1990), otkrili su da je stepen neznanja i predrasuda o kontraceptivnim sredstvima kod jednog broja ispitanica bio, i u predvečerje raspada Jugoslavije, zabrinjavajući. Neki od karakterističnih odgovora dobijenih u pomenutom istraživanju, kako navodi Mirjana Rašević, bili su i sledeći: „Pilula ubrzava dobijanje menstruacije, pa nema trudnoće“ (profesorka hemije, šesti abortus); „Materica postane bazna kad se uzima pilula, pa se ne može odigrati začeće“ (profesorka marksizma, peti abortus); „Spirala stvori tumor u materici i onda nema trudnoće“ (tekstilna radnica, četvrti abortus).</hi><note
+                        place="foot" xml:id="ftn90" n="89"> Mirjana Rašević, <hi rend="italic"
+                            >Planiranje porodice kao stil života</hi> (Beograd: Institut društvenih
+                        nauka. Centar za demografska istraživanja, 1999), 125, 126. </note><hi style="font-size:12pt" xml:space="preserve"> Stoga je, i 1990. godine, coitus interruptus, uprkos svojoj nepouzdanosti, i dalje bio preferirani način „zaštite“ od neželjene trudnoće.</hi>
+                    <note place="foot" xml:id="ftn91" n="90"> Kapor Stanulović i Henry P. David,
+                        „Former Yugoslavia and Successor States,“ 306. </note>
+                </p>
+                <p><hi style="font-size:12pt">Paralelno sa popularizacijom kontracepcije činjeni su,
+                        uglavnom neuspešni, pokušaji seksualnog edukovanja omladine. Iako je
+                        postojala, još od polovine pedesetih godina, načelna saglasnost o potrebi
+                        uvođenja ovog vida edukacije u škole, prilike su se razlikovale od republike
+                        do republike. Najprogresivnija je bila Slovenija, gde su, počev od 1958.
+                        godine, masovno otvarane škole za život, koje su nudile program za polaznike
+                        između 15 i 17 godina, kao i za omladinu preko 17 godina. Ovaj oblik
+                        vanškolskog seksualnog vaspitanja brzo je dobijao na popularnosti, pa je
+                        1960/61. na teritoriji najzapadnije jugoslovenske republike radilo čak 210
+                        ovakvih škola, koje su imale blizu 10.000 polaznika. Uviđajući potrebu
+                        uvođenja seksualne edukacije i u redovne školske tokove, slovenačka
+                        prosvetna vlast se 1960/61. odlučila da u pojedine osnovne škole uvede
+                        nastavu polnog vaspitanja. U ostalim jugoslovenskim republikama rad na
+                        seksualnoj edukaciji bio je mnogo manje sistematičan,</hi><note place="foot"
+                        xml:id="ftn92" n="91"> Dobrivojević, „Planiranje porodice u Jugoslaviji
+                        1945–1974,“ 93.
+                        </note><hi style="font-size:12pt" xml:space="preserve"> a negde je bilo i otvorenih otpora. U Bosni i Hercegovini je ideja o uvođenju nekih oblika seksualnog vaspitanja u škole nailazila na „apsolutno nerazumevanje“, a direktori obrazovnih ustanova smatrali su da su lekari koji to predlažu „poludeli“.</hi><note
+                        place="foot" xml:id="ftn93" n="92"> AJ, 142 / II – 623; Stenografske beleške
+                        sa sastanka održanog u konferenciji za društvenu aktivnost žena Jugoslavije
+                        u vezi sa pripremom savetovanja. Izlaganje dr Milojkovića (12. 3.
+                        1963).</note><hi style="font-size:12pt" xml:space="preserve"> Ništa bolja situacija nije bila ni u Srbiji, gde su učenici, od kada je 1958. godine predmet Higijena izbačen iz škola, prestali da dobijaju sistematska znanja iz oblasti zdravstvenog vaspitanja, odnosa među polovima i seksualnih odnosa.</hi><note
+                        place="foot" xml:id="ftn94" n="93"> AJ, 142 / II – S 275; Izveštaj o
+                        ostvarivanju Rezolucije o planiranju porodice savezne skupštine.</note>
+                </p>
+                <p><hi style="font-size:12pt">Donošenje Rezolucije o planiranju porodice predvidelo
+                        je uključivanje seksualnog obrazovanja u programe svih vaspitno-obrazovnih
+                        ustanova, imajući u vidu uzrast dece i omladine i njihov psihofizički
+                        razvoj,</hi><note place="foot" xml:id="ftn95" n="94"> AJ, 142 /II – A 801;
+                        Uloga porodičnih struktura na ulogu žena u razvoju i
+                        obrnuto.</note><hi style="font-size:12pt" xml:space="preserve"> ubrzalo je integrisanje nekih elemenata seksualnog vaspitanja u školske planove i programe. Međutim, uvođenje ovih tema u škole nije išlo ni brzo ni lako. I početkom osamdesetih godina u izveštajima je ocenjivano da školstvo „beži“ od sadržaja posvećenih polnom životu uz objašnjenje da nastavni kadar nije dovoljno edukovan da učenicima predaje o seksualnosti.</hi><note
+                        place="foot" xml:id="ftn96" n="95"> AJ, 142 / II – S 270; Humanizacija
+                        odnosa među polovima i odgovorno roditeljstvo (maj
+                        1981).</note><hi style="font-size:12pt" xml:space="preserve"> Iako se do kraja osamdesetih godina o seksualnosti, odnosima među polovima i začeću govorilo na časovima biologije, fizičkom, zdravstvenom i likovnom obrazovanju, u armiji i na dobrovoljnim radnim akcijama, tako koncipirani sadržaji nisu mogli zadovoljiti adolescentsku znatiželju. Pokazalo se da su i u modernizovanom jugoslovenskom društvu seks i seksualnost bili i ostali tabu, pa mladi, koji su sve ranije stupali u intimne odnose, nisu mogli dobiti adekvatna znanja, ni u školi, ni kod kuće. U ovakvim uslovima o seksualnosti se najviše „učilo“ od vršnjaka i iz sredstava javnog informisanja. Posledice neuspeha državne politike u oblasti planiranja porodice bile su evidentne. Broj adolescentskih trudnoća je iz godine u godinu rastao, abortus je (p)ostao metod izbora kad je reč o planiranju porodice, a ukupan broj pobačaja, uz istovremeno opadanje nataliteta, već 1983. godine se gotovo izjednačio sa brojem porođaja.</hi><note
+                        place="foot" xml:id="ftn97" n="96"> 97,9 prema 100; AJ, 142 / II – S 275;
+                        Кretanje pobačaja.</note></p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Bibliografija</head>
+                <list type="unordered">
+                    <head>Neobjavljrni izvori</head>
+                    <item><hi style="font-size:10pt">AJ, Arhiv Jugoslavije:</hi><list
+                        type="unordered">
+                        <item><hi style="font-size:10pt">AJ, 31 – Komitet za zastitu narodnog
+                            zdravlja.</hi></item>
+                        <item><hi style="font-size:10pt">AJ, 141 – Antifašistički front
+                            žena.</hi></item>
+                        <item><hi style="font-size:10pt">AJ, 142 – Fond socijalističkog saveza
+                            radnog naroda Jugoslavije.</hi></item>
+                        <item><hi style="font-size:10pt">AJ, 672 – Savezni zavod za zdravstvenu
+                            zaštitu.</hi></item>
+                    </list></item>
+                </list>
+                <listBibl>
+                    <head>Literatura</head>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Berić, Berislav. „Neki problemi planiranja humane reprodukcije u SAP Vojvodini.“ </hi><hi
+                            rend="italic" style="font-size:10pt">Zbornik Matice srpske za društvene
+                            nauke</hi><hi style="font-size:10pt" xml:space="preserve"> 80 (1986): 81–108.</hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Bogdan, Branka. „Cold War Entanglements and Abortion Technology: Writing Yugoslavia into the Global History of Vacuum Aspiration, 1964-1974.” </hi><hi
+                            rend="italic" style="font-size:10pt">Australian Journal of Politics and
+                            History</hi><hi style="font-size:10pt">64, br. 3 (2018): 407–21.</hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Božinović, Neda. </hi><hi
+                            rend="italic" style="font-size:10pt">Žensko pitanje u Srbiji u 19. i 20.
+                            veku</hi><hi style="font-size:10pt">. Beograd: Devedesetčetvrta,
+                            1996.</hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Dobrivojević Tomić, Ivana. „Za željeno roditeljstvo. Državna politika Jugoslavije u oblasti planiranja porodice (1945–1974).“ </hi><hi
+                            rend="italic" style="font-size:10pt">Istorija 20.
+                        veka</hi><hi style="font-size:10pt" xml:space="preserve"> 1 (2018): 119–32.</hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Dobrivojević, Ivana.  „Planiranje porodice u Jugoslaviji 1945–1974.“ </hi><hi
+                            rend="italic" style="font-size:10pt">Istorija 20.
+                        veka</hi><hi style="font-size:10pt" xml:space="preserve"> 2 (2016): 83–98. </hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Drakić, Gordana. „Prekid trudnoće prema Кrivičnom zakoniku kraljevine Jugoslavije i projektima koji su mu prethodili.” </hi><hi
+                            rend="italic" style="font-size:10pt">Zbornik radova Pravnog fakulteta u
+                            Novom
+                        Sadu</hi><hi style="font-size:10pt" xml:space="preserve"> 3  (2011): 533–42.</hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Drezgić, Rada, </hi><hi
+                            rend="italic" style="font-size:10pt">„Bela kuga“ među „Srbima“. O
+                            naciji, rodu i rađanju na prelazu
+                        vekova.</hi><hi style="font-size:10pt" xml:space="preserve"> Beograd: Institut za filozofiju i društvenu teoriju, 2010. </hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Gudac – Dodić, Vera. „Žena u socijalizmu: sfere privatnosti“. U: </hi><hi
+                            rend="italic" style="font-size:10pt">Privatnost kod Srba u dvadesetom
+                            veku</hi><hi style="font-size:10pt">, urednik Milan Ristović, 165–204.
+                            Beograd: Clio, 2007.</hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Isić, Momčilo. „Dete i žena na selu u Srbiji između dva svetska rata.” U: </hi><hi
+                            rend="italic" style="font-size:10pt">Žene i deca. Srbija u
+                            modernizacijskim procesima XIX i XX veka</hi><hi style="font-size:10pt"
+                            >, 131–59. Beograd: Helsinški odbor, 2006.</hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Kapor – Stanulović, Nila i David Henry P. „Former Yugoslavia and Successor States.“ U: </hi><hi
+                            rend="italic" style="font-size:10pt">From Abortion to Contraception: a
+                            Resource to Public Policies and Reproductive Behavior in Central and
+                            Eastern Europe from 1917 to the present</hi><hi style="font-size:10pt">,
+                            urednik Henry P. David, 279–315. Westport, CT, US: Greenwood
+                            Press/Greenwood Publishing Group, 1999.</hi></bibl>
+                    <bibl><hi style="font-size:10pt">Kostić, Aleksandar</hi><hi rend="italic"
+                            style="font-size:10pt">. Polni život čoveka</hi><hi
+                            style="font-size:10pt">. Beograd: Panteon, 1932.</hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Кulaš, Juraj. „Кrivično-pravno delo pobačaja.“ </hi><hi
+                            rend="italic" style="font-size:10pt"
+                        >Branič</hi><hi style="font-size:10pt" xml:space="preserve"> 9 (1935): 417–25.</hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Кusovac, Dušan, Teodorović, S. i D. Stojanović. „Posledice veštačkog prekida trudnoće u periodu od tri godine na materijalu od oko 20 000 pobačaja.“ U: </hi><hi
+                            rend="italic" style="font-size:10pt">V kongres ginekologa i opstetričara
+                            Jugoslavije. Diskusija
+                        I</hi><hi style="font-size:10pt" xml:space="preserve">., 117–20.  Sarajevo: Medicinska knjiga, 1964. </hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Marković, Predrag. „Seksualnost između privatnog i javnog u 20. veku.“ U: </hi><hi
+                            rend="italic" style="font-size:10pt">Privatni život kod Srba u 20.
+                            veku</hi><hi style="font-size:10pt" xml:space="preserve">, urednik Milan Ristović, 101–28, Beograd: Clio, 2007. </hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Marković, Predrag. </hi><hi
+                            rend="italic" style="font-size:10pt">Beograd i Evropa 1918–1941.
+                            Evropski uticaji na proces modernizacije
+                        Beograda.</hi><hi style="font-size:10pt" xml:space="preserve"> Beograd: Savremena administracija 1991.</hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Milovanović, Milovan. „Letalni namerni pobačaj.” </hi><hi
+                            rend="italic" style="font-size:10pt">Medicinski
+                        pregled</hi><hi style="font-size:10pt" xml:space="preserve"> (oktobar, 1936): 185–88. </hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Pavićević, Aleksandra. </hi><hi
+                            rend="italic" style="font-size:10pt">Na udaru ideologija. Brak, porodica
+                            i polni moral u Srbiji u drugoj polovini 20. veka</hi><hi
+                            style="font-size:10pt">. Beograd: Etnografski insitut SANU,
+                        2006.</hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Petrović, Aleksandar. „Deca prema shvatanju našeg naroda.“ </hi><hi
+                            rend="italic" style="font-size:10pt">Socijalno – medicinski
+                        pregled</hi><hi style="font-size:10pt" xml:space="preserve"> (oktobar – novembar – decembar, 1940): 455–60.</hi></bibl>
+                    <bibl><hi style="font-size:10pt">Petrović, Aleksandar</hi><hi rend="italic"
+                            style="font-size:10pt">. Rakovica. Socijalno – zdravstvene i higijenske
+                            prilike, t. 2</hi><hi style="font-size:10pt">. Beograd: Centralni
+                            higijenski zavod, 1939.</hi></bibl>
+                    <bibl><hi style="font-size:10pt">Rašević, Mirjana</hi><hi rend="italic"
+                            style="font-size:10pt">. Planiranje porodice kao stil
+                        života.</hi><hi style="font-size:10pt" xml:space="preserve"> Beograd: Insitut društvenih nauka. Centar za demografska Istraživanja, 1999. </hi></bibl>
+                    <bibl><hi style="font-size:10pt">Simić, Ivan. „Soviet Influences on Yugoslav
+                            Gender Policies, 1945-1955.” Doktorska disertacija. UCL,
+                        2015.</hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Stefanović, Svetlana. „Žensko pitanje u beogradskoj štampi i periodici 1918–1941.“ Magistarski rad. Beogradski univerzitet 2000. </hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Stein Erlich, Vera.  </hi><hi
+                            rend="italic" style="font-size:10pt">Jugoslavenska porodica u
+                            transformaciji. Studija u tri stotine sela</hi><hi
+                            style="font-size:10pt">. Zagreb: Liber, 1971.</hi></bibl>
+                    <bibl><hi style="font-size:10pt" xml:space="preserve">Vukosavljević, Sreten.  </hi><hi
+                            rend="italic" style="font-size:10pt">Pisma sa
+                        sela</hi><hi style="font-size:10pt" xml:space="preserve">. Beograd: Savremena škola, 1962. </hi></bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Objavljeni izvori</head>
+                    <bibl><hi rend="italic" style="font-size:10pt">Savetovanje o problemima trudnoće
+                            i kontracepcije</hi><hi style="font-size:10pt">. Beograd: Novinsko
+                            izdavačka ustanova Beogradske novine, 1963.</hi></bibl>
+                    <bibl><hi rend="italic" style="font-size:10pt">Službeni list FNRJ.</hi></bibl>
+                    <bibl><hi rend="italic" style="font-size:10pt">Službeni list SFRJ.</hi></bibl>
+                    <bibl><hi rend="italic" style="font-size:10pt">Treće redovno zasedanje Veća
+                            naroda i Saveznog veća (drugi saziv) 25—27 februara 1951. Stenografske
+                            beleške</hi><hi style="font-size:10pt">. Beograd: Prezidijum Narodne
+                            skupštine FNRJ.</hi></bibl>
+                    <bibl><hi rend="italic" style="font-size:10pt">Ustav Socijalističke Federativne
+                            Republike Jugoslavije sa ustavnim zakonom za sprovođenje ustava
+                            Socijalističke Federativne Republike Jugoslavije</hi><hi
+                            style="font-size:10pt">. Beograd: Službeni list, 1974.</hi></bibl>
+                </listBibl>
+            </div>
+            <div type="summary" xml:lang="en">
+                <head>Ivana Dobrivojević Tomić</head>
+                <head>DURABILITY AND CHANGE. CULTURE OF ABORTION, LIBERALISATION OF REGULATION AND
+                    ATTEMPTS AT SEX EDUCATION OF THE PEOPLE OF YUGOSLAVIA (1918–1991)</head>
+                <p style="text-align:center;"><hi style="font-size:10pt">SUMMARY</hi></p>
+                <p>
+                    <hi style="font-size:10pt">Yugoslav model of family planning as a human right
+                        was not limited to birth control, abortion and contraception techniques, but
+                        was supposed to grow into responsible parenthood. The goal was that every
+                        child would be wanted. Yugoslavs have, since the 1960s, opted for smaller
+                        families with one or two children. The main reason for this were
+                        socio-economic conditions, but also a general European trend towards a
+                        smaller family and a more responsible family planning. With progressive
+                        liberalisation of legislation, introduction of medical, socio-medical,
+                        social and finally individual indication, abortion became legal. But attemps
+                        at medical education and popularisation of contemporary methods of
+                        contraception were occasional in nature, non-systematic and insufficient.
+                        Even at the beginning of 1980s the selection of contraception was bad,
+                        gynecological counselling centres were rarely visited and sex education had
+                        trouble getting into Yugoslav schools. Lack of success of state policy in
+                        the field of family planning was evident. Number of abortions grew every
+                        year, there was more and more unplanned teenage pregnancies, and Yugoslav
+                        women, despite advanced sexual revolution and modernisation of society,
+                        avoided contemporary contraception and regularly decided on abortion as a
+                        main „method“ of birth control.</hi></p>
+            </div>
+        </back>
+    </text>
+</TEI>
