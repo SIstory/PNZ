@@ -1,54 +1,113 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
-                <author>MORO</author>
+                <title>Srenjska zemlja v sodobnem mednarodnem zgodovinopisju: aktualna
+                    vprašanja</title>
+                <author>
+                    <name>
+                        <forename>Nikita</forename>
+                        <surname>Meden</surname>
+                        <roleName>Mag.</roleName>
+                        <roleName>asistentka</roleName>
+                        <email>meden.nikita@gmail.com</email>
+                    </name>
+                </author>
             </titleStmt>
             <editionStmt>
-                <edition><date>2019-12-03</date></edition>
+                <edition><date>2019-06-02</date></edition>
             </editionStmt>
             <publicationStmt>
-                <p>unknown</p>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Kongresni trg 1</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/319</pubPlace>
+                <date>2019</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
             </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">59</biblScope>
+                <biblScope unit="issue">3</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
             <sourceDesc>
-                <p>Converted from a Word document</p>
+                <p>No source, born digital.</p>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <appInfo>
-                <application xml:id="docxtotei" ident="TEI_fromDOCX" version="2.15.0">
-                    <label>DOCX to TEI</label>
-                </application>
-            </appInfo>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
         </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>communal land</term>
+                    <term>property rights</term>
+                    <term>environment</term>
+                    <term>sustainable use</term>
+                    <term>customs</term>
+                    <term>collective supervision</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>srenjska zemlja</term>
+                    <term>lastninske pravice</term>
+                    <term>okolje</term>
+                    <term>trajnostna raba</term>
+                    <term>običaji</term>
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
         <revisionDesc>
             <listChange>
-                <change><date>2019-12-03T14:21:58Z</date><name>MORO</name></change>
+                <change>
+                    <date>2019-04-12</date>
+                    <name>Neja Blaj Hribar</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
             </listChange>
         </revisionDesc>
     </teiHeader>
     <text>
-        <body>
-            <list type="ordered">
-                <item><seg xml:space="preserve">                                                                                                                          </seg><hi
-                        style="font-size:10pt">UDK: 930(100):332.24.012.34</hi></item>
-            </list>
-            <p rend="Standard" style="text-align:center;"><hi style="font-size:12pt">Nikita
-                    Meden</hi><hi rend="footnote_reference"><seg style="font-size:12pt"><note
-                            place="foot" xml:id="ftn1" n="1"><p rend="footnote text"><hi
-                                    rend="footnote_reference">*</hi>
-                                <hi rend="bold" xml:space="preserve">Mag. zgodovine, asistentka, </hi><ref
-                                    target="mailto:meden.nikita@gmail.com"><hi rend="bold"
-                                        >meden.nikita@gmail.com</hi></ref>
-                            </p></note>*</seg></hi></p>
-            <p rend="Standard" style="text-align:center;"><hi rend="bold" style="font-size:16pt"
-                    >Srenjska zemlja v sodobnem mednarodnem zgodovinopisju: aktualna
-                vprašanja</hi></p>
-            <p rend="Standard" style="text-align:center;"><hi style="font-size:12pt"
-                >IZVLEČEK</hi></p>
-            <p rend="Standard"><hi rend="italic" style="font-size:10pt">Prispevek se posveča
+        <front>
+            <docAuthor>Nikita
+                Meden<note place="foot" xml:id="ftn1" n="*"><hi rend="bold">Mag. zgodovine, asistentka, </hi><ref target="mailto:meden.nikita@gmail.com"><hi rend="bold">meden.nikita@gmail.com</hi></ref></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="UDC">UDK: 930(100):332.24.012.34</idno>
+            </docImprint>
+            <div type="abstract" xml:lang="sl">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic" style="font-size:10pt">Prispevek se posveča
                     srenjski zemlji, kakor jo obravnava novejše mednarodno zgodovinopisje na prelomu
                     20. in 21. stoletja. Prispevek vsebuje pogled na pereče vprašanje o gospodarski
                     smotrnosti kolektivne lastnine in/ali rabe v primerjavi z zasebno. Poudarjeno je
@@ -62,16 +121,15 @@
                     katerimi se ukvarja okoljska zgodovina. Poleg omenjenega v sklopu aktualnih
                     vprašanj obravnavamo tudi vlogo običajev in kolektivnega nadzora vaške skupnosti
                     v okviru njene upravljavske funkcije.</hi></p>
-            <p rend="Standard"><hi rend="italic" style="font-size:10pt">Ključne besede</hi><hi
-                    rend="italic bold" style="font-size:10pt"
-                >:</hi><hi rend="italic" style="font-size:10pt" xml:space="preserve"> srenjska zemlja, lastninske pravice, okolje, trajnostna raba, običaji, kolektivni nadzor.</hi></p>
-            <p rend="Standard" style="text-align:center;"><hi style="font-size:12pt"
-                >ABSTRACT</hi></p>
-            <p rend="Standard" style="text-align:center;"><hi style="font-size:12pt">COMMUNAL LAND
-                    IN MODERN INTERNATIONAL HISTORIOGRAPHY: TOPICAL QUESTIONS</hi></p>
-            <p rend="Standard"><hi rend="italic" style="font-size:10pt">The following contribution
+                <p><hi rend="italic" style="font-size:10pt">Ključne besede: srenjska zemlja, lastninske pravice, okolje, trajnostna raba, običaji, kolektivni nadzor.</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head>COMMUNAL LAND
+                    IN MODERN INTERNATIONAL HISTORIOGRAPHY: TOPICAL QUESTIONS</head>
+                <p><hi rend="italic" style="font-size:10pt">The following contribution
                     focuses on communal land as seen by the modern international historiography
-                    towards the end of the 20th and in the beginning of the 21st century. The
+                    towards the end of the 20<hi rend="superscript">th</hi> and in the beginning of the 21<hi rend="superscript">st</hi> century. The
                     contribution explores the outstanding issue of the economic expediency of
                     collective property and/or use in comparison with private property. The emphasis
                     lies on the question of ownership and property rights with regard to communal
@@ -86,66 +144,55 @@
                     collective supervision carried out by the village communities in the context of
                     their management functions is explored as one of the topical questions as
                     well.</hi></p>
-            <p rend="Standard"><hi rend="italic" style="font-size:10pt">Keywords: communal land,
+                <p><hi rend="italic" style="font-size:10pt">Keywords: communal land,
                     property rights, environment, sustainable use, customs, collective
                     supervision</hi></p>
-            <p rend="Standard" style="text-align:center;"><hi rend="bold" style="font-size:12pt"
-                    >Uvod</hi></p>
-            <p rend="Standard"><hi style="font-size:12pt">Srenjska zemlja je le eno od imen, s
+            </div>
+        </front>
+        <body>
+           <div><head>Uvod</head>
+            <p><hi style="font-size:12pt">Srenjska zemlja je le eno od imen, s
                     katerimi poimenujemo zemljo, navadno namenjeno paši, občasni košnji in
                     pridobivanju lesa, ki jo je imela pravico uporabljati vaška skupnost oziroma
                     njeni člani (ali tudi mestna skupnost ter zemljiški gospod). Srenjska zemlja je
                     predstavljala povečini pašna (včasih tudi travna) in gozdna območja, večinoma
-                    bolj marginalne narave</hi><note place="foot" xml:id="ftn2" n="2"><p
-                        rend="footnote text"> O tem tudi Nikita Meden »Vloga vaške skupnosti in
+                    bolj marginalne narave</hi><note place="foot" xml:id="ftn2" n="1"> O tem tudi Nikita Meden »Vloga vaške skupnosti in
                         zemljiškega gospoda pri upravljanju srenjske zemlje v zgodnjem novem veku na
                         primeru devinskega gospostva na Krasu« (magistrsko delo, Univerza na
-                        Primorskem, Fakulteta za humanistične študije, 2017).</p></note>
+                        Primorskem, Fakulteta za humanistične študije, 2017).</note>
                 <hi style="font-size:12pt" xml:space="preserve">ali slabše kakovosti, praviloma v bližini vasi. Za upravičence do njene rabe (člane vaške skupnosti) je predstavljala pomemben vir dohodka, ki je vplival na preživljanje in preživetje. Namen tega prispevka ni ustvariti predstavitve in povzetka zgodovine srenjske zemlje ali na drugačen način poustvariti pregleda sprememb skozi preteklost, temveč predstaviti, kako srenjsko zemljo dojema in obravnava mednarodno zgodovinopisje na prehodu iz 20. v 21. stoletje. Posebej bomo nakazali določene vidike, ki morajo biti še raziskani in ki so bili v slovenskem zgodovinopisju v preteklosti morda nekoliko prezrti. Poudarili bomo nekatere pristope in dognanja posameznih raziskav, na podlagi katerih je mogoče oblikovati nova spoznanja in si zastaviti vprašanja, katerim bi se bilo smiselno posvetiti v prihodnosti na slovenskih primerih. Osredotočili se bomo na tematske sklope, ki se jim zgodovinarji v zadnjih desetletjih najbolj posvečajo pri obravnavi srenjske zemlje, to so vprašanja okolja, lastninskih pravic, običajev in trajnostne rabe. </hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:12pt" xml:space="preserve">Med slovenskimi zgodovinarji, ki so se in se ukvarjajo z raziskovanjem srenjske zemlje, gre najprej poudariti Marjana Britovška z že leta 1964 izdanim delom </hi><hi rend="italic" style="font-size:12pt" xml:space="preserve">Razkroj fevdalne agrarne strukture na Kranjskem, </hi><hi
-                    style="font-size:12pt">ki predstavlja eno izmed temeljnih in kompleksnejših
+            <p><hi style="font-size:12pt" xml:space="preserve">Med slovenskimi zgodovinarji, ki so se in se ukvarjajo z raziskovanjem srenjske zemlje, gre najprej poudariti Marjana Britovška z že leta 1964 izdanim delom </hi><hi rend="italic" style="font-size:12pt" xml:space="preserve">Razkroj fevdalne agrarne strukture na Kranjskem, </hi><hi style="font-size:12pt">ki predstavlja eno izmed temeljnih in kompleksnejših
                     obravnav srenjske zemlje v slovenskem zgodovinopisju. Nato velja omeniti dve
                     večavtorski deli, izdani v letih 1970 in 1980
-                    –</hi><hi rend="italic" style="font-size:12pt" xml:space="preserve"> Gospodarska in družbena zgodovina Slovencev. Zgodovina agrarnih panog (I. zvezek – Agrarno gospodarstvo, II. zvezek – Družbena razmerja in gibanja). </hi><hi
-                    style="font-size:12pt">Med avtorji njunih poglavij, ki se v največji meri
+                    –</hi><hi rend="italic" style="font-size:12pt" xml:space="preserve"> Gospodarska in družbena zgodovina Slovencev. Zgodovina agrarnih panog (I. zvezek – Agrarno gospodarstvo, II. zvezek – Družbena razmerja in gibanja). </hi><hi style="font-size:12pt">Med avtorji njunih poglavij, ki se v največji meri
                     navezujejo na srenjsko zemljo, vaško skupnost in teme, s katerimi lahko
                     potegnemo vzporednice s srenjsko zemljo, gre poudariti zgodovinarje, kot so
-                    Sergij Vilfan, Pavle Blaznik, Bogo Grafenauer in Vilko Novak.</hi><note
-                    place="foot" xml:id="ftn3" n="3"><p rend="footnote text"> Pavle Blaznik et al.,
+                    Sergij Vilfan, Pavle Blaznik, Bogo Grafenauer in Vilko Novak.</hi><note place="foot" xml:id="ftn3" n="2"> Pavle Blaznik et al.,
                         »Kolonizacija in populacija,« v: <hi rend="italic">Gospodarska in družbena
                             zgodovina Slovencev. Zgodovina agrarnih panog, 1</hi>, ur. Pavle Blaznik
-                        et al. (Ljubljana: Državna založba Slovenije, 1970), str. 29–127<hi
-                            rend="color(0F0F0F)">. Pavle Blaznik, »Kolektivna kmečka posest,«</hi>
+                        et al. (Ljubljana: Državna založba Slovenije, 1970), 29–127. Pavle Blaznik, »Kolektivna kmečka posest,«
                         v: <hi rend="italic">Gospodarska in družbena zgodovina Slovencev. Zgodovina
-                            agrarnih panog, 1</hi>, ur. <hi rend="color(0F0F0F)">Pavle Blaznik</hi>
-                        et al. (Ljubljana: Državna založba Slovenije, 1970), <hi
-                            rend="color(0F0F0F)">str. 149–60. Vilko Novak, »Živinoreja,«</hi> v: <hi
-                            rend="italic">Gospodarska in družbena zgodovina Slovencev. Zgodovina
-                            agrarnih panog, 1</hi>, ur. <hi rend="color(0F0F0F)">Pavle Blaznik</hi>
-                        et al. (Ljubljana: Državna založba Slovenije, 1970)<hi rend="color(0F0F0F)"
-                            >, str. 343–94. Bogo Grafenauer, »Gospodarski obrat kmetije,«</hi> v:
+                            agrarnih panog, 1</hi>, ur. Pavle Blaznik
+                        et al. (Ljubljana: Državna založba Slovenije, 1970), 149–60. Vilko Novak, »Živinoreja,« v: <hi rend="italic">Gospodarska in družbena zgodovina Slovencev. Zgodovina
+                            agrarnih panog, 1</hi>, ur. Pavle Blaznik
+                        et al. (Ljubljana: Državna založba Slovenije, 1970), 343–94. Bogo Grafenauer, »Gospodarski obrat kmetije,« v:
                             <hi rend="italic">Gospodarska in družbena zgodovina Slovencev. Zgodovina
-                            agrarnih panog, 1</hi>, ur. <hi rend="color(0F0F0F)">Pavle Blaznik</hi>
+                            agrarnih panog, 1</hi>, ur. Pavle Blaznik
                         et al. (Ljubljana: Državna založba Slovenije,
-                            1970)<hi rend="color(0F0F0F)" xml:space="preserve">, str. 619–51. Sergij Vilfan, »Soseske in druge podeželske skupnosti,« v: </hi><hi
-                            rend="italic color(0F0F0F)">Gospodarska in družbena zgodovina Slovencev.
+                            1970), 619–51. Sergij Vilfan, »Soseske in druge podeželske skupnosti,« v: Gospodarska in družbena zgodovina Slovencev.
                             Zgodovina agrarnih panog,
-                            2</hi><hi rend="color(0F0F0F)" xml:space="preserve">, ur. Pavle Blaznik et al. (Ljubljana: Državna založba Slovenije, 1980a), str. 9–74. Sergij Vilfan, »Agrarna premoženjska razmerja,« v: </hi><hi
-                            rend="italic color(0F0F0F)">Gospodarska in družbena zgodovina Slovencev.
-                            Zgodovina agrarnih panog, 2</hi><hi rend="color(0F0F0F)">, ur. Pavle
-                            Blaznik et al. (Ljubljana: Državna založba Slovenije, 1980a), str.
-                            403–79.</hi></p></note><hi style="font-size:12pt" xml:space="preserve"> V Vilfanovem opusu si na tukajšnjo tematiko omembo nedvomno zasluži tudi </hi><hi
-                    rend="italic" style="font-size:12pt">Pravna zgodovina Slovencev</hi><hi style="font-size:12pt" xml:space="preserve">, izdana v letu 1996, ki se v pravnem pogledu dotika tudi srenjske zemlje in vaške skupnosti. Preden preidemo v novejši čas, ne moremo mimo omembe geografa z izrazitim smislom in interesom za zgodovino, kakršen je bil Anton Melik, in vsaj njegovih </hi>
+                            2, ur. Pavle Blaznik et al. (Ljubljana: Državna založba Slovenije, 1980a), 9–74. Sergij Vilfan, »Agrarna premoženjska razmerja,« v: Gospodarska in družbena zgodovina Slovencev.
+                            Zgodovina agrarnih panog, 2, ur. Pavle
+                            Blaznik et al. (Ljubljana: Državna založba Slovenije, 1980a),
+                            403–79.</note><hi style="font-size:12pt" xml:space="preserve"> V Vilfanovem opusu si na tukajšnjo tematiko omembo nedvomno zasluži tudi </hi><hi rend="italic" style="font-size:12pt">Pravna zgodovina Slovencev</hi><hi style="font-size:12pt" xml:space="preserve">, izdana v letu 1996, ki se v pravnem pogledu dotika tudi srenjske zemlje in vaške skupnosti. Preden preidemo v novejši čas, ne moremo mimo omembe geografa z izrazitim smislom in interesom za zgodovino, kakršen je bil Anton Melik, in vsaj njegovih </hi>
                 <hi rend="italic" style="font-size:12pt">Planin v Julijskih Alpah</hi>
                 <hi style="font-size:12pt" xml:space="preserve">(1950), v katerih pomemben položaj zavzemajo kolektivne površine. Za dojemanje fenomena srenjske zemlje v povezavi z institucijo vaške skupnosti je smiselno v roke prijeti tudi Lazarevićevi deli </hi>
                 <hi rend="italic" style="font-size:12pt">Kmečki dolgovi na
-                    Slovenskem</hi><hi style="font-size:12pt" xml:space="preserve"> (1994) in </hi><hi
-                    rend="italic" style="font-size:12pt">Spremembe in zamišljanja.
+                    Slovenskem</hi><hi style="font-size:12pt" xml:space="preserve"> (1994) in </hi><hi rend="italic" style="font-size:12pt">Spremembe in zamišljanja.
                     Gospodarsko-zgodovinske
                 refleksije</hi><hi style="font-size:12pt" xml:space="preserve"> (2015), sicer pa je novejša slovenska literatura smiselno omenjena v nadaljevanju prispevka.</hi>
             </p>
-            <p rend="Standard"><hi style="font-size:12pt">Skozi jedro raziskave ne bomo obravnavali
+            <p><hi style="font-size:12pt">Skozi jedro raziskave ne bomo obravnavali
                     le posameznih zamejenih tematskih ali problemskih sklopov, temveč bomo skušali
                     vzpostaviti tudi medsebojne povezave, ki bodo sestavile širši okvir. Uvodu sledi
                     razdelek, katerega rdeča nit je dojemanje srenjske zemlje v okviru okoljske
@@ -160,97 +207,85 @@
                     težko potegniti jasne ločnice, ki bi omogočile nazornejšo predstavitev in
                     olajšale razumevanje. Tu predlagana delitev na tematske sklope želi služiti temu
                     namenu, njihovo srž pa smo združili v sklepni misli.</hi>
-            </p>
-            <list type="ordered">
-                <item><hi rend="bold" style="font-size:12pt">Srenjska zemlja in okoljska
-                        zgodovina</hi></item>
-            </list>
-            <p rend="Standard"><hi style="font-size:12pt">V mednarodni literaturi v angleškem jeziku
+            </p></div>
+               <div> <head>Srenjska zemlja in okoljska
+                        zgodovina</head>
+            
+            <p><hi style="font-size:12pt">V mednarodni literaturi v angleškem jeziku
                     se srenjska zemlja označuje z izrazoma</hi>
-                <hi rend="italic" style="font-size:12pt"
-                    >commons</hi><hi style="font-size:12pt" xml:space="preserve"> ali </hi><hi
-                    rend="italic" style="font-size:12pt">common land</hi><hi style="font-size:12pt"
-                    >, to je skupna zemlja, zemlja, ki jo skupno upravljajo in uporabljajo njeni
+                <hi rend="italic" style="font-size:12pt">commons</hi><hi style="font-size:12pt" xml:space="preserve"> ali </hi><hi rend="italic" style="font-size:12pt">common land</hi><hi style="font-size:12pt">, to je skupna zemlja, zemlja, ki jo skupno upravljajo in uporabljajo njeni
                     upravičenci. Okoljska zgodovina preučuje, kako je narava v preteklosti vplivala
                     na človeka, kako je ta vplival na naravo in naravne vire, ter tudi, ali so
                     ljudje trajnostno upravljali z naravnimi viri.</hi>
-                <note place="foot" xml:id="ftn4" n="4"><p rend="footnote text"> O tem gl. John R.
+                <note place="foot" xml:id="ftn4" n="3"> O tem gl. John R.
                         McNeill, »Observations of the Nature in Culture of Environmental History,«
                             <hi rend="italic">History and Theory,</hi> 42 (2003):
-                    4.</p></note><hi style="font-size:12pt" xml:space="preserve"> Mednje seveda sodijo tudi viri, ki jih nudi srenjska zemlja. Okoljska zgodovina naj bi bila po Basu Van Bavelu in Ericu Thoenu, vsaj kar se tiče zgodovinopisja do izida njunega dela, ki ga tu navajamo, nekako »manj znanstvena«, kar naj bi bila posledica ozkoglednosti zgodovinarjev ali natančneje tega, da se pri raziskovanju zgodovine okolja ne opirajo na druge znanstvene discipline, kot sta sociologija in antropologija, in jih ne vključujejo v dovoljšni meri.</hi><note
-                    place="foot" xml:id="ftn5" n="5"><p rend="footnote text"> Bas Van Bavel in Eric
+                    4.</note><hi style="font-size:12pt" xml:space="preserve"> Mednje seveda sodijo tudi viri, ki jih nudi srenjska zemlja. Okoljska zgodovina naj bi bila po Basu Van Bavelu in Ericu Thoenu, vsaj kar se tiče zgodovinopisja do izida njunega dela, ki ga tu navajamo, nekako »manj znanstvena«, kar naj bi bila posledica ozkoglednosti zgodovinarjev ali natančneje tega, da se pri raziskovanju zgodovine okolja ne opirajo na druge znanstvene discipline, kot sta sociologija in antropologija, in jih ne vključujejo v dovoljšni meri.</hi><note place="foot" xml:id="ftn5" n="4"> Bas Van Bavel in Eric
                         Thoen, »Rural History and the Environment. A Survey of the Relationship
                         between Property Rights, Social Structures and Sustainability of Land Use,«
                         v: <hi rend="italic">Rural Societies and Environment at Risk: Ecology,
                             Property Rights and Social Organisation in Fragile Areas (Middle
                             Ages–Twentieth Century)</hi>, ur. Bas Van Bavel in Eric Thoen (Turnhout:
                         Brepols Publishers, 2013),
-                        15<hi rend="color(0F0F0F)" xml:space="preserve">, </hi>16.</p></note><hi style="font-size:12pt" xml:space="preserve"> Pri raziskovanju je namreč potrebno sodelovanje več disciplin, poleg dveh navedenih tudi ekonomike, agronomije idr. Po njunem mnenju je potrebno delovanje na skupnem projektu in s skupnim ciljem, katerega namen je oblikovati teorijo ter jo preslikati v prakso. Čeprav je njun poziv k interdisciplinarnosti povsem utemeljen, kot postane razvidno v nadaljevanju tega prispevka, je mogoče najti precej del s področja zgodovine okolja, ki so nedvomno »znanstvena«, saj presegajo opisovanje in nizanje primerov »izkoriščanja« naravnih virov po človeku, njihovi avtorji pa so razvili tudi teoretične interpretacije in nove koncepte. </hi>
+                        15<hi rend="color(0F0F0F)" xml:space="preserve">, </hi>16.</note><hi style="font-size:12pt" xml:space="preserve"> Pri raziskovanju je namreč potrebno sodelovanje več disciplin, poleg dveh navedenih tudi ekonomike, agronomije idr. Po njunem mnenju je potrebno delovanje na skupnem projektu in s skupnim ciljem, katerega namen je oblikovati teorijo ter jo preslikati v prakso. Čeprav je njun poziv k interdisciplinarnosti povsem utemeljen, kot postane razvidno v nadaljevanju tega prispevka, je mogoče najti precej del s področja zgodovine okolja, ki so nedvomno »znanstvena«, saj presegajo opisovanje in nizanje primerov »izkoriščanja« naravnih virov po človeku, njihovi avtorji pa so razvili tudi teoretične interpretacije in nove koncepte. </hi>
             </p>
-            <p rend="Standard"><hi style="font-size:12pt">Vprašanja o stanju, (trajnostni) rabi,
+            <p><hi style="font-size:12pt">Vprašanja o stanju, (trajnostni) rabi,
                     pravnem statusu in namenu srenjskih površin, ki jih obravnavamo v tem prispevku,
                     po Mauru Ambrosoliju predstavljajo aktualno temo tudi zaradi obnovljive narave
-                    gozdnih virov (les).</hi><note place="foot" xml:id="ftn6" n="6"><p
-                        rend="footnote text"> Mauro Ambrosoli, »Introduzione,«
+                    gozdnih virov (les).</hi><note place="foot" xml:id="ftn6" n="5"> Mauro Ambrosoli, »Introduzione,«
                         <hi rend="italic" xml:space="preserve">v: Comunità e questioni di confini in Italia settentrionale (XVI–XIX sec.), </hi>ur.
                         Ambrosoli Mauro in Furio Bianco (Milano: Franco Angeli, 2004),
-                    7–24.</p></note><hi style="font-size:12pt" xml:space="preserve"> Pomen okoljske zgodovine se namreč povečuje tudi zaradi okoljskih problemov, ki postajajo vse akutnejši del sedanjosti, o čemer govori tudi delo, katerega uredniki so Guido Alfani, Matteo Di Tullio in Luca Mocarelli.</hi><note
-                    place="foot" xml:id="ftn7" n="7"><p rend="footnote text"> Guido Alfani, Matteo
+                    7–24.</note><hi style="font-size:12pt" xml:space="preserve"> Pomen okoljske zgodovine se namreč povečuje tudi zaradi okoljskih problemov, ki postajajo vse akutnejši del sedanjosti, o čemer govori tudi delo, katerega uredniki so Guido Alfani, Matteo Di Tullio in Luca Mocarelli.</hi><note place="foot" xml:id="ftn7" n="6"> Guido Alfani, Matteo
                         Di Tullio in Luca Mocarelli, »Storia economica e ambiente: un
                         'introduzione,« v:
                         <hi rend="italic" xml:space="preserve">Storia economica e ambiente Italiano (ca. 1400–1850), </hi>ur.
                         Guido Alfani, Matteo Di Tullio in Luca Mocarelli (Milano: FrancoAngeli,
-                        2012), 7–18.</p></note>
+                        2012), 7–18.</note>
                 <hi style="font-size:12pt">Aktualnost zgodovine okolja je bila že prepoznana tudi v
                     slovenskem zgodovinopisju, o čemer priča publikacija o odnosih med človekom,
                     naravo in okoljem v prostoru med vzhodnimi Alpami in Jadranom, ki sta jo uredila
                     Peter Štih in Žiga Zwitter, ki jo zaradi tega navajamo, čeprav se ne osredotoča
                     na srenjsko zemljo, ampak na širši tematski spekter okolja.</hi>
-                <note place="foot" xml:id="ftn8" n="8"><p rend="footnote text"> Peter Štih in Žiga
+                <note place="foot" xml:id="ftn8" n="7"> Peter Štih in Žiga
                         Zwitter, ur., <hi rend="italic">Man, Nature and Environment between the
                             Northern Adriatic and the Eastern Alps in Premodern Times</hi>
-                        (Ljubljana: Znanstvena založba Filozofske fakultete, 2014).</p></note></p>
-            <p rend="Standard"><hi style="font-size:12pt">V novejši okoljski zgodovini sta se
+                        (Ljubljana: Znanstvena založba Filozofske fakultete, 2014).</note></p>
+            <p><hi style="font-size:12pt">V novejši okoljski zgodovini sta se
                     uveljavili, kot ugotavlja Aleksander Panjek, »dve temeljni ugotovitvi, ki
                     tvorita metodološki izhodišči pri preučevanju odnosa med človekom in okoljem:
                     človek v njem predstavlja potreben in odločilen dejavnik, narava pa nastopa kot
-                    dejaven akter«.</hi><note place="foot" xml:id="ftn9" n="9"><p
-                        rend="footnote text"> Aleksander Panjek, <hi rend="italic">Kulturna krajina
+                    dejaven akter«.</hi><note place="foot" xml:id="ftn9" n="8"> Aleksander Panjek, <hi rend="italic">Kulturna krajina
                             in okolje Krasa: o rabi naravnih virov v novem veku</hi> (Koper: Založba
-                        Univerze na Primorskem, 2015), 77.</p></note><hi style="font-size:12pt" xml:space="preserve"> Tematike okoljske zgodovine presegajo srenjsko zemljo, a se v tej vendarle zgoščajo nekateri osrednji problemski sklopi zgodovine okolja. Tak primer je odnos med človekom in gozdom, saj so gozdnate površine sestavljale dobršen del srenjske zemlje. Identificirati je mogoče »dve prevladujoči interpretaciji«, ki se izrazito kažeta na primer pri obravnavi sredozemskega prostora. »Bolj utečeno branje zagovarja tako imenovano degradacijsko teorijo, po kateri je človek v zadnjih stoletjih s prekomernim izkoriščanjem izčrpal nekoč z gozdovi bogato poraščeno okolje in ga spremenil v neobljudeno kamnito pustinjo, ki ne more več preživljati svojih prebivalcev.«</hi>
-                <note place="foot" xml:id="ftn10" n="10"><p rend="footnote text"> Panjek,
+                        Univerze na Primorskem, 2015), 77.</note><hi style="font-size:12pt" xml:space="preserve"> Tematike okoljske zgodovine presegajo srenjsko zemljo, a se v tej vendarle zgoščajo nekateri osrednji problemski sklopi zgodovine okolja. Tak primer je odnos med človekom in gozdom, saj so gozdnate površine sestavljale dobršen del srenjske zemlje. Identificirati je mogoče »dve prevladujoči interpretaciji«, ki se izrazito kažeta na primer pri obravnavi sredozemskega prostora. »Bolj utečeno branje zagovarja tako imenovano degradacijsko teorijo, po kateri je človek v zadnjih stoletjih s prekomernim izkoriščanjem izčrpal nekoč z gozdovi bogato poraščeno okolje in ga spremenil v neobljudeno kamnito pustinjo, ki ne more več preživljati svojih prebivalcev.«</hi>
+                <note place="foot" xml:id="ftn10" n="9"> Panjek,
                         <hi rend="italic" xml:space="preserve">Kulturna krajina, </hi>78: po John R.
                         McNeill, <hi rend="italic">The Mountains of the Mediterranean World. An
                             Environmental History</hi> (Cambridge: Cambridge University Press,
-                        1992).</p></note><hi style="font-size:12pt" xml:space="preserve"> Degradacijski učinek človeka na naravno okolje skozi zgodovino zagovarjajo tudi nekatera najnovejša dela mednarodnih razsežnosti.</hi><note
-                    place="foot" xml:id="ftn11" n="11"><p rend="footnote text"> Peter Martini in
+                        1992).</note><hi style="font-size:12pt" xml:space="preserve"> Degradacijski učinek človeka na naravno okolje skozi zgodovino zagovarjajo tudi nekatera najnovejša dela mednarodnih razsežnosti.</hi><note place="foot" xml:id="ftn11" n="10"> Peter Martini in
                         Ward Chesworth, ur.,
                         <hi rend="italic" xml:space="preserve">Landscapes and Societies. Selected Cases </hi>(New
-                        York: Springer Dordrecht, 2010).</p></note>
+                        York: Springer Dordrecht, 2010).</note>
             </p>
-            <p rend="Standard"><hi style="font-size:12pt">Druga interpretativna struja, ki jo
-                    zastopata na primer Alfred Grove in Oliver Rackham,</hi><note place="foot"
-                    xml:id="ftn12" n="12"><p rend="footnote text">Alfred T. Grove in Oliver Rackham,
+            <p><hi style="font-size:12pt">Druga interpretativna struja, ki jo
+                    zastopata na primer Alfred Grove in Oliver Rackham,</hi><note place="foot" xml:id="ftn12" n="11">Alfred T. Grove in Oliver Rackham,
                             <hi rend="italic">The Nature of Mediterranean Europe: An Ecological
-                            History</hi> (London: Yale University Press, 2001/2003), 10.</p></note>
+                            History</hi> (London: Yale University Press, 2001/2003), 10.</note>
                 pa <hi style="font-size:12pt">poudarja, da na gozd ne gre »gledati kot na izključno
                     naravni pojav, ki je izpostavljen človeškemu izkoriščanju«.</hi>
-                <note place="foot" xml:id="ftn13" n="13"><p rend="footnote text"> Panjek,
-                        <hi rend="italic" xml:space="preserve">Kulturna krajina, </hi>78.</p></note>
+                <note place="foot" xml:id="ftn13" n="12"> Panjek,
+                        <hi rend="italic" xml:space="preserve">Kulturna krajina, </hi>78.</note>
                 <hi style="font-size:12pt">»Drevesa niso le okolje, pasivne žrtve česarkoli, kar
                     človek odloči, da jim bo prizadel. Niso del scenarija v teatru zgodovine; so
-                    igralci v igri in vsako ima drugačno vlogo.«</hi><note place="foot"
-                    xml:id="ftn14" n="14"><p rend="footnote text"> Oliver Rackham, »Forest History
+                    igralci v igri in vsako ima drugačno vlogo.«</hi><note place="foot" xml:id="ftn14" n="13"> Oliver Rackham, »Forest History
                         of Countries without Much Forest: Question of Conservation and Savanna,« v:
                             <hi rend="italic">L‘uomo e la foresta, Secc. XIII– XVIII</hi>, ur.
                         Simonetta Cavaciocchi (Firenze: Istituto Internazionale di Storia Economica
-                        »F. Datini« Prato, 1996), 298.</p></note>
+                        »F. Datini« Prato, 1996), 298.</note>
                 <hi style="font-size:12pt">Gozd je bil v zgodovini in predvsem v Sredozemlju
                     pravzaprav »artefakt in kot takega ga je treba preučevati«, kot je poudaril
                     Diego Moreno.</hi>
-                <note place="foot" xml:id="ftn15" n="15"><p rend="footnote text"> Diego Moreno, <hi
-                            rend="italic">Dal documento al terreno: storia e archeologia dei sistemi
-                            agro-silvo-pastorali</hi> (Bologna: Il Mulino, 1990), 26.</p></note>
+                <note place="foot" xml:id="ftn15" n="14"> Diego Moreno, <hi rend="italic">Dal documento al terreno: storia e archeologia dei sistemi
+                            agro-silvo-pastorali</hi> (Bologna: Il Mulino, 1990), 26.</note>
                 <hi style="font-size:12pt">Po tej teoretični usmeritvi, ki v italijanski literaturi
                     sloni na dokumentarnih in terenskih interdisciplinarnih raziskavah, je na gozd
                     treba gledati (tudi) kot na človeški pojav. Tako poznamo kultivacijo »hrastov
@@ -258,24 +293,18 @@
                     končnim ciljem gojenja jelše in trditev, da »je treba sečnjo ali ogenj
                     pravilneje interpretirati kot normalne oblike rabe ali delovanja ekosistema, ne
                     pa kot antropogene patologije«.</hi>
-                <note place="foot" xml:id="ftn16" n="16"><p rend="footnote text"> Panjek, <hi
-                            rend="italic">Kulturna krajina</hi>, 77<hi rend="color(0F0F0F)"
-                        >‒</hi>78: po Diego Moreno, »Querce come olivi. Sulla rovericoltura in
+                <note place="foot" xml:id="ftn16" n="15"> Panjek, <hi rend="italic">Kulturna krajina</hi>, 77, 78: po Diego Moreno, »Querce come olivi. Sulla rovericoltura in
                         Liguria tra il XVIII e il XIX secolo,« <hi rend="italic">Quaderni
                             storici,</hi> 49 (1982): 108–36. Sabrina Bertolotto in Roberta Cevasco,
                         »Fonti osservazionali e fonti testuali: le “Consegne dei Boschi” e il
-                        sistema dell' “Alnocoltura” nell'Appennino Ligure Orientale (1822),« <hi
-                            rend="italic">Quaderni Storici,</hi> 103 (2000): 87–108. Marco Armiero
+                        sistema dell' “Alnocoltura” nell'Appennino Ligure Orientale (1822),« <hi rend="italic">Quaderni Storici,</hi> 103 (2000): 87–108. Marco Armiero
                         in Stefania Barca, <hi rend="italic">Storia dell'ambiente. Una
                             introduzione</hi> (Roma: Carocci, 2004), 46. Andrea Zannini, »Un
                         ecomito? Venezia (XV–XVIII sec.),« v: <hi rend="italic">Storia economica e
                             ambiente italiano (ca. 1400–1850</hi>), ur. Guido Alfani, Matteo di
                         Tullio in Luca Macarelli (Torino: Franco Angeli, 2012),
-                    105.</p></note><hi style="font-size:12pt" xml:space="preserve"> Za take sisteme so bile skovane definicije, kot so »tehnike mnogovrstne rabe gozdnih virov«, »večnamenska raba virov« in »integralna ekonomija gozda«.</hi><note
-                    place="foot" xml:id="ftn17" n="17"><p rend="footnote text"> Moreno, <hi
-                            rend="italic">Dal documento</hi>, 34. Renato Sansa, »Usi del bosco:
-                        modalità di attivazione delle risorse a confronto,« v: <hi rend="italic"
-                            >Storia urbana,</hi> 76/77 (1996): 205–11.</p></note>
+                    105.</note><hi style="font-size:12pt" xml:space="preserve"> Za take sisteme so bile skovane definicije, kot so »tehnike mnogovrstne rabe gozdnih virov«, »večnamenska raba virov« in »integralna ekonomija gozda«.</hi><note place="foot" xml:id="ftn17" n="16"> Moreno, <hi rend="italic">Dal documento</hi>, 34. Renato Sansa, »Usi del bosco:
+                        modalità di attivazione delle risorse a confronto,« v: <hi rend="italic">Storia urbana,</hi> 76/77 (1996): 205–11.</note>
                 <hi style="font-size:12pt">»Človeškega spreminjanja naravnega okolja torej ne vidimo
                     nujno kot posledico uničujočih načinov izkoriščanja, temveč kot oblike običajne
                     lokalne rabe, ki so slonele na natančnem znanju in so premogle svojo ekonomsko
@@ -283,156 +312,122 @@
                     naravnih virov.« Zato govorimo o trajnostnih oblikah rabe antropogeno
                     spremenjenega in prilagojenega naravnega okolja, ki so lahko prispevale tudi k
                     socialni vzdržnosti razmerja med prebivalstvom in naravnimi viri.</hi>
-                <note place="foot" xml:id="ftn18" n="18"><p rend="footnote text"> Panjek, <hi
-                            rend="italic">Kulturna krajina</hi>, 78. O tem tudi Sansa, <hi
-                            rend="italic">Usi del bosco</hi>, 205, 206.</p></note><hi style="font-size:12pt" xml:space="preserve"> To velja tudi za antropološke študije, med katerimi James C. Scottova študija poudarja pomen kmetijskih in ekoloških znanj ter tehnik, ki slonijo na praksi in izkušnji pri rabi naravnih virov v svojem okolju ter na ljudskem »poznavanju lokalnih ekosistemov«. Poleg tega celo zagovarja boljšo dolgoročno okoljsko trajnost in večjo socialno vzdržnost rabe, ki sloni na znanju, izvirajočem iz običaja, prakse in ljudskega poznavanja lokalnih značilnosti, ki vplivajo na način rabe okolja, v primerjavi z modernimi oblikami izkoriščanja.</hi>
-                <note place="foot" xml:id="ftn19" n="19"><p rend="footnote text">James C. Scott, C,
+                <note place="foot" xml:id="ftn18" n="17"> Panjek, <hi rend="italic">Kulturna krajina</hi>, 78. O tem tudi Sansa, <hi rend="italic">Usi del bosco</hi>, 205, 206.</note><hi style="font-size:12pt" xml:space="preserve"> To velja tudi za antropološke študije, med katerimi James C. Scottova študija poudarja pomen kmetijskih in ekoloških znanj ter tehnik, ki slonijo na praksi in izkušnji pri rabi naravnih virov v svojem okolju ter na ljudskem »poznavanju lokalnih ekosistemov«. Poleg tega celo zagovarja boljšo dolgoročno okoljsko trajnost in večjo socialno vzdržnost rabe, ki sloni na znanju, izvirajočem iz običaja, prakse in ljudskega poznavanja lokalnih značilnosti, ki vplivajo na način rabe okolja, v primerjavi z modernimi oblikami izkoriščanja.</hi>
+                <note place="foot" xml:id="ftn19" n="18">James C. Scott, C,
                             <hi rend="italic">Seeing like a State. How Certain Schemes to Improve
                             the Human Condition Have Failed</hi> (New Haven-London: Yale University
                         Press, 1998). Panjek, <hi rend="italic">Kulturna krajina</hi>, 77,
-                    78.</p></note>
+                    78.</note>
                 <hi style="font-size:12pt">Podobna usmeritev je zaznavna tudi pri Vereni Winiwarter,
                     ko poudarja »hibridnost« prostorov, ki niso niti naravni niti kulturni, in
                     predlaga koncept »socialno-naravnih« krajev kot »zvez« človeških »praks in
-                    ureditev«.</hi><note place="foot" xml:id="ftn20" n="20"><p rend="footnote text">
+                    ureditev«.</hi><note place="foot" xml:id="ftn20" n="19">
                         Verena Winiwarter, »The Emerging Long-Term View: Challenges and
-                        Opportunities of Writing Environmental Histories in Central Europe,« v: <hi
-                            rend="italic">Man, Nature and Environment</hi>, 14, 15. Avtorica se
+                        Opportunities of Writing Environmental Histories in Central Europe,« v: <hi rend="italic">Man, Nature and Environment</hi>, 14, 15. Avtorica se
                         sicer pretežno osredotoča na tematiko vode oz. rek, vendar tudi vodni viri
                         sodijo v širše področje virov v kolektivni posesti in upravljanju; tako je
                         tudi z vidika vzporednic med srenjsko zemljo in vodo zanimivo delo o
                         »ograjevanju vode«: Stefania Barca, <hi rend="italic">Enclosing Water.
                             Nature and Political Economy in a Mediterranean Valley, 1798–1916</hi>
-                        (Cambridge: The White Horse Press, 2010).</p></note></p>
-            <p rend="Standard"><hi style="font-size:12pt">Med aktualnejšimi vprašanji, s katerimi se
+                        (Cambridge: The White Horse Press, 2010).</note></p>
+            <p><hi style="font-size:12pt">Med aktualnejšimi vprašanji, s katerimi se
                     ukvarja okoljska zgodovina in ki se nanašajo na srenjsko zemljo, gre zagotovo
                     poudariti sledeče: Kakšen vpliv je imelo okolje na določanje in spremembe
                     lastninskih ter posestnih pravic na srenjski zemlji? Pri tem gre razmišljati
                     proti iskanju okoljskih (ter s tem povezanih družbenih) razlogov za določeno
                     organiziranost lastninskih in posestnih pravic na srenjski zemlji. Smiselno pa
                     se je vprašati tudi, kako je organizacija lastninskih in posestnih pravic
-                    vplivala na okolje.</hi><note place="foot" xml:id="ftn21" n="21"><p
-                        rend="footnote text"> O tem gl. Peder Dam, »Soil Conditions and Environment
-                        versus Manorial Structure and Landownership in Denmark c. 1400–1800,« v: <hi
-                            rend="italic">Rural Societies and Environment at Risk: Ecology, Property
+                    vplivala na okolje.</hi><note place="foot" xml:id="ftn21" n="20"> O tem gl. Peder Dam, »Soil Conditions and Environment
+                        versus Manorial Structure and Landownership in Denmark c. 1400–1800,« v: <hi rend="italic">Rural Societies and Environment at Risk: Ecology, Property
                             Rights and Social Organisation in Fragile Areas (Middle Ages–Twentieth
                             Century</hi>), ur. Bas Van Bavel in Eric Thoen (Turnhout: Brepols,
                         2008),
-                    281–308.</p></note><hi style="font-size:12pt" xml:space="preserve"> Če na tej točki opravimo kratko refleksijo v navezavi na slovensko ozemlje: V drugi polovici 18. stoletja, to je v obdobju, ko je država stremela k razdeljevanju ali individualizaciji rabe ter privatizaciji lastnine zemljišč na območju srenjske zemlje, so vladni odloki o razdeljevanju v večji meri padli na neplodna tla. Okrožni uradi na Slovenskem so podpirali razdelitvene patente, vendar so poudarjali težave in prepreke na poti do realizacije predvidenih ukrepov ter s tem upravičevali zavlačevanje razdelitvenih operacij na svojem področju. Postojnski okrožni urad je na primer kot razlog za nedosledno izvajanje patentov in s tem razdelitvenih operacij navajal kamnitost pašnih površin ter ponekod tudi premajhen obseg srenjskih pašnikov. Na podlagi tega je zaključil, da kultivacija na nekaterih predelih ne bi bila smotrna v gospodarskem smislu. Poudarjali so, da so se srenjski pašniki razdelili in kultivirali, kjer je bilo to smiselno in nasploh mogoče (manj kamenja). Novomeški okrožni urad pa je nasprotoval spremembi namembnosti in predhodni razdelitvi slabših srenjskih pašnikov (mokrišč), saj je bil v tem primeru izid operacije negotov z vidika pričakovanega ekonomskega rezultata.</hi><note
-                    place="foot" xml:id="ftn22" n="22"><p rend="footnote text"> Marjan Britovšek,
+                    281–308.</note><hi style="font-size:12pt" xml:space="preserve"> Če na tej točki opravimo kratko refleksijo v navezavi na slovensko ozemlje: V drugi polovici 18. stoletja, to je v obdobju, ko je država stremela k razdeljevanju ali individualizaciji rabe ter privatizaciji lastnine zemljišč na območju srenjske zemlje, so vladni odloki o razdeljevanju v večji meri padli na neplodna tla. Okrožni uradi na Slovenskem so podpirali razdelitvene patente, vendar so poudarjali težave in prepreke na poti do realizacije predvidenih ukrepov ter s tem upravičevali zavlačevanje razdelitvenih operacij na svojem področju. Postojnski okrožni urad je na primer kot razlog za nedosledno izvajanje patentov in s tem razdelitvenih operacij navajal kamnitost pašnih površin ter ponekod tudi premajhen obseg srenjskih pašnikov. Na podlagi tega je zaključil, da kultivacija na nekaterih predelih ne bi bila smotrna v gospodarskem smislu. Poudarjali so, da so se srenjski pašniki razdelili in kultivirali, kjer je bilo to smiselno in nasploh mogoče (manj kamenja). Novomeški okrožni urad pa je nasprotoval spremembi namembnosti in predhodni razdelitvi slabših srenjskih pašnikov (mokrišč), saj je bil v tem primeru izid operacije negotov z vidika pričakovanega ekonomskega rezultata.</hi><note place="foot" xml:id="ftn22" n="21"> Marjan Britovšek,
                             <hi rend="italic">Razkroj fevdalne agrarne strukture na Kranjskem</hi>
-                        (Ljubljana: Slovenska matica v Ljubljani, 1964), 60<hi rend="color(0F0F0F)"
-                            >‒</hi>62.</p></note><hi style="font-size:12pt" xml:space="preserve"> V prvi polovici 19. stoletja so se okrajne gosposke večinoma strinjale z razdeljevanjem srenjskih pašnikov, tam, kjer je bilo to gospodarsko smotrno. V nasprotnem primeru so pašnike še vedno prepuščale kolektivni rabi. Njihove prepreke pri izvajanju prepovedi oziroma omejitve paše na srenjski zemlji so bile povezane z morfološkimi in reliefnimi značilnostmi določenega srenjskega zemljišča, kar je pomenilo, da teh vladnih direktiv niso vedno izvajale.</hi>
-                <note place="foot" xml:id="ftn23" n="23"><p rend="footnote text"> Ibid., 63<hi
-                            rend="color(0F0F0F)"
-                >‒</hi>67.</p></note><hi style="font-size:12pt" xml:space="preserve"> Na podlagi navedenega lahko pritrdilno odgovorimo na vprašanje o vplivu okolja na organizacijo lastninskih pravic ali tudi pravic do uporabe srenjske zemlje, saj je precej jasno, da v teh primerih morfološke značilnosti reliefa in zemljišč narekujejo prej kolektivno pašno rabo kot individualno poljedelsko obdelovanje. Obratno vprašanje, to je na kakšen način je organizacija lastninskih in posestnih pravic vplivala na okolje, pa je mogoče ponazoriti z dilemo, ali so obstoječe pravice do koriščenja srenjske zemlje podpirale ali onemogočale vzdržno (trajnostno) rabo njenih resursov. Vprašanju trajnostnega upravljanja z naravnimi viri na srenjski zemlji se bomo posvetili v zadnjem segmentu tega prispevka.</hi></p>
-            <list type="ordered">
-                <item><hi rend="bold" style="font-size:12pt">Vpliv organizacije lastninskih in
-                        posestnih pravic na srenjsko zemljo</hi></item>
-            </list>
-            <p><hi style="font-size:12pt" xml:space="preserve">V zgornjem poglavju smo nekaj besed že namenili vprašanju vpliva okolja na organizacijo lastninskih in posestnih pravic na srenjski zemlji. V tem pa se bomo osredotočili zlasti na proces, ko se kolektivna raba na srenjski zemlji umika individualni in ko se deli srenjske zemlje privatizirajo, kar pomeni, da niso več dojeti kot »last in pravica vaške skupnosti«. Zanimala nas bodo na eni strani specifična vprašanja v okviru te teme, s katerimi se ukvarjajo zgodovinarji, na drugi pa dejavniki, ki so vplivali na ta proces. Večina zgodovinarjev, ki se v svojih delih posveča lastninskim pravicam, srenjski zemlji, trajnostni rabi in sorodnim vprašanjem, ne more brez omembe Garretta Hardina in Elinor Ostrom. Prvi je leta 1968 objavil kratek, a odmeven članek </hi>
-                <hi rend="italic" style="font-size:12pt">The Tragedy of the Commons</hi><hi
-                    style="font-size:12pt">, v katerem je zatrjeval, da je kolektivna raba vselej
-                    nevzdržna, netrajnostna.</hi><note place="foot" xml:id="ftn24" n="24"><p
-                        rend="footnote text"> Garrett Hardin, »The Tragedy of the Commons,« <hi
-                            rend="italic">Science</hi> 162 (1968): 1243–48.</p></note><hi style="font-size:12pt" xml:space="preserve"> Po tej teoriji naj bi se sistem skupnih pravic nad nekim zemljiščem ali območjem podrl, ker vsak upravičenec gleda le na svojo kratkoročno korist, ne glede na druge člane. Grove in Rackham, nasprotnika te »degradacijske teorije«, poudarjata, da omenjeno teorijo oblast večkrat uporablja pri pritisku na skupno lastnino v težnji po vzpostavitvi zasebne.</hi>
-                <note place="foot" xml:id="ftn25" n="25"><p rend="footnote text"> Grove in Rackham,
-                            <hi rend="italic">The Nature</hi>.</p></note>
+                        (Ljubljana: Slovenska matica v Ljubljani, 1964), 60<hi rend="color(0F0F0F)">‒</hi>62.</note><hi style="font-size:12pt" xml:space="preserve"> V prvi polovici 19. stoletja so se okrajne gosposke večinoma strinjale z razdeljevanjem srenjskih pašnikov, tam, kjer je bilo to gospodarsko smotrno. V nasprotnem primeru so pašnike še vedno prepuščale kolektivni rabi. Njihove prepreke pri izvajanju prepovedi oziroma omejitve paše na srenjski zemlji so bile povezane z morfološkimi in reliefnimi značilnostmi določenega srenjskega zemljišča, kar je pomenilo, da teh vladnih direktiv niso vedno izvajale.</hi>
+                <note place="foot" xml:id="ftn23" n="22"> Ibid., 63<hi rend="color(0F0F0F)">‒</hi>67.</note><hi style="font-size:12pt" xml:space="preserve"> Na podlagi navedenega lahko pritrdilno odgovorimo na vprašanje o vplivu okolja na organizacijo lastninskih pravic ali tudi pravic do uporabe srenjske zemlje, saj je precej jasno, da v teh primerih morfološke značilnosti reliefa in zemljišč narekujejo prej kolektivno pašno rabo kot individualno poljedelsko obdelovanje. Obratno vprašanje, to je na kakšen način je organizacija lastninskih in posestnih pravic vplivala na okolje, pa je mogoče ponazoriti z dilemo, ali so obstoječe pravice do koriščenja srenjske zemlje podpirale ali onemogočale vzdržno (trajnostno) rabo njenih resursov. Vprašanju trajnostnega upravljanja z naravnimi viri na srenjski zemlji se bomo posvetili v zadnjem segmentu tega prispevka.</hi></p></div>
+              <div>  <head>Vpliv organizacije lastninskih in
+                        posestnih pravic na srenjsko zemljo</head>
+             <p><hi style="font-size:12pt" xml:space="preserve">V zgornjem poglavju smo nekaj besed že namenili vprašanju vpliva okolja na organizacijo lastninskih in posestnih pravic na srenjski zemlji. V tem pa se bomo osredotočili zlasti na proces, ko se kolektivna raba na srenjski zemlji umika individualni in ko se deli srenjske zemlje privatizirajo, kar pomeni, da niso več dojeti kot »last in pravica vaške skupnosti«. Zanimala nas bodo na eni strani specifična vprašanja v okviru te teme, s katerimi se ukvarjajo zgodovinarji, na drugi pa dejavniki, ki so vplivali na ta proces. Večina zgodovinarjev, ki se v svojih delih posveča lastninskim pravicam, srenjski zemlji, trajnostni rabi in sorodnim vprašanjem, ne more brez omembe Garretta Hardina in Elinor Ostrom. Prvi je leta 1968 objavil kratek, a odmeven članek </hi>
+                <hi rend="italic" style="font-size:12pt">The Tragedy of the Commons</hi><hi style="font-size:12pt">, v katerem je zatrjeval, da je kolektivna raba vselej
+                    nevzdržna, netrajnostna.</hi><note place="foot" xml:id="ftn24" n="23"> Garrett Hardin, »The Tragedy of the Commons,« <hi rend="italic">Science</hi> 162 (1968): 1243–48.</note><hi style="font-size:12pt" xml:space="preserve"> Po tej teoriji naj bi se sistem skupnih pravic nad nekim zemljiščem ali območjem podrl, ker vsak upravičenec gleda le na svojo kratkoročno korist, ne glede na druge člane. Grove in Rackham, nasprotnika te »degradacijske teorije«, poudarjata, da omenjeno teorijo oblast večkrat uporablja pri pritisku na skupno lastnino v težnji po vzpostavitvi zasebne.</hi>
+                <note place="foot" xml:id="ftn25" n="24"> Grove in Rackham,
+                            <hi rend="italic">The Nature</hi>.</note>
                 <hi style="font-size:12pt">Nobelova nagrajenka Ostrom je zgornjo teorijo ovrgla leta
                     1990, ko je dokazala, da je kolektivna raba pod določenimi pogoji lahko
-                    trajnostna.</hi><note place="foot" xml:id="ftn26" n="26"><p rend="footnote text"
-                        > Elinor Ostrom, <hi rend="italic">Governing the Commons: The Evolution of
+                    trajnostna.</hi><note place="foot" xml:id="ftn26" n="25"> Elinor Ostrom, <hi rend="italic">Governing the Commons: The Evolution of
                             Institutions for Collective Action</hi> (Cambridge: Cambridge University
                         Press, 1990).
-                    </p></note><hi style="font-size:12pt" xml:space="preserve"> Pokazala je, kako lahko sistemi kolektivnega upravljanja in lastnine pripomorejo k okrepitvi trajnostne rabe naravnih virov, če je regulacija natančno definirana, znanje smotrnega kmetovanja dostopno in če je interes upravičencev lahko usklajen.</hi><note
-                    place="foot" xml:id="ftn27" n="27"><p rend="footnote text"> BasVan Bavel in Eric
+                    </note><hi style="font-size:12pt" xml:space="preserve"> Pokazala je, kako lahko sistemi kolektivnega upravljanja in lastnine pripomorejo k okrepitvi trajnostne rabe naravnih virov, če je regulacija natančno definirana, znanje smotrnega kmetovanja dostopno in če je interes upravičencev lahko usklajen.</hi><note place="foot" xml:id="ftn27" n="26"> BasVan Bavel in Eric
                         Thoen, »Rural History and the Environment. A Survey of the Relationship
                         between Property Rights, Social Structures and Sustainability of Land Use,«
                         v:
                         <hi rend="italic" xml:space="preserve">Rural Societies and Environment at Risk: Ecology, Property Rights and Social Organisation in Fragile Areas (Middle Ages–Twentieth Century), </hi>ur.
-                        Bas Van Bavel in Eric Thoen (Turnhout: Brepols, 2013), 15–42: po Ostrom, <hi
-                            rend="italic">Governing the Commons</hi>.</p></note>
+                        Bas Van Bavel in Eric Thoen (Turnhout: Brepols, 2013), 15–42: po Ostrom, <hi rend="italic">Governing the Commons</hi>.</note>
             </p>
             <p><hi style="font-size:12pt" xml:space="preserve">Običajni opisi spreminjanja kolektivnih pravic v obliki linearne tranzicije v individualne pravice so po mnenju švedskega zgodovinarja Jasperja Larssona poenostavljeni. Te študije se osredotočajo na tranzicijo od kolektivne k zasebni lasti, vendar ne upoštevajo dejstva, da bi se lahko režimi skupne lastnine razvili, bili učinkoviti in upravljani v skladu z zasebno in kolektivno dobrobitjo obenem. Kolektivne pravice so bile povezane z zasebnimi in prve ne bi mogle obstajati brez drugih. Kmetje so bili namreč seznanjeni z obema oblikama lastnine in so ju uporabljali v različnih kombinacijah. Isti avtor poudarja, da sta ena izmed dejavnikov, ki sta omogočala uspešnost ali vsaj delovanje režima kolektivne lastnine, interakcija in dopolnjevanje med lastninskimi pravicami </hi>
                 <hi rend="italic" style="font-size:12pt">de
-                    jure</hi><hi style="font-size:12pt" xml:space="preserve"> (pravice, prepoznane po zakonu, tj. uzakonjene) in </hi><hi
-                    rend="italic" style="font-size:12pt">de
-                    facto</hi><hi style="font-size:12pt" xml:space="preserve"> (pravice, ki izvirajo iz prakse).</hi><note
-                    place="foot" xml:id="ftn28" n="28"><p rend="footnote text"> Jesper Larsson,
+                    jure</hi><hi style="font-size:12pt" xml:space="preserve"> (pravice, prepoznane po zakonu, tj. uzakonjene) in </hi><hi rend="italic" style="font-size:12pt">de
+                    facto</hi><hi style="font-size:12pt" xml:space="preserve"> (pravice, ki izvirajo iz prakse).</hi><note place="foot" xml:id="ftn28" n="27"> Jesper Larsson,
                         »Boundaries and Property Rights: The Transformation of a Common-Pool
                         Resource,« <hi rend="italic">The Agricultural History Review,</hi> 62
                         (2014):
-                    20–40.</p></note><hi style="font-size:12pt" xml:space="preserve"> Sistem kolektivne lastnine je treba po njegovem dojeti kot lastninske pravice s svojevrstno logiko: »režim kolektivne lastnine je oblika privatizacije pravic do dobrin brez delitve dobrin samih« (</hi><hi
-                    rend="italic" style="font-size:12pt">a common-property regime is a way of
-                    privatizing rights to goods without dividing the goods themself</hi><hi
-                    style="font-size:12pt">).</hi><note place="foot" xml:id="ftn29" n="29"><p
-                        rend="footnote text"> Larsson, <hi rend="italic">Boundaries and
-                            Property:</hi> po Ronald Coase, »The Problem of Social Cost,« <hi
-                            rend="italic">Journal of Law and Economics,</hi> 3 (1960):
-                    1–44.</p></note><hi style="font-size:12pt" xml:space="preserve"> Ta sistem, ki so ga ustvarili kmetje, je bil zmožen prilagajanja spremembam in novim pogojem.</hi>
-                <note place="foot" xml:id="ftn30" n="30"><p rend="footnote text"> O tem tudi Pär
+                    20–40.</note><hi style="font-size:12pt" xml:space="preserve"> Sistem kolektivne lastnine je treba po njegovem dojeti kot lastninske pravice s svojevrstno logiko: »režim kolektivne lastnine je oblika privatizacije pravic do dobrin brez delitve dobrin samih« (</hi><hi rend="italic" style="font-size:12pt">a common-property regime is a way of
+                    privatizing rights to goods without dividing the goods themself</hi><hi style="font-size:12pt">).</hi><note place="foot" xml:id="ftn29" n="28"> Larsson, <hi rend="italic">Boundaries and
+                            Property:</hi> po Ronald Coase, »The Problem of Social Cost,« <hi rend="italic">Journal of Law and Economics,</hi> 3 (1960):
+                    1–44.</note><hi style="font-size:12pt" xml:space="preserve"> Ta sistem, ki so ga ustvarili kmetje, je bil zmožen prilagajanja spremembam in novim pogojem.</hi>
+                <note place="foot" xml:id="ftn30" n="29"> O tem tudi Pär
                         Blomkvist in Jesper Larsson, »An Analytical Framework for Common-pool
-                        Resource–large technical system (CPR-LTS) Constellations,« <hi rend="italic"
-                            >International Journal of the Commons,</hi> 1 (2013): 113–39.</p></note>
+                        Resource–large technical system (CPR-LTS) Constellations,« <hi rend="italic">International Journal of the Commons,</hi> 1 (2013): 113–39.</note>
                 <hi style="font-size:12pt">Kot primer sprememb v sistemu kolektivne lastnine Larsson
                     navaja švedske poletne kmetije, ki so bile locirane na srenjski zemlji in so
                     bile sprva namenjene predvsem živinoreji (lahko jih dojamemo kot svojevrstno
                     različico planin v alpskem prostoru). Tu so bile v poznem 17. in 18. stoletju
                     uvedene ekskluzivnejše lastninske pravice, obenem pa je opazno vzporedno
                     povečanje obsega kolektivnega delovanja, saj so bile ustanovljene t. i.
-                    »skupnosti poletnih kmetij« (</hi><hi rend="italic" style="font-size:12pt"
-                    >summer farm communities</hi><hi style="font-size:12pt">). Z uvedbo
+                    »skupnosti poletnih kmetij« (</hi><hi rend="italic" style="font-size:12pt">summer farm communities</hi><hi style="font-size:12pt">). Z uvedbo
                     ekskluzivnejših lastninskih pravic na srenjski zemlji, s čimer so mišljeni
                     zaščite in označevanje meja med posameznimi poletnimi kmetijami in vasmi,
                     natančnejša pravila skupnega življenja v vasi, določila v izogib pretiranemu
                     izkoriščanju naravnih virov, se torej okrepi sodelovanje med upravičenci, kar je
                     omogočilo izkoriščanje širšega območja, povečalo produkcijo in ustvarilo
-                    stabilnejšo lokalno družbo.</hi><note place="foot" xml:id="ftn31" n="31"><p
-                        rend="footnote text"> Larsson, <hi rend="italic">Boundaries and
-                            Property</hi>.</p></note></p>
+                    stabilnejšo lokalno družbo.</hi><note place="foot" xml:id="ftn31" n="30"> Larsson, <hi rend="italic">Boundaries and
+                            Property</hi>.</note></p>
             <p><hi style="font-size:12pt">Van Bavel in Thoen raziskujeta in poudarjata težo odnosa
                     in povezave med človekom, socialnim kontekstom, lastninskimi pravicami in
-                    trajnostno rabo zemlje,</hi><note place="foot" xml:id="ftn32" n="32"><p
-                        rend="footnote text"> Van Bavel in Thoen, <hi rend="italic">Rural
-                            History</hi>, 35<hi rend="color(0F0F0F)">‒</hi>36.</p></note><hi style="font-size:12pt" xml:space="preserve"> pri čemer je smiselno dodati in upoštevati tudi zunanje dejavnike, ki vplivajo na komponente te razvejane povezave. Mednje sodijo na primer politično-upravne spremembe na državni ali lokalni ravni ter gospodarske in tržne razmere. S tem v zvezi Mats Morell navaja, da so se na prehodu iz 18. v 19. stoletje na Švedskem lastninske pravice spremenile pod vplivom novih tržnih razmer in priložnosti ter spodbudile nadaljnji razvoj kmetijstva. Nanje vplivajo tudi širši trendi v ekonomiji, tehnološke spremembe, demografska nihanja idr.</hi>
-                <note place="foot" xml:id="ftn33" n="33"><p rend="footnote text"> Mats Morell,
+                    trajnostno rabo zemlje,</hi><note place="foot" xml:id="ftn32" n="31"> Van Bavel in Thoen, <hi rend="italic">Rural
+                            History</hi>, 35<hi rend="color(0F0F0F)">‒</hi>36.</note><hi style="font-size:12pt" xml:space="preserve"> pri čemer je smiselno dodati in upoštevati tudi zunanje dejavnike, ki vplivajo na komponente te razvejane povezave. Mednje sodijo na primer politično-upravne spremembe na državni ali lokalni ravni ter gospodarske in tržne razmere. S tem v zvezi Mats Morell navaja, da so se na prehodu iz 18. v 19. stoletje na Švedskem lastninske pravice spremenile pod vplivom novih tržnih razmer in priložnosti ter spodbudile nadaljnji razvoj kmetijstva. Nanje vplivajo tudi širši trendi v ekonomiji, tehnološke spremembe, demografska nihanja idr.</hi>
+                <note place="foot" xml:id="ftn33" n="32"> Mats Morell,
                         »Ecological Constraints and Property Rights in Swedish Agriculture c.
                         1750–1850,« v: <hi rend="italic">Rural Societies and Environment at Risk:
                             Ecology, Property Rights and Social Organisation in Fragile Areas
                             (Middle Ages-Twentieth Century)</hi>, ur. Bas Van Bavel in Eric Thoen
-                        (Turnhout: Brepols, 2013), 45–88.</p></note>
+                        (Turnhout: Brepols, 2013), 45–88.</note>
             </p>
             <p><hi style="font-size:12pt">Na tej točki je relevantno navesti dognanje Iñaki
                     Iriarte-Goñi, da »individualne lastninske pravice« ne jamčijo nujno dobrega
                     okoljskega rezultata, če niso vsaj delno pod nadzorom in v sodelovanju z drugimi
                     (višjimi) institucijami.</hi>
-                <note place="foot" xml:id="ftn34" n="34"><p rend="footnote text"> Iñaki
+                <note place="foot" xml:id="ftn34" n="33"> Iñaki
                         Iriarte-Goñi, »Forest Management and Wood Exploitation. A Comparison between
                         Public and Private Spanish Forests, 1900–2000,« v: <hi rend="italic">Rural
                             Societies and Environment at Risk: Ecology, Property Rights and Social
                             Organisation in Fragile Areas (Middle Ages–Twentieth Century)</hi>, ur.
-                        Bas Van Bavel in Eric Thoen (Turnhout: Brepols, 2013), 276<hi
-                            rend="color(0F0F0F)">, 2</hi>77.</p></note><hi style="font-size:12pt" xml:space="preserve"> Med argumente v prid mehanizmom, ki jih v nasprotju z individualno lastnino premorejo sistemi kolektivnega upravljanja skupnih naravnih virov in delujejo proti trajnostni rabi, velja po Larssonu omeniti spodbujanje upravičencev k prepoznavanju in razkrivanju kršiteljev pravic na srenjski zemlji in s tem tudi spodbujanje k reševanju sporov med upravičenci. Kot »spodbujanje« razumemo bodisi zapisan predpis bodisi zgolj običaj, ki se je razvil in razširil v posamezni vaški skupnosti</hi>
-                <hi style="font-size:12pt">.</hi><note place="foot" xml:id="ftn35" n="35"><p
-                        rend="footnote text"> Jesper Larsson, »Conflict-Resolution Mechanisms
+                        Bas Van Bavel in Eric Thoen (Turnhout: Brepols, 2013), 276<hi rend="color(0F0F0F)">, 2</hi>77.</note><hi style="font-size:12pt" xml:space="preserve"> Med argumente v prid mehanizmom, ki jih v nasprotju z individualno lastnino premorejo sistemi kolektivnega upravljanja skupnih naravnih virov in delujejo proti trajnostni rabi, velja po Larssonu omeniti spodbujanje upravičencev k prepoznavanju in razkrivanju kršiteljev pravic na srenjski zemlji in s tem tudi spodbujanje k reševanju sporov med upravičenci. Kot »spodbujanje« razumemo bodisi zapisan predpis bodisi zgolj običaj, ki se je razvil in razširil v posamezni vaški skupnosti</hi>
+                <hi style="font-size:12pt">.</hi><note place="foot" xml:id="ftn35" n="34"> Jesper Larsson, »Conflict-Resolution Mechanisms
                         Maintaining an Agricultural System. Early–Modern Local Courts as an Arena
-                        for Solving Collective-Action Problems within Scandinavian Civil Law<hi
-                            rend="italic">,« International Journal of the Commons,</hi> 10 (2016):
-                        1100–18.</p></note>
-                <hi style="font-size:12pt" xml:space="preserve">Tudi Tine De Moor v svoji </hi><hi
-                    rend="italic" style="font-size:12pt">Tihi
-                    revoluciji</hi><hi style="font-size:12pt" xml:space="preserve"> pri vprašanju o trajnostni rabi srenjske zemlje poudarja recipročnost in vzajemni nadzor s ciljem dolgoročnega preživetja skupine imetnikov pravic na srenjski zemlji.</hi><note
-                    place="foot" xml:id="ftn36" n="36"><p rend="footnote text">Tine De Moor, »The
+                        for Solving Collective-Action Problems within Scandinavian Civil Law<hi rend="italic">,« International Journal of the Commons,</hi> 10 (2016):
+                        1100–18.</note>
+                <hi style="font-size:12pt" xml:space="preserve">Tudi Tine De Moor v svoji </hi><hi rend="italic" style="font-size:12pt">Tihi
+                    revoluciji</hi><hi style="font-size:12pt" xml:space="preserve"> pri vprašanju o trajnostni rabi srenjske zemlje poudarja recipročnost in vzajemni nadzor s ciljem dolgoročnega preživetja skupine imetnikov pravic na srenjski zemlji.</hi><note place="foot" xml:id="ftn36" n="35">Tine De Moor, »The
                         Silent Revolution: A New Prospective on the Emergence of Commons, Guilds and
-                        Other Forms of Corporate Collective Action in Western Europe,« v: <hi
-                            rend="italic">The Return of the Guilds: International Review of Social
+                        Other Forms of Corporate Collective Action in Western Europe,« v: <hi rend="italic">The Return of the Guilds: International Review of Social
                             History Supplements</hi>, ur. Jan Lucassen, Tine de Moor in Jan Luiten
                         van Zanden (Cambridge: Press Syndicate of the University of Cambridge,
                         2008), 201. O tem tudi Elinor Ostrom, »Design Principles of Robust
-                        Property-Rights Institutions: What Have we Learned?« v: <hi rend="italic"
-                            >Property Rights and Land Policies</hi>. ur. Gregory K. Ingram in
+                        Property-Rights Institutions: What Have we Learned?« v: <hi rend="italic">Property Rights and Land Policies</hi>. ur. Gregory K. Ingram in
                         Yu-Hung Hong (Cambridge: Lincoln Institute of Land Policy, 2008),
-                        3<hi rend="color(0F0F0F)" xml:space="preserve">, </hi>4.</p></note></p>
+                        3<hi rend="color(0F0F0F)" xml:space="preserve">, </hi>4.</note></p>
             <p><hi style="font-size:12pt">Iz zgoraj navedenega švedskega primera lahko ugotovimo, da
                     se kolektivni in individualni režim ne izključujeta, da lahko poglabljanje
                     individualnega privede do krepitve kolektivnega ter da lahko kolektivni in
@@ -452,16 +447,15 @@
                     Laborde Pemána in Tine De Moor, v katerem se nizozemski zgodovinar in belgijska
                     zgodovinarka posvetita dolgoročnemu razvoju srenjske zemlje ali instituciji
                     kolektivnega upravljanja</hi>
-                <note place="foot" xml:id="ftn37" n="37"><p rend="footnote text"> Gl. tudi Tine De
+                <note place="foot" xml:id="ftn37" n="36"> Gl. tudi Tine De
                         Moor, <hi rend="italic">The Dilemma of the Commoners: Understanding the Use
                             of Common Pool Resources in Long-Term Perspective</hi> (Cambridge:
-                        University Press. 2015).</p></note><hi style="font-size:12pt" xml:space="preserve"> v zahodni in vzhodni Evropi med 11. in 19. stoletjem. Natančneje se poglobita v razlike pri razvoju samoupravnih institucij med zahodno in vzhodno Evropo. Ugotoviti skušata, zakaj je na zahodu (zlasti na območju ob Severnem morju) izkoriščanje srenjske zemlje od poznega srednjega veka naprej postajalo razširjena in zakoreninjena oblika upravljanja z naravnimi viri v sklopu vaških skupnosti, medtem ko naj bi bil vzhodno od Labe razvoj institucij, ki so upravljale s skupno zemljo, počasnejši in šibkejši. Glede na socialno-ekonomski pomen, institucionalno vgrajenost, geografsko razširjenost in časovno trajanje naj bi bila tradicionalna raba srenjske zemlje na vzhodu podvržena spremembam, navezujočim se na ponovno uvedbo podložništva. V zahodni Evropi pa je srenjska zemlja (ter institucija vaške skupnosti) postajala »varovalo« pred nepredvidljivimi spremembami na trgu. Slednje je bilo v vzhodni Evropi manj potrebno. Poleg tega sta bili tu raven urbanizacije in gostota prebivalstva nižji kot na zahodu, kar naj bi zmanjšalo namero kmetov za razvoj vaških institucij, ki bi jim pomagale dohajati komercializacijo in preprečevati morebitno prekomerno izkoriščanje naravnih virov. Tako v zahodni Evropi srenjska zemlja in z njo povezana institucija vaške skupnosti postaneta vidni in pomembni del kmečkega okolja in ekonomije (do 19. stoletja), medtem ko na vzhodu slednji ne razvijeta takšne institucionalne vidnosti in oblike. Odločilna sta bila »trgovska revolucija« na zahodu in razvoj svobodnejšega političnega prostora ter rastoče podjetnosti kmečkega prebivalstva. Nasprotno pa v vzhodni Evropi urbanizacija, gostota prebivalstva, pritiski na okolje in tržna tveganja niso dosegli ravni zahodne Evrope. Zdi se, da se kmetje v vzhodni Evropi nikoli niso soočili z okoljskimi pritiski, ki so jih doživljali na zahodu, vsaj ne pred letom 1800. Pomemben sklep, ki ga Pemán in De Moor poudarita v zadnjem delu in ki ga je mogoče razumeti iz primerjave med vzhodom in zahodom, je, da obstoj kolektivnega upravljanja virov v formalizirani obliki institucij za kolektivno ukrepanje ni faza razvoja nekega drugega režima upravljanja, temveč je način upravljanja virov, ki ga povzroča odsotnost ali prisotnost določenih dejavnikov.</hi>
-                <note place="foot" xml:id="ftn38" n="38"><p rend="footnote text"> Miguel Laborda
+                        University Press, 2015).</note><hi style="font-size:12pt" xml:space="preserve"> v zahodni in vzhodni Evropi med 11. in 19. stoletjem. Natančneje se poglobita v razlike pri razvoju samoupravnih institucij med zahodno in vzhodno Evropo. Ugotoviti skušata, zakaj je na zahodu (zlasti na območju ob Severnem morju) izkoriščanje srenjske zemlje od poznega srednjega veka naprej postajalo razširjena in zakoreninjena oblika upravljanja z naravnimi viri v sklopu vaških skupnosti, medtem ko naj bi bil vzhodno od Labe razvoj institucij, ki so upravljale s skupno zemljo, počasnejši in šibkejši. Glede na socialno-ekonomski pomen, institucionalno vgrajenost, geografsko razširjenost in časovno trajanje naj bi bila tradicionalna raba srenjske zemlje na vzhodu podvržena spremembam, navezujočim se na ponovno uvedbo podložništva. V zahodni Evropi pa je srenjska zemlja (ter institucija vaške skupnosti) postajala »varovalo« pred nepredvidljivimi spremembami na trgu. Slednje je bilo v vzhodni Evropi manj potrebno. Poleg tega sta bili tu raven urbanizacije in gostota prebivalstva nižji kot na zahodu, kar naj bi zmanjšalo namero kmetov za razvoj vaških institucij, ki bi jim pomagale dohajati komercializacijo in preprečevati morebitno prekomerno izkoriščanje naravnih virov. Tako v zahodni Evropi srenjska zemlja in z njo povezana institucija vaške skupnosti postaneta vidni in pomembni del kmečkega okolja in ekonomije (do 19. stoletja), medtem ko na vzhodu slednji ne razvijeta takšne institucionalne vidnosti in oblike. Odločilna sta bila »trgovska revolucija« na zahodu in razvoj svobodnejšega političnega prostora ter rastoče podjetnosti kmečkega prebivalstva. Nasprotno pa v vzhodni Evropi urbanizacija, gostota prebivalstva, pritiski na okolje in tržna tveganja niso dosegli ravni zahodne Evrope. Zdi se, da se kmetje v vzhodni Evropi nikoli niso soočili z okoljskimi pritiski, ki so jih doživljali na zahodu, vsaj ne pred letom 1800. Pomemben sklep, ki ga Pemán in De Moor poudarita v zadnjem delu in ki ga je mogoče razumeti iz primerjave med vzhodom in zahodom, je, da obstoj kolektivnega upravljanja virov v formalizirani obliki institucij za kolektivno ukrepanje ni faza razvoja nekega drugega režima upravljanja, temveč je način upravljanja virov, ki ga povzroča odsotnost ali prisotnost določenih dejavnikov.</hi>
+                <note place="foot" xml:id="ftn38" n="37"> Miguel Laborda
                         Pemán in Tine De Moor, »A tale of two commons. Some preliminary hypotheses
                         on the long-term development of the commons in Western and Eastern Europe,
-                        11th–19th centuries<hi rend="italic"
-                        >,</hi>«<hi rend="italic" xml:space="preserve"> International Journal of the Commons,</hi>
-                        7 (2013).</p></note></p>
+                        11<hi rend="superscript">th</hi>–19<hi rend="superscript">th</hi> centuries<hi rend="italic">,</hi>«<hi rend="italic" xml:space="preserve"> International Journal of the Commons,</hi>
+                        7 (2013).</note></p>
             <p><hi style="font-size:12pt">Po drugi strani navedena interpretacija razlik med vzhodno
                     in zahodno Evropo odzvanja aktualne teze zgodovinarjev severno-zahodne Evrope,
                     ki korenine hitrejšega razvoja tega območja v primerjavi z južno in vzhodno
@@ -470,14 +464,11 @@
                     relevantno omeniti dognanje Sergija Vilfana, da je bila stopnja vaške samouprave
                     na vzhodnem delu slovenskega ozemlja nižja, kot je bila na zahodnem delu, kar
                     pomeni, da naj bi bila institucija vaške skupnosti bolj razvita na zahodnem
-                    delu.</hi><note place="foot" xml:id="ftn39" n="39"><p rend="footnote text">
+                    delu.</hi><note place="foot" xml:id="ftn39" n="38">
                         Sergij Vilfan, <hi rend="italic">Pravna zgodovina Slovencev</hi> (Ljubljana:
-                        Slovenska matica, 1996), 211<hi rend="color(0F0F0F)"
-                >‒</hi>20.</p></note></p>
-            <list type="ordered">
-                <item><hi rend="bold" style="font-size:12pt">Vloga običajev in vpliv socialne
-                        kohezivnosti na srenjsko zemljo</hi></item>
-            </list>
+                        Slovenska matica, 1996), 211<hi rend="color(0F0F0F)">‒</hi>20.</note></p></div>
+                <div><head>Vloga običajev in vpliv socialne
+                        kohezivnosti na srenjsko zemljo</head>
             <p><hi style="font-size:12pt" xml:space="preserve">Kolektivna raba in lastninske pravice so bile podvržene kolektivnemu upravljanju, katerega določila so, kot smo zasledili, večkrat slonela na običajih, ki včasih prerastejo v zapisan predpis. Ugotovili smo tudi, da sta bila za učinkovitost sistema ključna po eni strani nadzor nad izvajanjem pravil, po drugi strani pa kohezivnost skupnosti, h kateri so pomembno pripomogla jasna pravila in njihovo upoštevanje. Preden se posvetimo vlogi običajev, se bomo zaustavili pri vplivu socialne kohezivnosti v skupnosti, ki ni samoumevna. </hi></p>
             <p><hi style="font-size:12pt">Tovrstno razmišljanje lahko podkrepimo z ugotovitvami
                     francoske zgodovinarke Nadine Vivier, ki se nanašajo na obdobje med letoma 1750
@@ -489,17 +480,14 @@
                     namere pri upravljanju kolektivne zemlje, kar privede do zmanjšanja upravljavske
                     vloge in moči vaške skupnosti. Po drugi strani pa so socialno šibkejši sloji
                     bolj nagnjeni k izkoriščanju kolektivne zemlje po svojih pravicah.</hi>
-                <note place="foot" xml:id="ftn40" n="40"><p rend="footnote text"> Nadine Vivier,
+                <note place="foot" xml:id="ftn40" n="39"> Nadine Vivier,
                         »Collective Property and Environment Concerns. The French Case, 1750–1900,«
                         v: <hi rend="italic">Rural Societies and Environment at Risk: Ecology,
                             Property Rights and Social Organisation in Fragile Areas (Middle
                             Ages–Twentieth Century</hi>, ur. Bas Van Bavel in Eric Thoen (Turnhout:
                         Brepols, 2013), 245<hi rend="color(0F0F0F)">,
-                    2</hi>46.</p></note><hi style="font-size:12pt" xml:space="preserve"> Za slovenski prostor Britovšek omenja anonimnega pisca, ki (leta 1767) poudarja, da podložniki vse manj upoštevajo prepovedi vaške skupnosti glede paše na določenih predelih srenjske zemlje. Tako naj bi vsak pasel, kjer je želel.</hi><note
-                    place="foot" xml:id="ftn41" n="41"><p rend="footnote text"> Britovšek, <hi
-                            rend="italic">Razkroj fevdalne agrarne strukture na Krajnskem</hi>,
-                            48<hi rend="color(0F0F0F)"
-                >‒50.</hi></p></note><hi style="font-size:12pt" xml:space="preserve"> Potemtakem zmanjšana moč in vloga vaške skupnosti, katerih posledica je, da člani vaške skupnosti niso upoštevali njenih upravljavskih odločitev na srenjski zemlji, (po najhujšem scenariju) vodi v pretirano izkoriščanje srenjskih pašnikov in gozdov. Omeniti gre še en slovenski primer, ki prikazuje, kako so socialni dejavniki vplivali na določitev lastninskih in posestnih pravic na srenjski zemlji ali na dejansko rabo, ki v tem primeru ni bila v skladu s pravnimi določili. Predpostavljamo, da je večanje nižjega kmečkega sloja v drugi polovici 18. stoletja preprečevalo spremembo kolektivne rabe v individualno, k čemur je stremela država. Novomeški okrožni urad namreč omenja, da so nekatere pašne površine po razdelitvi med posameznike še vedno podvržene kolektivni rabi, tj. paši, razlog za to pa tiči v siromašnosti podložnikov, ki jim ta ne dopušča kultivacije pridobljenih delov razdeljenih srenjskih pašnikov (Britovšek 1964, 60–62).</hi>
+                    2</hi>46.</note><hi style="font-size:12pt" xml:space="preserve"> Za slovenski prostor Britovšek omenja anonimnega pisca, ki (leta 1767) poudarja, da podložniki vse manj upoštevajo prepovedi vaške skupnosti glede paše na določenih predelih srenjske zemlje. Tako naj bi vsak pasel, kjer je želel.</hi><note place="foot" xml:id="ftn41" n="40"> Britovšek, <hi rend="italic">Razkroj fevdalne agrarne strukture na Krajnskem</hi>,
+                            48<hi rend="color(0F0F0F)">‒50.</hi></note><hi style="font-size:12pt" xml:space="preserve"> Potemtakem zmanjšana moč in vloga vaške skupnosti, katerih posledica je, da člani vaške skupnosti niso upoštevali njenih upravljavskih odločitev na srenjski zemlji, (po najhujšem scenariju) vodi v pretirano izkoriščanje srenjskih pašnikov in gozdov. Omeniti gre še en slovenski primer, ki prikazuje, kako so socialni dejavniki vplivali na določitev lastninskih in posestnih pravic na srenjski zemlji ali na dejansko rabo, ki v tem primeru ni bila v skladu s pravnimi določili. Predpostavljamo, da je večanje nižjega kmečkega sloja v drugi polovici 18. stoletja preprečevalo spremembo kolektivne rabe v individualno, k čemur je stremela država. Novomeški okrožni urad namreč omenja, da so nekatere pašne površine po razdelitvi med posameznike še vedno podvržene kolektivni rabi, tj. paši, razlog za to pa tiči v siromašnosti podložnikov, ki jim ta ne dopušča kultivacije pridobljenih delov razdeljenih srenjskih pašnikov (Britovšek 1964, 60–62).</hi>
             </p>
             <p><hi style="font-size:12pt">Francoski in slovenski primer nam torej posredno
                     potrjujeta in poudarjata pomen skladno delujoče skupnosti za učinkovito
@@ -522,21 +510,19 @@
                     Winchester poudarja interakcijo med formalno-pravnim okvirom lastninskih pravic
                     in vsakdanjo realnostjo dogovarjanja ter sprejemanja odločitev, pravil in norm
                     za vzdržno rabo kolektivne zemlje.</hi>
-                <note place="foot" xml:id="ftn42" n="42"><p rend="footnote text"> Angus J. L.
+                <note place="foot" xml:id="ftn42" n="41"> Angus J. L.
                         Winchester, »Property Rights, 'Good Neighbourhood' and Sustainability: the
-                        Management of Common Land in England and Wales, 1235–1965,« v: <hi
-                            rend="italic">Rural Societies and Environment at Risk: Ecology, Property
+                        Management of Common Land in England and Wales, 1235–1965,« v: <hi rend="italic">Rural Societies and Environment at Risk: Ecology, Property
                             Rights and Social Organisation in Fragile Areas (Middle Ages-Twentieth
                             Century)</hi>, ur. Bas Van Bavel in Eric Thoen (Turnhout: Brepols,
                         2013), 309–29. O navadah in oblikah posedovanja zemlje (na konkretnem
                         primeru) tudi Angelo Torre, »Il bosco della Rama: rituali e forme di
                         possesso nel Monferrato casalese,« v: <hi rend="italic">Comunità e questioni
                             di confini in Italia settentrionale (XVI–XIX sec.)</hi>, ur. Mauro
-                        Ambrosoli in Furio Bianco (Milano: Franco Angeli, 2004), 60–71.</p></note><hi style="font-size:12pt" xml:space="preserve"> Navada izvira iz prakse, ki je koristna in zato ohranja kontinuiteto, sčasoma pa lahko pridobi tudi moč zakona. Ta kultura navade ni podrejena ideološki dominaciji vladajočih. Navade so lokalne in praviloma vezane na zemljo. Včasih navado kasneje potrdijo z uzakonitvijo, druge ostajajo nezapisane, tretje pa se spreminjajo z ustnim izročilom.</hi>
-                <note place="foot" xml:id="ftn43" n="43"><p rend="footnote text"> Edward P.
+                        Ambrosoli in Furio Bianco (Milano: Franco Angeli, 2004), 60–71.</note><hi style="font-size:12pt" xml:space="preserve"> Navada izvira iz prakse, ki je koristna in zato ohranja kontinuiteto, sčasoma pa lahko pridobi tudi moč zakona. Ta kultura navade ni podrejena ideološki dominaciji vladajočih. Navade so lokalne in praviloma vezane na zemljo. Včasih navado kasneje potrdijo z uzakonitvijo, druge ostajajo nezapisane, tretje pa se spreminjajo z ustnim izročilom.</hi>
+                <note place="foot" xml:id="ftn43" n="42"> Edward P.
                         Thompson, <hi rend="italic">Navade, plebejska kultura in moralna
-                            ekonomija</hi> (Ljubljana: Studia humanitatis, 2010), 125<hi
-                            rend="color(0F0F0F)">‒</hi>27.</p></note>
+                            ekonomija</hi> (Ljubljana: Studia humanitatis, 2010), 125<hi rend="color(0F0F0F)">‒</hi>27.</note>
                 <hi style="font-size:12pt">Zaradi dostopnosti v slovenskem jeziku in obravnave
                     sosednjega furlanskega prostora je tu smiselno navesti Furia Bianca, ki navade
                     in običaje, vezane na kolektivno zemljo, opredeljuje kot kmečke vrednote. V
@@ -546,22 +532,19 @@
                     prebivalstva, kar je povezano tudi z njegovim pojmovanjem pravičnosti in »z
                     normativno vrednostjo navad in običajev«. Poleg omenjenega pa »stare navade«
                     vključujejo tudi element mitizacije preteklosti.</hi>
-                <note place="foot" xml:id="ftn44" n="44"><p rend="footnote text"> Biancova misel je
+                <note place="foot" xml:id="ftn44" n="43"> Biancova misel je
                         tu povzeta po Aleksander Panjek, »Kmečki odpor na Tolminskem. Oris z
                         opredelitvijo vsebinskih stebrov (1507–1713),« v: <hi rend="italic">Upor,
                             nasilje in preživetje: Slovenski in evropski primeri iz srednjega in
                             novega veka</hi>, ur. Furio Bianco in Aleksander Panjek (Koper: Založba
                         Univerze na Primorskem, 2015),
-                    77.</p></note><hi style="font-size:12pt" xml:space="preserve"> »Zagovarjanje preteklosti, tradicionalnih pravic in navad, vključno z njihovimi mitskimi in idealističnimi elementi, je razkrivalo določen pogled na družbene odnose, pričakovanja in etične vrednote, ki so bili produkt kolektivnih prepričanj in dejansko alternative zapovedim in novim modelom, ki so jih vsilili vladajoči razredi.«</hi><note
-                    place="foot" xml:id="ftn45" n="45"><p rend="footnote text"> Furio Bianco, <hi
-                            rend="italic">Krvavi pust 1511. Kmečki upori in plemiške fajde v
+                    77.</note><hi style="font-size:12pt" xml:space="preserve"> »Zagovarjanje preteklosti, tradicionalnih pravic in navad, vključno z njihovimi mitskimi in idealističnimi elementi, je razkrivalo določen pogled na družbene odnose, pričakovanja in etične vrednote, ki so bili produkt kolektivnih prepričanj in dejansko alternative zapovedim in novim modelom, ki so jih vsilili vladajoči razredi.«</hi><note place="foot" xml:id="ftn45" n="44"> Furio Bianco, <hi rend="italic">Krvavi pust 1511. Kmečki upori in plemiške fajde v
                             Furlaniji med 15. in 16. stoletjem</hi> (Koper: Univerzitetna založba
-                        Annales, 2011), 77, 82.</p></note><hi style="font-size:12pt" xml:space="preserve"> Med slovenskimi primeri gre poudariti Aleksandra Panjeka, ki vztrajno kmečko razumevanje svojih pravic do srenjske zemlje v nasprotju z uradno razlago opredeljuje kot del »ideologije«, ki je predstavljala enega izmed stebrov večstoletnega kmečkega odpora na Tolminskem, pri čemer se opira ravno na Bianca in Scotta.</hi>
-                <note place="foot" xml:id="ftn46" n="46"><p rend="footnote text"> Panjek, <hi
-                            rend="italic">Kmečki odpor</hi>. Bianco, <hi rend="italic">Krvavi
+                        Annales, 2011), 77, 82.</note><hi style="font-size:12pt" xml:space="preserve"> Med slovenskimi primeri gre poudariti Aleksandra Panjeka, ki vztrajno kmečko razumevanje svojih pravic do srenjske zemlje v nasprotju z uradno razlago opredeljuje kot del »ideologije«, ki je predstavljala enega izmed stebrov večstoletnega kmečkega odpora na Tolminskem, pri čemer se opira ravno na Bianca in Scotta.</hi>
+                <note place="foot" xml:id="ftn46" n="45"> Panjek, <hi rend="italic">Kmečki odpor</hi>. Bianco, <hi rend="italic">Krvavi
                             pust</hi>. James C. Scott, <hi rend="italic">Domination and the Arts of
                             Resistance. Hidden Transcripts</hi> (New Haven-London: Yale University
-                        Press, 1990).</p></note></p>
+                        Press, 1990).</note></p>
             <p><hi style="font-size:12pt">Vsekakor je treba pomniti tudi to, da čeprav so
                     upravičenci srenjsko zemljo dojemali kot last ali vsaj pravico vaške skupnosti,
                     je imel na njej pravico tudi zemljiški gospod, ki je v večji ali manjši meri
@@ -569,24 +552,20 @@
                     identificirati endogene in eksogene dejavnike, ki so vplivali na (ne)odločanje
                     vaške skupnosti v okviru svoje upravljavske funkcije in na koriščenje srenjske
                     zemlje, ter razumeti njihovo vsakokratno vlogo.</hi>
-            </p>
-            <list type="ordered">
-                <item><hi rend="bold" style="font-size:12pt">Trajnostno upravljanje naravnih
-                        virov</hi></item>
-            </list>
+            </p></div>
+                <div><head>Trajnostno upravljanje naravnih
+                        virov</head>
             <p><hi style="font-size:12pt">Raziskovalci se torej osredotočajo na vprašanja zemljiških
                     pravic, gospodarske smotrnosti kolektivne rabe zemlje in njene okoljske
-                    vzdržnosti, načine upravljanja</hi><note place="foot" xml:id="ftn47" n="47"><p
-                        rend="footnote text"> O tem gl. Alfani Guido in Riccardo Rao, <hi
-                            rend="italic">La gestione delle risorse collective. Italia
+                    vzdržnosti, načine upravljanja</hi><note place="foot" xml:id="ftn47" n="46"> O tem gl. Alfani Guido in Riccardo Rao, <hi rend="italic">La gestione delle risorse collective. Italia
                             settentrionale, secoli XII-XVIII</hi> (Milano: Franco Angeli,
-                    2011).</p></note><hi style="font-size:12pt" xml:space="preserve"> ter na proces individualizacije srenjske zemlje. Pomembno zgodovinsko vprašanje, ki je hkrati tudi gospodarsko aktualno, je, kako doseči okoljsko in obenem gospodarsko vzdržnost rabe srenjske zemlje. Med dejavniki, ki vplivajo na vzdržnost rabe srenjske zemlje, sodi tudi demografski. Zemlji v zasebni in tudi v kolektivni lasti ali posesti sta bili v preteklosti (in sta v sedanjosti) podvrženi človeškemu pritisku, po mnenju Oliverja Sylvaina zlasti v obdobju demografske rasti. Vendar demografski dejavnik ni edini, ki vpliva na način upravljanja in rabe srenjske zemlje. Nekatere že omenjamo na preteklih straneh, posamezne vidike in povezave med dejavniki pa bomo še predstavili in opredelili v tem poglavju. Med demografske dejavnike sodi tudi vidik družbene strukture in njenih sprememb, torej razslojenosti, katerega pomen smo že omenili. Tu velja poudariti, da demografska rast ne povzroči nujno premo sorazmernega povečanja pritiska na srenjsko zemljo, saj je to razmerje odvisno od tega, kolikšno vlogo je srenjska zemlja imela v lokalni kmečki ekonomiji ali kakšna je bila sestava virov dohodka kmečkih gospodinjstev in v kolikšni meri so ta svoje dohodke črpala iz rabe srenjske zemlje.</hi>
+                    2011).</note><hi style="font-size:12pt" xml:space="preserve"> ter na proces individualizacije srenjske zemlje. Pomembno zgodovinsko vprašanje, ki je hkrati tudi gospodarsko aktualno, je, kako doseči okoljsko in obenem gospodarsko vzdržnost rabe srenjske zemlje. Med dejavniki, ki vplivajo na vzdržnost rabe srenjske zemlje, sodi tudi demografski. Zemlji v zasebni in tudi v kolektivni lasti ali posesti sta bili v preteklosti (in sta v sedanjosti) podvrženi človeškemu pritisku, po mnenju Oliverja Sylvaina zlasti v obdobju demografske rasti. Vendar demografski dejavnik ni edini, ki vpliva na način upravljanja in rabe srenjske zemlje. Nekatere že omenjamo na preteklih straneh, posamezne vidike in povezave med dejavniki pa bomo še predstavili in opredelili v tem poglavju. Med demografske dejavnike sodi tudi vidik družbene strukture in njenih sprememb, torej razslojenosti, katerega pomen smo že omenili. Tu velja poudariti, da demografska rast ne povzroči nujno premo sorazmernega povečanja pritiska na srenjsko zemljo, saj je to razmerje odvisno od tega, kolikšno vlogo je srenjska zemlja imela v lokalni kmečki ekonomiji ali kakšna je bila sestava virov dohodka kmečkih gospodinjstev in v kolikšni meri so ta svoje dohodke črpala iz rabe srenjske zemlje.</hi>
                 <hi style="font-size:12pt">Tako so v režimu »integrirane kmečke ekonomije«, ki je
                     bil prisoten marsikje v Evropi in izrazito na Slovenskem, kmetje po eni strani
                     živeli tudi od dejavnosti, različnih od kmetijstva (npr. »kmečka trgovina«), po
                     drugi pa je marsikatera od teh dejavnosti slonela na koriščenju naravnih virov,
                     ki jih je nudila ravno srenjska zemlja (npr. izdelava oglja in apna za prodajo
-                    ipd.).</hi><note place="foot" xml:id="ftn48" n="48"><p rend="footnote text">
+                    ipd.).</hi><note place="foot" xml:id="ftn48" n="47">
                         Koncept <hi rend="italic">integrirana kmečka ekonomija</hi> je v najnovejši
                         različici predstavljen v Aleksander Panjek, Jesper Larsson in Luca
                         Mocarelli, ur.,
@@ -595,34 +574,28 @@
                         ur., <hi rend="italic">Preživetje in podjetnost: Integrirana kmečka
                             ekonomija na Slovenskem od srednjega veka do danes</hi> (Koper: Založba
                         Univerze na Primorskem,
-                    2018).</p></note><hi style="font-size:12pt" xml:space="preserve"> Zato je demografski dejavnik vselej treba upoštevati v povezavi z ekonomskim sistemom:</hi><note
-                    place="foot" xml:id="ftn49" n="49"><p rend="footnote text"> Primer takega
+                    2018).</note><hi style="font-size:12pt" xml:space="preserve"> Zato je demografski dejavnik vselej treba upoštevati v povezavi z ekonomskim sistemom:</hi><note place="foot" xml:id="ftn49" n="48"> Primer takega
                         pristopa pri nas je Ines Beguš, <hi rend="italic">Avtonomija in ekonomija
                             Nadiških dolin v Beneški republiki</hi> (Koper: Univerzitetna založba
                         Annales,
-                2015).</p></note><hi style="font-size:12pt" xml:space="preserve"> naraščanje prebivalstva ob povečanih priložnostih neagrarnega zaslužka ni nujno vplivalo na okoljsko stanje srenjske zemlje, medtem ko je upad možnosti neagrarnega zaslužka lahko ustvaril povečan pritisk nanjo tudi ob stagnaciji ali nazadovanju števila prebivalstva.</hi></p>
+                2015).</note><hi style="font-size:12pt" xml:space="preserve"> naraščanje prebivalstva ob povečanih priložnostih neagrarnega zaslužka ni nujno vplivalo na okoljsko stanje srenjske zemlje, medtem ko je upad možnosti neagrarnega zaslužka lahko ustvaril povečan pritisk nanjo tudi ob stagnaciji ali nazadovanju števila prebivalstva.</hi></p>
             <p rend="HTML Preformatted"><hi style="font-size:12pt" xml:space="preserve">Vprašanju trajnosti v navezi med okoljsko in gospodarsko vzdržnostjo se je, kot smo omenili, posvetila že Elinor Ostrom. Obenem pa je smiselno upoštevati še tretjo dimenzijo trajnosti, to je socialno vzdržnost. Po Sylvainu bi definicija gospodarske vzdržnosti morala vključevati sredstva za ohranjanje tal in okolja, ki </hi>
                 <hi rend="color(212121)" style="font-size:12pt">vzdržujejo družbeno
-                    ravnovesje</hi><note place="foot" xml:id="ftn50" n="50"><p rend="footnote text">
+                    ravnovesje</hi><note place="foot" xml:id="ftn50" n="49">
                         Talcott Parsons, <hi rend="italic">The Social System</hi> (Glencoe: The Free
                         Press, 1951). Družbeno ravnotežje (<hi rend="italic">social equlibrium</hi>)
                         je po sociologu Parsonsu stanje ravnovesja med več družbenimi sistemi, ki se
                         vzpostavlja s procesom socializacije, ohranja in vzdržuje pa z družbenim
-                        nadzorom.</p></note><hi rend="color(212121)" style="font-size:12pt" xml:space="preserve"> in gospodarsko zmogljivost zemlje</hi><hi
-                    style="font-size:12pt">.</hi><note place="foot" xml:id="ftn51" n="51"><p
-                        rend="footnote text">Oliver Sylvain, Peasant Property, »Common Land and
+                        nadzorom.</note><hi rend="color(212121)" style="font-size:12pt" xml:space="preserve"> in gospodarsko zmogljivost zemlje</hi><hi style="font-size:12pt">.</hi><note place="foot" xml:id="ftn51" n="50">Oliver Sylvain, Peasant Property, »Common Land and
                         Environment in the Garrigues of the Languedoc from the Seventeenth to the
                         Twenty-First Centuries,« v:
                         <hi rend="italic" xml:space="preserve">Rural Societies and Environment at Risk: Ecology, Property Rights and Social Organisation in Fragile Areas (Middle Ages–Twentieth Century), </hi>ur.
                         Bas Van Bavel in Eric Thoen (Turnhout: Brepols 2013),
-                    111.</p></note><hi style="font-size:12pt" xml:space="preserve"> Čeprav avtor teh »sredstev« ne imenuje, gre tu v splošnem razumeti institucijo vaške skupnosti, katere vlogo in upravljavsko funkcijo priznavajo in spoštujejo upravičenci do srenjske zemlje ter tudi zemljiški gospod, recipročnost in medsebojni družbeni nadzor upravičencev pri koriščenju srenjske zemlje, jasno določene lastninske in posestne pravice, jasno določene meje med srenjskimi površinami in zemljišči v individualni rabi ter tudi srenjskimi površinami, ki so bile pod upravljanjem in rabo druge vaške skupnosti. Pri vprašanju o trajnostni rabi srenjske zemlje na preteklih straneh omenjamo tudi recipročnost</hi><note
-                    place="foot" xml:id="ftn52" n="52"><p rend="footnote text"> O tem tudi Ostrom,
-                            <hi rend="italic">Design Principles</hi>, 3, 4.</p></note><hi style="font-size:12pt" xml:space="preserve"> in vzajemni nadzor s ciljem dolgoročnega preživetja skupine imetnikov pravic na srenjski zemlji. Poudarjamo nenehen boj proti pretiranemu izkoriščanju srenjske zemlje in za njeno trajnostno rabo, pri čemer je pomembno vlogo igral medsebojni družbeni nadzor članov.</hi>
-                <note place="foot" xml:id="ftn53" n="53"><p rend="footnote text"> De Moor, <hi
-                            rend="italic">The Silent Revolution</hi>,
-                    193‒201.</p></note><hi style="font-size:12pt" xml:space="preserve"> Rui Santos in Maria José Roxo v prispevku z naslovom </hi><hi
-                    rend="italic" style="font-size:12pt">The tale of two tragedies</hi><hi style="font-size:12pt" xml:space="preserve"> obravnavata območje Južne Portugalske med 18. in 20. stoletjem, kjer se posvetita zlasti tveganju za degradacijo okolja ali zemlje, na kateri veljajo kolektivne pravice do rabe, ter vlogi družbenih institucij v agrarnih strukturah. Glede trajnostne rabe na kolektivni ali individualni zemlji poudarita, da pričakovana učinkovitost zasebnih in ekskluzivnih lastninskih pravic sloni na predpostavki o racionalnosti lastnikov, katerih interes je preprečiti degradacijo »svojih« naravnih virov. Zaradi tega naj bi smotrno ali umno izkoriščali naravne vire – a temu ni nujno (bilo) tako. V nadaljevanju poudarjata, da tudi če sklepamo, da so upravičenci do rabe srenjske zemlje gospodarsko racionalni, ta koncept v teoriji ne more biti sprejet, saj bodo akterji še vedno sprejemali »slabe odločitve,« pogojene z dobrimi ali raje upravičenimi subjektivnimi razlogi, ki pa so objektivno napačni.</hi>
-                <note place="foot" xml:id="ftn54" n="54"><p rend="footnote text"> Rui Santos in
+                    111.</note><hi style="font-size:12pt" xml:space="preserve"> Čeprav avtor teh »sredstev« ne imenuje, gre tu v splošnem razumeti institucijo vaške skupnosti, katere vlogo in upravljavsko funkcijo priznavajo in spoštujejo upravičenci do srenjske zemlje ter tudi zemljiški gospod, recipročnost in medsebojni družbeni nadzor upravičencev pri koriščenju srenjske zemlje, jasno določene lastninske in posestne pravice, jasno določene meje med srenjskimi površinami in zemljišči v individualni rabi ter tudi srenjskimi površinami, ki so bile pod upravljanjem in rabo druge vaške skupnosti. Pri vprašanju o trajnostni rabi srenjske zemlje na preteklih straneh omenjamo tudi recipročnost</hi><note place="foot" xml:id="ftn52" n="51"> O tem tudi Ostrom,
+                            <hi rend="italic">Design Principles</hi>, 3, 4.</note><hi style="font-size:12pt" xml:space="preserve"> in vzajemni nadzor s ciljem dolgoročnega preživetja skupine imetnikov pravic na srenjski zemlji. Poudarjamo nenehen boj proti pretiranemu izkoriščanju srenjske zemlje in za njeno trajnostno rabo, pri čemer je pomembno vlogo igral medsebojni družbeni nadzor članov.</hi>
+                <note place="foot" xml:id="ftn53" n="52"> De Moor, <hi rend="italic">The Silent Revolution</hi>,
+                    193‒201.</note><hi style="font-size:12pt" xml:space="preserve"> Rui Santos in Maria José Roxo v prispevku z naslovom </hi><hi rend="italic" style="font-size:12pt">The tale of two tragedies</hi><hi style="font-size:12pt" xml:space="preserve"> obravnavata območje Južne Portugalske med 18. in 20. stoletjem, kjer se posvetita zlasti tveganju za degradacijo okolja ali zemlje, na kateri veljajo kolektivne pravice do rabe, ter vlogi družbenih institucij v agrarnih strukturah. Glede trajnostne rabe na kolektivni ali individualni zemlji poudarita, da pričakovana učinkovitost zasebnih in ekskluzivnih lastninskih pravic sloni na predpostavki o racionalnosti lastnikov, katerih interes je preprečiti degradacijo »svojih« naravnih virov. Zaradi tega naj bi smotrno ali umno izkoriščali naravne vire – a temu ni nujno (bilo) tako. V nadaljevanju poudarjata, da tudi če sklepamo, da so upravičenci do rabe srenjske zemlje gospodarsko racionalni, ta koncept v teoriji ne more biti sprejet, saj bodo akterji še vedno sprejemali »slabe odločitve,« pogojene z dobrimi ali raje upravičenimi subjektivnimi razlogi, ki pa so objektivno napačni.</hi>
+                <note place="foot" xml:id="ftn54" n="53"> Rui Santos in
                         Maria José Roxo, »The Tale of Two Tragedies. The Commons of Serra de Mértola
                         in Alentejo (Southern Portugal) and their Privatization, Eighteenth to
                         Twentieth Centuries.« v:
@@ -631,13 +604,12 @@
                         Boudon,
                         <hi rend="italic" xml:space="preserve">L'art de se persuaderdes ideés douteuses, fragiles ou fausses </hi>(Paris:
                         Fayard, 1990),
-                    67‒101.</p></note><hi style="font-size:12pt" xml:space="preserve"> Potemtakem tudi med upravičenci do rabe srenjske zemlje obstajajo akterji, ki bodo neumno izkoriščali njene naravne vire, a so subjektivni razlogi, ki botrujejo takemu ravnanju, v okviru upravljanja srenjske zemlje, za katero skrbi vaška skupnost, bolj regulirani in omejeni v skladu z vizijo ostalih upravičencev do njene rabe. Pri zasebni zemljiški lastnini</hi><note
-                    place="foot" xml:id="ftn55" n="55"><p rend="footnote text"> Gl. tudi Christopher
+                    67‒101.</note><hi style="font-size:12pt" xml:space="preserve"> Potemtakem tudi med upravičenci do rabe srenjske zemlje obstajajo akterji, ki bodo neumno izkoriščali njene naravne vire, a so subjektivni razlogi, ki botrujejo takemu ravnanju, v okviru upravljanja srenjske zemlje, za katero skrbi vaška skupnost, bolj regulirani in omejeni v skladu z vizijo ostalih upravičencev do njene rabe. Pri zasebni zemljiški lastnini</hi><note place="foot" xml:id="ftn55" n="54"> Gl. tudi Christopher
                         M. Hann, <hi rend="italic">The Tragedy of the Privates? Postsocialist
                             Property Relations in Anthropological Perspective</hi> (Halle Saale):
                         Max Planck Institute for Social Anthropology, 2000). Santos in José Roxo,
                             <hi rend="italic">The
-                Tale</hi>.</p></note><hi style="font-size:12pt" xml:space="preserve"> pa tega omejevanja svobode pri samoodločanju ni, kar zna hitreje privesti do odločitev z negativnim okoljskim in gospodarskim učinkom, zlasti v primerjavi z nadzornimi vzvodi vaške skupnosti, ki ima relativno veliko vlogo in moč pri upravljanju srenjske zemlje. </hi></p>
+                Tale</hi>.</note><hi style="font-size:12pt" xml:space="preserve"> pa tega omejevanja svobode pri samoodločanju ni, kar zna hitreje privesti do odločitev z negativnim okoljskim in gospodarskim učinkom, zlasti v primerjavi z nadzornimi vzvodi vaške skupnosti, ki ima relativno veliko vlogo in moč pri upravljanju srenjske zemlje. </hi></p>
             <p><hi style="font-size:12pt">Pri vprašanju vpliva socialnih razlik in širšega ali
                     ožjega kroga upravičencev na vzdržnost kolektivne rabe naravnih virov je v
                     zgodovinski literaturi sicer mogoče najti tudi drugačne hipoteze, ki prispevajo
@@ -647,33 +619,28 @@
                     Sansa poudaril interpretacijo, da so bila takšna ravnanja posledica
                     izključevanja od možnosti rabe gozdnih virov. Storili so jih pripadniki
                     družbenih skupin, katerim je bila odvzeta pravica do rabe gozda, ki so jo dotlej
-                    uživali, zaradi česar so naravni vir izropali, dokler je bilo mogoče.</hi><note
-                    place="foot" xml:id="ftn56" n="56"><p rend="footnote text"> Renato Sansa, »Una
+                    uživali, zaradi česar so naravni vir izropali, dokler je bilo mogoče.</hi><note place="foot" xml:id="ftn56" n="55"> Renato Sansa, »Una
                         risorsa molti significati: l'uso del bosco nelle regione italiane in età
                         preindustriale,« v: <hi rend="italic">Storia economica e ambiente italiano
                             (ca. 1400‒1850)</hi>, ur. Guido Alfani, Matteo Di Tullio in Luca
                         Mocarelli (Milano: FrancoAngeli, 2012).
-                    </p></note><hi style="font-size:12pt" xml:space="preserve"> Temu vidiku lahko rečemo vprašanje dostopnosti. Kot soroden primer bi bilo mogoče poudariti požiganje borovih nasadov na kolektivnih pašnikih in kmečki odpor do njihove postavitve v začetnih fazah pogozdovanja Krasa. To nas še enkrat opozarja na to, kako je vselej treba upoštevati vsakokratne okoliščine in kontekst, ki ga vsakič tvorijo endogeni in eksogeni dejavniki. Sicer pa je primere načrtnega uničevanja z antropološko-zgodovinske perspektive mogoče razumeti tudi kot obliko uveljavljanja svoje lastninske pravice ali pravice do rabe določenega območja.</hi><note
-                    place="foot" xml:id="ftn57" n="57"><p rend="footnote text"> Panjek<hi
-                            rend="italic">, Kulturna krajina</hi>. Franc Perko, <hi rend="italic">Od
+                    </note><hi style="font-size:12pt" xml:space="preserve"> Temu vidiku lahko rečemo vprašanje dostopnosti. Kot soroden primer bi bilo mogoče poudariti požiganje borovih nasadov na kolektivnih pašnikih in kmečki odpor do njihove postavitve v začetnih fazah pogozdovanja Krasa. To nas še enkrat opozarja na to, kako je vselej treba upoštevati vsakokratne okoliščine in kontekst, ki ga vsakič tvorijo endogeni in eksogeni dejavniki. Sicer pa je primere načrtnega uničevanja z antropološko-zgodovinske perspektive mogoče razumeti tudi kot obliko uveljavljanja svoje lastninske pravice ali pravice do rabe določenega območja.</hi><note place="foot" xml:id="ftn57" n="56"> Panjek<hi rend="italic">, Kulturna krajina</hi>. Franc Perko, <hi rend="italic">Od
                             ogolelega do gozdnatega krasa: pogozdovanje krasa</hi> (Ljubljana: Zveza
-                        gozdarskih društev Slovenije – Gozdarska založba, 2016).</p></note>
+                        gozdarskih društev Slovenije – Gozdarska založba, 2016).</note>
                 <hi style="font-size:12pt">Tako so spori glede rabe kolektivnih zemljišč med
                     sosednjima skupnostma lahko privedli do njihovega namernega poškodovanja, ki so
                     ga zagrešili tisti, ki so se imeli za lastnike ali upravičence, na škodo onih,
                     ki naj bi si območje neupravičeno prisvojili, o čemer piše Edoardo Grendi: »Z
                     uničevanjem so se izražale in izkazovale posestne pravice nad uničeno dobrino,
-                    obenem pa se je onemogočilo nasprotniku, da bi užival sporno imetje.«</hi><note
-                    place="foot" xml:id="ftn58" n="58"><p rend="footnote text"> Edoardo Grendi, »La
-                        pratica dei confini: Mioglia contro Sassello, 1715–45,« <hi rend="italic"
-                            >Quaderni storici,</hi> 63 (1986): 811–45. Tako Grendijevo
+                    obenem pa se je onemogočilo nasprotniku, da bi užival sporno imetje.«</hi><note place="foot" xml:id="ftn58" n="57"> Edoardo Grendi, »La
+                        pratica dei confini: Mioglia contro Sassello, 1715–45,« <hi rend="italic">Quaderni storici,</hi> 63 (1986): 811–45. Tako Grendijevo
                         interpretacijo sintetizira
                         Panjek,<hi rend="italic" xml:space="preserve"> Krvavi poljub svobode</hi>,
                         176. O Grendiju gl. Marta Verginella, »Od Crocejevih nečakov do
                         mikrozgodovine (spremna beseda),« v: <hi rend="italic">Nematerialna
                             dediščina. Življenjska pot piemontskega eksorcista iz XVII.
                             stoletja</hi>, ur. Giovanni Levi (Ljubljana: Studia humanitatis, 1995),
-                        215–31.</p></note></p>
+                        215–31.</note></p>
             <p><hi style="font-size:12pt">Ekonomski potencial zemlje se spreminja glede na njeno
                     kakovost, vloženo delo, relief, vzdržno rabo, tehnične zmožnosti v kmetovanju
                     idr., vse v odnosu s političnimi, ekonomskimi in družbenimi spremenljivkami. Kot
@@ -688,50 +655,40 @@
                     zgornjo mejo ekonomskega potenciala v okviru trajnostne rabe. Tudi Van Bavel in
                     Thoen poudarjata, da sta individualna in kolektivna raba zemlje lahko obe
                     trajnostni in degradacijski.</hi>
-                <note place="foot" xml:id="ftn59" n="59"><p rend="footnote text"> Van Bavel in
+                <note place="foot" xml:id="ftn59" n="58"> Van Bavel in
                         Thoen, <hi rend="italic">Rural History</hi>,
-                    32.</p></note><hi style="font-size:12pt" xml:space="preserve"> Na nekaterih površinah je kolektivna raba, zaradi povezave med specifičnimi značilnostmi (relief, lastnosti prsti in kamnin, oddaljenost od vasi, družbeni vplivi), kdaj racionalnejša od individualne. Trajnostna raba ni nujno intenzivna, temveč stremi k največjemu izkoristku ekonomskega potenciala v dolgoročni perspektivi. Ta je pričakovana zlasti, če se pravica do rabe in lastninska pravica dedujeta. Na tej točki je bistveno poudariti pomen urejenosti lastninskih pravic.</hi><note
-                    place="foot" xml:id="ftn60" n="60"><p rend="footnote text"> O posledicah
+                    32.</note><hi style="font-size:12pt" xml:space="preserve"> Na nekaterih površinah je kolektivna raba, zaradi povezave med specifičnimi značilnostmi (relief, lastnosti prsti in kamnin, oddaljenost od vasi, družbeni vplivi), kdaj racionalnejša od individualne. Trajnostna raba ni nujno intenzivna, temveč stremi k največjemu izkoristku ekonomskega potenciala v dolgoročni perspektivi. Ta je pričakovana zlasti, če se pravica do rabe in lastninska pravica dedujeta. Na tej točki je bistveno poudariti pomen urejenosti lastninskih pravic.</hi><note place="foot" xml:id="ftn60" n="59"> O posledicah
                         neurejenih pravic in posledično pravil, ki opredeljujejo rabo gozdov s
                         strani vaških skupnosti tudi Ambrosoli, <hi rend="italic">Comunità e
-                            questioni</hi>, 23.</p></note><hi style="font-size:12pt" xml:space="preserve"> V to se je poglobila Elinor Ostrom, saj je po njenem izvajanju to eden izmed dejavnikov, katerih upoštevanje omogoča gospodarsko in okoljsko vzdržnost rabe srenjske zemlje.</hi>
-                <note place="foot" xml:id="ftn61" n="61"><p rend="footnote text"> Ostrom, <hi
-                            rend="italic">Governing the Commons.</hi></p></note>
+                            questioni</hi>, 23.</note><hi style="font-size:12pt" xml:space="preserve"> V to se je poglobila Elinor Ostrom, saj je po njenem izvajanju to eden izmed dejavnikov, katerih upoštevanje omogoča gospodarsko in okoljsko vzdržnost rabe srenjske zemlje.</hi>
+                <note place="foot" xml:id="ftn61" n="60"> Ostrom, <hi rend="italic">Governing the Commons.</hi></note>
                 <hi style="font-size:12pt">Tudi Piet Van Cruyningen dokazuje, da je bila urejenost
                     lastninskih pravic na zemlji bistvenega pomena za uspešno gospodarsko preobrazbo
                     namembnosti zemljišča, v njegovem primeru iz mokrišča v kmetijsko zemljišče,
-                    podvrženo vzdržni rabi.</hi><note place="foot" xml:id="ftn62" n="62"><p
-                        rend="footnote text"> Piet Van Cruyningen, »State, Property Rights and
+                    podvrženo vzdržni rabi.</hi><note place="foot" xml:id="ftn62" n="61"> Piet Van Cruyningen, »State, Property Rights and
                         Sustainability of Drained Areas along the North Sea Coast,
                         Sixteenth–Eighteenth Centuries,« v: <hi rend="italic">Rural Societies and
                             Environment at Risk: Ecology, Property Rights and Social Organisation in
                             Fragile Areas (Middle Ages–Twentieth Century)</hi>, ur. Bas Van Bavel in
-                        Eric Thoen (Turnhout: Brepols, 2013), 181<hi rend="color(0F0F0F)"
-                        >‒</hi>207.</p></note></p>
-            <p rend="Standard"><hi style="font-size:12pt">Nekateri zgodovinarji, kot sta Josef Ehmer
+                        Eric Thoen (Turnhout: Brepols, 2013), 181<hi rend="color(0F0F0F)">‒</hi>207.</note></p>
+            <p><hi style="font-size:12pt">Nekateri zgodovinarji, kot sta Josef Ehmer
                     in Tine De Moor, povezujejo (iščejo podobnosti in razhajanja) institucijo
                     rokodelskega ceha z institucijo vaške skupnosti, ki je upravljala gospodarjenje
                     na srenjski zemlji. Po Ehmerju so motivi, ki so pogojevali ustanovitev urbanih
                     in ruralnih cehov in tudi institucij vaške skupnosti, namenjenih, poleg drugega,
                     tudi upravljanju srenjske zemlje, vključevali ekonomske, politične, socialne in
-                    kulturne vidike.</hi><note place="foot" xml:id="ftn63" n="63"><p
-                        rend="footnote text"> Josef Ehmer, »Rural Guilds and Urban-Rural Guilds
+                    kulturne vidike.</hi><note place="foot" xml:id="ftn63" n="62"> Josef Ehmer, »Rural Guilds and Urban-Rural Guilds
                         Relations in the Early Modern Central Europe,« v: <hi rend="italic">The
                             Return of the Guilds: International Review of Social History
                             Supplements</hi>, ur. Jan Lucassen, Tine de Moor in Jan Luiten van
                         Zanden (Cambridge: Press Syndicate of the University of Cambridge, 2008),
-                        151.</p></note><hi style="font-size:12pt" xml:space="preserve"> De Moor poudarja eno izmed skupnih značilnosti cehov in upravljanja vaških skupnosti s srenjsko zemljo, tj. da oboji funkcionirajo na podlagi »zakonitosti kolektivnega delovanja« (</hi><hi
-                    rend="italic" style="font-size:12pt">law of collective action</hi><hi
-                    style="font-size:12pt">). Poleg tega poudarja tudi podobnosti pri strukturi obeh
+                        151.</note><hi style="font-size:12pt" xml:space="preserve"> De Moor poudarja eno izmed skupnih značilnosti cehov in upravljanja vaških skupnosti s srenjsko zemljo, tj. da oboji funkcionirajo na podlagi »zakonitosti kolektivnega delovanja« (</hi><hi rend="italic" style="font-size:12pt">law of collective action</hi><hi style="font-size:12pt">). Poleg tega poudarja tudi podobnosti pri strukturi obeh
                     vrst institucije ter se posveča socialnim in ekonomskim vidikom cehovske in
                     srenjske ureditve vaške skupnosti kot koordinatorke gospodarjenja na srenjski
-                    zemlji.</hi><note place="foot" xml:id="ftn64" n="64"><p rend="footnote text"> De
-                        Moor, <hi rend="italic">The Silent Revolution</hi>, 179<hi
-                            rend="color(0F0F0F)"
-                >‒</hi>82.</p></note><hi style="font-size:12pt" xml:space="preserve"> Iskanje podobnosti med cehi in vaškimi skupnostmi se zdi smiselno zlasti v primeru fokusiranja na socialne in ekonomske poglede kolektivnega delovanja cehov, ki bi pripomogli k razumevanju kolektivnega delovanja in upravljanja skupnosti na srenjski zemlji. Še koristnejša pa bi ta vzporednica utegnila biti za jasnejšo opredelitev smotrnega gospodarjenja, umnega upravljanja in vzdržne rabe površin v skupni lasti ali rabi z vidika vaške skupnosti, ki jo ustvarjajo in povezujejo skupni interesi (tako kot cehe), ter z vidika vzgibov posameznih upravičencev, ki tvorijo institucijo z upravljavsko funkcijo.</hi>
-            </p>
-            <p rend="Standard" style="text-align:center;"><hi rend="bold" style="font-size:12pt"
-                    >Sklep</hi></p>
+                    zemlji.</hi><note place="foot" xml:id="ftn64" n="63"> De
+                        Moor, <hi rend="italic">The Silent Revolution</hi>, 179<hi rend="color(0F0F0F)">‒</hi>82.</note><hi style="font-size:12pt" xml:space="preserve"> Iskanje podobnosti med cehi in vaškimi skupnostmi se zdi smiselno zlasti v primeru fokusiranja na socialne in ekonomske poglede kolektivnega delovanja cehov, ki bi pripomogli k razumevanju kolektivnega delovanja in upravljanja skupnosti na srenjski zemlji. Še koristnejša pa bi ta vzporednica utegnila biti za jasnejšo opredelitev smotrnega gospodarjenja, umnega upravljanja in vzdržne rabe površin v skupni lasti ali rabi z vidika vaške skupnosti, ki jo ustvarjajo in povezujejo skupni interesi (tako kot cehe), ter z vidika vzgibov posameznih upravičencev, ki tvorijo institucijo z upravljavsko funkcijo.</hi>
+            </p></div>
+            <div><head>Sklep</head>
             <p><hi style="font-size:12pt">Iz doslej navedenega je razvidno, da se skoraj vse teme in
                     dejavniki, ki so predmet obravnave sodobnega mednarodnega zgodovinopisja o
                     srenjski zemlji, posredno ali neposredno navezujejo na vprašanje trajnostnega
@@ -748,368 +705,225 @@
                     Languedoc v obdobju pred francosko revolucijo. Kmetje so bili namreč
                     zainteresirani za kultiviranje (posejanje s kulturnimi rastlinami) srenjske
                     zemlje, saj ta ni bila podvržena ne kraljevemu ne srenjskemu davku (</hi>
-                <hi rend="italic" style="font-size:12pt">royal and communal tax</hi><hi
-                    style="font-size:12pt">).</hi><note place="foot" xml:id="ftn65" n="65"><p
-                        rend="footnote text"> Sylvain, <hi rend="italic">Peasant Property</hi>,
-                        98.</p></note>
+                <hi rend="italic" style="font-size:12pt">royal and communal tax</hi><hi style="font-size:12pt">).</hi><note place="foot" xml:id="ftn65" n="64"> Sylvain, <hi rend="italic">Peasant Property</hi>,
+                        98.</note>
                 <hi style="font-size:12pt">Druga splošnejša ugotovitev je ta, da trajnosti
                     človeškega delovanja ni smiselno meriti v razmerju do neokrnjene narave, saj na
                     primer gozdovi že zdavnaj niso več zgolj naravni pojav, posebej v evropskem,
-                    sredozemskem in tudi alpskem prostoru.</hi><note place="foot" xml:id="ftn66"
-                    n="66"><p rend="footnote text"> Poleg uvodoma navedene literature se za alpski
-                        prostor pri tej trditvi lahko opremo vsaj na: Anton Melik, <hi rend="italic"
-                            >Planine v Julijskih Alpah</hi> (Ljubljana: SAZU, 1950) in Aleksander
+                    sredozemskem in tudi alpskem prostoru.</hi><note place="foot" xml:id="ftn66" n="65"> Poleg uvodoma navedene literature se za alpski
+                        prostor pri tej trditvi lahko opremo vsaj na: Anton Melik, <hi rend="italic">Planine v Julijskih Alpah</hi> (Ljubljana: SAZU, 1950) in Aleksander
                         Panjek, <hi rend="italic">Vzhodno od Benetk, slovenski obmejni prostor.
                             Gospodarstvo, družba, prebivalstvo in naravni viri v zgodnjem novem
                             veku</hi> (Koper: Univerzitetna založba Annales, 2015),
-                    85–117.</p></note><hi style="font-size:12pt" xml:space="preserve"> Ne da bi ponavljali in povzemali vse predstavljene dejavnike, tematike, vprašanja, interpretacije in koncepte, je mogoče zaključiti z ugotovitvijo, da je za zgodovino okolja nasploh, kakor tudi za srenjsko zemljo, mogoče presoditi, da skupni svet in ljudje, ki ga oblikujejo, tvorijo »kompleksen sistem«, »kompleksni sistemi pa se spreminjajo zaradi številnih dejavnikov, ki delujejo istočasno in medsebojno vplivajo drug na drugega«.</hi>
-                <note place="foot" xml:id="ftn67" n="67"><p rend="footnote text"> Winiwarter, <hi
-                            rend="italic">The Emerging</hi>,
-                9.</p></note><hi style="font-size:12pt" xml:space="preserve"> Sodobnih pristopov, interpretacij in konceptov je vsekakor dovolj, da bi oživili interes do prenovljenega zgodovinskega raziskovanja srenjske zemlje tudi v slovenskem zgodovinopisju, v sodelovanju s sorodnimi disciplinami in tudi manj sorodnimi vedami.</hi></p>
-            <p style="text-align:center;"><hi style="font-size:10pt">Viri in literatura</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Alfani, Guido in Riccardo Rao, ur. </hi><hi
-                    rend="italic" style="font-size:10pt">La gestione delle risorse collettive.
+                    85–117.</note><hi style="font-size:12pt" xml:space="preserve"> Ne da bi ponavljali in povzemali vse predstavljene dejavnike, tematike, vprašanja, interpretacije in koncepte, je mogoče zaključiti z ugotovitvijo, da je za zgodovino okolja nasploh, kakor tudi za srenjsko zemljo, mogoče presoditi, da skupni svet in ljudje, ki ga oblikujejo, tvorijo »kompleksen sistem«, »kompleksni sistemi pa se spreminjajo zaradi številnih dejavnikov, ki delujejo istočasno in medsebojno vplivajo drug na drugega«.</hi>
+                <note place="foot" xml:id="ftn67" n="66"> Winiwarter, <hi rend="italic">The Emerging</hi>,
+                9.</note><hi style="font-size:12pt" xml:space="preserve"> Sodobnih pristopov, interpretacij in konceptov je vsekakor dovolj, da bi oživili interes do prenovljenega zgodovinskega raziskovanja srenjske zemlje tudi v slovenskem zgodovinopisju, v sodelovanju s sorodnimi disciplinami in tudi manj sorodnimi vedami.</hi></p></div>
+        </body>
+        <back>
+             <div type="bibliography"> 
+                 <head>Viri in literatura</head>
+                 <listBibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Alfani, Guido in Riccardo Rao, ur. </hi><hi rend="italic" style="font-size:10pt">La gestione delle risorse collettive.
                     Italia settentrionale, secoli XII-XVIII</hi><hi style="font-size:10pt">. Milano:
-                    FrancoAngeli, 1990.</hi></p>
-            <p rend="Standard"><hi style="font-size:10pt">• Alfani, Guido, Di Tullio, Matteo in Luca
+                    FrancoAngeli, 1990.</hi></bibl>
+                     <bibl><hi style="font-size:10pt">Alfani, Guido, Matteo Di Tullio in Luca
                     Mocarelli. »Storia economica e ambiente: un 'introduzione.« V:</hi>
-                <hi rend="italic" style="font-size:10pt" xml:space="preserve"> Storia e ambiente Italiano (ca. 1400</hi><hi
-                    style="font-size:10pt">–</hi><hi rend="italic" style="font-size:10pt"
-                >1850)</hi><hi style="font-size:10pt" xml:space="preserve">, ur. Guido Alfani, Matteo di Tullio in Luca Mocarelli, 7–18. Milano: FrancoAngeli, 2012. </hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Ambrosoli, Mauro. »Introduzione.« V: </hi><hi
-                    rend="italic" style="font-size:10pt">Comunità e questioni di confini in Italia
-                    settentrionale (XVI</hi><hi style="font-size:10pt">–</hi><hi rend="italic"
-                    style="font-size:10pt">XIX sec.)</hi><hi style="font-size:10pt">, ur. Mauro
-                    Ambrosoli in Furio Bianco, 7–24. Milano: FrancoAngeli, 2004.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Armiero, Marco in Stefania Barca. </hi><hi
-                    rend="italic" style="font-size:10pt">Storia dell'ambiente. Una
-                    introduzione</hi><hi style="font-size:10pt">. Roma: Carocci, 2004.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Barca, Stefania. </hi><hi
-                    rend="italic" style="font-size:10pt">Enclosing Water. Nature and Political
+                <hi rend="italic" style="font-size:10pt" xml:space="preserve"> Storia e ambiente Italiano (ca. 1400</hi><hi style="font-size:10pt">–</hi><hi rend="italic" style="font-size:10pt">1850)</hi><hi style="font-size:10pt" xml:space="preserve">, ur. Guido Alfani, Matteo di Tullio in Luca Mocarelli, 7–18. Milano: FrancoAngeli, 2012. </hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Ambrosoli, Mauro. »Introduzione.« V: </hi><hi rend="italic" style="font-size:10pt">Comunità e questioni di confini in Italia
+                    settentrionale (XVI</hi><hi style="font-size:10pt">–</hi><hi rend="italic" style="font-size:10pt">XIX sec.)</hi><hi style="font-size:10pt">, ur. Mauro
+                    Ambrosoli in Furio Bianco, 7–24. Milano: FrancoAngeli, 2004.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Armiero, Marco in Stefania Barca. </hi><hi rend="italic" style="font-size:10pt">Storia dell'ambiente. Una
+                    introduzione</hi><hi style="font-size:10pt">. Roma: Carocci, 2004.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Barca, Stefania. </hi><hi rend="italic" style="font-size:10pt">Enclosing Water. Nature and Political
                     Economy in a Mediterranean Valley, 1798–1916</hi><hi style="font-size:10pt">.
-                    Cambridge: The White Horse Press, 2010.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Beguš, Ines. </hi><hi
-                    rend="italic" style="font-size:10pt">Avtonomija in ekonomija Nadiških dolin v
+                    Cambridge: The White Horse Press, 2010.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Beguš, Ines. </hi><hi rend="italic" style="font-size:10pt">Avtonomija in ekonomija Nadiških dolin v
                     Beneški republiki</hi><hi style="font-size:10pt">. Koper: Univerzitetna založba
-                    Annales, 2015.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Bertolotto, Sabrina in Roberta Cevasco. »Fonti osservazionali e fonti testuali: le “Consegne dei Boschi” e il sistema dell'“Alnocoltura” nell'Appennino Ligure Orientale (1822).« </hi><hi
-                    rend="italic" style="font-size:10pt">Quaderni
-                Storici,</hi><hi style="font-size:10pt" xml:space="preserve"> 103, št. 1 (2000): 87–108.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Bianco, Furio. </hi><hi
-                    rend="italic" style="font-size:10pt">Krvavi pust 1511. Kmečki upori in plemiške
+                    Annales, 2015.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Bertolotto, Sabrina in Roberta Cevasco. »Fonti osservazionali e fonti testuali: le “Consegne dei Boschi” e il sistema dell'“Alnocoltura” nell'Appennino Ligure Orientale (1822).« </hi><hi rend="italic" style="font-size:10pt">Quaderni
+                Storici,</hi><hi style="font-size:10pt" xml:space="preserve"> 103, št. 1 (2000): 87–108.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Bianco, Furio. </hi><hi rend="italic" style="font-size:10pt">Krvavi pust 1511. Kmečki upori in plemiške
                     fajde v Furlaniji med 15. in 16. stoletjem</hi><hi style="font-size:10pt">.
-                    Koper: Univerzitetna založba Annales, 2011.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Blaznik, Pavle, Bogo Grafenauer, Milko Kos in Fran Zwitter. »Kolonizacija in populacija.« V: </hi><hi
-                    rend="italic" style="font-size:10pt">Gospodarska in družbena zgodovina
+                    Koper: Univerzitetna založba Annales, 2011.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Blaznik, Pavle, Bogo Grafenauer, Milko Kos in Fran Zwitter. »Kolonizacija in populacija.« V: </hi><hi rend="italic" style="font-size:10pt">Gospodarska in družbena zgodovina
                     Slovencev. Zgodovina agrarnih panog, 1</hi><hi style="font-size:10pt">, ur.
                     Pavle Blaznik, Bogo Grafenauer in Sergij Vilfan, 29–127. Ljubljana: Državna
-                    založba Slovenije, 1970.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Blaznik, Pavle. »Kolektivna kmečka posest.« V: </hi><hi
-                    rend="italic" style="font-size:10pt">Gospodarska in družbena zgodovina
+                    založba Slovenije, 1970.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Blaznik, Pavle. »Kolektivna kmečka posest.« V: </hi><hi rend="italic" style="font-size:10pt">Gospodarska in družbena zgodovina
                     Slovencev. Zgodovina agrarnih panog, I</hi><hi style="font-size:10pt">, ur.
                     Pavle Blaznik, Bogo Grafenauer in Sergij Vilfan, 149–160. Ljubljana: Državna
-                    založba Slovenije, 1970.</hi></p>
-            <p><hi style="font-size:10pt">• Blomkvist, Pär in Jesper Larsson. »An Analytical
+                    založba Slovenije, 1970.</hi></bibl>
+            <bibl><hi style="font-size:10pt">Blomkvist, Pär in Jesper Larsson. »An Analytical
                     Framework for Common-pool Resource–large technical system (CPR-LTS)
                     Constellations.« </hi><hi rend="italic" style="font-size:10pt">International
                     Journal of the
-                Commons,</hi><hi style="font-size:10pt" xml:space="preserve"> 1 (2013): 113–39.</hi></p>
-            <p><hi style="font-size:10pt" xml:space="preserve">• Boudon, Raymond. </hi><hi
-                    rend="italic" style="font-size:10pt">L'art de se persuaderdes ideés douteuses,
+                Commons,</hi><hi style="font-size:10pt" xml:space="preserve"> 1 (2013): 113–39.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Boudon, Raymond. </hi><hi rend="italic" style="font-size:10pt">L'art de se persuaderdes ideés douteuses,
                     fragiles ou fausses</hi><hi style="font-size:10pt">. Paris: Fayard,
-                1990.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Britovšek, Marjan. </hi><hi
-                    rend="italic" style="font-size:10pt">Razkroj fevdalne agrarne strukture na
+                1990.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Britovšek, Marjan. </hi><hi rend="italic" style="font-size:10pt">Razkroj fevdalne agrarne strukture na
                     Kranjskem</hi><hi style="font-size:10pt">. Ljubljana: Slovenska matica v
-                    Ljubljani, 1964.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Coase, Ronald. »The Problem of Social Cost.« </hi><hi
-                    rend="italic" style="font-size:10pt">Journal of Law and
-                Economics,</hi><hi style="font-size:10pt" xml:space="preserve"> 3 (1960): 1–44. </hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Dam, Peder. »Soil Conditions and Environment versus Manorial Structure and Landownership in Denmark c. 1400-1800.« V: </hi><hi
-                    rend="italic" style="font-size:10pt">Rural Societies and Environment at Risk:
+                    Ljubljani, 1964.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Coase, Ronald. »The Problem of Social Cost.« </hi><hi rend="italic" style="font-size:10pt">Journal of Law and
+                Economics,</hi><hi style="font-size:10pt" xml:space="preserve"> 3 (1960): 1–44. </hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Dam, Peder. »Soil Conditions and Environment versus Manorial Structure and Landownership in Denmark c. 1400-1800.« V: </hi><hi rend="italic" style="font-size:10pt">Rural Societies and Environment at Risk:
                     Ecology, Property Rights and Social Organisation in Fragile Areas (Middle
-                    Ages</hi><hi style="font-size:10pt"
-                    >–</hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Twentieth Century), </hi><hi
-                    style="font-size:10pt">ur. Bas Van Bavel in Eric Thoen, 281–308. Turnhout:
-                    Brepols, 2013.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• De Moor, Tine. »The Silent Revolution: A New Prospective on the Emergence of Commons, Guilds and Other Forms of Corporate Collective Action in Western Europe.« V: </hi><hi
-                    rend="italic" style="font-size:10pt">The Return of the Guilds: International
+                    Ages</hi><hi style="font-size:10pt">–</hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Twentieth Century), </hi><hi style="font-size:10pt">ur. Bas Van Bavel in Eric Thoen, 281–308. Turnhout:
+                    Brepols, 2013.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">De Moor, Tine. »The Silent Revolution: A New Prospective on the Emergence of Commons, Guilds and Other Forms of Corporate Collective Action in Western Europe.« V: </hi><hi rend="italic" style="font-size:10pt">The Return of the Guilds: International
                     Review of Social History
-                Supplements</hi><hi style="font-size:10pt" xml:space="preserve">, ur. Jan Lucassen, Tine de Moor in Jan Luiten van Zanden, 179–212. Cambridge: Press Syndicate of the University of Cambridge, 2008. </hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• De Moor, Tine. </hi><hi
-                    rend="italic" style="font-size:10pt">The Dilemma of the Commoners: Understanding
-                    the Use of Common Pool Resources in Long-Term Perspective</hi><hi
-                    style="font-size:10pt">. Cambridge: University Press. 2015.</hi></p>
-            <p rend="Standard"><hi style="font-size:10pt">• Ehmer, Josef. »Rural Guilds and
+                Supplements</hi><hi style="font-size:10pt" xml:space="preserve">, ur. Jan Lucassen, Tine de Moor in Jan Luiten van Zanden, 179–212. Cambridge: Press Syndicate of the University of Cambridge, 2008. </hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">De Moor, Tine. </hi><hi rend="italic" style="font-size:10pt">The Dilemma of the Commoners: Understanding
+                    the Use of Common Pool Resources in Long-Term Perspective</hi><hi style="font-size:10pt">. Cambridge: University Press. 2015.</hi></bibl>
+            <bibl><hi style="font-size:10pt">Ehmer, Josef. »Rural Guilds and
                     Urban-Rural Guilds Relations in the Early Modern Central Europe.«
-                V:</hi><hi rend="italic" style="font-size:10pt" xml:space="preserve"> International Review of Social History Supplements</hi><hi style="font-size:10pt" xml:space="preserve">, ur. Jan Lucassen, Tine de Moor in Jan Luiten van Zanden, 143–58. Cambridge: Press Syndicate of the University of Cambridge, 2008. </hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Grafenauer, Bogo. »Gospodarski obrat kmetije.« V: </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Gospodarska in družbena zgodovina Slovencev. Zgodovina agrarnih panog, 1, </hi><hi
-                    style="font-size:10pt">ur. Pavle Blaznik, Bogo Grafenauer in Sergij Vilfan,
-                    619–51. Ljubljana: Državna založba Slovenije, 1970.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Grendi, Edoardo. »La pratica dei confini: Mioglia contro Sassello, 1715–1745.« </hi><hi
-                    rend="italic" style="font-size:10pt">Quaderni
-                storici,</hi><hi style="font-size:10pt" xml:space="preserve"> 63 (1986): 811–45.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Grove, T. Alfred in Oliver Rackham. </hi><hi
-                    rend="a-size-large"
-                    ><seg rend="italic" style="font-size:10pt" xml:space="preserve">The Nature of Mediterranean Europe: An Ecological History. </seg></hi><hi
-                    style="font-size:10pt">London: Yale University Press, 2001 in 2003.</hi></p>
-            <p><hi style="font-size:10pt" xml:space="preserve">• Hann, Christopher M. </hi><hi
-                    rend="italic" style="font-size:10pt">The Tragedy of the Privates? Postsocialist
+                V:</hi><hi rend="italic" style="font-size:10pt" xml:space="preserve"> International Review of Social History Supplements</hi><hi style="font-size:10pt" xml:space="preserve">, ur. Jan Lucassen, Tine de Moor in Jan Luiten van Zanden, 143–58. Cambridge: Press Syndicate of the University of Cambridge, 2008. </hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Grafenauer, Bogo. »Gospodarski obrat kmetije.« V: </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Gospodarska in družbena zgodovina Slovencev. Zgodovina agrarnih panog, 1, </hi><hi style="font-size:10pt">ur. Pavle Blaznik, Bogo Grafenauer in Sergij Vilfan,
+                    619–51. Ljubljana: Državna založba Slovenije, 1970.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Grendi, Edoardo. »La pratica dei confini: Mioglia contro Sassello, 1715–1745.« </hi><hi rend="italic" style="font-size:10pt">Quaderni
+                storici,</hi><hi style="font-size:10pt" xml:space="preserve"> 63 (1986): 811–45.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Grove, T. Alfred in Oliver Rackham. </hi><hi rend="a-size-large"><seg rend="italic" style="font-size:10pt" xml:space="preserve">The Nature of Mediterranean Europe: An Ecological History. </seg></hi><hi style="font-size:10pt">London: Yale University Press, 2001 in 2003.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Hann, Christopher M. </hi><hi rend="italic" style="font-size:10pt">The Tragedy of the Privates? Postsocialist
                     Property Relations in Anthropological
-                Perspective</hi><hi style="font-size:10pt" xml:space="preserve">. Halle (Saale): Max Planck Institute for Social Anthropology, Working paper, št. 2, 2000. </hi></p>
-            <p><hi style="font-size:10pt" xml:space="preserve">• Hardin, Garrett. »The Tragedy of the Commons.« </hi><hi
-                    rend="italic" style="font-size:10pt"
-                >Science,</hi><hi style="font-size:10pt" xml:space="preserve"> 162 (1968): 1243–48.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Iriarte-Goñi, Iñaki. »Forest Management and Wood Exploitation. A Comparison between Public and Private Spanish Forests, 1900–2000.« V: </hi><hi
-                    rend="italic" style="font-size:10pt">Rural Societies and Environment at Risk:
+                Perspective</hi><hi style="font-size:10pt" xml:space="preserve">. Halle (Saale): Max Planck Institute for Social Anthropology, Working paper, št. 2, 2000. </hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Hardin, Garrett. »The Tragedy of the Commons.« </hi><hi rend="italic" style="font-size:10pt">Science,</hi><hi style="font-size:10pt" xml:space="preserve"> 162 (1968): 1243–48.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Iriarte-Goñi, Iñaki. »Forest Management and Wood Exploitation. A Comparison between Public and Private Spanish Forests, 1900–2000.« V: </hi><hi rend="italic" style="font-size:10pt">Rural Societies and Environment at Risk:
                     Ecology, Property Rights and Social Organisation in Fragile Areas (Middle
-                    Ages</hi><hi style="font-size:10pt">–</hi><hi rend="italic"
-                    style="font-size:10pt">Twentieth
-                Century)</hi><hi style="font-size:10pt" xml:space="preserve">, ur. Bas Van Bavel in Eric Thoen, 261–80. Turnhout: Brepols, 2013. </hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Laborda Perman, Miguel in De Moor, Tine. »A Tale of Two Commons. Some Preliminary Hypotheses on the Long-Term Development of the Commons in Western and Eastern Europe, 11th–19th centuries.« V: </hi><hi
-                    rend="italic" style="font-size:10pt">International Journal of the
-                Commons,</hi><hi style="font-size:10pt" xml:space="preserve"> 7 (2013): 7–33.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Larsson, Jasper. »Boundaries and Property Rights: The Transformation of a Common-Pool Resource.« </hi><hi
-                    rend="italic" style="font-size:10pt">The Agricultural History Review,</hi>
-                <hi style="font-size:10pt">62, št. 1 (2014): 20–40.</hi></p>
-            <p><hi style="font-size:10pt">• Larsson, Jesper. »Conflict-Resolution Mechanisms
+                    Ages</hi><hi style="font-size:10pt">–</hi><hi rend="italic" style="font-size:10pt">Twentieth
+                Century)</hi><hi style="font-size:10pt" xml:space="preserve">, ur. Bas Van Bavel in Eric Thoen, 261–80. Turnhout: Brepols, 2013. </hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Laborda Perman, Miguel in De Moor, Tine. »A Tale of Two Commons. Some Preliminary Hypotheses on the Long-Term Development of the Commons in Western and Eastern Europe, 11<hi rend="superscript">th</hi>–19<hi rend="superscript">th</hi> centuries.« V: </hi><hi rend="italic" style="font-size:10pt">International Journal of the
+                Commons,</hi><hi style="font-size:10pt" xml:space="preserve"> 7 (2013): 7–33.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Larsson, Jasper. »Boundaries and Property Rights: The Transformation of a Common-Pool Resource.« </hi><hi rend="italic" style="font-size:10pt">The Agricultural History Review,</hi>
+                <hi style="font-size:10pt">62, št. 1 (2014): 20–40.</hi></bibl>
+            <bibl><hi style="font-size:10pt">Larsson, Jesper. »Conflict-Resolution Mechanisms
                     Maintaining an Agricultural System. Early–Modern Local Courts as an Arena for
-                    Solving Collective-Action Problems within Scandinavian Civil Law.« </hi><hi
-                    rend="italic" style="font-size:10pt">International Journal of the
-                    Commons,</hi><hi style="font-size:10pt"> 10, št. 2 (2016): 1100–18.</hi></p>
-            <p><hi style="font-size:10pt" xml:space="preserve">• Lazarević, Žarko. </hi><hi
-                    rend="italic" style="font-size:10pt">Kmečki dolgovi na Slovenskem:
-                    socialno-ekonomski vidiki zadolženosti slovenskih kmetov 1848</hi><hi
-                    style="font-size:10pt">–</hi><hi rend="italic" style="font-size:10pt"
-                    >1948</hi><hi style="font-size:10pt">. Ljubljana: Znanstveno in publicistično
-                    središče, 1994.</hi></p>
-            <p><hi style="font-size:10pt" xml:space="preserve">• Lazarević, Žarko. </hi><hi
-                    rend="italic" style="font-size:10pt">Spremembe in zamišljanja:
+                    Solving Collective-Action Problems within Scandinavian Civil Law.« </hi><hi rend="italic" style="font-size:10pt">International Journal of the
+                    Commons,</hi><hi style="font-size:10pt"> 10, št. 2 (2016): 1100–18.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Lazarević, Žarko. </hi><hi rend="italic" style="font-size:10pt">Kmečki dolgovi na Slovenskem:
+                    socialno-ekonomski vidiki zadolženosti slovenskih kmetov 1848</hi><hi style="font-size:10pt">–</hi><hi rend="italic" style="font-size:10pt">1948</hi><hi style="font-size:10pt">. Ljubljana: Znanstveno in publicistično
+                    središče, 1994.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Lazarević, Žarko. </hi><hi rend="italic" style="font-size:10pt">Spremembe in zamišljanja:
                     gospodarsko-zgodovinske
-                refleksije.</hi><hi style="font-size:10pt" xml:space="preserve"> Ljubljana: Inštitut za novejšo zgodovino, 2015.</hi></p>
-            <p><hi style="font-size:10pt" xml:space="preserve">• Martini, Peter in Ward Chesworth, ur. </hi><hi
-                    rend="italic" style="font-size:10pt">Landscapes and Societies. Selected
+                refleksije.</hi><hi style="font-size:10pt" xml:space="preserve"> Ljubljana: Inštitut za novejšo zgodovino, 2015.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Martini, Peter in Ward Chesworth, ur. </hi><hi rend="italic" style="font-size:10pt">Landscapes and Societies. Selected
                     Cases</hi><hi style="font-size:10pt">. Dordrecht, New York: Springer,
-                2010.</hi></p>
-            <p><hi style="font-size:10pt" xml:space="preserve">• McNeill, R. John. </hi><hi
-                    rend="italic" style="font-size:10pt">The Mountains of the Mediterranean World.
+                2010.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">McNeill, R. John. </hi><hi rend="italic" style="font-size:10pt">The Mountains of the Mediterranean World.
                     An Environmental History</hi><hi style="font-size:10pt">. Cambridge: Cambridge
-                    University Press, 1992.</hi></p>
-            <p><hi style="font-size:10pt" xml:space="preserve">• McNeill, R. John. »Observations of the Nature in Culture of Environmental History.« </hi><hi
-                    rend="italic" style="font-size:10pt">History and
-                Theory,</hi><hi style="font-size:10pt" xml:space="preserve"> 42, št. 4 (2003): 5–43.</hi></p>
-            <p rend="Standard"><hi style="font-size:10pt">• Meden, Nikita. »Vloga vaške skupnosti in
+                    University Press, 1992.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">McNeill, R. John. »Observations of the Nature in Culture of Environmental History.« </hi><hi rend="italic" style="font-size:10pt">History and
+                Theory,</hi><hi style="font-size:10pt" xml:space="preserve"> 42, št. 4 (2003): 5–43.</hi></bibl>
+            <bibl><hi style="font-size:10pt">Meden, Nikita. »Vloga vaške skupnosti in
                     zemljiškega gospoda pri upravljanju srenjske zemlje v zgodnjem novem veku na
                     primeru devinskega gospostva na Krasu«. Magistrsko delo, Univerza na Primorskem,
-                    Fakulteta za humanistične študije, 2017.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Melik, Anton. </hi><hi
-                    rend="italic" style="font-size:10pt">Planine v Julijskih Alpah</hi><hi
-                    style="font-size:10pt">. Ljubljana: SAZU, 1950.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Morell, Mats. »Ecological Constraints and Property Rights in Swedish Agriculture c. 1750–1850.« V: </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Rural Societies and Environment at Risk: Ecology, Property Rights and Social Organisation in Fragile Areas (Middle Ages-Twentieth Century), </hi><hi
-                    style="font-size:10pt">ur. Bas Van Bavel in Eric Thoen, 45–88. Turnhout:
-                    Brepols, 2013.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Moreno, Diego. </hi><hi
-                    rend="italic" style="font-size:10pt">Dal documento al terreno: storia e
+                    Fakulteta za humanistične študije, 2017.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Melik, Anton. </hi><hi rend="italic" style="font-size:10pt">Planine v Julijskih Alpah</hi><hi style="font-size:10pt">. Ljubljana: SAZU, 1950.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Morell, Mats. »Ecological Constraints and Property Rights in Swedish Agriculture c. 1750–1850.« V: </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Rural Societies and Environment at Risk: Ecology, Property Rights and Social Organisation in Fragile Areas (Middle Ages-Twentieth Century), </hi><hi style="font-size:10pt">ur. Bas Van Bavel in Eric Thoen, 45–88. Turnhout:
+                    Brepols, 2013.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Moreno, Diego. </hi><hi rend="italic" style="font-size:10pt">Dal documento al terreno: storia e
                     archeologia dei sistemi
-                agro-silvo-pastorali</hi><hi style="font-size:10pt" xml:space="preserve">. Bologna: Il Mulino, 1990. </hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Moreno, Diego. »Querce come olivi. Sulla rovericoltura in Liguria tra il XVIII e il XIX secolo.« </hi><hi
-                    rend="italic" style="font-size:10pt">Quaderni
-                storici,</hi><hi style="font-size:10pt" xml:space="preserve"> 49, št. 1 (1982): 108–36.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Novak, Vilko. »Živinoreja.« V: </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Gospodarska in družbena zgodovina Slovencev. Zgodovina agrarnih panog, I, </hi><hi
-                    style="font-size:10pt">ur. Pavle Blaznik, Bogo Grafenauer in Sergij Vilfan,
-                    343–94. Ljubljana: Državna založba Slovenije, 1970.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Ostrom, Elinor. </hi><hi
-                    rend="italic" style="font-size:10pt">Governing the Commons: The Evolution of
+                agro-silvo-pastorali</hi><hi style="font-size:10pt" xml:space="preserve">. Bologna: Il Mulino, 1990. </hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Moreno, Diego. »Querce come olivi. Sulla rovericoltura in Liguria tra il XVIII e il XIX secolo.« </hi><hi rend="italic" style="font-size:10pt">Quaderni
+                storici,</hi><hi style="font-size:10pt" xml:space="preserve"> 49, št. 1 (1982): 108–36.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Novak, Vilko. »Živinoreja.« V: </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Gospodarska in družbena zgodovina Slovencev. Zgodovina agrarnih panog, I, </hi><hi style="font-size:10pt">ur. Pavle Blaznik, Bogo Grafenauer in Sergij Vilfan,
+                    343–94. Ljubljana: Državna založba Slovenije, 1970.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Ostrom, Elinor. </hi><hi rend="italic" style="font-size:10pt">Governing the Commons: The Evolution of
                     Institutions for Collective
-                Action.</hi><hi style="font-size:10pt" xml:space="preserve"> Cambridge: Cambridge University Press, 1990.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Ostrom, Elinor. »Design Principles of Robust Property-Rights Institutions: What Have we Learned?« V: </hi><hi
-                    rend="italic" style="font-size:10pt">Property Rights and Land
-                Policies</hi><hi style="font-size:10pt" xml:space="preserve"> ur. Gregory K. Ingram in Yu-Hung Hong, 25–51. Cambridge: Lincoln Institute of Land Policy.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Panjek, Aleksander. »Kmečki odpor na Tolminskem. Oris z opredelitvijo vsebinskih stebrov (1507–1713).« V: </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Upor, nasilje in preživetje: Slovenski in evropski primeri iz srednjega in novega veka, </hi><hi
-                    style="font-size:10pt">ur. Furio Bianco in Aleksander Panjek, 61–81. Koper:
+                Action.</hi><hi style="font-size:10pt" xml:space="preserve"> Cambridge: Cambridge University Press, 1990.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Ostrom, Elinor. »Design Principles of Robust Property-Rights Institutions: What Have we Learned?« V: </hi><hi rend="italic" style="font-size:10pt">Property Rights and Land
+                Policies</hi><hi style="font-size:10pt" xml:space="preserve"> ur. Gregory K. Ingram in Yu-Hung Hong, 25–51. Cambridge: Lincoln Institute of Land Policy.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Panjek, Aleksander. »Kmečki odpor na Tolminskem. Oris z opredelitvijo vsebinskih stebrov (1507–1713).« V: </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Upor, nasilje in preživetje: Slovenski in evropski primeri iz srednjega in novega veka, </hi><hi style="font-size:10pt">ur. Furio Bianco in Aleksander Panjek, 61–81. Koper:
                     Založba Univerze na Primorskem, 2015.</hi>
-            </p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Panjek, Aleksander. </hi><hi
-                    rend="italic" style="font-size:10pt">Kulturna krajina in okolje Krasa: o rabi
+            </bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Panjek, Aleksander. </hi><hi rend="italic" style="font-size:10pt">Kulturna krajina in okolje Krasa: o rabi
                     naravnih virov v novem veku</hi><hi style="font-size:10pt">. Koper: Založba
-                    Univerze na Primorskem, 2015.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Panjek, Aleksander. </hi><hi
-                    rend="italic" style="font-size:10pt">Krvavi poljub svobode: upor na galeji
+                    Univerze na Primorskem, 2015.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Panjek, Aleksander. </hi><hi rend="italic" style="font-size:10pt">Krvavi poljub svobode: upor na galeji
                     Loredani v Kopru in beg galjotov na Kras leta
-                1605.</hi><hi style="font-size:10pt" xml:space="preserve"> Koper: Založba Univerze na Primorskem; Trst: Založništvo tržaškega tiska, 2016.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Panjek, Aleksander. </hi><hi
-                    rend="italic" style="font-size:10pt">Vzhodno od Benetk, slovenski obmejni
+                1605.</hi><hi style="font-size:10pt" xml:space="preserve"> Koper: Založba Univerze na Primorskem; Trst: Založništvo tržaškega tiska, 2016.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Panjek, Aleksander. </hi><hi rend="italic" style="font-size:10pt">Vzhodno od Benetk, slovenski obmejni
                     prostor. Gospodarstvo, družba, prebivalstvo in naravni viri v zgodnjem novem
                     veku</hi><hi style="font-size:10pt">. Koper: Univerzitetna založba Annales,
-                    2015.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Panjek, Aleksander, Jesper Larsson in Luca Mocarelli. </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Integrated Peasant Economy in a Comparative perspective: Alps, Scandinavia and Beyond. </hi><hi
-                    style="font-size:10pt">Koper: Založba Univerze na Primorskem, 2017.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Panjek, Aleksander in Žarko Lazarević, ur. </hi><hi
-                    rend="italic" style="font-size:10pt">Preživetje in podjetnost: Integrirana
+                    2015.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Panjek, Aleksander, Jesper Larsson in Luca Mocarelli. </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Integrated Peasant Economy in a Comparative perspective: Alps, Scandinavia and Beyond. </hi><hi style="font-size:10pt">Koper: Založba Univerze na Primorskem, 2017.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Panjek, Aleksander in Žarko Lazarević, ur. </hi><hi rend="italic" style="font-size:10pt">Preživetje in podjetnost: Integrirana
                     kmečka ekonomija na Slovenskem od srednjega veka do
-                danes.</hi><hi style="font-size:10pt" xml:space="preserve"> Koper: Založba Univerze na Primorskem, 2018.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Parsons, Talcott. </hi><hi
-                    rend="italic" style="font-size:10pt">The Social System</hi><hi
-                    style="font-size:10pt">. Glencoe: The Free Press, 1951.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Perko, Franc. </hi><hi
-                    rend="italic" style="font-size:10pt">Od ogolelega do gozdnatega Krasa:
+                danes.</hi><hi style="font-size:10pt" xml:space="preserve"> Koper: Založba Univerze na Primorskem, 2018.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Parsons, Talcott. </hi><hi rend="italic" style="font-size:10pt">The Social System</hi><hi style="font-size:10pt">. Glencoe: The Free Press, 1951.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Perko, Franc. </hi><hi rend="italic" style="font-size:10pt">Od ogolelega do gozdnatega Krasa:
                     pogozdovanje Krasa</hi><hi style="font-size:10pt">. Ljubljana: Zveza gozdarskih
-                    društev Slovenije - Gozdarska založba, 2016.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Rackham, Oliver. »Forest History of Countries without Much Forest: Question of Conservation and Savanna.« V: </hi><hi
-                    rend="italic" style="font-size:10pt">L‘uomo e la foresta, Secc. XIII–
+                    društev Slovenije - Gozdarska založba, 2016.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Rackham, Oliver. »Forest History of Countries without Much Forest: Question of Conservation and Savanna.« V: </hi><hi rend="italic" style="font-size:10pt">L‘uomo e la foresta, Secc. XIII–
                     XVIII</hi><hi style="font-size:10pt">, ur. Simonetta Cavaciocchi, 297–326.
                     Firenze: Istituto Internazionale di Storia Economica »F. Datini« Prato (Atti 27)
-                    – Le Monnier, 1996.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Sansa, Renato. »Usi del bosco: modalità di attivazione delle risorse a confronto.« </hi><hi
-                    rend="italic" style="font-size:10pt">Storia
-                urbana,</hi><hi style="font-size:10pt" xml:space="preserve"> 76/77 (1996): 203–12.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Sansa, Renato. »Una risorsa molti significati: l'uso del bosco nelle regione italiane in età preindustriale.« V: </hi><hi
-                    rend="italic" style="font-size:10pt">Storia economica e ambiente italiano (ca.
-                    1400</hi><hi rend="italic color(0F0F0F)" style="font-size:10pt" xml:space="preserve">‒1850), </hi><hi
-                    style="font-size:10pt">ur. Guido Alfani, Matteo Di Tullio in Luca Mocarelli,
+                    – Le Monnier, 1996.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Sansa, Renato. »Usi del bosco: modalità di attivazione delle risorse a confronto.« </hi><hi rend="italic" style="font-size:10pt">Storia
+                urbana,</hi><hi style="font-size:10pt" xml:space="preserve"> 76/77 (1996): 203–12.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Sansa, Renato. »Una risorsa molti significati: l'uso del bosco nelle regione italiane in età preindustriale.« V: </hi><hi rend="italic" style="font-size:10pt">Storia economica e ambiente italiano (ca.
+                    1400</hi><hi rend="italic color(0F0F0F)" style="font-size:10pt" xml:space="preserve">‒1850), </hi><hi style="font-size:10pt">ur. Guido Alfani, Matteo Di Tullio in Luca Mocarelli,
                     256–72. Milano: FrancoAngeli, 2012.</hi>
-            </p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Santos, Rui in Maria José Roxo. »The Tale of Two Tragedies. The Commons of Serra de Mértola in Alentejo (Southern Portugal) and their Privatization, Eighteenth to Twentieth Centuries.« V: </hi><hi
-                    rend="italic" style="font-size:10pt">Rural Societies and Environment at Risk:
+            </bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Santos, Rui in Maria José Roxo. »The Tale of Two Tragedies. The Commons of Serra de Mértola in Alentejo (Southern Portugal) and their Privatization, Eighteenth to Twentieth Centuries.« V: </hi><hi rend="italic" style="font-size:10pt">Rural Societies and Environment at Risk:
                     Ecology, Property Rights and Social Organisation in Fragile Areas (Middle
-                    Ages</hi><hi style="font-size:10pt">–</hi><hi rend="italic"
-                    style="font-size:10pt">Twentieth
-                Century)</hi><hi style="font-size:10pt" xml:space="preserve">, ur. Bas Van Bavel in Eric Thoen, 115–44. Turnhout: Brepols, 2013. </hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Scott, C. James. </hi><hi
-                    rend="italic" style="font-size:10pt">Domination and the Arts of Resistance.
+                    Ages</hi><hi style="font-size:10pt">–</hi><hi rend="italic" style="font-size:10pt">Twentieth
+                Century)</hi><hi style="font-size:10pt" xml:space="preserve">, ur. Bas Van Bavel in Eric Thoen, 115–44. Turnhout: Brepols, 2013. </hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Scott, C. James. </hi><hi rend="italic" style="font-size:10pt">Domination and the Arts of Resistance.
                     Hidden Transcripts</hi><hi style="font-size:10pt">. New Haven-London: Yale
                     University Press, 1990.</hi>
-            </p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Scott, C. James. </hi><hi
-                    rend="italic" style="font-size:10pt">Seeing like a State. How Certain Schemes to
+            </bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Scott, C. James. </hi><hi rend="italic" style="font-size:10pt">Seeing like a State. How Certain Schemes to
                     Improve the Human Condition Have Failed</hi><hi style="font-size:10pt">. New
-                    Haven-London: Yale University Press, 1998.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Sylvain, Oliver. »Peasant Property, Common Land and Environment in the Garrigues of the Languedoc from the Seventeenth to the Twenty–First Centuries.« V: </hi><hi
-                    rend="italic" style="font-size:10pt">Rural Societies and Environment at Risk:
+                    Haven-London: Yale University Press, 1998.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Sylvain, Oliver. »Peasant Property, Common Land and Environment in the Garrigues of the Languedoc from the Seventeenth to the Twenty–First Centuries.« V: </hi><hi rend="italic" style="font-size:10pt">Rural Societies and Environment at Risk:
                     Ecology, Property Rights and Social Organisation in Fragile Areas (Middle
                     Ages-Twentieth
-                Century)</hi><hi style="font-size:10pt" xml:space="preserve">, ur. Bas Van Bavel in Eric Thoen, 89–114.Turnhout: Brepols, 2013. </hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Štih, Peter in Žiga Zwitter, ur. </hi><hi
-                    rend="italic" style="font-size:10pt">Man, Nature and Environment between the
+                Century)</hi><hi style="font-size:10pt" xml:space="preserve">, ur. Bas Van Bavel in Eric Thoen, 89–114.Turnhout: Brepols, 2013. </hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Štih, Peter in Žiga Zwitter, ur. </hi><hi rend="italic" style="font-size:10pt">Man, Nature and Environment between the
                     Northern Adriatic and the Eastern Alps in Premodern
-                Times.</hi><hi style="font-size:10pt" xml:space="preserve"> Ljubljana: Znanstvena založba Filozofske fakultete, 2014.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Thompson, P. Edward. </hi><hi
-                    rend="italic" style="font-size:10pt">Navade, plebejska kultura in moralna
+                Times.</hi><hi style="font-size:10pt" xml:space="preserve"> Ljubljana: Znanstvena založba Filozofske fakultete, 2014.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Thompson, P. Edward. </hi><hi rend="italic" style="font-size:10pt">Navade, plebejska kultura in moralna
                     ekonomija</hi><hi style="font-size:10pt">. Ljubljana: Studia humanitatis,
-                    2010.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Torre, Angelo. »Il bosco della Rama: rituali e forme di possesso nel Monferrato casalese.« V: </hi><hi
-                    rend="italic" style="font-size:10pt">Comunità e questioni di confini in Italia
-                    settentrionale (XVI</hi><hi style="font-size:10pt"
-                    >–</hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">XIX sec.), </hi><hi
-                    style="font-size:10pt">ur. Mauro Ambrosoli in Furio Bianco, 60–71. Milano:
-                    FrancoAngeli, 2004.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Van Cruyningen, Piet. »State, Property Rights and Sustainability of Drained Areas along the North Sea Coast, Sixteenth–Eighteenth Eenturies.« V: </hi><hi
-                    rend="italic" style="font-size:10pt">Rural Societies and Environment at Risk:
+                    2010.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Torre, Angelo. »Il bosco della Rama: rituali e forme di possesso nel Monferrato casalese.« V: </hi><hi rend="italic" style="font-size:10pt">Comunità e questioni di confini in Italia
+                    settentrionale (XVI</hi><hi style="font-size:10pt">–</hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">XIX sec.), </hi><hi style="font-size:10pt">ur. Mauro Ambrosoli in Furio Bianco, 60–71. Milano:
+                    FrancoAngeli, 2004.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Van Cruyningen, Piet. »State, Property Rights and Sustainability of Drained Areas along the North Sea Coast, Sixteenth–Eighteenth Eenturies.« V: </hi><hi rend="italic" style="font-size:10pt">Rural Societies and Environment at Risk:
                     Ecology, Property Rights and Social Organisation in Fragile Areas (Middle
-                    Ages</hi><hi style="font-size:10pt">–</hi><hi rend="italic"
-                    style="font-size:10pt">Twentieth
-                Century)</hi><hi style="font-size:10pt" xml:space="preserve">, ur. Bas Van Bavel in Eric Thoen, 181–207. Turnhout: Brepols, 2013. </hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Van Bavel, Bas in Eric Thoen. »Rural History and the Environment. A Survey of the Relationship between Property Rights, Social Structures and Sustainability of Land Use.« V: </hi><hi
-                    rend="italic" style="font-size:10pt">Rural Societies and Environment at Risk:
+                    Ages</hi><hi style="font-size:10pt">–</hi><hi rend="italic" style="font-size:10pt">Twentieth
+                Century)</hi><hi style="font-size:10pt" xml:space="preserve">, ur. Bas Van Bavel in Eric Thoen, 181–207. Turnhout: Brepols, 2013. </hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Van Bavel, Bas in Eric Thoen. »Rural History and the Environment. A Survey of the Relationship between Property Rights, Social Structures and Sustainability of Land Use.« V: </hi><hi rend="italic" style="font-size:10pt">Rural Societies and Environment at Risk:
                     Ecology, Property Rights and Social Organisation in Fragile Areas (Middle
-                    Ages</hi><hi style="font-size:10pt"
-                    >–</hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Twentieth Century), </hi><hi
-                    style="font-size:10pt">ur. Bas Van Bavel in Eric
-                Thoen</hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">, </hi><hi style="font-size:10pt" xml:space="preserve">15–42. Turnhout: Brepols, 2013. </hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Verginella, Marta. »Od Crocejevih nečakov do mikrozgodovine (spremna beseda).« V: </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Nematerialna dediščina. Življenjska pot piemontskega eksorcista iz XVII. stoletja, </hi><hi
-                    style="font-size:10pt">ur. Giovanni Levi, 215–31. Ljubljana: Studia humanitatis,
-                    1995.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Vilfan, Sergij. »Soseske in druge podeželske skupnosti.« V: </hi><hi
-                    rend="italic" style="font-size:10pt">Gospodarska in družbena zgodovina
+                    Ages</hi><hi style="font-size:10pt">–</hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Twentieth Century), </hi><hi style="font-size:10pt">ur. Bas Van Bavel in Eric
+                Thoen</hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">, </hi><hi style="font-size:10pt" xml:space="preserve">15–42. Turnhout: Brepols, 2013. </hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Verginella, Marta. »Od Crocejevih nečakov do mikrozgodovine (spremna beseda).« V: </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Nematerialna dediščina. Življenjska pot piemontskega eksorcista iz XVII. stoletja, </hi><hi style="font-size:10pt">ur. Giovanni Levi, 215–31. Ljubljana: Studia humanitatis,
+                    1995.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Vilfan, Sergij. »Soseske in druge podeželske skupnosti.« V: </hi><hi rend="italic" style="font-size:10pt">Gospodarska in družbena zgodovina
                     Slovencev. Zgodovina agrarnih panog, 2</hi><hi style="font-size:10pt">, ur.
                     Pavle Blaznik, Bogo Grafenauer in Sergij Vilfan, 9–74. Ljubljana: Državna
-                    založba Slovenije, 1980a.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Vilfan, Sergij. »Agrarna premoženjska razmerja.« V: </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Gospodarska in družbena zgodovina Slovencev. Zgodovina agrarnih panog, 2, </hi><hi
-                    style="font-size:10pt">ur. Pavle Blaznik, Bogo Grafenauer in Sergij Vilfan,
+                    založba Slovenije, 1980a.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Vilfan, Sergij. »Agrarna premoženjska razmerja.« V: </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Gospodarska in družbena zgodovina Slovencev. Zgodovina agrarnih panog, 2, </hi><hi style="font-size:10pt">ur. Pavle Blaznik, Bogo Grafenauer in Sergij Vilfan,
                     403–479. Ljubljana: Državna založba Slovenije, 1980b.</hi>
-            </p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Vilfan, Sergij. </hi><hi
-                    rend="italic" style="font-size:10pt">Pravna zgodovina Slovencev</hi><hi
-                    style="font-size:10pt">. Ljubljana: Slovenska matica, 1996.</hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Vivier, Nadine. »Collective Property and Environment Concerns. The French Case, 1750–1900.« V: </hi><hi
-                    rend="italic" style="font-size:10pt">Rural Societies and Environment at Risk:
+            </bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Vilfan, Sergij. </hi><hi rend="italic" style="font-size:10pt">Pravna zgodovina Slovencev</hi><hi style="font-size:10pt">. Ljubljana: Slovenska matica, 1996.</hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Vivier, Nadine. »Collective Property and Environment Concerns. The French Case, 1750–1900.« V: </hi><hi rend="italic" style="font-size:10pt">Rural Societies and Environment at Risk:
                     Ecology, Property Rights and Social Organisation in Fragile Areas (Middle
-                    Ages</hi><hi style="font-size:10pt"
-                >–</hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Twentieth Century), </hi><hi style="font-size:10pt" xml:space="preserve">ur. Bas Van Bavel in Eric Thoen, 241–259. Turnhout: Brepols, 2013. </hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Winchester, J. L. Angus. »Property Rights, 'Good Neighbourhood' and Sustainability: the Management of Common Land in England and Wales, 1235–1965.« V: </hi><hi
-                    rend="italic" style="font-size:10pt">Rural Societies and Environment at Risk:
+                    Ages</hi><hi style="font-size:10pt">–</hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Twentieth Century), </hi><hi style="font-size:10pt" xml:space="preserve">ur. Bas Van Bavel in Eric Thoen, 241–259. Turnhout: Brepols, 2013. </hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Winchester, J. L. Angus. »Property Rights, 'Good Neighbourhood' and Sustainability: the Management of Common Land in England and Wales, 1235–1965.« V: </hi><hi rend="italic" style="font-size:10pt">Rural Societies and Environment at Risk:
                     Ecology, Property Rights and Social Organisation in Fragile Areas (Middle
                     Ages-Twentieth
-                Century)</hi><hi style="font-size:10pt" xml:space="preserve">, ur. Bas Van Bavel in Eric Thoen, 309–29. Turnhout: Brepols, 2013. </hi></p>
-            <p rend="Standard"
-                ><hi style="font-size:10pt" xml:space="preserve">• Winiwarter, Verena. »The Emerging Long-Term View: Challenges and Opportunities of Writing Environmental Histoies in Central Europe.« V: </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Man, Nature and Environment between the Northern Adriatic and the Eastern Alps in Premodern Times, </hi><hi style="font-size:10pt" xml:space="preserve">ur. Peter Štih in Žiga Zwitter, 8–22. Ljubljana: Znanstvena založba Filozofske fakultete, 2014. </hi></p>
-            <p rend="Standard"
-                    ><hi style="font-size:10pt" xml:space="preserve">• Zannini, Andrea. »Un ecomito? Venezia (XV–XVIII sec.).« V: </hi><hi
-                    rend="italic" style="font-size:10pt">Storia economica e ambiente italiano (ca.
+                Century)</hi><hi style="font-size:10pt" xml:space="preserve">, ur. Bas Van Bavel in Eric Thoen, 309–29. Turnhout: Brepols, 2013. </hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Winiwarter, Verena. »The Emerging Long-Term View: Challenges and Opportunities of Writing Environmental Histoies in Central Europe.« V: </hi><hi rend="italic" style="font-size:10pt" xml:space="preserve">Man, Nature and Environment between the Northern Adriatic and the Eastern Alps in Premodern Times, </hi><hi style="font-size:10pt" xml:space="preserve">ur. Peter Štih in Žiga Zwitter, 8–22. Ljubljana: Znanstvena založba Filozofske fakultete, 2014. </hi></bibl>
+            <bibl><hi style="font-size:10pt" xml:space="preserve">Zannini, Andrea. »Un ecomito? Venezia (XV–XVIII sec.).« V: </hi><hi rend="italic" style="font-size:10pt">Storia economica e ambiente italiano (ca.
                     1400–1850)</hi><hi style="font-size:10pt">, ur. Guido Alfani, Matteo di Tullio
-                    in Luca Mocarelli, 100–13. Torino: Franco Angeli, 2012.</hi></p>
-            <p rend="Standard" style="text-align:center;"><hi style="font-size:10pt">Nikita
-                    Meden</hi></p>
-            <p rend="Standard" style="text-align:center;"
-                ><hi style="font-size:10pt" xml:space="preserve">COMMUNAL LAND IN MODERN INTERNATIONAL HISTORIOGRAPHY: </hi></p>
-            <p rend="Standard" style="text-align:center;"><hi style="font-size:10pt">TOPICAL
-                    QUESTIONS</hi></p>
-            <p rend="Standard" style="text-align:center;"><hi style="font-size:10pt"
-                >SUMMARY</hi></p>
-            <p rend="Standard"><hi style="font-size:10pt">The contribution focuses on a number of
+                    in Luca Mocarelli, 100–13. Torino: Franco Angeli, 2012.</hi></bibl>
+                 </listBibl></div>
+    <div type="summary" xml:lang="en"> 
+        <docAuthor>Nikita
+                    Meden</docAuthor>
+            <head>COMMUNAL LAND IN MODERN INTERNATIONAL HISTORIOGRAPHY: TOPICAL
+                QUESTIONS</head>
+            <head>SUMMARY</head>
+            <p><hi style="font-size:10pt">The contribution focuses on a number of
                     topical questions concerning communal land – an issue that many
                     internationally-renowned historians have been researching in the last few
                     decades. The questions of the environment, ownership rights, collective
@@ -1143,7 +957,7 @@
                     changes regarding cultivated communal land can therefore contribute to or impede
                     the principles of sustainable land use. The latter must be identified, defined,
                     and especially understood in order to ensure a successful analysis.</hi>
-            </p>
-        </body>
+            </p></div>
+        </back>
     </text>
 </TEI>
