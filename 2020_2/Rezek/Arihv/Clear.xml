@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+             <title>Sodobna zgodovina v
+                 osnovnih in srednjih šolah v socialistični Sloveniji,
+                 1945–1990<note place="foot" xml:id="ftn0" n="*">Članek je nastal
+                     v okviru raziskovalnega projekta
+                     J6-9356<hi rend="italic"> Antifašizem v Julijski krajini v transnacionalni perspektivi, 1919–1954</hi>
+                     in raziskovalnega programa P6-0272 <hi rend="italic">Slovenija in
+                         Sredozemlje</hi>, ki ju financira Javna agencija za raziskovalno
+                     dejavnost Republike Slovenije.</note></title>
+             <author>
+                 <name>
+                     <forename>Mateja</forename>
+                     <surname>Režek</surname>
+                     <roleName>Dr.</roleName>
+                     <roleName>višja znanstvena sodelavka</roleName>
+                     <affiliation>Znanstveno-raziskovalno
+                         središče Koper</affiliation>
+                     <address>
+                         <addrLine>Garibaldijeva 1</addrLine>
+                         <addrLine>SI-6000 Koper</addrLine>
+                     </address>
+                     <email>mateja.rezek@zrs-kp.si</email>
+                 </name>
+             </author>
+         </titleStmt>
+          <editionStmt>
+              <edition>
+                  <date>2020-07</date>
+              </edition>
+          </editionStmt>
+          <publicationStmt>
+              <publisher>
+                  <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                  <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                  <address>
+                      <addrLine>Privoz 11</addrLine>
+                      <addrLine>SI-1000 Ljubljana</addrLine>
+                  </address>
+              </publisher>
+              <pubPlace>http://ojs.inz.si/pnz/article/view/1208</pubPlace>
+              <date>2020</date>
+              <availability status="free">
+                  <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+              </availability>
+          </publicationStmt>
+          <seriesStmt>
+              <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+              <title xml:lang="en">Contributions to Contemporary History</title>
+              <biblScope unit="volume">60</biblScope>
+              <biblScope unit="issue">2</biblScope>
+              <idno type="ISSN">2463-7807</idno>
+          </seriesStmt>
+          <sourceDesc>
+              <p>No source, born digital.</p>
+          </sourceDesc>
+      </fileDesc>
+       <encodingDesc>
+           <projectDesc xml:lang="en">
+               <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                   historiographic journals, dedicated to publishing articles from the field of
+                   contemporary history (the 19th and 20th century).</p>
+               <p>The journal is published three times per year in Slovenian and in the following
+                   foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                   and Czech. The articles are all published with abstracts in English and
+                   Slovenian as well as summaries in English.</p>
+           </projectDesc>
+           <projectDesc xml:lang="sl">
+               <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                   zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                   stoletje).</p>
+               <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                   angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                   in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                   v angleščini.</p>
+           </projectDesc>
+       </encodingDesc>
+       <profileDesc>
+           <langUsage>
+               <language ident="sl"/>
+               <language ident="en"/>
+           </langUsage>
+           <textClass>
+               <keywords xml:lang="en">
+                   <term>history teaching</term>
+                   <term>history textbooks</term>
+                   <term>curricula</term>
+                   <term>socialism</term>
+                   <term>collective memory</term>
+                   <term>ideologisation</term>
+               </keywords>
+               <keywords xml:lang="sl">
+                   <term>pouk zgodovine</term>
+                   <term>zgodovinski učbeniki</term>
+                   <term>učni načrti</term>
+                   <term>socializem</term>
+                   <term>kolektivni spomin</term>
+                   <term>ideologizacija</term>
+               </keywords>
+           </textClass>
+       </profileDesc>
+       <revisionDesc>
+           <listChange>
+               <change>
+                   <date>2020-10-09</date>
+                   <name>Neja Blaj Hribar</name>
+                   <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+               </change>
+           </listChange>
+       </revisionDesc>
+   </teiHeader>
+   <text>
+       <front>
+           <docAuthor>Mateja Režek<note place="foot" xml:id="ftn1" n="**"><hi rend="bold">Dr., višja znanstvena sodelavka, Znanstveno-raziskovalno
+               središče Koper, Garibaldijeva 1, SI-6000 Koper,
+               <ref target="mailto:mateja.rezek@zrs-kp.si">mateja.rezek@zrs-kp.si</ref></hi></note></docAuthor>
+           <docImprint>
+               <idno type="cobissType">Cobiss tip: 1.02</idno>
+           </docImprint>
+           <div type="abstract">
+               <head>IZVLEČEK</head>
+               <p>
+                   <hi rend="italic">Članek obravnava pouk sodobne zgodovine v
+                       osnovnih in srednjih šolah v socialistični Sloveniji/Jugoslaviji na podlagi
+                       sistematičnega pregleda in analize učnih načrtov in zgodovinskih učbenikov med
+                       letoma 1945 in 1990. Raziskava se osredotoča na politično rabo zgodovine kot
+                       enega ključnih instrumentov legitimizacije komunistične oblasti. Glavne
+                       legitimizacijske točke so bile narodnoosvobodilni boj, antifašizem in socialna
+                       revolucija ter koncept reševanja nacionalnega vprašanja, tj. načelo bratstva in
+                       enotnosti, po sporu z Informbirojem in odmiku Jugoslavije od Sovjetske zveze pa
+                       sta se med zgodovinskimi kanoni zasidrala tudi Titov upor Stalinu ter
+                       samoupravljanje in neuvrščenost kot specifiki jugoslovanskega
+                       socializma.</hi>
+               </p>
+               <p>
+                   <hi rend="italic">Ključne besede: pouk zgodovine, zgodovinski
+                       učbeniki, učni načrti, socializem, kolektivni spomin, ideologizacija</hi>
+               </p>
+           </div>
+           <div type="abstract" xml:lang="en">
+               <head>ABSTRACT</head>
+               <head>TEACHING OF
+                       CONTEMPORARY HISTORY IN PRIMARY AND SECONDARY SCHOOLS IN SOCIALIST SLOVENIA,
+                       1945–1990
+               </head>
+               <p>
+                   <hi rend="italic">The article
+                       discusses the teaching of contemporary history in primary and secondary schools
+                       in the socialist Slovenia/Yugoslavia based on the systematic overview and
+                       analysis of school curricula and history textbooks between 1945 and 1990. The
+                       research focuses on the political use of history as one of the key instruments
+                       of legitimising the communist rule. Its main legitimation points were the
+                       National Liberation Struggle during World War II, anti-fascism, and the social
+                       revolution. Another important legitimising tenet was the concept of resolving
+                       the national question; i.e. the principle of brotherhood and unity. After the
+                       split between the Soviet Union and Yugoslavia in 1948, Tito’s resistance to
+                       Stalin, self-management, and non-alignment also entered the historical canon as
+                       the specific qualities of the Yugoslav socialism.</hi>
+               </p>
+               <p>
+                   <hi rend="italic">Keywords: history teaching, history
+                       textbooks, curricula, socialism, collective memory, ideologisation</hi>
+               </p>
+           </div>
+       </front>
+      <body>
+         <p>Kolektivni zgodovinski spomin je konstrukcija skupne
+                    preteklosti, pri kateri ima šolska zgodovina, zlasti zgodovinski učbeniki,
+                    izjemno pomembno vlogo. Za vsakogar, ki je kdaj hodil v šolo, so učbeniki eden
+                    prvih stikov z zgodovino, sence šolske zgodovine pa nas spremljajo vse
+                    življenje. Četudi se zaradi družbenih okoliščin in individualnih razlogov naši
+                    pogledi na preteklost kasneje spremenijo, sledovi učbenikov ostanejo. Pri
+                    presojanju vsebine učnih načrtov in zgodovinskih učbenikov, ki so v središču
+                    tega prispevka, ne smemo prezreti, da so ti podvrženi dejavnikom časa in okolja
+                    še močneje kot druge zvrsti zgodovinopisja. Učbeniki in učni načrti niso le
+                    produkt avtorjev, temveč v prvi vrsti ogledalo dominantnega vrednostnega
+                    sistema, ideologije in nazorov neke družbe, ki se najbolj korenito spremenijo ob
+                    velikih družbenih in političnih prevratih. Ti za seboj praviloma potegnejo
+                    spreminjanje zgodovine oziroma konstrukcijo zgodovinskega spomina, ki naj bi
+                    zagotovil legitimnost in zgodovinsko identiteto novi ureditvi, pri čemer se
+                    preteklost znajde v orwellovskih funkciji obvladovanja sedanjosti in
+                    prihodnosti: »Kdor obvladuje preteklost, obvladuje prihodnost, kdor obvladuje
+                    sedanjost, obvladuje preteklost.«
+                <note place="foot" xml:id="ftn2" n="2">
+               <p rend="footnote text"> George Orwell, <hi rend="italic">1984</hi> (Ljubljana: Mladinska knjiga, 1983),
+                    28.</p>
+            </note>
+         </p>
+         <p>V socialistični Jugoslaviji je bila zgodovina eno od
+                    pomembnih orodij legitimizacije politične oblasti.
+                Osrednje legitimizacijske
+                    točke so bile antifašizem,
+                <hi rend="italic">narodnoosvobodilni boj</hi> (NOB) in 
+                <hi rend="italic">ljudska revolucija</hi>, znotraj katerih je morala komunistična partija imeti
+                    popoln primat, zelo pomembno vlogo pa je imel tudi koncept reševanja
+                    nacionalnega vprašanja v Jugoslaviji, tj. načelo bratstva in enotnosti. Po sporu
+                    z Informbirojem in odmiku Jugoslavije od Sovjetske zveze so se med zgodovinskimi
+                    kanoni zasidrali tudi upor proti Stalinu ter samoupravljanje in neuvrščenost kot
+                    specifiki jugoslovanskega socializma, vse našteto pa je prežemal kult Titove
+                    osebnosti. Politična oblast je med prednostne naloge zgodovinopisja uvrstila
+                    iskanje tradicij naprednih gibanj v preteklosti in dokazovanje linearnosti
+                    zgodovinskega razvoja kot nenehnega napredka od nižjih k višjim oblikam družbene
+                    ureditve, od razredne k brezrazredni družbi. Zgodovinopisje naj bi se napajalo s
+                    historičnim materializmom kot aplikacijo dialektičnega materializma na
+                    zgodovinski razvoj ter se usmerilo k marksističnemu preučevanju zgodovine
+                    ljudskih množic. Hkrati s prevajanjem zgodovine v jezik marksizma bi morali
+                    zgodovinarji razširiti svoje raziskave na novejšo in sodobno zgodovino, zlasti
+                    na obdobje med obema vojnama ter na drugo svetovno vojno.
+                <note place="foot" xml:id="ftn3" n="3">
+               <p rend="footnote text"> Več o ideološkem in
+                        političnem »usmerjanju« povojnega zgodovinopisja Snježana Koren,
+                        <hi rend="italic">Politika povijesti u Jugoslaviji (1945–1960): Komunistička partija Jugoslavije, nastava povijesti, historiografija </hi>(Zagreb:
+                        Srednja Europa, 2012). Magdalena Najbar Agičić, <hi rend="italic">U skladu s
+                            marksizmom ili činjenicama?: hrvatska historiografija 1945–1960</hi>
+                        (Zagreb: Ibis, 2013). Mateja Režek, »Usmerjena preteklost: mehanizmi
+                        ideološke in politične 'kontaminacije' zgodovinopisja v socialistični
+                        Sloveniji in Jugoslaviji (1945–1966),« <hi rend="italic">Acta Histriae</hi>
+                        22, št. 4 (2014): 971–92.</p>
+            </note>
+         </p>
+         <p>Ena prvih nalog, ki si jih je politična oblast zadala na
+                    področju zgodovinopisja, je bila priprava novih šolskih učbenikov, toda ta se je
+                    pokazala kot izjemno zahtevna naloga, saj so prvi zgodovinski učbeniki domačih
+                    avtorjev začeli izhajati šele sredi petdesetih let. Do resnih razhajanj glede
+                    učbenikov je v jugoslovanskem političnem vrhu prišlo že poleti 1945. Ob
+                    vprašanju, ali naj se pripravi enoten učbenik nacionalne zgodovine za celo
+                    Jugoslavijo ali pa naj ima vsaka republika svojega, sta se v zveznem ministrstvu
+                    za prosveto oblikovali dve struji: slovenski, hrvaški in nekateri srbski
+                    predstavniki so si prizadevali za ločene učbenike po republikah, večina
+                    predstavnikov iz Srbije, Bosne in Hercegovine, Črne Gore in Makedonije pa je
+                    zagovarjala enotne zgodovinske učbenike. Prevladala je druga, »unitaristična«
+                    struja, zato so prosvetne oblasti predpisale enotne učbenike, toda kmalu je bilo
+                    republikam začasno dovoljeno izdajati lastne učbenike,
+                <note place="foot" xml:id="ftn4" n="4">
+               <p rend="endnote text"> Carol S. Lilly, <hi rend="italic">Power and Persuasion: Ideology and Rhetoric in Communist
+                            Yugoslavia, 1944–1953</hi> (Boulder: Westview Press, 2001),
+                    62.</p>
+            </note> kar je sčasoma preraslo v trajno pravico. Napetosti med skupno jugoslovansko identiteto in individualnostjo posameznih narodov so se torej pojavljale že v obdobju najbolj izrazitega centralizma, še bolj očitne pa so postale v kasnejših desetletjih.</p>
+         <p>Najpomembnejše interpretativne smernice na področju sodobne zgodovine so določali najvišji partijski voditelji, zlasti Tito, s pomenom njegovih govorov in referatov za jugoslovansko zgodovinopisje pa se lahko po pomenu za sovjetsko zgodovinopisje kosa le še <hi rend="italic">Kratka zgodovina VKP(b)</hi>. V Sloveniji je imel na področju ideološkega usmerjanja
+                    zgodovinopisja ključno vlogo minister za znanost in kulturo Boris Ziherl, ki je
+                    leta 1947, ob deseti obletnici ustanovitve Komunistične partije Slovenije,
+                    zapisal, da je bila njena ustanovitev ne le »preokretnica v razvoju slovenskega
+                    delavskega gibanja«, ampak »preokretnica v zgodovini slovenskega naroda sploh.
+                    Bila je zgodovinska nuja, da slovensko ljudstvo dobi novo politično vodstvo,
+                    svojo novo, zares ljudsko in zares narodno stranko, ki ga bo sposobna voditi
+                    skozi težke preizkušnje k zmagi. Taka stranka je mogla biti samo Komunistična
+                    partija Slovenije.«
+                <note place="foot" xml:id="ftn5" n="5">
+               <p rend="footnote text"> SI AS 1589/III, š.
+                        212, Boris Ziherl, »Mesto Komunistične partije Slovenije v zgodovini
+                        slovenskega naroda« (Ziherlov govor je bil objavljen v <hi rend="italic">Ljudski pravici</hi>, 18. 4. 1947).</p>
+            </note>
+                Leta 1951 je Ziherl predstavil smernice, ki bi jim moralo
+                    slediti slovensko zgodovinopisje. Na zborovanju slovenskih zgodovinarjev v
+                    Ljubljani je poudaril, da, podobno kot vsako revolucijo, »tudi našo, v
+                    osvobodilni vojni spočeto revolucijo, obeležuje tisto, čemur pravimo
+                    prevrednotenje vseh vrednot«. Starejše slovensko zgodovinopisje je ocenil kot
+                    odsev nemškega zgodovinopisja ter mu očital konservativnost, zamaknjenost v
+                    starejša obdobja, »beg od preklete aktualnosti«, odsotnost marksizma in prevlado
+                    pozitivizma. Napake slovenskega zgodovinopisja so bile po Ziherlovem mnenju
+                    »razredno pogojene«, saj naj bi prav razredna družba zgodovinarjem zastirala
+                    pogled in ovirala objektivno vrednotenje preteklosti. Slovenske zgodovinarje je
+                    pozval, da naj več raziskovalne pozornosti namenjajo najnovejši dobi, zlasti
+                    obdobju med obema vojnama, brez katerega ni mogoče pisati zgodovine NOB, pri
+                    svojem delu pa naj sledijo dialektični metodi zgodovinskega
+                    materializma.<note place="foot" xml:id="ftn6" n="6">
+               <p rend="endnote text">
+                        Boris Ziherl, <anchor xml:id="Hlk44315669"/>»O nekaterih praktičnih in
+                        teoretičnih problemih slovenskega zgodovinopisja,« v: <anchor xml:id="Hlk44264831"/>Boris Ziherl, <hi rend="italic">Zbrana dela: peta
+                            knjiga</hi> (Ljubljana: SAZU, 1989), 56–70.</p>
+            </note>
+         </p>
+         <p>Še bolj kot akademsko zgodovinopisje je bila političnemu
+                    nadzoru podvržena šolska zgodovina. Zanimanje komunistične partije za vzgojo in
+                    izobraževanje je bilo vgrajeno globoko v njen ideološko-politični program, ki ni
+                    predvideval le izgradnje nove države, temveč tudi oblikovanje nove socialistične
+                    družbe in novega socialističnega človeka. Družba, ki je prekinila s tradicijo in
+                    zamenjala prejšnje vrednote z novimi, je potrebovala nove šole, te pa nov
+                    izobraževalni sistem, ki bi pomagal zgraditi novo identiteto jugoslovanske
+                    družbe kot celote. Toda multietnične skupnosti, v nasprotju z enonacionalnimi
+                    državami, izjemno težko razvijejo enotno kolektivno identiteto. Še zlasti
+                    zahtevno je bilo to v socialistični Jugoslaviji, kjer je bilo še tisto malo
+                    skupne jugoslovanske preteklosti obremenjeno z nacionalnimi antagonizmi
+                    predvojne Jugoslavije in krvavimi obračunavanji druge svetovne vojne. Nove
+                    oblasti so bile zato prisiljene iznajti skupno jugoslovansko zgodovino, na
+                    kateri bi utemeljile kolektivno identiteto.
+                <note place="foot" xml:id="ftn7" n="7">
+               <p rend="footnote text">
+                  <anchor xml:id="Hlk44265324"/>Wolfgang Höpken, »History Education and
+                        Yugoslav (Dis-)Integration,« v: Wolfgang Höpken, ur., <hi rend="italic">Öl
+                            ins Feuer? – Oil on Fire?: Schulbücher, ethnische Stereotypen und Gewalt
+                            in Südosteuropa – Textbooks, Ethnic Stereotypes and Violence in
+                            Southeastern Europe</hi> (Hannover: Verlag Hansche Buchhandlung
+                        Braunschweig, 1996),
+                100.</p>
+            </note> Kot rešitev se je ponujal skupni narodnoosvobodilni boj jugoslovanskih narodov, ki se je povezoval tako s socialno revolucijo kot s konceptom bratstva in enotnosti. Iz izkušnje druge svetovne vojne se tako ni gradila samo legitimnost komunistične partije, temveč je bil spomin na skupni boj in medvojno trpljenje hkrati tudi instrument integracije oziroma skupne identitete jugoslovanskih narodov.
+            </p>
+         <p>Leta 1945 so bili predvojni zgodovinski učbeniki umaknjeni
+                    iz šol, saj niso bili uglašeni z novo jugoslovansko stvarnostjo in s partijskim
+                    konceptom zgodovine, ki bi morala posredovati dialektično-materialistični pogled
+                    na svet. Ta je v prvih povojnih letih prodiral v jugoslovanske šole pretežno v
+                    stalinistični obliki prek prevodov sovjetskih zgodovinskih učbenikov, saj takoj
+                    po vojni še ni bilo domačih učbenikov, ki bi sledili novim ideološkim konceptom.
+                    V šolah so zato uporabljali prevode sovjetskih učbenikov, čeprav ti niso bili
+                    usklajeni z učnimi načrti, saj niso obravnavali nacionalne zgodovine, kronološko
+                    pa so segli le do oktobrske revolucije.
+            </p>
+         <p>Izhodišče šolske zgodovine so učni načrti, ki narekujejo
+                    tudi vsebino učbenikov. Prvi začasni učni načrti so nastali že pred koncem
+                    vojne. V Sloveniji je bil že septembra 1944 izdan začasni učni načrt za osnovne
+                    šole, ki je veljal na ozemlju pod partizanskim nadzorom. Pri zgodovini je med
+                    drugim predpisal tudi pouk o drugi svetovni vojni, v okviru katerega naj bi
+                    učitelji šolski mladini spregovorili o vzrokih zloma kraljeve Jugoslavije,
+                    osvobodilnem boju jugoslovanskih narodov, osebnosti maršala Tita in
+                    vzpostavljanju ljudske oblasti.
+                <note place="foot" xml:id="ftn8" n="8">
+               <p rend="endnote text"> SŠM, <anchor xml:id="Hlk44277450"/>
+                  <hi rend="italic">Začasni učni načrt za osnovne
+                            šole</hi>, september 1944.</p>
+            </note>
+                Podobno je predpisoval tudi prvi povojni učni načrt za
+                    osnovne šole iz leta 1946.<note place="foot" xml:id="ftn9" n="9">
+               <p rend="footnote text"> SŠM, <hi rend="italic">Začasni učni načrt za višje
+                            osnovne šole</hi> (Ljubljana: Državna založba Slovenije,
+                    1946).</p>
+            </note> Dikcija prvih dveh začasnih učnih načrtov je bila glede na čas, v katerem sta nastala, presenetljivo zmerna, česar pa ni mogoče trditi za učni načrt za osnovne šole iz leta 1948. Ta je poleg seznanitve učencev z zgodovinskim dogajanjem »s stališča marksizma leninizma« in razvijanja »zavestne in aktivne ljubezni do vsega, kar je napredno in človeško«, zahteval tudi, da je treba pri osnovnošolcih razvijati »mržnjo do vsega nazadnjaškega in nečloveškega«.<note place="foot" xml:id="ftn10" n="10">
+               <p rend="endnote text"> SŠM, <hi rend="italic">Učni načrt za osnovne šole, nižje razrede sedemletk in
+                            višje osnovne šole</hi> (Ljubljana: Ministrstvo za prosveto LRS, 1948),
+                        91.</p>
+            </note> V nadaljevanju je podrobno našteval teme, s katerimi bi se morali seznaniti učenci. V poglavjih o obdobju med obema vojnama je poudarjal predvsem vlogo komunistične partije, čeprav je bila ta pred drugo svetovno vojno marginalna politična stranka. Podrobno je bila predpisana tudi snov o drugi svetovni vojni, s poudarkom na boju jugoslovanskih narodov proti okupatorjem in njihovim sodelavcem ter na vlogi komunistične partije, osnovnošolci pa naj bi se seznanili tudi z »izdajništvom vodstva bivših političnih strank in domačih izdajalcev«. Nekaj ur je bilo namenjenih tudi oblikovanju ljudske oblasti med vojno in izgradnji socializma po njej.
+                <note place="foot" xml:id="ftn11" n="11">
+               <p rend="footnote text"> Ibid., 94,
+                    95.</p>
+            </note>
+         </p>
+         <p>Gimnazije so prvi začasni učni načrt dobile leta 1945.
+                    Prva povojna generacija gimnazijcev naj bi se med drugim seznanila z zgodovino
+                    predvojne Jugoslavije in njenim propadom, partizanskim gibanjem in njegovo zmago
+                    ter z oblikovanjem ljudske oblasti in nove jugoslovanske države.
+                <note place="foot" xml:id="ftn12" n="12">
+               <p rend="endnote text"> SŠM, <hi rend="italic">Začasni učni načrt na gimnazijah in klasičnih gimnazijah
+                            za šolsko leto 1945–1946</hi> (Ljubljana: Državna založba Slovenije,
+                        1945), 10–14.</p>
+            </note>
+                Podrobneje je učno snov predpisoval dopolnjeni učni načrt
+                    iz leta 1946, zaradi dejstva, da učbenikov novejše zgodovine takrat še ni bilo,
+                    pa so bila kot literatura predpisana kar dela vodilnih politikov: Josipa Broza
+                    Tita, Edvarda Kardelja in Borisa Ziherla.
+                <note place="foot" xml:id="ftn13" n="13">
+               <p rend="footnote text"> SŠM, <hi rend="italic">Spremembe k učnemu načrtu za gimnazijo za šolsko leto
+                            1946/47</hi> (Ljubljana: Državna založba Slovenije,
+                    1946).</p>
+            </note> Še bolj natančno je snov predpisoval učni načrt za gimnazije iz leta 1948. Skozi pouk zgodovine naj bi gimnazijci, podobno kot osnovnošolci, razvijali »ljubezen do vsega, kar je v zgodovini napredno in človečansko, in sovraštvo do vsega reakcionarnega in nečlovečanskega«. Pouk zgodovine naj bi jih oblikoval v »zavestne in požrtvovalne graditelje in branitelje naše ljudske domovine«. Poleg tega bi jim moral ponuditi »pravilno orientacijo v zgodovini in sodobnem političnem življenju in pravilno razumevanje zakonitosti zgodovinske poti, ki je pripeljala našo deželo do zmage socializma, kakor tudi zakonitosti zgodovinske poti, po kateri gre človeštvo k svojemu končnemu smotru – komunizmu, družbi neomejenega napredka in človečanstva«.<note place="foot" xml:id="ftn14" n="14">
+               <p rend="footnote text"> SŠM, <hi rend="italic">Učni načrt za gimnazije, nižje gimnazije in višje razrede
+                            sedemletk</hi> (Ljubljana: Ministrstvo za prosveto LRS, 1948),
+                    70.</p>
+            </note>
+                Razdelitev zgodovinskih obdobij je ostala tradicionalna:
+                    od antike do moderne dobe, v skladu z novo ideologijo pa so se spremenili
+                    vsebinski poudarki in terminologija. Pri pouku antične zgodovine je bil
+                    poudarjen sistem sužnjelastništva, srednji vek je postal obdobje fevdalizma,
+                    velikih družbenih razlik in kmečkih uporov, pri novoveški zgodovini pa je bilo v
+                    ospredju vzpostavljanje kapitalističnih odnosov in oblikovanje delavskega
+                    gibanja. Prva svetovna vojna je postala nekakšen uvod v oktobrsko revolucijo,
+                    velik poudarek pa je bil tudi na zgodovini Sovjetske zveze. Nacionalni zgodovini
+                    oziroma zgodovini jugoslovanskih narodov je bil namenjen pouk zgodovine v
+                    zadnjem letniku gimnazije. Pri obdobju med obema vojnama je bil temeljni
+                    poudarek na delavskem gibanju in delovanju komunistične partije, najbolj
+                    podrobno pa je bil razčlenjen načrt pouka zgodovine NOB, ki je skozi partizanske
+                    bitke in organizacijo oblastnih organov zajel vojaške in politične vidike
+                    vojnega časa.
+                <note place="foot" xml:id="ftn15" n="15">
+               <p rend="footnote text"> Ibid.,
+                    70–114.</p>
+            </note>
+         </p>
+         <p>Po sporu med Jugoslavijo in Sovjetsko zvezo, ko se je
+                    Jugoslavija začela odpirati proti Zahodu in so bile najbolj grobe oblike nadzora
+                    in represije opuščene, so iz učnih načrtov izginile nekatere najbolj rigidne
+                    ideološke zahteve, sčasoma tudi tista o »razvijanju sovraštva do vsega
+                    nazadnjaškega«, toda temeljni ideološki postulati in vsebinski poudarki so
+                    ostali bolj ali manj enaki. Še več, v prvem obdobju po sporu z Informbirojem se
+                    je pritisk partije na zgodovinopisje še bolj okrepil, kajti resolucija
+                    Informbiroja je jugoslovanskim voditeljem očitala pretirano hvalisanje in
+                    neskromnost v prikazovanju zaslug jugoslovanskih komunistov in partizanov za
+                    zmago v pretekli vojni, te obtožbe pa so zahtevale hiter in učinkovit odgovor.
+                    Okvir, znotraj katerega se je v Jugoslaviji pisala zgodovina partije in NOB, je
+                    postavilo Titovo politično poročilo na petem kongresu Komunistične partije
+                    Jugoslavije (KPJ) julija 1948, v katerem je generalni sekretar podal podroben
+                    pregled zgodovine jugoslovanske partije in na tej podlagi utemeljeval pravilnost
+                    njene politike.
+                <note place="foot" xml:id="ftn16" n="16">
+               <p rend="footnote text">
+                  <anchor xml:id="Hlk44310152"/>
+                  <anchor xml:id="Hlk44310153"/>
+                  <anchor xml:id="Hlk44310154"/>
+                  <anchor xml:id="Hlk44310155"/>Josip Broz Tito,
+                        »Politično poročilo,« v: <hi rend="italic">V. kongres Komunistične partije
+                            Jugoslavije</hi> (Ljubljana: Ljudska pravica, 1948),
+                7–148.</p>
+            </note> Na kongresu je bil sprejet tudi sklep o organiziranem raziskovanju zgodovine komunistične partije in delavskega gibanja ter NOB in povojne graditve socializma. Kmalu zatem je bil pri Centralnem komiteju KPJ ustanovljen zgodovinski oddelek, podobni oddelki pa so nastali tudi pri republiških partijah. Partijski zgodovinski oddelki so zbirali in objavljali gradivo za zgodovino partije, iz njih pa so se kasneje razvili partijski zgodovinski arhivi.
+            </p>
+         <p>Januarja 1949, na vrhuncu krize po izključitvi Jugoslavije
+                    iz Informbiroja, je potrebo oblasti pa novih zgodovinskih učbenikih
+                    najeksplicitneje izrazil Milovan Đilas, šef partijske komisije za agitacijo in
+                    propagando, bolj znane kot agitprop, ki je v članku »O nacionalni zgodovini kot
+                    učnem predmetu«, objavljenem v glasilu Centralnega komiteja KPJ
+                <hi rend="italic">Komunist</hi>,
+                    zakoličil ideološke okvire pisanja učbenikov nacionalne zgodovine. Đilas je
+                    zgodovinarje pozval, da naj se otresejo tradicionalnih nazorov in starih
+                    pogledov na nacionalno zgodovino ter začnejo prebirati klasike marksizma.
+                    Zgodovinarji bi morali na podlagi dialektičnega materializma, ki ga je Đilas
+                    imel za »edino pravilno znanstveno metodo«, odkrivati zakonitosti zgodovinskega
+                    razvoja in ugotavljati, na kakšen način in v kakšnih okoliščinah so se te
+                    zakonitosti izrazile v zgodovini jugoslovanskih narodov. Hkrati bi morali pri
+                    svojem delu razviti kritiko in odkrivati ne le sile, ki so gnale razvoj naprej,
+                    temveč tudi sile, ki so razvoj zavirale, pri ocenjevanju dogodkov in osebnosti
+                    iz nacionalne preteklosti pa zgodovinarjev ne bi smel voditi nacionalizem. Kot
+                    najbolj nujno nalogo na področju zgodovinopisja je opredelil pripravo učbenika
+                    nacionalne zgodovine, ki bi ga uporabljali kot ideološko orožje partije, kot
+                    »sestavni del borbe za naglo idejno dviganje in naglo prevzgojo naših delovnih
+                    ljudi in naše mladine«, pred zgodovinarje pa je postavil nalogo, »da podprejo
+                    borbo Partije za pravilno osvetlitev narodne preteklosti«.
+                <note place="foot" xml:id="ftn17" n="17">
+               <p rend="footnote text">
+                  <anchor xml:id="Hlk44312910"/>Milovan Đilas, »O nacionalni zgodovini kot
+                        učnem predmetu,« <hi rend="italic">Komunist</hi> 3, št. 1 (1949):
+                    52–77.</p>
+            </note>
+         </p>
+         <p>Leta 1952, po odmiku od sovjetskih vzorov in v ozračju
+                    liberalizacije političnega sistema, je bil odpravljen agitprop, ki je dotlej
+                    usmerjal širše področje kulture in izobraževanja. Toda politična odjuga ni
+                    trajala dolgo, saj so oblasti že leta 1956 znova posegle na »občutljiva«
+                    področja, med katera je sodilo tudi zgodovinopisje. Zaradi spoznanja partijskih
+                    voditeljev o zamiranju ideološkega dela po odpravi agitpropa in posledični
+                    slabitvi vpliva partije v družbi so bile pri zveznem in republiških centralnih
+                    komitejih ustanovljene ideološke komisije, kmalu za njimi pa še zgodovinske
+                    komisije s širokimi pristojnostmi usmerjanja zgodovinopisja. Hkrati so se
+                    krepile ideje o ustanovitvi znanstvenih inštitutov, specializiranih za novejšo
+                    in sodobno zgodovino, ki naj bi pri svojem delu sledili marksizmu in potrebam
+                    partije.
+            </p>
+         <p>Takrat so v Sloveniji začeli izhajati tudi prvi
+                    zgodovinski učbeniki domačih avtorjev. Prvi povojni učbenik novejše in sodobne
+                    zgodovine so napisali Ferdo Gestrin, Jože Hainz in Metod Mikuž, izšel pa je leta
+                    1956. Namenjen je bil dijakom četrtih letnikov nižjih gimnazij, po šolski
+                    reformi leta 1958,<note place="foot" xml:id="ftn18" n="18">
+               <p rend="footnote text"> Več o reformi šolstva konec petdesetih let Aleš Gabrič, <hi rend="italic">Šolska reforma 1953–1963</hi> (Ljubljana: Inštitut za
+                        novejšo zgodovino, 2006).</p>
+            </note> ki je uvedla enotno osemletno osnovno šolanje, pa učencem osmih razredov osnovnih šol. Učbenik je zajel obdobje od marčne revolucije 1848 do prvih let po drugi svetovni vojni, primerjalno gledano pa je bilo v njem največ prostora namenjenega drugi svetovni vojni, pri čemer je pregled obče zgodovine obsegal le nekaj strani, večina prostora pa je bila namenjena NOB. Besedilo je bilo za osnovnošolski učbenik preobsežno in občutno preobremenjeno s faktografijo, njegovi avtorji pa so očitno bolj kot učnemu načrtu za osnovne šole
+                <note place="foot" xml:id="ftn19" n="19">
+               <p rend="footnote text"> SŠM, <hi rend="italic">Učni načrt za nižje razrede gimnazij in višje razrede
+                            osnovnih šol</hi> (Ljubljana: Državna založba Slovenije, 1954).
+                    </p>
+            </note> sledili učnemu načrtu za gimnazije.<note place="foot" xml:id="ftn20" n="20">
+               <p rend="footnote text"> SŠM, <hi rend="italic">Učni načrt za višje razrede gimnazij in klasičnih
+                            gimnazij</hi> (Ljubljana: Državna založba Slovenije,
+                1955).</p>
+            </note>
+         </p>
+         <p>Avtor poglavij iz zgodovine 20. stoletja je bil Metod
+                    Mikuž, nosilec prve katedre za sodobno zgodovino v Jugoslaviji na Filozofski
+                    fakulteti v Ljubljani, pred tem duhovnik in partizan, ki ga je, kot pričajo
+                    arhivski dokumenti, partija sicer upoštevala in spoštovala, pa vendar ga ni
+                    sprejela kot docela lojalnega komunistični oblasti in še manj njenim pogledom na
+                    zgodovinopisje.
+                <note place="foot" xml:id="ftn21" n="21">
+               <p rend="footnote text">
+                  Mateja Režek,
+                        »Nevidna cenzura zgodovinopisja v socializmu,« v: Mateja Režek, ur., <hi rend="italic">Cenzurirano: zgodovina cenzure na Slovenskem od 19.
+                            stoletja do danes</hi> (Ljubljana: Nova revija, 2010), 225.</p>
+            </note> Pisanje učbenika so mu najverjetneje zaupali zato, ker drugih poznavalcev obče in nacionalne sodobne zgodovine takrat še ni bilo oziroma, kot je kasneje zapisal Mikužev sopotnik na oddelku za zgodovino ljubljanske Filozofske fakultete Bogo Grafenauer, ker so oblasti redke akademske zgodovinarje potrebovale, saj »je bilo le z njihovim znanjem mogoče ustvarjati vse mogoče publikacije /…/ in uresničevati vrsto pomembnih znanstvenih projektov /…/ To je nomenklaturi vezalo roke, čeprav je z druge strani res, da je bila oblika varovanja možnosti za delo tudi avtocenzura.«
+                <note place="foot" xml:id="ftn22" n="22">
+               <p rend="footnote text"> Bogo Grafenauer,
+                        »Ob pisanju o slovenskem zgodovinopisju,« <hi rend="italic">Zgodovinski
+                            časopis</hi> 47, št. 1 (1993): 123.</p>
+            </note>
+                Koliko je Mikuževo pisanje narekovala samocenzura, iz
+                    besedila učbenika ni mogoče razbrati, očitno pa je, da se je pisanja lotil v
+                    duhu ideoloških kanonov. V poglavjih o obdobju med obema vojnama je, bolj kot bi
+                    to ustrezalo dejanskim razmeram, poudarjen pomen komunistične partije, osrednji
+                    prostor v učbeniku pa ima NOB. Pozitivistično opisovanje dogodkov večkrat
+                    prekinejo avtoritativne ugotovitve, običajno povezane z vlogo komunistične
+                    partije, NOB pa je v sozvočju z ideološkimi postulati povezan tudi s socialno
+                    revolucijo: »NOB ni bila borba, da bi se iz domovine izgnal samo okupator in da
+                    bi se potem nadaljevalo staro družbeno in politično življenje, ki ga je zmotil
+                    okupator, po osvoboditvi bi se vrnila kralj in vlada, velikosrbska čaršija ter
+                    ostale jugoslovanske buržoazije pa bi ponovno sedle za vrat delovnemu ljudstvu.
+                    NOB je bila veliko več, bila je osvobodilna vojna in ljudska revolucija hkrati.
+                    Pod vodstvom KPJ je delavski razred skupno z ljudskimi množicami kmetov in
+                    delovne inteligence hkrati kot z okupatorjem obračunal tudi z vso buržoazijo, ki
+                    je ves čas stare Jugoslavije zatirala delavski razred in svobodoljubne ljudske
+                    množice, takoj ob okupaciji pa se povezala z okupatorjem in tako zagrešila
+                    največjo izdajo nad lastnim narodom. Ker so se ljudske množice borile tudi z
+                    izdajalsko buržoazijo in vedno bolj uveljavljale svojo, ljudsko oblast, ob
+                    osvoboditvi dežela ni bila osvobojena samo okupatorjev, temveč tudi izdajalske
+                    buržoazije in njene oblasti. Revolucija je popolnoma uspela.«
+                <note place="foot" xml:id="ftn23" n="23">
+               <p rend="footnote text">
+                  Ferdo Gestrin, Jože
+                        Hainz in Metod Mikuž, <hi rend="italic">Zgodovina za VIII. razred osnovne
+                            šole</hi> (Ljubljana: Mladinska knjiga, 1958), 180, 181.</p>
+            </note>
+         </p>
+         <p>V nasprotju s tedanjim hrvaškim učbenikom, v katerem ni
+                    bilo posebnega poglavja o NOB na Hrvaškem,
+                <note place="foot" xml:id="ftn24" n="24">
+               <p rend="footnote text"> Koren, <hi rend="italic">Politika povijesti</hi>, 354.</p>
+            </note> je bilo v prvem povojnem slovenskem učbeniku sodobne zgodovine pregledu NOB v Sloveniji namenjenega celo več prostora kot skupnemu boju jugoslovanskih narodov. Opazen je tudi poudarek na vlogi Osvobodilne fronte (OF), specifike slovenskega upora, o kateri v drugih jugoslovanskih republikah niso vedno radi slišali, saj je njena ustanovitev v aprilu 1941 slovenski upor postavljala v zgodnejši čas, kot je odporniško gibanje vzniknilo drugod po Jugoslaviji. Najbolj presenetljivo pa je, da v učbeniku nikjer ne najdemo omembe bratstva in enotnosti jugoslovanskih narodov: Mikuž piše o »naših narodih«, a nič več kot to. Do jugoslovanskega nacionalnega integralizma je bil tudi sicer precej skeptičen, kar dokazujejo njegove kasnejše izjave, denimo maja 1966, ko je v pogovoru z Mitjem Ribičičem, predsednikom zgodovinske komisije pri slovenski partiji, dejal, da se mu zdi pomembno, da so se simpozija o OF, ki je malo pred tem potekal v Ljubljani, udeležili tudi »gostje iz južnih republik«, ki so se lahko ob tem poučili o posebnostih slovenskega odpora. Nekaj besed je namenil tudi takrat aktualnemu vsejugoslovanskemu projektu pisanja skupne zgodovine delavskega gibanja narodov Jugoslavije, ki ga je ocenil kot nerealnega in v njem očitno ni želel sodelovati, pogovor pa je sklenil z besedami: »Zgodovino naj obdela vsak jugoslovanski narod sam, nato pa bomo videli, kaj imamo skupnega.«
+                <note place="foot" xml:id="ftn25" n="25">
+               <p rend="footnote text"> SI AS 1589, š.
+                        189, Zabeležka, 13. 5.
+                    1966.</p>
+            </note> Podobno kot pri njegovem sodobniku Bogu Grafenauerju, ki se je nazorsko in poklicno zapisal slovenstvu,<note place="foot" xml:id="ftn26" n="26">
+               <p rend="footnote text">
+                  <anchor xml:id="Hlk45355524"/>Jernej Kosi, »Nacionalno zgodovinopisje kot
+                        orožje ljudstva: Grafenauerjeva koncepcija slovenske zgodovine,« v: Peter
+                        Štih in Žiga Zwitter, ur., <hi rend="italic">O mojstrih in muzi:
+                            zgodovinopisje Boga Grafenauerja in Ferda Gestrina</hi> (Ljubljana:
+                        Slovenska akademija znanosti in umetnosti, 2018), 75.</p>
+            </note>
+                lahko tudi pri Mikužu – ne le zaradi gornje izjave, ampak
+                    tudi na podlagi njegovih del – prepoznamo koncepcijo zgodovine, ki preteklost
+                    interpretira predvsem s stališča »nacionalnega«.</p>
+         <p>Od sredine petdesetih let naprej so postajali
+                    mednacionalni odnosi v Jugoslaviji čedalje resnejši problem. Zaostritev
+                    gospodarskih in političnih razmer je znova naplavila za obstoj Jugoslavije
+                    ključno nacionalno vprašanje, ki so ga oblasti po vojni podcenjevale in ga več
+                    kot desetletje niso načenjale: deloma zato, ker so komunisti verjeli, da je bilo
+                    z revolucijo in oblikovanjem jugoslovanske federacije rešeno enkrat za vselej,
+                    deloma zaradi strahu, da bi dregnili v nevralgično točko večnacionalne države,
+                    pomembno vlogo pa je odigrala tudi njihova zagledanost v delavski
+                    internacionalizem. Da bi zgladili mednacionalna nasprotja, so se oprijeli
+                    koncepta bratstva in enotnosti ter sredi petdesetih let začeli spodbujati
+                    jugoslovanski socialistični patriotizem oziroma oblikovanje jugoslovanske
+                    nadnacionalne zavesti.
+                <note place="foot" xml:id="ftn27" n="27">
+               <p rend="footnote text">
+                  Mateja Režek, <hi rend="italic">Med
+                            resničnostjo in iluzijo: slovenska in jugoslovanska politika v
+                            desetletju po sporu z Informbirojem, 1948–1958</hi> (Ljubljana:
+                        Modrijan, 2005), 169,
+                170.</p>
+            </note> Ta načela so si prizadevali vpeljati v šolske učbenike in s pomočjo vsejugoslovanskih projektov pisanja skupne zgodovine jugoslovanskih narodov tudi v akademsko zgodovinopisje, vendar je bil ob čedalje močnejših mednacionalnih trenjih uspeh njihovih prizadevanj precej omejen.
+            </p>
+         <p>V prvi polovici šestdesetih let so bili v Sloveniji
+                    prenovljeni učni načrti za osnovne šole in gimnazije. Učni načrt za osnovne šole
+                    iz leta 1962 je še bolj kot njegovi predhodniki postavljal v ospredje NOB:
+                    učenci bi se morali seznaniti z vsemi zgodovinskimi obdobji, »a še posebej z
+                    najnovejšo dobo naše zgodovine in narodnoosvobodilnim bojem«.
+                <note place="foot" xml:id="ftn28" n="28">
+               <p rend="footnote text">
+                  <anchor xml:id="Hlk44355751"/>SŠM, <hi rend="italic">Predmetnik in učni
+                            načrt za osnovne šole</hi> (Ljubljana: Državna založba Slovenije, 1962),
+                        60–84.</p>
+            </note>
+                Podobne prioritete je imel pouk zgodovine tudi v
+                    gimnazijah, ki so prenovljeni učni načrt dobile leta 1964. Poleg običajnega
+                    seznanjanja učencev z zgodovinskimi dogodki ter razvijanja nacionalne zavesti,
+                    patriotizma in humanizma, je novi učni načrt poudarjal, da naj pouk zgodovine
+                    učence »usposobi, da spoznajo zakonitosti razvoja človeške družbe; /…/ razvija
+                    spoznanje o zgodovinski nujnosti in upravičenosti revolucionarnih pojavov na
+                    določenih stopnjah razvoja družbe« ter »učence oblikuje v zavestne borce in
+                    graditelje socializma«.
+                <note place="foot" xml:id="ftn29" n="29">
+               <p rend="footnote text">
+                   SŠM, <hi rend="italic">Gimnazija: gradivo za sestavo predmetnika in učnega
+                            načrta</hi> (Ljubljana: Državna založba Slovenije, 1964), 17.</p>
+            </note> Podobno kot v predhodnih učnih načrtih so bili pri pouku novejše zgodovine poudarjeni neuspehi predvojne Jugoslavije, veličina NOB ter uspehi in mednarodni ugled povojne Jugoslavije, za četrti letnik predpisana snov pa je nosila pomenljiv naslov »Razpadajoči kapitalizem in rast socialističnih sil«,
+                <note place="foot" xml:id="ftn30" n="30">
+               <p rend="footnote text"> Ibid.,
+                    26.</p>
+            </note> ki je sugeriral, da je zmaga socializma nad kapitalizmom zgodovinska nujnost in le še vprašanje časa.</p>
+         <p>Toda v šolski praksi se očitno ni vse odvijalo tako, kot
+                    je bilo predpisano v učnih načrtih. Jeseni 1965 so v okviru Zgodovinske komisije
+                    pri Centralnem komiteju Zveze komunistov Slovenije pripravili poročilo o
+                    problematiki pouka novejše zgodovine, ki je med največjimi slabostmi poudarilo
+                    pomanjkanje ustreznih zgodovinskih učbenikov, omejeno strokovno usposobljenost
+                    učiteljev in pogosto nerealizirane učne načrte. V poročilu so zapisali, da je
+                    novi učni načrt novejši zgodovini namenil precej več ur »zaradi njenih prav
+                    posebnih vzgojnih nalog«, vendar se »starejše učne moči tej spremembi le počasi
+                    prilagajajo, ker nočejo krčiti starejše zgodovine. Pravega nadzora nad
+                    izvajanjem učnega načrta sploh ni, posamezni pregledi pa kažejo, da se učne moči
+                    ne ravnajo po učnih načrtih, saj so obravnavali npr. na ljubljanskih gimnazijah
+                    v Šubičevi ul. in na Poljanah, pa tudi na stiški gimnaziji, zgodovino NOB in
+                    povojnega obdobja samo 6 ur. Kljub temu je treba poudariti, da se mlajši kader
+                    laže vživlja v zahteve novega učnega načrta, zato lahko pričakujemo, da bo dan
+                    sčasoma novejši zgodovini tisti poudarek, kot ji gre. /…/ Ne moremo sicer
+                    govoriti o tem, da bi učitelji odklanjali NOB in njen revolucionarni značaj, ne
+                    moremo pa tudi mimo dejstva, da mnogi učitelji krčijo novejšo zgodovino v korist
+                    starejših obdobij.«
+                <note place="foot" xml:id="ftn31" n="31">
+               <p rend="footnote text"> SI AS 1589, š.
+                        167, »Problematika pouka novejše zgodovine«, 23. 10. 1965, 5, 6,
+                    15.</p>
+            </note>
+         </p>
+         <p>Na prvi povojni gimnazijski učbenik zgodovine 20. stoletja
+                    je bilo treba čakati vse do leta 1966. Napisal ga je Metod Mikuž, zajel pa je
+                    obdobje od prve svetovne vojne do začetka šestdesetih let.
+                <note place="foot" xml:id="ftn32" n="32">
+               <p rend="footnote text">
+                  Metod Mikuž, <hi rend="italic">Zgodovina za četrti razred gimnazij</hi> (Ljubljana: Zavod
+                        za šolstvo SRS, 1966).</p>
+            </note>
+                Mikuž je okvirno sledil učnemu načrtu, v primerjavi z
+                    besedili v učbeniku za osnovne šole izpred desetih let pa je bil manj dogmatski.
+                    Poglavje o drugi svetovni vojni, ki nekoliko presenetljivo zajema le četrtino
+                    učbenika, se spet začne s kratkim pregledom druge svetovne vojne v Evropi in po
+                    svetu, čemur sledi podroben prikaz domačega vojnega dogajanja, ločenega na NOB v
+                    Jugoslaviji in NOB v Sloveniji. Tudi tokrat je slovenski zgodovini odmerjenega
+                    več prostora kot jugoslovanski, slogan bratstva in enotnosti pa spet iščemo
+                    zaman. Mikuž se je tu in tam sicer spustil v naracijo v prvi osebi množine (»naš
+                    narodnoosvobodilni boj«, »naša domovina«, »smo ustvarili«, »smo ustanovili« in
+                    ne nazadnje »smo izvolili Tita za predsednika republike«), vendar je bil
+                    čustveno bolj zadržan kot v predhodnem učbeniku. Zelo malo smisla pa je pokazal
+                    za didaktiko zgodovine. Precej suhoparno besedilo, preobremenjeno s politično
+                    faktografijo, je pospremljeno le z nekaj fotografijami in zemljevidi, o drugih
+                    učnih pripomočkih pa ni sledu.
+            </p>
+         <p>Hkrati z Mikuževim gimnazijskim učbenikom je izšel tudi
+                    novi učbenik zgodovine 20. stoletja za osmi razred osnovne šole, ki ga je
+                    napisal France Škerl, zgodovinar z Inštituta za zgodovino delavskega gibanja v
+                    Ljubljani. Škerl je bil nekdanji krščanski socialist, podobno kot Mikuž pa tudi
+                    on ni veljal za »partijskega zgodovinarja«. Še več, njegovo znanstveno delo je
+                    partijska zgodovinska komisija v začetku šestdesetih let celo kritizirala, češ
+                    da »daje zgrešeno predstavo o narodnoosvobodilnem gibanju«, zato so nekateri
+                    člani zgodovinske komisije menili, da bi bilo Škerla bolje usmeriti na izdajanje
+                    bibliografij, »ker je on zelo natančen«, in ga »odvračati od drugega dela«.
+                <note place="foot" xml:id="ftn33" n="33">
+               <p rend="footnote text"> SI AS 1589, š.
+                        166, Seja zgodovinske komisije CK ZKS, 8. 2. 1962, 9, 10.</p>
+            </note>
+                Zakaj mu je bilo potemtakem zaupano pisanje
+                    osnovnošolskega učbenika, iz arhivskih dokumentov ni mogoče razbrati, verjetno
+                    pa so bili razlogi podobni kot pri Mikužu. Škerlov učbenik je zajel obdobje od
+                    prve svetovne vojne do sodobnosti, približno dve petini vsebine pa je bilo
+                    namenjene drugi svetovni vojni. Znotraj tega poglavja je bila večina prostora
+                    namenjena NOB, ki ga Škerl, v nasprotju z Mikužem, ni ločeval po »nacionalnem
+                    ključu«. Na drugi strani je delovanju OF ter njeni vlogi pri organizaciji in
+                    razvoju odporniškega gibanja v Sloveniji namenil še več prostora kot Mikuž, eno
+                    od podpoglavij pa je celo nekoliko drzno naslovil »Slovence je v boju vodila
+                    Osvobodilna fronta«.
+                <note place="foot" xml:id="ftn34" n="34">
+               <p rend="footnote text">
+                  France Škerl, <hi rend="italic">Zgodovina za
+                            8. razred osnovnih šol</hi> (Ljubljana: Zavod za napredek šolstva SRS,
+                        1966), 95.</p>
+            </note>
+                Besedilo učbenika je obsežno in občutno preobremenjeno s
+                    faktografijo, nekaj več smisla kot Mikuž pa je Škerl pokazal za didaktične
+                    pripomočke. Slikovnega gradiva je več kot v Mikuževem učbeniku, pri čemer
+                    otrokom niso bile prihranjene nazorne fotografije nasilja in pobijanja, vsako
+                    poglavje pa je na koncu opremljeno s povzetkom, novimi pojmi in vprašanji za
+                    ponavljanje. Škerl je sledil učnemu načrtu, svojo kritično distanco do
+                    obravnavanih vsebin pa je očitno prikril s pozitivističnim pristopom in
+                    suhoparnostjo.
+            </p>
+         <p>Zdi se, da Škerlov učbenik ni naletel na odobravanje
+                    politike. Dokumenti partijske zgodovinske komisije sicer o njem ne povedo
+                    ničesar, razen da je »vsekakor pretežak« in da bi moral biti v njem bolj
+                    poudarjen »vzgojni moment pouka zgodovine«,<note place="foot" xml:id="ftn35" n="35">
+               <p rend="footnote text"> SI AS 1589, š. 195, »Posvetovanje
+                        zgodovinarjev – komunistov«, 23. 6. 1972, 2.</p>
+            </note>
+                kot se je izrazil Branko Božič, dekan Pedagoške akademije
+                    v Ljubljani, bolj zgovorno pa je dejstvo, da se je komaj nekaj let po izidu
+                    Škerlovega učbenika začel pripravljati nov osnovnošolski učbenik sodobne
+                    zgodovine. Napisala sta ga Branko Božič in Tomaž Weber, predavatelj metodike
+                    pouka zgodovine na ljubljanski pedagoški akademiji. Prvič je izšel leta 1973 in
+                    nato doživel številne ponatise, zadnjega v dopolnjeni izdaji leta 1991. Ker so
+                    po tem učbeniku listale številne generacije slovenskih osmošolcev, si je njegovo
+                    vsebino vredno nekoliko podrobneje ogledati.
+            </p>
+         <p>V primerjavi s Škerlovim je bil učbenik Božiča in Webra
+                    manj natrpan s faktografijo, toliko bolj izrazita pa je bila ideologizacija.
+                    Zgodovina je slikana črno-belo, enoperspektivno in v izrazito poenostavljenih
+                    interpretativnih shemah. V središču nacionalne zgodovine med obema vojnama je
+                    komunistična partija, poudarjeno je delavsko gibanje, buržoaziji pa naj bi bile
+                    štete zadnje ure. Orisu predvojne zgodovine sledita pregled obče zgodovine druge
+                    svetovne vojne in poglavje o NOB, ki mu je namenjena kar polovica učbenika.
+                    Osrednjo vlogo imata komunistična partija in Tito, ki nastopata kot voditelja
+                    partizanskega gibanja in daljnovidna načrtovalca upora. V prikazih vojnega
+                    dogajanja je izražena ostra delitev na dobro in zlo: na partizane na eni strani
+                    ter na okupatorje in kolaboracioniste na drugi. Njihovi zločini so nazorno
+                    opisani, denimo zločini ustašev v Jasenovcu: »Skoraj vsak dan pijani ustaški
+                    klavci so svoje žrtve zverinsko mučili, jih pobijali s kiji, rezali glave,
+                    sežigali v 'opekarni', streljali v jame, ki so jih kopali Cigani, in metali v
+                    Savo, ki je pogoltnila na deset tisoče ljudi.«
+                <note place="foot" xml:id="ftn36" n="36">
+               <p rend="footnote text">
+                  Branko Božič in Tomaž Weber, <hi rend="italic">Zgodovina za osmi razred</hi> (Ljubljana: Državna založba Slovenije,
+                        1976), 72.</p>
+            </note>
+                Besedilo je opremljeno s fotografijami, tudi z
+                    drastičnimi motivi mučenja, obešanja in streljanja ljudi. Dihotomija partizanov
+                    in njihovih nasprotnikov je poenostavljena, partizanski boj je idealiziran,
+                    poudarjena sta junaštvo in borbeni duh partizanov. Partizanska morala je
+                    prikazana kot izraz največje humanosti: »Vse partizanske enote so razvile med
+                    borci izredno tovarištvo. Med borbami se je namreč kalila nova, partizanska
+                    morala, ki je med borci utrjevala prepričanje in zaupanje, da v nevarnosti ne
+                    bodo nikdar zapustili drug drugega, če pa ne bo izhoda za vse, se bodo skupaj
+                    borili s sovražnikom do zadnjega moža. Posebej se je partizansko tovarištvo
+                    kazalo pri reševanju in skrbi za ranjene tovariše soborce. Ranjene borce so
+                    nosili desetine in desetine kilometrov daleč do sanitetnih postaj in bolnic.
+                    Morali so se pri tem pogosto srečati z neprehodnimi naravnimi zaprekami ali
+                    sovražnikom. Pri tem so jim neredko pomagali neborci, rodoljubi iz okolice in
+                    vasi. Z njimi so borci delili zadnji košček hrane in obleke. Prav zavest, da ne
+                    bodo v nemoči nikdar prepuščeni samemu sebi, in sodelovanje z ljudstvom, je
+                    dajala partizanom borbeno moč za premagovanje najhujših naporov.«
+                <note place="foot" xml:id="ftn37" n="37">
+               <p rend="footnote text"> Ibid.,
+                    69.</p>
+            </note>
+         </p>
+         <p>Partizani, ki so poosebljali »nečloveško junaštvo mladih
+                    ljudi, ki žrtvujejo sebe, čeprav v življenje niti stopili niso, da bi bili
+                    bodoči rodovi srečni«,<note place="foot" xml:id="ftn38" n="38">
+               <p rend="footnote text"> Ibid., 111.</p>
+            </note> so bili prihajajočim generacijam ponujeni kot vzor in model za identifikacijo, jugoslovanski NOB pa je bil predstavljen kot »kovačnica bratstva in enotnosti«: »V NOB sta se kovala bratstvo in enotnost jugoslovanskih narodov. Dajala sta jim moč, da so odbili napade okupatorjev in domačih izdajalcev. 'Geslo bratstva in enotnosti je omogočilo, da smo povsod, koder smo hodili, dobivali podporo našega izmučenega in obubožanega ljudstva,' je dejal Tito že v prvem obdobju NOB. Proti vsem domačim izdajalcem so partizani zmagovali z idejo skupnega boja jugoslovanskih narodov, ki lahko le združeni premagajo svoje nasprotnike. Med NOB so jugoslovanski narodi skovali enotnost, ki je nihče več ni mogel in je ne bo mogel razbiti.«
+                <note place="foot" xml:id="ftn39" n="39">
+               <p rend="footnote text"> Ibid., 111,
+                        112.</p>
+            </note>
+         </p>
+         <p>Podobno kot v predhodnih slovenskih zgodovinskih učbenikih
+                    je bil tudi v tem poseben prostor namenjen OF, pri čemer vodilna vloga
+                    komunistov ni bila prikrita: »V OF so imeli vodilno vlogo komunisti, vendar tega
+                    leta 1941 niso poudarjali. Spoštovali so načelo, da se je treba izogibati prav
+                    vsega, kar bi lahko omejevalo širino osvobodilnega boja. CK KPS je šele spomladi
+                    1943 poudaril svoje vodstvo pri ustanovitvi in razvoju OF, ko je bilo tudi
+                    slovenskim katoliškim množicam jasno, da brez komunistične partije osvobodilnega
+                    boja sploh ne bi bilo.«<note place="foot" xml:id="ftn40" n="40">
+               <p rend="footnote text"> Ibid., 77.</p>
+            </note>
+         </p>
+         <p>V poglavjih, ki obravnavajo povojno zgodovino, sledimo
+                    pregledu svetovne zgodovine do začetka sedemdesetih let, v katerem je največ
+                    prostora namenjenega osvobodilnim gibanjem v tretjem svetu in širjenju
+                    socializma. Poglavje o graditvi socialistične Jugoslavije vsebuje pregled
+                    jugoslovanske povojne zgodovine, med drugim vzpostavitev nove oblasti in
+                    reševanje vprašanja zahodne meje. Spor z Informbirojem je prikazan kot boj
+                    Jugoslavije za različne poti v socializem, v katerem je ljudstvo »enodušno
+                    podprlo Tita in partijo in ni dovolilo, da bi kdorkoli blatil njegovo herojsko
+                    borbo proti fašizmu«.
+                <note place="foot" xml:id="ftn41" n="41">
+               <p rend="footnote text"> Ibid.,
+                    137.</p>
+            </note> Sledi opis uvajanja samoupravljanja z osmošolcem nerazumljivimi ali komaj razumljivimi podrobnostmi iz zakonov, ustav, ustavnih amandmajev in drugih pravnih aktov. Zaključni odstavki učbenika so namenjeni vlogi Jugoslavije v mednarodni politiki s poudarkom na gibanju neuvrščenih, v središču katerega je Tito, Jugoslavija z njim na čelu pa je predstavljena kot epicenter globalnih prizadevanj za mir.
+            </p>
+         <p>Leta 1975 je bil učni načrt za osnovne šole znova
+                    posodobljen. Zgodovina je bila razdeljena na pet obdobij: dobo praskupnosti,
+                    sužnjelastniško dobo, fevdalizem, kapitalizem in rast socialističnih sil.
+                    Delitev zgodovinskih obdobij glede na družbeno ureditev je dokazovala notranjo
+                    zakonitost razvoja človeške družbe in linearnost zgodovinskega razvoja kot
+                    nenehnega napredka od nižjih k višjim oblikam družbene ureditve, dokazovanje
+                    tega pa je bil tudi eden od temeljnih namenov šolske zgodovine. V učnem načrtu
+                    je nazorno opisano tudi, kakšen bi moral biti učitelj zgodovine, »zlasti tisti,
+                    ki poučuje zgodovino NOB in povojnega obdobja«. Ta »mora biti dober strokovnjak
+                    – zgodovinar, ki pri pouku izhaja iz marksističnih idejnih temeljev, razen tega
+                    pa mora biti vsestransko pedagoško in politično razgledan. Nenehno mora
+                    spremljati zgodovinsko, teoretično-marksistično in politično literaturo in
+                    zasledovati poročila v sredstvih javnega obveščanja. Mora pa biti tudi družbeni
+                    delavec, ki s svojim zgledom vzgaja učence v skladu z ideologijo jugoslovanske
+                    socialistične samoupravne družbe.«
+                <note place="foot" xml:id="ftn42" n="42">
+               <p rend="footnote text"> SŠM, <anchor xml:id="Hlk44519737"/>
+                  <hi rend="italic">Osnovna šola: vsebina
+                            vzgojno-izobraževalnega dela</hi> (Ljubljana: Zavod SRS za šolstvo,
+                        1975), 28, 29.</p>
+            </note> Učni načrt je predpisal sinhrono obravnavanje NOB v Sloveniji in drugod po Jugoslaviji ter iskanje njunih skupnih značilnosti, opozarjal pa je tudi, da naj učitelji razporedijo snov skozi šolsko leto tako, da jim ne bo zmanjkalo časa za sodobno zgodovino, saj je to »zaradi njene izredne aktualnosti nedopustno«.
+                <note place="foot" xml:id="ftn43" n="43">
+               <p rend="footnote text"> Ibid.,
+                    33.</p>
+            </note>
+                V navodilih za izvajanje učnega načrta so naštete teme,
+                    ki bi jih učitelji morali predelati pri pouku, navodila za izvajanje pouka
+                    najnovejše, povojne zgodovine pa sklene napotek: »Predvsem pa učencem razložimo,
+                    da žive naši narodi srečno in je SFRJ močna, ker jo vodi KPJ, ki se je bila
+                    sposobna upreti reakcionarnim notranjim silam od malomeščansko-nacionalističnih
+                    do birokratsko-dogmatskih in ki z izvajanjem družbene reforme zagotavlja
+                    samoupravni sistem in oblast delavskega razreda.«<note place="foot" xml:id="ftn44" n="44">
+               <p rend="footnote text"> Ibid., 34.</p>
+            </note>
+         </p>
+         <p>Sedemdeseta in začetek osemdesetih let so bili obdobje, ko
+                    so politične oblasti bolj kot kadarkoli prej podvrgle šolsko zgodovino
+                    instrumentalizaciji. Bogo Grafenauer je konec sedemdesetih let zahteval
+                    prilagoditev šolske zgodovine stanju raziskav v akademskem zgodovinopisju.
+                    Pripravil je tudi predlog učnega načrta, ki si ga je zamislil kot kronološki in
+                    vsebinski pregled ključnih zgodovinskih procesov, pojavov in institucij skozi
+                    vsa obdobja človeške zgodovine, v katere bi morale biti umeščene zgodovinske
+                    izkušnje Slovencev in drugih jugoslovanskih narodov. Toda njegov poziv k
+                    preusmeritvi od izključno politične zgodovine h kulturno in družbenozgodovinskim
+                    vidikom ni bil sprejemljiv za politične oblasti. Te so vztrajale, da sta
+                    najpomembnejši nalogi pouka zgodovine prenos revolucionarnih, domoljubnih in
+                    naprednih tradicij na nove generacije ter vzgoja mladine v marksističnem duhu,
+                    Grafenauerjev osnutek učnega načrta pa so zavrnile z obrazložitvijo, da ni
+                    dovolj »marksističen« in »nacionalen«.
+                <note place="foot" xml:id="ftn45" n="45">
+               <p rend="footnote text"> Peter Vodopivec,
+                        »Politics of History Education in Slovenia and Slovene History Textbooks
+                        since 1990,« v: Augusta Dimou (ur.), <hi rend="italic">'Transition' and the
+                            Politics of History Education in Southeastern Europe</hi> (Göttingen:
+                        V&amp;R unipress, 2009), 46, 47. Gl. tudi Bogo Grafenauer, »Problematika
+                        izrade programa istorije kao obaveznog predmeta zajedničke programske osnove
+                        usmerenog obrazovanja u reformiranoj školi,«
+                        <hi rend="italic">Pouk zgodovine – Nastava povijesti, </hi>št.
+                        1, (1979): 2–7.</p>
+            </note>
+         </p>
+         <p>V izobraževalni sistem so oblasti najgloblje posegle z
+                    uvedbo srednjega usmerjenega izobraževanja konec sedemdesetih let. Nove šolske
+                    smernice je predpisal deseti kongres Zveze komunistov Jugoslavije leta 1975, ki
+                    je nakazal, da se partija vrača k obrazcem, za katere se je v šestdesetih letih
+                    zdelo, da so preživeti. Znova sta bila uveljavljena kult fizičnega dela in
+                    šolanje za poklic, splošna izobrazba pa je zdrsnila po lestvici kulturnih
+                    vrednot. Šolanje za poklic je pomenilo povečanje števila ur strokovnih predmetov
+                    in krčenje programov splošnih predmetov, kot nepotrebna pa je bila označena tudi
+                    matura oziroma zaključni izpit ob koncu srednje šole. Slovenske oblasti sicer
+                    niso tako hitele z uvajanjem usmerjenega izobraževanja kot druge jugoslovanske
+                    republike, toda leta 1980 je bil tudi v Sloveniji sprejet zakon o usmerjenem
+                    izobraževanju.
+                <note place="foot" xml:id="ftn46" n="46">
+               <p rend="endnote text">
+                  <anchor xml:id="Hlk45541352"/>Aleš Gabrič, »Šolstvo od reforme do reforme,«
+                        v: <hi rend="italic">Slovenska novejša zgodovina 1848–1992</hi> (Ljubljana:
+                        Mladinska knjiga in Inštitut za novejšo zgodovino, 2006), 1146.</p>
+            </note>
+                Gimnazije so bile odpravljene, znotraj sistema
+                    srednješolskega izobraževanja pa je še vedno ostalo nekaj širše zasnovanih
+                    programov: družboslovno-jezikovni, naravoslovno-matematični, pedagoški in
+                    kulturološki program, ki dijakov niso pripravljali za konkreten poklic, ampak za
+                    določeno strokovno področje. Te srednje šole so ohranile nekaj pridiha
+                    odpravljenih gimnazij in s tem več ur splošnih predmetov, med njimi zgodovine,
+                    na večini drugih srednjih šol pa so pouk zgodovine zaključili že po drugem
+                    letniku.
+            </p>
+         <p>Prvi učbenik novejše zgodovine, namenjen dijakom drugih
+                    letnikov srednjega usmerjenega izobraževanja, je izšel že leta 1978 v
+                    soavtorstvu Branka Božiča, Tomaža Webra in Janka Prunka. Tudi v tem učbeniku
+                    imata osrednjo vlogo komunistična partija in Tito, ki sta prikazana zelo
+                    podrobno že v obdobju med obema vojnama in še bolj med drugo svetovno vojno, s
+                    čimer je postal povojni prevzem oblasti tako rekoč samoumeven. Drugi svetovni
+                    vojni in NOB je namenjena tretjina učbenika, razlage so ideologizirane in
+                    dogmatske, snov pa je v sozvočju z učnim načrtom predstavljena tako, da »učenci
+                    spoznajo vodilno vlogo KPJ. Ugotovijo naj, da je naša NOB hkrati socialistična
+                    revolucija, ki je vzpostavila novo ljudsko oblast. Učenci naj spoznajo, da
+                    pomeni naša revolucija tudi boj za enakopravnost narodov in narodnosti
+                    Jugoslavije /…/ Pri obravnavanju vojaškega poteka NOV naj se učitelji ne
+                    izgubljajo v podrobnostih, ampak naj predvsem poudarjajo vseljudski pomen boja
+                    in povezavo med vojsko in zaledjem, moralne vrednote borcev, medsebojne humane
+                    odnose, pomembnost boja v mednarodnem obsegu in povezanost jugoslovanskih
+                    narodov in narodnosti.«
+                <note place="foot" xml:id="ftn47" n="47">
+               <p rend="footnote text"> SŠM, <anchor xml:id="Hlk44531470"/>
+                  <hi rend="italic">Predmetnik in učni načrti
+                            (delovni osnutek): skupna programska osnova v usmerjenem
+                            izobraževanju</hi> (Ljubljana: Zavod SRS za šolstvo, 1977), 7,
+                    8.</p>
+            </note> Povojni prevzem oblasti je prikazan brez omenjanja njegovih temnih plati, razvoj povojne Jugoslavije je predstavljen kot »izjemen uspeh«, Tito pa kot »ena najvidnejših političnih osebnosti sodobnega sveta, simbol neodvisne socialistične Jugoslavije in vseh naprednih sil v svetu, ki se bore za enakopravnost vseh narodov, ljudstev in držav na svetu, za mir, za konec oboroževalne tekme med velikimi silami, za obstoj in razvoj vsega človeštva.«<note place="foot" xml:id="ftn48" n="48">
+               <p rend="footnote text"> Branko Božič, Tomaž
+                        Weber in Janko Prunk, <hi rend="italic">Zgodovina 2</hi> (Ljubljana: Državna
+                        založba Slovenije, 1978), 121.</p>
+            </note>
+                Prikaz notranjepolitičnega razvoja Jugoslavije je občutno
+                    preobremenjen s sklepi partijskih kongresov in vsebino jugoslovanskih ustav ter
+                    sklenjen z napovedjo novih možnosti »za nadaljnjo rast in krepitev socialistične
+                    demokracije in za krepitev neodvisnosti in samoupravnosti«, ki jih Jugoslaviji
+                    odpira ustava iz leta 1974.
+                <note place="foot" xml:id="ftn49" n="49">
+               <p rend="footnote text"> Ibid.,
+                    132.</p>
+            </note>
+         </p>
+         <p>Poleg tega učbenika je bil v srednjem usmerjenem
+                    izobraževanju v uporabi še en učbenik zgodovine 20. stoletja, toda le v srednjih
+                    šolah družboslovne in družboslovno-pedagoške usmeritve, kjer so zgodovino
+                    poučevali vsa štiri leta. Učbenik za četrti letnik teh šol je izšel leta 1984,
+                    njegova avtorja sta bila Marija Kremenšek in Štefan Trojar, zajel pa je obdobje
+                    od nastanka prve jugoslovanske države leta 1918 do konca sedemdesetih let. To je
+                    bil hkrati zadnji učbenik sodobne zgodovine, ki je izšel v socialistični
+                    Sloveniji. V skladu z učnim načrtom so bili poudarki podobni kot v učbeniku za
+                    srednje usmerjeno izobraževanje Božiča, Webra in Prunka iz leta 1978, le da so
+                    besedila bolj podrobna in v poglavjih o razvoju socialistične Jugoslavije še
+                    bolj prepredena s komaj razumljivo terminologijo, kakršna se je v političnem
+                    življenju uporabljala v sedemdesetih in osemdesetih letih. Učbenik prinaša tudi
+                    nekaj novosti: prvič je denimo omenjeno zajetje domobrancev oz. njihova vrnitev
+                    s Koroške v Jugoslavijo: »Izdajalske vojske četnikov, ustašev, hrvaških
+                    domobrancev, slovenskih domobrancev in druge so ob nemški kapitulaciji izgubile
+                    svojega gospodarja in perspektive. Večina je hotela po vsej sili pobegniti k
+                    Angležem in se izmakniti odgovornosti za izdajalsko početje med vojno. Slovenski
+                    domobranci so se uspeli prebiti na Koroško, toda Angleži so jih kasneje vrnili
+                    Jugoslaviji.«
+                <note place="foot" xml:id="ftn50" n="50">
+               <p rend="footnote text"> Marija Kremenšek
+                        in Štefan Trojar, <hi rend="italic">Zgodovina 4</hi> (Ljubljana: Državna
+                        založba Slovenije, 1984), 139.</p>
+            </note>
+         </p>
+         <p>Ker je vzporedno s poveličevanjem NOB potekal tudi proces
+                    pozabe in zamolčevanja, iz učbenika ne izvemo nič o nadaljnji usodi
+                    kolaboracionistov, a jo lahko slutimo. Prvič je bilo kot problem socialistične
+                    Jugoslavije in ne več kot zgolj problem predvojne jugoslovanske države
+                    predstavljeno tudi nacionalno vprašanje oziroma nacionalizem. Čeprav je bilo
+                    nacionalno vprašanje ključno za obstoj večnacionalne Jugoslavije, mu je bilo v
+                    učbenikih dotlej namenjenega presenetljivo malo prostora. Kadarkoli so se
+                    učbeniki dotaknili mednacionalnih nasprotij v predvojni Jugoslaviji, so bila ta
+                    prikazana kot izraz buržoaznih razrednih konfliktov, medtem ko je v povojni
+                    Jugoslaviji to vprašanje veljalo za rešeno. Mednacionalni odnosi v socialistični
+                    Jugoslaviji so bili v učbenikih dejansko tabuizirani, podobno kot razlike v
+                    gospodarski razvitosti, ki so dejansko največkrat sprožale medrepubliške in s
+                    tem tudi mednacionalne konflikte, zato je toliko bolj presenetljivo, da je v
+                    učbeniku Marije Kremenšek in Štefana Trojarja kot eden od razlogov za
+                    mednacionalne napetosti navedena prav neenakomerna gospodarska razvitost
+                    države.
+                <note place="foot" xml:id="ftn51" n="51">
+               <p rend="footnote text"> Ibid.,
+                    194.</p>
+            </note>
+                Besedilo je sklenjeno z orisom gospodarskih težav, ki so
+                    bile v Jugoslaviji v prvi polovici osemdesetih let več kot očitne in so z ukrepi
+                    za stabilizacijo gospodarstva močno posegle tudi v vsakdanje življenje ljudi.
+                    Zaman pa v učbeniku iščemo podatek, da je leta 1980 umrl Tito ...
+            </p>
+         <p>Sistematični pregled učnih načrtov in zgodovinskih
+                    učbenikov, ki jih je vredno brati tako zaradi tistega, kar je v njih zapisano,
+                    kot zaradi tistega, česar v njih ni, ponuja dober vpogled v pouk sodobne
+                    zgodovine v slovenskih osnovnih in srednjih šolah v obdobju socializma. Skozi
+                    učbeniško naracijo lahko prepoznamo temeljne vrednote, ki jih je šolska
+                    zgodovina posredovala mladim generacijam: patriotizem, kolektivizem, socializem
+                    in antifašizem. Zgodovinskim učbenikom so bili skupni preobremenjenost s
+                    politično faktografijo, posplošene ocene in enostranske, pogosto dogmatične
+                    razlage ter politična in ideološka sporočila z namenom zagotovitve legitimnosti
+                    komunistični partiji. Jugoslovanski socializem je bil predstavljen kot
+                    zgodovinska nujnost, poudarjena je bila vloga komunistične partije, v ospredju
+                    učbeniških reprezentacij pa je bil NOB, ki je bil instrumentaliziran kot
+                    sredstvo za oblikovanje kolektivne identitete multietnične jugoslovanske družbe
+                    in legitimizacijo komunistične oblasti. Pomemben vzgojni cilj šolske zgodovine
+                    je bilo tudi utrjevanje bratstva in enotnosti jugoslovanskih narodov, toda ta
+                    slogan je ob nenehnem ponavljanju sčasoma zbledel v prazno frazo. Posledica
+                    ideologiziranih učbeniških reprezentacij je bil neuravnotežen in selektiven
+                    zgodovinski spomin, ki je posredno tlakoval pot kasnejšim političnim
+                    manipulacijam in zlorabam zgodovine. V najbolj drastični obliki so se te
+                    izrisale ob razpadu Jugoslavije, zlasti v Srbiji in na Hrvaškem, kjer je
+                    preteklost, predvsem dogodki med drugo svetovno vojno, postala celo instrument
+                    za mobilizacijo k orožju. Pouk zgodovine je bil deležen občasnih kritik
+                    zgodovinske stroke že v obdobju socializma, toda brez opaznega učinka v
+                    izobraževalni praksi. Glasne kritične razprave o šolski zgodovini so se vrstile
+                    zlasti v drugi polovici osemdesetih let, proces preoblikovanja pouka zgodovine
+                    pa se je začel šele po menjavi družbenopolitičnega sistema v devetdesetih
+                    letih.
+            </p>
+         </body>
+       <back>
+           <div type="bibliography">
+               <head>Viri in
+                   literatura
+           </head>
+           <list type="unordered">
+               <head>Arhivski viri</head>
+               <item>
+                   SI AS, Arhiv
+                   Republike Slovenije:<list type="unordered">
+                       <item>SI AS 1589, Centralni komite Zveze
+                           komunistov Slovenije.</item>
+                   </list>
+               </item>
+           </list>
+           <listBibl>
+               <head>
+                   <hi rend="bold">Literatura</hi>
+               </head>
+               <bibl>
+                   <anchor xml:id="Hlk44317992"/>Đilas, Milovan. »O nacionalni zgodovini kot
+                   učnem predmetu.« <hi rend="italic">Komunist</hi> 3, št. 1 (1949): 52–77.</bibl>
+               <bibl>Gabrič, Aleš. <hi rend="italic">Šolska reforma 1953–1963</hi>. Ljubljana:
+                   Inštitut za novejšo zgodovino, 2006.</bibl>
+               <bibl>
+                   <anchor xml:id="Hlk44317326"/>Gabrič, Aleš. »Šolstvo od reforme do reforme.«
+                   V: <hi rend="italic">Slovenska novejša zgodovina 1848–1992</hi>, 1143–47.
+                   Ljubljana: Mladinska knjiga in Inštitut za novejšo zgodovino, 2006.</bibl>
+               <bibl>Grafenauer, Bogo. »Problematika izrade programa istorije kao obaveznog
+                   predmeta zajedničke programske osnove usmerenog obrazovanja u reformiranoj
+                   školi.«
+                   <hi rend="italic">Pouk zgodovine – Nastava povijesti, </hi>št.
+                   1, (1979).</bibl>
+               <bibl>Grafenauer, Bogo. »Ob pisanju o slovenskem zgodovinopisju.« <hi rend="italic">Zgodovinski časopis</hi> 47, št. 1 (1993): 117–29.</bibl>
+               <bibl>Höpken, Wolfgang. »History Education and Yugoslav (Dis-)Integration.« V:
+                   Wolfgang Höpken (ur.), <hi rend="italic">Öl ins Feuer? – Oil on Fire?:
+                       Schulbücher, ethnische Stereotypen und Gewalt in Südosteuropa – Textbooks,
+                       Ethnic Stereotypes and Violence in Southeastern Europe</hi>, 99–124.
+                   Hannover: Verlag Hansche Buchhandlung Braunschweig, 1996.</bibl>
+               <bibl>Koren, Snježana.
+                   <hi rend="italic">Politika povijesti u Jugoslaviji (1945–1960): Komunistička partija Jugoslavije, nastava povijesti, historiografija. </hi>Zagreb:
+                   Srednja Europa, 2012.</bibl>
+               <bibl>Kosi, Jernej. »Nacionalno zgodovinopisje kot orožje ljudstva: Grafenauerjeva
+                   koncepcija slovenske zgodovine.« V: Peter Štih in Žiga Zwitter (ur.), <hi rend="italic">O mojstrih in muzi: zgodovinopisje Boga Grafenauerja in Ferda
+                       Gestrina</hi>, 60–84. Ljubljana: Slovenska akadem<anchor xml:id="Hlk45378637"/>ija znanosti in umetnosti, 2018.</bibl>
+               <bibl>Lilly, Carol S.. <hi rend="italic">Power and Persuasion: Ideology and Rhetoric
+                   in Communist Yugoslavia, 1944–1953</hi>. Boulder: Westview Press,
+                   2001.</bibl>
+               <bibl>Najbar Agičić, Magdalena. <hi rend="italic">U skladu s marksizmom ili
+                   činjenicama?: hrvatska historiografija 1945–1960</hi>. Zagreb: Ibis,
+                   2013.</bibl>
+               <bibl>Orwell, George. <hi rend="italic">1984</hi>. Ljubljana: Mladinska knjiga,
+                   1983.</bibl>
+               <bibl>Režek, Mateja. <hi rend="italic">Med resničnostjo in iluzijo: slovenska in
+                   jugoslovanska politika v desetletju po sporu z Informbirojem,
+                   1948–1958</hi>. Ljubljana: Modrijan, 2005. </bibl>
+               <bibl>Režek, Mateja. »Nevidna cenzura zgodovinopisja v socializmu.« V: Mateja Režek,
+                   (ur.), <hi rend="italic">Cenzurirano: zgodovina cenzure na Slovenskem od 19.
+                       stoletja do danes</hi>, 217–34. Ljubljana: Nova revija, 2010.</bibl>
+               <bibl>Režek, Mateja. »Usmerjena preteklost: mehanizmi ideološke in politične
+                   'kontaminacije' zgodovinopisja v socialistični Sloveniji in Jugoslaviji
+                   (1945–1966).« <hi rend="italic">Acta Histriae</hi> 22, št. 4 (2014):
+                   971–92.</bibl>
+               <bibl>Tito, Josip Broz. »Politično poročilo.« V: <hi rend="italic">V. kongres
+                   Komunistične partije Jugoslavije</hi>, 7–148. Ljubljana: Ljudska pravica,
+                   1948.</bibl>
+               <bibl>
+                   <anchor xml:id="Hlk44277481"/>Vodopivec, Peter. »Politics of History Education
+                   in Slovenia and Slovene History Textbooks since 1990.« V: Augusta Dimou, ur.,
+                   <hi rend="italic">'Transition' and the Politics of History Education in
+                       Southeastern Europe</hi>, 45–90. Göttingen: V&amp;R Unipress, 2009.</bibl>
+               <bibl>Ziherl, Boris. »O nekaterih praktičnih in teoretičnih problemih slovenskega
+                   zgodovinopisja.« V: Boris Ziherl, <hi rend="italic">Zbrana dela: peta
+                       knjiga</hi>, 56–70. Ljubljana: SAZU, 1989.</bibl>
+           </listBibl>
+           <listBibl>
+               <head>Učbeniki</head>
+               <bibl>Božič, Branko in Tomaž Weber. <hi rend="italic">Zgodovina za osmi razred</hi>.
+                   Ljubljana: Državna založba Slovenije, 1976.</bibl>
+               <bibl>Božič, Branko, Tomaž Weber in Janko Prunk. <hi rend="italic">Zgodovina 2</hi>.
+                   Ljubljana: Državna založba Slovenije, 1978.</bibl>
+               <bibl>Gestrin, Ferdo, Jože Hainz in Metod Mikuž. <hi rend="italic">Zgodovina za
+                   VIII. razred osnovne šole</hi>. Ljubljana: Mladinska knjiga, 1958.</bibl>
+               <bibl>Kremenšek, Marija in Štefan Trojar, <hi rend="italic">Zgodovina 4</hi>.
+                   Ljubljana: Državna založba Slovenije, 1984.</bibl>
+               <bibl>Mikuž, Metod. <hi rend="italic">Zgodovina za četrti razred gimnazij</hi>.
+                   Ljubljana: Zavod za šolstvo SRS, 1966.</bibl>
+               <bibl>Škerl, France. <hi rend="italic">Zgodovina za 8. razred osnovnih šol</hi>.
+                   Ljubljana: Zavod za napredek šolstva SRS, 1966.</bibl>
+           </listBibl>
+           <listBibl>
+               <head>Učni načrti</head>
+               <bibl>SŠM, Slovenski šolski muzej:<list type="unordered">
+                   <item>
+                       <hi rend="italic">Gimnazija: gradivo za sestavo
+                           predmetnika in učnega načrta</hi>.
+                       Ljubljana: Državna založba Slovenije, 1964.</item>
+                   <item>
+                       <hi rend="italic">Osnovna šola: vsebina
+                           vzgojno-izobraževalnega dela</hi>.
+                       Ljubljana: Zavod SRS za šolstvo, 1975.</item>
+                   <item>
+                       <hi rend="italic">Predmetnik in učni načrt za
+                           osnovne šole</hi>. Ljubljana: Državna
+                       založba Slovenije, 1962.</item>
+                   <item>
+                       <hi rend="italic">Predmetnik in učni načrti (delovni osnutek): skupna programska osnova v usmerjenem izobraževanju. </hi>Ljubljana: Zavod SRS za šolstvo,
+                       1977.</item>
+                   <item>
+                       <hi rend="italic">Spremembe k učnemu načrtu za
+                           gimnazijo za šolsko leto 1946/47</hi>.
+                       Ljubljana: Državna založba Slovenije, 1946.</item>
+                   <item>
+                       <hi rend="italic">Učni načrt za gimnazije,
+                           nižje gimnazije in višje razrede sedemletk</hi>. Ljubljana: Ministrstvo za prosveto LRS,
+                       1948.</item>
+                   <item>
+                       <hi rend="italic">Učni načrt za nižje razrede
+                           gimnazij in višje razrede osnovnih
+                           šol</hi>. Ljubljana: Državna založba Slovenije, 1954. </item>
+                   <item>
+                       <hi rend="italic">Učni načrt za osnovne šole,
+                           nižje razrede sedemletk in višje osnovne šole</hi>. Ljubljana: Ministrstvo za prosveto LRS,
+                       1948.</item>
+                   <item>
+                       <hi rend="italic">Učni načrt za višje razrede
+                           gimnazij in klasičnih gimnazij</hi>.
+                       Ljubljana: Državna založba Slovenije, 1955.</item>
+                   <item>
+                       <hi rend="italic">Začasni učni načrt na
+                           gimnazijah in klasičnih gimnazijah za šolsko leto 1945–1946</hi>. Ljubljana: Državna založba Slovenije,
+                       1945.</item>
+                   <item>
+                       <hi rend="italic">Začasni učni načrt za osnovne
+                           šole</hi>, september 1944.</item>
+                   <item>
+                       <hi rend="italic">Začasni učni načrt za višje
+                           osnovne šole</hi>. Ljubljana: Državna
+                       založba Slovenije, 1946.</item>
+               </list>
+               </bibl>
+           </listBibl></div>
+           <div type="summary" xml:lang="en">
+               <docAuthor>Mateja Režek</docAuthor>
+           <head>
+               TEACHING OF CONTEMPORARY HISTORY IN PRIMARY AND SECONDARY SCHOOLS IN SOCIALIST
+               SLOVENIA, 1945–1990</head>
+           <head>SUMMARY</head>
+           <p>The article analyses the teaching of contemporary history
+               in the socialist Slovenia/Yugoslavia from the point of view of the political use
+               of history as one of the key instruments of legitimising the communist rule. The
+               research is based on school curricula and history textbooks as well as on the
+               Communist Party’s archival sources and articles written by the leading Party
+               ideologists.</p>
+           <p>Great political upheavals cause changes in perceptions of the past, or rather constructions of the new collective memory that secures the legitimacy and historical identity of the new order. History was certainly one of the main tools of legitimation of the Yugoslav communist authorities. The key legitimation points were the <hi rend="italic">National Liberation
+               Struggle</hi> during World War II, anti-fascism, and the<hi rend="italic"> people’s revolution</hi>. Another important legitimising tenet of the communist authorities was their concept of resolving the national question in Yugoslavia; i.e. the principle of <hi rend="italic">brotherhood and
+                   unity</hi>. After the split between the Soviet Union and Yugoslavia in 1948, resistance to Stalin, <hi rend="italic">self-management</hi>, and <hi rend="italic">non-alignment</hi> also entered the historical canon as the specific qualities of the Yugoslav socialism.</p>
+           <p>The interest of the Communist Party in education was deeply rooted in its political programme, which anticipated not only the construction of a new state but also the formation of a new socialist society and a new socialist man. A society that broke with tradition, exchanging previous values for new ones, required new schools and a new educational system to assist in building a new identity of society. However, multi-ethnic societies such as Yugoslavia find the creation of a common identity more difficult than ethnically homogeneous societies. It was even more difficult for the socialist Yugoslavia, where the modest common past that existed was burdened by the pre-war ethnic antagonisms and a bloody settling of accounts during World War II. Consequently, the communist authorities were forced to invent a common Yugoslav history upon which the new collective identity could be built. The common <hi rend="italic">National Liberation Struggle </hi>of the Yugoslav peoples during World War II offered a solution that could be associated with the idea of <hi rend="italic">brotherhood and unity </hi>and the <hi rend="italic">people’s
+               revolution</hi>. The <hi rend="italic">National Liberation
+                   Struggle</hi> was therefore not only a means of legitimising the communist rule but also a means of building a common Yugoslav identity.</p>
+           <p>An overview of the curricula and textbooks provides a good insight into the teaching of history in Slovenian schools during socialism. Through textbook narratives, we can easily discern the values conveyed to the young generations: patriotism, collectivism, socialism, and anti-fascism. Vast amounts of political facts, generalisations, one-sided and often dogmatic explanations, as well as political and ideological messages aimed to secure the legitimacy of the Communist Party prevailed in the history textbooks produced during socialism. The past was depicted as a constant progress from the lower to higher forms of social arrangements, from a class-based to a classless society, while socialism was presented as a historical necessity. The leading role of the Communist Party was emphasised even in the descriptions of the interwar period, although it was only a marginal political party at that time. The glorification of the <hi rend="italic">National Liberation Struggle </hi>was placed at the centre of the textbooks as a method of creating a collective identity in the multi-ethnic Yugoslav state and legitimising the communist rule. Another important educational goal of school history was the strengthening of the Yugoslav peoples’ <hi rend="italic">brotherhood and
+               unity</hi> – a slogan emptied of meaning through endless repetition. These ideologised textbook representations resulted in an unbalanced and selective historical memory. Already during the period of socialism, history teaching was occasionally criticised by academic historians, but their critiques did not have any significant impact on the educational practice.</p></div>
+       </back>
+   </text>
+</TEI>
