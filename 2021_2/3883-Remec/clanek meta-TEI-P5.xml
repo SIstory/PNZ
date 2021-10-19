@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Črni bor kot črna kuga:</title>
+                <title>odnos lokalnega prebivalstva do pogozdovanja s črnim borom na Krasu v 19. in
+                    20. stoletju<note place="foot" xml:id="ftn2" n="*">Članek je nastal v okviru
+                        raziskovalnega programa Gospodarska in socialna zgodovina P6 0280, ki ga
+                        financira Javna agencija za raziskovalno dejavnost Republike Slovenije iz
+                        državnega proračuna.</note></title>
+                <author>
+                    <forename>Meta</forename>
+                    <surname>Remec</surname>
+                    <roleName>Dr.</roleName>
+                    <roleName>znanstvena sodelavka</roleName>
+                    <affiliation>Inštitut za novejšo zgodovino</affiliation>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI – 1000 Ljubljana</addrLine>
+                    </address>
+                    <email>meta.remec@inz.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2021-08-02</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/XXX</pubPlace>
+                <date>2021</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">61</biblScope>
+                <biblScope unit="issue">2</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>environmental history</term>
+                    <term>the Karst</term>
+                    <term>forest</term>
+                    <term>afforestation</term>
+                    <term>black pine</term>
+                    <term>monoculture plantations</term>
+                    <term>non-native tree species</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>okoljska zgodovina</term>
+                    <term>Kras</term>
+                    <term>gozd</term>
+                    <term>pogozdovanje</term>
+                    <term>črni bor</term>
+                    <term>monokulturni nasadi</term>
+                    <term>tujerodne drevesne vrste</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2021-10-19</date>
+                    <name>Mihael Ojsteršek</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc></change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Meta Remec<note place="foot" xml:id="ftn1" n="**"><hi rend="bold">Dr.,
+                        znanstvena sodelavka, Inštitut za novejšo zgodovino, Privoz 11, SI-1000
+                        Ljubljana; meta.remec@inz.si</hi></note>
+            </docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="DOI">doi: https://doi.org/10.51663/pnz.61.2.03</idno>
+            </docImprint>
+            <div type="abstract" xml:lang="sl">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">Prispevek se ukvarja z odnosom lokalnega prebivalstva do
+                        pogozdovanja s črnim borom in ustvarjanja obsežnih tujerodnih monokulturnih
+                        zasaditev na Krasu. Proces, ki se je začel na pobudo gozdarske stroke in
+                        nosilcev oblasti, je namreč izzval precejšnja nasprotovanja lastnikov
+                        zemljišč in uporabnikov skupnih zemljišč, ki si gozda niso želeli, saj je
+                        bil v nasprotju z njihovimi ekonomskimi interesi in ustaljenimi praksami.
+                        Dokler je pogozdovanje potekalo na občinskih zemljiščih, ga je prebivalstvo
+                        še načelno podpiralo, posegi v zasebna zemljišča pa so izzvali odpor. Vse
+                        bolj so se upirali težaškemu delu, nasade pa so tudi namerno uničevali. Po
+                        drugi svetovni vojni je oblast pričakovala spremembo v odnosu, saj so
+                        pogozdovanju pripisali izjemno močno ideološko komponento. Pogozdovanje
+                        Krasa naj bi postalo simbol boja za lepšo prihodnost, dokaz o moči in volji
+                        novega človeka, ki lahko zgolj v nekaj letih odpravi posledice stoletij
+                        tujega izkoriščanja. Črni bor je dejansko postal sestavni del pokrajine in
+                        identitete tamkajšnjega prebivalstva, vznesenost pa je med ljudmi kljub temu
+                        hitro popustila, saj črni bor ni prinašal obljubljenih donosov in koristi.
+                        Pogozdovanje, ki je za gozdarske strokovnjake veljalo za zgodbo o uspehu, je
+                        za lastnike zemljišč predstavljalo nesrečo in razlog za ekonomski propad, do
+                        pospešenega zaraščanja pa je prihajalo predvsem zaradi hitre
+                        industrializacije in opuščanja kmetijske rabe zemljišč.</hi></p>
+                <p><hi rend="italic">Ključne besede: okoljska zgodovina, Kras, gozd, pogozdovanje,
+                        črni bor, monokulturni nasadi, tujerodne drevesne vrste</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head>BLACK PINE AS THE BLACK DEATH:</head>
+                <head>THE LOCAL PEOPLE’S ATTITUDES TOWARDS BLACK PINE AFFORESTATION IN THE SLOVENIAN
+                    KARST IN THE 19<hi rend="superscript">TH</hi> AND 20<hi rend="superscript"
+                        >TH</hi> CENTURY</head>
+                <p><hi rend="italic">The contribution focuses on the attitudes of the local
+                        population towards the afforestation with black pine and the creation of
+                        large-scale non-native monoculture plantations in the Slovenian Karst. The
+                        process, which started at the initiative of the forestry profession and the
+                        authorities, provoked considerable opposition from landowners and users of
+                        common land who did not want forests there, as they saw them as contrary to
+                        their economic interests and established practices. As long as afforestation
+                        took place on municipal land, the population still supported it, in
+                        principle. However, the encroachment on private land provoked resistance.
+                        The locals increasingly resisted the hard labour as well as deliberately
+                        destroyed the plantations. After World War II, however, the authorities
+                        expected a change in this attitude, as reforestation was ascribed with an
+                        extremely strong ideological component. The reforestation of the Karst was
+                        supposed to become a symbol of the struggle for a better future, a proof of
+                        the power and will of the new society, capable of reversing the consequences
+                        of centuries of foreign exploitation in just a few years. Eventually, black
+                        pine indeed became an integral part of the landscape and identity of the
+                        local population. However, the excitement among the people quickly subsided,
+                        as black pine failed to deliver the promised returns and benefits. For the
+                        landowners, reforestation, which was considered a success story by forestry
+                        experts, represented a disaster and a reason for economic ruin, while
+                        accelerated overgrowth mainly took place due to the rapid industrialisation
+                        and abandonment of agricultural land.</hi></p>
+                <p><hi rend="italic">Keywords: environmental history, the Karst, forest,
+                        afforestation, black pine, monoculture plantations, non-native tree
+                        species</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>»Odurni, goli, kamniti Kras«</head>
+                <p>Kras in črni bor sta v zavesti Slovencev neločljivo povezana. Kosovelove podobe
+                    temnih borov, ki »kakor stražniki pod goro, preko kamenite gmajne, težko, trudno
+                        šepetajo«,<note place="foot" xml:id="ftn3" n="1"> Srečko Kosovel, <hi
+                            rend="italic">Bori</hi> (19??), <ref
+                            target="http://www.dlib.si/?URN=URN:NBN:SI:IMG-WX0FCCAA"
+                            >http://www.dlib.si/?URN=URN:NBN:SI:IMG-WX0FCCAA</ref>, pridobljeno 8.
+                        9. 2021.</note> ter temnih, črnih borov, ki kljubujejo silni burji in
+                    rastejo z odporom sredi sovražnega okolja,<note place="foot" xml:id="ftn4" n="2"
+                        > Srečko Kosovel, <hi rend="italic">Temni bori, črni bori</hi> (192?), <ref
+                            target="http://www.dlib.si/?URN=URN:NBN:SI:IMG-KD6CQBJZ"
+                            >http://www.dlib.si/?URN=URN:NBN:SI:IMG-KD6CQBJZ</ref>, pridobljeno 8.
+                        9. 2021.</note> so postale simbol upornih in trdnih Kraševcev, ki so se
+                    znali obdržati sredi nemogočih naravnih, gospodarskih in zgodovinskih razmer.
+                    Črni bor, ki je postal simbol in del skupinskega imaginarija, pa na Krasu ni bil
+                    prisoten od nekdaj. Za domačine je bil vsaj na začetku nezaželen tujec, ki je
+                    zasedel njihove pašnike, odtegoval kruh ter prinašal predvsem delo in le malo
+                    bornega dobička.</p>
+                <p>Lokacijsko in časovno lahko spremembe v podobi, strukturi in obsegu gozdov
+                    opazujemo na celotnem območju dinarskega krasa. Bogat in po flori in favni
+                    raznovrsten gozd se je pod vplivom različnih življenjskih dejavnikov, predvsem
+                    velike količine padavin, ki je nadomeščala pomanjkanje talne vode,<note
+                        place="foot" xml:id="ftn5" n="3"> Leopold Hufnagl, <hi rend="italic">Splošni
+                            del gospodarskih načrtov za kočevsko gospostvo 1894</hi> (Ljubljana:
+                        Biotehniška fakulteta, Oddelek za gozdarstvo in obnovljive gozdne vire,
+                        2002), 11.</note> razvil na površju, ki je v svoji osnovi neprijazno do
+                    življenja, predvsem pa ne dopušča večjih posegov v njegovo ravnovesje, in zdi
+                    se, da je pot od pragozda do »puščave« najkrajša prav na krasu.<note
+                        place="foot" xml:id="ftn6" n="4"> Dušan Mlinšek, »Beseda o knjigi,« v:
+                        Franjo Kordiš, <hi rend="italic">Dinarski jelovo bukovi gozdovi v
+                            Sloveniji</hi> (Ljubljana: Univerza v Ljubljani, Biotehniška fakulteta,
+                        Oddelek za gozdarstvo in gozdna gospodarstva, 1993), 6, 7.</note> Območje
+                    Krasa je bilo v preteklosti skoraj povsem prekrito z gozdovi, ki pa so zaradi
+                    antropogenih vplivov povsem spremenili svojo sestavo ali pa se že zgodaj v
+                    zgodovini začeli umikati naraščajočemu številu prebivalstva, predvsem pa
+                    njihovim čredam ovac in koz. Problematika pogozdovanja Krasa, predvsem pa
+                    vzrokov, zaradi katerih je bil Kras pusta, gola in kamnita pokrajina, ki jo je
+                    bilo »potrebno pogozditi in rešiti«, je bila v zgodovinopisju in tudi drugih
+                    strokah obravnavana že večkrat, pri čemer pa je bilo do sedaj večinoma
+                    spregledano dejstvo, da so obsežne pogozditve s črnim borom nastajale tudi v
+                    Vipavski dolini, goriška Komisija za pogozdovanje Krasa pa je delovala tudi na
+                    območju Kanala in na Tolminskem, kjer je težje govoriti o poskusih poustvarjanja
+                    nekdanjega izvornega naravnega okolja in kjer je bil ekonomski interes ves čas
+                    bolj v ospredju.<note place="foot" xml:id="ftn7" n="5"> Gl. npr. »Deželni zbor
+                        goriški,« <hi rend="italic">Gorica</hi>, 19. 7. 1902, 1. Gl. tudi <hi
+                            rend="italic">Poročilo deželnemu zboru poknežene grofovine
+                            Goriško-Gradiščanske o delovanju deželnega odbora od 1. januarja do
+                            konca decembra 1902</hi> (Gorica: Deželni odbor, 1903), 32, 33.</note>
+                    Analiz je bil deležen predvsem gozd na matičnem Krasu, ki bi moral biti, pa ga
+                    ni bilo. Pogozdovanje tega območja je veljalo za prvi uspeli eksperiment te
+                    vrste v evropskem merilu in je bilo na svetovni razstavi v Parizu nagrajeno s
+                    prvo nagrado. Pogozdovanje Krasa je veljalo za primer dobre prakse, ki so ga
+                    gozdarji iz cele Evrope opazovali, analizirali in nato prenašali še v druga
+                    okolja. Do današnjih dni se je obdržalo mnenje, da gre za zgodbo o uspehu v
+                    širšem, ne zgolj slovenskem okviru. Ustvaril se je prevladujoč diskurz, ki
+                    pogozdovanje s tujimi kulturami prikazuje kot uspeh in napredek v primerjavi z
+                    golo in degradirano pokrajino, ki je na Krasu nastala kot posledica
+                    nenadzorovanega izkoriščanja in izsekavanja, pozneje pa predvsem zaradi
+                    prekomerne paše. Analize, ki upoštevajo tudi zorni kot lokalnega prebivalstva in
+                    njegovih potreb, so redke,<note place="foot" xml:id="ftn8" n="6"> Aleksander
+                        Panjek, »Against the Desert in the Karst: a Paradigm-shift from Ruined
+                        Landscape to Cultural Savannah,« <hi rend="italic">Ekonomska i
+                            ekohistorija</hi> 14, št. 1 (2018): 52–71.</note> manjkajo pa historične
+                    analize posledic centralno vodenega in načrtnega spreminjanja okolja po letu
+                    1850. Ne preseneča, da je začetek pogozdovanja sovpadal z obdobjem velikih
+                    socialnih in družbenih reform ter načrtno vodene prevzgoje prebivalstva, ki se
+                    je uvajanju novosti v imenu napredka pogosto upiralo. Oblast, ki je bila
+                    prepričana, da ve, kaj je dobro za ljudi, je začela posegati na vsa področja
+                    človekovega življenja, med katerimi sta bila med prvimi prav spreminjanje in
+                    bonifikacija človekovega bivalnega okolja. Politična elita, ki je sledila
+                    načelom nemške gozdarske šole, je podpirala idejo, da je Kras treba nameniti
+                    gozdarskemu izkoriščanju, kar bi pomenilo popolno spremembo rabe okolja.
+                    Odločali so o ljudeh in njihovih življenjih, mnenja teh ljudi pa v imenu
+                    skupnega interesa niso bila pomembna, saj so veljali za neuke, nekulturne in
+                    predvsem kratkovidne.<note place="foot" xml:id="ftn9" n="7"> Aleksander Panjek,
+                            <hi rend="italic">Kulturna krajina in okolje Krasa: o rabi naravnih
+                            virov v novem veku</hi> (Koper: Založba Univerze na Primorskem, 2015),
+                        104.</note></p>
+                <p>V nasprotju s prevladujočim diskurzom, po katerem so kmetje s svojim nesmotrnim
+                    izkoriščanjem okolja tega nazadnje degradirali na raven puščave, se vse
+                    pogosteje pojavlja dvom, ali je poleg izkrčenja gozdov (deforestation) na Krasu
+                    res upravičeno govoriti tudi o procesu zapuščavljenja (desertification),<note
+                        place="foot" xml:id="ftn10" n="8"> Gl. npr. Andrej Kranjc, »Dinaric Karst:
+                        an Example of Deforestation and Desertification of Limestone Terrain,« v:
+                            <hi rend="italic">Deforestation Around the World</hi> (Rijeka: InTech,
+                        2012), 73–94.</note> saj je prebivalcem stoletja dolgo uspelo trajnostno
+                    gospodariti v skladu s potrebami in pri tem ohraniti vitalno naravno okolje, od
+                    katerega so bili ne nazadnje življenjsko odvisni. Pogozdovanje v imenu
+                    obnavljanja gozdnatega krasa je bilo v skladu z idejo napredka gozdarske stroke
+                    19. in 20. stoletja in v popolnem nasprotju s tradicijo lokalnega prebivalstva.
+                    Kmetje naj bi se v svoji ozkoglednosti in oklepanju zastarelih metod dela sami
+                    odrekali napredku in dobičku, zato jih je bilo treba izobraziti, prevzgojiti in
+                    nazadnje tudi prisiliti k uvajanju sprememb. »Degradacijska teorija«, ki je
+                    prevladala v gozdarski stroki in historiografiji, je prebivalstvu pripisovala
+                    krivdo, da so pokrajino, prekrito z bogatimi gozdovi, sprva izsekali v iskanju
+                    lahkega dobička, nato pa s pašo, steljarjenjem in obsekavanjem dreves ovirali
+                    njeno obnovo, ne izgublja priljubljenosti. Še več, povsem se staplja z modernimi
+                    okoljevarstvenimi analizami o vplivu človeka na ekosistem na svetovni ravni,
+                    zanemarja pa celoten spekter posledic, ki so bile s pogozdovanjem povezane – od
+                    uničujočega vpliva na takratni ekonomski sistem, socialnih sprememb in
+                    izseljevanja do sprememb v ekosistemu, kot je denimo pojav neavtohtonih vrst
+                    drevesnih škodljivcev, ki so se pojavile kot neposredna posledica ustvarjanja
+                    umetnih monokulturnih zasaditev s kulturami, ki tradicionalno niso bile prisotne
+                    na tem prostoru. V sporu med »pastirji in gozdarji« so zmagali slednji, saj jih
+                    je podpiral celoten administrativni aparat, ki je želel prenoviti način
+                    upravljanja gozdov in je v ekstenzivnem kmetijstvu videl coklo napredka.<note
+                        place="foot" xml:id="ftn11" n="9"> Panjek, »Against the Desert,« 68. Gl.
+                        tudi Panjek, <hi rend="italic">Kulturna krajina</hi>, 17 in 39.</note>
+                    Gozdarski strokovnjaki so se neposredno po drugi svetovni vojni očitno zavedali
+                    napak, ki jih je zagrešila nemška gozdarska šola s sajenjem smreke izven območja
+                    njenega naravnega okolja in pospeševanjem hrasta, ki je skoraj prevladal v
+                    slavonskih gozdovih, medtem ko se jim pogozdovanje z različnimi vrstami
+                    neavtohtonih borov na Krasu ni zdelo nasilje proti naravi, še manj pa proti
+                        ljudem.<note place="foot" xml:id="ftn12" n="10"> Vladislav Beltram,
+                        »Pogozdovanje Krasa ni problem,« <hi rend="italic">Gozdarski vestnik</hi> 5
+                        (1946): 9–18, 29–399.</note> Pogosto so spregledali dejstvo, da gozdov na
+                    Krasu ni bilo zato, ker kmetom niso koristili. »Pravi gozd« se jim ni zdel
+                    ekonomsko upravičen do te mere, da bi se bilo zanj vredno desetletja
+                    odpovedovati vsaki rabi. Letni prirastek je bil zaradi suš prenizek, za
+                    vinogradništvo so potrebovali kole, ostala zemljišča pa za pašnike.<note
+                        place="foot" xml:id="ftn13" n="11"> Panjek, <hi rend="italic">Kulturna
+                            krajina,</hi> 80 in 93.</note> Gozd je bil tujek, ki ga niso sprejeli
+                    odprtih rok.</p>
+                <p>Pogozdovanje površin, ki so bile nekoč pokrite z gozdovi, nato pa za daljše ali
+                    krajše obdobje spremenjene v kmetijska zemljišča, je zanimiv proces z več
+                    različnih vidikov. S socialnozgodovinskega vidika je te procese vredno
+                    raziskovati, saj pričajo o spremembah v ekonomskih in socialnih dinamikah
+                    družbe, zanimive pa so tudi z naravoslovnega vidika, saj razkrivajo strategije,
+                    ki so jih pri tem uporabljali, stranpoti in težave, na katere so pri tem
+                    naleteli. Opuščena kmetijska zemljišča so se v nekaterih primerih zarasla
+                    spontano, brez posredovanja ljudi, vendar je bil nov gozd ponavadi precej
+                    drugačen od prvotnega, saj so pogosto prevladale druge rastlinske vrste, kot so
+                    prvotno preraščale tista območja. Na drugih področjih tudi opuščanje kmetijske
+                    rabe ni pripeljalo do samodejnega zaraščanja – predvsem zaradi erozije in
+                    uničenega rodovitnega sloja prsti, do česar je prišlo po goloseku –, zato je
+                    bilo nujno posredovanje človeka, ki pa si je spet ustvaril okolje po svoji meri,
+                    v skladu s svojimi potrebami in vrednotami.<note place="foot" xml:id="ftn14"
+                        n="12"> Emiliy K. Brock, »New Patterns in Old Places. Forest History for the
+                        Global Present,« v: Andrew C. Isenberg, ur. <hi rend="italic">The Oxford
+                            Handbook of Environmental History</hi>, 154–77 (New York: Oxford
+                        University Press, 2014), 156, 157.</note></p>
+                <p>Kras je eno od območij, kjer je bil proces ponovne pogozditve izjemno počasen in
+                    na začetku ni dajal posebnih rezultatov. Pogozdovanje Krasa je v svetovnem
+                    merilu zanimivo, saj glede na zapise v virih ekonomski cilji še zdaleč niso bili
+                    glavni vzgib oziroma se je že od začetka vedelo, da bo ekonomski izplen zelo
+                    nizek in bo nanj mogoče računati šele čez več desetletij. V nasprotju z drugimi
+                    območji, kjer je pogozdovanje pripeljalo do tega, da so nastale drevesne
+                    plantaže, ki naj bi zagotavljale surovine industriji, so si pogozdovalci Krasa
+                    postavili cilj obnovitve prvotne sestave gozda, kar pa je bilo mogoče doseči le
+                    z velikim korakom v povsem nasprotno smer, tako da bi najprej dosegli, da bi na
+                    Krasu sploh kaj raslo, šele nato bi lahko začeli razmišljati o ekonomskih
+                        ciljih.<note place="foot" xml:id="ftn15" n="13"> Ibidem, 166,
+                    167.</note></p>
+                <p>Vzporednice dogajanju na Krasu je mogoče opazovati tudi na drugih kraških
+                    območjih s podobno sestavo tal, kjer je intenzivna kmetijska dejavnost prav tako
+                    vodila v spremembe prsti, vegetacije in mikroklime. Tudi poskusi reševanja
+                    degradiranih področij so bili sorodni: drugje so se prav tako zatekali k
+                    pogozdovanju s tujerodnimi, pionirskimi vrstami bora in osnovanju monokulturnih
+                    sestojev, ki so se zaradi svoje vzdržljivosti lahko ohranili v izjemno težkih
+                    razmerah, s sabo pa so prinesli tudi spremembe v ekoloških procesih in zakisanje
+                        tal.<note place="foot" xml:id="ftn16" n="14"> Ilona Bárány-Kevei, »Human
+                        Impact on Hungarian Karst Terrains, with Special Regard to Silviculture,«
+                            <hi rend="italic">Acta carsologica</hi> 32, 2 (2003): 175–85.</note>
+                    Ideje nemške šole gozdarstva so bile izjemno vplivne: v skladu z njenimi načeli
+                    so pogozdovanje z borom in evkaliptom izvajali v Španiji, na Sardiniji,
+                    Portugalskem ter Cipru in v Indiji, kjer je zasajanje z monokulturnimi gozdovi,
+                    ki naj bi prinašalo maksimalno zemljiško rento, potekalo že ob koncu 19.
+                        stoletja,<note place="foot" xml:id="ftn17" n="15"> A. T. Grove in Oliver
+                        Rackham, <hi rend="italic">The Nature of Mediterranean Europe. An Ecological
+                            History</hi> (New Haven, London: Yale University Press, 2001),
+                        69.</note> pod vplivom uspehov na Krasu pa so s pogozdovanjem poskušali tudi
+                    vzdolž cele jadranske obale.<note place="foot" xml:id="ftn18" n="16"> Beltram,
+                        »Pogozdovanje Krasa ni problem,« 15–18 in 29–38.</note> Spremembe v gozdni
+                    sestavi in deležu pokritosti tal z gozdom in vegetacijo, in s tem povezane
+                    spremembe v mikroklimatskih in talnih razmerah, so pogosto vodile v pojav novih
+                    bolezni in škodljivcev.<note place="foot" xml:id="ftn19" n="17"> Petra Sanković,
+                            <hi rend="italic">Možnost gojenja izbranih listavcev v vrzelih v nasadih
+                            črnega bora na Krasu</hi> (Ljubljana: [P. Sanković], 2015), 5.</note>
+                    Področje matičnega Krasa pa vendarle izkazuje nekatere specifike, ki izhajajo iz
+                    oteženih razmer za rast zaradi močne burje, ki je pogosto poškodovala mlade
+                    nasade dreves, močne požarne ogroženosti, ki se je izrazito povečala po
+                    izgradnji železnice, nezmožnosti tal, da bi zadržala vodne zaloge iz vlažnejših
+                    obdobij, kar je vodilo v hudo sušo, in dveh svetovnih vojn, ki sta se odvijali
+                    na tem ozemlju po začetku pogozdovanja in sta novim nasadom povzročili izjemno
+                    veliko škode.<note place="foot" xml:id="ftn20" n="18"> Ibid., 1. Gl. tudi: Ivan
+                        Gams in Matej Gabrovec, »Land Use and Human Impact in the Dinaric Karst,«
+                            <hi rend="italic">International Journal of Speleology </hi>28, št. 1
+                        (1999): 59. Franc Perko, <hi rend="italic">Od ogolelega do gozdnatega krasa:
+                            pogozdovanje krasa</hi> (Ljubljana: Zveza gozdarskih društev Slovenije -
+                        Gozdarska založba: Jutro, 2016), 189–97.</note>
+                </p>
+            </div>
+            <div>
+                <head>Pogozdovanje Krasa: reševanje gozda in prevzgoja ljudi</head>
+                <p>Več študij iz različnih znanstvenih disciplin je poskušalo odgovoriti na
+                    vprašanji, kakšna je bila izvorna vegetacija na Krasu in kdaj se je začel njen
+                    propad. Najbolj je uveljavljena teza, da je v priobalnem pasu in na planoti Kras
+                    prišlo do skoraj popolnega uničenja gozdnih površin in da je začetke tega
+                    procesa mogoče datirati zelo daleč v preteklost, saj so palovegetacijske
+                    raziskave opazile upadanje drevesnega peloda in s tem začetek deforestacije že
+                    po letu 1000 našega štetja. Proces naj bi se nadaljeval z razvojem obalnih mest
+                    in transhumance.<note place="foot" xml:id="ftn21" n="19"> Metka Culiberg,
+                        »Vegetacija Krasa v preteklosti,« v: Mauro Hrvatin, ur., <hi rend="italic"
+                            >Kras: [trajnostni razvoj kraške pokrajine]</hi> (Ljubljana: Založba
+                        ZRC, 2008). 100, 101. Več o tem gl. npr. Ivan Gams, »Sistemi prilagoditve
+                        primoskega dinarskega krasa na kemtijsko rabo tal,« <hi rend="italic"
+                            >Geografski zbornik</hi> 31, (1991): 5–106. Kranjc, »Dinaric Karst,«
+                        2012. Gams in Gabrovec, »Land Use and Human Impact.« Matija Zorn, Peter
+                        Kumer in Mateja Ferk, »Od gozda do gozda ali kije je goli, kamniti Kras?,«
+                            <hi rend="italic">Kronika</hi> 63, št. 3 (2015): 561–74.</note> Sprva
+                    naj bi do propadanja gozdov prihajalo zaradi agrarnega pritiska, saj je
+                    požigalništvo in posledično krčenje gozdov postalo glavni način pridobivanja
+                    novih kmetijskih površin, dokončna degradacija površin pa je bila posledica
+                    razvoja ladjedelništva in trgovine z lesom. Požigalništvo in posledično krčenje
+                    gozdov je postalo glavni način pridobivanja novih kmetijskih površin. Potrebe po
+                    obdelovalnih in pašnih površinah so ustvarile kratkotrajno rodovitne obdelovalne
+                    površine, ki so se kmalu izčrpale, kmetje pa so njihovo obdelavo naglo opustili.
+                    Posledice poseka dreves in odstranitve vse talne vegetacije so bile uničujoče,
+                    saj je bilo površje izpostavljeno eroziji zaradi vetra in dežja, kar je iz prej
+                    gozdnatih površin v zelo kratkem času ustvarilo kamnite pustinje.<note
+                        place="foot" xml:id="ftn22" n="20"> Kranjc, »Dinaric Karst,« 77–80.</note>
+                    Proces je bil še hitrejši, ker so kmetje v želji po ustvarjanju pašnikov,
+                    travnikov in celo ornih površin odstranjevali površinsko kamenje in iz njega
+                    ustvarjali suhe zidove.<note place="foot" xml:id="ftn23" n="21"> Gams in
+                        Gabrovec, »Land Use and Human Impact,« 59.</note> K temu je treba dodati še
+                    vpliv skoraj 40.000 ovac in še 12.000 glav druge živine, kar naj bi zahtevalo
+                    izjemen davek.<note place="foot" xml:id="ftn24" n="22"> Panjek, <hi
+                            rend="italic">Kulturna krajina</hi>, 89.</note> Gozdna paša, objedanje
+                    lubja in mladik ter steljarjenje naj bi pripeljali do tega, da je bila na
+                    prelomu iz 18. v 19. stoletje kraška planota že skoraj povsem razgaljena, po
+                    ocenah Gašperšiča in Winklerja pa je bila na celotnem gozdnogospodarskem območju
+                    leta 1875 gozdnatost le še 14-odstotna. Ostanki gozda so se ohranili predvsem na
+                    flišnati podlagi, medtem ko so bila apnenčasta tla že popolnoma gola.<note
+                        place="foot" xml:id="ftn25" n="23"> Franc Gašperšič in Iztok Winkler,
+                        »Ponovna ozelenitev in gozdnogospodarsko aktiviranje slovenskega krasa,« <hi
+                            rend="italic">Gozdarski vestnik</hi> 44, št. 5 (1986): 174, 175. Gl.
+                        tudi: Culiberg, »Vegetacija Krasa,« 100, 101.</note></p>
+                <p>Rezultat vsega tega naj bi bil »odurni« kras, pustinja, ki naj je ne bi bilo
+                    mogoče pripisati klimatskim razmeram, temveč naj bi krivdo zanjo v celoti nosil
+                    človek s svojim nesmotrnim ravnanjem.<note place="foot" xml:id="ftn26" n="24">
+                        Konrad Rubbia, <hi rend="italic">Petindvajset let pogozdovanja Krasa na
+                            Kranjskem: poročilo komisije za pogozdovanje Krasa v vojvodini Kranjski
+                            o delovanju, od leta 1886 do konca leta 1911: z dvema podobama</hi>
+                        (Ljubljana: Pogozdovalna komisija, 1912), 3.</note> Oblast je v sodelovanju
+                    z gozdarskimi strokovnjaki začela drag in dolgotrajen proces, ki naj bi bil
+                    odraz njene prosvetljenosti in zavezanosti napredku, podobni poskusi pa so nato
+                    sledili še drugod, kjer so poskušali obnoviti gozdove, ki naj bi nekoč že
+                        obstajali.<note place="foot" xml:id="ftn27" n="25"> Grove in Rackham, <hi
+                            rend="italic">The Nature of Mediterranean Europe</hi>, 10.</note> V
+                    novejši literaturi je sicer vedno pogosteje zaslediti pomisleke o tem, kdaj je
+                    bil Kras pokrit z obširnimi gozdovi, ali je bil njihov propad premočrten proces
+                    in ali se skozi zgodovino vendarle niso izmenjevala obdobja gostejše in
+                    skromnejše poraščenosti.<note place="foot" xml:id="ftn28" n="26"> Panjek, <hi
+                            rend="italic">Kulturna krajina</hi>, 97, 98. Zorn et al., »Od gozda do
+                        gozda,« 563.</note> Vse bolj namreč prodira ideja, da bukolična podoba
+                    idealizirane neokrnjene gozdne pokrajine, po kateri so hrepeneli pisci v 19.
+                    stoletju in ki naj bi jo z znanjem in strokovnostjo ponovno obudili, v resnici
+                    ni obstajala.<note place="foot" xml:id="ftn29" n="27"> Panjek, <hi rend="italic"
+                            >Kulturna krajina</hi>, 97–100.</note>
+                </p>
+                <p>V drugi polovici 19. stoletja je prišlo do načrtnih poskusov ponovne pogozditve
+                    ogolelih površin na Krasu, ki so temeljili na osnovanju skoraj popolnoma
+                    monokulturnih zasaditev tujerodnega črnega bora, kar je povzročilo globoke
+                    strukturne spremembe v podobi kraške planote. Po prvih pobudah Domenica
+                    Rossettija leta 1831 so prve praktične poskuse pogozdovanja izvedli v letu 1842,
+                    vendar brez uspeha. Pogozdovanja so se lotili s sejanjem in sajenjem nekoč
+                    avtohtonih drevesnih vrst, pri čemer niso upoštevali globokih strukturnih
+                    sprememb, do katerih je prišlo v stoletjih minimalne pokritosti z gozdom.<note
+                        place="foot" xml:id="ftn30" n="28"> Perko, <hi rend="italic">Od
+                            ogolelega</hi>, 37–39.</note> Leta 1852 so v Sežani ustanovili posebno
+                    družbo, ki naj bi skrbela za koordinacijo dela na terenu in aktivno promovirala
+                    pogozdovanje med prebivalstvom. Vsi dopisi in objave, ki so jih posredovali
+                    javnosti, so bili namenoma dvojezični, saj so računali na sodelovanje lokalnega
+                        prebivalstva.<note place="foot" xml:id="ftn31" n="29"> SI_PAK_KP/0629, t. e.
+                        1, a. e. 11, št. 21.</note> Pogozdovanje je nov zagon dobilo po letu 1865,
+                    po zborovanju Avstrijskega državnega gozdarskega društva, ki je potekalo v Trstu
+                    in se je povsem posvetilo problematiki pogozdovanja kraških območij. Vladi so
+                    predlagali, naj za določeno število let uvede davčno olajšavo, naj vzpostavi
+                    mrežo gozdarskih strokovnjakov, ki bodo znali prebivalstvu svetovati ob
+                    pogozdovanju pa tudi pozneje, saj so opažali, da ljudje tega dela niso vešči.
+                    Mlada drevesca, ki so sprva uspešno vzkalila in se ukoreninila, so namreč
+                    propadala, ker ljudje nasadov niso znali vzdrževati. Na zasedanju so večkrat
+                    poudarili dejstvo, da takojšnja ozelenitev Krasa ni pomembna zgolj za lokalno
+                    okolje, temveč za cesarstvo v celoti. Od tega naj bi bila odvisna usoda
+                    prometnih povezav, trgovine, pomorstva pa tudi turizma, zato naj bi država
+                    vzpostavila sistem subvencij in začela aktivno podpirati pogozdovalne akcije.
+                    Del teh nasvetov so upoštevali: leta 1869 so zaposlili gozdnega nadzornika za
+                    pogozdovanje Krasa pri namestništvu v Trstu, leta 1971 pa pri deželni vladi za
+                    Kranjsko, vzpostavili so tudi izplačevanje subvencij iz javnih sredstev.<note
+                        place="foot" xml:id="ftn32" n="30"> Rubbia, <hi rend="italic">Petindvajset
+                            let pogozdovanja Krasa</hi>, 14.</note> Pri uveljavljanju davčnih
+                    ugodnosti se je bolj zatikalo. Zakon iz leta 1869 je sicer predvideval 25-letno
+                    oprostitev plačevanja davkov za lastnike visokih gozdov, ki so bili nasajeni in
+                    vzgojeni na nerodovitnih ploskvah in zemljiščih ter po elementarnih nesrečah in
+                    opustošenjih, kar pa je posestnike na Krasu postavljalo v neenakopraven položaj.
+                    Izključevala jih je že formulacija »visoki gozd«, poleg tega pa njihova
+                    zemljišča niso bila zavedena kot nerodovitna, čeprav niso dajala posebnega
+                    donosa. Pisci, ki so obravnavali to problematiko, pa si poleg tega niso bili
+                    edini, ali naj jim taka ugodnost sploh pripada, saj za pogozdovanje dejansko
+                    niso skrbeli posestniki sami. Že sicer naj bi čez nekaj desetletij dobili
+                    pogozdena zemljišča visoke vrednosti, in to brez posebnega truda in lastnega
+                    vložka. Le zreti so morali dovolj v prihodnost, biti potrpežljivi in zaupati
+                    oblasti, da ve, kaj je zanje dobro.<note place="foot" xml:id="ftn33" n="31">
+                        Ibid., 79, 80.</note></p>
+                <p>Pogozdovanje ni potekalo kot enotna akcija, saj se ga je vsaka dežela lotevala po
+                    svoje in v skladu z zakonodajo, ki jo je sprejemala. Prvi je zakon o
+                    pogozdovanju sprejel Trst, leta 1881, sledile pa so mu še Goriška in
+                    Gradiščanska leta 1883, Kranjska leta 1885 ter Istra in Kvarnerski otoki leta
+                        1886.<note place="foot" xml:id="ftn34" n="32"> Franjo Jurhar, Jože
+                        Miklavžič, Franjo Sevnik in Bogdan Žagar, <hi rend="italic">Gozd na krasu
+                            Slovenskega primorja</hi> (Ljubljana: Tehniški muzej Slovenije, 1963),
+                        27.</note> Predpisovali so ukrepe in kazni za neposlušne lastnike,
+                    organizirali dobavo sadik ter določali postopke določanja zemljišč, ki naj bi
+                    jih bilo treba pogozditi.<note place="foot" xml:id="ftn35" n="33"> Perko, <hi
+                            rend="italic">Od ogolelega</hi>, 66–90.</note> Zadnje se je pogosto
+                    izkazalo za jabolko spora. Prebivalci so bili že od začetka vse prej kot
+                    navdušeni nad načrti oblasti. Nasprotovali so omejevanju paše in steljarjenja,
+                    potrebovali so drva za ogrevanje in niso se bili pripravljeni odpovedati svojim
+                    navadam. Zakon o pogozdovanju Krasa v vojvodini Kranjski, ki je bil sprejet 9.
+                    marca 1885,<note place="foot" xml:id="ftn36" n="34"> »Zakon z dné 9. marca 1885
+                        o pogozdovanji Krasa v vojvodini Kranjski,« <hi rend="italic">Deželni
+                            zakonik in vladni list za kranjsko kronovino</hi> 37, 21. 11.
+                        1885.</note> je v svojem prvem členu sicer določal, da mora pogozdovanje
+                    potekati brez škode za glavno gospodarsko dejavnost posestnika, česar pa ni bilo
+                    mogoče zagotoviti. Dokler je pogozdovanje potekalo na občinskih zemljiščih, na
+                    t. i. »občinski paši«, ga je prebivalstvo načeloma podpiralo in pri njem
+                    sodelovalo, čeprav so nekateri že ob tem opozarjali, da se izgubljajo dragocene
+                    pašne površine in da kmetom nihče ne bo pokril izpada dohodka. Ko pa naj bi
+                    pogozdovanje začeli na zasebnih zemljiščih, stvari niso več potekale tako
+                    gladko. Upirali so se kopanju jam in celo sabotirali že posajena območja.<note
+                        place="foot" xml:id="ftn37" n="35"> SI_PAK_KP/0629, t. e. 1, a. e. 11, št.
+                        21. Gl. tudi Franc Bunc, »Besedica o Krasu s kratkim opisom Komenske fare,«
+                            <hi rend="italic">Kmetijske in rokodelske novice</hi> 11, 20. 4. 1853,
+                        št. 32, 125, 126. »Poročilo o delovanji komisije za pogozdovanje Krasa v
+                        pokn. grofovini geriško-gradiščanski za I- 1901, prlloga 6,« v:  <hi
+                            rend="italic">Poročilo deželnemu zboru poknežene grofovine
+                            Goriško-Gradiščanske o delovanju deželnega odbora od 1. januarja do
+                            konca decembra 1902</hi> (Gorica: Deželni odbor, 1903), 1.</note> Zaradi
+                    pritiska zemljiških posestnikov so v drevesnicah poleg črnega bora vzgajali tudi
+                    večje število sadik listnatih drevesnih vrst, ki bi bolj ustrezale njihovim
+                        potrebam.<note place="foot" xml:id="ftn38" n="36"> Rubbia, <hi rend="italic"
+                            >Petindvajset let pogozdovanja Krasa, </hi>14.</note> Izbiranje površin
+                    za pogozdovanje je bilo nesistematično, nasadi so bili raztreseni in neobsežni,
+                    saj so posestniki sprva oddajali manjše dele posesti, ozke pasove večjih
+                    naklonov, ki so jih že sicer težko obdelovali. Skoraj vse delo je temeljilo na
+                    podlagi prostovoljnosti in ohlapnih dogovorov z lastniki zemljišč. Ti so si
+                    lahko tudi premislili in zemljišča ponovno namenili prvotni rabi. Pogosto so se
+                    namreč izgovarjali, da so nasadi propadli, da so se sadike zaradi suše posušile
+                    in da so zato ponovno začeli pašo. Skoraj nemogoče je bilo dokazati, ali so se
+                    sadike posušile same ali pa je šlo za namerno sabotažo, ki se je ponavadi
+                    zgodila po tem, ko posestniki niso bili zadovoljni z izplenom in ugodnostmi, ki
+                    so jih bili deležni. Zakonska regulativa je bila namreč pomanjkljiva in pravih
+                    posledic za posestnike v takih primerih ni bilo.<note place="foot"
+                        xml:id="ftn39" n="37"> Ibid., 15.</note> Veljavni zakoni so dobro ščitili
+                    obstoječe gozdove, obstoj novih pogozditev pa je bil skoraj v celoti odvisen od
+                    »trdovratnosti nekaterih kratkovidnih kraških posestnikov, katerim je več za
+                    borni košček paše, kot prihodnji gozd, s katerim bi se dosegla večja
+                    dobičkonosnost njihove pašnje in polja«. Posestniki so želeli in pričakovali
+                    takojšnje in oprijemljive koristi, obljube o »blagodejnem vplivu gozda na
+                    lokalne klimatične razmere in razvoj dežel« so jih manj zanimale. Konrad Rubbia,
+                    član in strokovni poslovodja pogozdovalne komisije za Kranjsko, se je
+                    pritoževal, da lokalni prebivalci »malo ali sploh ne umevajo« teh višjih ciljev,
+                    in je bil do njih kritičen, saj naj bi vedno iskali le osebno korist, za skupno
+                    korist pa naj bi jim bilo bolj malo mar. Celo takrat, ko je zapisal, da ubožni
+                    kraški prebivalci pogosto izkopavajo drevesne korenine, da si napravijo nekaj
+                    drv za kurjavo, ga je skrbela predvsem usoda nasadov, ki se v takih razmerah ne
+                    morejo razvijati. Potreben naj bi bil torej zakon, ki bi Kraševce prisilil v
+                    ravnanje, ki bi bilo v korist skupnemu blagru in njim samim in v skladu s
+                    katerim bi morali opustiti dotedanjo trmo.<note place="foot" xml:id="ftn40"
+                        n="38"> Ibid., 19–22.</note> Potem ko je neuko prebivalstvo, ki se ne zaveda
+                    dovolj »splošnodružbenega oziroma gospodarskega pomena gozdov in tudi ne pozna
+                    naravnih oziroma ekoloških zakonitosti njihovega razvoja«, povzročilo krčenje in
+                    pustošenje gozdov, se je nato še upiralo prizadevanjem oblasti in znanstvenikov,
+                    zaradi česar je bilo nujno opustiti zgolj propagandni pristop in uporabiti tudi
+                    prisilo, kadar je bilo to potrebno.<note place="foot" xml:id="ftn41" n="39">
+                        Jurhar et al., <hi rend="italic">Gozd na krasu</hi>, 19.</note></p>
+                <p>V prvih desetletjih se je o pogozdovanju predvsem veliko govorilo in pisalo,
+                    doseglo pa bolj malo, saj so se neuspeli poskusi vrstili drug za drugim,
+                    največja ovira pa naj bi bili prav trmasti kraški prebivalci in njihove
+                    življenjske razmere, zaradi katerih so se z vsemi sredstvi upirali posegom v
+                    njihovo dotedanje gospodarjenje. Prostovoljnega sodelovanja je bilo dokončno
+                    konec, ko so bili zaradi zmanjšanja pašnih površin prisiljeni v zmanjševanje
+                    števila živine. Dolgoročne koristi so jim bolj malo koristile, če svojih družin
+                    niso mogli nahraniti v tistem trenutku, gozdarski strokovnjaki pa so se
+                    zavedali, da samo s sprejemanjem zakonodaje ne bo pravega napredka, saj nadzora
+                    na terenu dejansko ni bilo mogoče izvajati. Kazni, ki jih je zakonodajalec
+                    predvidel, so bile prenizke, da bi prebivalstvo resnično odvrnile od gozdnih
+                    prestopkov. Rubbia si je zato odkrito prizadeval, da bi vsaj za najhujše
+                    prestopke in namerna poškodovanja nasadov poleg denarnih kazni uvedli tudi
+                    zaporne kazni, saj denarja od ubožnega prebivalstva največkrat sploh ni bilo
+                    mogoče izterjati.<note place="foot" xml:id="ftn42" n="40"> Rubbia, <hi
+                            rend="italic">Petindvajset let pogozdovanja Krasa, </hi>22, 23.</note>
+                    Zakon je v skrajnih primerih sicer predvidel tudi možnost razlastitve
+                    posestnika, če bi ta svoje obveznosti prelomil, vendar je veljalo prepričanje,
+                    da bi tako ravnanje med prebivalstvom vzbudilo predvsem odpor, kar bi dolgoročno
+                    le škodovalo pogozdovanju.<note place="foot" xml:id="ftn43" n="41"> Ibid., 26.
+                    </note> V časopisju je sicer zaslediti opozorila, da se javno mnenje obrača
+                    proti pogozdovanju predvsem zato, ker to ne daje pravih rezultatov. Posestniki
+                    naj pogozdovanju ne bi nasprotovali zaradi lastne trme, temveč zato, ker jim
+                    jemlje možnosti za preživetje, omejuje živinorejo in rejo drobnice ter jih
+                    obremenjuje z dodatnim težaškim delom. Časopis <hi rend="italic">Edinost</hi> se
+                    je odločno postavil na stran Kraševcev in poudaril, da še tako plemenita ideja
+                    ne more opravičevati stradanja med prebivalstvom, zato naj bi bilo treba
+                    pogozdovanje začasno ustaviti in premisliti, kako naprej. Kmet, ki je bil
+                    prisiljen v delo pri pogozdovanju, je zanemarjal ostale opravke, ko so se sadike
+                    posušile, pa mu na koncu ni ostalo drugega od prekopanega in povsem uničenega
+                    zemljišča, po katerem je bilo zaradi številnih jam nevarno celo hoditi in ki je
+                    bilo neprimerno za pašo. Oblast bi morala po mnenju pisca kmetu bolj zaupati in
+                    mu prepustiti presojo o tem, čemu namenja lastna zemljišča, saj ne nazadnje z
+                    njimi gospodari iz generacije v generacijo. Soliti pamet kmetu na daljavo in iz
+                    uradov naj bi bilo povsem zgrešeno. Namesto tega naj bi vlada podprla marljive
+                    posestnike, da bi z veseljem čistili, pogozdovali in oskrbovali zemljišča, za
+                    katera bi sami presodili, da jih lahko namenijo pogozdovanju. Oblast bi morala
+                    kmetom prisluhniti, predvsem pa poskrbeti, da trud in delo kmetov ne bi bila
+                        zaman.<note place="foot" xml:id="ftn44" n="42"> »Dopisi. S Kraškega roba,«
+                            <hi rend="italic">Edinost</hi>, 29. 6. 1881, 2.</note></p>
+                <p>Prvotne ideje o napredku, ki naj bi ga bilo mogoče doseči v obdobju pičlih treh
+                    let, so se izkazale za nerealne. Postajalo je očitno, da se bodo ljudje morali
+                    odreči vsakemu poseganju v gozd vsaj za dobo 15–20 let, česar pa pri tako
+                    ekstenzivnem kmetijstvu ni bilo mogoče uresničiti. Celo načrt, po katerem naj bi
+                    črni bor po eni generaciji odstranili in ga začeli nadomeščati z mešanimi
+                    naravnimi sestoji, se je uresničeval precej počasneje od načrtovanega.<note
+                        place="foot" xml:id="ftn45" n="43"> A. Fleišman, »Goli in pusti kras v 3
+                        letih v mlade seženj visoke boršte spreoberniti,« <hi rend="italic"
+                            >Kmetijske in rokodelske novice</hi> 8, 30. 10.; 6. 11.; 13. 11.; 18.
+                        12. 1850.</note> Vedno znova so se odpirala vprašanja o lastništvu in
+                    nadomestilu davkov za zemljišča, ki so bila predvidena za pogozdovanje, ter o
+                    tem, kdo naj bi nosil finančno breme pogozdovanja. Lastnikom zemljišč so sicer
+                    nameravali zagotavljati sadike, ti pa naj bi prispevali lastno delo in drug
+                    material. Če lastnik pogozdovanja ne bi izvedel, je bil kot skrajni ukrep
+                    predviden celo zaseg zemljišča. Poleg tega so predvideli drastično omejevanje
+                    števila drobnice in celo povsem prepovedovali kozjerejo, ki je veljala za
+                    najbolj problematično.<note place="foot" xml:id="ftn46" n="44"> Perko, <hi
+                            rend="italic">Od ogolelega</hi>, 58 ter 122–25.</note> Spodbujali naj bi
+                    krmljenje živine v hlevih, kmete naj bi poučili, kako koristen bi bil gnoj, ki
+                    bi ga lahko pridobili, aktivno pa naj bi jih spodbujali tudi k prehodu na
+                    krmljenje prašičev.<note place="foot" xml:id="ftn47" n="45"> Rubbia, <hi
+                            rend="italic">Petindvajset let pogozdovanja Krasa</hi>, 11, 12.</note>
+                    Delo, ki naj bi ga prebivalstvo opravljalo, je bilo zares težaško: zemljo je
+                    bilo treba prerahljati, narediti brazde, odstranjevati kamenje, prinašati
+                    rodovitno prst, nove nasade pa je bilo treba tudi pleti, zalivati itd.
+                    Poudarjali so nujnost ograjevanja zasaditev zaradi zaščite pred živino, kar pa
+                    je moral izvesti vsak lastnik sam. Sprva so jim obljubljali, da bo paša omejena
+                    v obdobju 10–12 let, nato pa se je izkazalo, da bo to obdobje moralo biti precej
+                    daljše. Poskušali so vzpostaviti sistem, po katerem bi lastniki živine
+                    nadomeščali pravico do paše s pogozdovanjem. Lastniki krav in volov naj bi za
+                    vsako glavo živine, ki se pase na gmajnah ali po soseskinih gozdovih, posadili
+                    50–100 sadik, pri teletih in ovcah pa 25–50 sadik. Ljudi so spodbujali tudi k
+                    simbolnim zasaditvam – denimo ob poroki naj bi zasadili od 100 do 1000 sadik,
+                    prav tako pa tudi ob posebnih slovesnostih, kot so prihod novega duhovnika, nove
+                    maše, birme in razne obletnice. Take zasaditve bi imele posebno spominsko pa
+                    tudi vzgojno vlogo, možnost, da bi prišlo do nezakonitega poseganja v take
+                    nasade, pa naj bi se pomembno zmanjšala. Zlasti otroci naj bi razvili iskreno
+                    čustven odnos do posameznega nasada in bi ga varovali ter oskrbovali do konca
+                    svojega življenja.<note place="foot" xml:id="ftn48" n="46"> SI_PAK_KP/0629, t.
+                        e. 3, a. e. 25, spis 9.</note> Cilj tako ni bilo zgolj pogozdovanje, temveč
+                    tudi prevzgoja, saj naj bi »rodu kraških prebivalcev, privzetih k pogozdovalnim
+                    delom, vcimila ljubezen do gozda«, tako pa bi spoznali »njega blagodejen vpliv«
+                    in se ga naučili ceniti ne samo zaradi njegove »plodonosnosti«, temveč tudi
+                    zato, ker predstavlja višjo vrednoto.<note place="foot" xml:id="ftn49" n="47">
+                        Rubbia, <hi rend="italic">Petindvajset let pogozdovanja Krasa</hi>,
+                        1.</note></p>
+                <p>Društvo za pogozdovanje v Avstrijsko-ilirskem primorju je aktivno vabilo
+                    družbenike, ki bi želeli odstopiti svoja zemljišča za pogozdovanje, kdor pa ni
+                    razpolagal z zemljišči, je lahko postal »pripomočni družbenik« ter prispeval
+                    delo in svoje znanje. Ker v objavah niso znali jasno definirati kratkoročnih ali
+                    vsaj srednjeročnih prednosti vstopa v omenjeno društvo, je bilo odziva malo, saj
+                    se ljudje niso želeli odrekati zemlji v imenu napredka, ki bi nastopil šele čez
+                    pet in več desetletij.<note place="foot" xml:id="ftn50" n="48"> SI_PAK_KP/0629,
+                        t. e. 1, a. e. 11, št. 48.</note> Kmetje so se upirali poseganju v svoje
+                    navade in način dela. Nenadoma so oblasti namreč želele nadzorovati in
+                    regulirati tudi najbolj banalne vsakodnevne opravke, kot je bila izbira poti, po
+                    kateri so lahko gnali drobnico na pašo. Povsem so želeli prepovedati pašo volov,
+                    ki so polomili tudi večja drevesa, pri paši ovc pa naj bi obveljalo pravilo, da
+                    se lahko pasejo na območjih, kjer so sadike že večje od enega metra.
+                    Prepovedovali so jim pašo brez nadzora in puščanje živali na pašniku ponoči,
+                    posebej natančno pa so poskušali regulirati pašo koz. Ta naj bi bila dovoljena
+                    le na posebej označenih pašnikih, ki naj bi jih po navodilih oblasti označili s
+                    piramidami iz kamenja, pobarvanega z belim apnom. Poleg paše je bilo omejeno
+                    tudi grabljenje listja in trave, kar je bilo dovoljeno delati le še na vsaka tri
+                    leta, in še to zgolj z lesenimi grabljami, medtem ko je bila uporaba železnih
+                    strogo prepovedana. Lastnik je bil poleg tega dolžan zatirati insekte, ki bi
+                    lahko škodovali novim nasadom, pa tudi skrbeti za varstvo pred požari, kar je
+                    vključevalo skrb za kamnite zidove, oskrbovanje poti in celo požarno stražo. Pri
+                    nasadih na občinskih zemljiščih je obveznost padla na celotno skupnost.<note
+                        place="foot" xml:id="ftn51" n="49"> SI_PAK_KP/0638, t. e. 1, a. e. 7.</note>
+                    Vzpostavila se je tradicija delovnih akcij, na katerih so odstranjevali plevel,
+                    kosili nasade, izvajali dopolnitve v nasadih in rezali zapredke pinijevega
+                    sprevodnega prelca skupaj z vejami. Delovnih akcij se je moral udeležiti vsaj en
+                    član posameznega gospodinjstva, pri čemer je moral prinesti svoje orodje in
+                    poskrbeti za svojo prehrano.<note place="foot" xml:id="ftn52" n="50">
+                        SI_PAK_KP/0638, t. e. 1, a. e. 6.</note> Tudi pri novačenju delovne sile, ki
+                    naj bi pogozdovanje izvajala, se je precej zatikalo. Moški so se delu pri
+                    pogozdovanju izogibali, saj je potekalo takrat, ko so tudi na kmetijah imeli
+                    veliko dela, poleg tega pa so v Trstu lahko zaslužili precej več. Za
+                    pogozdovanje najtežje dostopnih območij na Nanosu, kjer jim je do leta 1911
+                    uspelo pogozditi le 102 ha od načrtovanih 636 ha zemljišč, je bilo nasploh težko
+                    dobili delavce, saj so bila zemljišča, namenjena pogozdovanju, kar štiri ure
+                    hoje oddaljena od najbližjih naselij. Za delavce je bilo zato nujno urediti
+                    »udobna zavetišča« in poskrbeti za njihovo prehrano. Načrtovalci pogozdovanja so
+                    bili prisiljeni v kompromise. Za delo v najtežjih razmerah so ponujali višje
+                    plačilo, vendar je 20 vinarjev višja plača le redke premamila do te mere, da bi
+                    odtehtala delo v težkih in neprijaznih vremenskih razmerah. Vsak dodatni strošek
+                    je bil pri koordinatorjih pogozdovanja vzrok za negodovanje, saj so se zavedali,
+                    da pomeni manj posajenih sadik. Oblast je razmišljala tudi o izkoriščanju
+                    prisilnega dela in o pritegnitvi kaznjencev, ki bi jamice za sadike lahko kopali
+                    zastonj, vendar so to misel nazadnje opustili. Zapornike bi na tako
+                    razdrobljenem ozemlju težko nadzorovali, poleg tega je bilo nesprejemljivo, da
+                    bi zločinci delali ob ženskah in otrocih, ki so sadike dejansko posadili. Še
+                    dodatno razočaranje je bilo, da se je lokalno prebivalstvo izogibalo delu –
+                    oblast je namreč pričakovala, da bodo ubožni prebivalci veseli zaslužka,
+                    dejansko pa so se ga otepali. Število delavcev, ki je sodelovalo pri
+                    pogozdovanju, je nihalo, v povprečju je na leto delalo 2.400 delavcev, kar je
+                    predstavljalo približno 10 odstotkov lokalnega prebivalstva. Ker pa so se na
+                    delo javljali predvsem ženske in otroci, je pogozdovanje potekalo zelo počasi.
+                    Vse ostrejše nasprotovanje prebivalcev je izhajalo tudi iz dejstva, da je bilo
+                    pogozdovanje najbolj ogolelih predelov mogoče le ob dovažanju rodovitne zemlje,
+                    ki jo je bilo treba od nekod izkopati in jo pripeljati na zemljišča, predvidena
+                    za pogozditev. Tako ravnanje je bilo povsem v nasprotju z željami in interesi
+                    lokalnega prebivalstva, ki se tako ni več odpovedovalo le paši, temveč tudi
+                    rodovitni prsti, na kateri bi si lahko pridelali hrano.<note place="foot"
+                        xml:id="ftn53" n="51"> Rubbia, <hi rend="italic">Petindvajset let
+                            pogozdovanja Krasa,</hi> 41–43.</note></p>
+                <p>Nasadi, ki so bili vzpostavljeni s toliko truda in stroški, so v velikem številu
+                    propadali zaradi neugodnih tal, vremenskih razmer, škodljivcev, škode, ki so jo
+                    povzročali ljudje, in požarov, ki jih je povzročala železnica. O požarih, ki so
+                    se širili zlasti v poletnih mesecih, je obstajalo veliko teorij. Konrad Rubbia
+                    je poročal, da je med letoma 1887 in 1911 pogorelo več kot 96 ha pogozdenih
+                    območij, od katerih naj bi jih 58 ha pogorelo zaradi neprevidnosti, 16,5 ha naj
+                    bi pogorelo zaradi isker, ki jih je povzročil železniški promet, še 21 ha pa naj
+                    bi pogorelo iz neznanega vzroka. Po nekaterih tezah naj bi bili ti požari
+                    večinoma podtaknjeni,<note place="foot" xml:id="ftn54" n="52"> Panjek, <hi
+                            rend="italic">Kulturna krajina</hi>, 105, 106.</note> čeprav je Rubbia
+                    zatrjeval, da so poškodovanja gozda »iz hudobnosti« redka in še to največkrat v
+                    obliki ruvanja pravkar posajenih sadik, saj so se kmetje požarov načeloma bali.
+                    Navedel je tudi, da bolj kot s požiganjem škoda nastaja zato, ker ljudje
+                    nadaljujejo pašo, največkrat pa naj bi bili krivi mladoletni pastirji, ki so
+                    živali nezadostno nadzorovali. Med letoma 1887 in 1911 so tako obravnavali 567
+                    prestopkov, od tega je bilo kar 370 primerov nedovoljene paše v nasadih.<note
+                        place="foot" xml:id="ftn55" n="53"> Rubbia, <hi rend="italic">Petindvajset
+                            let pogozdovanja Krasa</hi>, 58.</note> Komisija za pogozdovanje krasa
+                    si je želela pridobiti tudi pravico do oskrbovanja nasadov, predvsem pa naj bi
+                    ji pripadala pravica do odločitve, kdaj gospodarjenje s posameznim zemljiščem
+                    ponovno prepustiti lastniku. Strokovnjaki naj bi bolje od lastnikov vedeli, kaj
+                    nasadi potrebujejo, kdaj je treba izvesti posamezna dela, saj so bili sicer tudi
+                    sprva uspešni nasadi obsojeni na propad. Če nasadov niso požigali in ruvali, so
+                    se namreč pogosto posluževali tihega, pasivnega sabotiranja. Sadike bi namreč
+                    morali redno zalivati, okolico pa okopavati in odstranjevati plevel, na kar pa
+                    so lastniki ponavadi preprosto pozabili.<note place="foot" xml:id="ftn56" n="54"
+                        > Ibid., 78.</note></p>
+            </div>
+            <div>
+                <head>Pogozdovanje po drugi svetovni vojni: popolna prenova naravnega okolja, družbe
+                    in ljudi</head>
+                <p>Pogozdovanje je po drugi svetovni vojni dobilo nov zagon, saj je bilo vključeno v
+                    petletni načrt FLRJ, ki je predvideval pogozdovanje 100.000 ha površin na
+                    območju celotne Jugoslavije.</p>
+                <p>Oblast je v zvezi z gozdovi imela velika pričakovanja. Les je v prvih letih po
+                    drugi svetovni vojni veljal za enega redkih jugoslovanskih izvoznih artiklov, s
+                    prodajo katerega je bilo mogoče priti do deviz, ki so bile potrebne za nakup
+                    najrazličnejše mehanizacije iz tujine. Prodaja lesa je pogosto potekala s
+                    kompenzacijsko prodajo prek gospodarskih subjektov v Trstu. Postopki so bili
+                    dolgi, večje število posrednikov pa je pomenilo tudi negotov izid prodaje. Na to
+                    kaže primer iz leta 1947, ko so iz kompenzacijske prodaje 3.500 m<hi
+                        rend="superscript">3</hi> rezanega lesa prek tržaških posrednikov
+                    pričakovali deset tovornjakov in nekaj drugih delovnih strojev, po mesecih
+                    čakanja pa so dobili le dva rabljena tovornjaka. Na tak način niso mogli uvajati
+                    potrebnih novosti v delovni proces, ki je ostajal na ekstenzivni ravni.<note
+                        place="foot" xml:id="ftn57" n="55"> SI AS 118, t. e. 34, 2961/1, gl. tudi
+                        »Gozdarstvo Slovenije je v preteklem letu prispevalo velik delež h graditvi
+                        socializma,« <hi rend="italic">Ljudska pravica</hi>, 6. 1. 1951, 1, 2.
+                    </note> Sanacija gozdarstva naj bi potekala z roko v roki z modernizacijo
+                    mehanizacije, projektirano »gazifikacijo in elektrifikacijo« ter zamenjavo drv
+                    za lignit, kar bi omogočilo ravnovesje v potrošnji lesa in drv, povezana pa je
+                    bila z velikimi investicijami v rudarstvo.<note place="foot" xml:id="ftn58"
+                        n="56"> SI AS 244, t. e. 13, mapa 21.</note> Ideološki naboj je bil izjemno
+                    prisoten: tako kot so se med vojno borili proti nemškemu okupatorju, so se sedaj
+                    nameravali boriti proti škodljivim posledicam nemške šole gozdarstva in
+                    »žalostn[i] dediščin[i] kulturnih okupatorjev«.<note place="foot" xml:id="ftn59"
+                        n="57"> SI AS 675, t. e. 13, Kumulativno in mesečno poročilo o lubadarju št.
+                        8, št. 118/47. Gl. tudi Jože Šlander, <hi rend="italic">Zaštita šuma u
+                            Sloveniji (stanje i problematika)</hi> (1948), <ref
+                            target="https://www.zdravgozd.si/dat/pdp/19480930.pdf"
+                            >https://www.zdravgozd.si/dat/pdp/19480930.pdf</ref> (pridobljeno 8. 9.
+                        2021).</note></p>
+                <p>Zakon o petletnem planu je na področju gozdarstva predpisoval racionalno
+                    izkoriščanje gozdov, varčevanje z drvi za kurjavo in gradbenim lesom ter ukrepe
+                    za zaščito gozdov pred poškodbami in elementarnimi nesrečami. V petih letih naj
+                    bi z uporabo mehanizacije dosegli racionalizacijo dela pri sekanju in transportu
+                    lesa ter izobrazili potrebni strokovni kader, predvsem pa pogozdovali. V
+                    primerjavi z letom 1939, ko je bilo pogozdenih nekaj več kot 9.000 ha površin,
+                    naj bi do leta 1951 vsako leto pogozdili vsaj 20.000 ha, medtem ko naj bi sečnjo
+                    zavrli in s tem omogočili gozdu, da si opomore od let prekomernega izkoriščanja.
+                    Začeli so načrtno znanstveno delo, ki je pokazalo, da se prst na Krasu obnavlja
+                    počasneje, iskali pa so tudi možnosti preseganja težav, ki jih je povzročala
+                    njena zakisanost. Neizpodbitno je postalo dejstvo, da je zaradi ogolelosti Krasa
+                    prišlo do spremenjenega podnebja, zaradi česar so nekoč avtohtone vrste postale
+                    dejansko neprimerne. Študije, ki so nastajale po drugi svetovni vojni, so
+                    pričakovale, da bo črni bor izboljšal razmere in bo prehod v prvotno stanje
+                    vegetacije relativno enostaven. Vse nadaljnje delo naj bi slonelo na povečanih
+                    investicijah v gozdno gospodarstvo, in sicer za več kot 400 odstotkov v
+                    primerjavi z letom 1939. Na vsem tem naj bi sloneli pospešen razvoj lesne
+                    industrije, modernizacija lesnih žag ter začetek industrijske proizvodnje
+                    pohištva in montažnih hiš.<note place="foot" xml:id="ftn60" n="58">»Zakon o
+                        petletnem planu,« <hi rend="italic">Gozdarski vestnik</hi> 6 (1947),
+                        80.</note> »Jugoslovanski oz. slovenski kras« je veljal za enega najtežjih
+                    problemov jugoslovanskega oziroma slovenskega narodnega gospodarstva. Pisci
+                    poudarjajo, da gre za precej globlja vprašanja kot zgolj to, kako meliorirati
+                    degradirana zemljišča, kako pogozditi in izboljšati obstoječe gozdove. V nekaj
+                    desetletjih naj bi dosegli popolno prenovo naravnega okolja in tudi družbe.
+                    Odpravili naj bi stihijsko delo, dvignili proizvodnjo, aktivirali kraško območje
+                    v gozdnogospodarskem pogledu, izboljšali videz pokrajine in dali ljudem novo
+                        perspektivo.<note place="foot" xml:id="ftn61" n="59"> Jurhar et al., <hi
+                            rend="italic">Gozd na krasu</hi>, 7–13.</note> Pogozdovanje je tako
+                    dobilo izrazito ideološko komponento: šlo je za reševanje prebivalstva, ki je
+                    bilo stoletja dolgo podjarmljeno in obsojeno na revščino in životarjenje.
+                    Gospodarsko zaostalost, ki je izvirala iz nerazvitega kmetijstva, pa tudi nizko
+                    kulturno raven podeželskega prebivalstva naj bi rešili s splošnim družbenim in
+                    industrijskim napredkom.<note place="foot" xml:id="ftn62" n="60"> Ibid.,
+                        7.</note> Ob fotografiji borovega gozda lahko v <hi rend="italic">Gozdarskem
+                        vestniku</hi> preberemo vznesene besede, da so bori »podobni vojski na
+                    zmagoslavnem nezadržnem pohodu« in da jih je zmeraj več, »kot partizanov v času
+                    narodno osvobodilne borbe«. Nova socialistična oblast naj bi ponovno ozelenela
+                    ozemlja, ki so jih tujci najgloblje prizadeli, med njimi predvsem Kras, ki naj
+                    bi ga opustošilo že izkoriščanje Beneške republike, nato pa še italijanska
+                    fašistična država. Ta ne samo da ni ustvarila novih pogozditev, temveč je še
+                    dodatno izčrpala naravne vire tega območja. »Okupatorjeva sekira je zapustila
+                    svoje sledove«, saj so Italijani samo nekaj let pogozdovali s črnim borom,
+                    povsem zanemarili začeto delo in pri pretvarjanju borovih nasadov celo izsekali
+                    vse boljše drevje v starejših kraških nasadih.<note place="foot" xml:id="ftn63"
+                        n="61"> Beltram, »Pogozdovanje Krasa ni problem,« 13, 14 ter 37.</note>
+                    Socialistično plansko gospodarstvo naj bi v novih političnih, gospodarskih in
+                    družbenih razmerah prineslo dokončno rešitev »republiškega problema prvega
+                    reda«. Uveljavila se je teza, da pogozdovanje ni gojitveno-tehnični, temveč
+                    pretežno socialnoekonomski problem, njegovo reševanje pa je odvisno od tega,
+                    koliko sredstev je ljudska skupnost pripravljena žrtvovati v ta namen in koliko
+                    je pripravljena vlagati v preseganje gospodarske in kulturne zaostalosti
+                        ljudstva.<note place="foot" xml:id="ftn64" n="62"> Jurhar, et al., <hi
+                            rend="italic">Gozd na krasu</hi>, 10–12.</note></p>
+                <p>Velik zagon pogozdovanja v letih neposredno po drugi svetovni vojni, ko so
+                    potekale številne prostovoljne delovne pogozdovalne akcije, je že med letoma
+                    1948 in 1952 doživel zastoj, saj so zaradi pomanjkanja denarnih in materialnih
+                    sredstev omejili melioracijska in obnovitvena dela, kraški gozdovi pa so začasno
+                    celo izgubili »pasivni« značaj in so morali prispevati svoj delež k premagovanju
+                    gospodarskih težav. Do leta 1947 so mnogi dvomili o smotrnosti vlaganja v
+                    gospodarski razvoj območja tudi zaradi nejasnih pristojnosti, ki so izhajale iz
+                    nedokončane mejne razdelitve.<note place="foot" xml:id="ftn65" n="63"> Ibid.,
+                        30, 31.</note> Pristojnost nad območjem je bila formalno še vedno
+                    razdeljena, prehodi med enim in drugim delom so bili negotovi, izmenjavo pa so
+                    še bolj omejevale različne denarne valute, ki so veljale na vsakem od
+                        območij.<note place="foot" xml:id="ftn66" n="64"> SI_PAK_KP/0795, t. e. 3,
+                        Kronika pogozdovalnih del, 1949, Splošno – potek pogozdovalnih del od l.
+                        1945 do l. 1948.</note></p>
+                <p>Pogozdovanje kraških površin, ki je bilo vključeno v povojni petletni načrt, je
+                    po mnenju gozdarskih strokovnjakov sicer potekalo prepočasi, upanje pa je
+                    vendarle vzbujalo dejstvo, da se je uspeh pogozdovanja bistveno dvignil. Če je
+                    pred drugo svetovno vojno veljalo, da je uspeh pogozditev približno 30-odstoten,
+                    pa se je po drugi svetovni vojni ta gibal med 80 in 90 odstotki, kar so
+                    pripisovali spremenjeni tehniki pogozdovanja, uporabi mehanizacije, gnojil in
+                        pesticidov.<note place="foot" xml:id="ftn67" n="65"> Jurhar et al., <hi
+                            rend="italic">Gozd na krasu</hi>, 55.</note> Preboj naj bi omogočal
+                    zlasti pesticid Lindan, ki so ga dodajali kontaktno, h koreninam ob
+                    pogozdovanju, pri čemer je bilo doziranje zelo približno in pogosto po načelu
+                    »raje več kot manj«. Strup se je tako znašel neposredno v prsti, UV-žarki in
+                    veter niso imeli vpliva nanj, učinkovitost je bila podaljšana, žal pa je bilo
+                    precej olajšano tudi razširjanje insekticida v pitno vodo.<note place="foot"
+                        xml:id="ftn68" n="66"> SI_PAK_KP/0795, t. e. 6, Sekcija za pogozdovanje in
+                        melioracijo Krasa Gorica, Dopisi, 1958.</note> Uporaba Lindana, ki je bil
+                    organoklorova spojina, naj bi učinkovitost pogozdovanja dvignila na kar 98
+                    odstotkov, zato so z velikim obžalovanjem poročali, da jim ga ni uspelo
+                    pridobiti v zadostnih količinah.<note place="foot" xml:id="ftn69" n="67">
+                        SI_PAK_KP/0795, t. e. 3, Zapisnik o delovnem sestanku delovodij objektov,
+                        1958.</note> Uspehi načrtno vodenega planskega gospodarjenja naj bi bili
+                    kljub temu vidni. Če so med letoma 1876 in 1915 na Slovenskem pogozdili
+                    približno 10.000 ha kraškega površja, jim je samo med letoma 1946 in 1955 uspelo
+                    pogozditi kar 4.822 ha, kar je vzbujalo optimizem, kljub dejstvu, da se
+                    pogozdene površine niso povečevale v skladu s prvotnimi načrti. Gozdarski
+                    strokovnjaki so namreč že v 50. letih začeli poudarjati, da v središču
+                    pozornosti ne sme biti zgolj pogozdovanje, temveč da mora na Krasu potekati
+                    dvojni proces: zasajanje površin s črnim borom in pretvarjanje borovih nasadov v
+                    bolj naravne, mešane gozdove. Črni bor je veljal za popolno drevesno vrsto, ki
+                    je dovolj skromna, da se ukorenini tudi na golem kraškem kamnu, in istočasno
+                    dovolj vzdržljiva, da zmore kljubovati burji, suši in pomanjkanju zračne vlage,
+                    kljub temu pa naj bi jo v naslednji generaciji zamenjale tradicionalne,
+                    listopadne vrste.<note place="foot" xml:id="ftn70" n="68"> Stanislav Fras, <hi
+                            rend="italic">Pomen črnega bora za pogozdovanje Krasa in njegovi
+                            abiotični ter biotični škodljivi spremljevalci</hi> (Ljubljana:
+                        [samozal.], 1959), 11, 12, 14 ter 17. Gl. tudi Perko, <hi rend="italic">Od
+                            ogolelega</hi>, 213, 214.</note>
+                </p>
+                <p>Projekt je bil pri nosilcih oblasti sprva deležen močne deklarativne pa tudi
+                    finančne podpore. Stroški projekta so bili vrtoglavi in pojavljali so se
+                    pomisleki o smiselnosti teh investicij. Stroški pogozdovanja na Krasu so znašali
+                    34.000 din na hektar in so poleg samega pogozdovanja vključevali še plače in
+                    dnine, nakup sadik, prevoze, režijo, stroške postavljanja suhih zidov, čiščenje
+                    novih nasadov, delo v drevesnicah in zatiranje pinijevega sprevodnega prelca. Za
+                    1.500 ha nasadov so porabili neverjetnih 111 milijonov dinarjev. Zatiranje
+                    škodljivcev in nabava različnih insekticidov, predvsem Pantakana (DDT) in modre
+                    galice, sta stroške še povečevala.<note place="foot" xml:id="ftn71" n="69"> SI
+                        AS 244, t. e. 13, mapa 21.</note> Pogozdovanje je bilo formalno del boja za
+                    uresničitev petletnega načrta in ob doseganju ciljev so pričakovali razmah, ki
+                    so ga doživljale druge panoge gospodarstva, obstajal pa je še podrobnejši,
+                    desetletni načrt, ki je predvideval pogozditev vseh posek, pogorišč in čistin v
+                    gozdovih ter pogozditev drugih neobraslih površin. Kras je imel v teh načrtih
+                    poseben status, saj so za doseganje ciljev postavili drugačno časovnico. Zaradi
+                    izjemne degeneriranosti površja so cilje na Krasu nameravali doseči v 20 letih.
+                    Za slovensko gozdarstvo je bila enako pomembna tudi konverzija, kratkoročno
+                    predvsem nižinskih smrekovih sestojev, dolgoročno pa tudi borovih sestojev, ki
+                    so jih ustvarjali z izjemnimi napori. Načrtovali so 15.000 ha novopogozdenih
+                    ogolelih kraških zemljišč, 9.000 ha spopolnitev, 4.000 ha premen in 500 ha
+                    melioriranih pašnikov, za kar so predvideli skoraj 2.000.000 sadik, ki naj bi
+                    jih vzgojili v 94 stalnih in 34 manjših drevesnicah.<note place="foot"
+                        xml:id="ftn72" n="70"> SI AS 244, t. e. 15, Desetletni perspektivni plan
+                        obnove gozdov.</note> Glede melioracije pašnikov so se sicer kresala mnenja,
+                    saj ni bilo jasno, kdo naj bi nosil njene stroške, jasno pa je bilo, da jo je
+                    bilo treba izvesti, saj bi se Kraševci sicer branili pogozdovanja obstoječih
+                    pašnikov. Ob vseh velikopoteznih načrtih so do leta 1950 dosegli le 30-odstotno
+                    realizacijo. Pomanjkanje delovne sile je bilo očitno na vseh področjih – ko so v
+                    letu 1950 zaprosili za 450 delavcev, so jih dobili le 220, med katere so
+                    prištevali tudi otroke, ženske in starčke, ki so bili za težko fizično delo in
+                    kopanje jam v trd kraški teren povsem neustrezni.<note place="foot"
+                        xml:id="ftn73" n="71"> SI AS 244, t. e. 56, Pogozdovanje Krasa.</note>
+                    Vodilni so pričakovali, da bodo delavci, pa tudi številni prostovoljci, kopali z
+                    zanosom, na krilih idej o boljši in pravičnejši družbi in lepši prihodnosti,
+                    dejansko pa so se celo zaposleni pri enotah Sekcije za pogozdovanje in
+                    melioracijo Krasa delu množično izmikali, posedali po grmovju, se izgovarjali na
+                    slabo vreme ali preprosto raje pobirali krompir.<note place="foot"
+                        xml:id="ftn74" n="72"> SI_PAK_KP/0795, t. e. 3, Zapisnik 2. redne mesečne
+                        konference delovodij objektov, 1958.</note> Razočaranje je očitno tudi iz
+                    dokumentov Sekcije za pogozdovanje in melioracijo Krasa, ko ji je Ministrstvo za
+                    kmetijstvo, gozdarstvo in lesno industrijo dodelilo le šest stalnih čuvajev, saj
+                    bi za zaščito že pogozdenih območij, obnovo degeneriranih gozdov in varstvo pred
+                    požari potrebovali veliko več kadra. Denarna sredstva, ki so jih namenjali
+                    sekcijam za pogozdovanje, so se iz leta v leto zmanjševala, tako da so dobivale
+                    od 20 do 42 odstotkov manj denarja. Naloge, ki naj bi jih opravljale, so
+                    obsegale vse od organizacije nabiranja semena, pobiranja kamenja, poseka grmišč
+                    in brinja, pogozdovanja vetrolovnih pasov pa do upravljanja krajevnih drevesnic.
+                    V letih neposredno po drugi svetovni vojni, ko je vladalo vsesplošno
+                    pomanjkanje, je bilo težko dosegati administrativno določene cilje. Realnost je
+                    bila taka, da so bili denimo delavci v drevesnicah in gozdni čuvaji bosi, da
+                    niso imeli niti osnovne ustrezne obleke in obutve, da so delali brez ustreznih
+                    prevoznih sredstev – imeli so le eno motorno kolo, ki pa je bilo brez platišč in
+                    zračnic, tako da so morali vse naloge opravljati peš, kar je pomenilo, da so na
+                    dan morali prehoditi tudi do 40 km, delavci pa so kar naprej grozili z odhodom.
+                    Na lokalni ravni so pogrešali ljudi, ki bi se načrtno ukvarjali z buditeljsko
+                    vlogo ali aktivističnim delom med prebivalstvom, ki se je pogosto še vedno
+                    oklepalo svojih pašnikov, paslo koze in se ni želelo podrejati skupnemu
+                        dobremu.<note place="foot" xml:id="ftn75" n="73"> SI_PAK_KP/0795, t. e. 6,
+                        Sekcija za pogozdovanje in melioracijo Krasa Gorica, Dopisi- spisi,
+                        1948–1960, št. 2406; št. 758/6-48; št. 280/3-48. Gl. tudi SI_PAK_KP/0795, t.
+                        e. 3, Zapisnik 4. redne mesečne seje delovodij objektov, 1958, ter t. e. 3,
+                        Sekcija za pogozdovanje in melioracijo Krasa Gorica–Šempeter, 1960, Letno
+                        poročilo občnega zbora.</note> V poročilih s terena je mogoče zaznati
+                    opozorila, da naj bi bil ves napredek na področju osveščanja prebivalstva o
+                    pomembnosti pogozdovanja, dosežen na začetku 20. stoletja, v obdobju fašizma
+                    pozabljen. Ljudje so se spet upirali pogozdovanju pašnikov in se niso bili
+                    pripravljeni odrekati v korist rezultatov, ki naj bi se pokazali šele čez pol
+                    stoletja in več. Obljub o spremembi klime preprosto prebivalstvo ni razumelo in
+                    temu ni pripisovalo posebne vrednosti ali pa se jim je celo odkrito posmehovalo.
+                    Ker tudi prisila in represija očitno nista prinašali pravih rezultatov, se je
+                    pojavilo prepričanje o nujnosti nove strategije, s katero bi pritegnili ljudi in
+                    jih navdušili za skupne delovne akcije. Ob zmanjševanju pomena kmetijstva,
+                    naraščajoči industrializaciji in vse bolj opaznem izseljevanju ljudi s podeželja
+                    v mesta je bilo namreč celo za gašenje pogostih požarov težko pridobiti ljudi,
+                    saj je veljalo, da gori le »gmajna«, ki je sama po sebi brez vrednosti, še manj
+                    pa naj bi se ljudje odzivali na ukaze o nujnosti odstranjevanja gnezd pinijevega
+                    sprevodnega prelca. Sprva so imeli to opravilo še najraje, saj so imeli izgovor
+                    za sekanje vej in pridobivanje lesa, z višanjem ekonomskega standarda pa jim je
+                    to postalo nepotrebno in je pomenilo zgolj še izgubo časa.<note place="foot"
+                        xml:id="ftn76" n="74"> Marjan Šebenik, »Pogozdovanje na Krasu,« <hi
+                            rend="italic">Gozdarski vestnik</hi> 6 (1947): 44–46. Gl. tudi Jurhar,
+                        et al., <hi rend="italic">Gozd na krasu</hi>, 30, 31.</note>
+                </p>
+                <p>Vzdušje se z leti ni popravljalo in lastniki gozdov so se počutili oškodovane
+                    tudi zaradi tega, ker zanje Uredba o obvezni sečnji in oddaji lesa in
+                    postranskih gozdnih proizvodov, sprejeta 11. aprila 1949, ni bila odpravljena
+                    niti takrat, ko je Vlada LRS odpravila obvezen odkup kmetijskih pridelkov, mesa,
+                    mršavih prašičev, mleka, krompirja in fižola. Lastniki nedržavnih gozdov so
+                    morali še naprej izpolnjevati obveznosti, ki jih je predpisovala uredba,
+                    omejevali pa so jim tudi količine lesa, ki so ga smeli posekati za lastne
+                        potrebe.<note place="foot" xml:id="ftn77" n="75">
+                        <hi rend="italic">Uradni list LRS</hi>, št. 12-67/49. Gl. tudi
+                        SI_PAK_KP/0795, t. e. 6, Razni dopisi 1951, št. 541.</note> Kmetje so se na
+                    to odzvali tako, da so pogozdovanju namenjali najslabša zemljišča, kjer je bila
+                    obdelava skoraj nemogoča in kjer je bilo zaradi velikih naklonov terena
+                    (30–40-odstotnih) izjemno težko izvajati pogozdovanje. Poleg tega so bila to
+                    zemljišča, ki so bila po večini že okužena z majskim hroščem in jih je bilo
+                    treba najprej tretirati z insekticidi in šele nato izvajati pogozdovanje, kar pa
+                    je delo precej podražilo. Oblast je tako razočarano ugotavljala, da kmetje k
+                    pogozdovanju ne pristopajo iz navdušenja nad napredkom in upanja v lepšo
+                    prihodnost, temveč iz precej bolj sebičnih razlogov. Želeli so se namreč rešiti
+                    plačevanja davkov za zemljišča, ki so bila že sicer povsem neprimerna za vsako
+                        obdelavo.<note place="foot" xml:id="ftn78" n="76"> SI_PAK_KP/0795, t. e. 7,
+                        Dopisi za leto 1958.</note> S privolitvijo v pogozdovanje je bil lastnik
+                    namreč za 20 let oproščen davka na zemljišče, zemlja pa je ostala njegova
+                        last.<note place="foot" xml:id="ftn79" n="77"> SI_PAK_KP/0795, t. e. 4,
+                        Seznam parcel Piran.</note> Nasadi, ki so nastajali na tak način, so bili
+                    raztreseni in razdrobljeni, kar je oteževalo vzdrževalna dela in onemogočalo
+                    apliciranje sodobnih metod varovanja nasadov, zlasti letalskega zatiranja
+                    pinijevega sprevodnega prelca. Stroškov takih akcij, ki bi jih morali periodično
+                    ponavljati, enostavno ni bilo mogoče upravičiti.<note place="foot"
+                        xml:id="ftn80" n="78"> Jože Barič, »O razvoju in zatiranju pinijevega
+                        sprevodnega prelca na Krasu,« <hi rend="italic">Gozdarski vestnik </hi>9
+                        (1951): 144–148. Gl. tudi »Več pozornosti zaščiti gozdov,« <hi rend="italic"
+                            >Ljudska pravica</hi>, 2. 10. 1950, 1.</note> Večje površine bi bilo
+                    mogoče pogozditi le ob administrativni zaplembi zemljišč, ki pa je niso
+                    izvajali. Škodo so med drugim povzročali nabiralci borovih vršičkov, ki so v
+                    letu 1948 poškodovali 50.000 sadik, pa tudi vojska, ki je ob urjenju z
+                    eksplozijami v naravi povzročala manjše in večje požare.<note place="foot"
+                        xml:id="ftn81" n="79"> SI_PAK_KP/0795, t. e. 3, Kronika pogozdovalnih del,
+                        Splošno – potek pogozdovalnih del 1945–1948.</note> Kmetovalci, zlasti
+                    živinorejci in rejci drobnice, naj bi že sicer načrtno uničevali borove nasade
+                    in jih tudi namerno požigali, burja pa je nato odnašala rodovitno prst. Kmetom
+                    naj bi bilo treba iti nasproti, postavljati napajališča, jim zagotavljati
+                    potrebno krmo za živali in jim ponuditi tudi finančne spodbude za opravljeno
+                        delo.<note place="foot" xml:id="ftn82" n="80"> Viljem Orel, »Obnova
+                        slovenskega Krasa,« <hi rend="italic">Gozdarski vestnik </hi>6 (1947):
+                        177.</note> Prostovoljnega dela, ki ga je od njih pričakovala oblast, so se
+                    otepali, niso odstranjevali plevela in niso skrbeli za zaščito nasadov. Gozdna
+                    ljudska milica je opažala, da so lastniki zemljišč neprenehoma po malem sekali
+                    bore ali obsekavali drevesa za potrebe kurjave, saj so se počutili kot
+                    gospodarji, čeprav so bile zasaditve izvedene z javnim denarjem. V teh dejanjih
+                    so videli sabotažo ideoloških nasprotnikov, ki so spodkopavali oblast in
+                    uničevali uspehe socialističnega gospodarstva. Preleti z letali so pokazali, da
+                    ljudje namenoma kršijo tudi določila o smoljarjenju, ki so ga izvajali tudi
+                    izven dovoljenih območij in brez upoštevanja varnostnih ukrepov, zaradi česar so
+                    na propad obsojali velike dele nasadov. Kljub jezi ministra Matevža Haceta, ki
+                    je zahteval poročila o tem, kdo je ljudi sploh izobrazil o možnosti
+                    smoljarjenja, je bilo nadzor na terenu praktično nemogoče izvajati. Prebivalstvo
+                    so prav tako zaman prepričevali, naj odgovorno ravna z borovimi sušicami, ki so
+                    jih skupaj s sečnimi odpadki nosili domov. Ta material je nato neobeljen ležal
+                    na kmečkih dvoriščih, kjer bi škodljivce sicer lahko učinkovito pozobale kokoši,
+                    kar je zagotovo vodilo v širjenje škodljivcev.<note place="foot" xml:id="ftn83"
+                        n="81"> SI_PAK_KP/0795, t. e. 6, Sekcija za pogozdovanje in melioracijo
+                        Krasa Ajševica - Gorica, Razni dopisi, št. 242 in št. 656.</note> Iz prijav
+                    o prekrških je razvidno, da so ljudje lomili in sekali veje, pasli živino,
+                    predvsem pa nabirali steljo, kar je bilo najstrožje prepovedano. Kršitelji so
+                    bili sicer po pravilu obsojeni na pogojne kazni in denarne odškodnine, ki pa so
+                    jih večinoma odslužili z delom. Za nedovoljeno steljarjenje je bila tako
+                    prisojena obveznost posaditve od 6.700 do 8.400 sadik, pri čemer je morala biti
+                    uspešnost pogozdovanja vsaj 80-odstotna. Prve sadike je kršitelj dobil iz javnih
+                    drevesnic, če pa je moral izvajati tudi nadomeščanje sadik, ki se niso
+                    ukoreninile, je te moral priskrbeti sam.<note place="foot" xml:id="ftn84" n="82"
+                        > SI_PAK_KP/0795, t. e. 6, Prijave o prekrških 1952, št. 245.</note>
+                </p>
+                <p>Nasprotovanje odlokom socialistične oblasti je mogoče opaziti ne samo na
+                    individualni ravni, pri zasebnih lastnikih, temveč tudi pri celotnih vaških
+                    skupnostih. Te so izvajale pogozdovanja na pašnikih slabše kakovosti – vaških
+                    gmajnah, ki so veljale za skupno last vseh vaščanov. Po novih predpisih so
+                    zaraščeni pašniki vaških skupnosti postali ljudsko premoženje, ves zaslužek od
+                    posekanega drevja in prodaje sekundarnih gozdnih proizvodov pa je moral biti kot
+                    gozdna taksa v celoti odveden v gozdni sklad. Zaradi tega so se vaške skupnosti
+                    vedno bolj upirale novim zasaditvam in celo hotele posekati že zaraščene
+                    pašnike. Verjeli so, da je bolje, da so površine gole in v njihovi lasti kot pa
+                    pogozdene, saj nato od njih niso imeli popolnoma nobenih koristi, le nove
+                    obveznosti. Okrajni odborniki so črni bor označevali za »kužno bolezen«, kugo in
+                    najhujšo nesrečo, ki jih je kadarkoli prizadela. Isti vaščani, ki so do takrat
+                    pogozdovali, so tedaj začeli nasade odkrito uničevati in oblasti pogumno in
+                    predrzno groziti s »šibicami«.<note place="foot" xml:id="ftn85" n="83">
+                        SI_PAK_KP/0607, t. e. 1, a. e. 1. Uprava za gozdarstvo pri OLO Koper, Sečnja
+                        gozdnega drevja na negozdnih tleh.</note> Posestniki so prevzeli uradno
+                    dikcijo gozdarske stroke, po kateri naj bi bili nasadi črnega bora zgolj
+                    prehodne narave in jih ne bi za vsako ceno reševali,<note place="foot"
+                        xml:id="ftn86" n="84"> Marjan Blažič, <hi rend="italic">Borov sprevodni
+                            prelec</hi> (Ljubljana: [samozal.], 1959), 3 in 15, 16.</note> zato se
+                    jim ohranjanje neperspektivnih nasadov ni zdelo vredno truda. Gozdarski
+                    strokovnjaki so sicer zatrjevali, da so kraški nasadi tu, da ljudstvu koristijo,
+                    česar »brez sekire ni mogoče doseči«. Obljubljali so jim, da jih bodo lahko
+                    izkoriščali za jamski les in pridobivanje smole. Upali so, da bodo ljudje s tem
+                    dobili nov zagon in polet pri pogozdovanju ter da jih bodo obljube o prihodnjih
+                    donosih prepričale, naj še malo vztrajajo, naj vztrajajo v boju, saj skupaj z
+                    borom na Krasu raste »nov rod« dreves in ljudi.<note place="foot" xml:id="ftn87"
+                        n="85"> Beltram, »Pogozdovanje Krasa ni problem,« 37, 38.</note></p>
+            </div>
+            <div>
+                <head>Zaključek</head>
+                <p>Ljudje so vedno posegali v naravno okolje, vendar pa sta tehnološki razvoj in
+                    napredek na področju mehanizacije pripeljala do tega, da so se spremembe
+                    dogajale vse hitreje in na veliko večji ravni kot v prejšnjih stoletjih. Če je
+                    okolje pred tem imelo določen prilagoditveni čas, v katerem se je lahko odzvalo
+                    na spremembe, so posegi v zadnjih dveh stoletjih postajali vse globlji – z
+                    velikimi dolgoročnimi posledicami.<note place="foot" xml:id="ftn88" n="86">
+                        Emiliy K. Brock, »New Patterns in Old Places«, 156, 157.</note> Pogozdovanje
+                    s črnim borom in ustvarjanje obsežnih monokulturnih nasadov sta dolgo veljali za
+                    uspeh in rešitev za Kras in njegove prebivalce, pri čemer pa so premalo
+                    upoštevali mnenja prebivalstva, prav tako pa so premalo upoštevali posledice, ki
+                    so jih posegi pomenili za naravno okolje in siceršnji ekonomski in socialni
+                        sistem.<note place="foot" xml:id="ftn89" n="87"> Panjek, »Against the
+                        Desert,« 68.</note> Po sto letih načrtnega pogozdovanja kraške planote z
+                    monokulturnimi zasaditvami črnega bora je bilo raziskovalcem jasno, da se je
+                    ustvarilo zgolj 2–4 cm prsti, pretežno iz še ne popolnoma razgrajenih iglic
+                    črnega bora, da je obnova površja potekala počasneje od načrtovane in da je bila
+                    prst, ki je nastajala, kisla, kar je oviralo zadnji del načrta pogozdovanja
+                    Krasa: premeno monokulturnih borovih nasadov z bolj avtohtonimi nasadi
+                    listavcev, ki bi prinašali tudi večje donose.<note place="foot" xml:id="ftn90"
+                        n="88"> Gams in Gabrovec, »Land Use and Human Impact,« 64.</note> Na prvi
+                    pogled je bil cilj dosežen: na začetku 70. let je bila gozdnatost na kraškem
+                    gozdnogospodarskem območju že 37-odstotna, s čimer so že presegli mejo 35
+                    odstotkov, ki je bila postavljena kot cilj in naj bi zagotavljala ekološko
+                    ravnovesje. Zaradi opuščanja paše in nerentabilne kmetijske proizvodnje je
+                    prihajalo do ponovnega zaraščanja delov kraškega površja, degradacija, do katere
+                    je prihajalo, pa je bila v tem obdobju bolj prikrita in povezana zlasti z
+                    intenzifikacijo v določenih kmetijskih panogah, kot je denimo vinogradništvo. Če
+                    je opuščanje paše drobnice imelo pozitiven vpliv na obnovo kraške vegetacije, pa
+                    so se novi trendi v kmetijstvu izkazali za dolgoročno usodnejše. Razvoj je
+                    prinesel uporabo kemičnih gnojil, herbicidov in pesticidov ter vse bolj prisotno
+                    industrijsko onesnaževanje, kar je pripeljalo do onesnaženja podtalnice in že
+                    sicer redkih virov pitne vode.<note place="foot" xml:id="ftn91" n="89"> Jean
+                        Nicod, »Understanding Environmental Problems in Dinaric Karst,« v: <hi
+                            rend="italic">Fizična geografija pred novimi izzivi. Znanstvei simpozij
+                            ob 80-letnici akademika prof. dr. Ivana Gamsa</hi> (Ljubljana: oddelek
+                        za geografijo Filozofske fakultete, 2003),.28, 29. Gl. tudi Perko, <hi
+                            rend="italic">Od ogolelega</hi>, 236, 237.</note>
+                </p>
+                <p>Črni bor, ki se je uveljavil kot »edina zveličavna vrsta« in dobil častni naziv
+                    »pionir golega Krasa«,<note place="foot" xml:id="ftn92" n="90"> Beltram,
+                        »Pogozdovanje Krasa ni problem,« 10.</note> je kot neavtohtona drevesna
+                    vrsta dosegel svoj zenit in zdelo se je, da bo sledil njegov propad, njegov
+                    položaj v naravnem okolju pa naj bi prevzele avtohtone listopadne drevesne
+                    vrste. Zdravstveno stanje črnega bora so dejansko vse bolj ogrožali različni
+                    dejavniki: poleg pinijevega sprevodnega prelca še kapar, zajedavske glive,
+                    veliko težav so mu povzročala tudi vse bolj suha in vroča poletja, prisotnost
+                    listavcev v podrastju pa je konkurenco za vlago še zaostrovala, nezanemarljivo
+                    škodo so mu povzročali tudi lastniki zemljišč.<note place="foot" xml:id="ftn93"
+                        n="91"> Janez Titovšek, Stana Hočevar, Dušan Jurc, Ivan Švara, Alojz Zega,
+                        Boris Škrk in Anton Pirjevec, <hi rend="italic">Sušenje črnega bora na
+                            Krasu</hi> (1984), <ref
+                            target="https://www.zdravgozd.si/dat/pdp/19840312.pdf"
+                            >https://www.zdravgozd.si/dat/pdp/19840312.pdf</ref>, pridobljeno 8. 9.
+                        2021.</note> Pričakovanja, po katerih naj bi črni bor po eni generaciji
+                    izginil s Krasa, pa se vendarle niso uresničila. Nasprotno, borov gozd se je
+                    začel širiti sam, k čemur je veliko pripomoglo opuščanje kmetijskih zemljišč. Že
+                    v 80. letih so ugotavljali, da se širi za 17 m na leto, da se širi tudi tam,
+                    kjer si gozda ne bi želeli, in da črni bor očitno ni kultura, ki bi jo bilo
+                    mogoče preprosto odstraniti s kraškega površja, v zadnjem obdobju pa so se
+                    pojavili celo projekti, ki poskušajo s poseki reševati ogrožene živalske vrste,
+                    ki zaradi zaraščanja površja izginjajo. Zgolj nekaj desetletij po tem, ko je
+                    družba vlagala izjemne napore v pogozdovanje kraških površin, lahko torej danes
+                    zasledimo pobude po čiščenju zarasti, ki naj bi prispevale k ponovni
+                    vzpostavitvi naravnega habitata na umetno pogozdenih in zaraščenih področjih, k
+                    ohranitvi ogroženih živalskih vrst pa tudi k ohranjanju kulturne krajine in
+                    morda celo k oživitvi kmetijske dejavnosti na teh območjih.<note place="foot"
+                        xml:id="ftn94" n="92"> Primer take prakse je projekt VIPava, v okviru
+                        katerega je bil nad vasjo Gojače v Vipavski dolini na 25 ha odstranjen večji
+                        del lesne zarasti z namenom ohranitve naravnega habitata hribskega škrjanca.
+                        Gl. <hi rend="italic">Projekt VIPava - Zavod za ribištvo Slovenije,</hi>
+                        <ref target="http://www.projektvipava.si">www.projektvipava.si</ref>
+                        (pridobljeno 8. 9. 2021).</note> Črni bor je kljub temu še vedno sestavni
+                    del kraške pokrajine in identitete, delno tudi zato, ker je vendarle bolj
+                    donosen za gospodarsko izkoriščanje od naravnega listnatega rastja, ki ga po
+                    naravni poti izpodriva, zato si ga lastniki zemljišč pogosto želijo
+                        ohraniti.<note place="foot" xml:id="ftn95" n="93"> Zorn et al., »Od gozda do
+                        gozda,« 571, 572.</note> Prebivalstvo, ki se je več desetletij krčevito
+                    upiralo pogozdovanju s črnim borom, saj je nepopravljivo posegal v njihove
+                    preživetvene strategije, navade in način življenja, in je pasivno in aktivno
+                    sabotiralo pogozditve, je bor posvojilo, s čimer se je iz začasnega gosta
+                    spremenil v rednega prebivalca kraških gmajn.</p>
+            </div>
+
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <list type="unordered">
+                    <head>Arhivski viri</head>
+                    <item>SI AS – Arhiv Republike Slovenije:<list>
+                            <item>SI AS 1118, Ministrstvo za kmetijstvo in gozdarstvo Ljudske
+                                republike Slovenije.</item>
+                            <item>SI AS 244, Svet za kmetistvo in gozdarstvo LRS.</item>
+                            <item>SI AS 675, Ministrstvo za gozdarstvo Ljudske republike Slovenije,
+                                1945–1951.</item>
+                        </list></item>
+                    <item>SI_PAK_KP − Pokrajinski arhiv Koper:<list>
+                            <item>SI_PAK_KP/0607, Uprava za gozdarstvo pri OLO Koper,
+                                1951–1963.</item>
+                            <item>SI_PAK_KP/0629, Okrajni urad Komen.</item>
+                            <item>SI_PAK_KP/0638, Občina Štorje.</item>
+                            <item>SI_PAK_KP/0795, Zavod za pogozdovanje in melioracijo Krasa, Ajš –
+                                Gorica.</item>
+                        </list></item>
+                </list>
+                <listBibl>
+                    <head>Časopisni viri</head>
+                    <bibl>Barič, Jože. »O razvoju in zatiranju pinijevega sprevodnega prelca na
+                        Krasu.« <hi rend="italic">Gozdarski vestnik</hi> 9, (1951): 144–48.</bibl>
+                    <bibl>Beltram, Vladislav. »Pogozdovanje Krasa ni problem.« <hi rend="italic"
+                            >Gozdarski vestnik</hi> 5, (1946): 9–18, 29–39.</bibl>
+                    <bibl>Bunc, Franc. »Besedica o Krasu s kratkim opisom Komenske fare.« <hi
+                            rend="italic">Kmetijske in rokodelske novice</hi> 11, 20. 4. 1853, št.
+                        32, 125, 126.</bibl>
+                    <bibl><hi rend="italic">Edinost</hi> 6, 29. 6. 1881, št. 26, 2. »Dopisi. S
+                        Kraškega roba.«</bibl>
+                    <bibl>Fleišman, A. »Goli in pusti kras v 3 letih v mlade seženj visoke boršte
+                        spreoberniti.« <hi rend="italic">Kmetijske in rokodelske novice</hi> 8, 30.
+                        10.; 6. 11.; 13. 11.; 18. 12. 1850, št. 44–52.</bibl>
+                    <bibl>Gašperšič, Franc in Iztok Winkler. »Ponovna ozelenitev in
+                        gozdnogospodarsko aktiviranje slovenskega krasa.« <hi rend="italic"
+                            >Gozdarski vestnik</hi> 44, št. 5 (1986): 169–84.</bibl>
+                    <bibl><hi rend="italic">Gorica</hi> 4, 19. 7. 1902, št. 57, 1. »Deželni zbor
+                        goriški.«</bibl>
+                    <bibl><hi rend="italic">Gozdarski vestnik</hi> 6 (1947): 80–92. »Zakon o
+                        petletnem planu.«</bibl>
+                    <bibl><hi rend="italic">Ljudska pravica </hi>12, 6. 1. 1951, št. 4, 1, 2.
+                        »Gozdarstvo Slovenije je v preteklem letu prispevalo velik delež h graditvi
+                        socializma.«</bibl>
+                    <bibl><hi rend="italic">Ljudska pravica</hi> 11, 2. 10. 1950, št. 235, 1. »Več
+                        pozornosti zaščiti gozdov.«</bibl>
+                    <bibl>Orel, Viljem. »Obnova slovenskega Krasa in vprašanje pašnika.« <hi
+                            rend="italic">Gozdarski vestnik </hi>6 (1947): 177–81.</bibl>
+                    <bibl><hi rend="italic">Poročilo deželnemu zboru poknežene grofovine
+                            Goriško-Gradiščanske o delovanju deželnega odbora od 1. januarja do
+                            konca decembra 1902</hi>. Gorica: Deželni odbor, 1903.</bibl>
+                    <bibl>Šebenik, Marjan. »Pogozdovanje na Krasu.« <hi rend="italic">Gozdarski
+                            vestnik</hi> 6 (1947): 44–46.</bibl>
+                    <bibl>Titovšek, Janez, Stana Hočevar, Dušan Jurc, Ivan Švara, Alojz Zega, Boris
+                        Škrk in Anton Pirjevec. <hi rend="italic">Sušenje črnega bora na Krasu</hi>,
+                        1984. Dostopno na: <ref
+                            target="https://www.zdravgozd.si/dat/pdp/19840312.pdf"
+                            >https://www.zdravgozd.si/dat/pdp/19840312.pdf</ref>. Pridobljeno 8. 9.
+                        2021.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Literatura</head>
+                    <bibl>Bárány-Kevei, Ilona. »Human Impact on Hungarian Karst Terrains, with
+                        Special Regard to Silviculture.« <hi rend="italic">Acta carsologica</hi> 32,
+                        2 (2003): 175–85, <ref target="https://doi.org/10.3986/ac.v32i2.346"
+                            >https://doi.org/10.3986/ac.v32i2.346</ref>.</bibl>
+                    <bibl>Blažič, Marjan. <hi rend="italic">Borov sprevodni prelec</hi>. Ljubljana:
+                        [samozal.], 1959.</bibl>
+                    <bibl>Brock, Emiliy K. »New Patterns in Old Places. Forest History for the
+                        Global Present.« V: Andrew C. Isenberg, ur. <hi rend="italic">The Oxford
+                            Handbook of Environmental History</hi>, 154–77. New York: Oxford
+                        University Press, 2014, <ref
+                            target="https://doi.org/10.1093/oxfordhb/9780195324907.001.0001"
+                            >https://doi.org/10.1093/oxfordhb/9780195324907.001.0001</ref>.</bibl>
+                    <bibl>Culiberg, Metka. »Vegetacija Krasa v preteklosti.« V: Mauro Hrvatin, ur.
+                            <hi rend="italic">Kras: [trajnostni razvoj kraške pokrajine]</hi>, 100,
+                        101. Ljubljana: Založba ZRC, 2008.</bibl>
+                    <bibl>Fras, Stanislav. <hi rend="italic">Pomen črnega bora za pogozdovanje Krasa
+                            in njegovi abiotični ter biotični škodljivi spremljevalci</hi>.
+                        Ljubljana: [samozal.], 1959.</bibl>
+                    <bibl>Gams, Ivan in Matej Gabrovec. »Land Use and Human Impact in the Dinaric
+                        Karst.« <hi rend="italic">International Journal of Speleology </hi>28, št. 1
+                        (1999): 55–70, <ref target="http://dx.doi.org/10.5038/1827-806X.28.1.4"
+                            >http://dx.doi.org/10.5038/1827-806X.28.1.4</ref>.</bibl>
+                    <bibl>Gams, Ivan. »Sistemi prilagoditve primoskega dinarskega krasa na kemtijsko
+                        rabo tal.« <hi rend="italic">Geografski zbornik</hi> 31, (1991):
+                        5–106.</bibl>
+                    <bibl>Grove, A. T. in Oliver Rackham. <hi rend="italic">The Nature of
+                            Mediterranean Europe. An Ecological History</hi>. New Haven, London:
+                        Yale University Press, 2001.</bibl>
+                    <bibl>Hufnagl, Leopold. <hi rend="italic">Splošni del gospodarskih načrtov za
+                            kočevsko gospostvo 1894</hi>. Ljubljana: Biotehniška fakulteta, Oddelek
+                        za gozdarstvo in obnovljive gozdne vire, 2002.</bibl>
+                    <bibl>Jurhar, Franjo, Jože Miklavžič, Franjo Sevnik in Bogdan Žagar. <hi
+                            rend="italic">Gozd na krasu Slovenskega primorja</hi>. Ljubljana:
+                        Tehniški muzej Slovenije, 1963.</bibl>
+                    <bibl>Kranjc, Andrej. »Dinaric Karst: an Example of Deforestation and
+                        Desertification of Limestone Terrain.« V: <hi rend="italic">Deforestation
+                            Around the World,</hi> 73–94. Rijeka: InTech, 2012,
+                        10.5772/34275.</bibl>
+                    <bibl>Mlinšek, Dušan. »Beseda o knjigi.« V: Franjo Kordiš, <hi rend="italic"
+                            >Dinarski jelovo bukovi gozdovi v Sloveniji,</hi> 6, 7. Ljubljana:
+                        Univerza v Ljubljani, Biotehniška fakulteta, Oddelek za gozdarstvo in gozdna
+                        gospodarstva, 1993.</bibl>
+                    <bibl>Nicod, Jean. »Understanding Environmental Problems in Dinaric Karst.« V:
+                            <hi rend="italic">Fizična geografija pred novimi izzivi. Znanstvei
+                            simpozij ob 80-letnici akademika prof. dr. Ivana Gamsa</hi>. Ljubljana:
+                        oddelek za geografijo Filozofske fakultete, 2003.</bibl>
+                    <bibl>Panjek, Aleksander. »Against the Desert in the Karst: a Paradigm-shift
+                        from Ruined Landscape to Cultural Savannah,« <hi rend="italic">Ekonomska i
+                            ekohistorija</hi> 14, št. 1 (2018): 52–71.</bibl>
+                    <bibl>Panjek, Aleksander. <hi rend="italic">Kulturna krajina in okolje Krasa: o
+                            rabi naravnih virov v novem veku</hi>. Koper: Založba Univerze na
+                        Primorskem, 2015.</bibl>
+                    <bibl>Perko, Franc. <hi rend="italic">Od ogolelega do gozdnatega krasa:
+                            pogozdovanje krasa</hi>. Ljubljana: Zveza gozdarskih društev Slovenije -
+                        Gozdarska založba: Jutro, 2016.</bibl>
+                    <bibl>Rubbia, Konrad. <hi rend="italic">Petindvajset let pogozdovanja Krasa na
+                            Kranjskem: poročilo komisije za pogozdovanje Krasa v vojvodini Kranjski
+                            o delovanju, od leta 1886 do konca leta 1911: z dvema podobama</hi>.
+                        Ljubljana: Pogozdovalna komisija, 1912.</bibl>
+                    <bibl>Sanković, Petra. <hi rend="italic">Možnost gojenja izbranih listavcev v
+                            vrzelih v nasadih črnega bora na Krasu</hi>. Ljubljana: [P. Sanković],
+                        2015.</bibl>
+                    <bibl>Šlander, Jože. <hi rend="italic">Zaštita šuma u Sloveniji (stanje i
+                            problematika)</hi>, 1948. Dostopno na: <ref
+                            target="https://www.zdravgozd.si/dat/pdp/19480930.pdf"
+                            >https://www.zdravgozd.si/dat/pdp/19480930.pdf</ref>. Pridobljeno 8. 9.
+                        2021.</bibl>
+                    <bibl>Zorn, Matija, Peter Kumer in Mateja Ferk. »Od gozda do gozda ali kije je
+                        goli, kamniti Kras?.« <hi rend="italic">Kronika</hi> 63, št. 3 (2015):
+                        561–74.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Objavljeni viri</head>
+                    <bibl><hi rend="italic">Deželni zakonik in vladni list za kranjsko
+                            kronovino</hi> 37, 21. 11. 1885, št. 7. »Zakon z dné 9. marca 1885 o
+                        pogozdovanji Krasa v vojvodini Kranjski.«</bibl>
+                    <bibl>Kosovel, Srečko. <hi rend="italic">Bori</hi>. 19??. Dostopno na: <ref
+                            target="http://www.dlib.si/?URN=URN:NBN:SI:IMG-WX0FCCAA"
+                            >http://www.dlib.si/?URN=URN:NBN:SI:IMG-WX0FCCAA</ref>. Pridobljeno 8.
+                        9. 2021.</bibl>
+                    <bibl>Kosovel, Srečko. <hi rend="italic">Temni bori, črni bori</hi>. 192?.
+                        Dostopno na: <ref target="http://www.dlib.si/?URN=URN:NBN:SI:IMG-KD6CQBJZ"
+                            >http://www.dlib.si/?URN=URN:NBN:SI:IMG-KD6CQBJZ</ref>. Pridobljeno 8.
+                        9. 2021.</bibl>
+                    <bibl><hi rend="italic">Poročilo deželnemu zboru poknežene grofovine
+                            Goriško-Gradiščanske o delovanju deželnega odbora od 1. januarja do
+                            konca decembra 1902</hi>. Gorica: Deželni odbor, 1903. »Poročilo o
+                        delovanji komisije za pogozdovanje Krasa v pokn. grofovini
+                        geriško-gradiščanski za I- 1901, prlloga 6.«</bibl>
+                    <bibl><hi rend="italic">Projekt VIPava - Zavod za ribištvo Slovenije.
+                        </hi>Dostopno na: <ref target="http://www.projektvipava.si"
+                            >www.projektvipava.si</ref>. Pridobljeno 8. 9. 2021.</bibl>
+                    <bibl><hi rend="italic">Uradni list LRS</hi>. št. 12-67/49.</bibl>
+                </listBibl>
+            </div>
+            <div type="summary" xml:lang="en">
+                <docAuthor>Meta Remec</docAuthor>
+                <head>BLACK PINE AS THE BLACK DEATH:</head>
+                <head>THE LOCAL PEOPLE’S
+                    ATTITUDES TOWARDS BLACK PINE AFFORESTATION IN THE SLOVENIAN KARST IN THE 19<hi
+                        rend="superscript">TH</hi> AND 20<hi rend="superscript">TH</hi> CENTURY</head>
+                <head>SUMMARY</head>
+                <p>The issue of the afforestation of the Karst region and especially the reasons why
+                    it consisted of an infertile, bare, and rocky landscape that needed to be
+                    “reforested and saved” has been addressed many times by historiography as well
+                    as other sciences. The forest in the central Karst, which should have been there
+                    but was not, has been the main focus of many analyses. The afforestation of this
+                    area was considered the first successful experiment of its kind on the European
+                    scale and deemed as an example of good practice. To this day, the view that it
+                    has been a success story in a broader rather than just Slovenian context has
+                    persisted. A dominant discourse has prevailed that portrays the reforestation
+                    with a foreign tree species as a success and an improvement compared to the bare
+                    and degraded landscape, supposedly created in the Karst through uncontrolled
+                    exploitation and deforestation, and later mainly due to overgrazing. The
+                    political elite, which adhered to the principles of the German forestry school,
+                    supported the idea that the Karst should be devoted to forest exploitation,
+                    which would mean a complete change in the use of the environment. In the second
+                    half of the 19<hi rend="superscript">th</hi> century, deliberate attempts took
+                    place to reforest the bare areas of the Karst, based on the establishment of
+                    almost completely monoculture plantations of non-native black pine, which led to
+                    profound structural changes in the appearance of the Karst Plateau. From the
+                    very beginning, the population was anything but enthusiastic about the plans of
+                    the authorities. They opposed the restrictions imposed on grazing and litter
+                    preparation. The people also needed firewood and stakes for viticulture, and
+                    they were not prepared to give up their habits. They also refused to dig holes
+                    and would even sabotage the areas that had already been planted. It was almost
+                    impossible to prove whether the seedlings had died on their own or whether they
+                    were destroyed by deliberate sabotage, usually after the landowners had become
+                    dissatisfied with the yield and the benefits they were receiving. The local
+                    farmers cared little about the long-term benefits when they could not feed their
+                    families in the present, while forestry experts were aware that it was virtually
+                    impossible to carry out any monitoring in the field. After World War II,
+                    reforestation gained new momentum, as it was included in the Five-Year Plan of
+                    the Federal People’s Republic of Yugoslavia and possessed a strong ideological
+                    component: it was aimed at rescuing the population that had been subjugated and
+                    condemned to poverty and bare survival for centuries. The economic backwardness
+                    stemming from the underdeveloped agriculture and the meagre cultural level of
+                    the rural population were to be tackled by ensuring general social and
+                    industrial progress. The significant afforestation drive in the years
+                    immediately after World War II, when numerous voluntary reforestation campaigns
+                    took place, came to a standstill already between 1948 and 1952, as the lack of
+                    financial and material resources restricted both the amelioration and
+                    restoration efforts. Once again, people resisted the reforestation of pastures
+                    and were not prepared to give them up in favour of the results that would only
+                    become apparent in half a century or more. Deliberate attempts to destroy pine
+                    plantations as well as examples of arson would sometimes occur. People believed
+                    it was better to own the land, even if bare, than to reforest it, as, after
+                    reforestation, they had absolutely nothing to gain from these plots aside from
+                    additional obligations. The district committee members described black pine as
+                    the worst possible misfortune, “plague”, and “pestilence” that had ever
+                    afflicted them, and they boldly and insolently threatened the authorities with
+                    matches. As agriculture was being abandoned in the decades that followed, the
+                    forest started to expand by itself, even in the areas where this was not
+                    intended or desirable. From a temporary feature that was supposed to improve the
+                    fertility of the soil in a few decades and then disappear, the forest has become
+                    an integral part of the Karst landscape and an inseparable part of its identity.
+                </p>
+            </div>
+        </back>
+    </text>
+</TEI>

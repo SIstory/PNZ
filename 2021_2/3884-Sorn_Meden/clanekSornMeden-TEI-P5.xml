@@ -1,0 +1,1833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+             <title>Portal
+                 Zgodovina Slovenije - SIstory in avtorske pravice
+                 <note place="foot" xml:id="ftn3" n="*">
+                     Članek je
+                     nastal v okviru izvajanja infrastrukturnega programa št.
+                     I0-0013 <hi rend="italic">Raziskovalna infrastruktura slovenskega zgodovinopisja</hi>, ki ga
+                     sofinancira Javna agencija za raziskovalno dejavnost Republike
+                     Slovenije iz državnega proračuna.</note></title>
+             <author>
+                 <name>
+                     <forename>Mojca</forename>
+                     <surname>Šorn</surname>
+                     <roleName>Dr.</roleName>
+                     <roleName>znanstvena sodelavka</roleName>
+                     <affiliation>Inštitut za novješo zgodovino</affiliation>
+                     <address>
+                         <addrLine>Privoz 11</addrLine>
+                         <addrLine>SI–1000 Ljubljana</addrLine>
+                     </address>
+                     <email>mojca.sorn@inz.si</email>
+                 </name>
+             </author>
+             <author>
+                 <name>
+                     <forename>Katja</forename>
+                     <surname>Meden</surname>
+                     <roleName>Mag.</roleName>
+                     <roleName>strokovna sodelavka</roleName>
+                     <affiliation>Inštitut »Jožef Stefan«</affiliation>
+                     <address>
+                         <addrLine>Jamova cesta 39</addrLine>
+                         <addrLine>SI–1000 Ljubljana</addrLine>
+                     </address>
+                     <email>katja.meden@ijs.si</email>
+                 </name>
+             </author>
+         </titleStmt>
+          <editionStmt>
+              <edition>
+                  <date>2021-08-02</date>
+              </edition>
+          </editionStmt>
+          <publicationStmt>
+              <publisher>
+                  <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                  <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                  <address>
+                      <addrLine>Privoz 11</addrLine>
+                      <addrLine>SI-1000 Ljubljana</addrLine>
+                  </address>
+              </publisher>
+              <pubPlace>http://ojs.inz.si/pnz/article/view/3884</pubPlace>
+              <date>2021</date>
+              <availability status="free">
+                  <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+              </availability>
+          </publicationStmt>
+          <seriesStmt>
+              <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+              <title xml:lang="en">Contributions to Contemporary History</title>
+              <biblScope unit="volume">61</biblScope>
+              <biblScope unit="issue">2</biblScope>
+              <idno type="ISSN">2463-7807</idno>
+          </seriesStmt>
+          <sourceDesc>
+              <p>No source, born digital.</p>
+          </sourceDesc>
+      </fileDesc>
+       <encodingDesc>
+           <projectDesc xml:lang="en">
+               <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                   historiographic journals, dedicated to publishing articles from the field of
+                   contemporary history (the 19th and 20th century).</p>
+               <p>The journal is published three times per year in Slovenian and in the following
+                   foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                   and Czech. The articles are all published with abstracts in English and
+                   Slovenian as well as summaries in English.</p>
+           </projectDesc>
+           <projectDesc xml:lang="sl">
+               <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                   zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                   stoletje).</p>
+               <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                   angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                   in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                   v angleščini.</p>
+           </projectDesc>
+       </encodingDesc>
+       <profileDesc>
+           <langUsage>
+               <language ident="sl"/>
+               <language ident="en"/>
+           </langUsage>
+           <textClass>
+               <keywords xml:lang="en">
+                   <term>copyrights</term>
+                   <term>Copyright and Related Rights Act (ZASP)</term>
+                   <term>Slovenia</term>
+                   <term>History of Slovenia – SIstory
+                       portal</term>
+               </keywords>
+               <keywords xml:lang="sl">
+                   <term>avtorske pravice</term>
+                   <term>Zakon o avtorski in sorodnih pravicah (ZASP)</term>
+                   <term>Slovenija</term>
+                   <term>portal Zgodovina
+                       Slovenije – SIstory</term>
+               </keywords>
+           </textClass>
+       </profileDesc>
+       <revisionDesc>
+           <listChange>
+               <change>
+                   <date>2021-10-19</date>
+                   <name>Neja Blaj Hribar</name>
+                   <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+               </change>
+           </listChange>
+       </revisionDesc>
+   </teiHeader>
+   <text>
+       <front>
+           <docAuthor>Mojca Šorn<note place="foot" xml:id="ftn1" n="**">
+               <hi rend="bold">Dr., znanstvena sodelavka, Inštitut za novejšo
+                   zgodovino, Privoz 11, SI-1000 Ljubljana;
+                   mojca.sorn@inz.si</hi>
+           </note></docAuthor>
+           <docAuthor>Katja Meden<note place="foot" xml:id="ftn2" n="***">
+               <hi rend="bold"> Mag., strokovna sodelavka, Inštitut »Jožef Stefan«, Jamova cesta 39, SI-1000 Ljubljana; katja.meden@ijs.si</hi>
+           </note></docAuthor>
+           <docImprint>
+               <idno type="cobissType">Cobiss tip: 1.01</idno>
+               <idno type="DOI">doi: https://doi.org/10.51663/pnz.61.2.09</idno>
+           </docImprint>
+           <div type="abstract">
+           <head>
+               IZVLEČEK
+           </head>
+           <p>
+               <hi rend="italic">Avtorici v prispevku orišeta zgodovino
+                   avtorskega prava in predstavita razvoj in teoretski okvir avtorskih in
+                   sorodnih pravic v Sloveniji. Poseben poudarek namenita avtorskemu pravu v
+                   digitalni dobi, ki ga manifestirata na portalu Zgodovina Slovenije – SIstory
+                   kot primeru dobre prakse, saj sta prepričani, da brez (upoštevanja)
+                   avtorskih pravic niso zagotovljene vse potrebne spodbude za nadaljnje
+                   ustvarjanje tako v analognem kot digitalnem svetu.</hi>
+           </p>
+           <p>
+               <hi rend="italic">Ključne besede: avtorske pravice, Zakon
+                   o avtorski in sorodnih pravicah (ZASP), Slovenija, portal Zgodovina
+                   Slovenije – SIstory</hi>
+           </p>
+           </div>
+           <div type="abstract" xml:lang="en">
+               <head>ABSTRACT</head>
+               <head>The History of Slovenia –
+                   Sistory Portal and Copyrights</head>
+               <p>
+                   <hi rend="italic">In the contribution, the authors outline
+                       the history of copyright law and present the development and theoretical
+                       framework of copyright and related rights in Slovenia. They place a special
+                       emphasis on copyright law in the digital age, manifesting it on the History
+                       of Slovenia – SIstory portal as an example of good practice, as they are
+                       convinced that without (adhering to) copyrights, all the necessary
+                       incentives for further creation in both the analogue and digital worlds are
+                       not guaranteed.</hi>
+               </p>
+               <p>
+                   <hi rend="italic">Keywords: copyrights, Copyright and
+                       Related Rights Act (ZASP), Slovenia, History of Slovenia – SIstory
+                       portal</hi>
+               </p>
+           </div>
+       </front>
+      <body>
+         <div>
+            <head>
+               Uvod ali
+                        avtorsko pravo pred novimi izzivi
+            </head>
+            <p>»Odločitev, kaj je v posameznem zgodovinskem obdobju v posamezni družbi varovano
+                    kot avtorsko delo, je vsakokrat odvisna od družbenega konsenza«.<note place="foot" xml:id="ftn4" n="1"> Maja Bogataj
+                            Jančič, Avtorsko pravo v digitalni dobi:
+                                problematika zaščite avtorskih del s tehnološkimi ukrepi
+                            (Ljubljana: Pasadena, 2008), 15.</note> S temi besedami
+                    strokovnjakinja za intelektualno lastnino, zlasti avtorsko pravo, dr. Maja
+                    Bogataj Jančič oriše ciklični in nenehno spreminjajoči se proces prilagajanja
+                    avtorskopravnih okvirov spremembam v družbenem, predvsem pa tehnološkem razvoju.
+                    In prav tehnološki razvoj ter prihod novih tehnologij vsakokrat zamaje modele
+                    avtorskega prava in njegove definicije o avtorsko varovanih predmetih ter
+                    pogojih uporabe. Christopher Jensen v svojem prispevku The More Things Change,
+                    The More They Stay The Same poudari okolje avtorskega prava, v katerem deluje že
+                    od samih začetkov, in podčrta, da vsak korak v tehnološkem napredku odstre nove
+                    težave pri njegovem umeščanju v te okvire.<note place="foot" xml:id="ftn5" n="2"> Christopher Jensen, »The More Things Change,
+                            the More They Stay the Same: Copyright, Digital Technology, and Social
+                            Norms,« <hi rend="italic">Stanford Law Review</hi> 56, št. 2 (2003):
+                            531–70, pridobljeno 18. 5. 2021, <ref target="http://www.jstor.org/stable/1229614">http://www.jstor.org/stable/1229614</ref>.</note> Primer lahko
+                    poiščemo že v 15. stoletju: izum tiska je revolucioniral polje založništva in
+                    hkrati sprožil različne dileme: Kaj je delo in kaj kopija? Kdo je lastnik dela
+                    in kdo lahko dela uporablja?<note place="foot" xml:id="ftn6" n="3"> Bogataj Jančič, <hi rend="italic">Avtorsko
+                                pravo</hi>, 18.</note> Ta in podobna vprašanja so postavila
+                    temelje »modernega« avtorskega prava. </p>
+            <div>
+               <head>
+                  Začetki
+                            avtorskega prava
+                    </head>
+               <p>Prve zakone o avtorskem pravu so poznali v Angliji, kjer so dojemanje avtorja
+                        kot originatorja<note place="foot" xml:id="ftn7" n="4"> Oseba, ki je delo ustvarila.</note>
+                        literarnega dela vpeljali založniki. Želeli so namreč pridobiti monopol, ki
+                        je imel zasnove v kraljevi koncesiji<note place="foot" xml:id="ftn8" n="5"> Ukinjena je bila leta 1696.</note> in
+                        njenih zahtevah po registraciji vseh knjig, kar je med drugim omogočalo tudi
+                        lažjo cenzuro tiska. Registrirana dela so bila v bistvu kopije, kar je
+                        pomenilo, da so imeli založniki pravico do kopiranja – od tu torej angleška
+                        beseda za avtorske pravice <hi rend="italic">copyright</hi>.<note place="foot" xml:id="ftn9" n="6"> Barbara
+                                Pušnik, Avtorske pravice – pravnoekonomska perspektiva: diplomsko
+                                delo (Ljubljana, 2010), 4 in 5.</note>
+               </p>
+               <p>Obdobje modernega avtorskega prava se je v Angliji začelo v začetku 18.
+                        stoletja, ko je bil objavljen tako imenovani <hi rend="italic">Copyright
+                            Act. Z</hi>akon je bil sprejet v vladnem letu 1709–1710, v veljavo pa je
+                        stopil 10. aprila 1710.<note place="foot" xml:id="ftn10" n="7"> Gl. <hi rend="italic">The Statute of Anne: The
+                                    First Copyright Statute: History of Information</hi>,
+                                pridobljeno 14. 7. 2021, <ref target="https://www.historyofinformation.com/detail.php?entryid=3389">https://www.historyofinformation.com/detail.php?entryid=3389</ref>.</note>
+                        Avtorju je podelil izključno pravico razmnoževanja lastnih del za dobo
+                        štirinajst let z možnostjo podaljšanja za ponovnih štirinajst let, če je
+                        avtor takrat še živel. Na tem zakonu je temeljil tudi sistem avtorskega
+                        prava v Ameriki. </p>
+               <p>Poleg tako imenovanega anglosaškega poznamo tudi kontinentalni evropski
+                            sistem,<note place="foot" xml:id="ftn11" n="8">
+                                Stanislav Bahor, »Knjižničarji in avtorske pravice,«
+                                <hi rend="italic">Knjižnica. </hi>46, št. 4
+                                (2002): 87–123.</note> ki pa se je razvijal podobno kot
+                        anglosaški. V Nemčiji so imeli, tako kot v Angliji, monopol nad deli
+                        založniki, ne avtorji, a so sčasoma navdih začeli dojemati kot nekaj, kar
+                        izhaja iz avtorja samega, za kar ima zasluge zgolj on. V Franciji sta
+                        potekali dve razpravi o avtorstvu: »Za prvo je značilno, da ideje izvirajo
+                        iz posameznikovih misli in so zato naravna oblika lastnine (podobno kot v
+                        Nemčiji in Angliji), za drugo pa, da ideje izvirajo iz narave in so zato
+                        odprte za vse, pri čemer je potrebno povedati, da se nobena izmed idej ni
+                        uresničila v popolnosti. Prevladalo je pojmovanje lastniškega avtorstva kot
+                        v Nemčiji in Angliji, vendar tu avtorska pravica ni pomenila le ekonomske
+                        pravice, temveč tudi pravico, ki varuje avtorjev osebni izraz.«<note place="foot" xml:id="ftn12" n="9"> Pušnik, <hi rend="italic">Avtorske pravice</hi>, 5.</note>
+               </p>
+               <p>V anglosaškem sistemu, poimenovanem tudi <hi rend="italic">copyright</hi>
+                        sistem, so v središču pozornosti predvsem interesi javnosti in industrije
+                        kot posrednikov avtorskih del. Ta sistem avtorjem podeljuje avtorske pravice
+                        nad lastnimi deli kot spodbudo za nadaljnje ustvarjanje. Poudariti pa
+                        želiva, da je bila v Združenih državah Amerike pred letom 1976 pogoj za
+                        nastanek avtorskih pravic registracija dela. To načelo je do določene mere v
+                        veljavi še danes, in to predvsem zaradi sodnega uveljavljanja kršitev, prav
+                        tako pa je še sedaj izražena zahteva, da je delo fiksirano na materialnem
+                        nosilcu. Kontinentalni sistem, poimenovan tudi sistem avtorske pravice,
+                        sistem <hi rend="italic">Droit D’auteur</hi>, pa v nasprotju z anglosaškim
+                        sistemom poudarja naravno pravico avtorja, ki mu za stvaritev dela že
+                        avtomatično pripadajo določene pravice. Ta sistem eksplicitno ne zahteva
+                        registracije dela ali fiksacije na materialnem nosilcu. </p>
+               <p>Poleg monetarnega vidika avtorske pravice oziroma materialne ali premoženjske
+                        avtorske pravice, značilne za oba avtorskopravna sistema, pa avtorsko
+                        pravico sestavlja tudi moralna ali osebna komponenta, ki obravnava avtorjeve
+                        duhovne in osebne vezi do ustvarjenega dela. V anglosaškem sistemu se te
+                        pravice ne priznavajo, izjema je Velika Britanija, kjer se ob avtorjevi
+                        izrecni uveljavitvi priznavajo v omejenem obsegu, avtor pa se jim lahko
+                        odpove kadar koli. Nasprotno so v kontinentalnem sistemu moralne avtorske
+                        pravice neodtujljiv in neodpovedljiv del avtorske pravice ustvarjalca.<note place="foot" xml:id="ftn13" n="10"> Urša
+                                Chitrakar, <hi rend="italic">Osnove avtorskega prava – predavanje
+                                    URSIL – WIPO – Pravna fakulteta</hi>, 2019, pridobljeno 11. 7.
+                                2021, <ref target="http://www.uil-sipo.si/uploads/media/URSIL_12.3.2019.PDF">http://www.uil-sipo.si/uploads/media/URSIL_12.3.2019.PDF</ref>.</note>
+                        Kot je razvidno že na prvi pogled, se sistema v tem pogledu med seboj močno
+                        razlikujeta. Posameznega primera, ki izhaja iz anglosaškega sistema, tako ne
+                        moremo efektivno obravnavati z instrumenti kontinentalnega sistema. Pomagamo
+                        si lahko z <hi rend="italic">načelom teritorialnosti</hi>, ki navaja, da se
+                        varstvo pravic ravna po pravu države.</p>
+               <p>V nadaljevanju se avtorici posvečava sistemu, v katerem deluje avtorskopravno
+                        varstvo v Sloveniji, se pravi kontinentalnemu sistemu in njegovemu načinu
+                        varovanja avtorske in sorodnih pravic. </p>
+            </div>
+            <div>
+               <head>
+                  Avtorske in
+                            sorodne pravice v Sloveniji</head>
+               <p>Sodoben in celovit avtorski zakon, ki ureja avtorske in sorodne pravice, je
+                        Slovenija sprejela leta 1995. Z njim smo svojo zakonodajo prilagodili
+                        evropski tradiciji. Zakon o avtorski in sorodnih pravicah (ZASP) je postavil
+                        okvir za varstvo intelektualne lastnine. Strokovnjaki se strinjajo, da je
+                        »glede na kulturni, socialni in gospodarski pomen avtorske pravice in
+                        sorodnih pravic /…/ raven oziroma učinkovitost tega varstva eno od meril
+                        civiliziranosti družbe«.<note place="foot" xml:id="ftn14" n="11"> Miha Trampuž, Branko Oman in Andrej Zupančič,
+                                    <hi rend="italic">Zakon o avtorski in sorodnih pravicah (ZASP) s
+                                    komentarjem</hi> (Ljubljana: Gospodarski vestnik, 1997),
+                            5.</note>
+               </p>
+               <p>V ZASP je natančno opisano, »kaj so avtorske pravice, na koga se nanašajo,
+                        katera dela so varovana s tem zakonom, komu pripadajo sorodne pravice in
+                            podobno«.<note place="foot" xml:id="ftn15" n="12"> Pušnik, <hi rend="italic">Avtorske
+                                    pravice</hi>, 7.</note> Zakon podčrta, da »avtorska/e
+                        pravica/e pripada/jo avtorju/jem na podlagi same stvaritve dela«, kar
+                        pomeni, da ni potreben noben postopek ali formalnost, na primer
+                        registracija, da bi bila stvaritev avtorskopravno varovana. V trenutku, ko
+                        na primer pisatelj napiše roman, je njegovo delo že varovano, avtor ima na
+                        njem avtorsko pravico. Kot je napisano na strani Urada Republike Slovenije
+                        za intelektualno lastnino, je bistvo avtorske pravice, »da predstavlja
+                        monopol avtorja nad izkoriščanjem njegovega dela«.<note place="foot" xml:id="ftn16" n="13">
+                     <hi rend="italic">UIL: Opredelitev avtorske
+                                    in sorodnih
+                                    pravic</hi>, pridobljeno 8. 7. 2021, <ref target="http://www.uil-sipo.si/uil/dejavnosti/avtorska-in-sorodne-pravice/opredelitev-avtorske-in-sorodnih-pravic/">http://www.uil-sipo.si/uil/dejavnosti/avtorska-in-sorodne-pravice/opredelitev-avtorske-in-sorodnih-pravic/</ref>.</note> Avtorska pravica
+                        avtorju zagotavlja spoštovanje njegovih moralnih interesov in tudi
+                        premoženjskih koristi v smislu izkoriščanja njegovega dela. V prvem primeru
+                        gre za moralno avtorsko pravico, ki varuje avtorjeve duhovne in osebne vezi
+                        do dela: »Iz naslova moralnih pravic uživa avtor izključno pravico do prve
+                        objave, priznanja avtorstva, spoštovanja dela in pravico skesanja.«<note place="foot" xml:id="ftn17" n="14"> Ibidem. </note>
+                        V drugem primeru pa gre za tako imenovano materialno avtorsko pravico, ki
+                        varuje premoženjske interese ustvarjalca s tem, da ta izključno dovoljuje
+                        ali prepoveduje koriščenje svojega dela.</p>
+               <p>Avtorsko delo je mogoče izkoriščati v:</p>
+               <list type="unordered">
+                  <item>telesni obliki kot reproduciranje,
+                                distribuiranje in dajanje v najem;</item>
+                  <item>netelesni obliki kot javno izvajanje,
+                                prenašanje, predvajanje s fonogrami in videoigrami, prikazovanje, pa
+                                tudi kot radiodifuzno oddajanje, radiodifuzno retransmisijo ter
+                                sekundarno radiodifuzno oddajanje;</item>
+                  <item>spremenjeni obliki kot predelavo ali
+                                avdiovizualno priredbo.<note place="foot" xml:id="ftn18" n="15"> Ibid.</note>
+                  </item>
+               </list>
+               <p>Te tri (osnovne) oblike izkoriščanja ustrezno pokrivajo posamezne avtorjeve
+                        izključne pravice.<note place="foot" xml:id="ftn19" n="16"> Ibid.</note>
+                        Poleg absolutnih, izključnih pravic je avtor upravičen tudi do drugih
+                        pravic, kot so: sledna pravica, pravica do dostopa in izročitve, pravica
+                        javnega posojanja, pravica do nadomestila za tonsko in/ali vizualno snemanje
+                        ter fotokopiranje njegovega dela.<note place="foot" xml:id="ftn20" n="17"> Ibid. </note>
+                        Ko avtor svoje delo zaključi, je avtomatično varovano, na njem ima avtor vse
+                        pravice, ki na osnovi stvaritve dela trajajo ves čas njegovega življenja in
+                        70 let po njegovi smrti (ker se dedujejo, govorimo o nosilcih avtorskih
+                        pravic po pokojnem/i). </p>
+               <p>Na spletni strani <hi rend="italic">Odgovori na pogosta vprašanja Urada
+                            Republike Slovenije za intelektualno lastnino</hi> je objavljen seznam,
+                        ki je v veliko pomoč vsem, ki se ubadajo z mislijo, kaj vse je avtorsko
+                        delo, ki ga ustvari fizična oseba, navedena z imenom, psevdonimom ali znakom
+                        na izvirniku oziroma pri objavi dela. Določeno delo lahko kvalificiramo kot
+                        avtorsko, če izpolnjuje naslednjih pet temeljnih pogojev:</p>
+               <list type="ordered">
+                  <item>»Individualnost je najpomembnejša lastnost
+                                avtorskega dela, ki pa ne pomeni absolutne izvirnosti ali novosti
+                                kot v primeru patentnega varstva (npr. dva fotografa lahko z istega
+                                mesta fotografirata isti motiv z enakim fotoaparatom in
+                                filmom).</item>
+                  <item>Intelektualnost po eni strani pomeni, da se
+                                v delu odraža človeški duh, njegove misli, občutki, čustva ipd., po
+                                drugi strani pa pove, da je avtorsko delo nematerialna
+                            dobrina.</item>
+                  <item>Avtorsko delo kot stvaritev je lahko le
+                                rezultat človekovega ravnanja in ne stroja ali živali. Pomembno je
+                                tudi, da gre za dejanje, v katero je vložen določen ustvarjalni
+                                napor.</item>
+                  <item>Področje književnosti, znanosti in
+                                umetnosti je potrebno razlagati zelo široko.</item>
+                  <item>Izraženost pomeni manifestacijo dela v
+                                zunanjem svetu tako, da je zaznavno za človeške čute. Ni pa
+                                potrebno, da je delo fiksirano na materialnem nosilcu (npr.
+                                govorjena dela, koreografska in pantomimska dela).«<note place="foot" xml:id="ftn21" n="18">
+                        <hi rend="italic">UIL: Avtor in avtorsko delo</hi>, pridobljeno
+                                    8. 7. 2021, <ref target="http://www.uil-sipo.si/uil/dejavnosti/avtorska-in-sorodne-pravice/avtor-in-avtorsko-delo/">http://www.uil-sipo.si/uil/dejavnosti/avtorska-in-sorodne-pravice/avtor-in-avtorsko-delo/</ref>.</note>
+                  </item>
+               </list>
+               <p>Pri naštevanju zakon med avtorska dela poleg pisanih del (literarna dela,
+                        članki, priročniki, učbeniki, študije, računalniški programi) šteje tudi
+                        govorjena dela (govori, pridige, predavanja), glasbena dela (z besedilom,
+                        brez besedila), gledališka in lutkovna dela, koreografske stvaritve,
+                        fotografska dela, avdiovizualna dela, likovna dela (slike, grafike, kipi),
+                        arhitekturna dela (skice, načrti idr.), rezultate uporabne umetnosti ter
+                        industrijskega oblikovanja, kartografska dela in druge predstavitve
+                        znanstvene, tehnične in izobraževalne narave (risbe, skice, načrti, tabele
+                        idr.). Kot avtorsko delo pa niso varovane ideje, odkritja, ljudske literarne
+                        in umetniške stvaritve, za naše delo pa je pomembno predvsem dejstvo, da kot
+                        avtorsko delo niso varovana uradna besedila z zakonodajnega, sodnega in
+                        upravnega področja. </p>
+               <p>In še nekaj besed o zakonskih izjemah. Ena od teh je prosta uporaba avtorskih
+                        del pri obveščanju javnosti, pouku ipd., kar pomeni, da avtorjevo soglasje
+                        za takšne namene ni potrebno, hkrati pa stvaritelj ni (vedno) upravičen do
+                        finančnega nadomestila (honorarja).<note place="foot" xml:id="ftn22" n="19">
+                     <hi rend="italic">SKUPNI SPORAZUM o reproduciranju avtorskih del
+                                    prek obsega iz 50. člena Zakona o avtorski in sorodnih pravicah
+                                    v vrtcih in šolah v Republiki Sloveniji</hi>,
+                                    pridobljeno 23. 7. 2021, <ref target="http://www.pisrs.si/Pis.web/pregledPredpisa?id=DRUG4281">http://www.pisrs.si/Pis.web/pregledPredpisa?id=DRUG4281</ref>.</note> Pod določenimi pogoji je
+                        lahko prosto tudi reproduciranje avtorskih del.</p>
+               <p>V kontekst avtorskih pravic spadajo tudi druge pravice avtorja, premoženjska
+                        upravičenja, ki avtorju praviloma zagotavljajo le denarno nadomestilo ali
+                        drug premoženjski interes.</p>
+            </div>
+            <div>
+               <head>
+                  Vpliv IKT na
+                            razvoj avtorskega prava
+                    </head>
+               <p>Z razvojem interneta lahko vsak svoje mnenje prosto izraža na digitalnem
+                        nosilcu, svoje delo, ki je bilo predhodno izraženo na fizičnem nosilcu
+                        avtorskega dela (na primer v knjigi), pa digitalizira in objavi v digitalnem
+                        okolju. Poleg vprašanja legalne digitalizacije in objavljanja avtorskopravno
+                        varovanih del v digitalnem okolju pa se poraja tudi vprašanje, kaj sploh
+                        lahko obravnavamo kot predmet avtorskopravnega varovanja. Ali so digitalne
+                        podatkovne baze, ki jih je nekdo ustvaril, ravno tako avtorsko zaščitene in
+                        kako je s podatki, ki so del podatkovne baze? Kaj pa programska oprema? Ta
+                        in še mnoga druga vprašanja so vodila do prestrukturiranja do takrat
+                        veljavne avtorskopravne zakonodaje – že prvi koraki v razvoju digitalne
+                        tehnologije so namreč pokazali, da je čedalje težje razlikovati, kaj je
+                        »delo«, kaj kopija in v kakšnih situacijah in pod kakšnimi pogoji je mogoče
+                        delo posredovati v okviru avtorskega prava.<note place="foot" xml:id="ftn23" n="20"> Christopher Jensen, »The More Things
+                                Change, the More They Stay the Same: Copyright, Digital Technology,
+                                and Social Norms,« <hi rend="italic">Stanford Law Review</hi> 56,
+                                št. 2 (2003): 533,
+                                    pridobljeno 19. 7. 2021, <ref target="https://www.jstor.org/stable/1229614">https://www.jstor.org/stable/1229614</ref>.</note>
+               </p>
+               <p>Ta težava se je z razvojem različnih tehnologij le še stopnjevala, čeprav se
+                        zakonsko pojmovanje zaščite avtorskih del pred nedovoljenim kopiranjem
+                        skorajda ni spremenilo. Zapoved <hi rend="italic">Nikoli ne kopiraj!</hi> se
+                        je sčasoma spremenila v <hi rend="italic">Kopiraj zgolj v določenih
+                            okoliščinah in pod določenimi pogoji!</hi>
+                  <note place="foot" xml:id="ftn24" n="21"> Ibid., 532, 533.
+                            </note>
+               </p>
+               <p>Nikoli pa to ni bilo tako jasno kot prav v razmahu svetovnega spleta, ki je
+                        poskrbel za nove razsežnosti na področju varovanja avtorskopravnega statusa
+                        ter tradicionalno pojmovanje avtorskopravno varovanega dela postavil pred
+                        nove izzive. V osnovi velik problem predstavljajo decentraliziranost in <hi rend="italic">multijurisdikcijske</hi> razsežnosti interneta, kar
+                        preprosto povedano pomeni, da deli informacij (v kakršni koli obliki)
+                        potujejo skozi različne pravne sisteme, saj internet »nima meja,
+                        geografskega ali fizičnega območja«. S tem se pojavijo tudi vprašanja o tem,
+                        kdo je zadolžen za uveljavljanje avtorskega prava, predvsem za pravice
+                        intelektualne lastnine, ki so vezane na posamezne države in ki so izrazito
+                        teritorialne narave. Drugi izziv je samoregulacija interneta, saj tega
+                        namreč ne regulira neka centralna avtoriteta, čeprav v danes predvsem zaradi
+                        vse večjega pojava internetnega terorizma prihaja do sprememb tudi v tem
+                        miljeju. </p>
+               <p>Pred koncem uvodnega poglavja želiva le še poudariti, da Bogataj Jančič pri
+                        obravnavi te aktualne teme poudari še dva velika izziva avtorskemu pravu in
+                        varovanju avtorskih pravic v digitalnem okolju: (možnost) anonimnosti
+                        uporabnikov in predvsem nenehno spreminjajočo se naravo podatkov oziroma
+                        vsebin v digitalnem okolju.<note place="foot" xml:id="ftn25" n="22"> Bogataj Jančič,
+                                <hi rend="italic">Avtorsko pravo, </hi>57.</note>
+                        Te in druge značilnosti interneta so pomembno zaznamovale in
+                        prestrukturirale ne le področje avtorskega prava, temveč tudi druga
+                        področja, povezana z njim.</p>
+                <ab type="milestone" style="text-align:center">* * *</ab>
+               <p>Seamus Ross, profesor na Univerzi v Torontu, je na
+                            začetku pohoda svetovnega spleta napovedal, da bo vse večja odvisnost
+                            družbe od digitalnih informacij med drugim spremenila tudi strukturo
+                            gradiva, ki je na voljo zgodovinarjem pri njihovem delu. In še kako prav
+                            je imel. Komaj deset let kasneje, leta 2008, je William J. Turkel,
+                            profesor na Univerzi Western Ontario, izjavil, da je uporaba digitalnih
+                            virov povsem spremenila pokrajino informacij, s katero so se do takrat
+                            soočali zgodovinarji pri svojem delu. Razvoj digitalnega zgodovinopisja,
+                            ki temelji na pristopu proučevanja in (re)prezentacije preteklosti z
+                            novimi komunikacijskimi digitalnimi tehnologijami, je privedel do
+                            rekonceptualizacije zgodovine in zgodovinopisja. Kako smo se s spremenjeno paradigmo soočili
+                            slovenski zgodovinarji? Smo znali preseči zgolj uporabo elektronske
+                            pošte, brskanje po bibliografijah, ki so se leta 1997 pojavile v sistemu
+                            COBISS, in iskanje drugih želenih rezultatov po medmrežju? Še preden smo
+                            si znali postaviti vprašanje, ali smo pripravljeni sprejeti dejstvo, da
+                            se z razvojem digitalne humanistike v temeljih spreminjata tudi
+                            razumevanje in prakticiranje tradicionalne zgodovine, smo naleteli
+                            predvsem na praktična vprašanja, še posebej obsežno je bilo področje
+                            avtorskega prava in interneta, ki ga avtorici v pričujoči publikaciji
+                            obravnavava s strokovno-vsebinskega vidika.
+                        <note place="foot" xml:id="ftn26" n="23"> Andrej
+                                Pančur in Mojca Šorn, »Na začetku je bil SIstory: raziskovalna
+                                infrastruktura slovenskega zgodovinopisja,« v: <hi rend="italic">Inštitut za novejšo zgodovino: 60 let mislimo preteklost</hi>
+                                (Ljubljana: Inštitut za novejšo zgodovino, 2019), 47.</note>
+               </p>
+            </div>
+         </div>
+         <div>
+            <head>
+                Infrastrukturni program inštituta za novejšo zgodovino
+            </head>
+            <div>
+               <head>
+                  Začetki
+                            Raziskovalne infrastrukture slovenskega zgodovinopisja in portala
+                            Zgodovina Slovenije – SIstory</head>
+               <p>Inštitut za novejšo zgodovino (INZ) je raziskovalna ustanova s šestdesetletno
+                        tradicijo neprekinjenega raziskovanja zgodovinopisja od 19. stoletja do
+                            danes.<note place="foot" xml:id="ftn27" n="24">
+                     <hi rend="italic">Inštitut za novejšo zgodovino</hi>, pridobljeno
+                                20. 5. 2021, <ref target="https://www.inz.si/sl/O-institutu/">https://www.inz.si/sl/O-institutu/</ref>.</note> V okvir
+                        inštituta sta vključena dva raziskovalna programa, katerih člani se
+                        ukvarjajo s politično in idejno zgodovino ter gospodarsko in socialno
+                        zgodovino. Poleg raziskovalnih programov od leta 2006 v okviru inštituta
+                        deluje tudi infrastrukturni program <hi rend="italic">Raziskovalna
+                            infrastruktura slovenskega zgodovinopisja</hi>.<note place="foot" xml:id="ftn28" n="25"> Pančur in Šorn, »Na
+                                začetku je bil SIstory,« 47.</note> Za osnovni cilj programa sta
+                        bila najprej kot primarna določena digitalizacija in spletno objavljanje
+                        slovenskih historičnih vsebin, najbolj frekventnih med raziskovalci
+                        slovenske zgodovine, pri čemer je pomemben del predstavljala popularizacija
+                        in promocija zgodovinskega znanstvenega raziskovalnega dela kot stroke v
+                        širši javnosti. To naj bi se manifestiralo na portalu, katerega testna
+                        verzija je bila marca 2008 predstavljena uporabnikom na inštitutu, saj smo
+                        tako želeli preizkusiti funkcionalnost portala, logičnost povezav in
+                        različne načine iskanja. Na podlagi izsledkov in povratnih informacij
+                        kolegic in kolegov oziroma uporabnic in uporabnikov testne verzije smo
+                        portal vsebinsko in tehnično prestrukturirali in podkrepili. V smislu
+                        interakcije vseh treh pomembnih elementov, raziskovalcev, historičnih vsebin
+                        in tehnične infrastrukture, je bil septembra 2008 vzpostavljen
+                        slovensko-angleški spletni raziskovalni in izobraževalni portal slovenskega
+                        zgodovinopisja: Zgodovina Slovenije – SIstory (www.sistory.si).<note place="foot" xml:id="ftn29" n="26"> Mojca Šorn
+                                in Jurij Hadalin, »Spletni portal SIstory: prost dostop do dosežkov
+                                slovenskega zgodovinopisja,« v: <ref target="https://plus.si.cobiss.net/opac7/bib/COBIB/252883456">
+                        <hi rend="italic">Prost dostop do dosežkov slovenskih
+                                        znanstvenikov: zbornik prispevkov 4. skupnega posvetovanja
+                                        Sekcije za specialne knjižnice in Sekcije za visokošolske
+                                        knjižnice Zveze bibliotekarskih društev Slovenije = Open
+                                        access to the achievements of Slovenian scientists:
+                                        proceedings of 4th Joint Conference of the Special Libraries
+                                        Section and the Academic Libraries Section of the Slovenian
+                                        Library Association</hi> [Ljubljana, 27. in 28. oktober
+                                    2010], </ref>107.</note> Javna predstavitev portala je
+                        potekala v torek, 30. septembra 2008, na vabilo smo zapisali: »Portal
+                        omogoča lokalno, nacionalno in mednarodno povezovanje na področju
+                        izobraževanja in raziskovanja. Odpira tudi prostor za tekoče dogajanje in
+                        novice. Cilj portala je, da z digitalizacijo slovenskih zgodovinskih virov
+                        in literature ter s prenosom vsebin na svetovni splet omogočimo lažjo in
+                        celovitejšo dostopnost javnosti. Portal je namenjen strokovnjakom,
+                        raziskovalcem, učiteljem, študentom, učencem in vsem, ki jih zanima
+                            preteklost.«<note place="foot" xml:id="ftn30" n="27"> Dokumentacija IP INZ, Vabilo na predstavitev
+                                portala Zgodovina Slovenije – SIstory, 2008.</note>
+               </p>
+               <p>Osnovna ideja delovanja in zasnove portala SIstory, ki je v začetku temeljila
+                        na nudenju podpore raziskovalnemu procesu članom programskih skupin na
+                        inštitutu, je bila presežena že ob sami predstavitvi, saj je bilo jasno, da
+                        portal s svojimi vsebinami pomaga pri delu raziskovalnim skupinam oziroma
+                        raziskovalcem s področja zgodovinopisja in tudi strokovni ter laični
+                        javnosti. </p>
+                <ab type="milestone" style="text-align:center">* * *</ab>
+               <p>Kot prvi je bil na portalu objavljen digitaliziran korpus hišne znanstvene
+                        revije <hi rend="italic">Prispevki za novejšo zgodovino</hi>. V težnjah za
+                        pridobivanje ostalih ustreznih verificiranih zgodovinopisnih in zgodovinskih
+                        gradiv smo navezali stike s številnimi slovenskimi in tujimi ustanovami ter
+                        uredništvi, ki se neposredno ali posredno ukvarjajo z zgodovino ali poukom
+                        zgodovine. Stike smo navezali z znanstvenoraziskovalnimi ustanovami,
+                        uredništvi znanstvenostrokovnih publikacij, fakultetami, muzeji, arhivi,
+                        knjižnicami, sodelovanje smo ponudili tudi društvom in posameznim zbiralcem
+                        ali lastnikom spominskega in dokumentarnega gradiva. S podpisom načelnih
+                        dogovorov o sodelovanju, ki so se sprva nanašali predvsem na serijske
+                        publikacije, so uredniki podprli digitalizacijo določene publikacije in
+                        soglašali z njeno objavo na portalu (pri tem so sami določili zamik od izida
+                        publikacije do njene objave na portalu; sprva se jih je večina odločila za
+                        petletni zamik, danes mnogi možnosti zamika – tudi zaradi zahtev financerjev
+                        – ne uporabljajo več)<hi rend="italic">. </hi>Po
+                        digitalizaciji prvih gradiv smo nato na portalu Zgodovina Slovenije –
+                        SIstory oblikovali sklope, ki so prezentirali serijske publikacije, kmalu pa
+                        tudi monografije, učbenike in učne načrte ter tiskane vire, pridružili so se
+                        še sklopi z arhivskim in muzejskim gradivom. S tem gradivom smo pokrili
+                        osnovne potrebe raziskovalnega in izobraževalnega polja, s prenosom
+                        starejših in tudi sodobnih zgodovinskih in zgodovinopisnih gradiv z
+                        adekvatnimi analitičnimi sistemi ter ustreznim znanstvenim aparatom v novo
+                        medijsko in tehnološko obliko pa smo poskrbeli tudi za ohranitev kulturne
+                        dediščine oziroma širitev in podaljšanje njihove relevance. </p>
+               <p>Poleg prvega – vsebinskega dela portala je bil z nič manj zanimanja sprejet
+                        Zgodovinarski indeks citiranosti, ki je tvoril drugi del portala. Želeli
+                        smo, da z bibliometričnimi metodami omogoča analizo in prikaz pogostosti
+                        citiranja zgodovinarjev in njihovih del v znanstvenih knjigah in revijah.
+                        Baza tako predstavlja popis citatov iz slovenskih osrednjih zgodovinskih
+                        časopisov in revij ter publikacij s področja zgodovinopisja, ki so v
+                        slovenskem kooperativnem bibliografskem sistemu COBISS<note place="foot" xml:id="ftn31" n="28">
+                     <hi rend="italic">Kooperativni online bibliografski sistem in
+                                    servisi COBISS</hi>, https://www.cobiss.si/.</note> označene
+                        s tipologijo znanstvenih monografij, zbornikov recenziranih znanstvenih
+                        posvetovanj in simpozijev. </p>
+               <p>Portal je bil programsko in tehnološko prvič
+                            nadgrajen leta 2011.<note place="foot" xml:id="ftn32" n="29"> Naslednje nadgradnje za obravnavano temo niso
+                                bile ključne, zato jih v nadaljevanju ne navajava. Vseeno pa
+                                dodajava povezavo na sklop Poročila o rezultatih infrastrukturnega
+                                programa in načrti
+                                dela<hi rend="italic">, </hi>ki je dostopen na
+                                    <hi rend="italic">Zgodovina Slovenije – SIstory</hi>,
+                                pridobljeno 14. 7. 2021, <ref target="https://www.sistory.si/publikacije/?menuBottom=9">https://www.sistory.si/publikacije/?menuBottom=9</ref>.</note> V sodelovanju z zunanjima sodelavcema, programerjem in informatikom, je potekal po smernicah vzpostavitvenega dokumenta Nadgradnja portala Zgodovina Slovenije. V prvi fazi so bili analizirani podatki, določeni in postavljeni novi standardi ter infrastruktura za nadgradnjo ter postavljeni in konfigurirani strežniki in produkcijsko okolje za njegovo delovanje. V drugi fazi sta bila izdelana in implementirana dva nova, tehnično zahtevna, a vsebinsko bogata modula: Smrtne žrtve med prebivalstvom RS med drugo svetovno vojno in neposredno po njej in Popisi prebivalstva Slovenije. V tretji fazi so bili postavljeni novo ogrodje in grafične predloge, izboljšani so bili iskalniki, ki filtrirajo in sortirajo rezultate (tudi po celotnem besedilu), ter po nadgrajenem standardu <hi rend="italic">Dublin
+                        Core</hi> standardizirani metapodatki, s čimer smo omogočili izvoz ali izmenjavo podatkov pri vključevanju v večje nacionalne in evropske sisteme.</p>
+               <p>Razen oblikovne in strokovne dovršenosti novega
+                            portala so bile prednosti poleg omenjenih tudi nova administracija
+                            oziroma pregleden vmesnik za urejanje kompletne vsebine, ki je poskrbel
+                            za manjšo odvisnost od zunanjih sodelavcev in omogočil interno
+                            upravljanje sistema. Nadgrajeni portal, ki je bil narejen modularno, kar
+                            je omogočilo časovno neomejeno dodajanje funkcionalnih rešitev, je
+                            ponudil enostavno in pregledno uporabo po posameznih vsebinskih sklopih
+                            in podsklopih, hitrejše, stabilnejše in popolnejše delovanje sistema ter
+                            kakovostnejšo uporabniško in administracijsko izkušnjo.<note place="foot" xml:id="ftn33" n="30">
+                                Mojca Šorn, Letno
+                                    poročilo o rezultatih infrastrukturnega programa
+                                    (IP) v letu 2011. –
+                                    Dokumentacija IP
+                        INZ.</note> In kot takega ga naši uporabniki poznajo še danes.</p>
+                <ab type="milestone" style="text-align:center">* * *</ab>
+               <p>Portal SIstory pa ni predstavljal edine pomembne
+                            prelomnice v razvoju infrastrukturnega programa, saj so se v letu 2008
+                            sklenile tudi priprave na prijavo projekta evropske mednarodne mreže
+                            Digital Research Infrastructure for the Arts and Humanities – DARIAH, ki
+                            je uvrščen v evropske strategije raziskovalne infrastrukture – European
+                            Strategy Forum on Research Infrastructure (ESFRI Roadmap). Dolgoročni
+                            cilj DARIAH je vzpostavitev mreže infrastrukture za umetnosti in
+                            humanistiko v digitalni obliki. Akterji v projektu so digitalni centri,
+                            ki bodo povezani v poenoteno mrežo omogočili izmenjavo različnih znanj,
+                            dobre prakse, s tem pa bodo doprinesli k povezovanju lokalnih,
+                            nacionalnih in panevropskih dimenzij s poudarkom na oblikovanju evropske
+                            humanistične raziskovalne infrastrukture.
+                    </p>
+               <p>Z namenom spodbujanja implementacije evropskih strategij na nacionalni ravni je Vlada Republike Slovenije 28. aprila 2011 sprejela Načrt razvoja raziskovalnih infrastruktur 2011–2020, v katerega je bil kot partner mreže DARIAH vključen infrastrukturni program INZ v sodelovanju z infrastrukturnim programom Znanstvenoraziskovalnega centra Slovenske akademije znanosti in umetnosti. Vloga INZ kot partnerja mreže DARIAH je tako slediti zastavljenim ciljem in nalogam programa, med katerimi je – poleg promocije digitalnega analitičnega raziskovanja na področju humanistike in umetnosti ter povezovanja v mednarodnem prostoru – tudi vzpostavitev nacionalne digitalne infrastrukture za humanistiko in umetnost. 
+                    </p>
+               <p>Leta 2011 sta infrastrukturna programa INZ in ZRC
+                            SAZU začela iz omrežja storitev, orodij, podatkov, ljudi in tehnologij,
+                            ki omogočajo raziskovanje in podporo raziskavam na polju digitalne
+                            humanistike, postavljati DARIAH-SI. V skladu s smernicami DARIAH je
+                            njeno delovanje pokrivalo potrebe vseh večjih akterjev na področju
+                            humanistike in širše v Sloveniji v smeri izgradnje nacionalne digitalne
+                            raziskovalne infrastrukture. V okviru DARIAH-SI danes skrbimo za:
+                    </p>
+               <list type="unordered">
+                  <item>akademsko dejavnost, med drugim z organizacijo internih projektov in delavnic s področja digitalne humanistike in </item>
+                  <item>izobraževalno-pedagoško dejavnost, ki vključuje tako organizacijo vsakoletne Poletne šole vizualne etnografije za študente humanističnih disciplin, v kateri pridobijo tehnike različnih vizualnih raziskovalnih metod, kot tudi sodelovanje s profesorji in študenti v raznih projektih: obdelavi korpusa zapisnikov sej Skupščine RS (1990–1992) s Fakulteto za računalništvo in informatiko Univerze v Ljubljani in Fakulteto za družbene vede Univerze v Ljubljani; uporabi in analizi podatkovne baze Popisi prebivalstva Slovenije z Oddelkom za zgodovino Filozofske fakultete Univerze v Ljubljani; vzpostavitvi projekta digitalizacije slovenskega pravnega izročila SI IUS s Pravno fakulteto Univerze v Ljubljani; izvajanju delovne prakse osnovnega opismenjevanja na področju digitalne humanistike s študenti informacijskih znanosti ter bibliotekarstva Filozofske fakultete Univerze v Ljubljani ter študenti zgodovine Univerze na Primorskem, Fakultete za humanistične študije v okviru njihovih študijsko-programskih obveznosti. </item>
+               </list>
+               <p>Povsem na začetku izgradnje nacionalne mreže za humanistiko in umetnosti smo veliko vlogo namenili spletišču SI-DIH. To ni bilo zamišljeno kot zgolj iskalnik po različnih vsebinah, temveč tudi kot okolje za pogovor ter homogenizacijo skupnosti razvijalcev in uporabnikov sodobnih rešitev. Z njim smo razpršeni digitalni infrastrukturi v Sloveniji želeli postaviti protiutež, s katero bi stremeli k povezovanju in poenotenju ter tako veliko lažji popularizaciji uporabe naprednih orodij v humanistiki. 
+                    </p>
+            </div>
+            <div>
+               <head>
+                  Kje smo danes in
+                            kam smo namenjeni</head>
+               <p>Danes infrastrukturni program <hi rend="italic">Raziskovalna infrastruktura
+                            slovenskega
+                            zgodovinopisja</hi> izvaja podporo izvajanju raziskovalne dejavnosti na INZ, predvsem pa je servis za nacionalno zgodovinopisje in podpora nacionalnim znanstvenim zbirkam [DARIAH-SI SIstory] ter nosilec nacionalne digitalne infrastrukture za humanistiko in umetnost [DARIAH-SI SI-DIH], ki je vključena v mednarodni infrastrukturni projekt ESFRI [DARIAH-EU]. Infrastrukturni program v skladu s tako financirano inštitutsko, nacionalno in mednarodno infrastrukturo svoje dejavnosti izvaja kot center za raziskovalno opremo (za vzdrževanje strojne opreme), center za digitalizacijo (analognega gradiva in snemanje), center za kvantitativne podatke (zbiranje, vnašanje v relacijske baze in urejanje kvantitativnih podatkov), center za kvalitativne podatke (zajem, obdelava in označevanje kvalitativnih podatkov), center za digitalne izdaje (kodiranje, urejanje, izdelava, pretvorba in objava elektronskih publikacij in digitalnih znanstvenih izdaj) ter center za trajno digitalno hrambo (v odprtokodnem digitalnem sistemu za hrambo, imenovanem <hi rend="italic">Archivematica</hi>) in dostop do znanstvene in kulturne
+                            dediščine.
+                    </p>
+               <p>V okviru vseh teh dejavnosti raziskovalno-razvojni
+                            oddelek opravlja dejavnost s področja digitalne humanistike ter skrbi za
+                            razvoj digitalnih humanističnih metod, orodij, storitev in raziskav. Pri
+                            povezovanju z ostalimi infrastrukturami in raziskovalci, projekti in
+                            ustanovami imajo te dejavnosti na nacionalni ravni podporo v službi za
+                            sodelovanje, usposabljanje in promocijo ter na mednarodni ravni v službi
+                            za mednarodno sodelovanje (sodelovanje z evropsko mrežo za digitalno
+                            humanistiko DARIAH-EU in ostalimi nacionalnimi infrastrukturami
+                            DARIAH).
+                        <note place="foot" xml:id="ftn34" n="31"> Andrej Pančur, Poročilo o napredku projekta: Digital Research Infrastructure for the Arts and Humanities / Digitalna raziskovalna infrastruktura za umetnost in humanistiko, Murska Sobota, 30. 3. 2020. – Dokumentacija IP INZ.</note>
+               </p>
+               <p>Preden preideva na praktični del predstavitve,
+                            želiva navesti še razvojne cilje, ki poleg oblikovanja ter vodenja
+                            dejavnosti in storitev humanistične raziskovalne skupnosti obsegajo še
+                            zagotovitev vključitve obstoječih virov, orodij ter storitev v razvoj
+                            nacionalnih in mednarodnih infrastruktur. Poudarili bi, da stremimo k
+                            učinkoviti promociji digitalnih metod v zgodovinopisnih oziroma
+                            humanističnih raziskavah, saj želimo doseči trajnostni razvoj digitalne
+                            humanistike. Veliko aktivnosti pa je usmerjenih v vzpostavitev
+                            celovitega dostopa do podatkov in storitev prosto in odprto dostopne
+                            infrastrukture DARIAH.</p>
+               <p>Specifične cilje projekta povzemava v štirih
+                            točkah. Čeprav so vse štiri enako pomembne, najprej navajava usmerjenost
+                            v zagotovitev nadaljnjega delovanja (tehničnih) storitev infrastrukture,
+                            kar bomo dosegli s posodabljanjem njene strojne opreme. Nikakor ne
+                            skrivamo niti teženj za nadgradnjo opreme, ki bo med drugim omogočala
+                            tudi razvojno in eksperimentalno delo na polju zagotavljanja
+                            infrastrukturnih storitev. Prizadevali si bomo za pridobitev dodatnih
+                            diskovnih polj, s katerimi se bomo zaradi dodatnih spominskih
+                            zmogljivosti bolj fleksibilno prilagajali potrebam novih in novih
+                            projektov. Na koncu poudarjava še težnjo k razvoju naših sistemov in
+                            aktivnosti za soopravilnost z nacionalnimi infrastrukturami, saj želimo,
+                            da bo obstoječe in nove nacionalne kapacitete mogoče uporabljati za
+                            povečanje zmogljivosti (
+                        <hi rend="italic">scale-out</hi>) in kot sekundarni storitveni center (<hi rend="italic">fail-over</hi>). S tem bo zmanjšana nevarnost odpovedi storitev
+                            ali izgube podatkov zaradi morebitne (katastrofalne) napake v lokalnem
+                            centru (vključeni smo v mrežo SLING – mrežo računalniških gruč
+                            konzorcija Slovensko nacionalno superračunalniško omrežje, po njem pa v
+                            nacionalno raziskovalno infrastrukturo HPC RIVR).</p>
+            </div>
+         </div>
+         <div>
+            <head>
+               <hi rend="bold">Prvi
+                        koraki na poti avtorskega prava od izbora gradiv do objave na portalu
+                        sistory</hi>
+            </head>
+            <p>Po eni strani se od zametkov programa <hi rend="italic">Raziskovalna infrastruktura slovenskega
+                        zgodovinopisja</hi>
+                    dalje zavedamo, da je SIstory nacionalni portal in kot tak vstopna in izstopna informacijska točka vseh zgodovinarjev, ki jim tako z digitalizacijo historičnih vsebin želimo olajšati delo. Po drugi strani pa smo prepričani, da so zgodovinopisni viri in zgodovinopisje sestavni del širše definirane slovenske znanstvene in kulturne dediščine. Posledično nas taka definicija utrjuje v prepričanju, da smo jo kot tako dolžni ohranjati in da jo lahko ohranimo in razvijamo le s prilagoditvijo novim tehnologijam in novim medijem. S prenosom starejših in sodobnih dokumentiranih izdaj v novo medijsko in tehnološko formo ogromnemu korpusu zgodovinarskega znanja in izkušenj v obliki znanstvenih razprav, monografij, člankov, recenzij in poročil, zbranih in izdanih sekundarnih in primarnih virov podaljšujemo življenjsko dobo oziroma relevantnost. </p>
+            <p>V skladu z našim zavedanjem oziroma prepričanjem
+                        digitalizacija historičnih vsebin predstavlja eno temeljnih in izhodiščnih
+                        dejavnosti infrastrukturnega programa. Kot podporni sistem historični
+                        raziskovalni in pedagoški dejavnosti omogoča nadgradnjo in ustvaritev
+                        sodobnega multimedijskega središča širokega nabora vsebin o slovenski
+                        zgodovini. Razvidno je torej, da pri infrastrukturnem programu ne gre le za
+                        ohranjanje gradiva, temveč predvsem za širjenje informacij, analiz,
+                        interpretacij in s tem oblikovanje prostora za nadaljnja interdisciplinarna
+                        in mednarodna srečanja, za odpiranje novih vprašanj, novih razprav in novih
+                        interpretacij na področju humanistike in družboslovja.</p>
+            <p>Ko smo se seznanili z osnovami avtorskega prava, temeljnih načel infrastrukturnega delovanja nismo spreminjali, morali pa smo precej prilagoditi postopke, ki predstavljajo pot od izbora do objave gradiv na portalu SIstory. Sledi opis našega odnosa do avtorstva in zaščite gradiv, ki je povezan s posamezno delovno fazo infrastrukturnega programa. </p>
+            <div>
+               <head>Izbor
+                            gradiva</head>
+               <p>Nabor gradiv je sprva potekal po načelu širokega
+                            grla, z objavami smo želeli ustreči ne le raziskovalcem, temveč tudi
+                            profesorjem, učiteljem arhivistom, muzealcem, študentom, dijakom,
+                            učencem in ostalim. To je razvidno tudi iz srednjeročnega načrta dela za
+                            obdobje 2009–2014: »V skladu s strukturo portala nameravamo v naslednjem
+                            obdobju dati poudarek na digitalizaciji treh skupin historičnih vsebin.
+                            Najprej je potrebno poudariti nadaljevanje prenosa v digitalno formo
+                            obširnega korpusa znanstvene historične periodike, revij s historično
+                            vsebino na nacionalni in regionalni ravni (lokalni in krajevni
+                            zborniki). Prav tako je potrebno nadaljevati z digitalizacijo starejših
+                            (težje dostopnih) historičnih monografij, ki so v znanstvenem oziru še
+                            danes relevantne. Tretjo skupino vsebin pa predstavljajo pripomočki
+                            (leksikoni in drugi priročniki) ter historični viri in dokumentacija. V
+                            naslednjem programskem obdobju nameravamo razširiti ponudbo objavljenih
+                            vsebin z razširitvijo sodelovanja z uporabniki in zainteresiranimi
+                            javnostmi (arhivi in regionalne knjižnice).«<note place="foot" xml:id="ftn35" n="32"> Nina Vodopivec, Predlog
+                                infrastrukturnega programa (IP) za obdobje 2009–2014 in poročilo o
+                                rezultatih infrastrukturnega programa v obdobju 2004–2008. –
+                                Dokumentacija IP INZ.</note>
+               </p>
+               <p>Ko smo spoznali osnove avtorskega prava, smo v
+                            prvo fazo – fazo izbora – vključili tudi postopek za zaščito avtorskih
+                            del, saj nismo želeli kršiti zakonodaje, ki jasno določa, da že sama
+                            digitalizacija gradiv terja pridobitev avtorjevega soglasja. Čeprav je
+                            naše delo s tem postalo časovno zahtevnejše (več in bolj podrobno sledi
+                            v naslednjem poglavju), nas to nikakor ni odvrnilo od nadaljnjih teženj
+                            po sodelovanju in digitalizaciji ter spletni objavi raznih gradiv.
+                            Uspešno smo navezali stike s številnimi slovenskimi in tujimi
+                            ustanovami, ki se neposredno ali posredno ukvarjajo z zgodovino ali s
+                            poukom zgodovine, in te stike vzdržujemo še danes. Naj navedeva le nekaj
+                            naših partnerjev: Filozofska fakulteta Univerze v Ljubljani,
+                            Znanstvenoraziskovalni center Slovenske akademije znanosti in umetnosti,
+                            Oddelek za zgodovino Fakultete za humanistične študije Univerze na
+                            Primorskem, Znanstveno-raziskovalno središče Koper, Inštitut za
+                            narodnostna vprašanja, Istituto regionale per la storia del movimento di
+                            liberazione nel Friuli Venezia Giulia, Muzej novejše zgodovine
+                            Slovenije, Tehniški muzej Slovenije, Slovenski šolski muzej, Muzej
+                            novejše zgodovine Celje, Narodni muzej Slovenije, Posavski muzej
+                            Brežice, Arhiv Republike Slovenije in Slovenski filmski arhiv pri Arhivu
+                            Republike Slovenije, Zgodovinski arhiv Ljubljana, Zgodovinski arhiv
+                            Koper, Osrednja knjižnica Celje, Narodna in študijska knjižnica v Trstu,
+                            knjižnica Oddelka za zgodovino Filozofske fakultete Univerze v
+                            Ljubljani, Centralna pravosodna knjižnica. Že več let plodno sodelujemo
+                            tudi z založbami (Modrijan, Obzorja, Slovenska matica, Društvo piscev
+                            zgodovine NOB Slovenije idr.) in uredništvi znanstvenih in strokovnih
+                            publikacij (
+                        <hi rend="italic">Arhivi</hi>, <hi rend="italic">Časopis za zgodovino in
+                            narodopisje</hi>, <hi rend="italic">Drevesa</hi>, <hi rend="italic">Dve
+                            domovini</hi>, <hi rend="italic">Kronika</hi>, <hi rend="italic">Prispevki za novejšo
+                            zgodovino</hi>, <hi rend="italic">Razprave in gradivo, Zgodovina v
+                            šoli</hi>, <hi rend="italic">Zgodovina za
+                            vse</hi>, <hi rend="italic">Zgodovinski časopis</hi>), društvi (Zveza zgodovinskih društev Slovenije,
+                            Zgodovinsko društvo Ljubljana, Zgodovinsko društvo Celje) itn. Nabor
+                            sodelujočih ustanov, ki SIstory bogatijo s svojimi predlogi in gradivom,
+                            pa se iz leta v leto veča. Zelo uspešno je sodelovanje z Državnim zborom
+                            Republike Slovenije, uredništvi novih serijskih publikacij (<hi rend="italic">Dileme</hi>, <hi rend="italic">Na
+                            fronti</hi>, <hi rend="italic">Retrospektive</hi>), nevladnimi institucijami in številnimi
+                            posamezniki, ki gradiva ustvarjajo ali pa jih zbirajo in
+                            hranijo.<note place="foot" xml:id="ftn36" n="33"> Bolj podrobno <hi rend="italic">Zgodovina
+                                    Slovenije – SIstory</hi>,
+                                https://www.sistory.si/objave/kazalo.</note>
+               </p>
+            </div>
+            <div>
+               <head>Digitalizacija
+                    </head>
+               <p>Sprva je za digitalizacijo gradiv skrbel zgolj zunanji ponudnik. Kmalu smo kot osnovo za sodelovanje izoblikovali naslednje tehnične pogoje: ločljivost skeniranja 300–400 DPI; barvna globina 24-bitna (barvno), če je vsebina slabo vidna in v primeru sivinskih slik. Pri delu je ponudnik uporabljal ploski skener s tehniko hladnega skeniranja (ni neposredne obremenitve toplote in svetlobe na gradivo). Poskrbel je za optično prepoznavanje znakov (OCR) v vseh skeniranih dokumentih; danes je natančnost prepoznave znakov okoli 99,5-odstotna. Za format datotek za arhivsko kopijo smo določili JPG s 5-odstotno kompresijo (barvno in sivinsko), za delovno kopijo pa PDF/A-b s kompresijo minimalno 70 odstotkov arhivske kopije v primeru skeniranja v 24-bitni barvni globini. </p>
+               <p>Kmalu po začetku sodelovanja smo začeli v format
+                            PDF vstavljati kazalo (<hi rend="italic">bookmark</hi>); danes mora imeti vsaka enota
+                            gradiva oziroma datoteka PDF/a-b izdelane povezave (<hi rend="italic">linke</hi>) v obliki XML ter pripadajoči XSL do posameznega
+                            zaznamka v določeni enoti gradiva. Vsak prispevek je lahko v svoji PDF
+                            datoteki, vendar mora biti končni izdelek, primeren za objavo na
+                            SIstory, skupek vseh prispevkov v eni PDF datoteki, ki je vizualno
+                            identična knjižni izdaji. PDF mora vsebovati metapodatke: naslov
+                            publikacije, avtor, datoteka PDF ali DOCX ne sme vsebovati nobenih
+                            zaščit z gesli. Imena datotek ne smejo vsebovati posebnih znakov (pike),
+                            šumnikov ali presledkov (namesto presledka naj bo podčrtaj "_"). Gradivo
+                            je ponudnik sprva predajal na DVD meniju, seveda pa se je to kmalu
+                            spremenilo in nam je gradivo začel izročati na elektronskem nosilcu
+                            zapisa za dolgoročno hrambo, tj. za vsaj pet let.
+                        <note place="foot" xml:id="ftn37" n="34"> Gl. »Zakon o varstvu arhivskega gradiva in arhivih,« <hi rend="italic">Uradni list
+                                    RS</hi>, št. 30/2006, čl. 29 in 30. »Uredba o varstvu arhivskega in dokumentarnega gradiva,« <hi rend="italic">Uradni list
+                                RS</hi>, št. 86/2006, čl. 15. </note>
+                        Ob zaključku projekta PDF datoteke pregledamo
+                            oziroma preverimo, ali so skenirane vse strani, ali deluje OCR in ali so
+                            imena datotek pravilna.
+                    </p>
+               <p>Izvajalec digitalizacijo izvaja na svoji lokaciji in od prevzema gradiva do vrnitve gradiva na lokacijo naročnika prevzema odgovornost za gradivo in zagotavlja, da bo pri prevozu gradiva in procesu digitalizacije zagotovil vse ukrepe za preprečevanje izgube ali morebitnih poškodb gradiva ter ukrepe za zagotavljanje ustreznega materialnega varstva gradiva. </p>
+               <p>Večje korpuse gradiv še vedno digitalizira zunanji
+                            ponudnik, čeprav veliko gradiva digitaliziramo na inštitutskem skenerju,
+                            na katerem naredimo tudi do 100.000 posnetkov na leto. Pri tem se držimo
+                            naslednjih pravil: z gradivom rokujemo le na čistih površinah in s
+                            čistimi rokami, po potrebi tudi z rokavicami; gradiva ne puščamo na
+                            neposredno osončenem prostoru; gradiva ne označujemo; v prostoru z
+                            gradivom ne jemo in/ali pijemo in poskrbimo, da med digitalizacijo ne
+                            ustvarimo nobene možnosti za nastanek kakršne koli škode na gradivu.
+                            Vezano gradivo odpiramo le do kota 120º (tesno vezavo le do kota 90º) in
+                            ga po potrebi podpremo z oporo, po uporabi pa ga nikoli ne puščamo
+                            odprtega. Seveda smo tudi pri skeniranju nevezanega gradiva pozorni, da
+                            ne pride do poškodb.<note place="foot" xml:id="ftn38" n="35"> O delovanju in protokolih Centra za
+                                digitalizacijo arhivskega gradiva v nacionalni javni arhivski
+                                službi, gl. <hi rend="italic">Center za digitalizacijo. Metodologija
+                                    digitalizacije arhivskega gradiva ter organizacija in plan dela
+                                    Centra za digitalizacijo</hi>, 16. 12. 2020,
+                                    pridobljeno 22. 7. 2021, <ref target="https://www.gov.si/assets/organi-v-sestavi/Arhiv-RS/Projekt-e-ARH-si/Resitve/CZD/KC-5.1.2_1.10_CzD_Protokol_1.4.pdf">https://www.gov.si/assets/organi-v-sestavi/Arhiv-RS/Projekt-e-ARH-si/Resitve/CZD/KC-5.1.2_1.10_CzD_Protokol_1.4.pdf</ref>.
+                            </note>
+               </p>
+               <p>Za konec tega sklopa bi poudarili, da
+                            digitaliziramo zgolj gradivo, za katerega imamo urejeno avtorskopravno
+                            osnovo – vse, kar digitaliziramo, je objavljeno na portalu SIstory. Pri
+                            tem imava v mislih tudi posnetke strokovnih in znanstvenih dogodkov
+                            (predstavitev, delavnic, predavanj, okroglih miz, konferenc). Soglasje
+                            namreč pridobimo od vseh vpletenih akterjev, o snemanju in objavi
+                            posnetka na portalu Zgodovina Slovenije – SIstory pa je ob vstopu v
+                            prostor dogajanja oziroma že s samim napovednikom na vabilu obveščena
+                            tudi javnost.</p>
+            </div>
+            <div>
+               <head>Inventarizacija
+                            digitaliziranega gradiva, njegova objava na portalu SIstory in hranjenje
+                            publikacij</head>
+               <p>Osnovno raven portala smo presegli v sklopu nadgradnje leta 2011, ko je bila vzpostavljena metapodatkovna baza in izpeljana standardizacija metapodatkov za večino na portalu SIstory objavljenih gradiv. Realizacija projekta ni pomenila zgolj hitrejšega, lažjega in natančnejšega iskanja dokumentov po spletu oziroma takojšnjega prehoda na iskani članek, temveč osnovo za izgradnjo in adaptacijo analitičnih orodij, saj smo želeli postaviti temelje za povezavo raznolikih vrst zbirk in baz podatkov na področju humanistike v domačih in evropskih sistemih. 
+                    </p>
+               <p>Po vzpostavitvi baze je od julija do decembra 2011 potekalo vpisovanje ali inventarizacija (vpis in opis) gradiv po nadgrajenem standardu Dublin Core, natančneje po šestnajstih postavkah. Ena od teh se še danes nanaša na vpis podatkov o avtorskopravnem statusu posamezne entitete (več v četrtem poglavju Digitalni pristopi). </p>
+               <p>V prvi fazi so bili v metapodatkovno bazo vneseni
+                            podatki o posameznih publikacijah, objavljenih na portalu SIstory,
+                            sledila je faza členitve vseh publikacij, ki so plod več kot enega
+                            avtorja, na posamezne prispevke. Do konca leta 2011 so bile po vseh
+                            šestnajstih generalijah razdeljene in obdelane skoraj vse do takrat na
+                            portalu objavljene publikacije: skupaj nekaj manj kot 5000 dokumentov,
+                            kar je pomenilo skoraj 80.000 standardiziranih vpisov (danes je v bazi
+                            zavedenih skoraj 50.000 enot, kar pomeni nekaj manj kot 800.000
+                            standardiziranih vpisov).<note place="foot" xml:id="ftn39" n="36">
+                                Šorn, Letno poročilo IP, 2011. Gl. Andrej Pančur, »Metapodatki portala Zgodovina Slovenije – SIstory. Navodila za uporabo orodja za vnos metapodatkov,« Zgodovina
+                                    Slovenije –
+                                    SIstory, pridobljeno 19. 7.
+                                    2021, <ref target="http://hdl.handle.net/11686/36151">http://hdl.handle.net/11686/36151</ref>.</note>
+               </p>
+               <p>Delovni proces članic in članov infrastrukturnega
+                            programa se od vzpostavitve metapodatkovne baze do danes ni spremenil:
+                            po postopku skeniranja PDF datoteke shranimo na tako imenovanem arzenalu
+                            – omrežnem diskovnem polju, gradivo pa
+                            objavimo na portalu. Dokler ne vpišemo metapodatkov in licence, ki ureja
+                            status avtorskega dela na spletu oziroma določa možnosti njegove
+                            uporabe, je publikacija neaktivna. Pri publikacijah z več avtorji smo
+                            previdni, da tistih člankov, za katere nimamo soglasij vseh podpisnikov
+                            stvaritve, ne objavimo. Kljub temu pa tudi za njih kreiramo metapodatke,
+                            saj ne želimo potvarjati zgradbe publikacije, po že omenjenih pravilih
+                            mora namreč ostati enaka izvirniku. Po natančnem pregledu vpisanih
+                            podatkov urejevalec uradno objavi publikacijo s pomočjo tako imenovanih
+                            admin novic.</p>
+               <p>Vse gradivo, pridobljeno za objavo na Sistory, dodatno zaščitimo, pri čemer v prvi vrsti uporabljamo zunanji sekundarni strežnik (celoten portal SIstory se vsako noč kopira na zunanji virtualni strežnik, ki ima za 30 dni svojega arhiva), notranji sekundarni strežnik (primarni strežnik se vsakih 30 sekund replicira na sekundarni virtualni strežnik, ki je na drugem zmogljivem strežniku v ločeni strežniški sobi znotraj objekta INZ, pri tem pa je replika delujoča in lahko v trenutku prevzame glavno vlogo strežnika SIstory) in strežniški prostor v Celju (enkrat dnevno se naredi replika primarnega strežnika, pri tem je mogoča restavracija podatkov do 90 dni). </p>
+               <p>Kar se tiče zaščite portala SIstory, je zelo
+                            pomemben tudi aplikativni požarni zid, ki varuje pred napadi, vdori in
+                            preobremenitvijo. Poleg portala SIstory se varujejo tudi ostale
+                            internetne storitve, ki jih ponuja ali uporablja naš inštitut.</p>
+               <p>Poleg aplikativnega požarnega zidu je portal zaščiten tudi z dodatnim modulom na portalu, ki vključuje tabelo aktivnih uporabnikov, tabelo <hi rend="italic">black
+                            list</hi> in pametno zaščito (vse poizvedbe na portalu so omejene na 30 iskanj na 300 sekund na en IP).<note place="foot" xml:id="ftn40" n="37"> Bogomir Rožman in Andrej Pančur, Standardi za objavljene vsebine PDF publikacij na portalu SIstory: dokument za interno uporabo (verzija 3.0), 16. 12. 2019. – Dokumentacija IP INZ.</note>
+               </p>
+               <p>Ker sodelujemo z različnimi partnerji, smo že
+                            kmalu poskrbeli tudi za hrambo izbranih gradiv skupaj z že obdelanimi
+                            metapodatki po standardu ISO-OAIS na portalu Archivematica.<note place="foot" xml:id="ftn41" n="38">
+                     <hi rend="italic">Archivematica: open-source digital preservation
+                                    system,</hi>
+                     <ref target="https://www.archivematica.org/en/">https://www.archivematica.org/en/</ref> (pridobljeno 12. 7.
+                                2021). Gl. tudi Andrej Pančur in Bogomir Rožman, »Dolgotrajno
+                                ohranjanje raziskovalnih podatkov v manjših raziskovalnih
+                                infrastrukturah. Uporaba odprtokodne aplikacije Archivematic,« v:
+                                Tomaž Erjavec in Darja Fišer, ur., <hi rend="italic">Zbornik
+                                    konference Jezikovne tehnologije in digitalna humanistika, 29.
+                                    september–1. oktober 2016, Filozofska fakulteta, Univerza v
+                                    Ljubljani, Ljubljana, Slovenija = Proceedings of the Conference
+                                    on Language Technologies &amp; Digital Humanities, September
+                                    29th–October 1st, 2016 Faculty of Arts, University of Ljubljana,
+                                    Ljubljana, Slovenia</hi> (Ljubljana: Znanstvena založba
+                                Filozofske fakultete: = Ljubljana University Press, Faculty of Arts,
+                                2016), 218, 219, <ref target="http://www.sdjt.si/wp/wp-content/uploads/2016/09/JTDH-2016_Pancur-et-al_Dolgotrajno-ohranjanje-raziskovalnih-podatkov.pdf">http://www.sdjt.si/wp/wp-content/uploads/2016/09/JTDH-2016_Pancur-et-al_Dolgotrajno-ohranjanje-raziskovalnih-podatkov.pdf</ref>.</note> Pripravi materiala za tako imenovani SIP paket (originalni material, obdelani material in metapodatki) sledi obdelava z orodji za kreiranje AIP paketa (pregled pred virusi in normalizacija podatkov), nato pa kopiranje ali zrcaljenje diskovnega polja z AIP paketi na sekundarno lokacijo znotraj hiše in na tretjo lokacijo v Celju.</p>
+            </div>
+            <div>
+               <head>Baze
+                            podatkov</head>
+               <p>Poleg glavnega servisa, portala Zgodovina
+                            Slovenije – SIstory, infrastrukturni program Inštituta za novejšo
+                            zgodovino ponuja tudi različne digitalne podatkovne baze, med temi štiri
+                            večje: Žrtve 1. svetovne vojne, Žrtve 2. svetovne vojne, Popisi
+                            prebivalstva in že omenjeni Zgodovinarski indeks citiranosti.</p>
+               <p>Prva baza, ki nastaja od pomladi leta 2015, je
+                            rezultat projekta Zbiranje podatkov o vojaških žrtvah 1. svetovne vojne
+                            na Slovenskem. V projektu, zasnovanem z namenom obeležitve stoletnice
+                            prve svetovne vojne, je sodelovalo šestnajstih partnerskih organizacij,
+                            koordinacija je bila zaupana Inštitutu za novejšo zgodovino. Seznam
+                            obsega podatke o skoraj 27.000 vojaških osebah, ki so v vojni ali zaradi
+                            nje izgubile življenje.<note place="foot" xml:id="ftn42" n="39">
+                     <hi rend="italic">Žrtve 1. svetovne vojne</hi>, pridobljeno 11. 7.
+                                2021, <ref target="https://zv1.sistory.si/?lang=sl">https://zv1.sistory.si/?lang=sl</ref>.</note>
+               </p>
+               <p>INZ oziroma njegov infrastrukturni program
+                            vzdržuje tudi podatkovno bazo Smrtne žrtve med prebivalstvom na območju
+                            Republike Slovenije med 2. svetovno vojno in neposredno po njej. Ta je
+                            rezultat projekta, ki je na inštitutu potekal med letoma 1997 in 2012,
+                            seznam pa zaobjema osebe, ki so v obdobju med aprilom 1941 in januarjem
+                            1946 izgubile življenje zaradi vojnega nasilja oziroma neposredno po
+                            končani vojni zaradi revolucionarnega nasilja ali posledic vojne. Po
+                            zadnji posodobitvi baze (4. september 2020) so na portalu dostopni
+                            podatki za 99.911 oseb.<note place="foot" xml:id="ftn43" n="40">
+                     <hi rend="italic">Zgodovina Slovenije – SIstory</hi>, pridobljeno
+                                11. 7. 2021, <ref target="https://www.sistory.si/zrtve">https://www.sistory.si/zrtve</ref>.</note>
+               </p>
+               <p>Longitudinalna baza Popisi prebivalstva Slovenije
+                            1830–1935 nastaja v sodelovanju Zgodovinskega arhiva Ljubljana in
+                            Inštituta za novejšo zgodovino. Podatkovna baza vsebuje digitalizirane
+                            statistične popise, ki so organizirani v skladu z ureditvijo
+                            originalnega arhivskega gradiva po tehničnih enotah.<note place="foot" xml:id="ftn44" n="41">
+                     <hi rend="italic">Popisi prebivalstva, 1830–1931 | Zgodovinski arhiv
+                                    Ljubljana</hi>,
+                                http://www.zal-lj.si/project/popisi-prebivalstva-slovenije-1830-1931-2/.</note>
+               </p>
+               <p>Zgodovinarski indeks citiranosti, ki z
+                            bibliometričnimi metodami omogoča analizo in prikaz pogostosti citiranja
+                            zgodovinarjev in njihovih del, trenutno vsebuje 4.837 vnosov, od tega
+                            2.901 vnos serijskih publikacij in 1.936 vnosov monografij in poglavij
+                            iz monografij (kar predstavlja razmerje 59,9 odstotka serijskih
+                            publikacij ter 39,1 odstotka monografij in poglavij iz
+                            monografij).<note place="foot" xml:id="ftn45" n="42"> Katja Meden in Ana Cvek, »Nadgradnja
+                                Zgodovinarskega indeksa citiranosti,«
+                                <hi rend="italic">Slovenščina 2.0: empirične, aplikativne in interdisciplinarne raziskave </hi>9
+                                (1) (2021): 216–35, pridobljeno 19. 7. 2021, <ref target="https://doi.org/10.4312/slo2.0.2021.1.216-235">https://doi.org/10.4312/slo2.0.2021.1.216-235</ref>. Gl. tudi
+                                    <hi rend="italic">ZIC – Zgodovinski indeks citiranosti</hi>,
+                                https://zic.sistory.si/.</note> Podaja pregled bibliografskih podatkov o posameznih publikacijah (v sistemu COBISS označenih s tipologijo znanstvenih monografij) ter njihovih citatih zgodovinopisne produkcije
+                        <note place="foot" xml:id="ftn46" n="43"> Žarko Lazarević in Igor Zemljič, Slovenski zgodovinarski indeks citiranosti – izhodišča in pomisleki, 2003. –Dokumentacija IP
+                            INZ.</note> in iskalcem informacij o slovenskem zgodovinopisju omogoča osnovno seznanitev z vsebino citiranih del od leta 2000 do danes. Začetna shema baze, ki je bila precej enostavna, je ob nastanku dobro zadovoljevala potrebe raziskovalcev, vendar so se sčasoma pokazale pomanjkljivosti,<note place="foot" xml:id="ftn47" n="44"> Andrej Pančur, Mojca Šorn in Jurij Hadalin, <hi rend="italic">Slovenski indeks
+                                    citiranosti (SICI): Načrt izgradnje in delovanja,
+                                    2014</hi>, <ref target="https://www.sistory.si/11686/36153">https://www.sistory.si/11686/36153</ref>.</note> ki so vodile v nadaljnje nadgradnje, poskuse harmonizacije podatkov in prečiščevanja relacijskih baz. </p>
+                <ab type="milestone" style="text-align:center">* * *</ab>
+               <p>Poudarjava, da so podatkovne baze predmet
+                            avtorskopravnega varovanja. ZASP v členu 141a podatkovne baze namreč
+                            opredeljuje kot »zbirko neodvisnih del, podatkov ali drugega gradiva v
+                            kakršnikoli obliki, ki je sistematično ali metodično urejeno in
+                            posamično dostopno z elektronskimi ali drugimi sredstvi, pri čemer
+                            pridobitev, preveritev ali predstavitev njene vsebine zahteva kakovostno
+                            ali količinsko znatno naložbo«.<note place="foot" xml:id="ftn48" n="45">
+                     <hi rend="italic">Zakon o avtorski in sorodnih pravicah (ZASP), </hi>gl.
+                                čl. 141a, pridobljeno 11. 7. 2021, <ref target="http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO403">http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO403</ref>.</note> V naslednjem členu (141b) zakon definira predmet avtorskopravnega varovanja podatkovnih baz oziroma njegov obseg. Avtorskopravno varstvo obsega »celotno vsebino podatkovne baze, kot tudi vsak kakovostno ali količinsko znatni del vsebine podatkovne baze (posamezne podatke, vpisane v bazo) ter kakovostno ali količinsko neznatne dele, kadar se ti uporabljajo ponovljeno ali sistematično, pa je to v nasprotju z običajno uporabo te podatkovne baze ali v nerazumni meri prizadene zakonite interese njenega izdelovalca«.<note place="foot" xml:id="ftn49" n="46"> Ibid., čl.
+                                141b.
+                            </note> V drugem delu istega člena pa je navedeno, da avtorskopravno varstvo »ne velja za računalniške programe (ali drugo programsko opremo), uporabljene za izdelavo ali delovanje elektronskih podatkovnih baz«.<note place="foot" xml:id="ftn50" n="47">
+                            Ibid.</note> Avtorskopravno varstvo se torej dotika izključno vsebine digitalne podatkovne baze oziroma podatkov v bazi. </p>
+               <p>Poudarjava tudi, da prve tri baze, navedene v tem
+                            vsebinskem sklopu, vsebujejo osebne podatke. Takratna informacijska
+                            pooblaščenka, pravnica Nataša Pirc Musar, je v mnenju, za katero smo
+                            zaprosili pred objavo baze Smrtne žrtve med prebivalstvom na območju
+                            Republike Slovenije med 2. svetovno vojno in neposredno po njej na
+                            portalu Zgodovina Slovenije – SIstory, podčrtala, da 102. člen Zakona o
+                            varstvu dokumentarnega in arhivskega gradiva ter arhivih
+                        <note place="foot" xml:id="ftn51" n="48">
+                     <hi rend="italic">ZVDAGA – Zakon o varstvu dokumentarnega in arhivskega gradiva ter arhivih </hi>(ZVDAGA-NPB),
+                                pridobljeno 11. 7. 2021, <ref target="https://zakonodaja.com/zakon/zvdaga">https://zakonodaja.com/zakon/zvdaga</ref>.</note> daje inštitutu pravno podlago za pridobivanje in objavo zakonsko opredeljenih osebnih podatkov. 102. člen namreč določa, da »pravne osebe javnega prava posredujejo osebne in druge podatke o odvzemih življenja posameznikom v obdobju od 1. septembra 1939 do 31. decembra 1953 uporabnikom v javnem sektorju, ki jih ti potrebujejo za znanstvene raziskovalne in zgodovinske namene«.<note place="foot" xml:id="ftn52" n="49"> Ibid., čl.
+                                102.</note>
+                        V nadaljevanju pa 102. člen zakona določa, da se
+                            lahko objavijo »osebno ime, ime očeta in matere, datum in kraj rojstva,
+                            datum in kraj smrti, kraj prebivališča, državljanstvo, članstvo v
+                            politični stranki ali društvu, pripadnost vojaškim enotam, narodnost,
+                            spol, izobrazba in zaposlitev«.<note place="foot" xml:id="ftn53" n="50"> Ibid.</note>
+                        Informacijska pooblaščenka je tako zaključila, da
+                            je objava osebnih podatkov, pridobljenih iz javnega in zasebnega
+                            arhivskega gradiva, dopustna v skladu z določbami Zakona o varstvu
+                            dokumentarnega in arhivskega gradiva ter arhivih, dodala pa je, da je v
+                            »primerih, ko gre za osebne podatke umrlih posameznikov, ki niso
+                            pridobljeni iz javnega ali zasebnega arhivskega gradiva oziroma na
+                            podlagi 102. člena ZVDAGA, ali katerega objava ni dopustna po ZVDAGA in
+                            zanj še niso potekli roki dopustnosti tega gradiva, je na podlagi 23.
+                            člena ZVOP-1 njihova objava za zgodovinske, statistične in
+                            znanstveno-raziskovalne namene na spletnem portalu INZ dopustna pod
+                            pogojem, da gre za podatke, katerih objave ni pisno prepovedal umrli
+                            posameznik ter če tega niso pisno prepovedali tudi njegovi zakoniti
+                            dediči prvega ali drugega dednega reda«.
+                        <note place="foot" xml:id="ftn54" n="51"> Nataša
+                                Pirc Musar, <hi rend="italic">Objava podatkov o žrtvah iz 2 svetovne
+                                    vojne – IPRS</hi>,
+                                https://www.ip-rs.si/mnenja-zvop/objava-podatkov-o-zrtvah-iz-2-svetovne-vojne.</note>
+               </p>
+               <p>Za mnenje smo informacijsko pooblaščenko zaprosili
+                            tudi v glede digitalne baze Popisi prebivalstva Slovenije
+                            1830–1935.<note place="foot" xml:id="ftn55" n="52">
+                     <hi rend="italic">Zgodovina Slovenije – SIstory, </hi>pridobljeno
+                                13. 7. 2021, <ref target="https://www.sistory.si/popis">https://www.sistory.si/popis</ref>.</note> Zagotovila nam je, da je v primeru, ko gre za javno arhivsko gradivo, ki je kot tako opredeljeno v Zakonu o varstvu dokumentarnega in arhivskega gradiva ter arhivih (<hi rend="italic">Uradni list RS</hi>, št. 30/06), »le-to na podlagi pisne zahteve za
+                            uporabo ali preko objave na svetovnem spletu dostopno vsakomur. Če so
+                            torej popisi prebivalstva v 19. stoletju opredeljeni kot javno arhivsko
+                            gradivo po ZVDAGA, pooblaščenec ne vidi pravnih ovir z vidika varstva
+                            osebnih podatkov za njihovo javno dostopnost, tudi ne za objavo popisov
+                            na spletu.«<note place="foot" xml:id="ftn56" n="53"> Nataša Pirc Musar, Objava popisov prebivalstva
+                                v 19. stoletju na spletu, 11. 5. 2010.
+                                – Dokumentacija
+                                INZ.</note>
+               </p>
+            </div>
+         </div>
+         <div>
+            <head>
+              Praktični
+                        pristopi k urejanju avtorskih pravic
+            </head>
+            <div>
+               <head>
+                  Urejanje
+                            avtorskih pravic s posamezniki</head>
+               <p>Področje avtorskega prava je bilo ob osnovanju
+                            portala SIstory še malo poznano in raziskano polje, zato nas je na
+                            zavezo o upoštevanju zakonodaje v digitalnem svetu kmalu po osnovanju
+                            portala SIstory opozoril Dejan Šebenik, ki je bil takrat zaposlen v
+                            Odvetniški pisarni Ocvirk. Predstavil nam je osnove avtorskopravne
+                            zakonodaje, več in podrobneje o njej pa nam je razložil dr. Miha
+                            Trampuž, prvi doktor avtorskega prava pri nas, vodja pravne pisarne v
+                            Avtorski agenciji za Slovenijo in glavni pisec osnutkov zakonov s
+                            področja avtorskega prava v Sloveniji. Razumeli smo, da je treba pravico
+                            do uporabe avtorskih del pridobiti s pogodbo, sklenjeno z avtorjem
+                            oziroma nosilcem avtorskih pravic, pa tudi z organizacijo kot
+                            zastopnikom avtorjev posameznih vrst avtorskih del.</p>
+               <p>Ker smo ob osnovanju portala SIstory načelna
+                            soglasja za objavo publikacij od založb že imeli, smo začeli urejati
+                            avtorske pravice s posameznimi avtoricami in avtorji. Šebenik je
+                            pripravil vzorec pogodbe o prenosu materialnih avtorskih pravic, ki je
+                            na dveh straneh obsegala sedem členov. Predvsem pomembna sta bila dva
+                            člena. Drugi člen je navajal, da s podpisom pogodbe avtor glede svojega
+                            avtorskega dela neizključno in neodplačno prenaša na imetnika materialne
+                            avtorske pravice reproduciranja (vključno z elektronsko obliko, tonskim
+                            in vizualnim snemanjem), distribuiranja, javnega predvajanja s fonogrami
+                            ali videogrami ter dajanja na voljo javnosti v nespremenljivi obliki. V
+                            tretjem členu pa je bilo zapisano, da avtor s podpisom pogodbe soglaša z
+                            objavo svojega avtorskega dela na portalu Zgodovina Slovenije – SIstory.
+                            Inštitut se je zavezal, da bo dela, objavljena na portalu, zaščitil pred
+                            nadaljnjim reproduciranjem, prav tako pa se je zavezal, da bo na portalu
+                            navedel vir in avtorstvo dela (gl. Prilogo 1).
+                    </p>
+               <p>Pravno osnovo oziroma razmerje med INZ in nosilci
+                            avtorskih pravic smo najprej urejali s tistimi, katerih delo je že bilo
+                            dostopno javnosti v sklopu publikacij na SIstory. Zakona se nismo držali
+                            le zaradi bojazni, da po digitalizaciji soglasja avtorja ne bi dobili in
+                            gradiva ne bi mogli objaviti na spletu, temveč tudi zaradi tega, ker
+                            zakon določa, da mora avtor privoliti v spremembo nosilca, v našem
+                            primeru na pretvorbo analognega gradiva v digitalno, saj je
+                            avtorskopravno varovano delo, kot sva mimogrede že omenili, realizirano
+                            na fizičnem nosilcu. Kot je razvidno iz Priloge 1, smo dokument, s
+                            katerim je ustvarjalec podal soglasje za objavo svojega dela na portalu
+                            SIstory, najprej poimenovali Pogodba o prenosu materialnih avtorskih
+                            pravic, saj dejansko ni zajemal formulacije o digitalizaciji stvaritve.
+                            Ko smo potrebno formulacijo dodali, smo preimenovali tudi dokument, še
+                            danes nosi ime Dovoljenje za digitalizacijo in objavo avtorskih del v
+                            elektronski obliki na spletnem portalu Zgodovina Slovenije –
+                            SIstory.
+                        <note place="foot" xml:id="ftn57" n="54">
+                                Poudarjava, da smo vse formularje, ki jih članice in člani
+                                infrastrukturnega programa INZ uporabljamo pri svojem delu, zaradi
+                                lažje komunikacije z avtoricami in avtorji iz tujine prevedli v
+                                angleški
+                        jezik.</note> Ker na začetku nismo bili prepričani, ali si financerji (predvsem smo se usmerili na Javno agencijo za raziskovalno dejavnost Republike Slovenije) pridržujejo avtorske pravice na tistih delih, ki so objavljena v publikacijah, katerih izdajo finančno podprejo, smo prosili dr. Majo Bogataj Jančič, s katero smo vzpostavili dolgoročno sodelovanje, da to preveri na osnovi inštitutskih pogodb in nekaterih pogodb partnerskih ustanov. </p>
+               <p>Ugotovili smo, da ARRS uporablja tipske pogodbe z nespremenjeno ureditvijo pravic in obveznosti. Nemudoma smo se zavedeli, da moramo tako vsa dovoljenja oziroma pravice za spletno objavo pridobiti od avtoric ter avtorjev člankov, poglavij, prevajalcev in drugih oziroma izdajateljev revij (če so ustvarjalci pravice prenesli nanje). Edini mogoč način smo videli v retrogradnem načelu. To je pomenilo, da smo za vsak prispevek, ki je bil dostopen na portalu, napisali pogodbo in jo poslali avtorici ali avtorju v podpis. Časovno zahtevno je bilo predvsem iskanje kontaktov nekaterih ustvarjalk in ustvarjalcev, sploh tistih iz drugih znanstvenih disciplin. Najprej smo obrazec pošiljali po navadni pošti, saj vsi posamezniki in ustanove konec prejšnjega desetletja še niso razpolagali s skenerji, ki nam danes olajšajo in pocenijo postopek. </p>
+               <p>Mnogi prejemniki pogodbe so bili presenečeni, ko
+                            so dobili prvo prošnjo za njen podpis, ažurno smo se odzivali na vsa
+                            njihova vprašanja, ki smo jih prejemali po elektronski pošti in
+                            telefonu, ter zgodovinopisno javnost seznanjali z osnovami avtorskega
+                            prava. Kmalu smo ugotovili, da so razmere več kot zrele za neposredno
+                            komunikacijo. Na okroglih mizah, predstavitvah<note place="foot" xml:id="ftn58" n="55"> Ker smo bili na področju zgodovine in zgodovinopisja med prvimi, ki so začeli v svoje delo vključevati zaščito avtorskega dela, smo se odločili, da svoje znanje in izkušnje delimo s kolegicami in kolegi, da o tem pomembnem vprašanju ozaveščamo tudi partnerje oziroma ustanove s področja humanistike in družboslovja. Prvi strokovni posvet o digitalizaciji in
+                                    spletnem objavljanju slovenskih historičnih
+                                    vsebin, na katerem smo želeli poudariti predvsem vprašanje reševanja avtorskih pravic v digitalnem svetu, smo organizirali na Inštitutu za novejšo zgodovino 18. 3. 2010. Na dogodek smo poleg urednikov znanstvenih revij, šolskih učbenikov, muzealcev in arhivistov povabili tudi dr. Majo Bogataj Jančič. Prepričani sva, da je »Okrogla miza Portal Zgodovina Slovenije – SIstory,« <hi rend="italic">Zgodovina Slovenije –
+                                    SIstory</hi> (Ljubljana: Inštitut za novejšo zgodovino, 18. 3. 2010), <ref target="http://hdl.handle.net/11686/1194">http://hdl.handle.net/11686/1194</ref>, en izmed prvih takšnih dogodkov, ki je
+                                    v slovenski humanistiki sprožil razmišljanje in ukrepanje na
+                                    polju avtorskega
+                                    prava.Odmevni so bili tudi dogodki, ki smo jih organizirali nekaj let kasneje, predvsem: <ref target="https://www.youtube.com/watch?v=JmspZtj4SQk">
+                        <hi rend="italic">Predavanje o avtorskih
+                                        pravicah – dr. Maja Bogataj
+                                    Jančič</hi>
+                     </ref> (Ljubljana: Atrij ZRC SAZU, 8. 12. 2012), <ref target="https://www.youtube.com/watch?v=JmspZtj4SQk">https://www.youtube.com/watch?v=JmspZtj4SQk</ref>. <ref target="https://www.youtube.com/watch?v=iPdR5zF373I">
+                        <hi rend="italic">Predavanje o avtorskih
+                                        pravicah, dr. Maja Bogataj Jančič 1. del</hi>
+                     </ref> (Ljubljana: Atrij ZRC, 13. 5. 2013), <ref target="https://www.youtube.com/watch?v=iPdR5zF373I">https://www.youtube.com/watch?v=iPdR5zF373I</ref>. <ref target="https://www.youtube.com/watch?v=8Tqkmv9K-kA">
+                        <hi rend="italic">Predavanje o avtorskih
+                                        pravicah, dr. Maja Bogataj Jančič 2. del</hi>
+                     </ref>
+                                (Ljubljana: Atrij ZRC, 13. 5. 2013), <ref target="https://www.youtube.com/watch?v=8Tqkmv9K-kA">https://www.youtube.com/watch?v=8Tqkmv9K-kA</ref>).</note> in v individualnem stiku smo najprej opredelili kategorijo avtorskih del in poudarili, da med individualne intelektualne stvaritve uvrščamo tudi rezultate s področja znanosti. Dejstvo, da je delo, ko ga avtor zaključi, avtomatično varovano – na njem ima ustvarjalec vse pravice, ki na osnovi stvaritve dela trajajo ves čas njegovega življenja in 70 let po njegovi smrti (se torej dedujejo) – so kolegice in kolegi hitro ponotranjili, kar je pomenilo začetek uspešnega sodelovanja (za kar se vsem in vsakemu posamezniku iskreno zahvaljujeva).</p>
+            </div>
+            <div>
+               <head>
+                  Urejanje
+                            avtorskih pravic s pravnimi osebami in uredništvi.</head>
+               <p>Tudi z založbami in uredništvi kmalu nismo več
+                            sklepali le načelnih dogovorov, pravnik nam je namreč pripravil
+                            formular, s katerim smo v dogovoru z drugo pravno osebo/ustanovo
+                            poudarili osnovna dejstva oziroma smernice sodelovanja. V dokumentu
+                            (Priloga 2) je zabeleženo, da Inštitut za novejšo zgodovino upravlja
+                            spletni portal Zgodovina Slovenije – SIstory, da na njem daje na voljo
+                            javnostim raznolika gradiva, da partner v pogodbi ureja in izdaja
+                            publikacijo, ki bo po prenosu ustreznih avtorskih pravic za objavo
+                            dostopna na portalu SIstory.</p>
+               <p>Ne le da uredništva niso videla ovir v podpisovanju tega akta, kmalu se jih je nekaj odločilo, da nam pomagajo pri zbiranju soglasij za spletno objavo avtorskih del (za kar se vsem iskreno zahvaljujeva). V svoje dokumente so vključili alinejo o tem, da se avtor s podpisom oziroma oddajo avtorskega članka v objavo strinja tudi z njegovo objavo na portalu Zgodovina Slovenije – SIstory. Kot primer navajava dokument uredništva <hi rend="italic">Zgodovina v šoli</hi>: »
+                        <hi rend="italic">…</hi>Avtor dovoljuje naročniku, da objavi njegovo delo /…/ po preteku dveh
+                            let od objave v sklopu revije Zgodovina v šoli na spletnem portalu
+                            Zgodovina Slovenije - SIstory, katerega ureja Inštitut za novejšo
+                            zgodovino. Avtorsko delo bo na portalu SIstory objavljeno pod pogoji
+                            slovenske licence Creative Commons 2.5<note place="foot" xml:id="ftn59" n="56"> Več in podrobneje o
+                                licencah gl. četrto poglavje, Digitalni pristopi.
+                            </note> (priznanje avtorstva, nekomercialna raba, brez predelav). Avtor strinjanje z objavo svojega prispevka na spletnem portalu SIstory izrazi z lastnoročnim podpisom.«<note place="foot" xml:id="ftn60" n="57"> Vilma
+                                Brodnik, Prijavnica prispevka za objavo v reviji <hi rend="italic">Zgodovina v šoli</hi>. – Dokumentacija IP INZ.</note>
+               </p>
+               <p>Ta dokument sicer navaja standardne pogoje dovoljenja za digitalizacijo in
+                        objavo tiskanih dokumentov, ker pa smo že kmalu začeli sodelovati tudi z
+                        muzeji, smo poskrbeli za ustrezen vzorec pogodbe (Priloga 5), ki vsebuje
+                        poudarke, na katere je treba biti pozoren predvsem ob pripravi in objavi
+                        spletne razstave. V prvi vrsti je potrebno, da vsebuje informacije o tem, da
+                        fotografije in spremna besedila, ki so predmet pogodbe, hrani muzej in ima
+                        za njihovo objavo že urejene vse pravice na avtorskih delih. Kot pri ostalih
+                        pogodbah gre tudi tu za neodplačni in neizključni prenos materialne avtorske
+                        pravice reproduciranja (vključno s shranitvijo v elektronski obliki),
+                        predelave in dajanja na voljo za razstave, medtem ko se pravica predelave
+                        podeli le za namen prilagoditve gradiva objavi na spletnem portalu SIstory,
+                        ki je brez časovnih omejitev. Inštitut se pri sklenitvi takšnih pogodb vedno
+                        znova zaveže, da avtorska dela muzeja zaščiti s tehnološkimi ukrepi, ki
+                        uporabnikom onemogočijo vsako poseganje v gradivo in njegovo spreminjanje. </p>
+               <p>Za konec vsebinskega sklopa o urejanju avtorskih pravic s pravnimi osebami bi
+                        poudarili, da se pri ostalih določilih, ki morda niso eksplicitno navedena v
+                        pogodbi, smiselno uporablja ZASP.</p>
+            </div>
+            <div>
+               <head>Nosilci avtorske
+                            pravice po preminulem avtorju
+                    </head>
+               <p>Omenili sva že, da avtorska pravica velja 70 let
+                            po smrti ustvarjalca, kar pomeni, da soglasja za spletno objavo
+                            številnih del urejamo s potomci oziroma nosilci avtorskih pravic po njih
+                            (Priloga 3). Pri tem smo precej uspešni, saj nam zaradi relativne
+                            majhnosti nacionalnega zgodovinopisnega kroga največkrat uspe priti do
+                            iskanih oseb.</p>
+               <p>Ker nas je zanimalo, kakšen je postopek, če nam potomcev oziroma nosilcev avtorskih pravic po pokojnem avtorju ne uspe izslediti zgolj s pomočjo mreženja, nas je čez vzorčni, vendar konkretni primer urejanja razmerij med dediči avtorskih pravic in Inštitutom za novejšo zgodovino popeljal Dejan Šebenik. Spoznali smo, da je v prvi fazi treba pridobiti podatke o pokojnikovem (zadnjem) prebivališču. Druga faza pomeni oddajo vloge na sodišče, ki je bilo pristojno za izvedbo zapuščinskega postopka, v kateri se zaprosi za podatke o dedičih pokojnega avtorja (Priloga 4). Zadnja faza pomeni detektiranje naslovov nosilcev avtorskih pravic po pokojnem ustvarjalcu in pridobitev njihovih soglasij za digitalizacijo gradiva in njegovo spletno objavo. Projekt smo ocenili kot zelo dolgotrajen in tudi relativno finančno obremenjujoč, kar pa ne pomeni, da postopka po potrebi ne bomo ponovili. 
+                    </p>
+            </div>
+         </div>
+         <div>
+            <head>
+               Digitalni
+                        pristopi
+            </head>
+            <div>
+               <head>
+                  Licence Creative
+                            Commons
+                    </head>
+               <p>Večkrat sva poudarili, da se razvoju tehnologije prilagajajo avtorsko pravo in tudi metode, ki jih v ta namen uporabljamo. V tem poglavju se najprej posvečava situacijam v avtorskem pravu, ki so vodile v razvoj koncepta prosto dostopnih licenc oziroma licenc Creative Commons (CC) in njihovemu vplivu na avtorsko pravo v digitalnem okolju. V drugem delu poglavja pa predstaviva našo izkušnjo z licencami CC, praktične pristope in njihov razvoj ter ne nazadnje izzive, s katerimi se pri tem srečujemo. 
+                    </p>
+               <p>Prehod v internetno dobo je za seboj potegnil različne težave v zvezi z avtorskim pravom. Novo digitalno okolje je bolj kot kdaj prej omogočalo preprosto kopiranje in prirejanje avtorsko zaščitenih del – knjig, televizijskih oddaj itd. Kot odgovor na takšne grožnje so se razvile tehnološke metode varovanja avtorskih pravic, ki jih danes poznamo pod imenom <hi rend="italic">Digital Rights
+                            Management</hi> (DRM) oziroma <hi rend="italic">upravljanje digitalnih
+                            pravic</hi>. DRM uveljavlja odnos med
+                            lastnikom digitalnih avtorskih pravic in njihovim uporabnikom. Vključuje
+                            omejevanje dostopa do dela (<hi rend="italic">access control</hi>),
+                            upravljanje dovoljenj za dostop do dela (<hi rend="italic">permission management</hi>) in zaščito posameznih kopij dela (<hi rend="italic">copy protection</hi>). Seveda se je kot odgovor na tako omejevanje
+                            dostopa in uporabe avtorskih del razvijala tudi tehnologija, ki je
+                            ukrepe DRM zaobšla in uporabniku dovoljevala nepooblaščen dostop,
+                            kopiranje in razširjanje avtorsko zaščitenih del.<note place="foot" xml:id="ftn61" n="58"> Catherine A. Lemmer in
+                                Carla P. Wale, <hi rend="italic">Digital Rights Management</hi>: <hi rend="italic">The Librarian's Guide</hi> (Washington, DC: Rowman
+                                &amp; Littlefield Publishers, 2016),
+                            2–7.</note> Takšno nepooblaščeno uporabo in tehnologijo, ki to zagotavlja, je leta 1998 v Združenih državah Amerike kriminaliziral <hi rend="italic">Digital Millenium Copyright
+                            Act</hi>, v evropskem kontekstu pa leta 2001 <hi rend="italic">Information Society
+                        Directive</hi>. </p>
+               <p>Takšne in drugačne tehnološke restrikcije dostopa in uporabe avtorskih del pa so se močno poznale predvsem na <hi rend="italic">sistemu copyright.</hi>
+                        Visoki stroški licenciranja avtorskih del in močne omejitve dostopa in uporabe avtorskih del so sprožili tako imenovano gibanje Creative Commons, katerega filozofija je osnovana na naslednjih postavkah: 
+                    </p>
+               <list type="unordered">
+                  <item>Ustvarjalnost temelji na dostopu do že
+                                obstoječega dela in njegovi uporabi.</item>
+                  <item>Avtorsko pravo ustvarja nove ovire za
+                                dostop do del in ovira izmenjavo in ponovno uporabo del.</item>
+                  <item>Visoki stroški licenciranja v povezavi z
+                                režimom avtorskega prava vplivajo na posameznike in jim omejujejo
+                                dostop in ponovno uporabo dela.</item>
+                  <item>Avtorske pravice bi lahko promovirale
+                                skupno rabo in ponovno uporabo avtorskih del.</item>
+               </list>
+               <p>V gibanju Creative Commons so takratno ureditev
+                            avtorskih pravic dojemali kot glavno oviro za ustvarjalnost, rešitev teh
+                            problemov pa so videli v vzpostavitvi licenčne platforme, ki jo od leta
+                            2001 vzdržuje neprofitna organizacija Creative Commons iz Združenih
+                            držav Amerike. Visoki stroški in težki pogoji licenciranja avtorskih del
+                            v okviru sistema copyright so zavirali avtorje, da bi svoja dela
+                            ponujali pod bolj radodarnimi pogoji. In ravno ti pogoji so končni cilj
+                            in ideja za licenčno platformo Creative Commons, ki naj bi avtorjem po
+                            eni strani omogočala brezplačno avtorskopravno varovanje njihovega dela
+                            in hkrati omogočala, da svoje delo delijo pod svojimi pogoji. Licenčna
+                            platforma pa na drugi strani uporabnikom olajša dostop do del, ki so
+                            lahko osnova za nastanek novih avtorskih stvaritev.<note place="foot" xml:id="ftn62" n="59">
+                                Ibid.<hi rend="italic">, </hi>6.</note>
+               </p>
+               <p>Glavni del platforme CC predstavljajo licence, »ki
+                            vsaki osebi in organizaciji omogočajo brezplačen, preprost in
+                            standardiziran način uveljavljanja avtorskih pravic za ustvarjalna in
+                            akademska dela, zagotavljajo priznavanje dela in dovoljujejo kopiranje,
+                            distribucijo in uporabo avtorsko varovanih del«.<note place="foot" xml:id="ftn63" n="60">
+                     <hi rend="italic">What We do – Creative Commons</hi>, pridobljeno
+                                22. 7. 2021, <ref target="https://creativecommons.org/about/">https://creativecommons.org/about/</ref>.</note>
+               </p>
+               <p>Gibanje (in posledično njegova rešitev, platforma
+                            CC) ima svoje zaledje v gibanju za prosto dostopno odprtokodno
+                            programsko opremo (<hi rend="italic">Open
+                            Source Initiative</hi>), specifično v GNU
+                            General Public Licence,<note place="foot" xml:id="ftn64" n="61">
+                     <hi rend="italic">GNU General Public License |Open Source
+                                    Initiative</hi>, pridobljeno, 22. 7. 2021, <ref target="https://opensource.org/licenses/gpl-license">https://opensource.org/licenses/gpl-license</ref>.</note> ki je licenca za dostop odprtokodne programske opreme in njeno uporabo. V nasprotju z GNU Public Licence,<note place="foot" xml:id="ftn65" n="62"> V času
+                                pisanja tega dela je najnovejša verzija licence <hi rend="italic">GNU General Public License – Version 3 | Open Source
+                                    Initiative</hi>, pridobljeno 23. 7. 2021, <ref target="https://opensource.org/licenses/GPL-3.0">https://opensource.org/licenses/GPL-3.0</ref>.</note> ki uporabnikom omogoča kopiranje, spreminjanje in redistribucijo programske opreme, kar drugače po veljavnem avtorskem pravu ne bi bilo mogoče, pa želijo licence CC ujeti ravnovesje med avtorskopravno varovanim delom in deli v javni domeni. Hkrati GNU Public Licence določa nabor pogojev, pod katerimi je delo mogoče kopirati, spreminjati, distribuirati itd., ki pa jih ni mogoče spreminjati. Creative Commons ponuja nabor pogojev, ki jih je mogoče kombinirati v različne licence:<note place="foot" xml:id="ftn66" n="63">
+                     <hi rend="italic">O licencah – Creative Commons</hi>,
+                                https://creativecommons.org/licenses/?lang=sl.</note>
+               </p>
+               <list type="unordered">
+                  <item>CC BY (Priznanje avtorstva): Osnovna
+                                licenca, ki uporabnikom omogoča dostop do dela, njegovo uporabo,
+                                distribucijo, spreminjanje in ponovno uporabo, tudi za komercialno
+                                rabo, vendar pod pogojem, da uporabnik ustrezno navaja avtorstvo
+                                (citiranje avtorja). Pogoj priznavanja avtorstva je osnoven pogoj in
+                                je vključen v vse ostale licence, hkrati je ta licenca najbolj
+                                sproščena in ima najmanj pogojev za uporabo avtorskopravno
+                                varovanega dela.</item>
+                  <item>CC BY-SA (Priznanje avtorstva-Deljenje pod enakimi pogoji): Licenca, ki omogoča dostop, uporabo, adaptacijo in ponovno uporabo dela tudi za komercialno rabo, pod pogojem, da uporabnik pravilno navaja avtorstvo dela in svoje novo delo deli pod enakimi pogoji (tj. pod enako licenco kot originalno delo). Ta licenca je trenutno najpogosteje uporabljena, predvsem zaradi pogoja deljenja pod enakimi pogoji, kar zagotavlja, da bo mogoče nadaljnja dela koristiti na enak način. </item>
+                  <item>CC BY-ND (Priznanje avtorstva-Brez predelav): Licenca uporabnikom omogoča ponovno uporabo dela za kakršen koli namen, vključno s komercialno rabo, vendar pa ne dovoljuje adaptacije ali drugačnega spreminjanja dela, hkrati je treba pravilno navajati avtorstvo dela. </item>
+                  <item>CC BY-NC (Priznanje
+                                avtorstva-Nekomercialno): Licenca uporabnikom omogoča adaptacijo in
+                                spreminjanje dela ter njegovo ponovno uporabo, vendar pod pogojem
+                                priznavanja avtorstva, pri tem pa prepoveduje komercialno rabo dela.
+                                Novih del, ki so nastala na podlagi obstoječega dela, pa ni treba
+                                deliti pod enakimi pogoji.</item>
+                  <item>CC BY-NC-SA (Priznanje
+                                avtorstva-Nekomercialno-Deljenje pod enakimi pogoji): Licenca
+                                uporabnikom omogoča adaptacijo, remiks, ponovno uporabo dela, a le
+                                pod pogojem, da delo ni uporabljeno za komercialno rabo in da je
+                                deljeno pod enakimi pogoji (tj. pod enako licenco).</item>
+                  <item>CC BY-NC-ND (Priznanje avtorstva-Nekomercialno-Brez predelav): Licenca uporabniku omogoča zgolj prevzem ter distribucijo dela, in to le pod pogojem priznanja avtorstva. Hkrati uporabnik dela ne sme spreminjati ali ga uporabljati v komercialne namene. Ta licenca je najbolj omejujoča med ponujenimi licencami. </item>
+               </list>
+               <p>Poleg licenc CC, ki eksplicitno navajajo pogoje za uporabo del, je treba omeniti še dve licenci: </p>
+               <list type="unordered">
+                  <item>
+                     <hi rend="italic">Public Domain </hi>(oziroma <hi rend="italic">Public Domain Mark</hi>): Ta oznaka se uporablja za avtorska dela,
+                                ki niso več omejena z avtorskimi pravicami (na primer slike, knjige
+                                in rokopisi, fotografije itd., ki so po večini zelo stara dela,
+                                katerih avtorske pravice so potekle) in katere so tako prosto na
+                                voljo uporabnikom.<note place="foot" xml:id="ftn67" n="64">
+                        <hi rend="italic">Public Domain Mark – Creative Commons</hi>,
+                                    pridobljeno 23. 7. 2021, <ref target="https://creativecommons.org/share-your-work/public-domain/pdm/">https://creativecommons.org/share-your-work/public-domain/pdm/</ref>.</note>
+                  </item>
+                  <item>CC0 (<hi rend="italic">No Rights Reserved – Nobene pravice
+                                pridržane</hi>): v nasprotju z ostalimi
+                                licencami CC, ki ustvarjalcem omogočajo objavo svojih del pod
+                                njihovimi pogoji in kjer ti avtorji obdržijo različen obseg
+                                avtorskih pravic, licenca CC0 predlaga tretjo možnost. S to licenco
+                                so označena dela, kjer se je stvaritelj odpovedal svojim materialnim
+                                avtorskim pravicam.<note place="foot" xml:id="ftn68" n="65"> V kontinentalnem sistemu se je mogoče
+                                    odpovedati zgolj materialnim avtorskim pravicam, ne pa tudi
+                                    moralnim avtorskim pravicam, ki predstavljajo avtorjev osebni
+                                    odnos do dela. </note> Takšna licenca rešuje problem med različnimi pravnimi sistemi, kjer so določene avtorske pravice priznane takoj ob stvaritvi avtorskega dela, določene pa zgolj z registracijo dela – licenca CC0 tako ni adaptirana za posamezni pravni sistem, temveč gre za univerzalno orodje. Čeprav nobeno orodje (kot tudi ne CC0) ne omogoča popolne odpovedi vseh avtorskih pravic, ta licenca predstavlja najboljšo trenutno alternativo.
+                            <note place="foot" xml:id="ftn69" n="66"> »CC0 –
+                                    No rights reserved,« <hi rend="italic">CC0 – Creative
+                                        Commons</hi>, pridobljeno 23. 7. 2021, <ref target="https://creativecommons.org/share-your-work/public-domain/cc0/">https://creativecommons.org/share-your-work/public-domain/cc0/</ref>.</note>
+                  </item>
+               </list>
+               <p>Licence CC temeljijo na zasnovi treh ravni. Prvo raven imenujemo 
+                        <hi rend="italic">pravna
+                            koda</hi>. Besedilo te kode predstavlja pravno osnovo vsake licence. Ker večina ustvarjalcev, ki svoja dela objavlja pod CC licencami, nima pravne izobrazbe, je treba to pravno besedilo podati v razumljivi obliki. To zagotavlja raven <hi rend="italic">povzetek licence</hi>, ki jo imenujemo tudi človeško berljiva
+                            različica licence. Je priročna referenca, ki povzema ključne in
+                            najpomembnejše pogoje licence. Tretja raven vsebuje strojno berljivo
+                            različico licence in tako omogoča, da licenco, oziroma njene pogoje,
+                            razumejo tudi računalniški sistemi, iskalniki in podobna
+                            tehnologija.<note place="foot" xml:id="ftn70" n="67"> Ibid.</note>
+               </p>
+               <p>Vsi trije elementi skupaj zagotavljajo spekter
+                            pravic, ki ni zgolj pravni koncept, temveč ga lahko razumemo ustvarjalci
+                            del, njihovi uporabniki in tehnologija.<note place="foot" xml:id="ftn71" n="68">
+                     <hi rend="italic">O
+                            licencah.</hi>
+                  </note> Čeprav iniciativa oziroma platforma Creative Commons izhaja iz ameriškega sistema <hi rend="italic">copyright</hi>, se je izkazala za dober pristop tudi v kontinentalnem sistemu. Leta 2019 je znanstvena služba Evropske komisije podprla sprejem licence Creative Commons <hi rend="italic">Share-Alike</hi> 4.0 za izmenjavo objavljenih dokumentov, fotografij, videoposnetkov, poročil, recenziranih študij in raziskovalnih podatkov. </p>
+            </div>
+            <div>
+               <head>
+                  Licence Creative
+                            Commons in SIstory</head>
+               <p>Avtorskopravne licence in orodja Creative Commons,
+                            ki skrbijo za ravnotežje znotraj tradicionalnega okolja avtorskega prava
+                            pod krilatico 'vse pravice pridržane', smo začeli spoznavati v
+                            sodelovanju z Majo Bogataj Jančič. Vsem licencam Creative Commons so
+                            skupne mnoge pomembne lastnosti. Vsaka licenca pomaga ustvarjalcem – če
+                            uporabljajo naša orodja, jih imenujemo dajalci licence – obdržati
+                            avtorske pravice in obenem dopušča vsaj nekomercialno kopiranje,
+                            razširjanje in dopustno uporabo stvaritve. Prav tako vsaka licenca
+                            Creative Commons zagotavlja, da mora biti dajalec licence pravilno
+                            naveden. Licence Creative Commons so od uvedbe različice 4.0 (ko so
+                            postale mednarodne) veljavne po vsem svetu in veljajo toliko časa, kot
+                            trajajo avtorske pravice, na katerih temeljijo (pred tem so se licence
+                            nekoliko razlikovale glede na različne pravne sisteme posameznih
+                            držav).
+                        <note place="foot" xml:id="ftn72" n="69">
+                     <hi rend="italic">Creative Commons jurisdiction ports</hi>,
+                                pridobljeno 23. 7. 2021, <ref target="https://en.wikipedia.org/wiki/Creative_Commons_jurisdiction_ports">https://en.wikipedia.org/wiki/Creative_Commons_jurisdiction_ports</ref>.</note> Te skupne lastnosti služijo kot osnovni sklop, ki mu lahko dajalci licence dodajo dodatna dovoljenja, ko se odločajo o uporabi svojih del.</p>
+               <p>Ko dajalec licence izbira licenco CC, mora odgovoriti na nekaj preprostih vprašanj: ali dopušča ostalim komercialno uporabo ali ne in ali dopušča ostalim predelave. Če se dajalec licence odloči, da dovoli predelave svojega dela, lahko tudi izbere, ali morajo osebe, ki njegovo delo uporabljajo (imenujemo jih uporabniki), novo delo objaviti pod enakimi licenčnimi pogoji. To zamisel imenujemo <hi rend="italic">pod enakimi
+                            pogoji</hi> (angl. <hi rend="italic">ShareAlike</hi>) in je ena izmed mehanizmov, ki pomagajo širiti skupno dobro (poimenovano <hi rend="italic">ustvarjalna gmajna</hi>). Za idejo deljenja pod enakimi pogoji nas je
+                            navdihnila licenca GNU General Public License, ki jo uporablja ogromno
+                            prostih programskih in odprtokodnih projektov.</p>
+               <p>Naše licence ne vplivajo na pravice in svoboščine,
+                            ki jih uporabnikom kot izjeme in omejitve avtorskega prava zagotavlja
+                            avtorskopravna zakonodaja, na primer pravica do parodije. Licence CC
+                            zahtevajo, da njeni uporabniki pridobijo dovoljenje za kakršno koli
+                            uporabo, ki jo pravo izključno pridržuje dajalcu licence.
+                    </p>
+               <p>Uporabniki morajo navesti dajalca licence,
+                            obdržati vsa obvestila o avtorskih pravicah na vseh kopijah dela in v
+                            teh kopijah tudi povezavo do licence. Uporabniki ne smejo izkoristiti
+                            tehnoloških ukrepov za omejevanje dostopa in uporabe dela.<note place="foot" xml:id="ftn73" n="70">
+                            Ibid.</note>
+               </p>
+               <p>Licence CC so močno vplivale na pojmovanje avtorskega prava in distribucijo del v digitalnem okolju, močno so vplivale tudi na upravljanje avtorskih pravic v okviru portala SIstory. Licence Creative Commons so se v digitalnem okolju pojavile že v letu 2002 (16. decembra 2002), v času, ko v sklopu INZ infrastrukturni program ali njegov glavni servis, portal Zgodovina Slovenije – SIstory, še ni obstajal. </p>
+               <p>Obstoja in predvsem pomena licenc CC se sodelavci
+                            inštituta oziroma infrastrukturnega programa nismo zavedali do razmaha
+                            gibanja za odprto znanost in odprtost raziskovalnih podatkov. V svojih
+                            prvih različicah portal ni vseboval veliko metapodatkov ali drugih oznak
+                            gradiva, ki bi opozarjale na izvor ali status posameznega gradiva. To se
+                            je spremenilo s prvo nadgradnjo sistema portala, ko smo poleg dodanih
+                            metapodatkov za boljši opis gradiva implementirali tudi vse tri ravni CC
+                            licenc.</p>
+               <p>Do uveljavitve CC licenc smo avtorske pravice pridobivali s podpisom obrazca z naslovom Pogodba o prenosu materialnih avtorskih pravic (gl. Prilogo 1), v katerem so bili opisani pogoji, pod katerimi avtor dovoljuje prenos materialnih avtorskih pravic in objavo svojega dela. S prihodom CC licenc pa smo obrazec spremenili tako, da je ta eksplicitno navajal takrat ustrezno licenco Creative Commons 2.5 in njene pogoje (Slika 1). </p>
+               <figure>
+                   <head>Slika 1: Obrazec za pridobivanje soglasja avtorjev
+                       z licenco Creative Commons 2.5</head>
+                  <graphic width="500px" url="slika1.jpg"/>
+                   <p style="text-align:center;">Hrani: Dokumentacija IP INZ</p>
+               </figure>
+              <p>Licence Creative Commons so se sčasoma postopoma spreminjale in postajale čedalje bolj razdelane in specifične, seveda so se s tem spreminjale tudi njihove verzije. Praksa nas je tako kaj kmalu naučila, da je za takšna soglasja najbolje ustvariti dokument, ki ga ne bo treba ažurirati vsakič, ko se bo pojavila nova različica licence. Na podlagi tega smo ustvarili formular, ki dovoljuje objavo dela pod pogoji ustrezne licence CC (Slika 2). 
+                    </p>
+                <figure>
+                    <head>Slika 2: Primer dovoljenja s prenovljenim delom o
+                        licencah Creative Commons</head>
+                    <graphic width="500px" url="slika2.jpg"/>
+                    <p style="text-align:center;">Hrani: Dokumentacija IP INZ</p>
+                </figure>
+               <p>Na začetku smo na portalu naprej uporabljali
+                            najožjo licenco CC Priznanje avtorstva-Nekomercialna raba-Brez predelav,
+                            ki ima največ omejitev oziroma pogojev za objavo. Ta je od uporabnikov
+                            zahtevala, da navajajo avtorja, besedilo uporabijo zgolj za
+                            nekomercialno rabo, pri tem pa ga ne smejo podvreči nobeni predelavi.
+                            Pogoj, da se delo lahko uporabi zgolj za nekomercialno rabo, je igral
+                            ključno vlogo pri tem, da smo avtorje prispevkov na portalu SIstory
+                            spodbudili k objavljanju njihovih del pod licencami CC. Ko so se avtorji
+                            počasi privadili načinu objavljanja pod temi licencami, smo besedila na
+                            portalu poskusili zaščititi z manj strogimi licencami in se na koncu
+                            odločili za najbolj smiselno licenco CC (CC BY-SA 4.0, CC Priznanje
+                            avtorstva-Deljenje pod enakimi pogoji). Ta uporabniku omogoča ponovno
+                            uporabo dela za kakršen koli namen brez komercialne rabe ter deljenje
+                            dela pod enakimi pogoji (tj. pod enakimi pogoji kot originalno delo). S
+                            tem najbolj efektivno lovimo ravnovesje med ščitenjem avtorjevega dela
+                            pred hudimi posegi vanj in prostim pretokom znanja, idej, del na
+                            portalu.
+                    </p>
+               <p>Druga raven, povzetek licence, in tretja raven,
+                            strojno berljiva različica licence, sta na portalu SIstory
+                            implementirana skupaj. Vsako gradivo, ki je bilo (ali še bo) objavljeno
+                            na portalu, je opremljeno z oznako licence in dodatnim besedilom (Sliki
+                            3 in 4). Pri licencah verzije 2.5 smo v pripeto besedilo eksplicitno
+                            navedli tudi ime avtorja (Slika 3), medtem ko se je ta praksa opustila
+                            ob prihodu licence Creative Commons 4.0 (Slika 4).
+                    </p>
+                <figure>
+                    <head>Slika 3: Licenca Creative Commons 2.5 na spletnem portalu SIstory</head>
+                    <graphic width="500px" url="slika3.jpg"/>
+                </figure>
+                <figure>
+                    <head>Slika 4: Licenca Creative Commons 4.0 na spletnem portalu SIstory</head>
+                    <graphic width="500px" url="slika4.jpg"/>
+                </figure>
+               <p>Oznaka licence Creative Commons v tem prikazu
+                            vsebuje »človeško razumljivo« obliko licence, s klikom na povezavo pa je
+                            mogoče prebrati pogoje, ki jih vsebuje. Strojno berljiva licenca, ki se
+                            skriva za povezavo in jo vnašamo v administracijski sistem, omogoča
+                            prikaz licence CC na straneh portala. Seveda so se s spreminjanjem prve
+                            in druge ravni licenc (<hi rend="italic">pravna
+                            koda</hi> in <hi rend="italic">povzetek
+                        licenc</hi>) spreminjale tudi strojno berljive licence – na Slikah 5 in 6 lahko vidimo razliko med strojno berljivima različicama licence Creative Commons 2.5 in 4.0. 
+                    </p>
+                <figure>
+                    <head>Slika 5: Licenca Creative Commons Priznanje
+                        avtorstva-Nekomercialno-Brez predelav 2.5 Slovenija</head>
+                    <graphic width="500px" url="slika5.jpg"/>
+                    <p style="text-align:center;">Hrani: Dokumentacija IP INZ</p>
+                </figure>
+                <figure>
+                    <head>Slika 6: Licenca Creative Commons Priznanje
+                        avtorstva-Deljenje pod enakimi pogoji 4.0 Mednarodna</head>
+                    <graphic width="500px" url="slika6.jpg"/>
+                    <p style="text-align:center;">Hrani: Dokumentacija IP INZ</p>
+                </figure>
+               <p>Licenca Creative Commons 2.5 je v kodi HTML na portalu SIstory vsebovala veliko več podrobnosti v primerjavi s sodobnejšo različico (4.0), saj smo želeli licence avtorskih del opremiti z dodatnimi podatki. Kot najpomembnejši razliki lahko poudariva dejstvo, da je prejšnja različica vsebovala eksplicitno navedbo dela, ki je licencirano (v obliki veljavnega URL naslova), prav tako pa tudi navedbo avtorja. Evidentno je, da je bila različica 2.5 vezana na državo, ki je licenco CC implementirala (Slovenija), kar pa se je do vpeljave različice 4.0 opustilo. Zaradi že omenjenega poenotenja besedila licenc v različici 4.0 je ta sedaj označena kot 
+                        <hi rend="italic">Mednarodna</hi>. Omenjene spremembe same po sebi niso tako zelo
+                            pomembne in imajo zanemarljiv vpliv na uporabo licenc, vendar pokažejo
+                            jasno pot razvoja, ki je internacionalna (mednarodne licence namesto
+                            licenc posameznih držav), poenostavljena (združevanje posameznih
+                            pogojev, jasni in kratki opisi posameznih pogojev in ravni licenc) in
+                            ima možnost široke uporabe.</p>
+            </div>
+            <div>
+               <head>
+                 Open Journal
+                            Systems in Creative Commons</head>
+               <p>Če govorimo o avtorskih pravicah v okviru
+                            digitalnih baz, je treba omeniti digitalno platformo, ki omogoča
+                            urejanje in izdajanje znanstvenih revij – Open Journal Systems (OJS).
+                            Platforma je bila razvita v letu 2001, njen namen pa je bil izboljšati
+                            dostop do raziskav. Danes je OJS najpogosteje uporabljena
+                            platforma/orodje za prosti dostop do znanstvenih vsebin in njihovo
+                            izdajanje.<note place="foot" xml:id="ftn74" n="71">
+                     <hi rend="italic">Open Journal Systems | Public Knowledge
+                                    Project</hi>,
+                            https://pkp.sfu.ca/ojs/.</note> Orodje samo je brezplačno in ponujeno pod pogoji že omenjene licence GNU General Public Licence v2.0, ki zajema dovoljenje za kopiranje, distribucijo in modifikacijo programske opreme. Na INZ sistem OJS uporabljamo za izdajanje hišne znanstvene revije <hi rend="italic">Prispevki za novejšo
+                            zgodovino</hi>,<note place="foot" xml:id="ftn75" n="72">
+                     <hi rend="italic">Contributions to Contemporary History</hi>,
+                                https://ojs.inz.si/pnz.</note>
+                        ene osrednjih nacionalnih znanstvenih
+                            zgodovinopisnih revij, ki odstira teme s področja novejše zgodovine (od
+                            19. stoletja do danes)
+                        srednje in
+                                jugovzhodne
+                        Evrope. Publikacija izhaja trikrat letno, vsebina posamezne revije pa je na voljo takoj po objavi revije (brez embarga). 
+                    </p>
+               <p>Na začetku sodelovanja nam je dr. Bogataj Jančič pripravila tudi formular za urejanje avtorskopravnega vidika <hi rend="italic">Prispevkov</hi> (Priloga 6). V formularju so bili jasno navedeni pogoji in obseg prenosa materialnih avtorskih pravic ter tudi izjava o izvirnosti prispevka, objavljenega v reviji. Formularja nismo dolgo uporabljali, saj ga je kmalu nadomestil sistem OJS.</p>
+               <p>Če je sama platforma licencirana pod licenco GPL
+                            v2.0, so vsebine, ki so objavljene na platformi (posamezna številka
+                            revije oziroma njeni posamezni prispevki), objavljene in ponujene pod
+                            licencami Creative Commons. V sklopu OJS (tako kot na portalu) se
+                            večinoma uporabljata licenci Deljenje pod enakimi pogoji (CC BY-SA,
+                            trenutno verzija 4.0) in tudi CC Priznanje avtorstva (CC BY 4.0).
+                    </p>
+               <p>Poleg licence Creative Commons, ki navaja pogoje uporabe licenciranega dela, pa Open Journal Systems k vsakemu izmed del doda še spremno besedilo. V njem so na kratko opisani pogoji, s katerimi se avtorice in avtorji, ki objavijo svoje delo v reviji pod okriljem Open Journal Systems, strinjajo: »Avtorji obdržijo avtorske pravice in znanstveni reviji podelijo pravico do prve objave tega dela. To je hkrati licencirano pod licenco Creative Commons 
+                        <hi rend="italic">Priznanje avtorstva</hi>, ki drugim omogoča delitev dela z navajanjem
+                            avtorstva dela in začetne objave v tej reviji. Poleg prve objave in
+                            licenciranja del pod Creative Commons licencami avtorji lahko sklenejo
+                            dodatne pogodbe za neizključno distribucijo objavljene različice dela
+                            revije (avtorji svoja dela lahko objavijo v institucionalnem
+                            repozitoriju ali v knjigi), vendar je k takšnim objavam potrebno
+                            dopisati, kje je bilo delo prvič objavljeno (pravica do prve objave).
+                            Avtorjem je prav tako dovoljeno, da svoja dela objavijo tudi na spletu
+                            (npr. v institucionalnih repozitorijih ali na njihovi spletni strani)
+                            pred in med postopkom oddaje, saj to lahko privede do produktivnih
+                            izmenjav.«<note place="foot" xml:id="ftn76" n="73"> »Copyright Notice,« <hi rend="italic">Submissions | Contributions to Contemporary History</hi>,
+                                https://ojs.inz.si/pnz/about/submissions#authorGuidelines.</note>
+               </p>
+               <p>OJS torej vsebuje sestavine pogodbe za prenos
+                            materialnih avtorskih pravic iz prvotne pogodbe in svoje pogoje združuje
+                            s pristopi licenc CC. Open Journal Systems v kombinaciji z licencami
+                            Creative Commons tako ohranja prvoten namen in cilje gibanja Creative
+                            Commons za zagotavljanje okolja za prosti pretok idej, znanja in
+                            avtorskopravno varovanih del.</p>
+            </div>
+         </div>
+         <div>
+            <head>
+               Zaključek
+            </head>
+            <p>Na portalu Zgodovina Slovenije – SIstory je poleg
+                        gradiv, ki sva jih v publikaciji vzeli pod drobnogled, objavljenih tudi
+                        veliko uradnih (uradno sprejetih ali uradno objavljenih) besedil z
+                        zakonodajnega, upravnega, sodnega področja. To so zakoni, predpisi, ukazi,
+                        odredbe, odloki, resolucije itd., ki pa so, kar sva omenili že v uvodu,
+                        izvzeti iz avtorskopravnega varstva,<note place="foot" xml:id="ftn77" n="74"> Takšna besedila so na portalu SIstory objavljena pod licenco <hi rend="italic">Public
+                                Domain</hi> oziroma javno domeno, ki je »bogastvo informacij, do katerih je mogoče dostopati in jih uporabljati brez ovir, povezanih z avtorskopravnim varstvom, bodisi zato, ker avtorskopravno niso varovane, ali pa so se imetniki pravic sami odločili te ovire odstraniti.« – <hi rend="italic">Uporaba vsebin pod licencami
+                                Creative
+                                Commons</hi>, view-source:https://vodici.fdv.uni-lj.si/subjects/guide.php?subject=CC#tab-3. Gl. tudi <hi rend="italic">The Manifesto | Public Domain
+                                Manifesto</hi>, pridobljeno 22. 7. 2021,
+                                view-source:https://publicdomainmanifesto.org/manifesto.</note> saj med »uradna besedila v skladu z 9. členom ZASP spadajo besedila, ki razpoznavno izvirajo iz določene institucije z zakonodajnimi, sodnimi ali upravnimi pristojnostmi ter oblastvenimi upravičenji in s katerimi se uravnava pravni položaj državljanov oziroma druge družbene zadeve«.<note place="foot" xml:id="ftn78" n="75"> Trampuž, Oman in
+                            Zupančič, <hi rend="italic">Zakon o avtorski in sorodnih pravicah</hi>,
+                            54. Gl. tudi Eugen Ulmer, »Urheber- und Verlagsrecht, 3. Aufl., Berlin,
+                            1980, §30, II, 2,« v: Trampuž, Oman in Zupančič, <hi rend="italic">Zakon
+                                o avtorski in sorodnih pravicah,</hi> 54.</note>
+                    Treba je dodati, da izraza »besedila« ne smemo
+                        razumeti dobesedno, saj so iz okvira avtorskopravnega varstva izključene
+                        tudi nekatere ostale oblike del, v našem primeru se predvsem pogosto
+                        srečujemo z grafikoni, tabelami ipd.<note place="foot" xml:id="ftn79" n="76"> Maja Bogataj Jančič, Luka Virag in Rok Jerovšek, <hi rend="italic">Projekt SIstory –
+                                avtorskopravni vidik (gradivo pripravljeno na podlagi pogodbe o
+                                avtorskopravnem svetovanju med INZ in IPI, pogodba 15. 09.
+                                2010)</hi> (Ljubljana, 2010), 5 in 6. – Dokumentacija IP INZ. Trampuž, Oman in Zupančič, <hi rend="italic">Zakon o avtorski in sorodnih
+                                pravicah</hi>, 53–55. Stricker, »Urheberrecht, Kommentar, C. H. Beck, München, 1980, §5,« v: Trampuž, Oman, Zupančič, <hi rend="italic">Zakon o avtorski in sorodnih
+                                pravicah</hi>, 55.</note>
+            </p>
+            <p>Ker torej valorizirane vsebine, namenjene digitalizaciji in objavi na portalu SIstory, ne predstavljajo le člankov, referatov, zasebne korespondence ipd., temveč tudi pravne akte, politične dokumente, zapisnike sej različnih državnih organov in njihovih delovnih teles, zapisnike sej političnih strank itd., ki vsebujejo osebne podatke, moramo sodelavke in sodelavci infrastrukturnega programa <hi rend="italic">Raziskovalna infrastruktura slovenskega
+                        zgodovinopisja</hi> pri svojem delu poleg ZASP upoštevati tudi Zakon o varstvu osebnih podatkov in Zakon o varstvu dokumentarnega in arhivskega gradiva ter arhivih. </p>
+            <p>Nataša Pirc Musar nas je v dopisu z dne 28. decembra
+                        2010 poučila, da se lahko skladno z 8. členom Zakona o varstvu osebnih
+                        podatkov-1 »osebni podatki obdelujejo le, če obdelavo osebnih podatkov in
+                        osebne podatke, ki se obdelujejo, določa zakon ali če je za obdelavo
+                        določenih osebnih podatkov podana osebna privolitev posameznika«.<note place="foot" xml:id="ftn80" n="77"> »Dopis
+                            informacijske pooblaščenke Nataše Pirc Musar, Ljubljana, 28. 12. 2010,«
+                            v: Bogataj Jančič, Virag in Jerovšek, <hi rend="italic">Projekt
+                                SIstory,</hi> 17 in 18.</note>
+                    Opozorila nas je tudi na to, da moramo pri svojem
+                        delu upoštevati še Zakon o varstvu dokumentarnega in arhivskega gradiva ter
+                        arhivih (<hi rend="italic">Uradni list
+                        RS</hi>, št. 30/06), 63. člen namreč določa, da o
+                        uporabi arhivskega gradiva lahko odloča le Arhiv Republike Slovenije.
+                        Informacijska pooblaščenka je poduk sklenila z besedami, »da načelna prosta
+                        dostopnost osebnih podatkov v arhivskem gradivu še ne pomeni tudi pravice,
+                        da se pridobljeno arhivsko gradivo javno objavi na svetovnem spletu. To
+                        dejstvo potrjuje tudi 102. člen ZVDAGA, ki za znanstveno raziskovalne in
+                        zgodovinske namene dovoljuje le objavo osebnih podatkov o odvzemih življenja
+                        posameznikom v obdobju od 1. septembra 1939 do 31. decembra 1953, ki jih
+                        pravne osebe javnega prava posredujejo uporabnikom v javnem
+                        sektorju.«<note place="foot" xml:id="ftn81" n="78"> Ibid.</note>
+            </p>
+             <ab type="milestone" style="text-align:center">* * *</ab>
+            <p>Ker sva se avtorici v publikaciji osredinili na avtorske pravice oziroma njihovo
+                    urejanje na primeru portala Zgodovina Slovenije – SIstory, bova zaključili s
+                    komentarjem materialnih avtorskih pravic, ki se nanašajo na premoženjske
+                    interese, in tudi moralnih avtorskih pravic, ki predstavljajo »duhovno vez med
+                    avtorjem in njegovim delom«. </p>
+            <p>Materialne avtorske pravice avtorju omogočajo primat nad posameznimi oblikami
+                    izkoriščanja njegove stvaritve (pravica do reprodukcije, javnega izvajanja
+                    itd.). Avtor ima možnost, da se odloči, kako bo uresničil svoje materialne
+                    interese, ali bo svoje delo ob izključitvi vseh ostalih izkoriščal sam ali bo
+                    dopustil izkoriščanje svoje stvaritve komu drugemu v zameno za plačilo.
+                    Poudarjava, da se v zadnjem času »materialne avtorske pravice ne nanašajo več
+                    zgolj na izkoriščanje avtorskega dela, ampak tudi na določene oblike
+                    razpolaganja s primerki avtorskega dela« (pravica distribuiranja, dajanja v
+                    najem). Moralne avtorske pravice pa avtorju zagotavljajo uresničevanje osebnih
+                    interesov, povezanih z njegovo stvaritvijo. To velja tudi takrat, ko je avtor
+                    pravico do izkoriščanja svojega dela prenesel na drugo osebo. Moralne avtorske
+                    pravice avtorju jamčijo, da je na vsakem primerku avtorskega dela ali njegove
+                    javne priobčitve navedeno njegovo ime, zagotavljajo pa mu tudi, da njegovo delo
+                    ne bo skaženo, okrnjeno itd. </p>
+            <p>Meniva, da je avtorska pravica skupen izraz za razna upravičenja, ki stvaritelju
+                    zagotavljajo realizacijo materialnih in moralnih interesov v povezavi z
+                    izkoriščanjem avtorskega dela.<note place="foot" xml:id="ftn82" n="79">
+                  <hi rend="italic">UIL: Avtorska pravica</hi>,
+                            http://www.uil-sipo.si/uil/dodatno/koristni-viri/pogosta-vprasanja/avtorska-pravica/.</note>
+                    Kot taka je nujno potrebna pri nadaljnjem ustvarjanju v analognem in digitalnem
+                    svetu.</p>
+         </div>
+         
+      </body>
+       <back>
+           <div type="bibliography">
+               <head>Literatura in viri</head>
+               <listBibl>
+                   <head>Literatura</head>
+                   <bibl>Bahor, Stanislav. »Knjižničarji in avtorske pravice.« <hi rend="italic">Knjižnica. </hi>46, št. 4 (2002): 87–123.</bibl>
+                   <bibl>Bogataj Jančič, Maja. <hi rend="italic">Avtorsko pravo v digitalni dobi :
+                       problematika zaščite avtorskih del s tehnološkimi
+                       ukrepi</hi> (Ljubljana: Pasadena, 2008).</bibl>
+                   <bibl>Jensen, Christopher. »The More Things Change,
+                       the More They Stay the Same: Copyright, Digital Technology, and Social
+                       Norms.«
+                       <hi rend="italic">Stanford Law Review</hi> 56, No. 2 (2003): 531–70.
+                       <ref target="http://www.jstor.org/stable/1229614">http://www.jstor.org/stable/1229614</ref>. Pridobljeno 18. 5. 2021.</bibl>
+                   <bibl>Lemmer, Catherine. A. in Carla. P.Wale.
+                       <hi rend="italic">Digital Rights
+                           Management</hi>: <hi rend="italic">The Librarian's
+                               Guide</hi> (Washington, DC: Rowman &amp; Littlefield Publishers, 2016).</bibl>
+                   <bibl>Meden, Katja in Ana Cvek. »Nadgradnja
+                       Zgodovinarskega indeksa
+                       citiranosti.« <hi rend="italic">Slovenščina 2.0: empirične, aplikativne in interdisciplinarne raziskave </hi>9 (1) (2021): 216–35.
+                       <ref target="https://doi.org/10.4312/slo2.0.2021.1.216-235">https://doi.org/10.4312/slo2.0.2021.1.216-235</ref>. Pridobljeno 19. 7. 2021.</bibl>
+                   <bibl>Pančur Andrej in Mojca Šorn, »Na začetku je bil SIstory: raziskovalna infrastruktura slovenskega zgodovinopisja.« V: <hi rend="italic">Inštitut za novejšo zgodovino: 60
+                       let mislimo
+                       preteklost</hi> (Ljubljana: Inštitut za novejšo zgodovino, 2019), 47–58.
+                   </bibl>
+                   <bibl>Pančur, Andrej in Bogomir Rožman. »Dolgotrajno ohranjanje raziskovalnih podatkov v manjših raziskovalnih infrastrukturah Uporaba odprtokodne aplikacije Archivematic.« V: Tomaž Erjavec in Darja Fišer, ur. 
+                       <hi rend="italic">Zbornik konference Jezikovne tehnologije in digitalna humanistika, 29. september - 1. oktober 2016, Filozofska fakulteta, Univerza v Ljubljani, Ljubljana, Slovenija = Proceedings of the Conference on Language Technologies &amp; Digital Humanities, September 29th - October 1st, 2016 Faculty of Arts, University of Ljubljana, Ljubljana, Slovenia, </hi>218, 219. Ljubljana: Znanstvena založba
+                       Filozofske fakultete: = Ljubljana University Press, Faculty of Arts,
+                       2016.
+                       <ref target="http://www.sdjt.si/wp/wp-content/uploads/2016/09/JTDH-2016_Pancur-et-al_Dolgotrajno-ohranjanje-raziskovalnih-%20podatkov.pdf">http://www.sdjt.si/wp/wp-content/uploads/2016/09/JTDH-2016_Pancur-et-al_Dolgotrajno-ohranjanje-raziskovalnih-
+                           podatkov.pdf</ref>.</bibl>
+                   <bibl>Pušnik, Barbara.
+                       <hi rend="italic">Avtorske pravice – pravnoekonomska
+                           perspektiva: diplomsko delo</hi>. Ljubljana,
+                       2010.</bibl>
+                   <bibl>Šorn, Mojca in Jurij Hadalin. »Spletni portal SIstory: prost dostop do dosežkov slovenskega zgodovinopisja.« V: <ref target="https://plus.si.cobiss.net/opac7/bib/COBIB/252883456">
+                       <hi rend="italic">Prost dostop do dosežkov
+                           slovenskih znanstvenikov : zbornik prispevkov 4. skupnega
+                           posvetovanja Sekcije za specialne knjižnice in Sekcije za
+                           visokošolske knjižnice Zveze bibliotekarskih društev Slovenije =
+                           Open access to the achievements of Slovenian scientists :
+                           proceedings of 4th Joint Conference of the Special Libraries Section
+                           and the Academic Libraries Section of the Slovenian Library
+                           Association</hi>, 103–07. Ljubljana, 27. in 28. oktober 2010.  </ref>
+                   </bibl>
+                   <bibl>Trampuž, Miha, Branko Oman in Andrej Zupančič. 
+                       <hi rend="italic">Zakon o avtorskih in sorodnih
+                           pravicah (ZASP) s komentarjem</hi>.
+                       Ljubljana: Gospodarski vestnik, 1997.</bibl>
+                   <bibl>Ulmer,
+                       Eugen. »Urheber- und Verlagsrecht, 3. Aufl., Berlin, 1980, §30, II, 2.«
+                       V: Miha
+                       Trampuž, Branko
+                       Oman in Andrej
+                       Zupančič.
+                       <hi rend="italic">Zakon </hi>
+                       <hi rend="italic">o avtorski in sorodnih pravicah (</hi>
+                       <hi rend="italic">ZASP) s komentarjem</hi>. Ljubljana: Gospodarski vestnik,
+                       1997.</bibl>
+               </listBibl>
+               <listBibl>
+                   <head>Viri (dokumentacijski,
+                       elektronski in tiskani)</head>
+                   <bibl>
+                       <hi rend="italic">Archivematica: open-source
+                           digital preservation system.</hi>
+                       <ref target="https://www.archivematica.org/en/">https://www.archivematica.org/en/</ref>.</bibl>
+                   <bibl>Brodnik, Vilma. Prijavnica prispevka za objavo v reviji <hi rend="italic">Zgodovina v šoli</hi>. Dokumentacija IP INZ.</bibl>
+                   <bibl>
+                       <hi rend="italic">CC0 – Creative
+                           Commons</hi>. »CC0 – No rights reserved,« <ref target="https://creativecommons.org/share-your-work/public-domain/cc0/">https://creativecommons.org/share-your-work/public-domain/cc0/</ref>. Pridobljeno 23. 7. 2021.</bibl>
+                   <bibl>
+                       <hi rend="italic">Center za digitalizacijo.
+                           Metodologija digitalizacije arhivskega gradiva ter organizacija in plan
+                           dela Centra za digitalizacijo</hi>, 16. 12.
+                       2020.
+                       <ref target="https://www.gov.si/assets/organi-v-sestavi/Arhiv-RS/Projekt-e-ARH-si/Resitve/CZD/KC-5.1.2_1.10_CzD_Protokol_1.4.pdf">https://www.gov.si/assets/organi-v-sestavi/Arhiv-RS/Projekt-e-ARH-si/Resitve/CZD/KC-5.1.2_1.10_CzD_Protokol_1.4.pdf</ref>.</bibl>
+                   <bibl>Chitrakar, Urša.
+                       <hi rend="italic">Osnove avtorskega prava –
+                           predavanje URSIL – WIPO – Pravna
+                           fakulteta</hi>, 2019. <ref target="http://www.uil-sipo.si/uploads/media/URSIL_12.3.2019.PDF">http://www.uil-sipo.si/uploads/media/URSIL_12.3.2019.PDF</ref>.</bibl>
+                   <bibl>
+                       <hi rend="italic">Contributions to Contemporary
+                           History.</hi>
+                       <ref target="https://ojs.inz.si/pnz">https://ojs.inz.si/pnz</ref>.</bibl>
+                   <bibl>
+                       <hi rend="italic">Creative Commons jurisdiction
+                           ports.</hi>
+                       <ref target="https://en.wikipedia.org/wiki/Creative_Commons_jurisdiction_ports">https://en.wikipedia.org/wiki/Creative_Commons_jurisdiction_ports</ref> (pridobljeno 23. 7. 2021).</bibl>
+                   <bibl>Dokumentacija IP INZ. Vabilo na predstavitev
+                       portala Zgodovina Slovenije – SIstory.</bibl>
+                   <bibl>
+                       <hi rend="italic">GNU General Public License –
+                           Version 3 | Open Source
+                           Initiative</hi>, <ref target="https://opensource.org/licenses/GPL-3.0">https://opensource.org/licenses/GPL-3.0</ref>.</bibl>
+                   <bibl>
+                       <hi rend="italic">GNU General Public License |Open
+                           Source Initiative</hi>.
+                       <ref target="https://opensource.org/licenses/gpl-license">https://opensource.org/licenses/gpl-license</ref>.</bibl>
+                   <bibl>
+                       <hi rend="italic">Inštitut za novejšo
+                           zgodovino</hi>.
+                       <ref target="https://www.inz.si/sl/O-institutu/">https://www.inz.si/sl/O-institutu/</ref>. Pridobljeno 20. 5. 2021.</bibl>
+                   <bibl>
+                       <hi rend="italic">Kooperativni online bibliografski
+                           sistem in servisi COBISS.</hi>
+                       <ref target="https://www.cobiss.si/">https://www.cobiss.si/</ref>.</bibl>
+                   <bibl>Lazarević, Žarko in Igor Zemljič. Slovenski
+                       zgodovinarski indeks citiranosti - izhodišča in pomisleki, 2003.
+                       Dokumentacija IP INZ.
+                   </bibl>
+                   <bibl>
+                       <hi rend="italic">O licencah – Creative
+                           Commons</hi>.
+                       <ref target="https://creativecommons.org/licenses/?lang=sl">https://creativecommons.org/licenses/?lang=sl</ref>.</bibl>
+                   <bibl>
+                       <hi rend="italic">Open Journal Systems | Public
+                           Knowledge Project</hi>.
+                       <ref target="https://pkp.sfu.ca/ojs/">https://pkp.sfu.ca/ojs/</ref>.</bibl>
+                   <bibl>Pančur, Andrej, Mojca Šorn in Jurij Hadalin. »Slovenski indeks citiranosti (SICI): Načrt izgradnje in delovanja, 2014.« <hi rend="italic">Zgodovina Slovenije – SIstory.</hi>
+                       <ref target="https://www.sistory.si/11686/36153">https://www.sistory.si/11686/36153</ref>.</bibl>
+                   <bibl>Pančur, Andrej. »Metapodatki portala Zgodovina Slovenije – SIstory. Navodila za uporabo orodja za vnos metapodatkov.« <hi rend="italic">Zgodovina Slovenije –
+                       SIstory</hi>.
+                       <ref target="http://hdl.handle.net/11686/36151">http://hdl.handle.net/11686/36151</ref>.</bibl>
+                   <bibl>Pančur, Andrej. Poročilo o napredku projekta:
+                       Digital Research Infrastructure for the Arts and Humanities / Digitalna
+                       raziskovalna infrastruktura za umetnost in humanistiko, Murska Sobota,
+                       30. 3. 2020. Dokumentacija IP INZ.</bibl>
+                   <bibl>Pirc Musar, Nataša. <hi rend="italic">Objava podatkov o zrtvah iz 2
+                       svetovne vojne – IPRS</hi>.
+                       <ref target="https://www.ip-rs.si/mnenja-zvop/objava-podatkov-o-zrtvah-iz-2-svetovne-vojne">https://www.ip-rs.si/mnenja-zvop/objava-podatkov-o-zrtvah-iz-2-svetovne-vojne</ref>.</bibl>
+                   <bibl>Pirc Musar, Nataša. Objava popisov prebivalstva
+                       v 19. stoletju na spletu, 11. 5. 2010. Dokumentacija INZ.</bibl>
+                   <bibl>
+                       <hi rend="italic">Popisi prebivalstva, 1830–1931 |
+                           Zgodovinski arhiv Ljubljana</hi>.
+                       <ref target="http://www.zal-lj.si/project/popisi-prebivalstva-slovenije-1830-1931-2/">http://www.zal-lj.si/project/popisi-prebivalstva-slovenije-1830-1931-2/</ref>.</bibl>
+                   <bibl>
+                       <ref target="https://www.youtube.com/watch?v=JmspZtj4SQk">
+                           <hi rend="italic">Predavanje o avtorskih pravicah
+                               - Dr. Maja Bogataj Jančič</hi>
+                       </ref>.
+                       Ljubljana, Atrij ZRC SAZU, 8. 12. 2012.
+                       <ref target="https://www.youtube.com/watch?v=JmspZtj4SQk">https://www.youtube.com/watch?v=JmspZtj4SQk</ref>. </bibl>
+                   <bibl>
+                       <ref target="https://www.youtube.com/watch?v=iPdR5zF373I">
+                           <hi rend="italic">Predavanje o avtorskih
+                               pravicah, dr. Maja Bogataj Jančič 1. del</hi>
+                       </ref>. Ljubljana, Atrij ZRC, 13. 5. 2013.
+                       <ref target="https://www.youtube.com/watch?v=iPdR5zF373I">https://www.youtube.com/watch?v=iPdR5zF373I</ref>. </bibl>
+                   <bibl>
+                       <ref target="https://www.youtube.com/watch?v=8Tqkmv9K-kA">
+                           <hi rend="italic">Predavanje o avtorskih
+                               pravicah, dr. Maja Bogataj Jančič 2. del</hi>
+                       </ref>. Ljubljana, Atrij ZRC, 13. 5. 2013.
+                       <ref target="https://www.youtube.com/watch?v=8Tqkmv9K-kA">https://www.youtube.com/watch?v=8Tqkmv9K-kA</ref>.</bibl>
+                   <bibl>
+                       <hi rend="italic">Public Domain Mark – Creative Commons.</hi>
+                       <ref target="https://creativecommons.org/share-your-work/public-domain/pdm/">https://creativecommons.org/share-your-work/public-domain/pdm/</ref>.
+                       Pridobljeno 23. 7. 2021.</bibl>
+                   <bibl>Rožman, Bogomir in Andrej Pančur. Standardi za
+                       objavljene vsebine PDF publikacij na portalu SIstory: dokument za
+                       interno uporabo (verzija 3.0), 16. 12. 2019. Dokumentacija IP INZ.
+                   </bibl>
+                   <bibl>
+                       <hi rend="italic">SKUPNI SPORAZUM o reproduciranju
+                           avtorskih del prek obsega iz 50. člena Zakona o avtorski in sorodnih
+                           pravicah v vrtcih in šolah v Republiki Sloveniji</hi>.
+                       <ref target="http://www.pisrs.si/Pis.web/pregledPredpisa?id=DRUG4281">http://www.pisrs.si/Pis.web/pregledPredpisa?id=DRUG4281</ref>. Pridobljeno 23. 7. 2021.</bibl>
+                   <bibl>
+                       <hi rend="italic">Submissions | Contributions to
+                           Contemporary History</hi>. »Copyright
+                       Notice.«
+                       https://ojs.inz.si/pnz/about/submissions#authorGuidelines.</bibl>
+                   <bibl>Šorn, Mojca. Letno poročilo o rezultatih
+                       infrastrukturnega programa
+                       (IP) v letu 2011. Dokumentacija IP INZ.</bibl>
+                   <bibl>
+                       <hi rend="italic">The Manifesto | Public Domain
+                           Manifesto</hi>.
+                       view-source:https://publicdomainmanifesto.org/manifesto.</bibl>
+                   <bibl>
+                       <hi rend="italic">The Statute of Anne: The First
+                           Copyright Statute: History of Information</hi>.
+                       <ref target="https://www.historyofinformation.com/detail.php?entryid=3389">https://www.historyofinformation.com/detail.php?entryid=3389</ref>. Pridobljeno 14. 7. 2021.</bibl>
+                   <bibl>
+                       <hi rend="italic">UIL: Avtor in avtorsko
+                           delo</hi>.
+                       <ref target="http://www.uil-sipo.si/uil/dejavnosti/avtorska-in-sorodne-pravice/avtor-in-avtorsko-delo/">http://www.uil-sipo.si/uil/dejavnosti/avtorska-in-sorodne-pravice/avtor-in-avtorsko-delo/</ref>. Pridobljeno 8. 7. 2021.</bibl>
+                   <bibl>
+                       <hi rend="italic">UIL: Opredelitev avtorske in
+                           sorodnih pravic.</hi>
+                       <ref target="http://www.uil-sipo.si/uil/dejavnosti/avtorska-in-sorodne-pravice/opredelitev-avtorske-in-sorodnih-pravic/">http://www.uil-sipo.si/uil/dejavnosti/avtorska-in-sorodne-pravice/opredelitev-avtorske-in-sorodnih-pravic/</ref>. Pridobljeno 8. 7. 2021.</bibl>
+                   <bibl>
+                       <hi rend="italic">Uporaba vsebin pod licencami
+                           Creative Commons</hi>.
+                       view-source:https://vodici.fdv.uni-lj.si/subjects/guide.php?subject=CC#tab-3</bibl>
+                   <bibl>
+                       <hi rend="italic">Uradni list
+                           RS</hi>, št. 30/2006. »Zakon o varstvu arhivskega gradiva in arhivih.« </bibl>
+                   <bibl>
+                       <hi rend="italic">Uradni list
+                           RS</hi>, št. 86/2006. »Uredba o varstvu arhivskega in dokumentarnega gradiva.« </bibl>
+                   <bibl>Vodopivec, Nina. Predlog infrastrukturnega
+                       programa (IP) za obdobje 2009-2014 in poročilo o rezultatih
+                       infrastrukturnega programa v obdobju 2004-2008. Dokumentacija IP
+                       INZ.</bibl>
+                   <bibl>
+                       <hi rend="italic">What We do – Creative
+                           Commons</hi>.
+                       <ref target="https://creativecommons.org/about/">https://creativecommons.org/about/</ref>.</bibl>
+                   <bibl>
+                       <hi rend="italic">Zakon o avtorski in sorodnih pravicah (ZASP). </hi>
+                       <ref target="http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO403">http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO403</ref> Pridobljeno 11. 7. 2021.</bibl>
+                   <bibl>
+                       <hi rend="italic">Zgodovina Slovenije –
+                           SIstory.</hi> »Okrogla miza Portal Zgodovina Slovenije – SIstory« (Inštitut za novejšo zgodovino, 18. 3. 2010). <ref target="http://hdl.handle.net/11686/1194">http://hdl.handle.net/11686/1194</ref>.</bibl>
+                   <bibl>
+                       <hi rend="italic">Zgodovina Slovenije –
+                           SIstory.</hi> »Popisi.«
+                       <ref target="https://www.sistory.si/popis">https://www.sistory.si/popis</ref>.</bibl>
+                   <bibl>
+                       <hi rend="italic">Zgodovina Slovenije –
+                           SIstory.</hi> »Žrtve II. sv.« <ref target="https://www.sistory.si/zrtve">https://www.sistory.si/zrtve</ref>.</bibl>
+                   <bibl>
+                       <hi rend="italic">Zgodovina Slovenije –
+                           SIstory</hi>. Poročila o rezultatih
+                       infrastrukturnega programa in načrti dela<hi rend="italic">.</hi>
+                       <ref target="https://www.sistory.si/publikacije/?menuBottom=9">https://www.sistory.si/publikacije/?menuBottom=9</ref>. Pridobljeno 14. 7. 2021.</bibl>
+                   <bibl>
+                       <hi rend="italic">Zgodovina Slovenije –
+                           Sistotry.</hi>
+                       Kazalo.
+                       <ref target="https://www.sistory.si/objave/kazalo">https://www.sistory.si/objave/kazalo</ref>.</bibl>
+                   <bibl>
+                       <hi rend="italic">ZIC - Zgodovinski indeks
+                           citiranosti.</hi>
+                       <ref target="https://zic.sistory.si/">https://zic.sistory.si/</ref>.</bibl>
+                   <bibl>
+                       <hi rend="italic">ZVDAGA - Zakon o varstvu dokumentarnega in arhivskega gradiva ter arhivih </hi>(ZVDAGA-NPB). <ref target="https://zakonodaja.com/zakon/zvdaga">https://zakonodaja.com/zakon/zvdaga</ref>. Pridobljeno 11. 7. 2021.</bibl>
+                   <bibl>
+                       <hi rend="italic">Žrtve 1. svetovne
+                           vojne</hi>, <ref target="https://zv1.sistory.si/?lang=sl">https://zv1.sistory.si/?lang=sl</ref>.</bibl>
+               </listBibl>
+           </div>
+           <div type="summary" xml:lang="en">
+               <docAuthor>Mojca Šorn in Katja
+                   Meden</docAuthor>
+               <head>THE HISTORY OF SLOVENIA –
+                   SISTORY PORTAL AND COPYRIGHTS</head>
+               <head>SUMMARY</head>
+               <p>The development of digital historiography, based on
+                   the approach of studying and (re)presenting the past with new digital
+                   communication technologies, has led to a re-conceptualisation of history and
+                   historiography. Even before we historians were able to ask ourselves at the
+                   beginning of this evolutionary journey whether we were ready to accept the
+                   fact that the understanding and practice of traditional history was
+                   fundamentally changing with the development of the digital humanities, we
+                   encountered several questions or issues. One particularly extensive and at
+                   the same time very important area involved copyright law and the internet,
+                   discussed by the authors in the present article from a professional and
+                   substantive point of view, using the example of the History of Slovenia –
+                   SIstory portal.
+               </p>
+               <p>We have divided the work into two major thematic
+                   units, focusing on the first steps in the copyright journey from the
+                   selection of materials to their publication on the SIstory portal and on the
+                   practical examples of copyright regulation.</p>
+               <p>In the conclusion, we summarise the lessons learned
+                   about economic and moral rights under copyright law in the digital age. We
+                   have found that economic rights give creators primacy over particular forms
+                   of exploitation of their creation (the right of reproduction, public
+                   performance, etc.). They can decide how to pursue their economic interests,
+                   whether to exploit their work themselves to the exclusion of all others or
+                   to allow someone else to exploit their creation in exchange for a fee. We
+                   point out that recently, “economic rights no longer refer only to the
+                   exploitation of copyrighted work, but also to certain forms of using copies
+                   of copyrighted work” (distribution right, rental right). We have also
+                   established that moral rights ensure that authors can pursue the personal
+                   interests associated with their creation. This is also the case when authors
+                   have transferred the right to exploit their work to another person. Moral
+                   rights guarantee that the author’s name appears on every copy of the
+                   copyrighted work, or, in the case of communication to the public, and that
+                   the author’s work will not be mutilated, defaced, etc.
+               </p>
+               <p>We believe that copyright is a collective term for a
+                   variety of different entitlements that ensure the realisation of the
+                   creator’s economic and moral interests in connection with the exploitation
+                   of the copyrighted work. As such, it is indispensable for further creation
+                   in both the analogue and digital worlds.
+               </p>
+           </div>
+       </back>
+   </text>
+</TEI>
