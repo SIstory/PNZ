@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nekaj drobcev iz bogate zapuščine Josipa Lavtižarja</title>
+                <author>
+                    <forename>Marija Mojca</forename>
+                    <surname>Peternel</surname>
+                    <roleName>Dr.</roleName>
+                    <roleName>Doc.</roleName>
+                    <affiliation>Oddelek za germanistiko z nederlanistiko in
+                        skandinavistiko, Filozofska fakulteta</affiliation>
+                    <address>
+                        <addrLine>Aškerčeva 2</addrLine>
+                        <addrLine>SI–1000 Ljubljana</addrLine>
+                    </address>
+                    <email>mojca.peternel@guest.arnes.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2021-04-11</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/3833</pubPlace>
+                <date>2021</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">61</biblScope>
+                <biblScope unit="issue">2</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Josip Lavtižar, history</term>
+                    <term>19<hi rend="superscript">th</hi> century</term>
+                    <term>newspapers</term>
+                    <term>mountaineering</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>Josip Lavtižar</term>
+                    <term>zgodovina</term>
+                    <term>19. stoletje</term>
+                    <term>časopisi</term>
+                    <term>planinstvo</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2021-10-19</date>
+                    <name>Mihael Ojsteršek</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Marija Mojca Peternel<note place="foot" xml:id="ftn1" n="*">
+                    <hi rend="bold">Doc., dr. zgodovine, Oddelek za germanistiko z nederlanistiko in
+                        skandinavistiko, Filozofska fakulteta, Aškerčeva 2, SI–1000 Ljubljana;
+                        mojca.peternel@guest.arnes.si</hi></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="DOI">doi: https://doi.org/10.51663/pnz.61.2.02</idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">Prispevek želi osvetliti bogato zapuščino potopisca,
+                        zgodovinarja, glasbenika in duhovnika Josipa Lavtižarja, pri čemer je
+                        poseben poudarek namenjen njegovemu delovanju na planinskem področju. Ob
+                        170. obletnici rojstva je obujanje spomina na to dragoceno dediščino več kot
+                        potrebno, saj je v današnjem slovenskem prostoru premalo poznana. Zdi se
+                        namreč, da je ohranjanje spomina na Lavtižarjeva prizadevanja živo samo še v
+                        občini njegovega rojstva in delovanja, v širšem slovenskem prostoru pa kljub
+                        široki zapuščini ostaja prezrt. </hi></p>
+                <p><hi rend="italic">Ključne besede: Josip Lavtižar, zgodovina, 19. stoletje,
+                        časopisi, planinstvo</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head>A FEW FRAGMENTS FROM JOSIP LAVTIŽAR’S RICH HERITAGE</head>
+                <p><hi rend="italic">The following paper aims to shed light on the rich legacy of the thinker,
+                    historian, musician, and priest Josip Lavtižar. It places a particular emphasis
+                    on his work in the mountainous area. On the 170th anniversary of his birth, it
+                    is more than necessary to remember his precious heritage, especially as he is
+                    not known enough in Slovenia today. It seems that the preservation of the memory
+                    of Lavtižar’s efforts is alive virtually only in the municipality of his birth
+                    and work, while in the broader Slovenian territory, he remains ignored.</hi></p>
+                <p><hi rend="italic">Keywords: Josip Lavtižar, history, 19</hi><hi
+                        rend="italic superscript">th</hi><hi rend="italic"> century, newspapers,
+                        mountaineering</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>Uvod</head>
+                <lg type="quote"><l>»… če bi bil preblizu, bi se lahko opekel«. <note
+                    place="foot" xml:id="ftn2" n="1">Josip Lavtižar, <hi rend="italic"
+                        >Spomini</hi> (Ljubljana: Jugoslovanska tiskarna, 1926), 99.</note></l></lg>
+                <p>Citirane Lavtižarjeve<note place="foot" xml:id="ftn3" n="2">Josip Lavtižar (* 12.
+                        12. 1851, Kranjska Gora; † 20. 11. 1943, Rateče), potopisec, zgodovinar,
+                        glasbenik, duhovnik. − <hi rend="italic">Slovenski biografski leksikon</hi>,
+                            <ref target="https://www.slovenska-biografija.si"
+                            >https://www.slovenska-biografija.si</ref>, pridobljeno 20. 3.
+                        2020.</note> besede se navezujejo na njegovo življenje oziroma delovanje v
+                    Ratečah, ki je bilo torej daleč stran od središča takratne Kranjske. Za uvodno
+                    navedbo so se zdele primerne predvsem zato, ker je prav oddaljenost verjetno
+                    eden izmed glavnih razlogov za njegovo današnjo neprepoznavnost. Zdi se namreč,
+                    da so sledi vsestransko aktivnega Josipa Lavtižarja v širšem slovenskem prostoru
+                    precej prezrte. Pestra zapuščina in aktivno delovanje sta prva vzgiba, da se ga
+                    ob 170. obletnici rojstva spomnimo z nekaj vrsticami. Njegovo široko delovanje
+                    in posledično bogato zapuščino bi težko zajeli samo z enim prispevkom, zato naj
+                    tokratni osvetli njen ozki del, v katerim bi še posebno poudarili akcije na
+                    področju planinstva, katerih sledi so vidne še danes.</p>
+                <p>Kako je njegov svetovljanski duh sicer gledal na kraj službovanja, lepo
+                    ponazarjajo naslednje besede: »Na visokem Gorenjskem, kjer je vodna meja med
+                    Savo in Dravo, stoji 868 metrov nad morsko gladino precej zanemarjena slovenska
+                    vas Rateče, ki broji 130 hišnih številk. Kraj ima svojo župnijo in občino ter
+                    blizu 1000 duš. Ljudstvo je rod živinorejcev in pastirjev, dokaj nedostopno
+                    napredku, nezaupno vsaki novejši ideji, držeče se starih podedovanih dobrih in
+                    slabih navad, kratko: nekaka posebnost v kulturnem oziru glede običajev, noše in
+                    govorjenja. Dobro je za take ljudi, ki se za same lepe besede ne zmenijo veliko,
+                    da jih predrami včasih kak večji naval iz vsakdanjega življenja ter jim da
+                    nekoliko več pojma o narodni zavesti.«<note place="foot" xml:id="ftn4" n="3">
+                        Josip Lavtižar, »Planica,« <hi rend="italic">Planinski vestnik</hi>, 25. 10.
+                        1899, 157.</note>
+                </p>
+                <p>Čeprav brez želje po primerjavi našega protagonista z drugimi takratnimi
+                    kulturno-umetniškimi ustvarjalci ali pomembnimi gorohodci se je pri raziskovanju
+                    njegove dediščine kar sama ponudila misel, da je razlog za Lavtižarjevo
+                    neprepoznavnost poleg oddaljenosti od središča dogajanja tudi v dejstvu, da je
+                    deloval v globoki senci znanega župnika sosednje, dovške fare.<note place="foot"
+                        xml:id="ftn5" n="4">Jakob Aljaž (* 6. 6. 1845, Zavrh pod Šmarno goro; † 4.
+                        5. 1927, Dovje), duhovnik, organizator planinstva, skladatelj. − <hi
+                            rend="italic">Slovenski biografski leksikon</hi>,
+                        <ref target="https://www.slovenska-biografija.si">https://www.slovenska-biografija.si</ref>, pridobljeno 20. 3. 2020.</note> Lahko
+                    bi zapisali, da po krivci, saj je njegova zapuščina glede na zapise v vzajemnem
+                    biografskem sistemu<note place="foot" xml:id="ftn6" n="5">
+                        <hi rend="italic">Vzajemni biografski sistem</hi>, <ref target="https://www.cobiss.si/">https://www.cobiss.si/</ref>,
+                        pridobljeno 3. 4. 2021.</note> vsaj takšna, predvsem pa pestrejša kot
+                    zapuščina Jakoba Aljaža. Kakorkoli, primerjava med obema ni bila niti načrtovana
+                    niti ne bi bila smiselna. Že res, da sta bila oba vaška župnika, a so delovanje
+                    rateškega močno zaznamovala številna potovanja po Evropi in tudi zunaj nje.</p>
+                <p>Tem dejstvom navkljub se zdi, da spomin na Lavtižarjeve dosežke živi le znotraj
+                    rojstne občine. Njegovo ime nosi kranjskogorsko kulturno-prosvetno društvo, ki v
+                    občini Kranjska Gora vsako leto prireja tradicionalne Lavtižarjeve dneve,
+                    posvečene kulturi. V občini nanj spominjata še dva doprsna kipa, pred cerkvijo v
+                    Kranjski Gori in pred cerkvijo v Ratečah.</p>
+            </div>
+            <div>
+                <head>Kratek oris Lavtižarjeve zapuščine</head>
+                <p>Pregled zapisov v vzajemnem biografskem sistemu odraža vsebinsko širok spekter
+                    več kot 30 avtorskih del Josipa Lavtižarja, ki so bila večinoma izdana v
+                        samozaložbi.<note place="foot" xml:id="ftn7" n="6">
+                            <hi rend="italic">Vzajemni biografski sistem</hi>, <ref target="https://www.cobiss.si/">https://www.cobiss.si/</ref>,
+                        pridobljeno 3. 4. 2021.</note> To kaže tudi na to, da je večino prihodkov
+                    namenil ne le potovanjem, ampak predvsem tisku svojih del.</p>
+                <p>Kljub razmeroma velikemu številu izdanih del je zanimivo, da je bil razen omemb v
+                        <hi rend="italic">Slovenskem biografskem leksikonu</hi>, geselskemu sestavku
+                    v <hi rend="italic">Enciklopediji Slovenije</hi><note place="foot" xml:id="ftn8"
+                        n="7">Olga Janša Zorn, »Lavtižar Josip,« v<hi rend="italic">: Enciklopedija
+                            Slovenije,</hi> 6 (Ljubljana: Mladinska knjiga, 1992), 14.</note> in v
+                    monografiji o znamenitih Slovencih<note place="foot" xml:id="ftn9" n="8"> Marko
+                        Benedik, Maksimiljan Jurij File in Janez Mlinar, <hi rend="italic">Naši
+                            znameniti rojaki</hi> (Kranjska Gora: Župnijski urad, 2008). Marko
+                        Benedik, <hi rend="italic">Josip Lavtižar, [duhovnik, skladatelj,
+                            zgodovinar, potopisec]</hi> (Kranjska Gora, Rateče in Planica: Župnijski
+                        urad, 1993).</note> le malokdaj predmet (znanstvenih) razprav,<note
+                        place="foot" xml:id="ftn10" n="9">Nekaj del: Marko Benedik, »Josip
+                        Lavtižar,« <hi rend="italic">Mohorjev koledar </hi>(2003), 234−37. Janez
+                        Mlinar, »Josip Lavtižar: (1851−1943),« <hi rend="italic">Zgornjesav'c:
+                            priloga Gorenjskega glasa za vse občanke in občane v občini Kranjska
+                            Gora</hi>, 6 ( 2008) : 12 . Ivan Virnik, » Rateški župnik Josip Lavtižar
+                        (1851−1943),« <hi rend="italic">Družina in dom: dvomesečnik Mohorjeve družbe
+                            Celovec</hi>, 9 (1996): 11. Franc Križnar, »Duhovnik, potopisec in
+                        zgodovinar Josip Lavtižar (1851−1943) je bil tudi glasbenik in skladatelj,«
+                        v: <hi rend="italic">Jeseniški zbornik</hi>, 12 (Jesenice: Muzejsko društvo
+                        Jesenice, 1992), 432−49.</note> posvečenih pa mu je še nekaj diplomskih
+                        del.<note place="foot" xml:id="ftn11" n="10">Naj izmed devetih diplomskih
+                        nalog omenim Karmen Sluga, Josip Lavtižar (diplomska naloga, Kranjska
+                        Gora, 2006).</note>
+                </p>
+                <p>Da je bil naš protagonist človek s širokim spektrom zanimanja, predvsem pa
+                    delovanja, dokazuje (izvirno) besedilo v <hi rend="italic">Slovenskem
+                        biografskem leksikonu</hi> iz leta 1932. V zapisu, ki je torej nastal še med
+                    Lavtižarjevim življenjem, je označen kot potopisec, zgodovinar, glasbenik in
+                    duhovnik. <note place="foot" xml:id="ftn12" n="11">
+                        <hi rend="italic">Slovenski biografski leksikon</hi>, <ref
+                            target="https://www.slovenska-biografija.si/iskanje/?q=josip+lavti%C5%BEar"
+                            >https://www.slovenska-biografija.si/iskanje/?q=josip+lavti%C5%BEar</ref>,
+                        pridobljeno 3. 4. 2021.</note> Morda celo v tem zaporedju, saj ga v
+                    nadaljevanju uvršča med Slovence, ki so »največ in najdalje potovali«.<note
+                        place="foot" xml:id="ftn13" n="12"> Ibidem.</note> Da se ni peljal le v
+                    deželno središče in leta 1877, ko ga najdemo na seznamu gostov hotela Slon,
+                        <note place="foot" xml:id="ftn14" n="13">
+                        <hi rend="italic">Laibacher Tagblatt</hi>, 14. 7. 1877, 5.</note> tam
+                    nočeval, dokazujejo številna potopisna dela<note place="foot" xml:id="ftn15"
+                        n="14">Na primer Josip Lavtižar, <hi rend="italic">V Kartago!: potopis s
+                            tremi podobami </hi>(Ráteče-Planíca: samozal., 1930). Josip Lavtižar,
+                            <hi rend="italic">Med romanskimi národi: popotni spomini iz Italije,
+                            Španije, Francije in Švice </hi>(V Ljubljani: samozal., 1901). Josip
+                        Lavtižar, <hi rend="italic">V petih letih okrog sveta: 1914</hi>−<hi
+                            rend="italic">1919</hi> (Rateče-Planica: samozal. J. Lavtižar,
+                        1924).</note> in prispevki, objavljeni v različnih časopisih.<note
+                        place="foot" xml:id="ftn16" n="15">Na primer Josip Lavtižar, »Jerusalem,«
+                            <hi rend="italic">Kriegszeitung</hi>, 16. 1. 1918, 4−6. Josip Lavtižar,
+                        »Onstran baltiškega morja,« <hi rend="italic">Dom in svet</hi>, 1906, 32−38,
+                        111−13, 175−78, 234−39, 305−09, 357−64, 430−39, 484−91, 551−60, 626−30,
+                        689−98.</note></p>
+                <p>Vsebinsko njegova dela prepletajo različne teme, takšen primer je delo <hi
+                        rend="italic">Razgledi po domovini</hi> iz leta 1941.<note place="foot"
+                        xml:id="ftn17" n="16">Josip Lavtižar, <hi rend="italic">Razgled po
+                            domovini</hi> (Rateče-Planica: [samozal.] M. Pintbah, 1941).</note>
+                    Urednik revije <hi rend="italic">Misli</hi> pater Bernard Ambrožič<note
+                        place="foot" xml:id="ftn18" n="17"> Bernard Ambrožič (* 20. 4. 1892, Gabrje;
+                        † 23. 10. 1973, Sydney), duhovnik, urednik, književnik. − <hi rend="italic"
+                            >Slovenski biografski leksikon</hi>,
+                        <ref target="https://www.slovenska-biografija.si/oseba/sbi1000420/">https://www.slovenska-biografija.si/oseba/sbi1000420/</ref>, pridobljeno 3. 4.
+                        2021.</note> ga je pospremil z naslednjimi besedami: »Josip Lavtižar, župnik
+                    v Ratečah na Gorenjskem, je v svoji knjigi RAZGLED PO DOMOVINI, izdani leta
+                    1941, zanimivo popisal svojo božjo pot na Svete Višarje tik ob izbruhu vojne med
+                    Avstrijo in Italijo. Ob 600 letnici Višarij je to prav zanimivo branje.«<note
+                        place="foot" xml:id="ftn19" n="18">Josip Lavtižar, »Na svetih Višarjih leta
+                        1915,« <hi rend="italic">Misli</hi> 9 (1960): 258.</note></p>
+                <p>V okviru zgodovinske tematike<note place="foot" xml:id="ftn20" n="19">Na primer
+                        Josip Lavtižar, <hi rend="italic">Naši zaslužni možje</hi> (Jesenice:
+                        Tiskarna A. Blažej, 1942 [i. e. 1944]).</note> sta ga zanimali preteklost
+                    zvonov in Gorenjska,<note place="foot" xml:id="ftn21" n="20"> Na primer Josip
+                        Lavtižar, <hi rend="italic">Zgodovina župnij in zvonovi v dekaniji
+                            Radolica</hi> (V Ljubljani: pisatelj, 1897).</note> dela so nastala tudi
+                    kot posledica brskanja po arhivih. »Z izredno gorečnostjo je gosp. Lavtižar
+                    začel obdelovati kranjsko cerkveno zgodovino« v delu <hi rend="italic">Cerkve in
+                        zvonovi v dekaniji Kranj</hi>.<note place="foot" xml:id="ftn22" n="21">
+                        Josip Lavtižar, <hi rend="italic">Cerkve in zvonovi v dekaniji Kranj</hi> (V
+                        Ljubljani: pisatelj, 1901).</note> Po mnenju A. K. (verjetno Antona
+                        Koblarja<note place="foot" xml:id="ftn23" n="22">Anton Koblar (* 12. 6.
+                        1854, Železniki; † 9. 8. 1928, Kranj), zgodovinar, politik. − <hi
+                            rend="italic">Slovenski biografski leksikon,</hi>
+                            <ref target="https://www.slovenska-biografija.si">https://www.slovenska-biografija.si</ref>, pridobljeno 12. 4. 2021.</note>) je
+                    avtor v 312 strani obsegajoči knjigi »podal nov dokaz svojega truda«. Po
+                    njegovih besedah je bil Lavtižarjev namen sicer opisati zvonove kranjskega
+                    dekanata, a je to razširil v zgodovino dotičnih cerkva. Kljub temu da Lavtižar
+                    ni porabil arhivskega materiala večjih arhivov, je vendarle vestno izrabil del
+                    starega škofijskega arhiva v Ljubljani, zlasti vizitacijski zapisnik iz leta
+                    1631, in nekatere župnijske arhive, tako da je slika precej popolna. Ker je vsem
+                    zvonovom v dekanatu natanko določil glasove, ima po mnenju A. K. knjiga tudi
+                    praktično vrednost.<note place="foot" xml:id="ftn24" n="23">K. A., »Cerkvena
+                        Književnost,« <hi rend="italic">Dom in svet</hi> 2, 1912, 115.</note>
+                    Začetna naklonjenost zapisa se je postopoma spremenila v precej natančno kritiko
+                    Lavtižarjeve knjige, ki se je na koncu vendarle izpela v naklonjenosti:
+                    »Nadejamo se, da bode g. Lavtižar z vnemo opisal v kratkem še kaj drugih
+                    dekanatov in tako podal doneskov k zgodovini ljubljanske škofije tudi v onih
+                    krajih, kjer se je doslej storilo za preiskavo naše starine še manj kakor v
+                    kranjskem dekanatu.«</p>
+                <p>Lavtižarjevi zgodovinski izsledki so bili očitno ne le znani, ampak tudi
+                    verodostojni, saj so se nanj sklicevali drugi pisci takšnih besedil. Tako se je
+                    na delo <hi rend="italic">Zgodovina županij in zvonovi dekanij</hi><note
+                        place="foot" xml:id="ftn25" n="24">Josip Lavtižar, <hi rend="italic"
+                            >Zgodovina župnij v dekaniji Kranj </hi>(V Ljubljani: pisatelj,
+                        1898).</note> skliceval zgodovinar in časnikar Peter Radics<note
+                        place="foot" xml:id="ftn26" n="25"> Peter Radics (* 26. 9. 1836, Postojna; †
+                        24. 9. 1912, Ljubljana), zgodovinar in časnikar. − <hi rend="italic"
+                            >Slovenski biografski leksikon,</hi>
+                            <ref target="https://www.slovenska-biografija.si">https://www.slovenska-biografija.si</ref>. pridobljeno 12. 4. 2021.</note> v
+                    zapisu Bischof, Krieger, Staatsmann Christopf von Rauber (1466–1536), ki ga je
+                    objavila <hi rend="italic">Österreichisch–ungarische Revue</hi>.<note
+                        place="foot" xml:id="ftn27" n="26">Peter Radics, »Bischof, Krieger,
+                        Staatsmann Christopf von Rauber (1466−1536),« <hi rend="italic"
+                            >Österreichisch–ungarische Revue</hi>, 27 (1901): 38−48. Sklici na
+                        Lavtižarja so na straneh 40, 44.</note> Nanj se je denimo skliceval tudi
+                    etnolog in literarni zgodovinar Ivan Grafenauer <note place="foot"
+                        xml:id="ftn28" n="27">Ivan Grafenauer (* 7. 3. 1880, Velika vas (Šmohor); †
+                        29. 12. 1964, Ljubljana), etnolog in literarni zgodovinar. − <hi
+                            rend="italic">Slovenski biografski leksikon</hi>,
+                        <ref target="https://www.slovenska-biografija.si/oseba/sbi1000420/">https://www.slovenska-biografija.si/oseba/sbi1000420/</ref>, pridobljeno 3. 4.
+                        2021.</note> v prispevku Die Reichweite der Urpfarre Maria Gail im Süden, ki
+                    je bil objavljen v <hi rend="italic">Carintii</hi> 1 leta 1957.<note
+                        place="foot" xml:id="ftn29" n="28">Ivan Grafenauer, »Die Reichweite der
+                        Urpfarre Maria Gail im Süden,« v: <hi rend="italic">Carintia I</hi> 147
+                        (1957): 261−74. Sklic na Lavtižarja je na strani 265.</note> Zgodovinsko
+                    obarvani so bili tudi Lavtižarjeve povesti<note place="foot" xml:id="ftn30"
+                        n="29">Naj omenim le nekatere: Josip Lavtižar, <hi rend="italic">Junaška
+                            doba Slovencev: zgodovinska povest iz 15. stoletja: godi se na
+                            Gorenjskem ob času turških vpadov</hi> (Kranj: Tiskovno društvo, 1936).
+                        Josip Lavtižar, <hi rend="italic">Lipniški grad pri Radovljici: zgodovinska
+                            povest iz 14. in 15. stoletja</hi> (Radovljica: Radovljiško prosvetno
+                        društvo, 1939). Josip Lavtižar, <hi rend="italic">Bled in Briksen:
+                            zgodovinska povest iz 17. stoletja</hi> (Ljubljana: pisatelj, 1931).
+                        Josip Lavtižar, <hi rend="italic">Šentjoški gospod Šimen in njegovi
+                            sodobniki: zgodovinska povest iz 18. stoletja</hi> (Ráteče-Planica na
+                        Gorenjskem: pisatelj, 1938).</note> in življenjepisi znanih mož.<note
+                        place="foot" xml:id="ftn31" n="30">Josip Lavtižar, <hi rend="italic">Primož
+                            Trubar: verska slika našega naroda iz 16. stoletja</hi> (Ráteče-Planíca
+                        na Gorenjskem: pisatelj, 1935).</note>
+                </p>
+                <p>Svoja potopisna dognanja je uporabil v dramah,<note place="foot" xml:id="ftn32"
+                        n="31"> Josip Lavtižar, <hi rend="italic">Ne v Ameriko!: izvirna ljudska
+                            igra v štirih dejanjih</hi> (V Ljubljani: založil pisatelj,
+                        1911).</note> z glasbenega področja so znana notna gradiva,<note
+                        place="foot" xml:id="ftn33" n="32"> Josip Lavtižar, <hi rend="italic"
+                            >Dvanajst Marijinih pesmi [Glasbeni tisk]: za ljudsko petje ali mešani
+                            zbor</hi> (Ráteče-Planica: samozal., 1930).</note> ustvarjal pa je tudi
+                        librete,<note place="foot" xml:id="ftn34" n="33">Josip Lavtižar, <hi
+                            rend="italic">Mlada Breda: besedilo k opereti</hi> (Rateče-Planíca:
+                        samozal., 1926).</note> spevoigre<note place="foot" xml:id="ftn35" n="34"
+                        >Josip Lavtižar, <hi rend="italic">Darinka [Glasbeni tisk]: romantična
+                            spevoigra v 3 dejanjih</hi> (Rateče-Planica: samozaložba, 1929).</note>
+                    in celo operete.<note place="foot" xml:id="ftn36" n="35"> Kot na primer Josip
+                        Lavtižar, <hi rend="italic">Adam Ravbar [Glasbeni tisk]: opereta v štirih
+                            dejanjih</hi> (Rateče-Planica: samozal., 1928). Josip Lavtižar, <hi
+                            rend="italic">Grof in opat [Glasbeni tisk]: opereta v dveh dejanjih</hi>
+                        (Rateče-Planica: samozal., 1927).</note> Prav glasbeni prispevki so poleg
+                    potopisnih del ime Josipa Lavtižarja ponesli daleč čez meje rateške župnije. O
+                    njem se je bralo v avstrijskih časopisih, njegove pesmi so poslušali v koroških
+                        cerkvah,<note place="foot" xml:id="ftn37" n="36">»Kirchliche Nachrichten,«
+                            <hi rend="italic">Kärntner Zeitung</hi>, 17. 9. 1902, 6. V kraju Maria
+                        Saal je bil koncert, na katerem so igrali Lavtižarjevo Offertorium: Beate es
+                        virgo Maria.</note> njegove veseloigre pa tudi na ljubljanskem radiu, o
+                    čemer so vedeli tudi bralci dunajske radijske postaje <hi rend="italic"
+                        >Radio-Wien</hi>.<note place="foot" xml:id="ftn38" n="37">»Laibach,« <hi
+                            rend="italic">Radio-Wien</hi>, 31. 1. 1932, 55.</note></p>
+            </div>
+            <div>
+                <head>Lavtižarjevo delovanje na planinskem področju</head>
+                <lg>
+                    <l>»Kedo bi pač se ne zavzel</l>
+                    <l>O čaroviti tej lepoti,</l>
+                    <l>Kako naj duše čut vesel</l>
+                    <l>O čudu tem se ne poloti.«<note place="foot"
+                        xml:id="ftn39" n="38">N. A., »Otvoritev zavetišča v Planici in izlet
+                        Slovenskega planinskega društva,« <hi rend="italic">Slovenski narod</hi>, 5.
+                        9. 1899, nepaginirano.</note></l>
+                </lg>
+                <p>Lavtižarjev prispevek na področju planinstva, zlasti na območju planiške doline,
+                    še zdaleč ni zanemarljiv, a je pogosto ostal v senci Aljaževih prizadevanj v
+                    triglavskem območju.<note place="foot" xml:id="ftn40" n="39">O tem tudi Peter
+                        Mikša, »Da je Triglav ostal v slovenskih rokah, je največ moja zasluga«:
+                        Jakob Aljaž in njegovo planinsko delovanje v Triglavskem pogorju,« <hi
+                            rend="italic">Zgodovinski časopis </hi>69, št. 1-2 (2015):
+                        112−23.</note> Pravzaprav razumljivo, saj so se prizadevanja dovškega
+                    župnika dotikala najvišjega slovenskega vrha, ki je postal tudi simbol
+                    slovenstva. Kljub temu pa to ne bi smel biti razlog, da Lavtižarjeva dejanja za
+                    popularizacijo planiškega območja zatonejo v pozabo, na kar je konec koncev
+                    opozarjal že sam. Lavtižar in Aljaž sta se namreč kar pogosto »prepirala« glede
+                    pomembnosti omenjenih območij, kar je ob smrti dovškega župnika tudi zapisal:
+                    »Sedaj je prekinjena tudi najina dolgoletna pravda, ki je bila sem in tja precej
+                    živahna, pa vendar ni zahtevala ne odvetnikov in ne stroškov. Pravda namreč,
+                    katera dolina ima prednost: ali Vrata pod Triglavom ali Planica pri izviru Save
+                    Dolinke? Ti si imel več pristašev za Vrata nego jaz za Planico. Pravde nisva
+                    mogla končati zaradi tvoje smrti. Naj rešujejo to vprašanje tisti, ki pridejo za
+                        nama.«<note place="foot" xml:id="ftn41" n="40">Josip Lavtižar, <hi
+                            rend="italic">Razgled po domovini</hi> (Rateče-Planica: [samozal.] M.
+                        Pintbah, 1941), 184.</note>
+                </p>
+                <p>Omenjeni dolini sta si po eni strani precej podobni, saj se na njunih koncih
+                    človek zaleti v strme navpične stene, a vendar sta si po drugi strani precej
+                    različni. Dolina Vrat ima več izhodišč za planinske ture, ki so namenjene tudi
+                    »običajnim« gornikom, medtem ko so na koncu planiške doline večinoma izhodišča
+                    za poti z oznako »zelo zahtevna označena pot«,<note place="foot" xml:id="ftn42"
+                        n="41">
+                        <hi rend="italic">Vse o hribih,</hi>
+                        <ref target="https://www.hribi.net/">https://www.hribi.net/</ref>,
+                        pridobljeno 3. 4. 2021.</note> ki so torej primerne le za precej izkušene
+                    planince.</p>
+                <p>Kmalu po tem, ko je leta 1896 začel službovati v Ratečah, se je Lavtižar močno
+                    angažiral pri vzpostavitvi poti do Nadiže. Ob njeni otvoritvi je nastal dopis z
+                    naslovom <hi rend="italic">Otvoritev poti k Nadiži v krasni dolini Planici</hi>,
+                    ki ga je objavil <hi rend="italic">Planinski vestnik, </hi>spisal pa neznani
+                    avtor. Po njegovih besedah je z odprtjem poti postal dostopen izvir Save Dolinke
+                    in avtor si resnično želi, da ga bodo v prihodnje večkrat obiskali domačini in
+                    tujci. Dopis se konča z zahvalo tamkajšnjemu župniku: »Bila je lepa slavnost,
+                    polna navdušenja za našo prekrasno domovino. Hvala in slava prav vsem, ko so jo
+                    kakorkoli poveličali! Zlasti pa bodi zahvaljen dični gosp. župnik Lavtižar, ki
+                    je razodel divno lepoto naše Planice in olahkotil pot vanjo in do izvirka
+                    Nadiže, Save Dolinke!«<note place="foot" xml:id="ftn43" n="42">N. A., »Izlet v
+                        Planico,« <hi rend="italic">Planinski vestnik</hi>, 25. 9. 1899,
+                    147.</note></p>
+                <p>Na koncu omenjene doline je bilo slabo leto kasneje spet precej slovesno. Odprt
+                    je bil namreč dom v Tamarju, kar je v takratnih časopisih našlo kar nekaj
+                    odmeva. Slovesnosti so se udeležili mnogi znani člani takratnega Slovenskega
+                    planinskega društva, denimo dr. Bleiweis Vitez Trsteniški,<note place="foot"
+                        xml:id="ftn44" n="43">Janez Bleiweis (* 19. 9. 1808, Trstenik; † 29. 9.
+                        1881, Ljubljana), zdravnik, časnikar, publicist, politik. − <hi
+                            rend="italic">Slovenski biografski leksikon,</hi>
+                        <ref target="https://www.slovenska-biografija.si"
+                            >https://www.slovenska-biografija.si</ref>, pridobljeno 5. 4.
+                        2021.</note> deželni poslanec Višnikar,<note place="foot" xml:id="ftn45"
+                        n="44">France Višnikar (* 23. 2. 1848, Brezovo; † 5. 2. 1914, Ljubljana),
+                        pravnik, sodnik, deželni poslanec. − <hi rend="italic">Slovenski biografski
+                            leksikon,</hi>
+                        <ref target="https://www.slovenska-biografija.si"
+                            >https://www.slovenska-biografija.si</ref>, pridobljeno 5. 4.
+                        2021.</note> deželni sodni svetnik Andolšek in še nekateri drugi ter več <hi
+                        rend="italic">letoviščnikov</hi> iz Kranjske Gore in Podkorena. Avtorju se
+                    je zdelo pomembno omeniti, da so na slovesnost prišli obiskovalci iz Egipta in
+                    takratnega Petrograda.<note place="foot" xml:id="ftn46" n="45">N. A., »Otvoritev
+                        zavetišča v Planici in izlet 'Slovenskega planinskega društva'«, <hi
+                            rend="italic">Slovenski narod,</hi> 5. 9. 1899, nepaginirano.</note>
+                    Neznani avtor novice, objavljene v osrednjem časopisu <hi rend="italic"
+                        >Laibacher Zeitung</hi>, je tamkajšnjemu župniku namenil kar nekaj toplih
+                    besed, med drugim je pohvalil Lavtižarjevo prizadevanje, da so obiskovalci lahko
+                    slišali zvenenje zvona iz leta 1521. <note place="foot" xml:id="ftn47" n="46">N.
+                        A., »Das Planicafest,« <hi rend="italic">Laibacher Zeitung</hi>, 5. 9. 1899,
+                        1611.</note>
+                </p>
+                <p>Najbolj izčrpno pa je o tej slovesnosti poročal <hi rend="italic">Slovenski
+                        narod</hi> v novici o otvoritvi »zavetišča v Planici in izletu Slovenskega
+                    društva«. Preden se posvetimo vsebini, morda še nekaj besed o naslovih,
+                    povezanih s tem dogodkom. Vidimo namreč, da se v njih po pravilu pojavlja ime
+                    Planica, in ne dolina Tamar. Ime celotne doline je še danes Planica, Tamar je
+                    samo zatrep doline, kjer so imeli tamarje, to je »ograjen prostor, v katerega se
+                    zapira živina«,<note place="foot" xml:id="ftn48" n="47">
+                        <hi rend="italic">Slovar slovenskega knjižnega jezika,
+                        </hi><ref target="https://fran.si/iskanje?View=1&amp;Query=tamar">https://fran.si/iskanje?View=1&amp;Query=tamar</ref>, pridobljeno 10. 4.
+                        2021. Naj se tukaj iskreno zahvalim izr. prof. dr. Janezu Mlinarju za vse
+                        nesebične nasvete, pomoč in napotke.</note> in kjer je planinski dom.</p>
+                <p>Če se vrnemo k vsebini zapisa v <hi rend="italic">Slovenskem narodu</hi>,
+                    preberemo, da je domači župnik turiste toplo sprejel, mašo pa pod milim nebom
+                    zaradi dežja ni mogel darovati: »Vrlemu možu, ki hrani v sebi idealno ljubezen
+                    do naših gora in posebej do Planice, dovolil je knezoškofijski ordinarijat, da
+                    daruje na konci doline sv. mašo. Ker pa so baš takrat rosile zadnje kaplje
+                    dežja, opravil je daritev v novi kočici in se je ista precej ta dan izkazala kot
+                    imenitno zavetišče.«<note place="foot" xml:id="ftn49" n="48">N. A., »Otvoritev
+                        zavetišča v Planici in izlet 'Slovenskega planinskega društva',« <hi
+                            rend="italic">Slovenski narod,</hi> 5. 9. 1899, nepaginirano.</note></p>
+                <p>Na srečo se je po opravljenih slovesnostih vreme razjasnilo in okoli sto
+                    udeležencev se je precej zabavalo: »To je bilo vrvenje! Izpod vsake smreke
+                    prihajale so po dežji cele trume; ti so hiteli k slapu, oni podpisavat se v
+                    kočo, tretji k pevcem ali h godbi, zopet drugi pisali so strastno po mizah
+                    razglednice, ki jih je založila radovljiška podružnica. Največ pa jih je
+                    moledovalo okolo gostilničarja g. Jalena, ki kljubu veliki množici postrežnic ni
+                    mogel vseh hkrati zadovoljiti. […] Vmes pa je ubrano pel blejski pevski zbor, in
+                    nastopili so tudi radovljiški pevci.«<note place="foot" xml:id="ftn50" n="49"
+                        >Ibid.</note></p>
+                <p>Lavtižarjev pogled na odprtje koče v Tamarju je objavil <hi rend="italic"
+                        >Planinski vestnik</hi> mesec dni po slovesnosti.<note place="foot"
+                        xml:id="ftn51" n="50">Josip Lavtižar, »Planica,« <hi rend="italic">Planinski
+                            vestnik</hi>, 25. 10. 1899, 157.</note> Uvodoma se je pomudil pri že
+                    navedenem opisu kraja, pri čemer je poudaril, da se tamkajšnji prebivalci niso
+                    mogli nagledati tujih izletnikov in se načuditi njihovemu številu. Sledila sta
+                    opis že znanih slovesnosti in razmislek o udeležencih, pri čemer je domačine
+                    ponovno omenil: »Tudi rateški pastirji so imeli ta dan praznično obleko, katere
+                    nimajo ves čas svojega bivanja v planinah, ter strmeč gledali, kaj vse to
+                    pomeni.« <note place="foot" xml:id="ftn52" n="51">Ibid., 158.</note> V zvezi z
+                    udeleženci je zanimiv neki drug zapis v <hi rend="italic">Planinskem
+                        vestniku</hi>, v katerem med vrsticami med drugim lahko preberemo, na kakšen
+                    način so ti prišli k slovesnosti: »Le prehitro je prišel čas, ko smo se morali
+                    ločiti, kolesarji na levo proti Kranjski gori, drugi na vozovih na desno na
+                    kolodvor v Rateče.«<note place="foot" xml:id="ftn53" n="52">N. A., »Otvoritev
+                        poti k Nadiži,« <hi rend="italic">Planinski vestnik</hi>, 25. 10. 1898,
+                        159.</note>
+                </p>
+                <p>Sledi Lavtižarjevih prizadevanj za odprtje planiške doline so zagotovo vidne še
+                    danes. Pri tem ne mislimo le na dom v Tamarju, v katerem se sodobni gorohodci
+                    lahko okrepčajo. Gre v prvi vrsti za sloves doline Planice, ki jo danes zaradi
+                    modernega športnega centra, predvsem pa organizacije odmevnih športnih
+                    prireditev poznajo po celem svetu.</p>
+            </div>
+            <div>
+                <head>Primer Johanne (Ivane) Stein</head>
+                <p>Zapisali smo že, da je Josipa Lavtižarja poznala bralna publika takratnih
+                    avstrijskih časopisov, ki so izhajali na Koroškem in celo na Dunaju. Pri branju
+                    teh je pozornost vzbudila Öffentliche Danksagung, ki jo je proti koncu septembra
+                    1899 objavila <hi rend="italic">Neue Freie Presse</hi>.<note place="foot"
+                        xml:id="ftn54" n="53">Fanny Stein, »Öffentliche Danksagung,« <hi
+                            rend="italic">Neue Freie Presse</hi>, 22. 9. 1899, 3.</note> V javni
+                    zahvali se je Fanny Stein lepo zahvalila Slovenskemu alpskemu društvu in tudi
+                    rateškemu župniku za pomoč pri reševanju njene sestre. Pri nadaljnjem branju
+                    časopisov takratnega osrednjega slovenskega prostora se je izkazalo, da je šlo
+                    za primer, ki so ga v že omenjenih časopisnih člankih večkrat omenjali. Razlog
+                    za to je morda tudi dejstvo, da je obisk gora v tistem času vendarle še veljal
+                    za precej moško domeno.<note place="foot" xml:id="ftn55" n="54">Več o tem Marija
+                        Mojca Peternel, <hi rend="italic">Knjige za gorohodce</hi> (Ljubljana:
+                        Filozofska fakulteta, 2020), 90, <ref
+                            target="https://doi.org/10.4312/9789610603962"
+                            >https://doi.org/10.4312/9789610603962</ref>. Peter Mikša in Maja Vehar,
+                            »Telovadba, šport in ženske na Slovenskem: čas do
+                            1. svetovne vojne,« <hi rend="italic">Retrospektive: znanstvena
+                            revija za zgodovinopisje in sorodna področja</hi> 1 (2018):
+                        10−38.</note></p>
+                <p>Še najbolj izčrpen dopis neznanega avtorja o nesrečni planinki je konec septembra
+                    objavil <hi rend="italic">Planinski vestnik</hi> v rubriki <hi rend="italic"
+                        >Društvene vesti</hi>.<note place="foot" xml:id="ftn56" n="55">N. A.,
+                        »Nesreča na Ponci,« <hi rend="italic">Planinski vestnik,</hi> 25. 9. 1899,
+                        148, 149.</note> Ivana Stein, 57-letna dunajska učiteljica je že večkrat
+                    dopustovala v Ratečah. Šlo je za krepko in zdravo, zelo izobraženo žensko,
+                    dobrega srca, a kot piše avtor tudi sila živčno. Del prisluženega denarja je
+                    pošiljala svojim nečakom, ki so študirali na Dunaju, del pa ga je namenjala tudi
+                    ubožnim in otrokom. Čeravno ni bila slovenskega rodu, se je navduševala nad
+                    slovesno otvoritvijo koče Slovenskega planinskega društva v Planici in tudi
+                    darovala zanjo. »Bila je jako dobra turistinja; obiskala je baje celo Monte Rosa
+                    in Ortlerja; tudi na Kranjskem je bila na mnogih gorah, celo na Triglavu.«<note
+                        place="foot" xml:id="ftn57" n="56">Ibid., 149.</note> 26. avgusta se je
+                    kljub opozorilom sama, brez vodnika odpravila na Ponco. Preden je odšla izpred
+                    nove koče v Planici, je v spominsko knjigo Slovenskega planinskega društva
+                    zapisala: »26. August 1899. Vor 6 Uhr früh von Ratschach aufgebrochen; gegen 8
+                    Uhr von hier aus allein den Weg über die 'Ponca' angetreten. – Du
+                    Schicksalslenker aller Lebenden, Dir gehor' ich an. Führ mich unversehrt nach
+                    Katschach ohne Mann! Johanna Stein.«<note place="foot" xml:id="ftn58" n="57"
+                        >Ibid., 148, 149. »26. avgust 1899. Pred 6 uro zjutraj odhod iz Rateč: okoli
+                        8 ure od tu sama na pot čez Ponco. – Ti, pot usode vseh živih! Tebi
+                        pripadam. Vodi me zdravo do Klanškega [jezera] brez moškega! Johanna
+                        Stein«.</note>
+                </p>
+                <p>Kot bi slutila svojo usodo, je pred odhodom zaprosila neko žensko, naj zanjo
+                    molijo pri sveti maši. Tako kot vedno tudi tokrat ni nikomur zaupala načrtovane
+                    poti. Da gre na Ponco, je baje povedala le ženski, pri kateri je stanovala.
+                    Avtor domneva, da se je morda na ta način izognila pregovarjanjem, naj vendarle
+                    opusti to turo. Na Ponco je sicer srečno prispela, a je v nadaljevanju poti h
+                    Klanškima jezeroma<note place="foot" xml:id="ftn59" n="58">Gre za Belopeški
+                        jezeri, ki ju sestavljata Klanško in Mangartsko jezero.</note> zdrsnila v
+                    prepad: »Z vrha se precej daleč doli vidi lepa ravninica, in človek bi mislil,
+                    da se prav lahko pride do nje. V resnici pa je proti omenjeni ravnici globok
+                    prepad, in tako se je zgodilo, da je učiteljica padla ob navpični steni navzdol
+                    proti ravnini na kup kamenja in se ubila. Brez dvoma je bila takoj mrtva.«<note
+                        place="foot" xml:id="ftn60" n="59">N. A., »Nesreča na Ponci,« <hi
+                            rend="italic">Planinski vestnik,</hi> 25. 9. 1899, 149.</note> Pisec in
+                    nasploh vsi izkušeni gorohodci so odločitev nesrečne učiteljice imeli za
+                    popolnoma nerazumno, saj do Klanškega jezera ne le da sploh ni nobene
+                    zaznamovane poti, tja si brez vodnika niso upali niti izkušeni turisti.
+                    Pogrešali so jo že isti dan zvečer, a ker je ni bilo niti v nedeljo zjutraj, je
+                    »poslal domači rateški župnik, gospod Lavtižar, ki je sam jako dober turist in
+                    si je že veliko zaslug nabral za 'Slov. plan. Društvo', ponjo štiri rateške
+                    izkušene može, ki je pa niso dobili.«<note place="foot" xml:id="ftn61" n="60"
+                        >Ibid.</note> Reševalna akcija je zato stekla bolj na široko, saj se je
+                    vanjo vključila tudi Radovljiška podružnica Slovenskega planinskega društva. Po
+                    dolgem iskanju so našli ponesrečenko, ki je ob sebi imela »daljnovid in 55 kr. v
+                    denarnici«. Z velikimi napori so jo zvečer prinesli v Rateče. Reševalcem, torej
+                    vodnikom in nosilcem, je Radovljiška podružnica za velike napore dala bogato
+                    odškodnino, pogrebne stroške pa je prevzela rateška občina. <hi rend="italic"
+                        >Planinski vestnik</hi> je objavil seznam darovalcev za spomenik ponesrečene
+                    »prijateljice naših planin«,<note place="foot" xml:id="ftn62" n="61">Darovalci
+                        za spomenik, <hi rend="italic">Planinski vestnik</hi>, 25. 9. 1899, 146,
+                        147.</note> ponesrečenki pa so pred slovesnim odprtjem koče v Tamarju
+                    položili tudi venec.<note place="foot" xml:id="ftn63" n="62">N. A., »Otvoritev
+                        zavetišča v Planici in izlet Slovenskega planinskega društva,« <hi
+                            rend="italic">Slovenski narod</hi>, 5. 9. 1899, nepaginirano.</note></p>
+                <p>Ob zgodbi nesrečne planinke se porajata dve misli. Prva kaže na prizadevnost,
+                    srčnost, angažiranost in končno na zanesljivost rateškega župnika, saj je bil
+                    prvi, ki je sprožil reševalno akcijo. Druga pa sega v širši okvir takratnega
+                    nacionalnega dogajanja.<note place="foot" xml:id="ftn64" n="63">O tem tudi Peter
+                        Mikša, »Narodnostni boji v planinstvu na Slovenskem do 1. svetovne vojne,«
+                        <hi rend="italic">Zgodovina za vse</hi> 18, št. 2 (2011): 59−69.</note> Primer Johanne (Ivane) Stein kaže,
+                    da je kljub nemškemu poreklu podpirala Slovensko planinsko društvo, in to ne le
+                    moralno, ampak tudi finančno. Podpornike slovenskih planinskih prizadevanj je
+                    bilo konec 19. stoletja tudi sicer mogoče najti med pripadniki nemške
+                    narodnosti, če poleg zgoraj omenjene navedemo še veliko bolj znanega matematika,
+                    astronoma in graškega profesorja Johannesa Frischaufa.<note place="foot"
+                        xml:id="ftn65" n="64">Frischauf Johannes, (* 17. 9. 1837, Dunaj; † 7. 1.
+                        1924, Gradec), matematik, astronom, alpinist, profesor. − Österreichisches
+                        Biographisches Lexikon, <ref target="https://www.biographien.ac.at">https://www.biographien.ac.at</ref>, pridobljeno 7. 4.
+                        2021.</note> Reševanje ponesrečenke nemškega rodu, ki so ga izvajali
+                    reševalci slovenske narodnosti, zbiranje sredstev za spomenik ponesrečeni in
+                    polaganje venca v njen spomin pa so dokazi, ki presegajo spore takratnih
+                    nacionalnih peripetij. Še več, so primeri, s katerimi lahko presežemo enoznačne
+                    oziroma skrajne nacionalne podobe preteklosti.</p>
+            </div>
+            <div>
+                <head>Zaključek</head>
+                <p>Vsaj dva razloga sta, da se ob 170-letnici rojstva s kratkim prispevkom spomnimo
+                    na Josipa Lavtižarja. Prvi je zagotovo v bogati tiskani zapuščini, ki zajema
+                    širok spekter področij, od potopisno-geografskega, zgodovinskega do kulturno
+                    umetniškega, to je glasbenega in gledališkega. Pričujoči prispevek je prav
+                    zaradi širine Lavtižarjeve dediščine želel osvetliti le del njegove dejavnosti,
+                    pa še to le s strogo krajevnega stališča.</p>
+                <p>Drugi vzrok za obeležbo Lavtižarjevih prizadevanj je v njegovi (današnji)
+                    neprepoznavnosti v slovenskem prostoru, saj se zdi, da se ga spominjajo le v
+                    sedanji občini njegovega rojstnega kraja. Verjetno je vse skupaj posledica
+                    okoliščin, v katerih je deloval. Te namreč dajejo vtis, da so se Lavtižarjeva
+                    prizadevanja izgubila v globoki senci njegovega soseda, sicer prijatelja, a
+                    veliko bolj znanega Jakoba Aljaža. Oba sta delovala individualno, a za spremembe
+                    je pomemben vsak posameznik, kar pogosto lahko utone v pozabo.</p>
+                <p>Planiška dolina ima danes zaradi organizacije velikih športnih tekmovanj svetovni
+                    sloves, pri čemer se mnogokrat pozablja, da je konkretne akcije pri odpiranju
+                    tega prostora imel prav rateški župnik.</p>
+                <p>Sledi številnih prizadevnih posameznikov na planinskem področju v preteklosti,
+                    med katere zagotovo sodi tudi zgodovinar, potopisec, glasbenik in duhovnik Josip
+                    Lavtižar, so danes ne le vidne, ampak tudi pomembne, saj sodobnim gornikom
+                    omogočajo lažji dostop do gora. Zagotovo je to dovolj velik argument za obuditev
+                    spomina na njihove prispevke in hkrati tudi na danes pogosto nepredstavljive
+                    okoliščine njihovega delovanja. Samo tako obstoječa stvarnost ne bo (p)ostala
+                    samoumevna, trud in prizadevnost posameznikov v zgodovini pa ne pozabljena.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <listBibl>
+                    <head>Časopisni viri</head>
+                    <bibl>Benedik, Marko. »Josip Lavtižar.« <hi rend="italic">Mohorjev koledar
+                            2003</hi>, 234−37.</bibl>
+                    <bibl>K, A. »Cerkvena Književnost.« <hi rend="italic">Dom in svet</hi>, 1912,
+                        115.</bibl>
+                    <bibl><hi rend="italic">Kärntner Zeitung</hi>, 17. 9. 1902, 6. »Kirchliche
+                        Nachrichten.«</bibl>
+                    <bibl>Lavtižar, Josip. »Jerusalem.« <hi rend="italic">Kriegszeitung</hi>, 16. 1.
+                        1918, 4−6.</bibl>
+                    <bibl>Lavtižar, Josip. »Na svetih Višarjih leta 1915.« <hi rend="italic"
+                            >Misli</hi> 1960, 258.</bibl>
+                    <bibl>Lavtižar, Josip. »Planica.« <hi rend="italic">Planinski vestnik</hi>, 25.
+                        10. 1899, 157, 158.</bibl>
+                    <bibl>Mlinar, Janez. »Josip Lavtižar: (1851−1943).« <hi rend="italic"
+                            >Zgornjesav'c: priloga Gorenjskega glasa za vse občanke in občane v
+                            občini Kranjska Gora</hi>, št. 6 (2008): 12.</bibl>
+                    <bibl>N. A. »Das Planicafest.« <hi rend="italic">Laibacher Zeitung</hi>, 5. 9.
+                        1899, 1611.</bibl>
+                    <bibl>N. A. »Nesreča na Ponci.« <hi rend="italic">Planinski vestnik</hi>, 25. 9.
+                        1899, 148, 149.</bibl>
+                    <bibl>N. A. »Otvoritev poti k Nadiži.« <hi rend="italic">Planinski vestnik</hi>,
+                        25. 10. 1898, 159.</bibl>
+                    <bibl>N. A. »Otvoritev zavetišča v Planici in izlet Slovenskega planinskega
+                        društva.« <hi rend="italic">Slovenski narod</hi>, 5. 9. 1899,
+                        nepaginirano.</bibl>
+                    <bibl><hi rend="italic">Planinski vestnik</hi>, 25. 9. 1899, 146, 147.
+                        »Darovalci za spomenik.«</bibl>
+                    <bibl><hi rend="italic">Radio-Wien</hi>, 31. 1. 1932, 55. »Laibach.«</bibl>
+                    <bibl>Stein, Fanny. »Öffentliche Danksagung.« <hi rend="italic">Neue Freie
+                            Presse</hi>, 22. 9. 1899, 3.</bibl>
+                    <bibl>Virnik, Ivan. »Rateški župnik Josip Lavtižar (1851−1943).« <hi
+                            rend="italic">Družina in dom: dvomesečnik Mohorjeve družbe Celovec</hi>,
+                        št. 9 (1996): 11.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Elektronski viri</head>
+                    <bibl><hi rend="italic">Digitalna knjižnica Slovenije.</hi> Dostopno na: <ref
+                            target="https://www.dlib.si">https://www.dlib.si</ref>. Pridobljeno 5.
+                        4. 2021).</bibl>
+                    <bibl>Österreichisches Biographisches Lexikon.
+                        Dostopno na: <ref target="https://www.biographien.ac.at"
+                            >https://www.biographien.ac.at</ref>. Pridobljeno
+                            7. 4. 2021).</bibl>
+                    <bibl><hi rend="italic">Slovenska biografski leksikon.</hi> Dostopno na: <ref
+                            target="https://www.slovenska-biografija.si"
+                            >https://www.slovenska-biografija.si</ref>. Pridobljeno 3. 4.
+                        2021).</bibl>
+                    <bibl><hi rend="italic">Slovar slovenskega knjižnega jezika. </hi>Dostopno na:
+                            <ref target="https://fran.si">https://fran.si</ref>. Pridobljeno 10. 4.
+                        2021).</bibl>
+                    <bibl><hi rend="italic">Vse o hribih.</hi> Dostopno na: <ref
+                            target="https://www.hribi.net">https://www.hribi.net</ref>. Pridobljeno
+                        3. 4. 2021).</bibl>
+                    <bibl><hi rend="italic">Vzajemni biografski sistem</hi>. Dostopno na: <ref
+                            target="https://www.cobiss.si">https://www.cobiss.si</ref>. Pridobljeno
+                        3. 4. 2021).</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Literatura</head>
+                    <bibl>Benedik, Marko, Maksimiljan Jurij File in Janez Mlinar. <hi rend="italic"
+                            >Znameniti Slovenci</hi>. Kranjska Gora: Župnijski urad, 2008.</bibl>
+                    <bibl>Benedik, Marko. <hi rend="italic">Josip Lavtižar, [duhovnik, skladatelj,
+                            zgodovinar, potopisec]</hi>. Kranjska Gora, Rateče in Planica: Župnijski
+                        urad, 1993.</bibl>
+                    <bibl>Grafenauer, Ivan. »Die Reichweite der Urpfarre Maria Gail im Süden.« V:
+                            <hi rend="italic">Carintia I</hi> 147 (1957): 261−74.</bibl>
+                    <bibl>Janša-Zorn, Olga. »Lavtižar Josip.« V<hi rend="italic">: Enciklopedija
+                            Slovenije</hi>, <hi rend="italic">6</hi>, 14. Ljubljana: Mladinska
+                        knjiga, 1992.</bibl>
+                    <bibl>Križnar, Franc. »Duhovnik, potopisec in zgodovinar Josip Lavtižar
+                        (1851−1943) je bil tudi glasbenik in skladatelj.« V: <hi rend="italic"
+                            >Jeseniški zbornik, zv. 12</hi>, 432−49. Jesenice: Muzejsko društvo
+                        Jesenice, 2019.</bibl>
+                    <bibl>Lavtižar, Josip. »Onstran baltiškega morja.« <hi rend="italic">Dom in
+                            svet</hi>, 1906, 32−38, 111−13, 175−78, 234−39, 305−09, 357−64,
+                        430−39, 484−91, 551−60, 626−30, 689−98.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Adam Ravbar [Glasbeni tisk]: opereta v
+                            štirih dejanjih</hi>. Rateče - Planica: samozal., 1928.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Bled in Briksen : zgodovinska povest iz
+                            17. stoletja</hi>. Ljubljana: pisatelj, 1931.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Cerkve in zvonovi v dekaniji Kran</hi>.
+                        V Ljubljani: pisatelj, 1901.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Darinka [Glasbeni tisk]: romantična
+                            spevoigra v 3 dejanjih</hi>. Rateče - Planica: samozaložba, 1929.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Dvanajst Marijinih pesmi [Glasbeni
+                            tisk]: za ljudsko petje ali mešani zbor</hi>. Ráteče:
+                        samozaložba, 1930.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Grof in opat [Glasbeni tisk]: opereta v
+                            dveh dejanjih</hi>. Rateče-Planica: samozaložba, 1927.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Junaška doba Slovencev: zgodovinska
+                            povest iz 15. stoletja: godi se na Gorenjskem ob času turških
+                            vpadov</hi>. V Kranju: Tiskovno društvo, 1936.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Lipniški grad pri Radovljici:
+                            zgodovinska povest iz 14. in 15. stoletja</hi>. Radovljica: Radovljiško
+                        prosvetno društvo, 1939.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Med romanskimi národi: popotni spomini
+                            iz Italije, Španije, Francije in Švice</hi>. V Ljubljani: samozaložba,
+                        1901.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Mlada Breda: besedilo k opereti</hi>.
+                        Rateče-Planíca: samozaložba, 1926.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Naši zaslužni možje</hi>. Jesenice:
+                        Tiskarna A. Blažej, 1942 [i. e. 1944].</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Ne v Ameriko!: izvirna ljudska igra v
+                            štirih dejanjih</hi>. V Ljubljani: založil pisatelj, 1911.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Primož Trubar: verska slika našega
+                            naroda iz 16. stoletja</hi>. Ráteče - Planíca na Gorenjskem: pisatelj,
+                        1935.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Razgled po domovini</hi>.
+                        Rateče-Planica: [samozaložba] M. Pintbah, 1941.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Spomini</hi>. Ljubljana: [samozaložba]
+                        Jugoslovanska tiskarna, 1926.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Šentjoški gospod Šimen in njegovi
+                            sodobniki: zgodovinska povest iz 18. stoletja</hi>. Ráteče-Planica na
+                        Gorenjskem: pisatelj, 1938.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">V Kartago!: potopis s tremi podobami.
+                        </hi>Ráteče - Planíca: samozaložba, 1930.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">V petih letih okrog sveta:
+                            1914-1919</hi>. Rateče - Planica: samozaložba, 1924.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Zgodovina župnij in zvonovi v dekaniji
+                            Radolica</hi>. V Ljubljani: pisatelj, 1897.</bibl>
+                    <bibl>Lavtižar, Josip. <hi rend="italic">Zgodovina župnij v dekaniji Kranj. zv.
+                            1. </hi>Kranj. V Ljubljani: pisatelj, 1898.</bibl>
+                    <bibl>Mikša, Peter in Maja Vehar. »Telovadba, šport in
+                            ženske na Slovenskem: čas do 1. svetovne vojne.« V: <hi
+                            rend="italic">Retrospektive: znanstvena revija za zgodovinopisje in
+                            sorodna področja</hi> 1, št. 1 (2018): 10−38.</bibl>
+                    <bibl>Mikša, Peter. »Da je Triglav ostal v slovenskih rokah, je največ moja
+                        zasluga: Jakob Aljaž in njegovo planinsko delovanje v Triglavskem pogorju.«
+                        V: <hi rend="italic">Zgodovinski časopis </hi>69, št. 1-2 (2015):
+                        112−23.</bibl>
+                    <bibl>Mikša, Peter. »Narodnostni boji v planinstvu na Slovenskem do 1. svetovne
+                        vojne.« V: <hi rend="italic">Zgodovina za vse</hi> 18, št. 2 (2011): 59−69.</bibl>
+                    <bibl>Peternel, Marija Mojca. <hi rend="italic">Knjige za gorohodce</hi>.
+                        Ljubljana: Filozofska fakulteta, 2020. <ref
+                            target="https://doi.org/10.4312/9789610603962"
+                            >https://doi.org/10.4312/9789610603962</ref>.</bibl>
+                    <bibl>Radics, Peter. »Bischof, Krieger, Staatsmann Christopf von Rauber
+                        (1466−1536).« <hi rend="italic">Österreichisch–ungarische Revue</hi>, 27
+                        (1901): 38−48.</bibl>
+                    <bibl>Sluga, Karmen. <hi rend="italic">Josip Lavtižar. </hi>Diplomsko delo.
+                        Kranjska Gora, 2006.</bibl>
+                </listBibl>
+            </div>
+            <div type="summary">
+                <docAuthor>Marija Mojca Peternel</docAuthor>
+                <head>A FEW FRAGMENTS FROM JOSIPA LAVTIŽAR’S RICH HERITAGE</head>
+                <head>SUMMARY</head>
+                <p>On the 170th anniversary of his birth, the memory of Josip Lavtižar’s heritage
+                    seems more than necessary, as it is little known in today’s Slovenia. The
+                    preservation of the memory of his efforts is primarily alive only in the
+                    municipality of his birth and work, while in the broader Slovenian territory, he
+                    remains ignored despite the still visible traces of his efforts. According to
+                    the mutual biographical system, his legacy is extremely diverse and includes
+                    musical, historical, and dramatic works.</p>
+                <p>In addition to his versatile contributions, many of Lavtižar’s works carried his
+                    name far beyond his parish of Rateče. He was mentioned not only by the
+                    newspapers published in the Slovenian territory at the time but also in the
+                    press north of the Karawanks. His poems would be performed in Carinthian
+                    churches, and his historical findings included many authors in his writing. All
+                    this proves that Lavtižar was indeed merely a village priest but possessing a
+                    profoundly cosmopolitan spirit. It is also often forgotten that today’s global
+                    reputation of the Planica valley is the result of Lavtižar’s actions.</p>
+                <p>Despite these facts, however, the awareness of Lavtižar’s achievements seems to
+                    exist only in the current municipality of his birth, where a Cultural and
+                    Enlightenment Society keeps alive his memory and two monuments remind people of
+                    him.</p>
+            </div>
+        </back>
+    </text>
+</TEI>
