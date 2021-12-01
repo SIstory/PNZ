@@ -1,0 +1,1395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epidemija španske gripe v Ljubljani:<note place="foot" xml:id="ftn1" n="*"
+                        >Članek je nastal v okviru raziskovalnega programa P6-0280 Podobe
+                        gospodarske in socialne modernizacije na Slovenskem v 19. in 20. stoletju,
+                        ki ga financira Javna agencija za raziskovalno dejavnost Republike Slovenije
+                        iz državnega proračuna.</note></title>
+                <title>»Pričakujemo, da mestni magistrat občinstvu vendar kaj pove o tej
+                        bolezni«<note place="foot" xml:id="ftn3" n="1">»Po domovini. Bolezni in
+                        prometne ovire,« <hi rend="italic">Novice</hi>, 18. 10. 1918,
+                    [2].</note></title>
+                <author>
+                    <forename>Mojca</forename>
+                    <surname>Šorn</surname>
+                    <roleName>Dr.</roleName>
+                    <roleName>znanstvena sodelavka</roleName>
+                    <affiliation>Inštitut za novejšo zgodovino</affiliation>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>mojca.sorn@inz.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2021-10-26</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/3891</pubPlace>
+                <date>2021</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">61</biblScope>
+                <biblScope unit="issue">3</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Carniola</term>
+                    <term>Ljubljana</term>
+                    <term>the Spanish flu</term>
+                    <term>1918–1919</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>Kranjska</term>
+                    <term>Ljubljana</term>
+                    <term>španska gripa</term>
+                    <term>1918–1919</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change><date>2021-11-16T11:50:05Z</date>
+                    <name>Mihael Ojsteršek</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Mojca Šorn<note place="foot" xml:id="ftn2" n="**"><hi rend="bold">Dr.,
+                        znanstvena sodelavka, Inštitut za novejšo zgodovino, Privoz 11, SI-1000
+                        Ljubljana; <ref target="mailto:mojca.sorn@inz.si">mojca.sorn@inz.si</ref></hi></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="DOI">doi: https://doi.org/10.51663/pnz.61.3.04</idno>
+            </docImprint>
+            <div type="abstract" xml:lang="sl">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">Članek v prvem delu oriše svet med špansko pandemijo, v
+                        nadaljevanju pa je osredinjen na kranjska mesta, s poudarkom na Ljubljani,
+                        in podeželje. Kljub pomanjkanju virov uspe na podlagi tiskanih virov do
+                        določene mere prikazati zdravstveno stanje prebivalcev, hkrati pa vsaj delno
+                        odgovori na vprašanje, ali so bili ti o epidemiološki situaciji dovolj dobro
+                        obveščeni in koliko so oblasti naredile za njihovo varnost. S podatki, ki bi
+                        razjasnili, kako so ljudje dojemali bolezen, ki je v tako kratkem času
+                        terjala toliko življenj kot nobena vojna in nobena lakota pred tem, kako so
+                        se z njo spopadli oboleli, kakšni so bili odzivi prebivalcev na (nezadostne)
+                        ukrepe oblasti ipd., avtorica ne razpolaga.</hi></p>
+                <p><hi rend="italic">Ključne besede: Kranjska, Ljubljana, španska gripa,
+                        1918–1919</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head>THE SPANISH FLU EPIDEMIC IN LJUBLJANA: “WE EXPECT THE TOWN HALL TO TELL THE
+                    PUBLIC AT LEAST SOMETHING ABOUT THIS DISEASE”</head>
+                <p><hi rend="italic">The first part of the article at hand describes the world at
+                        the time of the Spanish flu pandemic, while in the continuation, it focuses
+                        on Carniolan cities with an emphasis on Ljubljana, as well as on the
+                        countryside. Based on printed sources – despite their scarcity – it manages
+                        to illustrate, to some extent, the health situation of the population and at
+                        least partially answer the question of whether people were sufficiently
+                        informed about the epidemiological situation and what the authorities did to
+                        ensure their safety. The author does not have any information at her
+                        disposal that would shed light on how people perceived the disease that
+                        claimed as many lives in such a short period of time as no war or famine
+                        before it, how the infected coped with it, how the population reacted to the
+                        (insufficient) measures of the authorities, and so on.</hi>
+                </p>
+                <p><hi rend="italic">Keywords: Carniola, Ljubljana, the Spanish flu,
+                    1918–1919</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>I.</head>
+                <p>Slovenske dežele so bile konec 19. in v začetku 20. stoletja pretežno agrarne,
+                    vendar razmere, še posebej zaradi posestne strukture, niso omogočale razmaha in
+                    rasti kmetijske proizvodnje. Ta se je v obdobju pred prvo svetovno vojno sicer
+                    nekoliko izboljšala,<note place="foot" xml:id="ftn4" n="2">Jasna Fischer,
+                        »Zagate v kmetijstvu,« v: <hi rend="italic">Slovenska novejša zgodovina. Od
+                            programa Zedinjena Slovenija do mednarodnega priznanja Republike
+                            Slovenije: 1848–1992</hi> (Ljubljana: Mladinska knjiga in Inštitut za
+                        novejšo zgodovino, 2005), 72 in 74.</note> vendar podatki iz statistike za
+                    leto 1910 kažejo, da sta Kranjska in Spodnja Štajerska skupaj šteli le okrog
+                    90.000 pravih kmetov.<note place="foot" xml:id="ftn5" n="3">France Kresal,
+                        »Struktura slovenskega gospodarstva,« v: <hi rend="italic">Slovenska novejša
+                            zgodovina. Od programa Zedinjena Slovenija do mednarodnega priznanja
+                            Republike Slovenije: 1848–1992</hi> (Ljubljana: Mladinska knjiga in
+                        Inštitut za novejšo zgodovino, 2005), 108 in 109.</note> Drugače je bilo s
+                    slovensko živinorejo, ki je bila relativno dobro razvita. Med stanjem kmetijstva
+                    ter živinoreje v slovenskih deželah in glavnem deželnem mestu Kranjske pa
+                    nikakor ne moremo potegniti vzporednic, saj ljubljanska mestna občina ni
+                    posvečala večje pozornosti ne kmetijstvu v mestu ne kmetijski proizvodnji v
+                    okolici mesta, (zgolj) s kmetijstvom so se ukvarjali manj kot štirje odstotki
+                    njenih prebivalcev.<note place="foot" xml:id="ftn6" n="4">Milan Valant, <hi
+                            rend="italic">Ljubljana od 1895 do 1941</hi> (Ljubljana: samozaložba,
+                        1977), 5.</note> Preskrba Ljubljane – predvsem z zelenjavo, sadjem, mlekom
+                    in moko – je bila skoraj povsem odvisna od zaledja oziroma od dnevnega
+                    prinašanja živil v mesto, ki ni imelo ne večjih skladišč ne hladilnic.<note
+                        place="foot" xml:id="ftn7" n="5">Marjan Drnovšek, »Oris odnosa ljubljanskega
+                        občinskega sveta do mestnega razvoja 1850–1914 s posebnim poudarkom na
+                        Hribarjevi dobi,« v: Ferdo Gestrin, ur., <hi rend="italic">Zgodovina
+                            Ljubljane. Prispevki za monografijo</hi> (Ljubljana: Kronika, časopis za
+                        slovensko krajevno zgodovino in Zgodovinsko društvo Ljubljana, 1984),
+                        228.</note> V <hi rend="italic">Ljubljani po potresu</hi> preberemo, da je
+                    mesto »glede vsakdanjih živil vezano edino le na okolico in mora mirno gledati,
+                    kako pobirajo Opatija, Trst in druga južna mesta še daleč nad Ljubljano in tudi
+                    v Ljubljani sami najboljša živila«.<note place="foot" xml:id="ftn8" n="6">Fran
+                        Govekar in Miljutin Zarnik, ur., <hi rend="italic">Ljubljana po potresu
+                            (1895–1910)</hi> (Ljubljana: Tiskarna Drag. Hribar, 1910), 106.
+                        Odstavka, ki orišeta kmetijstvo in živinorejo v slovenskih deželah in
+                        preskrbo v Ljubljani pred prvo svetovno vojno, v: Mojca Šorn, <hi
+                            rend="italic">Pomanjkanje in lakota v Ljubljani med véliko vojno</hi>
+                        (Ljubljana: Inštitut za novejšo zgodovino, 2020), 18–20.</note>
+                </p>
+                <p>Stanje v preskrbi se je kmalu po začetku prve svetovne vojne drastično
+                    poslabšalo. Kljub temu da je avstrijska vlada ob začetku vojne, tako kot tudi
+                    vlade drugih držav, izdala prepoved izvoza določenega blaga,<note place="foot"
+                        xml:id="ftn9" n="7">Več v »Izvozne prepovedi,« <hi rend="italic">Slovenski
+                            trgovski vestnik</hi>, 15. 9. 1914, 100–02.</note> ki jo je narekovala
+                    skrb za redno kritje lastnih potreb, se je že kmalu pokazalo več težav.<note
+                        place="foot" xml:id="ftn10" n="8">Oris preskrbe drugih evropskih držav
+                        podaja Jože Šorn, »Slovenci in gospodarski položaj v prvi svetovni vojni,«
+                            <hi rend="italic">Zgodovinski časopis</hi> 35, št. 1-2 (1981):
+                        57–81.</note> Prva je bila mobilizacija in posledično odsotnost moške
+                    delovne sile ter nenehno odvajanje velikih količin hrane v vojaške namene. Drugo
+                    težavo je predstavljalo dejstvo, da Avstrija ni bila žitna dežela, pri čemer so
+                    izjemo predstavljale srednja in zahodna Češka, Moravska, del Zgornje ter Spodnje
+                    Avstrije, hude in dolgoročne posledice v preskrbi prebivalcev Avstrije pa je
+                    predstavljala ruska invazija v vzhodno Galicijo, imenovano tudi avstrijska
+                    žitnica. Preskrba države je skoraj na vseh področjih temeljila na ogrskem delu,
+                    ki je zaradi zaščite lastnih veleposestnikov nasprotoval uvozu žitaric
+                    (predvsem) iz Italije, hkrati pa se je do avstrijskega dela države glede pošiljk
+                    živil obnašal zelo mačehovsko.<note place="foot" xml:id="ftn11" n="9"> Gl. Vilma
+                        Brodnik, <hi rend="italic">Preskrba Ljubljane z živili med 1. svetovno
+                            vojno</hi> (diplomsko delo, Ljubljana, 1988), 13, 15.</note> Avstrija je
+                    tako ostala prepuščena uvozu,<note place="foot" xml:id="ftn12" n="10">Pomembno
+                        se mi zdi poudariti, da so pogajanja z Ogrsko, »pri katerih se bo določil
+                        definitivno naš delež na ogrskem pridelku«, potekala ves čas vojne. Gl. »Iz
+                        seje državnega sveta za prehrano«, <hi rend="italic">Domoljub</hi>, 1. 11.
+                        1917, 518.</note> kar je zanjo pomenilo pravo katastrofo. Pri nakupu
+                    pomembnih gospodarskih in prehrambnih artiklov ji preglavic namreč niso
+                    povzročale zgolj izvozne prepovedi, temveč tudi britanska zapora.<note
+                        place="foot" xml:id="ftn13" n="11">Podrobneje o zapori oziroma blokadi (nem.
+                        Hungerblokade) Stephen Pope in Elizabeth-Anne Wheal, <hi rend="italic"
+                            >Dictionary of the First World War</hi> (Barnsley: Pen &amp; Sword
+                        Military Classics, 2003), 74. O pomorskem prometu pred prvo svetovno vojno
+                        gl. V[inko] Šarabon, »Svetovni promet po morju,« <hi rend="italic">Čas</hi>,
+                        zv. 3 (1915), 146–57.</note> Ker je državno gospodarstvo, ki je imelo vse
+                    znake tipičnega vojnega gospodarstva<note place="foot" xml:id="ftn14" n="12">O
+                        vojnem gospodarstvu v avstrijski polovici in ogrski polovici monarhije Jože
+                        Šorn, <hi rend="italic">Slovensko gospodarstvo v poprevratnih letih
+                            1919–1924</hi> (Ljubljana: Cankarjeva založba, 1997), 21–25, 25–27. Gl.
+                        tudi Petra Svoljšak in Gregor Antoličič, <hi rend="italic">Leta strahote.
+                            Slovenci in prva svetovna vojna. Z okvirnima črticama Ivana Cankarja in
+                            predgovorom Toneta Partljiča</hi> (Ljubljana: Cankarjeva založba, 2018),
+                        393 sl.</note> in je bilo pravo nasprotje predvojnega klasičnega
+                    kapitalističnega gospodarstva,<note place="foot" xml:id="ftn15" n="13">Šorn,
+                        »Slovenci in gospodarski položaj v prvi svetovni vojni,« 57.</note> od
+                    začetka vojne poslovalo brez rezervnih zalog, so se pomirjevalne besede, da je
+                    hrane dovolj, kmalu izkazale za zmotne, sprejete uredbe<note place="foot"
+                        xml:id="ftn16" n="14">Gl. <hi rend="italic">Deželni zakonik za vojvodino
+                            Kranjsko / Landesgesetzblatt für das Herzogtum Krain</hi> (Ljubljana =
+                        Laibach, 1914). Gl. tudi <hi rend="italic">Državni zakonik za kraljevine in
+                            dežele, zastopane v državnem zboru</hi> (Dunaj, 1914).</note> pa za
+                    nezadostne. Do pomanjkanja osnovnih živil je prišlo že konec leta 1914, iz leta
+                    v leto se je le še poglabljalo, cene pa so rastle in rastle.<note place="foot"
+                        xml:id="ftn17" n="15">Oris stanja v preskrbi od začetka prve svetovne vojne
+                        v Šorn, <hi rend="italic">Pomanjkanje in lakota.</hi></note> Ljudje so bili
+                    izčrpani od pomanjkanja in lakote, čedalje nižjega življenjskega standarda,
+                    fizičnih naporov in psihičnih stisk ter nenehnega strahu.<note place="foot"
+                        xml:id="ftn18" n="16">Oris zdravstvenih razmer ibidem, 199–227. Gl. tudi
+                        Dunja Dobaja, <hi rend="italic">Za blagor mater in otrok. Zaščita mater in
+                            otrok v letih 1919</hi>–<hi rend="italic">1941</hi> (Ljubljana: Inštitut
+                        za novejšo zgodovino, 2018).</note> Vse to je vplivalo na njihov imunski
+                    sistem in kondicijo. Ko so dočakali leto 1918, ki je že nakazovalo konec vojne
+                    in trpljenja, se je v njihova »izmučena srca hotelo vseliti upanje, da srečno
+                    prebrodimo vojne strahote. /…/ Toda preden nam je zasijalo sonce, je naše
+                    slovenske kraje zatemnel črn oblak: pljučna kuga – »španska gripa«! Zaradi nje
+                    so ljudje cepali v smrt kakor muhe.«<note place="foot" xml:id="ftn19" n="17"
+                        >Ilka Vašte, <hi rend="italic">Podobe iz mojega življenja</hi> (Ljubljana:
+                        Mladinska knjiga, 1964), 129.</note></p>
+                <milestone unit="section" n="*"/>
+                <p>Članek, ki najprej prikaže svet med špansko pandemijo, se v nadaljevanju
+                    osredinja na Kranjsko in poskuša predstaviti, kako se je od vojne izčrpana
+                    Ljubljana, ki je zaradi bližine fronte nosila veliko breme zdravljenja vojakov,
+                    znašla v vihri bolezni. Oris razmer delno odgovori tudi na vprašanje, kako so
+                    bili z zdravstveno situacijo seznanjeni prebivalci deželnega stolnega mesta in
+                    ali so oblasti naredile dovolj za njihovo varnost. S podatki, ki bi razjasnili,
+                    kako so ljudje dojemali bolezen, kakšni so bili njihovi odzivi na ne/ukrepanje
+                    oblasti, kakšen je bil njihov pogled na socialnozdravstveni položaj (za zdaj) ne
+                    razpolagam. Pridružujem se mnenju mnogih drugih avtorjev, da je dediščina
+                    obdobja, ki ni navdihnilo »no songs, no legends, no work of art. Even
+                    fundamental facts were meagre,«<note place="foot" xml:id="ftn20" n="18">Richard
+                        Collier, <hi rend="italic">The Plague of the Spanish Lady. The Influenza
+                            Pandemic of 1918</hi>–<hi rend="italic">1919</hi> (London: Macmillan,
+                        1974), 304. Tukaj opozarjam na poudarek Katarine Keber, da je španska gripa
+                        kljub vsemu »globoko umeščena v zgodovinski spomin posameznih družin.« –
+                        Tatjana Pirc in Katarina Keber, <hi rend="italic">Na zgodovinske epidemije
+                            bom odslej gledala drugače</hi> [Elektronski vir] (Ljubljana:
+                        Radiotelevizija Slovenija javni zavod, 2020), <ref
+                            target="https://val202.rtvslo.si/2020/04/nedeljski-gost-206/"
+                            >https://val202.rtvslo.si/2020/04/nedeljski-gost-206/</ref>, pridobljeno
+                        23. 8. 2021.</note> za zgodovinarje zelo skromna. Neobstoj arhivskih virov
+                    lahko pojasnimo kot posledico nefunkcionalnega sistema avstroogrske države, ki
+                    je bila na začetku pandemije že tik pred razpadom, odsotnost tiskanih virov pa
+                    si lahko razlagamo kot posledico fokusiranja dnevnega časopisja na nastajanje
+                    nove države SHS, ki je sovpadlo z vrhuncem krize zdravstvene situacije. Pri delu
+                    sem si tako pomagala tudi s strokovnimi besedili, napisanimi neposredno po koncu
+                    prve svetovne vojne oziroma pandemije, in zgodovinopisnimi deli novejše letnice,
+                    ki predstavljajo doprinos k raziskovanju različnih vidikov t. i. španke, v
+                    angleškem jeziku mnogokrat poimenovane <hi rend="italic">Spanish Lady</hi>.<note
+                        place="foot" xml:id="ftn21" n="19">Ibid.</note>
+                </p>
+                <milestone unit="section" n="*"/>
+                <p>V pandemiji nove različice A virusa influence, katere krivec ni bila zgolj sama
+                    vojna oziroma njene posledice – pomanjkanje, lakota, podhranjenost, premiki
+                    okuženih oseb, pomanjkanje zdravstvenega osebja in zdravil, temveč ne nazadnje
+                    tudi vremenske neprilike – visok odstotek vlage in nizke temperature,<note
+                        place="foot" xml:id="ftn22" n="20">Nina Kalčič, »Španska gripa,« <hi
+                            rend="italic">Zdravstveno varstvo</hi> 41, št. 7-8 (2002): 258. Nina
+                        Kalčič, <hi rend="italic">Španska gripa ali »Kadar pride žito v dobro zemljo
+                            in je ugodno vreme, tedaj je zrno veliko, zrno je debelo in močno,
+                            ravnotako tudi influenčni bakcili. Kadar pridejo zanje ugodne razmere,
+                            tedaj se namnože in okrepe, da ne omagajo zlepa.« Diplomska naloga</hi>
+                        (Ljubljana, 2001). Gl. tudi »Po domovini. Kako se obvarujemo španske
+                        bolezni?,« <hi rend="italic">Novice</hi>, 17. 10. 1918, [2].</note> se je
+                    med leti 1918–1920 po svetu okužilo več kot pol milijarde ljudi,<note
+                        place="foot" xml:id="ftn23" n="21"> Katarina Keber, »Epidemija v šolskih
+                        klopeh. Primer španske gripe leta 1918 v osrednjeslovenskem prostoru,« <hi
+                            rend="italic">Kronika</hi> 65, št. 1 (2017): 67. O španski gripi v Istri
+                        glej Danijela Doblanović Šuran, Gabriela Braić, Mirjana Flego, Davor
+                        Salihović in Monika Zuprić, »Kretanje i uzroci smrtnosti u deset istarskih
+                        župa u razdoblju od 1910. do 1923,« v: Petra Svoljšak, ur. <hi rend="italic"
+                            >Istra u Velikom ratu: glad, bolest, smrt = L'Istria nella Grande
+                            guerra: fame, malattie, morte = Istra v Veliki vojni: glad, bolezni,
+                            smrt</hi> (Koper = Capodistria: Histria Editiones, 2017), 76–78.</note>
+                    po ocenah jih je od teh v letu dni umrlo med 50 in 100 milijonov,<note
+                        place="foot" xml:id="ftn24" n="22">Keber, »Epidemija v šolskih klopeh,« 67.
+                        Robert Gerwarth, <hi rend="italic">The Vanquished</hi>. <hi rend="italic"
+                            >Why the First World War Failed to End, 1917–1923</hi> (London: Penguin
+                        Books, 2017), 48. Gl. tudi Catherine Rollet, »The 'Other War' II: Setbacks
+                        in Public Health,« v: Jay Winter in Jean-Louis Robert, ur., <hi
+                            rend="italic">Capital Cities at War. Paris, London, Berlin:
+                            1914–1919</hi> (Cambridge: Cambridge University Press, 1997), 480–86.
+                        Iva Milovan Delić, »'Liječenje' španjolske gripe 1918. i 1919. u
+                        Pokrajinskoj bolnici u Puli: socijalna komponenta pandemskog bolničkog
+                        mortaliteta,« v: Petra Svoljšak, ur., <hi rend="italic">Istra u Velikom
+                            ratu: glad, bolest, smrt = L'Istria nella Grande guerra: fame, malattie,
+                            morte = Istra v Veliki vojni: glad, bolezni, smrt</hi> (Koper =
+                        Capodistria: Histria Editiones, 2017), 183, predvsem op. 1. Gl. tudi Petra
+                        Svoljšak, »Poizkus ocene vojaških in civilnih izgub (žrtev) med 1. svetovno
+                        vojno,« v: Stane Granda in Barbara Šatej, ur., <hi rend="italic">Množične
+                            smrti na Slovenskem. Zbornik referatov: 29. Zborovanje slovenskih
+                            zgodovinarjev, Izola, 22.–24. 10. 1998</hi> (Ljubljana: Zveza
+                        zgodovinskih društev Slovenije, 1999), 236 in 237, ki navaja konkretnejše
+                        podatke. Miha Likar, <hi rend="italic">Usoda nalezljivih bolezni</hi>
+                        (Ljubljana: Državna založba Slovenije, 1981), 127, piše, da je med pandemijo
+                        španske gripe umrlo 20–25 milijonov ljudi.</note> na azijski celini je samo
+                    v Indiji umrlo 17 milijonov oseb,<note place="foot" xml:id="ftn25" n="23"
+                        >Kalčič, »Španska gripa,« str. 258.</note> v Evropi pa okoli dva milijona.
+                    Nobena vojna, nobena lakota v tako kratkem času ni terjala toliko
+                        življenj …<note place="foot" xml:id="ftn26" n="24">Ibid. Prim. Jörn
+                        Leonhard, <hi rend="italic">Pandora's Box. A History of the First World
+                            War</hi> (Harvard University Press, 2018), 825.</note></p>
+                <p>Kljub temu so pandemijo z vidika historiografije zasenčile raziskave političnih,
+                    vojaških, tudi socialnoekonomskih aktivnosti in stanj tega obdobja. Hrvaški
+                    zgodovinar Nikola Anušić je zapisal, da je še vedno težko najti pregled svetovne
+                    zgodovine, ki bi španski gripi posvetil kaj več kot le nekaj vrstic, in da niso
+                    redke niti študije, ki obravnavajo prvo svetovno vojno, a smrtnega pohoda
+                    »pljučne kuge« ne omenjajo.</p>
+                <p>Zanimanje za špansko gripo se je nekoliko okrepilo po azijski (1957/58) in
+                    hongkonški (1968/69) gripi. Takrat so se začele pojavljati študije s področja
+                    antropologije, demografije, geografije, medicine idr., ki obravnavajo teme,
+                    povezane z izbruhom in širjenjem te bolezni, še posebej pa z njenimi
+                    posledicami. Historiografske raziskave so večinoma deskriptivne narave,
+                    prikazujejo potek pandemije in do določene mere obravnavajo družbene odzive na
+                    izredno stanje, ki ga je izzvala. Poudariti je treba, da več raziskav o t. i.
+                    španjolki beležimo v tistih državah, ki v véliki spopad niso bile neposredno
+                    vpletene ali se ta ni odvijal na njihovih tleh (Združene države Amerike,
+                    Norveška, Irska), saj imajo več ohranjenega arhivskega gradiva. Fenomen španske
+                    gripe je slabše raziskan v državah srednje, vzhodne in jugovzhodne Evrope, v
+                    katerih je administrativni aparat proti koncu prve svetovne vojne postajal vse
+                    manj agilen, v skladu s tem pa je pešalo tudi beleženje oziroma zbiranje
+                    zdravstvenih podatkov.<note place="foot" xml:id="ftn27" n="25">Nikola Anušič,
+                            <hi rend="italic">U sjeni velikog rata. Pandemija španjolske gripe
+                            1918–1919 u sjevernoj Hrvatskoj</hi> (Zagreb: Srednja Europa, 2015), 1
+                        in 2. Katarina Keber, »Španska gripa leta 1918 v osrednjeslovenskem
+                        prostoru,« v: <hi rend="italic">1918 v slovenskem jeziku, literaturi in
+                            kulturi</hi> (Ljubljana: Univerza v Ljubljani, 2018), 72.</note>
+                </p>
+            </div>
+            <div>
+                <head>II.</head>
+                <p>Nenavadna oblika gripe se je pojavila v zadnjem letu vojne, spomladi 1918, v
+                    vojaškem oporišču Camp Funston v Fort Rileyju, v Kansasu v Združenih državah
+                        Amerike.<note place="foot" xml:id="ftn28" n="26">Glede izvora španske gripe
+                        se pojavlja še ena teorija, ki kaže na Kitajsko, in več domnev. Več v
+                        Kalčič, <hi rend="italic">Španska gripa</hi>, 9.</note> Bolezen, ki so jo
+                    ameriški vojaki prenesli v Francijo, se je kmalu razširila po Evropi.<note
+                        place="foot" xml:id="ftn29" n="27">Milovan Delić, »'Liječenje' španjolske
+                        gripe,« 183.</note> Večina držav podatkov o okuženih in umrlih zaradi
+                    strateških in taktičnih razlogov ni delila z javnostjo, nevtralna Španija pa je
+                    aprila objavila, da je obolelih 8 milijonov ljudi – in tako je gripa dobila
+                    svoje ime.<note place="foot" xml:id="ftn30" n="28">Zvonka Zupanič Slavec, »Ivo
+                        Pirc,« <hi rend="italic">Na fronti</hi>, št. 5 (2008): 57 in 58.</note>
+                    Poletje 1918 je sicer prineslo zatišje, vendar v zapisu Richarda Collierja
+                    preberemo: »The strange illnes now manifesting itself was as yet only a vague
+                    disquieting rumour, heard as second-hand. /…/ If the flu came around again this
+                    fall, it didn't look like being serious; only this morning, The New York Times,
+                    quoting Health Commissioner Royal Copeland, had assured its readers: 'City is
+                    Not in Danger from Spanish Grip' – though the Commissioner did advise that any
+                    fellow kissing a girl would be wiser to do it through a handkerchief. /…/ As far
+                    as many fearful citizens were concerned, the epidemic was due assume such dire
+                    proportions that nothing could stop it. Already they had observed signs and
+                    portents that told them the worst.«<note place="foot" xml:id="ftn31" n="29"
+                        >Collier, <hi rend="italic">The Plague of the Spanish Lady,</hi>22 in
+                        30.</note></p>
+                <p>Prve notice o nevarni bolezni so bile v slovenskem časopisju objavljene maja
+                    1918, v <hi rend="italic">Straži</hi> so zapisali: »Na Španskem divja neznana
+                    kuga. Dosedaj je obolelo v Madridu 80.000 ljudi, v Barceloni pa 30.000.«<note
+                        place="foot" xml:id="ftn32" n="30">»Kuga v Španiji,« <hi rend="italic"
+                            >Straža</hi>, 31. 5. 1918, 4.</note>
+                    <hi rend="italic">Slovenski narod</hi> je julija nekoliko bolj gostobesedno
+                    opisal potek bolezni, ki jo je vrednotil kot zelo nalezljivo, vendar ne posebej
+                        nevarno,<note place="foot" xml:id="ftn33" n="31">»Dnevne vesti. O španski
+                        bolezni,« <hi rend="italic">Slovenski narod</hi>, 5. 7. 1918, 3.</note>
+                    septembra pa je zapisal: »Ni še dolgo tega, kar se je v Evropi pojavila nova
+                    bolezen, neke vrste hripa ali huda influenca, ki je ponekod nastopila mileje
+                    drugod huje, da, zahtevala je celo smrtnih žrtev. Na Španskem, kjer so jo
+                    zasledili najprej, menda ni storila zlega, dosti huje se je razpasla v Švici
+                    /…/, hudo razsaja na Švedskem.«<note place="foot" xml:id="ftn34" n="32">»Dnevne
+                        vesti. Španska bolezen,« <hi rend="italic">Slovenski narod</hi>, 30. 9.
+                        1918, 5.</note></p>
+                <p>Oktobra je v <hi rend="italic">Slovenskem narodu</hi> in <hi rend="italic"
+                        >Slovencu</hi> sledilo nekaj kratkih, a skrb zbujajočih notic, ki so
+                    prihajale iz Nemčije. V Berlinu in Stuttgartu je za špansko boleznijo vsak dan
+                    zbolelo več 100 ljudi.<note place="foot" xml:id="ftn35" n="33">»Dnevne novice.
+                        Za špansko boleznijo,« <hi rend="italic">Slovenec</hi>, 19. 10. 1918,
+                        4.</note> V Münchnu je za špansko gripo zbolelo 25.000 do 30.000 ljudi, od
+                    tega 7.000 učencev ljudskih šol. Nič manj spodbudne niso bile niti novice iz
+                    Francije. V Parizu je v tretjem tednu oktobra zaradi španske gripe umrlo 700
+                    ljudi, 300 več kot teden pred tem.<note place="foot" xml:id="ftn36" n="34"
+                        >»Dnevne novice. Španska bolezen v inozemstvu,« <hi rend="italic"
+                            >Slovenec</hi>, 21. 10. 1918, 4.</note> Španska gripa je razsajala tudi
+                    v Italiji, v Milanu je na primer zbolelo 80.000 ljudi.<note place="foot"
+                        xml:id="ftn37" n="35">»Dnevne novice. Za špansko boleznijo,« Slovenec, 19.
+                        10. 1918, 4.</note>
+                </p>
+                <p>V Budimpešti je za špansko gripo 17. oktobra 1918 zbolelo 975 ljudi, 72 jih
+                    umrlo, dan kasneje je zbolelo 1.000 ljudi, umrlo jih je 73.<note place="foot"
+                        xml:id="ftn38" n="36">»Dnevne novice. Španska bolezen v Budimpešti,« <hi
+                            rend="italic">Slovenec</hi>, 18. 10. 1918, 4. »Dnevne novice, španska
+                        bolezen na Dunaju in v Budimpešti,« <hi rend="italic">Slovenec</hi>, 21. 10.
+                        1918, 4.</note> V mesecu oktobru naj bi bilo tam 100.000 obolelih.<note
+                        place="foot" xml:id="ftn39" n="37">»Dnevne vesti. Španska bolezen.« <hi
+                            rend="italic">Slovenski narod</hi>, 30. 9. 1918, 5. Gl. Collier, <hi
+                            rend="italic">The Plague of the Spanish Lady</hi>, 85.</note> Situacija
+                    je bila podobna tudi na Dunaju, kjer je od 1. septembra do 19. oktobra 1918 po
+                    podatkih <hi rend="italic">Slovenca</hi> umrlo 3.945 ljudi, večina je bila stara
+                    od 20 do 30 let. Med temi je bilo 75 odstotkov žensk in le 25 odstotkov
+                        moških.<note place="foot" xml:id="ftn40" n="38">»Dnevne novice. Epidemična
+                        influenca na Dunaju,« <hi rend="italic">Slovenec</hi>, 30. 10. 1918,
+                        3.</note>
+                </p>
+                <p>»Ta nova bolezen« je našla pot tudi na Kranjsko in v Ljubljano.<hi rend="italic">
+                        Slovenec</hi> je 6. julija v prispevku Španska bolezen ima hitre noge skopo
+                    poročal: »Pojavila se je tudi v Ljubljani. Isto poročajo tudi iz Zagreba.«<note
+                        place="foot" xml:id="ftn41" n="39">»Ljubljanske novice. Španska bolezen ima
+                        hitre noge,« <hi rend="italic">Slovenec</hi>, 6. 7. 1918, 5.</note>
+                    <hi rend="italic">Domoljub</hi> pa je nekaj dni kasneje, 11. julija 1918,
+                    zapisal: »Španska bolezen, ki je podobna influenci, se je pojavila tudi v
+                    Ljubljani. Traja 4 do 5 dni. Njeni znaki so rahla mrzlica, glavobol, bolečine v
+                    grlu in močen katar.<note place="foot" xml:id="ftn42" n="40">»Domače novice.
+                        Španska bolezen,« <hi rend="italic">Domoljub</hi>, 11. 7. 1918, 292.</note>
+                    Konec septembra, tik pred izbruhom kritičnih razmer na Kranjskem, je <hi
+                        rend="italic">Slovenski narod</hi> dostavil: »Upajmo, da se španska bolezen
+                    pri nas ne pojavi v tako hudi obliki, kakor marsikje drugod.«<note place="foot"
+                        xml:id="ftn43" n="41"> »Dnevne vesti. Španska bolezen,« <hi rend="italic"
+                            >Slovenski narod</hi>, 30. 9. 1918, 5.</note></p>
+                <milestone unit="section" n="*"/>
+                <p>Pandemija je zaradi nenadnosti in visoke smrtnosti zbegala oblasti in civiliste,
+                    čeprav je zaslediti zapise, ki navajajo, da »bolezen ni nova, le pozabljena je.
+                    Zadnji krat je razsajala podobno kakor letos po vsem svetu v letih 1889 in 1890.
+                    Že v srednjem veku so tožili o nalezljivosti te bolezni in zgodovina nam kaže,
+                    da potuje ta bolezen po svetu približno vsakih 20 do 30 let. Potem pa zopet
+                    miruje. Morda straši le v tem ali onem kraju, ne širi se pa po celih deželah,
+                    ali morda celo po celih delih sveta. In ker ljudje tekom 30 let na bolezen že
+                    kar pozabijo, ji navadno dajo vsakikrat, kadar zopet izbruhne, drugo ime.«<note
+                        place="foot" xml:id="ftn44" n="42">»Zdravstvo. Nova ali španska bolezen,«
+                            <hi rend="italic">Domoljub</hi>, 7. 11. 1918, 467.</note></p>
+                <p>Mednarodni urad za »gojitev javnega zdravja« v Parizu je 10. julija 1919 na
+                    posamezne države naslovil anketo <hi rend="italic">Vprašanja, tikajoč se
+                        razširjanja gripe /španska bolezen/ od 1918</hi>–<hi rend="italic"
+                    >1919</hi>. Urad, ki je prosil za povratno informacijo (statistiko s
+                    komentarjem), so zanimale vse podrobnosti, ki so se nanašale na bolezen:</p>
+                <list type="ordered">
+                    <item>Razdelek A se je zanimal za epidemiološko sliko: kdaj in kje se je bolezen
+                        pojavila, kako je potekala, koliko je bilo obolelih, koliko jih je umrlo.
+                        Pri štetju je bilo treba upoštevati vse žrtve pljučne gripe, nujno je bilo
+                        specificirati, ali so bili umrli z dežele ali iz mest, kakšen je bil njihov
+                        socialni status, koliko so bili stari, katerega spola so bili itd.</item>
+                    <item>Razdelek B je pod drobnogled vzel patologijo: ali je bolezen napadla
+                        zgornje dihalne organe; ali so bili že v prvi fazi bolezni prizadeti tudi
+                        spodnji organi dihal, posebno pljuča; ali in kako pogosto so bolniki trpeli
+                        zaradi vnetja pljuč, bronhitisa, motenj v krvnem obtoku, pljučnega edema
+                        itd. Zdravnike je anketa nagovarjala, naj sporočijo vse podrobnosti o poteku
+                        bolezni in ne pozabijo navesti starosti umrlih, opisati njihove
+                        konstitucije, pripisati bolezni, ki so jih napadle poleg ali zaradi
+                        gripe.</item>
+                    <item>Razdelek C je bil etiološke narave, med drugim je naprošal, naj države
+                        predložijo »definitivne in provizorične« rezultate bakterioloških preiskav.
+                        Pristojni naj bi tudi sporočili, ali so našli razliko med nalezljivostjo
+                        navadne in pljučne gripe, razliko med gripo prvega in drugega vala itd.
+                        Anketirance so spraševali, ali je gripa eno osebo lahko napadla večkrat; ali
+                        je bila gripa, če je drugič napadla človeka, bolj mila; ali je človek, ki je
+                        gripo preživel, proti njej imun; koliko časa traja imunost; ali je za gripo
+                        manj obolelih oseb, ki so se zdravile z arzenikom, kininom ali
+                        salvarsanom.</item>
+                    <item>Razdelek D je vseboval vprašanja, ki so se nanašala na protiepidemiološke
+                        ukrepe ali njihov učinek: »Ali so zatvoritev javnih lokalov, desinfekcija in
+                        druge razmere upraviteljskega reda zadržali korak epidemije? Ali je
+                        zadrževanje prometa na mejah, po zemlji in po morju, bilo zares koristno?
+                        Ali je bila klausura absolutno zavarovanje proti bolezni ali ne? /…/ Ali ste
+                        opazili dobre rezultate v rabitvi mask ali preventivnih zdravil?<hi
+                            rend="bold">«</hi><note place="foot" xml:id="ftn45" n="43"
+                            >SI_ZAL_LJU/0489, t. e. 1858, f. 1693, št. 693, 694, Vprašanja, tikajoč
+                            se razširjanja gripe /španska bolezen/ od 1918–1919 (Pariz, 10. 7.
+                            1919).</note></item>
+                </list>
+                <p>Iz vprašalnika je jasno razvidno, da sta bili leta 1918 dve »invaziji« španske
+                    gripe. Prva, »primitivna in v splošnem nenevarna /španska gripa/«, je trajala od
+                    pomladi do poletja 1918, zato so jo poimenovali »spomladansko-poletna«, druga,
+                    »sekondarna in hudobna /pljučna gripa/«, se je širila od julija do decembra
+                    1918, zato so jo poimenovali »poletna-jesenska«. Ta je, kot že omenjeno,
+                    prizadela tudi Kranjsko in Ljubljano.<note place="foot" xml:id="ftn46" n="44"
+                        >SI_ZAL_LJU/0489, t. e. 1858, f. 1693, št. 693, 694, Vprašanja, tikajoč se
+                        razširjanja gripe /španska bolezen/ od 1918–1919 (Pariz, 10. 7. 1919). Šorn,
+                            <hi rend="italic">Pomanjkanje in lakota</hi>, 228–30.Več o prvem
+                        (marec–julij 1918) in drugem valu (avgust 1918 – januar 1919) v Anušič, <hi
+                            rend="italic">U sjeni velikog rata</hi>, 43–46.</note> Mnenja o
+                    intenziteti t. i. tretjega vala so deljena. Likar na primer piše, da je bil ta
+                    val najhujši: »Pri nas je bil poleti blag val, hujši pa se je začel novembra.
+                    Sledil je kratek presledek, spomladi 1919 pa smo dobili še hujši val.«<note
+                        place="foot" xml:id="ftn47" n="45">Likar, <hi rend="italic">Usoda
+                            nalezljivih bolezni</hi>, 126.</note> Tretji val je bil v naših krajih v
+                    začetku leta 1919 dejansko prisoten in zabeležen, vseeno pa prevladuje ocena, da
+                    je »epidemična influenca« takrat terjala znatno manj žrtev.<note place="foot"
+                        xml:id="ftn48" n="46">V Collier, <hi rend="italic">The Plague of the Spanish
+                            Lady</hi>, 287, preberemo: »On New Year's Day, 1919, the people awoke to
+                        a world largely purged of its sickness. To be sure, some regions had still
+                        to experience the pandemic's full virulence for the first time. As late as
+                        26 May 1919, the disease, re-christend »Indian Flu«, hit Bristol Bay,
+                        Alaska, with the fury of an Arctic blizzard – twelve days after claiming
+                        15.000 lives on the tiny island of Mauritius. But most of the world was
+                        free: to mourn their dead, to take up their lives anew, to count the cost of
+                        an unparalleled devastation.«Morda ni odveč omeniti, da je influenca ponekod
+                        vztrajala še leta 1920 oziroma je žrtve terjala tudi v tem letu.</note></p>
+                <p>Glede na tuberkulozo, ki je do takrat ogrožala predvsem socialno šibkejše sloje,
+                    je bila španska gripa bolj egalitarna,<note place="foot" xml:id="ftn49" n="47"
+                        >Več Milovan Delić, »'Liječenje' španjolske gripe,« poglavje Socijalna
+                        komponenta bolničkog mortaliteta.</note> čeprav bolj prizanesljiva do moških
+                    kot do žensk<note place="foot" xml:id="ftn50" n="48">
+                        <hi rend="italic">Slovenski narod</hi> je zapisal, da so verjetno »ženske s
+                        postrežbo obolelih, potem pa tudi vsled mnogih potov in dolgega čakanja pri
+                        aprovizacijah, infekciji bolj izpostavljene.« – »Zdravstvo v Ljubljani,«<hi
+                            rend="italic">Slovenski narod</hi>, 31. 10. 1918, 5.</note> (v posebni
+                    nevarnosti so bile nosečnice, mnogo obolelih je namreč splavilo)<note
+                        place="foot" xml:id="ftn51" n="49">Collier, <hi rend="italic">The Plague of
+                            the Spanish Lady</hi>, 263.</note> in bolj nepopustljiva do mladih in
+                    krepkih. Inkubacijska doba je trajala od 24 ur do devet dni.<note place="foot"
+                        xml:id="ftn52" n="50">Julija Pantić, Marijan Marijan in Andrija Lovrić,
+                        »Španjolska gripa u Zagrebu,« <hi rend="italic">Povijest u nastavi</hi> 4
+                        (2006): 109.</note> Simptomi so bili glavobol, mrzlica, bolečine v mišicah,
+                    trganje po kosteh pa tudi bruhanje in driska. Pogosto je bilo vnetje dihalnih
+                    poti in sluznice, obolele je mučil suh kašelj. Mnogim je gripa prešla v
+                    kataralno pljučnico. Bolniki so bili izčrpani, imeli so povišano telesno
+                    temperaturo (tudi do 40 stopinj): »S strahom so znanci tiho, za ozko špranjo
+                    odpirali vrata bolniške sobe, kjer sem ležala z otrokoma, in skozi špranjo so se
+                    poslavljali od mene, ki sem bila v njihovih očeh že zapisana smrti za 'špansko
+                    kugo'. Trije zdravniki, ki sem jih bila klicala k bolnemu možu [ki je bolezni
+                    tudi dejansko podlegel, op. av.], so se strinjali – v sodbi, da umrem še pred
+                    njim, saj sem padala iz omotice v omotico in zaradi visoke vročine se mi je
+                        bledlo.«<note place="foot" xml:id="ftn53" n="51">Vašte, <hi rend="italic"
+                            >Podobe iz mojega življenja,</hi> 131.</note>
+                </p>
+                <p>Najbolj prepoznaven simptom španke je bila epistaksa – krvavitev iz nosne
+                    votline, ki je bila pri mnogih bolnikih zelo intenzivna:<note place="foot"
+                        xml:id="ftn54" n="52"> Več o patologiji in komplikacijah, povezanih s
+                        špansko gripo, v Anušič, <hi rend="italic">U sjeni velikog rata</hi>,
+                        22–27.</note> »Somehow, sixteen-year-old Laura Riva, in Valdagno, Italy,
+                    couldn't convey to Dr Papesso how very ill she felt: for two days her head had
+                    been clenched by a migraine so intense she couldn't even open her eyes or bear
+                    to be touched. She was sweating and near-delirious, and when Papesso made her
+                    sit up in bed, she refused. Convinced this was mere teenage caprice, the
+                    hard-pressed doctor grasped her arms and shook her like a rag doll – at once
+                    provoking a massive nose-bleed.«<note place="foot" xml:id="ftn55" n="53"
+                        >Collier, <hi rend="italic">The Plague of the Spanish Lady</hi>, 70.</note>
+                </p>
+                <p>Bolniki z blažjo obliko gripe so okrevali v dveh ali treh dneh, mnogi, ki jih je
+                    doletela težja oblika z eno ali več navedenimi komplikacijami, so bili v
+                    življenjski nevarnosti.<note place="foot" xml:id="ftn56" n="54">»Zdravstvo v
+                        Ljubljani,« <hi rend="italic">Slovenski narod</hi>, 31. 10. 1918, 5.</note>
+                    Najbolj pogost vzrok smrti pri španski gripi je bila odpoved srca in pljuč.<note
+                        place="foot" xml:id="ftn57" n="55">Pantić, Marijan in Lovrić, »Španjolska
+                        gripa u Zagrebu,« 109.</note> Smrt je nastopila hitro, po navadi v petih
+                    dneh od pojava simptomov.<note place="foot" xml:id="ftn58" n="56">Milovan Delić,
+                        »'Liječenje' španjolske gripe,« 185. Gl. tudi »Zdravstvo. Nova ali španska
+                        bolezen,« <hi rend="italic">Domoljub</hi>, 7. 11. 1918, 467.</note></p>
+                <milestone unit="section" n="*"/>
+                <p>Med pandemijo je bila v večini držav situacija povsem kaotična. Bolne matere niso
+                    mogle skrbeti za zdrave in bolne člane družine. Zdravniško osebje, ki ga je bilo
+                    ponekod težje najti kot zmrzal v avgustu,<note place="foot" xml:id="ftn59"
+                        n="57"> Collier, <hi rend="italic">The Plague of the Spanish Lady</hi>,
+                        102.</note> je bilo preobremenjeno. Zgodbe zdravnikov, ki so bili na robu
+                    svojih moči in zdržljivosti, so si bile na las podobne: »Each morning, after ran
+                    all-night round /…/ slumped against the bathroom mirror, as drugged as a man in
+                    sock, fast asleep in the act of shaving.«<note place="foot" xml:id="ftn60"
+                        n="58">Ibid., 101.</note> Nič lažje ni bilo niti medicinskim sestram in
+                    negovalkam: »Some nurses from New York's Henry Street Settlement were even
+                    locked in houses or kidnapped by desperate relatives – and one, with only two
+                    months training, was offered $100 dollars a week to tend a wealthy New Yorker
+                    and his wife. (The standard pay for a trained nurse was $50 a month).«<note
+                        place="foot" xml:id="ftn61" n="59">Ibid., 120.</note> Podobno je veljalo za
+                    farmacevte: »The pharmacists, too, were rushed off their feet. Most, by
+                    government order, kept open at least until midnight, and at weekends,
+                        too …«<note place="foot" xml:id="ftn62" n="60">Ibid., 185.</note>
+                    <hi rend="italic">Novice</hi> so poročale, da na Dunaju niti »za drag denar ni
+                    dobiti v bolnišnici ali kakem zdravilišču postelje«.<note place="foot"
+                        xml:id="ftn63" n="61">»Širom sveta. Španska bolezen,« <hi rend="italic"
+                            >Novice</hi>, 17. 10. 1918, [2].</note></p>
+                <p>Zdravstveno osebje se je proti španski gripi v glavnem borilo z aspirinom<note
+                        place="foot" xml:id="ftn64" n="62">»Nemška vlada je dobavila avstrijski
+                        vladi in Rdečemu križu 5000 kilogramov aspirina kot sredstvo proti španski
+                        bolezni.« – »Po domovini. Španska bolezen,« <hi rend="italic">Novice</hi>,
+                        17. 10. 1918, [2].</note> in acetilsalicilno kislino, pa tudi s kisikom (za
+                    inhaliranje). Časopisje je poleg takšnih informacij odkrivalo tudi posamezne
+                    »optimistične in spodbudne« vesti. V zdravniški reviji <hi rend="italic">Wiener
+                        klinische Wochenschrift</hi> je dr. Markovič objavil prispevek, v katerem je
+                    javnosti sporočil, da mu je uspelo najti zdravilo, »s katerim se španska mrzlica
+                    odpravi v 24 urah. Bolnik mora takoj, ko mu začne rasti vročina, vzeti 0,3 do
+                    0,6 grama kalomela in vsakih 4 do 5 ur nato pol grama aspirina, pomešanega z
+                    enim decigramom kofeina. To zdravilo se sme jemati samo po zdravniškem navodilu,
+                    ker so slučaji, v katerih lahko postane kalomel zelo nevaren.«<note place="foot"
+                        xml:id="ftn65" n="63"> »Dnevne novice. Zdravilo proti španski bolezni,« <hi
+                            rend="italic">Slovenec</hi>, 21. 9. 1918, 5.</note>
+                </p>
+                <p>Zdravniku in učenjaku dr. Vladimirju Schulzu iz Budimpešte naj bi se »posrečilo
+                    sestaviti serum, s katerim je z uspehom cepil za špansko boleznijo obolele
+                    osebe. Doslej je cepil s serumom 14 vojakov in bolniki so bili po 24 urah ne
+                    samo prosti mrzlice, marveč niso kazali prav nobene sledi več o bolezni.«<note
+                        place="foot" xml:id="ftn66" n="64">»Dnevne novice. Serum proti španski
+                        bolezni,« <hi rend="italic">Slovenec</hi>, 12. 10. 1918, 4. Gl. tudi »Domače
+                        novice. Španska bolezen,« <hi rend="italic">Domoljub</hi>, 10. 10. 1918,
+                        431. »Po domovini. Serum proti španski bolezni,« <hi rend="italic"
+                            >Novice</hi>, 13. 10. 1918, [2].Opozorila bi, da cepivo ni bilo
+                        relevantno, saj dr. Schulz takrat še ni vedel, da je povzročitelj gripe
+                        virus.</note>
+                </p>
+                <p>Doktor Häusle iz Feldkirchna pa je stavil na peso: »Bolniku naj se da v teku šest
+                    do osem ur velik krožnik pese v solati. Pravi, da je videl mnogo bolnikov, ki so
+                    imeli zvečer 40 stopinj vročine, ko so pa jedli peso, so bili drugega jutra
+                    popolnoma zdravi.«<note place="foot" xml:id="ftn67" n="65">»Razne stvari.
+                        Španska bolezen,« <hi rend="italic">Slovenski narod</hi>, 14. 10. 1918,
+                        4.</note> V stanju brezupa so obolelim priporočali tudi kininsko sol in
+                    razne rastlinske zvarke.<note place="foot" xml:id="ftn68" n="66">Anušič, <hi
+                            rend="italic">U sjeni velikog rata</hi>, 34, 35.</note>
+                </p>
+                <p>Vprašanje, kako so te in podobne časopisne novice sprejeli ljudje, ostaja odprto,
+                    se jih je pa nemalo bolezni želelo izogniti tako, da so se zaprli med štiri
+                    stene, kar je imelo (pre)večkrat negativne posledice: »Thousands fell into the
+                    same trap, immuring themselves behind windows tight-shut or even nailed down,
+                    behind doors screened by heavy baize curtains, kerosene heaters that consumed
+                    every vestige of oxygen going at full blast. In Citerno, Italy, one well-to-do
+                    woman, who had sealed every chink in her shutters with cotton-wool, died of
+                    suffocation as much as Spanish flu.«<note place="foot" xml:id="ftn69" n="67"
+                        >Collier, <hi rend="italic">The Plague of the Spanish Lady</hi>, 75,
+                        76.</note></p>
+                <milestone unit="section" n="*"/>
+                <p>Proti bolezni se ni borilo le zdravstveno osebje, temveč tudi oblasti, ki so si
+                    pomagale z različnimi ukrepi. Na splošno sta bila v praksi najbolj poznana dva –
+                    poleg splošne prepovedi zbiranja ljudi, v kontekst katere je spadalo tudi
+                    zapiranje šol, gledališč, zabavišč,<note place="foot" xml:id="ftn70" n="68">
+                        »Dnevne novice. Španska bolezen v inozemstvu,« <hi rend="italic"
+                            >Slovenec</hi>, 21. 10. 1918, 4.</note> je bila pogosto uporabljena tudi
+                    zapoved o izolaciji obolelih (do 48 ur po padcu temperature) – »In many cities,
+                    the sick were as isolated as in the Middle Ages, when plague-stricken houses
+                    were marked out by a red cross and the legend 'God have mercy upon us!' Now a
+                    red or a yellow flag, or a large white sticker marked 'I', prompted the same
+                        reactions«<note place="foot" xml:id="ftn71" n="69">Collier, <hi
+                            rend="italic">The Plague of the Spanish Lady</hi>, 84.Léon Bernard, ki
+                        je leta 1929 komentiral ukrepe, uvedene med pandemijo, je zaključil, da bi
+                        bili ti, glede na to, da se je bolezen širila aerosolno, uspešnejši, če bi
+                        vključevali nošenje mask v javnosti, kar je bilo zapovedano v nekaterih
+                        delih Združenih držav Amerike idr. V Avstraliji je bilo nošenje maske
+                        obvezno za vse prebivalce, ne le za tiste, ki so bili po službeni dolžnosti
+                        v stiku z ljudmi. Gl. Rollet, The »'Other War',« 480–85. Collier, <hi
+                            rend="italic">The Plague of the Spanish Lady</hi>, 192.</note> – in
+                    prijavi vseh teh primerov pristojnim organom.<note place="foot" xml:id="ftn72"
+                        n="70"> Anušič, <hi rend="italic">U sjeni velikog rata</hi>, 39.</note></p>
+                <p>V Berlinu so se oblasti proti pandemiji borile predvsem na ravni preventive,
+                    nasveti so se nanašali na osnovno higieno (umivanje rok, grgranje), priporočeno
+                    je bilo izogibanje množicam. Tudi v Londonu so bile intervencije povezane z
+                    izdajanjem raznih priporočil (kako prezračevati kinodvorane ipd.), lokalne
+                    oblasti so uvedle domačo nego, odpirale so lokale, kjer so stregli juho tistim,
+                    ki si toplega obroka drugače niso mogli zagotoviti, skrbele so za postavljanje
+                    začasnih, nadomestnih klinik itd. V Parizu so priporočali in prakticirali
+                    dezinfekcijo in izolacijo, uvedli so prepoved zbiranja itd. Zdravnikom sta na
+                    pomoč priskočili policija in vojska.</p>
+                <p>V Budimpešti so zaradi španske bolezni odredili, da smejo v gledališčih in
+                    kinematografih prodati le vsak drugi sedež,<note place="foot" xml:id="ftn73"
+                        n="71"> »Španska bolezen,« <hi rend="italic">Slovenski narod</hi>, 11. 10.
+                        1918, 3.</note> kmalu pa je župan pozval občinstvo, da naj ne obiskuje
+                    javnih lokalov.<note place="foot" xml:id="ftn74" n="72">»Razne stvari. Španska
+                        bolezen,« <hi rend="italic">Slovenski narod</hi>, 21. 10. 1918, 4.</note> Na
+                    Dunaju so po navodilih deželnega zdravstvenega sveta sredi oktobra zaprli vse
+                        šole,<note place="foot" xml:id="ftn75" n="73">»Dnevne novice. Španska
+                        bolezen na Dunaju,« <hi rend="italic">Slovenec</hi>, 18. 10. 1918, 4.</note>
+                    v drugi polovici oktobra pa je nižjeavstrijsko namestništvo zapovedalo, da se
+                    morajo za nedoločen čas zapreti tudi gledališča, koncertne dvorane,<note
+                        place="foot" xml:id="ftn76" n="74">»Dnevne novice. Španska bolezen na Dunaju
+                        in v Budimpešti,« <hi rend="italic">Slovenec</hi>, 21. 10. 1918, 4.</note>
+                    varieteji, odpovedane so bile konjske dirke in vse druge prireditve.<note
+                        place="foot" xml:id="ftn77" n="75">»Razne stvari. Španska bolezen,« <hi
+                            rend="italic">Slovenski narod</hi>, 21. 10. 1918, 4.</note> Javna
+                    zabavišča, gledališča, kinematografe so zaprli tudi v Trstu.<note place="foot"
+                        xml:id="ftn78" n="76">»Po domovini. Zatvoritev javnih zabavišč v Trstu,« <hi
+                            rend="italic">Novice</hi>, 22. 10. 1918, [2].</note> Vlada je obljubila,
+                    da bo v bolnišnicah za bolnike s špansko gripo pripravila sobe za karanteno, po
+                    potrebi pa naj bi v večjih mestih postavili tudi posebne barake –
+                        izolirnice.<note place="foot" xml:id="ftn79" n="77"> »Španska bolezen,« <hi
+                            rend="italic">Slovenski narod</hi>, 9. 10. 1918, 4.</note></p>
+                <p>Zapis Richarda Collierja vsaj delno razkriva posledice pandemije in restrikcij,
+                    ki so čez noč obrnile na glavo življenja milijonov ljudi po vsem svetu: »For
+                    avid readers, it was a barren time, since most public libraries shut down – or
+                    piled the chairs on the library tables to discourage casual browsing. It was an
+                    anxious time for those with sick relatives; many hospitals forbade outsiders or
+                    allowed only ten-minute visits.«<note place="foot" xml:id="ftn80" n="78"
+                        >Collier, <hi rend="italic">The Plague of the Spanish Lady</hi>,
+                    145.</note></p>
+            </div>
+            <div>
+                <head>III.</head>
+                <p>V Ljubljani so v Deželni bolnici zaradi španske gripe prvo pacientko sprejeli 16.
+                    avgusta 1918, le mesec kasneje pa so se že nakazovale kritične razmere.<note
+                        place="foot" xml:id="ftn81" n="79">Kalčič, »Španska gripa,« 259.V Zagrebu,
+                        ki je leta 1918 štel 108.000 prebivalcev, se je španska gripa po podatkih
+                        mestnega poglavarstva pojavila konec avgusta 1918, v <hi rend="italic"
+                            >Jutranjem listu</hi> z dne 4. 7. 1918 pa pod naslovom »Španjolska
+                        bolest u Zagrebu?« preberemo: »Munjevitom brzinom stala se posebna vrsta
+                        influence širiti Evropom … No prekjučer, nenadno je posjetila ta pošast i
+                        Zagreb. Ukoliko za sad saznajemo, pregledao je jedan ovdašnji vojnički
+                        lječnik prije tri dana amo stigli vojnički bolestnički transport, te je
+                        ustanovio simptome te bolesti kod dvadesetsedmorice vojnika. Sam lječnik
+                        obolio je također naknadnog dana, te leži u jakoj groznici od 40 gradi
+                        vrućine.« Tudi podatki iz fonda zdravstvenega odseka prvo žrtev španske
+                        gripe datirajo z 2. julijem 1918. – Pantić, Marijan in Lovrić, »Španjolska
+                        gripa u Zagrebu,« 107–09. <hi rend="italic">Slovenski narod</hi> je v
+                        začetku oktobra 1918 zapisal, da se je »influenca hudo razširila. Imelo jo
+                        je 80–90 odstotkov prebivalstva. Poslednji čas je pa bolezen zavzela bolj
+                        nevaren značaj in tudi nekaj ljudi, baje do 5 odstotkov umrje.« – »Dnevne
+                        novice. Španska bolezen v Zagrebu,« <hi rend="italic">Slovenski narod</hi>,
+                        5. 10. 1918, 5. <hi rend="italic">Slovenec</hi> pa je pristavil: »Španska
+                        bolezen tudi v Zagrebu silovito divja in je tudi mnogo smrtnih slučajev.
+                        Trije uredniki »Hrvatske Države« so zboleli, tako da list danes najbrže ne
+                        bo izšel.« – »Dnevne novice. Španska bolezen tudi v Zagrebu,« <hi
+                            rend="italic">Slovenec</hi>, 12. 10. 1918, 4.O obolelih, umrlih in
+                        zdravljenju španske gripe v puljski bolnišnici Milovan Delić, »'Liječenje'
+                        španjolske gripe.«</note> Čeprav je v časopisju, iz katerega sem črpala
+                    podatke za pričujočo raziskavo (<hi rend="italic">Domoljub</hi>, <hi
+                        rend="italic">Domovina</hi>, <hi rend="italic">Novice</hi>, <hi
+                        rend="italic">Slovenec</hi> in <hi rend="italic">Slovenski narod</hi>), o
+                    španki napisanega le malo, je iz notic, ki so se v glavnem pojavile v oktobru
+                    1918 na zadnjih straneh listov, razbrati, da je bolezen zavladala širom
+                    Kranjske, seveda tudi v Ljubljani. Tedenski izkaz o zdravstvenem stanju
+                    prebivalcev ljubljanske občine za konec septembra navaja, da je influenca »jako
+                    razširjena« in da je »obolelo na stotine oseb; nastopa v lahki pa tudi v prav
+                    težki obliki v zvezi s plučnico«.<note place="foot" xml:id="ftn82" n="80"
+                        >»Ljubljanske novice. Tedenski izkaz o zdravstvenem stanju mestne občine
+                        ljubljanske od 22. do 28. sept. 1918,« <hi rend="italic">Slovenec</hi>, 3.
+                        10. 1918, 4.</note>
+                    <hi rend="italic">Novice</hi> so poročale, da je bolnih 40 odstotkov železniških
+                    uslužbencev in med 36 do 42 odstotkov delavk in delavcev tobačne tovarne.<note
+                        place="foot" xml:id="ftn83" n="81">»Po domovini. Bolezni in prometne ovire,«
+                            <hi rend="italic">Novice</hi>, 18. 10. 1918, 2.</note> Razvidno je, da
+                    so v drugem, jesenskem valu, ki je vrhunec dosegel oktobra 1918, prebivalci
+                    Ljubljane ne le množično zbolevali, temveč tudi umirali. <hi rend="italic"
+                        >Slovenec</hi> je zapisal: »Cele družine so bolne. Posamezne trgovine in
+                    gostilne so zaprli, ker je vse osobje zbolelo. Za šole ni niti misliti, da bi
+                    mogle poslovati, ker je bolezen nalezljiva in bi bilo zelo brezsrčno, če bi se
+                    na ta način izpostavljali nevarnostim.«<note place="foot" xml:id="ftn84" n="82"
+                        >»Dnevne novice. Španska hripa divja,« <hi rend="italic">Slovenec</hi>, 10.
+                        10. 1918, 4.O španski gripi v Ljubljani gl. tudi: Rok Omahen, »Koliko
+                        življenj je vzela epidemija španske gripe v Ljubljani. Umrljivost
+                        prebivalstva ljubljanskega okraja pred dobrim stoletjem,« <hi rend="italic"
+                            >MMC RTV SLO</hi>, 24. 1. 2021, <ref
+                            target="https://www.rtvslo.si/moja-generacija/koliko-zivljenj-je-vzela-epidemija-spanske-gripe-v-ljubljani/549913"
+                            >https://www.rtvslo.si/moja-generacija/koliko-zivljenj-je-vzela-epidemija-spanske-gripe-v-ljubljani/549913</ref>,
+                        pridobljeno 3. 5. 2021. Rok Omahen, »Koliko življenj je vzela epidemija
+                        španske gripe v Ljubljani (2. del). Umrljivost prebivalstva ljubljanskega
+                        okraja pred dobrim stoletjem,« <hi rend="italic">MMC RTV SLO</hi>, 31. 1.
+                            2021,<ref
+                            target="https://www.rtvslo.si/moja-generacija/koliko-zivljenj-je-vzela-epidemija-spanske-gripe-v-ljubljani-2-del/549926"
+                            >https://www.rtvslo.si/moja-generacija/koliko-zivljenj-je-vzela-epidemija-spanske-gripe-v-ljubljani-2-del/549926</ref>,
+                        pridobljeno 27. 5. 2021.</note>
+                </p>
+                <p>Oktobra in novembra je bilo objavljenih tudi več notic o razsajanju španske gripe
+                    po drugih kranjskih krajih. Iz Blagovice so poročali, da se je bolezen »silno
+                    razširila«. Samo v vasi Loke je obolelo več kot 50 oseb, dve pa sta umrli,
+                    dekleti, stari 19 in 15 let. Poročevalec je zaključil z besedami: »Strašno je
+                    hudo, po 9 ljudi leži v sobi, brez postrežbe, brez zdravnika; delo na polju
+                    počiva in vse je preplašeno. Kaj takega še ne – to je prava kuga.«<note
+                        place="foot" xml:id="ftn85" n="83">»Dnevne novice. Iz Blagovice se nam
+                        poroča,« <hi rend="italic">Slovenec</hi>, 17. 10. 1918, 4.</note> O španski
+                    gripi so poročali tudi iz župnije Šentjanž na Dolenjskem, kjer je zbolelo 600
+                    ljudi, v tednu dni od pojava prvega primera je umrlo deset oseb. Kritičen je bil
+                    tudi položaj v Tržiču na Gorenjskem, kjer je bolezen prizanesla le malokateri
+                    družini: »Najhuje je bilo v petek 18. okt. Na ta dan sta podelila gg. župnik in
+                    kaplan 16 bolnikom sv. zakramente za umirajoče. V dobrem tednu je umrlo za to
+                    boleznijo 14 oseb, največ žensk.«<note place="foot" xml:id="ftn86" n="84"
+                        >»Dnevne novice. Iz Tržiča,« <hi rend="italic">Slovenec</hi>, 25. 10. 1918,
+                        4. »Dnevne novice. Iz Loma,« <hi rend="italic">Slovenec</hi>, 29. 10. 1918,
+                        3.</note> Slabo se je pisalo tudi prebivalcem Tržišča na Dolenjskem. V tem
+                    kraju, ki je v letu 1917 beležil 36 umrlih, so samo od 1. do 26. oktobra 1918
+                    pokopali 37 ljudi. Najhujši dan je bil 18. oktober, ko je umrlo osem ljudi.<note
+                        place="foot" xml:id="ftn87" n="85">»Dnevne novice. Iz Tržišča na
+                        Dolenjskem,« <hi rend="italic">Slovenec</hi>, 30. 10. 1918, 3.</note> Hudo
+                    je bilo v novomeškem okraju, še posebej prav v Novem mestu.<note place="foot"
+                        xml:id="ftn88" n="86">»Dnevne vesti. Španska bolezen na Dolenjskem,« <hi
+                            rend="italic">Slovenski narod</hi>, 7. 10. 1918, 5.</note> Meseca
+                    oktobra in novembra je v Trebelnem umrlo 65 ljudi, pred tem pa v devetih mesecih
+                    samo 31: »Najrajši pobere španska bolezen mlada dekleta, mlade gospodinje. V
+                    neki hiši na Čilpahu je umrlo za to boleznijo 6 ljudi. Gospodar, žena, njen brat
+                    in trije otroci. Redke so hiše, v kateri bi bolezni ne občutili.«<note
+                        place="foot" xml:id="ftn89" n="87">»Dnevne novice. Španska bolezen,« <hi
+                            rend="italic">Slovenec</hi>, 25. 11. 1918, 3.</note> S podobnimi
+                    besedami so opisovali tudi stanje v Beli krajini: »Tudi pri nas razsaja
+                    'španska' z vso ljutostjo. Ni skoro hiše, ki bi ne imela bolnika. Vas Radovica
+                    je n. pr. vsa obolela z županom in župnikom vred. Še mrličev nima nihče
+                        pokopavati.«<note place="foot" xml:id="ftn90" n="88">»Dnevne vesti. Bolezni
+                        v Beli krajini,« <hi rend="italic">Slovenski narod</hi>, 19. 10. 1918,
+                        4.</note></p>
+                <milestone unit="section" n="*"/>
+                <p>Marsikaj koristnega o »osebni obrambi« in ostalih ukrepih, ki naj bi ljudi
+                    varovali pred nalezljivimi boleznimi, izvemo iz dela Josipa Tičarja. V knjigi
+                        <hi rend="italic">Boj nalezljivim boleznim</hi>, ki je izšla leta 1922, je v
+                    prvi vrsti opozoril na telesno čistočo. Ta naj bi vključevala tako čistilne
+                    kopeli celega telesa kot tudi uporabo snažnega perila in obleke. Poudaril je, da
+                    mora umivanje rok z milom pred jedjo in po uporabi stranišča »priti narodu v kri
+                    in meso«, pri nalezljivih boleznih pa so nujni uporaba »razkužilne vode«,
+                    spiranje ust, grgranje, čiščenje zob. Poglavje o higieni je zaključil s
+                    priporočilom za cepljenje: »Kjer moremo doseči s cepljenjem ali vbrizganjem
+                    imuniteto, kakor pri kozah, difteriji, koleri, tetanu, se bomo poslužili teh
+                    pridobitev tem raje, čim večja je nevarnost, da dobimo bolezen. Varstveno
+                    cepljenje ali varstveno vbrizganje seruma in bacilovih emulzij je važno obrambno
+                    sredstvo proti okuženju.«<note place="foot" xml:id="ftn91" n="89">Josip Tičar,
+                            <hi rend="italic">Boj nalezljivim boleznim</hi> (Ljubljana: Tiskovna
+                        zadruga, 1922), 28.</note></p>
+                <p>V razdelku o aktivnem boju proti prenosu bolezni s človeka na človeka je navedel
+                    izolacijo obolelih oziroma oseb, ki so bile z njimi v stiku: »Kontumaciranje
+                    sostanovalcev, prepoved prostega gibanja, izključitev obiskov, zabranitev
+                    izvrševanja poklica, obiska šole, so večkrat potrebne odredbe.« Korak dlje je
+                    šel pri obravnavi zelo nevarnih in močno nalezljivih bolezni, saj je zapisal, da
+                    se morajo v teh primerih »omejitve nanašati na cele kraje: prepovedati se morajo
+                    javne prireditve, semnji itd. Najbolj važno pa je uničevanje kužnih kali, kjer
+                    jih je mogoče doseči, potom dezinfekcije – razkuževanja.«<note place="foot"
+                        xml:id="ftn92" n="90">Ibid., 29 in 30.</note></p>
+                <p>V svojo ekspertizo je vključil tudi razdelek, v katerem komentira pomanjkljivosti
+                    odredb oziroma njihovo neupoštevanje: »V praksi življenja so vse naše odredbe
+                    pomanjkljive in pogosto v vsej potrebni doslednosti neizvedljive. /…/ Kdor vidi,
+                    kako precizno se znamo danes ubraniti kuge, kolere /…/ ta bo znal ceniti moderne
+                    odredbe zoper nalezljive bolezni, jih bo izvrševal tudi v drugih slučajih, bo
+                    sodeloval v boju proti kugam, čeprav mu pri marsikaki epidemiji prihaja zavest
+                    nemoči in neuspešnosti vsega boja proti razširjanju in bolezni. Ne moremo
+                    odrekati, da velik del krivde pripade indiferentnosti, nepoučenosti,
+                    malomarnosti ljudi, dasi ne moremo oprostiti pomanjkljive ureditve zdravstvene
+                    službe vse odgovornosti, in dasi računamo s pomanjkljivostjo vsega našega
+                        prizadevanja.«<note place="foot" xml:id="ftn93" n="91">Ibid., 31 in
+                        32.</note></p>
+                <p>V časopisih iz leta 1918 najdemo le malo nasvetov, kako zajeziti in premagati
+                    špansko bolezen. <hi rend="italic">Slovenski narod</hi> je skopo zapisal, da
+                    javno zdravstvo ne more nuditi pomoči in da »prihaja pač v poštev predvsem le
+                    osebno higijensko zadržanje, ne obiskovati bolnikov po nepotrebnem, izogibati se
+                    infekciji po kašlju drugih oseb, kakor je tudi dolžnost vsakega kašljajočega
+                    paziti na to, da drugih ne okuži«,<note place="foot" xml:id="ftn94" n="92"
+                        >»Zdravstvo v Ljubljani,« <hi rend="italic">Slovenski narod</hi>, 31. 10.
+                        1918, 5.</note> a vendarle dodal nekaj priporočil: »Zdravniki pravijo, da
+                    španska bolezen ni opasna, ako se bolnik takoj od začetka strogo pazi. Predvsem
+                    mora bolnik pri najmanjši slabosti takoj v posteljo in uživati vsake dve uri
+                    vroč bezgov, lipov ali ruski čaj. Najvažnejši so pa križni ovitki. V prestani
+                    vodi namočena in nato dobro ovita brisača naj se enkrat pregrnjena položi od
+                    desne rame do leve pazduhe, druga pa v nasprotni smeri, čez pa ogrne suha
+                    brisača. To ostane tako tri do štiri ure. Tako se posreči pripraviti bolnika do
+                    potenja, kar uniči pričenjajoča se bronhialna ognjišča. /…/ Nevarnost influence
+                    tiči ravno v tem, da se v najmanjših zračnih ceveh (bronhialijah) tvorijo
+                    malenkostna gnojna ognjišča, ki se pri ljudeh, ki ne gredo v posteljo, hitro na
+                    vse strani razširijo in povzročijo sliko najhujšega pljučnega vnetja. Sredstva
+                    za potenje v začetnem štadiju hitro vsesajo mala ognjišča in preprečijo
+                    razširjanje bolezni.«<note place="foot" xml:id="ftn95" n="93">»Razne stvari.
+                        Španska bolezen,« <hi rend="italic">Slovenski narod</hi>, 14. 10. 1918,
+                        4.</note>
+                </p>
+                <p><hi rend="italic">Domovina</hi> pa je nasvete, kako naj ljudje ravnajo, »če se
+                    jih loti španska bolezen«, povzela iz švicarskega <hi rend="italic">Neue
+                        Züricher Zeitung</hi>. Prispevek je bil relativno obsežen in vsebinsko bolj
+                    strokoven. Začne se z besedami: »Največje važnosti je, da gre bolnik takoj, ko
+                    začuti prve znake bolezni – trudnost, pritisk krvi v glavi, mrzlica itd. – v
+                    posteljo in pije vroče tekočine, čaj, limonado itd. S čajem naj užije prašek
+                    aspirina in fenacetina.« Konča pa: »V ostalem naj gre vsak bolnik v posteljo,
+                    naredi naj se mu visoko zglavje, da bo ložje dihal, poskrbi naj se mu lahko
+                    hrano in za dobro negovanje. Proti mučnemu kašlju bo zravnik uporabil različna
+                    zdravila in čaje in proti oslabelosti srca bo delal z zravilnimi injekcijami in
+                    drugimi pripomočki. Domači, ki so poklicani negovati bolnika, naj se točno
+                    ravnajo po zdravnikovih navodilih in po splošnih pravilih, ki predpisujejo, kako
+                    se mora streči bolnemu človeku.«<note place="foot" xml:id="ftn96" n="94"
+                        >»Zdravstvo. Nekaj nasvetov za špansko bolezen,« <hi rend="italic"
+                            >Domovina</hi>, 4. 10. 1918, 3.</note></p>
+                <p>Poleg teh so bolj »konkretna« le še priporočila »prijatelja <hi rend="italic"
+                        >Slovenca</hi>« obolelim in njihovim negovalkam ter negovalcem: »1. Čaj od
+                    kamelic, kolikor mogoče vroč, večkrat čez dan, eno malo skodelico še zvečer v
+                    postelji. 2. Zvečer naloži kamelice, kolikor mogoče vroče in zavite v ruto, črez
+                    pas, da se prehlajeni deli droba segrejejo. 3. Črez dan na vsakih 10 do 15 minut
+                    mrzle obkladke črez pas, pazi obenem, da je bolnik dobro odet. Ženske ob gotovih
+                    dnevih naj dobe mlačne, ker bi jim mrzli obkladki škodovali; če so zdrave, dobe
+                    istotako mrzle obkladke. 4. Umij bolnika na vsaki dve uri z mrzlo vodo po
+                    gornjem životu. /…/ 5. Bolnika ne sili z jedmi! – Na ta način smo pri nas vse
+                    bolnike kaj hitro v 3. do 7. dnevih postavili na noge! Po moji sodbi je vnet
+                    želodec, od vnetja huda vročica, ki sili v glavo, in bolnik bljuje več ali manj.
+                    Obkladkov ne devaj na čelo, ampak vedno črez pas. Pri neki deklici je vročina
+                    popustila že črez dve uri na veliko veselje staršev, ki so že mislili, da je
+                    izgubljena. Neki fant je imel grozno vročino, gotovo črez 40 do 42 stopinj, zdaj
+                    že dela in je ves vesel, ker je že bil pričakoval smrti. Naštel bi še več
+                    slučajev. Sredstvo je preizkušeno, torej – stori tudi ti tako!«<note
+                        place="foot" xml:id="ftn97" n="95">»Dnevne novice. Recept za »novo«
+                        bolezen,« <hi rend="italic">Slovenec</hi>, 12. 10. 1918, 4.</note>
+                </p>
+                <p>Za konec še priporočila <hi rend="italic">Domoljuba</hi>: »V sobi, kjer leži
+                    bolnik na kužni bolezni, obesi na široko v jesih namočeno rjuho. Ko se je
+                    posušila, jo izplakni v vodi in namoči zopet v jesihu. Pod posteljo bolnikovo
+                    postavi škaf s čisto mrzlo vodo; premeni jo poleti dvakrat na dan, pozimi
+                    enkrat. Voda vleče tudi vročino iz bolnika in brani, da ne preleži. Tudi
+                    narezana čebula vleče strup iz zraka nase; premeniti se mora vsakih 6 ur. Staro
+                    čebulo vrzi v ogenj. Voda, ki stoji nekaj časa v bolniški sobi, ni več za nobeno
+                    rabo. Kruh in druga jedila ne smejo biti v taki sobi, ker vleče vsaka stvar več
+                    ali manj nase zrak, ki je napolnjen z bolnikovim vzduhom. Pozimi in poleti mora
+                    biti bolniška soba odprta; čist zrak je glavni pogoj za zdravje.«<note
+                        place="foot" xml:id="ftn98" n="96">»Zdravstvo. V sobi, kjer leži bolnik na
+                        kužni bolezni,« <hi rend="italic">Domoljub</hi>, 27, 6. 1918,
+                    276.</note></p>
+                <p>Ker so v paniki verjetno mnogi uporabili najrazličnejše nasvete, je konec oktobra
+                    1918 Društvo zdravnikov javnost obvestilo, da je med epidemijo v želji, da bi se
+                    ubranili nevarne bolezni, vse preveč ljudi poseglo po sredstvih, ki niso samo
+                    »brezuspešna«, ampak »direktno škodljiva«. Pri tem so poudarili uživanje
+                    alkoholnih pijač in njihove negativne posledice za oboleli organizem.<note
+                        place="foot" xml:id="ftn99" n="97">»Po domovini. Sestanek zdravnikov,« <hi
+                            rend="italic">Novice</hi>, 24. 10. 1918, 2.</note>
+                </p>
+                <milestone unit="section" n="*"/>
+                <p>Ker zakon o infekcijskih boleznih influence ni uvrščal med bolezni, ki jih je
+                    bilo treba prijavljati oblastem, lahko o številu obolelih le špekuliramo. V
+                    Ljubljani naj bi v zadnjih treh tednih oktobra za špansko gripo zbolelo več
+                    tisoč oseb, predvsem otroci, najstniki in mlajši od 30 let, »starejši oboleli so
+                    bolj redki, pri starih ljudeh pa je obolenje za influenco skoraj izjema.«<note
+                        place="foot" xml:id="ftn100" n="98">»Zdravstvo v Ljubljani,« <hi
+                            rend="italic">Slovenski narod</hi>, 31. 10. 1918, 5.</note></p>
+                <p>Katarina Keber navaja, da je obolevanje šolarjev in šolnikov v »Ljubljani in v
+                    širšem osrednjeslovenskem prostoru eno od redkih dogajanj v zvezi z epidemijo,
+                    ki je do določene mere dokumentirano in ki neposredno kaže na veliko
+                    razširjenost influence«.<note place="foot" xml:id="ftn101" n="99">Keber,
+                        »Epidemija v šolskih klopeh,« 67.</note> To potrjujejo objave v časopisih,
+                    ki so v drugem valu dejansko skoraj največ poročali o obolelih šolarjih ali
+                    dijakih: »Na ljubljanskih ljudskih šolah je bila v prvih dneh oktobra bolna
+                    skoraj tretjina vseh šolarjev«,<note place="foot" xml:id="ftn102" n="100">Ibid.,
+                        74.</note> kar je mogoče pojasniti z dejstvom, da so bile starejše osebe
+                    prekužene iz epidemij t. i. ruske gripe, ki je razsajala v letih 1889 in
+                        1890.<note place="foot" xml:id="ftn103" n="101">Zupanič Slavec, »Ivo Pirc,«
+                        58.V Tičar, <hi rend="italic">Boj nalezljivim boleznim</hi>, 139, preberemo:
+                        »Zadnja vsesplošna preplava Evrope se je odlikovala po posebni nevarnosti in
+                        zlobi ter je daleko prekašala vseobčo epidemijo influence v letih 1889 in
+                            1890.<hi rend="bold">«</hi></note>
+                    <hi rend="italic">Slovenski narod</hi> je poročal, da je »nalezljivost influence
+                    jako velika, kot pri ošpicah. Ta nalezljivost se je pokazala pri sedanji
+                    epidemiji posebno med šolsko mladino, ko se je izhajajoče od enega obolenja
+                    razvilo med njegovimi sošolci celo ognjišče ter so iskre razširjevale in
+                    raznašale kal bolezni med druge tako, da se je v najkrajšem času tekom par dni
+                    pokazalo na vsaki šoli hiter napredek okužbe.«<note place="foot" xml:id="ftn104"
+                        n="102">»Zdravstvo v Ljubljani,« <hi rend="italic">Slovenski narod</hi>, 31.
+                        10. 1918, 5.</note> To potrjuje tudi zapis <hi rend="italic">Domoljuba</hi>:
+                    »V nekatere šolske razrede so prišli izmed 30 učencev po trije v šolo, vse drugo
+                    je bolno.«<note place="foot" xml:id="ftn105" n="103">»Domače novice. Španska
+                        bolezen,« <hi rend="italic">Domoljub</hi>, 10. 10. 1918, 423.</note></p>
+                <p>Pouk, ki se je začel 1. oktobra, je bil 3. oktobra že prekinjen, saj je do takrat
+                    iz šol izostalo med tretjino in polovico otrok. Sprva je bilo mišljeno, da se bo
+                    nadaljeval 15. oktobra, ker pa epidemija do takrat še ni popustila, so klopi
+                    ljubljanskih šol ostale prazne do 4. novembra 1918.<note place="foot"
+                        xml:id="ftn106" n="104">»Zdravstvo v Ljubljani,« <hi rend="italic">Slovenski
+                            narod</hi>, 31. 10. 1918, 5. »Ljubljanske novice. Ljubljanske šole
+                        zaprte,« <hi rend="italic">Slovenec</hi>, 3. 10. 1918, 4.</note> Narodna
+                    vlada je izdala sklep, da morajo vse srednje in ljudske šole v Ljubljani začeti
+                    redni pouk v torek, 5. novembra, med drugim tudi zato, ker ji »je premnogo do
+                    tega, da srednješolska mladina in ljudskošolski otroci ne bodo pohajkovali po
+                        ulicah«.<note place="foot" xml:id="ftn107" n="105">»Ljubljanske novice.
+                        Zopetni pričetek šol v Ljubljani,« <hi rend="italic">Slovenec</hi>, 4. 11.
+                        1918, 3.</note></p>
+                <p rend="footnote text">Da prvotni načrt ni bil v celoti realiziran, razberemo iz
+                    izjave poverjeništva za uk in bogočastje, objavljene v <hi rend="italic"
+                        >Slovencu</hi> 9. novembra. Pouk na ljudskih šolah je potekal glede na
+                    lokalne razmere, ravnateljstva obeh gimnazij, realke in liceja pa so šele 13.
+                    novembra naznanila, da se redni pouk začne v ponedeljek, 18. novembra 1918.<note
+                        place="foot" xml:id="ftn108" n="106"> »Ljubljanske novice. Pouk na srednjih
+                        šolah in učiteljišču,« <hi rend="italic">Slovenec</hi>, 9. 11. 1918, 5.
+                        »Ljubljanske novice, Pričetek pouka na ljubljanskih srednjih šolah,« <hi
+                            rend="italic">Slovenec</hi>, 13. 11. 1918, 3. Gl. tudi »Kranjske vesti,«
+                            <hi rend="italic">Učiteljski tovariš</hi>, 18. 10. 1918, 5. »Kronika. V
+                        blagor mladine,« <hi rend="italic">Učiteljski tovariš</hi>, 4. 11. 1918, 3.
+                        »Iz Jugoslavije. Slovenska trgovska šola v Ljubljani in Šolski pouk v
+                        Ljubljani,« <hi rend="italic">Učiteljski tovariš</hi>, 15. 11. 1918,
+                        4.</note></p>
+                <p>Španjolka<note place="foot" xml:id="ftn109" n="107">»Dnevne novice. Umrl je za
+                        španjolko,« <hi rend="italic">Slovenec</hi>, 11. 10. 1918, 4.</note> je
+                    svojo moč pokazala tudi v Zavodu sv. Stanislava, ki svojih prostorov ni mogel
+                    kar sprazniti. Umrla sta profesor Franc Rebol in prefekt Ivan Pečkaj, do 12.
+                    oktobra so pod boleznijo klonili tudi štirje dijaki, obolelih pa je več kot 100.
+                    Obolela je tudi večina sester usmiljenk, »tako da ni skoro nikogar za
+                        postrežbo«.<note place="foot" xml:id="ftn110" n="108">»Dnevne novice.
+                        Španska bolezen v zavodih sv. Stanislava,« <hi rend="italic">Slovenec</hi>,
+                        11. 10. 1918, 4. »Po domovini. V zavodu sv. Stanislava,« <hi rend="italic"
+                            >Novice</hi>, 12. 10. 1918, 2.</note>
+                </p>
+                <milestone unit="section" n="*"/>
+                <p>Kljub temu, da je iz tedenskih izkazov o zdravstvenem stanju oseb v Ljubljani
+                    razvidno, da se je epidemija začela umirjati šele novembra,<note place="foot"
+                        xml:id="ftn111" n="109">»Ljubljanske novice. Tedenski izkaz o zdravstvenem
+                        stanju mestne občine ljubljanske od 24. novembra do 30. novembra 1918,« <hi
+                            rend="italic">Slovenec</hi>, 5. 12. 1918, 3. Za december 1918 gl.
+                        »Ljubljanske novice. Tedenski izkaz o zdravstvenem stanju mestne občine
+                        ljubljanske,« <hi rend="italic">Slovenec</hi>, 31. 12. 1918, 4.</note> je
+                        <hi rend="italic">Slovenec</hi> že konec oktobra 1918 zapisal: »V zadnjih
+                    dneh je opažati, da epidemija influence med ljubljanskim civilnim prebivalstvom
+                        ponehuje.«<note place="foot" xml:id="ftn112" n="110">»Ljubljanske novice,
+                        Tedenski izkaz o zdravstvenem stanju mestne občine ljubljanske,« <hi
+                            rend="italic">Slovenec</hi>, 24. 10. 1918, 4.</note> Deželni zdravstveni
+                    svet pa je potrdil, da je v Ljubljani španska gripa zadnje dni oktobra začela
+                    izgubljati moč. Ocenil je, da bi nadaljnji ukrepi, denimo zaprtje kinematografov
+                    in gledališč, omejitev prometa na cestni železnici itd., prišli v poštev šele,
+                    »če bi se bolezen znova hujše pojavljala. Vsekako pa je občinstvu nujno
+                    nasvetovati, da se v lastnem interesu izogiba na hripi bolnih ljudi in sploh
+                    vseh prilik, kjer se zbira veliko ljudstva.«<note place="foot" xml:id="ftn113"
+                        n="111">»Dnevne novice. Deželni zdravstveni svet o španski hripi,« <hi
+                            rend="italic">Slovenec,</hi> 30. 10. 1918, 3.</note>
+                </p>
+                <p>Samo od sebe se pojavi vprašanje, s katerimi ukrepi so se prebivalci Ljubljane –
+                    poleg zaprtja osnovnih in srednjih šol – med epidemijo dejansko sploh srečali.
+                    Odgovor podajam na podlagi podatkov, evidentiranih v <hi rend="italic"
+                        >Slovencu</hi>, ki je v začetku novembra sporočil, da smejo biti od 4.
+                    novembra 1918 gostilne odprte samo od 11. ure dopoldne do 8. ure zvečer, kavarne
+                    pa do 9. ure zvečer. Mladine do 17 leta ta omejitev ni zadevala, saj so smeli
+                    biti dekleta in fantje na ulicah in javnih prostorih brez spremstva svojcev le
+                    do 6. ure zvečer; pa še takrat druženje ni bilo najbolj prijetno, saj je bilo
+                    zbiranje v gručah strogo prepovedano.<note place="foot" xml:id="ftn114" n="112"
+                        >»Ljubljanske novice. Zopetni pričetek šol v Ljubljani,« <hi rend="italic"
+                            >Slovenec</hi>, 4. 11. 1918, 3.</note>
+                </p>
+                <p>Prepovedane so bile tudi zabave in praznovanja ob formiranju nove države,
+                    poročevalec je menil, da so časi »preresni in prenevarni za take reči. Zato je
+                    tudi v Ljubljani na dan manifestacije 29. oktobra napovedana 'veselica'
+                    izostala. Narodno veče v Zagrebu je prepovedalo za ta čas celo vsako točenje
+                    alkohola. Skrajna treznost bodi povelje tudi pri nas v teh časih! Napravite
+                    narodne prireditve po društvenih domovih, a nikar 'proslavljati' domovine s
+                    čini, katerih domovina ne more biti vesela!«<note place="foot" xml:id="ftn115"
+                        n="113">»Dnevne novice. Prosta zabava v vseh prostorih gostilne N. N.,« <hi
+                            rend="italic">Slovenec</hi>, 8. 11. 1918, 3.</note> … Vendar v <hi
+                        rend="italic">Domoljubu</hi> preberemo: »29. oktobra so bile morda
+                    najsijajnejše, kar se jih je doslej vršilo v Ljubljani. Kakih 60.000 ljudi, se
+                    je premikalo od jutra do poldneva po ljubljanskih ulicah, večina v dolgem,
+                    veličastnem sprevodu, ostali pa so ob strani gledali in pozdravljali ta
+                        sprevod.«<note place="foot" xml:id="ftn116" n="114">»Domače novice.
+                        Ljubljanske manifestacije,« <hi rend="italic">Domoljub</hi>, 7. 11. 1918,
+                        464.</note> …</p>
+            </div>
+            <div>
+                <head>IV.</head>
+                <p>V avstroogrski monarhiji je po ocenah za špansko gripo umrlo okoli 250.000
+                        ljudi,<note place="foot" xml:id="ftn117" n="115">Anatol Schmied-Kowarzik,
+                        »War Losses (Austria-Hungary),« v: Ute Daniel, Peter Gatrell, Oliver Janz,
+                        Heather Jones, Jennifer Keene, Alan Kramer in Bill Nasson, ur., <hi
+                            rend="italic">1914–1918 – Online: International Encyclopedia of the
+                            First World War</hi>, <ref
+                            target="https://doi.org/10.15463/ie1418.10964"
+                            >https://doi.org/10.15463/ie1418.10964</ref>, pridobljeno 21. 6. 2020.
+                        Rok Stergar, »Vojna, lakota, ujetništvo, negotovost in Jugoslavija. Leto
+                        1918 na prostoru današnje Slovenije,« v: <hi rend="italic">1918 v slovenskem
+                            jeziku, literaturi in kulturi. Seminar slovenskega jezika, literature in
+                            kulture</hi> (Ljubljana: Znanstvena založba Filozofske fakultete, 2018),
+                        82.</note> v Kraljevini SHS več kot 60.000.<note place="foot"
+                        xml:id="ftn118" n="116">Likar, <hi rend="italic">Usoda nalezljivih
+                            bolezni</hi>, 126.</note> V Ljubljani, ki je junija 1914 štela okrog
+                    50.000 prebivalcev,<note place="foot" xml:id="ftn119" n="117">Lojze Pipp,
+                        »Razvoj števila prebivalstva Ljubljane in bivše vojvodine Kranjske,« <hi
+                            rend="italic">Kronika slovenskih mest</hi> 2, št. 1 (1935): 70, navaja,
+                        da je Ljubljana leta 1914 štela 49.653 prebivalcev. <hi rend="italic"
+                            >Spezialortsrepertorium der Österreichischen Länder. Bearbeitet auf
+                            Grund der Ergebnisse der Volkszählung vom 31. Dezember 1910. VI. Krain:
+                            Spezialortsrepertorium von Krain</hi> (Wien: Verlag der
+                        Deutschösterreichischen Staatsdruckerei, 1919), 1, navaja, da je v Ljubljani
+                        živelo 46.630 oseb (22.868 moških in 23.762 žensk). V SI_ZAL_LJU/0489, š.
+                        1871, f. 170, ovoj XI-233/II, št. 308-360, Wochenausweis über Geburten und
+                        Sterbefälle, najdemo podatek, da je v začetku leta 1915 v Ljubljani živelo
+                        49.695, 26. 6. 1915 50.376, 1. 10. 1916 50.716 in 1. 4. 1917 51.057
+                        oseb.</note> je umrlo 1.410 ljudi<note place="foot" xml:id="ftn120" n="118"
+                        >Zupanič Slavec, »Ivo Pirc,« 58.Za Zagreb točnih podatkov o obolelih osebah
+                        ni mogoče pridobiti, »pošto nije bilo prijavljivanje po lječnicima
+                        obligatorno, a sigurno ne bi bilo to niti od uspjeha, pošto večina oboljelih
+                        nije prizivala liječnika i pošto liječnici ne bi bili mogli udovoljiti svim
+                        pozivima«. V drugem – jesenskem – valu, ki je terjal daleč največ žrtev, je
+                        v Zagrebu umrlo 536 oseb zaradi španske gripe in 325 zaradi pljučnice, kar
+                        pa ni povsem točno, ti podatki domnevno vključujejo namreč zgolj obducirane
+                        umrle v zagrebških bolnišnicah (večina pa je verjetno umrla doma). – Pantić,
+                        Marijan in Lovrić, »Španjolska gripa u Zagrebu,« 112 in 113.</note> (ta
+                    podatek ne vključuje smrtnih žrtev med vojaki, njihovo število za zdaj ostaja
+                        neznano)<note place="foot" xml:id="ftn121" n="119">Miha Šimac, »'Kjer smrt
+                        junaške brate povabi v svate.' V ljubljanskih bolnišnicah 1914–1918,« <hi
+                            rend="italic">Na fronti</hi>, št. 5 (2008): 20–28.</note> oziroma več
+                    kot 400 Ljubljančanov,<note place="foot" xml:id="ftn122" n="120">Podatek o 403
+                        umrlih, ki ga je Nina Kalčič pridobila iz matičnih knjig za Ljubljano
+                        (Nadškofijski arhiv Ljubljana), velja za obdobje od septembra 1918 do
+                        februarja 1919. – Kalčič, <hi rend="italic">Španska gripa</hi>, 30. Ta
+                        raziskava je bila nadgrajena v okviru mednarodnega projekta <hi
+                            rend="italic">Razsežnosti in posledice španske gripe ob koncu prve
+                            svetovne vojne na Kranjskem in v Istri</hi> ter odstira, da je v
+                        Ljubljani in njenem zaledju od septembra 1918 do marca 1919 za špansko gripo
+                        in njenimi posledicami umrlo 414 civilnih oseb. Gl. Keber, »Španska gripa,«
+                        74, 76. Številke o umrlih, ki so jih priobčili mestni fizik in dnevnika <hi
+                            rend="italic">Slovenec</hi> in <hi rend="italic">Slovenski narod</hi> za
+                        obdobje od septembra do novembra 1918 (s fokusom na oktobru, mesecu, v
+                        katerem je v Ljubljani in tudi po svetu za španko umrlo največ oseb), so
+                        nižje, verjetno zajemajo zgolj osebe, ki so umrle (in bile obducirane) v
+                        bolnišnici. Gl. poročilo mestnega fizika dr. Krajca o zdravstvenem stanju
+                        prebivalcev Ljubljane za leto 1918. – SI_ZAL_LJU/0488, Cod. III, Rokopisne
+                        knjige, š. 119, knjiga 77 (1919), Zapisnik javne seje občinskega sveta
+                        ljubljanskega, 11. 2. 1919, 19. »Ljubljanske novice. Tedenski izkaz o
+                        zdravstvenem stanju mestne občine ljubljanske,« <hi rend="italic"
+                            >Slovenec</hi>, 24. 10. 1918, 4. »Zdravstvo v Ljubljani,« <hi
+                            rend="italic">Slovenski narod</hi>, 31. 10. 1918, 5.</note> čeprav je
+                    ljubljanski mestni magistrat »v interesu javnega zdravstva zaukazal natančno
+                    preiskavo vseh s front vračajočih se vojakov in ženskih vojaških pomožnih
+                        uslužbenk.«<note place="foot" xml:id="ftn123" n="121">Marko Štepec, »Utrip
+                        vsakdanjega življenja v Ljubljani,« <hi rend="italic">Studia Historica
+                            Slovenica</hi> 14, št. 2-3 (2014): 386.</note> Vprašanje, kdo je
+                    postopek izvajal, saj je bilo veliko zdravnikov še na fronti, ostali zdravstveni
+                    delavci pa so bili preobremenjeni z dnevnimi obveznostmi, ostaja odprto.</p>
+                <p>Časopisni članki, ki so bili sprva optimistični in so influenco označili zgolj za
+                    prehlad, so med drugim valom bolj ali manj apatično nanizali smrtne žrtve, ki
+                    jih je gripa terjala v tem in onem kraju: » Španska bolezen se tako širi da je
+                    že malo hiš, kjer bi se ne bila pojavila več ali manj in zahteva dan na dan
+                    novih žrtev.«<note place="foot" xml:id="ftn124" n="122">»Dnevne vesti. Španska
+                        bolezen se tako hitro širi,« <hi rend="italic">Slovenski narod</hi>, 18. 10.
+                        1918, 3.</note> V drugi polovici oktobra 1918 pa so postajali čedalje bolj
+                    črnogledi, češ »bati se je še hujšega«.<note place="foot" xml:id="ftn125"
+                        n="123">Ibid.</note>
+                </p>
+                <p>Iz skromne bére ohranjenega gradiva o obdobju epidemije španske gripe<note
+                        place="foot" xml:id="ftn126" n="124">V obdelanem gradivu nisem zasledila
+                        podatkov o posameznikih, ki bi dvomili v obstoj bolezni in preventivne
+                        ukrepe proti njeni širitvi ali bi tem nasprotovali, kar seveda ne pomeni, da
+                        v družbi niso bili prisotni.</note> oziroma iz odsotnosti gradiva, ki bi
+                    civiliste seznanjalo z zdravstveno situacijo, je razvidno, da strokovnjaki in
+                    odgovorni mestni veljaki svoje naloge niso dobro opravili. Med največjim
+                    divjanjem bolezni po Ljubljani in njeni širši okolici so namreč v <hi
+                        rend="italic">Novicah</hi> zapisali: »Pričakujemo, da mestni magistrat
+                    občinstvu vendar kaj pove o tej bolezni.«<note place="foot" xml:id="ftn127"
+                        n="125">»Po domovini. Bolezni In prometne ovire,« <hi rend="italic"
+                            >Novice</hi>, 18. 10. 1918, 2.</note> Ker odgovorni nasvetov in
+                    usmeritev niso podali, so članki konec oktobra postajali vse bolj kritični do
+                    oblasti, spraševali so se, kaj so sploh ukrenile, da bi se epidemija omejila in
+                    zatrla. Očitali so jim, da je edini ukrep, ki so ga bile zmožne izpeljati,
+                    zaprtje osnovnih in srednjih šol: »Šole so zaprli, to je bila alfa in omega
+                    vsega, druzega se pa vzlic skladanicam zakonov in naredb proti epidemijam ni
+                    ukrenilo prav nič. Tako jaha sv. Birokracij svojega starega šimeljčka na
+                    Kranjskem, kako je drugod, nam ni znano.«<note place="foot" xml:id="ftn128"
+                        n="126">»Dnevne vesti. Španska bolezen se tako hitro širi,« <hi
+                            rend="italic">Slovenski narod</hi>, 18. 10. 1918, 3.</note></p>
+                <p>Ljudje so zaradi odsotnosti in prezasedenosti zdravnikov ter pomanjkanja
+                    medicinskega osebja, zaradi čedalje večjega števila okuženih oziroma čedalje
+                    manjšega števila potencialnih negovalcev obolelih, neobstoja cepiv in ustreznih
+                    zdravil ipd. ostajali bolj ali manj osamljeni s svojimi skrbmi. Glede na
+                    časopisne podatke o tem, da je zaradi epidemije zastalo celo delo obrtnikov in
+                    kmetov, da pridelki ležijo na polju nepobrani,<note place="foot" xml:id="ftn129"
+                        n="127">»Dnevne novice. Iz Št. Janža,« <hi rend="italic">Slovenec,</hi> 18.
+                        10. 1918, 4.</note> da grozi pomanjkanje živil, je verjetno marsikoga
+                    skrbelo, da je pred njim ne le zima bolezni, temveč tudi zima lakote.</p>
+            </div>
+
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Seznam virov in literature</head>
+                <list type="unordered">
+                    <head>Arhivski viri</head>
+                    <item>SI_ZAL_LJU – Zgodovinski arhiv Ljubljana:<list type="unordered">
+                            <item>SI_ZAL_LJU/0488, Cod. III.</item>
+                            <item>SI_ZAL_LJU/0489, Reg. I.</item>
+                        </list></item>
+                </list>
+                <listBibl>
+                    <head>Časopisni viri</head>
+                    <bibl><hi rend="italic">Domoljub</hi>, 1918.</bibl>
+                    <bibl><hi rend="italic">Domovina</hi>, 1918.</bibl>
+                    <bibl><hi rend="italic">Novice</hi>, 1918.</bibl>
+                    <bibl><hi rend="italic">Slovenec</hi>, 1918.</bibl>
+                    <bibl><hi rend="italic">Slovenski narod</hi>, 1918.</bibl>
+                    <bibl><hi rend="italic">Slovenski trgovski vestnik</hi>, 1914.</bibl>
+                    <bibl><hi rend="italic">Straža</hi>, 1918.</bibl>
+                    <bibl><hi rend="italic">Učiteljski tovariš</hi>, 1918.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Elektronski viri</head>
+                    <bibl>Omahen, Rok. »Koliko življenj je vzela epidemija španske gripe v
+                        Ljubljani. Umrljivost prebivalstva ljubljanskega okraja pred dobrim
+                        stoletjem.« <hi rend="italic">MMC RTV SLO</hi>, 24. 1. 2021. Dostopno na:
+                            <ref
+                            target="https://www.rtvslo.si/moja-generacija/koliko-zivljenj-je-vzela-epidemija-spanske-gripe-v-ljubljani/549913"
+                            >https://www.rtvslo.si/moja-generacija/koliko-zivljenj-je-vzela-epidemija-spanske-gripe-v-ljubljani/549913</ref>.
+                        Pridobljeno 3. 5. 2021.</bibl>
+                    <bibl>Omahen, Rok. »Koliko življenj je vzela epidemija španske gripe v Ljubljani
+                        (2. del). Umrljivost prebivalstva ljubljanskega okraja pred dobrim
+                        stoletjem.« <hi rend="italic">MMC RTV SLO</hi>, 31. 1. 2021. Dostopno na:
+                            <ref
+                            target="https://www.rtvslo.si/moja-generacija/koliko-zivljenj-je-vzela-epidemija-spanske-gripe-v-ljubljani-2-del/549926"
+                            >https://www.rtvslo.si/moja-generacija/koliko-zivljenj-je-vzela-epidemija-spanske-gripe-v-ljubljani-2-del/549926</ref>.
+                        Pridobljeno 27. 5. 2021.</bibl>
+                    <bibl>Pirc, Tatjana in Katarina Keber. <hi rend="italic">Na zgodovinske
+                            epidemije bom odslej gledala drugače</hi> [Elektronski vir]. Ljubljana:
+                        Radiotelevizija Slovenija javni zavod, 2020. Dostopno na: <ref
+                            target="https://val202.rtvslo.si/2020/04/nedeljski-gost-206/"
+                            >https://val202.rtvslo.si/2020/04/nedeljski-gost-206/</ref>. Pridobljeno
+                        23. 8. 2021.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Literatura</head>
+                    <bibl>Anušič, Nikola. <hi rend="italic">U sjeni velikog rata. Pandemija
+                            španjolske gripe 1918.</hi> –<hi rend="italic">1919 u sjevernoj
+                            Hrvatskoj</hi>. Zagreb: Srednja Europa, 2015.</bibl>
+                    <bibl>Brodnik, Vilma. <hi rend="italic">Preskrba Ljubljane z živili med 1.
+                            svetovno vojno. Diplomsko delo</hi>. Ljubljana, 1988.</bibl>
+                    <bibl>Collier, Richard. <hi rend="italic">The Plague of the Spanish Lady. The
+                            Influenza Pandemic of 1918</hi>–<hi rend="italic">1919</hi>. London:
+                        Macmillan, 1974.</bibl>
+                    <bibl>Dobaja, Dunja. <hi rend="italic">Za blagor materi in otrok. Zaščita mater
+                            in otrok v letih 1919</hi>–<hi rend="italic">1941</hi>. Ljubljana:
+                        Inštitut za novejšo zgodovino, 2018.</bibl>
+                    <bibl>Doblanović Šuran, Danijela, Gabriela Braić, Mirjana Flego, Davor Salihović
+                        in Monika Zuprić. »Kretanje i uzroci smrtnosti u deset istarskih župa u
+                        razdoblju od 1910. do 1923.« V: Petra Svoljšak, ur. <hi rend="italic">Istra
+                            u Velikom ratu: glad, bolest, smrt = L'Istria nella Grande guerra: fame,
+                            malattie, morte = Istra v Veliki vojni: glad, bolezni, smrt</hi>, 55–84.
+                        Koper = Capodistria: Histria Editiones, 2017.</bibl>
+                    <bibl>Drnovšek, Marjan. »Oris odnosa ljubljanskega občinskega sveta do mestnega
+                        razvoja 1850–1914 s posebnim poudarkom na Hribarjevi dobi.« V: Ferdo
+                        Gestrin, ur., <hi rend="italic">Zgodovina Ljubljane. Prispevki za
+                            monografijo</hi>, 212–37. Ljubljana: Kronika, časopis za slovensko
+                        krajevno zgodovino in Zgodovinsko društvo Ljubljana, 1984.</bibl>
+                    <bibl>Fischer, Jasna. »Zagate v kmetijstvu.« V: <hi rend="italic">Slovenska
+                            novejša zgodovina. Od programa Zedinjena Slovenija do mednarodnega
+                            priznanja Republike Slovenije: 1848–1992</hi>, 72–74. Ljubljana:
+                        Mladinska knjiga in Inštitut za novejšo zgodovino, 2005.</bibl>
+                    <bibl>Gerwarth, Robert. <hi rend="italic">The Vanquished</hi>. <hi rend="italic"
+                            >Why the First World War Failed to End, 1917–1923</hi>. London: Penguin
+                        Books, 2017.</bibl>
+                    <bibl>Govekar, Fran in Miljutin Zarnik, ur. <hi rend="italic">Ljubljana po
+                            potresu (1895–1910)</hi>. Ljubljana: Tiskarna Drag. Hribar, 1910.</bibl>
+                    <bibl>Kalčič, Nina. »Španska gripa.« <hi rend="italic">Zdravstveno varstvo</hi>
+                        41, št. 7-8 (2002): 257–62.</bibl>
+                    <bibl>Kalčič, Nina. <hi rend="italic">Španska gripa ali »Kadar pride žito v
+                            dobro zemljo in je ugodno vreme, tedaj je zrno veliko, zrno je debelo in
+                            močno, Ravnotako tudi influenčni bakcili. Kadar pridejo zanje ugodne
+                            razmere, tedaj se namnože in okrepe, da ne omagajo zlepa. Diplomska
+                            naloga</hi>. Ljubljana, 2001.</bibl>
+                    <bibl>Keber, Katarina. »Epidemija v šolskih klopeh. Primer španske gripe leta
+                        1918 v osrednjeslovenskem prostoru.« <hi rend="italic">Kronika</hi> 65, št.
+                        1 (2017): 67–76.</bibl>
+                    <bibl>Keber, Katarina. »Španska gripa leta 1918 v osrednjeslovenskem prostoru.«
+                        V: <hi rend="italic">1918 v slovenskem jeziku, literaturi in kulturi</hi>,
+                        71–77. Ljubljana: Univerza v Ljubljani, 2018.</bibl>
+                    <bibl>Kresal, France. »Struktura slovenskega gospodarstva.« V: <hi rend="italic"
+                            >Slovenska novejša zgodovina. Od programa Zedinjena Slovenija do
+                            mednarodnega priznanja Republike Slovenije: 1848–1992</hi>, 108–09.
+                        Ljubljana: Mladinska knjiga in Inštitut za novejšo zgodovino, 2005.</bibl>
+                    <bibl>Leonhard, Jörn. <hi rend="italic">Pandora's Box. A History of the First
+                            World War</hi>. Harvard University Press, 2018.</bibl>
+                    <bibl>Likar, Miha. <hi rend="italic">Usoda nalezljivih bolezni</hi>. Ljubljana:
+                        Državna založba Slovenije, 1981.</bibl>
+                    <bibl>Milovan Delić, Iva. »'Liječenje' španjolske gripe 1918. i 1919. u
+                        Pokrajinskoj bolnici u Puli: socijalna komponenta pandemskog bolničkog
+                        mortaliteta.« V: Petra Svoljšak, ur. <hi rend="italic">Istra u Velikom ratu:
+                            glad, bolest, smrt = L'Istria nella Grande guerra: fame, malattie, morte
+                            = Istra v Veliki vojni: glad, bolezni, smrt</hi>, 183–208. Koper =
+                        Capodistria: Histria Editiones, 2017.</bibl>
+                    <bibl>Pantić, Julija, Marijan Marijan in Andrija Lovrić. »Španjolska gripa u
+                        Zagrebu.« <hi rend="italic">Povijest u nastavi</hi> 4 (2006): 105–15.</bibl>
+                    <bibl>Pipp, Lojze. »Razvoj števila prebivalstva Ljubljane in bivše vojvodine
+                        Kranjske.« <hi rend="italic">Kronika slovenskih mest</hi> 2, št. 1 (1935):
+                        66–72.</bibl>
+                    <bibl>Pope, Stephen in Elizabeth-Anne Wheal. <hi rend="italic">Dictionary of the
+                            First World War.</hi> Barnsley: Pen &amp; Sword Military Classics,
+                        2003.</bibl>
+                    <bibl>Rollet, Catherine. »The 'Other War' II: Setbacks in Public Health.« V: Jay
+                        Winter in Jean-Louis Robert, ur. <hi rend="italic">Capital Cities at War.
+                            Paris, London, Berlin: 1914–1919</hi>, 456–86. Cambridge: Cambridge
+                        University Press, 1997.</bibl>
+                    <bibl>Schmied-Kowarzik, Anatol. »War Losses (Austria-Hungary).« V: Ute Daniel,
+                        Peter Gatrell, Oliver Janz, Heather Jones, Jennifer Keene, Alan Kramer in
+                        Bill Nasson, ur. <hi rend="italic">1914-1918—Online: International
+                            Encyclopedia of the First World War</hi>. Dostopno na: <ref
+                            target="https://doi.org/10.15463/ie1418.10964"
+                            >https://doi.org/10.15463/ie1418.10964</ref>. Pridobljeno 21. 6.
+                        2020.</bibl>
+                    <bibl>Stergar, Rok. »Vojna, lakota, ujetništvo, negotovost in Jugoslavija. Leto
+                        1918 na prostoru današnje Slovenije.« V: <hi rend="italic">1918 v slovenskem
+                            jeziku, literaturi in kulturi</hi>, 78–89. Ljubljana: Znanstvena založba
+                        Filozofske fakultete, 2018.</bibl>
+                    <bibl>Svoljšak, Petra in Gregor Antoličič. <hi rend="italic">Leta strahote.
+                            Slovenci in prva svetovna vojna. Z okvirnima črticama Ivana Cankarja in
+                            predgovorom Toneta Partljiča</hi>. Ljubljana: Cankarjeva založba,
+                        2018.</bibl>
+                    <bibl>Svoljšak, Petra. »Poizkus ocene vojaških in civilnih izgub (žrtev) med 1.
+                        svetovno vojno.« V: Stane Granda in Barbara Šatej, ur. <hi rend="italic"
+                            >Množične smrti na Slovenskem. Zbornik referatov: 29. Zborovanje
+                            slovenskih zgodovinarjev, Izola, 22. – 24. 10. 1998</hi>, 225–40.
+                        Ljubljana: Zveza zgodovinskih društev Slovenije, 1999.</bibl>
+                    <bibl>Šarabon, V[inko]. »Svetovni promet po morju.« <hi rend="italic">Čas</hi>,
+                        zv. 3 (1915), 146–57.</bibl>
+                    <bibl>Šimac, Miha. »'Kjer smrt junaške brate povabi v svate.' V ljubljanskih
+                        bolnišnicah 1914–1918.« <hi rend="italic">Na fronti</hi>, št. 5 (2008):
+                        20–28.</bibl>
+                    <bibl>Šorn, Jože. »Slovenci in gospodarski položaj v prvi svetovni vojni.« <hi
+                            rend="italic">Zgodovinski časopis</hi> 35, št. 1-2 (1981): 57–81.</bibl>
+                    <bibl>Šorn, Jože. <hi rend="italic">Slovensko gospodarstvo v poprevratnih letih
+                            1919–1924</hi>. Ljubljana: Cankarjeva založba, 1997.</bibl>
+                    <bibl>Šorn, Mojca. <hi rend="italic">Pomanjkanje in lakota v Ljubljani med
+                            véliko vojno</hi>. Ljubljana: Inštitut za novejšo zgodovino,
+                        2020.</bibl>
+                    <bibl>Štepec, Marko. »Utrip vsakdanjega življenja v Ljubljani.« <hi
+                            rend="italic">Studia Historica Slovenica</hi> 14, št. 2-3 (2014):
+                        379–94.</bibl>
+                    <bibl>Tičar, Josip. <hi rend="italic">Boj nalezljivim boleznim</hi>. Ljubljana:
+                        Tiskovna zadruga, 1922.</bibl>
+                    <bibl>Valant, Milan. <hi rend="italic">Ljubljana od 1895 do 1941</hi>.
+                        Ljubljana: samozaložba, 1977.</bibl>
+                    <bibl>Vašte, Ilka. <hi rend="italic">Podobe iz mojega življenja</hi>. Ljubljana:
+                        Mladinska knjiga, 1964.</bibl>
+                    <bibl>Zupanič Slavec, Zvonka. »Ivo Pirc.« <hi rend="italic">Na fronti</hi>, št.
+                        5 (2008): 52–59.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Tiskani viri</head>
+                    <bibl><hi rend="italic">Deželni zakonik za vojvodino Kranjsko /
+                            Landesgesetzblatt für das Herzogtum Krain</hi>. Ljubljana = Laibach,
+                        1914.</bibl>
+                    <bibl><hi rend="italic">Državni zakonik za kraljevine in dežele, zastopane v
+                            državnem zboru</hi>. Dunaj, 1914.</bibl>
+                    <bibl><hi rend="italic">Spezialortsrepertorium der Österreichischen Länder.
+                            Bearbeitet auf Grund der Ergebnisse der Volkszählung vom 31. Dezember
+                            1910. VI. Krain: Spezialortsrepertorium von Krain.</hi> Wien: Verlag der
+                        Deutschösterreichischen Staatsdruckerei, 1919.</bibl>
+                </listBibl>
+            </div>
+            <div type="summary" xml:lang="en">
+                <docAuthor>Mojca Šorn</docAuthor>
+                <head>THE SPANISH FLU EPIDEMIC IN LJUBLJANA: “WE EXPECT THE TOWN HALL TO TELL THE
+                    PUBLIC AT LEAST SOMETHING ABOUT THIS DISEASE”</head>
+                <head>SUMMARY</head>
+                <p>The present article first outlines the world at the time of the Spanish flu
+                    pandemic and then focuses on Carniola to illustrate how Ljubljana dealt with the
+                    disease. The description of the situation also partly answers the question of
+                    the degree to which the inhabitants of the provincial capital were informed
+                    about the health situation and whether the authorities did enough to ensure
+                    their safety.</p>
+                <p>The newspaper articles were initially optimistic and described the influenza as a
+                    mere cold, while during the second wave, they apathetically listed the lives
+                    claimed by the disease in certain districts. However, in the second half of
+                    October 1918, the press became increasingly gloomy and stated that “worse might
+                    still come”.</p>
+                <p>The modest amount of materials preserved regarding the period of the Spanish flu
+                    epidemic – or the absence of materials informing civilians about the health
+                    situation – attests to the fact that the experts and the responsible city
+                    officials failed to do a very good job. For example, when the disease was at its
+                    worst in Ljubljana and its broader surroundings, the <hi rend="italic"
+                        >Novice</hi> newspaper wrote that the residents of Ljubljana were anxiously
+                    waiting for the Town Hall to say something about the disease, give advice, and
+                    present guidelines on how to fight it. As this did not happen, at the end of
+                    October, the press was becoming more critical of those responsible, asking
+                    itself what had been done to contain and overcome the epidemic. They accused the
+                    authorities that implementing the measure to close down primary and secondary
+                    schools represented the entire scope of their activities.</p>
+                <p>Meanwhile, people were left more or less to their own devices, worried because of
+                    the absence and overtaxing of doctors and the shortage of medical staff, the
+                    increasing number of infected people and the decreasing number of potential
+                    caregivers for the sick, the lack of vaccines and medicines, etc. Newspapers
+                    reported that the epidemic had even brought the work of artisans and farmers to
+                    a standstill, that crops remained unharvested in the fields, and that people
+                    faced impending food shortages. Therefore, many people probably worried that
+                    they faced a winter characterised not only by the disease but also famine.</p>
+                <p>For now, the author does not have any information at her disposal that would
+                    clarify how people perceived the disease, what their reactions were to the
+                    (in)activity of the authorities, and what was their outlook on the social and
+                    health situation. She notes that the legacy of the period of the Spanish flu
+                    pandemic is very modest for historians. The absence of archival sources can be
+                    explained as a consequence of the dysfunctional system of the Austro-Hungarian
+                    state, which was on the verge of collapse at the time, while the lack of printed
+                    sources can be seen as a result of the daily newspapers’ focus on the
+                    establishment of the new state of SHS, which coincided with the culmination of
+                    the health crisis.</p>
+            </div>
+        </back>
+    </text>
+</TEI>
