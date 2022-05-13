@@ -1,0 +1,1430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Journalist’s Action in Socialist Yugoslavia: Understanding the
+                    Formulation “Journalist as a Socio-political Worker”<note place="foot"
+                        xml:id="ftn1" n="*">The author wrote this article as part of a training
+                        course for young researchers (Slovenian Research Agency). This article was
+                        written as part of a research project <hi rend="italic">The Role of
+                            Communication Inequalities in Disintegration of a Multinational
+                            Society</hi> (Slovenian Research Agency: grant J5-1793). I would like to
+                        thank Martin Mittendorfer and Jernej Kaluža for initial and ongoing
+                        discussions on the topic, for help creating the insights and, finally, for
+                        support. I also wish to thank Sašo Slaček and Jernej Amon Prodnik for their
+                        constructive comments and advice. Finally, thanks to all the transcribers of
+                        the interview recordings who made it easier to enter into the analysis of
+                        the data obtained.</note></title>
+                <author>
+                    <surname>Nina</surname>
+                    <forename>Žnidaršič</forename>
+                    <roleName>Young Researcher</roleName>
+                    <affiliation>Faculty of Social Sciences, University of Ljubljana</affiliation>
+                    <address>
+                        <addrLine>Kardeljeva ploščad 5</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>nina.znidarsic@fdv.uni-lj.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2022-04-21</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/4012</pubPlace>
+                <date>2022</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">62</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>journalist</term>
+                    <term>socio-political worker</term>
+                    <term>socialism</term>
+                    <term>self-management</term>
+                    <term>Yugoslavia</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>novinar</term>
+                    <term>družbeno-politični delavec</term>
+                    <term>socializem</term>
+                    <term>samoupravljanje</term>
+                    <term>Jugoslavija</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2022-05-04T07:20:39Z</date>
+                    <name>Mihael Ojsteršek</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Nina Žnidaršič<note place="foot" xml:id="ftn2" n="**">
+                    <hi rend="bold">Young Researcher, Faculty of Social Sciences, University of
+                        Ljubljana, Kardeljeva ploščad 5, SI-1000 Ljubljana; </hi><ref
+                        target="mailto:nina.znidarsic@fdv.uni-lj.si"><hi rend="bold"
+                            >nina.znidarsic@fdv.uni-lj.si</hi></ref>
+                </note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="DOI">doi: https://doi.org/10.51663/pnz.62.1.4</idno>
+            </docImprint>
+            <div type="abstract" xml:lang="sl">
+                <head>IZVLEČEK</head>
+                <head><hi rend="italic">NOVINARJEVO DELOVANJE V SOCIALISTIČNI JUGOSLAVIJI:
+                        RAZUMEVANJE FORMULACIJE “NOVINAR KOT DRUŽBENO-POLITIČNI DELAVEC”</hi></head>
+                <p><hi rend="italic">V prispevku analiziramo jezikovno igro 'novinar kot
+                        družbeno-politični delavec', ki je bila profesionalna oznaka za novinarjevo
+                        delovanje v nekdanji socialistični Jugoslaviji. Besedilo je razdeljeno na
+                        dva osrednja dela. V prvem razdelku se z uporabo zgodovinsko-pojmovne metode
+                        lotevamo analize izraza v normativnih tekstih, kar zaobjema programska in
+                        angažirana besedila, ki so nastajala v takratnem času. S takim pristopom
+                        skušamo v pomen izraza vstopiti notranje, v utrip in duh časa, predvsem pa
+                        razumeti, kaj so z oznako njeni ustvarjalci želeli doseči in tudi sporočiti.
+                        Ugotavljamo, da sta bila novinarstvo in novinarjevo delovanje kot
+                        družbeno-političnega delavca razumljena kot pomemben politični dejavnik, kot
+                        sila, ki po eni strani prispeva k razvoju in izvedbi novega
+                        družbeno-političnega reda, tj. samoupravne socialistične skupnosti, po drugi
+                        strani pa novinar z lastnimi izdelki vpliva na širšo zavest množice, kar se
+                        izkazuje skozi idejo izobrazbe in vzgoje novega človeka: samoupravljavca.
+                        Drugi del prispevka je komplement prvemu, saj s kvalitativno metodo
+                        poglobljenega polstrukturiranega intervjuja z nekdanjimi novinarji, ki so
+                        profesionalno delovali v Socialistični federativni republiki Jugoslaviji, in
+                        skozi njihovo spominjanje nadaljujemo notranjo rekonstrukcijo pomena,
+                        razumevanja in rabe izraza v takratnem času. </hi></p>
+                <p><hi rend="italic">Še posebej smo opazovali odnos s politiko, ki ga koncept
+                        esencialno vsebuje. Z empirično analizo smo tako prišli do različnih
+                        zaključkov: nekateri intervjuvanci so izraz orisovali afirmativno, da ima
+                        novinar posebno poslanstvo, večina od njih pa je do rabe in pomena izraza
+                        pristopila s kritično distanco, da je novinar vprežen v potrebe dnevne
+                        politike in tako v svojem delovanju viden kot neavtonomen. </hi></p>
+                <p><hi rend="italic">Ključne besede: novinar, družbeno-politični delavec,
+                        socializem, samoupravljanje, Jugoslavija</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <p><hi rend="italic">In this paper, we analyse the language game “the journalist as
+                        a socio-political worker”, which was the professional label for journalists’
+                        action in the former socialist Yugoslavia. The text is divided into two main
+                        parts. The first part uses a historical-conceptual method to analyse the
+                        mentioned formulation in normative texts, covering programmatic and engaged
+                        texts produced at the time. This approach seeks to enter into the meaning of
+                        the term from the inside, into the pulse and spirit of the time, and above
+                        all to understand what its creators wished to achieve and communicate with
+                        this expression. We find that journalism and the journalist’s action as a
+                        socio-political worker were understood as an important political factor, as
+                        a political force on one hand contributing to the development and
+                        implementation of a new socio-political order, i.e., a socialist community
+                        based on self-management and, on the other hand, the journalist who through
+                        their own products tried to influence the broader consciousness of the
+                        masses, as manifested through the idea of the education for the new man: the
+                        self-manager. The second part of the paper complements the first since
+                        through the qualitative method of in-depth semi-structured interviews with
+                        former journalists who had been professionally active in the Socialist
+                        Federal Republic of Yugoslavia, and via their recollections, we continue to
+                        internally reconstruct the meaning, understanding and use of the formulation
+                        at that time. In particular, we observe the relationship with politics that
+                        the concept essentially contains. Empirical analysis thus led us to
+                        different conclusions: some interviewees (the minority) described the term
+                        affirmatively, that the journalist as a socio-political worker had a special
+                        mission, while most approached the use and meaning of the expression with a
+                        critical distance, namely, that the journalist as a socio-political worker
+                        was harnessed to the needs of daily politics and thereby seen as
+                        non-autonomous in their labour and actions. </hi></p>
+                <p style="text-align:left;"><hi rend="italic">Keyword: journalist, socio-political
+                        worker, socialism, self-management, Yugoslavia</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p>The aim of the article is to analyse the formulation “<hi rend="italic">the
+                        journalist as a socio-political worker</hi>” from the <hi rend="italic"
+                        >inside</hi>, by entering the particular historical and social moment in
+                    which it was present. This formulation, also treated here as a language game,
+                    was used during the time of socialist Yugoslavia. The concept undergoes a
+                    holistic historical-conceptual analysis and also receives empirical attention.
+                    The second part of the expression – ‘a socio-political worker’ – is understood
+                    as a way of <hi rend="italic">normatively</hi> marking the journalist’s <hi
+                        rend="italic">work</hi> as the creation of journalistic products, the
+                    journalist’s <hi rend="italic">labour </hi>as producing daily news/products for
+                    audiences, and <hi rend="italic">action</hi> as the journalist enters into the
+                    common world/society.<note place="foot" xml:id="ftn3" n="1">The triad <hi
+                            rend="italic">labour – work – action</hi> follows the tripartite
+                        division set out in the work of Hannah Arendt. The division is used
+                        throughout her work <hi rend="italic">Vita Activa</hi> [<hi rend="italic"
+                            >The Human Condition</hi>] (Ljubljana: Krtina, 1996) in a
+                        classical-traditional meaning. This article, however, attempts to unveil the
+                        concepts through the meaning and relevance of (<hi rend="italic"
+                            >associated</hi>) labour in the socialist political
+                    community.</note></p>
+                <p>In the field of journalism studies, research explicitly addressing the term is
+                    rare. However, the concept is often mentioned in texts that address journalism
+                    and the journalist’s actions in socialist Yugoslavia, especially the
+                    journalistic normativity of time and space. The wording “the journalist as a
+                    socio-political worker” is frequently opened up and interpreted in academic
+                    texts by referring to the Yugoslav Journalists’ Code that indeed included<note
+                        place="foot" xml:id="ftn4" n="2">The phrase is written in the Codes [<hi
+                            rend="italic">Kodeks novinara Jugoslavije</hi>] from 1965, 1973, 1982.
+                    </note> it up until 1988, although it is no longer found in the Code.<note
+                        place="foot" xml:id="ftn5" n="3">
+                        <hi rend="italic">Kodeks novinara Jugoslavije</hi>, 1988.</note> The phrase
+                    is typically explained as meaning that the journalist, as “a socio-political
+                    worker”, is someone who actively contributes to developing and also implementing
+                    the self-managed socialism (such as in the article by Sonja Merljak Zdovc and
+                    Melita Poler Kovačič,<note place="foot" xml:id="ftn6" n="4">Sonja Merljak Zdovc
+                        and Melita Poler Kovačič, “The Paradox of Slovenia: Investigative Journalism
+                        during Socialism and Democracy,” <hi rend="italic">Journalism </hi>8, No. 5
+                        (2007): 522.</note> and in the latest book by Zrinjka Peruško, Dina Vozab
+                    and Antonija Čuvalo<note place="foot" xml:id="ftn7" n="5"> Zrinjka Peruško, Dina
+                        Vozab and Antonija Čuvalo, <hi rend="italic">Comparing Post-Socialist Media
+                            Systems: The Case of Southeast Europe </hi>(Oxon, New York: Routledge,
+                        2021), 101.</note>). The Code also states that the journalist, “as a
+                    socio-political worker”, ideologically pursues Marxism and Leninism, realises
+                    the importance of the working class and its role in socialist society based on
+                    self-management. Melita Poler<note place="foot" xml:id="ftn8" n="6">Melita
+                        Poler, “Ethics and Professionalisation of Slovene Journalism,” <hi
+                            rend="italic">Javnost (The Public) </hi>3, No. 4 (1996): 109.</note>
+                    clearly distinguishes these words from “the journalist as a watchdog” who
+                    normatively controls and does not cooperate with political authorities. There is
+                    also a consensus in these texts that the formulation is closely linked to
+                    political power, placing it among political terms, and this is also considered
+                    in this discussion.</p>
+                <p>Igor Vobič<note place="foot" xml:id="ftn9" n="7">Igor Vobič, “Three paradigms of
+                        journalistic objectivity in Slovenian press history,” <hi rend="italic"
+                            >Central European Journal of Communication </hi>7, No. 1 (2014): 9–11.
+                    </note> shows that the normativity also captured in the expression “the
+                    journalist as a socio-political worker” reveals the unique <hi rend="italic"
+                        >objectivity</hi> of historical time and space (also see Dina Vozab and
+                    Dunja Majstorović<note place="foot" xml:id="ftn10" n="8">Dina Vozab and Dunja
+                        Majstorović, “The Transformation of Normative Approaches to Journalism in
+                        Croatian Academic Literature from Socialism to Post-Socialism,” <hi
+                            rend="italic">Croatian Political Science Review </hi>58, No. 2 (2021):
+                        18.</note>). This suggests that phrases which emerged in the chosen
+                    historical epoch should be understood according to the political and societal
+                    idea of the time – seen in speech/language as an objective disguising of time –
+                    which is under research.</p>
+                <p>In the paper, we present analysis complementing previous research based on the
+                    use of two methods: the historical-conceptual method and the qualitative method
+                    of in-depth semi-structured interviews. Both methods are intertwined in the
+                    text. Rather than attempt to judge the term from the <hi rend="italic"
+                        >outside</hi>, by elaborating and comparing it with contemporary
+                    journalistic norms and standards, the article aims to develop an epistemological
+                    perspective from the <hi rend="italic">inside</hi>, which was especially
+                    possible by using these two methods.</p>
+                <p>The discussion is divided into two parts. In part one, we analyse the mentioned
+                    expression with the historical-conceptual method, which includes a brief
+                    presentation of the journalist’s actions in engaged and programmatic texts
+                    written during socialist Yugoslavia, for the purpose of developing the socialist
+                    and self-managed community. The second part is dedicated to reconstructing the
+                    use and understanding of the formulation “the journalist as a socio-political
+                    worker” by interviewing former journalists who were professionally active in
+                    socialist Yugoslavia. Most of them were active in the time of the Socialist
+                    Federal Republic of Yugoslavia (SFRY), mainly in the former socialist republic
+                    of Slovenia.</p>
+            </div>
+            <div>
+                <head>Interpreting the Language Game Through the Heritage of the Phrase “a
+                    Journalist as a Politician”</head>
+                <p>The expression “the journalist <hi rend="italic">as</hi> a socio-political
+                    worker” after the comparative <hi rend="italic">as</hi> combines two adjectives
+                    – <hi rend="italic">social</hi> and <hi rend="italic">political</hi> – that
+                    pertain to the noun – <hi rend="italic">worker.</hi><note place="foot"
+                        xml:id="ftn11" n="9">The phrase is not written in a unified way across the
+                        texts. Sometimes it is written as one word – <hi rend="italic"
+                            >sociopolitical worker – </hi>and other times it is hyphenated – <hi
+                            rend="italic">socio-political worker. </hi>Even though the Slovenian
+                        language discerns between the meanings of hyphenated and non-hyphenated
+                        words, the texts and their subsequent analysis reveals that in this case the
+                        phrases <hi rend="italic">sociopolitical worker/socio-political workers
+                        </hi>are identical in meaning. In this article, we use the hyphenated
+                        version since the hyphen replaces the word <hi rend="italic">and</hi>.
+                        Therefore, the meanings of both ‘social’ and ‘political’ are
+                        retained.</note> This means the worker is somehow socially and politically
+                    engaged/active and therefore the journalist is a socio-political worker. The
+                    journalist's professional identity is thus marked by the socio-political
+                    imperatives of the Yugoslav socialist system based on self-management.</p>
+                <p>The wording is treated as a language game, a concept that reconciles the use of
+                    language with forms of human actions; in our case, the use of the term “the
+                    journalist as a socio-political worker” with the journalist’s actions in the
+                    common socialist and self-managed world. For Ludwig Wittgenstein, the concept
+                    “is meant to bring into prominence the fact that the <hi rend="italic">speaking
+                    </hi>of language is part of an activity, or of a form of life”.<note
+                        place="foot" xml:id="ftn12" n="10">Ludwig Wittgenstein, <hi rend="italic"
+                            >Philosophical Investigations </hi>(Oxford: Basil Blackwell, 1963),
+                        9.</note> As such, it can also be part of a specific historical epoch, idea
+                    or use. This discussion attempts to unfold the historical meaning of the wording
+                    rather than give it a single black-and-white/universal definition that reduces
+                    the journalist as a socio-political worker to an expressive instrument of the
+                    political authorities and their ideology. This attempt is based on the
+                    understanding that human affairs, and with them the use of language in a chosen
+                    form of action, are contingent on and subject to spontaneity,<note place="foot"
+                        xml:id="ftn13" n="11">Arendt, <hi rend="italic">Vita activa</hi>, 11, 183,
+                        184, 199–202.</note> as well as impossible to capture in a universal
+                    definition.</p>
+                <p>With the concept of language game we place analysis of the mentioned wording in
+                    the historical-conceptual method. Reinhart Koselleck<note place="foot"
+                        xml:id="ftn14" n="12">Reinhart Koselleck, <hi rend="italic">Pretekla
+                            prihodnost: prispevek k semantiki zgodovinskih časov</hi> [<hi
+                            rend="italic">Future Past: on the Semantics of Historical Time</hi>]
+                        (Ljubljana: Studia humanitatis, 1999), 110, 111.</note> (see also the text
+                    by Gunter Scholtz<note place="foot" xml:id="ftn15" n="13">Gunter Scholtz, “Kaj
+                        je pojmovna zgodovina in čemu se z njo ukvarjamo? [What Is
+                        Begriffsgeschichte and Why It Deserves Our Attention],” <hi rend="italic"
+                            >Phainomena</hi> 11, No. 41/42 (2002).</note>) explains this method as a
+                    main and fundamental complement to social history, which analytically enters
+                    into the study of socio-political structures and formations, and therefore as a
+                    conceptual discussion of the pulse, the spirit of historical time, and its
+                    political and ideological purposes. In our case, this means that by interpreting
+                    the formulation we observe the structure of the relationship between the
+                    political authorities/politics and the journalist’s labour, actions and work in
+                    socialist Yugoslavia. The historical-conceptual analysis approach also continues
+                    in the second part of the paper through interviews with former journalists and
+                    their historical understanding of those words.</p>
+                <p>The politician and former editor of <hi rend="italic">Ljudska pravica</hi> [<hi
+                        rend="italic">The People’s Right</hi>] Vida Tomšič, at the first press
+                    conference held in the liberated territory in 1944, outlined the role and
+                    identity of the journalist in the future Yugoslav socio-political system in this
+                        manner:<note place="foot" xml:id="ftn16" n="14">Bernard Nežmah, <hi
+                            rend="italic">Časopisna zgodovina novinarstva</hi> [<hi rend="italic"
+                            >The Newspaper History of Journalism</hi>] (Ljubljana: Študentska
+                        založba, 2012), 282.</note> “We are journalists because we are politicians,
+                    or we are politicians because we are journalists”. This declaration was aimed at
+                    the struggle to construct a new order, which marked the Yugoslav post-war
+                    period, but it also regarded the journalist’s identity and actions as an active
+                    engagement in the realisation of this new order. Together as a political and
+                    socialist community, they were to change the common reality. The previous
+                    interpretation of “the journalist as a socio-political worker” (e.g., in the
+                    Yugoslav Journalists’ Codes of 1965, 1973 and 1982) also sees the journalist
+                    making an active and engaged contribution to the development of self-managed
+                    socialism and self-management (level of social and economic relations), which
+                    more obviously began to be introduced into the Yugoslav space after 1950.</p>
+                <p>Engaged contribution through the identity of journalists as politicians and,
+                    later, journalists as socio-political workers may be explained in that
+                    journalists, with their products and active recognition of socio-political
+                    relevance, actively enter the political community, which is a common space of
+                    the people. After revolutions, including after the Yugoslav revolution,<note
+                        place="foot" xml:id="ftn17" n="15">Gal Kirn, “Jugoslovanska revolucija skozi
+                        tri partizanske prelome [The Yugoslav Revolution Through Three Partisan
+                        Ruptures],” <hi rend="italic">Časopis za kritiko znanosti</hi> 45, No. 269
+                        (2017).</note> a need had arisen to constitute a new socio-political
+                        order<note place="foot" xml:id="ftn18" n="16">Giorgio Agamben, <hi
+                            rend="italic">Homo sacer: suverena oblast in golo življenje</hi> [<hi
+                            rend="italic">Homo Sacer: Sovereign Power and Bare Life</hi>]
+                        (Ljubljana: Študentska založba, 2004), 52–55. See also: Hannah Arendt, <hi
+                            rend="italic">O revoluciji</hi> [<hi rend="italic">On Revolution</hi>]
+                        (Ljubljana: Krtina, 2017), 19.</note>, which required the participation of
+                    all people – in the case of socialist Yugoslavia – all working people who were
+                    the central identity of the system at that time.</p>
+                <p>In re-constituting the socio-political order, following revolutionary practice,
+                    thought is transformed into practical and active thought (practical reason, <hi
+                        rend="italic">phrónesis</hi><note place="foot" xml:id="ftn19" n="17"
+                        >Aristotel, <hi rend="italic">Nikomahova etika </hi>[<hi rend="italic"
+                            >Nicomachean Ethics</hi>] (Ljubljana: Slovenska matica, 2002), 190, 191,
+                        194, 195.</note>) that can simply be named action, or in modern vocabulary,
+                    activism. The foundations of action are based on human knowledge of speech and
+                    its use. It is speech that enables humans, as by nature <hi rend="italic"
+                        >politikòn zôon</hi><note place="foot" xml:id="ftn20" n="18">Aristotel, <hi
+                            rend="italic">Politika </hi>[<hi rend="italic">Politics</hi>]
+                        (Ljubljana: GV, 2010), 112.</note> or just a social animal,<note
+                        place="foot" xml:id="ftn21" n="19">Hannah Arendt, <hi rend="italic"
+                            >Predavanja o Kantovi politični filozofiji </hi>[<hi rend="italic"
+                            >Lectures on Kant’s Political Philosophy</hi>] (Ljubljana: KUD
+                        Apokalipsa, 2018), 74.</note> to communicate and collaborate with other
+                    humans who can together form and even change a political community and together
+                    contribute to its future development. Such journalists, who are part of the
+                    creation of a new, socialist, self-management political community and society,
+                    may be seen as political animals, agents, who actively enter the public space
+                    through their own work, labour and action, which are in turn marked by broader
+                    socio-political practice.</p>
+                <p>However, the legacy of the previous statement that “a journalist is a politician,
+                    and a politician is a journalist” observed in the formulation “the journalist as
+                    a socio-political worker”, which is largely focused on the development of
+                        self-management<note place="foot" xml:id="ftn22" n="20">Mitja Gorjup, <hi
+                            rend="italic">Samoupravno novinarstvo </hi>[<hi rend="italic">Journalism
+                            in Self-Management</hi>] (Ljubljana: Delavska enotnost, 1978), 62.
+                    </note>, allows two conclusions. First, a manifestation of power that is framed
+                    through the one-party system and one main ideology. Yet this also means that while the Party as the political authority is leading, at
+                    the same time it also shows that the Party is or should only be partly a leader.
+                    Second, as a founder of socialist self-management Edvard Kardelj wrote in one of
+                    the fundamental works at the time, <hi rend="italic">Smeri razvoja političnega
+                        sistema socialističnega samoupravljanja</hi> [<hi rend="italic">The
+                        Developmental Directions of the Political Systems of Socialist
+                        Self-Management</hi>] (1977), that a crucial political forces, in addition
+                    to other main political forces (e.g., the League of Communists, the Socialist
+                    Alliance of Working People, trade unions and other socio-political
+                    organisations), of the system is <hi rend="italic">the system of public
+                        communication</hi>, in which he listed the press, radio, television and
+                    other “media of social life”.<note place="foot" xml:id="ftn23" n="21">Edvard
+                        Kardelj, <hi rend="italic">Smeri razvoja političnega sistema socialističnega
+                            samoupravljanja</hi> (Ljubljana: ČZP Komunist, 1977), 220.</note> These
+                    forces are fundamental contributions to developing the socialist political idea
+                    and self-management. Kardelj added, “the media of social life” are not “merely
+                    media, but a political force that can influence social consciousness in a very
+                    progressive or a very reactionary manner”.<note place="foot" xml:id="ftn24"
+                        n="22">Ibidem.</note></p>
+                <p>The introduction of Kardelj's conception of the public media – and thus
+                    journalistic activity – as a political (co)force of the socialist system also
+                    raises the question of their relationship with other, more central political
+                    forces, and the possibility of autonomously implementing the self-management
+                    idea and action; in particular, by framing and characterising journalists’
+                    activity as a socio-political worker. We address this relationship empirically
+                    with in-depth semi-structured interviews in the second part of the paper below.
+                </p>
+            </div>
+            <div>
+                <head>Methodology</head>
+                <p>Using the historical-conceptual method, the concept of research has so far been
+                    elaborated and discussed together with programmatic and engaged texts embedded
+                    in philosophical/scientific debates. It may be concluded that “the journalist as
+                    a socio-political worker” has a close relationship with politics and is
+                    connected to political action. This close relationship with politics does
+                    however not mean that the journalist is necessarily subordinate to narrow
+                    politics, i.e., the Party, or even that they are an instrumental extension of
+                    it. Instead, it means the journalist’s action is directed to the construction of
+                    an alternative. The building of an alternative modernity is reflected on one
+                    hand by an appeal to the socialist political idea and the individual’s committed
+                    contribution to a shared political community and, on the other, it is
+                    demonstrated that the journalist as “a socio-political worker” is part of the
+                    authorities, especially of the power of united workers, which precisely in
+                    socialist Yugoslavia acquires a central role and the role of an engaged member
+                    of and contributor to the self-management society.<note place="foot"
+                        xml:id="ftn25" n="23">Kardelj, <hi rend="italic">Smeri razvoja
+                            socialističnega samoupravljanja</hi>, 93. Also in formal acts: e.g., in
+                        Article 2 of <hi rend="italic">Zakon o združenem delu</hi> [<hi
+                            rend="italic">The Associated Labour Act</hi>] (Ljubljana: Gospodarska
+                        založba, 1976), 23. And in fundamental principles (part II) in <hi
+                            rend="italic">Integralno besedilo ustave Socialistične federativne
+                            republike Jugoslavije in amandmajev I do XLVIII k ustavi Socialistične
+                            federativne republike Jugoslavije</hi> [<hi rend="italic">SFRY
+                            Constitution, 1974</hi>] (Ljubljana: Uradni list SR Slovenije, 1989),
+                        20.</note>
+                </p>
+                <p>The overall exploration of the formulation and understanding of the relationship
+                    between politics and journalism whose meaning this language game offers is
+                    complemented by the use of in-depth-semi-structured interviews conducted with
+                    former journalists who were professionally active and worked in the SFRY. The
+                    interviews saw the following research question emerge: <hi rend="italic">What
+                        kind of relationship with political power and the authorities was expressed
+                        by use of the wording “the journalist as a socio-political worker” and how
+                        did this relationship affect the journalist’s autonomy?</hi></p>
+                <p>As part of the project <hi rend="italic">Vloga komunikacijskih neenakosti v
+                        dezintegraciji večnacionalne družbe</hi> [<hi rend="italic">The Role of
+                        Communication Inequalities in Disintegration of a Multinational
+                    Society</hi>], 37 in-depth semi-structured and non-anonymised qualitative
+                    interviews, conducted by Jernej Amon Prodnik and the author of this paper, were
+                    held between June and August 2021. A table containing data on the interviews is
+                    found in Appendix A. The interviews were designed in several thematic strands;
+                    in one of these, we specifically addressed the meaning and use of the researched
+                    formulation in the past self-managed socialist society. The sample selected for
+                    the analysis includes 34 interviews, where three interviews were excluded
+                    because they contained no mention of this wording.</p>
+                <p>The choice of a qualitative method of this type was dictated by the tendency to
+                    look at the formulation’s use from the <hi rend="italic">inside</hi>, by those
+                    journalists who had been professionally active in the SFRY and generally in
+                    socialist Yugoslavia. This approach ultimately serves to complement the
+                    historical-conceptual method and reveals the ‘facticity’ of use of the wording,
+                    as well as the journalists’ point of view: how they used, understood and saw the
+                    formulation, especially at the time. Here we may add that both methods are
+                    approaches that open up intersecting perspectives and entail different ways of
+                    internal thinking about the expression according to the then socio-political
+                    system.</p>
+                <p>By interviewing former journalists, we entered into their recollection and
+                    interpretation of the time, and – in a historically interpretative and
+                    reconstructive manner<note place="foot" xml:id="ftn26" n="24">Charles C. Ragin,
+                            <hi rend="italic">Družboslovno raziskovanje: enotnost in raznolikost
+                            metode</hi> [<hi rend="italic">Constructing Social Research: The Unity
+                            and Diversity of Method</hi>] (Ljubljana: Fakulteta za družbene vede,
+                        2007), 99.</note> (oral history) – we also grasped the use of the researched
+                    language game. The latter shows the forms of action in the SFRY and the
+                    journalist’s relationship with the political authorities and specifically what
+                    they wanted to glue onto the journalist’s identity in the socialist
+                    socio-political system precisely in the wording of the formulation. Namely,
+                    through dialogue with the former journalists, and therefore by using the method
+                    of in-depth semi-structured interviewing, we also clarified<note place="foot"
+                        xml:id="ftn27" n="25">Ragin, <hi rend="italic">Družboslovno
+                            raziskovanje</hi>, 98. Steinar Kvale, <hi rend="italic">Doing
+                            Interviews</hi> (London: Sage, 2007), 13, 14.</note> some of the
+                    judgements, dilemmas, even prejudices about the formulation, which have arisen
+                    following the SFRY’s dissolution, and instead adopted an analytical, <hi
+                        rend="italic">internal</hi> view of the expression.</p>
+                <p>The main limitation of this method is that the interviewees’ personal and
+                    professional histories are memories, and hence we cannot exclude the possibility
+                    that their description of the past – and thus use of the phrase “journalist as a
+                    socio-political worker” – is imbued with the language of the present and with
+                    (professional) normative ideals adapted to the contemporary time and place. It
+                    is 30 years since the collapse of the SFRY, although tendencies to move away
+                    from the Yugoslav socialist political system were already evident in the 1980s.
+                    We are also aware of the fact that the interviewees are remembering and
+                    reconstructing the time, place and the formulation on the phenomenological level
+                    of experience and thus on the level of plural particularity, i.e., their insight
+                    is just one element of views on the language game in the larger puzzle of time
+                    and space. This also explains why their words are not taken as the ‘main’ or
+                    ‘only’ truth, but as a complement to other relevant and possible perspectives.
+                </p>
+            </div>
+            <div>
+                <head>Empirical Analysis: The Embedding of “the Journalist as a Socio-political
+                    Worker” in Their Relationship with Politics and Reflecting on their
+                    Autonomy</head>
+                <p>The data obtained offer several possible perspectives on the understanding and
+                    meaning of the mentioned wording.<note place="foot" xml:id="ftn28" n="26">The
+                        interviewers presented preliminary results of the interviews in the paper
+                            <hi rend="italic">The Journalist as a Socio-political Worker: Ideology
+                            and Practice of Slovenian Journalists in Socialist Yugoslavia </hi>at
+                        the Central and Eastern European Communication and Media Conference
+                        (CEECOM), which took place between 22 and 23 October 2021.</note> Some
+                    interviews approached the term affirmatively, in line with the interpretation
+                    presented in the first part of the paper. Yet, most approached the expression in
+                    a highly critical way, understanding it as a way the political authorities tried
+                    to limit and restrict the journalist’s autonomy and their mission to their own
+                    political purposes and interests.</p>
+                <p>The revealed polarisation once again gives the impression that the formulation
+                    and its meaning cannot be seen in any univocal way, or even be packaged into a
+                    single semantic definition. The interviewees’ divergences also suggest that the
+                    life forms of social and political action, including that of the journalist (as
+                    a socio-political worker), in socialist Yugoslavia were complex and not
+                    unambiguous, and ultimately call for further research to explain the alternative
+                    on which the socialist Yugoslav revolution and system were built. The findings
+                    presented here also – at least in part – bridge interpretations of the
+                    formulation that are products of the conflicts emerging in contemporary
+                    political discussions.</p>
+                <div>
+                    <head><hi rend="italic">Affirmative Interpretations and Identifying with the
+                            Expression</hi></head>
+                    <p>Whether the interviewees identify with the formulation is not entirely clear.
+                        An affirmative and positive understanding of the wording does not mean these
+                        ex-journalists associated their own professional action at the time with
+                        broader socio-political activity and saw it as contributing to the creation
+                        of the socialist self-management community and society. They tried to see
+                        and explain these words consistently for the special historical context and
+                        time in which it was used, which shows at least the partial
+                        self-identification and association of one’s own journalistic identity with
+                        socio-political action at that time.</p>
+                    <p>We estimate that seven of the interviewees held such an attitude to the
+                        language game: they understood their own action through use of it as being
+                        equal to higher political decision-makers, as socio-political workers they
+                        actively contributed to the (re)construction of self-managed socialism –
+                        seeing their journalistic labour and work as one of the main forces of the
+                        system. Two of them understood the second part of the term –
+                        ‘socio-political workers’ – as a manifestation of the opinion leaders and
+                        engaged agents in their own right, through their journalistic pieces and
+                        products their readers showing listeners and viewers different perspectives
+                        on social problems. Being an opinion leader and an engaged agent also meant
+                        being like a sort of a teacher of the audience. Many, however, saw the
+                        formulation as a generic label for their role and status as a journalist in
+                        the SFRY.</p>
+                    <quote><p>Socio-political workers were politicians, that is the equation. It was used,
+                        but not in a pejorative sense. /…/ We journalists wanted to change social
+                        relations. It was conscious. That is why we are journalists. (Branko
+                        Maksimovič)</p>
+                    <p>We informed people. We broadened their knowledge, their horizons, and
+                        directed them with our ideas. That is why it used to be said then – and I
+                        agreed with it – that a journalist is a socio-political worker. /.../ Today,
+                        the phrase is taken out of context. (Miloš Ivančič)</p>
+                    <p>If someone told me “you are a socio-political worker”, I naturally told them
+                        that I was a journalist, but our status at the time was such that there was
+                        no need to pretend otherwise. (Stane Grah)</p></quote>
+                    <p>For these interviewees, as we can also see in the above quote from Miloš
+                        Ivančič, there was a strong emphasis on the fact that today the formulation
+                        is seen outside of the context in which it was coined and used. Today, it is
+                        generally used as a way of expressing how journalists’ action and journalism
+                        at that time could be discredited in the sense that it was an extension of
+                        propaganda and merely an instrument of the one-party rule. And that
+                        journalists did not have the possibility of autonomous thinking, reflection
+                        and action. It is precisely by using the historical-conceptual method in the
+                        first part that we have sought to unpack the formulation contextually and to
+                        look at it through the interpretations of texts written and produced during
+                        socialist Yugoslavia. Interviewee Bernarda Jeklin contextualised the wording
+                        as follows:</p>
+                    <quote>Today, the phrase sounds terrible, but it sounded completely different back
+                        then. At the time, it was self-evident [that journalists were
+                        socio-political workers]. The fact that we were building socialism was
+                        entirely fine. To provide a better life for everyone, what was wrong with
+                        that? Nothing.</quote>
+                    <p>Interviewee Stane Grah also viewed the general status of “journalists as
+                        socio-political workers” in the way that the narrower political power, by
+                        using this term – purely on a linguistic level – gave journalists some kind
+                        of trust, leaving them close to narrow political circles and also to the
+                        information that was circulating in these closed spheres. Here we recall
+                        Kardelj’s assumption that <hi rend="italic">the system of public
+                            communication</hi> is one of the political forces adding to the
+                        development of the socialist system and influencing the social and political
+                        consciousness of the masses.</p>
+                    <quote>That was our status and they [politicians] treated us in this way when we
+                        were talking to the League, the Socialist Alliance or those like them. /.../
+                        In essence, we were an integral component of politics for politicians. /.../
+                        There was mutual trust that was very dear to us, I was grateful and so were
+                        others; we appreciated being better-informed, this was very useful for us.
+                        (Stane Grah)</quote>
+                    <p>This statement can be interpreted in two ways. First, more generally, the
+                        political authorities that coined and used the term probably wanted to show
+                        and give recognition that journalism is the (co)power of the system and the
+                        developer of those political ideas that have yet to see their day of full
+                        realisation. Further, they also tried to symbolically represent the
+                        unification of working people, who are political agents too. By using the
+                        formulation, they wished to establish relations between various fundamental
+                        political forces of the system, and journalists as “socio-political workers”
+                        are therefore one of them. Second, by establishing a closer relationship by
+                        using the formulation with journalists, the political authorities also
+                        sought to ensure the easier and more direct promotion of the ideas,
+                        positions and reforms they had developed in spaces removed from the general
+                        public. They tried to eliminate journalists from <hi rend="italic">the watch
+                            dog</hi> role, which was also not a plan of the system at the time.</p>
+                    <p>The affirmative attitude to the concept did not mean they did not feel
+                        autonomous in their work and action. They characterised their action as
+                        largely autonomous, although their autonomous – i.e., independent setting of
+                        the rules of governing their own action (<hi rend="italic">autós</hi>,
+                            self,<hi rend="italic"> – nómos</hi>, law) – action was dictated and
+                        made meaningful by the self-management and socialist socio-political system
+                        in which they were existentially and professionally situated. Thus, certain
+                        topics like self-management, socialism as a broader political idea, the
+                        leading political functionaries (e.g., Tito and Kardelj) and the Non-Aligned
+                        Movement were sacrosanct and could not be openly or publicly questioned and
+                        challenged.</p>
+                </div>
+                <div>
+                    <head><hi rend="italic">Distancing from and Non-identification with the
+                            Formulation</hi></head>
+                    <p>Two interviewees stated they had never thought about the formulation and
+                        engaged with it in any meaningful way. Although they had heard of it, it did
+                        not preoccupy them. One of them explained this was because he had been a
+                        foreign correspondent and mainly professionally active abroad.</p>
+                    <quote>I personally think that we did not pay too much attention to it. I only know
+                        that we used to say we would not make for great socio-political workers.
+                        /.../ [When asked whether she understood the phrase as a pejorative, she
+                        responds:] Not really a pejorative, no, but that we are not socio-political
+                        workers because we are journalists. (Nadja Pengov)</quote>
+                    <p>Some interviewees who were critical of the phrase, even back then, also
+                        expressed that they did not put more emphasis on the expression as a way of
+                        distancing themselves from it. However, we estimate that 25 interviewees
+                        were extremely and clearly critical of the expression and did not associate
+                        their own professional action with it in any way. They saw the coining and
+                        use of the wording primarily as a political manner, how political
+                        authorities tried to direct them in line with their goals, interests and
+                        positions. By appointing journalists as “socio-political workers”, they were
+                        attempting to intervene in journalists’ autonomous action and mission. For
+                        these interviewees, it is not very clear whether they entered into the
+                        interpretation of the formulation through contemporary journalistic norms
+                        and ideals. Despite this, it is clear that they see the professional
+                        identity of the journalist and the professional field of journalism as
+                        matters that should be independent of narrow political power, regarding
+                        which they as journalists must be critical and attentive to the problems it
+                        causes.</p>
+                    <p>Distancing from the term, or being critical of it, was shown in narrow
+                        association with political power, with the Party and other socio-political
+                        organisations. This notion was applied by interviewees mainly to those
+                        journalists who saw their professional mission and their professional
+                        identity in line with ‘socio-political working’ and to journalists who gave
+                        the impression of being socio-political workers because they had visibly
+                        close relationships with the political authorities and collaborated with
+                        them in various ways (serving politics and its interests). The large
+                        majority of interviewees stated that otherwise a minority of journalists in
+                        editorial offices and journalistic organisations equated their professional
+                        action/work with the essence of the formulation. Those who identified with
+                        it were principally those who had a stronger intention to climb up the
+                        political ladder or had other political interests and thought it would make
+                        it easier for them to obtain information from the inside, from the closed
+                        circles.</p>
+                    <quote>Many of us stayed kilometres away from this phrase. From the very beginning.
+                        It only meant a close relationship to and dependence on politics. Some were
+                        even proud of this phrase, proclaiming themselves to be socio-political
+                        workers, but we often thought it was a slur. That, in this way, you are
+                        selling your independence. (Gojko Bervar)</quote>
+                    <p>Deliberate non-identification with the formulation “the journalist as a
+                        socio-political worker” also meant that they did not want their labour to be
+                        associated with political power in any way and thus showed a distance from
+                        it. They hence emphasised the fact that they were primarily <hi
+                            rend="italic">journalists</hi> and not socio-political workers, which is
+                        also seen in some of quotations provided above. With this attitude, our
+                        journalists created for themselves the possibility of independent and
+                        especially autonomous journalistic action and decision-making within the
+                        socio-political system.</p>
+                    <quote>That is how we were treated. Even though I never approved of us being called
+                        socio-political workers. I always let them know: I am a journalist! I am not
+                        a socio-political worker because I would act differently. Even in my opinion
+                        pieces, I never ‘religiously’ reported on the decisions that were being
+                        made. I always had an independent, critical relationship to things. (Aleks
+                        Štakul)</quote>
+                    <p>The interviewees also felt that the expression was imposed on them by
+                        politics in order to gain <hi rend="italic">a formal ally</hi>, namely,
+                        through the use of language and the explicit designation of their
+                        professional identity, with which they demonstrated an expectation of who a
+                        journalist should be in the SFRY.</p>
+                    <quote><p>They [politicians] knew that the press is very important, that it is a factor
+                        that can either make politics or break it if it is too critical. With this
+                        concept, they wanted to say that we are in this together, we will stay
+                        together, you will not stab us in the back with critical writing. (Janez
+                        Čuček)</p>
+                    <p>[The expression] was present because politics made it present. It said:
+                        ‘Journalists are socio-political workers because they are fighting for the
+                        ideals of this country’. (Ivan Praprotnik)</p>
+                    <p>I understood it as a yoke. As a way to use journalists for the purposes of
+                        daily politics. (Marjan Sedmak)</p></quote>
+                    <p>A few interviewed journalists felt that anyone who was a member of the League
+                        of Communists of Yugoslavia, i.e., the Party, or other socio-political
+                        organisations was automatically seen as a socio-political worker who was
+                        implementing the self-managed socialist society. A contradiction arising
+                        here is that although the vast majority of former journalists were by their
+                        own accounts mostly passive members of the League of Communists, they felt
+                        no special affinity with the expression.</p>
+                    <quote>Those [socio-political workers] were mainly functionaries and members of five
+                        socio-political organisations: the Socialist Alliance of the Working People,
+                        the League of Communists, trade unions, youth, and fighters. And those who
+                        were involved in these organisations were socio-political workers. They were
+                        not merely functionaries, they also sat in county communities,
+                        municipalities, and so on. (Ivan Praprotnik)</quote>
+                    <p>This interpretation can be expanded by some interviewees’ observations who
+                        stressed that ‘the journalist as a socio-political worker’ was simply
+                        someone who uncritically and faithfully transmitted the conclusions,
+                        opinions and positions of the Central Committee, which they saw as
+                        propaganda, and was thus completely subordinated to politics in thought.
+                        Such journalists were not seen as autonomous in socio-political action.</p>
+                    <quote><p>The closest definition of this concept would be that a socio-political worker
+                        is someone aware of the responsibilities expected of him by the League, in
+                        line with their politics, the current politics. (Alenka Puhar)</p>
+                    <p>[Journalists as socio-political workers] obtained their opinions at the
+                        Central Committee. (Tone Hočevar)</p></quote>
+                    <p>Interviewee Ervin Hladnik Milharčič interestingly noted that the emergence
+                        and inflation of this kind of engaged and programmatic expression meant that
+                        the alienated political power was trying to build a closer relationship with
+                        the working people. According to the interviewees’ statements, the inflation
+                        of this kind of expressions had the opposite effect: they distanced
+                        themselves from the expressions and hence from the ideas that such an
+                        expression represented. The formulation “the journalist as a socio-political
+                        worker” was also seen by most journalists as a programmatic and bureaucratic
+                        platitude found in a variety of formal documents. Accordingly, they did not
+                        attribute deeper meanings to it.</p>
+                    <quote><p>If you were to go back and search for these resolutions, documents, you would
+                        find them in abundance. But everyday people did not know what this is. /…/
+                        These platitudes were flying around. Why did they even think of a journalist
+                        being a socio-political worker apart from it being a propagandistic
+                        platitude. (Jože Poglajen)</p>
+                    <p>[The Code of Yugoslav Journalists] existed, yet it was useless. Full of
+                        platitudes. They used to say the journalist is a socio-political worker and
+                        similar stupidities. (Mojca Drčar Murko)</p></quote>
+                    <p>A few interviewees who were critical and distanced themselves from the
+                        expression sometimes took a pragmatic approach to identifying with it: they
+                        identified with the wording only when the status built around it brought
+                        them existential and professional benefits, e.g., the possibility of a
+                        higher salary, promotion and also the kind of symbolic possibility of
+                        transforming socio-political organisations, especially the Party, from the
+                        inside. Interviewee Ivan Praprotnik very ironically described this
+                        claim:</p>
+                    <quote>We liked this idea of a journalist as a socio-political worker, but for one
+                        reason only, not politics. It was because the salaries of socio-political
+                        workers at the time were twice the level of journalists. And so, we said,
+                        well then, we, too, shall be [socio-political workers] and have better
+                        salaries.</quote>
+                    <p>Statements like this again link socio-political workers in particular with
+                        those who were active in the Party or in the narrower political power and
+                        organs, and hence obtained some existential benefits. This also leads to the
+                        conclusion that the designation of journalists as “socio-political workers”
+                        was chiefly on a symbolic level of the socialist system.</p>
+                </div>
+                <div>
+                    <head><hi rend="italic">The Expression Discredits Journalism</hi></head>
+                    <p>Some interviewees perceived the formulation as an obvious humiliation of
+                        journalistic labour and its mission. They mentioned that the authorities
+                        used the term to discredit the journalist, as they should embody the role of
+                        a <hi rend="italic">watch dog</hi> and be perceived as such, and tried to
+                        humiliate their labour precisely by reducing the noun <hi rend="italic"
+                            >worker </hi>to the level of merely labour. One interviewee even felt
+                        that use of the word <hi rend="italic">worker </hi>was partly inappropriate
+                        because journalists in those days already held advanced degrees and
+                        diplomas.</p>
+                    <p>Again, this attitude contradicts a system supposed to be built on the power
+                        of all workers and the associated labour through which workers could realise
+                        their own political potential.</p>
+                    <quote><p>I even stated publicly at a meeting then that we [journalists] were not
+                        socio-political workers. /.../ Because the label socio-political worker
+                        degrades the journalistic profession. The term implied that a journalist, as
+                        a socio-political worker, was serving the socio-political system. Not that
+                        he is a watchdog. /.../ This label was made to imply that journalists [as
+                        socio-political workers] were supposed to make a constructive, positive
+                        contribution to the development of society as such. But this label was at
+                        the same time degrading to the journalistic profession. (Mitja Meršol)</p>
+                    <p>[With this term] politics was trying to put us on the same level as workers.
+                        To humiliate [journalists] in a way. (Lada Zei)</p></quote>
+                </div>
+            </div>
+            <div>
+                <head>Discussion and Conclusion</head>
+                <p>The paper and previous empirical analysis allow the conclusion that the
+                    formulation, treated here as a language game, which revels the journalistic
+                    professional form of action in the SFRY, is closely related to politics and
+                    broader political action, which in turn leads to three possible
+                    sub-interpretative concise meanings:</p>
+                <list rend="ordered:A">
+                    <item><p>The affirmative conception of the formulation showed that the
+                            journalist, as a socio-political worker, was one of the forces of a
+                            system that was actively, committedly and perhaps even activistically
+                            contributing to the development and emergence of the new socio-political
+                            order, namely, the socialist community based on self-management. With
+                            such an interpretation, the journalist is not seen as subordinated in
+                            thought and action to politics, but their autonomy is intersected with
+                            the higher goals of contributing to the community, society, suggesting
+                            an Aristotelian <hi rend="italic">use of practical reason </hi>together
+                            with the <hi rend="italic">political action</hi> of equal agents in the
+                            public sphere and in the broader political community. Especially through
+                            associated labour and the importance of a worker – which includes a
+                            socio-political worker – as an engaged agent of the community, there is
+                            a significant political potential, inspired by the idea of creating a
+                            socialist society that would be the starting point for a <hi
+                                rend="italic">good</hi> and fair life for all people.<note
+                                place="foot" xml:id="ftn29" n="27">Franck Fischbach, <hi
+                                    rend="italic">Kaj je socialistična vlada? Kar je živo in kar je
+                                    mrtvo v socializmu</hi> [<hi rend="italic">What is a Socialist
+                                    Government? What is Alive and What is Dead in Socialism</hi>]
+                                (Ljubljana: Krtina, 2019), 12, 14, 24, 38, 40, 69. See also: Franck
+                                Fischbach, “Delo in možnost demokratičnega javnega prostora [<hi
+                                    rend="italic">Labour and the Possibility of a Democratic Public
+                                    Space</hi>],” <hi rend="italic">Filozofski vestnik</hi> XXXIV,
+                                No. 3 (2013): 30–32.</note></p>
+                        <p>This kind of understanding the formulation is consistent with the
+                            interpretation presented in the first part of the paper, and it is
+                            precisely with this explanation that we bridge the prejudices and
+                            judgements attached to journalism and the journalist’s action in this
+                            historical timeframe. With this interpretation, we also recognise the
+                            huge possibilities for further research since it offers us a more
+                            complex reflection and understanding of a form of journalistic action,
+                            especially in line with the alternatives on which the Yugoslav
+                            revolution and system were built.</p>
+                    </item>
+                    <item>
+                        <list rend="ordered:1">
+                            <item><p>The second, frequent interpretation that emerges from the
+                                    analysis is that, through the use and conception of the
+                                    expression, the Party and the other main socio-political
+                                    organisations sought to mark the journalist’s action with their
+                                    own goals and purposes, also including the simulated pretension
+                                    of the common struggle in the construction and development of,
+                                    on one hand the self-management society and on the other the
+                                    socialist political community. Use of the formulation was also
+                                    an attempt to control journalists in their actions. The
+                                    interviewees thus noted that the designation “socio-political
+                                    workers” denoted their autonomous action and thought, and above
+                                    all their professional identity, which they already then
+                                    understood as meaning that the journalist's labour had to be
+                                    independent of political power and its intentions.</p>
+                                <p>The interpretation of this strand is linked to a statement by
+                                    Rastko Močnik, who in 1984 wrote that the journalist as “a
+                                    socio-political worker” was “an agent of bureaucratic class
+                                        struggle”,<note place="foot" xml:id="ftn30" n="28">Rastko
+                                        Močnik, “V boju za svobodo javne besede – danes [In the
+                                        Fight for Freedom of Public Expression – Today],” [foreword]
+                                        in <hi rend="italic">Cenzura in svoboda tiska</hi> [<hi
+                                            rend="italic">Censorship and Press Freedom</hi>], Karl
+                                        Marx and Friedrich Engels (Ljubljana: Univerzitetna
+                                        konferenca ZSMS: Republiška konferenca ZSMS, 1984), 18.
+                                    </note> which sheds light on the following: although the
+                                    authorities wished to construct the active and engaged power of
+                                    all working people, including by declaring journalists as
+                                    socio-political workers, in a way they failed to do so. Thus,
+                                    for most interviewees this kind of designation was either a mere
+                                    programmatic and bureaucratic phrase purposely invented by the
+                                    authorities to ‘simulate’ or ‘fake’ a common struggle for a new
+                                    order, or was simply intended to show that the journalist’s
+                                    identity in this system must only be somehow linked to narrow
+                                    political power, even if in terms of the <hi rend="italic"
+                                        >common good.</hi><note place="foot" xml:id="ftn31" n="29">
+                                        Aristotel, <hi rend="italic">Nikomahova etika</hi>,
+                                        47–51.</note></p></item>
+                            <item>This explanation is related to the previous one. Some interviewees
+                                saw a minority of journalists as socio-political workers completely
+                                subordinated to the authorities, implying that those journalists
+                                were direct transmitters of opinions and positions that were formed
+                                in closed, internal political circles. Namely, they were in a sense
+                                propagandists for the Party and its interests.</item>
+                        </list></item>
+                </list>
+                <p>However, through the paper we wanted to show the complexity of use of the
+                    language game “the journalist as a socio-political worker”. We addressed the
+                    formulation in the first part with the historical-conceptual method and in the
+                    second part with the qualitative method of in-depth semi-structured interviews
+                    with former journalists. With both methods, we tried to approach the Yugoslav
+                    time and space in a distanced way, by entering into the understanding of the
+                    expression internally and adapting to the normative ideas of the time: who the
+                    journalist “as a socio-political worker” should be. The two methods led us to
+                    several possible perspectives for explaining the term, which confirms the basic
+                    point that the formulation cannot be explained by a single universal definition.
+                    What is ‘universal’ in the expression is precisely its concrete connection to
+                    politics.</p>
+                <p>The multiple possible perspectives of understanding show that language and its
+                    usage are components of human affairs, of the intersubjective world, which in
+                    essence is spontaneous, contingent, plural and unpredictable. Through their own
+                    particular perspectives, use of language and the outline of their professional
+                    and personal histories/(auto)biographies, the interviewees interpreted and
+                    explained one of the most important concepts in Yugoslav journalism and
+                    presented the different possibilities of journalistic actions and practice
+                    which, alongside possible interpretations of the formulation, also give an
+                    incentive to research and explore the complexities of the Yugoslav
+                    socio-political system, possible alternative forms of journalistic activity and
+                    an alternative liveness in a manner of Catherine Samary,<note place="foot"
+                        xml:id="ftn32" n="30">Catherine Samary, <hi rend="italic">Komunizem v
+                            gibanju: zgodovinskih pomen jugoslovanskega samoupravljanja</hi> [<hi
+                            rend="italic">Communism in Motion: The Historical Significance of
+                            Yugoslav Self-management</hi>] (Ljubljana: /*cf, 2017).</note> who sees,
+                    e.g., in the Yugoslav self-management socialism subversive potential to
+                    transform society and political communities and generally in the area of human
+                    affairs.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Sources and Literature</head>
+                <listBibl>
+                    <bibl>Agamben, Giorgio. <hi rend="italic">Homo sacer: suverena oblast in golo
+                            življenje</hi>. Ljubljana: Študentska založba, 2004. </bibl>
+                    <bibl>Aristotel. <hi rend="italic">Nikomahova etika</hi>. Ljubljana: Slovenska
+                        matica, 2002. </bibl>
+                    <bibl>Aristotel. <hi rend="italic">Politika</hi>. Ljubljana: GV, 2010. </bibl>
+                    <bibl>Arendt, Hannah. <hi rend="italic">O revoluciji</hi>. Ljubljana: Krtina,
+                        2017. </bibl>
+                    <bibl>Arendt, Hannah. <hi rend="italic">Predavanja o Kantovi politični
+                            filozofiji</hi>. Ljubljana: KUD Apokalipsa, 2018.</bibl>
+                    <bibl>Arendt, Hannah. <hi rend="italic">Vita activa</hi>. Ljubljana: Krtina,
+                        1996.</bibl>
+                    <bibl><hi rend="italic">Integralno besedilo ustave Socialistične federativne
+                            republike Jugoslavije in amandmajev I do XLVIII k ustavi Socialistične
+                            federativne republike Jugoslavije</hi>. Ljubljana: Uradni list SR
+                        Slovenije, 1989. </bibl>
+                    <bibl>Fischbach, Franck. “Delo in možnost demokratičnega javnega prostora.” <hi
+                            rend="italic">Filozofski vestnik</hi> XXXIV, No. 3 (2013): 23–33.</bibl>
+                    <bibl>Fischbach, Franck. <hi rend="italic">Kaj je socialistična vlada? Kar je
+                            živo in kar je mrtvo v socializmu. </hi>Ljubljana: Krtina, 2019. </bibl>
+                    <bibl>Gorjup, Mitja. <hi rend="italic">Samoupravno novinarstvo. </hi>Ljubljana:
+                        Delavska enotnost, 1978. </bibl>
+                    <bibl>Kardelj, Edvard. <hi rend="italic">Smeri razvoja političnega sistema
+                            socialističnega samoupravljanja</hi>. Ljubljana: ČZP Komunist, 1977. </bibl>
+                    <bibl>Kirn, Gal. “Jugoslovanska revolucija skozi tri partizanske prelome.” <hi
+                            rend="italic">Časopis za kritiko znanosti</hi> 45, No. 269 (2017):
+                        316–32.</bibl>
+                    <bibl>Koselleck, Reinhart. <hi rend="italic">Pretekla prihodnost: prispevek k
+                            semantiki zgodovinskih časov. </hi>Ljubljana: Studia humanitatis, 1999. </bibl>
+                    <bibl>Kvale, Steiner. <hi rend="italic">Doing Interviews. </hi>London: Sage,
+                        2007. </bibl>
+                    <bibl>Merljak Zdovc, Sonja and Melita Poler Kovačič. “The Paradox of Slovenia:
+                        Investigative Journalism during Socialism and Democracy.” <hi rend="italic"
+                            >Journalism </hi>8, No. 5 (2007): 522–29.</bibl>
+                    <bibl>Močnik, Rastko. “V boju za svobodo javne besede – danes.” [foreword] In:
+                            <hi rend="italic">Cenzura in svoboda tiska, </hi>Karl Marx and Friedrich
+                        Engels, 7–22. Ljubljana: Univerzitetna konferenca ZSMS: Republiška
+                        konferenca ZSMS, 1984. </bibl>
+                    <bibl>Nežmah, Bernard. <hi rend="italic">Časopisna zgodovina novinarstva.
+                        </hi>Ljubljana: Študentska založba, 2012. </bibl>
+                    <bibl><hi rend="italic">Novinarstvo</hi> I, No. 2 (1965): 204, 205. “Kodeks
+                        novinara Jugoslavije.” </bibl>
+                    <bibl><hi rend="italic">Novinarstvo</hi> IX, No. 1-2 (1973): 98–102. “Kodeks
+                        novinara Jugoslavije.” </bibl>
+                    <bibl><hi rend="italic">Novinarstvo</hi> XVIII, No. 3-4 (1982): 136–40. “Kodeks
+                        novinara Jugoslavije.” </bibl>
+                    <bibl><hi rend="italic">Novinarstvo</hi> XXIV, No. 3-4 (1988): 82, 83. “Kodeks
+                        novinara Jugoslavije.” </bibl>
+                    <bibl>Peruško, Zrinjka, Dina Vozab and Antonija Čuvalo. <hi rend="italic"
+                            >Comparing Post-Socialist Media Systems: The Case of Southeast Europe.
+                        </hi>Oxon, New York: Routledge, 2021.</bibl>
+                    <bibl>Poler, Melita. “Ethics and Professionalisation of Slovene Journalism.” <hi
+                            rend="italic">Javnost (The Public) </hi>3, No. 4 (1996): 107–21.</bibl>
+                    <bibl>Ragin, Charles C. <hi rend="italic">Družboslovno raziskovanje: enotnost in
+                            raznolikost metode</hi>. Ljubljana: Fakulteta za družbene vede, 2007. </bibl>
+                    <bibl>Samary, Catherine. <hi rend="italic">Komunizem v gibanju: zgodovinskih
+                            pomen jugoslovanskega samoupravljanja</hi>. Ljubljana: /*cf, 2017. </bibl>
+                    <bibl>Scholtz, Gunter. “Kaj je pojmovna zgodovina in čemu se z njo ukvarjamo?.”
+                            <hi rend="italic">Phainomena</hi> 11, No. 41/42 (2002): 137–58.</bibl>
+                    <bibl>Vobič, Igor. “Three Paradigms of Journalistic Objectivity in Slovenian
+                        Press History.” <hi rend="italic">Central European Journal of Communication
+                        </hi>7, No. 1 (2014): 4–17.</bibl>
+                    <bibl>Vozab, Dina and Dunja Majstorović. “The Transformation of Normative
+                        Approaches to Journalism in Croatian Academic Literature from Socialism to
+                        Post-Socialism.” <hi rend="italic">Croatian Political Science Review
+                        </hi>58, No. 2 (2021): 7–32. </bibl>
+                    <bibl>Wittgenstein, Ludwig. <hi rend="italic">Philosophical Investigations</hi>.
+                        Oxford: Basil Blackwell, 1963. </bibl>
+                    <bibl><hi rend="italic">Zakon o združenem delu</hi> (1976). Ljubljana:
+                        Gospodarska založba, 1976. </bibl>
+                </listBibl>
+            </div>
+            <div type="appendix">
+                <head>APPENDIX A</head>
+                <table rend="rules">
+                    <head>Table 1: Interview data, including full name of interviewee, their birth
+                        year, interview length, date and the type of media interviewee worked
+                        at.</head>
+                    <row>
+                        <cell rend="center"><hi rend="bold">Last name, name</hi></cell>
+                        <cell rend="center"><hi rend="bold">Interview length [minute]</hi></cell>
+                        <cell rend="center"><hi rend="bold">Interview date
+                            [year-month-date]</hi></cell>
+                        <cell rend="center"><hi rend="bold">Interviewee birth year</hi></cell>
+                        <cell rend="center" cols="3"><hi rend="bold">Media type</hi></cell>
+                    </row>
+                    <row>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                        <cell rend="center"><hi rend="bold">Newspaper</hi></cell>
+                        <cell rend="center"><hi rend="bold">Television</hi></cell>
+                        <cell rend="center"><hi rend="bold">Radio</hi></cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Ambrožič, Lado</cell>
+                        <cell rend="center">127</cell>
+                        <cell rend="center">2021-07-22</cell>
+                        <cell rend="center">1948</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center">X</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Bergant, Boris</cell>
+                        <cell rend="center">183</cell>
+                        <cell rend="center">2021-06-18</cell>
+                        <cell rend="center">1948</cell>
+                        <cell rend="center"/>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Bervar, Gojko</cell>
+                        <cell rend="center">130</cell>
+                        <cell rend="center">2021-06-11</cell>
+                        <cell rend="center">1946</cell>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                        <cell rend="center">X</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Čuček, Janez</cell>
+                        <cell rend="center">124</cell>
+                        <cell rend="center">2021-07-15</cell>
+                        <cell rend="center">1937</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">De Corti, Borko</cell>
+                        <cell rend="center">139</cell>
+                        <cell rend="center">2021-06-17</cell>
+                        <cell rend="center">1948</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Dobljekar, Nevenka</cell>
+                        <cell rend="center">109</cell>
+                        <cell rend="center">2021-07-13</cell>
+                        <cell rend="center">1952</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center">X</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Drčar Murko, Mojca</cell>
+                        <cell rend="center">252</cell>
+                        <cell rend="center">2021-06-22</cell>
+                        <cell rend="center">1942</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center">X</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Golob, Milan</cell>
+                        <cell rend="center">112</cell>
+                        <cell rend="center">2021-08-11</cell>
+                        <cell rend="center">1937</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Gorjup, Ada</cell>
+                        <cell rend="center">48</cell>
+                        <cell rend="center">2021-08-13</cell>
+                        <cell rend="center">1943</cell>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Grah, Stane</cell>
+                        <cell rend="center">192</cell>
+                        <cell rend="center">2021-07-19</cell>
+                        <cell rend="center">1946</cell>
+                        <cell rend="center"/>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Grizila, Sonja</cell>
+                        <cell rend="center">125</cell>
+                        <cell rend="center">2021-07-20</cell>
+                        <cell rend="center">1951</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Grobovšek, Bojan</cell>
+                        <cell rend="center">91</cell>
+                        <cell rend="center">2021-07-22</cell>
+                        <cell rend="center">1949</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Hladnik Milharčič, Ervin</cell>
+                        <cell rend="center">101</cell>
+                        <cell rend="center">2021-08-12</cell>
+                        <cell rend="center">1954</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center">X</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Hočevar, Tone</cell>
+                        <cell rend="center">128</cell>
+                        <cell rend="center">2021-07-19</cell>
+                        <cell rend="center">1946</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Ivančič, Miloš</cell>
+                        <cell rend="center">171</cell>
+                        <cell rend="center">2021-07-21</cell>
+                        <cell rend="center">1948</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center">X</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Jeklin, Bernarda</cell>
+                        <cell rend="center">110</cell>
+                        <cell rend="center">2021-07-12</cell>
+                        <cell rend="center">1936</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Kajzer, Janez</cell>
+                        <cell rend="center">135</cell>
+                        <cell rend="center">2021-08-19</cell>
+                        <cell rend="center">1938</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Kodrič, Zdenko</cell>
+                        <cell rend="center">155</cell>
+                        <cell rend="center">2021-07-13</cell>
+                        <cell rend="center">1949</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center">X</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Komparič, Nina</cell>
+                        <cell rend="center">129</cell>
+                        <cell rend="center">2021-08-13</cell>
+                        <cell rend="center">1945</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center">X</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Kovač, Božo</cell>
+                        <cell rend="center">160</cell>
+                        <cell rend="center">2021-06-23</cell>
+                        <cell rend="center">1935</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Kozinc, Željko</cell>
+                        <cell rend="center">137</cell>
+                        <cell rend="center">2021-07-14</cell>
+                        <cell rend="center">1939</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Kremžar, Leo</cell>
+                        <cell rend="center">171</cell>
+                        <cell rend="center">2021-08-17</cell>
+                        <cell rend="center">1949</cell>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                        <cell rend="center">X</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Lipušček, Uroš</cell>
+                        <cell rend="center">106</cell>
+                        <cell rend="center">2021-08-20</cell>
+                        <cell rend="center">1947</cell>
+                        <cell rend="center"/>
+                        <cell rend="center">X</cell>
+                        <cell rend="center">X</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Maksimovič, Branko</cell>
+                        <cell rend="center">151</cell>
+                        <cell rend="center">2021-06-16</cell>
+                        <cell rend="center">1945</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Meršol, Mitja</cell>
+                        <cell rend="center">100</cell>
+                        <cell rend="center">2021-08-09</cell>
+                        <cell rend="center">1945</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Pečko, Otmar</cell>
+                        <cell rend="center">116</cell>
+                        <cell rend="center">2021-06-21</cell>
+                        <cell rend="center">1948</cell>
+                        <cell rend="center"/>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Pengov, Nadja</cell>
+                        <cell rend="center">82</cell>
+                        <cell rend="center">2021-08-16</cell>
+                        <cell rend="center">1944</cell>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                        <cell rend="center">X</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Poglajen, Jože</cell>
+                        <cell rend="center">84</cell>
+                        <cell rend="center">2021-06-14</cell>
+                        <cell rend="center">1950</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Praprotnik, Ivan</cell>
+                        <cell rend="center">90</cell>
+                        <cell rend="center">2021-08-10</cell>
+                        <cell rend="center">1947</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Puhar, Alenka</cell>
+                        <cell rend="center">142</cell>
+                        <cell rend="center">2021-07-14</cell>
+                        <cell rend="center">1945</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Rupnik, Anton</cell>
+                        <cell rend="center">158</cell>
+                        <cell rend="center">2021-07-20</cell>
+                        <cell rend="center">1937</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Sedmak, Marjan</cell>
+                        <cell rend="center">129</cell>
+                        <cell rend="center">2021-08-09</cell>
+                        <cell rend="center">1938</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center">X</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Štakul, Aleks</cell>
+                        <cell rend="center">156</cell>
+                        <cell rend="center">2021-08-16</cell>
+                        <cell rend="center">1944</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center">X</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Šuligoj, Boris</cell>
+                        <cell rend="center">115</cell>
+                        <cell rend="center">2021-06-16</cell>
+                        <cell rend="center">1953</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Vizovišek, Slavko</cell>
+                        <cell rend="center">158</cell>
+                        <cell rend="center">2021-06-17</cell>
+                        <cell rend="center">1949</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center"/>
+                    </row>
+                    <row>
+                        <cell rend="center">Založnik Rustja, Zora</cell>
+                        <cell rend="center">78</cell>
+                        <cell rend="center">2021-07-16</cell>
+                        <cell rend="center">1939</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center">X</cell>
+                    </row>
+                    <row>
+                        <cell rend="center">Zei, Lada</cell>
+                        <cell rend="center">159</cell>
+                        <cell rend="center">2021-06-21</cell>
+                        <cell rend="center">1941</cell>
+                        <cell rend="center">X</cell>
+                        <cell rend="center"/>
+                        <cell rend="center">X</cell>
+                    </row>
+                </table>
+            </div>
+            <div type="summary" xml:lang="sl">
+                <docAuthor>Nina Žnidaršič</docAuthor>
+                <head>POVZETEK</head>
+                <head>NOVINARJEVO DELOVANJE V SOCIALISTIČNI JUGOSLAVIJI: RAZUMEVANJE FORMULACIJE
+                    »NOVINAR KOT DRUŽBENOPOLITIČNI DELAVEC«</head>
+                <p>Prispevek se ukvarja z analizo jezikovne igre 'novinar kot družbenopolitični
+                    delavec', ki je bila sicer profesionalna oznaka za novinarjevo delovanje v
+                    nekdanji socialistični Jugoslaviji in zapisana v Kodeksu novinarjev Jugoslavije
+                    do leta 1988. Analiza izraza je zasnovana z dvema metodama: zgodovinsko-pojmovno
+                    metodo in družboslovno kvalitativno metodo poglobljenega polstrukturiranega
+                    intervjuja, ki ga lahko imenujemo tudi pristop k oralni zgodovini. Z obema
+                    metodama se skuša z analizo vstopiti v čas in prostor notranje, prilagajoče se
+                    tedanjosti. Prvi del prispevka je namenjen analizi formulacije skozi programska
+                    in angažirana besedila, ki so nastajala prav v socialistični Jugoslaviji.
+                    Avtorica prispevka poskuša z metodo zgodovinsko-pojmovne analize zajeti idejo
+                    formulacije, hkrati pa predstaviti utrip in duh, ne samo časa, ki ga proučuje,
+                    temveč tudi duh, ki veje iz rabe same jezikovne igre. Drugi razdelek prispevka
+                    je namenjen empirični analizi 34 poglobljenih polstrukturiranih intervjujev z
+                    nekdanjimi novinarji, ki jih je avtorica prispevka skupaj z dr. Jernejem Amonom
+                    Prodnikom izvedla med junijem in avgustom 2021. Intervjuvani novinarji se
+                    profesionalno-demografsko umeščajo predvsem v obdobje od začetka šestdesetih
+                    let, zato je empirična analiza umeščena v analizo rabe fraze v času
+                    Socialistične federativne republike Jugoslavije in v prostor nekdanje
+                    socialistične republike Slovenije.</p>
+                <p>Že zgodovinsko-pojmovna analiza je pokazala, da je proučevana formulacija v
+                    tesnem odnosu s politiko in političnostjo, vendar ne na način, da bi bil novinar
+                    kot družbenopolitični delavec propagandno gonilo ozke politične oblasti, ampak
+                    da naj bi prav prek lastne prakse in političnega delovanja prispeval k izgradnji
+                    in razvoju po eni strani samoupravljanja, kar predstavlja družbeno in ekonomsko
+                    raven ter idejo podružabljanja, po drugi strani pa socialistične skupnosti, kar
+                    predstavlja raven politike, pa tudi političnega delovanja. Sam izraz
+                    družbenopolitični (delavec) združuje prav obe ravni delovanja. Tako se
+                    identiteta novinarja v tem času normativno izkazuje skozi postavko, da novinar
+                    naj ne bi bil »zgolj« poročevalec in opazovalec družbenega dogajanja, temveč naj
+                    bi z lastno prakso in izdelki utelešal angažiranega akterja družbe in politike.
+                    Branje vizij in idej Edvarda Kardelja razkriva pojmovanje, da je sistem javnega
+                    obveščanja, kamor se uvršča komuniciranje po tisku, radiu in televiziji,
+                    razumljen kot ena izmed temeljnih političnih sil sistema, kot del širše <hi
+                        rend="italic">skupne</hi> oblasti, ki zasleduje vzpostavljanje tistih
+                    socialističnih in samoupravnih idej, ki še niso v polni meri ali sploh niso
+                    uresničene/izvedene. Prav branje takih besedil daje vtis, da je mogoče na
+                    proučevan koncept pogledati tudi skozi drugačne in predvsem kontekstualne
+                    perspektive, obenem pa ustvarja kompleksnost novinarske dejavnosti v času in
+                    prostoru.</p>
+                <p>S poglobljenimi polstrukturiranimi intervjuji z nekdanjimi novinarji je analiza,
+                    komplementarno prejšnji metodi, zasledovala notranjost pomena in rabe jezikovne
+                    igre 'novinar kot družbenopolitični delavec', kajti vsi intervjuvani novinarji
+                    so izkusili prostor in čas, ki ga prispevek naslavlja. Skupaj z njimi se je
+                    rekonstruiralo prostor in čas in iskalo morebitne drugačne pomene proučevane
+                    formulacije. Pridobljeni podatki intervjujev so podčrtali politično esenco
+                    termina, in sicer se je raba termina v odnosu do politike in politične skupnosti
+                    izkazovala na različne načine. Manjšinski del intervjuvancev je imel afirmativen
+                    odnos do termina oziroma je nanj skušal pogledati skozi kontekst, v katerem je
+                    nastal in bil rabljen. Ta pogled se sklada z zgodovinsko-pojmovno analizo. Ti
+                    novinarji so novinarja kot družbenopolitičnega delavca videli povsem na isti
+                    ravni kot (višje) politične odločevalce, predvsem pa mu pripisali aktivno in
+                    angažirano vlogo (mnenjski voditelj), ki vpliva na zavest bralcev, poslušalcev,
+                    gledalcev in z lastnim angažmajem prispeva k razvoju in nastajanju samoupravne
+                    socialistične skupnosti. Po drugi strani pa je izrazito velik del intervjuvanih
+                    novinarjev do pomena in rabe izraza pristopil kritično in distancirano, kar je
+                    impliciralo tudi njihovo videnje profesionalnega delovanja novinarja, ki mora
+                    biti neodvisen in popolnoma avtonomen v razmerju do politike in politične
+                    oblasti. Pojem so videli predvsem kot izrazni način, kako skuša politična oblast
+                    novinarje utiriti v lastne cilje, interese in potrebe dnevne politike.</p>
+                <p>Prispevek pa ne nazadnje skuša odpreti premislek o alternativni formi
+                    novinarskega delovanja, ki jo ponuja prav razumevanje jezikovne igre 'novinar
+                    kot družbenopolitični delavec'; takšen novinar naj bi bil primarno aktivist in
+                    angažiran akter v družbi in širši politični skupnosti, v aristotelovskem pomenu
+                    besede skupnega dobrega.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

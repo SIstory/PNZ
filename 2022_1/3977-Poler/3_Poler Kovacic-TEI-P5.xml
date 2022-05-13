@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Normative Role Orientations of Yugoslav Journalists: A Study of Journalism
+                    Ethics Codes in the SFRY<note place="foot" xml:id="ftn1" n="*">This work was
+                        financially supported by the Slovenian Research Agency, contract number
+                        J5-1793.</note></title>
+                <author>
+                    <forename>Melita</forename>
+                    <surname>Poler</surname>
+                    <surname>Kovačič</surname>
+                    <roleName>Professor</roleName>
+                    <affiliation>Faculty of Social Sciences, University of Ljubljana</affiliation>
+                    <address>
+                        <addrLine>Kardeljeva ploščad 5</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>melita.poler-kovacic@fdv.uni-lj.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2022-04-21</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/3977</pubPlace>
+                <date>2022</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">62</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>journalism</term>
+                    <term>ethics codes</term>
+                    <term>normative roles</term>
+                    <term>socialism</term>
+                    <term>Yugoslavia</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>novinarstvo</term>
+                    <term>etični kodeksi</term>
+                    <term>normativne vloge</term>
+                    <term>socializem</term>
+                    <term>Jugoslavija </term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change><date>2022-04-28T08:11:01Z</date>
+                    <name>Mihael Ojsteršek</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Melita Poler Kovačič<note place="foot" xml:id="ftn2" n="**"><hi rend="bold"
+                        >Professor, Faculty of Social Sciences, University of Ljubljana, Kardeljeva
+                        ploščad 5, SI-1000 Ljubljana; </hi><ref
+                        target="mailto:melita.poler-kovacic@fdv.uni-lj.si"><hi rend="bold"
+                            >melita.poler-kovacic@fdv.uni-lj.si</hi></ref>
+                </note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="DOI">doi: https://doi.org/10.51663/pnz.62.1.3</idno>
+            </docImprint>
+            <div type="abstract" xml:lang="sl">
+                <head>IZVLEČEK</head>
+                <head><hi rend="italic">NORMATIVNE USMERITVE VLOG JUGOSLOVANSKIH NOVINARJEV: ŠTUDIJA
+                        NOVINARSKIH ETIČNIH KODEKSOV V SFRJ</hi></head>
+                <p><hi rend="italic">Cilj te študije je raziskati normativne orientacije vlog
+                        novinarjev v SFRJ, kot so zapisane v petih jugoslovanskih novinarskih
+                        etičnih kodeksih ali razvidne iz njih. Z analizo dokumentov in primerjalno
+                        zgodovinsko metodo smo raziskali razloge za sprejem prvega kodeksa,
+                        analizirali pojmovanja svobode in odgovornosti ter odnos med njima v
+                        kodeksih in ugotovili, kako kodeksi naslavljajo resnicoljubnost in
+                        profesionalne norme. Normativni temelji novinarstva, kot se kažejo v etičnih
+                        kodeksih, so se spreminjali skozi čas ter ob spremembah v družbenem,
+                        političnem, pravnem in ekonomskem okolju. Medijska/novinarska svoboda je
+                        bila dovoljena le v okviru socialistične usmeritve ter prispevka h graditvi
+                        in razvoju samoupravne družbe, vsaj do leta 1988, ko so bile izpuščene
+                        vrednoti marksizma in leninizma ter opredelitev novinarja kot
+                        družbenopolitičnega delavca. Novinar je bil obvezan delovati po svoji
+                        socialistični zavesti in je bil odgovoren do delovnih ljudi, do
+                        socialistične javnosti, kodeksa v osemdesetih letih pa sta poudarjala
+                        njegovo odgovornost do javnosti. Ob več značilnostih sovjetske totalitarne
+                        teorije tiska imajo normativni temelji tudi določeno podobnost s teorijo
+                        družbene odgovornosti. Profesionalne norme, povezane z resnicoljubnostjo,
+                        profesionalno integriteto ter spoštovanjem človekove osebnosti in
+                        dostojanstva, so se sčasoma razvijale ter pridobivale več prostora,
+                        razdelanosti in poudarka. Dejstvo, da je novinarska skupnost nekatere
+                        profesionalne norme prepoznala kot dovolj pomembne za kodifikacijo,
+                        nakazuje, da so bili temelji profesionalizacije slovenskega novinarstva
+                        položeni že v socialistični Jugoslaviji.</hi></p>
+                <p><hi rend="italic">Ključne besede: novinarstvo, etični kodeksi, normativne vloge,
+                        socializem, Jugoslavija </hi></p>
+            </div>
+            <div type="abstract">
+                <head>ABSTRACT</head>
+                <p><hi rend="italic">The goal of this study was to investigate the normative role
+                        orientations of journalists in the SFRY, as stated or implied in five
+                        Yugoslav journalism ethics codes. Application of the method of document
+                        analysis and the comparative historical method identified the reasons for
+                        adopting the first code and assisted in the analysis of how the codes
+                        conceptualised (the relationship between) freedom and responsibility, and
+                        how they addressed truthfulness and professional norms. The normative
+                        foundations of journalism outlined in these ethics codes were transforming
+                        over time and in response to changes in the socio-politico-legal-economic
+                        environment. Media/journalistic freedom was only permitted within the limits
+                        of the socialist orientation and if contributing to the building and
+                        development of the self-managed society, at least up until 1988 when the
+                        Marxist and Leninist values defining a journalist as a socio-political
+                        worker were removed. A journalist was obliged to follow their socialist
+                        conscience and be responsible to the working people – the socialist public,
+                        yet in the 1980s the codes stressed their responsibility to the public.
+                        While displaying several characteristics of the Soviet-totalitarian theory
+                        of the press, the normative foundations also somewhat resemble the social
+                        responsibility theory. Professional norms associated with truthfulness,
+                        professional integrity, and respect for human personality and dignity have
+                        been evolving over time, gaining more space, elaboration and emphasis. The
+                        fact that some professional norms were seen by the journalistic community as
+                        sufficiently important to be codified shows that the foundations of the
+                        professionalization of Slovenian journalism were laid in the socialist
+                        Yugoslavia already.</hi></p>
+                <p><hi rend="italic">Keywords: journalism; ethics codes; normative roles; socialism;
+                        Yugoslavia</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p>The study of journalistic roles is central to understanding journalism’s identity
+                    and place in a given society. <note place="foot" xml:id="ftn3" n="1">Thomas
+                        Hanitzsch, “Roles of Journalists,” in: <hi rend="italic">Journalism</hi>,
+                        ed. Tim P. Vos (Berlin, Boston: De Gruyter Mouton, 2018), 43.</note> Through
+                    journalistic roles, journalists “articulate journalism’s identity and position
+                    vis-à-vis society and broader public expectations”<note place="foot"
+                        xml:id="ftn4" n="2">Thomas Hanitzsch et al., “Journalistic Culture in a
+                        Global Context: A Conceptual Roadmap,” in: <hi rend="italic">Worlds of
+                            Journalism: Journalistic Cultures Around the Globe</hi>, eds. Thomas
+                        Hanitzsch et al. (New York: Columbia University Press, 2019), 37.</note> on
+                    analytically distinct levels.<note place="foot" xml:id="ftn5" n="3">Hanitzsch,
+                        “Roles of Journalists,” 43.</note> In this study,<note place="foot"
+                        xml:id="ftn6" n="4">This research was supported by ARRS – the Slovenian
+                        Research Agency (grant No. J5-1793).</note> we focus on normative
+                    journalistic roles, dealing with what journalists think they ought to do.
+                    Normative roles are found on the level of role orientations, namely, the level
+                    of “discursive constructions of the institutional values, attitudes, and beliefs
+                    with regards to the position of journalism in society”. <note place="foot"
+                        xml:id="ftn7" n="5">Thomas Hanitzsch and Tim P. Vos, “Journalistic Roles and
+                        the Struggle Over Institutional Identity: The Discursive Constitution of
+                        Journalism,” <hi rend="italic">Communication Theory</hi> 27 (2017):
+                        123.</note> By referring to the ways journalism should serve society,<note
+                        place="foot" xml:id="ftn8" n="6">Thomas Hanitzsch et al., “Role
+                        Orientations: Journalists’ Views on Their Place in Society,” in: <hi
+                            rend="italic">Worlds of Journalism: Journalistic Cultures Around the
+                            Globe</hi>, eds. Thomas Hanitzsch et al. (New York: Columbia University
+                        Press, 2019), 164.</note> normative journalistic roles constitute “a
+                    framework of desirable practice”<note place="foot" xml:id="ftn9" n="7">Ibidem,
+                        168.</note>.</p>
+                <p>To better understand journalism in a system distinct from democracy also due to
+                    the limitations it placed on civil liberties, including freedom of
+                        expression,<note place="foot" xml:id="ftn10" n="8">Peruško et al., <hi
+                            rend="italic">Comparing Post-Socialist Media Systems</hi>, 26.</note> we
+                    investigate Yugoslav journalists’ normative role orientations. General
+                    descriptions of journalism in the Socialist Federal Republic of Yugoslavia
+                    (SFRY) are often associated with the image of journalists as socio-political
+                    workers, serving as lackeys of the political authorities, being short on
+                    professional freedom by having to be primarily responsible to the Communist
+                    Party. However, the impression of Yugoslav journalism as merely “an agitation
+                    power of politics”, <note place="foot" xml:id="ftn11" n="9">Dragoslav Rančić,
+                        “Zakaj pripravljamo nov kodeks?,” <hi rend="italic">Teorija in praksa</hi>
+                        25, No. 5 (1988): 646.</note> practised in a system where a text could only
+                    be published if based on the political philosophy and thought of
+                        self-management,<note place="foot" xml:id="ftn12" n="10">Mitja Gorjup, <hi
+                            rend="italic">Samoupravno novinarstvo</hi> (Ljubljana: Delavska
+                        enotnost, 1978), 89. </note> while deviant opinions were suppressed by
+                    preventive censorship and repressive penal legislation,<note place="foot"
+                        xml:id="ftn13" n="11">Marjan Horvat, “Prepovedi razširjanja tiskane besede v
+                        Sloveniji 1945–1990” (Bachelor Thesis, University of Ljubljana,
+                        1995).</note> does not reflect the true variety of realities in different
+                    media and social environments within the federal state over the period of more
+                    than 40 years. Only a few authors have discussed the characteristics of <hi
+                        rend="italic">socialist journalism in the SFRY</hi> in any greater depth,
+                    revealing differences from the Soviet communist concept of media
+                        communications<note place="foot" xml:id="ftn14" n="12">E.g., Gertrude Joch
+                        Robinson, <hi rend="italic">Tito's Maverick Media: The Politics of Mass
+                            Communications in Yugoslavia</hi> (Urbana, Chicago, London: University
+                        of Illinois Press, 1977).</note> and highlighting the complexity of
+                    journalistic roles as they change over time<note place="foot" xml:id="ftn15"
+                        n="13">E.g., Zrinjka Peruško et al., <hi rend="italic">Comparing
+                            Post-Socialist Media Systems: The Case of Southeast Europe</hi> (London,
+                        New York: Routledge, 2021).</note> on the levels of media practices and
+                    their normative foundations. </p>
+                <p>Starting from the premise that ethics codes provide the normative foundations of
+                    journalism by both defining and reflecting values and norms on the professional
+                    and wider societal levels, our aim is to determine the reasons for adopting the
+                    first journalism ethics code in the SFRY, how the codes conceptualised (the
+                    relationship between) the values of freedom and responsibility, and how they
+                    addressed professional norms, especially those related to truthfulness <hi
+                        rend="italic">.</hi></p>
+            </div>
+            <div>
+                <head>(Normative) Transformations of Journalism in the SFRY</head>
+                <p>Research on journalism with respect to its normative transformations is
+                    particularly useful for understanding both journalism and society in a given
+                    historical period because, as an institution constituted by shared beliefs,
+                    norms, rules and routines, journalism denotes a distinct area of social
+                    authority and signals institutional autonomy, yet it is also “inherently social
+                    and thus inextricably interconnected with other institutions”. <note
+                        place="foot" xml:id="ftn16" n="14">Tim P. Vos, “Journalism as Institution,”
+                        2019, <ref target="https://doi.org/10.1093/acrefore/9780190228613.013.825">https://doi.org/10.1093/acrefore/9780190228613.013.825</ref>.</note> The discursive articulation and enactment of journalism’s
+                    identity as a social institution may be referred to as <hi rend="italic"
+                        >journalistic roles,</hi><note place="foot" xml:id="ftn17" n="15">Hanitzsch
+                        and Vos, “Journalistic Roles and the Struggle Over Institutional Identity,”
+                        120.</note> which are discursively constituted and “subject to discursive
+                    (re)creation, (re)interpretation, appropriation, and contestation”.<note
+                        place="foot" xml:id="ftn18" n="16">Olivier Standaert et al., “In Their Own
+                        Words: A Normative-Empirical Approach to Journalistic Roles Around the
+                        World,” <hi rend="italic">Journalism</hi> 22, No. 4 (2021): 921. </note>
+                    Journalists and other actors, including those outside of journalism, compete to
+                    construct, reiterate and challenge the boundaries of acceptable journalistic
+                        practices.<note place="foot" xml:id="ftn19" n="17">Matt Carlson,
+                        “Metajournalistic Discourse and the Meanings of Journalism: Definitional
+                        Control, Boundary Work, and Legitimation,” <hi rend="italic">Communication
+                            Theory</hi> 26 (2016): 349.</note> The discourse of journalistic roles
+                    has thus become “a central arena where the legitimacy and identity of journalism
+                    is reproduced, contested, and negotiated”.<note place="foot" xml:id="ftn20"
+                        n="18">Standaert et al., “In Their Own Words,” 920.</note> As a result of
+                    this contest, dominant positions “crystallize as institutional norms and
+                        practices”.<note place="foot" xml:id="ftn21" n="19">Hanitzsch Thomas and Tim
+                        P. Vos, “Journalism Beyond Democracy,” <hi rend="italic">Journalism</hi> 19,
+                        No. 2 (2018): 151.</note> Normative journalistic roles, which pertain to
+                    professional aspirations concerning how journalists are supposed to contribute
+                    to society,<note place="foot" xml:id="ftn22" n="20">Standaert et al., “In Their
+                        Own Words,” 919.</note> have emerged through interchanges occurring among
+                    both internal and external actors. <note place="foot" xml:id="ftn23" n="21"
+                        >Hanitzsch and Vos, “Journalistic Roles and the Struggle Over Institutional
+                        Identity,” 121.</note> Hence, investigations into these roles provide
+                    insights into journalism’s identity and place in society as well as into other
+                    social institutions given that journalists “articulate normative roles with
+                    social interlocutors either explicitly or implicitly in mind”.<note place="foot"
+                        xml:id="ftn24" n="22">Ibid., 124.</note></p>
+                <p>The normative position of news media as well as media practices in Yugoslavia
+                    were changing over time, alongside changes in the political and economic fields.
+                        <note place="foot" xml:id="ftn25" n="23">Peruško et al., <hi rend="italic"
+                            >Comparing Post-Socialist Media Systems</hi>, 99.</note> The limits of
+                    free expression were shifted in both legislation and journalism practice. The
+                    Federal Press Act of 1960 brought, on top of the rights of correction and reply,
+                    the right to express and publish opinions, which in 1963 became a constitutional
+                    right. <note place="foot" xml:id="ftn26" n="24">Slavko Splichal and France Vreg,
+                            <hi rend="italic">Množično komuniciranje in razvoj demokracije</hi>
+                        (Ljubljana: Komunist, 1986), 171.</note> Yugoslavia was the only socialist
+                    country to forbid any advance censorship in the 1960s, violations of the press
+                    laws could only be prosecuted following the appearance of a publication, and
+                    even this occurred quite rarely, according to Calic.<note place="foot"
+                        xml:id="ftn27" n="25">Marie-Janine Calic, <hi rend="italic">A History of
+                            Yugoslavia</hi> (West Lafayette, Indiana: Purdue University Press,
+                        2019), 198.</note> For example, in the 1960s already some journalists from
+                        <hi rend="italic">Tovariš</hi>, a weekly magazine from Ljubljana, used
+                    novelistic techniques to reveal the injustices of the system.<note place="foot"
+                        xml:id="ftn28" n="26">Sonja Merljak Zdovc, “The Use of Novelistic Techniques
+                        in Slovene Journalism: The Case of Magazine Tovariš,” <hi rend="italic"
+                            >Journalism Studies</hi> 8, No. 2 (2007): 253, 254.</note> The
+                    relationship between the media and the state fluctuated between liberalisation
+                    and control,<note place="foot" xml:id="ftn29" n="27">Peruško et al., <hi
+                            rend="italic">Comparing Post-Socialist Media Systems</hi>, 125.</note>
+                    and even though media contents on politically sensitive issues may have been
+                    limited, “it seems inapt to speak of an ideologically monolithic media”.<note
+                        place="foot" xml:id="ftn30" n="28">Sergej Flere and Rudi Klanjšek, <hi
+                            rend="italic">The Rise and Fall of Socialist Yugoslavia: Elite
+                            Nationalism and the Collapse of a Federation</hi> (Lanham, Boulder, New
+                        York, London: Lexington Books, 2019), 104.</note></p>
+                <p>Transformations of journalism were not limited to the era of the major social
+                    changes in the 1980s, albeit they certainly were then the most radical and
+                    evident. In this period, when public debate on media freedom was intensifying
+                    and negotiating the boundaries of freedom had become a prevalent practice,<note
+                        place="foot" xml:id="ftn31" n="29">Ljubica Spaskovska, <hi rend="italic">The
+                            Last Yugoslav Generation: The Rethinking of Youth Politics and Cultures
+                            in Late Socialism</hi> (Manchester: Manchester University Press, 2017),
+                        68.</note> the media was democratising the society and also being
+                    democratised by it. The role of a journalist as a socio-political worker started
+                    to diminish as the media became more commercialised and the increasingly
+                    critical positions of the press, especially in political weeklies, were more
+                    tolerated. <note place="foot" xml:id="ftn32" n="30">Peruško et al., <hi
+                            rend="italic">Comparing Post-Socialist Media Systems</hi>, 102.</note>
+                    At the end of the decade, some media were openly critical of the state,<note
+                        place="foot" xml:id="ftn33" n="31">Smilja Amon, “Obdobja razvoja slovenskega
+                        novinarstva,” in: <hi rend="italic">Poti slovenskega novinarstva: danes in
+                            jutri</hi>, eds. Melita Poler Kovačič and Monika Kalin Golob (Ljubljana:
+                        FDV, 2004), 66.</note> such as the investigative journalists at the
+                    Slovenian weekly magazine <hi rend="italic">Mladina</hi> who uncovered several
+                    scandals of high-level representatives of authorities, such as the building of a
+                    villa for the Federal Secretary of the People’s Army of Yugoslavia. <note
+                        place="foot" xml:id="ftn34" n="32">Matjaž Šuen, <hi rend="italic"
+                            >Preiskovalno novinarstvo</hi> (Ljubljana: FDV, 1994).</note> The media
+                    also played an important role in the series of conflicts that led to the
+                    break-up of the SFRY, being both an indicator of and contributor to the
+                        crisis.<note place="foot" xml:id="ftn35" n="33">Tarik Jusić, “Media
+                        Discourse and the Politics of Ethnic Conflict: The Case of Yugoslavia,” in:
+                            <hi rend="italic">Media Discourse and the Yugoslav Conflicts:
+                            Representations of Self and Other</hi>, ed. Pål Kolstø (London:
+                        Routledge, 2009), 21.</note>
+                </p>
+                <p>Several types of journalists’ normative roles in the SFRY are described in the
+                    literature, <note place="foot" xml:id="ftn36" n="34">See: Robinson, <hi
+                            rend="italic">Tito's Maverick Media</hi>, 120. Peruško et al., <hi
+                            rend="italic">Comparing Post-Socialist Media Systems</hi>, 101.</note>
+                    yet despite their variety the role of a journalist as a socio-political worker
+                    seemed to be the most prominent over the years, with journalism seen not as a
+                    job, but “first of all a political commitment”.<note place="foot" xml:id="ftn37"
+                        n="35">Gorjup, <hi rend="italic">Samoupravno novinarstvo</hi>, 82.</note>
+                    Still, there was also the role of a journalist as a neutral observer of events
+                    as well as some other ‘Western’ journalistic roles, such as supporting the
+                    public sphere, the gatekeeper role, and being responsive to the interests of the
+                        audience.<note place="foot" xml:id="ftn38" n="36">Peruško et al., <hi
+                            rend="italic">Comparing Post-Socialist Media Systems</hi>, 101.</note>
+                    Bogdan Osolnik<note place="foot" xml:id="ftn39" n="37">Robinson, <hi
+                            rend="italic">Tito's Maverick Media</hi>, 119.</note> referred to the
+                    media’s three vital functions in the self-management society: 1. to supply the
+                    citizens and self-managed units with objective and comprehensive social
+                    information from a variety of sources; 2. to act as public forums and to
+                    criticise negative phenomena and trends in society; and 3. to serve as a means
+                    for social education by spreading elementary knowledge for understanding the
+                    socio-economic process. According to Robinson, media communications in the SFRY
+                    did not follow the Leninist communication theory: Instead of identifying with
+                    Leninism, which attaches the media to the party apparatus and makes the
+                    journalist a mere transmission belt for the party line, Yugoslav self-managed
+                    democracy defines him as a socially responsible yet independent recorder of
+                    events who should provide independent and nonpartisan sources of comment and
+                    criticism in contemporary Yugoslavia.<note place="foot" xml:id="ftn40" n="38"
+                        >Ibid., 120.</note> However, the dominant view that journalists were
+                    responsible for the social situation rather than being free commentators
+                    reporting on this situation was not changed until the congress of Yugoslav
+                    journalists held in 1988.<note place="foot" xml:id="ftn41" n="39">Bogdan
+                        Osolnik, “The intention was to democratise the sphere of communication,” <hi
+                            rend="italic">TripleC</hi> 15, No. 1 (2017): 248.</note>
+                </p>
+            </div>
+            <div>
+                <head>Research Questions and the Methodology</head>
+                <p>Ethics codes may be considered key documents while researching the normative role
+                    orientations of journalism since they are concerned with normative ethics. Codes
+                    define and clarify the values of practitioners <note place="foot" xml:id="ftn42"
+                        n="40">Chris Roberts, “Identifying and Defining Values in Media Ethics
+                        Codes,” <hi rend="italic">Journal of Mass Media Ethics</hi> 27 (2012):
+                        116.</note> and are recognised as “invaluable as an instrument of
+                        self-reflection”.<note place="foot" xml:id="ftn43" n="41">Clifford
+                        Christians and Kaarle Nordenstreng, “Social Responsibility Worldwide,” <hi
+                            rend="italic">Journal of Mass Media Ethics</hi> 19, No. 1 (2004):
+                        19.</note> Yet, the rationales underlying a decision to adopt a code can
+                    vary from journalists genuinely aspiring to recognise the fundamental values and
+                    principles for which they stand<note place="foot" xml:id="ftn44" n="42">Louis A.
+                        Day, <hi rend="italic">Ethics in Media Communications: Cases and
+                            Controversies</hi> (Belmont: Wadsworth Publishing Company, 2000),
+                        45.</note> and thus “to understand the reasons behind their actions”,<note
+                        place="foot" xml:id="ftn45" n="43">Roberts, “Identifying and Defining Values
+                        in Media Ethics Codes,” 116.</note> to ambitions of political authorities to
+                    exercise control over the media through a journalism ethics code as “a system of
+                    work discipline”.<note place="foot" xml:id="ftn46" n="44">Slavko Splichal and
+                        Colin Sparks, <hi rend="italic">Journalists for the 21</hi><hi
+                            rend="italic superscript">st</hi><hi rend="italic">Century: Tendencies
+                            of Professionalization Among First-Year Students in 22 Countries</hi>
+                        (Norwood: Ablex Publishing Corporation, 1994), 49.</note> Our first research
+                    question is: <hi rend="italic">What were the reasons for adopting the first
+                        journalism ethics code in the SFRY?</hi></p>
+                <p>Normative role orientations are “an essential element of journalism’s contract
+                    with the public: Society grants journalism the authority to deliver us the
+                    world; in return, journalists are expected to cater to the communicative needs
+                    of their audiences”.<note place="foot" xml:id="ftn47" n="45">Hanitzsch and Vos,
+                        “Journalistic Roles and the Struggle over Institutional Identity,”
+                        124.</note> By adopting a code, journalists undertake to provide public
+                    service in exchange for some degree of press freedom.<note place="foot"
+                        xml:id="ftn48" n="46">Tim P. Vos, “Journalism,” in: <hi rend="italic"
+                            >Journalism</hi>, ed. Tim P. Vos (Berlin, Boston: De Gruyter Mouton,
+                        2018), 4.</note> Normative conceptualisations of freedom<note place="foot"
+                        xml:id="ftn49" n="47">In our study, the term “freedom” is used mostly in the
+                        sense of press/media freedom, which concerns the relationship between the
+                        media and the government, and less in the sense of journalistic freedom,
+                        which individualises media freedom. For more, see: John C. Merrill, <hi
+                            rend="italic">The Dialectic in Journalism: Toward A Responsible Use of
+                            Press Freedom</hi> (Baton Rouge, London: Louisiana State University
+                        Press, 1989), 34, 35.</note> and responsibility are particularly important
+                    because journalists’ adherence to autonomous professional work within a free
+                    media and their commitment to responsible practice suggest their endorsement of
+                    the informal “social contract” with the public whereby society provides
+                    journalism with guarantees of freedom and, in return, society expects journalism
+                    to act responsibly and deliver a range of public benefits.<note place="foot"
+                        xml:id="ftn50" n="48">Stephen J. A. Ward, <hi rend="italic">The Invention of
+                            Journalism Ethics: The Path to Objectivity and Beyond</hi> (Montreal,
+                        Kingston, London, Chicago: McGill-Queen’s University Press, 2004),
+                        326.</note> Our second research question is: <hi rend="italic">How did the
+                        journalism ethics codes in the SFRY address, explicitly or implicitly, the
+                        values of freedom and responsibility, which social and/or political values
+                        underpinned the codes’ statements concerning freedom and responsibility, and
+                        how was the relationship between the values of freedom and responsibility
+                        conceptualised?</hi></p>
+                <p>Values, as agents of journalists’ thinking, acting and choosing,<note
+                        place="foot" xml:id="ftn51" n="49">Jay Black and Chris Roberts, <hi
+                            rend="italic">Doing Ethics in Media: Theories and Practical
+                            Applications</hi> (New York, London: Routledge, 2011), 178.</note>
+                    underlie particular journalistic norms found in ethics codes. A norm may be
+                    defined as a rule or standard which involves a collective evaluation of
+                    behaviour in terms of what it ought to be and a collective expectation as to
+                    what behaviour will be. <note place="foot" xml:id="ftn52" n="50">Jack P. Gibbs,
+                        “Norms: The Problem of Definition and Classification,” <hi rend="italic"
+                            >American Journal of Sociology</hi> 70, No. 5 (1965): 589.</note>
+                    Written norms are specific guidelines, principles of required or prohibited
+                    conduct, grounded in journalists’ conceptualisations of values of freedom and
+                    responsibility. Our third research question is: <hi rend="italic">How did the
+                        journalism ethics codes in the SFRY address professional norms, especially
+                        those related to truthfulness?</hi></p>
+                <p>We apply the method of document analysis, that is, “a systematic procedure for
+                    reviewing or evaluating documents”.<note place="foot" xml:id="ftn53" n="51">
+                        Glenn A. Bowen, “Document Analysis as a Qualitative Research Method,” <hi
+                            rend="italic">Qualitative Research Journal</hi> 9, No. 2 (2009): 27.
+                    </note> Documents bearing witness to past events give “background information as
+                    well as historical insight”,<note place="foot" xml:id="ftn54" n="52">Ibid.,
+                        29.</note> “provide a means of tracking change and development”<note
+                        place="foot" xml:id="ftn55" n="53">Ibid., 30.</note> and thereby enable
+                    change to be identified. We analyse all Yugoslav journalism ethics codes
+                    (adopted in 1965, 1969, 1973, 1982, 1988) as well as a selection of documented
+                    discussions within the journalistic professional community related to adopting a
+                    code. These codes are relevant because, as Slavković wrote about the 1982 code,
+                    they define and explain “in detail the role, function and position of
+                    journalists”. <note place="foot" xml:id="ftn56" n="54">Dušan Slavković, “Novinar
+                        i novinarstvo,” in: <hi rend="italic">Novinarstvo danas: Priručnik za
+                            polaznike novinarske škole Jugoslovenskog instituta za novinarstvo</hi>,
+                        ed. Zdravko Leković (Beograd: Jugoslovenski institut za novinarstvo, 1983),
+                        100.</note> Other documented discussions like papers, reports and other
+                    written sources of the Yugoslav Journalists’ Association (YJA) serve as
+                    background material for inferring about the reasons for adopting the first
+                    ethics code in 1965. </p>
+                <p>The research process combines elements of content analysis (information organised
+                    into categories related to the research questions) and thematic analysis
+                    (recognition of patterns in the data). <note place="foot" xml:id="ftn57" n="55"
+                        >Bowen, “Document Analysis as a Qualitative Research Method,” 32.</note> The
+                    comparative historical method makes it possible to identify and compare common
+                    or different characteristics and to discover essential manifestations of studied
+                    phenomena at a certain stage and trace their dynamics.<note place="foot"
+                        xml:id="ftn58" n="56">Aleksei Yuryevich Bykov et al., “Codes of Journalism
+                        Ethics in Russia and the United States: Traditions and the Current Practice
+                        of Application,” <hi rend="italic">International Review of Management and
+                            Marketing</hi> 5, Special Issue (2015): 57.</note> The diachronic
+                    perspective of this method permits us to determine transformations in normative
+                    role orientations of Yugoslav journalism over time. </p>
+            </div>
+            <div>
+                <head>Adopting the First Journalism Ethics Code in the SFRY</head>
+                <p>Before adopting the first ethics code in 1965, the moral obligations of
+                    journalists were addressed in various sources of the YJA. For example,
+                    journalistic ethical norms were discussed at the Fifth Assembly (Third Congress)
+                    of the YJA in 1953, when its president Dušan Blagojević<note place="foot"
+                        xml:id="ftn59" n="57">Dušan Blagojević, “Uloga novinara kao javnih i
+                        političkih radnika u našem društvu,” in: <hi rend="italic">Srebrni jubilej
+                            SNJ 1945–1970: Knjiga 1</hi>, ed. Miodrag Avramović (Beograd: SNJ,
+                        1971), 271.</note> stressed the importance of trust: “To preserve this
+                    trust, the entire set of moral norms of journalists’ behaviour while performing
+                    their duty has been developed in practice. For journalism as a whole and for
+                    journalists as individuals, these norms must be a code which is not to be
+                    breached. Each individual violation of these norms harms journalism as a
+                    profession”. At the plenary of the League of Communists of Yugoslavia (LCY) in
+                    1954, a document entitled <hi rend="italic">Moral obligations of
+                        journalists</hi> was adopted, with its first sentence demanding that a
+                    journalist “serve the truth” and “act according to their conscience and with a
+                    deep sense of responsibility”. <note place="foot" xml:id="ftn60" n="58">SNJ,
+                        “Moralne obaveze novinara,” in: <hi rend="italic">Srebrni jubilej SNJ
+                            1945–1970: Knjiga 1</hi>, ed. Miodrag Avramović (Beograd: SNJ, 1971),
+                        314.</note> However, a journalist would only be able to fulfil their
+                    obligations “if they are aware of their relationship and duties to the social
+                    community, and if they are always guided by the socialist conscience which they
+                    are strengthening through their constant political building”. <note place="foot"
+                        xml:id="ftn61" n="59">Ibid.</note> A report on the activities of the YJA for
+                    1953–1957 notes that “experiences showed that these moral obligations of ours
+                    were only of declarative nature, and hence there is a need to make the
+                    principles and sanctions which are to be used more concrete”.<note place="foot"
+                        xml:id="ftn62" n="60">UO SNJ, “Izveštaj,” in: <hi rend="italic">Srebrni
+                            jubilej SNJ 1945–1970: Knjiga 1</hi>, ed. Miodrag Avramović (Beograd:
+                        SNJ, 1971), 369.</note></p>
+                <p>The adoption of a code of ethics was initiated by the 1963 inter-congressional
+                    conference of YJA.<note place="foot" xml:id="ftn63" n="61">Miodrag Avramović,
+                        “Izvještaj komisije za kodeks,” in: <hi rend="italic">Srebrni jubilej SNJ
+                            1945–1970: Knjiga 1</hi>, ed. Miodrag Avramović (Beograd: SNJ, 1971),
+                        540.</note> At the <hi rend="italic">Information and Journalism</hi>
+                    symposium held in 1964, the general secretary of the YJA Miodrag Avramović<note
+                        place="foot" xml:id="ftn64" n="62">Miodrag Avramović, “Društvena odgovornost
+                        i profesionalna etika novinara,” in: <hi rend="italic">Simpozijum
+                            Informacija i novinarstvo</hi>, eds. Milo Popović and Milka Lasić-Šeat
+                        (Beograd: Sedma sila, 1965), 117.</note> said that the “Association believes
+                    that it is necessary to adopt a Code of Yugoslav journalism”. According to
+                        Avramović,<note place="foot" xml:id="ftn65" n="63">Ibid., 121.</note> the
+                    issue of the function and position of journalists could not be defined by a
+                    state legal instrument as it is very complex and thus subject to nuanced changes
+                    in the socio-political development; including journalists’ social and moral
+                    obligations in a normative state document would not correspond to the spirit of
+                    the system of direct socialist democracy. This explains why there was only one
+                    article in the <hi rend="italic">Press Act</hi> dedicated to professional
+                    ethics, stating that journalists were obliged to follow the principles of
+                    professional ethics and social responsibility and to act in the spirit of
+                    respecting the truth, human rights, and the development of peaceful cooperation
+                    among nations.</p>
+                <p>For years, honorary courts of arbitration in journalist associations in
+                    individual republics as well as the Honorary Court of Arbitration of the YJA
+                    took care of exercising professional ethics based on their experience, customs
+                    and criteria. <note place="foot" xml:id="ftn66" n="64">Ibid., 129.</note>
+                    Professional ethics were thus dealt with superficially, unsystematically and
+                    inconsistently due to the different criteria; further tolerance of such a
+                    practice would harm the efficiency of the system of direct socialist democracy
+                    and journalism’s integration into this system, which is why professional ethics
+                    should be codified. <note place="foot" xml:id="ftn67" n="65">Ibid., 126,
+                        127.</note> The need for a code arose from the need to appropriately define
+                    “an objectively new function and new position of journalists and journalism in
+                    new circumstances of the developed direct socialist democracy after adopting the
+                    Constitution of the Socialist Federal Republic of Yugoslavia; to define social
+                    and moral obligations of journalists”.<note place="foot" xml:id="ftn68" n="66"
+                        >Ibid.</note></p>
+                <p>The code was adopted at the Sixth Congress of the YJA in 1965, with Bobić<note
+                        place="foot" xml:id="ftn69" n="67">Drago Bobić, “Nakon donošenja Kodeksa
+                        jugoslovenskog novinarstva: suočenje sa praksom,” <hi rend="italic"
+                            >Novinarstvo</hi> I, No. 2 (1965): 30.</note> stating that it
+                    “reinforces the autonomous position of journalists, making them independent in
+                    their acting as socio-political workers”. The Congress concluded that the code
+                    is “an efficient means to protect journalists from all those who ruin the
+                    principle of publicity and exert pressure on a journalist or interfere with the
+                    exercise of their function”.<note place="foot" xml:id="ftn70" n="68">SNJ,
+                        “Zaključci Šestog kongresa Saveza novinara Jugoslavije,” <hi rend="italic"
+                            >Novinarstvo</hi> I, No. 2 (1965).</note></p>
+            </div>
+            <div>
+                <head>Addressing Freedom and Responsibility</head>
+                <p>In the 1965 code, the normative conceptualisation of (the relationship between)
+                    freedom and responsibility is shown by the explicit labelling of a journalist as
+                    “a socio-political worker” who takes part in the building and development of the
+                    socialist society; strives for full implementation of the self-management rights
+                    of working people and for civilised relations among people; contributes to the
+                    development of a socialist conscience and the formation of socialist public
+                    opinion. A journalist’s professional work consists of researching social
+                    processes, phenomena and contradictions; forming their own opinions and views
+                    through objective findings; informing the public about them; promoting the
+                    broader social exchange of opinions; and contributing to activities that solve
+                    societal issues. The code’s general provisions require a journalist to inform
+                    the public “by acting according to their socialist conscience and by being aware
+                    of their societal obligations and responsibilities to the socialist public”.
+                    Thus, the media holds primary responsibility to the working people of the
+                    self-managed socialist society, with their freedom strongly attached to the role
+                    of journalists as socio-political workers and allowed only within the framework
+                    of the social and political values they are bound to follow, such as socialism,
+                    self-management, equality, civilised relations among people, freedom and
+                    dignity. The same goes for the more personal level of journalistic freedom and
+                    responsibility, with the code stating: “While forming their own views, a
+                    journalist relies on the basic generally accepted socialist principles and
+                    norms.” </p>
+                <p>The 1969 code continues to define a journalist as a “committed socio-political
+                    worker” who transmits, promotes and introduces a broader social exchange of
+                    opinions, and contributes to the activity of socialist forces based on socialist
+                    self-management, with their commitments being grounded in the same social and
+                    political values as 4 years before. In the general provisions, struggling
+                    against nationalistic and anti-self-management tendencies and all the phenomena
+                    that hinder the development of the socialist democracy is added to the list,
+                    including the fight for the full respect of the freedom, dignity and equality of
+                    all Yugoslav nations and nationalities. The character of the media as open
+                    tribunes, acknowledged in the previous code, is given greater attention by
+                    defining them as “open socialist tribunes” accessible to all working people in
+                    Yugoslavia. According to the code, it is a journalist’s societal and
+                    professional obligation to inform the working people comprehensively and
+                    objectively about social phenomena, needs and relations for them to be able to
+                    more effectively perform their self-management role.</p>
+                <p>The 1973 code incorporates new values like Marxism, Leninism, the politics of
+                    Non-Alignment, the unity of Yugoslavia, peace, independence and equality in
+                    international relations. A journalist is still seen as a socio-political worker
+                    with their “conscious commitment to the ideas of Marxism and Leninism” being
+                    emphasised. The subchapter on journalists’ role, functioning and status is
+                    extended; the list of what a journalist fights for now includes additional
+                    goals, such as: deepening the equality and self-management autonomy of nations
+                    and nationalities in Yugoslavia; developing Yugoslav socialist patriotism;
+                    strengthening the country’s defence ability; the unity and integrity of
+                    Yugoslavia; commitment to consistent Non-Aligned politics, peace, independence
+                    and equality in international relations. A journalist always firmly stands
+                    against arbitrary behaviour of the bureaucracy, technocratic usurpation, various
+                    kinds of nationalistic chauvinism, separatism, hegemony, the penetration of
+                    liberal-anarchistic concepts, opportunistic comfort, monopolistic closing and
+                    all phenomena that block, jeopardise and undermine the progress and
+                    consolidation of the socialist democracy. A journalist is therefore expected to
+                    be very active, engaged, and not merely a passive observer of society: in
+                    disputes with contrary opinions, they respect the right to free expression, yet
+                    “openly and strongly identify and condemn phenomena and tendencies which are
+                    hostile to self-managed humane socialism as well as the agents of such phenomena
+                    and tendencies”. Media freedom derives from “the self-management socialist
+                    orientation of social development” and a journalist’s freedom grows “in
+                    proportion to their Marxist, general and specialist knowledge and journalistic
+                    professional skill”. Freedom is thus recognised, yet within the limits of
+                    affirming the socialism based on self-management. A journalist is still obliged
+                    to act according to their socialist conscience while carrying out their
+                    responsibility to the socialist public. </p>
+                <p>The 1982 code maintains the idea of a journalist as a socio-political worker who
+                    participates in the building and development of the socialist self-managed
+                    society. Apart from the values previously included, other values appear in the
+                    general provisions like prohibition on ideologies of hostility, national and
+                    racial intolerance and discrimination, and the fight for fairer
+                    societal-economic relations in the world. Media freedom continues to be
+                    connected to the self-management socialist orientation of social development,
+                    while a journalist’s “autonomy in their work grows in proportion to their own
+                    political and professional training”. Responsibility to the socialist public is
+                    replaced by responsibility to comprehensively inform the public.</p>
+                <p>The 1988 code brings a major normative change by no longer defining a journalist
+                    as a socio-political worker and omitting the values of Marxism and Leninism.
+                    Yet, a journalist is still expected to strive for the development of socialist
+                    self-management, for unity and the federal system of Yugoslavia, for the
+                    principle of equality of its nations and nationalities, for civilised socialist
+                    relations among people and for the principles of non-alignment and peaceful
+                    coexistence in the Yugoslav foreign policy. In line with some newly added
+                    values, a journalist is obliged to advocate respect for the freedom, dignity and
+                    human rights of citizens, the rule of law, and equality before the law. The code
+                    explicitly states that news media are “free, autonomous and researching”, and a
+                    journalist should take part in the formation of public opinion by communicating
+                    autonomous and critical views when searching for the truth. The struggle for the
+                    free flow of information across the whole Yugoslav area is defined as a
+                    journalist’s right and duty. The code also declares that a journalist is held
+                    accountable by society, laws and the professional organisation, stressing their
+                    responsibility to the public. </p>
+            </div>
+            <div>
+                <head>Norms on Truthfulness and Professionalism</head>
+                <p>Already in its general provisions, the 1965 code articulates some professional
+                    norms, such as the correction of errors and declares that a journalist “prevents
+                    misinforming of the public, struggles against all that is fake, fabricated and
+                    unverified to be brought to and kept in the public’s attention”. A Yugoslav
+                    journalist is committed to truthfulness since they “truthfully informs and
+                    correctly as well as comprehensively explains events and phenomena”. The chapter
+                    on the moral/political professional obligations of journalists outlines several
+                    norms in two subchapters: 1. <hi rend="italic">Professional integrity</hi>
+                    (norms like source confidentiality and non-plagiarism) and 2. <hi rend="italic"
+                        >Respecting human personality and dignity</hi>. The chapter initially
+                    requires that “[o]n all occasions a journalist must seek to offer an accurate
+                    and objective information to the public”, noting that a journalist “would rather
+                    give up information than publish information which is wrong or insufficiently
+                    verified”. </p>
+                <p>The subchapter on respecting human personality and dignity is set out in more
+                    detail in the 1969 code, introducing norms related to respecting privacy and the
+                    considerate treatment of sensitive topics like accidents, illness or rape. The
+                    code also states that a journalist should not point out a person’s race,
+                    nationality, profession or religion, particularly not of those who have been
+                    arrested, charged or convicted, if this information is not of great importance
+                    for the story a journalist is reporting on. </p>
+                <p>In the 1973 code, several socio-political and professional norms are still
+                    intertwined in the subchapters dedicated to professional integrity and
+                    respecting human personality and dignity. The latter is elaborated on more, with
+                    some norms added and others explained in greater detail. For example, the facile
+                    moral and political disqualification of people is considered to be among the
+                    most serious ethical offences. The importance of truthfulness is further
+                    underlined by demanding that a journalist “must always think about the truth”.
+                    Commitment to truthfulness is already pointed out in the general provisions,
+                    stating that the “basic social categories of journalistic work – truth, freedom,
+                    responsibility – are at the same time also primarily professionally ethical
+                    requirements”. A journalist is bound to inform accurately, to explain events and
+                    phenomena faithfully and comprehensively. All that impedes and distorts the
+                    correct, true, objective, comprehensive and timely information is a danger to
+                    society and a moral offence: not only a deliberate lie, but also all other ways
+                    of changing, hiding or distorting the truth. </p>
+                <p>In the 1982 code, the chapter’s title <hi rend="italic">Moral-political and
+                        professional obligations of journalists</hi> is removed, yet the content
+                    mostly remains the same, with the previous values and norms (objectivity,
+                    respect for human personality and dignity, error correction, respecting privacy
+                    and non-plagiarism etc.) retaining their place in the code. Everything that
+                    interferes with and deforms accurate, comprehensive and timely information is to
+                    be seen as a danger to society: “Objective informing is an important integral
+                    part of a self-management relationship /…/ and a professionally-ethical
+                    requirement of the journalist profession”.</p>
+                <p>The 1988 code has a new structure: it begins with general provisions followed by
+                    the main chapter entitled <hi rend="italic">Rights and duties</hi>, with a few
+                    concluding provisions at the end. Journalists’ rights and duties contain several
+                    norms related to truthfulness, respect for a person’s dignity and integrity, and
+                    protection of human personality and intimacy. The search for truth is declared
+                    to be a basic principle of journalists’ work: “By communicating an autonomous
+                    and critical view while searching for the truth, which is a basic principle of
+                    professional work, a journalist actively participates in the formation of public
+                    opinion …”. Further, “It is a journalist’s obligation to communicate the truth,
+                    a comprehensive and verified information to the public”. </p>
+            </div>
+            <div>
+                <head>Discussion with a Conclusion</head>
+                <p>The normative foundations of journalism, as outlined in the Yugoslav journalism
+                    ethics codes, were transforming over time and in response to changes occurring
+                    in the socio-politico-legal-economic environment: at each reference point (the
+                    year of a code’s adoption or revision), modifications can be associated with the
+                    socio-political and economic circumstances in society, thereby supporting
+                    Hanitzsch’s conclusion that normative role orientations are socially negotiated,
+                    sensitive to context, and in a constant state of flux. <note place="foot"
+                        xml:id="ftn71" n="69">Hanitzsch, “Roles of Journalists,” 45.</note></p>
+                <p>The Yugoslav constitution of 1963 emphasised that Yugoslavia was a socialist
+                    democratic community and revealed a tendency for the Marxist ideal of the state
+                    withering away, while self-management was declared inviolable. <note
+                        place="foot" xml:id="ftn72" n="70">Jovan R. Bazić, “The Socio-Political
+                        System of Yugoslavia as the Systemic Cause of Its Collapse,” <hi
+                            rend="italic">Sociološki pregled</hi> 52, No. 4 (2018): 1162.</note> The
+                    new constitution introduced the citizens’ <hi rend="italic">right to be
+                        informed</hi> and <hi rend="italic">freedom of the press and other media of
+                        information</hi>, and “drastically changed the role of the Yugoslav
+                        journalist”:<note place="foot" xml:id="ftn73" n="71">Robinson, <hi
+                            rend="italic">Tito's Maverick Media</hi>, 42.</note> instead of being a
+                    mere recorder of events, they were expected to function as an interpreter and
+                    critic. Two years later, the first ethics code was adopted. The second half of
+                    the 1960s was marked decreasing economic growth, increasing regional disparities
+                    and higher unemployment; nationalist rhetoric resurfaced, accompanied by
+                    problems pushed to the surface by the economic downturn. <note place="foot"
+                        xml:id="ftn74" n="72">Calic, <hi rend="italic">A History of Yugoslavia</hi>,
+                        223.</note> The emerging crisis raised questions concerning ethnic
+                    coexistence and the distribution of political power and prosperity; social and
+                    economic interests were being discussed more and more in categories of ethnic
+                        differences.<note place="foot" xml:id="ftn75" n="73">Ibid., 226.</note>
+                    Towards the end of the 1960s, the nationalisms in Yugoslavia had increased.
+                        <note place="foot" xml:id="ftn76" n="74">Dušan Bilandžić, <hi rend="italic"
+                            >Zgodovina SFRJ: Glavni procesi</hi> (Ljubljana: Partizanska knjiga,
+                        1980), 346.</note> The code of 1969 extended the list of negative phenomena
+                    that a journalist should fight against by adding the struggle against
+                    nationalistic and anti-self-management tendencies and everything that hinders
+                    the development of the socialist democracy. The fight for the full respect of
+                    the freedom, dignity and equality of all Yugoslav nations and nationalities was
+                    included, while the media, previously described as <hi rend="italic">open
+                        tribunes</hi>, were now defined as <hi rend="italic">open socialist
+                        tribunes</hi>. </p>
+                <p>In the 1970s, Yugoslavia went into economic recession, yet at the beginning of
+                    the decade its international status had been stronger than ever before.<note
+                        place="foot" xml:id="ftn77" n="75">Calic, <hi rend="italic">A History of
+                            Yugoslavia</hi>, 240–42.</note> Still, the economic problems and growing
+                    development disparities among the regions led to political dissatisfaction and
+                    inter-republic disputes. <note place="foot" xml:id="ftn78" n="76">Flere and
+                        Klanjšek, <hi rend="italic">The Rise and Fall of Socialist Yugoslavia</hi>,
+                        116. </note> In the 1973 code, new values appeared, such as Marxism,
+                    Leninism, the politics of Non-Alignment, the unity of Yugoslavia, socialist
+                    patriotism, peace, independence and equality in international relations. After
+                    Tito’s death in 1980, secessionist processes in Yugoslavia accelerated, as
+                    greatly contributed to by the socio-economic crisis. <note place="foot"
+                        xml:id="ftn79" n="77">Bazić, “The Socio-Political System of Yugoslavia as
+                        the Systemic Cause of Its Collapse,” 1165.</note> The devastating economic
+                    crisis was accompanied by other factors leading to the decay of Yugoslavia like
+                    the 1981 conflict in Kosovo and the demands of the Albanian population for a
+                        change,<note place="foot" xml:id="ftn80" n="78">Josip Glaurdić, <hi
+                            rend="italic">The Hour of Europe: Western Powers and the Breakup of
+                            Yugoslavia</hi> (New Haven, London: Yale University Press, 2011),
+                        15.</note> and the resurgence of radical nationalist policies in
+                        Serbia.<note place="foot" xml:id="ftn81" n="79">Peruško et al., <hi
+                            rend="italic">Comparing Post-Socialist Media Systems</hi>, 87.</note>
+                    The 1982 code introduced additional values such as the prohibition on ideologies
+                    of hostility, national and racial intolerance and discrimination, and the fight
+                    for fairer societal-economic relations in the world. In the 1988 code, the
+                    Marxist and Leninist values were replaced by the human rights of citizens, the
+                    rule of law, and equality before the law – values which are key to any
+                    democracy. </p>
+                <p>The normative conceptualisations of the relationship between freedom and
+                    responsibility in the Yugoslav journalism ethics codes add support for
+                    Robinson’s <note place="foot" xml:id="ftn82" n="80">Robinson, <hi rend="italic"
+                            >Tito's Maverick Media</hi>, 119.</note> observation that Yugoslav
+                    journalism cannot be identified with the Soviet media philosophy, as one might
+                    expect when considering that Yugoslavia was a socialist country. While
+                    displaying several characteristics of the Soviet-totalitarian theory of the
+                    press, the normative foundations also somewhat resemble the social
+                    responsibility theory from the first code onward, peaking in the period of the
+                    major socio-political changes in the late 1980s. </p>
+                <p>Under the Soviet theory, the mass media is used almost exclusively as instruments
+                    of the propaganda and agitation of the state and the Communist Party,<note
+                        place="foot" xml:id="ftn83" n="81">Fred S. Siebert et al., <hi rend="italic"
+                            >Four Theories of the Press: The Authoritarian, Libertarian, Social
+                            Responsibility, and Soviet Communist Concepts of What the Press Should
+                            Be and Do</hi> (Urbana: University of Illinois Press, 1956), 121.</note>
+                    while the media’s functions in the social responsibility theory include
+                    servicing the political system by providing information, discussion and debate
+                    of public affairs as well as enlightening the public to make it capable of
+                        self-management.<note place="foot" xml:id="ftn84" n="82">Ibid., 74.</note>
+                    Already in the 1965 code , Yugoslav journalists were expected to research social
+                    processes, phenomena and contradictions; to form their own opinions and views
+                    through objective findings; to inform the public about it; to promote a broader
+                    social exchange of opinions; and to contribute to activities that solve societal
+                    issues. Indications of the function of a watchdog against government came later,
+                    not until the 1988 code, when journalists had given up the role of
+                    socio-political workers and instead chosen to take part in the formation of
+                    public opinion by communicating autonomous and critical views while searching
+                    for the truth. </p>
+                <p>Under the Soviet theory, the media is to look at events from a
+                    Marxist-Leninist-Stalinist standpoint,<note place="foot" xml:id="ftn85" n="83"
+                        >Ibid., 124.</note> while journalists are free to express themselves within
+                    the bounds and limits of the allegedly beneficent state that protects citizens
+                    in doing what is good for them.<note place="foot" xml:id="ftn86" n="84">Ibid.,
+                        127.</note> The media is required to do certain things, such as increase the
+                    political awareness of the masses, to rally the population in support of the
+                    leaders and their programme, to raise the level of worker efficiency etc.<note
+                        place="foot" xml:id="ftn87" n="85">Ibid., 141.</note> In the Yugoslav codes,
+                    the idea of media and journalist freedom was conceived in a similar way –
+                    permitted within the limits of the socialist orientation and if contributing to
+                    the building and development of the self-managed society, at least up until the
+                    1988 code when the Marxist/Leninist values and the definition of a journalist as
+                    a socio-political worker were removed. The social responsibility theory sees
+                    freedom of expression as a moral right grounded in an individual’s duty to their
+                    own conscience, while the Soviet theory stresses the duty to the proletariat.
+                        <note place="foot" xml:id="ftn88" n="86">Ibid., 96–98.</note> In the codes
+                    of 1965, 1969 and 1973, a Yugoslav journalist was explicitly obliged to act in
+                    line with their socialist conscience and be responsible to the socialist working
+                    people – the socialist public, thereby bringing the concept of responsibility
+                    closer to the Soviet idea. The codes of 1982 and 1988 emphasised a journalist’s
+                    responsibility to the public, now no longer labelled as a socialist one. The
+                    concept of responsibility to the public, based on a journalist’s autonomy and
+                    critical stance, assumed a journalist’s duty to their conscience in the sense of
+                    the social responsibility theory since conscience was no longer defined by the
+                    adjective “socialist”. </p>
+                <p>Professional norms related to truthfulness, professional integrity, and respect
+                    for human personality and dignity, some of which were already introduced in the
+                    1965 code, were evolving over time, gaining more space, elaboration and
+                    emphasis. However, they must be considered in the context of how the
+                    relationship between media/journalistic freedom and responsibility was
+                    conceptualised, which relativises some of the stronger commitments, such as
+                    “always thinking about the truth”, on the normative level already, let alone the
+                    level of media practices. Nevertheless, the fact that some professional norms
+                    that always featured in journalism ethics codes in developed democracies were
+                    recognised by the journalistic community as sufficiently important to be
+                    codified shows that the foundations of the professionalisation of Slovenian
+                    journalism were already laid in socialist Yugoslavia. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Sources and Literature</head>
+                <listBibl>
+                    <head>Literature</head>
+                    <bibl>Amon, Smilja. “Obdobja razvoja slovenskega novinarstva.” In: <hi
+                            rend="italic">Poti slovenskega novinarstva: danes in jutri</hi>. Eds.
+                        Melita Poler Kovačič and Monika Kalin Golob, 53–68. Ljubljana: FDV,
+                        2004.</bibl>
+                    <bibl>Bazić, Jovan R. “The Socio-Political System of Yugoslavia as the Systemic
+                        Cause of Its Collapse.” <hi rend="italic">Sociološki pregled</hi> 52, No. 4
+                        (2018): 1158–70.</bibl>
+                    <bibl>Bilandžić, Dušan. <hi rend="italic">Zgodovina SFRJ: Glavni procesi</hi>.
+                        Ljubljana: Partizanska knjiga, 1980.</bibl>
+                    <bibl>Black, Jay and Chris Roberts. <hi rend="italic">Doing Ethics in Media:
+                            Theories and Practical Applications</hi>. New York, London: Routledge,
+                        2011.</bibl>
+                    <bibl>Bowen, Glenn A. “Document Analysis as a Qualitative Research Method.” <hi
+                            rend="italic">Qualitative Research Journal</hi> 9, No. 2 (2009): 27–40. </bibl>
+                    <bibl>Calic, Marie-Janine. <hi rend="italic">A History of Yugoslavia</hi>. West
+                        Lafayette, Indiana: Purdue University Press, 2019.</bibl>
+                    <bibl>Carlson, Matt. “Metajournalistic Discourse and the Meanings of Journalism:
+                        Definitional Control, Boundary Work, and Legitimation.” <hi rend="italic"
+                            >Communication Theory</hi> 26 (2016): 349–68.</bibl>
+                    <bibl>Christians, Clifford and Kaarle Nordenstreng. “Social Responsibility
+                        Worldwide.” <hi rend="italic">Journal of Mass Media Ethics</hi> 19, No. 1
+                        (2004): 3–28.</bibl>
+                    <bibl>Day, Louis A. <hi rend="italic">Ethics in Media Communications: Cases and
+                            Controversies</hi>. Belmont: Wadsworth Publishing Company, 2000.</bibl>
+                    <bibl>Flere, Sergej and Rudi Klanjšek. <hi rend="italic">The Rise and Fall of
+                            Socialist Yugoslavia: Elite Nationalism and the Collapse of a
+                            Federation</hi>. Lanham, Boulder, New York, London: Lexington Books,
+                        2019.</bibl>
+                    <bibl>Gibbs, Jack P. “Norms: The Problem of Definition and Classification.” <hi
+                            rend="italic">American Journal of Sociology</hi> 70, No. 5 (1965):
+                        586–94.</bibl>
+                    <bibl>Glaurdić, Josip. <hi rend="italic">The Hour of Europe: Western Powers and
+                            the Breakup of Yugoslavia</hi>. New Haven, London: Yale University
+                        Press, 2011.</bibl>
+                    <bibl>Gorjup, Mitja. <hi rend="italic">Samoupravno novinarstvo</hi>. Ljubljana:
+                        Delavska enotnost, 1978.</bibl>
+                    <bibl>Hanitzsch, Thomas and Tim P. Vos. “Journalistic Roles and the Struggle
+                        Over Institutional Identity: The Discursive Constitution of Journalism.” <hi
+                            rend="italic">Communication Theory</hi> 27 (2017): 115–35.</bibl>
+                    <bibl>Hanitzsch Thomas and Tim P. Vos. “Journalism Beyond Democracy.” <hi
+                            rend="italic">Journalism</hi> 19, No. 2 (2018): 146–64.</bibl>
+                    <bibl>Hanitzsch, Thomas, Laura Ahva, Martin Oller Alonso, Jesus Arroyave,
+                        Liesbeth Hermans, Jan Fredrik Hovden, Sallie Hughes, Beate Josephi, Jyotika
+                        Ramaprasad, Ivor Shapiro and Tim P. Vos. “Journalistic Culture in a Global
+                        Context: A Conceptual Roadmap.” In: <hi rend="italic">Worlds of Journalism:
+                            Journalistic Cultures Around the Globe</hi>, eds. Thomas
+                        Hanitzsch, Folker Hanusch, Jyotika Ramaprasad and Arnold de Beer, 23–45. New
+                        York: Columbia University Press, 2019. </bibl>
+                    <bibl>Hanitzsch, Thomas, Tim P. Vos, Olivier Standaert, Folker Hanusch, Jan
+                        Fredrik Hovden, Liesbeth Hermans and Jyotika Ramaprasad. “Role Orientations:
+                        Journalists’ Views on Their Place in Society.” In: <hi rend="italic">Worlds
+                            of Journalism: Journalistic Cultures Around the Globe</hi>, eds. Thomas
+                        Hanitzsch, Folker Hanusch, Jyotika Ramaprasad and Arnold de Beer, 161–97.
+                        New York: Columbia University Press, 2019.</bibl>
+                    <bibl>Hanitzsch, Thomas. “Roles of Journalists.” In: <hi rend="italic"
+                            >Journalism</hi>. Ed. Tim P. Vos, 43–61. Berlin, Boston: De Gruyter
+                        Mouton, 2018.</bibl>
+                    <bibl>Horvat, Marjan. “Prepovedi razširjanja tiskane besede v Sloveniji
+                        1945–1990.” Bachelor Thesis, University of Ljubljana, 1995.</bibl>
+                    <bibl>Jusić, Tarik. “Media Discourse and the Politics of Ethnic Conflict: The
+                        Case of Yugoslavia.” In: <hi rend="italic">Media Discourse and the Yugoslav
+                            Conflicts: Representations of Self and Other</hi>, ed. Pål Kolstø,
+                        21–38. London: Routledge, 2009. </bibl>
+                    <bibl>Merljak Zdovc, Sonja. “The Use of Novelistic Techniques in Slovene
+                        Journalism: The Case of Magazine Tovariš.” <hi rend="italic">Journalism
+                            Studies</hi> 8, No. 2 (2007): 248–63.</bibl>
+                    <bibl>Merrill, John C. <hi rend="italic">The Dialectic in Journalism: Toward A
+                            Responsible Use of Press Freedom</hi>. Baton Rouge, London: Louisiana
+                        State University Press, 1989.</bibl>
+                    <bibl>Peruško, Zrinjka, Dina Vozab and Antonija Čuvalo. <hi rend="italic"
+                            >Comparing Post-Socialist Media Systems: The Case of Southeast
+                            Europe</hi>. London, New York: Routledge, 2021.</bibl>
+                    <bibl>Roberts, Chris. “Identifying and Defining Values in Media Ethics Codes.”
+                            <hi rend="italic">Journal of Mass Media Ethics</hi> 27 (2012):
+                        115–29.</bibl>
+                    <bibl>Robinson, Gertrude Joch. <hi rend="italic">Tito's Maverick Media: The
+                            Politics of Mass Communications in Yugoslavia</hi>. Urbana, Chicago,
+                        London: University of Illinois Press, 1977.</bibl>
+                    <bibl>Siebert, Fred S., Theodore Peterson and Wilbur Schramm. <hi rend="italic"
+                            >Four Theories of the Press: The Authoritarian, Libertarian, Social
+                            Responsibility, and Soviet Communist Concepts of What the Press Should
+                            Be and Do</hi>. Urbana: University of Illinois Press, 1956.</bibl>
+                    <bibl>Slavković, Dušan. “Novinar i novinarstvo.” In: <hi rend="italic"
+                            >Novinarstvo danas: Priručnik za polaznike novinarske škole
+                            Jugoslovenskog instituta za novinarstvo</hi>. Ed. Zdravko Leković,
+                        95–101. Beograd: Jugoslovenski institut za novinarstvo, 1983.</bibl>
+                    <bibl>Spaskovska, Ljubica. <hi rend="italic">The Last Yugoslav Generation: The
+                            Rethinking of Youth Politics and Cultures in Late Socialism</hi>.
+                        Manchester: Manchester University Press, 2017.</bibl>
+                    <bibl>Splichal, Slavko and Colin Sparks. <hi rend="italic">Journalists for the
+                            21</hi><hi rend="italic superscript">st</hi><hi rend="italic"> Century:
+                            Tendencies of Professionalization Among First-Year Students in 22
+                            Countries</hi>. Norwood: Ablex Publishing Corporation, 1994.</bibl>
+                    <bibl>Splichal, Slavko and France Vreg. <hi rend="italic">Množično komuniciranje
+                            in razvoj demokracije</hi>. Ljubljana: Komunist, 1986.</bibl>
+                    <bibl>Standaert, Olivier, Thomas Hanitzsch and Jonathan Dedonder. “In Their Own
+                        Words: A Normative-Empirical Approach to Journalistic Roles Around the
+                        World.” <hi rend="italic">Journalism</hi> 22, No. 4 (2021): 919–36. </bibl>
+                    <bibl>Šuen, Matjaž. <hi rend="italic">Preiskovalno novinarstvo</hi>. Ljubljana:
+                        FDV, 1994.</bibl>
+                    <bibl>Vos, Tim P. “Journalism.” In: <hi rend="italic">Journalism</hi>, ed. Tim
+                        P. Vos, 1–17. Berlin, Boston: De Gruyter Mouton, 2018.</bibl>
+                    <bibl>Vos, Tim. P. “Journalism as Institution.” Available at: <ref
+                            target="https://doi.org/10.1093/acrefore/9780190228613.013.825"
+                            >https://doi.org/10.1093/acrefore/9780190228613.013.825</ref>. Published
+                        online: 25. 2. 2019. </bibl>
+                    <bibl>Ward, Stephen J. A. <hi rend="italic">The Invention of Journalism Ethics:
+                            The Path to Objectivity and Beyond. Montreal, Kingston, London, Chicago:
+                            McGill-Queen’s University Press,</hi> 2004.</bibl>
+                    <bibl>Yuryevich Bykov, Aleksei, Elena Savova Georgieva, Yuliya Sokratovna
+                        Danilova and Anna Vitalyevna Baychik. “Codes of Journalism Ethics in Russia
+                        and the United States: Traditions and the Current Practice of Application.”
+                            <hi rend="italic">International Review of Management and Marketing</hi>
+                        5, Special Issue (2015): 55–61.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Sources</head>
+                    <bibl>Avramović, Miodrag. “Društvena odgovornost i profesionalna etika
+                        novinara.” In: <hi rend="italic">Simpozijum Informacija i novinarstvo</hi>.
+                        Eds. Milo Popović and Milka Lasić-Šeat, 117–30. Beograd: Sedma sila,
+                        1965.</bibl>
+                    <bibl>Avramović, Miodrag. “Izvještaj komisije za kodeks.” In: <hi rend="italic"
+                            >Srebrni jubilej SNJ 1945–1970: Knjiga 1</hi>. Ed. Miodrag Avramović,
+                        540–46. Beograd: SNJ, 1971.</bibl>
+                    <bibl>Blagojević, Dušan. “Uloga novinara kao javnih i političkih radnika u našem
+                        društvu.” In: <hi rend="italic">Srebrni jubilej SNJ 1945–1970: Knjiga
+                        1</hi>. Ed. Miodrag Avramović, 266–72. Beograd: SNJ, 1971.</bibl>
+                    <bibl>Bobić, Drago. “Nakon donošenja Kodeksa jugoslovenskog novinarstva:
+                        suočenje sa praksom.” <hi rend="italic">Novinarstvo</hi> I, No. 2 (1965):
+                        28–35.</bibl>
+                    <bibl>Osolnik, Bogdan. “The intention was to democratise the sphere of
+                        communication.” Interview. <hi rend="italic">TripleC</hi> 15, No. 1 (2017):
+                        231–50.</bibl>
+                    <bibl>Rančić, Dragoslav. “Zakaj pripravljamo nov kodeks?” <hi rend="italic"
+                            >Teorija in praksa</hi> 25, No. 5 (1988): 645–49.</bibl>
+                    <bibl>SNJ. “Kodeks jugoslovenskog novinarstva.” <hi rend="italic"
+                            >Novinarstvo</hi> I, No. 2 (1965): 204,205.</bibl>
+                    <bibl>SNJ. “Kodeks jugoslovenskog novinarstva.” <hi rend="italic"
+                            >Novinarstvo</hi> V, No. 3–4 (1969): 180–85.</bibl>
+                    <bibl>SNJ. “Kodeks novinara Jugoslavije.” <hi rend="italic">Novinarstvo</hi> IX,
+                        No. 1–2 (1973): 98–102.</bibl>
+                    <bibl>SNJ. “Kodeks novinara Jugoslavije.” <hi rend="italic">Novinarstvo</hi>
+                        XVIII, No. 3–4 (1982): 136–40.</bibl>
+                    <bibl>SNJ. “Kodeks novinara Jugoslavije.” <hi rend="italic">Novinarstvo</hi>
+                        XXIV, No. 3–4 (1988): 82, 83.</bibl>
+                    <bibl>SNJ. “Moralne obaveze novinara.” In: <hi rend="italic">Srebrni jubilej SNJ
+                            1945–1970: Knjiga 1</hi>. Ed. Miodrag Avramović, 314, 315. Beograd: SNJ,
+                        1971.</bibl>
+                    <bibl>SNJ. “Zaključci Šestog kongresa Saveza novinara Jugoslavije.” <hi
+                            rend="italic">Novinarstvo</hi> I, No. 2 (1965): 197–99.</bibl>
+                    <bibl>UO SNJ. “Izveštaj.” In: <hi rend="italic">Srebrni jubilej SNJ 1945–1970:
+                            Knjiga 1</hi>. Ed. Miodrag Avramović, 360–78. Beograd: SNJ, 1971.</bibl>
+                </listBibl>
+            </div>
+            <div type="summary" xml:lang="sl">
+                <docAuthor>Melita Poler Kovačič</docAuthor>
+                <head>NORMATIVNE USMERITVE VLOG JUGOSLOVANSKIH NOVINARJEV: ŠTUDIJA NOVINARSKIH
+                    ETIČNIH KODEKSOV V SFRJ</head>
+                <head>POVZETEK</head>
+                <p>Cilj te študije je raziskati normativne orientacije vlog novinarjev v SFRJ, kot
+                    so zapisane ali razvidne v petih jugoslovanskih novinarskih etičnih kodeksih
+                    (sprejetih v letih 1965, 1969, 1973, 1982 in 1988). Z analizo dokumentov in
+                    primerjalno zgodovinsko metodo smo raziskali razloge za sprejem prvega kodeksa,
+                    analizirali pojmovanja svobode in odgovornosti ter odnos med njima v kodeksih in
+                    ugotovili, kako kodeksi naslavljajo resnicoljubnost in profesionalne norme.</p>
+                <p>Normativni temelji novinarstva, kot se kažejo v etičnih kodeksih, so se
+                    spreminjali skozi čas ter ob spremembah v družbenem, političnem, pravnem in
+                    ekonomskem okolju, denimo ob sprejetju ustave leta 1963, ekonomski krizi in
+                    porastu nacionalizmov proti koncu šestdesetih let in v sedemdesetih letih ter
+                    družbeno-ekonomski krizi, secesionističnih procesih in kosovski krizi v
+                    osemdesetih letih. Novinarji so v etične kodekse zapisovali z družbenimi
+                    dogajanji povezane vrednote in cilje, denimo boj proti nacionalističnim težnjam
+                    in za spoštovanje enakosti vseh jugoslovanskih narodov in narodnosti v kodeks
+                    leta 1969; vrednote marksizma, leninizma, enotnosti Jugoslavije, socialističnega
+                    patriotizma idr. v kodeks leta 1973; prepoved ideologij sovražnosti ter
+                    nacionalne in rasne nestrpnosti ter diskriminacije v kodeks leta 1982; človekove
+                    pravice, vladavino prava ter enakost pred zakonom v kodeks leta 1988.</p>
+                <p>Ob več značilnostih sovjetske totalitarne teorije tiska imajo normativni temelji
+                    tudi določeno podobnost s teorijo družbene odgovornosti. Že v prvem etičnem
+                    kodeksu iz leta 1965 se je od novinarja pričakovalo, da raziskuje družbene
+                    procese, pojave in nasprotja, oblikuje svoja lastna mnenja in poglede na podlagi
+                    objektivnih spoznanj; o tem obvešča javnost; spodbuja širšo družbeno izmenjavo
+                    mnenj; in prispeva k aktivnostim za reševanje družbenih problemov. Vendar sta
+                    bili medijska in novinarska svoboda dovoljeni le v okviru socialistične
+                    usmeritve ter prispevka h graditvi in razvoju samoupravne družbe, vsaj do leta
+                    1988, ko so bile iz kodeksa izpuščene vrednoti marksizma in leninizma ter
+                    opredelitev novinarja kot družbenopolitičnega delavca. Zadnji jugoslovanski
+                    novinarski etični kodeks je kot osnovno načelo poklicnega dela opredelil
+                    sporočanje samostojnih in kritičnih stališč pri iskanju resnice. Jugoslovanski
+                    novinar je bil normativno obvezan delovati po svoji socialistični zavesti in je
+                    bil odgovoren do delovnih ljudi oziroma socialistične javnosti, kar je bliže
+                    sovjetski ideji odgovornosti, kodeksa v osemdesetih letih pa sta poudarila
+                    njegovo odgovornost do javnosti.</p>
+                <p>Profesionalne norme, povezane z resnicoljubnostjo, profesionalno integriteto ter
+                    spoštovanjem človekove osebnosti in dostojanstva, so se sčasoma razvijale ter
+                    pridobivale več prostora, razdelanosti in poudarka. Vendar jih je treba razumeti
+                    v kontekstu pojmovanj odnosa med medijsko/novinarsko svobodo in odgovornostjo,
+                    ki relativizira nekatere močne zaveze, kot je »vedno misliti na resnico«, že na
+                    normativni ravni, kaj šele na ravni medijskih praks. Toda dejstvo, da je
+                    novinarska skupnost nekatere profesionalne norme prepoznala kot dovolj pomembne
+                    za kodifikacijo, nakazuje, da so bili temelji profesionalizacije slovenskega
+                    novinarstva položeni že v socialistični Jugoslaviji.</p>
+            </div>
+        </back>
+    </text>
+</TEI>
