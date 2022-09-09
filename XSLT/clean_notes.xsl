@@ -7,7 +7,7 @@
     version="2.0">
     
     <!-- dodaj številko, katero hočeš odšteti od originalne številke opombe v atributu n (ker note z vrednostjo atributa n * nima številka) -->
-    <xsl:param name="stOpombe">1</xsl:param>
+    <xsl:param name="stOpombe">2</xsl:param>
     
     <xsl:output method="xml"/>
     
