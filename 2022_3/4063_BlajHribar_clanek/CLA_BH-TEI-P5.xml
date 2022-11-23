@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Popisi prebivalstva 1857 - 1931: predstavitev vira, podatki in analiza<note
+                        place="foot" xml:id="ftn1" n="*">Članek je nastal v okviru raziskovalnega
+                        programa I0-0013 <hi rend="italic">Raziskovalna infrastruktura slovenskega
+                            zgodovinopisja</hi>, ki ga financira Javna agencija za raziskovalno
+                        dejavnost Republike Slovenije iz državnega proračuna.</note></title>
+                <author>
+                    <forename>Neja</forename>
+                    <surname>Blaj Hribar</surname>
+                    <roleName>asistentka</roleName>
+                    <affiliation>Inštitut za novejšo zgodovino</affiliation>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>neja.blaj-hribar@inz.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2022-10-27</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/4063</pubPlace>
+                <date>2022</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">62</biblScope>
+                <biblScope unit="issue">3</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>population censuses</term>
+                    <term>source analysis</term>
+                    <term>databases</term>
+                    <term>Austria-Hungary</term>
+                    <term>Kingdom of the SHS/Yugoslavia</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>popisi prebivalstva</term>
+                    <term>analiza vira</term>
+                    <term>podatkovne baze</term>
+                    <term>Avstro-Ogrska</term>
+                    <term>Kraljevina SHS/Jugoslavija</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2022-11-02T08:09:59Z</date>
+                    <name>Mihael Ojsteršek</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Neja Blaj Hribar<note place="foot" xml:id="ftn2" n="**"><hi rend="bold"
+                        >Doktorska študentka, Univerza v Ljubljani, Filozofska fakulteta, Aškerčeva
+                        ulica 2, SI-1000 Ljubljana; asistentka, Inštitut za novejšo zgodovino,
+                        Privoz 11, SI-1000 Ljubljana; <ref target="mailto:neja.blaj-hribar@inz.si"
+                            >neja.blaj-hribar@inz.si</ref></hi></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="DOI">https://doi.org/10.51663/pnz.62.3.01</idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">Avtorica se v članku osredotoča na historične popise
+                        prebivalstva habsburške monarhije in Kraljevine SHS/Jugoslavije. V njem
+                        najprej predstavi zakonodajo in način popisovanja, nato pa analizira
+                        posamezne popise in popisne rubrike. Zadnji del je namenjen kritičnemu
+                        pretresu zbiranja in analiz podatkov popisov ter predstavitvi možnosti, ki
+                        jih ponujajo nove digitalne metode obdelave podatkov, in pomena
+                        metodologije.</hi></p>
+                <p><hi rend="italic">Ključne besede: popisi prebivalstva, analiza vira, podatkovne
+                        baze, Avstro-Ogrska, Kraljevina SHS/Jugoslavija</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head>POPULATION CENSUSES 1857–1931: PRESENTATION OF THE SOURCE, DATA, AND ANALYSIS </head>
+                <p><hi rend="italic">In the following article, the author focuses on the historical
+                        population censuses in the Habsburg Monarchy and the Kingdom of
+                        SHS/Yugoslavia. She begins by introducing the legislation and the census
+                        method and then analyses the individual censuses and census headings. The
+                        final part of the article is devoted to a critical review of the collection
+                        and analysis of census data. It explores what the new digital data
+                        processing methods allow for and focuses on the importance of
+                        methodology.</hi></p>
+                <p><hi rend="italic">Keywords: population censuses, source analysis, databases,
+                        Austria-Hungary, Kingdom of the SHS/Yugoslavia</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>Uvod</head>
+                <p>Znano je, da so popisi prebivalstva »neizmerno velik zaklad«<note place="foot"
+                        xml:id="ftn3" n="1"><bibl>Andrej Studen, »Popis prebivalstva – neizmerno
+                            velik zaklad Zgodovinskega arhiva Ljubljana,« <hi rend="italic"
+                                >Arhivi</hi> 22 (1999): 187.</bibl></note> za zgodovinarje,
+                    demografe in genealoge. Pomen popisov ni bil le v tem, da se prešteje
+                    prebivalstvo, ampak predvsem v prikazu socialne in gospodarske strukture
+                        prebivalstva.<note place="foot" xml:id="ftn4" n="2"><bibl>Lojze Pipp, »O
+                            zgodovini statistike, ljudskih štetij in popisov prebivalstva,« <hi
+                                rend="italic">Kronika slovenskih mest </hi>1, št. 3 (1934):
+                            195.</bibl></note> Za historično demografijo ima prednost pred drugimi
+                    viri njihova serialnost, ki omogoča primerjave in pregled skozi daljše časovno
+                    obdobje. Njihova slabost je v tem, da so se načeloma izvajali vsakih deset let,
+                    kar onemogoča opazovanje kratkotrajnejših sprememb, hkrati pa iz njih ne izvemo
+                    veliko o osebnih pogledih popisanega prebivalstva in drugih osebnih
+                    okoliščinah.</p>
+                <p>Kljub temu, da so bili popisi prebivalstva vir že za kar nekaj raziskav,<note
+                        place="foot" xml:id="ftn5" n="3"><bibl>Gl. uporabljeno
+                        literaturo.</bibl></note> to ne pomeni, da so njihovi podatki izčrpani. Z
+                    digitalizacijo popisnega materiala v Sloveniji in tujini so postali še
+                    dostopnejši, hkrati pa odpirajo nove možnosti raziskav.</p>
+                <p>Podatki popisov prebivalstva so uporabni le, če dobro poznamo ozadje in
+                    okoliščine njihovega nastanka. Članek je namenjen predstavitvi zakonodaje,
+                    načina popisovanja in zbranih podatkov. Za analizo popisnih kategorij sem
+                    uporabila ljubljanske popise prebivalstva od leta 1857 do 1931,<note
+                        place="foot" xml:id="ftn6" n="4"><bibl>SI ZAL LJU/0504 Mesto Ljubljana,
+                            statistični popisi, 1830–1942.</bibl></note> saj so zelo dobro ohranjeni
+                    in tudi digitalizirani.<note place="foot" xml:id="ftn7" n="5"><bibl>Za analizo
+                            so bili uporabljeni digitalizirani popisi iz interne baze
+                        INZ.</bibl></note> Digitalizacija popisov in izdelava podatkovnih baz je
+                    tema zadnjega dela članka. Čeprav so bili državni popisi načeloma enaki za vse
+                    prebivalstvo, lahko pri ohranjenem gradivu drugih krajev pride do odstopanj.
+                    Razširjen popis stanovanjskih razmer je bil denimo narejen le za večja mesta ali
+                    pa je za kraj ohranjena le popisna knjiga občine, ki je skrajšana oblika
+                    državnega popisa in vsebuje manj podatkov. Popise prebivalstva so občine včasih
+                    izvedle za lastno uporabo, takšna primera sta ljubljanska občinska popisa
+                    prebivalstva iz leta 1921 in 1928, še več jih je bilo na primer v Trstu.<note
+                        place="foot" xml:id="ftn8" n="6"><bibl>Roberto (Robi) Sturman, »Matična
+                            služba in občinski popisi prebivalstva v Trstu (1859–1875),« <hi
+                                rend="italic">Kronika </hi>67, št. 3 (2019):
+                    497–512.</bibl></note></p>
+            </div>
+            <div>
+                <head>Popisi prebivalstva v habsburški monarhiji</head>
+                <p>Prvi »popis duš« v avstrijskem delu Avstro-Ogrske je bil izveden leta 1754 (in
+                    nato vsake tri leta), a je bila izvedba pomanjkljiva in podatki
+                        nezanesljivi.<note place="foot" xml:id="ftn9" n="7"><bibl>Fran Zwitter, <hi
+                                rend="italic">Prebivalstvo na Slovenskem od XVIII. stoletja do
+                                današnjih dni</hi> (Ljubljana: Učiteljska tiskarna, 1936),
+                            16.</bibl></note> Pravi trdni temelj realnega števila prebivalcev so
+                    dale šele vojaške konskripcije iz leta 1770.<note place="foot" xml:id="ftn10"
+                        n="8"><bibl>Ibidem<hi rend="italic">, </hi>38. Gl. tudi Janez Cvirn,
+                            »Vojaška konskripcija leta 1770/71,« v: <hi rend="italic">Zgodovinski
+                                pogledi na zadnje državno ljudsko štetje v Avstrijskem primorju
+                                1910. Jezik, narodnost, meja</hi>, ur. Barbara Šterbenc Svetina et
+                            al. (Ljubljana: Založba ZRC, 2012), 9–24.</bibl></note> Prvi moderni
+                    popis prebivalstva je bil izveden leta 1857. Zbrani podatki so bili namenjeni za
+                    uporabo celotni državni upravi, ne le vojski (kot konskripcije). Za državo je
+                    bilo popisovanje »ena najvažiših podstav za dobro uravnano državno, deželno in
+                    občinsko gospodarstvo«.<note place="foot" xml:id="ftn11" n="9"><bibl>Popisna
+                            pola (naznanilnica) iz leta 1869.</bibl></note> Poleg tega, da se je
+                    podrobno popisalo vse prebivalstvo (ne le moško), je največji doprinos h
+                    kakovosti popisa v primerjavi s konskripcijami določitev t. i. kritičnega datuma
+                        popisa.<note place="foot" xml:id="ftn12" n="10"><bibl>Andrej Studen,
+                            »Moderni avstrijski popisi prebivalstva 1857–1910,« v: <hi rend="italic"
+                                >Zgodovinski pogledi na zadnje državno ljudsko štetje v Avstrijskem
+                                primorju 1910. Jezik, narodnost, meja,</hi> ur. Barbara Šterbenc
+                            Svetina et al. (Ljubljana: Založba ZRC, 2012), 27.</bibl></note>
+                    Popisovalci so morali izpolniti podatke za stanje na določen datum, čeprav je
+                    popisovanje potekalo v daljšem časovnem obdobju.</p>
+                <div>
+                    <head>Popisovanje in statistična obdelava</head>
+                    <p>Popisovanje v habsburški monarhiji se je izvajalo na podlagi zakonov iz leta
+                        1857 in 1869. Razlog sprejemanja drugega zakona je bil upravne narave, saj
+                        je prvi veljal za celotno ozemlje monarhije, medtem ko je bilo treba po
+                        dualistični pogodbi zakon prilagoditi le avstrijski polovici. Pomembneje pa
+                        je, da so z njim dopolnili pomanjkljivosti prvega. Vsi naslednji popisi so
+                        se izvajali po zakonu iz leta 1869, a z nekaj spremembami (med drugim so
+                        bila dodana popisna vprašanja, spremenjen je bil način obdelave
+                            podatkov).<note place="foot" xml:id="ftn13" n="11"><bibl>Peter
+                                Teibenbacher, Diether Kramer in Wolfgang Göderle, »An Inventory of
+                                Austrian Census Materials, 1857–1910. Final Report,« <hi
+                                    rend="italic">Mosaic Working Paper wp2012-007</hi>, Dezember
+                                2012, pridobljeno 28. 1. 2019, <ref
+                                    target="https://censusmosaic.demog.berkeley.edu/sites/default/files/downloads/publications/mosaicWP/MOSAIC-WP-2012-007.pdf"
+                                    >https://censusmosaic.demog.berkeley.edu/sites/default/files/downloads/publications/mosaicWP/MOSAIC-WP-2012-007.pdf</ref>,
+                                3.</bibl></note></p>
+                    <p>Pri pripravah na prvi popis so imeli pred očmi predvsem dve vprašanji –
+                        kakšen je namen popisa in kako se bo izvedel. S popisom so želeli dobiti čim
+                        boljši vpogled v strukturo prebivalstva, ki bi koristil celi državni
+                            upravi.<note place="foot" xml:id="ftn14" n="12"><bibl>Sonja
+                                Anžič-Kemper, »Priprave, potek in izvedba štetja prebivalstva leta
+                                1857. Primer Ljubljane,« v: <hi rend="italic">Prvi moderni popis
+                                    stanovništva u Istri = Il primo censimento demografico moderno
+                                    in Istria = Prvi moderni popis prebivalstva v Istri</hi>, ur.
+                                Aleksej Kalc (Koper = Capodistria: Histria Editiones; Pula:
+                                Sveučilište Jurja Dobrile, 2012), 49.</bibl></note> Da bi bili
+                        popisi čim bolj zanesljivi in dejansko izvedljivi, je bilo potrebnih kar
+                        nekaj predpriprav. Cesarski ukaz o popisu prebivalstva iz marca 1857 je
+                        vseboval vsa navodila za izvedbo popisa. Med najpomembnejšimi je bilo
+                        dosledno oštevilčenje hiš in označenje naselij.<note place="foot"
+                            xml:id="ftn15" n="13"><bibl>Z oštevilčenjem hiš se je začelo že pri
+                                predpripravah na prve vojaške konskripcije leta 1771. Je bil pa to
+                                dolg proces, ki ga je bilo treba posodabljati. Podrobneje o
+                                oštevilčenju hiš gl. Andrej Studen, »Oštevilčenje hiš ob vojaški
+                                konskripciji 1770/71 kot tehnologija dodeljevanja naslovov in
+                                sredstvo socialnega discipliniranja,« v: <hi rend="italic">Marija
+                                    Terezija: med razsvetljenskimi reformami in zgodovinskim
+                                    spominom</hi>, ur. Miha Preinfalk in Boris Golec (Ljubljana: ZRC
+                                SAZU, 2018): 435–49.</bibl></note> Zakon je opisoval način
+                        popisovanja, finančno in administrativno izvedbo, dodani so bili tudi vzorci
+                        popisnih pol, priloge, navodila in drugi obrazci.<note place="foot"
+                            xml:id="ftn16" n="14"><bibl>»Cesarski ukaz od 23. marca 1857, veljaven
+                                za vse kronovine, razen vojaške krajine, s katerim se razglaša
+                                zaukaz, kako gre popisovanje ljudstva opravljati,« <hi rend="italic"
+                                    >Deželni vladni list za kranjsko vojvodino</hi>. <hi
+                                    rend="italic">Pervi razdélk. XVI</hi>. <hi rend="italic"
+                                    >del</hi>, IX. tečaj, št. 103, Ljubljana, 27. maj
+                            1857.</bibl></note></p>
+                    <p>Geografsko lociranje je bilo pomembno zaradi same izvedbe popisov. Najmanjša
+                        popisna enota je bilo v mestih stanovanje ter hiša na podeželju. Popis leta
+                        1857 so izvedle občine ali pa okrajna glavarstva, odvisno od zmožnosti (o
+                        tej so odločali v kresijskih gospostvih oziroma deželnih vladah). Pri tem
+                        naj bi pri popisovanju po potrebi sodelovala tudi duhovščina.<note
+                            place="foot" xml:id="ftn17" n="15"><bibl>Ibid., 166.</bibl></note> Od
+                        leta 1869 dalje so bila za izvedbo popisa in izdelavo statistike zadolžena
+                        okrajna glavarstva, deželna glavna mesta in mesta z lastnim statutom. Pri
+                        izvedbi so morale sodelovati vse občine, ki so same izbrale komisarje, ki so
+                        opravili popisovanje.<note place="foot" xml:id="ftn18" n="16"><bibl>Studen,
+                                »Moderni avstrijski popisi,« 28.</bibl></note></p>
+                    <p>Leta 1857 je bila osnovna popisna pola naznanilnica (<hi rend="italic"
+                            >Anzeigezettel</hi>), ki so jo izpolnile »glave družine«. Na podlagi teh
+                        podatkov so komisarji izpolnili zapisnico (<hi rend="italic"
+                            >Aufnahmsbögen</hi>), ki je bila tabelaren pregled z označenimi
+                        odgovori, iz katerega so se delale prve statistike. Tujce (torej vse
+                        nepristojno prebivalstvo v občini) so prepisali v ločene tabele ( <hi
+                            rend="italic">Fremden Tabelle</hi>). Naznanilnice se je smelo izpustiti,
+                        če so popis opravljali komisarji. To je bilo predvideno predvsem v manjših
+                        občinah in tam, kjer bi bila drugačna izvedba zaradi prenizke pismenosti
+                        nemogoča. To ni izključevalo možnosti, da je bil tako izveden tudi celoten
+                        popis. Sonja Anžič Kemper namreč piše, da so se na notranjem ministrstvu na
+                        koncu odločili, da bodo popis izvajali le pooblaščeni komisarji (iz vrst
+                        prebivalstva, občinskih in deželnoknežjih uradov) na podlagi ustnih
+                            izjav.<note place="foot" xml:id="ftn19" n="17"><bibl>Anžič-Kemper,
+                                »Priprave, potek in izvedba,« 52.</bibl></note></p>
+                    <p>Od popisa 1869 dalje je delitev med obrazcema ostala, le da je bila zapisnica
+                        skoraj identična naznanilnici (prav tako so se vanjo vpisovali podatki in ne
+                        le označevali odgovori). Osnovna razlika je bila v popisni enoti – v
+                        zapisnici so se popisale enostanovanjske hiše, naznanilnice pa so bile
+                        namenjene popisu posameznih stanovanj.<note place="foot" xml:id="ftn20"
+                            n="18"><bibl>Wolfang Göderle, »Administration, Science, and the State:
+                                The 1869 Population Census in Austria-Hungary,« <hi rend="italic"
+                                    >Austrian History Yearbook</hi> 47 (2016): 72.</bibl></note>
+                        Naznanilnice so se uporabljale predvsem v urbanih središčih, zapisnice na
+                        podeželju. V ljubljanskem popisu iz leta 1880 tako najdemo večinoma
+                        naznanilnice, medtem ko so za Črno vas, Hauptmanco in Kurjo vas izpolnjene
+                        zapisnice. Razlika je bila tudi v tem, da so naznanilnice morali izpolniti
+                        imetniki/najemniki stanovanj, zapisnice pa so izpolnili komisarji.<note
+                            place="foot" xml:id="ftn21" n="19"><bibl>Ibid., 72.</bibl></note> Po
+                        zakonu iz leta 1869 se tujcev ni več ločevalo v posebne tabele. To je
+                        omogočilo boljši pregled nad dejanskim stanjem prisotnega, ne le pristojnega
+                        prebivalstva.</p>
+                    <p>Osnovno izhodišče izračunov je bila popisna enota. Rezultati popisa so se
+                        preštevali po geografskih ravneh – prva raven je bil kraj, nato so podatke
+                        vseh krajev v občini združili in dobili občinsko statistiko. Iz občinskih
+                        podatkov so naredili okrajne statistike, nato po istem postopku deželne in
+                        na koncu državno.<note place="foot" xml:id="ftn22" n="20"><bibl>Ibid., 83,
+                                84.</bibl></note> Popisne pole so sprva ostale na nižjih upravnih
+                        ravneh (večinoma na občinah ali okrajnih glavarstvih). Pri popisu leta 1880
+                        so podatke nižjih ravni obdelali v okrajnih komisijah in posredovali le
+                        podatke, popisne pole so ostale pri okrajnih glavarstvih. Od popisa iz leta
+                        1890 naprej pa so pole skupaj s prvimi izračuni poslali na centralno
+                        statistično komisijo na Dunaju, saj so podatke začeli obdelovati s
+                        tabelirnim strojem, nato pa so pole vrnili okrajnim glavarstvom.<note
+                            place="foot" xml:id="ftn23" n="21"><bibl>Teibenbacher et al., »An
+                                Inventory of Austrian Census Materials,« 4.</bibl></note> Tabelirni
+                        stroj je omogočil novo raven obdelave podatkov, zagotovil večjo natančnost
+                        obdelave in boljše analize.<note place="foot" xml:id="ftn24" n="22"
+                                ><bibl>Studen, »Moderni avstrijski popisi,« 33,
+                        34.</bibl></note></p>
+                    <p>Zakon iz leta 1857 je predvideval, da se bodo popisi izvajali na šest let,
+                        kar se ni uresničilo. Naslednji popis je bil izveden šele leta 1869. V novem
+                        zakonu se je odredilo popisovanje na deset let. Kljub temu je bil naslednji
+                        popis izveden šele čez enajst let (leta 1880). Nato so se do propada
+                        monarhije dosledno izvajali vsakih deset let.</p>
+                    <p>Na podlagi popisov so bile narejene obsežne statistike, ki jih je objavljala
+                        centralna statistična komisija na Dunaju, od popisa iz leta 1869 dalje pa so
+                        nastajali tudi krajevni repertoriji.</p>
+                    <p>Razvoj statistične znanosti<note place="foot" xml:id="ftn25" n="23"><bibl>Za
+                                razvoj statistike gl. Zwitter, <hi rend="italic">Prebivalstvo na
+                                    Slovenskem,</hi> 7–10.</bibl></note> 19. stoletja je zaznamoval
+                        val pozitivizma. Verjeli so, da lahko izmerijo družbeno realnost, tako kot
+                        se merijo naravni pojavi. A realnost je kompleksnejša, kot jo lahko zajamejo
+                        statistične analize. Popisna polja so puščala malo prostora, da bi ljudje
+                        predstavili, kaj sami pojmujejo kot družbeno realnost. Dobljeni podatki so
+                        bolj odražali realnost skozi oči administracije kot samega
+                            prebivalstva.<note place="foot" xml:id="ftn26" n="24"><bibl>Göderle,
+                                »Administration, Science, and the State,« 69, 70.</bibl></note> Za
+                        kakršnokoli statistično analizo je treba podatke poenotiti, pri čemer vedno
+                        pride do uhajanja informacij. Odločitev, kakšna bo kategorizacija in kako
+                        bodo podatki standardizirani, je bila na statistikih in uradnikih, ki pa so
+                        jih hkrati morali prilagoditi tako, da so bili razumljivi čim širši
+                        populaciji. S poenotenjem se izgubi kompleksnost družbe, po drugi strani pa
+                        ravno ta »uniformiranost« podatkov daje vrednost informacijam za
+                        administracijo in znanost.<note place="foot" xml:id="ftn27" n="25"
+                                ><bibl>Ibid., 78–80.</bibl></note></p>
+                </div>
+                <div>
+                    <head>Popisne rubrike</head>
+                    <p>Čeprav so popisne pole z leti vsebovale vse več rubrik, je osnovna postavitev
+                        ostala. Na prvi strani se je prostorsko določila popisna enota (dežela,
+                        občina, okraj, ulica in hišna številka), v popisih nekaterih mest še podatki
+                        o bivalnih razmerah (v Ljubljani od popisa iz leta 1890 dalje). Na notranji
+                        strani pole (druga in tretja stran) je bila tabela, v katero so se vpisale
+                        osebe po pravilnem vrstnem redu – glava družine, družina, služinčad,
+                        najemniki (in njihova družina) ter na koncu posteljaši. Na zadnji strani so
+                        bila vprašanja, povezana z domačimi živalmi. Popisano je bilo vse prisotno
+                        civilno prebivalstvo (vojaštvo je bilo pod pristojnostjo vojaških oblasti) –
+                        tudi dijaki in učenci v vzgojnih domovih, pacienti v bolnišnicah, menihi in
+                        nune v samostanih ... V popisu iz leta 1857 so bili izjema le tuji
+                            popotniki.<note place="foot" xml:id="ftn28" n="26"><bibl>»Cesarski
+                                ukaz,« 167.</bibl></note></p>
+                    <p>Pri vprašanjih za prebivalstvo se je od začetnih devet število v letu 1910
+                        povzpelo na 23 rubrik. V vseh popisih se pojavijo: ime in priimek, datum
+                        (leto) rojstva, družinski stan, vera, domovinska pravica, poklic, prisotnost
+                        in opomba. Nekatera vprašanja so imela že vnaprej določene možne odgovore
+                        (vera, stan, občevalni jezik, razmerje do izhodiščne osebe), izbira
+                        odgovorov se je s popisi širila.</p>
+                    <table rend="rules">
+                        <head>Tabela 1: Popisne rubrike državnih popisov prebivalstva 1857–1931<note
+                                place="foot" xml:id="ftn29" n="27"><bibl>Popisne rubrike so
+                                    prepisane iz popisnih pol, upoštevajo se imensko oziroma
+                                    vsebinsko enake rubrike.</bibl></note></head>
+                        <row>
+                            <cell rend="left"><hi rend="bold">Popisni podatki/leto</hi></cell>
+                            <cell rend="center"><hi rend="bold">1857</hi></cell>
+                            <cell rend="center"><hi rend="bold">1869</hi></cell>
+                            <cell rend="center"><hi rend="bold">1880</hi></cell>
+                            <cell rend="center"><hi rend="bold">1890</hi></cell>
+                            <cell rend="center"><hi rend="bold">1900</hi></cell>
+                            <cell rend="center"><hi rend="bold">1910</hi></cell>
+                            <cell rend="center"><hi rend="bold">1921</hi></cell>
+                            <cell rend="center"><hi rend="bold">1931</hi></cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Ime in priimek</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Imetnik stanovanja oz. razmerje do njega</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Spol</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Družinski stan</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Leto/datum rojstva</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Kraj rojstva</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Domovinska pravica</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Veroizpoved</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Občevalni jezik</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Materni jezik</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Narodnost</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Državljanstvo</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Prisotnost</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Pismenost</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Znanje tujih jezikov</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center"> </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Glavni poklic</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Status glavnega poklica</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Postranski poklic</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Status postranskega poklica</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Zemljiški ali/in hišni posestnik</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Obrt izvršuje – potuje, v hiši naročnikov, stalni
+                                obrat</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Naslov delodajalca in vrsta obrti / Ime
+                                obrata/delodajalca</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Poklic leta 1907</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Status poklica 1907</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Ali se postranski zaslužek izvaja hkrati z glavnim
+                                poklicem ali se izmenjuje</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Telesne in duševne napake</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center"> </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Druge telesne napake / invalidnost</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center"> </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Bivališče neprisotne osebe</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Bivališče začasno prisotne osebe</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Od kod so se preselili</cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center"> </cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Opomba</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                            <cell rend="center">x</cell>
+                        </row>
+                        <note n="">Vir: Po popisnih polah sestavila avtorica.</note>
+                    </table>
+                    <lb/>
+                    <p>Osnova popisa sta seveda <hi rend="bold">ime in priimek</hi> popisane osebe,
+                        ki ju ni treba natančneje opisovati. Kot že omenjeno, so bile osebe popisane
+                        po določenem vrstnem redu. V kakšnem <hi rend="bold">razmerju do
+                            imetnika/najemnika </hi>bivalne enote so bile ostale osebe, se je
+                        navajalo šele od popisa iz leta 1890 dalje. Kljub temu da je to pomemben
+                        podatek za raziskovanje strukture gospodinjstev, se ta razmerja večinoma
+                        lahko razberejo iz drugih podatkov v posameznem gospodinjstvu (iz priimka,
+                        družinskega stanu, poklica, starosti), otežujejo pa statistično obdelavo. Da
+                        so takšne analize vseeno mogoče, kaže študija Williama H. Hubbarda, ki mu je
+                        s pomočjo popisa iz leta 1857 uspelo analizirati strukturo gospodinjstev v
+                            Gradcu.<note place="foot" xml:id="ftn30" n="28"><bibl>William H.
+                                Hubbard, »Städtische Haushaltsstruktur um die Mitte des 19.
+                                Jahrhundert,« v: <hi rend="italic">Moderne Stadtgeschichte</hi>, ur.
+                                Wilhelm Heinz Schröder (Stuttgart: Klett-Cotta, 1979):
+                                198–216.</bibl></note></p>
+                    <p><hi rend="bold">Spol</hi> oseb ni bil vključen v prvi moderni popis, od leta
+                        1869 dalje pa je v vseh popisih. Drugače je z <hi rend="bold">datumom
+                            oziroma letom rojstva</hi>. V popisu iz leta 1857 je bila rubrika
+                        poimenovana datum rojstva, a je bilo v navodilih zapisano, da to velja le za
+                        moške med štirinajstim in dopolnjenim dvajsetim letom, za vse ostale je
+                        zadostovalo zgolj leto rojstva. Razlog je bil seveda v vojaški obveznosti.
+                        Enako je bilo pri popisu iz leta 1869, le da se je rubrika imenovala leto
+                        rojstva. Od popisa iz leta 1880 dalje je bil natančen datum rojstva zahtevan
+                        za vse prebivalstvo.</p>
+                    <p>Rubrika <hi rend="bold">družinski stan</hi> je bila zajeta v vseh popisih in
+                        je imela v navodilih tudi že določene možne odgovore. Leta 1857 ni bilo
+                        možnosti izbire <hi rend="italic">ločen oziroma razdružen</hi>, zato so leta
+                        1869 dodali možen odgovor <hi rend="italic">razvezan</hi>, kar je še vedno
+                        izključevalo nekatere druge oblike zvez. Pri statistični komisiji so iskali
+                        predvsem splošne izraze, ki bi pomensko zajeli vse skupine prebivalstva in
+                        bili hkrati oprti na pravno terminologijo, a se je pri stanu to izkazalo za
+                        nemogoče. Odgovor <hi rend="italic">razdružen</hi> je bil ustvarjen za vse
+                        oblike ločenih parov (razen sodno ločenih), da bi bilo čim manj zmede in bi
+                        vsi izbrali isto možnost.<note place="foot" xml:id="ftn31" n="29"
+                                ><bibl>Göderle, »Administration, Science, and the State,«
+                            76.</bibl></note> V kasnejših popisih se je zato dodala še možnost
+                        izbire <hi rend="italic">sodno ločen</hi> oziroma <hi rend="italic">zakonito
+                            razdružen</hi> (a le za nekatoličane).</p>
+                    <p>Popisna rubrika <hi rend="bold">veroizpoved</hi> je prav tako imela vnaprej
+                        določene možne odgovore. Leta 1857 so bile na izbiro katoliška veroizpoved
+                        (armenska, latinska ali grška cerkev), med nekatoliškimi krščanskimi verami
+                        so bile navedene grška ali armenska pravoslavna, evangelijska-luteranska,
+                        kalvinska in unitarna vera. Med ostalimi sta bili omenjeni še judovska in
+                        muslimanska veroizpoved. V naslednjem popisu so dodali še
+                        evangelijsko-helveško (reformirano), anglikansko in menonitsko veroizpoved,
+                        leta 1880 pa še starokatoliško ter možnost, da je oseba brez vere.</p>
+                    <p>Eden ključnih podatkov za identifikacijo oseb je <hi rend="bold">kraj
+                            rojstva</hi>, ki pa v prvem popisu ni bil zajet, kar otežuje povezavo
+                        oseb z naslednjimi popisi. V naslednjih popisih je bilo treba v to rubriko
+                        vpisati deželo, okraj in kraj rojstva.</p>
+                    <p>Stalna rubrika je bila <hi rend="bold">domovinska pravica</hi>, ki je
+                        označevala občinsko pripadnost oziroma pristojnost. Imeli so jo le
+                        državljani, »iz nje pa so izhajale naknadne politične pravice, denimo
+                        občinska volilna pravica za določeno prebivalstvo (volivce po izobrazbi) in
+                        pridobitev socialne podpore«.<note place="foot" xml:id="ftn32" n="30"
+                                ><bibl>Irena Selišnik, »Status državljanstva ob nastanku nove Države
+                                SHS. Strategije izbire,« <hi rend="italic">Zgodovinski časopis
+                                </hi>75, št. 3-4 (2021): 478.</bibl></note> Domovinska pravica se je
+                        prenašala iz roda v rod, ženske pa so po poroki dobile moževo. Sprememba
+                        domovinske pravice je bila težka, šele leta 1896 se je spremenil zakon, ki
+                        je prebivalstvu omogočal, da so lahko zaprosili za domovinsko pravico v
+                        občini, kjer so neprestano bivali vsaj deset let (zakon je za začetno leto
+                        določil leto 1890, tako da so lahko prebivalci po novem zakonu za spremembo
+                        domovinstva zaprosili od leta 1900 dalje).<note place="foot" xml:id="ftn33"
+                            n="31"><bibl>Sonja Anžič, <hi rend="italic">Skrb za uboge v deželi
+                                    Kranjski. Socialna politika na Kranjskem od srede 18. stoletja
+                                    do leta 1918</hi> (Ljubljana: Zgodovinski arhiv Ljubljana,
+                                2002), 36. Zakon je omogočal, da se je za spremembo laže zaprosilo,
+                                kar pa ne pomeni, da so jo tudi odobrili. Za sprejem v domačinstvo
+                                so bile pristojne občine. Podrobneje gl. Selišnik, »Status
+                                državljana.«</bibl></note> Domovinska pravica je bila pomembna tudi
+                        v smislu kategoriziranja prebivalstva – tujci ( <hi rend="italic"
+                            >Fremde</hi>) so bili vsi, ki v občini bivanja niso imeli domovinske
+                        pravice, medtem ko so bile osebe z drugim državljanstvom inozemci (<hi
+                            rend="italic">Auslender</hi>). Pri rubriki domovinska pravica so se
+                        navedli dežela, okraj in kraj. Velika pomanjkljivost popisa iz leta 1857 je
+                        bila, da je bil relevanten predvsem za pristojno prebivalstvo, prisotnost je
+                        bila slabo definirana in rubrike nedodelane.<note place="foot"
+                            xml:id="ftn34" n="32"><bibl>Zwitter, <hi rend="italic">Prebivalstvo na
+                                    Slovenskem,</hi> 55.</bibl></note> Za tujce je veljalo, da se v
+                        rubriko zabeleži le, da je tujec, šele v opombi pa se je specificirala
+                        domovinska pravica (za nedržavljane pa država). Popisali so sicer vse,
+                        statistika pa je nato ločeno obravnavala pristojno in tuje prebivalstvo. Nov
+                        zakon o popisovanju prebivalstva je zato predvidel, da se enako popisuje vse
+                        prisotno prebivalstvo.</p>
+                    <p>Kategorija natančnosti popisov se je prestavila na <hi rend="bold"
+                            >prisotnost</hi>. Določeno je bilo, da se popisuje vse prisotno
+                        prebivalstvo (stalno ali začasno), ločeno pa tudi odsotno – pri teh naj bi
+                        popisali le spol in kraj bivanja.<note place="foot" xml:id="ftn35" n="33"
+                                ><bibl> Studen, »Moderni avstrijski popisi,« 27.</bibl></note> V
+                        realnosti je iz popisnih pol opazno, da so pri odsotnih članih gospodinjstva
+                        velikokrat vpisali vse podatke, ki so jih vedeli.</p>
+                    <p>Pri <hi rend="bold">poklicu</hi> so morali leta 1857 vpisati uradno službo,
+                        drug zaslužek in obrt, v kateri so delali. Zapisati je bilo treba poklic, a
+                        vendar »s tako besedo, da se bo lahko vidilo, v ktero tu spodej naštetih 17
+                        verst kdo gre«.<note place="foot" xml:id="ftn36" n="34"><bibl>»Cesarski
+                                ukaz,« 176.</bibl></note> Od popisa iz leta 1869 dalje je bilo treba
+                        z besedo natančneje opredeliti poklic.<note place="foot" xml:id="ftn37"
+                            n="35"><bibl>Studen, »Moderni avstrijski popisi,« 27.</bibl></note>
+                        Število kategorij je naraščalo in se spreminjalo z vsakim popisom. Z letom
+                        1890 so uvedli osnovno razdelitev v štiri razrede (A – kmetijstvo,
+                        gozdarstvo in lov, B – obrt in industrija, C – trgovina in promet ter D –
+                        vojska, javne službe, svobodni poklici, rentniki, zavodniki in drugi). Jasna
+                        Fischer opozarja, da je pri vzporejanju statističnih rezultatov za poklicno
+                        strukturo smiselna primerjava predvsem zadnjih treh popisov, medtem ko bi
+                        bilo treba za prejšnje popise veliko večje poenotenje poklicnih shem, kar bi
+                        vodilo v nepravilnosti.<note place="foot" xml:id="ftn38" n="36"><bibl>Jasna
+                                Fischer, »O virih za gospodarsko in družbeno zgodovino Slovencev od
+                                sredine 19. stoletja do prve svetovne vojne,« <hi rend="italic"
+                                    >Prispevki za zgodovino delavskega gibanja</hi> 23, št. 1-2
+                                (1983): 32, 33.</bibl></note> Drugače je seveda, če namesto
+                        narejenih statistik vzamemo gole podatke iz popisnih pol. Andrej Studen je
+                        na primer prilagodil shemo zadnjega avstrijskega popisa in izdelal poklicno
+                        strukturo prebivalcev izbranih ljubljanskih ulic med letoma 1869 in
+                            1910.<note place="foot" xml:id="ftn39" n="37"><bibl>Andrej Studen, <hi
+                                    rend="italic">Pedenarca, ksel, kelnerca, žnidar:
+                                    socialnozgodovinska analiza strukture stanovalcev izbranih
+                                    ljubljanskih ulic iz let 1869–1910</hi> (Ljubljana: Zgodovinski
+                                arhiv Ljubljana, 1993), 72, 73.</bibl></note></p>
+                    <p>Za analizo poklicnih struktur se vedno pogosteje uporablja tudi mednarodna
+                        kategorizacija zgodovinskih poklicev – HISCLASS ( <ref
+                            target="http://www.hisma.org/HISMA/HISCLASS.html"
+                            >http://www.hisma.org/HISMA/HISCLASS.html</ref>),<note place="foot"
+                            xml:id="ftn40" n="38"><bibl>Marco H. D. van Leeuwen in Ineke Maas, <hi
+                                    rend="italic">Hisclass; a Historical International Social Class
+                                    Scheme</hi> (Leuven: Leuven University Press,
+                            2011).</bibl></note> ki omogoča daljše časovne in tudi prostorske
+                        primerjave. Podatke nekaterih ljubljanskih popisov sta s to kategorizacijo
+                        uporabili že Ana Cergol Paradiž in Irena Selišnik.<note place="foot"
+                            xml:id="ftn41" n="39"><bibl>Ana Cergol Paradiž in Irena Selišnik,
+                                »Soproge slovenske elite v Ljubljani in Trstu,« <hi rend="italic"
+                                    >Prispevki za novejšo zgodovino </hi>59, št. 2 (2018):
+                                51–84.</bibl></note></p>
+                    <p>Socialno strukturo so poleg poklica beležili tudi z drugimi podatki. <hi
+                            rend="bold">Drug zaslužek</hi> (oziroma <hi rend="bold">postranski
+                            poklic</hi>) je od leta 1880 postal ločena rubrika. Pri <hi rend="bold"
+                            >statusu poklica</hi> je bilo treba vpisati, ali je oseba delavec ali
+                        služabnik oziroma ali je oseba samostojna ali pomožni delavec. Posebno
+                        rubriko je dobil tudi <hi rend="bold">status postranskega poklica</hi>, ali
+                            <hi rend="bold">je oseba hišni ali zemljiški posestnik</hi> (tega
+                        podatka leta 1900 ni bilo, a se je spet pojavil leta 1910). Leta 1900 je
+                        bila dodana še rubrika <hi rend="bold">kje oseba dela</hi> (ali od doma, in
+                        če ne, naslov delodajalca), leta 1910 pa niso več spraševali po naslovu
+                        delodajalca, ampak <hi rend="bold">imenu obrata/delodajalca</hi> (večina je
+                        pisala tudi naslov).</p>
+                    <p>Zanimiv dodatek zadnjega popisa je bilo tudi vprašanje o <hi rend="bold"
+                            >poklicu, ki ga je oseba opravljala leta 1907</hi>, in <hi rend="bold"
+                            >statusu tega poklica</hi> ter ali se <hi rend="bold">postranski
+                            zaslužek izvaja hkrati z glavnim ali se izmenjuje</hi>. Podatek o
+                        poklicu iz leta 1907 je služil boljšemu pregledu nad socialno
+                            mobilnostjo.<note place="foot" xml:id="ftn42" n="40"><bibl>Studen,
+                                »Moderni avstrijski popisi,« 32.</bibl></note></p>
+                    <p><hi rend="bold">Občevalni jezik</hi> so prvič popisovali leta 1880 in je še
+                        pred uveljavitvijo dvigal politični prah. Vprašanje, kako ugotavljati
+                        razširjenost uporabe različnih jezikov in kako to (ne)enačiti z narodnostjo,
+                        je sprva zaposlovalo državno statistično komisijo, ki je na koncu predlagala
+                        vprašanje o družinskem jeziku. Vprašanje je nato sprožalo debate v državnem
+                        zboru, na koncu pa je vlada odločila, da se bo spraševalo po občevalnem
+                        jeziku, in sicer le prebivalstvo, pristojno v deželah Cislajtanije.<note
+                            place="foot" xml:id="ftn43" n="41"><bibl>Vlado Valenčič, »Etnična
+                                struktura ljubljanskega prebivalstva po ljudskem štetju 1880,« <hi
+                                    rend="italic">Zgodovinski časopis </hi>34, št. 3-4 (1974):
+                                287–91.</bibl></note> Z vprašanjem o občevalnem jeziku so se želeli
+                        izogniti enačenju z narodnostjo, a se je ta popisna rubrika kljub temu
+                        politizirala. Časopisi in različne ravni oblasti so s podatki želeli
+                        dokazovati narodnost nekega ozemlja in s tem večati ali manjšati jezikovne
+                        pravice tistega območja ali pa so pod vprašaj postavljali rezultate zaradi
+                        možnih pritiskov (popisnih komisarjev, vloge »glave družine« ali lastnika
+                        pri popisovanju ostalih članov ipd.) na prebivalstvo.<note place="foot"
+                            xml:id="ftn44" n="42"><bibl>Studen, »Moderni avstrijski popisi,« 29.
+                                Valenčič, »Etnična struktura,« 292–97.</bibl></note></p>
+                    <p>Iz popisnih pol je razvidno, da ljudje velikokrat niti niso razumeli
+                        vprašanja. Številni so navedli več jezikov, verjetno tiste, ki so jih redno
+                        uporabljali, nekateri celo vse, ki so jih znali. Takšne vpise so naknadno
+                        popravili, da je ostal le en odgovor. Velikokrat ni jasno, kdo in po kakšnem
+                        ključu je delal te popravke. Glede na pisavo, uporabljeno pisalo ali opombo
+                        se včasih da razbrati, ali so to že na kraju samem popravili komisarji
+                        oziroma lastniki stanovanj ali šele naknadno uradniki pri statistični
+                        obdelavi (ljubljanski popisi imajo značilne statistične oznake in popravke
+                        narejene z barvico, zlasti pri popisih iz let 1890, 1900 in 1910).</p>
+                    <p>Izbira jezikov je bila omejena, prebivalstvo je lahko izbralo »nemški,
+                        češko-moravsko-slovaški, poljski, rusinski, slovenski, srbsko-hrvaški,
+                        italijansko-ladniski, rumanski, madjarski (tá samo v Bukovini)« jezik.<note
+                            place="foot" xml:id="ftn45" n="43"><bibl>»Ukaz ministerstva notranjih
+                                reči od 6. avgusta 1880, o popisovanji ljudstva v letu 1881,« <hi
+                                    rend="italic">Državni zakonik za kraljevine in dežele v državnem
+                                    zboru zastopane</hi>. Kos XXXVI. Izdan in razposlan dne 12.
+                                avgusta 1880, 372.</bibl></note> Izbira jezikov je izhajala iz
+                        klasifikacije standardiziranih jezikov iz leta 1849, v katerih so bili
+                        objavljeni tudi uradni listi.<note place="foot" xml:id="ftn46" n="44"
+                                ><bibl>Rok Stergar in Tamara Scheer, »Ethnic Boxes: the Unintended
+                                Consequences of Habsburg Bureaucratic Classification,« <hi
+                                    rend="italic">Nationalities Papers</hi> 46, št. 4 (2018): 579,
+                                80, <ref target="https://doi.org/10.1080/00905992.2018.1448374"
+                                    >https://doi.org/10.1080/00905992.2018.1448374</ref>.</bibl></note>
+                        Standardizacija in klasifikacija sta močno vplivali na oblikovanje
+                        nacionalnih identitet in postopoma pomagali k umikanju vernakularjev.<note
+                            place="foot" xml:id="ftn47" n="45"><bibl>Ibid, 576, 579.</bibl></note> V
+                        ljubljanskih popisih je kljub navodilom opaziti, da je več prebivalcev kot
+                        občevalni jezik navedlo kranjščino, kar je bilo nato spremenjeno v
+                        slovenščino.</p>
+                    <p>Popis iz leta 1880 je vseboval še nekaj novosti. Spraševati so začeli o <hi
+                            rend="bold">pismenosti</hi> prebivalstva (označevali so, ali oseba zna
+                        brati in pisati, le brati, ali je nepismena), o <hi rend="bold">telesnih
+                            hibah</hi> (slep, gluhonem, blazen ali bebec) ter o <hi rend="bold"
+                            >bivališču neprisotnih oseb</hi>. Informacij o duševnih in fizičnih
+                        motnjah leta 1900 niso popisovali, leta 1910 pa jih ponovno so.</p>
+                    <p>Zadnja rubrika je bila namenjena <hi rend="bold">opombam</hi> in nekaterim
+                        dodatnim podatkom. Leta 1857 so na primer v navodilih zapisali, da se v
+                        opombo vpiše, kje so neprisotni, ali je oseba vojak na dopustu, invalid ali
+                        rezervist, leta 1869 pa tudi, ali je popisani slep ali gluh itd. Nekateri od
+                        teh podatkov so v naslednjih popisih dobili ločene rubrike.</p>
+                    <p>Zadnja stran popisne pole je bila namenjena <hi rend="bold">popisu živali
+                        </hi>(izjema je bil popis iz leta 1857, ko so vprašanja na isti strani kot
+                        popis oseb). Navesti so morali, koliko imajo konj, goveda, oslov, prašičev,
+                        panjev, ovc in koz. Pri konjih in govedu so morali dodatno navesti še spol
+                        in starost živali ter podatek o tem, ali so skopljene (konji).</p>
+                    <p>Ljubljanski popis iz leta 1890 je prvi, ki vsebuje tudi <hi rend="bold">popis
+                            stanovanjskih razmer</hi>. Popis stanovanj so prvič izvedli že leta
+                        1869, a le za določene okraje Dunaja in Prage ter Trsta in Brna. Leta 1880
+                        so popis razširili na ves Dunaj in vso Prago, dodatno so popisali še
+                        Liberec, Lvov ter Krakov. Od leta 1890 dalje so popis stanovanj izvajali že
+                        v devetnajstih mestih, med drugim tudi v Ljubljani (skupaj s Spodnjo in
+                        Zgornjo Šiško). Identičen popis stanovanj so v Ljubljani napravili tudi leta
+                        1900, leta 1910 pa so izvedli popis hiš in tudi razširjen popis
+                        stanovanjskih razmer.<note place="foot" xml:id="ftn48" n="46"><bibl>Andrej
+                                Studen, <hi rend="italic">Stanovati v Ljubljani</hi> (Ljubljana:
+                                Studia humanitatis, ŠKUC, 1995), 21, 22.</bibl></note></p>
+                    <p>Popis stanovanj je bil, kot že omenjeno, na prvi strani popisne pole, pod
+                        geografskim lociranjem stanovanjske enote. Vedno so bila postavljena
+                        vprašanja, v katerem nadstropju je stanovanje, koliko sob ima in ali se
+                        uporablja tudi v poslovne namene. Popis iz leta 1910 je bil najbolj obsežen
+                        in je spraševal še po kopalnici in stranišču, koliko oken ima stanovanje,
+                        ali ima vrt, ali je stanovanje najeto skupaj s pohištvom, koliko znaša
+                        najemnina ter koliko od vseh prisotnih oseb spi v teh prostorih.</p>
+                    <p>Popis stanovanj omogoča vpogled v stanovanjske razmere prebivalstva, ki jih
+                        lahko povežemo tudi s socialno strukturo prebivalstva, odkrivamo
+                        opremljenost stanovanj, higienske razmere (kopalnica, stranišče) ipd. Žal ne
+                        izvemo ničesar o velikosti stanovanj, le o številu sob in drugih
+                        prostorov.</p>
+                </div>
+            </div>
+            <div>
+                <head>Popisi prebivalstva v Kraljevini SHS/Jugoslaviji</head>
+                <p>Prvi popis prebivalstva v Kraljevini SHS bi morali izvesti 1. januarja 1921 za
+                    stanje z 31. decembra 1920, a so ga zaradi prepozno dospelih popisnih pol
+                    preložili na 1. februar 1921 (za 31. januar 1921).<note place="foot"
+                        xml:id="ftn49" n="47"><bibl>»Naredba poverjeništva za socialno skrbništvo, s
+                            katero se popis prebivalstva in domačih živali prelaga na dan 31.
+                            januarja 1921,« <hi rend="italic">Uradni list deželne vlade za
+                                Slovenijo</hi> 2, št. 148, 23. 12. 1920, 710, št. odredbe
+                            484.</bibl></note></p>
+                <p>To je edini ljubljanski popis, ki ni ohranjen v Zgodovinskem arhivu Ljubljana.
+                    Najverjetnejši razlog je, da dokumentacije, poslane direkciji državne statistike
+                    v Beogradu,<note place="foot" xml:id="ftn50" n="48"><bibl>»Uredba o popisu
+                            prebivalstva in domače živine dne 31. decembra 1920,« <hi rend="italic"
+                                >Uradni list deželne vlade za Slovenijo</hi> 2, št. 122, 23. 10.
+                            1920, št. odredbe 385. Ni še jasno, ali je popis ohranjen v
+                            Beogradu.</bibl></note> po opravljeni statistični obdelavi niso vrnili
+                    občini, kot je bilo v navadi pri avstrijskih popisih. O neustaljenosti navade,
+                    da bi se gradivo vračalo na nižje administrativne enote, je mogoče sklepati tudi
+                    iz zakona o popisih iz leta 1931, ko je bilo izrecno naročeno, da morajo občine
+                    po končanem pregledu in reviziji vseh obrazcev narediti prepise vseh družinskih
+                    listov za sestavo lastnih popisnih knjig.<note place="foot" xml:id="ftn51"
+                        n="49"><bibl>»Pravilnik za izvršenje popisa prebivalstva, kmetijskih
+                            gospodarstev in domače živine v kraljevini Jugoslaviji dne 31. marca
+                            1931. leta,« <hi rend="italic">Službeni list kraljevske banske uprave
+                                Dravske banovine</hi> 2, 21. kos, 26. 3. 1931, 404, §
+                        59.</bibl></note> To objasni tudi dejstvo, zakaj so od popisa iz leta 1931
+                    ohranjeni družinski listi, ne pa tudi posamezne popisnice.</p>
+                <p>Popis prebivalstva je potekal podobno kot v Avstro-Ogrski, le upravni postopek od
+                    občinske do državne statistike je bil prilagojen novi administrativni
+                        ureditvi.<note place="foot" xml:id="ftn52" n="50"><bibl>»Uredba o popisu
+                            prebivalstva« in »Pravilnik za izvršenje popisa
+                        prebivalstva«.</bibl></note> Jugoslovanski popisi niso več poznali razlike
+                    med naznanilnicami in zapisnicami, so bili pa popisi oseb oblikovani drugače,
+                    saj so bili zavedeni na dveh obrazcih – družinskem listu in popisnici. Družinski
+                    list je spominjal na avstrijsko popisno polo, v njej so bili popisani vsi člani
+                    gospodinjstva in večina podatkov. Družinske liste naj bi izpolnil popisovalec,
+                    iz podatkov, ki jih je »poglavar družine ali njegov zastopnik« vpisal v
+                    popisnice. Popisnica je bila obrazec za posamezno osebo, ki je vsebovala večjo
+                    količino podatkov.</p>
+                <p>V Zgodovinskem arhivu Ljubljana hranijo vzorce popisnih pol in nekaj še
+                    neurejenega materiala, povezanega s popisom iz leta 1921 (dopise, povezane s
+                    popisovanjem, drobce izborov popisovalcev, delne sezname ulic in stanovanj,
+                    preliminarna štetja rezultatov idr.).<note place="foot" xml:id="ftn53" n="51"
+                            ><bibl>SI ZAL LJU/0504, t. e. 2 in t. e. 3.</bibl></note> Iz vzorčnih
+                    pol lahko razberemo, po čem so spraševali. V družinskih polah so najprej ločili
+                    med <hi rend="bold">prisotnimi</hi> (trajno ali začasno) in začasno neprisotnimi
+                    osebami. Vse rubrike na poli (razen <hi rend="bold"> imena in priimka</hi>) so
+                    imele že naštete možne odgovore, tako da so popisovalci le označili izbrani
+                    podatek. Pri <hi rend="bold">državljanstvu</hi> je bilo na izbiro državljanstvo
+                    Kraljevine SHS, tuje državljanstvo ter možnost »še ne odločeno«, ki so jo
+                    izbrali tisti, ki so še imeli možnost optiranja. Pri <hi rend="bold"
+                        >veroizpovedi</hi> so bile na izbiro pravoslavna, rimskokatoliška,
+                    grškokatoliška, evangeličanska, muslimanska, izraelska, druga ali možnost brez
+                    konfesije. Pri <hi rend="bold">maternem jeziku</hi> so bili na izbiro srbski ali
+                    hrvaški, slovenski, drugi slovanski, romunski, italijanski, nemški, madžarski,
+                    arnavtski (albanski) in drugi jezik.</p>
+                <p>Popisnica, ki je bila namenjena popisu posameznih oseb, je bila natisnjena
+                    enostransko in je prav tako imela že vnaprej določene možne odgovore. Pri
+                    vprašanjih, ki so bila že v družinskem listu, so bili ponujeni enaki možni
+                    odgovori, le da je bilo treba pri tujih državljanih in osebah druge vere te
+                    podatke natančneje specificirati. Izjema je bil materni jezik, kamor se je ta
+                    prosto vpisal. Podatki, po katerih so vpraševali in ki niso bili zajeti v
+                    družinskem listu, so bili naslednji:</p>
+                <list type="unordered">
+                    <item><hi rend="bold">Družinski stan</hi>, kjer so bile na izbiro možnosti
+                        samski, poročen, vdovec in ločen. V navodilih je bilo izrecno poudarjeno, da
+                        kot družinski stan štejejo le uradna razmerja, torej sodno ločen in poročen,
+                        druge oblike skupnosti se niso vpisovale. </item>
+                    <item><hi rend="bold">»Ali je poglavar družine oziroma v kakšni stopnji je
+                            nasproti poglavarju«.</hi></item>
+                    <item><hi rend="bold">Kdaj je rojen.</hi> V obrazcu so bili že določeni prostori
+                        za ločen vpis dneva, meseca in leta rojstva.</item>
+                    <item><hi rend="bold">Kje je rojen.</hi> V obrazcu je bilo razdelano, da se je
+                        ločeno vpisalo kraj, občino, okraj (srez), deželo (okrožje) ter za tujce še
+                        državo. </item>
+                    <item>Poleg maternega jezika je bilo postavljeno tudi vprašanje o tem, <hi
+                            rend="bold">katere tuje jezike </hi>oseba še govori.</item>
+                    <item><hi rend="bold">Pismenost:</hi> popisani je imel na izbiro ali bere in
+                        piše, samo bere ali je nepismen. </item>
+                    <item><hi rend="bold">Glavni poklic</hi>: vpisati je bilo treba vrsto poklica
+                        (kmetijstvo, obrt, industrija ipd.) in stopnjo v poklicu (samostojen poklic,
+                        pomočnik, uradnik, delavec ipd.). Upokojenci so morali vpisati tudi poklic
+                        pred upokojitvijo. </item>
+                    <item><hi rend="bold">Postranski poklic oziroma zaslužek.</hi></item>
+                    <item>Osebe brez poklica oziroma tiste, ki s svojim poklicem niso služile
+                        (gospodinje, dijaki idr.), so morale navesti tudi <hi rend="bold">osebo, ki
+                            jih vzdržuje</hi>.</item>
+                    <item>Označiti so morali, <hi rend="bold">ali so bili v vojni in v kateri
+                            polk</hi> so bili kot obvezniki vpisani.</item>
+                    <item>Vpisati je bilo treba, <hi rend="bold">ali ima oseba telesne ali duševne
+                            pomanjkljivosti</hi>, na izbiro so bile možnosti: slep na obe očesi,
+                        gluhonem, slaboumen (idiot) in umobolen. Označiti so morali tudi, ali ima
+                        oseba to hibo od rojstva, ali je posledica vojne ali je do nje prišlo kako
+                        drugače. </item>
+                    <item>Ločeno so se vpisovale še <hi rend="bold">druge telesne napake</hi>, na
+                        primer, da so bili brez udov ali drugih telesnih delov. Napisati je bilo
+                        treba, ali so poškodbe posledice vojne ali česa drugega. </item>
+                    <item>Pri zadnjem vprašanju je bilo treba vpisati, ali živijo <hi rend="bold">v
+                            kraju stalno ali začasno</hi>, in če zadnje, v katerem kraju stalno
+                        bivajo. Za odsotne osebe je bilo treba vpisati kraj bivanja. </item>
+                </list>
+                <p>Ločeno so se popisovale kmetije (List za kmetijska gospodarstva), obrazec za
+                    popis domačih živali pa je bil namenjen tistim, ki niso imeli kmetijskih
+                    obratov, a so bili lastniki živali. Popisovalo se je govedo, konji, ovce, koze,
+                    prašiči, perutnina, bivoli, mezgi in mule, osli in čebelji panji. Zanimivo je,
+                    da popis ni vključeval skoraj nobenih podatkov o stanovanjskih razmerah, le v
+                    obrazcu za opis popisnega kroga (rajona) je bilo treba označiti, ali so na
+                    parceli hiše ali druge oblike bivalnih prostorov (barake, votline ipd.) in iz
+                    kakšnega materiala so zgrajene (opeka, beton, les idr.).</p>
+                <p>Družinska pola je bila namenjena hitremu izračunu osnovnih podatkov in je bila
+                    podlaga za sumarne preglede, ki so služili za objavo predhodnih popisnih
+                    rezultatov. Popisnice so bile namenjene podrobnejši analizi, ki je izšla kot
+                    dokončna statistika.<note place="foot" xml:id="ftn54" n="52"><bibl>SI ZAL
+                            LJU/0504, t. e. 2, Pravila in navodila za popisovanje prebivalstva in
+                            domačih živali, 9.</bibl></note> Tako kot v habsburški monarhiji so tudi
+                    popisi v prvi Jugoslaviji dvigali politični prah. Objavo rezultatov popisa po
+                    maternem jeziku je z vetom preložil minister za zunanje zadeve, saj bi jih lahko
+                    enačili z narodnostjo. Javni podatki bi lahko vplivali na pogajanja oblikovanja
+                    državnih mej države, še bolj pa na odprta vprašanja priznavanja pravic
+                    nacionalnim manjšinam.<note place="foot" xml:id="ftn55" n="53"><bibl>Zoran
+                            Janjetović, <hi rend="italic">Deca careva, pastorčad kraljeva:
+                                nacionalne manjine u Jugoslaviji 1918–1941</hi> (Beograd: Institut
+                            za noviju istoriju Srbije, 2005): 62, 63.</bibl></note></p>
+                <p><hi rend="italic">Prethodni rezultati popisa stanovnistva u Kraljevini Srba,
+                        Hrvata i Slovenaca 31 januara 1921 godine</hi> so izšli leta 1924 v
+                    Beogradu, dokončni rezultati pa leta 1932 v Sarajevu z naslovom <hi
+                        rend="italic">Definitivni rezultati popisa stanovništva od 31 januara 1921
+                        god.</hi> Uradni razlog za tako pozno objavo je bilo čakanje na dokončno
+                    oblikovanje mej.<note place="foot" xml:id="ftn56" n="54"><bibl><hi rend="italic"
+                                >Definitivni rezultati popisa stanovništva od 31 januara 1921
+                                god</hi>. (Sarajevo: Državna štamparija, 1932), V.</bibl></note></p>
+                <p>Ljubljanska občina je decembra leta 1921 izvedla mestni popis prebivalstva,
+                    najverjetneje prav zaradi odsotnosti državnih popisnih pol in točnih podatkov.
+                    Hkrati so lahko z mestnim popisom zbrali tudi vsebine, ki so bolj ustrezale
+                    občinskim potrebam. Poleg standardnih podatkov, imena in priimka, razmerja do
+                    najemnika stanovanja, družinskega stanu, datuma in kraja rojstva, poklica ter
+                    domovinske pravice, so spraševali še po podatkih, od kdaj oseba biva v Ljubljani
+                    in od kdaj v tem stanovanju. Vprašali so tudi, ali ima hrano v stanovanju, hišo
+                    izven mesta (in kje), ali imajo podnajemniki lastno pohištvo ali v najemu ter
+                    ali se je oseba odselila (kam in kdaj).</p>
+                <p>Po bivalnih okoliščinah se je spraševalo v dveh stopnjah, za celotno zgradbo
+                    (hišna pola) in za posamezno stanovanje (popis stanovanja in oseb). V zvezi z
+                    zgradbo je občino zanimalo, kdaj je bila zgrajena, ali ima prizidke, kdo je
+                    lastnik in kako je prišel do lastništva (zgradil, kupil, podedoval ipd.).
+                    Zapisati je bilo treba, ali gre le za stanovanjsko zgradbo ali tudi poslovno (in
+                    če da, za kateri obrat je namenjena), koliko nadstropij ima, ali obstajajo
+                    kletna ali podstrešna stanovanja, koliko stranišč, stanovanj, poslovnih
+                    prostorov in strank je v zgradbi. Ta vprašanja so se nahajala na prvi strani
+                    hišne pole, na notranji strani pa je bila tabela, kjer so bili našteti najemniki
+                    posameznih stanovanjskih (poslovnih) enot, v katerem nadstropju, koliko in
+                    katere prostore ima (sobe, kuhinja, kopalnica idr.), koliko oseb tam biva in
+                    kolikšna je letna najemnina.</p>
+                <p>Kljub umanjkanju nekaterih podatkov lahko zaradi dostopnosti, namesto državnega
+                    popisa, pri longitudinalni raziskavi uporabimo mestni popis. Nekatere vsebine
+                    lahko kombiniramo tudi s statističnimi podatki iz državnega popisa, a je pri tem
+                    potrebna posebna pazljivost, saj so podatki narejeni za celo občino in na drug
+                    datum. Pri podatku o jeziku pa moramo vedeti, da primerjanje številk z
+                    avstrijskimi popisi ne pride v poštev, saj so takrat spraševali po občevalnem
+                    jeziku, v novi državi pa po maternem.</p>
+                <p>Ljubljanska občina je 31. januarja 1928 izvedla še en mestni popis prebivalstva,
+                    saj je izgubila pregled nad prebivalstvom in razmerami v mestu. Prebivalci niso
+                    več redno javljali sprememb (selitev, porok, sprememb domovinske pravice itd.)
+                        magistratu.<note place="foot" xml:id="ftn57" n="55"><bibl>Teja Krašovec,
+                            »Primorski priseljenci v Ljubljani – v luči popisa prebivalstva iz leta
+                            1928,« <hi rend="italic">Arhivi</hi> 35, št 1 (2012): 96.</bibl></note>
+                    Popisu je bil priključen tudi popis stanovanj. Statistične rezultate popisa je
+                    predstavil Vladimir Leban v <hi rend="italic">Geografskem vestniku</hi>,<note
+                        place="foot" xml:id="ftn58" n="56"><bibl>Vladimir Leban, »Doseljevanje v
+                            Ljubljano,« <hi rend="italic">Geografski vestnik</hi> XVIII, št. 1-4
+                            (1946): 60–93.</bibl></note> podrobno pa popis opiše Teja Krašovec v
+                    članku o primorskih priseljencih v Ljubljani.<note place="foot" xml:id="ftn59"
+                        n="57"><bibl>Krašovec, »Primorski priseljenci,« 91–104.</bibl></note> Popis
+                    je zanimiv tudi zato, ker ga je občina sproti dopolnjevala. Popisana je morala
+                    biti vsaka selitev, nova hišna številka in drugo. Te dodatne popisne pole so
+                    nato vstavili k prvotnemu popisu (podatki so se posodabljali vse do državnega
+                    popisa leta 1931). S sprotnim dopolnjevanjem in beleženjem sprememb laže sledimo
+                    spremembam v mestu, a bi morali, zaradi natančnosti podatkov, v primeru
+                    statistične obdelave in primerjave z drugimi popisi te pole odstraniti.</p>
+                <p>Naslednji državni popis so izvedli za t. i. kritični datum 31. marec 1931. Popis
+                    je bil sestavljen iz podobnih obrazcev kot prejšnji. Razlika je bila v nekaterih
+                    vprašanjih in bolj odprtih možnostih pri odgovorih. V družinskem listu so
+                    spraševali po <hi rend="bold">imenu in priimku, spolu, družinskem stanu,
+                        razmerju do poglavarja, datumu in kraju rojstva, domovinski občini</hi>, <hi
+                        rend="bold">veroizpovedi, narodnosti, maternemu jeziku in poklicu</hi>.
+                    Osebe so razdelili glede na <hi rend="bold">prisotnost</hi> (trajno prisotne,
+                    začasno prisotne in začasno odsotne).</p>
+                <p>Prepisi družinskih listov državnega popisa Ljubljane so ohranjeni v Zgodovinskem
+                    arhivu Ljubljana, medtem ko lahko vprašanja iz popisnic razberemo le iz navodil
+                    za izpolnjevanje, ki so bila skupaj s pravilnikom o popisovanju objavljena v <hi
+                        rend="italic">Službenem listu</hi>.<note place="foot" xml:id="ftn60" n="58"
+                            ><bibl>»Pravilnik za izvršenje popisa prebivalstva,«
+                        405–10.</bibl></note> A tudi navodila ne razkrivajo vseh vprašanj, saj
+                    nekatera »niso potrebovala razlage«.</p>
+                <p>Iz navodil razberemo, da so spraševali:</p>
+                <list type="unordered">
+                    <item>2. vprašanje: po <hi rend="bold">spolu</hi> popisane osebe; </item>
+                    <item>3. vprašanje: po <hi rend="bold">družinskem stanu</hi>, kjer je bilo tako
+                        kot v popisu iz leta 1921 možno vpisati le zakonsko določene oblike
+                        skupnosti;</item>
+                    <item>4. vprašanje: ali je oseba <hi rend="bold">družinski poglavar oziroma v
+                            kakšnem odnosu</hi> je do njega;</item>
+                    <item>5. vprašanje: po <hi rend="bold">datumu rojstva</hi>, kjer je bilo
+                        poudarjeno, da mora biti zapis po novem koledarju; </item>
+                    <item>7. vprašanje: <hi rend="bold">kdaj so se preselili in od kod</hi>
+                        (namenjeno je bilo le tistim, ki niso bili rojeni v kraju popisa);</item>
+                    <item>8. vprašanje: ali je oseba <hi rend="bold">trajno ali začasno
+                            prisotna</hi>. Začasno prisotni so morali navesti še, kje <hi
+                            rend="bold">stalno bivajo</hi>;</item>
+                    <item>9. vprašanje: po <hi rend="bold">državljanstvu</hi>, kjer so lahko izbrali
+                        jugoslovansko ali tuje (ter morali dopisati, katero); </item>
+                    <item>10 vprašanje: po <hi rend="bold">veroizpovedi</hi>, kjer so lahko to
+                        prosto vpisali, ne glede na to, ali je bila priznana ali ne, zahtevano je
+                        bilo le, da se vpiše tudi, kateri cerkvi je pripadala; </item>
+                    <item>11. vprašanje: po <hi rend="bold">narodnosti</hi>, pri čemer je bila za
+                        domače prebivalstvo mišljena jugoslovanska, za tujce pa tista, s katero so
+                        se identificirali. Ker je bilo polje za vpis prosto, se iz družinskih listov
+                        vidi, da jih je veliko vseeno vpisalo slovensko, srbsko ali hrvaško
+                        narodnost; </item>
+                    <item>12. vprašanje: po <hi rend="bold">maternem jeziku</hi>, kjer je bilo
+                        dovoljeno, da ga vsak vpiše po vesti. Tako kot za narodnost je bilo
+                        napisano, da gre za svobodno izbiro in da nihče (tudi popisni organi) ne sme
+                        vršiti pritiska glede odgovorov;</item>
+                    <item>15. vprašanje: po <hi rend="bold">glavnem poklicu</hi>, kjer so morale
+                        osebe čim natančneje opredeliti vrsto dela in stopnjo v poklicu; </item>
+                    <item>16. vprašanje: po <hi rend="bold">postranskem zaslužku</hi>;</item>
+                    <item>17. vprašanje: po <hi rend="bold">osebi, ki jih vzdržuje</hi>. Namenjeno
+                        je bilo osebam brez poklica oziroma tistim, ki s svojim poklicem niso
+                        služili (gospodinje, dijaki idr.).</item>
+                </list>
+                <p>Vprašanja zgoraj so oštevilčena tako kot v navodilih za izpolnjevanje. Za
+                    manjkajoča vprašanja lahko do določene mere sklepamo na podlagi predhodnih
+                    popisov, predvsem iz leta 1921. Poleg <hi rend="bold">imena in priimka</hi> pod
+                    številko 1 je najverjetneje manjkajoče vprašanje pod številko 6 <hi rend="bold"
+                        >kraj rojstva</hi>, pod 13 ali 14 pa <hi rend="bold">pismenost</hi>
+                    (pismenost je bila zagotovo vključena, saj je analizirana v statistiki
+                    rezultatov popisa). Po <hi rend="bold">domovinski pravici</hi> v popisnici niso
+                    spraševali, saj v navodilih piše, da morajo popisovalci pri izpolnjevanju
+                    družinskih listov to vprašati poglavarja družine, ker tega podatka v popisnicah
+                        ni.<note place="foot" xml:id="ftn61" n="59"><bibl>Ibid., 403, §
+                        46.</bibl></note> Verjetno so spraševali tudi po hibah, a manj podrobno kot
+                    v prejšnjem popisu, ko so bili ti podatki relevantnejši zaradi bližine prve
+                    svetovne vojne. Druge podatke težje izluščimo, saj celotne analize podatkov niso
+                    nikoli izdali. Prva knjiga <hi rend="italic">Definitivni rezultati popisa
+                        stanovništva: od 31 marta 1931 godine</hi> iz leta 1937 analizira število
+                    prisotnega prebivalstva, število hiš in gospodinjstev,<note place="foot"
+                        xml:id="ftn62" n="60"><bibl><hi rend="italic">Definitivni rezultati popisa
+                                stanovništva: od 31 marta 1931 godine. Knj. 1, Prisutno
+                                stanovništvo, broj kuća i domaćinstava</hi> (Beograd: Državna
+                            štampa, 1937).</bibl></note> druga prebivalstvo po veroizpovedi,<note
+                        place="foot" xml:id="ftn63" n="61"><bibl><hi rend="italic">Definitivni
+                                rezultati popisa stanovništva, Knj. 2, Prisutno stanovništvo po
+                                veroispovesti</hi> (Beograd: Državna štampa, 1938).</bibl></note>
+                    tretja po pismenosti in starosti,<note place="foot" xml:id="ftn64" n="62"
+                                ><bibl><hi rend="italic">Definitivni rezultati popisa stanovništva,
+                                Knj. 3, Prisutno stanovništvo po pismenosti i starosti</hi>
+                            (Beograd: Državna štampa, 1938).</bibl></note> četrta po glavnem
+                        poklicu.<note place="foot" xml:id="ftn65" n="63"><bibl><hi rend="italic"
+                                >Definitivni rezultati popisa stanovništva, Knj. 4, Prisutno
+                                stanovništvo po glavnom zanimanju</hi> (Beograd: Državna štampa,
+                            1940).</bibl></note> Izhajanje statistik je prekinila druga svetovna
+                    vojna. Med bombardiranjem Beograda je bilo uničeno gradivo s podatki o
+                    narodnosti in podatki o maternem jeziku po občinah, ohranili pa so se podatki po
+                        srezih.<note place="foot" xml:id="ftn66" n="64"><bibl>Borče Ilievski, »Turci
+                            u Kraljevini SHS/Jugoslaviji. Demografska analiza na osnovu popisa
+                            stanovništva 1921. i 1931,« <hi rend="italic">Istorija 20. veka</hi> 36,
+                            št. 1 (2018), 37.</bibl></note> Preostali popisni material je zaplenila
+                    nemška vojska in leta 1943 je na Dunaju izšla statistična publikacija o maternem
+                    jeziku in veroizpovedi.<note place="foot" xml:id="ftn67" n="65"><bibl><hi
+                                rend="italic">Die Gliederung der Bevölkerung des ehemaligen
+                                Jugoslawien nach Muttersprache und Konfession nach den
+                                unveröffentlichen Angaben der Zählung von 1931</hi> (Wien:
+                            Selbstverlag der Publikationsstelle, 1943).</bibl></note> Podrobnejšo
+                    analizo teh podatkov je po vojni izdal še Državni statistički zavod.<note
+                        place="foot" xml:id="ftn68" n="66"><bibl><hi rend="italic">Stanovništvo
+                                predratne Jugoslavije po veroispovesti i maternjem jeziku po popisu
+                                od 31. III. 1931 godine – pregled po srezovima</hi>, Državni
+                            statistički ured, serija II, sveska 3 (Beograd: Državna statistika,
+                            1945).</bibl></note></p>
+                <p>Tudi s popisom iz leta 1931 so se popisala kmetijska gospodarstva, za nekmetijske
+                    obrate pa je bil izdelan ločen popis domačih živali. Na obrazcu List za zgradbe
+                    v mestu so bile podrobneje popisane stanovanjske razmere. Poleg podatkov o
+                    lastništvu so oblasti zanimali vsi objekti pod isto hišno številko, nameni teh
+                    zgradb, število nadstropij, leto izgradnje, obstoj vodovodnega priključka,
+                    kanalizacije idr. Na drugi strani obrazca so bila popisana posamezna stanovanja.
+                    Zaradi nejasnosti navodil vprašanja niso razvidna. Razberemo lahko le, da so
+                    bila vprašanja povezana s številom in namembnostjo prostorov (sobe, kuhinje,
+                    kopalnice, predsobe, verande idr.).</p>
+                <p>Po pregledanih podatkih lahko ugotovimo, da medvojna popisa nista kaj dosti
+                    revnejša s podatki, kot so bili stari avstrijski popisi. Zbranih je bilo kar
+                    nekaj podatkov, ki jih nikoli niso v celoti statistično obdelali (ali vsaj javno
+                    objavili). Skromna je tudi njihova ohranjenost, ker se popisni material ni
+                    vračal na občine.</p>
+            </div>
+            <div>
+                <head>Digitalizacija popisov in možnost njihove uporabe</head>
+                <p>Raziskovanje demografskega razvoja v preteklosti zagotovo ovira velika količina
+                    podatkov. Več raziskovalcev zato opozarja na pomembnost timskega dela in
+                    zadostnega financiranja takšnih projektov.<note place="foot" xml:id="ftn69"
+                        n="67"><bibl>Prim. Marta Verginella, »Fran Zwitter in demografska
+                            zgodovina,« v: <hi rend="italic">Zwittrov zbornik. Ob stoletnici rojstva
+                                zgodovinarja dr. Frana Zwittra (1905–1988) </hi>(Ljubljana: Zbirka
+                            zgodovinskega časopisa 31, 2005), 33. Aleksej Kalc, »Demografija mest
+                            pred moderno statistiko, s posebnim poudarkom na 18. stoletju in
+                            vprašanju urbanega priseljevanja,« <hi rend="italic">Acta Histriae</hi>
+                            14, št. 2 (2006): 370, 371.</bibl></note> Z nastopom tehnološke dobe se
+                    pogoji za raziskovanje dolgoročnih historičnih demografskih trendov hitro
+                    izboljšujejo, saj je na voljo vedno več historičnih mikropodatkov ( <hi
+                        rend="italic">NAPP, I-CeM, EHPS-Net itd.</hi>).<note place="foot"
+                        xml:id="ftn70" n="68"><bibl>Andrej Pančur, »Družinske in bivanjske razmere
+                            starejših na Dolenjskem leta 1869: analiza popisov prebivalstva,« v: <hi
+                                rend="italic">Starost – izzivi historičnega raziskovanja,</hi> ur.
+                            Mojca Šorn (Ljubljana: Inštitut za novejšo zgodovino, 2017), 164,
+                            165.</bibl></note></p>
+                <p>Digitalno transformirani historični podatki v marsičem olajšajo delo
+                    raziskovalcev, saj so že zbrani, primerni za statistične obdelave in zaradi
+                    novih tehnoloških rešitev omogočajo raziskave, ki bi bile drugače nemogoče ali
+                    pa vsaj časovno prepotratne. Po drugi strani pa ti že zbrani podatki odpirajo
+                    nove metodološke probleme.<note place="foot" xml:id="ftn71" n="69"><bibl>Jenifer
+                            Edmund, »Will Historians Ever Have Big Data?,« v: <hi rend="italic"
+                                >Computational History and Data-Driven Humanities: Second IFIP WG
+                                12.7 International Workshop, CHDDH 2016, Dublin, Ireland, May 25,
+                                2016, Revised Selected Papers,</hi> ur. Bojan Bozic et al.
+                            (Springer: Cham, 2016): 91–105, pridobljeno 15. 6. 2022, <ref
+                                target="https://doi.org/10.1007/978-3-319-46224-0_9"
+                                >https://doi.org/10.1007/978-3-319-46224-0_9</ref>. Sally Wyatt.
+                            »What Are We Talking about When We Talk about Data in the Humanities?,«
+                            DARIAH 2019, pridobljeno 20. 7. 2019, <ref
+                                target="https://www.youtube.com/watch?v=fmziX4lHBoc"
+                                >https://www.youtube.com/watch?v=fmziX4lHBoc</ref>.</bibl></note></p>
+                <p>Največja lekcija, ki jo je znanost prejela od postmodernizma, je gotovo večja
+                    metodološka samokritičnost in večji dvom v lastno objektivnost. Z vzponom
+                    tehnologije in njenim vse večjim vplivom na znanost se vera v mogočo popolno
+                    objektivnost vrača. Znanost informacijske dobe prinaša nov val pozitivizma. Z
+                    napredkom tehnologije napreduje zmožnost zbiranja podatkov, nastajajo velike
+                    baze – <hi rend="italic">big data</hi>, ki znanstvenikom vseh disciplin (tudi
+                    humanistike in družbenih znanosti) omogočajo raziskovanje v mnogo širšem smislu,
+                    kot je bilo mogoče kdaj prej. Zaradi vedno večje vpletenosti računalnikov,
+                    količine in možnosti strojnega zbiranja ter branja podatkov se ustvarja nov mit
+                    o njihovi objektivnosti. A tudi informacijski podatki so potrebni kritičnega
+                    pretresa. Začeti je treba že s samo tehnologijo, ki ni nastala sama, celotna
+                    infrastruktura (tako računalniki kot mikroskopi) bi lahko bila tudi drugačna,
+                    kar bi zagotovo vplivalo na izbor informacij.<note place="foot" xml:id="ftn72"
+                        n="70"><bibl>Ibid.</bibl></note> Naslednja stopnja kritičnega pregleda so
+                    sami podatki in to, kako so bili zbrani. Že termin podatki je prepogosto
+                    izenačen z dejstvi, kar seveda ne drži. »Informacije«, ujete iz okolja, morajo
+                    biti transformirane in urejene, da se oblikujejo v podatke. To stori človek ali
+                    stroj (ki ga je naredil človek), tako da ne morejo biti ne objektivni ne
+                        nevtralni.<note place="foot" xml:id="ftn73" n="71"><bibl>Edmund, »Will
+                            Historians,« 94.</bibl></note> Naslednja stopnja so podatkovne baze, ki
+                    zbrane podatke klasificirajo, poenotijo in poenostavijo, s čimer pride do
+                    posploševanja in odtekanja dodatnih informacij. To se načeloma rešuje z bogatimi
+                    metapodatki, a so ti pogosto pomanjkljivi (oziroma ni jasno, kaj je
+                    izpuščeno).</p>
+                <p>Zgoraj zapisano ne zavrača uporabnosti velikih podatkovnih baz. Te namreč
+                    omogočajo analize, ki bi bile brez novih tehnologij težko izvedljive. Njihova
+                    uporaba prispeva k napredku znanosti, a je problematična, če ni »transparentna«.
+                    Nevarna je njihova navidezna objektivnost. Najprej je potrebno zavedanje, da
+                    podatki niso »brezmadežni«, kar se z njihovo vedno pogostejšo uporabo v
+                    humanistiki počasi tudi spreminja.<note place="foot" xml:id="ftn74" n="72"
+                            ><bibl>Wyatt, »What Are We Talking.«</bibl></note> Nato je treba vedno
+                    znova kritično pretresati metodologijo, ideologijo in način zbiranja ter
+                    obdelave podatkov in se vseskozi zavedati lastne subjektivnosti analiz.</p>
+                <p>Na Inštitutu za novejšo zgodovino v sodelovanju z Zgodovinskim arhivom Ljubljana
+                    od leta 2011 poteka projekt <hi rend="italic">Popisi prebivalstva Slovenije
+                        1830–1931.</hi><note place="foot" xml:id="ftn75" n="73"><bibl>»Popisi
+                            prebivalstva Slovenije,« <hi rend="italic">Zgodovina Slovenije –
+                                SIstory</hi>, </bibl><bibl><ref
+                                target="https://www.sistory.si/publikacije/?menuBottom=8"
+                                >https://www.sistory.si/publikacije/?menuBottom=8</ref>.</bibl></note>
+                    Sprva so bili digitalizirani vsi popisi prebivalstva, ki jih hrani arhiv, zdaj
+                    se prepisujejo. Transkripcija načeloma poteka po pravilu dobesednega
+                    prepisovanja, izjema so podatki, ki so bili že prvotno ustrezno klasificirani
+                    (spol, vera, družinski stan, narodnost, jezik ipd.). Pričakuje se, da bo treba
+                    popraviti ali dopolniti podatke za več kot petino oseb,<note place="foot"
+                        xml:id="ftn76" n="74"><bibl>Andrej Pančur, »Popisi prebivalstva Slovenije
+                            1830–1931: Orodje za transkribiranje historičnih demografskih podatkov,«
+                                <hi rend="italic">Zbornik konference Jezikovne tehnologije in
+                                digitalna humanistika</hi>, 29. 9. – 1. 10. 2016, Filozofska
+                            fakulteta, Univerza v Ljubljani, Ljubljana, Slovenija, pridobljeno 20.
+                            9. 2019, <ref target="http://nl.ijs.si/jtdh16/JTDH-2016-Proceedings.pdf"
+                                >http://nl.ijs.si/jtdh16/JTDH-2016-Proceedings.pdf</ref>.</bibl></note>
+                    tako zaradi težko berljive pisave kot človeškega dejavnika.</p>
+                <p>Neurejene baze transkriptov nekaterih popisov so že na voljo uporabnikom,<note
+                        place="foot" xml:id="ftn77" n="75"><bibl>Pogoj je prepis podatkov za tristo
+                            oseb enega izmed popisov.</bibl></note> namen pa je v prihodnosti
+                    podatke tudi klasificirati in standardizirati, da bodo primerni za statistično
+                    obdelavo. Pri statističnih analizah mora raziskovalec poznati kvantitativne in
+                    druge metode statističnih obdelav ter se hkrati zavedati pomanjkljivosti takšnih
+                    analiz. Predvsem pa mora dobro poznati obravnavane podatke. Ne glede na to, ali
+                    se bo urejanja baze lotil uporabnik ali bo to narejeno v okviru projekta, bo
+                    problem zagotovo predstavljala klasifikacija podatkov. Treba bo določiti
+                    standarde in jasno metodologijo. Poleg izbire, po katerem modelu se bo
+                    pripravila na primer poklicna struktura, bo nujno oblikovati tudi standarde za
+                    različno vpisane podatke. Kot je bilo v članku že omenjeno, so kljub navodilom
+                    in določenim možnim izbiram (jezik, vera ipd.) ljudje vpisovali različne
+                    podatke. Ti podatki so sicer zanimivi in kažejo na anomalije, ki jih statistiki
+                    niso predvideli, niso pa primerni za statistično obdelavo. Če za primer vzamemo
+                    kranjski jezik, nam podatek o tem, koliko oseb ga je navedlo, ne pove dosti.
+                    Nekateri ga zaradi upoštevanja navodil zagotovo niso. Ocenjevati njihovo število
+                    pa je nemogoče. Paziti bo treba tudi na malenkosti, na primer, da so nekateri v
+                    rubriko poklica otroka vpisovali dijak, učenec, drugi so rubriko pustili prazno,
+                    enako je pri družinskem stanu ali jeziku dojenčkov. Katere podatke upoštevati in
+                    katere ne, bo zahtevna naloga.</p>
+                <p>Zaradi odtekanja informacij ob tem procesu jih bo treba čim več zajeti v opombah
+                    in metapodatkih ter podrobno razložiti metodologijo dela. Tako kot pri zgoraj
+                    omenjeni statistični obdelavi takšni podatki izgubljajo informacije, a hkrati
+                    dajejo novo dodano vrednost. Poznati je treba sam vir, postopek prvotne
+                    transkripcije, vedeti moramo, kako deluje orodje za transkripcijo, da kot
+                    raziskovalci dobimo občutek, do kakšnih transformacij podatkov je (lahko)
+                    prišlo.</p>
+                <p>Baze podatkov nam omogočajo izdelavo drugačnih analiz, kot jih najdemo v uradnih
+                    statistikah. Pregledamo in analiziramo lahko prej neprimerjane podatke za
+                    celotno prebivalstvo ali le za določene skupine, olajšane so tudi longitudinalne
+                    študije primerov, poenostavljeno je sledenje določenemu segmentu prebivalstva
+                    ipd. Zavedati se je treba, da je poleg poznavanja statističnih metod za
+                    kompleksnejše analize potrebno tudi poznavanje računalniških statističnih
+                    programov.</p>
+            </div>
+            <div>
+                <head>Zaključek</head>
+                <p>Popisi prebivalstva v habsburški monarhiji so se izvajali na podlagi zakonov iz
+                    leta 1857 in leta 1869. Zadnji se je z manjšimi dopolnitvami uporabljal tudi kot
+                    podlaga za vse naslednje popise (1880, 1890, 1900 in 1910). V Kraljevini
+                    SHS/Jugoslaviji sta bila zakona o popisih prebivalstva sprejeta leta 1920 in
+                    1931. V vseh omenjenih zakonih so bili predvideni postopki in način popisovanja
+                    ter navodila za izpolnjevanje pol. Popisne rubrike so se vseskozi dopolnjevale,
+                    ugotovljene pomanjkljivosti so se odpravljale v naslednjih popisih.
+                    Jugoslovanska popisa sta temeljila na tradiciji popisov prebivalstva Kraljevine
+                    Srbije pred prvo svetovno vojno. Kljub temu večjih vsebinskih odstopanj ni bilo,
+                    saj so si statistiki na mednarodnih statističnih kongresih vseskozi prizadevali,
+                    da bi bili popisi prebivalstva po posameznih državah čim bolj poenoteni. Nova
+                    vprašanja so bila bolj povezana s spremenjenim svetovnim redom. Večja razlika
+                    med habsburškimi in jugoslovanskimi popisi je bila v načinu popisovanja
+                    (naznanilnice oziroma zapisnice so zamenjali družinski listi in popisnice) ter
+                    upravno-administrativni obdelavi podatkov.</p>
+                <p>Historični popisi prebivalstva so izvrsten vir za raziskovanje demografske,
+                    socialne in gospodarske zgodovine. Čeprav so izrazito administrativne narave in
+                    iz njih izvemo malo o posameznikovih predstavah o popisnih temah, nudijo mnogo
+                    različnih informacij o času in takratnem prebivalstvu. Serialnost in precej
+                    poenotena forma popisov omogočata tudi študije sprememb v daljšem časovnem
+                    obdobju. Količina podatkov je številne raziskovalce prisilila v uporabo zgolj že
+                    narejenih državnih statistik ali pa v analizo le določenih delov kraja (študije
+                    primerov). Z digitalizacijo se to spreminja, čeprav gre tudi tu za dolgotrajen
+                    postopek, ki verjetno nikoli ne bo povsem zaključen. Ne glede na to, kako so
+                    podatki iz popisov uporabljeni, je ključno poznavanje okoliščin nastanka, ki
+                    močno vplivajo na vsebino.</p>
+                <p>Ohranjenost in podrobne državne statistike popisov iz habsburške monarhije so v
+                    veliki meri vplivale na to, da so podatki popisov pogosto uporabljeni za
+                    raziskave (kot glavni vir ali le kot dodatne informacije). Obratno je pri
+                    popisih prve Jugoslavije, ki so v slovenskem zgodovinopisju in tujini manj
+                    pogosto obravnavani. Vprašanje je, koliko popisnega materiala in kaj od tega bi
+                    bilo mogoče zbrati v Arhivu Jugoslavije.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <list>
+                    <head>Arhivski viri</head>
+                    <item>SI ZAL LJU – Zgodovinski arhiv Ljubljana:<list>
+                            <item>SI ZAL LJU/0504 Mesto Ljubljana, statistični popisi,
+                                1830–1942.</item>
+                        </list></item>
+                </list>
+                <listBibl>
+                    <head>Literatura</head>
+                    <bibl>Anžič, Sonja. <hi rend="italic">Skrb za uboge v deželi Kranjski. Socialna
+                            politika na Kranjskem od srede 18. stoletja do leta 1918.</hi>
+                        Ljubljana: Zgodovinski arhiv Ljubljana, 2002.</bibl>
+                    <bibl>Anžič-Kemper, Sonja. »Priprave, potek in izvedba štetja prebivalstva leta
+                        1857. Primer Ljubljane.« V: <hi rend="italic">Prvi moderni popis
+                            stanovništva u Istri = Il primo censimento demografico moderno in Istria
+                            = Prvi moderni popis prebivalstva v Istri</hi>, ur. Aleksej Kalc, 45–58
+                        (Koper = Capodistria: Histria Editiones; Pula: Sveučilište Jurja Dobrile,
+                        2012). </bibl>
+                    <bibl>Cergol Paradiž, Ana in Irena Selišnik. »Soproge slovenske elite v
+                        Ljubljani in Trstu.« <hi rend="italic">Prispevki za novejšo zgodovino
+                        </hi>59, št. 2 (2018): 51–84. </bibl>
+                    <bibl>Cvirn, Janez. »Vojaška konskripcija leta 1770/71.« V: <hi rend="italic"
+                            >Zgodovinski pogledi na zadnje državno ljudsko štetje v Avstrijskem
+                            primorju 1910. Jezik, narodnost, meja</hi>, ur. Barbara Šterbenc
+                        Svetina, Petra Kolenc in Matija Godeša, 9 –24. Ljubljana: Založba ZRC, 2012. </bibl>
+                    <bibl>Edmund, Jenifer. »Will Historians Ever Have Big Data?.« V: <hi
+                            rend="italic">Computational History and Data-Driven Humanities: Second
+                            IFIP WG 12.7 International Workshop, CHDDH 2016, Dublin, Ireland, May
+                            25, 2016, Revised Selected Papers,</hi> ur. Bojan Bozic, Gavin
+                        Mendel-Gleason, Christophe Debruyne in Declan O'Sullivan, 91 –105. Springer:
+                        Cham, 2016. Pridobljeno 15. 6. 2022. <ref
+                            target="https://doi.org/10.1007/978-3-319-46224-0_9"
+                            >https://doi.org/10.1007/978-3-319-46224-0_9</ref>. </bibl>
+                    <bibl>Fischer, Jasna. »O virih za gospodarsko in družbeno zgodovino Slovencev od
+                        sredine 19. stoletja do prve svetovne vojne.« <hi rend="italic">Prispevki za
+                            zgodovino delavskega gibanja</hi> 23, št. 1-2 (1983): 31–45.</bibl>
+                    <bibl>Göderle, Wolfang. »Administration, Science, and the State: The 1869
+                        Population Census in Austria-Hungary.« <hi rend="italic">Austrian History
+                            Yearbook</hi> 47 (2016), 61–88. Pridobljeno 15. 2. 2020. <ref
+                            target="https://doi.org/10.1017/S0067237816000072"
+                            >https://doi.org/10.1017/S0067237816000072</ref>. </bibl>
+                    <bibl>Hubbard, William H. »Städtische Haushaltstruktur um die Mitte des 19.
+                        Jahrhundert.« V: <hi rend="italic">Moderne Stadtgeschichte</hi>, ur. Wilhelm
+                        Heinz Schröder, 198–216. Stuttgart: Klett-Cotta, 1979. </bibl>
+                    <bibl>Ilievski, Borče. »Turci u Kraljevini SHS/Jugoslaviji. Demografska analiza
+                        na osnovu popisa stanovništva 1921. I 1931.« <hi rend="italic">Istorija 20.
+                            veka</hi> 36, št. 1 (2018): 35–54. </bibl>
+                    <bibl>Janjetović, Zoran. <hi rend="italic">Deca careva, pastorčad kraljeva:
+                            nacionalne manjine u Jugoslaviji 1918</hi>–<hi rend="italic">1941</hi>.
+                        Beograd: Institut za noviju istoriju Srbije, 2005.</bibl>
+                    <bibl>Kalc, Aleksej. »Demografija mest pred moderno statistiko, s posebnim
+                        poudarkom na 18. stoletju in vprašanju urbanega priseljevanja.« <hi
+                            rend="italic">Acta Histrie</hi> 14, št. 2 (2006): 363–92. </bibl>
+                    <bibl>Krašovec, Teja. »Primorski priseljenci v Ljubljani – v luči popisa
+                        prebivalstva iz leta 1928.« <hi rend="italic">Arhivi</hi> 35, št 1 (2012):
+                        91–104.</bibl>
+                    <bibl>Leban, Vladimir. »Doseljevanje v Ljubljano.« <hi rend="italic">Geografski
+                            vestnik</hi> XVIII, št. 1-4 (1946): 60–93.</bibl>
+                    <bibl>Leeuwen, Marco H.D. van in Ineke Maas. <hi rend="italic">Hisclass; a
+                            Historical International Social Class Scheme.</hi> Leuven: Leuven
+                        University Press, 2011. </bibl>
+                    <bibl>Pančur, Andrej. »Družinske in bivanjske razmere starejših na dolenjskem
+                        leta 1869: analiza popisov prebivalstva.« V: <hi rend="italic">Starost -
+                            izzivi historičnega raziskovanja,</hi> ur. Mojca Šorn, 163–92.
+                        Ljubljana: Inštitut za novejšo zgodovino, 2017.</bibl>
+                    <bibl>Pančur, Andrej. »Popisi prebivalstva Slovenije 1830–1931: Orodje za
+                        transkribiranje historičnih demografskih podatkov.« <hi rend="italic"
+                            >Zbornik konference Jezikovne tehnologije in digitalna humanistika</hi>,
+                        29. 9. - 1. 10. 2016, Filozofska fakulteta, Univerza v Ljubljani, Ljubljana,
+                        Slovenija. Pridobljeno 20. 9. 2019. <ref
+                            target="http://nl.ijs.si/jtdh16/JTDH-2016-Proceedings.pdf"
+                            >http://nl.ijs.si/jtdh16/JTDH-2016-Proceedings.pdf</ref>. </bibl>
+                    <bibl>Pipp, Lojze. »O zgodovini statistike, ljudskih štetij in popisov
+                        prebivalstva.« <hi rend="italic">Kronika slovenskih mest </hi>1, št. 3
+                        (1934): 195–201.</bibl>
+                    <bibl>Selišnik Irena. »Status državljanstva ob nastanku nove Države SHS.
+                        Strategije izbire.« <hi rend="italic">Zgodovinski časopis </hi>75, št. 3-4
+                        (2021), 476–91.</bibl>
+                    <bibl>Stergar, Rok in Tamara Scheer. »Ethnic Boxes: the Unintended Consequences
+                        of Habsburg Bureaucratic Classification.« <hi rend="italic">Nationalities
+                            Papers</hi> 46, št. 4 (2018), 575–91. <ref
+                            target="https://doi.org/10.1080/00905992.2018.1448374"
+                            >https://doi.org/10.1080/00905992.2018.1448374</ref>.</bibl>
+                    <bibl>Studen, Andrej. »Moderni avstrijski popisi prebivalstva 1857–1910.« V: <hi
+                            rend="italic">Zgodovinski pogledi na zadnje državno ljudsko štetje v
+                            Avstrijskem primorju 1910. Jezik, narodnost, meja</hi>, ur. Barbara
+                        Šterbenc Svetina, Petra Kolenc in Matija Godeša, 25–36. Ljubljana: Založba
+                        ZRC, 2012. </bibl>
+                    <bibl>Studen, Andrej. »Oštevilčenje hiš ob vojaški konskripciji 1770/71 kot
+                        tehnologija dodeljevanje naslovov in sredstvo socialnega discipliniranja.«
+                        V: <hi rend="italic">Marija Terezija: med razsvetljenskimi reformami in
+                            zgodovinskim spominom</hi>, ur. Miha Preinfalk in Boris Golec, 435–49.
+                        Ljubljana: ZRC SAZU, 2018.</bibl>
+                    <bibl>Studen, Andrej. »Popis prebivalstva - neizmerno velik zaklad Zgodovinskega
+                        arhiva Ljubljana.« <hi rend="italic">Arhivi</hi> 22 (1999): 187–90. </bibl>
+                    <bibl>Studen, Andrej. <hi rend="italic">Pedenarca, ksel, kelnerca, žnidar:
+                            socialnozgodovinska analiza strukture stanovalcev izbranih ljubljanskih
+                            ulic iz let 1869</hi>–<hi rend="italic">1910</hi>. Ljubljana:
+                        Zgodovinski arhiv Ljubljana, 1993.</bibl>
+                    <bibl>Studen, Andrej. <hi rend="italic">Stanovati v Ljubljani.</hi> Ljubljana:
+                        Studia humanitatis, ŠKUC, 1995.</bibl>
+                    <bibl>Sturman, Roberto (Robi). »Matična služba in občinski popisi prebivalstva v
+                        Trstu (1859–1875).« <hi rend="italic">Kronika </hi>67, št. 3 (2019):
+                        497–512. </bibl>
+                    <bibl>Teibenbacher, Peter, Diether Kramer in Wolfgang Göderle. »An Inventory of
+                        Austrian Census Materials, 1857–1910. Final Report.« <hi rend="italic"
+                            >Mosaic Working Paper wp2012-007</hi>, Dezember 2012. Pridobljeno 28. 1.
+                        2019. <ref
+                            target="https://censusmosaic.demog.berkeley.edu/sites/default/files/downloads/publications/mosaicWP/MOSAIC-WP-2012-007.pdf"
+                            >https://censusmosaic.demog.berkeley.edu/sites/default/files/downloads/publications/mosaicWP/MOSAIC-WP-2012-007.pdf</ref>. </bibl>
+                    <bibl>Valenčič, Vlado. »Etnična struktura ljubljanskega prebivalstva po ljudskem
+                        štetju 1880.« <hi rend="italic">Zgodovinski </hi>časopis 34, št. 3-4 (1974):
+                        287–319. </bibl>
+                    <bibl>Verginella, Marta. »Fran Zwitter in demografska zgodovina.« V: <hi
+                            rend="italic">Zwittrov zbornik. Ob stoletnici rojstva zgodovinarja dr.
+                            Frana Zwittra (1905</hi>–<hi rend="italic">1988),</hi> 27–34. Ljubljana:
+                        Zbirka zgodovinskega časopisa 31, 2005. </bibl>
+                    <bibl>Wyatt, Sally. »What Are We Talking about When We Talk about Data in the
+                        Humanities?.« DARIAH, 2019. Pridobljeno 20. 7. 2019. <ref
+                            target="https://www.youtube.com/watch?v=fmziX4lHBoc"
+                            >https://www.youtube.com/watch?v=fmziX4lHBoc</ref>. </bibl>
+                    <bibl>Zwitter, Fran. <hi rend="italic">Prebivalstvo na Slovenskem od XVIII.
+                            stoletja do današnjih dni.</hi> Ljubljana: Učiteljska tiskarna, 1936.
+                    </bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Tiskani viri</head>
+                    <bibl><hi rend="italic">Definitivni rezultati popisa stanovništva od 31 januara
+                            1921 god</hi>. Sarajevo: Državna štamparija, 1932.</bibl>
+                    <bibl><hi rend="italic">Definitivni rezultati popisa stanovništva, Knj. 2
+                            Prisutno stanovništvo po veroispovesti</hi>. Beograd: Državna štampa,
+                        1938.</bibl>
+                    <bibl><hi rend="italic">Definitivni rezultati popisa stanovništva, Knj. 3,
+                            Prisutno stanovništvo po pismenosti i starosti.</hi> Beograd: Državna
+                        štampa, 1938.</bibl>
+                    <bibl><hi rend="italic">Definitivni rezultati popisa stanovništva, Knj. 4,
+                            Prisutno stanovništvo po glavnom zanimanju.</hi> Beograd: Državna
+                        štampa, 1940.</bibl>
+                    <bibl><hi rend="italic">Definitivni rezultati popisa stanovništva: od 31 marta
+                            1931 godine. Knj. 1. Prisutno stanovništvo, broj kuća i
+                            domaćinstava</hi>. Beograd: Državna štampa, 1937.</bibl>
+                    <bibl><hi rend="italic">Deželni vladni list za kranjsko vojvodino</hi>. <hi
+                            rend="italic">Pervi razdélk. Dél. IX</hi>. Tešaj 1857. 27. 5.
+                        1857.</bibl>
+                    <bibl><hi rend="italic">Die Gliederung der Bevölkerung des ehemaligen
+                            Jugoslawien nach Muttersprache und Konfession nach den unveröffentlichen
+                            Angaben der Zählung ven 1931</hi>. Wien: Selbstverlag der
+                        Publikationsstelle, 1943.</bibl>
+                    <bibl><hi rend="italic">Službeni list kraljevske banske uprave Dravske
+                            banovine</hi> 2, 21. kos, 26. 3. 1931.</bibl>
+                    <bibl><hi rend="italic">Stanovništvo predratne Jugoslavije po veroispovesti i
+                            maternjem jeziku po popisu od 31.III.1931 godine – pregled po
+                            srezovima</hi>. Državni statistički ured, serija II, sveska 3. Beograd:
+                        Državna statistika, 1945.</bibl>
+                    <bibl><hi rend="italic">Uradni list deželne vlade za Slovenijo</hi> 2, št. 122,
+                        23. 10. 1920.</bibl>
+                </listBibl>
+            </div>
+            <div type="summary">
+                <docAuthor>Neja Blaj Hribar</docAuthor>
+                <head>POPULATION CENSUSES 1857 – 1931:</head>
+                <head>PRESENTATION OF THE SOURCE, DATA, AND ANALYSIS</head>
+                <head>SUMMARY</head>
+                <p>The article meticulously explores population censuses as a source, presenting how
+                    they were created and how they can be used. Based on the censuses carried out in
+                    Ljubljana, it describes the historical state population censuses from the time
+                    of the Habsburg Monarchy and the Kingdom of SHS/Yugoslavia. The article first
+                    outlines the legislation and the census method and then presents the data
+                    collected for each census. It is noticeable that censuses were amended and
+                    improved throughout history in the Habsburg Monarchy. Under the new state
+                    system, the process changed, as they were now based on the tradition of censuses
+                    in the Kingdom of Serbia. This was particularly noticeable in the manner in
+                    which the information about people was collected, as a distinction was now made
+                    between the forms for families and individual household members. The census
+                    headings were also different, but more in terms of how they were worded than
+                    regarding their content. Moreover, the new census headings resulted from the
+                    altered global circumstances after World War I rather than anything else, as the
+                    various international statistical congresses would increasingly seek to make
+                    censuses as uniform as possible across countries.</p>
+                <p>The article refers to research that has already been carried out based on
+                    censuses while at the same time describing the various ways in which censuses
+                    can be used as a resource. It is evident that the Austrian censuses have been
+                    much more frequently used for research than the Yugoslav ones. This is mainly
+                    due to the poor preservation of the latter and their less detailed statistical
+                    analyses by the State.</p>
+                <p>The second part of the article is dedicated to the modern digital transformation
+                    of censuses and their applications, based on the example of the project <hi
+                        rend="italic">Popisi prebivalstva Slovenije 1830–1931 </hi>(Censuses of the
+                    Population of Slovenia 1830–1931), carried out at the Institute of Contemporary
+                    History in cooperation with the Historical Archives Ljubljana. It focuses mainly
+                    on the design and use of databases and the issues involved in their processing
+                    and analysis.</p>
+            </div>
+        </back>
+    </text>
+</TEI>
