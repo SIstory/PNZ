@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Project Outline: “Constitution and Development of Political Parties in
+                    Germany from 1989/90 to the Present”</title>
+                <author>
+                    <forename>Sven</forename>
+                    <surname>Jüngerkes</surname>
+                    <roleName>PhD</roleName>
+                    <affiliation>Kommission für Geschichte des Parlamentarismus und der politischen
+                        Parteien</affiliation>
+                    <address>
+                        <addrLine>Schiffbauerdamm 40</addrLine>
+                        <addrLine>D-10117 Berlin</addrLine>
+                    </address>
+                    <email>juengerkes@kgparl.de</email>
+                </author>
+                <author>
+                    <forename>Tobias</forename>
+                    <surname>Kaiser</surname>
+                    <roleName>PhD</roleName>
+                    <affiliation>Kommission für Geschichte des Parlamentarismus und der politischen
+                        Parteien</affiliation>
+                    <address>
+                        <addrLine>Schiffbauerdamm 40</addrLine>
+                        <addrLine>D-10117 Berlin</addrLine>
+                    </address>
+                    <email>kaiser@kgparl.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2023-04-25</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/4156</pubPlace>
+                <date>2023</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">63</biblScope>
+                <biblScope unit="issue">2</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term/>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>Rusija</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change><date>2023-09-26T10:40:46Z</date>
+                    <name>Mihael Ojsteršek</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Sven Jüngerkes,<note place="foot" xml:id="ftn1" n="*"><hi rend="bold">PhD,
+                        Kommission für Geschichte des Parlamentarismus und der politischen Parteien,
+                        Schiffbauerdamm 40, D-10117 Berlin; </hi><ref
+                        target="mailto:juengerkes@kgparl.de"
+                >juengerkes@kgparl.de</ref></note></docAuthor>
+            <docAuthor>Tobias Kaiser<note place="foot" xml:id="ftn2" n="**"><hi rend="bold">PhD,
+                        Kommission für Geschichte des Parlamentarismus und der politischen Parteien,
+                        Schiffbauerdamm 40, D-10117 Berlin; </hi><ref
+                        target="mailto:kaiser@kgparl.de">kaiser@kgparl.de</ref></note></docAuthor>
+            <docImprint>
+                <idno type="DOI">https://doi.org/10.51663/pnz.63.2.06</idno>
+                <idno type="cobissType">Cobiss tip: 1.25</idno>
+            </docImprint>
+        </front>
+        <body>
+            <div>
+                <head>Overview</head>
+                <p>The KGParl lead joint network: “Parties and Party System after 1990”<note
+                        place="foot" xml:id="ftn3" n="1">The cooperation partners are the
+                        party-affiliated (but formally independant) foundations: the
+                        Friedrich-Ebert-Stiftung, the Konrad-Adenauer-Stiftung, the
+                        Hanns-Seidel-Stiftung, the Heinrich-Böll-Stiftung, the
+                        Friedrich-Naumann-Stiftung für die Freiheit and the Rosa-Luxemburg-Stiftung.
+                        There are several PhD-candidates working on the topics mentioned in this
+                        paper, see <ref target="https://kgparl.de/forschung/parteien-nach-1990/"
+                            >https://kgparl.de/forschung/parteien-nach-1990/</ref>, accessed
+                        April, 11, 2023).</note> examines the constitution and the transformation
+                    of a new German party landscape after the reunification of 1990. The first focus
+                    is on the establishment of party-political structures in the five new German
+                    states after system transformation in 1989 and unification in October 1990.<note
+                        place="foot" xml:id="ftn4" n="2">At the time of reunification, the old
+                        Federal German Republic with its 11 federal states (in German: Bundesländer)
+                        had a four-party system: Christian Democrats (Christian Democratic Union (
+                        Christlich Demokratische Union/CDU), including the Bavarian only Christian
+                        Social Union ( Christlich-Soziale Union in Bayern/CSU, the Social democratic
+                        Party ( Sozialdemokratische Partei Deutschlands/SPD), the liberal Party (
+                        Freie Demokratische Partei/FDP and the Greens ( Die Grünen), which were
+                        focused on ecology and pacifism. In October 1990, the GDR joined the
+                        territory of the Federal Republic of Germany and the old GDR districts
+                        became 5 new federal states. The West German political structure, including
+                        the party system, was extended to East Germany. The former GDR state party
+                        Socialist Unity Party for Germany ( Sozialistische Einheitspartei
+                        Deutschlands/SED, a forced merger of the Social Democrats in the GDR and the
+                        communist party) renamed itself Party of the Democratic Socialism ( Partei
+                        des demokratischen Sozialismis/PDS)</note> This is to evaluate the different
+                    expectations in East and West Germany and the competing influence of the
+                    established West German parties, which extended their organizations into the
+                    territory of the former German Democratic Republic (GDR), in building what soon
+                    was seen as an East German party system. Second, the effects and repercussions
+                    of these processes in eastern Germany on the all-German party system should also
+                    be examined: Did a co-transformation occur in western Germany? Did the
+                    reunification perhaps even accelerate the fragmentation of the traditional
+                    federal German party system which has been in place since 1983, when a new,
+                    young party, the Greens (Die Grünen), succeeded in entering the German Bundestag
+                    for the first time?</p>
+                <p>The process of democratization in the GDR, from illegal opposition to the 1990
+                    Volkskammer (parliament of the GDR) elections and the election of the all-German
+                    Bundestag, is well researched. What remains controversial, however, is the
+                    question of what long-term consequences the transfer of West German party
+                    structures had for the emergence of a democratic culture in the territory of the
+                    former GDR, respectively Germany as a whole. In view of the recruitment of
+                    political leadership controlled by the party headquarters of the old Federal
+                    German Republic and the appointment of functionaries in the administration and
+                    judiciary who had been socialized in the West, was soon followed by discourse
+                    and allegations about colonization of the east. <note place="foot" xml:id="ftn5"
+                        n="3">See for example Dirk Oschmann, <hi rend="italic">Der Osten: eine
+                            westdeutsche Erfindung</hi> (Berlin: Ullstein, 2023). Fritz Micklisch,
+                            <hi rend="italic">Die Kolonisierung der DDR: wie die einst „lieben
+                            Brüder und Schwestern im Osten“ von den kalten </hi><hi rend="italic"
+                            >Kriegern im Westen gehasst, gedemütigt und bestraft werden</hi>. 1.
+                        Aufl. (Berlin: Verlag am Park, 2011).</note></p>
+                <p>The research project focuses on the period of the 1990s and early 2000s, but also
+                    seeks answers to present problems. The 90s and early 2000s was a period in which
+                    the internal structures of the nationally established parties reshaped. After
+                    the decision to make Berlin the capital of a unified Germany, party headquarters
+                    began to move organizations and structures from Bonn to Berlin. Even before the
+                    unification they had already begun founding East German state associations or
+                    appointing representatives for the east. This period of upheaval during the
+                    first years of unification was not easy or free from conflict. A common
+                    parliamentary practice between GDR politicians, who often had little experience
+                    in politics as a profession, and West German professional politicians had yet to
+                    be found. And even today one can still see great differences in mentality
+                    between East and West that has led to a different style of politics in the east.
+                        <note place="foot" xml:id="ftn6" n="4">See <hi rend="italic">Jahresbericht
+                            der Bundesregierung zum Stand der Deutschen Einheit 2021</hi>, ed. German Federal Government (Bundestag Drucksache 19/31840), 14,
+                        15.</note></p>
+                <p>This new, all-German party system was slightly different from the old Federal
+                    German Republic. This became significantly visible during the protests against
+                    the so-called Hartz IV reforms, which since 2002 (the second government of
+                    Chancellor Gerhard Schröder, a coalition of Social Democrats and the Green
+                    Party, 2002–2005) have been restructuring the former West German social welfare
+                    system which was extended to East Germany.<note place="foot" xml:id="ftn7" n="5"
+                        >For the extension see Gerhard Albert Ritter, <hi rend="italic">Der Preis
+                            der deutschen Einheit: die Wiedervereinigung und die</hi><hi
+                            rend="italic">Krise des Sozialstaats</hi>. 2., Erweiterte Auflage
+                        (München: C.H. Beck, 2008). – One of the mostcontroversial main parts of
+                        the so called Hartz-IV-reforms (the IV means, that it is part of a bigger
+                        reformpackage) merged the former long-term unemployment with welfare
+                        benefits, lowering themsignificantly and with strict conditions and
+                        monitoring through social security authorities.</note> The five new states
+                    became the focal point of vehement citizen protests against the reforms, which
+                    severely restricted social benefits. In the West, left-wing groups and trade
+                    union representatives split from the ruling Social Democrats and, together with
+                    former communist or socialist splinter groups, merged to form a new party, which
+                    positioned itself left of the Social Democrats and called itself an electoral
+                    alternative for labor and social justice WASG ( Wahlalternative Arbeit und
+                    Soziale Gerechtigkeit). Thanks to the protests, the former Socialist Unity Party
+                    of the east, now renamed the PDS Party of Democratic Socialism (Partei des
+                    Demokratischen Sozialismus), which was mainly confined to eastern Germany and in
+                    sharp decline. For example, the PDS fell short of the 5-percent threshold in the
+                    2002 elections for the Bundestag and was therefore no longer represented in the
+                    new Bundestag. But with growing protest against the labor market reforms the
+                    PDS, which rejected the reforms, managed to gain new supporters and establish
+                    itself as an all-German new left-wing party that merged with the WASG in 2007.
+                    In 2005, the PDS renamed itself The Left ( Die Linke) <hi rend="italic">,
+                    </hi>returned to the Bundestag with a gain of almost five percentage points.</p>
+                <p>So, in short, the reference framework for the planned studies is, on the one
+                    hand, the change in the party landscape after the end of the Cold War in Europe
+                    as a whole and on the other hand, the specifically German manifestations of the
+                    system transformation.</p>
+            </div>
+            <div>
+                <head>The Historical Background </head>
+                <p>The understanding of democracy and voter behavior in the new and old federal
+                    states differed from the outset, even though the parties represented in the
+                    state parliaments since 1990 consistently competed nationwide. Thus, the East
+                    German electorate and also the East German local party milieus were primarily
+                    shaped by the experience of the political system of the GDR. However, this
+                    experience was not universally negative: In surveys conducted as early as 1991,
+                    almost two-thirds of respondents thought that GDR socialism was a good idea, but
+                    that it had been poorly executed. Especially in view of social upheavals after
+                    reunification, deindustrialization and mass unemployment in East Germany, the
+                    GDR appeared ambivalent: Lack of freedom on the one hand, steady jobs and a
+                    stable social system on the other.<note place="foot" xml:id="ftn8" n="6">The
+                        historian Ilko-Sascha Kowalczuk pointed out that the GDR-ideology and
+                        self-perception, but also its citizens, defined itself in social reality as
+                        a state of working people and firmly secured jobs. The loss of this social
+                        security, as well as the West's disdain for these GDR biographies, had led
+                        to a long-term trauma that has not really been dealt with to this day. See
+                        Ilko-Sascha Kowalczuk, <hi rend="italic">Die Übernahme: wie Ostdeutschland
+                            Teil der Bundesrepublik </hi><hi rend="italic">wurde</hi>. 2. Aufl. (München: C.H. Beck, 2019).</note></p>
+                <p>The lack of pluralism also characterized the GDR's party system. Although
+                    different parties existed in the GDR, the voter did not have a real choice.
+                    There was only a single list on the ballot: the so called National Front
+                    (Nationale Front), in which candidates from all approved eastern German parties
+                    and mass organizations like the trade unions were placed. The allocation of
+                    mandates was arranged by a fixed distribution key that guaranteed a majority for
+                    the SED Socialist Unity Party (Sozialistische Einheitspartei Deutschlands),. So,
+                    the self-proclaimed leading role of the GDR's Socialist Unity Party, effectively
+                    ruled out any claim to power by the bloc parties, which on paper formally had
+                    equal rights. But GDR-parties such as the CDU Christian Democrats (Christlich
+                    Demokratische Union), LDPD Liberal Democrats (Liberaldemokratische Partei
+                    Deutschlands), the NDPD National Democrats (Nationaldemokratische Partei
+                    Deutschlands or the DBD Democratic Farmers’ Party (Demokratische Bauernpartei
+                    Deutschlands) had primarily a legitimizing and integrating function <note
+                        place="foot" xml:id="ftn9" n="7">For example, the NDPD integrated former
+                        ordinary Members of the banned National Socialist Party.</note>; they
+                    allowed the illusion of plurality that did not exist in reality, they were able
+                    to render possible protests or dissatisfaction harmless. Critics of the SED's
+                    leadership role were able to become involved, without endangering the dominance
+                    of the Socialist Unity Party. So, the bloc parties were seen as a
+                    system-stabilizing factor.<note place="foot" xml:id="ftn10" n="8">Cf. for
+                        example Ines Soldwisch, <hi rend="italic">„... etwas für das ganze Volk zu
+                            leisten und nicht nur den Zielen einer Partei </hi><hi rend="italic"
+                            >dienen ...“: Geschichte der Liberal-Demokratischen Partei (LPD) in
+                            Mecklenburg von 1946-1952</hi> (Rostocker Schriften zur
+                        Regionalgeschichte, Bd. 1) (Berlin and Münster: Lit., 2007).</note></p>
+                <p>In contrast, the Basic Law of the Federal Republic of Germany (Grundgesetz)
+                    accorded constitutional status to all political parties that were loyal to the
+                    constitution in Article 21, paragraph 1: “The parties shall cooperate in the
+                    formation according to the political will of the people.” Political competition
+                    between different parties was fundamental to the political system of the Federal
+                    Republic and was an elementary factor for the electorate's understanding of
+                    democracy. Such party competition did not become established in the GDR until
+                    the very last period of the state’s existence: the phase in which the state
+                    party, the SED, slowly lost importance against the backdrop of growing protests
+                    among the population. Only towards the end of the GDR, did parties represented
+                    in the National Front bloc develop into potential power factors, but in the end
+                    missed their chance. This development began towards the end of the 9th
+                    Volkskammer, which in June 1986 was still elected on the basis of non-free
+                    elections with unified lists. The more the power of the SED eroded, the stronger
+                    the influence of the old bloc parties on the process of system transformation
+                    became at times. This was mainly due to the fact that the GDR's bloc parties
+                    were established and had material infrastructure – for example, members, a party
+                    organization, municipal officeholders or real estate holdings. Nevertheless,
+                    democratic change in the GDR did not come from the bloc parties; they only
+                    reacted and at no point did they succeed in gaining an initiative against the
+                    SED or in the reform process. Resistance to the system originated from outside
+                    the system. It formed itself in the mid-1980s against the SED's monopoly on
+                    power and the bloc parties that were integrated into the SED's system of
+                    rule.</p>
+                <p>However, the heterogeneous opposition, which initially developed primarily in the
+                    protective environment of the Protestant Church, for the most part did not see
+                    itself in the role of a competing party. It legitimized its existence primarily
+                    as a civil citizens' movement separate to political parties. It was not until
+                    the founding of the DDR/SDP Social Democratic Party of the GDR (
+                    Sozialdemokratische Partei) in a Protestant parsonage in Schwante, a little
+                    Brandenburg village north of Berlin, on October 7, 1989, and other newly formed
+                    parties such as the DSU German Social Union (Deutsche Soziale Union), which was
+                    oriented towards the Bavarian Christian-Social Union, and the DA Democratic
+                    Awakening (Demokratischer Aufbruch), which was more or less the east German
+                    version of the western Christian Democratic Union, that the existing bloc party
+                    system of the National Front was expanded and transformed into a democratic,
+                    pluralistic alternative. Thus, the process of disintegration of the
+                    power-maintaining system of the bloc parties became apparent. And slowly their
+                    western counterparts became involved and took over these organizations.</p>
+            </div>
+            <div>
+                <head>State of Research</head>
+                <p>The process of the political post-1990 transformation in eastern Germany is well
+                    researched. This also applies to the reorganizations or new foundations of
+                    individual parties in the territory of the GDR, which led to the integration of
+                    the citizens' movements or short-lived "east parties" by the "big sisters" in
+                    West Germany. For the unification of the Social Democrats, two well-founded
+                    studies by Daniel F. Sturm and Peter Gohle are available.<note place="foot"
+                        xml:id="ftn11" n="9">For the SPD, the works are Daniel Friedrich Sturm, <hi
+                            rend="italic">Uneinig in die Einheit: die Sozialdemokratie und die
+                            </hi><hi rend="italic">Vereinigung Deutschlands 1989/90</hi>
+                        (Willy-Brandt-Studien) (Bonn: Dietz, 2006). Peter Gohle, <hi rend="italic"
+                            >Von der SDP-</hi><hi rend="italic">Gründung zur gesamtdeutschen SPD:
+                            die Sozialdemokratie in der DDR und die Deutsche Einheit 1989/90</hi>
+                        (Reihe Politik- und Gesellschaftsgeschichte, Bd. 99) (Bonn: Dietz, 2014).
+                        Fabian Peterson, <hi rend="italic">Oppositionsstrategie der SPD-</hi><hi
+                            rend="italic">Führung im deutschen Einigungsprozeß 1989/1990:
+                            Strategische Ohnmacht durch Selbstblockade?</hi> (Politica 35).
+                        (Hamburg: Kovač, 1998).</note> The reorganization and transformation of the
+                    Socialist Unity Party of Germany into the Party of Democratic Socialism (Partei
+                    des demokratischen Sozialismus) and its later reconstitution as the Left Party,
+                    which in 2007 merged with the West German left-wing WASG to form a party that
+                    became active nationwide and not only in East Germany, has been extensively
+                    researched by Thorsten Holzhauser, at least until 2005. <note place="foot"
+                        xml:id="ftn12" n="10">Thorsten Holzhauser, <hi rend="italic">Die
+                            "Nachfolgepartei": die Integration der PDS in das politische System der
+                            </hi><hi rend="italic">Bundesrepublik Deutschland 1990-2005</hi>
+                        (Quellen und Darstellungen zur Zeitgeschichte, Band 122) (Berlin: De Gruyter
+                        Oldenbourg, 2019).</note> The merger of the East German civil rights party
+                    Alliance for the 90s (Bündnis 90) with the West German Green party is the
+                    subject of a current dissertation.<note place="foot" xml:id="ftn13" n="11"
+                        >Florian Schikowski (Potsdam), among others: Takeover at eye level? The
+                        Merger of Bündnis 90 and The Greens. </note> Initial studies are available
+                    on the co-operation and later the attempted takeover of the German Social Union,
+                    a party founded in 1990, by the Bavarian CSU <hi rend="italic">, </hi>which
+                    unsuccessfully attempted to acquire a nationwide party organization beyond its
+                    home state of Bavaria.<note place="foot" xml:id="ftn14" n="12">Jens
+                        Weinhold-Fumoleau, "Der Einheit wegen. Parteienkooperationen am Ende der DDR
+                        am Beispiel der CSU-DSU," in <hi rend="italic">Die Mauer ist weg! Mauerfall,
+                            Wendejahre und demokratischer Neubeginn</hi>, herausgegeben von Renate
+                        Höpfinger (Bayerische Lebensbilder 5. Biographien, Erinnerungen, Zeugnisse)
+                        (München: Hanns Seidel Stiftung, 2019).</note> In contrast, a summary study
+                    of the integration of the GDR parties, which were part of the national bloc –
+                    the eastern Christian Democratic Union, the Democratic Farmers' Party of
+                    Germany, the National Democratic Party of Germany, the Liberal Democratic Party
+                    of Germany and the German Women's League –, into their Western counterparts CDU
+                    and FDP is still pending<hi rend="italic">. </hi>Moreover, the relevant holdings
+                    of the “Foundation Archives of Parties and Mass Organizations of the GDR” which
+                    are kept in the German Federal Archives, primarily reflect decision-making at
+                    the central level. Research dealing with the regional or local decision-making
+                    level is still very rare, if only because of the difficulty in sourcing
+                    information.</p>
+                <p>Thus far, most research work focused on the phase of system transformation.
+                    Largely unexplored, on the other hand, is the long-term impact that the transfer
+                    of West German party structures had and still has on the emergence of democratic
+                    culture in the territory of the former GDR. That this transfer of West German
+                    standards and structures was viewed quite controversially is shown, for example,
+                    by talk of “colonization” of the lifeworld in the East – in view of the
+                    recruitment of political leadership controlled by the party headquarters of the
+                    old Federal Republic and the broad appointment of functionaries socialized in
+                    the West, to state functions such as administration and the judiciary, such an
+                    accusation could not be entirely dismissed.</p>
+            </div>
+            <div>
+                <head>Project Outline</head>
+                <p>The research project carried out by KGParl and the parties' foundations starts
+                    with the confrontation of different political experiences and expectations in
+                    East and West with regard to the reconstitution of the parties:</p>
+                <p>Already in the first German democratic state level (Landtagswahlen), elections in
+                    the five new federal states, a significantly different East German variant of
+                    the previous West German party system was shaped, in which the Party of
+                    Democratic Socialism (PDS) was able to establish itself as a strong regional
+                    party., This provided a rallying point for all those who were not satisfied with
+                    the course of development in East Germany, while structural dominance of the
+                    mainstream parties Christian Democrats and Social Democrats, which still
+                    prevailed in the West (although already challenged by the successes of the Green
+                    Party), waned. Particular difficulties were experienced by the West German
+                    Liberal Party and, to a lesser extent, the Greens who were unable to establish a
+                    broad base in eastern parts of Germany up until the present day. Both parties
+                    were only able to gain regional political influence on government formation and
+                    opposition in the new states as small coalition partners.</p>
+                <p>In a second phase - beginning with the brief electoral success of the far-right
+                    DVU German People's Union (Deutsche Volksunion) in Saxony-Anhalt in 1998 and
+                    somewhat later in Brandenburg - the right-wing extremist protest potential also
+                    unfolded more dynamically in the party spectrum than in the West, further
+                    intensifying the fragmentation of the all-German party system and the East-West
+                    divide. In addition, special regional developments took place that made the East
+                    German states appear far from homogeneous in terms of party politics.</p>
+                <p>The time frame of the research project covers the phase of the constitution and
+                    consolidation of the parties after system transformation up to the reactions to
+                    the announcement of comprehensive, partly neoliberal social reforms under Agenda
+                        2010<note place="foot" xml:id="ftn15" n="13">See also Footnote 5.</note> by
+                    the government of Chancellor Gerhard Schröder. Since 2003 the so-called Hartz-IV
+                    shock was felt particularly strongly in the eastern German states, where far
+                    larger percentages of the population were dependent on state support payments
+                    than in the west. It is therefore not surprising that since the end of 2003
+                    opposition to the liberalization of the labor market and the increase in state
+                    pressure on social benefit recipients led to mass protests against the federal
+                    government, first in the east and later also in the west. After initial
+                    hesitation, the West German-dominated trade unions, which were organized under
+                    the umbrella organization of the German Trade Union Confederation, also joined
+                    the protests. However, protests in West Germany never reached the quality and
+                    quantity of East German protests. Here, the labor market reforms became the
+                    focal point for long-term alienation of citizens from the party system and, in
+                    part, from the welfare state, which for many presented itself primarily as an
+                    intrusion into private lives.</p>
+                <p>In East Germany, the PDS Socialist Party in particular was able to position
+                    itself as an opponent to the Hartz IV reforms and consolidate its position as
+                    the East German regional and protest party. For the Social Democrats, the
+                    protests also marked a turning point, as the partly neoliberal social policies
+                    of the Red-Green federal government led to the reestablishment of the WASG
+                    Electoral Alternative Party, which was subsequently able to mobilize parts of
+                    the left wing of the Social Democrats around their former party chairman Oskar
+                    Lafontaine, who left the Social Democrats in 2005, and left-wing trade unionists
+                    who were dissatisfied with the federal government's pro-employer policies. In
+                    2006, the WASG merged with the PDS, which one year earlier had renamed itself
+                    The Left (Die Linke), and the two together formed a renewed nationwide leftwing
+                    party. As a nationwide left-wing party, they regularly succeeded in overcoming
+                    the five-percent threshold in state elections in the West as well and after 2005
+                    became a left-wing opposition party. <note place="foot" xml:id="ftn16" n="14">A
+                        position the Left is losing at the moment as the new populist party
+                        Alternative for Germany, a party that was initially founded as an anti-euro
+                        movement and now seen as a right-wing populist rallying movement, strongly
+                        rooted mostly in the eastern federal states, is taking the role of the aging
+                        Left in the eastern German states.</note> Nevertheless, even after
+                    unification with the WASG, the strong east-west division remained visible: In
+                    the West the party was never able to match the electoral successes it had in
+                    eastern parts of Germany, where today The Left holds the position of prime
+                    minister in Thuringia. The party's anchoring in society, for example party
+                    organization and membership figures, also remained significantly lower in West
+                    Germany than in East Germany.</p>
+                <p>Perhaps historian Philipp Ther is right when he points out that the importance of
+                    the Schröder-Fischer government's social reforms can hardly be underestimated in
+                    explaining the current and ongoing differences between East and West.<note
+                        place="foot" xml:id="ftn17" n="15">For Philipp Ther (Ther 2019), the labor
+                        market reforms of the SPD-Green government represent a catch-up
+                        co-transformation of the Federal Republic and alignment with the massive
+                        social transformation in Eastern Europe. Wages were depressed, incentive
+                        systems via pressure and reduction of labor costs for entrepreneurs were
+                        recipes of neoliberal reformers in Eastern Europe since 1990 within the
+                        framework of the Washington Consensus, competitiveness of the Eastern
+                        European economies was initially to be established primarily in the low-wage
+                        sector – the Federal Republic caught up with this adjustment from the
+                        beginning of the 2000s. Perhaps a thing to come for the western parts of
+                        Germany as well.</note> The reactions to the Hartz-IV-reforms show the
+                    long-term consequences of massive social insecurity. The changes in the party
+                    system are an indication of the political price Germany is still paying for
+                    transformation to this day.<note place="foot" xml:id="ftn18" n="16">More
+                        generally, on the costs of political and social transformation since 1990
+                        see Ivan Krastev and Stephen Holmes. <hi rend="italic">The Light that
+                            Failed: a Reckoning</hi> (London: Allen Lane, an imprint of Penguin
+                        Books, 2019).</note></p>
+                <p>The following guiding perspectives, which target both the internal communication
+                    of the parties and the political practice in the parliamentary groups, have
+                    emerged as an initial focus for study:</p>
+                <list type="unordered">
+                    <item>What is the relationship between the party headquarters and the East
+                        German state associations, how are their concerns represented
+                        programmatically and in terms of personnel in the party as a whole, and what
+                        conflicts of interest arise between the center and the periphery? What
+                        specific difficulties of organization and communication do the local
+                        constituencies encounter in recruiting members, in election campaigns, or in
+                        public consultations of members of parliament? </item>
+                    <item>How are election campaigns (at all levels) organized, how are candidates
+                        recruited, and what conclusions do the parties subsequently draw from
+                        sometimes surprising election results? What strategies do party headquarters
+                        develop with regard to the new, eastern German state associations, what
+                        knowledge do they have, how is information obtained and processed, how does
+                        this change the relationship with grassroots campaigns? </item>
+                    <item>How are local experiences perceived and reflected in party headquarters,
+                        and how does internal communication between members, the apparatus and the
+                        party leadership function?<note place="foot" xml:id="ftn19" n="17">Most of
+                            the contemporary research is by political scientists, see for example
+                            Manfred Krapf, <hi rend="italic">Die letzten </hi><hi rend="italic"
+                                >Bastionen? die deutsche Sozialdemokratie in den Städten und
+                                Kreisen</hi> (Baden-Baden: Tectum Verlag, in der
+                            NomosVerlagsgesellschaft, 2019).</note> How important is external policy
+                        advice, for example, from opinion surveys and political science? </item>
+                    <item>Are there differences between West and East German members of the German
+                        Bundestag and the state parliaments in appearance and performance (for
+                        example, in plenary debates, parliamentary groups and committee meetings)?
+                        And if so, how can such performative differences be evaluated, for example,
+                        in the media or in sources (meeting minutes, audio or film recordings)?
+                        Attention should be paid to the perpetuation of different socialization
+                        experiences, insofar as these can be identified verbally and habitually<note
+                            place="foot" xml:id="ftn20" n="18">For example the question: Is there a
+                            specific eastern identity? Are there different narratives which can be
+                            observed in eastern Germany that resulted from its different history?
+                            See cf. Thomas Ahbe, <hi rend="italic">Ostdeutschland und </hi><hi
+                                rend="italic">die Ostdeutschen als Erzählung: identitätsstiftende
+                                Narrative im Widerstreit</hi> (Erfurt: Landeszentrale für politische
+                            Bildung Thüringen, 2022). </note> – for example, in language, dialect,
+                        dress, presentation, professional understanding of roles, etc.</item>
+                    <item>Speech analyses: rhetorical and semantic using audio-visual sources – are
+                        there significant differences in interpretation of normative key concepts
+                        (the political turnaround 1989, in German often named “Wende”, the social
+                        market economy, state and nation, party, etc.) that indicate fundamental
+                        differences in the perception and practice of parliamentary democracy? </item>
+                    <item>How does the presence of East German elected officials and party
+                        politicians change the political culture in the parliament and parties of
+                        the united Federal Republic? How does media coverage of party politics
+                        develop? What role does the concentration of the press and broadcasting have
+                        on local politics and individual lifeworld? </item>
+                    <item>Another focus should be on the relationship of party elites and full-time
+                        functionaries to the local base and electorate: At least from today's
+                        perspective, the social connection and anchoring of party organizations in
+                        East German states and municipalities appears to have been far more
+                        difficult than in West German state associations and local constituencies.
+                        To this day, many parties – with the exception of The Left, which has long
+                        been able to draw on a reservoir of members dating back to GDR times – <note
+                            place="foot" xml:id="ftn21" n="19">However, by 2006, the Left’s
+                            membership had fallen from almost 300,000 in 1990 to just over 60,000 in
+                            2006. Following the merger with the Electoral Alternative, WASG,
+                            membership rose again and grew slightly over the next few years due to
+                            new members, especially in the old, western states. As a result, the
+                            party's roots in eastern Germany have declined significantly since 2006,
+                            which is also due to the structural aging of its eastern German members,
+                            the majority of whom are over 60. According to media reports, The Left
+                            now has more members in western Germany than in the east.</note> not
+                        only have difficulty recruiting sufficient members, but often fail to
+                        establish themselves in the party political arena.<note place="foot"
+                            xml:id="ftn22" n="20">Cf. Heiko Tammena, <hi rend="italic">Volkspartei
+                                ohne Parteivolk: Organisationsaufbau der SPD in Ostdeutschland 1990
+                                –</hi>
+                            <hi rend="italic">1994 und organisationspolitische Perspektiven</hi>
+                            (Göttingen, 1994).</note> For example, even the Christian Democrats in
+                        Saxony, where the party has for many years provided the country’s prime
+                        minister and has won absolute majorities in several elections, has
+                        difficulty anchoring itself both at local and regional level. Beyond its
+                        thin pool of personnel in the municipalities and counties, the Christian
+                        Democrats relies mostly on a “phalanx of nonparty elected officials” in
+                        district or municipal councils, who frequently evade party discipline when
+                        they see fit. <note place="foot" xml:id="ftn23" n="21">"Auf tönernen Füßen."
+                                <hi rend="italic">Frankfurter Allgemeine Sonntagszeitung,"</hi>
+                            September 2, 2018, 2.</note></item>
+                </list>
+                <p>The history of the parties after 1990 can therefore no longer be written
+                    hermetically from an institutional perspective. The fact that party politics and
+                    the political mobilization of social groups proceed asynchronously and
+                    increasingly even antagonistically, requires new parameters of analysis. Parties
+                    and the media tend to lose their function as agencies of political will
+                    formation, the more politics manifests in the self-mobilization of social
+                    groups. The private sphere has become political in a new and different way, in
+                    that the formation of political will in society is no longer oriented towards
+                    programmatic “offers” of parties or social elite discourses, but primarily
+                    follows personal experiences or perceptions of reality circulated by social
+                    media. In this sense, communication between voters, the local party base and
+                    full-time functionaries and elected officials should be the focus of the
+                    research project.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Sources and Literature</head>
+                <listBibl>
+                    <bibl>Ahbe, Thomas. <hi rend="italic">Ostdeutschland und die Ostdeutschen als
+                            Erzählung: identitätsstiftende Narrative im Widerstreit</hi>. Erfurt:
+                        Landeszentrale für politische Bildung Thüringen, 2022.</bibl>
+                    <bibl>Gohle, Peter. <hi rend="italic">Von der SDP-Gründung zur gesamtdeutschen
+                            SPD: die Sozialdemokratie in der DDR und die Deutsche Einheit
+                            1989/90</hi> (Reihe Politik- und Gesellschaftsgeschichte, Bd. 99). Bonn:
+                        Dietz, 2014.</bibl>
+                    <bibl>Holzhauser, Thorsten. <hi rend="italic">Die „Nachfolgepartei“: die
+                            Integration der PDS in das politische System der Bundesrepublik
+                            Deutschland 1990-2005</hi> (Quellen und Darstellungen zur
+                        Zeitgeschichte, Band 122). Berlin: De Gruyter Oldenbourg, 2019.</bibl>
+                    <bibl><hi rend="italic">Jahresbericht der Bundesregierung zum Stand der
+                            Deutschen Einheit 2021</hi>. Edited by the German Federal Government
+                        (Bundestag Drucksache 19/31840).</bibl>
+                    <bibl>Kowalczuk, Ilko-Sascha. <hi rend="italic">Die Übernahme: wie
+                            Ostdeutschland Teil der Bundesrepublik wurde</hi>. 2. Aufl. München:
+                        C.H. Beck, 2019.</bibl>
+                    <bibl>Krapf, Manfred. <hi rend="italic">Die letzten Bastionen? die deutsche
+                            Sozialdemokratie in den Städten und Kreisen</hi>. Baden-Baden: Tectum
+                        Verlag, in der NomosVerlagsgesellschaft, 2019.</bibl>
+                    <bibl>Krastev, Ivan, and Stephen Holmes. <hi rend="italic">The Light that
+                            Failed: a Reckoning</hi>. London: Allen Lane, an imprint of Penguin
+                        Books, 2019.</bibl>
+                    <bibl>Micklisch, Fritz. <hi rend="italic">Die Kolonisierung der DDR: wie die
+                            einst „lieben Brüder und Schwestern im Osten“ von den kalten Kriegern im
+                            Westen gehasst, gedemütigt und bestraft werden</hi>. 1. Aufl. Berlin:
+                        Verlag am Park, 2011.</bibl>
+                    <bibl>Oschmann, Dirk. <hi rend="italic">Der Osten: eine westdeutsche
+                            Erfindung</hi>. Berlin: Ullstein, 2023.</bibl>
+                    <bibl>Peterson, Fabian. <hi rend="italic">Oppositionsstrategie der SPD-Führung
+                            im deutschen Einigungsprozeß 1989/1990: Strategische Ohnmacht durch
+                            Selbstblockade?</hi> (Politica 35). Hamburg: Kovač, 1998.</bibl>
+                    <bibl>Ritter, Gerhard Albert. <hi rend="italic">Der Preis der deutschen Einheit:
+                            die Wiedervereinigung und die Krise des Sozialstaats</hi>. 2.,
+                        Erweiterte Auflage. München: C.H. Beck, 2008.</bibl>
+                    <bibl>Soldwisch, Ines. <hi rend="italic">„... etwas für das ganze Volk zu
+                            leisten und nicht nur den Zielen einer Partei dienen ...“: Geschichte
+                            der Liberal-Demokratischen Partei (LPD) in Mecklenburg von
+                            1946-1952</hi> (Rostocker Schriften zur Regionalgeschichte, Bd. 1).
+                        Berlin and Münster: Lit., 2007.</bibl>
+                    <bibl>Sturm, Daniel Friedrich. <hi rend="italic">Uneinig in die Einheit: die
+                            Sozialdemokratie und die Vereinigung Deutschlands 1989/90</hi>.
+                        Willy-Brandt-Studien. Bonn: Dietz, 2006.</bibl>
+                    <bibl>Tammena, Heiko. <hi rend="italic">Volkspartei ohne Parteivolk:
+                            Organisationsaufbau der SPD in Ostdeutschland 1990 - 1994 und
+                            organisationspolitische Perspektiven</hi>. Göttingen, 1994.</bibl>
+                    <bibl>Ther, Philipp. <hi rend="italic">Das andere Ende der Geschichte. Essays
+                            zur großen Transformation</hi>. Berlin: Suhrkamp Verlag, 2019.</bibl>
+                    <bibl>Weinhold-Fumoleau, Jens. „Der Einheit wegen. Parteienkooperationen am Ende
+                        der DDR am Beispiel der CSU-DSU.“ In <hi rend="italic">Die Mauer ist weg!
+                            Mauerfall, Wendejahre und demokratischer Neubeginn</hi>, herausgegeben
+                        von Renate Höpfinger (Bayerische Lebensbilder 5. Biographien, Erinnerungen,
+                        Zeugnisse), 135–64. München: Hanns Seidel Stiftung, 2019.</bibl>
+                </listBibl>
+            </div>
+
+        </back>
+    </text>
+</TEI>

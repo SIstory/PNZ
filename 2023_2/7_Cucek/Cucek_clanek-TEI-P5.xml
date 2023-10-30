@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>»Bivša Avstrija ni imela nobenega smisla, da bi v dolgih stoletjih svoje
+                    vlade vodo zravnavala, […] ker je bila zaposlena povsod drugod, le pri nas po
+                    možnosti malo.« <lb/>Reka Drava v štajerskem deželnem zboru v drugi polovici 19.
+                    in na začetku 20. stoletja<note place="foot" xml:id="ftn99" n="*">Raziskava je
+                        bila opravljena v okviru raziskovalnega programa št. P6–0280 <hi
+                            rend="italic">Ekonomska, socialna in okoljska zgodovina</hi>, ki ga
+                        financira Javna agencija za raziskovalno dejavnost Republike
+                        Slovenije.</note></title>
+                <author>
+                    <forename>Filip</forename>
+                    <surname>Čuček</surname>
+                    <roleName>PhD</roleName>
+                    <roleName>Senior Research Fellow</roleName>
+                    <affiliation>Institut of Contemporary History</affiliation>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>filipc@inz.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2023-09-21</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/4122</pubPlace>
+                <date>2023</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">63</biblScope>
+                <biblScope unit="issue">2</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Austria</term>
+                    <term>Styria</term>
+                    <term>the river Drava</term>
+                    <term>the 19th century</term>
+                    <term>regulations</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>Avstrija</term>
+                    <term>Štajerska</term>
+                    <term>reka Drava</term>
+                    <term>19. stoletje</term>
+                    <term>regulacije</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change><date>2023-09-27T06:57:59Z</date>
+                    <name>Mihael Ojsteršek</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc></change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Filip Čuček<note place="foot" xml:id="ftn0" n="**"><hi rend="bold">Dr., viš.
+                        znan. sod., Inštitut za novejšo zgodovino, Privoz 11, SI–1000 Ljubljana;
+                        </hi><ref target="mailto:filipc@inz.si"
+                >filipc@inz.si</ref></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="DOI">https://doi.org/10.51663/pnz.63.2.07</idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">Reka Drava je v preteklosti povzročala številne preglavice v
+                        svoji bližnji (in tudi širši) okolici. V skladu z državno politiko so že
+                        sredi šestdesetih let potekale polemike glede plovnosti večjih ladij na reki
+                        Dravi vse do Maribora. Toda ideja je bila kmalu opuščena, saj je bilo
+                        pomembneje zaščititi bregove, posesti in predvsem prebivalce ob reki. S
+                        prvimi regulacijami so začeli v sedemdesetih letih 19. stoletja v Spodnjem
+                        Dupleku, dela pa nadaljevali proti Loki in Ptuju. Ob močnejših padavinah se
+                        je pretok hitro povečal, zato je reka redno poplavljala. S sistematičnimi
+                        regulacijami dolvodno od Maribora so se začeli ukvarjati pred prelomom
+                        stoletja in strugo na več krajih uravnali (oziroma skrajšali). Toda celovito
+                        regulacijo med Mariborom in Ptujem je preprečila prva svetovna vojna.
+                    </hi></p>
+                <p><hi rend="italic">Ključne besede: Avstrija, Štajerska, reka Drava, 19. stoletje,
+                        regulacije </hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head>“DURING THE LONG CENTURIES OF ITS RULE, THE FORMER AUSTRIA SAW NO SENSE IN
+                    FIXING THE RIVER /.../ BECAUSE IT WAS BUSY EVERYWHERE ELSE AND ONLY DID AS
+                    LITTLE AS POSSIBLE IN THIS AREA.”</head>
+                <head>THE RIVER DRAVA IN THE STYRIAN PROVINCIAL ASSEMBLY IN THE SECOND HALF OF THE
+                        19<hi rend="superscript">TH</hi> AND THE BEGINNING OF THE 20<hi
+                        rend="superscript">TH</hi> CENTURY</head>
+                <p><hi rend="italic">In the past, the river Drava would often cause problems in its
+                        immediate (and even wider) surroundings. In line with the national policy,
+                        the possibility for larger ships to navigate Drava as far as the city of
+                        Maribor was a subject of debates already in the mid-1860s. However, the idea
+                        was soon abandoned, as it was more crucial to protect the river banks,
+                        property, and, above all, inhabitants along the river. The first river
+                        regulation works started in the 1870s in Spodnji Duplek and continued in the
+                        direction of Loka and Ptuj. In the case of heavy rainfall, the water flow
+                        increased rapidly, causing the river to flood regularly. Systematic
+                        regulation downstream of Maribor started before the turn of the century, and
+                        the riverbed was straightened (or shortened) in several places. However,
+                        comprehensive regulation between Maribor and Ptuj was prevented by World War
+                        I.</hi>
+                </p>
+                <p><hi rend="italic">Keywords: Austria, Styria, the river Drava, the 19</hi><hi
+                        rend="italic superscript">th</hi><hi rend="italic"> century,
+                        regulations</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <quote>»Bivša avstrijska državna uprava je tekom let le zgradila na progi Maribor<hi
+                        rend="bold">–</hi>Središče skupaj 35 raznolikih varnostnih in obrežnih
+                    zgradb na mestih, kjer se je takrat zdela potreba največja. Pri vodi takega
+                    značaja, kakor je Drava, pa posamezne zgradbe ne pomenijo dosti, ker je še
+                    nebroj nevarnih mest, ki so varstva nujno potrebna. […] Škoda, ki jo povzroča
+                    Drava, je sicer velika, toda ni nova in nenavadna; tok Drave je bil vedno enak;
+                    obžalovati je le, da ni imela bivša Avstrija nobenega smisla, da bi v dolgih
+                    stoletjih svoje vlade vodo zravnavala, ali se pa ni poprej mogoče ljudstvo za to
+                    delo toliko zanimalo. […] Ta nemarnost bivše države nas je postavila, ko nam je
+                    zapustila to-le neprijetno dediščino, v skrajno težak položaj, sedaj po toliki
+                    vojni in pri obstoječi draginji, pri pomanjkanju tehničkega osobja in materiala
+                    naj se izvrši to, kar bi bila Avstrija lahko igraje izvršila, pa vendar le ni,
+                    ker je bila zaposlena povsod drugod, le pri nas po možnosti malo.«<note
+                        place="foot" xml:id="ftn1" n="1"><hi rend="italic">Slovenski gospodar</hi>,
+                        7. 4. 1921, »Regulacija Drave,« 2.</note></quote>
+                <p>S temi besedami je mariborski časnik v spremenjeni povojni politični klimi
+                    ocenjeval delo bivše države na področju regulacije Drave, s katero so
+                    sistematično začeli pred koncem 19. stoletja (sprva na Koroškem v začetku
+                    osemdesetih let, pred prelomom stoletja pa tudi dolvodno od Maribora) in strugo
+                    na več krajih uravnali (oziroma skrajšali). Na Spodnjem Štajerskem reka danes
+                    tako »odteče« približno petino svoje celotne dolžine (od Dravograda na 390 m
+                    nadmorske višine do Središča ob Dravi s 183 m nadmorske višine (dobrih 140 km) s
+                    padcem dobrih 200 m). S svojim alpskim snežno-dežnim pretočnim režimom, pri
+                    katerem začne tok upadati decembra in doseže najnižji pretok februarja, je (bil)
+                    njen glavni pretočni višek zaradi taljenja snega in ledenikov v visokogorju maja
+                    ali junija. Drugi vodni višek je (bil) oktobra ali novembra zaradi jesenskega
+                    deževja v širokem alpskem zaledju. Pred regulacijami je bila dravska struga
+                    vsekakor drugačna (in dolvodno od Maribora nekoliko daljša). Med Dravogradom in
+                    Mariborom je bila reka široka, globoka in plovna, prav tako pa zaradi 115 metrov
+                    višinske razlike relativno hitra, zato tam tudi ni bilo večjih poplav. Njen
+                    pretok po Dravski dolini je bil mnogo večji, zato se je praviloma razlivala na
+                    Dravskem in Ptujskem polju; na Dravskem polju je reka tvorila precej meandrov,
+                    se pri Slovenski vasi (Windischdorf) razcepila v številne manjše rokave in tekla
+                    precej počasneje (z manjšim padcem), zaradi tega pa je tudi prej poplavljala in
+                    prizadela številne vasi. Nevarnosti ni predstavljala le voda, pač pa še vse
+                    ostalo, kar je reka nosila s seboj. Ob poplavah je bila tudi povsem neprevozna,
+                    s čimer je reka, sicer glavna prometna in trgovska »žila«, vir pitne vode,
+                    prehrane in zaslužka, od katerega so živeli lastniki mlinov in žag, potem
+                    splavarji, brodniki, mitničarji in ribiči, okoliškim prebivalcem povzročala
+                    številne preglavice. <note place="foot" xml:id="ftn2" n="2">Matija Zorn,
+                        »Gospodarska vloga reke Drave v Sloveniji – od plovnosti reke do
+                        hidroenergetske izrabe,« <hi rend="italic">Podravina</hi> 17, št. 33 (2018):
+                        51, 52. Harald Heppner, »Die Umwelt an der slowenischen Drau im Spiegel der
+                        Josephinischen Landesaufnahme (1763–1787),« <hi rend="italic">Ekonomska i
+                            ekohistorija </hi>7 (2011): 96–98. Matjaž Grahornik, »The Territory on
+                        the Right Bank of the Drava Between Maribor and Ptuj in Miscellaneous
+                        Sources from the 17<hi rend="superscript">th</hi> and 18<hi
+                            rend="superscript">th</hi> Century,« <hi rend="italic">Ekonomska i
+                            ekohistorija </hi>13 (2017): 25–35. Za hrvaško stran prim. Hrvoje
+                        Petrić, »Rijeka Drava od štajersko-hrvatske granice do ušća u Dunav početkom
+                        1780-ih godina,« <hi rend="italic">Ekonomska i ekohistorija </hi>7 (2011):
+                        49–63.</note></p>
+                <p>V drugi polovici 19. stoletja je modernizacija tudi v Avstriji povzročila
+                    »premike« v dojemanju celinskih voda. Habsburška monarhija je, sprva zaradi
+                    plovbe, kasneje zaradi drugih gospodarskih interesov, sicer dajala prednost
+                    večjim vodotokom (regulacija Donave se je denimo pričela že v 15. stoletju),
+                        <note place="foot" xml:id="ftn3" n="3">
+                        <hi rend="italic">Donauregulierung – Wikipedia</hi>, pridobljeno 29. 6.
+                        2022, https://de.wikipedia.org/wiki/Donauregulierung.</note> medtem ko so
+                    manjši, lokalni, prišli na vrsto mnogo kasneje. Šele z obnovo ustavnega
+                    življenja v Avstriji so se na »dnevnem redu« deželnih zborov znašle tudi
+                    posamezne reke. Potem ko je leta 1862 izšel prvi osnutek zakona o vodah
+                        (Wassergesetz),<note place="foot" xml:id="ftn4" n="4">Daniela Almer, Die
+                        entwicklungsgeschichtliche Darstellung des Wasserwirtschaftsrechtes im
+                        europäischen Kontext, Dissertation zur Erlangung des akademischen Grades
+                        einer Doktorin der Rechtswissenschaften (Karl-Franzens-Universität Graz;
+                        Rechtwissenschaftliche Fakultät, 2015), 69–71. </note> so v skladu z državno
+                    politiko sredi šestdesetih let sprva potekale polemike glede plovnosti večjih
+                    ladij na reki Dravi vse do Maribora. Graška trgovsko-obrtna zbornica je v
+                    začetku leta 1864 objavila spomenico, v kateri je poudarila ovire, ki so
+                    zadrževale plovbo do spodnještajerske »prestolnice«. Deželni zbor je v zvezi s
+                    tem pritisnil na vlado, da se Drava razglasi za državno reko, s čimer bi stroški
+                    prešli na državo, saj da je reka pomembna za Štajersko in tudi širše. Ker je
+                    bila vožnja po njej mogoča do hrvaškega Legrada, je deželni zbor pozival, da se
+                    z regulacijami reka poglobi in omogoči večjo plovbo vse do Maribora. <note
+                        place="foot" xml:id="ftn5" n="5">
+                        <hi rend="italic">Tagespost</hi>, 15. 7. 1864, »Zur Drauregulierung,« 1, 2.
+                            <hi rend="italic">Beilagen zu den stenographischen Protokollen über die
+                            Sitzungen des Steiermärkischen Landtages</hi>, 1865/66, L. T. Z. 39,
+                        1865. Prim. <hi rend="italic">Stenographische Protokolle über die Sitzungen
+                            des Steiermärkischen Landtages</hi>, I. Landtagsperiode, IV. Session,
+                        13. Sitzung, 11. 1. 1866, 229. <hi rend="italic">Stenographische Protokolle
+                            über die Sitzungen des Steiermärkischen Landtages</hi>, I.
+                        Landtagsperiode, V. Session, 12. Sitzung, 18. 12. 1866, 219.</note> Toda
+                    vlada je projekt zavrnila z obrazložitvijo, da je predrag, a »obljubila,« da se
+                    ga bo lotila v prihodnje.<note place="foot" xml:id="ftn6" n="6">Carl Stremayr,
+                            <hi rend="italic">Die Landesvertretung von Steiermark, I. Theil,
+                            1861</hi>–<hi rend="italic">1866 </hi>(Graz: Leykam's Erben, 1867),
+                        122–24.</note></p>
+                <p>Toda v naslednjih letih je Drava vse več preglavic povzročala s poplavami v svoji
+                    neposredni okolici, zato je bilo prioritetno sanirati to. Konec šestdesetih let
+                    je deželni zbor tako obravnaval vlogo mariborskega poslanca Konrada Seidla glede
+                    škode, ki jo je Drava naredila v Spodnjem Dupleku (Dolenji Duplek,
+                    Unter-Täubling) pri Mariboru. Dravske poplave v tem delu seveda niso bile
+                    novost; že vse od leta 1845 so potekala pogajanja glede nujnih regulacij, toda
+                    vlada je zavlačevala začetek del z izgovorom, da lokalna plovba še zmeraj ni
+                    ogrožena. Medtem je avgustovska poplava leta 1869 resno prizadela občino; reka
+                    je poplavila novega pol hektarja površin in resno ogrozila tudi bližnje
+                    vinograde proti Vurberku (oziroma Sv. Martinu – danes Dvorjane). Seidl je
+                    resignirano ugotavljal, da vlada ne bo storila veliko, ker Drava ni državna
+                    reka, projekt pa da bo morala prevzeti dežela, saj je nevarnost veliko večja,
+                    kot se zdi. Vlada je kljub vsemu prevzela del stroškov, ostalo so pokrili
+                    deželni odbor in zainteresirane občine, dela pa naj bi bila končana do leta
+                    1872. <note place="foot" xml:id="ftn7" n="7">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, II. Landtagsperiode, III. Session, 8.
+                        Sitzung, 27. 9. 1869, 93–95. Johann Pairhuber, <hi rend="italic">Die
+                            Landesvertretung von Steiermark, II. Theil, 1867</hi>–<hi rend="italic"
+                            >1871 </hi>(Graz: Leykam-Josefsthal, 1872), 104, 105.</note></p>
+                <p>Leta 1869 je bil sankcioniran državni zakon o vodah (Reichswassergesetz<note
+                        place="foot" xml:id="ftn8" n="8">Johann Pairhuber, <hi rend="italic">Die
+                            Landesvertretung von Steiermark, II. Theil, 1867</hi>–<hi rend="italic"
+                            >1871 </hi>(Graz: Leykam-Josefsthal, 1872), 95–98.</note> – Štajerska je
+                    deželni zakon o vodah sprejela leta 1872). <note place="foot" xml:id="ftn9"
+                        n="9"> Almer, Die entwicklungsgeschichtliche Darstellung, 77–79, 85,
+                        86.</note> Medtem so konec maja 1871 v Spodnjem Dupleku začeli dela na
+                    prekopu, ki bi skrajšal meander, s tem pa želeli zajeziti številne poplave na
+                    zahodnem robu Slovenskih goric. Dela so nadaljevali tudi naslednje leto, v
+                    nadaljevanju pa utrjevali še desni rečni breg. Leta 1875 so regulacije začeli še
+                    v občini Loka (Laak), nižje od Dupleka. <note place="foot" xml:id="ftn10" n="10"
+                        >Johann Pairhuber, <hi rend="italic">Die Landesvertretung von Steiermark,
+                            III. Theil</hi>, <hi rend="italic">1872</hi>–<hi rend="italic">1877</hi>
+                        (Graz: Leykam-Josefsthal, 1878), 209, 210.</note> Konec marca 1876 je v
+                    deželnem zboru potekala obširna razprava na to temo, saj se prekop ni »izkazal«
+                    kot najustreznejši. Drava je v tem delu ob poplavah za sabo še zmeraj puščala
+                    veliko razdejanje. Mariborski poslanec Fran Radej je ugotavljal, da je reka s
+                    prekopom ubrala povsem novo smer in da še zmeraj predstavlja nevarnost za oba
+                    rečna bregova, ki da ju bo treba utrditi, na obeh koncih prekopa pa reko tudi
+                    nekoliko zajeziti z nasipi. Na spodnjem levem bregu je bil predviden 240-metrski
+                    nasip, ki pa bo, tako Radej, težje izvedljiv, saj se je reka od načrta do
+                    predvidene izvedbe poglobila za en do dva metra. Zato so predvideni nasip
+                    skrajšali na dobrih 100 metrov. To pa po njegovem ni bilo ustrezno za ustavitev
+                    poplav, kar je pokazala nedavna visoka voda in ogrozila več 100 hektarjev
+                    travnikov in njiv proti Sv. Martinu. Ravno nasprotno. Načrtovani 100-metrski
+                    nasip bo, tako poslanec, uničila že malo večja poplava, saj bo prešibek, da bi
+                    služil svojemu namenu. Za njim je graški poslanec Jakob Syz menil, da je
+                    dupleški prekop stal že preveč denarja, da se zadeva z majhnimi popravki krpa že
+                    več let, da pa bi jo vendarle morali zastaviti širše in se problematike Drave
+                    lotiti celostno, torej zasnovati kompleksen projekt, s katerim bi Dravo v tem
+                    delu v celoti regulirali. Ferdinand Dominkuš, ki si je situacijo ogledal na
+                    terenu, je povedal, da bo skrajšani nasip sicer preprečeval razlitje vode na
+                    dupleških parcelah, ne bo pa mogel obvarovati tistih pri Sv. Martinu. Nekateri
+                    poslanci so se strinjali s Syzovim govorom, češ da je treba zadevo obravnavati
+                    celostno, še sploh po tem, ko je navajal, da je od državnih 70.000 goldinarjev,
+                    namenjenih za Štajersko, pol denarja odpadlo na reke Muro, Savo in Anižo, druga
+                    polovica pa na vse preostale deželne reke. Toda poslanec veleposestniške kurije
+                    Mathias Lohninger, član finančnega odbora, je pojasnil, da je ideja sicer dobra,
+                    vendar pa denarja za tako velik projekt enostavno ni na razpolago. V sklepni
+                    besedi je poročevalec deželnokulturnega odbora Robert baron Walterskirchen
+                    poudaril, da dela na dupleškem odseku sicer potekajo in da bo desni breg reke
+                    zavarovan še letos, preostalo pa tudi v kratkem. <note place="foot"
+                        xml:id="ftn11" n="11">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, IV. Landtagsperiode, VI. Session, 10.
+                        Sitzung, 27. 3. 1876, 118–26.</note>
+                </p>
+                <p>Deželni zbor je torej sklenil, da konča zavarovalna dela na desnem bregu Drave
+                    pri Loki, za primer nevarnosti na še nedokončanih delih pa je zadolžil deželni
+                    odbor, da posreduje in poskrbi za nastalo situacijo. Do začetka osemdesetih let
+                    so bila tako pri Dupleku kot pri Loki izvedena nekatera vzdrževalna dela, zaradi
+                    poplave leta 1879 v Sv. Janžu (danes Starše) pa so v letih 1880 in 1881 tam
+                    zgradili še nasip. <note place="foot" xml:id="ftn12" n="12">
+                        <hi rend="italic">Die Landesvertretung von Steiermark, IV. Theil</hi>, <hi
+                            rend="italic">1878</hi>–<hi rend="italic">1884</hi>, Landes-Ausschuss
+                        des Herzogthums Steiermark (hrsg.) (Graz: Leykam, 1885), 197–99.</note>
+                    Medtem se je porajal nov problem nižje od Ptuja do Bukovcev, kjer je reka prav
+                    tako poplavljala in ogrožala okoliške posestnike. Dobrih 200.000 goldinarjev
+                    »težek« projekt – trajal naj bi od šest do deset let – je bil sicer zasnovan že
+                    leta 1873, <note place="foot" xml:id="ftn13" n="13">Pairhuber, <hi rend="italic"
+                            >Die Landesvertretung von Steiermark, III. Theil</hi>, <hi rend="italic"
+                            >1872</hi>–<hi rend="italic">1877</hi>, 210–12.</note> toda na
+                    poslanskih mizah v Gradcu se je znašel šele štiri leta kasneje. A posebni odbor
+                    regulacije ni potrdil, pač pa jo je prestavil v naslednje leto (oziroma v
+                    nedefinirano prihodnost). Seveda se spodnještajerski poslanci s takšno rešitvijo
+                    nikakor niso strinjali. Fran Radej je menil, da se Spodnji Štajerski (na dobrih
+                    deset kilometrov reke in približno 500 hektarjev prizadetih površin) s tem dela
+                    velika škoda, deželni zbor pa pozval, naj regulacijski zakon vendarle sprejme.
+                    Tudi graški poslanec Alois Fidelis Remschmidt (trgovsko-obrtna kurija),
+                    veleposestnik Rudolf baron Hackelberg in ptujski poslanec Josef Kaiserfeld so se
+                    strinjali, da si Drava »zasluži« podobno obravnavo kot denimo Mura, ki je bila
+                    južno od Gradca deležna že več regulacij. <note place="foot" xml:id="ftn14"
+                        n="14">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, IV. Landtagsperiode, VII. Session, 9.
+                        Sitzung, 19. 4. 1877, 140–45, 10. Sitzung, 20. 4. 1877, 153–56.</note> Ne
+                    glede na njihovo mnenje je deželni zbor šele čez leto in pol (na predlog
+                    deželnokulturnega odbora) v obravnavo dobil zakonski regulacijski osnutek med
+                    Ptujem in Bukovci, saj je bilo treba na Ptujskem polju ponovno pridobiti dobrih
+                    500 hektarjev površin, ki jih je vsakokratna poplava devastirala. <note
+                        place="foot" xml:id="ftn15" n="15">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, V. Landtagsperiode, I. Session, 15.
+                        Sitzung, 18. 10. 1878, 284, 285.</note> Toda zakon je bil zaradi težkega
+                    finančnega položaja ponovno zavrnjen. Spet je minilo leto in pol, ko se je sredi
+                    leta 1880 deželni zbor že tretjič ukvarjal z isto zadevo, deželnokulturni odbor,
+                    ki je sicer osnutek ponovno dal v obravnavo, pa je vse bolj menil, da bi bila
+                    celovitejša in ne zgolj parcialna regulacija reke (podobno kot v primeru
+                    Savinje) precej boljša rešitev. Ker lokalna plovba načeloma ni bila ogrožena, se
+                    je deželnokulturni odbor »ogreval« za celostni pristop, toda mnenje večine
+                    spodnještajerskih poslancev je bilo nasprotno. Fran Radej je menil, da bo v
+                    primeru nereguliranja prav na tem odseku tudi plovba za več kot 3000 splavov, ki
+                    so letno zapuščali Ptuj, počasi postala nemogoča, saj je Drava ob poplavah
+                    preveč pustošila okolico. Seveda se je strinjal, da bi bila celotna regulacija
+                    reke odlična rešitev, toda tega finance pač niso dopuščale. Zato je bila lokalna
+                    regulacija kot v primeru Aniže ali Mure, ki sta ne glede na dejstvo, da je bila
+                    Drava največja štajerska reka, očitno imeli »prednost«, najboljša možnost.
+                    Gundaker grof Wurmbrand, lastnik borlskega gradu in posesti v tem delu Drave, je
+                    prav tako podprl regulacijo z obrazložitvijo, da se reka med Mariborom in Ptujem
+                    na levi strani zajeda v hrib, prav tako naprej od Bukovcev, medtem ko je ravno v
+                    delu med Ptujem in Bukovci odprta na obe strani in najmanj regulirana.
+                    Regulacijo sta podprla še slovenska poslanca Ivan Kukovec (Ljutomer) in Mihael
+                    Hermann (Ptuj), medtem ko je Franz Sprung (trgovsko-obrtna kurija Leoben) menil,
+                    da Drava tako ali tako nikoli (razen za splave) ne bo plovna reka in da nima
+                    smisla izgubljati časa in denarja. Na drugi strani sta »veleposestnika« Mathias
+                    Lohninger in Julius baron Moscon regulacijo podprla, saj da gre za vitalne
+                    interese dežele. V sklepni besedi je poročevalec deželnokulturnega odbora Johann
+                    baron Gleispach navajal, da je med Ptujem in Bukovci zgolj ura hoda in da se za
+                    tako majhen del skoraj ne splača začeti del. Med vrsticami je bilo razbrati, da
+                    je deželnokulturni odbor že nekako sklenil, da so parcialne regulacije »potrata«
+                    denarja in da je treba k zadevi pristopiti bolj celostno. <note place="foot"
+                        xml:id="ftn16" n="16">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, V. Landtagsperiode, II. Session, 5.
+                        Sitzung, 17. 6. 1880, 44–52.</note> Leta 1881 je vlada preračunala stroške
+                    regulacije od Maribora do ogrske meje, a je bil več kot dvomilijonski znesek
+                    (2,5 milijona goldinarjev) tedaj prevelik zalogaj.<note place="foot"
+                        xml:id="ftn17" n="17">
+                        <hi rend="italic">Die Landesvertretung von Steiermark, IV. Theil</hi>, <hi
+                            rend="italic">1878</hi>–<hi rend="italic">84, </hi>199–201.</note>
+                </p>
+                <p>Kljub vsemu so v drugi polovici osemdesetih let poskušali z obsežnejšim, a še
+                    zmeraj parcialnim saniranjem rečnih bregov. Potem ko je zadeva nekaj let
+                    mirovala, so slovenski poslanci septembra 1888 v deželnem zboru ponovno pozvali
+                    k regulaciji, saj se je situacija v teh nekaj letih nad in pod Ptujem močno
+                    poslabšala. Nanosi gramoza, številni novi rokavi, uničena ozemlja, vse to je
+                    okoliškim prebivalcem povzročalo vedno večje skrbi. Zato je Fran Jurtela menil,
+                    da je treba nekaj narediti; regulacijo so zahtevali tudi domačini, ki so bili od
+                    reke odvisni. <note place="foot" xml:id="ftn18" n="18">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, VI. Landtagsperiode, V. Session, 17.
+                        Sitzung, 21. 9. 1888, 140–42.</note> Deželnokulturni odbor se je tokrat
+                    strinjal in na prizadetih območjih potrdil delno regulacijo.<note place="foot"
+                        xml:id="ftn19" n="19">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, VI. Landtagsperiode, V. Session, 24.
+                        Sitzung, 29. 9. 1888, 275, 276.</note> Toda v letu dni se ni zgodilo prav
+                    veliko (kljub temu da so bila opravljena nekatera vzdrževalna dela). Jurtela je
+                    tako sredi novembra 1889 ponovno spraševal, zakaj se ni še nič storilo, in
+                    opozoril na nedavno uničujočo oktobrsko poplavo, ki je pod Ptujem odnesla
+                    številna obsežna posestva in na številnih krajih spremenila tok. Kljub temu da
+                    je notranje ministrstvo naročilo elaborat celotne regulacije Drave, je menil, da
+                    tega še nekaj časa ne bo, vmes naj pa vendarle poskrbijo za prizadeta območja.
+                        <note place="foot" xml:id="ftn20" n="20">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, VI. Landtagsperiode, VII. Session, 20.
+                        Sitzung, 14. 11. 1889, 193, 194.</note> Naslednji dan je ptujski poslanec
+                    Josef Steyer v obširni razpravi o vodogradnjah podprl Jurtelove navedbe oziroma
+                    menil, da je situacija še slabša. Poplava sredi oktobra je namreč precej
+                    prizadela desno rečno nabrežje pri Ptuju, tako da je bilo pričakovati, da bodo
+                    ob naslednji poškodovane okrajna cesta in tudi precej hiš na Bregu.<note
+                        place="foot" xml:id="ftn21" n="21">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, VI. Landtagsperiode, VII. Session, 21.
+                        Sitzung, 15. 11. 1889, 227.</note>
+                </p>
+                <p>Deželnokulturni odbor je zato sklenil popraviti nabrežje na najbolj prizadetih
+                    delih. <note place="foot" xml:id="ftn22" n="22">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, VI. Landtagsperiode, VII. Session, 25.
+                        Sitzung, 19. 11. 1889, 323.</note> Toda varovanje posameznih delov se je
+                    izkazalo za jalovo početje. Do konkretnejših del je tako prišlo v prvi polovici
+                    devetdesetih let, ko so med Mariborom in Središčem potekali prvi sistematični
+                    ukrepi. Celoten projekt je bil sicer ocenjen na milijon in pol goldinarjev, toda
+                    deželni odbor se je odločil za nekoliko okleščeno verzijo oziroma za izgradnjo
+                    nasipov in drugih varovalnih objektov. Posebna komisija je sicer ocenila, da so
+                    potrebna temeljita dela na levem bregu pod Sv. Petrom, na desnem bregu pri Loki,
+                    na desni strani pri Slovenski vasi in Hajdošah, na levem bregu pri Zabovcih,
+                    Markovcih, Novi vasi in Stojncih pod Ptujem, nato pa še dokončanje že začetih
+                    del v Frankovcih (med Ormožem in Središčem), kjer je reka že pred leti odnesla
+                    več posesti.<note place="foot" xml:id="ftn23" n="23">
+                        <hi rend="italic">Die Landesvertretung von Steiermark, V. Theil</hi>, <hi
+                            rend="italic">1885</hi>–<hi rend="italic">1890</hi>, Landes-Ausschuss
+                        des Herzogthums Steiermark (hrsg.) (Graz: Leykam, 1891), 294–300.</note>
+                    Potem ko je vlada za utrditev brežin za obdobje štirih let (1891–94) odobrila
+                    letni proračun v višini 15.000 goldinarjev, isto vsoto pa je potrdil še deželni
+                    odbor, je slovenski poslanec Fran Radej (kot poročevalec) ugotavljal, da je res
+                    bil že skrajni čas za prva konkretnejša dela na reki, ki je (v nasprotju s
+                    Savinjo) večja denarna sredstva prejela prvič. Drava je od Maribora dolvodno že
+                    leta (oziroma desetletja) uničevala pridelek ob svoji strugi (in širše) ter
+                    ogrožala ne zgolj posamezne posestnike in bolj izpostavljene kmetije, pač pa
+                    cele vasi, še posebej na območju nižje od Ptuja in od Ormoža naprej. Tudi
+                    ptujski poslanec Gustav Kokoschinegg je bil podobnega mnenja in je poudaril, da
+                    bo reka s sistematično obravnavo gotovo nehala nezaslišano pustošiti svojo
+                    neposredno okolico. Kokoschinegg se je kot član komisije po zadnji poplavi tudi
+                    sam udeležil ogleda reke med Mariborom in štajersko-hrvaško mejo ter poročal, da
+                    si ni predstavljal takšne škode in razdejanja, ki jo rečna poplava pusti za
+                    seboj. Zato je posebej poudaril kritične točke, ki jih je navajal že Radej,
+                    obenem pa menil, da bi morali zaščititi vse rečne dele, kjer se nahajajo večji
+                    (in pomembnejši) objekti, to pa je po njegovem vsekakor bila bližnja okolica
+                    Ptuja in praktično vsi kraji dolvodno do meje (ter tudi čez). Posebej je
+                    poudaril območje med Ormožem in Središčem. Tukaj je bila Drava splet številnih
+                    večjih in manjših rokavov, meandrov in sploh poplavna, glavni razlog pa je tičal
+                    na drugi, desni strani reke. Hrvaška stran je namreč medtem v tem delu svoje
+                    (desne) rečne bregove že toliko zaščitila, da je voda ob večjih pretokih
+                    »trčila« ob hrvaške nasipe in ostale varovalne gradnje ter se (s pospeškom)
+                    razlila na levo (štajersko) stran in dotične predele še močneje prizadela. Zato
+                    je pozival, naj vlada in dežela v prihodnje iz fonda vodogradenj periodično
+                    namenjata letno vsoto za varovanje brežin, ne zgolj v obliki enkratnih (oziroma
+                    krajših) projektov. <note place="foot" xml:id="ftn24" n="24">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, VII. Landtagsperiode, I. Session, 18.
+                        Sitzung, 18. 11. 1890, 175–77. </note>
+                </p>
+                <p>Po dokončanih delih na dolžini dobrih šest kilometrov in pol so bila v letih
+                    1895–98 v tem delu predvidena nadaljnja vzdrževalna dela (cca 35.000 goldinarjev
+                    letno). Poleg tega je bil leta 1894 izdelan tudi projekt za občino Pušenci nižje
+                    od Ormoža (cca 50.000 goldinarjev), kjer je bila reka še povsem divja, toda
+                    deželni odbor je začetek del prestavil na konec stoletja. <note place="foot"
+                        xml:id="ftn25" n="25">
+                        <hi rend="italic">Die Landesvertretung von Steiermark, Sechster Theil</hi>,
+                            <hi rend="italic">Erste Abtheilung, 1891</hi>–<hi rend="italic"
+                            >1896</hi>, Landes-Ausschuss des Herzogthums Steiermark (hrsg.) (Graz:
+                        Verlag des Landes-Ausschusses des Herzogthums Steiermark, 1898),
+                        157–60.</note> Medtem so stroški celotnega predvidenega projekta
+                    Maribor–Središče narasli za dober milijon goldinarjev in so tako znašali že
+                    dobra dva milijona in pol. Poročevalec deželnokulturnega odbora Fran Jurtela je
+                    februarja 1898 navajal, da je deželni odbor projekt zaenkrat zavrnil, da pa bo
+                    dokončal začeta vzdrževalna dela. V imenu odbora je menil, da bi bilo treba
+                    vzdrževalna dela nadaljevati tudi v prihodnje, povečati letna sredstva na 50.000
+                    goldinarjev (100.000 kron), dela pa začeti tudi v občinah Zabovci pri Ptuju in
+                    še posebej Frankovci pri Ormožu, kjer so bila ogrožena številna posestva.
+                    Deželni zbor je vse točke načelno potrdil.<note place="foot" xml:id="ftn26"
+                        n="26">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, VIII. Landtagsperiode, II. Session, 23.
+                        Sitzung, 14. 2. 1898, 302–06.</note> Na drugi strani je ptujski župan Josef
+                    Ornig ugotavljal, da je bilo v slabem desetletju (1891–99) za dravske regulacije
+                    porabljena približno tretjina milijona goldinarjev (oziroma dve tretjini
+                    milijona kron), do leta 1890 pa zgolj dobrih 20.000 goldinarjev. Tudi on se je
+                    zavzel za nadaljevanje vzdrževalnih del, še posebej pa za obljubljeno regulacijo
+                    Drave pri Frankovcih.<note place="foot" xml:id="ftn27" n="27">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, VIII. Landtagsperiode, IV. Session, 21.
+                        Sitzung, 4. 5. 1900, 295–97. </note></p>
+                <p>Vlada je potrdila nadaljevanje vzdrževalnih del do leta 1902 in za dravske odseke
+                    pri Frankovcih (10 odstotkov) in Zabovcih (90 odstotkov) zagotovila dober
+                    milijon kron.<note place="foot" xml:id="ftn28" n="28">
+                        <hi rend="italic">Die Landesvertretung von Steiermark, Siebenter Theil</hi>,
+                            <hi rend="italic">1897</hi>–<hi rend="italic">1902</hi>,
+                        Landes-Ausschuss des Herzogthums Steiermark (hrsg.) (Graz: Verlag des
+                        Landes-Ausschusses des Herzogthums Steiermark, 1903), 232–36.</note> Medtem
+                    pa je junija 1901 Drava poplavila kraje nižje od Ptuja in naredila največ škode
+                    predvsem v Markovcih. Ornig je s še nekaterimi poslanci v interpelaciji zahteval
+                    povračilo škode prizadetim posestnikom, še posebej pa se je zavzel za skorajšnji
+                    začetek sistematične regulacije Drave med Mariborom in Središčem, ki je bila
+                    predmet debate že vse od devetdesetih let 19. stoletja.<note place="foot"
+                        xml:id="ftn29" n="29">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, VIII. Landtagsperiode, V. Session, 11.
+                        Sitzung, 2. 7. 1901, 123.</note> Visoka voda je tudi leta 1903 poplavila
+                    obširne predele na ptujskem in ormoškem koncu. Fran Jurtela se je oktobra zavzel
+                    za povračilo stroškov prizadetim posestnikom.<note place="foot" xml:id="ftn30"
+                        n="30">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, IX. Landtagsperiode, I. Session, 13.
+                        Sitzung, 9. 10. 1903, 273.</note> Med Ormožem in Središčem so težavo
+                    povzročali še hrvaški varovalni objekti, ki so deročo reko preusmerjali na
+                    štajersko stran, zaradi česar so trpeli obrečni posestniki. Konec meseca so tako
+                    vsi slovenski poslanci vložili zahtevo po zavarovanju brežin v tem delu, da se s
+                    tem prepreči uničevanje štajerskih posesti.<note place="foot" xml:id="ftn31"
+                        n="31">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, IX. Landtagsperiode, I. Session, 22.
+                        Sitzung, 30. 10. 1903, 436.</note> V začetku novembra je predlagatelj,
+                    ljutomerski poslanec Ivan Kočevar, kazal na težke razmere ob reki, navajal
+                    dejstva, da so kraji v tem delu izgubili med 100 in 200 hektarjev rodovitnih
+                    površin, da je ogrožena tudi železniška proga in da je prebivalstvo v splošnem
+                    precej nezadovoljno.<note place="foot" xml:id="ftn32" n="32">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, IX. Landtagsperiode, I. Session, 25.
+                        Sitzung, 5. 11. 1903, 493, 494.</note> V proračunski razpravi sredi novembra
+                    je poslanec veleposestniške kurije Karl grof Lamberg razgrnil obsežne poplave,
+                    ki so prizadele Štajersko. Ostro je kritiziral sistem štajerskih regulacij in
+                    nasipov; menil je, da je vodogradnja še zelo mlada veda in da prav zato prihaja
+                    do številnih napak. V zvezi z Dravo je navajal, da je reka med Mariborom in
+                    Ptujem še najbolje regulirana, naprej od Ormoža je bilo že slabše, medtem ko je
+                    bil del do hrvaške meje povsem divji oziroma razcepljen v številne rokave.
+                    Dodatne težave so povzročale naprave na hrvaški strani, ki so vodo ob poplavah
+                    dobesedno potisnile na štajersko stran.<note place="foot" xml:id="ftn33" n="33">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, IX. Landtagsperiode, I. Session, 30.
+                        Sitzung, 11. 11. 1903, 732, 733.</note> Naslednji dan sta to (kot odgovor
+                    slovenskim poslancem) potrdila tudi finančni in deželnokulturni odbor ter
+                    predvidela zavarovanje najbolj prizadetih odsekov. <note place="foot"
+                        xml:id="ftn34" n="34">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, IX. Landtagsperiode, I. Session, 31.
+                        Sitzung, 12. 11. 1903, 850.</note> Dela so se nato nadaljevala sprva v
+                    Frankovcih. Za odsek Ptuj–Obrež je deželni odbor namenil 100.000 kron, za odsek
+                    Obrež–Središče pa 800.000 kron.<note place="foot" xml:id="ftn35" n="35">
+                        <hi rend="italic">Die Landesvertretung von Steiermark, Achter Theil</hi>,
+                            <hi rend="italic">1903–08</hi>, Landes-Ausschuss des Herzogthums
+                        Steiermark (hrsg.) (Graz: Verlag des Landes-Ausschusses des Herzogthums
+                        Steiermark, 1916), 245, 246.</note></p>
+                <p>Slovenski poslanci so sicer pohvalili opravljeno delo, toda jeseni (in pozimi)
+                    1904 (1905) še zmeraj ugotavljali, da je treba utrditi bregove tudi v okolici
+                    Formina in Muretincev. <note place="foot" xml:id="ftn36" n="36">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, IX. Landtagsperiode, II. Session, 3.
+                        Sitzung, 28. 9. 1904, 40, 41. <hi rend="italic">Stenographische Protokolle
+                            über die Sitzungen des Steiermärkischen Landtages</hi>, IX.
+                        Landtagsperiode, II. Session, 8. Sitzung, 7. 10. 1904, 130, 131. <hi
+                            rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, IX. Landtagsperiode, II. Session, 35.
+                        Sitzung, 5. 1. 1905, 698.</note> Sicer je bil v letih 1891–1904, se pravi od
+                    začetka štiriletnih projektov, kot je oktobra 1905 ugotavljal Josef Ornig, za
+                    dela med Mariborom in Središčem porabljen dober milijon (1.150.000) kron, ki pa,
+                    po njegovem, ni bil najbolje unovčen, saj regulacije niso bile izvedene dovolj
+                    sistematično. Ornig je torej pozival, da je skrajni čas, da deželni zbor potrdi
+                    sistematične regulacije med Mariborom in deželno mejo pri Središču ob Dravi, ne
+                    nazadnje pa tudi k ureditvi vodne povezave Štajerske s Črnim morjem.<note
+                        place="foot" xml:id="ftn37" n="37">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, IX. Landtagsperiode, III. Session, 2.
+                        Sitzung, 19. 10. 1905, 25, 26. <hi rend="italic">Stenographische Protokolle
+                            über die Sitzungen des Steiermärkischen Landtages</hi>, IX.
+                        Landtagsperiode, III. Session, 5. Sitzung, 25. 10. 1905, 71, 72.</note>
+                    Deželnokulturni odbor (poročevalec Jurtela) je sredi novembra v svojem poročilu
+                    prav tako navajal, da je sistematični pristop na celotni trasi dolvodno od
+                    Maribora pravzaprav nujen.<note place="foot" xml:id="ftn38" n="38">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, IX. Landtagsperiode, III. Session, 16.
+                        Sitzung, 17. 11. 1905, 260-65.</note> Kljub temu je odbor v nadaljevanju
+                    potrdil regulacijo pri Muretincih in Forminu, prav tako pa še med Ptujem in cca
+                    deset kilometrov oddaljenimi Dravci; ta je znašala dva milijona in pol kron,
+                    medtem ko je načrt za traso med Loko in Ptujem predvideval dobra dva milijona
+                    kron. <note place="foot" xml:id="ftn39" n="39">
+                        <hi rend="italic">Die Landesvertretung von Steiermark, Achter Theil</hi>,
+                            <hi rend="italic">1903-08</hi>, 246, 247.</note>
+                </p>
+                <p>V petih letih, do leta 1908, je bil sicer za dela porabljen približno slab
+                    milijon kron. Medtem je bil izdelan elaborat za odsek Ptuj–Središče, ki je bil,
+                    brez trase Maribor–Ptuj, ocenjen na slabih dvanajst milijonov kron. <note
+                        place="foot" xml:id="ftn40" n="40">Ibidem, 248-50.</note> Delo
+                    spodnještajerskih poslancev se je v tem času bolj ali manj osredotočilo na
+                    obravnavo sistematične regulacije dolvodno od Maribora. Medtem so konec
+                    septembra 1907 slovenski poslanci navajali, da se na nedavno zopet poplavljenih
+                    površinah pri Središču, Grabah in Obrežu ni storilo nič, in pozivali vlado, da
+                    preide k dejanjem. <note place="foot" xml:id="ftn41" n="41">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, IX. Landtagsperiode, IV. Session, 34.
+                        Sitzung, 27. 9. 1907, 666.</note> Miroslav Ploj je navajal škodo, ki vsako
+                    leto prizadene obrečne posestnike na tem območju, menil, da je denar za delne
+                    regulacije slabo porabljen, in ocenjeval, da pred sistematično izvedeno
+                    regulacijo po vsej dolžini ne bo nobenega napredka. <note place="foot"
+                        xml:id="ftn42" n="42">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, IX. Landtagsperiode, IV. Session, 37.
+                        Sitzung, 2. 10. 1907, 720, 721.</note> Na drugi strani je Josef Ornig (leto
+                    kasneje) kazal na vedno večje opustošenje Drave in opozarjal, da parcialna (in
+                    ne najuspešnejša) dela med Mariborom in hrvaško mejo potekajo že vse od leta
+                    1892. Menil je, da je napočil pravi trenutek, da vlada obljubljena sredstva
+                    končno usmeri v reko, zato je od vlade zahteval osnutek zakona glede
+                    sistematične regulacije, ki bi lahko prišel v obravnavo že na naslednjih sejah.
+                        <note place="foot" xml:id="ftn43" n="43">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, IX. Landtagsperiode, IV. Session, 41.
+                        Sitzung, 15. 9. 1908, 845, 846. <hi rend="italic">Stenographische Protokolle
+                            über die Sitzungen des Steiermärkischen Landtages</hi>, IX.
+                        Landtagsperiode, IV. Session, 44. Sitzung, 22. 9. 1908, 883, 884.</note> Čez
+                    dober mesec je poročevalec mešanega finančno-deželnokulturnega odbora Fran
+                    Jurtela predstavil stališče, povezano s to zadevo. Pojasnil je, da so Dravo
+                    sprva želeli regulirati zaradi plovnosti (idejo so kmalu opustili), kasneje pa
+                    je sledilo zavarovanje bregov, prebivalcev in posesti. Toda zmeraj so bile
+                    problem finance. Dejal je, da je sedaj pravi trenutek za začetek sistematičnih
+                    del in da je treba sprejeti zakon. Takoj ga je podprl Ornig, ki je navajal, da
+                    je regulirana reka široka 150 metrov, medtem ko je na nereguliranih delih še
+                    divja in široka od 200 metrov pa vse do treh kilometrov. Menil je, da bo po eni
+                    strani veliko ljudi dobilo delo, na drugi strani pa je poudaril, da bodo s
+                    sistematično regulacijo prebivalci ob reki končno imeli mir pred reko, ki bo, ko
+                    bo enkrat zregulirana, nudila možnost tudi za varno plovbo. <note place="foot"
+                        xml:id="ftn44" n="44">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, IX. Landtagsperiode, IV. Session, 74.
+                        Sitzung, 6. 11. 1908, 1510–13.</note></p>
+                <p>Sredi septembra (18. septembra) 1909 je deželni zbor sprejel zakon, ki je
+                    opredelil sistematično regulacijo Drave.<note place="foot" xml:id="ftn45" n="45">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, X. Landtagsperiode, I. Session, 30.
+                        Sitzung, 25. 1. 1910, 748.</note> Ne glede na to so oktobra slovenski
+                    poslanci vložili zahtevo po ureditvi reke v Obrežu in Grabah pri Središču ob
+                    Dravi, ker se v dveh letih po poplavi tam ni storilo še nič. <note place="foot"
+                        xml:id="ftn46" n="46">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, X. Landtagsperiode, I. Session, 10.
+                        Sitzung, 1. 10. 1909, 181.</note> Januarja 1910 je ptujsko-ormoški
+                    (slovenski) poslanec Anton Meško vložil zahtevo po utrditvi bregov pri Gorišnici
+                    pri Ptuju in ponovno problematiziral tudi situacijo v Grabah in Obrežu pri
+                        Središču.<note place="foot" xml:id="ftn47" n="47">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, X. Landtagsperiode, I. Session, 27.
+                        Sitzung, 20. 1. 1910, 651.</note> Tudi Josef Ornig je nekaj dni kasneje
+                    spraševal deželni odbor, ali se že kaj pripravlja glede regulacije.<note
+                        place="foot" xml:id="ftn48" n="48">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, X. Landtagsperiode, I. Session, 30.
+                        Sitzung, 25. 1. 1910, 748.</note> Medtem pa so se slovenski poslanci na
+                    zadnji seji (8. februarja) poslužili obstrukcije in preprečili sprejem
+                    proračuna, »to je ne dovoliti denarja za tako nasilno vladanje nemške večine,
+                    dokler ne uvidi svojega napačnega ravnanja in se ne vrne na pot enake
+                    pravičnosti nasproti Slovencem in Nemcem.« Nemška večina deželnega zbora »je iz
+                    narodne nestrpnosti dosledno prezirala naše najvažnejše zahteve in se nazadnje
+                    celo povspela do drznosti, da je hotela ustvariti zakone, ki bi pomenjali našo
+                    narodno smrt.«<note place="foot" xml:id="ftn49" n="49">
+                        <hi rend="italic">Slovenski gospodar</hi>, 10. 2. 1910, »Slovenskemu
+                        ljudstvu!,« 1.</note> Z obstrukcijo so nadaljevali tudi na začetku
+                    jesenskega zasedanja (sicer je obstrukcija z delnimi prekinitvami trajala do
+                    leta 1913). V interpelaciji (20. septembra) so sicer izpostavili obilne poplave
+                    in pozivali k čimprejšnjemu začetku del na Dravi.<note place="foot"
+                        xml:id="ftn50" n="50">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, X. Landtagsperiode, I. Session, 40.
+                        Sitzung, 20. 9. 1910, 966.</note></p>
+                <p>Toda naslednjih nekaj let se (razen žolčnih debat glede denarja, težav z
+                    melioracijskim fondom ipd.) ni zgodilo nič konkretnega. Nato je zadevo finančno
+                    v celoti prevzela država. Poročevalec deželnokulturnega odbora, slovenski
+                    poslanec Franc Pišek, je februarja 1914 zadevo predstavil kolegom poslancem,
+                    prav tako še novosti pri regulaciji; seznanil jih je z odločitvijo, da
+                    regulirana struga ne bo več ravna, pač pa ovinkasta, saj se je to izkazalo za
+                    boljšo možnost, ki tok upočasni (takšen sistem sicer ni bil popolna novost, saj
+                    so model v preteklosti že delno preizkušali). Ptujski (slovenski) poslanec Jožef
+                    Ozmec je zadevo pohvalil in menil, da ni več ovir za začetek del. Dejal je, da
+                    je bilo v zadnjih desetletjih preveč poplav, da bo z novo metodo stvar dejansko
+                    funkcionirala, in pozival, naj naredijo podobno še nižje Ptuja do Središča, saj
+                    bo tako manj poplav, kar bo bolje za okolico, polja, njive, travnike in gozdove.
+                    Dodal je še, da se je neregulirana reka pri Središču v zadnjih dvajsetih letih
+                    premaknila za kilometer severno v štajersko škodo in da se bo najbrž še, dokler
+                    regulacija tega končno ne ustavi. <note place="foot" xml:id="ftn51" n="51">
+                        <hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>, X. Landtagsperiode, II. Session, 24.
+                        Sitzung, 27. 2. 1914, 764, 765.</note></p>
+                <p>A za časa Avstrije se to ni zgodilo, saj je smele načrte ustavila prva svetovna
+                    vojna. Regulacijo Drave je tako nadaljevala njena »naslednica«, Kraljevina SHS
+                    oziroma Kraljevina Jugoslavija. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <listBibl>
+                    <head>Časopisje</head>
+                    <bibl><hi rend="italic">Slovenski gospodar</hi>, 1910, 1921. </bibl>
+                    <bibl><hi rend="italic">Tagespost</hi>, 1864. </bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Literatura</head>
+                    <bibl>Almer, Daniela. Die entwicklungsgeschichtliche Darstellung des
+                        Wasserwirtschaftsrechtes im europäischen Kontext, Dissertation zur Erlangung
+                        des akademischen Grades einer Doktorin der Rechtswissenschaften.
+                        Karl-Franzens- Universität Graz; Rechtwissenschaftliche Fakultät,
+                        2015.</bibl>
+                    <bibl>Grahornik, Matjaž. »The Territory on the Right Bank of the Drava Between
+                        Maribor and Ptuj in Miscellaneous Sources from the 17<hi rend="superscript"
+                            >th</hi> and 18<hi rend="superscript">th</hi> Century.« <hi
+                            rend="italic">Ekonomska i ekohistorija </hi>13 (2017): 25<hi
+                            rend="italic">–</hi>36. </bibl>
+                    <bibl>Heppner, Harald. »Die Umwelt an der slowenischen Drau im Spiegel der
+                        Josephinischen Landesaufnahme (1763<hi rend="italic">–</hi>1787).« <hi
+                            rend="italic">Ekonomska i ekohistorija </hi>7 (2011): 93<hi
+                            rend="italic">–</hi>100. </bibl>
+                    <bibl>Petrić, Hrvoje. »Rijeka Drava od štajersko-hrvatske granice do ušća u
+                        Dunav početkom 1780-ih godina.« <hi rend="italic">Ekonomska i ekohistorija
+                        </hi>7 (2011): 49<hi rend="italic">–</hi>63.</bibl>
+                    <bibl>Zorn, Matija »Gospodarska vloga reke Drave v Sloveniji – od plovnosti reke
+                        do hidroenergetske izrabe.« <hi rend="italic">Podravina</hi> 17, št. 33
+                        (2018): 32<hi rend="italic">–</hi>62. </bibl>
+                </listBibl>
+                <list type="unordered">
+                    <head>Objavljeni viri</head>
+                    <item><hi rend="italic">Beilagen zu den stenographischen Protokollen über die
+                            Sitzungen des Steiermärkischen Landtages</hi>, 1865/66, L. T. Z. 39,
+                        1865. </item>
+                    <item><hi rend="italic">Stenographische Protokolle über die Sitzungen des
+                            Steiermärkischen Landtages</hi>
+                        <list>
+                            <item> - I. Landtagsperiode, IV., V. Session. </item>
+                            <item> - II. Landtagsperiode, III. Session.</item>
+                            <item> - IV. Landtagsperiode, VI., VII. Session.</item>
+                            <item> - V. Landtagsperiode, I., II. Session.</item>
+                            <item> - VI. Landtagsperiode, V., VII. Session. </item>
+                            <item> - VII. Landtagsperiode, I. Session.</item>
+                            <item> - VIII. Landtagsperiode, II., IV.,V. Session.</item>
+                            <item> - IX. Landtagsperiode, I.. II.. III., IV. Session.</item>
+                            <item> - X. Landtagsperiode, I., II. Session.</item>
+                        </list>
+                    </item>
+                </list>
+                <listBibl>
+                    <head>Spletni viri</head>
+                    <bibl><hi rend="italic">Donauregulierung – Wikipedia</hi>. Pridobljeno 29. 6.
+                        2022. <ref target="https://de.wikipedia.org/wiki/Donauregulierung"
+                            >https://de.wikipedia.org/wiki/Donauregulierung</ref>.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Statistične publikacije</head>
+                    <bibl><hi rend="italic">Die Landesvertretung von Steiermark, Achter Theil</hi>,
+                            <hi rend="italic">1903</hi><hi rend="italic">–</hi><hi rend="italic"
+                            >08</hi>. Herausgegeben von Landes-Ausschuss des Herzogthums Steiermark. Graz:
+                        Verlag des Landes-Ausschusses des Herzogthums Steiermark, 1916.</bibl>
+                    <bibl><hi rend="italic">Die Landesvertretung von Steiermark, IV. Theil</hi>, <hi
+                            rend="italic">1878</hi><hi rend="italic">–</hi><hi rend="italic"
+                                >1884</hi>. Herausgegeben von Landes-Ausschuss des Herzogthums Steiermark. Graz:
+                        Leykam, 1885.</bibl>
+                    <bibl><hi rend="italic">Die Landesvertretung von Steiermark, Sechster
+                        Theil</hi>, <hi rend="italic">Erste Abtheilung, 1891</hi><hi rend="italic"
+                            >–</hi><hi rend="italic">1896</hi>. Herausgegeben von Landes-Ausschuss des Herzogthums
+                        Steiermark. Graz: Verlag des Landes-Ausschusses des Herzogthums
+                        Steiermark, 1898.</bibl>
+                    <bibl><hi rend="italic">Die Landesvertretung von Steiermark, Siebenter
+                            Theil</hi>, <hi rend="italic">1897</hi><hi rend="italic">–</hi><hi
+                                rend="italic">1902</hi>. Herausgegeben von Landes-Ausschuss des Herzogthums Steiermark. Graz: Verlag des Landes-Ausschusses des Herzogthums Steiermark,
+                        1903.</bibl>
+                    <bibl><hi rend="italic">Die Landesvertretung von Steiermark, V. Theil</hi>, <hi
+                            rend="italic">1885</hi><hi rend="italic">–</hi><hi rend="italic"
+                                >1890</hi>. Herausgegeben von Landes-Ausschuss des Herzogthums Steiermark. Graz:
+                        Leykam, 1891.</bibl>
+                    <bibl>Pairhuber, Johann.<hi rend="italic"> Die Landesvertretung von Steiermark,
+                            II. Theil, 1867</hi><hi rend="italic">–</hi><hi rend="italic">1871.
+                        </hi>Graz: Leykam-Josefsthal, 1872.</bibl>
+                    <bibl>Pairhuber, Johann. <hi rend="italic">Die Landesvertretung von Steiermark,
+                            III. Theil</hi>, <hi rend="italic">1872</hi><hi rend="italic">–</hi><hi
+                            rend="italic">1877.</hi> Graz: Leykam-Josefsthal, 1878.</bibl>
+                    <bibl>Stremayr, Carl. <hi rend="italic">Die Landesvertretung von Steiermark, I.
+                            Theil, 1861</hi><hi rend="italic">–</hi><hi rend="italic">1866.</hi>
+                        Graz: Leykam's Erben, 1867.</bibl>
+                </listBibl>
+            </div>
+            <div type="summary">
+                <docAuthor>Filip Čuček</docAuthor>
+                <head>“DURING THE LONG CENTURIES OF ITS RULE, THE FORMER AUSTRIA SAW NO SENSE IN
+                    FIXING THE RIVER /.../ BECAUSE IT WAS BUSY EVERYWHERE ELSE AND ONLY DID AS
+                    LITTLE AS POSSIBLE IN THIS AREA.”</head>
+                <head>THE RIVER DRAVA IN THE STYRIAN PROVINCIAL ASSEMBLY IN THE SECOND HALF OF THE
+                        19<hi rend="superscript">TH</hi> AND THE BEGINNING OF THE 20<hi
+                        rend="superscript">TH</hi> CENTURY</head>
+                <head>SUMMARY</head>
+                <p>In the second half of the 19<hi rend="superscript">th</hi> century, modernisation
+                    in Austria also led to a “shift” in the perception of inland waterways. While
+                    the Habsburg Monarchy favoured larger watercourses – initially because of
+                    navigation and later also due to other economic interests (for example, the
+                    regulation of the Danube had started already in the 15 <hi rend="superscript"
+                        >th</hi> century) – the smaller, local streams came to its attention much
+                    later. It was only with the restoration of constitutional life in Austria that
+                    individual rivers ended up on the “agenda” of the Provincial Assemblies. In line
+                    with the national policy, the possibility for larger ships to navigate the river
+                    Drava as far as the city of Maribor was a subject of debates already in the
+                    mid-1860s. The government rejected the project because it was too expensive,
+                    though it did “promise” to focus on it in the future. </p>
+                <p>However, Drava caused many problems in the following years by flooding its
+                    immediate surroundings, so its regulation became a priority. At the end of May
+                    1871, works thus began on a canal in the village of Spodnji Duplek to shorten
+                    the meander and thus stem the numerous floods on the western side of the
+                    Slovenske gorice hills. In 1875, regulation also began in the municipality of
+                    Loka, downstream from Duplek. By the early 1880s, some maintenance works had
+                    been carried out near both Duplek and Loka, while in 1880 and 1881, due to the
+                    1879 flood in Starše, an embankment was built there as well. Meanwhile, a new
+                    problem was emerging further downstream in Ptuj and as far as Bukovci, where the
+                    river would also flood and endanger the local landowners. </p>
+                <p>In the second half of the 1880s, a more extensive though still partial river bank
+                    rehabilitation was attempted. After the matter had remained “stagnant” for a few
+                    years, in September 1888, the Slovenian deputies in the Provincial Assembly in
+                    Graz once again called for regulation, as the situation upstream and downstream
+                    of Ptuj had deteriorated considerably during those few years. The Provincial
+                    Committee therefore decided to regulate the most severely affected parts of the
+                    river bank. More concrete works took place in the first half of the 1890s when
+                    the first systematic measures were implemented between Maribor and Središče. </p>
+                <p>After the completion of the works on an approximately
+                    six-and-a-half-kilometre-long section of the river bank, further maintenance was
+                    planned in this section in the years between 1895 and 1898. The government
+                    extended the maintenance works until 1902 and provided more than a million <hi
+                        rend="italic">krone</hi> (crowns) for the sections of the river Drava at
+                    Frankovci (10 %) and Zabovci (90 %). Meanwhile, Lower Styrian deputies called
+                    for the immediate beginning of the systematic regulation of Drava between
+                    Maribor and Središče, which had been the subject of debates ever since the
+                    1890s. The Slovenian deputies praised the works that had already been completed.
+                    However, in the autumn of 1904 and the winter of 1905, they kept reiterating
+                    that the banks still needed to be fortified in the vicinity of Formin and
+                    Muretinci. Between 1891 and 1904, i.e. from the beginning of the four-year
+                    projects, more than a million crowns were spent on the regulation works between
+                    Maribor and Središče. Also over the next five years, until 1908, the project
+                    cost just under one million crowns, approximately. </p>
+                <p>At the end of September 1907, the Slovenian deputies complained that nothing had
+                    been done about the areas near Središče ob Dravi that had recently been flooded
+                    again and called on the government to take action. However, a year later, Drava
+                    was still wreaking havoc. Josef Ornig pointed out that partial (and not very
+                    successful) works between Maribor and the Croatian border had been going on ever
+                    since 1892. He believed that the time had come for the government to finally
+                    invest the promised funds in the river and asked the government to draft a law
+                    on systematic regulation. </p>
+                <p>In the middle of September (on 18 September) 1909, the Provincial Assembly passed
+                    an act setting out the systematic regulation of the river Drava. The following
+                    year, Slovenian deputies announced an obstruction which lasted (with
+                    interruptions) until 1913. Nevertheless, nothing concrete happened for the next
+                    few years (apart from some fruitless debates about money, problems with the
+                    melioration fund, etc., until the state assumed complete financial control).
+                    Meanwhile, World War I put an end to these ambitious plans. The regulation of
+                    the river Drava was thus continued by Austria’s “successor”, the Kingdom of the
+                    SHS or the Kingdom of Yugoslavia. </p>
+            </div>
+        </back>
+    </text>
+</TEI>
