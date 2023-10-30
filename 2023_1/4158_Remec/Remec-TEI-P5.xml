@@ -1,0 +1,2657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epidemija samomorov? Odmevi na naraščanje stopnje samomorilnosti na
+                    Slovenskem v 19. in 20. stoletju<note place="foot" xml:id="ftn1" n="*">Članek je
+                        nastal v okviru raziskovalnega projekta J6-3123 <hi rend="italic">Greh,
+                            sramota, simptom: samomor in njegove percepcije na Slovenskem
+                            (1850–2000)</hi>, ki ga financira Javna agencija za raziskovalno
+                        dejavnost Republike Slovenije.</note></title>
+                <author>
+                    <forename>Meta</forename>
+                    <surname>Remec</surname>
+                    <roleName>Dr.</roleName>
+                    <roleName>znanstvena sodelavka</roleName>
+                    <affiliation>Inštitut za novejšo zgodovino</affiliation>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>meta.remec@inz.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2023-05-04</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/4158</pubPlace>
+                <date>2023</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">63</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>suicide</term>
+                    <term>suicide among youth</term>
+                    <term>suicide quotient</term>
+                    <term>Émile Durkheim</term>
+                    <term>Tomáš Garrigue Masaryk</term>
+                    <term>Ivo Pirc</term>
+                    <term>Bojan Pirc</term>
+                    <term>socialism</term>
+                    <term>discourse analysis</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>samomor</term>
+                    <term>samomor med mladimi</term>
+                    <term>Émile Durkheim</term>
+                    <term>Ivo Pirc</term>
+                    <term>Bojan Pirc</term>
+                    <term>diskurzivna analiza</term>
+                    <term>samomorilni količnik</term>
+                    <term>Tomáš Garrigue Masaryk</term>
+                    <term>socializem</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2023-05-15T08:03:48Z</date>
+                    <name>Mihael Ojsteršek</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Meta Remec<note place="foot" xml:id="ftn2" n="**"><hi rend="bold">Dr.,
+                        znanstvena sodelavka, Inštitut za novejšo zgodovino, Privoz 11, SI-1000
+                        Ljubljana; </hi><ref target="mailto:meta.remec@inz.si"><hi rend="bold"
+                            >meta.remec@inz.si</hi></ref></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="DOI">https://doi.org/10.51663/pnz.63.1.01</idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">Članek analizira problematiko samomora na Slovenskem od prvih
+                        statističnih analiz, ki so zajele tudi slovenski prostor v drugi polovici
+                        19. stoletja, do konca šestdesetih let 20. stoletja, ko so statistični
+                        podatki in pritisk javnosti, ki se je ustvaril tudi zaradi napačnih in
+                        izkrivljenih interpretacij teh podatkov, takratno socialistično oblast
+                        spodbudili k aktivnemu reševanju problematike. Članek na podlagi
+                        statističnih podatkov in njihovih interpretacij, poročil policije in Službe
+                        državne varnosti ter časopisja prikaže diskurze oblasti, stroke in medijev.
+                        Predstavi dojemanje fenomena samomorilnosti v različnih delih družbe in
+                        različne interpretacije vzrokov za porast stopnje samomorilnosti v vsakem od
+                        obravnavanih obdobij ter pojasni, kako so podatki o samomorilnosti postali
+                        sredstvo manipulacije in obračunavanja z nasprotniki in orodje za iskanje
+                        krivcev za domnevne stranpoti v družbi.</hi></p>
+                <p><hi rend="italic">Ključne besede: samomor, samomor med mladimi, samomorilni
+                        količnik, Émile Durkheim, Tomáš Garrigue Masaryk, Ivo Pirc, Bojan Pirc,
+                        socializem, diskurzivna analiza</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head>A SUICIDE EPIDEMIC? RESPONSES TO THE INCREASING SUICIDE RATE
+                        IN THE SLOVENIAN TERRITORY IN THE 19<hi rend="italic superscript"
+                        >TH</hi> AND 20<hi rend="italic superscript"
+                        >TH</hi> CENTURIES</head>
+                <p><hi rend="italic">The following article analyses the issue of suicide in Slovenia
+                        from the first statistical analyses that also covered the territory
+                        inhabited by Slovenians in the second half of the 19</hi><hi
+                        rend="italic superscript">th</hi><hi rend="italic"> century until the end of
+                        the 1960s, when the relevant statistical data and public pressure, also
+                        resulting from the incorrect and distorted interpretations of these data,
+                        prompted the contemporaneous socialist authorities to actively address the
+                        problem. Based on statistical data and their interpretations as well as on
+                        the reports from the police, the State Security Service, and the press, the
+                        article outlines the discourses of the authorities, the profession, and the
+                        media. It shows how the phenomenon of suicide was perceived by the different
+                        segments of society and reveals the various interpretations of the reasons
+                        for the increasing suicide rates in each of the periods under consideration.
+                        It also describes how suicide data became a means of manipulation and
+                        retaliation against political opponents as well as a tool for pointing out
+                        the culprits for the alleged blunders of society.</hi></p>
+                <p><hi rend="italic">Keywords: suicide, suicide among youth, suicide quotient, Émile
+                        Durkheim, Tomáš Garrigue Masaryk, Ivo Pirc, Bojan Pirc, socialism, discourse
+                        analysis</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>Samomor na Slovenskem</head>
+                <p>Samomor je na Slovenskem pereča problematika, zato so teme samomora, poskusa
+                    samomora in samomorilnosti nasploh v slovenski znanosti prisotne že več
+                    desetletij, pri čemer pa med študijami ni mogoče zaslediti take, ki bi samomor
+                    obravnavala s historičnega vidika. Prve statistične analize o razširjenosti
+                    samomora na Slovenskem so nastale že konec 19. stoletja, do obsežnejših
+                    suicidioloških analiz, iz katerih je bilo poleg podatkov o starosti, spolu in
+                    socialnem statusu mogoče sklepati tudi o širšem odnosu do samomora v družbi, pa
+                    je prišlo šele v desetletjih po drugi svetovni vojni. V večini lahko zasledimo
+                    zaskrbljujoč podatek, da je količnik samomorilnosti na Slovenskem v dobi enega
+                    stoletja narastel s 3 samomorov na 100.000 prebivalcev v letu 1873 na 34 v letu
+                    1980, v nekaterih delih države pa celo na 60 samomorov na 100.000
+                        prebivalcev.<note place="foot" xml:id="ftn4" n="1">Gl. npr. Lev Milčinski,
+                            <hi rend="italic">Samomor in Slovenci</hi> (Ljubljana: Cankarjeva
+                        založba, 1985). Anton Dolenc, ur., <hi rend="italic">Samomor na
+                            Slovenskem</hi>. <hi rend="italic">Medicinsko izvedenstvo</hi>
+                        (Ljubljana: Medicinski razgledi, 1990). Andrej Marušič in Saška Roškar, <hi
+                            rend="italic">Slovenija s samomorom ali brez</hi> (Ljubljana: Državna založba Slovenije,
+                        2004).</note> Kljub potencialnim napakam v statističnih prikazih gre za
+                    porast, ki je vzbujal in še vzbuja veliko pozornosti različnih strok, v zadnjem
+                    času pa tudi zgodovinopisja, ki je prepoznalo, da slovensko ozemlje omogoča
+                    dobro študijo primera, saj gre za periferni prostor na stičišču kultur in ver z
+                    močnim vplivom katoliške morale, ki je v obdobju stoletja in pol doživel velike
+                    spremembe v državnih in ideoloških okvirih.</p>
+                <p>Zgodovinopisje je pod vplivom Jacka Douglasa in njegovega dela <hi rend="italic"
+                        >The Social Meanings of Suicide</hi> v zadnjih desetletjih preseglo pristop
+                    raziskav, ki bi temeljil zgolj na statistikah. Douglas je namreč odkrito
+                    problematiziral točnost uradnih statistik, ki naj bi jih vedno znova
+                    spodkopavali subjektivnost poročevalcev, tendenca po prikrivanju samomora ter
+                    preveliko omejevanje na urbana področja in zanemarjanje dogajanja na
+                        podeželju.<note place="foot" xml:id="ftn5" n="2">Olive Anderson, <hi
+                            rend="italic">Suicide in Victorian and Edwardian England</hi> (Oxford:
+                        Clarendon Press, 1987). Jack Douglas, <hi rend="italic">The Social Meanings
+                            of Suicide</hi> (Princeton: Princeton University Press, 1967).</note>
+                    Raziskovalce je vse bolj vodilo prepričanje, da morajo analize sicer temeljiti
+                    na statističnih podatkih, da pa fenomena samomora ni mogoče zreducirati na
+                    statistični pojav in prav tako ne zgolj na psihiatrično diagnozo. Sodobni
+                    raziskovalci samomora v zgodovinski perspektivi tako upoštevajo tudi
+                    psihosocialne, kulturne, antropološke in celo psihoanalitske teze, ki v ospredje
+                    postavljajo razumevanje diskurzov – religijskega, medicinskega, laičnega,
+                    medijskega, znanstvenega, poljudnoznanstvenega, političnega itd. V skladu s
+                    Foucaultovo tezo, da je diskurz praksa, ki v določenem času in prostoru oblikuje
+                    objekte in fenomene, o katerih govori,<note place="foot" xml:id="ftn6" n="3"
+                        >Michel Foucault, <hi rend="italic">Arheologija vednosti</hi> (Ljubljana:
+                        Studia humanitatis, 2001), 54, 55.</note> se proučuje, kako so se po
+                    različnih besedilnih kanalih v družbi uveljavljali in reproducirali predsodki,
+                    kako se je preko analiziranih besedil izvrševala oblast, kako so se izvajale
+                    zlorabe in kakšna je bila njihova vloga pri vzpostavljanju marginalnih družbenih
+                    skupin, med katere zagotovo spadajo tudi duševni bolniki in ljudje, ki so
+                    poskušali izvršiti ali so izvršili dejanje samomora.<note place="foot"
+                        xml:id="ftn7" n="4">Teun A. Van Dijk, »The Study of Discourse,« v: Teun A.
+                        Van Dijk, ur., <hi rend="italic">Discourse as Structure and Process.
+                            Discourse Studies: A Multidisciplinary Introduction. Volume 1</hi>
+                        (London: Sage Publication, 1997), 1–34.</note> Takšne raziskave se prav tako
+                    osredotočajo na analizo vključevalnih in izključevalnih diskurzov<note
+                        place="foot" xml:id="ftn8" n="5">Karmen Erjavec in Melita Poler Kovačič, <hi
+                            rend="italic">Kritična diskurzivna analiza novinarskih prispevkov</hi>
+                        (Ljubljana: Fakulteta za družbene vede, 2007).</note> ter tega, kaj se je o tej problematiki smelo
+                    misliti in zapisati in kaj ne. V središču pozornosti so zlasti medijski pa tudi
+                    znanstveni, poljudnoznanstveni in psevdoznanstveni diskurz, ki so vsak na svoj
+                    način, s svojimi metodami in svojo terminologijo poskušali zarisati jasno in
+                    nedvoumno ločnico med normalnim in nenormalnim, sprejemljivim in nesprejemljivim
+                    ter zdravim in bolnim ter jasno določiti vzroke in posledice deviantnosti, ki
+                    naj bi bila podlaga za samomorilne težnje in so v obdobju zadnjega stoletja in
+                    pol pomembno prispevali k oblikovanju modernega človeka in kulturnih vrednot.
+                    Samomor je tako že zdavnaj prerastel medicinsko-statistične okvire in postaja
+                    študija primera za širše socialnozgodovinske analize premikov na področju
+                    vrednot, mišljenja, vedenja, saj odslikava vrednote, strahove in predsodke
+                    vsakokratne družbe.</p>
+                <p>Proučevanje samomora kot historičnega fenomena je v središče raziskav postavilo
+                    socialni pomen (in breme) samomora, sekularizacijo samomora in posledično
+                    spreminjajočo se vlogo samomora v družbi, podobo duševnega bolnika in
+                    samomorilca, različne diskurze, ki so spremljali fenomen samomora, vse
+                    pogostejše pa so tudi mikrozgodovinske študije in analize tega, kako so se
+                    posamezne socialne, ekonomske in politične razmere odražale v življenju
+                    posameznega samomorilca. Vse našteto kljub vsemu ne pomeni, da je statistične
+                    podatke mogoče ali treba popolnoma prezreti. Ti ostajajo upoštevanja vreden vir,
+                    vendar ne zgolj v golem pozitivističnem smislu. Kljub temu, da se analize še
+                    vedno ukvarjajo z obravnavo posameznih dejavnikov (starost, spol, poklic, kraj
+                    bivanja itd.), ki naj bi vplivali na stopnjo samomorilnosti, v ospredje stopa
+                    proučevanje statističnih podatkov kot sredstva manipulacije in obračunavanja z
+                    nasprotniki oziroma orodja za iskanje krivcev za domnevne stranpoti v družbi in
+                    domnevno naraščajoče fenomene socialne patologije. Statistika, ki je omogočala
+                    spremljanje gibanja količnika samomorilnosti v posameznih obdobjih, je namreč
+                    pogosto postala podlaga za psevdoanalize, zakaj je v posameznih obdobjih
+                    prihajalo do naraščanja stopnje samomorilnosti. Statistične podatke in analize
+                    iz preteklosti velja torej poznati in razmeti, čeprav se bolj kot z analizo
+                    statističnih podatkov in ugotavljanjem domnevnih vzrokov za poraste, ki jih je
+                    statistika v določenih obdobjih zaznala, zgodovinopisje ukvarja z analizo
+                    diskurzov, agende, ki se je skrivala za tezami vsakega od avtorjev, in tako
+                    ponuja nov pristop k proučevanju fenomena samomora v preteklosti.</p>
+            </div>
+            <div>
+                <head>Začetki statističnega spremljanja stopenj samomorilnosti</head>
+                <p>Fenomen samomora je star kot človeštvo samo, prisoten je bil v različnih obdobjih
+                    človeške civilizacije, ki so do njega zavzemala različna stališča in mu
+                    pripisovala različne moralne predznake.<note place="foot" xml:id="ftn9" n="6"
+                        >Anton Dolenc in Peter Borisov, »Zgodovinski pogled na samomor in
+                        ovrednotenje samomora skozi prostor in čas,« v: Dolenc, ur., <hi
+                            rend="italic">Samomor na Slovenskem,</hi> 7–17.</note> Zaradi
+                    neobstoječih statističnih podatkov znanost ne more odgovoriti na vprašanje o
+                    številu samomorov v obdobju od srednjega veka do 18. stoletja, lahko pa na
+                    podlagi števila del, ki so se s to problematiko ukvarjala, in analize diskurza
+                    jasno pokaže na naraščanje tematiziranja fenomena samomora.<note place="foot"
+                        xml:id="ftn10" n="7">Carlos Watzka, »Modernisierung und Selbsttötung in
+                        Österreich. Einige Daten zur Sozialgeschichte und Thesen zur Sozialtheorie
+                        des Suizids,« <hi rend="italic">Virus: Beiträge zur Sozialgeschichte der
+                            Medizin</hi> 7 (2008): 147–67.</note> V obravnavanem obdobju je spolnost
+                    izgubila vlogo glavnega družbenega tabuja, njeno vlogo pa je prevzela smrt, ki
+                    preide v izrazito intimo in se nazadnje institucionalizira.<note place="foot"
+                        xml:id="ftn11" n="8">Michel Foucault, <hi rend="italic">Society Must Be
+                            Defended: Lectures at the College de France, 1975–1976</hi> (New York:
+                        Picador, 2003).</note></p>
+                <p>Avstrijska država je v drugi polovici 19. stoletja vzpostavila sofisticiran in
+                    natančen birokratski aparat, ki je obsegal tudi beleženje vzrokov smrti, zaradi
+                    česar tudi za slovensko ozemlje oziroma za dežele, kjer so Slovenci prebivali,
+                    obstajajo precej natančni podatki, ki jih je mogoče analizirati, primerjati in
+                    ovrednotiti. Durkheim je zapisal celo, da je Avstrija »popoln laboratorij« za
+                    proučevanje fenomena samomora zaradi svoje nacionalne, verske in socialne
+                    raznolikosti, ki se je v vsaki od dežel pokazala na čisto specifičen način, vsem
+                    pa je bila skupna metodična in zanesljiva statistika. Z naraščanjem strahu pred
+                    padcem natalitete in usihanjem življenjske moči narodov je namreč tudi smrt, v
+                    vseh svojih oblikah, postala predmet statističnega proučevanja. Smrtne primere
+                    so začeli beležiti na uniformiranih obrazcih, proučevati in analizirati. Prvi
+                    statistični pregled o številu samomorov za obdobje 1819–1872 je v letu 1876
+                    pripravil Julius Platter. Podatke za Koroško in Kranjsko je združil, dolgo
+                    časovno obdobje, ki ga je zajel, pa že nakazuje na konstanten značaj stopenj
+                    samomorilnosti na nekem področju, kar je kasneje dokazal tudi Durkheim, čigar
+                    analize so temeljile na teh statističnih podatkih.<note place="foot"
+                        xml:id="ftn12" n="9">Émile Durkheim, <hi rend="italic">Suicide: A Study in
+                            Sociology</hi> (London, New York: Routledge, Taylor&amp;Francis
+                        e-Library, 2005), 35. Julius Platter, »Ueber den Selbstmord in Oesterreich,«
+                            <hi rend="italic">Statistische Monatsschrift</hi> 2 (1876):
+                        97–107.</note>
+                </p>
+                <table>
+                    <head><hi rend="italic">TABELA 1.</hi> Pogostost samomorov v nekaterih
+                        avstrijskih deželah v obdobju 1819–1872.</head>
+                    <row>
+                        <cell rend="left">Dežela/Leto</cell>
+                        <cell rend="left">1819–1827</cell>
+                        <cell rend="left">1828–1836</cell>
+                        <cell rend="left">1837–1845</cell>
+                        <cell rend="left">1846–1854</cell>
+                        <cell rend="left">1855–1863</cell>
+                        <cell rend="left">1864–1872</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Štajerska</cell>
+                        <cell rend="left">20</cell>
+                        <cell rend="left">27</cell>
+                        <cell rend="left">28</cell>
+                        <cell rend="left">32</cell>
+                        <cell rend="left">45</cell>
+                        <cell rend="left">56</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Koroška in Kranjska</cell>
+                        <cell rend="left">12</cell>
+                        <cell rend="left">18</cell>
+                        <cell rend="left">21</cell>
+                        <cell rend="left">23</cell>
+                        <cell rend="left">28</cell>
+                        <cell rend="left">41</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Dalmacija</cell>
+                        <cell rend="left">16</cell>
+                        <cell rend="left">24</cell>
+                        <cell rend="left">21</cell>
+                        <cell rend="left">14</cell>
+                        <cell rend="left">16</cell>
+                        <cell rend="left">14</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Primorje</cell>
+                        <cell rend="left">23</cell>
+                        <cell rend="left">21</cell>
+                        <cell rend="left">19</cell>
+                        <cell rend="left">15</cell>
+                        <cell rend="left">25</cell>
+                        <cell rend="left">34</cell>
+                    </row>
+                    <note n="">Vir: Julius Platter, »Ueber den Selbstmord in Oesterreich,« <hi rend="italic">Statistische Monatsschrift</hi> 2 (1876): 100.</note>
+                </table>
+                <lb/>
+                <p>Po statističnih podatkih za obdobje med letoma 1819 in 1872 sta bili med vsemi
+                    deželami v avstrijskem delu monarhije Kranjska in Koroška na sedmem od desetih
+                    mest po pogostosti samomora, območje Trsta, Istre in Gorice pa celo na
+                    predzadnjem mestu. Podobno nizke številke naj bi bile značilne tudi za ogrski
+                    del monarhije, kjer pa natančne statistike sicer še niso vodili.<note
+                        place="foot" xml:id="ftn13" n="10">To dejstvo navaja tudi Enrico Morselli
+                        (Henry (Enrico) Morselli, <hi rend="italic">Suicide</hi>: <hi rend="italic"
+                            >An Essay on Comparative Moral Statistics</hi> (New York: Arno Press,
+                        1975), 82, 83, 101). Načrtno zbiranje podatkov je bilo v ogrskem delu
+                        monarhije povezano z vzpostavitvijo mrliško ogledniške službe po letu 1876.
+                        Prvi podatki, ki segajo v leto 1887, kažejo na 95 samomorov na milijon
+                        prebivalcev, statistične študije iz let 1910–1911 pa kažejo, da je prišlo
+                        bodisi do izjemno hitrega porasta samomorilnosti, ki je na prelomu iz 19. v
+                        20. stoletje bila že višja, kot v avstrijskem delu monarhije, bodisi do
+                        razvoja na področju uprave in statističnega raziskovanja, ki je tik pred
+                        izbruhom prve svetovne vojne znal učinkovito beležiti fenomen, ki je bil v
+                        družbi sicer prisoten že pred tem. Gl. Maurice Halbwachs, <hi rend="italic"
+                            >The Causes of Suicide</hi> (New York: Free Press, 1978), 72. Lajos
+                        Bálint, »Suicide in the Hungarian Kingdom,« v: <hi rend="italic">Working
+                            Papers on Population, Family and Welfare, 25</hi> (Budapest: Hungarian
+                        Demographic Research Institute, 2016), 5.</note> Masaryk je o tem sklepal na
+                    podlagi dejstva, da je bilo med letoma 1873 in 1877 v povprečju več kot 10.000
+                    obtoženih zaradi umora, uboja ali povzročitve hudih telesnih poškodb ter še
+                    približno 2600 zaradi poskusa umora, kar je predstavljalo kar 44 odstotkov vseh
+                    kaznivih dejanj v ogrskem delu monarhije, medtem ko je bilo v Avstriji teh zgolj
+                    26 odstotkov. Veljalo naj bi namreč pravilo, da višji ko je bil delež umorov in
+                    nasilnih zločinov, nižji naj bi bil delež samomorov.<note place="foot"
+                        xml:id="ftn14" n="11">Tomáš G. Masaryk, <hi rend="italic">Suicide and the
+                            Meaning of Civilization</hi> (Chicago, London: The University of Chicago
+                        Press, 1970), 47, 48, 84. Platter, »Ueber den Selbstmord in Oesterreich,«
+                        100, 101.</note>
+                </p>
+                <p>Začetke sociološkega pristopa k proučevanju samomora sta zaznamovala zlasti Tomáš
+                    Masaryk, ki je med drugim analiziral tudi podatke za dežele na ozemlju današnje
+                    Slovenije, v svetovnem merilu pa je najbolj odmevalo delo Émila Durkheima, ki je
+                    prav s sociološko-statistično orientirano raziskavo želel dokazati, da »samomor
+                    variira obratno sorazmerno z integracijo družbene skupine, katere del je
+                    posameznik«. Prepričan je bil, da je pojave, ki se dotikajo človeka, njegovega
+                    bivanja, čustvovanja in vedenja, mogoče opazovati povsem enako kot fizikalne, če
+                    jih le opazujemo na dovolj velikem vzorcu. Ko se individualne posebnosti in
+                    skrajni primeri izravnajo, naj bi bilo mogoče izluščiti splošne družbene
+                    zakonitosti, ki jih je mogoče popisati, analizirati in proučevati. Izhajal je iz
+                    prepričanja, da se pri samomoru ne ubije posameznik, ampak da se zgodi umor, ki
+                    ga zagreši družba. Zdravljenja je bila torej potrebna družba, ne posameznik. S
+                    svojimi tezami je posredno zavrnil takrat zelo razširjene ideje o progresivni
+                    degeneraciji, ki so vzroke za samomor pripisovale biološkim dejavnikom.<note
+                        place="foot" xml:id="ftn15" n="12">Durkheim,<hi rend="italic"> Suicide: A
+                            Study in Sociology</hi>, 2005, 101. Victor Bailey, <hi rend="italic"
+                            >»This Rash Act«. Suicide Across the Life Cycle in the Victorian
+                            City</hi> (Stanford: Stanford University Press, 1998), 16–18. Mike
+                        Hawkins, »Durkheim's Sociology and Theories of Degeneration,« <hi
+                            rend="italic">Economy and Society</hi> 28, št. 1 (1999): 128–32.
+                        Milčinski, <hi rend="italic">Samomor in Slovenci</hi>, 19–25. </note>
+                    Začetkov suicidogenih tokov ni iskal pri posamezniku in njegovih stiskah, temveč
+                    v objektivnih dejavnikih, kot so bili podnebje, geografske značilnosti, religija
+                    ter predvsem kolektivna zavest oziroma nekakšne skupne značilnosti in značaj, ki
+                    naj bi bili viri individualnih nagnjenj, zato je za Durkheima dejstvo, da so
+                    stopnje samomorilnosti znotraj posameznih skupnosti imele konstanten značaj,
+                    pomenilo, da je problematiko treba proučevati na ravni družbe. S proučevanjem
+                    stopenj samomorilnosti znotraj posameznih družbenih skupin je postavil temelje
+                    sodobni suicidiologiji.<note place="foot" xml:id="ftn16" n="13">Durkheim, <hi
+                            rend="italic">Suicide: A Study in Sociology, </hi>XV–XVI, 18, 263, 264.
+                        Masaryk, <hi rend="italic">Suicide, </hi>10–20.</note>
+                </p>
+                <p>Natančnejše statistike lahko sicer spremljamo po letu 1873, ko je nastala tudi
+                    prva mednarodna primerjalna študija, ki je razmere v avstrijskih deželah
+                    primerjala z razmerami v Prusiji, Angliji, Franciji, Rusiji in Italiji.<note
+                        place="foot" xml:id="ftn17" n="14">Eduard Bratassević, »Die Selbstmorde in
+                        Oesterreich 1873–1877 in Vergleichung zu jenen in Preussen, England,
+                        Russland und Italien,« <hi rend="italic">Statistische Monatsschrift</hi> 4
+                        (1878): 429–33.</note> Podatek, ki ga je Eduard Bratassević navedel za
+                    Kranjsko, in sicer tri samomore na 100.000 prebivalcev za leto 1873, je pri
+                    avtorjih v 20. stoletju vzbudil izjemno zanimanje, saj so podatke za Kranjsko
+                    preprosto prenesli na Slovence ter spregledali Masarykovo opozorilo, da podatkov
+                    za posamezne avstrijske dežele ne smemo enačiti z nacionalnostjo, saj je
+                    prebivalstvo preveč mešano, da bi na podlagi podatkov lahko denimo sklepali,
+                    kakšen je bil delež samomorov med Nemci in Slovani na Češkem in Moravskem,
+                    nacionalni značaji pa naj bi bili tudi sicer preveč izmuzljiva kategorija za
+                    resno znanstveno proučevanje.<note place="foot" xml:id="ftn18" n="15">Masaryk,
+                            <hi rend="italic">Suicide,</hi> 48–50.</note> Skok stopnje
+                    samomorilnosti v obdobju enega stoletja s 3/100.000 na 35–40/100.000, v
+                    nekaterih delih Slovenije pa celo na 60/100.000, je veljal za izjemno zgovornega
+                    in naj bi nakazoval, da se je v dobrem stoletju v slovenski družbi zgodil popoln
+                    prelom, na katerega so začeli intenzivneje opozarjati v šestdesetih letih 20.
+                    stoletja ter posledično analizirati vzroke in iskati krivce za take
+                        razmere.<note place="foot" xml:id="ftn19" n="16">Milčinski, <hi
+                            rend="italic">Samomor in Slovenci</hi>, 141–44.</note>
+                </p>
+                <p>Ob dvomu v absolutne številke, ki so nezanesljive predvsem zaradi težav z
+                    rekonstrukcijo dogodkov, saj je mogoče sklepati, da je bilo precej prikrivanja
+                    zlasti s strani sorodnikov, pa tudi duhovnikov in zdravnikov, pa je naraščanje
+                    zaznavane stopnje samomorilnosti nedvoumno in relativno konstantno. Masaryk je
+                    ocenjeval, da so statistike prikazale približno polovico vseh smrti zaradi
+                    samomorov, vse ostale pa naj bi se skrivale v številnih smrtih zaradi nesrečnih
+                    slučajev. Smrt so namreč, če je bilo le mogoče in če volja samomorilca res ni
+                    bila eksplicitno jasno izražena, prikazali kot nesrečo. Analitiki so že zgodaj
+                    opozarjali, da bolj ko je skupnost strnjena in notranje povezana, večja je
+                    tendenca po zaroti molka, predvsem iz usmiljenja do umrlega in njegove družine.
+                    Zlasti so opozarjali na večje število smrti kot posledic tveganega vedenja z
+                    eventualnim smrtnim izidom, t. i. »prikritega samomora«, ki ga statistike niso
+                        vključevale.<note place="foot" xml:id="ftn20" n="17">Watzka, <hi
+                            rend="italic">Sozialstruktur und Suizid in Österreich. Ergebnisse einer
+                            epidemiologischen Studie fur da Land Steiermark</hi> (Wiesbaden: VS
+                        Verlag, 2008), 149, 150. Masaryk, <hi rend="italic">Suicide,</hi> 3.
+                        Durkheim, <hi rend="italic">Suicide: A Study in Sociology,</hi>
+                        XVIII-XIX.</note>
+                </p>
+                <p>Primerjava statističnih podatkov pokaže, da je imela Kranjska ob koncu 19.
+                    stoletja eno najnižjih stopenj samomorilnosti, presenetljivo celo nižjo od
+                    Goriške in Gradiščanske in povsem primerljivo s podatki za Istro, ki so bile vse
+                    izrazito katoliške dežele. Štajerska in Koroška sta imeli v istem obdobju vsaj
+                    dva- ali celo trikratno stopnjo samomorilnosti, ki je tudi hitreje naraščala,
+                    medtem ko je na Kranjskem ohranjala približno enako vrednost.<note place="foot"
+                        xml:id="ftn21" n="18">Bratassević, »Die Selbstmorde in Oesterreich
+                        1873–1877,« 429–33.</note> Durkheim in Masaryk v svojih analizah primerjata
+                    podatke o razmerah na Kranjskem, Hrvaškem in v Dalmaciji, ki naj bi imele samo
+                    46, 30 in 14 samomorov na milijon prebivalcev, kar je Durkheim pripisoval
+                    dejstvu, da naj bi slovanski narodi imeli manjše nagnjenje k samouničevanju (kot
+                    izjemi je navedel Češko in Moravsko: prva je imela 158 samomorov na milijon
+                    prebivalcev, druga pa 136), pri germanskih narodih naj bi bilo povprečje kar 100
+                    samomorov na milijon prebivalcev, pri romanskih 80, pri slovanskih pa le 34, kar
+                    naj bi se ujemalo tudi s pogostostjo duševnih bolezni, ki naj bi jih bilo največ
+                    med germanskimi in najmanj med slovanskimi narodi, ki naj bi bili še najbolj
+                    prvobitni in zato tudi bolj zdravi.<note place="foot" xml:id="ftn22" n="19"
+                        >Masaryk, <hi rend="italic">Suicide</hi>, 45, 107. Durkheim, <hi
+                            rend="italic">Suicide: A study in sociology</hi>, 34.</note>
+                </p>
+                <p>Po Masaryku naj bi bil samomor bolj razširjen v bolj industrializiranih in
+                    urbaniziranih okoljih, od koder se je nato kot nalezljiva bolezen širil naprej
+                    na periferijo in nato še na podeželje, opozarjal pa je, da tega pravila ne gre
+                    posploševati, saj naj bi bilo število samomorov odvisno tudi od socialne
+                    strukture mest. Samomor naj bi bil pogostejši med priseljenci prve generacije
+                    kot med avtohtonimi prebivalci, sploh če so prihajali kot pomožna delovna sila
+                    iz povsem drugih kulturnih in jezikovnih okolij ter bili pri tem pogosto
+                    izkoriščani in prisiljeni v življenje v nečloveških bivanjskih razmerah.<note
+                        place="foot" xml:id="ftn23" n="20">Masaryk, <hi rend="italic">Suicide,</hi>
+                        17, 18, 31.</note> Dokaz za to naj bi bile stopnje samomora, ki so bile
+                    najvišje v najgosteje poseljenih predelih avstro-ogrske monarhije, v Spodnji
+                    Avstriji, Moravski, Šleziji in na Češkem.<note place="foot" xml:id="ftn24"
+                        n="21">Ibidem<hi rend="italic">,</hi> 31.</note> Dejstvo, da je bil med
+                    avstrijskimi deželami samomor najbolj razširjen v Spodnji Avstriji, najmanj pa
+                    na Kranjskem in v Dalmaciji, je Durkheim pojasnjeval z »obratom agresije«, saj
+                    je bilo v Dalmaciji zabeleženih kar 79 umorov na milijon prebivalcev, na
+                    Kranjskem pa 57,4, medtem ko je bilo v Spodnji Avstriji, Češki in Moravski le
+                    14, 11 oziroma 15 umorov na milijon prebivalcev. To naj bi bil dokaz za razliko
+                    v agresiji, ki naj bi bila obrnjena navzven, in avtoagresiji, ki naj bi bila
+                    značilnejša za bolj kultivirana, urbanizirana, industrializirana in civilizirana
+                    področja, kjer so bili ljudje manj nagnjeni k izražanju svoje agresije. Poznejše
+                    analize so sicer zavrnile tezo, da je razvoj civilizacije prinesel tudi množično
+                    nevrotizacijo, melanholičnost in prej nepoznane duševne stiske. Študije, ki so
+                    zajele razvoj v mednarodnem kontekstu in s tem presegle evropocentričnost, so
+                    dokazale, da ni skupnosti, ki samomora v svoji zgodovini ne bi poznala, ne glede
+                    na njeno »primitivnost«.<note place="foot" xml:id="ftn25" n="22">John Weaver in
+                        David Wright, ur., <hi rend="italic">Histories of Suicide. International
+                            Perspectives on Self-destruction in the Modern World</hi> (Toronto:
+                        University of Toronto Press, 2009).</note> Ob koncu 19. in na začetku 20.
+                    stoletja pa se je vsekakor še vedno pojavljala teza, v katero je Durkheim sicer
+                    dvomil, da manj razviti posamezniki, med katere so prištevali »divje narode« pa
+                    tudi ženske, večinoma niso sposobni tako kompleksnega uvida v lastno bivanje, da
+                    bi ga bili sposobni z razumskim premislekom končati, ki je izjemno naraščanje
+                    samomora in poskusov pripisovala zlasti najrazvitejšim državam in okoljem.<note
+                        place="foot" xml:id="ftn26" n="23">Durkheim, <hi rend="italic">Suicide: A
+                            Study in Sociology</hi>, 177. Masaryk, <hi rend="italic">Suicide,</hi>
+                        20, 110, 116–21.</note> Razlika naj bi bila tudi odraz prisotnosti in
+                    odsotnosti državnih struktur in avtoritet ter zaupanja vanje ter posledično
+                    manjše nagnjenosti k jemanju zakona v svoje roke v razvitejših in bolj
+                    kultiviranih okoljih v primerjavi z bolj prvobitnimi skupnostmi.<note
+                        place="foot" xml:id="ftn27" n="24">Masaryk, <hi rend="italic">Suicide,
+                        </hi>110.</note> Ta teza je vzbudila veliko pozornosti med raziskovalci v
+                    drugi polovici 20. stoletja – porajalo se je vprašanje, kaj se je zgodilo s
+                    Slovenci, zakaj so agresijo, ki je bila prej usmerjena proti drugemu, tako
+                    potlačili, po drugi strani pa naj bi bil ob koncu 20. stoletja to tudi dokaz
+                    slovenske superiornosti v primerjavi z divjim balkanskim jugom in dejstva, da so
+                    Slovenci v 20. stoletju naredili pomemben korak naprej ter se kulturno torej
+                    bolj približali severu in zahodu kot pa jugu.<note place="foot" xml:id="ftn28"
+                        n="25">Masaryk je ločeval med južnimi in severnimi Slovani. Južni Slovani
+                        naj bi bili tradicionalni ljubitelji orožja, vročekrvni, zato naj bi kot
+                        način samomora tudi pogosteje izbirali strelno orožje kot drugi Slovani. –
+                        Ibid., 121, 122.</note> Masarykovi
+                    podatki, ki so nakazovali ujemanje med siceršnjo stopnjo kultiviranosti,
+                    izobrazbe in pismenosti ter stopnjo samomorilnosti (v Spodnji Avstriji je bilo
+                    med letoma 1872 in 1874 pismenih kar 94,2 odstotka vseh poklicanih v vojsko, na
+                    Kranjskem in v Dalmaciji pa zgolj 7,3 in 1,6 odstotka), so to tezo navidezno
+                        potrjevali.<note place="foot" xml:id="ftn29" n="26">Ibid., 69.</note> Slovenska rast deleža samomora
+                    naj bi bila torej dokaz o razvojnem preskoku, ki ga je slovenski narod dosegel,
+                    pri čemer se je po navadi spregledalo Masarykovo kritično mnenje o novem znanju,
+                    ki naj bi ga bili deležni Slovenci in naj bi jim omogočilo ta isti razvojni
+                    preskok. Nespametno oblikovan izobraževalni sistem naj bi ljudem dajal predvsem
+                    znanje, ki ga ni bilo mogoče uporabiti, kar jih je spremenilo v žrtve fantazije
+                    in hiperkritičnega nesmisla, bili naj bi brez želje po koristnem delu.
+                    Izobraževalne ustanove so ustvarjale potrebe, ki jih ni bilo mogoče zadovoljiti,
+                    kar je na koncu vodilo v dolgočasje in razočaranje nad življenjem.<note
+                        place="foot" xml:id="ftn30" n="27">Ibid.<hi rend="italic">, </hi>68–71, 110,
+                        114. Durkheim,<hi rend="italic"> Suicide: A Study in Sociology,</hi> 117.
+                        Niko Grafenauer, »Oblike slovenskega samomora,« v: Dolenc, ur., <hi
+                            rend="italic">Samomor na Slovenskem</hi>, 276–78.</note> Izobražen
+                    človek naj bi bil bolj nagnjen k pretiranemu razmišljanju in individualizmu,
+                    krhanje tradicionalnih vezi v družbi pa naj bi neposredno vodilo v višanje
+                    stopnje samomorilnosti.<note place="foot" xml:id="ftn31" n="28">Morselli, <hi
+                            rend="italic">Suicide</hi>, 138.</note></p>
+                <p>Po Masaryku naj bi tradicionalno veljalo, da je stopnja samomorilnosti odvisna
+                    tudi od starostne strukture naroda: narodi z višjo stopnjo rodnosti in nižjo
+                    povprečno starostjo naj bi imeli manjšo stopnjo samomorilnosti, saj naj bi bil
+                    samomor tradicionalno najbolj razširjen med starejšo populacijo. Narodi z več
+                    vitalne moči naj bi torej imeli statistično manj primerov samomora,<note
+                        place="foot" xml:id="ftn32" n="29">Masaryk, <hi rend="italic">Suicide,</hi>
+                        30. Jože Javoršek, <hi rend="italic">Kako je mogoče</hi> (Maribor: Založba
+                        Obzorja, 1978), 15, 16.</note> vendar je opažal, da se stopnja samomorilnosti
+                    povečuje povsod, čeprav z drugačno dinamiko, in da te tendence nikjer ne znajo
+                    zares ustaviti. Zlasti zaskrbljujoče naj bi bilo dejstvo, da je samomor pomembno
+                    naraščal med otroki in mladino, kar naj bi bilo še nekaj desetletij prej povsem
+                    nepoznan fenomen. Razlogi za te samomore naj bi bili odsev novih časov in
+                    modernizacije – mladi naj bi smrt izbirali ne samo zaradi eksistencialnih težav
+                    in ekstremne revščine, temveč tudi zaradi zanemarjanja in nasilja v družini,
+                    neuresničenih ambicij ter občutka svetobolja.<note place="foot" xml:id="ftn33"
+                        n="30">Masaryk, <hi rend="italic">Suicide,</hi> 29.</note></p>
+                <table>
+                    <head><hi rend="italic">TABELA 2.</hi> Pogostost samomorov v Avstrijskih deželah
+                        med letoma 1873 in 1877. </head>
+                    <row>
+                        <cell rend="left"><hi rend="bold">Leto</hi></cell>
+                        <cell rend="left" cols="2">1873</cell>
+                        <cell rend="left" cols="2">1874</cell>
+                        <cell rend="left" cols="2">1875</cell>
+                        <cell rend="left" cols="2">1876</cell>
+                        <cell rend="left" cols="2">1877</cell>
+                    </row>
+                    <row>
+                        <cell rend="left"><hi rend="bold">Dežela</hi></cell>
+                        <cell rend="left">Število</cell>
+                        <cell rend="left">Na 100 000 prebivalcev</cell>
+                        <cell rend="left">Št.</cell>
+                        <cell rend="left">Na 100 000</cell>
+                        <cell rend="left">Št. </cell>
+                        <cell rend="left">Na 100 000</cell>
+                        <cell rend="left">Št.</cell>
+                        <cell rend="left">100 000</cell>
+                        <cell rend="left">Št.</cell>
+                        <cell rend="left">100 000</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Spodnja Avstrija </cell>
+                        <cell rend="left">436</cell>
+                        <cell rend="left">24</cell>
+                        <cell rend="left">542</cell>
+                        <cell rend="left">25</cell>
+                        <cell rend="left">544</cell>
+                        <cell rend="left">25</cell>
+                        <cell rend="left">557</cell>
+                        <cell rend="left">25</cell>
+                        <cell rend="left">615</cell>
+                        <cell rend="left">28</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Šlezija</cell>
+                        <cell rend="left">103</cell>
+                        <cell rend="left">20</cell>
+                        <cell rend="left">75</cell>
+                        <cell rend="left">13</cell>
+                        <cell rend="left">94</cell>
+                        <cell rend="left">17</cell>
+                        <cell rend="left">130</cell>
+                        <cell rend="left">23</cell>
+                        <cell rend="left">123</cell>
+                        <cell rend="left">22</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Češka</cell>
+                        <cell rend="left">790</cell>
+                        <cell rend="left">15</cell>
+                        <cell rend="left">770</cell>
+                        <cell rend="left">14</cell>
+                        <cell rend="left">846</cell>
+                        <cell rend="left">15</cell>
+                        <cell rend="left">943</cell>
+                        <cell rend="left">17</cell>
+                        <cell rend="left">969</cell>
+                        <cell rend="left">18</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Bukovina</cell>
+                        <cell rend="left">69</cell>
+                        <cell rend="left">13</cell>
+                        <cell rend="left">74</cell>
+                        <cell rend="left">13</cell>
+                        <cell rend="left">53</cell>
+                        <cell rend="left">9</cell>
+                        <cell rend="left">70</cell>
+                        <cell rend="left">12</cell>
+                        <cell rend="left">94</cell>
+                        <cell rend="left">17</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Trst in okolica</cell>
+                        <cell rend="left">19</cell>
+                        <cell rend="left">15</cell>
+                        <cell rend="left">16</cell>
+                        <cell rend="left">11</cell>
+                        <cell rend="left">23</cell>
+                        <cell rend="left">17</cell>
+                        <cell rend="left">18</cell>
+                        <cell rend="left">13</cell>
+                        <cell rend="left">22</cell>
+                        <cell rend="left">15</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Moravska</cell>
+                        <cell rend="left">252</cell>
+                        <cell rend="left">12</cell>
+                        <cell rend="left">271</cell>
+                        <cell rend="left">13</cell>
+                        <cell rend="left">260</cell>
+                        <cell rend="left">12</cell>
+                        <cell rend="left">337</cell>
+                        <cell rend="left">16</cell>
+                        <cell rend="left">325</cell>
+                        <cell rend="left">15</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Solnograška</cell>
+                        <cell rend="left">22</cell>
+                        <cell rend="left">14</cell>
+                        <cell rend="left">24</cell>
+                        <cell rend="left">15</cell>
+                        <cell rend="left">13</cell>
+                        <cell rend="left">8</cell>
+                        <cell rend="left">15</cell>
+                        <cell rend="left">9</cell>
+                        <cell rend="left">23</cell>
+                        <cell rend="left">14</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Zgornja Avstrija </cell>
+                        <cell rend="left">70</cell>
+                        <cell rend="left">9</cell>
+                        <cell rend="left">85</cell>
+                        <cell rend="left">11</cell>
+                        <cell rend="left">88</cell>
+                        <cell rend="left">12</cell>
+                        <cell rend="left">78</cell>
+                        <cell rend="left">10</cell>
+                        <cell rend="left">87</cell>
+                        <cell rend="left">11</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Štajerska</cell>
+                        <cell rend="left">87</cell>
+                        <cell rend="left">7</cell>
+                        <cell rend="left">104</cell>
+                        <cell rend="left">9</cell>
+                        <cell rend="left">96</cell>
+                        <cell rend="left">8</cell>
+                        <cell rend="left">150</cell>
+                        <cell rend="left">12</cell>
+                        <cell rend="left">139</cell>
+                        <cell rend="left">11</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Tirolska</cell>
+                        <cell rend="left">72</cell>
+                        <cell rend="left">9</cell>
+                        <cell rend="left">53</cell>
+                        <cell rend="left">7</cell>
+                        <cell rend="left">66</cell>
+                        <cell rend="left">8</cell>
+                        <cell rend="left">84</cell>
+                        <cell rend="left">10</cell>
+                        <cell rend="left">84</cell>
+                        <cell rend="left">10</cell>
+                    </row>
+                    <row>
+                        <cell rend="left"> Koroška</cell>
+                        <cell rend="left">35</cell>
+                        <cell rend="left">9</cell>
+                        <cell rend="left">31</cell>
+                        <cell rend="left">9</cell>
+                        <cell rend="left">32</cell>
+                        <cell rend="left">9</cell>
+                        <cell rend="left">36</cell>
+                        <cell rend="left">10</cell>
+                        <cell rend="left">36</cell>
+                        <cell rend="left">9</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Galicija</cell>
+                        <cell rend="left">472</cell>
+                        <cell rend="left">8</cell>
+                        <cell rend="left">513</cell>
+                        <cell rend="left">8</cell>
+                        <cell rend="left">558</cell>
+                        <cell rend="left">9</cell>
+                        <cell rend="left">476</cell>
+                        <cell rend="left">7</cell>
+                        <cell rend="left">564</cell>
+                        <cell rend="left">9</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Predarlska</cell>
+                        <cell rend="left">4</cell>
+                        <cell rend="left">3</cell>
+                        <cell rend="left">6</cell>
+                        <cell rend="left">5</cell>
+                        <cell rend="left">9</cell>
+                        <cell rend="left">8</cell>
+                        <cell rend="left">7</cell>
+                        <cell rend="left">6</cell>
+                        <cell rend="left">10</cell>
+                        <cell rend="left">9</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Goriška in Gradiščanska</cell>
+                        <cell rend="left">14</cell>
+                        <cell rend="left">6</cell>
+                        <cell rend="left">11</cell>
+                        <cell rend="left">5</cell>
+                        <cell rend="left">16</cell>
+                        <cell rend="left">7</cell>
+                        <cell rend="left">15</cell>
+                        <cell rend="left">7</cell>
+                        <cell rend="left">18</cell>
+                        <cell rend="left">8</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Kranjska</cell>
+                        <cell rend="left">14</cell>
+                        <cell rend="left">3</cell>
+                        <cell rend="left">34</cell>
+                        <cell rend="left">7</cell>
+                        <cell rend="left">22</cell>
+                        <cell rend="left">4</cell>
+                        <cell rend="left">17</cell>
+                        <cell rend="left">4</cell>
+                        <cell rend="left">26</cell>
+                        <cell rend="left">5</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Istra</cell>
+                        <cell rend="left">4</cell>
+                        <cell rend="left">2</cell>
+                        <cell rend="left">8</cell>
+                        <cell rend="left">3</cell>
+                        <cell rend="left">21</cell>
+                        <cell rend="left">7</cell>
+                        <cell rend="left">5</cell>
+                        <cell rend="left">2</cell>
+                        <cell rend="left">16</cell>
+                        <cell rend="left">5</cell>
+                    </row>
+                    <note n="">Vir: Eduard Bratassević, »Die Selbstmorde in Oesterreich 1873–1877 in Vergleichung zu jenen in Preussen, England,
+                        Russland und Italien,« <hi rend="italic">Statistische Monatsschrift</hi> 4 (1878): 429–430.</note>
+                </table>
+                <lb/>
+                <p>Statistični podatki so dokazovali, da stopnja samomorilnosti ni naraščala
+                    enakomerno hitro, da je bilo naraščanje linearno zlasti v letih 1851–1870 in
+                    1873–1894 ter da se je okrog leta 1890 naraščanje začasno umirilo.<note
+                        place="foot" xml:id="ftn34" n="31">Watzka, <hi rend="italic">Sozialstruktur
+                            und Suizid in Österreich</hi>, 149, 150.</note> Na Slovenskem je samomor
+                    do prve svetovne vojne naraščal počasi, ne glede na družbene, politične in
+                    gospodarske razmere v tem obdobju. Poznejši analitiki so ta trend pripisovali
+                    dejstvu, da naj bi bila večinoma kmečka populacija vezana na tradicionalni
+                    sistem vrednot, ki so predstavljale »temeljno kulturno izkustvo« v urejenih
+                    vaških skupnostih, kjer je nad vrednotami prvenstveno bdela cerkev s svojimi
+                    moralnimi nauki in usmeritvami.<note place="foot" xml:id="ftn35" n="32"
+                        >Grafenauer, »Oblike slovenskega samomora,« 277.</note></p>
+            </div>
+            <div>
+                <head>»Epidemija samomorov« po prvi svetovni vojni</head>
+                <p>Obdobje po prvi svetovni vojni je Srečko Kosovel v svojem eseju <hi rend="italic"
+                        >Kriza</hi> opisal takole: »Po vojni: kaos, anarhija, nihilizem; posledice
+                    vojne: moralna depresija, ponižanje etosa.«<note place="foot" xml:id="ftn36"
+                        n="33">Srečko Kosovel, <hi rend="italic">Izbrane pesmi</hi>. Izbral in
+                        spremno besedo napisal Matevž Kos (Knjižnica Kondor, zv. 280) (Ljubljana:
+                        Mladinska knjiga, 1997), 103, 104.</note> Njegovo občutenje so delili tudi
+                    časopisi, ki so ugotavljali, da je ravno v času, ko »bi nam moral biti dragocen
+                    vsak narodni ud«, prišlo do izjemnega porasta stopnje samomorilnosti. To naj
+                    sicer ne bi bil slovenski unikum. V prvih desetletjih 20. stoletja lahko
+                    naraščanje samomorilnosti (razen v Franciji) zaznamo v skorajda vseh državah,
+                    zdi pa se, da so države naslednice habsburškega cesarstva (Avstrija, Madžarska,
+                    Češkoslovaška, Slovenija v okviru Jugoslavije) izstopale po pogostosti samomora,
+                    zaradi česar je časopisje, verjetno še pod močnim vplivom smrtonosnega pohoda
+                    španske gripe, poročalo o »samomorilski epidemiji«.<note place="foot"
+                        xml:id="ftn37" n="34">Hannes Leidinger, »Die Selbstmordepidemie. Zur Zunahme
+                        von Suizidfällen in der Zwischenkriegszeit,« v: <hi rend="italic">Kampf um
+                            die Stadt</hi> (Wien: Wien Museum und Czernin Verlags, 2010),
+                        215–19.</note> Razmere po prvi svetovni vojni so bile dejansko kompleksne:
+                    vojna ni prinesla zmagoslavja, temveč predvsem boleč poraz, negotovost,
+                    vseprisotno nasilje.<note place="foot" xml:id="ftn38" n="35">Meta Remec, »'Vojak
+                        naj bo!': nastanek in razkroj podobe popolnega vojaka v času prve svetovne
+                        vojne,« <hi rend="italic">Zgodovina za vse</hi> 27, št. 2 (2020): 5–24.
+                        Bojan Pirc in Ivo Pirc, <hi rend="italic">Življenjska bilanca Slovenije v
+                            letih 1921–1935</hi> (Ljubljana: Higijenski zavod, 1937), 5.</note>
+                    Negotovost zaradi odsotnosti stabilnega družbenega reda ter istočasno obdobje
+                    izjemne ekonomske krize in stagnacije sta krepila občutek brezizhodnosti, ko
+                    posameznik ni imel resnične možnosti vplivanja na lastno usodo, zato naj bi se
+                    samomor bolj izrazil kot v obdobju neposrednih spopadov.<note place="foot"
+                        xml:id="ftn39" n="36">Marzio Barbagli, <hi rend="italic">Congedarsi dal
+                            mondo. Il suicidio in Occidente e in Oriente </hi>(Bologna: Il Mulino,
+                        2009), 216, 217.</note>
+                </p>
+                <p>Dejstvo pa je, da za dvajseta leta 20. stoletja za slovensko ozemlje znotraj
+                    Kraljevine SHS ne razpolagamo z natančnimi statističnimi pregledi, kot obstajajo
+                    denimo za ozemlja, ki so bila priključena h Kraljevini Italiji.<note
+                        place="foot" xml:id="ftn40" n="37">Milan Radošević, »'Umorni od života':
+                        samoubojstva u Istarskoj provinciji između dva svjetska rata,« <hi
+                            rend="italic">Problemi sjevernog Jadrana</hi> 16 (2017): 83–87.</note>
+                    Obstajajo zgolj izolirani podatki, ki so bili zbrani v posameznih študijah in se
+                    nanašajo na Zagreb<note place="foot" xml:id="ftn41" n="38">Ivo Glavan, »Problem
+                        samoubijstva,« <hi rend="italic">Liječnički vjestnik</hi> 51, št. 9 (1929):
+                        442–52.</note> in Beograd,<note place="foot" xml:id="ftn42" n="39"> Milovan
+                        Milovanović, <hi rend="italic">Samoubistvo</hi> (Beograd: Scientia, 1929).</note> ki pa jih ni mogoče neposredno prenesti na slovenske razmere.
+                    Trditve o velikem porastu samomorilnosti slonijo bolj kot ne na predpostavkah in
+                    so nepreverljive, saj jugoslovanska statistika samomorov ni navajala kot
+                    samostojno kategorijo, temveč jih je skupaj z umori prištevala v skupno
+                    kategorijo nasilnih smrti.<note place="foot" xml:id="ftn43" n="40"><hi
+                            rend="italic">Statistički godišnjak</hi> 1, št. 1 (1929): 119. <hi
+                            rend="italic">Statistički godišnjak</hi> 2, št. 1 (1930): 67. <hi
+                            rend="italic">Statistički godišnjak</hi> 3, št. 1 (1931): 66. <hi
+                            rend="italic">Statistički godišnjak</hi> 4, št. 1 (1932): 58. <hi
+                            rend="italic">Statistički godišnjak</hi> 5, št. 1 (1933): 56. <hi
+                            rend="italic">Statistički godišnjak</hi> 6, št. 1 (1934–1935): 64. <hi
+                            rend="italic">Statistički godišnjak</hi> 7, št. 1 (1936): 76. <hi
+                            rend="italic">Statistički godišnjak</hi> 8, št. 1 (1937): 88.</note> Za
+                    nekatera leta statistični letopisi sicer podajajo podatke o številu samomorov
+                    med člani Centralnega urada za zavarovanje delavcev (Središnjeg ureda za
+                    osiguranje radnika), ki pa nikakor niso reprezentativni do te mere, da bi jih
+                    bilo mogoče posplošiti na celotno populacijo. Pravi statistični podatki so tako
+                    na voljo šele po letu 1937 in iz njih sledi, da je bila Dravska banovina
+                    izrazito vodilna po stopnji samomorilnosti.<note place="foot" xml:id="ftn44"
+                        n="41"><hi rend="italic">Statistički godišnjak</hi> 9, št. 1 (1938–1939):
+                        124. <hi rend="italic">Statistički godišnjak</hi> 10, št. 1 (1940):
+                        95.</note> Za leta 1937, 1938 in 1939 tako že razpolagamo s podatki o
+                    številu samomorov za vsako banovino. Za Dravsko banovino je za leto 1939 naveden
+                    podatek 310 samomorov, kar ob podatku o številu prebivalstva na 31. december
+                    1938 pomeni približno 26 samomorov na 100.000 prebivalcev, kar zagotovo je
+                    pomemben porast primerov oziroma stopnje samomorilnosti.<note place="foot"
+                        xml:id="ftn45" n="42"><hi rend="italic">Statistični godišnjak</hi> ne navaja
+                        vseh podatkov, ki bi omogočali natančen izračun stopnje samomorilnosti za
+                        leto 1939, saj zaradi sprememb meja med banovinami ni navedenega števila
+                        prebivalstva po banovinah na dan 31. 12. 1939. – <hi rend="italic"
+                            >Statistički godišnjak</hi> 10, št. 1 (1940): 95. </note>
+                </p>
+                <table>
+                    <head><hi rend="italic">TABELA 3</hi>. Število samomorov in približne stopnje
+                        samomorilnosti po banovinah v Kraljevini Jugoslaviji (1937–1938). </head>
+                    <row>
+                        <cell rend="left">Banovina</cell>
+                        <cell rend="left" cols="3">1937</cell>
+                        <cell rend="left" cols="3">1938</cell>
+                    </row>
+                    <row>
+                        <cell rend="left"/>
+                        <cell rend="left">Število prebivalstva 31. 12. 1937</cell>
+                        <cell rend="left">Število samomorov</cell>
+                        <cell rend="left">Število samomorov/100 000 prebivalcev</cell>
+                        <cell rend="left">Število prebivalstva 31. 12. 1938</cell>
+                        <cell rend="left">Število samomorov</cell>
+                        <cell rend="left">Število samomorov/100 000 prebivalcev</cell>
+                    </row>
+                    <row rend="background(#ffcccc)">
+                        <cell>Dravska</cell>
+                        <cell rend="left">1191000</cell>
+                        <cell rend="left">291</cell>
+                        <cell rend="left">24, 4</cell>
+                        <cell rend="left">1198000</cell>
+                        <cell rend="left">273</cell>
+                        <cell rend="left">22,9</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Drinska</cell>
+                        <cell rend="left">1781000</cell>
+                        <cell rend="left">86</cell>
+                        <cell rend="left">4, 8</cell>
+                        <cell rend="left">1821000</cell>
+                        <cell rend="left">94</cell>
+                        <cell rend="left">5,1</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Donavska</cell>
+                        <cell rend="left">2513000</cell>
+                        <cell rend="left">406</cell>
+                        <cell rend="left">16, 1</cell>
+                        <cell rend="left">2532000</cell>
+                        <cell rend="left">409</cell>
+                        <cell rend="left">16,1</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Moravska</cell>
+                        <cell rend="left">1604000</cell>
+                        <cell rend="left">92</cell>
+                        <cell rend="left">5, 7</cell>
+                        <cell rend="left">1683000</cell>
+                        <cell rend="left">88</cell>
+                        <cell rend="left">5,2</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Primorska</cell>
+                        <cell rend="left">965000</cell>
+                        <cell rend="left">54</cell>
+                        <cell rend="left">5, 6</cell>
+                        <cell rend="left">974000</cell>
+                        <cell rend="left">45</cell>
+                        <cell rend="left">4,6</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Savska</cell>
+                        <cell rend="left">2883000</cell>
+                        <cell rend="left">475</cell>
+                        <cell rend="left">16, 5</cell>
+                        <cell rend="left">2911000</cell>
+                        <cell rend="left">427</cell>
+                        <cell rend="left">14,7</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Vardarska</cell>
+                        <cell rend="left">1752000</cell>
+                        <cell rend="left">82</cell>
+                        <cell rend="left">4, 6</cell>
+                        <cell rend="left">1780000</cell>
+                        <cell rend="left">90</cell>
+                        <cell rend="left">5</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Vrbarska</cell>
+                        <cell rend="left">1174000</cell>
+                        <cell rend="left">55</cell>
+                        <cell rend="left">4, 7</cell>
+                        <cell rend="left">1195000</cell>
+                        <cell rend="left">52</cell>
+                        <cell rend="left">4,3</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Zetska</cell>
+                        <cell rend="left">1024000</cell>
+                        <cell rend="left">80</cell>
+                        <cell rend="left">7,8</cell>
+                        <cell rend="left">1040000</cell>
+                        <cell rend="left">68</cell>
+                        <cell rend="left">6,5</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Beograd</cell>
+                        <cell rend="left">393000</cell>
+                        <cell rend="left">113</cell>
+                        <cell rend="left">28, 9</cell>
+                        <cell rend="left">409000</cell>
+                        <cell rend="left">102</cell>
+                        <cell rend="left">25,5</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Jugoslavija</cell>
+                        <cell rend="left">15280000</cell>
+                        <cell rend="left">1795</cell>
+                        <cell rend="left">11,6</cell>
+                        <cell rend="left">15490000</cell>
+                        <cell rend="left">1651</cell>
+                        <cell rend="left">10,7</cell>
+                    </row>
+                    <note n="">Vir: <hi rend="italic">Statistički godišnjak</hi>, 9, št. 1 (1938–1939): 111, 124.
+                        <hi rend="italic">Statistički godišnjak</hi>, 10, št. 1 (1940): 95.</note>
+                </table>
+                <lb/>
+                <p>Ivo in Bojan Pirc, ki sta bila zaradi svojega dela <hi rend="italic">Življenjska
+                        bilanca Slovenije 1921–1935</hi> označena za začetnika slovenske
+                        suicidiologije,<note place="foot" xml:id="ftn46" n="43">Marušič in Roškar,
+                        ur., <hi rend="italic">Slovenija s samomorom ali brez</hi>, 11.</note> sta
+                    prav zaradi neustreznega vodenja statistike na ravni Jugoslavije že leta 1923 v
+                    okviru Higijenskega zavoda v Ljubljani začela z zbiranjem natančnejših
+                    statističnih podatkov za posamezne okraje, med letoma 1931 in 1935 pa sta
+                    spremljala tudi gibanje samomorilnosti. Avtorja navajata, da se je v povprečju
+                    zgodilo 870 nasilnih smrti letno, od tega naj bi bilo v povprečju 107 umorov
+                    oziroma ubojev ter 225 samomorov.<note place="foot" xml:id="ftn47" n="44">B. Pirc
+                        in I. Pirc, <hi rend="italic">Življenjska bilanca Slovenije v letih
+                            1921–1935</hi>, 62.</note> Njun podatek, da je med letoma 1931 in 1935
+                    povprečje znašalo 19,4 samomora/100.000 prebivalcev, nato povzema večina
+                    avtorjev, ki je pisala o izrazitem porastu stopnje samomorilnosti po drugi
+                    svetovni vojni,<note place="foot" xml:id="ftn48" n="45">Milčinski, <hi
+                            rend="italic">Samomor in Slovenci</hi>, 143.</note> spregledano pa je
+                    dejstvo, da se je porast zgodil že prej in da je med letoma 1937 in 1939 stopnja
+                    samomorilnosti že znašala 26 samomorov na 100.000 prebivalcev.<note place="foot"
+                        xml:id="ftn49" n="46">
+                        <hi rend="italic">Statistički godišnjak</hi>, 10, št. 1 (1940): 95.</note>
+                </p>
+                <p>Pirca sta se zavedala pomanjkljivosti statističnih podatkov, ki sta jih zbrala –
+                    najprej zato, ker jih nista imela s čim primerjati, saj je bila primerjava z
+                    drugimi deli države mogoča le na ravni skupnega števila nasilnih smrti, pri
+                    čemer je bilo nemogoče sklepati, kolikšen je bil v tem številu nasilnih smrti
+                    delež samomorov. Še veliko bolj problematično pa je bilo dejstvo, da za kar 56
+                    odstotkov smrtnih primerov v Dravski banovini vzroka smrti ni ugotovil
+                    »strokovnjak – zdravnik«, da so vzroki smrti navedeni nejasno in da bi se za
+                    splošnimi navedbami lahko skrivalo več različnih diagnoz in stanj.<note
+                        place="foot" xml:id="ftn50" n="47">Red o ogledovanju mrličev je sicer
+                        določal, da mrliške oglede opravljajo mestni, občinski oz. okrajni
+                        zdravniki, če pa na nekem področju medicinskega strokovnjaka ni bilo na
+                        razpolago, tudi »sposobni, neoporečni in zaupanja vredni neveščaki«. Zares
+                        natančnega pregleda so bili najpogosteje deležni tisti, ki so umrli v
+                        deželni bolnici, na terenu pa so »neveščaki« svoje delo pogosto opravili
+                        tako, da so zgolj odkrili pokrov krste in površno pogledali mrliča. – <hi
+                            rend="italic">Deželni zakonik za vojvodino Kranjsko</hi> 53, št. 25, 28.
+                        12. 1901, 103–31. B. Pirc in I. Pirc, <hi rend="italic">Življenjska bilanca
+                            Slovenije v letih 1921–1935, </hi>6. Peter Borisov in Anton Dolenc,
+                        »Razvoj sodnomedicinskega izvedenstva v Evropi in na nekdanjem Kranjskem,«
+                        v: <hi rend="italic">Zbornik za zgodovino naravoslovja in tehnike</hi> 11
+                        (Ljubljana: Slovenska matica, 1991), 72–75. Anton Dolenc, »Mrliško pregledna služba na Slovenskem nekoč
+                        in danes,« v: <hi rend="italic">Mrliškopregledna služba v Republiki
+                            Sloveniji. Spominsko srečanje akademika Janeza Milčinskega (8,
+                            1998)</hi> (Ljubljana: Inštitut za sodno medicino, 1999), 13, 14.
+                    </note></p>
+                <table>
+                    <head><hi rend="italic">TABELA 4</hi>. Podatki o številu samomorov ter umorov in
+                        ubojev po posameznih okrajih Dravske banovine. Obarvani so po trije okraji z
+                        najvišjimi stopnjami.</head>
+                    <row>
+                        <cell rend="left">Okraji</cell>
+                        <cell rend="left">Samomori 1931–1935</cell>
+                        <cell rend="left">Povprečno število samomorov na leto</cell>
+                        <cell rend="left">Povprečno število prebivalcev</cell>
+                        <cell rend="left">Število samomorov na 100 000 prebivalcev</cell>
+                        <cell rend="left" cols="2">Povprečno število letno ubitih ali
+                            umorjenih</cell>
+                    </row>
+                    <row>
+                        <cell rend="left"/>
+                        <cell rend="left"/>
+                        <cell rend="left"/>
+                        <cell rend="left"/>
+                        <cell rend="left"/>
+                        <cell rend="left">absolutno</cell>
+                        <cell rend="left">Na 100 000</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Brežice</cell>
+                        <cell rend="left">27</cell>
+                        <cell rend="left">5,4</cell>
+                        <cell rend="left">33 828</cell>
+                        <cell rend="left">16</cell>
+                        <cell rend="left">7,6</cell>
+                        <cell><hi rend="background(#ffcccc)">22,47</hi></cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Celje - okolica</cell>
+                        <cell rend="left">65</cell>
+                        <cell rend="left">13</cell>
+                        <cell rend="left">60 383</cell>
+                        <cell rend="left">21,5</cell>
+                        <cell rend="left">3,4</cell>
+                        <cell rend="left">5,63</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Črnomelj in Metlika</cell>
+                        <cell rend="left">10</cell>
+                        <cell rend="left">2</cell>
+                        <cell rend="left">27 340</cell>
+                        <cell rend="left">7,3</cell>
+                        <cell rend="left">3,2</cell>
+                        <cell rend="left">11,7</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Dolnja Lendava</cell>
+                        <cell rend="left">12</cell>
+                        <cell rend="left">2,4</cell>
+                        <cell rend="left">37 988</cell>
+                        <cell rend="left">6,3</cell>
+                        <cell rend="left">4,2</cell>
+                        <cell rend="left">11,6</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Gornji grad</cell>
+                        <cell rend="left">9</cell>
+                        <cell rend="left">1,8</cell>
+                        <cell rend="left">17 903</cell>
+                        <cell rend="left">10</cell>
+                        <cell rend="left">1</cell>
+                        <cell rend="left">5,58</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Kamnik</cell>
+                        <cell rend="left">18</cell>
+                        <cell rend="left">3,6</cell>
+                        <cell rend="left">40 271</cell>
+                        <cell rend="left">8,9</cell>
+                        <cell rend="left">2,6</cell>
+                        <cell rend="left">6,46</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Kočevje</cell>
+                        <cell rend="left">24</cell>
+                        <cell rend="left">4,8</cell>
+                        <cell rend="left">37 962</cell>
+                        <cell rend="left">12,6</cell>
+                        <cell rend="left">1,2</cell>
+                        <cell rend="left">3,16</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Konjice</cell>
+                        <cell rend="left">22</cell>
+                        <cell rend="left">4,4</cell>
+                        <cell rend="left">21 568</cell>
+                        <cell rend="left">20,4</cell>
+                        <cell rend="left">3,2</cell>
+                        <cell rend="left"><hi rend="background(#ffcccc)">14,84</hi></cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Kranj</cell>
+                        <cell rend="left">44</cell>
+                        <cell rend="left">8,8</cell>
+                        <cell rend="left">60 873</cell>
+                        <cell rend="left">14,4</cell>
+                        <cell rend="left">4,8</cell>
+                        <cell rend="left">7,88</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Krško</cell>
+                        <cell rend="left">43</cell>
+                        <cell rend="left">8,6</cell>
+                        <cell rend="left">55 675</cell>
+                        <cell rend="left">15,4</cell>
+                        <cell rend="left">7,2</cell>
+                        <cell rend="left">12,93</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Laško</cell>
+                        <cell rend="left">31</cell>
+                        <cell rend="left">6,2</cell>
+                        <cell rend="left">35 006</cell>
+                        <cell rend="left">17,7</cell>
+                        <cell rend="left">1,4</cell>
+                        <cell rend="left">4</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Litija</cell>
+                        <cell rend="left">15</cell>
+                        <cell rend="left">3,0</cell>
+                        <cell rend="left">40 397</cell>
+                        <cell rend="left">7,4</cell>
+                        <cell rend="left">2,0</cell>
+                        <cell rend="left">4,95</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Ljubljana -okolice</cell>
+                        <cell rend="left">73</cell>
+                        <cell rend="left">14,6</cell>
+                        <cell rend="left">82 220</cell>
+                        <cell rend="left">17,7</cell>
+                        <cell rend="left">4</cell>
+                        <cell rend="left">4,86</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Ljutomer</cell>
+                        <cell rend="left">40</cell>
+                        <cell rend="left">8</cell>
+                        <cell rend="left">41 803</cell>
+                        <cell rend="left">19,1</cell>
+                        <cell rend="left">5,2</cell>
+                        <cell rend="left">12,44</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Logatec</cell>
+                        <cell rend="left">19</cell>
+                        <cell rend="left">3,8</cell>
+                        <cell rend="left">27 743</cell>
+                        <cell rend="left">13,7</cell>
+                        <cell rend="left">1</cell>
+                        <cell rend="left">3,60</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Maribor - desni breg</cell>
+                        <cell rend="left">91</cell>
+                        <cell rend="left">18,2</cell>
+                        <cell rend="left">56 457</cell>
+                        <cell rend="left"><hi rend="background(#ffcccc)">27,6</hi></cell>
+                        <cell rend="left">6,2</cell>
+                        <cell rend="left">10,98</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Maribor- levi breg</cell>
+                        <cell rend="left">68</cell>
+                        <cell rend="left">13,6</cell>
+                        <cell rend="left">56 022</cell>
+                        <cell rend="left"><hi rend="background(#ffcccc)">24,3</hi></cell>
+                        <cell rend="left">7,6</cell>
+                        <cell rend="left">13,57</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Murska Sobota</cell>
+                        <cell rend="left">44</cell>
+                        <cell rend="left">8,8</cell>
+                        <cell rend="left">52 341</cell>
+                        <cell rend="left">16,8</cell>
+                        <cell rend="left">5</cell>
+                        <cell rend="left">9,55</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Novo mesto </cell>
+                        <cell rend="left">20</cell>
+                        <cell rend="left">4</cell>
+                        <cell rend="left">51 415</cell>
+                        <cell rend="left">7,8</cell>
+                        <cell rend="left">4</cell>
+                        <cell rend="left">7,78</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Prevalje</cell>
+                        <cell rend="left">33</cell>
+                        <cell rend="left">6,6</cell>
+                        <cell rend="left">33 121</cell>
+                        <cell rend="left">19,9</cell>
+                        <cell rend="left">2,6</cell>
+                        <cell rend="left">7,85</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Ptuj (okolica)</cell>
+                        <cell rend="left">102</cell>
+                        <cell rend="left">20,4</cell>
+                        <cell rend="left">71 443</cell>
+                        <cell rend="left"><hi rend="background(#ffcccc)">28,5</hi></cell>
+                        <cell rend="left">12,2</cell>
+                        <cell rend="left"><hi rend="background(#ffcccc)">17,08</hi></cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Radovljica</cell>
+                        <cell rend="left">41</cell>
+                        <cell rend="left">8,2</cell>
+                        <cell rend="left">37 077</cell>
+                        <cell rend="left">22,1</cell>
+                        <cell rend="left">1,4</cell>
+                        <cell rend="left">3,77</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Slovenj Gradec</cell>
+                        <cell rend="left">18</cell>
+                        <cell rend="left">3,6</cell>
+                        <cell rend="left">30 886</cell>
+                        <cell rend="left">11, 6</cell>
+                        <cell rend="left">1,2</cell>
+                        <cell rend="left">3,88</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Šmarje pri Jelšah</cell>
+                        <cell rend="left">40</cell>
+                        <cell rend="left">8</cell>
+                        <cell rend="left">45 668</cell>
+                        <cell rend="left">17,5</cell>
+                        <cell rend="left">6,6</cell>
+                        <cell rend="left">14,45</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">OKRAJI SKUPAJ</cell>
+                        <cell rend="left">909</cell>
+                        <cell rend="left">181,8</cell>
+                        <cell rend="left">1 055 390</cell>
+                        <cell rend="left">17,2</cell>
+                        <cell rend="left">-</cell>
+                        <cell rend="left">-</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Celje mesto</cell>
+                        <cell rend="left">22</cell>
+                        <cell rend="left">4,5</cell>
+                        <cell rend="left">7 568</cell>
+                        <cell rend="left">59,5</cell>
+                        <cell rend="left">-</cell>
+                        <cell rend="left" rows="5">8 ,6</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Ljubljana mesto</cell>
+                        <cell rend="left">106</cell>
+                        <cell rend="left">21,2</cell>
+                        <cell rend="left">61 202</cell>
+                        <cell rend="left">34,6</cell>
+                        <cell rend="left">1,6</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Maribor mesto</cell>
+                        <cell rend="left">80</cell>
+                        <cell rend="left">16</cell>
+                        <cell rend="left">33 700</cell>
+                        <cell rend="left">47,5</cell>
+                        <cell rend="left">2,4</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Ptuj mesto</cell>
+                        <cell rend="left">10</cell>
+                        <cell rend="left">2</cell>
+                        <cell rend="left">4 221</cell>
+                        <cell rend="left">47,4</cell>
+                        <cell rend="left">4,6</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">MESTA SKUPAJ</cell>
+                        <cell rend="left">218</cell>
+                        <cell rend="left">43,6</cell>
+                        <cell rend="left">106 691</cell>
+                        <cell rend="left">40,9</cell>
+                        <cell rend="left"/>
+                    </row>
+                    <row>
+                        <cell rend="left">Slovenija</cell>
+                        <cell rend="left">1127</cell>
+                        <cell rend="left">225,4</cell>
+                        <cell rend="left">1 162 081</cell>
+                        <cell rend="left">19,4</cell>
+                        <cell rend="left">107,4</cell>
+                        <cell rend="left">9,24</cell>
+                    </row>
+                    <note n="">Vir: Bojan Pirc in Ivo Pirc, <hi rend="italic">Življenjska bilanca Slovenije v letih 1921–1935</hi>
+                        (Ljubljana: Higijenski zavod, 1937), 62.</note>
+                </table>
+                <lb/>
+                <p>Podatke sta Ivo in Bojan Pirc črpala iz župnijskih matičnih knjig, za kar sta
+                    vzpostavila precizen in metodološko natančen postopek, ki je slonel na
+                    avstrijskem vzoru, saj sta sledila Odloku c. kr. Notranjega ministrstva iz 8.
+                    februarja 1895, Z 18632 ex 1894, pri čemer pa sta morala razmere in izračune
+                    prilagoditi novi stvarnosti v okviru Dravske banovine.<note place="foot"
+                        xml:id="ftn51" n="48">B. Pirc in I. Pirc, <hi rend="italic">Življenjska bilanca
+                            Slovenije v letih 1921–1935, </hi>29.</note> K sodelovanju jima je
+                    uspelo pritegniti uradne politične in tudi cerkvene oblasti. Po preteku vsakega
+                    četrtletja je bil narejen izpisek iz matičnih knjig na zato določenih obrazcih,
+                    točno po posameznih rubrikah, zadnjo rubriko pa je nato izpolnil sanitetni
+                    referent. Tako se je ustvaril razpored po posameznih občinah, saj so bili
+                    župnijski uradi dolžni poročati nadrejeni oblasti oziroma okrajnemu sanitetnemu
+                    referentu, ki je podatke pregledal in jih, če so bili primerno izpolnjeni,
+                    presnel v ovojni spisek politične oblasti I. stopnje, in sicer v skupinah po
+                    sodnih okrajih. Zdravstvene statistične tablice in druge podatke, kot so število
+                    mrtvorojenih, število nezakonskih rojstev, starost umrlih ter vzroki smrti, je
+                    na zadnji stopnji zbrala banska uprava Dravske banovine v Ljubljani, Higijenski
+                    zavod pa jih nato dokončno analiziral in oblikoval ter predlagal ustrezne
+                    ukrepe, ki naj bi prinesli izboljšanje stanja.<note place="foot" xml:id="ftn52"
+                        n="49">Ibid.<hi rend="italic">, </hi>25–30.</note></p>
+                <p>V medijskem in poljudnoznanstvenem oziroma »kvaziznanstvenem« povzemanju njunih
+                    podatkov za razmere na Slovenskem med obema vojnama in pri iskanju razlogov za
+                    prvi občuten porast stopnje samomorov je bilo pogosto spregledano dejstvo, da se
+                    podatki ne nanašajo na popolnoma ujemajoče ozemeljske enote in da torej v svoji
+                    osnovi niso neposredno primerljivi. Navajanje statističnih podatkov se je
+                    pogosto uporabljalo za vzbujanje občutka strahu in vseobsegajoče krize, ki naj
+                    bi se takrat zažrla v slovenskega človeka. Tako kot je bilo v navadi, da so se
+                    podatki za Kranjsko posplošili na celotno slovensko ozemlje, je tudi glede tega
+                    obdobja prihajalo do poenostavljanega navajanja, saj bi bilo treba upoštevati,
+                    da podatki iz tridesetih let ne vsebujejo podatkov za ozemlje, ki je bilo
+                    priključeno Kraljevini Italiji, kjer je bila stopnja samomorov tradicionalno
+                    nižja, in da vsebujejo podatke tudi za Štajersko, ki je vedno imela občutno
+                    višje stopnje samomorilnosti od Kranjske. Poleg tega je bilo v statistiko iz
+                    tridesetih let vključeno tudi Prekmurje, zato je bil podatek o izjemnem porastu
+                    samomorov zavajajoč.<note place="foot" xml:id="ftn53" n="50">Ibid.<hi
+                            rend="italic">, </hi>31.</note> Podatki, ki jih navajata Ivo in Bojan
+                    Pirc, sicer kažejo, da okraja Murska Sobota in Dolnja Lendava v tridesetih letih
+                    nista spadala med najbolj s samomorom obremenjene okraje, ravno nasprotno.
+                    Izjemno visoke stopnje samomorilnosti so bile zaznane zlasti na območju
+                    Maribora, v okolici Ptuja in Celja ter zlasti v mestnih središčih, kar se je
+                    skladalo tako z Masarykovimi kot Durkheimovimi tezami. Interpretacij o vzrokih
+                    za te pojave Pirca ne ponujata, kažejo pa na popolno diskrepanco med podeželjem
+                    in mestom.<note place="foot" xml:id="ftn54" n="51">Ibid.<hi rend="italic">,
+                        </hi>64.</note></p>
+                <p>Analitiki so domnevno povečevanje stopnje samomorilnosti pripisovali zmanjševanju
+                    družbene stigme, naraščajoči sekularizaciji in zmanjševanju tendence po
+                        prikrivanju.<note place="foot" xml:id="ftn55" n="52">Watzka, »Modernisierung
+                        und Selbsttötung in Österreich,« 156, 157.</note> Že Durkheim je ob koncu
+                    19. stoletja opozarjal, da samomor, ne glede na zakonske predpise in moralne
+                    nauke, ni bil predmet javnega obsojanja do te mere, da bi okolje zaradi majhne
+                    mere krivde, ki se je pripisovala izvrševalcu, in sramote za družino za vsako
+                    ceno poskušalo dejanje prikriti in vplivati na njegovo beleženje. To je dejanje,
+                    ki ne škodi drugim, zato naj bi se že zgodaj oblikoval benevolenten in
+                    razumevajoč odnos, saj je bil samomor obsojan na ravni ideje, manj pa na ravni
+                        posameznika.<note place="foot" xml:id="ftn56" n="53"> Durkheim, <hi
+                            rend="italic">Suicide: A Study in Sociology</hi>, 110.</note>
+                </p>
+                <p>Na povečanje stopnje samomorilnosti naj bi vplivali številni in raznoliki
+                    dejavniki. Pirca sta med pomembne dejavnike, ki naj bi bili tipično slovenski,
+                    prištevala zlasti alkoholizem, saj naj bi tako po številu samomorov kot številu
+                    umorov izstopali vinorodni okraji, za katere naj bi bilo dejansko nemogoče
+                    sklepati, kolikšna je sploh bila poraba alkohola. Obstajala pa je še cela vrsta
+                    okoliščin, ki so vplivale na spremembe v zaznavani stopnji samomorilnosti. Glede
+                    na njune podatke bi bilo treba natančneje ovrednotiti vlogo izseljevanja iz
+                    podeželja v mesta, stiske, v katerih so se ljudje ob tem znašli, in vpliv teh
+                    novih priseljencev na statistično prikazane stopnje samomorilnosti v urbanih
+                    okoljih, predvsem pa bi bilo treba raziskati vpliv množičnega izseljevanja v
+                    tujino, ki je od zadnjih desetletij 19. stoletja do obdobja med obema vojnama
+                    zajelo skoraj 400.000 ljudi in je zagotovo učinkovalo na starostno strukturo
+                    slovenskega podeželja in s tem, v skladu z Masarykovimi tezami, tudi na zaznano
+                    stopnjo samomorilnosti. Novejše historiografske raziskave potrjujejo pravilnost
+                    idej bratov Pirc o nujnosti preučevanja vpliva različnih družbenih fenomenov in
+                    demografskih dejavnikov na stopnjo samomorilnosti saj dokazujejo, da je bilo
+                    njeno naraščanje odvisno tudi od tega, kateri segment prebivalstva se je iz
+                    določenega območja izseljeval in kateri je ostajal doma. Zlasti za ruralna
+                    območja, kjer naraščajočih stopenj samomorilnosti ni bilo mogoče pripisati
+                    vplivom urbanizacije in industrializacije, je bilo dokazano, da večja kot je
+                    bila na določenem področju izguba prebivalstva zaradi izseljevanja, bolj je
+                    narasla stopnja samomorilnosti med tistimi, ki so ostali v teh nerazvitih in vse
+                    bolj marginaliziranih okoljih, pri čemer je bilo seveda odločilno da so se v
+                    tujino izseljevali predvsem mlajši in ambicioznejši posamezniki z več »vitalne
+                    energije«, medtem ko so doma, ujeti v izjemno neugodnih ekonomskih razmerah,
+                    ostajali pripadniki starejše generacije, pri katerih je bila že sicer opažena
+                    višja stopnja samomorilnosti.<note place="foot" xml:id="ftn57" n="54">B. Pirc in
+                       I. Pirc, <hi rend="italic">Življenjska bilanca Slovenije v letih 1921–1935,
+                        </hi>35, 62. Marjan Drnovšek, »Vzroki za izseljevanje Slovencev v zadnjih
+                        dveh stoletjih,« <hi rend="italic">Drevesa</hi> 8, št. 3 (2002): 10–13.
+                            Masaryk,<hi rend="italic"> Suicide,</hi> 30. Ferenc Moksony, »Victims of
+                        Change or Victims of Backwardness? Suicide in Rural Hurgary,« v: György
+                        Lengyel in Zsolt Rostoványi, ur., <hi rend="italic">The Small
+                            Transformation. Society, Economy and Politics in Hungary and the New
+                            European Architecture</hi> (Budapest: Akadémiai Kiadó, 2001),
+                        366–76.</note> Vsekakor pa je bilo izseljevanje zgolj eden od zunanjih
+                    dejavnikov, ki so vplivali na naraščanje števila samomorov sredi tridesetih let.
+                    Zagotovo bi bilo potrebno ovrednotiti, v kolikšni meri bi bilo naraščajoče
+                    stopnje samomorilnosti mogoče pripisati zamaknjenemu odzivu na gospodarsko
+                    krizo, medtem ko naj bi ob koncu tridesetih let imel pomemben vpliv tudi že
+                    strah pred novim svetovnim spopadom.<note place="foot" xml:id="ftn58" n="55">
+                        Julie V. Gottlieb, »Munich and the Masses: Emotional Inflammation, Mental
+                        Health and Shame in Britain During the September Crisis,« v: Julie V.
+                        Gottlieb, Daniel Hucker in Richard Toye, ur., <hi rend="italic">The Munich
+                            Crisis, Politics and the People. International, Transnational and
+                            Comparative Perspectives</hi> (Manchester: Manchester University Press,
+                        2021), 192–212.</note>
+                </p>
+            </div>
+            <div>
+                <head>Samomori po letu 1945</head>
+                <p>V analizah samomorilnosti po drugi svetovni vojni zasledimo enotno mnenje, da je
+                    po prvem povojnem obdobju, ko je še vladala evforija, sledil drastičen porast
+                    stopnje samomorilnosti. Podatki tega ne potrjujejo, saj avtorji večinoma
+                    spregledajo zgoraj omenjene podatke iz obdobja med letoma 1937 in 1939,<note
+                        place="foot" xml:id="ftn59" n="56">
+                        <hi rend="italic">Statistički godišnjak</hi> 10, št. 1 (1940): 95.</note> ki
+                    nakazujejo, da v prvih dveh desetletjih po drugi svetovni vojni le ni prišlo do
+                    takega porasta, kot so verjeli analitiki v osemdesetih. Ti so stopnjo 26,2
+                    samomora na 100.000 prebivalcev, ki jo je slovenski prostor dosegel leta 1964,
+                    pripisali dejstvu, da sta se v šestdesetih letih zgodila »individualistično
+                    treznjenje iz kolektivistične evforije in hkraten odpor do represije«.<note
+                        place="foot" xml:id="ftn60" n="57">Grafenauer, »Oblike slovenskega
+                        samomora,« 276–78.</note> Dejansko pa je v skladu z dognanji suicidiologije
+                    porast samomorilnosti v povojnih obdobjih pričakovan fenomen, ne glede na
+                    družbeno ureditev, saj ga praviloma najdemo povsod. Sklada se s suicidiološkimi
+                    ugotovitvami, da med vojnami in družbenimi pretresi stopnja samomorilnosti
+                    začasno pade, ker se okrepi občutek socialne integracije, ker obstaja skupni
+                    zunanji sovražnik, ter se nato, po vsaj navidezni stabilizaciji razmer, ponovno
+                    povzpne, ne glede na to, ali je bila vojna zmagovita ali pa se je skupnost
+                    morala soočiti s porazom, saj se stopnja samomorov spremeni vsakič, ko pride do
+                    nenadne strukturne spremembe v družbi.<note place="foot" xml:id="ftn61" n="58">
+                        Barbagli, <hi rend="italic">Congedarsi dal mondo, </hi>188–198. Masaryk, <hi
+                            rend="italic">Suicide, </hi>51. Durkheim, <hi rend="italic">Suicide: A
+                            study in sociology</hi>, 89.</note></p>
+                <table>
+                    <head><hi rend="italic">TABELA 5</hi>. Količnik samomorinosti na Slovenskem
+                        1873–1980 kot ga je izračunal dr. Lev Milčinski.</head>
+                    <row>
+                        <cell rend="left">Leto</cell>
+                        <cell rend="left">Količnik samomora </cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1873</cell>
+                        <cell rend="left">3,0</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1881–1890</cell>
+                        <cell rend="left">6,8</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1931–1935</cell>
+                        <cell rend="left">19,4</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1955–1959</cell>
+                        <cell rend="left">23,3</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1960–1964</cell>
+                        <cell rend="left">26,2</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1965</cell>
+                        <cell rend="left">25,5</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1966</cell>
+                        <cell rend="left">25,5</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1967</cell>
+                        <cell rend="left">28,5</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1968</cell>
+                        <cell rend="left">28,3</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1969</cell>
+                        <cell rend="left">29,4</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1970</cell>
+                        <cell rend="left">29,6</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1971</cell>
+                        <cell rend="left">28,5</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1972</cell>
+                        <cell rend="left">27,4</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1973</cell>
+                        <cell rend="left">27,1</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1974</cell>
+                        <cell rend="left">29,9</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1975</cell>
+                        <cell rend="left">29,3</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1976</cell>
+                        <cell rend="left">30,6</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1977</cell>
+                        <cell rend="left">31,7</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1978</cell>
+                        <cell rend="left">31,3</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1979</cell>
+                        <cell rend="left">32,4</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">1980</cell>
+                        <cell rend="left">34,0</cell>
+                    </row>
+                    <note n="">Vir: Lev Milčinski, <hi rend="italic">Samomor in Slovenci</hi> (Ljubljana: Cankarjeva založba, 1985), 142, 143.</note>
+                </table>
+                <lb/>
+                <p>Vsaj do določenem mere je torej mogoče govoriti o umetnem napihovanju občutka
+                    krize, dejstvo pa je, da je stopnja samomorilnosti rasla še naprej. Statistični
+                    podatki in še zlasti njihova primerjava z mednarodnimi razmerami so ponujali
+                    različne možnosti interpretacije, vsekakor pa so jih instrumentalizirali nosilci
+                    oblasti in strokovnjaki, s katerimi je oblast sodelovala, pa tudi nasprotniki
+                    režima. Analiza diskurza, ki ga je statistika povzročila, in motivov, ki naj bi
+                    bili vzrok za porast samomorov, kaže, da je fenomen samomora postal sredstvo
+                    obračuna med komunisti stare in nove generacije ter domneven dokaz, da je nova
+                    generacija družbo zapeljala v napačno smer, da je nujno storiti korak nazaj in
+                    se vrniti na prvotno začrtano pot. Zlasti iz stališč intelektualcev »starejše
+                    generacije«, kot je bil Jože Javoršek, je očitno, da so samomore pogosto
+                    razumeli kot napad na ideje, za katere so se borili in žrtvovali. Dve desetletji
+                    po vojni je bil njihov monopolni položaj v kulturni sferi ogrožen in ti samomori
+                    so jih prisilili v samorefleksijo, ki pa je niso bili sposobni in so pogosto
+                    raje zavzeli močno obrambno držo.<note place="foot" xml:id="ftn62" n="59">
+                        Javoršek, <hi rend="italic">Kako je mogoče</hi>, 169, 234. Marci Shore,
+                        »(The End of) Communism as a Generational History: Some Thoughts on
+                        Czezhoslovakia and Poland,« <hi rend="italic">Contemporary European
+                            History</hi> 18, št. 3 (2009): 307.</note>
+                </p>
+                <p>V mednarodnih študijah, ki so ponujale primerjalne analize razmer v različnih
+                    evropskih državah, so bile razmere na Slovenskem ponavadi spregledane, saj so
+                    bili slovenski podatki vključeni v jugoslovansko statistiko, ki nikakor ni
+                    spadala med najvišje v Evropi. Zgolj primerjava stopenj samomorilnosti med
+                    posameznimi jugoslovanskimi republikami pa je dokazovala alarmantnost razmer v
+                    Sloveniji in je spodbudila nujo po ukrepanju na različnih ravneh.<note
+                        place="foot" xml:id="ftn63" n="60">SI AS 1931, t. e. 1416, mapa Hašiš,
+                        169–85. Milčinski, <hi rend="italic">Samomor in Slovenci</hi>, 142, 219, 220.
+                        Ilkka Henrik Mäkinen, <hi rend="italic">On Suicide in European
+                            Countries</hi>. <hi rend="italic">Some Theoretical Legal and Historical
+                            Views on Suicide Mortality and Its Concomitants</hi> (Stockholm:
+                        Almqvist &amp; Wiksell International, 1997). <hi rend="italic">Prevention of
+                            suicide</hi>. WHO: Public Health Papers, 35 (Geneva: WHO, 1968), 69.
+                        Vojin Milić, »Samoubistva u Jugoslaviji,« <hi rend="italic">Anali pravnog
+                            fakulteta u Beogradu</hi> 7, št. 3/4 (1959): 387–408.</note>
+                </p>
+                <table>
+                    <head><hi rend="italic">TABELA 6</hi>. Koeficient Samomora 1961–1963 (na 100 000
+                        prebivalcev) </head>
+                    <row>
+                        <cell rend="left">Država</cell>
+                        <cell rend="left">ŽENSKE</cell>
+                        <cell rend="left">MOŠKI</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Madžarska</cell>
+                        <cell rend="left">33,9</cell>
+                        <cell rend="left">48,9</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Finska</cell>
+                        <cell rend="left">29,0</cell>
+                        <cell rend="left">47,7</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Avstrija</cell>
+                        <cell rend="left">28,3</cell>
+                        <cell rend="left">42</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Českoslovaška</cell>
+                        <cell rend="left">28,2</cell>
+                        <cell rend="left">40, 9</cell>
+                    </row>
+                    <row>
+                        <cell rend="left">Slovenija</cell>
+                        <cell rend="left">26,7</cell>
+                        <cell rend="left">43, 9</cell>
+                    </row>
+                    <note n="">Vir: SI AS 1931, t. e. 1416, mapa Hašiš, 205–08.</note>
+                </table>
+                <lb/>
+                <table>
+                    <head><hi rend="italic">TABELA 7</hi>. Koeficient samomora v Jugoslaviji
+                        1955–1964 </head>
+                    <row>
+                        <cell rend="both">YU</cell>
+                        <cell rend="both">Bih</cell>
+                        <cell rend="both">Črna gora</cell>
+                        <cell rend="both">HR</cell>
+                        <cell rend="both">Mak</cell>
+                        <cell rend="both">Srbija</cell>
+                        <cell rend="both">Vojvodina</cell>
+                        <cell rend="both">Kosovo</cell>
+                        <cell rend="both">Slovenija</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">14,6</cell>
+                        <cell rend="both">8,9</cell>
+                        <cell rend="both">17,1</cell>
+                        <cell rend="both">16,8</cell>
+                        <cell rend="both">4,4</cell>
+                        <cell rend="both">11,8</cell>
+                        <cell rend="both">25,2</cell>
+                        <cell rend="both">4,2</cell>
+                        <cell rend="both">30,2</cell>
+                    </row>
+                    <note n="">Vir: SI AS 1931, t. e. 1416, mapa Hašiš, 206.</note>
+                </table>
+                <lb/>
+                <p>Položaj Slovenije je izrazito odstopal – najrazvitejša in najbolj
+                    industrializirana od republik je imela tudi občutno najvišji delež
+                    samomorilnosti, vendar so analitiki sprva poudarjali, da ni nikakršne potrebe po
+                    dramatiziranju. Statistični podatki naj bi pričali o razmerah, ki so bile
+                    ostanek preteklih časov in posledica starega, zatohlega, predvojnega sveta.
+                    Teza, da je razlog za porast pravzaprav tičal v času pred drugo svetovno vojno,
+                    je bila izgovor, da se jim ni bilo treba soočiti s povojno realnostjo, rešitev
+                    pa naj bi prinesel obračun z ostanki ideologije, ki so bili še prisotni v
+                    družbi. Stroka in oblast sta bili prepričani, da bo uresničitev socialističnega
+                    sna že sama po sebi prinesla preobrat in rešitev problema: delavci, ki so delali
+                    z lastnimi rokami in so ob koncu dneva videli rezultat svojega dela, so bili
+                    nagrajeni in zadovoljni ter hkrati preveč utrujeni, da bi si postavljali
+                    absurdna vprašanja o smislu življenja. Težave naj bi povzročali le
+                    intelektualci, ki niso videli pravih sadov svojega dela, saj je bilo to pogosto
+                    samo sebi namen.<note place="foot" xml:id="ftn64" n="61">SI AS 1931, t. e. 1416,
+                        mapa Hašiš, 168, 204–13.</note></p>
+                <p>Po Durkheimovem mnenju samomor ni bil sam po sebi indikator nemoralnosti, kot so
+                    ga dojemali zagovorniki ideje o progresivni degeneraciji,<note place="foot"
+                        xml:id="ftn65" n="62">Hawkins, »Durkheim's Sociology and Theories of
+                        Degeneration,« 118–37. </note> saj naj bi bilo določeno število samomorov
+                    mogoče pričakovati v vsakem primeru, vendar pa so ga po drugi svetovni vojni
+                    proučevali ravno v okviru socialne patologije, ki je poleg samomorilnosti
+                    vključevala tudi alkoholizem, brezdelništvo, mladoletniške nemire in nekatere
+                    seksualne deviacije.<note place="foot" xml:id="ftn66" n="63">Ljubo Bavcon, Miloš
+                        Kobal, Lev Milčinski, Katja Vodopivec in Boris Uderman, ur., <hi
+                            rend="italic">Socialna patologija</hi> (Ljubljana: Mladinska
+                        knjiga, 1969). Durkheim, <hi rend="italic">Suicide: A Study in
+                        Sociology</hi>, XVII.</note> Kljub popolnemu družbenemu prevratu po letu
+                    1945 ni prišlo do popolnega preloma v miselnosti in temeljnih vrednotah, ki so
+                    narekovale pravila vedenja v družbi. Socialistična miselnost je, kljub navidezno
+                    liberalnejšim nazorom, podobno kot meščanska morala v ospredje postavljala
+                    vrednote odgovornosti, delavnosti, moralne in duševne trdnosti ter žrtvovanja za
+                    skupnost, zaradi česar je bil samomorilec dojet kot narodni izdajalec, saj je
+                    izgubil vero v socialistično prihodnost. Spremenil se je podton propagandnih
+                    zapisov in govorov, še vedno pa so zahtevali požrtvovalnost in poudarjali, da
+                    velike zgodovinske naloge zahtevajo velike napore in popolno predanost »stvari
+                    našega delovnega ljudstva« in »stvari naše domovine«.<note place="foot"
+                        xml:id="ftn67" n="64">Boris Kidrič, »O formiranju naših novih tehničnih in
+                        gospodarskih kadrov iz delavskega razreda,« v: Boris Kidrič, <hi
+                            rend="italic">Zbrano delo III</hi> (Ljubljana: Cankarjeva založba,
+                        1978), 120–33. Javoršek, <hi rend="italic">Kako je mogoče</hi>, 7–9. Meta
+                        Remec, <hi rend="italic">Bakh, tobak in Venera</hi>: <hi rend="italic">grehi
+                            in skušnjave v dolgem 19. stoletju</hi> (Ljubljana: Inštitut za novejšo
+                        zgodovino, 2016), 19–25.</note> Novost, ki jo je prinesla nova oblast, je
+                    bilo zavestno podrejanje velikim skupnim ideološkim ciljem. Poudarjali so pomen
+                    skupnosti proti sebičnemu individualizmu ter opevali fizično delo. S
+                    poudarjanjem, da morajo junaki borbe postati junaki dela, so spodbujali
+                    militaristično vzdušje boja proti skupnemu sovražniku.<note place="foot"
+                        xml:id="ftn68" n="65">Boris Kidrič, »Junakom borbe naj slede junaki dela,«
+                        v: Boris Kidrič, <hi rend="italic">Zbrano delo II</hi> (Ljubljana:
+                        Cankarjeva založba, 1978), 307–10.</note> Samomor se s to podobo realnosti
+                    in novega človeka nikakor ni skladal. V vseh družbenih ureditvah, še posebej pa
+                    v totalitarnih režimih, samomor nikoli ni bil dojet kot zgolj individualna
+                    odločitev, temveč je bil vedno razumljen kot odraz strukturnih problemov v
+                    družbi. Tudi v socialistični Jugoslaviji je bil samomor več kot nezaželen
+                    družbeni fenomen, človekov obup je bil kritika, tudi če so bili razlogi zanj
+                    izrazito intimna odločitev. Doživljali so ga kot napad in kot odtegnitev
+                        dolžnosti.<note place="foot" xml:id="ftn69" n="66">Radošević, »'Umorni od
+                        života'«, 100. Moritz Föllmer, »Suicide and Crisis in Weimar Berlin,« <hi
+                            rend="italic">Central European History</hi> 42, št. 2 (2009): 199.
+                        Durkheim, <hi rend="italic">Suicide: A Study in Sociology</hi>, X. Javoršek,
+                            <hi rend="italic">Kako je mogoče</hi>, 7–9.</note>
+                </p>
+                <p>Pričakovanja o upadu samomorov se niso uresničila, in namesto da bi se Slovenija
+                    približala stopnji samomorilnosti, ki je bila značilna za preostali del države,
+                    se je od nje le še bolj oddaljevala. Dejstvo, da samomorilnost ni bil
+                    vsejugoslovanski, temveč navidezno zgolj slovenski problem, je služilo kot
+                    dokaz, da razlogov za porast ne gre iskati v socializmu in povojni družbeni
+                    realnosti, temveč v slovenskih specifikah – v s katolištvom prežeti vzgoji, ki
+                    je ljudi vzgajala v ponižnosti in ubogljivosti, ter v habsburški dediščini. V
+                    šestdesetih letih se je ustvarilo mnenje, ki ga je nato mogoče zaslediti vse do
+                    konca osemdesetih let, da je samomor del slovenskega značaja in posledica
+                    nagnjenja k melanholičnosti in samouničevanju, da je torej habsburški,
+                    srednjeevropski in malodušen.<note place="foot" xml:id="ftn70" n="67">SI AS
+                        1931, t. e. 1416, mapa Hašiš, 189–201. SI AS 1931, t. e. 1416, mapa Hašiš,
+                        168–86, 27. 11. 1969. Marko Kerševan, »Razmišljanje o sociološkem ozadju
+                        samomorilnosti na Slovenskem,« v: Dolenc, ur., <hi rend="italic">Samomor na
+                            Slovenskem</hi>, 185, 186.</note></p>
+                <p>Strokovnjaki so ugotavljali, da je v slovenski družbi še vedno obstajala
+                    »tendenca po begu in izmikanju«, čeprav ni bilo čisto jasno, čemu so se ljudje
+                    izmikali in pred čim so bežali. Samomor je bil namreč razumljen kot beg, beg pa
+                    naj bi obstajal takrat, ko obstajata strah in bojazen, saj »bežimo pred nečim,
+                    kar nam je neljubo in česar nas je strah, umikamo pa se nekam, kjer nam je
+                    ugodneje in prijetneje«. Je mogoče, da so po vseh žrtvah za osvoboditev države
+                    in naroda ljudje bili tako nezadovoljni in nesrečni, da so se umikali v smrt? Že
+                    pri analizah, ki so nastajale v šestdesetih letih, je bilo opaziti kritične
+                    zapise, da se vse negativne tendence prehitro in prelahkotno pripišejo mračnim
+                    vplivom z zahoda, dejansko pa naj bi primanjkovalo samokritičnosti. Tudi v
+                    socialistični družbi so ljudje iskali nove, intenzivnejše občutke, želeli so se
+                    počutiti žive, lastnike svojega življenja, zato so »prireja[li] orgije, divje
+                    zabave, krad[li], pijanč[evali], poč[eli] samomore«. Postavljalo se je
+                    vprašanje, kakšna je temeljna pomanjkljivost stvarnosti, ki očitno ni bila
+                    kompletna, dobra in zadostna, saj sicer ne bi bežali od nje. Človek si bivanja
+                    ni znal več osmisliti sam – če je to sploh kdaj znal, saj je to zanj vedno
+                    naredila avtoriteta, še najpogosteje religija. Socialistični človek, ki bi moral
+                    biti aktiven in propulziven, je pogosto samo čakal, da bo to naredil nekdo
+                    namesto njega – religije ni bilo več, ideologija pa te vloge ni mogla prevzeti,
+                    saj prevzgoja očitno ni bila uspešna. Priznati naj bi si bilo treba, da so
+                    ljudje imeli nerealna pričakovanja od socialističnega raja, da je po koncu
+                    evforije zavladala rutina in da sta se tudi v socializmu ustvarila dva svetova:
+                    »tostranstvo, ki nas tlači, in (namišljeni in idealizirani) svet zunaj, ki nam
+                    daje peroti«.<note place="foot" xml:id="ftn71" n="68">Dimitrij Rupel, »Samomor
+                        naš vsakdanji,« <hi rend="italic">Sodobnost (1963)</hi> 14, št. 4 (1966):
+                        386–92.</note>
+                </p>
+                <p>Še bolj kritični so bili intelektualci iz osemdesetih let, ki so fenomen samomora
+                    in statistične podatke prvih desetletij po drugi svetovni vojni proučevali s
+                    časovno distanco in jih izrabili za obračun s socialistično oblastjo in njeno
+                    dediščino. Poudarjali so, da je povojna oblast ljudem obljubljala brezrazredno
+                    družbo, da pa je industrializacija dejansko prinesla razslojevanje. Ljudem, ki
+                    so se počutili izrazito izkoreninjeni iz tradicionalne arhaične ruralne
+                    skupnosti, nova ideologija praznine ni znala nadomestiti, ker je bila sama po
+                    sebi prazna. Če je bil človek prej le zrcalna slika drugih v skupnosti, je bil
+                    novi urbani človek kot individuum prepuščen samemu sebi ter sam odgovoren za
+                    iskanje smisla lastnega obstoja.<note place="foot" xml:id="ftn72" n="69">
+                        Grafenauer, »Oblike slovenskega samomora,« 276–78.</note> V ozadju naj bi
+                    bila razdvojenost družbe, razpetost med gospodarskim razvojem in zaprtostjo
+                    družbe, ki je v svojem jedru ostala tradicionalna. Ker država ni uresničila
+                    svojih obljub o gospodarskem napredku in dvigu življenjskega standarda, so
+                    Slovenci ohranjali oziroma bili prisiljeni ohranjati malomeščansko-vaški tip
+                    naselitve, biti istočasno delavci-proletarci in kmetje ter zato dvojno zgarani,
+                    utrujeni in naveličani, obenem pa nikoli niso pretrgali močnih sorodstvenih vezi
+                    in so bili stalno podvrženi tradicionalnemu socialnemu nadzoru in pritisku nad
+                    posameznikom, ki je občasno postal neznosen. Ljudje naj bi v Sloveniji le s
+                    težavo začenjali znova – že prvi propad in prvi neuspeh sta bila pogosto usodna.
+                    Slovenska stopnja samomorilnosti naj bi bila neločljivo povezana s tem, da je
+                    družba »kmečka v razkroju in moderna v nastajanju, vendar bolj v željah, kot
+                    dejanskih možnostih«.<note place="foot" xml:id="ftn73" n="70">Kerševan,
+                        »Razmišljanje o sociološkem ozadju,« 185,
+                        186.</note> Zdelo se je, da je družbena podrejenost preteklih obdobij
+                    služila kot zaščita pred samomorom: bolj ko so zahteve in pričakovanja drugih
+                    nadzorovali vedenje in obstoj posameznika, manjša je bila njegova odgovornost za
+                    posledice njegovih odločitev. Ko je vse postalo odvisno le od človeka samega, je
+                    posameznik prevzel tudi popolno odgovornost za lasten neuspeh in propad.
+                    Pojavilo se je vprašanje, ali se je to zgodilo le Slovencem. So bili prvič v
+                    zgodovini odgovorni zase in se v tej vlogi niso znašli? Naraščanje samomorov po
+                    letu 1960, ko je bila vojna že zdavnaj končana in ko so se končala tudi leta
+                    najostrejše represije, je bilo dokaz za kritike režima, da nova ideologija ni
+                    mogla osmisliti človeškega življenja, kot je to pred tem zmogla religija in vera
+                    v onostranstvo.<note place="foot" xml:id="ftn74" n="71">Masaryk, <hi
+                            rend="italic">Suicide, </hi>69. Rupel, »Samomor naš vsakdanji,« 386–92.
+                        Lev Milčinski, »Samomor in samomorilni poskus,« v: Ljubo Bavcon, Miloš Kobal, Lev Milčinski, Katja Vodopivec in Boris Uderman, ur., Socialna patologija (Ljubljana:
+                        Mladinska knjiga, 1969),
+                        187.</note></p>
+                <div>
+                    <head>Odziv na naraščajoče številke</head>
+                    <p>Poskusi razprave na ravni stroke so se sredi šestdesetih let končali, ko je
+                        problematika odjeknila v javnosti po predstavitvi filma Maka Sajka <hi
+                            rend="italic">Samomorivci, pozor!</hi>. Ta med razlogi za samomor navaja
+                        težke ekonomske razmere, neurejeno družinsko okolje, duševne in telesne
+                        motnje, alkohol in razočaranja v ljubezni, v nasprotju s sociologi pa ne
+                        pripisuje večje vloge razlikam med mestom in podeželjem. Kljub temu, da ne
+                        kritizira neposredno oblasti in da samomor ni prikazan kot sredstvo upora,
+                        je realnost, ki jo je prikazal ta film, bila tako pereča, da se je oblast
+                        čutila napadeno in osramočeno pred svetovno javnostjo. Odziv je bil
+                        takojšen, saj je problematiko povzelo italijansko, nemško in francosko
+                        časopisje, v katerem je bilo veliko netočnosti in manipuliranja s
+                        številkami. Številke, ki so jih navajali, so bile namreč absolutno
+                        prenapihnjene in niso imele podlage v statističnih podatkih, preiskovalcem
+                        pa ni bilo jasno, ali je prišlo do napak zaradi netočnih prevodov ali do
+                        namernih zavajanj. Očitno je, da je časopisje te podatke nekritično
+                        povzemalo drugo od drugega, čeprav je oblast zanikala pravilnost teh
+                        številk. Italijanski časopis <hi rend="italic">L'Espresso</hi> je ponujal
+                        podatek o 117 samomorih v starostni skupini med 12. in 25. letom starosti na
+                        območju Slovenije v letu 1968, <hi rend="italic">Der Spiegel</hi> je navajal
+                        podatek, da je bilo na območju Ljubljane v letu 1968 117 samomorov in 42
+                        poskusov samomorov, francoski <hi rend="italic">L'Express</hi> pa je pisal o
+                        117 samomorih in 725 poskusih samomora med mladimi.<note place="foot"
+                            xml:id="ftn75" n="72">SI AS 1931, t. e. 1416, mapa Hašiš, 154.</note>
+                        Bolnišnice naj bi odpirale celo posebne »paviljone za samomorilce«, ki so
+                        bili opremljeni za reanimacijo in zdravljenje samomorilcev.<note
+                            place="foot" xml:id="ftn76" n="73">SI AS 1931, t. e. 1416, mapa Hašiš,
+                            198, »Klub samomorilcev v Ljubljani?,« <hi rend="italic">Kleine
+                                Zeitung</hi>, 8. 2. 1969, 5.</note>
+                    </p>
+                    <p>Italijanski novinar Francesco Russo, ki je pod vtisom teh informacij obiskal
+                        Ljubljano, je iskal zgodbo in senzacijo. V nepodpisanem strokovnem poročilu,
+                        za katerega je mogoče domnevati, da ga je napisal Lev Milčinski, lahko
+                        preberemo, da so uradne institucije in strokovnjaki zavrnili pogovor z njim.
+                        V skladu z znanstvenimi načeli niso želeli špekulirati s podatki in
+                        razpravljati o posameznih primerih samomora, ne glede na prominentnost
+                        osebe, ki ga je izvršila, njihov molk pa je bil razumljen kot poskus
+                        prikrivanja in zarote molka. Prijatelji žrtev, novinarji, intelektualci in
+                        Mako Sajko so bili, nasprotno, zelo zgovorni. Odprli so mu svoje domove, mu
+                        prikazali zbirališča mladih in mu naslikali izjemno temačno podobo
+                        Ljubljane, ki je bila za oblast izjemno žaljiva.<note place="foot"
+                            xml:id="ftn77" n="74">SI AS 1931, t. e. 1416, mapa Hašiš, 189. SI AS
+                            1931, t. e. 1416, mapa Hašiš, 203–08.</note> Odziv na pritiske javnega
+                        mnenja je bil dvotiren – oblast se je odločila za tajno policijsko preiskavo
+                        vpletenih in izvajanje tajnega nadzora nad problematičnimi posamezniki,
+                        istočasno pa naj bi bilo nujno tudi oblikovanje strokovne skupine, ki bi se
+                        s samomorom ukvarjala z medicinskega, sociološkega in pravnega vidika. V tem
+                        času je bilo po mnenju preiskovalcev storjenih več nepopravljivih napak, od
+                        tega, da so Maku Sajku sploh odprli policijske arhive in mu omogočili
+                        brskanje po dosjejih 174 mladih samomorilcev, na katerih je potem osnoval
+                        svoj dokumentarec in povzročil mednarodno sramoto, do tega, da so dovolili,
+                        da so javno mnenje oblikovali predvsem novinarji, ki strokovnih argumentov
+                        sploh niso slišali in upoštevali ter so iz statističnih podatkov jemali le
+                        tisto, ker jim je v danem trenutku ustrezalo. Za hudo malomarnost je veljalo
+                        tudi dejstvo, da policijska preiskava očitno ni ohranila tajnosti in da so
+                        novice o njenem obstoju pricurljale v javnost. V medijih se je tako pojavil
+                        podatek, da je problematiko preiskovalo kar sedem kriminalistov, kar naj bi
+                        bilo že samo po sebi zgovoren dokaz, da se je za »zidom molka nekaj
+                        skrivalo«, o preiskavi pa so bili obveščeni tudi tuji novinarji, ki so
+                        vedeli celo to, da jo je vodil Vlado Furlan.<note place="foot"
+                            xml:id="ftn78" n="75">SI AS 1931, t. e. 1416, mapa Hašiš, 194, 195. »Brei
+                            des Hasses,« <hi rend="italic">Der Spiegel</hi>, 3. 3. 1969, št. 10,
+                            132. SI AS 1931, t. e. 1416, mapa Hašiš, 189–93. »Kljub prerezanih žil,«
+                                <hi rend="italic">L'Espresso</hi> 15, 23. 2. 1969, št.
+                        8.</note></p>
+                    <p>Skupina strokovnjakov, ki se je oblikovala okrog psihiatra dr. Leva
+                        Milčinskega, je o samomorih in poskusih samomora želela razpravljati v ozkem
+                        krogu predstavnikov organizacij in institucij, ki jih je ta pojav zanimal
+                        glede na njihovo družbeno vlogo in ki so čutili dolžnost po ukrepanju.
+                        Zoprno jim je bilo dajati kakršnakoli pojasnila, sploh če so morali
+                        popravljati napake domačih novinarjev, ki so si nadeli vlogo »Vergila« in
+                        vodili svoje italijanske kolege »Danteje« po Ljubljani – »Peklu«, kot
+                        nekakšni izvedenci, razlagajoči »znamenja propada Slovenije in našega
+                        socializma«. Nosilce oblasti in stanovske kolege teh »vodnikov« so pozivali,
+                        naj jim pokažejo, da njihovo početje ni znak državljanske lojalnosti in
+                        novinarske etike. Za utišanje je bilo vsekakor prepozno, saj je bila škoda
+                        že storjena. Priznavali pa so dejstvo, da je bila Slovenija v šestdesetih
+                        letih po pogostosti samomora zelo visoko, da je bilo število samomorov
+                        visoko zlasti med moškimi in da je na Slovenskem samomor dejansko storilo
+                        več mladih oseb kot v drugih delih države. Hkrati pa je obstajalo tudi
+                        dejstvo, da so bile številke samomorov, ki so se pripisovale slovenski
+                        študentski mladini, napačne, kar je bilo vsaj zavajajoče, če ne naravnost
+                        protidržavno dejanje. V letu 1968 naj bi bilo na slovenskem trinajst
+                        samomorov med dijaki in en med študenti, od tega dva dijaka in en študent v
+                        Ljubljani, vseh samomorov v Ljubljani pa je bilo 41 (količnik samomora 23,
+                        kar je pod slovenskim povprečjem), v letu 1967 pa so samomor storili štirje
+                        dijaki in dva študenta, kar naj bi očitno dokazovalo, da Ljubljana ni v
+                        ničemer odstopala in da ni bilo mogoče govoriti o nikakršnem zloveščem
+                        ozračju. Člani ekspertne skupine so poudarjali, da so bili podatki vključeni
+                        v statistiko in jih nihče ni prikrival. Pri pisanju o študentski populaciji
+                        naj bi se venomer delala ista napaka, ko se je v isti koš metalo uspele
+                        samomore in samomorilne poskuse, ki jih je bilo med mladimi bistveno več kot
+                        v drugih starostnih kategorijah. Poskusi samomora naj bi se povsem napačno
+                        interpretirali, saj še zdaleč niso bili zgolj odraz želje po smrti, temveč
+                        pogosto le klic na pomoč in sredstvo pritiska na okolico. Samomor in
+                        samomorilni poskus ter njegove korelacije s starostjo, socialnim okoljem,
+                        alkoholom in še čim bi morali temeljito proučiti, so pozivali strokovnjaki.
+                        Menili so, da tega ne more narediti »filmski režiser, še manj pa italijanski
+                        novinarji ob dezinformacijah, ki jih širijo njihovi zagrebški in beograjski
+                        kolegi«. Kdor je režiserju omogočil dostop do podatkov in ni preprečil
+                        zlorabe te tematike v javnosti, je po mnenju članov ekspertne skupine nosil
+                        veliko odgovornost, spraševali so se tudi, zakaj je to storil. Izražali pa
+                        so tudi razočaranje nad novinarji, ki so senzacionalistično izhajali zgolj
+                        iz aktualnih konfliktnih situacij, ki jim je samomor sledil, poenostavljali
+                        in vse prikrojili svojim potrebam, brez kakršnegakoli občutka odgovornosti.
+                        Vse to je strokovnjake prisililo, da so se namesto ukvarjanja s centrom za
+                        proučevanje in prevencijo samomorov, ukvarjali z nadležnimi novinarji, ki so
+                        želeli intervjuje in so se jih morali otepati. Strokovnjaki niso želeli
+                        dajati izjav, pa ne zaradi »zidu molka okoli samomorov«, kakor so radi
+                        »napletali« novinarji, temveč zato, ker naj bi bile izjave pred zaključkom
+                        resne analize zgolj improvizirane, špekulativne, odraz občutkov in osebnih
+                        stališč. Poudarjali so, da bo še po koncu raziskave od strokovnjakov mogoče
+                        pričakovati le izjave o pojavu in njegovih značilnostih, ne pa o
+                        posameznikih, predvsem pa ne ničesar, kar ne bo slonelo na trdnih dejstvih.
+                        Zavračali so poročanje o samomorih, ker naj bi novice o tej problematiki
+                        služile kot sugestija tistim z labilnim značajem, prepričani so bili tudi,
+                        da je problematiko treba analizirati interno, da ne bi povzročili
+                        nepotrebnega preplaha v javnosti. Odločno so poudarili, da so bili podatki o
+                        samomoru v Jugoslaviji javno objavljeni v publikacijah zveznega in
+                        republiških zavodov za statistiko, da so bili vsem dostopni in da jih je
+                        lahko vsakdo kadarkoli zahteval in uporabil. Vsak, ki je pisal o samomoru,
+                        ne da bi te številke preveril in se tako izognil netočnostim, naj bi to
+                        počel namenoma in ni imel izgovora za svoja pretiravanja in tendencioznosti.
+                        Če je bil samomor znak nečesa, kar se je dogajalo v temeljih družbe, bi se
+                        politika, še bolj kot s samomorom samim, morala ukvarjati z zaskrbljujočim
+                        dejstvom, da so na delu sile, ki želijo s takim načinom pisanja uničiti
+                            družbo.<note place="foot" xml:id="ftn79" n="76">SI AS 1931, t. e. 1416,
+                            mapa Hašiš, 204–13.</note>
+                    </p>
+                    <p>Kar je bila za strokovnjake profesionalna drža, je javnost dojemala kot
+                        poskuse prikrivanja problemov in zaroto molka, ki je podžgala teorije zarote
+                        in konstrukcije o obstoju samomorilskih klubov ter v družbo vnesla še več
+                        nemira. Vsekakor pa so bili statistični podatki jasen namig oblastnikom, da
+                        je ukrepanje potrebno, in to preden so številke pricurljale v javnost in
+                        postale del medijskega diskurza. Člani ekspertne skupine, ki so želeli
+                        pridobiti posebna finančna sredstva od Sklada Borisa Kidriča za izvedbo
+                        raziskovalnega projekta na temo samomorov in poskusov samomora med mladimi,
+                        so v ta namen uporabili nadvse primeren diskurz. Vlogo so opremili s
+                        statistično študijo in na podlagi predstavljenih številk opozarjali, da je
+                        samomor seizmograf, ki kaže na različne motnje v medčloveških in družbenih
+                        odnosih, ter da je treba ukrepati, preden pride do uničujočega šoka. Spretno
+                        so uporabili Durkheimove teze o povezavi med samomorom in razmerami v družbi
+                        ter njegova opozorila, da je hiter porast stopnje samomorilnosti simptom
+                        razpada kolektivne zavesti in hudih napak v družbenem tkivu. Če je samomor
+                        veljal za pokazatelja dogajanja v temeljih družbe, je bilo očitno, da je
+                        nekaj ali nekdo rušil in spodkopaval temelje, postavljene po drugi svetovni
+                        vojni, in da je bila nujna formalna preiskava, s čimer so uspešno izrabili
+                        strahove politikov, ki so bili ves čas na preži pred zunanjimi pa tudi
+                        notranjimi sovražniki.<note place="foot" xml:id="ftn80" n="77">SI AS 1931,
+                            t. e. 1728/226, a. e. 24/2-2-69. Durkheim, <hi rend="italic">Suicide: A
+                                study in sociology,</hi> XVII.</note> Oblasti so se bale, da so te
+                        pojave spodbujale sile, ki so si prizadevale za strmoglavljenje
+                        jugoslovanske državne vlade, in da bodo te sile te podatke izkoristile, da
+                        Jugoslavijo in njeno oblast očrnijo v mednarodnem prostoru ter obrnejo
+                        ljudske množice proti oblasti.<note place="foot" xml:id="ftn81" n="78">SI AS
+                            1931, t. e. 1416, mapa Hašiš, 4–6, 96–111.</note> Poleg tega pa je
+                        visoko število samomorov družbo zavezovalo, da poskuša omejiti ta pojav, saj
+                        je očitno, da je odraz določenih nenormalnih razmer, še posebej ko se je za
+                        samomor odločalo vedno več mladih. Naloga družbe, še posebej socialistične,
+                        je bila, da poskuša najti ustrezne rešitve v vseh smereh družbenega
+                        življenja, prav tako pa najti za slovenske razmere čim boljše vzgojne
+                        koncepte od najnežnejših otroških let pa vse do konca formiranja človekove
+                        osebnosti. Strokovnjaki so nameravali sistematično proučevati to
+                        problematiko, pripraviti ustrezne ukrepe in ugotoviti morebitno povezanost
+                        med stopnjo samomorilnosti in stanjem v družbi. Odločili so se raziskati
+                        neugodno »psihohigiensko družinsko okolje« in si še naprej prizadevali za
+                        ustanovitev centra za proučevanje samomora, ki bi zbiral podatke tudi o
+                        poskusih samomora ter osnoval sistem preventive. Poleg tega naj bi tak
+                        center ugotavljal, kaj se dogaja v najbolj obremenjenih okoljih, imel
+                        pristojnosti za aktivno ukrepanje na terenu ter omogočal tudi spremljanje in
+                        vrednotenje učinkov izvedenih aktivnosti.<note place="foot" xml:id="ftn82"
+                            n="79">SI AS 1931, t. e. 1728, Dokončani samomori, Poročanje centru za
+                            prevencijo suicidov.</note></p>
+                </div>
+                <div>
+                    <head>Samomor med mladimi in medijski diskurz</head>
+                    <p>Iz analiziranega arhivskega gradiva je mogoče razbrati, da je obstajal
+                        ambivalenten odnos do samomora: če je bil samomor po eni strani razumljen
+                        kot protidržavno dejanje in je javnost samomorilce obsojala kot dezerterje,
+                        ki so se izneverili družbi v boju za boljši jutri, je družba po drugi strani
+                        izražala veliko stopnjo razumevanja in tolerance do samomora v določenih
+                        okoliščinah, ko je samomor veljal za sprejemljivo in razumljivo, v določenih
+                        primerih pa celo herojsko dejanje.<note place="foot" xml:id="ftn83" n="80">
+                            Gl. npr. Lev Milčinski, »Smrt Ivana Hribarja,« v: Mira Virant-Jaklič in
+                            Tamara Jeraj, <hi rend="italic">Samomor in samomorilni poskus v
+                                Sloveniji v letu 1996</hi> (Ljubljana: Psihiatrična klinika, Center
+                            za izvenbolnišnično psihiatrijo, 1998), 18–20.</note> Številni samomori
+                        med starejšimi, zlasti v starostni kategoriji med 60 in 64 let, kjer je
+                        samomorilni količnik že v šestdesetih letih dosegal celo 116 samomorov na
+                        100.000 prebivalcev, so vzbujali pozornost med stroko, ne pa tudi v javnosti
+                        in pri nosilcih oblasti, nad čimer so bili strokovnjaki zelo presenečeni.
+                        Milčinski je opozarjal, da se je družba zdela na fenomen navajena, da se je
+                        samomor zdel sprejemljiva izbira predvsem ob težkih diagnozah, družinskih
+                        tragedijah, ekonomskem propadu in bil pogosta posledica izjemno razširjenega
+                        alkoholizma, ob katerem se družba tudi ni pretirano vznemirjala.<note
+                            place="foot" xml:id="ftn84" n="81">SI AS 1931, t. e. 1416, mapa Hašiš,
+                            209.</note> Nasprotno pa je družba kazala skoraj predimenzionirano skrb
+                        za samomor med mladimi, verjetno tudi zato, ker se seveda ni skladal s
+                        podobami zdrave, zanosa polne mladine, ki v mladinskih brigadah gradijo
+                        porušeno domovino, kot so si jo želeli povojni veljaki.<note place="foot"
+                            xml:id="ftn85" n="82">Javoršek, <hi rend="italic">Kako je mogoče</hi>,
+                            8, 9.</note></p>
+                    <p>Oblast je s pomočjo Službe državne varnosti spremljala negativne tendence med
+                        mladimi že od zgodnjih šestdesetih let, ko so začela nastajati študentska
+                        društva in alternativne kulturne skupine. Iz obveščevalnih skupin je zaznati
+                        strah, da se bodo te skupine, zaenkrat še razmeroma nenevarne, začele
+                        vmešavati v politično areno, skrb pa je vzbujalo tudi njihovo vedno bolj
+                        tvegano in (samo)destruktivno vedenje. Če so sprva predvsem organizirali
+                        divje zasebne zabave, poslušali rokenrol, dekleta pa so poleg tega nosila
+                        tudi črno spodnje perilo, se je nadaljevalo z vedno bolj agresivnimi in
+                        »psihopatskimi izpadi« in poseganjem po drogah. V izzivanju usode z vožnjo
+                        po nasprotnem pasu in igranjem ruske rulete so preiskovalci prepoznali znake
+                        samomorilnega vedenja, niso pa še videli potrebe po dramatiziranju.<note
+                            place="foot" xml:id="ftn86" n="83">SI AS 1931, A-22-18, Inv. 659,
+                            Specialne informacije DV, Podatki o dijaški organizaciji »Črne mačke«,
+                            20. 4. 1961, št. 25, 178–84.</note> Agenti SDV so v svojih poročilih
+                        razloge iskali v »mračnih vplivih z zahoda«, ki naj bi jim bili Slovenci
+                        bolj podvrženi. Vesti o številu samomorov med adolescenti so bile
+                        problematične, ker bi utegnile povzročiti neutemeljen preplah. V poročilih
+                        so opozarjali, da samomor mladih pusti globlji vtis, da se javnost odzove s
+                        paniko, zato bi bilo treba te podatke analizirati in pravilno interpretirati
+                        ter ne vznemirjati javnosti, saj lahko že en sam samomor ustvari učinek
+                        snežne kepe in plazu, porine v malodušje še druge, jih opogumi, da tudi sami
+                            poskusijo.<note place="foot" xml:id="ftn87" n="84">Po Masaryku naj bi
+                            bili k posnemanju samomorilcev nagnjeni zlasti otroci in drugi manj
+                            razviti posamezniki. Masaryk, <hi rend="italic">Suicide, </hi>117–19.
+                            Gl. tudi Milčinski, »Samomor in samomorilni poskus,« 183. To dokazuje
+                            primer mladeniča Vladimirja Koviča, ki je odkrito občudoval samomore, o
+                            njih govoril in bral ter jih imel za znak poguma, preden je sam naredil
+                            samomor. – SI AS 1931, t. e. 1417/Kovič Vladimir – samomor.</note>
+                    </p>
+                    <p>Podatki, ki so jih zbrali na Inštitutu za kriminologijo pri Pravni fakulteti
+                        v Ljubljani so kazali, da je bila stopnja samomorilnosti med mladimi v
+                        Sloveniji najvišja, ne samo če so jo primerjali s podatki iz drugih
+                        jugoslovanskih republik, temveč tudi če so jo primerjali z državami, ki so
+                        sicer imele najvišje stopnje samomorilnosti. Preplah je sprožila zlasti
+                        primerjava med podatki, ki dokazujejo, da je stopnja samomorilnosti izjemno
+                        hitro naraščala med mlajšimi generacijami. Med letoma 1964 in 1967 so
+                        občuten porast opazili v starostni skupini moških med 20. in 24. letom, še
+                        izrazitejši pa je bil v starostni skupini med 30. in 34. letom, kjer je
+                        znašal že 70,8 samomora na 100.000 prebivalcev.<note place="foot"
+                            xml:id="ftn88" n="85">SI AS 1931, t. e. 1416, mapa Hašiš,169, 203–208.
+                            SI AS 1931, t. e. 1728, a. e. 226, 24/2-2-69.</note> Dokaz o porastu
+                        samomorilnosti med mladimi naj bi bilo tudi dejstvo, da se je znižala
+                        povprečna starost samomorilca, ki se je premaknila v starostno skupino med
+                        40. in 49. letom, kar naj bi dokazovalo, da so smrt izbirali mlajši,
+                        aktivnejši pripadniki družbe.<note place="foot" xml:id="ftn89" n="86">
+                            Grafenauer, »Oblike slovenskega samomora,« 276–78.</note>
+                    </p>
+                    <table>
+                        <head><hi rend="italic">TABELA 8</hi>: Starostna struktura samomora v letu
+                            1964. </head>
+                        <row>
+                            <cell rend="both">Starost</cell>
+                            <cell rend="both" cols="2">Slovenija</cell>
+                            <cell rend="both" cols="2">Avstrija</cell>
+                            <cell rend="both" cols="2">Češkoslovaška</cell>
+                            <cell rend="both" cols="2">Finska</cell>
+                            <cell rend="both" cols="2">Madžarska</cell>
+                        </row>
+                        <row>
+                            <cell rend="both"/>
+                            <cell rend="both">M</cell>
+                            <cell rend="both">Ž</cell>
+                            <cell rend="both">M</cell>
+                            <cell rend="both">Ž</cell>
+                            <cell rend="both">M</cell>
+                            <cell rend="both">Ž</cell>
+                            <cell rend="both">M</cell>
+                            <cell rend="both">Ž</cell>
+                            <cell rend="both">M</cell>
+                            <cell rend="both">Ž</cell>
+                        </row>
+                        <row>
+                            <cell rend="both">10–14</cell>
+                            <cell rend="both">5,3</cell>
+                            <cell rend="both">-</cell>
+                            <cell rend="both">2,4</cell>
+                            <cell rend="both">1,7</cell>
+                            <cell rend="both">2,4</cell>
+                            <cell rend="both">0,5</cell>
+                            <cell rend="both">2,1</cell>
+                            <cell rend="both">-</cell>
+                            <cell rend="both">5,0</cell>
+                            <cell rend="both">12,7</cell>
+                        </row>
+                        <row>
+                            <cell rend="both">15–19</cell>
+                            <cell rend="both">20,4</cell>
+                            <cell rend="both">14,5</cell>
+                            <cell rend="both">16,9</cell>
+                            <cell rend="both">6,5</cell>
+                            <cell rend="both">17,3</cell>
+                            <cell rend="both">7</cell>
+                            <cell rend="both">8,3</cell>
+                            <cell rend="both">2,3</cell>
+                            <cell rend="both">21,1</cell>
+                            <cell rend="both">15,4</cell>
+                        </row>
+                        <row>
+                            <cell rend="both">20–24</cell>
+                            <cell rend="both">40,4</cell>
+                            <cell rend="both">12,6</cell>
+                            <cell rend="both">27,2</cell>
+                            <cell rend="both">8,0</cell>
+                            <cell rend="both">29,8</cell>
+                            <cell rend="both">9,3</cell>
+                            <cell rend="both">23,2</cell>
+                            <cell rend="both">4,9</cell>
+                            <cell rend="both">40,9</cell>
+                            <cell rend="both">12,3</cell>
+                        </row>
+                        <row>
+                            <cell rend="both">25–29</cell>
+                            <cell rend="both">46,5</cell>
+                            <cell rend="both">7,9</cell>
+                            <cell rend="both">26,8</cell>
+                            <cell rend="both">13,3</cell>
+                            <cell rend="both">30,7</cell>
+                            <cell rend="both">8,6</cell>
+                            <cell rend="both">21,1</cell>
+                            <cell rend="both">9,0</cell>
+                            <cell rend="both">35,2</cell>
+                            <cell rend="both">14,7</cell>
+                        </row>
+                        <row>
+                            <cell rend="both">30–34</cell>
+                            <cell rend="both">44,6</cell>
+                            <cell rend="both">13,2</cell>
+                            <cell rend="both">32,5</cell>
+                            <cell rend="both">10</cell>
+                            <cell rend="both">35,5</cell>
+                            <cell rend="both">10,7</cell>
+                            <cell rend="both">42,0</cell>
+                            <cell rend="both">7,4</cell>
+                            <cell rend="both">44,3</cell>
+                            <cell rend="both">13,5</cell>
+                        </row>
+                        <note n="">Vir: SI AS 1931, t. e. 1416, mapa Hašiš, 207.</note>
+                    </table>
+                    <lb/>
+                    <table>
+                        <head><hi rend="italic">TABELA 9</hi>: Samomorilni količnik med mladimi v
+                            Sloveniji v letu 1967</head>
+                        <row>
+                            <cell rend="left">Starost</cell>
+                            <cell rend="left">Moški</cell>
+                            <cell rend="left">Ženske</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">Do 14</cell>
+                            <cell rend="left">3,4</cell>
+                            <cell rend="left">-</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">15-19</cell>
+                            <cell rend="left">17,8</cell>
+                            <cell rend="left">5,6</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">20–24</cell>
+                            <cell rend="left">53</cell>
+                            <cell rend="left">14, 9</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">25–29</cell>
+                            <cell rend="left">36,5</cell>
+                            <cell rend="left">8,2</cell>
+                        </row>
+                        <row>
+                            <cell rend="left">30–34</cell>
+                            <cell rend="left">70,8</cell>
+                            <cell rend="left">12,5</cell>
+                        </row>
+                        <note n="">Vir: SI AS 1931, t. e. 1416, mapa Hašiš, 208.</note>
+                    </table>
+                    <lb/>
+                    <p>Uporaba statističnih podatkov v razpravah o samomoru med mladimi je bila
+                        delno zavajajoča. Strokovnjaki so mirili, da stanja ni treba dramatizirati,
+                        saj naj bi bilo del problematike mogoče pripisati že dejstvu, da se je
+                        spremenil delež populacije, ki so ga uvrščali med mlade in dojemali kot
+                        mladega, kar sta tisk in javno mnenje povsem spregledala. Trditve, da je bil
+                        samomor med mladimi na prelomu iz 19. v 20. stoletje in nato na začetku 20.
+                        stoletja dejansko nepoznan fenomen, po drugi svetovni vojni pa naj bi sledil
+                        njegov izbruh kot posledica specifičnih frustracij, ki so jih čutili mladi,
+                        ki jih je sistem dušil in zatiral, so bile dejansko zavajajoče zaradi
+                        preprostega dejstva. Slonele so na Masarykovih in Durkheimovih ugotovitvah o
+                        samomoru med mladimi, spregledale pa so, da sta Masaryk in Durkheim v to
+                        kategorijo prištevala zgolj osebe do petnajstega leta starosti in da v
+                        svojih statistikah nista sledila določilom Občega državljanskega zakonika,
+                        ki je poznal kategorije <hi rend="italic">otrok</hi> do sedmega leta, <hi
+                            rend="italic">nedoraslecev</hi> do štirinajstega leta in <hi
+                            rend="italic">nedoletnikov</hi> do štiriindvajsetega leta, ko je
+                        državljan postal polnoleten. Namesto uradnih kategorij sta kot ločnico
+                        namreč očitno uporabila konec obveznega šolanja in potencialen vstop na trg
+                            dela.<note place="foot" xml:id="ftn90" n="87">
+                            <hi rend="italic">Obči državljanski zakonik z dne 1. junija 1811 št. 946
+                                zb. p. z. v besedilu treh delnih novel</hi> (Ljubljana: Tiskovna
+                            zadruga, 1928), 9. Masaryk, <hi rend="italic">Suicide, </hi>29, 30. »Kaj
+                            pišejo. Iz pisma iz domovine,« <hi rend="italic">Svobodna
+                            Slovenija</hi>, 27, 29. 8. 1968, št. 35, 2. »Noče umreti,« <hi
+                                rend="italic">Svobodna Slovenija</hi>, 27, 25. 4. 1968, št. 17, 1.
+                            Durkheim, <hi rend="italic">Suicide: A Study in Sociology</hi>,
+                            49.</note> Bolj kot samo število samomorov naj bi se torej spreminjala
+                        kategorija prebivalstva, ki jo je javnost dojemala kot »mlado« – najprej se
+                        je raztegnila na celo obdobje do polnoletnosti, po drugi svetovni vojni na
+                        mlade do dvajsetega leta starosti, v šestdesetih letih pa je zajela mlade do
+                        petindvajsetega leta oziroma do konca izobraževanja. Pred drugo svetovno
+                        vojno nihče ni pomislil, da bi samomore v starostnem obdobju od 30. do 35.
+                        leta prišteval med »mlade«, kakor jih je javnost začela dojemati v
+                        šestdesetih letih, sprememba pa naj bi bila logična posledica dejstva, da so
+                        tudi po opažanjih strokovnjakov mladi dejansko postajali vse bolj nezreli: v
+                        starosti, ko so prejšnje generacije že delale, gradile ali pa se aktivno
+                        borile proti nacizmu, so bili ti mladi ne samo ekonomsko, temveč tudi
+                        čustveno povsem odvisni od staršev. V obdobju, ko se je pričakovalo, da bodo
+                        mladi zapuščali domove, so ostajali pri starših, družine so si ustvarjali
+                        vse pozneje, težko so prevzemali odgovornost, v poznejših analizah pa je
+                        bilo poudarjeno, da je ta generacija imela hude občutke manjvrednosti, saj
+                        naj bi bila obsojena na življenje v izraziti senci svojih herojskih
+                            staršev.<note place="foot" xml:id="ftn91" n="88">SI AS 1931, t. e. 1416,
+                            mapa Hašiš, 168–85, 27. 11. 1969. Shore, »(The End of) Communism,« 313.
+                            Meta Kušar, »Med arhetipom in kompleksom,« v: Gašper Troha, ur., <hi
+                                rend="italic">Literarni modernizem v »svinčenih letih«</hi>
+                            (Ljubljana: Študentska založba: Društvo Slovenska matica, 2008), 26,
+                            27.</note>
+                    </p>
+                    <p>Sredi šestdesetih let je bila problematika že tako izrazita, da je prevladalo
+                        prepričanje, da je treba aktivno ukrepati, a še vedno na način, ki ne bi
+                        vznemirjal javnosti. Na podlagi zaskrbljujočih statistik je Zveza
+                        socialistične mladine Slovenije pozvala k »strokovnemu in
+                        družbenopolitičnemu« raziskovanju ozadja samomorov mladih, poskusov samomora
+                        in umiranja zaradi tveganih dejavnosti, kot je alpinizem, ki naj bi bil
+                        izrazita slovenska značilnost v primerjavi z drugimi jugoslovanskimi narodi.
+                        Jugoslovansko povprečje 35,2 smrti zaradi nezgod na 100.000 prebivalcev je
+                        Slovenija namreč konkretno presegala, saj je količnik znašal kar 60,3,
+                        razliko pa so pripisovali »prikritim samomorom« in slovenski nagnjenosti k
+                        izzivanju smrti. Ugotavljali so, da naj bi bili razlogi naslednji: vpliv
+                        alkoholizma, nagnjenja k samokaznovanju, manjvrednostni kompleksi in krivda,
+                        ki so bili globoko zakoreninjeni v slovenski družbi in sestavni del vzgoje.
+                        Pogoj za razvoj preventive je bilo natančno statistično spremljanje, pri
+                        dejavnosti pa naj bi sodelovale policija, pravna in medicinska stroka, kot
+                        najpomembnejšo ciljno skupino so določili otroke in mladino, poudarili pa so
+                        tudi potrebo po popolni prenovi šolskega sistema ter prevladujočega in trdno
+                        zakoreninjenega tradicionalnega sloga vzgoje, ki je bil dediščina preteklih
+                        časov in je Slovencem privzgajal občutke krivde ter jih navajal na
+                        poslušnost in ponižnost.<note place="foot" xml:id="ftn92" n="89">SI AS 1931,
+                            t. e. 1416, mapa Hašiš, 168–85, 27. 11.
+                            1969, 189–201.</note>
+                    </p>
+                    <p>Strokovnjaki so glede samomora mladih na načelni ravni večinoma ohranjali
+                        nevtralno besedišče o obremenilnem družinskem okolju, neugodnem nacionalnem
+                        značaju in vzgojnih vzorcih ter sistemu norm in vrednot, ki pomembno
+                        vplivajo na razvoj samomorilnih misli, medtem ko so v konkretnih primerih,
+                        pri katerih so sodelovali s policijskimi preiskovalci, izražali večinoma
+                        kritična mnenja o mladih, razvajenih in nehvaležnih brezdelnežih in
+                        lahkomiselnežih, ki izhajajo iz okolja brez trdnih moralnih in
+                        socialističnih temeljev.<note place="foot" xml:id="ftn93" n="90">SI AS 1931,
+                            t. e. 1416, mapa Hašiš, 168, 204–13, Kovač Vojin – Chubby. SI AS 1931, t. e. 1417, Smasek
+                            Alenka – samomor, 8–12, 18. 6. 1968. SI AS 1931, t. e. 1681, a. e.
+                            24/G2-63. SI AS 1931, t. e. 1417, mapa Hašiš, Batista Boris –
+                            podhladitev, Kogovšek Peter – nesreča, Grimm Vincenc – samomor?.</note> Kritična
+                        podoba mladih v Sloveniji se je pojavljala tudi v medijih – bili naj bi
+                        dobro situirani mladi avanturisti iz univerzitetnega okolja, ki se »obhajajo
+                        z lastno naveličanostjo«. Skupen naj bi jim bil občutek odtujenosti od
+                        družbe, ki ni bila tista, o kateri so sanjali po borbi prejšnje generacije.
+                        Njihovi samomori naj bi bili upor proti resničnosti sveta in slovenski
+                            realnosti.<note place="foot" xml:id="ftn94" n="91">SI AS 1931, t. e.
+                            1416, mapa Hašiš, 196. »Zakaj se ubijajo doraščajoči? Zlovešči rekord
+                            Ljubljane,« <hi rend="italic">L'Express</hi>, 24. 2. – 2. 3. 1969, št.
+                            920.</note> Zadnje je bilo del diskurza, ki je razloge za samomor iskal
+                        v aktualnih družbenih razmerah: Slovenci naj bi bili narod, ki je bil v
+                        zgodovini vedno podrejen in se tudi v jugoslovanski federaciji ni počutil
+                        doma, saj je ostal le manjšina pod varuštvom, ne pa samostojen subjekt.<note
+                            place="foot" xml:id="ftn95" n="92">SI AS 1931, t. e. 1416, mapa Hašiš,
+                            194, 195. <hi rend="italic">Der Spiegel,</hi> Brei des Hasses, 3. 3.
+                            1969, št. 10, 132.</note> Slovenija je zapustila zemljo in staro vero,
+                        ki je ni nadomestila s komunistično ideologijo, kot se je zgodilo drugje.
+                        Slovenci, drugače kot drugi narodi Jugoslavije, niso verjeli v bratstvo,
+                        partijo in JLA, niso verjeli v nič. Ljudje, ki naj bi bili verniki novega
+                        sistema, naj bi bili pravzaprav pragmatiki – oblast od ljudi niti ni
+                        pričakovala, da bi verjeli, zadoščalo ji je pretvarjanje.<note place="foot"
+                            xml:id="ftn96" n="93">Shore, »(The End of) Communism,« 315.</note>
+                        Ustvarili so družbo, ki je imela obrise potrošniške in hkrati komunistične
+                        družbe, prednost pa so dajali ekonomski ekspanziji. Nagla industrializacija
+                        Slovenije, ki je bila nekoč zelo verna in pretežno agrarna, naj bi
+                        ustvarjala visok odstotek osebnih problemov, katerih teža je presenetila
+                        oblast. Namesto dela za boljši jutri so se mnogi, nepričakovano in
+                        presenetljivo, zatekali k bolestnim sanjarijam. Hrepenenje po smrti naj bi
+                        bilo mogoče tako rekoč čutiti v zraku.<note place="foot" xml:id="ftn97"
+                            n="94">SI AS 1931, t. e. 1416, mapa Hašiš, 189–193. <hi rend="italic"
+                                >L'Espresso</hi>, »Klub prerezanih žil,« 23. 2. 1969.</note>
+                    </p>
+                    <p>Novice o statističnih podatkih so nasprotniki socialističnega sistema v
+                        medijih spretno uporabili za obračun z režimom, ki naj bi s svojim
+                        eksperimentiranjem na področju gospodarstva in vsesplošnim ustrahovanjem
+                        ustvaril ozračje naveličanosti in brezupa. Mladina, ki so jo komunisti
+                        vzgojili, po mnenju izseljenskega tiska ni sledila naukom oblasti, saj je
+                        bila vzgojena tako, da nima nobenih idealov, ne kulturnih, ne narodnih, ne
+                        socialnih, prav tako pa ni bilo mogoče pričakovati, da bo nosilka teženj po
+                        demokratizaciji in borbe za človekove pravice. Imela naj ne bi spoštovanja
+                        ne do naroda, ne do države, ne do oblasti, prav tako ne do staršev in
+                            starejših.<note place="foot" xml:id="ftn98" n="95">
+                            <hi rend="italic">Svobodna Slovenija</hi> 27, 29. 8. 1968, št. 35, Kaj
+                            pišejo. Iz pisma iz domovine, 2.</note> Zlasti izseljenski tisk je v
+                        naraščajočem številu samomorov iskal znamenja propada Slovenije in
+                        socializma kot takega. Samomor naj bi bil oblika upora proti omejevanju
+                        človeških pravic in svoboščin, zato so naraščajoče statistike samomora
+                        interpretirali kot znake prihajajoče vstaje, ko naj bi se ljudje uprli in
+                        jasno rekli, da imajo zatiranja dovolj. Predvsem tuji tisk je opažal, da do
+                        tega preloma ni prišlo, nasprotno, da je pri Slovencih prišlo do obrata
+                        navznoter v avtoagresijo, da svojega nestrinjanja in razočaranja niso bili
+                        sposobni izraziti, namesto borbe so izbrali umik. <hi rend="italic"
+                            >L'Espresso</hi> je celo zapisal, da je samomor oblika protesta, tipična
+                        za slovanski značaj.<note place="foot" xml:id="ftn99" n="96">
+                            <hi rend="italic">Svobodna Slovenija</hi> 27, 25. 4. 1968, št. 17, Noče
+                            umreti, 1. SI AS 1931, t. e. 1416, mapa Hašiš, 189–93. »Klub prerezanih žil,« <hi rend="italic">L‘Espresso</hi>, 23. 2. 1969.</note>
+                    </p>
+                    <p>Statistični podatki in pritisk javnosti, ki se je ustvaril tudi zaradi
+                        napačnih in izkrivljenih interpretacij teh podatkov, so takratno oblast
+                        spodbudili k aktivnemu reševanju problematike. Leta 1970 so vzpostavili
+                        Register samomora in samomorilnega poskusa v Sloveniji na Psihiatrični
+                        kliniki v Ljubljani ter tesno sodelovanje med psihiatrično stroko in Upravo
+                        javne varnosti, ki je v register javljala vsak primer, ki so ga zaznali na
+                        terenu, skupaj z najpomembnejšimi demografskimi podatki, podatki o poklicu,
+                        oceni duševnega zdravja ter osnovnimi izsledki policijskega poizvedovanja,
+                        kot so motiv, opitost pred dejanjem, kraj dejanja, način izvedbe samomora
+                        oziroma poskusa samomora, morebitne prejšnje samomorilne poskuse, osnovne
+                        izjave prič in sorodnikov, na katerih so slonele laične ocene o duševnem
+                        zdravju in motivu za izvedbo dejanja.<note place="foot" xml:id="ftn100"
+                            n="97">Onja Tekavčič Grad, »Zgodovina suicidiologije na Slovenskem,« v:
+                            Saška Roškar in Alja Videtič Paska, ur., <hi rend="italic">Samomor v
+                                Sloveniji in po svetu. Opredelitev, raziskovanje, preprečevanje in
+                                obravnava</hi> (Ljubljana: Nacionalni inštitut za javno zdravje, 2021), 39. SI AS 1931, t. e. 1728,
+                            Dokončani samomori, Poročanje centru za prevencijo suicidov.</note>
+                        Kljub napredku, ki je bil očitno storjen, pa je podpora politike ostala
+                        zgolj na deklarativni ravni, saj družba očitno še vedno ni dosegla razvojne
+                        stopnje, da bi prepoznala nujnost po ustanovitvi posebne institucije v
+                        obliki centra za proučevanje samomora in bila pripravljena vanjo vlagati
+                        proračunska sredstva.<note place="foot" xml:id="ftn101" n="98">Center za
+                            preprečevanje samomora, ki je vključeval ambulantno dejavnost, vodil
+                            register samomora in samomorilnega poskusa, klicni center za pomoč v
+                            duševni stiski ter oddelek za psihiatrično hitro pomoč. – SI AS 1931, t.
+                            e. 1416, mapa Hašiš, 212. Tekavčič Grad, »Zgodovina suicidiologije,« 43.
+                        </note> Delo je tako še naprej potekalo razdrobljeno med posameznimi oddelki
+                        in dispanzerji, prav tako ni prišlo do prave sinergije med predstavniki
+                        različnih strok. V sedemdesetih letih se je politično in medijsko ozračje
+                        spremenilo – s prevlado konservativnejše struje znotraj Komunistične partije
+                        se je znova začel tesnejši nadzor nad mediji in njihovim poročanjem, pa tudi
+                        sicer se zdi, da so mediji izgubili zanimanje za problematiko in je pritisk
+                        javnosti ponehal. Samomor je izginil z naslovnic, in to kljub temu, da se je
+                        stopnja samomorilnosti še naprej povečevala in višek dosegla sredi
+                        osemdesetih let 20. stoletja. To je znova razvnelo diskusijo in samomor je
+                        spet postal orožje za medsebojno obračunavanje ter dokaz, da je Jugoslavija
+                        Slovence dušila do te mere, da so brez upanja na svobodo raje izbrali
+                            smrt.<note place="foot" xml:id="ftn102" n="99">Grafenauer, »Oblike
+                            slovenskega samomora,« 271–90.</note></p>
+                </div>
+            </div>
+            <div>
+                <head>Zaključek</head>
+                <p>Skozi celo obdobje razprav o samomoru lahko opazimo prepletanje znanstvenega
+                    pristopa k proučevanju samomora in samomorilnosti ter poskusov po izrabi te
+                    problematike za obračunavanje z vsakokratnimi ideološkimi in političnimi
+                    nasprotniki. Med vzponom nacionalizma, ko so statistiki začeli preštevati
+                    resurse naroda, problematizirati padec rodnosti in plodnosti ter razmišljati o
+                    njegovi pojemajoči vitalni energiji in (ne)pripravljenosti na spopad, je samomor
+                    postal simbol izdaje in propada. Obsojanje ni več temeljilo na moralni, temveč
+                    predvsem na nacionalni osnovi, samomor pa se je vsakič znova izkazal za hvaležno
+                    orodje za dramatiziranje, širjenje strahu in tesnobe ter podžiganje občutka
+                    nemira in tesnobe v javnosti, posledično pa tudi za iskanje domnevnih krivcev za
+                    nastale razmere. Statistični podatki so v tem boju odigrali pomembno vlogo –
+                    navidezno nepristranski in kredibilni so bili vedno predmet interpretacij, ki so
+                    odsevale vsakokraten duh časa, obračuni pa so se pogosto odvijali prek
+                    medijskega diskurza, ki je statistične podatke pogosto prikrojeval svojim
+                    potrebam. Resničnost statističnih podatkov in objektivnost njihove
+                    interpretacije sta stopali v ozadje, bolj kot suhoparne naraščajoče številke
+                    samomorov pa so na javnost pogosto naredili vtis posamezni samomori, ki so
+                    odmevali v javnosti in povzročali nelagodje, če ne celo paniko. Vprašanje, ali
+                    je »epidemija samomorov« v vsakem od obravnavanih obdobij realno obstajala, je
+                    manj pomembno, pomembneje je, ali so jo ljudje <hi rend="italic">dojemali</hi>
+                    kot realno, tudi če mogoče ni bila. Ob dejanskem številu samomorov velja torej
+                    upoštevati tudi, kakšna občutja so te samomorilne statistike vzbujale, kako so
+                    sodobniki doživljali fenomen samomora in do kakšne mere so se strinjali, da
+                    samomor odraža duh časa, v katerem so živeli. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <list>
+                    <head>Arhivski viri</head>
+                    <item>SI AS – Arhiv Republike Slovenije:<list>
+                            <item>SI AS 1931, Republiški sekretariat za notranje zadeve SRS.</item>
+                        </list></item>
+                </list>
+                <listBibl>
+                    <head>Časopisni viri</head>
+                    <bibl><hi rend="italic">Ameriška domovina</hi> 74, št. 31, 14. 2. 1972, 2.
+                        »Vesti iz Slovenije. Kardeljev sin napravil samomor«.</bibl>
+                    <bibl><hi rend="italic">Der Spiegel</hi> 22, št. 10, 3. 3. 1969, 132. »Brei des
+                        Hasses«.</bibl>
+                    <bibl><hi rend="italic">Svobodna Slovenija</hi> 27, št. 17, 25. 4. 1968, 1.
+                        »Noče umreti«.</bibl>
+                    <bibl><hi rend="italic">Svobodna Slovenija</hi> 27, št. 35, 29. 8. 1968, 2. »Kaj
+                        pišejo. Iz pisma iz domovine«.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Literatura</head>
+                    <bibl>Anderson, Olive. <hi rend="italic">Suicide in Victorian and Edwardian
+                            England</hi>. Oxford: Clarendon Press, 1987. </bibl>
+                    <bibl>Bailey, Victor. <hi rend="italic">»This Rash Act«. Suicide Across the Life
+                            Cycle in the Victorian City</hi>. Stanford: Stanford University Press,
+                        1998. </bibl>
+                    <bibl>Bálint, Lajos. »Suicide in the Hungarian Kingdom.« <hi rend="italic"
+                            >Working Papers on Population, Family and Welfare, 25</hi>. Budapest:
+                        Hungarian Demographic Research Institute, 2016. </bibl>
+                    <bibl>Barbagli, Marzio. <hi rend="italic">Congedarsi dal mondo. Il suicidio in
+                            Occidente e in Oriente</hi>. Bologna: Il Mulino, 2009.</bibl>
+                    <bibl>Bavcon, Ljubo, Miloš Kobal, Lev Milčinski, Katja Vodopivec in Boris
+                        Uderman. <hi rend="italic">Socialna patologija</hi>. Ljubljana: Mladinska
+                        knjiga, 1969.</bibl>
+                    <bibl>Borisov, Peter in Anton Dolenc. »Razvoj sodnomedicinskega izvedenstva v
+                        Evropi in na nekdanjem Kranjskem.« V: <hi rend="italic">Zbornik za zgodovino
+                            naravoslovja in tehnike</hi>. 11-90. Ljubljana: Slovenska matica, 1991.</bibl>
+                    <bibl>Bratassević, Eduard. »Die Selbstmorde in Oesterreich 1873–1877 in
+                        Vergleichung zu jenen in Preussen, England, Frankreich, Russland und
+                        Italien.« <hi rend="italic">Statistische Monatsschrift</hi> 4 (1878):
+                        429–33.</bibl>
+                    <bibl>Dolenc, Anton in Peter Borisov. »Zgodovinski pogled na samomor in
+                        ovrednotenje samomora skozi prostor in čas.« V: Anton Dolenc (ur.). <hi
+                            rend="italic">Samomor na Slovenskem. Medicinsko izvedenstvo,</hi> 7–18.
+                        Ljubljana: Medicinski razgledi, 1990.</bibl>
+                    <bibl>Dolenc, Anton. »Mrliškopregledna služba na Slovenskem nekoč in danes.« <hi
+                            rend="italic">Mrliškopregledna služba v Republiki Sloveniji. Spominsko
+                            srečanje akademika Janeza Milčinskega (8; 1998; Ljubljana), </hi>11–21.
+                        Ljubljana: Inštitut za sodno medicino, 1999.</bibl>
+                    <bibl>Douglas, Jack. <hi rend="italic">The Social Meanings of Suicide</hi>.
+                        Princeton: Princeton university Press, 1967. </bibl>
+                    <bibl>Drnovšek, Marjan. »Vzroki za izseljevanje Slovencev v zadnjih dveh
+                        stoletjih.« <hi rend="italic">Drevesa</hi> 8, št. 3 (2002): 10–13.</bibl>
+                    <bibl>Durkheim, Émile. <hi rend="italic">Suicide: A Study in Sociology</hi>.
+                        London, New York: Routledge, Taylor &amp; Francis e-Library, 2005. </bibl>
+                    <bibl>Erjavec, Karmen in Melita Poler Kovačič. <hi rend="italic">Kritična
+                            diskurzivna analiza novinarskih prispevkov</hi>. Ljubljana: Fakulteta za družbene vede,
+                        2007.</bibl>
+                    <bibl>Föllmer, Moritz. »Suicide and Crisis in Weimar Berlin.« <hi rend="italic"
+                            >Central European History</hi> 42, št. 2 (2009): 195–221.</bibl>
+                    <bibl>Foucault, Michel. <hi rend="italic">Arheologija vednosti</hi>. Ljubljana:
+                        Studia humanitatis, 2001.</bibl>
+                    <bibl>Foucault, Michel. <hi rend="italic">Society Must Be Defended: Lectures at
+                            the College de France</hi>, <hi rend="italic">1975–1976</hi>. New York:
+                        Picador, 2003.</bibl>
+                    <bibl>Glavan, Ivo. »Problem samoubijstva.« <hi rend="italic">Liječnički
+                            vjestnik</hi> 51, št. 9 (1929): 442–52. </bibl>
+                    <bibl>Gottlieb, Julie V. »Munich and the Masses: Emotional Inflammation, Mental
+                        Health and Shame in Britain During the September Crisis.« V: Julie Gottlieb,
+                        Julie, Hucker, Daniel in Toye, Richard (ur.) <hi rend="italic">The Munich
+                            Crisis, Politics and the People. International, Transnational and
+                            Comparative Perspectives</hi>. 192–212. Manchester: Manchester
+                        University Press, 2021. </bibl>
+                    <bibl>Grafenauer, Niko. »Oblike slovenskega samomora.« V: Anton Dolenc (ur.) <hi
+                            rend="italic">Samomor na Slovenskem. Medicinsko izvedenstvo</hi>,
+                        271–90. Ljubljana: Medicinski razgledi, 1990.</bibl>
+                    <bibl>Halbwachs, Maurice. <hi rend="italic">The Causes of Suicide</hi>. New
+                        York: Free Press, 1978. </bibl>
+                    <bibl>Hawkins, Mike. »Durkheim's Sociology and Theories of Degeneration.« <hi
+                            rend="italic">Economy and Society</hi> 28, št. 1 (1999): 118–37. </bibl>
+                    <bibl>Javoršek, Jože. <hi rend="italic">Kako je mogoče.</hi> Maribor: Založba
+                        Obzorja, 1978.</bibl>
+                    <bibl>Kerševan, Marko. »Razmišljanje o sociološkem ozadju samomorilnosti na
+                        Slovenskem.« V: Anton Dolenc (ur.). <hi rend="italic">Samomor na Slovenskem.
+                            Medicinsko izvedenstvo</hi>, 183–87. Ljubljana: Medicinski razgledi,
+                        1990.</bibl>
+                    <bibl>Kidrič, Boris. »Junakom borbe naj slede junaki dela.« V: Boris Kidrič, <hi
+                            rend="italic">Zbrano delo</hi>,<hi rend="italic"> II</hi>, 307–10.
+                        Ljubljana: Cankarjeva založba, 1978.</bibl>
+                    <bibl>Kidrič, Boris. »O formiranju naših novih tehničnih in gospodarskih kadrov
+                        iz delavskega razreda.« V: Boris Kidrič, <hi rend="italic">Zbrano delo,
+                            III</hi>, 120–33. Ljubljana: Cankarjeva založba, 1978.</bibl>
+                    <bibl>Kosovel, Srečko. <hi rend="italic">Izbrane pesmi.</hi> Izbral in spremno
+                        besedo napisal Matevž Kos. (Knjižnica Kondor; zv. 280). Ljubljana: Mladinska
+                        knjiga, 1997.</bibl>
+                    <bibl>Kušar, Meta. »Med arhetipom in kompleksom.« V: Gašper Troha (ur.). <hi
+                            rend="italic">Literarni modernizem v »svinčenih letih</hi>, 17–44.
+                        Ljubljana: Študentska založba: Društvo Slovenska matica, 2008. </bibl>
+                    <bibl>Leidinger, Hannes. »Die Selbstmordepidemie. Zur Zunahme von Suizidfällen
+                        in der Zwischenkriegszeit.« V: <hi rend="italic">Kampf um die Stadt</hi>,
+                        215–19. Wien: Wien Museum und Czernin Verlags, 2010. </bibl>
+                    <bibl>Mäkinen, Ilkka Henrik. <hi rend="italic">On Suicide in European Countries.
+                            Some Theoretical, Legal and Historical Views on Suicide Mortality and
+                            Its Concomitants</hi>. Stockholm: Almqvist &amp; Wiksell International,
+                        1997. </bibl>
+                    <bibl>Marušič, Andrej in Saška Roškar (ur.). <hi rend="italic">Slovenija s
+                            samomorom ali brez</hi>. Ljubljana: Državna založba Slovenije, 2004.</bibl>
+                    <bibl>Masaryk, Tomáš G. <hi rend="italic">Suicide and the Meaning of
+                            Civilization</hi>. Chicago, London: The University of Chicago Press,
+                        1970. </bibl>
+                    <bibl>Milčinski, Lev. »Samomor in samomorilni poskus.« V: Ljubo Bavcon, Miloš
+                        Kobal, Lev Milčinski, Katja Vodopivec in Boris Uderman (ur.). <hi
+                            rend="italic">Socialna patologija</hi>, 180–213. Ljubljana: Mladinska
+                        knjiga, 1969.</bibl>
+                    <bibl>Milčinski, Lev. »Smrt Ivana Hribarja.« V: Mira Virant-Jaklič in Tamara
+                            Jeraj.<hi rend="italic"> Samomor in samomorilni poskus v Sloveniji v
+                            letu 1996,</hi> 18–20. Ljubljana: Psihiatrična klinika, Center za
+                        izvenbolnišnično psihiatrijo, 1998. </bibl>
+                    <bibl>Milčinski, Lev. <hi rend="italic">Samomor in Slovenci</hi>. Ljubljana:
+                        Cankarjeva založba, 1985. </bibl>
+                    <bibl>Milić, Vojin. »Samoubistva u Jugoslaviji.« <hi rend="italic">Anali pravnog
+                            fakulteta u Beogradu</hi> 7, št. 3/4 (1959): 387–408.</bibl>
+                    <bibl>Milovanović, Milovan. <hi rend="italic">Samoubistvo</hi>. Beograd:
+                        Scientia, 1929.</bibl>
+                    <bibl>Moksony, Ferenc. »Victims of Change or Victims Backwasrdness? Suicide in
+                        Rural Hurgary.« V: György Lengyel in Zsolt Rostoványi (ur.). <hi
+                            rend="italic">The Small Transformation. Society, Economy and Politics in
+                            Hungary and the New European architecture,</hi> 366–76. Budapest:
+                        Akadémiai Kiadó, 2001. </bibl>
+                    <bibl>Morselli, Henry (Enrico). <hi rend="italic">Suicide: An Essay on
+                            Comparative Moral Statistics</hi>. New York: Arno Press, 1975.</bibl>
+                    <bibl>Pirc, Bojan in Ivo Pirc. <hi rend="italic">Življenjska bilanca Slovenije v
+                            letih 1921–1935</hi>. Ljubljana: Higijenski zavod, 1937. </bibl>
+                    <bibl>Platter, Julius. »Ueber den Selbstmord in Oesterreich in den Jahren
+                        1819–1872.« <hi rend="italic">Statistische Monatsschrift</hi> 2 (1876):
+                        97–107.</bibl>
+                    <bibl><hi rend="italic">Prevention of Suicide</hi>. WHO: Public Health Papers,
+                        35. Geneva: WHO, 1968. </bibl>
+                    <bibl>Radošević, Milan. »"Umorni od života": samoubojstva u Istarskoj provinciji
+                        između dva svjetska rata.« <hi rend="italic">Problemi sjevernog Jadrana</hi>
+                        16 (2017): 79–102.</bibl>
+                    <bibl>Remec, Meta. »“Vojak naj bo!” : nastanek in razkroj podobe popolnega
+                        vojaka v času prve svetovne vojne.« <hi rend="italic">Zgodovina za vse</hi>
+                        27, št. 2 (2020): 5–24.</bibl>
+                    <bibl>Remec, Meta. <hi rend="italic">Bakh, tobak in Venera: grehi in skušnjave v
+                            dolgem 19. stoletju</hi>. Ljubljana: Inštitut za novejšo zgodovino,
+                        2016.</bibl>
+                    <bibl>Rupel, Dimitrij. »Samomor naš vsakdanji.« <hi rend="italic">Sodobnost
+                            (1963)</hi> 14, št. 4 (1966): 386–92.</bibl>
+                    <bibl>Shore, Marci. »(The End of) Communism as a Generational History: Some
+                        Thoughts on Czezhoslovakia and Poland.« <hi rend="italic">Contemporary
+                            European History</hi> 18, št. 3 (2009): 303–29.</bibl>
+                    <bibl>Tekavčič Grad, Onja. »Zgodovina suicidiologije na Slovenskem.« V: Saška
+                        Roškar in Alja Videtič Paska. <hi rend="italic">Samomor v Sloveniji in po
+                            svetu. Opredelitev, raziskovanje, preprečevanje in obravnava</hi>,
+                        37–51. Ljubljana: Nacionalni inštitut za javno zdravje, 2021.</bibl>
+                    <bibl>Van Dijk, Teun A. »The Study of Discourse.« V: Teun A. Van Dijk (ur.). <hi
+                            rend="italic">Discourse as Structure and Process. Discourse Studies: A
+                            Multidisciplinary Introduction 1</hi>. 1–34. London: Sage Publication,
+                        1997.</bibl>
+                    <bibl>Watzka, Carlos. »Modernisierung und Selbsttötung in Österreich. Einige
+                        Daten zur Sozialgeschichte und Thesen zur Sozialtheorie des Suizids.« <hi
+                            rend="italic">Virus: Beiträge zur Sozialgeschichte der Medizin</hi> 7
+                        (2008): 147–67.</bibl>
+                    <bibl>Watzka, Carlos. <hi rend="italic">Sozialstruktur und Suizid in Österreich.
+                            Ergebnisse einer epidemiologischen Studie für das Land Steiermark</hi>.
+                        Wiesbaden: VS Verlag, 2008.</bibl>
+                    <bibl>Weaver, John in David Wright (ur.). <hi rend="italic">Histories of
+                            Suicide. International Perspectives on Self-destruction in the Modern
+                            World.</hi> Toronto: University of Toronto Press, 2009. </bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Objavljeni viri</head>
+                    <bibl><hi rend="italic">Deželni zakonik za vojvodino Kranjsko</hi> 53, št. 25,
+                        28. 12. 1901.</bibl>
+                    <bibl><hi rend="italic">Obči državljanski zakonik z dne 1. junija 1811 št. 946
+                            zb. p. z. v besedilu treh delnih novel.</hi> Ljubljana: Tiskovna
+                        zadruga, 1928.</bibl>
+                    <bibl><hi rend="italic">Statistički godišnjak</hi>, 1929–40.</bibl>
+                </listBibl>
+            </div>
+            <div type="summary">
+                <docAuthor>Meta Remec</docAuthor>
+                <head>A SUICIDE EPIDEMIC? RESPONSES TO THE INCREASING SUICIDE RATE IN THE SLOVENIAN
+                    TERRITORY IN THE 19<hi rend="superscript">TH</hi> AND 20<hi rend="superscript"
+                        >TH</hi> CENTURIES</head>
+                <head>SUMMARY</head>
+                <p>In Slovenia, suicide represents a pressing issue with a long history of research
+                    by various branches of science. The first statistical analyses of the prevalence
+                    of suicide in the Slovenian territory date back as far as the end of the 19<hi
+                        rend="superscript">th</hi> century, while valuable information on the local
+                    suicide rate can also be found in the works of the two pioneers of sociological
+                    suicidology, Émil Durkheim and Thomas Masaryk. The provinces inhabited by
+                    Slovenians were part of the Austrian state, which Durkheim described as “the
+                    perfect laboratory” for studying the phenomenon of suicide because of its
+                    national, religious, and social diversity that made each of the provinces a very
+                    specific case while all of them shared a sophisticated and meticulous
+                    bureaucratic apparatus, which included recording the causes of death. Quite
+                    precise data on the number of suicides, which can be analysed, compared and
+                    evaluated, therefore exist for the Slovenian territory or the provinces
+                    inhabited by Slovenians.</p>
+                <p>A review of statistical data – from the first studies by Julius Platter and
+                    Eduard Bratassević to the information collected by Ivo and Bojan Pirc for the
+                    1930s as well as the statistical data from the decades after World War II –
+                    reveals that the suicide rate jumped from 3/100,000 to 35–40/100,000 and even
+                    60/100,000 in some parts of the state over a single century, which apparently
+                    suggests that a complete change took place in the Slovenian society in somewhat
+                    more than a hundred years. In the media and popular-scientific or
+                    pseudo-scientific references to this information regarding the situation in
+                    Slovenia between the two wars and in the post-war period, numerous
+                    interpretations emerged about the causes of this phenomenon, which were
+                    supposedly typically Slovenian: alcoholism, an upbringing rooted in Catholicism
+                    that aimed to instil humility and obedience in people, the Habsburg heritage,
+                    and the Slovenian national character, prone to melancholy and self-destruction.
+                    The swift rise in the suicide rate among the younger generations was
+                    particularly alarming. Based on the disturbing statistics, the Socialist Youth
+                    League of Slovenia called for “professional and socio-political” research into
+                    the background of youth suicides, suicide attempts, and deaths due to risky
+                    activities such as mountaineering, which was supposedly a distinct Slovenian
+                    characteristic in comparison with the other Yugoslav nations. The statistical
+                    data and public pressure resulting from their misinterpretations and distortions
+                    prompted the contemporaneous authorities to actively seek solutions. A
+                    connection can be observed between the scientific approach to studying suicide
+                    and suicidality and the attempts to exploit this issue to retaliate against the
+                    ideological and political opponents during each period. Suicide proved to be a
+                    valuable tool for dramatising, spreading fear and anxiety, fuelling a sense of
+                    unease and fear in public, and, consequently, finding scapegoats that could be
+                    blamed for the situation. The retaliation against the latter often took place
+                    through the media discourse that would frequently tailor the statistics to its
+                    needs.</p>
+            </div>
+        </back>
+    </text>
+</TEI>
