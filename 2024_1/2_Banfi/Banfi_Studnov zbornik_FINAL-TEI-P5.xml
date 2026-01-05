@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Celjski grofje kot fevdni gospodje in njihov fevdni dvor<note place="foot"
+                        xml:id="ftn2" n="*">Članek je nastal v okviru raziskovalnega programa
+                        P6-0052 <hi rend="italic">Temeljne raziskave slovenske kulturne
+                            preteklosti</hi>, ki ga financira Javna agencija za
+                        znanstvenoraziskovalno in inovacijsko dejavnost Republike Slovenije iz
+                        državnega proračuna.</note>
+                </title>
+                <author>
+                    <forename>Jaka</forename>
+                    <surname>Banfi</surname>
+                    <roleName>Dr.</roleName>
+                    <roleName>asistent z doktoratom</roleName>
+                    <affiliation>Narodni muzej Slovenije</affiliation>
+                    <address>
+                        <addrLine>Prešernova cesta 20</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>jaka.banfi@nms.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date/></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/4280</pubPlace>
+                <date>2023</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">64</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Counts of Cilli</term>
+                    <term>vassals</term>
+                    <term>feudalism</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>celjski grofje</term>
+                    <term>vazali</term>
+                    <term>fevdalizem</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2024-02-19T08:23:26Z</date>
+                    <name>Mihael Ojsteršek</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Jaka Banfi<note place="foot" xml:id="ftn1" n="**"><hi rend="bold">Dr.,
+                        asistent z doktoratom, Narodni muzej Slovenije, Prešernova cesta 20, SI-1000
+                        Ljubljana,</hi>
+                    <ref target="mailto:jaka.banfi@nms.si"><hi rend="bold"
+                        >jaka.banfi@nms.si</hi></ref><hi rend="bold">; ORCID:
+                        0000-0002-3579-2234</hi></note></docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="DOI">https://doi.org/10.51663/pnz.64.1.01</idno>
+            </docImprint>
+            <div type="abstract" xml:lang="sl">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">Nemško zgodovinopisje skupek vazalov nekega fevdnega gospoda
+                        imenuje fevdni dvor (Lehnshof). Celjski grofje so bili ob svojem zenitu
+                        morda najmočnejši fevdni gospodje v današnjem slovenskem prostoru. Stanovska
+                        in deželna pripadnost njihovih vazalov je bila raznolika. Pridobivali so jih
+                        na različne načine, včasih tudi s prisiljevanjem. Obveznosti, deloma
+                        določene tako z zapisanim kot tudi z običajnim fevdnim pravom, so bile
+                        obojestranske, za celjske grofe pa je bil njihov fevdni dvor tudi kadrovski
+                        vir, iz katerega so rekrutirali svoje dvorno-teritorialne uradnike. Tako kot
+                        je bil celjski fevdni dvor raznolik, tako so bile raznolike tudi fevdne
+                        prakse celjskih grofov.</hi></p>
+                <p><hi rend="italic">Ključne besede: celjski grofje, vazali, fevdalizem</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head>COUNTS OF CILLI AS FEUDAL LORDS AND THEIR FEUDAL COURT</head>
+                <p><hi rend="italic">German historiography refers to a group of feudal lord’s
+                        vassals as a feudal court </hi>(Lehnshof)<hi rend="italic">. At their
+                        zenith, the Counts of Cilli/Celje were perhaps the most powerful feudal
+                        lords in today’s Slovenian territory. The social and provincial allegiance
+                        of their vassals varied. The vassals were acquired through various means,
+                        sometimes even by force. Obligations, partly determined by both written and
+                        customary feudal law, were mutual. The feudal court of the Counts of Cilli,
+                        which also represented a source of personnel from which they recruited their
+                        court-territorial officials, was just as diverse as their feudal
+                        practices.</hi></p>
+                <p><hi rend="italic">Keywords: Counts of Cilli, vassals, feudalism</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>Fevdni dvor celjskih grofov</head>
+                <p>Nemško zgodovinopisje skupek vazalov nekega fevdnega gospoda imenuje fevdni dvor
+                        (Lehnshof).<note place="foot" xml:id="ftn3" n="1">Spieß, <hi rend="italic"
+                            >Das Lehnswesen</hi>, 36: »<hi rend="italic">Die Gesamtheit der
+                            Lehnsmannen eines Herrn wird als Lehnshof bezeichnet.«</hi></note>
+                    Celjski grofje (1341–1456), potomci svobodnih gospodov Žovneških (okoli
+                        1125–1341),<note place="foot" xml:id="ftn4" n="2">Podrobno o svobodnih
+                        gospodih Žovneških in grofih Celjskih Kosi, Celjski.</note> so svoje vazale
+                    imenovali unsere Getreue (naši zvesti).<note place="foot" xml:id="ftn5" n="3"
+                        >Prim. Kosi, Celjska klientela, 11.</note> Najpreglednejša vira zanje sta
+                    fevdni knjigi Friderika II. in Ulrika II. za grofiji Celje in Ortenburg iz let
+                    1436–1447 oziroma 1454–1456.<note place="foot" xml:id="ftn6" n="4">Gl. CFK I,
+                        CFK IIa, CFK IIb.</note> Njuna vrednost je v tem, da služita tudi kot
+                    register vazalov, saj so na enem mestu zbrani skoraj vsi njuni vazali iz
+                    navedenega obdobja, zato dajeta dober pregled nad njimi, po drugi strani pa sta
+                    register celjske zemljiške posesti oziroma (podeljenih) fevdov. Glede na to, da
+                    je bila celjska dvorna pisarna v drugi polovici 14. stoletja že razvita, lahko
+                    dopustimo možnost, da so grofje že pred Friderikom II. vodili fevdne knjige
+                    (skoraj gotovo bi to pričakovali od Hermana II.).<note place="foot"
+                        xml:id="ftn7" n="5">Podrobno o celjski dvorno-teritorialni upravi Banfi,
+                        Uprava, 21–58 (z dopolnitvami Banfi, <hi rend="italic">Klientela</hi>,
+                        193–248).</note> Vodenje fevdnih knjig je bilo v tem času za velike fevdne
+                    gospode, kot so bili celjski grofje, skorajda nujno, če so želeli imeti dober
+                    pregled nad svojimi vazali in podeljenimi fevdi. To, da sta zadnja dva celjska
+                    grofa vodila fevdne knjige, nam pove, da je bila celjska vazalna klientela v tem
+                    času tako številna, da je obstajala stvarna potreba po evidentiranju.<note
+                        place="foot" xml:id="ftn8" n="6">Podrobno o klienteli celjskih grofov Banfi,
+                            <hi rend="italic">Klientela</hi>.</note></p>
+                <p>Drugi viri, ki izdajajo podatke o celjskih vazalih, so posamične in vsebinsko
+                    raznolike listine. Fevdne knjige in listine skupaj omogočajo pregled nad
+                    žovneško-celjskimi vazali med letoma 1241 in 1456 ter vpogled v celjske fevdne
+                    prakse. Iz njih je razvidno, katere vrste fevdov so Žovneški oziroma Celjski
+                    podeljevali, komu, za koliko časa, pod kakšnimi pogoji in tako dalje. Podati
+                    točno število vseh celjskih vazalov v celotnem obdobju je nemogoče, ker nam viri
+                    tega ne dopuščajo. V fevdni knjigi grofa Friderika II. za grofiji Celje in
+                    Ortenburg (1436–1447) je navedenih 543 aktualnih vazalov, to je nosilcev fevda
+                    oziroma fevdnikov, ki so imeli vazalne obveznosti, v fevdni knjigi grofa Ulrika
+                    II. za isti grofiji (1454–1456) pa le 245, vendar moramo upoštevati, da je Ulrik
+                    II. fevdno knjigo vodil bistveno krajši čas. Te številke niso točne, saj iz
+                    drugih virov vemo za druge vazale iz tega obdobja, ki v omenjenih fevdnih
+                    knjigah niso navedeni. Za primerjavo so v spodnji tabeli navedeni podatki o
+                    številu vazalov nekaterih drugih velikih fevdnih gospodov v Svetem rimskem
+                    cesarstvu.</p>
+                <table rend="rules">
+                    <head>Tabela 1: Število vazalov izbranih teritorialnih zemljiških gospodov v
+                        Svetem rimskem cesarstvu med letoma 1200 in 1500 </head>
+                    <row>
+                        <cell rend="both"><hi rend="bold">Fevdni gospod</hi></cell>
+                        <cell rend="both"><hi rend="bold">Leto</hi></cell>
+                        <cell rend="both"><hi rend="bold">Število vazalov</hi></cell>
+                    </row>
+                    <row>
+                        <cell rend="both">grof Henrik I. von Regenstein</cell>
+                        <cell rend="both">1212/1227</cell>
+                        <cell rend="both">150</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">plemeniti von Eppstein</cell>
+                        <cell rend="both">13. stoletje</cell>
+                        <cell rend="both">okoli 200</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">gospodje von Bolanden</cell>
+                        <cell rend="both">13. stoletje</cell>
+                        <cell rend="both">okoli 200</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">hesenski deželni grofje</cell>
+                        <cell rend="both">1370</cell>
+                        <cell rend="both">120</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">badenski mejni grofje</cell>
+                        <cell rend="both">1380</cell>
+                        <cell rend="both">okoli 70</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">grofje von der Mark</cell>
+                        <cell rend="both">1392/93</cell>
+                        <cell rend="both">311</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">renski palatinski grofje</cell>
+                        <cell rend="both">1401</cell>
+                        <cell rend="both">okoli 450</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">grof Friderik II. Celjski</cell>
+                        <cell rend="both">1436–1447</cell>
+                        <cell rend="both">543</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">grof Ulrik II. Celjski</cell>
+                        <cell rend="both">1454–1456</cell>
+                        <cell rend="both">245</cell>
+                    </row>
+                    <note n="">Vir: Spieß, <hi rend="italic">Das Lehnswesen</hi>, 50, 51</note>
+                </table>
+                <lb/>
+            </div>
+            <div>
+                <head>Stanovska pripadnost celjskih vazalov</head>
+                <p>Celjski vazali so bili iz vrst plemstva, meščanstva, duhovščine in kosezov. Po
+                    spolu so moški občutno prevladovali, najdemo pa tudi ženske (pretežno vdove in
+                    soproge vazalov). Daleč največ vazalov je bilo nižjih plemičev oziroma vitezov,
+                    duhovščine in kosezov pa le za vzorec. Po letu 1400 je opazna sprememba v
+                    dotedanjih fevdnih praksah, saj se začnejo med vazali pogosteje pojavljati
+                    meščani in ženske. Ta trend zaznamo po vsej Evropi, povezan pa je s širitvijo
+                    finančnega poslovanja oziroma z nadomeščanjem vazalne vojaške službe z denarnimi
+                    plačili, to pa so lahko izvajale tudi ženske. Ko so bili fevdi podeljeni vazalom
+                    in njihovim soprogam ali otrokom obeh (!) spolov, je bila običajno dodana fraza
+                    von sondern Gnaden (iz posebne milosti). </p>
+                <table rend="rules">
+                    <head>Tabela 2: Struktura vazalov v fevdnih knjigah Friderika II. (1436–1447) in
+                        Ulrika II. (1454–1456) Celjskih </head>
+                    <row>
+                        <cell rend="both"/>
+                        <cell rend="both"><hi rend="bold">Friderik II. Celjski</hi></cell>
+                        <cell rend="both"><hi rend="bold">Ulrik II. Celjski</hi></cell>
+                    </row>
+                    <row>
+                        <cell rend="both">skupno število vazalov</cell>
+                        <cell rend="both">543</cell>
+                        <cell rend="both">245</cell>
+                    </row>
+                    <row>
+                        <cell rend="both" style="text-align:center">od tega:</cell>
+                        <cell rend="both"/>
+                        <cell rend="both"/>
+                    </row>
+                    <row>
+                        <cell rend="both">meščani</cell>
+                        <cell rend="both">25</cell>
+                        <cell rend="both">11</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">ženske (plemenite in neplemenite skupaj)</cell>
+                        <cell rend="both">65</cell>
+                        <cell rend="both">23</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">kosezi</cell>
+                        <cell rend="both">14</cell>
+                        <cell rend="both">11</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">duhovniki</cell>
+                        <cell rend="both">2</cell>
+                        <cell rend="both">1</cell>
+                    </row>
+                    <note n="">Vir: Fevdni knjigi grofov Celjskih za grofiji Celje in Ortenbrug iz
+                        let 1436–1447 oziroma 1454–1456</note>
+                </table>
+                <lb/>
+                <p>Nesporno je, da so bili moški vazali iz vrst nižjega plemstva hrbtenica celjske
+                    vazalne klientele. Višjega plemstva je zelo malo, na tem mestu lahko izpostavimo
+                    gospode Perneške, Kraige in grofe Krbavske. Primer zase so gospodje Svibenski,
+                    ki so v drugi polovici 14. stoletja družbeno tako nazadovali, da so se celjski
+                    grofje uveljavili nad njimi in v končni fazi od njih dosegli priznanje vazalne
+                        zvestobe.<note place="foot" xml:id="ftn9" n="7">SI AS 1063, sig. 4266. SI AS
+                        1063, sig. 4267. SI AS 1063, sig. 4223. CKSL, 1366 IV 21. CKSL, 1372 VI 15.
+                        Podrobno o zatonu Svibenskih Kos, <hi rend="italic">Blesk zlate krone</hi>,
+                        309–78.</note> Visoko ali knežje plemstvo se med celjsko klientelo ne
+                    pojavlja, kar je razumljivo, saj bi bilo to v nasprotju s pravili fevdnega reda
+                    oziroma fevdne lestvice (Heerschildordnung).<note place="foot" xml:id="ftn10"
+                        n="8">Spieß, <hi rend="italic">Das Lehnswesen</hi>, 29, 30.</note></p>
+                <p>Celjske vazale iz vrst plemstva lahko imenujemo celjsko plemstvo, pri čemer
+                    nimamo v mislih deželne pripadnosti, to je pripadnosti celjski deželi, ampak
+                    fevdno oziroma vazalno podrejenost celjskim grofom. Da bi razumeli pomen
+                    vazalnega plemstva za celjske grofe, moramo razumeti pomen deželnega plemstva za
+                    deželne kneze nasploh. Plemstvo je bilo konstitutivni element oziroma poglavitni
+                    tvorec dežele in, gledano širše, monarhije. Po priznanem avstrijskem
+                    zgodovinarju Ottu Brunnerju (1898–1982) je bila dežela najprej personalna unija
+                    deželnega plemstva, ki priznava isto deželno pravo, istega deželnega kneza in
+                    isto deželno sodišče, ter šele nato teritorialna organizacija.<note place="foot"
+                        xml:id="ftn11" n="9">Brunnerjevo razumevanje dežele je smiselno povzeto v:
+                        Štih, Dežela Grofija, 124, 125. Gl. tudi Štih, Celjski grofje, 229, 230.
+                        Deloma gl. tudi Štih, <hi rend="italic">Na stičišču</hi>, 93. Gl. tudi
+                        Brunner, <hi rend="italic">Land and Lordship</hi>, 139–99.</note> Plemstvo
+                    je tvorilo in predstavljalo deželo in deželnega kneza. Podobno bi lahko rekli za
+                    vazalno plemstvo teritorialnih zemljiških gospodov, kot so bili celjski grofje.
+                    Njihovo plemstvo je predstavljalo njih in njihovo teritorialno oblast, jih
+                    zastopalo, tvorilo njihovo vazalno (viteško) vojsko in jih spremljalo na
+                    potovanjih. Tisti teritorialni zemljiški gospod, ki je želel izgraditi
+                    deželnoknežjo oblast in lastno deželo, je moral doseči deželnoknežje priznanje
+                    zase tako od cesarja in svojega deželnega kneza kot od svojega plemstva.</p>
+            </div>
+            <div>
+                <head>Celjski grofje kot fevdni gospodje</head>
+                <p>Glavni fevdni gospod vseh celjskih vazalov je bil vsaj v teoriji vedno glavar
+                    celjske hiše. Njemu so se morali pokloniti in zaobljubiti vazali in od njega so
+                    prejemali fevde. Njegova dvorna pisarna je vodila evidenco vazalov, on pa je
+                    odločal, kdo bo prejel fevde in katere. Ko je Ulrik II. leta 1441 grad Sommeregg
+                    podelil v grajsko upravo ortenburškemu glavarju Andreju von Grabnu, je Ulrikov
+                    oče Friderik II. podelitev odobril, kar je lepo razvidno iz formulacije v fevdni
+                    knjigi: »Als dann […] vnser lieber sun graf Vlreich vnserm getrewen Andren vom
+                    Graben […] vnser haus vnd gesloss Sumrekg […] geben vnd gelassen hat […] geben
+                    (wir) darczu vnser hannd vrlaub gunst vnd guten willen wissentlich mit dem brief
+                    […] <hi rend="italic">.</hi>«<note place="foot" xml:id="ftn12" n="10">CFK I,
+                        fol. 45v.</note> Enako je bilo leta 1451 v primeru Janka iz Snopuschawa, ki
+                    je prejel grad Mehovo.<note place="foot" xml:id="ftn13" n="11">CKSL, 1451 VIII
+                        13.</note> Toda v praksi so lahko stvari funkcionirale tudi drugače. Ko so
+                    se slavonski pobiralci vojnega davka leta 1443 pri grofu Frideriku II.
+                    pozanimali, na katerih celjskih gospostvih v Slavoniji smejo pobirati davščine,
+                    jim je ta odgovoril, da le na njegovih, ne pa tudi na sinovih, kajti nad njimi
+                    nima nobene oblasti.<note place="foot" xml:id="ftn14" n="12">Klaić, <hi
+                            rend="italic">Zadnji knezi</hi>, 66.</note> Ta dogodek kaže, da je
+                    Friderik kljub svojemu senioratu sovladal z Ulrikom II. Tako sta grofa nekatere
+                    stvari vodila vsak zase; nenazadnje do določene mere tudi vazale. </p>
+            </div>
+            <div>
+                <head>Pridobivanje vazalov</head>
+                <p>Celjski so vazale pridobivali na različne načine: s pridobivanjem posesti (skupaj
+                    z vazali), prisiljevanjem, prostovoljnim vstopom in tako dalje. Veliko vazalov
+                    oziroma vazalnih družin so celjski grofje pridobili z dedovanjem, to je
+                    prevzemom zapuščin izumrlih plemiških rodbin ali njihovih umrlih članov. Tri
+                    največje zapuščine so prevzeli od leta 1322 izumrlih Vovbržanov, leta 1418
+                    izumrlih Ortenburžanov in leta 1363 umrlega Eberharda VIII. Walseejskega.<note
+                        place="foot" xml:id="ftn15" n="13">Zapuščinske izjave: CKSL, 1363 IV
+                        (Eberhard VIII. Walsee). CKSL, 1377 V 19 (Celjski Ortenburškim). CKSL, 1377
+                        XI 23 (Ortenburški Celjskim). Dedna pogodba med Žovneškimi in Vovbržani se
+                        ni ohranila.</note> Vovbrška dediščina, s katero so postali gospodarji
+                    Savinjske doline, in ortenburška, ki jim je prinesla številne posesti na
+                    Kranjskem ter zahodnem Koroškem, sta gotovo najpomembnejši.</p>
+                <p>Odgovor na vprašanje, kaj je motiviralo ljudi, da so prostovoljno vstopali med
+                    vrste celjskih vazalov, ne more biti enoznačen. Upoštevamo lahko željo po
+                    osebni, materialni in pravni zaščiti, pa tudi oportunizem in željo po
+                    izboljšanju življenjskih razmer. Revščina ni bila samo problem neprivilegiranih
+                    slojev srednjeveške družbe, ampak so se z njo spopadali tudi nekateri plemiči.
+                    Za revnega viteza, ki je nazadoval, je bila vazalna odvisnost in prosperiteta v
+                    službi gospoda boljša opcija od gotovega socialnega propada. Za primer lahko
+                    vzamemo Petra iz Širja, ki se je leta 1383 odločil postati celjski vazal zaradi
+                    »manigualtiger furdrung vnd gnad willen die mir der edel graf Herman von Cili
+                    getan hat vnd noch furbaz wol getün mag vnd auch durch pezzers scherms willen«,
+                    to je zaradi »velike podpore in milosti, ki mu ju je izkazal celjski grof Herman
+                    I. in mu ju želi še v bodoče, kot tudi zaradi boljše zaščite«.<note place="foot"
+                        xml:id="ftn16" n="14">CKSL, 1383 VI 29.</note> Kako iskrene so te besede,
+                    seveda ne moremo vedeti.</p>
+                <p>Poleg prostovoljnih vstopov oziroma prestopov med vrste celjskih vazalov lahko
+                    predpostavljamo prisiljevanje s strani celjskih grofov. Friderik I.
+                    Žovneško-Celjski, ki je od 20. let 14. stoletja načrtno izgrajeval družinsko
+                    ozemlje, posebej na območju Savinjske doline, lokalnemu plemstvu ni puščal
+                    veliko manevrskega prostora.<note place="foot" xml:id="ftn17" n="15">Banfi, <hi
+                            rend="italic">Klientela</hi>, 50–68.</note> Posebej odločno je obračunal
+                    s štajerskimi vitezi iz Turna pri Velenju, ki jih je kot dedič vovbrških grofov
+                    imel za sebi zapadle vazale, a so se ti skušali izviti iz njegove nadoblasti.
+                    Nazadnje je njihov odpor v letih 1357 in 1358 zlomil na sodnem procesu, ko
+                    Turnerjem ni ostalo drugega, kot da celjske grofe priznajo za svoje
+                        gospode.<note place="foot" xml:id="ftn18" n="16">SI AS 1063, sig. 4151. SI
+                        AS 1063, sig. 4152. SI AS 1063, sig. 4594. CKSL, 1357 V I. CKSL, 1357 V 9.
+                        CKSL, 1358 II 24.</note> Friderik I. je tudi od nekaterih drugih vazalov
+                    terjal priznanje svojega gospostva v obliki pisnega jamstva večne zvestobe in
+                    službe (Dienstrevers). Tovrstne vazalne zaobljube so za celjske grofe postale
+                    »popularne« ali, bolje rečeno, grofje so jih imeli za potrebne in so jih od
+                    različnih vazalov pogosto terjali do začetka 15. stoletja (zadnja znana je iz
+                    leta 1427). Zanimivo je, da so bili nekateri ljudje celjski vazali že leta,
+                    preden so obljubili večno vazalno zvestobo in službo. Zdi se, da so se v tem
+                    vmesnem času navezali na grofe. Vazali so praviloma obljubili, da bodo služili
+                    proti vsakomur, le proti deželnemu knezu ne. Meni edina znana izjema pri tem je
+                    Jakob Gumpeller, ki mu je grof Ulrik II. leta 1454 naložil, da mu mora služiti
+                    proti komurkoli brez izjeme.<note place="foot" xml:id="ftn19" n="17">CFK IIa,
+                        fol. 4.</note> V 15. stoletju, zlasti pa po letu 1418, celjski grofje niso
+                    imeli več potrebe, da bi od svojih vazalov (množično) terjali priznanje svojega
+                    gospostva. Takrat so bili že konstituirana evropska plemiška elita in
+                    najmočnejši teritorialni zemljiški gospodje v domačem prostoru, njihovi vazali
+                    pa so bili pripadniki generacije, ki se časa pred celjsko nadoblastjo verjetno
+                    ni več spominjala.</p>
+            </div>
+            <div>
+                <head>Obveznosti celjskih grofov kot fevdnih gospodov in njihovih vazalov</head>
+                <p>Obveznosti, ki so izhajale iz fevdnega razmerja, so bile dvostranske. Celjski so
+                    kot fevdni gospodje oziroma seniorji svojim vazalom dolgovali zaščito, vazali pa
+                    celjskim grofom zvestobo, pokorščino, služenje in pomoč po potrebi brez ugovora
+                    in izgovora. Način služenja je bil odvisen od vazalovega položaja – vitezi so
+                    služili drugače kot meščani ali ženske – in je lahko bil natančno opredeljen.
+                    Nižje plemstvo je imelo viteško dolžnost, kar je pomenilo stalno pripravljenost
+                    na boj. Nekateri so morali služiti kot stražarji celjskih gospostev, drugi kot
+                    pehota, tretji kot konjeniki. Tisti, katerih dolžnost je bila varovati določeno
+                    celjsko posest (na primer kot gradiščani), so morali stalno bivati na njej ali v
+                    njeni neposredni bližini. Ti »statični vazali« so ostali celjska praksa vse do
+                    konca. Nekatere najdemo na strateško pomembnih gospostvih ob meji z Ogrsko (na
+                    primer v Rogatcu, Kostelu/Grafenwarthu in Krškem).<note place="foot"
+                        xml:id="ftn20" n="18">SI AS 1063, sig. 4075. SI AS 1063, sig. 4126. CKSL,
+                        1344 II 20. CKSL, 1352 VIII 14. CFK I, fol. 43v.</note> Dober primer takega
+                    vazala je »ogrski mejaš« Krištof Reutter, ki ga je Friderik II. leta 1441
+                    nastanil na kostelskem gospostvu tik ob ogrski meji, kjer je moral bivati in
+                    biti v stalni bojni pripravljenosti.<note place="foot" xml:id="ftn21" n="19">CFK
+                        I, fol. 43v.</note> Grajski upravniki (glavarji, gradiščani in oskrbniki) so
+                    služili po grajskem fevdnem pravu in bili dolžni braniti ter vzdrževati določen
+                        grad.<note place="foot" xml:id="ftn22" n="20">Podrobneje o grajskem fevdnem
+                        pravu in gradiščanstvu Kos, <hi rend="italic">Vitez in grad</hi>,
+                        62–69.</note> Duhovnikom, meščanom in ženskam ni bilo treba niti niso bili
+                    zmožni služiti kot vitezi. V »fevdnih listinah« – podelitvah in reverzih – pa
+                    služenje pogosto sploh ni (natančno) opredeljeno. Tega si ne moremo razlagati
+                    drugače, kot da je bilo samoumevno in ga ni bilo treba posebej izpostavljati.
+                    Celjski grofje so za vsakega vazala vedeli, kakšne obveznosti ima, in vsak vazal
+                    je vedel, kako mora služiti. </p>
+                <p>A služba grofom ni bila vedno zastonj, saj so bili celjski grofje dolžni
+                    poravnati nekatere stroške (izdatke) in škodo, ki bi jo vazali utrpeli v njihovi
+                    službi. Gradiščani, na primer, so bili za svojo službo plačani ter jim ni bilo
+                    treba kriti stroškov nastanitve in preskrbe grofov in njihovih ljudi na
+                    gradovih, ki so jih imeli v upravi. Hansu Steinerju (s Kamna na Gorenjskem), ki
+                    se je dolgo izkazoval z zvestobo in službo Frideriku II. in Ulriku II., sta
+                    celjska grofa leta 1441 obljubila in mu tudi odobrila doživljenjsko letno
+                    izplačilo v višini sto dunajskih pfeningov, vendar je moral za to »nagrado« še
+                    naprej služiti tako brezpogojno kot do takrat.<note place="foot" xml:id="ftn23"
+                        n="21">CFK I, fol. 55.</note></p>
+            </div>
+            <div>
+                <head>Deželna pripadnost vazalov celjskih grofov</head>
+                <p>Po deželni pripadnosti so bili celjski vazali večinoma iz domačega prostora
+                    grofov (to je Spodnje Štajerske in kasneje Kranjske, Koroške ter Marke in
+                    Metlike), kjer je bil njihov vpliv najopaznejši, a praviloma je bil poglaviten
+                    tako imenovani »posestni stik« – tam, kjer je bila posest grofov, lahko iščemo
+                    njihove vazale. Da so celjski vazali imeli bivališče na celjski posesti, je bilo
+                    prej pravilo kot izjema. Tako imenovani domači prostor celjskih grofov ni bil
+                    statičen, ampak se je spreminjal (širil) z njihovo posestno ekspanzijo. Prav
+                    tako se je spreminjala vplivna sfera celjskih grofov. V prvi polovici 15.
+                    stoletja so bili grofje kot veliki posestniki (teritorialni zemljiški gospodje)
+                    prisotni na Spodnjem Štajerskem, Kranjskem, zahodnem Koroškem in v Slavoniji,
+                    njihov vpliv pa je bilo mogoče zaznati v bistveno širšem prostoru. Izviti se
+                    izpod fevdne nadoblasti celjskih grofov je bilo na ozemlju, ki so ga
+                    obvladovali, izredno težavno. Kot sorodniki in zavezniki nekaterih dinastov so
+                    imeli celjski grofje povezave s habsburškim, luksemburškim, jagielonskim
+                    (poljskim), goriškim in wittelsbaškim (bavarskim) dvorom, kjer je bila socialna
+                    fluktuacija bistveno večja in kjer je bilo vedno mogoče priti v stik s
+                    potencialnimi (novimi) vazali. S socialnim dvigovanjem celjskih grofov je tudi
+                    njihov dvor postajal vse bolj privlačen za ljudi, ki so zase ali za svojo
+                    družino iskali kratko- ali dolgoročno socialno-ekonomsko prosperiteto v službi
+                    pomembnih gospodov. Zelo nazoren primer človeka, ki je kariero ustvaril v službi
+                    celjskih grofov in se povzpel po družbeni lestvici, je češki najemnik in
+                    vojskovodja Jan Vitovec, ki je bil naslednik celjskih grofov v zagorski in
+                    sternberški grofiji, uspel pa mu je tudi dvig iz viteškega v gosposki stan.<note
+                        place="foot" xml:id="ftn24" n="22">Banfi, <hi rend="italic">Klientela</hi>,
+                        152–55.</note></p>
+                <p>Največ celjskih vazalov je bilo iz notranjeavstrijskega deželnega prostora, to je
+                    s Štajerske, Kranjske in Koroške,<note place="foot" xml:id="ftn25" n="23">Prim.
+                        Kosi, Celjska klientela, 45–47.</note> pojavljajo pa se tudi »prišleki« iz
+                    manj in bolj oddaljenih regij, na primer z Goriške, iz Furlanije, s Tirolske, iz
+                    Avstrije, z Bavarske, Švabske, Češke in iz Turingije. Vazalov z Ogrske je
+                    izredno malo, eden takih je Benedikt Turóci (iz komitata Turóc na Ogrskem),
+                    pomemben človek na dvoru grofa Ulrika II., ki je imel v fevdu dvor Komor v
+                    hrvaškem Zagorju.<note place="foot" xml:id="ftn26" n="24">CFK I, fol.
+                        123v.</note></p>
+                <table rend="rules">
+                    <head>Tabela 3: Deželna oziroma krajevna pripadnost vazalov, navedenih v fevdni
+                        knjigi grofa Friderika II. Celjskega (1436–1447) in grofa Ulrika II.
+                        Celjskega (1454–1456) </head>
+                    <row>
+                        <cell rend="both"><hi rend="bold">Dežela/regija</hi></cell>
+                        <cell rend="both"><hi rend="bold">Friderik II.</hi></cell>
+                        <cell rend="both"><hi rend="bold">Ulrik II.</hi></cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Štajerska</cell>
+                        <cell rend="both">144</cell>
+                        <cell rend="both">41</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Kranjska</cell>
+                        <cell rend="both">180</cell>
+                        <cell rend="both">100</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Koroška</cell>
+                        <cell rend="both">156</cell>
+                        <cell rend="both">84</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Goriška</cell>
+                        <cell rend="both">1</cell>
+                        <cell rend="both">1</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Furlanija</cell>
+                        <cell rend="both">1</cell>
+                        <cell rend="both">–</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">Slavonija</cell>
+                        <cell rend="both">5</cell>
+                        <cell rend="both">–</cell>
+                    </row>
+                    <row>
+                        <cell rend="both">ostalo/neznano</cell>
+                        <cell rend="both">56</cell>
+                        <cell rend="both">19</cell>
+                    </row>
+                    <note n="">Vir: Fevdni knjigi grofov Celjskih za grofiji Celje in Ortenbrug iz
+                        let 1436–1447 oziroma 1454–1456</note>
+                </table>
+                <lb/>
+            </div>
+            <div>
+                <head>Stanje na Ogrskem</head>
+                <p>Na Ogrskem, kjer fevdni sistem ni bil razvit, celjski grofje med tamkajšnjim
+                    plemstvom niso mogli na široko izvajati (uvajati) fevdnih praks, kljub temu pa
+                    zasledimo nekaj ljudi, ki so prejeli fevde na Ogrskem. Poleg že omenjenega
+                    Benedikta Turócija so mi iz let 1436–1444 znani Viljem Puhler, Jurij in Baltazar
+                    Glaner, gozdar Petrič, Sigmund Hantschacher, Hans Meusenreuter, topniški mojster
+                    Andrej Eulenschmied, gradbeni mojster Janko (morda Janko iz Snopuschawa),
+                    domnevno brata Jurij in Hans z Grebena, Jan Vitovec, Mert mit der Seel, Peter
+                    Schweinpeck ter brata Hans in Wolfgang iz Martinca (danes Martinec Orehovički v
+                    zagorsko-krapinski županiji).<note place="foot" xml:id="ftn27" n="25">CFK I,
+                        fol. 75, 112v, 113v, 116v, 121v, 127.</note> Na tem mestu bi izpostavil
+                    primer Viljema Puhlerja in bratov iz Martinca. Prvi je prejel svoj fevd »nach
+                    lanndesgewonhait in Vngern,« druga pa »nach recht vnd gewonhait vnser
+                    grafschafft Seger«.<note place="foot" xml:id="ftn28" n="26">CFK I, fol. 75,
+                        121v.</note> Ti formulaciji kažeta, da je bila na Ogrskem (v Slavoniji) v
+                    tem času že izoblikovana praksa prejemanja oziroma uživanja fevdov po lokalnih
+                    običajih, celjski grofje pa so v zagorski grofiji, ki so jo imeli za zasebno
+                    domeno, uvajali fevdne prakse, kot so jih poznali v Svetem rimskem
+                    cesarstvu.</p>
+            </div>
+            <div>
+                <head>Značilnosti fevdnega dvora celjskih grofov</head>
+                <p>Celjski fevdni dvor (vazalna skupnost) je bil socialni mikrokozmos. Večji ko je
+                    postajal, bolj prepleteni so bili celjski vazali med seboj. To lahko opazimo
+                    zlasti v prvi polovici 15. stoletja, ko so bili številni celjski vazali v
+                    medsebojnem bližnjem ali daljnem sorodstvu – očetje in sinovi, strici in nečaki,
+                    bratje, bratranci, zeti in tasti in tako dalje. Do določene mere so celjski
+                    grofje posegali v ženitne zadeve svojih vazalov. Hans von Weissenegg in njegova
+                    žena Wilburga sta leta 1390 obljubila, da lahko celjski grofje Wilburgino hčer,
+                    ki je bila spočeta v zakonu s prejšnjim (pokojnim) možem, poročijo po svoji
+                    volji, ko (in če) doseže dvanajst let, sama pa jo bosta primerno oskrbela z
+                    doto. V vmesnem času bosta za hčer lepo skrbela in je ne bosta poročila proti
+                    volji grofov.<note place="foot" xml:id="ftn29" n="27">CKSL, 1390 VII 27.</note>
+                    Ta dogodek ima reminiscenco na ministeriale, o katerih pa v tem času ne moremo
+                    govoriti. Drug zanimiv primer je iz leta 1444 in zadeva Viljema Lausingerja.
+                    Viljem je bil nezakonski partner vdove nekoč pomembnega celjskega uradnika
+                    Sigmunda Hantschacherja in je grofom obljubil, da se bo poročil s pokojnikovo
+                    ženo. Grof Friderik II. je njemu in njegovi bodoči soprogi v tem primeru
+                    obljubil grad Bednja v hrvaškem Zagorju (prej v fevdu omenjenega
+                    Hantschacherja), ki ga bosta prejela in obdržala, a le tako dolgo, dokler ne bo
+                    Sigmundov sin dosegel polnoletnosti (šestnajst let). Takrat mu bosta morala
+                    Viljem in soproga prepustiti omenjeno posest.<note place="foot" xml:id="ftn30"
+                        n="28">CFK I, fol. 127.</note> Vendar o načrtno izdelani ženitveni politiki,
+                    vodeni s strani grofov, ki bi bila redna praksa na celjskem fevdnem dvoru, ne
+                    moremo govoriti. Za kaj takega ni bilo možnosti, ker je manjkal osnovni pogoj –
+                    ministerialni položaj vazalov.</p>
+                <p>Fevdni dvor pa je bil tudi mobilen v prostoru – nekateri vazali so sčasoma
+                    zamenjali bivališča, eni trajno, drugi začasno. Sploh gradiščani so morali
+                    krajši ali daljši čas bivati na gradovih, ki so jih prejeli v upravo, ti pa so
+                    lahko ležali v povsem drugi deželi ali celo državi, kot zgovorno kažejo primeri
+                    številnih celjskih gradiščanov v Slavoniji. Iz kroga vazalov so celjski grofje
+                    »rekrutirali« tudi svoje spremljevalce – lastni dvor kot mobilno institucijo, ki
+                    jih je spremljal na poti, kamorkoli so šli – in pa uradnike, ki so tvorili
+                    celjsko dvorno-teritorialno upravo.<note place="foot" xml:id="ftn31" n="29"
+                        >Banfi, Uprava, 21–58.</note></p>
+                <p>Vsi celjski vazali niso bili samo vazali celjskih grofov, ampak so imeli tudi
+                    druge fevdne gospode. To so bili predvsem veliki fevdalci, kot so škofje in
+                    deželni knezi, ki so bili največji zemljiški lastniki, njihovi fevdni nadoblasti
+                    pa se je bilo skoraj nemogoče izogniti. V našem prostoru so to bili oglejski
+                    patriarhi, krški škofje ter kranjski, štajerski in koroški deželni knezi –
+                    habsburški vojvode – pa tudi teritorialni zemljiški gospodje, ki niso bili
+                    knezi, kot so bili ortenburški grofje in svibenski gospodje. Pri večkratnih
+                    vazalnih odvisnostih razmerje med njimi nikoli ni bilo uravnoteženo, ampak je
+                    določen fevdni gospod vedno imel glavno težo, bil je glavni vazalov fevdni
+                    gospod. Pri nekaterih vazalih oziroma vazalnih rodbinah je mogoče opaziti, da so
+                    z vidika vazalne orientiranosti celjske grofe imeli za svoje glavne fevdne
+                    gospode. To velja predvsem za tradicionalne vazalne rodbine – tiste, katerih
+                    najpomembnejša gospostva so bila celjska posest (fevd), in tiste posameznike, ki
+                    so v dvorno-teritorialni upravi celjskih grofov oziroma na celjskem dvoru imeli
+                    pomembne funkcije. A tako kot so človeški odnosi nestalni, so bila nestalna tudi
+                    fevdna razmerja (vazalno-gosposki odnosi). Tako lahko na fevdnem dvoru celjskih
+                    grofov opazimo fluktuacijo odnosov. Struktura celjskega fevdnega dvora ni bila
+                    statična, ampak se je dolgoročno spreminjala v vseh pogledih – po številu,
+                    socialni sestavi, spolu in tako dalje. </p>
+                <p>V 15. stoletju lahko govorimo že o nekaterih tradicionalnih vazalnih rodbinah,
+                    katerih pripadniki so bili »vazali s tradicijo«, bili so torej člani družin,
+                    katerih številni predniki so bili več generacij vazali celjskih grofov in so
+                    grofe imeli za svoje glavne fevdne gospode. Med tradicionalne vazalne rodbine
+                    lahko uvrstimo tiste, ki so si jih grofje podredili že zelo zgodaj v 14.
+                    stoletju in so preživele v 15. stoletje ali celo preživele celjske grofe ter ves
+                    čas ostale pod njihovo fevdno oblastjo. Veliko teh rodbin je iz matičnega
+                    prostora celjskih grofov, zlasti s Spodnje Štajerske (Posavinje), nekaj pa tudi
+                    s Kranjske, njihovi sedeži (gospostva) pa so bili posest (fevd) celjskih grofov.
+                    Med te rodbine so sodili Vaisti, Helfenberški, Turnerji in njihova veja
+                    Forhteneški, Mindorferji ter razvejan rod Ucmana iz Rogatca, ki ga vodimo pod
+                    imenom Rogaško-Lemberško-Rifniški-Žovneški.<note place="foot" xml:id="ftn32"
+                        n="30">Kos, <hi rend="italic">Vitez in grad</hi>, 312.</note> Po drugi
+                    strani na celjskem dvoru naletimo na nekaj izredno pomembnih vazalov, ki so kot
+                    komet – pojavijo se od »nikoder«, imajo visoke urade in ne zapustijo potomcev
+                    (med celjskimi vazali). Takšen primer je Hans Meusenreuter, dolgoletni kancler
+                    in svetovalec celjskih grofov, ki je bil v prvi polovici 15. stoletja eden
+                    najpomembnejših ljudi na celjskem dvoru.</p>
+                <p>Poleg prostorske mobilnosti lahko govorimo o službeni mobilnosti. Med celjskimi
+                    vazali zasledimo take, ki so vse življenje prebili v službi grofov, in take, ki
+                    so menjavali (primarne) službene gospode. Seveda je bilo mogoče istočasno
+                    aktivno služiti več gospodom. Če gospodje niso bili sprti ali v fajdi, to ni
+                    bilo problematično. Nič nenavadnega ni bilo niti to, da so člani iste družine
+                    služili različnim gospodom. V nekaterih primerih je mogoče opaziti postopno
+                    zbliževanje posameznika s celjskimi grofi, še preden je pristal na njihovem
+                    dvoru kot vazal ali uradnik. Celjski dvorni mojster Herman Safner
+                        (1412–1413)<note place="foot" xml:id="ftn33" n="31">SI AS 1063, sig. 4416.
+                        CKSL, 1412 IX 3. Kosi, Celjska klientela, 54.</note> je bil na primer
+                    namestnik (upravitelj) grofa Hermana II. kot kranjskega deželnega glavarja,<note
+                        place="foot" xml:id="ftn34" n="32">CKSL, 1395 VIII 23.</note> preden ga je
+                    ta po odsluženem stažu vzel na svoj dvor. Nekateri pa imajo celo (pred)zgodovino
+                    nasprotovanja celjskim grofom – kasnejši celjski dvorni mojster Franc von
+                    Strassoldo (1443–1445)<note place="foot" xml:id="ftn35" n="33">CFK I, fol. 138v.
+                        Gnirs, Eine Abrechnung, 23. Kosi, Celjska klientela, 54. Banfi, <hi
+                            rend="italic">Klientela</hi>, 147, 148, 204.</note> se je v času
+                    celjsko-habsburške fajde (1437–1443) kot vojaški najemnik angažiral na strani
+                    štajerskega vojvode Friderika V. Habsburškega proti Celjskim in nima predhodnih
+                    izkazanih stikov z grofi. Ravno služba drugim gospodom je bila včasih vzrok,
+                    zaradi katerega so ljudje prišli v stik s celjskim dvorom. Ortolf s Hornegga z
+                    današnje avstrijske Štajerske je v drugi četrtini 14. stoletja verjetno prišel
+                    na Spodnjo Štajersko – v žovneški prostor – kot habsburški gradiščan na Vojniku
+                    in po naključju pristal med klientelo Friderika I. Žovneškega.<note place="foot"
+                        xml:id="ftn36" n="34">Banfi, <hi rend="italic">Klientela</hi>, 68.</note>
+                    Mlajši primer je celjski maršal Rudolf von Ehingen s Švabske, ki je v začetku
+                    15. stoletja prišel na dvor kralja ogrskega in nemškega kralja Sigismunda
+                    Luksemburškega in tam spoznal grofa Hermana II., ki ni bil nihče drug kot
+                    Sigismundov tast.<note place="foot" xml:id="ftn37" n="35">Prav tam,
+                    133.</note></p>
+                <p>Analiza celjske dvorno-teritorialne uprave kaže, da na celjskem dvoru vazali
+                    praviloma niso imeli več funkcij (uradov, služb) istočasno.<note place="foot"
+                        xml:id="ftn38" n="36">Podrobno o celjski dvorno-teritorialni upravi v:
+                        Banfi, Uprava, 21–58. Banfi, <hi rend="italic">Klientela</hi>,
+                        193–248.</note> Visoki uradniki, kot so dvorni mojstri ali maršali,
+                    praviloma niso bili hkrati še gradiščani ali glavarji. Ena od izjem je Jošt
+                    Helfenberški, ki je bil celjski glavar (1452–1454)<note place="foot"
+                        xml:id="ftn39" n="37">SI AS 1063, sig. 4556. ADG Regesti, 1452 VIII 10.
+                        CKSL, 1454 III 17. CKSL, 1454 IV 4. CKSL, 1454 VIII 28.</note> in dvorni
+                    mojster (1454) hkrati.<note place="foot" xml:id="ftn40" n="38">Kot dvorni
+                        mojster in celjski glavar je omenjen le v CKSL, 1454 III 17. Podrobno o
+                        Joštu Helfenberškemu Banfi, Jošt Helfenberški.</note></p>
+                <p> Celjski grofje so kot fevdni gospodje imeli pravico svojim vazalom v okviru
+                    fevdnih zadev po fevdnem pravu soditi pred svojim fevdnim sodiščem. To so
+                    praviloma sestavljali fevdni gospod kot vrhovni sodnik in vazali kot
+                        prisedniki.<note place="foot" xml:id="ftn41" n="39">Gl. Spieß, <hi
+                            rend="italic">Das Lehnswesen</hi>, 36, 37.</note> Vazale, ki so kršili
+                    svoje dolžnosti, prelomili zvestobo ali niso poravnali svojih dolgov, za katere
+                    so jamčili s svojimi (celjskimi) fevdi, so lahko grofje kaznovali z zaplembo
+                    (odvzemom) fevda, a takih primerov ni prav veliko. Ne vemo niti tega, ali je na
+                    celjskem dvoru sploh obstajalo fevdno sodišče kot institucija ali pa so celjski
+                    sodili bolj arbitrarno. Indic, da so bili celjski vazali do določene mere
+                    vključeni v fevdne zadeve na celjskem dvoru, je primer Erazma s Kamna, ki mu je
+                    grof Friderik II. leta 1445 zaplenil fevde, še prej pa je o tem obvestil svoje
+                        vazale.<note place="foot" xml:id="ftn42" n="40">CFK I, fol. 63.</note> Grof
+                    je ravnal enako, ko je zaplenil fevde Joštu Auerju.<note place="foot"
+                        xml:id="ftn43" n="41">CFK I, fol. 133.</note> Zaplemba fevdov je doletela
+                    tudi radeška tržana Pavla am Art in nekega Mateja, ki sta zaradi nezvestobe
+                    izgubila vsak svojo hišo.<note place="foot" xml:id="ftn44" n="42">CFK I, fol.
+                        102, 109v, 110.</note> Poleg nezvestobe je lahko vazal fevde izgubil tudi
+                    zaradi dolgov. O tem govori primer Erazma s Kamna iz leta 1436. Erazem ni
+                    pravočasno poravnal dolgov celjskim grofom, za poravnavo katerih je pisno jamčil
+                    s svojimi fevdi, zato jih je posledično izgubil (kazen morda ni bila tako huda,
+                    kajti fevdi so bili nato podeljeni njegovemu sorodniku Hansu s Kamna).<note
+                        place="foot" xml:id="ftn45" n="43">CFK I, fol. 34.</note> Primer zase sta
+                    brata Sigmund in Hans Zekarner, dediča Sigmunda Zekarnerja, ki je umrl, ne da bi
+                    poravnal dolg Andreju Holleneggerju, za katerega je jamčil s celjskimi fevdi.
+                    Podedovani dolg se je nato prenesel na brata Zekarner kot Sigmundova dediča, ki
+                    pa ga nista nameravala poravnati, zato je Hollenegger leta 1446 iskal pravico
+                    pred štajerskim ograjnim sodiščem v Gradcu, pred katerim je uspešno tožil brata
+                    Zekarner. Celjskim grofom ni ostalo drugega, kot da so podedovane fevde vzeli
+                    bratoma Zekarner in jih podelili Holleneggerju.<note place="foot" xml:id="ftn46"
+                        n="44">CFK I, fol. 137v.</note> To, da je Hollenegger iskal pravico pred
+                    ograjnim sodiščem, kaže, da celjski grofje, ki so morali biti z razmerami svojih
+                    vazalov seznanjeni, niso zmogli rešiti spora in da so v tem času upoštevali
+                    podrejenost štajerskemu deželnemu knezu (vojvodi), v imenu katerega je ograjno
+                    sodišče razsodilo spor.</p>
+            </div>
+            <div>
+                <head>Fevdne prakse celjskih grofov</head>
+                <p>Vazale, ki so se izkazali z zvestobo in službo, so celjski grofje nagrajevali s
+                    podelitvami (novih, boljših) fevdov ali z raznimi ugodnostmi. Oglejmo si nekaj
+                    primerov. Herman II. je svojega svetovalca Janeza iz Mile in njegovega brata
+                    Nikolaja – po izvoru iz Turingije<note place="foot" xml:id="ftn47" n="45">Banfi,
+                            <hi rend="italic">Klientela</hi>, 158, 159.</note> – oprostil plačevanja
+                    mestnega davka od hiše v Celju, ki jima jo je podelil v fevd.<note place="foot"
+                        xml:id="ftn48" n="46">SI AS 1063, sig. 6596. CKSL, 1407 I 26.</note>
+                    Plačevanja mestnega davka v Celju je bil leta 1449 oproščen tudi Nikolaj
+                    Pürcher, kuhinjski mojster Friderika II.<note place="foot" xml:id="ftn49" n="47"
+                        >CKSL, 1449 VIII 30.</note> Poleg Pürcherja je Friderik II. »nagradil« tudi
+                    svojega drugega kuhinjskega mojstra, Ulrika Ayrerja, ki mu je leta 1444 podelil
+                    dvorni mlin v trajni užitek in obljubil, da mu bo pomagal obnoviti mlinsko kolo,
+                    če se bo zlomilo (ta mlin je pod enakimi pogoji imel pred tem že zvesti celjski
+                    mestni sodnik Henrik Erlauer).<note place="foot" xml:id="ftn50" n="48">CFK I,
+                        fol. 127.</note> Pri Frideriku II. so bili dobro zapisani tudi njegovi trije
+                    kuharji Jarne, Mert in Baltazar, ki so vsi prejeli fevde.<note place="foot"
+                        xml:id="ftn51" n="49">CFK I, fol. 101v, 123v, 124.</note>
+                </p>
+                <p>Zveste vazale in tiste, ki so se odlikovali po sposobnostih, so celjski grofje
+                    jemali v službo in jih imenovali na različne uradniške položaje v svoji
+                    dvorno-teritorialni upravi.<note place="foot" xml:id="ftn52" n="50">Gl. Banfi,
+                        Uprava.</note> Večina vazalov, ki je leta 1430 grofa Ulrika II. spremljala
+                    na njegovem potovanju v Španijo, je kasneje prosperirala na njegovem dvoru in
+                    opravljala pomembne dvorne ali teritorialne funkcije.<note place="foot"
+                        xml:id="ftn53" n="51">Häbler, <hi rend="italic">Das Wallfahrtsbuch</hi>, 44.
+                        Banfi, Uprava.</note></p>
+                <p>Celjski grofje so podeljevali dvoje vrst fevdov: prave in grajske. Pravi fevd je
+                    lahko bil deden, fevdnik pa ga je praviloma imel v doživljenjskem užitku. Fevde
+                    lahko razdelimo glede na način, kako so služili od njih, in sicer na viteške ter
+                    neviteške fevde. Od viteških fevdov so služili z viteško službo. Ti fevdi so
+                    bili »rezervirani« za plemstvo. Iz okoli leta 1454 imamo zanimiv primer fevdnice
+                    Barbare von Gendorf, ki so ji grofje obljubili, da bo po smrti očeta in moških
+                    sorodnikov obdržala očetove fevde, a ker sama ne more služiti kot vitez, bo
+                    morala za to po potrebi poslati oboroženega hlapca na konju.<note place="foot"
+                        xml:id="ftn54" n="52">CFK IIa, fol. 10, 11v.</note> Od neviteških fevdov
+                    niso služili, ampak plačevali ali oddajali dajatev v naturalijah (praviloma
+                    enkrat na leto). Fevde proti plačilu so prejemali meščani, duhovniki, ženske in
+                    kosezi. Ti fevdi so bili manjši od viteških fevdov. Naj navedemo nekaj primerov
+                    neviteških fevdov. Kranjski meščan Florijan, ki je leta 1436 od Friderika II.
+                    prejel v fevd dve desetini, je bil dolžan grofom letno oddajati dve vedri vina
+                    sorte rebula ter ju osebno dostaviti v Celje.<note place="foot" xml:id="ftn55"
+                        n="53">CFK I, fol. 10v.</note> Gašperju iz Radovljice, pisarju Friderika II.
+                    (1436–1445), je bilo naloženo, da za prejeti fevd plačuje eno marko pfeninga
+                    letno, ki pa ni šla grofom, ampak njihovemu župniku v Celju.<note place="foot"
+                        xml:id="ftn56" n="54">CFK I, fol. 18. Banfi, Uprava, 32.</note> Jedert in
+                    njen sin Mert sta za prejete fevde ravno tako morala plačevati pet oglejskih
+                    pfeningov letno.<note place="foot" xml:id="ftn57" n="55">CFK I, fol. 31.</note>
+                    Posebna vrsta neviteškega fevda je bil tako imenovani koseški fevd ali
+                    Edlingtum, od katerega so plačevali eno marko letno. Koseške fevde so lahko
+                    prejeli tudi tisti, ki niso bili kosezi, vendar pod enakimi pogoji.<note
+                        place="foot" xml:id="ftn58" n="56">CKSL, 1421 V 22.</note> Če so bili
+                    viteški fevdi vir vojaške službe, lahko v neviteških fevdih vidimo vir finančnih
+                    in materialnih prihodkov. Celjska fevdna praksa je poznala tudi tako imenovane
+                    proste fevde, od katerih ni bilo treba služiti na noben način, a jih ne smemo
+                    zamenjevati z alodom (privatno lastnino). Eden od posestnikov prostega fevda je
+                    bil Jakob Laider, ki je leta 1436 prejel hišo v Lembergu in vinograd ob njej, od
+                    tega pa mu ni bilo treba plačevati davka in kakorkoli služiti.<note place="foot"
+                        xml:id="ftn59" n="57">CFK I, fol. 78v.</note></p>
+                <p>Grajski fevdi (Burglehen) niso bili pravi fevdi, ampak je šlo za podelitev gradu
+                    v oskrbo (upravo).<note place="foot" xml:id="ftn60" n="58">Podrobneje o grajski
+                        upravi Kos, <hi rend="italic">Vitez in grad</hi>, 64–74. Gl. tudi Spieß, <hi
+                            rend="italic">Das Lehnswesen</hi>, 38.</note> Na teh gradovih so celjski
+                    grofje imeli tako imenovano pravico do odprtega gradu (Öffnungsrecht), kar je
+                    pomenilo, da so oni in njihovi poverjeni ljudje imeli ves čas možnost prostega
+                    vstopa in izstopa iz gradu ter oskrbo s hrano in pijačo, pa tudi nočitev po
+                    potrebi, vendar na lastne stroške, tako da niso finančno in materialno bremenili
+                        gradiščana.<note place="foot" xml:id="ftn61" n="59">Kos, <hi rend="italic"
+                            >Vitez in grad</hi>, 45, 46.</note> Grajski fevdi niso bili v trajnem
+                    užitku in praviloma tudi ne dedni. Zvezani so bili s službo varovanja in
+                    oskrbovanja gradu po grajskem fevdnem pravu. Celjski grofje so svoje
+                    najpomembnejše gradove obdržali v grajski upravi in jih niso podeljevali v pravi
+                        fevd.<note place="foot" xml:id="ftn62" n="60">Gl. Kosi, Grajska politika,
+                        484, 485.</note></p>
+                <p>Celjski so fevde podeljevali tistim, ki so bili stari najmanj šestnajst let, kar
+                    je bila v tistem času običajna starost, pri kateri je človek postal
+                        polnoleten.<note place="foot" xml:id="ftn63" n="61">Gl. CFK I, fol. 127.
+                        Celjska kronika, 144.</note> Poznamo primere, ko so bili mladoletnim osebam
+                    fevdi pridržani do njihove polnoletnosti.<note place="foot" xml:id="ftn64"
+                        n="62">Iz leta 1437 imamo serijo pridržanih fevdov. Gl. CFK I. fol. 42v, 43.
+                    </note> Pridržanje je pomenilo, da so bili fevdi »rezervirani« za njih in jih
+                    grofje niso imeli namena podeliti nikomur drugemu. Pridržani fevdi niso bili nič
+                    drugega kot dediščina, ki je mladoletnikom pripadala po njihovih starših, ki so
+                    bili celjski vazali. V pridržanju lahko vidimo obliko jamstva s strani grofov,
+                    ki so svojim bodočim vazalom zavarovali to, kar jim je pripadalo po fevdnem
+                    pravu. Pridržanje fevdov mladoletnim osebam je bilo omejeno na čas, ki je bil
+                    potreben, da so dosegli polnoletnost. Iz fevdne knjige grofa Friderika II. imamo
+                    celo primer, ko so bili mladoletnim osebam fevdi pridržani tri leta.<note
+                        place="foot" xml:id="ftn65" n="63">CFK I, fol. 43.</note> Predvidevamo, da
+                    so ob dosegu polnoletnosti imeli na voljo še leto in dan, kot je bilo običajno
+                    za druge vazale po smrti gospoda ali polnoletne dediče umrlega vazala, da
+                    prevzamejo fevde. Fevdi so lahko bili pridržani tudi vazalom, ki se v
+                    predvidenem roku niso zglasili in jih prevzeli, če so le pravočasno obvestili
+                    grofa. Takih primerov ni veliko; omenili bi lahko Tirolca Jakoba Trappa iz leta
+                        1455.<note place="foot" xml:id="ftn66" n="64">CKSL, 1455 VIII 10/2.</note>
+                    Če so dediči prejeli iste fevde, kot jih je imel pokojni vazal, kar je bilo pri
+                    celjskih vazalih pogosto, so praviloma podedovali iste obveznosti.</p>
+                <p>Poleg tega, da so bili fevdi nekomu pridržani, so lahko bili tudi obljubljeni.
+                    Razlika med pridržanim in obljubljenim fevdom je bila v tem, da pridržani fevd
+                    ni bil v posesti nikogar, obljubljeni fevd pa je (še) imel fevdnika. Pri meni
+                    znanih obljubah gre bolj ali manj za obljubo podelitve gradu v pravi fevd.<note
+                        place="foot" xml:id="ftn67" n="65">CKSL, 1360 VII 30. CKSL, 1361 VII 13/20.
+                        CFK I, fol. 100. CFK I, fol. 104v.</note> Celjski grofje so fevde
+                    obljubljali le najzvestejšim vazalom – v teh obljubah lahko vidimo njihovo
+                    fevdno politiko. Frideriku Čušperškemu, ki mu je leta 1441 grozilo, da bo umrl
+                    brez neposrednih potomcev, je Friderik II. izkazal posebno milost in obljubil,
+                    da bo grad Boštanj, če bo umrl brez potomcev, podelil njegovemu bratrancu.<note
+                        place="foot" xml:id="ftn68" n="66">CFK I, fol. 100.</note> Celjskemu
+                    dvornemu mojstru Erazmu Lihtenberškemu je bila še pred letom 1441 obljubljena
+                    druga polovica gradu Rifnik, in to kmalu potem, ko je kupil in prejel v fevd
+                    prvo polovico.<note place="foot" xml:id="ftn69" n="67">CFK I, fol. 104v.</note>
+                    Viljema Lausingerja in njegov primer – obljubo gradu Bednja – pa smo že
+                    omenili.</p>
+                <p>Vrsta fevda je bila odvisna od socialnega položaja fevdnika in drugih dejavnikov.
+                    Plemiči so praviloma prejemali večje, boljše in številčnejše fevde kot meščani;
+                    enako moški v primerjavi z ženskami znotraj istega družbenega stanu.
+                    Najpogostejši fevdi so bile različne agrarne nepremičnine, v prvi vrsti hube
+                    (kmetije), vasi, različne vrste obdelovalnih površin (njive, vrtovi, vinogradi,
+                    sadovnjaki), druge vrste kmetijskih površin (pašniki, travniki), gozdovi in
+                    različne vrste desetin ter drugih prihodkov. Plemiči so prejemali še dvore
+                    (skromnejša utrjena bivališča)<note place="foot" xml:id="ftn70" n="68">Kos, <hi
+                            rend="italic">Vitez in grad</hi>, 33–36.</note> in hiše v mestih, manjše
+                    število pomembnejših pa tudi gradove. Na nekaterih gradovih so si celjski grofje
+                    pridržali pravico do odprtega dostopa. Revnejši plemiči so verjetno prebivali
+                    kar na kmetijah (hubah).<note place="foot" xml:id="ftn71" n="69">Prav tam,
+                        34.</note></p>
+                <p>Znotraj skupine plemenitih vazalov je opazna socialna stratifikacija. Uglednejši
+                    in/ali zvestejši vazali niso bili imenovani le na pomembnejše položaje v celjski
+                    dvorno-teritorialni upravi, ampak so prejemali tudi boljše in številčnejše
+                    fevde. Ta »fevdna elita« so bili posestniki (fevdniki) gradov. Med rekorderje
+                    med celjskimi fevdniki zagotovo sodita Herman Kozjaški in Sigmund Sebriacher.
+                    Oba sta bila pomembna vazala na celjskem dvoru in oba so celjski grofje
+                    nagradili s kar dvema gradovoma hkrati. Prvi je prejel Mirno in Ekenštajn,<note
+                        place="foot" xml:id="ftn72" n="70">CFK I, fol. 95.</note> drugi pa Šalek in
+                        Mokrice.<note place="foot" xml:id="ftn73" n="71">CFK IIb, fol.
+                        23v–25.</note> Vsi celjski vazali pa niso imeli »sreče«, da bi oni ali
+                    njihova družina kontinuirano prebivali na določenem celjskem gradu, ampak so
+                    zaradi različnih okoliščin grad izgubili ali bili premeščeni na drugega. V
+                    fevdnem prometu so bila aktualna tudi gradišča (Burgstall), to so do določene
+                    mere porušeni oziroma uničeni gradovi, ki so še vedno imeli potencialno bivalno
+                    funkcijo, zato so jih Celjski podeljevali v fevd. Jurij Rauber ml., na primer,
+                    je leta 1455 prejel porušeni Kravjek z dovoljenjem, da ga obnovi.<note
+                        place="foot" xml:id="ftn74" n="72">CFK IIb, fol. 30v, 31v. </note></p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <list type="unordered">
+                    <head style="text-align:center;">Arhivski viri</head>
+                    <item>SI AS – Arhiv Republike Slovenije:<list type="unordered">
+                            <item>SI AS 1063 – Zbirka listin (1163–1868).</item>
+                        </list></item>
+                </list>
+                <listBibl>
+                    <head style="text-align:center;">Literatura</head>
+                    <bibl>Banfi, Jaka. Jošt Helfenberški (Soteški) (ok. 1388–1458): krvnik Veronike
+                        Deseniške?. <hi rend="italic">Zgodovinski časopis</hi> 77, št. 1–2 (2023):
+                        38–59.</bibl>
+                    <bibl>Banfi, Jaka. <hi rend="italic">Klientela celjskih grofov</hi>. <hi
+                            rend="italic">Doktorska disertacija</hi>. Ljubljana, 2023.</bibl>
+                    <bibl>Banfi, Jaka. Uprava grofov Celjskih (1341–1456). <hi rend="italic"
+                            >Kronika</hi> 70, št. 1 (2022): 21–58.</bibl>
+                    <bibl>Brunner, Otto. <hi rend="italic">Land and Lordship: Structures of
+                            Governance in Medieval Austria</hi>. Philadelphia: University of
+                        Pennsylvania Press, 1992. </bibl>
+                    <bibl>Klaić, Nada. <hi rend="italic">Zadnji knezi Celjski v deželah Sv.
+                            krone</hi>. Celje: Prese, 1991.</bibl>
+                    <bibl>Kos, Dušan.<hi rend="italic"> Blesk zlate krone. Gospodje Svibenski –
+                            kratka zgodovina plemenitih nasilnikov</hi>. Ljubljana: Zgodovinski
+                        inštitut Milka Kosa ZRC SAZU, 2003.</bibl>
+                    <bibl>Kos, Dušan. <hi rend="italic">Vitez in grad: vloga gradov v življenju
+                            plemstva na Kranjskem, slovenskem Štajerskem in slovenskem Koroškem do
+                            začetka 15. stoletja</hi>. Ljubljana: Založba ZRC, ZRC SAZU,
+                        2005.</bibl>
+                    <bibl>Kosi, Miha. Celjska klientela. Socialna in prostorska mobilnost plemstva v
+                        službi grofov Celjskih. V: Boris Golec (ur.). <hi rend="italic">Družbena
+                            identiteta in mobilnost v slovenskem prostoru med poznim srednjim vekom
+                            in 20. stoletjem</hi>, 11–64. Ljubljana: Založba ZRC, ZRC SAZU,
+                        2019.</bibl>
+                    <bibl>Kosi, Miha. Celjski. V: Barbara Šterbenc Svetina (ur.).<hi rend="italic">
+                            Novi Slovenski biografski leksikon. Zv. 4: C</hi>, 83–98. Ljubljana:
+                        Založba ZRC, 2022.</bibl>
+                    <bibl>Kosi, Miha. Grajska politika – primer grofov Celjskih. <hi rend="italic"
+                            >Kronika</hi> 60, št. 3 (2012): 465–94.</bibl>
+                    <bibl>Spieß, Karl-Heinz. <hi rend="italic">Das Lehnswesen in Deutschland im
+                            hohen und späten Mittelalter</hi>. Stuttgart: Franz Steiner Verlag,
+                        2011.</bibl>
+                    <bibl>Štih, Peter in Vasko Simoniti. <hi rend="italic">Na stičišču svetov:
+                            Slovenska zgodovina od prazgodovinskih kultur do konca 18.
+                        stoletja</hi>. Ljubljana: Modrijan, 2009.</bibl>
+                    <bibl>Štih, Peter. Celjski grofje, vprašanje njihove deželnoknežje oblasti in
+                        dežele Celjske. V: Vincenc Rajšp (ur.). <hi rend="italic">Grafenauerjev
+                            zbornik</hi>, 227–56. Ljubljana: ZRC SAZU, 1996.</bibl>
+                    <bibl>Štih, Peter. Dežela Grofija v Marki in Metliki. V: Vincenc Rajšp in Ernst
+                        Brückmuller (ur.). <hi rend="italic"> Vilfanov zbornik: Pravo – zgodovina –
+                            narod</hi>. Ljubljana: Založba ZRC, ZRC SAZU, 1999, 123–46.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head style="text-align:center;">Neobjavljeni viri</head>
+                    <bibl>ADG Regesti – Regesti listin arhiva škofije Krka (tipkopis). Arhiv škofije
+                        Krka, Celovec.</bibl>
+                    <bibl>CFK I – Fevdna knjiga grofov Celjskih za grofiji Ortenburg in Celje
+                            1436–1447<hi rend="italic">. </hi>Arhiv Republike Slovenije, Ljubljana.
+                        AS 1073, Zbirka rokopisov, I-57r (tipkopis Boža Otorepca hranjen na
+                        Zgodovinskem inštitutu Milka Kosa ZRC SAZU v Ljubljani).</bibl>
+                    <bibl>CFK IIa – Fevdna knjiga grofov Celjskih za grofijo Ortenburg 1454–1456 <hi
+                            rend="italic">. </hi>Arhiv Republike Slovenije, Ljubljana. AS 1073,
+                        Zbirka rokopisov, I-2r (tipkopis Boža Otorepca hranjen na Zgodovinskem
+                        inštitutu Milka Kosa ZRC SAZU v Ljubljani).</bibl>
+                    <bibl>CFK IIb – Fevdna knjiga grofov Celjskih za grofijo Celje 1454–1456<hi
+                            rend="italic">. </hi>Arhiv Republike Slovenije, Ljubljana. AS 1073,
+                        Zbirka rokopisov, I-3r (tipkopis Boža Otorepca hranjen na Zgodovinskem
+                        inštitutu Milka Kosa ZRC SAZU v Ljubljani).</bibl>
+                    <bibl>CKSL – Centralna kartoteka srednjeveških listin (tipkopis Boža Otorepca
+                        hranjen na Zgodovinskem inštitutu Milka Kosa ZRC SAZU v Ljubljani).</bibl>
+                </listBibl>
+                <listBibl>
+                    <head style="text-align:center;">Objavljeni viri</head>
+                    <bibl>Celjska kronika – Die Cillier Chronik. Text mit kritischer Einleitung und
+                        historischen Erläuterungen. Franz Krones. <hi rend="italic">Die Freien von
+                            Saneck und ihre Chronik als Grafen von Cilli.</hi> Graz: Verlag
+                        Leuschner &amp; Lubensky, 1883.</bibl>
+                    <bibl>Gnirs, Anton. Eine Abrechnung über Ausgaben und zugehörige Einnahmen für
+                        das Söldneraufgebot Friedrichs III. im Krainer Krieg 1442–43: Fragment eines
+                        gleichzeitigen Rechnungsbuches des Franz von Strassau. <hi rend="italic"
+                            >Zweiter Jahresbericht der K. K. Staatsrealschule in Pola.
+                            Veröffentlicht am Schlusse des Schuljahres 1908/1909</hi>, 22–28.
+                        1909.</bibl>
+                    <bibl>Häbler, Konrad. <hi rend="italic">Das Wallfahrtsbuch des Hermannus Kunig
+                            von Vach und die Pilgerreisen der Deutschen nach Santiago de
+                            Compostela</hi>. Strassburg: J. H. Ed. Heitz (Heitz &amp; Mündel),
+                        1899.</bibl>
+                </listBibl>
+            </div>
+
+        </back>
+    </text>
+</TEI>

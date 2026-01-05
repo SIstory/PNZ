@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><hi rend="italic bold">Bamberški sodni red</hi> iz leta 1510 kot vir za
+                    kulturno zgodovino pravosodja </title>
+                <author>
+                    <forename>Igor</forename>
+                    <surname>Zemljič</surname>
+                    <roleName>Dipl. zgodovinar in bibliotekar</roleName>
+                    <roleName>vodja</roleName>
+                    <affiliation>Centralna pravosodna knjižnica Vrhovnega sodišča Republike
+                        Slovenije</affiliation>
+                    <address>
+                        <addrLine>Tavčarjeva ulica 9</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>igor.zemljic@sodisce.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date/></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/4281</pubPlace>
+                <date>2023</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">64</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Constitutio Criminalis Bambergensisis</term>
+                    <term>legislation</term>
+                    <term>court proceedings</term>
+                    <term>historical anthropology</term>
+                    <term>images of the judiciary</term>
+                    <term>book woodcuts</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>Bamberški sodni red</term>
+                    <term>Bamberški malefični red</term>
+                    <term>zakonodaja</term>
+                    <term>sodni postopek</term>
+                    <term>historična antropologija</term>
+                    <term>podobe sodstva</term>
+                    <term>knjižni lesorezi</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2024-02-19T08:23:26Z</date>
+                    <name>Mihael Ojsteršek</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Igor Zemljič<note place="foot" xml:id="ftn1" n="*"><hi rend="bold">Dipl.
+                        zgodovinar in bibliotekar, vodja Centralne pravosodne knjižnice Vrhovnega
+                        sodišča Republike </hi><hi rend="bold">Slovenije, Tavčarjeva ulica 9,
+                        SI-1000 Ljubljana, </hi><ref target="mailto:igor.zemljic@sodisce.si"><hi
+                            rend="bold">igor.zemljic@sodisce.si</hi></ref>; <hi rend="bold">ORCID:
+                        0009-0007-0007-595X</hi></note>
+            </docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="DOI">https://doi.org/10.51663/pnz.64.1.02</idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p>Bamberški sodni red <hi rend="italic">ali</hi> Constitutio Criminalis
+                    Bambergensis (CCB)<hi rend="italic"> je pravnozgodovinsko zelo pomemben, saj je
+                        bil kot prvi izdan v tiskani obliki, hkrati pa predstavlja svojevrstno
+                        prelomnico v razvoju nemškega kazenskega prava, ker predstavlja sintezo
+                        kazenskega prava, ki sta ga oblikovali severnoitalijanska praksa in teorija
+                        pod vplivom rimskega in kanonskega prava ter domačega bavarskega običajnega
+                        prava. Sodni red je opremljeni s kar 22 lesorezi, ki na slikovit način
+                        ponazarjajo pravno besedilo. Na osnovi ohranjenih upodobitev si lahko tako
+                        natančno predstavljamo, kako je potekal kazenski postopek pred 500 leti, ter
+                        hkrati s tem pridobimo še enkraten vpogled v kulturno zgodovino sodstva in
+                        sodnikov na začetku novega veka.</hi></p>
+                <p><hi rend="italic">Ključne besede:</hi> Bamberški sodni red, Bamberški malefični
+                    red, <hi rend="italic"> zakonodaja, sodni postopek, historična antropologija,
+                        podobe sodstva, knjižni lesorezi</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head>THE <hi rend="italic">BAMBERG MALEFICENT ORDER</hi> AS AN ANTHROPOLOGICAL
+                    SOURCE FOR THE HISTORY OF JUSTICE</head>
+                <p><hi rend="italic">The</hi> Bamberg Maleficent Order <hi rend="italic">or</hi>
+                    Constitutio Criminalis Bambergensisis <hi rend="italic">is a crucial legal text,
+                        as it was the first German criminal code to be published in printed form. It
+                        was a turning point in the development of German criminal law because it
+                        represented a synthesis of criminal law, shaped by the Northern Italian
+                        practice and theory under the influence of Roman and canon law and domestic
+                        Bavarian common law. The malefic order featured 22 woodcuts illustrating the
+                        legal text. Based on the preserved depictions, we can thus accurately
+                        imagine how criminal proceedings were conducted 500 years ago while
+                        simultaneously gaining a unique anthropological insight into the cultural
+                        history of the judiciary and judges at the beginning of the Modern
+                        Period.</hi></p>
+                <p><hi rend="italic">Keywords</hi>: Constitutio Criminalis Bambergensisis, <hi
+                        rend="italic">legislation, court proceedings, historical anthropology,
+                        images of the judiciary, book woodcuts</hi></p>
+            </div>
+        </front>
+        <body>
+            <p><hi rend="italic">Bamberški sodni red</hi> je pravnozgodovinsko zelo pomemben, ker
+                predstavlja sintezo kazenskega prava, ki sta ga oblikovali severnoitalijanska praksa
+                in teorija pod vplivom rimskega in kanonskega prava ter domačega bavarskega
+                običajnega prava. Kakovostni lesorezi, ki ga spremljajo, so se v zgodovinopisje
+                pravosodja vpisali zaradi svoje nazornosti in natančnosti prikazov sodnega postopka.
+                Andrej Studen je nekatere od teh upodobitev pogosto uporabljal v svojih številnih
+                objavah, zato si nekoliko natančneje oglejmo njihov nastanek in vsebino. <note
+                    place="foot" xml:id="ftn2" n="1"> Literatura o likovnih upodobitvah simbolov
+                    prava in pravosodja ja zadnje čase v velikem porastu. Za naše kraje in našo
+                    problematiko so najbolj zanimiva naslednja dela: Timmermann, <hi rend="italic"
+                        >Locus Calvariae</hi>, 137–61, za širšo popularizacijo teme je bila
+                    najpomembnejša razstava <hi rend="italic">The Art of Law: Three Centuries of
+                        Justice Depicted</hi>, ki so ji pripravili v Groeningemuseum v Brugesu med
+                    oktobrom 2016 in februarjem 2017. Ob tej priložnosti je izšel tudi katalog
+                    razstave.</note></p>
+            <p>
+                <hi rend="italic">Bamberški sodni red </hi>lahko imenujemo tudi <hi rend="italic"
+                    >Krvnosodni red knezoškofije Bamberg</hi> ali kar <hi rend="italic">Bamberški
+                    malefični red</hi> (z nemškim imenom: <hi rend="italic">Bambergische
+                    Halsgerichtsordnung</hi> ali <hi rend="italic">Bambergische Peinliche
+                    Halsgerichtsordnung</hi>), v mednarodnih obravnavah pa je danes najpogosteje
+                naveden kar kot <hi rend="italic">Constitutio Criminalis Bambergensis</hi> (<hi
+                    rend="italic">CCB</hi>) ali skrajšano kar <hi rend="italic">Bambergensis</hi>. V
+                tiskani knjigi je bil prvič objavljen leta 1507 na ukaz bamberškega reformatorskega
+                škofa Jurija III. Schenk von Limpurg in natisnjen v tamkajšnji uveljavljeni tiskarni
+                Hansa Pfeila. Bamberški knezoškof je bil v srednjem veku dejansko poglavar majhne, a
+                povsem samostojne cerkvene kneževine na severu današnje Bavarske. Do izdaje
+                njegovega sodnega reda je prišlo v času, ko je bila »nemška« recepcija rimskega
+                prava že v teku in je vse bolj nadomeščala laično odločanje tradicionalnega nemškega
+                pravosodja. Pritožbe zaradi samovolje in zlorabe kazenske zakonodaje so se množile,
+                do poznega petnajstega stoletja pa so se cesarske skupščine vse bolj osredotočale na
+                ta problem in sprejemale pozive (resolucije) za reformo. Skupaj s premikom od
+                običajnega prava v smeri profesionalizacije se je vse bolj razvijala tudi oblastna
+                odgovornost za pregon kaznivih dejanj in sprejetost rimskega inkvizitorskega modela
+                namesto tradicionalne osebne tožbe, ki so jo prej vlagali oškodovanci, je bila vse
+                večja. A čeprav je <hi rend="italic">Bamberški sodni red</hi> po strukturi in
+                ukrepih sledil rimskemu modelu (tudi z uradnim preiskovanjem zločinov in z uporabo
+                mučenja za izsiljevanje priznanj), je bilo pravno znanje oseb, ki naj bi izvajale te
+                postopke, še vedno zelo redko. Težavo je predstavljalo tudi dejstvo, da je bila na
+                lokalnih sodiščih močno ukoreninjena pravica soditi dokaj neodvisno in v skladu s
+                svojim pojmovanjem prava, hkrati pa se je hitro rastoča skupina univerzitetnih
+                pravnih strokovnjakov, ki so bili izšolani v poznavanju rimskega in cerkvenega
+                prava, raje pretežno osredotočala na prijetnejše in donosnejše primere iz civilnega
+                prava kot za kazenske zadeve. </p>
+            <p>
+                <hi rend="italic">Bamberški sodni red</hi> velja za pomemben mejnik in svojevrstno
+                prelomnico v razvoju nemškega kazenskega prava, saj je bil kot prvi izdan v tiskani
+                    obliki.<note place="foot" xml:id="ftn3" n="2"> V Severni Ameriki so ohranjeni le
+                    trije izvodi prve izdaje iz leta 1507 (Harvard, Kongresna knjižnica, Kolorado
+                    College) in šest primerkov izdaje iz leta 1508 (Grolier, Yale, Harvard,
+                    Kongresna knjižnica, Colorado College, Michigan).</note> Sodni red ni sicer
+                nikoli veljal na ozemlju »naših« notranjeavstrijskih dežel, a ker je cesar Karel V.
+                njegovega »avtorja« Johanna pl. Schwarzenberg in Hohenlandsberg (1463–1528) zaradi
+                uspeha bamberškega zakonika imenoval za urednika nove kodifikacije, je celo postal
+                neke vrste »idejni oče« prve obče in enotne kodifikacije kazenskega prava na
+                celotnem ozemlju takratnega Svetega rimskega cesarstva nemške narodnosti (<hi
+                    rend="italic">Constitutio Criminalis Carolina</hi>) iz leta 1532,<note
+                    place="foot" xml:id="ftn4" n="3"> Vilfan, <hi rend="italic">Pravna
+                        zgodovina</hi>, 398.</note> zato lahko ugotavljamo, da so mnoga določila in
+                principi bamberškega kazenskega reda bili pozneje uveljavljeni tudi pri nas<note
+                    place="foot" xml:id="ftn5" n="4"> Več o tem piše Kambič, <hi rend="italic"
+                        >Razvoj kazenskega prava</hi>, 152 </note>, kajti <hi rend="italic"
+                    >Bambergensis</hi> je postal široko uporabljan priročnik tudi brez cesarske
+                sankcije in pozneje je bil njegov velik del skoraj dobesedno vključen v cesarski
+                zakonik iz leta 1532. Tako kot poznejša <hi rend="italic">Carolina</hi> je bil <hi
+                    rend="italic">Bambergensis</hi> usmerjen proti zlorabam, ki jih je povzročila
+                pravna nevednost lokalnega sodnega osebja, in si je zadal nalogo, da neizučene
+                praktike obvešča o pravilih prava. </p>
+            <p> Johann pl. Schwarzenberg in Hohenlandsberg je bil rojen 25. decembra 1463 na gradu
+                Schwarzenberg v premožni plemiški rodbini. Čeprav je imel vse pogoje za študij, je
+                njegovo pestro življenje potekalo daleč od akademskih krogov. Kot vitez se je
+                udejstvoval v več vojnah, potoval je v Sveto deželo, a je bil hkrati zelo razgledan
+                in široko razmišljujoč človek. Dopisoval si je Martinom Luthrom, o vključenosti v
+                intelektualno elito tistega časa pričata tudi njegov portret, ki ga je naredil
+                Albrecht Dürer, in izdana zbirka satiričnih pesmi.<note place="foot" xml:id="ftn6"
+                    n="5"> Scheel, <hi rend="italic">Johann Freiherr zu Schwarzenberg</hi>,
+                    14.</note> Zaradi naklonjenosti protestantizmu je zapustil dolgoletno službo pri
+                knezoškofu v Bambergu (a jo nato do umestitve naslednika dejansko opravljal še več
+                let). Leta 1523/24 je postal celo upravnik cesarstva v časih cesarjeve občasne
+                odsotnosti. Čeprav ni nikoli študiral prava, je imel večletne izkušnje s sojenji na
+                lokalnih sodiščih. Kljub dolgoletnim izkušnjam v pravosodju pa vseeno ne moremo
+                trditi, da je Schwarzenberg edini avtor <hi rend="italic">Bamberškega sodnega
+                    reda</hi>, saj ni nikoli študiral prava niti ni znal latinščine, zato lahko
+                govorimo bolj o njegovi odločilni in uredniški vlogi na čelu komisije pravnih
+                strokovnjakov specialistov.<note place="foot" xml:id="ftn7" n="6"> V predgovoru k
+                    njegovi predelavi Ciceronove <hi rend="italic">Officie</hi> je celo sam zapisal,
+                    da je <hi rend="italic">Bambergensis</hi> sestavil po nasvetu tistih, ki so se
+                    učili in razumeli druge <hi rend="italic">...</hi> Prim. Scheel, <hi
+                        rend="italic">Johann Freiherr zu Schwarzenberg</hi>, 256.</note> Verjetno pa
+                je po drugi strani prav ta Schwarzenbergova »neobremenjenost s teorijo prava«
+                določila vsebino in obliko bamberškega zakonika, da je relativno kratek, jasen in
+                lahko razumljiv. To je bilo še posebej pomembno, ker so bili v tistih časih le redki
+                sodniki izšolani na univerzah, odločanje o krivdi obtožencev pa je bilo v rokah
+                sodnih svetnikov z zelo različno formalno izobrazbo in izkušnjami. Schwarzenberg je
+                kot glavni tajnik knezoškofa v Bambergu spoznal tudi, kako pomembna so natančna
+                pravila sodnega postopka in da omejitev sodniške samovolje prinaša v pravosodje več
+                pravičnosti, saj je z natančnim opisom sodnega postopka in natančno predvidenimi
+                kaznimi obtožencem omogočil tudi bolj nepristransko sojenje. </p>
+            <p> Pomembna novost bamberškega kazenskega zakonika je tudi to, da uvaja pregon zločinca
+                po uradni dolžnosti, kar pomeni, da začetek postopka ni bil več odvisen le od
+                (sposobnosti/zmožnosti) tožnika, ampak so najtežja kazniva dejanja preganjala
+                sodišča sama. Hkrati je zakonik natančno opisal preiskovalne in dokazne postopke ter
+                zelo jasno opredelil kazniva dejanja in kazni zanje.</p>
+            <figure>
+                <head>Slika 1: Johann von Schwarzenberg (A. Dürer 1513)</head>
+                <graphic url="Slika%201.jpg"/>
+                <note n="">Vir: <hi rend="italic">Wikimedia Commons</hi></note>
+            </figure>
+            <lb/>
+            <p>Če le na hitro preletimo vsebino zakonika, lahko vidimo, da so na začetku opisani
+                postopki prisege sodnika in sodnega osebja, nato postopek pregona po uradni
+                dolžnosti, pa tudi predlog pregona na zahtevo tožnika, predhodna zaslišanja, kaj so
+                utemeljeni sum za umor, uboj, detomor, zastrupitev, rop, pomoč pri tatvini, požig,
+                kraja in čarovništvo. Nato sledi opis preiskave okoliščin in še podrobnejšega
+                zasliševanja obdolženca. Čeprav je bila tortura še običajen del inkvizicijskega
+                postopka, so v bamberškem kazenskem zakoniku opisane tudi meje zasliševalcev in
+                morebiten preklic priznanja. Mučenje je bilo omejeno glede na starost ali
+                zdravstveno stanje obtoženca, uporabilo pa se je lahko za dokaj širok spekter
+                domnevnih kaznivih dejanj. 43. člen na primer dovoljuje mučenje tistih, ki so
+                osumljene skrivnega splava ali detomora. Nadalje so določene tudi vloge prič na
+                sodišču in celo časovni roki sodnih obravnav. Dokaj natančno so opisani tudi pravna
+                pomoč in obramba obtoženca, zaslišanje sodnikov, porotnikov in razglasitev sodbe,
+                kakor tudi kako ravnati in obveščati javnost v primeru oprostilne sodbe. Sodni red
+                vsebuje tudi opis mučilnih orodij in postopek usmrtitve obsojenca. Nadalje so
+                natančno pojasnjene dosmrtne in telesne kazni za mnoga kazniva dejanja – od
+                bogokletja, krivega pričanja, herezije, čarovništva, žalitve veličanstva (lese
+                majeste), dezerterstva, ponarejanja, premikanja mejnikov, poneverbe, nenaravnih
+                spolnih odnosov do ugrabitve in posilstva, prešuštva in bigamije, hujskanja k uporu,
+                zapustitve otroka in detomora. Umor je bil sankcioniran z vpetostjo na kolo, uboj z
+                mečem. Zlonamerne požigalce je čakala grmada, roparje pa obglavljenje z mečem, enako
+                tudi vse, ki bi ščuvali k uporu. Za lažje zadeve sta bila predvidena predvsem
+                bičanje in izgon. Kazni je bil oproščen le tisti, ki bi dokazal, da je pobegnil iz
+                strahu pred nasiljem, če seveda ni pobegnil k škodljivcem. V takih primerih in ko je
+                obstajal utemeljen dvom, so o kazni odločali škofovi svétniki. Podane so tudi kazni
+                za splav in zdravniško napako, ki je povzročila smrt, za pravne posledice samomora
+                in za umor v samoobrambi. Ker je bil to čas, ko so bila krvna maščevanja še dokaj
+                pogosta in običajna, se zakonik v več členih ukvarja s tem, kako ravnati v primeru
+                t. i. »opravičljivega umora«, kako zaščititi varovanega morilca in kakšno
+                nadomestilo pripada oškodovanim sorodnikom. </p>
+            <p> Sledijo še opisi drugih lažjih kaznivih dejanj, kot so tatvine, pri čemer je seveda
+                razumljivo, da so strožje kazni zagrožene za tiste, ki kazniva dejanja ponavljajo,
+                milejše pa za mladoletne prestopnike in krajo v primeru lakote. Opisana je celo
+                zmanjšana prištevnost. V knjigi so nato omenjene še naloge sodnih uradnikov in celo
+                besedila različnih obsodb, od smrtne do oprostilne, pri čemer je še posebej
+                poudarjena primerna oblika sodnih spisov. Seveda so pojasnjeni tudi opisi izračunov
+                sodnih stroškov in stroškov vzdrževanja sodnega osebja, kakor tudi njihove plače,
+                hkrati pa so prepovedane tudi nedovoljene globe. </p>
+
+            <div>
+                <head>Ljubljanski primerek <hi rend="italic">Bamberškega sodnega reda</hi></head>
+                <p>Centralna pravosodna knjižnica hrani danes več deset tisoč tiskanih knjig.
+                    Najstarejša zbirka, ki je v knjižnico prišla leta 1921 kot darilo Pokrajinske
+                    uprave za Slovenijo, je iz zapuščine nekdanje Ljubljanske pravoznanske družbe
+                    (Juristische Gesellschaft in Laibach) in jo danes imenujemo Bibliotheca Iuris
+                    Antiqui. Ta je sestavljena iz več kot 4000 antikvarnih knjig, ki jih je v svoji
+                    stoletni zgodovini zbrala Centralna pravosodna knjižnica iz nekdanje knjižnice
+                    Deželnega sodišča, knjižnice društva Pravnik in iz že omenjene knjižnice
+                    Ljubljanskega pravoznanskega društva. V tej unikatni zbirki najstarejših pravnih
+                    knjig se nahajajo štiri knjige iz 16. stoletja, okrog deset knjig iz 17.
+                    stoletja in vsaj 86 knjig iz 18. stoletja. Najstarejša knjiga med vsemi je prav
+                        <hi rend="italic">Bamberški sodni red</hi> iz leta 1510. Dragocena knjižna
+                    rariteta je prišla v Ljubljano januarja 1864,<note place="foot" xml:id="ftn8"
+                        n="7"> Zemljič, Prispevki k predzgodovini CPK, 29.</note> ko je profesor
+                    pravnih in državnih študij dr. Hermann Ignaz Bidermann iz Innsbrucka ob obisku
+                    in predavanju v obetajočem društvu ljubljanskih pravnikov (Juridische
+                    Gesellschaft im Laibach) tej pravoznanski družbi podaril Schöfferjevo izdajo
+                    bamberškega kazenskega zakonika. Knjiga meri 26 x 20 cm in obsega 96 strani
+                    besedila. Žal ni povsem popolna, saj ji manjka ena uvodna avtorska pola
+                    (štirinajst strani besedila), in verjetno je prav tu iskati razlog, da je bila
+                    knjiga ob prihodu v Ljubljano na novo (in dokaj neprimerno) prevezana v
+                    kartonske platnice, tako da je danes prizor Mojzesa in njegovega tasta Jethra,
+                    ki mu daje nasvete, kako izbirati sodnike, dejansko prva stran knjige iz
+                    Centralne pravosodne knjižnice.</p>
+                <p>Naš primerek bamberškega kazenskega zakonika je nekoliko spremenjen ponatis prve
+                    izdaje (t. i. Schöfferjeva izdaja) in je izšel v Mainzu leta 1510 pri takrat
+                    priznani tiskarski družini Schöffer. Prvič je izšla že leta 1508, nato pa so jo
+                    še večkrat ponatisnili.<note place="foot" xml:id="ftn9" n="8"> Roth, <hi
+                            rend="italic">Die Mainzer Buchdruckerfamilie Schöffer</hi>, 29.</note>
+                    Besedilo je povsem enako, kot je v prvi (Pfeyllovi) izdaji iz leta 1507, medtem
+                    ko so lesorezi drugačni in likovno nekoliko okornejši. Obe izdaji knjige sta
+                    opremljeni s kar 22 lesorezi, ki na slikovit način ponazarjajo pravno besedilo.
+                    Na osnovi ohranjenih upodobitev si lahko tako po eni strani povsem natančno
+                    predstavljamo, kako je potekala zaprisega sodnika in sodnega osebja pred
+                    deželnim glavarjem, po drugi strani pa hkrati z ilustracijo najpomembnejših
+                    pravnih korakov v kazenskem postopku pridobimo še enkraten vpogled v kulturno
+                    zgodovino sodstva in sodnikov pred 500 leti. Iz ilustracij lahko nazorno
+                    spoznamo nošo, prestol in insignije sodnikov, kako so običajno izgledali
+                    prostori za zasliševanja in mučenje, katere mučilne naprave so poznali,<note
+                        place="foot" xml:id="ftn10" n="9"> Prim. Timmermann, Locus calvariae,
+                        140.</note> kako so bili opremljeni sodni prostori in kako so bile
+                    sestavljene procesije ob odhodu na morišče. Lesorezi so opremljeni s številnimi
+                    moralističnimi verzi, na katere ne moremo zreti s perspektive današnje literarne
+                    kritike, ampak moramo v njih videti zgolj duh »razsvetljenskega« zakonodajalca
+                    (brez univerzitetne izobrazbe in celo brez znanja latinščine), ki je »svojo«
+                    knjigo zakonov opremil z ilustracijami in »stihoklepskimi« verzi, da bi jih
+                    bolje približal ljudem. Lesorezi z vstavljenimi dialogi delujejo zelo dinamično
+                    in nas s prepletanjem izjav različnih vpletenih oseb spominjajo na današnje
+                    stripe. </p>
+                <p> Natančen pregled vseh lesorezov v <hi rend="italic">Bamberškem sodnem redu</hi>
+                    nam prinaša naslednje motive: </p>
+                <list>
+                    <item>Lesorez št. 1: Naslovnica knjige z razširjenim naslovom in mučilnimi
+                        napravami;</item>
+                    <item>Lesorez št. 2: Jezus kot sodnik, 13;</item>
+                    <item>Lesorez št. 3: Mojzes in Jitro, 15;<note place="foot" xml:id="ftn11"
+                            n="10"><hi rend="superscript">13</hi>Naslednji dan se je Mojzes usedel,
+                            da bi sodil ljudstvo; in ljudstvo je stalo pred Mojzesom od jutra do
+                            večera. <hi rend="superscript">14</hi>Ko je Mojzesov tast videl, kaj vse
+                            je moral Mojzes delati za ljudstvo, je rekel: »Kaj vendar delaš za
+                            ljudstvo? Zakaj sediš sam, vse ljudstvo pa mora stati pred teboj od
+                            jutra do večera?« <hi rend="superscript">15</hi>Mojzes je rekel tastu:
+                            »Ljudstvo prihaja k meni Boga spraševat za nasvet. <hi
+                                rend="superscript">16</hi>Kadar koli imajo namreč kako sporno
+                            zadevo, pridejo k meni, da razsodim med enim in drugim in naznanim Božje
+                            zakone in postave.« <hi rend="superscript">17</hi>Tast pa mu je rekel:
+                            »To, kar delaš, ni dobro. <hi rend="superscript">18</hi>Sebe in
+                            ljudstvo, ki je pri tebi, boš čisto izmučil; kajti to je pretežavno
+                            zate, sam tega ne moreš opravljati. <hi rend="superscript"
+                            >19</hi>Poslušaj me zdaj; dam ti nasvet in Bog bo s teboj! Ti zastopaj
+                            ljudstvo pred Bogom in prinašaj zadeve pred Boga! <hi rend="superscript"
+                                >20</hi>Razlagaj jim zakone in postave in kaži jim pot, po kateri
+                            naj hodijo, in delo, ki naj ga opravljajo! <hi rend="superscript"
+                                >21</hi>Izberi pa iz vsega ljudstva sposobne može, ki se bojijo
+                            Boga, zanesljive ljudi, ki sovražijo podkupovanje; postavi jim jih za
+                            načelnike čez tisoč, čez sto, čez petdeset in čez deset ljudi! <hi
+                                rend="superscript">22</hi>Ti naj vsak čas sodijo ljudstvu; vse večje
+                            zadeve naj prinašajo tebi, vse manjše zadeve pa naj razsojajo sami.« -
+                                <hi rend="italic">2 Mz 18, 13-22 - BIBLIJA.net - Sveto pismo za
+                                vsakogar</hi>.</note></item>
+                    <item>Lesorez št. 4: Zaprisega sodnika, porotnika, pisarja in biriča, 16;</item>
+                    <item>Lesorez št. 5: Pregon po uradni dolžnosti, 18;</item>
+                    <item>Lesorez št. 6: Tožnik pred sodnikom zahteva pregon obtoženega, 20;</item>
+                    <item>Lesorez št. 7: Personalizacije kriminalnih dejanj, sedeče okoli mize,
+                        24;</item>
+                    <item>Lesorez št. 8: Priprave na mučenje, 32;</item>
+                    <item>Lesorez št. 9: Zaprisega prič pred sodnikom, 37;</item>
+                    <item>Lesorez št. 10: Določitev datuma sojenja, 41;</item>
+                    <item>Lesorez št. 11: Prikaz sojenja, 43;</item>
+                    <item>Lesorez št. 12: Obsojenca pripeljejo na kraj usmrtitve, 50;</item>
+                    <item>Lesorez št. 13: Orodja za kaznovanje (ponovitev lesoreza s prve strani),
+                        51;</item>
+                    <item>Lesorez št. 14: Usmrtitev, 52;</item>
+                    <item>Lesorez št. 15: Pregon za umor: med sodnikom (levo) in sodnim izvršiteljem
+                        (desno) nosila s truplom umorjenega, za njim trije sodniki, 85;</item>
+                    <item>Lesorez št. 16: Sodnik preračunava sodne stroške, 90;</item>
+                    <item>Lesorez št. 17: Popis premoženja pobeglega storilca kaznivega dejanja,
+                        94;</item>
+                    <item>Lesorez št. 18: Vrnitev ukradenega premoženja: lastnik svojega najdenega
+                        konja predstavi sodniku, 95;</item>
+                    <item>Lesorez št. 19: Sodnik morilcu izroči jamstveno listino, 98;</item>
+                    <item>Lesorez št. 20: Sodniki naj ne jemljejo denarja! Na desni pohlepen sodnik,
+                        ki si denarnico polni na nedovoljen način (z mučenjem); na levi roparski
+                        baron, za njim nasmejani hudič, 99;</item>
+                    <item>Lesorez št. 21: Sodniki kot norci z zavezanimi očmi, 100;</item>
+                    <item>Lesorez št. 22: Dva ponižna moška sta prišla k sodniku in njegovim
+                        svetnikom po pravni nasvet, 102.</item>
+                </list>
+                <p>S seznama ilustracij je razvidno, da opisujejo lesorezi celotno vsebino sodnega
+                    reda od postopkovnih pravil (zaprisege sodnega osebja, določitve narokov,
+                    preiskave, zaslišanja, sojenja in eksekucije) do opisa kaznivih dejanj in
+                    zagroženih kazni, ki so imele tudi zastraševalno funkcijo, in nenazadnje še celo
+                    opomin sodnikom, naj ne bodo pohlepni na sodne stroške in da bodo sami izpadli
+                    kot norci, če se bodo držali svojega običajnega prava, ne pa določil tega
+                    zakonika. Zanimiva je tudi sporočilnost zadnje slike v knjigi, ki sodnika
+                    obvezuje, da mora zainteresiranim strankam dajati tudi ustrezna pravna mnenja. </p>
+                <p>Zaradi omejenosti prostora tega prispevka si tokrat oglejmo le naslednje
+                    lesoreze:</p>
+                <figure>
+                    <head>Slika 2: Lesorez št. 5: Pregon po uradni dolžnosti: osumljenca pred
+                        sodnika privedeta dve sodni slugi (stran 18)</head>
+                    <graphic url="Slika%202.jpg"/>
+                    <note n="">Foto: Igor Zemljič</note>
+                </figure>
+                <p>Ena od pomembnih novosti <hi rend="italic">Bamberškega sodnega reda</hi> je bila
+                    vzpostavitev pregona »po uradni dolžnosti«, kar kaže ilustracija št. 5 s
+                    podnapisom: »Annemen der vbelteter von Ampts wegen«<hi rend="italic">.</hi>
+                    Sestavljena je iz dveh delov. Na levem delu vidimo upodobitev sodnikovega
+                    delovnega prostora. Sodnik deluje v obokani tlakovani dvorani, kjer je na nizkem
+                    podstavku lepo izrezljan sodniški stol, ki je za večje udobje sedečega še
+                    dodatno opremljen z veliko blazino. Sodnik ima oblečeno ali ogrnjeno do tal
+                    segajočo togo, glavo pa ima pokrito s pokrivalom. V desni roki drži dolgo
+                    sodniško žezlo, ki si ga je naslonil na desno ramo, z levico pa prihajajočemu z
+                    razprtimi prsti kaže pomenljivo gesto. Da vsebina sodnikove geste v knjigi ni
+                    natančneje določena, lahko sklepamo tudi iz dejstva, da je Schöffer prav ta
+                    lesorez kar trikrat ponatisnil v isti knjigi (slike 5, 10 in 18). Nad sodnikom
+                    se nahaja napis: »Mein Ambt vnd pflicht mir gepeut Zustraffen Boßhafftige
+                    leute,« kar lahko prevedemo kot: »Služba in dolžnost mi velevata kaznovati
+                    zlobne ljudi.« Na desni strani podobe je vklenjeni obdolženec v spremstvu dveh
+                    oboroženih sodnih oseb, nad njimi pa je še napis: »Auff ewern befelh vns / getan
+                    Bring wir gefangen disen man,« s čimer so povedali, da so izvršili ukaz sodnika
+                    in pripeljali obdolženca. </p>
+                <figure>
+                    <head>Slika 3: Lesorez št 8: Priprave na mučenje (stran 32)</head>
+                    <graphic url="Slika%203.jpg"/>
+                    <note n="">Foto: Igor Zemljič</note>
+                </figure>
+                <p>Andrej Studen je zapisal, da je bil proces zasliševanja enak kompliciranemu
+                    dvoboju med obtoženim in sodnikom.<note place="foot" xml:id="ftn12" n="11">
+                        Studen, <hi rend="italic">Rabljev zamah</hi>, 24.</note> Prva stopnja
+                    zastraševanja je zato bila predstavitev vseh mučilnih metod, zato tudi lesorez s
+                    prizorom postopka pred mučenjem nosi pomenljiv verz:</p>
+                <lg>
+                    <l>»Seyt sich auf dich erfunden hat</l>
+                    <l>Furstu nit vnschuld auß nach radt</l>
+                    <lb/>
+                    <l>Redlich anzeig der missetat</l>
+                    <l>Die peynlich frag sol haben stat,«</l>
+                </lg>
+                <lb/>
+                <p>kar bi lahko nekoliko svobodno prevedli kot: </p>
+                <lg>
+                    <l>»Prišle so tožbe zoper tebe ... </l>
+                    <l>utemeljene, da kriv si res hudih del.</l>
+                    <lb/>
+                    <l>Če pa zanikaš, da krivdo spral bi s sebe,</l>
+                    <l>se pač boleč postopek bo začel.«</l>
+                </lg>
+                <lb/>
+                <p>Slika prikazuje s svečami razsvetljen zamrežen kletni prostor, v katerem se
+                    nahaja šest oseb. Ob mizi v kotu sedijo pisar, sodni sluga in sodnik v dolgi
+                    halji s sodniško palico v roki. Pred njimi sedi na tleh obdolženec, za njim pa
+                    kleči landskneht, ki obdolžencu na hrbtu veže roke. V levem kotu sobe stoji mož
+                    v pisanem oblačilu in z rogovi na klobuku (rabelj?), ki na kolo navija verigo,
+                    da bodo nanjo obesili obtoženca. </p>
+                <figure>
+                    <head>Slika 4: Lesorez št. 12: Obsojenca pripeljejo na kraj usmrtitve (stran
+                        50). Sodnik na konju med odhodom na morišče, Bambergische Halßgericht und
+                        rechtlich Ordnung</head>
+                    <graphic url="Slika%204.jpg"/>
+                    <note n="">Foto: Igor Zemljič</note>
+                </figure>
+                <p>Slika prikazuje, kako obsojenca peljejo na morišče. Čeprav skozi mestna vrata
+                    pešači velika skupina ljudi, od majhnih otrok do odraslih radovednežev, je edina
+                    sedeča oseba sodnik, ki jezdi na konju. Prepoznamo ga po dolgem plašču,
+                    pokrivalu in seveda sodniški palici, ki jo tudi tokrat drži v levi roki. Pred
+                    sodnikom hodi landskneht z mečem ob pasu in pokrit z zelo tipičnim pokrivalom,
+                    ozaljšanim z velikim peresom. Pred seboj žene z vrvjo zvezanega bosopetega
+                    obsojenca, z njim pa je menih, pokrit s kapuco, ki s prstom kaže na križ in
+                    Odrešenika ter obsojencu pravi: »Wo du gedult hast in der peyn, So wirt sie dir
+                    gar nutzlich sein. Darumb gib dich willig darein,« kar bi lahko prevedli kot
+                    nasvet, naj z veliko potrpljenja prenaša prihajajoče bolečine in mirno sprejme
+                    svojo usodo. Pred vso to skupino hodi še mož, za katerega se zdi, da z visoko
+                    dvignjeno palico povorki dela prostor in odganja preveč vsiljive radovedneže,
+                    morda pa je to celo sodna palica, ki jo bodo prelomili ob izvršitvi
+                        obsodbe.<note place="foot" xml:id="ftn13" n="12"> Zemljič, Upodobitve
+                        sodnikov, 85.</note></p>
+                <figure>
+                    <head>Sliki 5 in 6: Lesorez št. 14: Izvršitev kazni (stran 52)</head>
+                    <graphic url="Slika%205_zdruzena.jpg"/>
+                    <note n="">Foto: Igor Zemljič</note>
+                </figure>
+                <p>Motiv pojasnjujemo s primerjavo ilustracij izvrševanja kazni med prvo in drugo
+                    izdajo bamberškega kazenskega reda, saj nam najlepše prikaže razliko v zasnovi
+                    in izdelavi ter kakovosti lesorezov med različnimi izdajami iste knjige. Iz
+                    primerjave je lepo vidno, kako je lesorezec izdaje iz leta 1510 s pretirano
+                    nasičenostjo grozodejstev povsem izničil osnovno likovno sporočilo. Ob skesancu,
+                    ki pred duhovnikom na kolenih čaka svoj zadnji trenutek, je bilo v ozadju izdaje
+                    iz leta 1507 le še dvigovanje kolesa z obsojencem, kar je omogočalo jasno
+                    trikotno in lepo pregledno kompozicijo. V mlajši izdaji je število oseb s sedem
+                    naraslo na kar šestnajst, poleg prej omenjenih dveh kazni pa ta lesorez
+                    prikazuje še obešenca, skupino (kar petih) bičanih, obglavljeno truplo in
+                    sodnika na konju ter njegovega pomočnika. Zaradi vse te množice ljudi sta
+                    preglednost in hkrati tudi pomenska učinkovitost ilustracije zelo nejasni.</p>
+                <p>Nad obema izdajama lesoreza z izvršitvijo kazni so tudi isti pomenljivi verzi, ki
+                    smo jih spet približno prevedli, da ohranimo osnovno sporočilnost tiska in
+                    verzov.</p>
+                <table rend="rules">
+                    <row>
+                        <cell rend="Vsebina_tabele"><lg>
+                                <l>»Wem trewe straff nit bringet frucht</l>
+                                <l>Der kumpt dick in des meysters zucht</l>
+                                <l>Des werck vnd zeug wirt hie anzeygt</l>
+                                <l>Wol dem der sich zu tugent neygt.« </l>
+                            </lg></cell>
+                        <cell rend="both"><lg>
+                                <l>»Če komu korist od kazni še ni znana,</l>
+                                <l>v roke mojster ga dobi resnični,</l>
+                                <l>čigar dela so prav vsem poznana,</l>
+                                <l>da bo srečen tisti, ki je skoz' pravični.«</l>
+                            </lg></cell>
+                    </row>
+                </table>
+                <lb/>
+                <figure>
+                    <head>Slika 7: Lesorez št. 17: Popis premoženja pobeglega storilca kaznivega
+                        dejanja (stran 94)</head>
+                    <graphic url="Slika%206.jpg"/>
+                    <note n=""><hi style="font-size:11pt">Foto: Igor Zemljič</hi></note>
+                </figure>
+                <p>Oris lesorezov <hi rend="italic">Bamberškega sodnega reda</hi> zaključimo z
+                    nazorno upodobitvijo stanovanjskih prostorov in vsakdanjega življenja v hiši
+                    osebe, ki so ji sodni uradniki s sodnikom na čelu prišli popisat vrednost
+                    premoženja. V ospredju podobe stoji sodnik, opremljen z vsemi svojimi atributi,
+                    ki s prsti kaže na posamezne predmete, ki jih na trosedu sedeč pisar popisuje v
+                    zvitek. Ob njima stojita še dve osebi moškega in ženskega spola, ki bi lahko
+                    bili priči postopka, morda pa sta celo lastnika stavbe. Lesorez daje nazoren
+                    vpogled v trosobno stanovanje, na njem pa je tudi zelo lepo razvidno skupno
+                    sobivanje ljudi, ki so spali v masivnih lesenih posteljah, in domačih živali.
+                    Skozi druga obokana vrata nam pogled beži v kuhinjo s kuriščem in visečimi
+                    lonci, kjer so po stenah vzorno pospravljene ponve, viden pa je celo obešalnik
+                    za sušeče se perilo. Kuhinja je opremljena še z mehom za razpihovanje ognja,
+                    zabojnikom za drva, z metlo ter z lesenim vedrom. Poleg kuharice se celo
+                    sprehaja majhna miška. Obiskovalci se nahajajo v največji sobi (običajno so ji
+                    nekoč rekli kar hiša), ki je opremljena s preprostim umivalnikom z odtokom, nad
+                    njim pa je pipa z manjšim zbiralnikom vode. Nad vodnim zbiralnikom je polica za
+                    steklene kozarce, zraven pa sta še kavelj za klobuk in obešalnik za zelo dolgo
+                    brisačo. Na zidovih so spravljeni še krožniki različnih velikosti in police za
+                    spravljanje vrčev, skled in svečnikov. Sredi sobe je še velika lesena miza, na
+                    kateri sta glinen (?) vrč in visoka skodela. Skratka, opis idealnega, urejenega,
+                    čistega »nemškega« gospodinjstva z začetka XVI. stoletja. </p>
+            </div>
+            <div>
+                <head>Zaključek</head>
+                <p><hi rend="italic">Bamberški sodni red</hi> je zaradi vsega zgoraj naštetega
+                    zagotovo enkraten pomnik bogate zgodovine srednjeevropskega pravosodja, ki ga
+                    slovenski zgodovinarji še premalo poznajo in ki ponuja še možnosti za
+                    raziskovalce različnih strok, ob enem pa s svojo pričevalnostjo opozarja na
+                    mnoge večne dileme v pravosodju<note place="foot" xml:id="ftn14" n="13">
+                        Prosperi, <hi rend="italic">Justice Blindfolded</hi>, 34.</note>. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <listBibl>
+                    <head>Literatura</head>
+                    <bibl><hi rend="italic">Bambergensische &amp; Brandenburgische
+                            Halsgerichtsordnung und Kaiser Karls V. peinliche Gerichtsordnung</hi>
+                        [Nachdruck]. Frankfurt am Main: Vico, 2007. <ref
+                            target="https://library.oapen.org/bitstream/handle/20.500.12657/38165/9789004311350_webready_content_text.pdf?sequence=4&amp;isAllowed=y"
+                            >https://library.oapen.org/bitstream/handle/20.500.12657/38165/9789004311350_webready_content_text.pdf?sequence=4&amp;isAllowed=y</ref>.
+                        Pridobljeno 16. 1. 2024. </bibl>
+                    <bibl>Kambič, Marko. Razvoj kazenskega prava na Slovenskem do leta 1848. V: <hi
+                            rend="italic">Malefične svoboščine Ljubljančanov</hi>, 193-221.
+                        Ljubljana: Pravna fakulteta, 2005.</bibl>
+                    <bibl>Leitschuh, Franz Friedrich. <hi rend="italic">Die Bambergische
+                            Halsgerichtsordnung. Ein Beitrag zur Geschichte der Bücherillustration.
+                            Repertorium für Kunstwissenschaft 1886</hi>, 59<hi rend="italic"
+                        >–</hi>70. Berlin, Stuttgart: W. Spemann, 1886. <ref
+                            target="https://doi.org/10.11588/diglit.66023#0073"
+                            >https://doi.org/10.11588/diglit.66023#0073</ref>. Pridobljeno 22. 1.
+                        2024.</bibl>
+                    <bibl>Oven, Marjeta in Maja Vavtar. <hi rend="italic">Zakladnica znanja v sodni
+                            palači: sto let Centralne pravosodne knjižnice</hi>. Ljubljana: Vrhovno
+                        sodišče Republike Slovenije, 2018.</bibl>
+                    <bibl>Prosperi, Adriano. <hi rend="italic">Justice Blindfolded: the historical
+                            course of an image</hi>. Leiden: Brill, 2018.</bibl>
+                    <bibl>Roth, F. Wilhelm Emil. <hi rend="italic">Die Mainzer Buchdruckerfamilie
+                            Schöffer während des XVI. Jahrhunderts und deren Erzeugnisse zu Mainz,
+                            Worms, Strassburg und Venedig: enthaltend die Drucke des Johann
+                            Schöffer 1503–1531, des Peter Schöffer des Jüngeren 1508–1542, und
+                            des Ivo Schoeffer 1531–1555</hi>. Leipzig: O. Harrassowitz, 1892.</bibl>
+                    <bibl>Scheel, Willy. <hi rend="italic">Johann Freiherr zu Schwarzenberg</hi>.
+                        Berlin: Guttentag, 1905.</bibl>
+                    <bibl>Studen, Andrej<hi rend="italic">. Rabljev zamah: k zgodovini kriminala in
+                            kaznovanja na Slovenskem od 16. do začetka 21. stoletja</hi>. Ljubljana:
+                        Slovenska matica, 2004.</bibl>
+                    <bibl><hi rend="italic">The Art of Law: Three Centuries of Justice
+                        Depicted</hi>. Tielt: Lannoo, 2016.</bibl>
+                    <bibl>Timmermann, Achim. Locus Calvariae: Walking and Hanging with Christ and
+                        the Good Thief c. 1350 – c. 1700. <hi rend="italic">Artibus et historiae: an
+                            art anthology</hi> 35, št. 69 (2014): 137–61.</bibl>
+                    <bibl>Vilfan, Sergij. <hi rend="italic">Pravna zgodovina Slovencev</hi>.
+                        Ljubljana: Slovenska matica, 1996.</bibl>
+                    <bibl>Vitiello, Joanna Carraway. <hi rend="italic">Public Justice and the
+                            Criminal Trial in Late Medieval Italy Reggio Emilia in the Visconti
+                            Age</hi>. Leiden: Brill, 2016. <ref
+                            target="https://library.oapen.org/viewer/web/viewer.html?file=/bitstream/handle/20.500.12657/38165/9789004311350_webready_content_text.pdf?sequence=4&amp;isAllowed=y"
+                            >https://library.oapen.org/viewer/web/viewer.html?file=/bitstream/handle/20.500.12657/38165/9789004311350_webready_content_text.pdf?sequence=4&amp;isAllowed=y</ref>.
+                        Pridobljeno 10. 1. 2024.</bibl>
+                    <bibl>Zemljič, Igor. Upodobitve sodnikov in njihovih insignij v najstarejših
+                        knjigah Centralne pravosodne knjižnice. V: <hi rend="italic">Sodniške
+                            insignije v evropskem in slovenskem pravnem izročilu</hi>, 91–99.
+                        Ljubljana: Vrhovno sodišče Republike Slovenije in Univerza v Ljubljani,
+                        Pravna fakulteta, 2023.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Spletni viri</head>
+                    <bibl>2 Mz 18,13-23 - BIBLIJA.net - Sveto pismo za vsakogar. <ref
+                            target="https://www.biblija.net/biblija.cgi?m=2+Mz+18%2C13-23&amp;id13=1&amp;pos=0&amp;set=2&amp;l=sl"
+                            >https://www.biblija.net/biblija.cgi?m=2+Mz+18%2C13-23&amp;id13=1&amp;pos=0&amp;set=2&amp;l=sl</ref>.
+                        Pridobljeno 29. 3. 2024.</bibl>
+                    <bibl><hi rend="italic">Bambergische halszgerichts Ordenung | Johann von LAW.
+                            TORTURE. Schwarzenberg, 1463–1528 | SECOND EDITION 1st ed. 1507 of a
+                            “milestone and turning point in the development of German criminal law
+                            E. Wolf</hi>. <ref
+                            target="https://www.liberantiquus.com/pages/books/4211/johann-von-law-torture-schwarzenberg-1463-1528/bambergische-halszgerichts-ordenung"
+                            >https://www.liberantiquus.com/pages/books/4211/johann-von-law-torture-schwarzenberg-1463-1528/bambergische-halszgerichts-ordenung</ref>.
+                        Pridobljeno 16. 1. 2024.</bibl>
+                    <bibl><hi rend="italic">Schwarzenberg, Johann von. Bambergische Peinliche
+                            Halsgerichtsordnung. Mainz: Johannem Schöffer, 1508</hi>. <ref
+                            target="http://digital.onb.ac.at/OnbViewer/viewer.faces?doc=ABO_%2BZ182699100"
+                            >http://digital.onb.ac.at/OnbViewer/viewer.faces?doc=ABO_%2BZ182699100</ref>.
+                        Pridobljeno 16. 1. 2024. </bibl>
+                    <bibl><hi rend="italic">Schwarzenberg, Johann von: Bambergische Peinliche
+                            Halsgerichtsordnung. Bamberg: Hans Pfeil, 1507</hi>. <ref
+                            target="https://mateo.uni-mannheim.de/desbillons/bambi.html"
+                            >https://mateo.uni-mannheim.de/desbillons/bambi.html</ref>. Pridobljeno
+                        16. 1. 2024.</bibl>
+                    <bibl><hi rend="italic">Wikimedia Commons</hi>.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <hi rend="bold">Konferenca jezikovne tehnologije in digitalna humanistika
+                        2024</hi></title>
+                <author>Ana Cvek</author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date>2024-10-11</date></edition>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/4419</pubPlace>
+                <date>2023</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">64</biblScope>
+                <biblScope unit="issue">3</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>reports</term>
+                    <term>reviews</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>ocene</term>
+                    <term>poročila</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change><date>2024-11-12T13:27:20Z</date>                    
+                    <name>Mihael Ojsteršek</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc></change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Ana Cvek</docAuthor>
+        </front>
+        <body>
+            <p>19. in 20. septembra je potekala že štirinajsta konferenca Jezikovne tehnologije in
+                digitalna humanistika, ki jo vsaki dve leti organizira Slovensko društvo za
+                jezikovne tehnologije (SDJT) v sodelovanju s Centrom za jezikovne vire in
+                tehnologije Univerze v Ljubljani (CJVT) ter raziskovalnima infrastrukturama
+                CLARIN.SI in DARIAH-SI. Konferenca, ki ima že več kot dvajsetletno tradicijo, je
+                postala pomembna vez med področjem jezikovnih tehnologij in digitalno humanistiko
+                ter je tudi letos – od razširitve programa konference na področje digitalne
+                humanistike leta 2016 – predstavljala multidisciplinarni dogodek.</p>
+            <p>Poleg osrednjega dela so v sredo, 18. septembra, v okviru konference JTDH 2024
+                potekali tudi predkonferenčni seminarji. Prva delavnica je bila <hi rend="italic"
+                    >CLASSLA-Express</hi> – iz serije delavnic, na katerih udeleženci raziskujejo
+                korpuse južnoslovanskih jezikov z uporabo konkordančnikov CLARIN.SI. Organizirali in
+                izvedli so jo Ivana Filipović Petrović, Jelena Parizoska, Petya Osenova, Nikola
+                Ljubešić ter Taja Kuzman.</p>
+            <p>Drugo delavnico – <hi rend="italic">Brez nočnih mor zaradi urejanja dokumentov: uvod
+                    v LaTeX za humaniste</hi> – sta organizirala in vodila Jakob Lenardič in
+                Kristina Pahor de Maiti Tekavčič. Po delavnicah sta potekala še <hi rend="italic"
+                    >okrogla miza o velikih jezikovnih modelih v korpusnem jezikoslovju</hi> ter <hi
+                    rend="italic">mreženje južnoslovanskih raziskovalcev in centrov ReLDI in
+                    CLASSLA</hi>.</p>
+            <p>Letošnja konferenca se je odvijala na Fakulteti za elektrotehniko Univerze v
+                Ljubljani. V dveh dneh so prispevke predstavili vabljeni predavatelji in avtorji
+                sprejetih prispevkov, ker pa je bila udeležba mednarodna, je bil program razdeljen
+                na sekcije v slovenskem in angleškem jeziku.</p>
+            <p>Prvi dan je po uvodnih govorih konferenco otvoril vabljeni predavatelj Simon Dobnik,
+                ki je predstavil prispevek z naslovom <hi rend="italic">Beyond pixels and
+                words</hi>. Po njegovi predstavitvi je potekala prva sekcija z naslovom <hi
+                    rend="italic">Speech and UGC resources</hi>, ki se je odvijala v angleškem
+                jeziku. Na njej sta prispevek o korpusu z več kot 170 milijoni objav na Twitterju v
+                slovenskem, hrvaškem, bosanskem, srbskem in črnogorskem jeziku, zbranih med letoma
+                2017 in 2023, predstavila Filip Dobranić in Nikola Ljubešić. Kristina Pahor de Maiti
+                Tekavčič, Nikola Ljubešić in Darja Fišer so predstavili oblikovanje francoskega dela
+                korpusa FRENK, ki vsebuje družbeno nesprejemljive komentarje, objavljene kot odziv
+                na novice o temah LGBT in migrantov, ki so jih na Facebooku objavili znani mediji.
+                Nikola Ljubešić, Peter Rupnik in Tea Perinčić so na sekciji govorili o prizadevanjih
+                pri izdaji tiskane in zvočne knjige – prevoda slavnega romana <hi rend="italic">Mali
+                    princ</hi> v čakavsko narečje kot računalniško berljivega, za umetno inteligenco
+                pripravljenega nabora podatkov, pri čemer sta besedilna in zvočna sestavina obeh
+                izdaj zdaj usklajeni na ravni vsake pisne in govorjene besede. Kaja Dobrovoljc je
+                govorila o novi različici Spoken Slovenian Treebank (SST), ki je uravnotežena in
+                reprezentativna zbirka transkribiranega spontanega govora z ročno anotiranimi
+                lemami, oznakami delov govora, morfološkimi značilnostmi in skladenjskimi
+                odvisnostmi. Sekcijo so zaključili Tanja Samardžić, Peter Rupnik, Mirjana Starović
+                in Nikola Ljubešić s prispevkom o novem naboru podatkov, namenjenem reševanju
+                problemov, ki jih predstavljajo objektivni primerjalni modeli.</p>
+            <p>Prvi dan je bil posvečen tudi predstavitvi plakatov. V sekciji se je predstavilo
+                enajst plakatov, od tega šest v angleškem in pet v slovenskem jeziku. Generativno
+                umetno inteligenco za konceptualizacijo računalniške ustvarjalnosti so na plakatu
+                predstavili Boshko Koloski, Senja Pollak, Geraint Wiggins in Nada Lavrač. Ksenija
+                Bogetić, Vojko Gorjanc, Jure Skubic in Alenka Kavčič so govorili o
+                korpusno-lingvističnem pogledu na novo nastajajoče »proti-spolno« besedišče v
+                Sloveniji, na Hrvaškem in v Srbiji. Platformo za transkripcijo govora GOVORI.SI so
+                predstavili Klara Žnideršič, Vid Klopčič, Matevž Pesek in Matija Marolt. Janez
+                Križaj, Jerneja Žganec Gros in Simon Dobrišek so se na sekciji predstavili s
+                plakatom <hi rend="italic">Uporaba prisilne poravnave za fonetično analizo
+                    slovenskega govora</hi>, Lenka Bajčetić, Vuk Batanović in Tanja Samardžić pa so
+                govorili o lematizaciji srbskega in hrvaškega jezika z napovedovanjem urejanja nizov
+                (angl. string edit prediction). Simona Majhenič je predstavila plakat z naslovom <hi
+                    rend="italic">Communicative intent divergence of discourse markers in
+                    simultaneously interpreted speech</hi>. Meta Kokalj je govorila o metodi za
+                oblikovanje podatkovne zbirke NLI na ravni odstavka na podlagi večkategorijskih
+                scenarijev Parlay, Mateja Jemec Tomazin pa o Slovenskem terminološkem portalu.
+                Magdalena Gapsa, Špela Arhar Holdt in Iztok Kosem so se predstavili s plakatom <hi
+                    rend="italic">Kako dober je ChatGPT pri umeščanju sopomenk pod pomene</hi>,
+                Janez Štebe je govoril o strojni preverbi internetnih naslovov novičarskih
+                prispevkov v naslov na Wayback Archive, zadnji plakat, predstavljen na sekciji, pa
+                je bil <hi rend="italic">Na poti k skladenjskim analizam šolskega pisanja:
+                    skladenjski vzorci v korpusu Šolar 3.0</hi>, predstavili sta ga Tina Munda in
+                Špela Arhar Holdt.</p>
+            <p>Prvi dan se je nadaljeval z drugo sekcijo, katere prispevki so se nanašali na temo
+                govornih in parlamentarnih virov ter etike. Potekala je v slovenskem jeziku,
+                otvorili pa so jo Darinka Verdonik, Nikola Ljubešić, Peter Rupnik, Kaja Dobrovoljc
+                in Jaka Čibej s predstavitvijo izbora in urejanja gradiva za učni korpus govorjene
+                slovenščine – ROG. Katja Meden, Tomaž Erjavec in Andrej Pančur so predstavili
+                Slovenski parlamentarni korpus siParl 4.0, o osebnih podatkih v umetnosti pa sta
+                govorila Aleš Vaupotič in Narvika Bovcon. Sekcija se je zaključila s predstavitvijo
+                sistema za zaznavanje sprememb v rabi besed in njegove uporabe za sociolingvistično
+                analizo, ki so jo pripravile avtorice Mateja Martinc, Veronika Bajt, Špela Rot ter
+                Senja Pollak.</p>
+            <p>Prvi dan se je končal s panelom <hi rend="italic">Napredki in perspektive v
+                    raziskavah govorne komunikacije</hi>, ki je potekal v slovenskem, hrvaškem,
+                srbskem in angleškem jeziku. Panel je združeval aktivne raziskovalce s področij
+                računalniškega jezikoslovja, govornih tehnologij, korpusnega jezikoslovja in
+                tradicionalnih jezikoslovnih disciplin, ki so razpravljali o najnovejših dosežkih in
+                izzivih na svojih raziskovalnih področjih, o motivih, ki so gonilo njihovih
+                raziskav, ter o tem, kako lahko raziskave govorne komunikacije naslavljajo družbene
+                izzive, s katerimi se soočamo danes.<note place="foot" xml:id="ftn1" n="1">
+                    »Konferenca jezikovne tehnologije in digitalna humanistika 2024,« <hi
+                        rend="italic">SDJT – Slovensko društvo za jezikovne tehnologije</hi>, <ref
+                        target="https://www.sdjt.si/wp/jtdh-2024/"
+                        >https://www.sdjt.si/wp/jtdh-2024/</ref>, pridobljeno 27. 9.
+                2024.</note></p>
+            <p>Drugi dan konference se je pričel s predavanjem vabljene predavateljice Barbare
+                McGillivray, ki je predstavila skupni projekt, v katerem sodelujejo digitalni
+                humanisti, računalniški jezikoslovci, inženirji programske opreme in kustosi
+                knjižnic, da bi analizirali učinke mehanizacije na angleški jezik v 19. stoletju.
+                Predavateljica je razpravljala o izzivih in spoznanjih, pridobljenih pri združevanju
+                prostovoljnega množičnega zbiranja podatkov za zgodovinsko jezikovno anotacijo z
+                algoritmi in oblikovalskimi poskusi.</p>
+            <p>Po vabljenem predavanju se je odvila sekcija tri, ki je potekala v angleškem jeziku,
+                z naslovom <hi rend="italic">Linguistic annotation, historic language data.
+                </hi>Prvi so se predstavili Nikola Ljubešić, Luka Terčon in Kaja Dobrovoljc s
+                prispevkom o CLASSLA-Stanza, postopku za samodejno jezikovno anotacijo
+                južnoslovanskih jezikov, ki temelji na obdelavi naravnega jezika Stanza. Katja
+                Meden, Ana Cvek, Vid Klopčič, Matevž Pesek, Mihael Ojsteršek, Mojca Šorn in Andrej
+                Pančur so predstavili potek nadgradnje zgodovinarskega portala SIstory, Alice
+                Fedotova, Adriano Ferraresi, Maja Miličević Petrović in Alberto Barrón-Cedeño pa so
+                kot zadnji nastopajoči te sekcije predstavili potek razširitve korpusa Evropskega
+                parlamenta za prevajanje in tolmačenje.</p>
+            <p>Sekcija štiri je prav tako potekala v angleškem jeziku, predstavili so se prispevki
+                na temo razvoja in uporabe LLM (angl. large language model; slov. obsežni jezikovni
+                model). Generativni model za jezik z manj viri z eno milijardo parametrov so
+                predstavili Domen Vreš, Martin Božič, Aljaž Potočnik, Tomaž Martinčič in Marko
+                Robnik-Šikonja, Jaka Čibej pa je govoril o prvih korakih k sestavi varnostnega
+                nabora podatkov za slovenske velike jezikovne modele. Sekcija se je zaključila s
+                predstavitvijo velikih jezikovnih modelov pri podpori leksikografiji s poudarkom na
+                konceptualni organizaciji hrvaških idiomov avtorjev Slobodana Belige in Ivane
+                Filipović Petrović.</p>
+            <p>Sledila je študentska sekcija, na kateri so se predstavili trije prispevki. Prvi je
+                imel naslov <hi rend="italic">Efficient fine-tuning techniques for Slovenian
+                    language models</hi>, predstavili pa so ga Camile Lendering, Manfred González in
+                Joaquín Figueira, sledil je prispevek Luke Terčona, ki je predstavil uporabo šestih
+                mer skladenjske kompleksnosti za primerjavo jezika v govornem in pisnem korpusu,
+                sekcijo pa je zaključil Matej Klemen, ki je govoril o testu poznavanja splošnih
+                besed v slovenščini med udeleženci Mladinske poletne šole.</p>
+            <p>Zadnji sekciji (pet in šest) sta se odvijali vzporedno. Peta je potekala v angleškem
+                jeziku, predstavili so se trije prispevki. Anna Kryvenko je govorila o študiji na
+                temo stopnje pripadnosti Evropi v parlamentarnem diskurzu, ki jo je avtorica izvedla
+                s pomočjo korpusa. Ajda Pretnar je predstavila korpusno-lingvistično karakterizacijo
+                sPeriodike, sekcija pa se je zaključila s predstavitvijo Jakoba Lenardiča na temo
+                skladenjskih kategorij.</p>
+            <p>Šesta sekcija je potekala v slovenskem jeziku in tudi tu so se zvrstile tri
+                predstavitve. Mojca Stritar Kučuk je govorila o korpusu KOST 2.0 in poteku
+                označevanja jezikovnih napak; Jaka Čibej in Tina Munda sta predstavila metodo
+                polavtomatskega popravljanja lem in obliko skladenjskih oznak na primeru učnega
+                korpusa govorjene slovenščine ROG; sekcijo pa sta zaključila Diana Košir in Tomaž
+                Erjavec s predstavitvijo izdelave, opisa in analize zbirke starejših besedil v
+                verski periodiki.</p>
+            <p>Konferenca se je zaključila s podelitvijo nagrade za najboljši študentski prispevek,
+                ki jo je prejel Matej Klemen. Po uspešnem uradnem zaključku konference JTDH 2024 je
+                sledil še redni letni občni zbor Slovenskega društva za jezikovne tehnologije.</p>
+        </body>
+    </text>
+</TEI>

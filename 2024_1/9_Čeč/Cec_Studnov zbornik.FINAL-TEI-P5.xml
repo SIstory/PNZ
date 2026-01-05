@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Starostniki na podeželju v 19. stoletju<note place="foot" xml:id="ftn1" n="*"
+                        >Članek je nastal v okviru raziskovalnega projekta J6-2572 <hi rend="italic"
+                            >Kulturno-zgodovinski vidiki staranja: izkušnje, reprezentacije,
+                            identitete</hi>, ki ga financira Javna agencija za
+                        znanstvenoraziskovalno in inovacijsko dejavnost Republike Slovenije iz
+                        državnega proračuna.</note>
+                </title>
+                <author>
+                    <forename>Dragica</forename>
+                    <surname>Čeč</surname>
+                    <roleName>Dr.</roleName>
+                    <roleName>višja znanstvena sodelavka</roleName>
+                    <affiliation>Inštitut za zgodovino, Znanstveno-raziskovalno središče
+                        Koper</affiliation>
+                    <address>
+                        <addrLine>Garibaldijeva ulica 1</addrLine>
+                        <addrLine>SI-6000 Koper</addrLine>
+                    </address>
+                    <email>dragica.cec@zrs-kp.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date/></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/4287</pubPlace>
+                <date>2023</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">64</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>old age</term>
+                    <term>rural areas</term>
+                    <term>mixed economy of welfare</term>
+                    <term>“economy of makeshifts”</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>starost</term>
+                    <term>podeželje</term>
+                    <term>mešana ekonomija dobrodelnosti</term>
+                    <term>ekonomija priložnosti</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2024-02-19T08:23:26Z</date>
+                    <name>Mihael Ojsteršek</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor> Dragica Čeč<note place="foot" xml:id="ftn2" n="**"><hi rend="bold">Dr.,
+                        višja znanstvena sodelavka, Inštitut za zgodovino, Znanstveno-raziskovalno
+                        središče Koper, Garibaldijeva ulica 1, SI-6000 Koper, <ref
+                            target="mailto:dragica.cec@zrs-kp.si">dragica.cec@zrs-kp.si</ref>;
+                        ORCID: 0000-0003-3955-0563</hi></note>
+            </docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="DOI">https://doi.org/10.51663/pnz.64.1.08</idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">S pomočjo individualnih študij primerov in analize diskurza na
+                        Kranjskem skuša članek preseči obstoječe teorije, ki starejše na podeželju
+                        večinoma umeščajo v večgeneracijske družine. S preučevanjem prenosa
+                        premoženja, zaposlitvenih možnosti posameznikov brez premoženja, zakonskih
+                        strategij, ovir in dinamik ter zagotavljanja oskrbe starejših družinskih
+                        članov na podeželju se razkrivajo različne strategije, identitete in
+                        konfiguracije v življenjskih strategijah in načinih preživljanja starejših
+                        na podeželju, ki presegajo dominantno v družino orientirano perspektivo. S
+                        poudarkom na zapletenem prepletanju dinamik lastnine, strategij preživetja
+                        in kolektivne solidarnosti ta članek osvetljuje večplastno življenje
+                        starejših na podeželju. </hi></p>
+                <p><hi rend="italic">Ključne besede: starost, podeželje, mešana ekonomija
+                        dobrodelnosti, ekonomija priložnosti</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head>THE ELDERLY IN THE COUNTRYSIDE DURING THE 19<hi rend="superscript">TH</hi>
+                    CENTURY</head>
+                <p><hi rend="italic">Based on individual case studies and employing discourse
+                        analysis in Carniola, this study endeavours to transcend the existing
+                        theories that predominantly place the rural elderly within multigenerational
+                        familial structures. By delving into the intricacies of property transfer,
+                        the employment possibilities of individuals lacking assets, marital
+                        strategies, obstacles and dynamics, and the provision of care for elderly
+                        family members in rural areas, a nuanced understanding emerges. The present
+                        research reveals diverse strategies, identities, and configurations in the
+                        lifestyles and livelihoods of the rural elderly, which extend beyond
+                        conventional family-centric perspectives. By emphasising the intricate
+                        interplay of property dynamics, survival strategies, and communal
+                        solidarity, this article sheds light on the multifaceted life of the elderly
+                        in the countryside. </hi></p>
+                <p><hi rend="italic">Keywords: old age, rural areas, mixed economy of welfare,
+                        “economy of makeshifts” </hi></p>
+            </div>
+        </front>
+        <body>
+            <p>Preživljanje starosti na podeželju predstavlja velik metodološki izziv tudi še v 19.
+                stoletju. Problematična je že definicija prehoda v starost, torej kdaj je nekdo
+                dojet kot »star«. Starost, definirana kot kronološka, kulturna ali funkcionalna, se
+                je med družbenimi skupinami precej razlikovala. V splošnem lahko zapišemo, da so
+                delovna nezmožnost, psihična in umska šibkost ter fizični izgled <note place="foot"
+                    xml:id="ftn3" n="1">Pa še v tem primeru gre za različne fizične percepcije
+                    telesa, kot opozarja Bratož, Staro telo, 102–12. </note> najprej določili, kdaj
+                so koga dojemali kot starega in kdo se je dojemal kot star, saj gre predvsem za
+                prepletanje kulturnega in funkcionalnega dojemanja starosti. A sama meja označevanja
+                nekoga kot »starajočega se« je bila odvisna tudi od integracije posameznika v
+                skupnost, vključno z njegovimi vedenjskimi vzorci, od vključitve v družino, njegovih
+                ekonomskih okoliščin in nenazadnje načina življenja. Funkcionalna starost je
+                nastopila, ko nekdo ni mogel več opravljati določenega dela oziroma delati toliko,
+                da bi se bil sposoben preživeti, zmanjševanje funkcionalnosti pa je bilo povezano s
+                fizičnimi lastnostmi telesa, vključno z vedenjskimi in kognitivnimi sposobnostmi. V
+                smislu kulturnega dojemanja starosti je bil posameznik star, ko je »izgledal« ali se
+                obnašal kot star po normah, izkušnjah in prepričanjih, ki jih je določila neka
+                skupnost ali družbena skupina. Meja starosti je bila zelo dolgo nedefinirana, jasno
+                so jo določile šele birokratske definicije, ki so določale določene pravice ali
+                zahtevale določene obveznosti (popisi prebivalstva, sistemi (pokojninskega)
+                zavarovanja). Iz številnih debat <note place="foot" xml:id="ftn4" n="2">Prim. Thane,
+                    Social Histories. Neumann, Introduction. Ehmer, Alter. Ehmer, 'Life
+                    Stairs'.</note> o vprašanju določanja meje oziroma prehoda v to obdobje v
+                življenju je vsaj do poznega 19. stoletja imela najmanj vpliva na samopercepcijo in
+                na kolektivno dojemanje starosti kronološka starost, medtem ko sta bila oba druga
+                kriterija veliko pomembnejša. </p>
+            <p>Raziskovanje življenja kmečkih podslojev je še težje kot raziskovanje vsakdana
+                velikih in srednjih kmetov, kjer je vprašanje res bolj usmerjeno v načine
+                gospodarjenja s kmetijami v poznem življenju in kjer prevladujejo tri možnosti:
+                samostojno gospodarjenje, deljeno gospodarjenje z dedičem in prehod v preživitek (in
+                v redkih primerih preselitev). Vsekakor se pri iskanju življenjskih izkušenj
+                slednjih ne smemo zadovoljiti z določenimi izhodišči, da ohranjeni viri ne dajejo
+                dovolj kvalitetnih informacij, ki jih potrebuje postmodernistično interpretiranje
+                    zgodovine.<note place="foot" xml:id="ftn5" n="3">Johnson, Historical,
+                    1–18.</note> Ker za podeželje ne razpolagamo z natančnejšimi popisi
+                posameznikov, ki so vključeni v neko formalizirano pomoč, niti z njihovimi osebnimi
+                pričevanji, kar velja še za večino 19. stoletja, je iskanje dojemanja starosti in
+                praks solidarnosti in tudi negativnih odzivov skupnosti odvisno od naključnih
+                življenjskih zgodb, ki so postale del javnega diskurza, sodnih obravnav, kjer so
+                tiste, v katere so starostniki vstopali kot priče ali v katerih so reveži nastopali
+                kot storilci ali žrtve kaznivih dejanj, pogosto metodološko precej zahtevne.
+                Starostniki so lahko nastopali kot priče dejanj tretjih oseb, a so v takšnih
+                primerih sodniki posebej opozarjali na »kvaliteto« priče ter na umske in mentalne
+                sposobnosti starostnika kot priče. Zaradi omejenosti omenjenega prispevka bo tudi ta
+                opozoril zgolj na nekatere probleme preživljanja starosti na podeželju, in sicer na
+                izpostavljeno vlogo družine in na vprašanje medgeneracijske solidarnosti ter na
+                nekatere pojavne oblike obeh. </p>
+            <div>
+                <head>Medgeneracijska solidarnost kot temelj skrbi za starejše</head>
+                <p>Ob odsotnosti ali privilegiranosti institucionalne oskrbe starostnikov (zelo malo
+                    oskrbovancev v obstoječih socialnih institucijah) v redkih urbanih okoljih se je
+                    bila velika večina starostnikov prisiljena preživljati v t. i. mešani ekonomiji
+                        dobrodelnosti.<note place="foot" xml:id="ftn6" n="4">King, Welfare,
+                        42–65.</note> Obenem pa je država prenesla večino bremena oskrbe tistih, ki
+                    niso bili sposobni lastnega preživetja, na najnižje stopnje organizacije, in
+                    sicer na skupnost – zemljiško gospostvo, zaradi razdrobljenosti teh do leta 1848
+                    na župnije in pa na skupnosti, mesta ter družbene skupine (plemstvo, cehe,
+                    bratovščine). Večina institucionalnih sistemov oskrbe je zajela zanemarljiv
+                    delež starostnikov.<note place="foot" xml:id="ftn7" n="5">Prim. Čeč, Reforme.
+                        Čuček, Beseda. Studen, Stari, onemogli.</note> Zemljiška odveza in družbene
+                    spremembe leta 1848 so oskrbo določile v okviru občine. Ne glede na dolžnost
+                    oskrbe in organizacijsko/upravno organiziranost ter ogromne stroške je bila
+                    oskrba pogosto nezadostna. Na eni strani so bili posamezniki prisiljeni
+                    preživeti v »mešani ekonomiji dobrodelnosti«, po drugi strani pa so njihove
+                    prakse kljub jasni potrebi (pomanjkanje fizičnih, mentalnih moči<note
+                        place="foot" xml:id="ftn8" n="6">Prim. Čeč, Podobe starosti. Bratož, »Kruha
+                        in dela«.</note>) kriminalizirali. Hkrati so obnavljali podobo samozadostnih
+                    večgeneracijskih družin/rodbin, ki poskrbijo za svoje ostarele, ki so jo še
+                    dodatno spodbujale romantične predstave meščanske družbe druge polovice 19.
+                    stoletja. Tudi del študij o zgodovini mešane ekonomije dobrodelnosti, zlasti v
+                    povezavi z vzpostavitvijo posebne institucionalne oskrbe revnih, nekritično
+                    sledi ideji, da je v južnejših delih katoliške Evrope (Italiji, Franciji) skrb
+                    za ostarele ostala predvsem v domeni večgeneracijske družine.<note place="foot"
+                        xml:id="ftn9" n="7">Prim. van Leeuwen, van Nederveen Meerkerkb in Heerma van
+                        Voss, Provisions.</note> Kulturnim praksam oskrbe v starosti v okviru
+                    spreminjajočih se oblik družine – družinskega gospodinjstva so med drugim dali
+                    zagon teologi, tudi protestantski, ki so razumeli poroke vdovcev kot garancijo
+                    za starost, v kanonskem pravu pa se je izpostavljala predvsem dolžnost poročne
+                    vzdržnosti vdov, ki so imele otroke (torej dediče).<note place="foot"
+                        xml:id="ftn10" n="8">Kos, <hi rend="italic">Zgodovina morale, 1</hi>,
+                        156.</note> Praksa sodnih odzivov na medgeneracijske konflikte v okviru
+                    policijske pristojnosti in dolžnosti deželskih in pozneje krajevnih sodišč sicer
+                    kaže, da se je od podeželskega prebivalstva – podložnikov pričakovalo, da bodo
+                    dostojno in skladno z moralnimi normami skrbeli za svoje starše, še posebej v
+                    primerih, ko so jim ti pogodbeno predali premoženje, in v primeru, če je šlo za
+                    velike kmetije,<note place="foot" xml:id="ftn11" n="9">Čeč, Preživitek. Prim.
+                        Velkova, Practice, 232–55. </note> to pa kažejo tudi pogodbena določila in
+                    sodni sklepi, po katerih so od prevzemnikov premoženja zahtevali materialno,
+                    simbolično in religiozno oskrbo starejših. Da so sodišča dojemala materialne,
+                    čustvene in fizične zlorabe potomcev in »nasilje« kot kršenje pogodbenih določil
+                    in kot moralni prekršek, potrjujejo sodne zahteve po spoštovanju pogodb v
+                    primeru sporov. Kršitelje so v primerih pogostejših konfliktov ali hujših oblik
+                    nasilja kaznovali z denarnimi kaznimi, ki so bile namenjene tudi religioznim
+                    ustanovam, ali v hujših primerih z zapornimi kaznimi.<note place="foot"
+                        xml:id="ftn12" n="10">Prim. Čeč, Preživitek. Kačičnik Gabrič,
+                        Preživitek.</note> A navkljub varuštvu oblasti so lahko bili medgeneracijski
+                    konflikti tako hudi, da so posameznika, pa tudi zakonske pare, otroke, ki niso
+                    bili dediči, mačehe in drugo sorodstvo prisili k odhodu s kmetij. S temi
+                    konflikti so lahko bile povezane tudi značajske in vedenjske spremembe
+                    starostnika. Te spremembe niso bile povezane samo z degenerativnimi spremembami
+                    posameznika, lahko so jih povzročili tudi njihovi konfliktni odnosi v neposredni
+                    okolici in majanje določenih socialnih vezi v skupnosti. Konflikti so lahko bili
+                    povezani z zmanjševanjem fizičnih moči in s kroničnimi boleznimi. Po drugi
+                    strani pa je bilo tudi oblastem jasno, da samozadostne kmetije pogosto niso
+                    sposobne preživeti ostalih ostarelih (samskih, ovdovelih) članov družine, ki so
+                    svoje preživetje večino odrasle dobe našli izven kmečke družine in gospodarstva,
+                    v katerem so se rodili. </p>
+                <p>Mit in moralno normo o večgeneracijskih solidarnostnih družinah odražajo tudi
+                    pravljice. V tistih, ki vključujejo starostnike, je bil prisoten moralni opomin,
+                    da morajo starši poskrbeti za svoje otroke.<note place="foot" xml:id="ftn13"
+                        n="11">Ramšak, Starost, 37.</note> Še M. Ramšak je ugotavljala, da so zelo
+                    pogoste pravljice, v katerih nastopajo ostareli starši in nehvaležni sin v
+                    srednjih letih, ki se želi rešiti bremena oskrbe očeta. Zanimiva je okoliščina,
+                    da pravljice ne tematizirajo dolžnosti oskrbe staršev, <note place="foot"
+                        xml:id="ftn14" n="12">Prav tam.</note> ampak zgolj očeta, čeprav se je že v
+                    18. stoletju na podeželju razširila tudi praksa t. i. »redlose heyrath abredt«,
+                    po kateri sta bila zakonca, če sta ostala brez otrok, upravičena do dedovanja
+                    vsega premoženja po umrlem zakoncu. Morala sta le plačati nujne deleže otrokom
+                    iz prvega zakona v primeru porok vdovcev in morebitnim bratom in sestram
+                    umrlega, <note place="foot" xml:id="ftn15" n="13">Kos, <hi rend="italic"
+                            >Zgodovina morale, 1</hi>, 154.</note> lahko pa je pogodba vsebovala
+                    tudi preživitek staršev. Nekoliko nejasen primer poročnega dogovora med Jurijem
+                    Sodjo in Mino Breznik iz leta 1772 mogoče celo vključuje preživitek Minine tašče
+                    iz prvega zakona.<note place="foot" xml:id="ftn16" n="14">Prav tam.</note> Drugi
+                    najpogostejši tip pripovedk je motiv pretkanih starostnikov, ki z zvijačami
+                    otroke prisilijo v podporo. Zdi se, da pravljice opozarjajo na kulturne in
+                    politične pritiske, ki so najbolj zaznamovali podeželske elite – gre za zahtevo
+                    skupnosti, da posamezniki poskrbijo za svoje starše – in na prisotnost številnih
+                    sporov zaradi medgeneracijskih trenj in nasilja, ki so nastajali iz tega
+                    razmerja in so bila del vsakdanjih obravnav patrimonialnih <note place="foot"
+                        xml:id="ftn17" n="15">Prim. Čeč, Preživitek.</note> in nato krajevnih
+                        sodišč.<note place="foot" xml:id="ftn18" n="16">Kačičnik Gabrič, Preživitek,
+                        63–76.</note> Drugih odnosov s starostniki v pripovedkah ni najti, v
+                    pravljični literaturi so tako vsaj redki, če ne povsem odsotni motivi staranja
+                    nekdanjih hlapcev in dekel kot tistih sorodnikov, ki so ostali kot delovna sila
+                    v gospodinjstvih, s katerimi so bili biološko povezani – torej stricev in tet
+                    ali neporočenih hčera, ki so ostale skupaj z ostarelimi starši in so se
+                    najpogosteje preživljale kot dninarke. Tudi del podeželskega prebivalstva, ki se
+                    je primarno ukvarjal z neagrarnimi viri preživetja (obrtniki, kramarji,
+                    tovorniki), pa tudi odsluženi vojaki in dninarji so bili bolj izpostavljen
+                    revščini v starosti in tudi odsotnosti sorodstvenih mrež. Pomenljiva je v
+                    časopisu objavljena novica o umorjenem več kot 70 let starem vdovcu, mizarju, v
+                    kateri je bilo posebej zapisano, da je »sam skrbel zase« (!). Njegov morilec je
+                    moral biti berač, so dodali, saj so na tleh našli srajco, polno uši, in
+                    raztrgano beraško suknjo, zato so sklepali, da »je moral hudodelnik biti kak
+                    vlačugar ali planšar«. <note place="foot" xml:id="ftn19" n="17">
+                        <hi rend="italic">Slovenski narod</hi>, 23. 12. 1875, 3, Berači
+                        morilci.</note>
+                </p>
+                <p>Ostareli hlapci in dekle ter neporočeni bratje in sestre so v prvi polovici 19.
+                    stoletja, ko imamo več gradiva sodne provenience, ki razkriva življenjske zgodbe
+                    posameznikov, predstavljali velik problem večjih kmečkih posesti. Ker so se
+                    poročne pogodbe s predajo posesti in preužitkom sklepale že v prvi polovici 19.
+                    stoletja pred okrajnimi gosposkami, so skladno z občim državljanskim zakonikom
+                    uradniki poskrbeli, da so bile vanje vpisane tudi zahteve po oskrbi opravilno
+                    nesposobnih sorodnikov v srednjih letih. Neporočeni bratje in sestre so včasih
+                    ostajali v hišnih gospodinjstvih tudi, če jim glavni dedič ni mogel izplačati
+                    dednih deležev. V določenih primerih so v gospodinjstvih ostajale tudi nekatere
+                    neporočene hčere, da so skrbele za ostarele starše. V gospostvu Bled je bilo
+                    tudi prisotno fužinarstvo, obenem pa je bil tudi precej razširjen preživitek
+                    tako med kmeti kot med kajžarji. V tem gospostvu je leta 1735 tožila Urša Kapus
+                    Magdaleno Golec, ki ji je bila že 17 let dolžna štiri goldinarje kot plačilo
+                    dekle za celoletno delo. A za razumevanje družinskih dinamik je bolj pomembno
+                    dejstvo, da je bil brat Urše Kapus skupaj s svojo materjo gostač pri Magdaleni,
+                    ki naj bi ji od zasluženega zneska dela, ki ga je zaslužila kot dekla, odtrgal
+                    en goldinar, čeprav so imeli posli praviloma brezplačno stanovanje pri
+                    delodajalcu in so po obstoječem pravu in ideologiji »celotne hiše« predstavljali
+                    del delodajalčevega gospodinjstva. Preostali denar naj bi dobila Uršina mater, a
+                    Urša o tem ni nič vedela, mati pa je medtem že umrla. Omenjeni primer opozarja
+                    na dve okoliščini – na prehod nekaterih vdov v gostaštvo (torej spremembo
+                    bivališča) po smrti moža, še posebej, če je šlo za drugo in pogosto precej
+                    mlajšo ženo vdovca, a hkrati tudi na prisilo starajočih staršev, da so nekateri
+                    otroci ostali v gospodinjstvu kot tisti, ki so skrbeli zanje. Urša poleg službe
+                    dekle sicer ni skrbela tudi za svojo mater, s katero je živel njen brat, a so
+                    del njenega zaslužka porabili za plačilo gostaštva matere in brata.<note
+                        place="foot" xml:id="ftn20" n="18">SI AS 721, K 34, 1735, 761.</note> Četudi
+                    so se mnoge hčere, ki so ostale v gospodinjstvu s starajočimi se starši ali enim
+                    izmed njih, preživljale z občasnimi dninarskimi deli, je Urša pri lastnikih
+                    kajže, kjer je bila gostačka, stopila v formalno delovno razmerje kot dekla.
+                    Izkazalo pa se je, da je imela Magdalena še druge gostaške družine in da so tudi
+                    drugi gostači svoje hčere dali za dekle najemodajalki. Drugi gostač, Primož
+                    Lukanc je bil pri Magdaleni gostač 21 let in je za najemnino plačeval štiri
+                    goldinarje in 54 krajcarjev na leto.<note place="foot" xml:id="ftn21" n="19">SI
+                        AS 721, K 34, 1735, 774.</note> V tem primeru je najemodajalka Magdalena
+                    Golec manjši del svojega dolga odslužila z dnino pri svojem gostaču, poleg tega
+                    pa tudi ni plačala celotnega zaslužka dekli - hčeri gostača.<note place="foot"
+                        xml:id="ftn22" n="20">Prav tam.</note></p>
+            </div>
+            <div>
+                <head>Preživljanje starosti na podeželju je cenejše</head>
+                <p>Meščanska družba je ustvarila še več mitov o preživljanju starosti na podeželju.
+                    Tudi prepričanje, da je preživljanje starosti na podeželju cenejše, je do neke
+                    mere povezano s predstavo o solidarnih večgeneracijskih hišnih skupnostih. </p>
+                <p>Tega motiva ne zasledimo samo v javnem diskurzu, ampak tudi v obravnavah ubožne
+                    oskrbe (npr. med uradniki in prostovoljci, ki so skrbeli za ubožno oskrbo v
+                    Ljubljani), saj je že v prvi polovici 19. stoletja najti kar nekaj primerov, ko
+                    za določene prejemnike podpore zapišejo, da so se odselili na podeželje, ker je
+                    tam življenje cenejše, oziroma da se poleti preživljajo z dinarskimi deli,
+                    pozimi pa beračijo »po podeželju«. <note place="foot" xml:id="ftn23" n="21">SI
+                        ZAL LJU 508, šk. 12.</note> Poleg tega se v mestnem upravnem diskurzu,
+                    posebej v Ljubljani, v 18. stoletju in nato še v 19. stoletju vedno znova
+                    reproducira podoba revežev, ki živijo v okolici mesta, so upravno (in socialno)
+                    podložni drugim pravnim entitetam, a predstavljajo ekonomsko, vedenjsko,
+                    zdravstveno, moralno breme ljubljanskim mestnim oblastem.<note place="foot"
+                        xml:id="ftn24" n="22">Prim. Čeč, Revščina.</note> Fenomen odsotnosti starih
+                    ljudi (pa tudi vdov in vdovcev) med gostači v Mežici – kjer je bila razširjena
+                    neagrarna dejavnost (fužinarstvo) in so gostači predstavljali zlasti delavce v
+                    tej gospodarski panogi – ki se nanaša na 70. leta 19. stoletja, S. Sovič razlaga
+                    z odhodom v socialne institucije <note place="foot" xml:id="ftn25" n="23"
+                        >Omenjeno tezo povsem ovrže definicija ubožnic, ki je veljala tako konec 19.
+                        stoletja kot še leta 1939, ki opredeli oskrbovance zavodov kot ostarele
+                        reveže brez sorodnikov ali kot preveč onemogle, da bi po občini iskali
+                        podporo, kot tudi leta 1851 neobstoječa mreža občinskih in deželnih ubožnic.
+                        – Studen, Stari, onemogli, 194, 195.</note> oziroma z vrnitvijo delavcev na
+                    podeželje, s tem pa reproducira ravno te stereotipne podobe. <note place="foot"
+                        xml:id="ftn26" n="24">Sovič, Families and households, 170.</note> Odsotnost
+                    ostarelih med gostači v Mežici je najprej verjetno povezana s samim virom, ki je
+                    beležil zgolj delavce v železarskih obratih in izključuje vse, ki so izstopili
+                    iz delovnega razmerja, omejeno pa lahko dokazuje tudi veliko povpraševanje po
+                    gostaških nastanitvah med delavci v mežiških obratih in posledično višje cene
+                    stanovanja na eni strani, na drugi strani pa zaradi specifične družbene
+                    strukture prebivalcev omejene možnosti občasnih del, ki so pomenila pomemben vir
+                    zaslužka za starajoče se (nekdanje) delavce. Ostareli delavci so verjetno, če so
+                    imeli nekaj privarčevanih sredstev, iskali cenejše gostaške nastanitve v
+                    okolici, kjer so imeli tudi priložnost, da so del najemnine plačali z lastnim
+                    delom in z delom svojih samskih otrok. Vsekakor je treba demografske podatke
+                    primerjati z naključnimi indici o vsakdanjih praksah gostačev.<note place="foot"
+                        xml:id="ftn27" n="25">Prim. Hren Medved, Revno, 45.</note>
+                </p>
+            </div>
+            <div>
+                <head>Problem starostnega beraštva</head>
+                <p>Da so ostareli, ki so ostali brez družinskih in mnogih drugih socialnih vezi,
+                    predvsem trajno delovno nezmožni ali delno dela zmožni ljudje, predstavljali
+                    velik politični problem, potrjuje večstoletno ukvarjanje z mobilnim delom
+                        prebivalstva.<note place="foot" xml:id="ftn28" n="26">Prim. Čeč, Reveži.
+                        Studen, <hi rend="italic">Neprilagojeni</hi>. Stariha, »Z nobenim
+                        delom«.</note> Dokazuje ga tudi izrazito negativen medijski diskurz o
+                    beračih v 19. stoletju,<note place="foot" xml:id="ftn29" n="27"> Prim. Židov,
+                        Časopisi o beračih, 50, 51.</note> na podlagi katerega je bila narejena tudi
+                    večina zgodovinskih študij o beraštvu v 19. stoletju.<note place="foot"
+                        xml:id="ftn30" n="28"> Prav tam. 53.</note> A v teh delih je komponenta
+                    starosti praviloma spregledana. Tudi v etnološkem gradivu je v prvi fazi
+                    ukvarjanja z revščino spregledan element kategorije starosti. <note place="foot"
+                        xml:id="ftn31" n="29">Prav tam, 49.</note> Izrazito negativno predstavljanje
+                    beraštva pogosto zamegli različna slabo plačana priložnostna dela v t. i.
+                    ekonomiji priložnosti, ki jih je družba nudila predvsem ljudem, ko so se jim
+                    zmanjševale fizične moči. Mednje sodijo kot bolj moška dela pripravljanje
+                    kuriva, skrb za kurjavo, dela pri cerkvah, pokop mrtvih, kot bolj ženska dela pa
+                    čuvanje otrok, gospodinjska dela in dela na vrtu, preja in priprava volne,
+                    pletenje in krpanje.</p>
+                <p>Da je bila revščina mnogokrat sestavni del življenjskega cikla in je lahko
+                    posameznika najbolj obremenila ravno v starosti, opozarja tudi Anton Aškerc:
+                    »Mestna ubožna hiša, v kateri najdejo na stare dni zavetja tisti meščani obojega
+                    spola, ki jim nemila usoda ni dopustila, da bi si bili v krepkih letih
+                    zagotovili brezskrbno bodočnost …«<note place="foot" xml:id="ftn32" n="30"
+                        >Aškerc, Socialni pregled – Mestna ubožnica, 121.</note> Prav zato je na
+                    mestu hipoteza nizozemskih sociologov, ki se sicer v veliki meri osredotoča na
+                    analizo bogatih urbanih okolij, da je bila institucionalna oskrba starostnikov
+                    povezana s srednjim slojem in urbano populacijo.<note place="foot"
+                        xml:id="ftn33" n="31">Prim. van Leeuwen, van Nederveen Meerkerkb in Heerma
+                        van Voss, Provisions.</note></p>
+                <p>Verjetno je bilo takšno tudi mnenje večine podeželskega prebivalstva, ki se je
+                    zavedalo preteče odvisnosti od sorodnikov (redkeje plačanih hlapcev in dekel ali
+                    gostačev) ali skupnosti v primeru delne ali popolne delovne nezmožnosti. Zelo
+                    redko so takšni reveži/berači – kot v primeru nekaterih institucij v evropskem
+                    prostoru – ohranili poklicne identitete, s katerimi so se preživljali večino
+                    srednjega življenjskega obdobja. Obenem pa je bilo splošno razširjeno tudi
+                    prepričanje, ki ga je v kritiki »penzijonistov« z A. Aškercem delil J. Alešovec,
+                    glede delavcev, ki so se postarali v službi: »Kajti kdor je toliko časa zvesto
+                    in marljivo služil, da je opešal in zavoljo viših let pri vsi dobri volji ni več
+                    za rabo, tak je zaslužil, da na stara leta skrbi zanj tisti, kteremu je posvetil
+                    najlepša leta.« <note place="foot" xml:id="ftn34" n="32">Alešovec, <hi
+                            rend="italic">Ljubljanske slike</hi>, 88, 89.</note></p>
+                <p>Po drugi strani pa se je v izrazito nenaklonjenem javnem diskurzu o »starostnem
+                    zavarovanju« v konservativnem časopisu ravno od podeželskih dopisnikov pojavila
+                    ideja »naravne dolžnosti« človeka, da poskrbi za čas starosti. <note
+                        place="foot" xml:id="ftn35" n="33"> Miklavčič, Žalostne razmere kmečkega
+                        stanu.</note> Verjetno takšno mnenje ni bilo najbolj razširjeno, saj M.
+                    Ramšak <note place="foot" xml:id="ftn36" n="34">Ramšak, Berači, 81–89.</note>
+                    ugotavlja, da so informatorji sami začeli pripovedovati o beračih (saj o njih
+                    raziskovalci niso neposredno spraševali) kot o delu podeželskega vsakdana. Na
+                    Koroškem so o starejših beračih v strukturiranih vprašalnikih raziskovalci
+                    dobili informacije v sklopu odgovora na vprašanje o nedelu.<note place="foot"
+                        xml:id="ftn37" n="35">Prav tam, 85.</note> Povezovanje beračev z nedelom je
+                    lahko povezano z njihovo delovno nezmožnostjo, a so jo raziskovalci pogosteje
+                    povezali z invalidnostjo in zelo redko s starostjo. M. Ramšak za območje Pohorja
+                    opozarja na prisotnost izredno negativnih konotacij pri opisovanju
+                        starostnikov,<note place="foot" xml:id="ftn38" n="36">Prav tam, 38.</note>
+                    saj so okolje poleg ostarelih članov družine zaznamovali ostareli gozdi delavci,
+                    ki so doživeli visoko starost in so z omejeno sposobnostjo lastnega preživljanja
+                    obremenjevali lokalno ekonomijo. Ker je bilo delo v gozdu fizično intenzivno, so
+                    delavci postali prej trajno nesposobni za opravljanje tega dela in pogosto tudi
+                    omejeno sposobni ali nesposobni lastnega preživetja (lahko pa tudi preživetja
+                    družine, če jo imeli), njihova delovna invalidnost pa je bila opazna in se je
+                    ohranila v pravljični literaturi. <note place="foot" xml:id="ftn39" n="37"
+                        >Ramšak, Starost, 39.</note> Po dostopnih demografskih podatkih so ne glede
+                    na dejstvo, da so revni in tisti, ki so imeli fizično intenzivno delo, prej
+                        umrli,<note place="foot" xml:id="ftn40" n="38">Prim. Bratož, Staro telo.
+                        Bratož, 'Kruha in dela'.</note> ti živeli relativno dolgo.</p>
+                <p>Ljubiteljski zbiralec etnološkega gradiva s konca 19. stoletja Gašper Križnik iz
+                    Motnika je v svojih etnografskih zapisih ponavljal v javnih medijih razširjeno
+                    mnenje, da tisti, ki delajo, ne morejo biti revni in da je vsak odgovoren za
+                    svojo starost. To mnenje potrjuje o tudi javni odziv na sliko <hi rend="italic"
+                        >Berača s cerkvico</hi> slikarja Petra Žmitka, ki so ga opredelili kot
+                    »starega moža«.<note place="foot" xml:id="ftn41" n="39">Prijatelj, Moderna
+                        manira, 75.</note> Upodobitev »socialne realnosti« podeželja je bila
+                    privlačna ravno zaradi zgodbe osrednjega lika: »Rajni berač Poc [...] je delal
+                    cerkvice, [...] lične stavbice [...]. Pozabil ni posebno zvončka, na katerega je
+                    zvonil in klical ljudi skup, da so [...] mu vrgli v klobuk kaj okroglega ali
+                    ponudili za usta kaj gorkega.« <note place="foot" xml:id="ftn42" n="40">Prav
+                        tam, 76.</note> Na drugi strani umetniška analiza istega dela opozarja na že
+                    stoletja prisotne negativne stereotipe o drugem podeželskem prebivalcu – revežu:
+                    »Žmitkova slika je barvna simfonija slovenskega uboštva, ki hodi na božja pota
+                    in propada.« <note place="foot" xml:id="ftn43" n="41">Prav tam, 75.</note>
+                </p>
+                <p>V političnih sporih in ob iskanju novih možnosti za pridobivanje volivcev po
+                    spremenjeni volilni zakonodaji ob prvem poskusu uvedbe splošnega pokojninskega
+                    (takrat imenovanega) starostnega zavarovanja so na podeželju opozarjali na
+                    berače kot na velik problem, ki naj bi ga rešil prav ta zakon. V svojih
+                    argumentih v prid uveljavitve starostnega zavarovanja je bil problem starostnega
+                    beračenja eden od osrednjih argumentov J. A. Kreka.<note place="foot"
+                        xml:id="ftn44" n="42">
+                        <hi rend="italic">Domoljub</hi>, 7. 1. 1909, 1, Veselo znamenje. Krek, Nekaj
+                        naših ran. </note> Ta je stroške, ki jih imajo občine z oskrbo beračev (tudi
+                    odgoni) na Kranjskem, ocenil na pol milijona kron na leto in večino stroškov
+                    povezoval prav z oskrbo starostnikov.<note place="foot" xml:id="ftn45" n="43"
+                        >Krek, <hi rend="italic">Starostno zavarovanje</hi>, 23.</note> V kratkem, a
+                    ostrem diskurzu, ki se je razvil ob vprašanju uvedbe univerzalnega starostnega
+                    zavarovanja, so liberalni politiki izpostavili skupine prebivalstva, ki so bile
+                    v starosti prej izpostavljene revščini: »Kmetje, ki so po lastni krivdi, ali po
+                    nezgodah prišli na kant, [...] zasebniki, užitkarji, obubožani kajžarji in
+                    posebno vsled dela in starosti onemogli posli.« <note place="foot"
+                        xml:id="ftn46" n="44">
+                        <hi rend="italic">Slovenski narod</hi>, 24. 2. 1909, 2, Socializem v teoriji
+                        in praksi.</note> Tudi plačevanje prispevkov za starostno zavarovanje za
+                    hlapce in dekle, še eno rizično skupino v starosti, je bilo eno od pomembnih
+                    vprašanj, na katerih so se lomila politična kopja na Kranjskem. Kot odgovor na
+                    kritike, da zelo malo ljudi dopolni starost, ko se začne starostno zavarovanje,
+                    je Krek navrgel še drugo okoliščino o pojemanju fizičnih moči med podeželskim
+                    prebivalstvom: »Prijatelji, zavarovanje je za starost in onemoglost; dokler si
+                    kdo še more sam zaslužiti, česar mu je treba, ne potrebuje preskrbnine.« Dodal
+                    je še: »Koliko je samostojnih kmetov pri 65 letih?«<note place="foot"
+                        xml:id="ftn47" n="45">Krek, <hi rend="italic">Starostno zavarovanje</hi>,
+                        22. <hi rend="italic">Nov davek</hi>, 14. </note>
+                </p>
+            </div>
+            <div>
+                <head>Padec v revščino kot posledice starosti in zavest o minevanju/staranju</head>
+                <p>Meja med beračenjem in drugimi načini preživetja v starosti je bila med
+                    različnimi družbeni sloji na podeželju zelo nejasna.<note place="foot"
+                        xml:id="ftn48" n="46">Zeitlhofer, Alter, 85.</note> Na splošno zavest o
+                    ekonomski in eksistenčni negotovosti med podeželskim prebivalstvom, ki je bila
+                    povezana z nesrečami in starostjo, opozarja še en Križnikov opis: »Ko sedaj
+                    žandarji in občinski policaji popotne in tuje prijemajo, pravi narod, da to ni
+                    pošteno, ker beraška palica vsakega čaka.«<note place="foot" xml:id="ftn49"
+                        n="47"> Polec, Križnikovi, 30.</note> A. Aškerc je pri ocenjevanju pomena
+                    nove ljubljanske ubožnice menil, da so redki starostniki, ki so si »čisto sami
+                    krivi, da so ubožci«.<note place="foot" xml:id="ftn50" n="48">Aškerc, Socialni
+                        pregled – Mestna ubožnica, 121.</note> Eden najstarejših poznanih ljudskih
+                    pevcev, berač Vodovnikov Juri (1791–1858), je v pesmi, s katero je predstavljal
+                    svoje življenje, poudaril dva splošno razširjena motiva življenjskih rizikov, ki
+                    sta lahko posameznika pahnila v revščino – pozno poroko (v pesmi je poudaril, da
+                    se je zaradi vojaške službe zelo pozno poročil in zato ostal brez otrok) ter
+                    hitro fizično onemoglost zaradi fizično intenzivnega dela <note place="foot"
+                        xml:id="ftn51" n="49">Prim. Bratož, Staro telo.</note> – saj je bil kot
+                    tesar zelo zgodaj nesposoben opravljati poklic in delo, s katerim se je
+                    preživljal, ko so ga odpustili od vojakov.<note place="foot" xml:id="ftn52"
+                        n="50"> Cvetko, <hi rend="italic">Jest sm Vodovnik, </hi>15.</note></p>
+                <p>Da je bilo beračenje starostnikov zlasti na majhnih kmečkih gospodarstvih na
+                    Dolenjskem pogosto, družbeno sprejeto in običajno, opozarja tudi H. Tuma. V
+                    starosti je beračila tudi njegova babica. <note place="foot" xml:id="ftn53"
+                        n="51">Tuma, <hi rend="italic">Iz mojega življenja</hi>, 36.</note> Tudi v
+                    Bohinju so določene stare berače, predvsem na podlagi njihovega zunanjega
+                    izgleda, dojemali kot preživitkarje, ki jih niso mogle preživljati njihove
+                    kmetije, a so se v ljudskem spominu ohranili predvsem prevaranti.<note
+                        place="foot" xml:id="ftn54" n="52">
+                        <hi rend="italic">Naš voča</hi>, 299.</note>
+                </p>
+                <p>Pomemben dejavnik pri nezmožnosti zagotavljanja preživetja v starosti so bile
+                    ekonomske okoliščine glavnega vira preživetja v odrasli dobi, pa tudi fizične in
+                    mentalne okoliščine, čas osnovanja družine ter njena velikost. Verjetno je bila
+                    poroka Matjaža Gornika (sodeč po številu otrok in izjavah prič, da se je poročil
+                    pred nekaj leti) z mlajšo vdovo zagotovo odločitev, ki jo je sprejel tudi zato,
+                    bi si zagotovil neko varnost v starosti, ki sta jo po morali in ideologiji,
+                    delno pa tudi v realnem življenju predstavljala imetje in sorodstvo. <note
+                        place="foot" xml:id="ftn55" n="53">SI AS 307, 1825, 398. Krajo je storil
+                        leto pred tem.</note> Zagotovo so bili največjemu riziku revščine v starosti
+                    izpostavljeni tisti, ki se nikoli niso poročili: hlapci, dekle, dninarji in
+                    delavci v (pred)industrijskih obratih, potujoči obrtniki in kramarji. A tudi
+                    pozne prve poroke, torej ko so bili posamezniki že v poznih tridesetih ali
+                    štiridesetih letih, so seveda zmanjševale število otrok, povezane so bile tudi z
+                    rizikom, da noben otrok ne bo dočakal odraslosti in da torej ne bo nikogar, ki
+                    bi skrbel za preživele ostarele starše. Obenem je takšna družina zapadla v krizo
+                    zaradi starostne nezmožnosti, ko so bili otroci še mladoletni in zato omejeno
+                    opravilno in ekonomsko sposobni, starši pa so se že soočali z bistveno zmanjšano
+                    delovno storilnostjo in delno ali popolno odsotnostjo dohodkov. Takšna je bila
+                    usoda družine 60-letnega Lovrenca Križaja iz Godešiča pri Škofji Loki, ki so ga
+                    sodni uradniki označili kot »smrtno bolnega«. Imel je dva mladoletna otroka,
+                    starejši Anton je bil star manj kot dvajset let. Družino so označili za berače,
+                    oče pa je domnevo potrdil z opisom, da živi od pomoči dobrih »ljudi«. Anton je
+                    kradel svojemu stricu Jakobu Križaju, prav tako gostaču, staremu 56 let, ki
+                    očitno bratu in sorodnikom v stiski ni hotel pomagati. Nečakova tatvina je bila
+                    tako visoka in stričev gmotni položaj toliko boljši, da je z nakradenim denarjem
+                    kupil tako hrano kot obleko. <note place="foot" xml:id="ftn56" n="54">SI AS 307,
+                        1823, 222.</note> Čeprav pri revnih družinah ni bilo tako pogosto, bi lahko
+                    v istem času v eksistenčno odvisnost padli tudi starši tega pozno poročenega
+                    para, če bi slučajno živeli blizu. </p>
+                <p>Kako so ekonomske okoliščine vplivale na družino in kako hitro se je ta znašla v
+                    stiski, priča tudi življenje Jakoba Klofute z Jesenic. Družino je osnoval šele,
+                    ko si je kupil hišo in več let po tem, ko se je v kraju preživljal kot kovač.
+                    Pri sedeminpetdesetih letih je leta 1836 oče štirih mladoletnih otrok po 28
+                    letih dela v kraju zapadel v hudo revščino. Svojo obrt je namreč opravljal tako,
+                    da je imel v najemu Peternavovo kovačnico, v letih 1816 in 1817 pa se je
+                    ukvarjal tudi s trgovino z živili in obogatel. Kupil je hišo, a je plačal samo
+                    pol kupnine. Ko je zapadel rok za plačilo druge polovice, dolga ni zmogel
+                    poravnati, zato so mu hišo zarubili in prodali, s čimer je izgubil 300
+                    goldinarjev. Soseska mu je pri gosposki, ki je na njegovo prošnjo odločala o
+                    ustanovitvi novega kovaškega obrata, dvakrat preprečila, da bi dobil dovoljenje,
+                    da bi si zgradil svojo kovačnico in tako zmanjšal stroške z najemom. Najemnina
+                    je njegov zaslužek tako zmanjšala, da je po odvzemu glavnega vira zaslužka –
+                    kovaštva, »živel v tako veliki revščini, da je bil 'kos kruha in kozarec žganja'
+                    več dni njegova edina hrana«. Kovačnica mu je bila odvzeta, ker ni bil več
+                    sposoben zaslužiti toliko, da bi plačal najemnino in si hkrati zaslužil toliko,
+                    da bi preživel. V takšnih razmerah je živel vsaj dva meseca. Ob oceni njegovega
+                    fizičnega stanja v sodnem procesu so sodniki sicer menili, da je izredno šibek,
+                    a da je še mogoče pričakovati izboljšanje. <note place="foot" xml:id="ftn57"
+                        n="55">SI AS 307, 1835, 1258.</note> Razmere v družini so bile tako hude, da
+                    je bil v hiši, ko je storil zločin, sam, saj so si otroci preživetje že iskali
+                    drugje. Izguba kovačnice in edinega vira preživetja je Jakoba pognala v
+                    okoliščine, v katerih si ni znal pomagati. Obenem je za svojo stisko krivil
+                    okolico - skupnost, zato je z zločinom hotel svojim sosedom pokazati, kako je
+                    živeti v najhujši revščini. Ko so mu med obravnavo prebrali njegove izjave, je
+                    večkrat padel v jok in prosil, da ga z ozirom na njegove družinske okoliščine
+                    mileje kaznujejo. </p>
+                <p>Drugo strategijo preživetja družin predstavljajo primeri, ko so vdove ostale
+                    upraviteljice kmetij. Takšno prakso ovdovelih žensk predstavlja poroka prej
+                    omenjenega Matjaža Gornika iz Grahovega na Notranjskem, podložnega gospostvu
+                    Hošperk. <note place="foot" xml:id="ftn58" n="56">SI AS 307, 1825, 398. Krajo je
+                        storil leto pred tem.</note> Gornik se je v Žirovnico preselil po poroki z
+                    vdovo Margareto in postal upravitelj četrtinske hube umrlega Valentina Rebka. Ko
+                    se je priženil na ženino kmetijo, je bil postavljen zgolj za varuha otrok iz
+                    Margaretinega prvega zakona. Z vdovo je imel še štiri svoje otroke, ki so bili
+                    pri Gornikovih sedemdesetih letih še nedoletni, torej se je priženil v starosti
+                    okoli 50 let. Sosedje so bili prepričani, da se je Gornik, odkar se je na ženini
+                    kmetiji ukvarjal s prodajo volov in furmanstvom, »odvadil dela« ter navadil
+                    pijančevanja in je za vdajanje pijači zapravil vse svoje premično premoženje.
+                    Očitno je bil precej robusten moški, dobre fizične konstitucije, saj je uradni
+                    sodni zdravnik še za sedemdesetletnika zapisal, da je sposoben težkega dela in
+                    posta, obenem pa lahko takšna zdravniška opredelitev fizičnih sposobnosti
+                    zaprtega odgovori na vprašanje, zakaj si je neimenovana vdova izbrala za moža
+                    precej starega moškega. Pri sedemdesetih letih je bil zaradi domnevnega
+                    pijančevanja pregnan s kmetije, na kateri sta zagospodarila pastorka in njen
+                    mož, zato so ga oblasti označile kot moškega brez premoženja, ki se preživlja z
+                    dninarskim delom. Sodni proces je sicer razkril, da se je v nasprotju s
+                    prepričanjem oblasti o njegovih fizičnih močeh ukvarjal z drobnim kramarstvom,
+                    ki je bila ena od možnosti za preživetje v ekonomiji priložnosti, ki so se je
+                    pogosteje posluževali posamezniki, ki niso bili sposobni več opravljati težkih
+                    fizičnih del. Ko je predal kmetijo, se je moral preživljati kot hlapec, je
+                    povedal v prvem zaslišanju sodnikom, kmalu pa se je odpravil v Zagreb, kjer naj
+                    bi zbiral kramo in beračil. <note place="foot" xml:id="ftn59" n="57">Prav
+                        tam.</note></p>
+            </div>
+            <div>
+                <head>Značilnosti solidarnosti na podeželju</head>
+                <p>Skrb za reveže – pogosto starostnike in redkeje druge berače je bila na podeželju
+                    del čustvovanja, ki ga je vzpostavila karitasa, a so prakse skozi stoletja
+                    postale <note place="foot" xml:id="ftn60" n="58">Polec, Križnikovi, 29.</note>
+                    zelo ritualizirane. Zagotovo je postal del kmečkih podslojev (kajžarjev in
+                    gostačev, nekdanjih poslov) v starosti oziroma že s pešanjem fizične moči deloma
+                    odvisen od solidarnosti skupnosti, <note place="foot" xml:id="ftn61" n="59"
+                        >Prim. Čeč, Donacije. Čeč, Srce vsakega.</note> kot v spominih in političnih
+                    govorih opozarjata J. Krek in H. Tuma. Na splošno v evropskem prostoru velja, da
+                    se je v t. i. mešani ekonomiji dobrodelnosti večina dobrodelnih ustanov
+                    financirala s prostovoljnimi prispevki, torej s solidarnostjo skupnosti. A
+                    medsosedska solidarnost je imela svoje ekonomske, kulturne in čustvene meje.
+                        <note place="foot" xml:id="ftn62" n="60">Prim. tudi <hi rend="italic">Naš
+                            voča</hi>, 226, 227.</note> V štirih primerih storilcev kaznivih dejanj
+                    v dveh desetletjih 19. stoletja so zaslišanja prič, ki so opredeljevale
+                    življenje zločinca, ki je sodil med reveže in ostarele, pokazale, kako omejena
+                    je bila vaška solidarnost tudi v primeru starostnikov, ki so zagrešili zločine,
+                    in kako negativno se je okolica obnašala do njih, četudi z njimi niso bili
+                    neposredno v konfliktu ali oškodovani. </p>
+                <p>Na medsosedsko solidarnost so najprej vplivali integracija posameznika v skupnost
+                    in njegovi medsosedski odnosi. Kako pomembni so lahko bili v ekonomiji
+                    dobrodelnosti medsosedski odnosi, ki so se gradili skozi desetletja sobivanja,
+                    kaže življenje že omenjenega Matjaža Gornika iz Grahovega. V sodnem procesu, ki
+                    razkriva njegovo življenje, so ga značajsko označili kot »dobrega,
+                    odkritosrčnega in pomirjenega«, zato so bili sodniki prepričani, da je spore med
+                    obema zakoncema povzročila prepirljivost Gornikove žene. Konflikti so bili tako
+                    hudi, da je pri triinšestdesetih letih Matjaž Gornik prvič zapustil svojo ženo
+                    in odšel s kmetije. Delo, stanovanje, hrano in nekaj obleke je dobil pri svojem
+                    sosedu, kjer je vodil njegove posle. Tega je poznal že »od mladih let«. Socialne
+                    mreže in dober družbeni ugled so Gorniku omogočili, da je bogat sosed, ki je
+                    »zelo dobro živel,« zelo dobro skrbel tudi zanj. Življenje na tuji kmetiji,
+                    pretirana zloraba alkohola in izguba premoženja pa so slednjič botrovali
+                    njegovemu beraštvu.<note place="foot" xml:id="ftn63" n="61">SI AS 307, 1825,
+                        398. Krajo je storil leto pred tem.</note> Čeprav je socialno mrežo, ki jo
+                    je imel, Matjaž Gornik uničil ravno s krajo, ki jo je storil sosedu, in se zdi,
+                    da je prej veljal za dobrega in zanesljivega delavca in da mu je ravno ta
+                    značajska karakteristika olajšala vzdrževanje socialnih odnosov, medsosedski
+                    odnosi pogosto niso bili tako harmonični, kot jih kaže ta primer. Posamezniki,
+                    ki so se v skupnost priselili tako kot Gornik, pogosto niso bili deležni enake
+                    obravnave in solidarnosti kot domačini. Pomen soseske pri iskanju zetov iz
+                    drugih vasi, problem prihoda tujcev zaradi prodaje kmetij in problem njihove
+                    integracije v sosesko omenja še G. Križnik ter opozarja na probleme, ki jih
+                    lahko predstavljajo prišleki v sosesko. <note place="foot" xml:id="ftn64" n="62"
+                        >Polec, Križnikovi, str. 29.</note> Zaradi določenih okoliščin so se med
+                    njimi hitreje razvili hujši konflikti – npr. zaradi koriščenja določenih pravic
+                    ali zaradi omejevanja prošenj ali celo načinov preživetja posameznika, zlasti če
+                    je šlo za podeželske obrtnike v delovno intenzivnih poklicih, kot je bilo to v
+                    primeru kovača Jakoba Klofute. <note place="foot" xml:id="ftn65" n="63">SI AS
+                        307, 1835, 1258.</note> Posebej negativno so bile podeželske skupnosti
+                    nastrojene proti migrantom in prišlekom, še posebej, če so se priženili na
+                    kmetije svojih žena. Prvo omenjen Gornik se ni odselil daleč, saj so ga poznali
+                    člani skupnosti, iz katere se je odselil, pa tudi člani tiste skupnosti, v
+                    katero se je priselil. A vendarle so bili v svojih izjavah pred sodiščem
+                    prepričani, da je njegove (negativne) značajske spremembe – lenobo in nagnjenost
+                    k pretiranemu uživanju alkohola – povzročila ravno poroka. Zelo negativno so
+                    bili v skupnosti sprejeti tudi posamezniki, ki so se okoristili s tujo nesrečo,
+                    kot na primer jeseniški kovač Jakob Klofuta, ki je v letih zelo hude lakote 1816
+                    in 1817 s prodajo živil zaslužil toliko, da je lahko takoj plačal polovico hiše.
+                    Sodniki so v protokol posebej dodali, da mu izjave njegovih vaščanov, da je
+                    zanemarjal delo, ne morejo biti v breme, saj je treba upoštevati njegovo »visoko
+                    starost«, obenem pa tudi njegovo telo kaže, da ni več sposoben težkega dela in –
+                    posledično – da ni več sposoben v celoti zagotoviti lastnega preživetja.
+                    Zastopali so torej povsem nasprotno mnenje kot zaslišane priče.<note
+                        place="foot" xml:id="ftn66" n="64">Prav tam.</note> Skupnost ni sprejemala
+                    niti vedenjsko problematičnih posameznikov, posebej, če so bili nevarni okolici.
+                    Preživitkar Valentin Ceglar iz Zgornje Šiške, ki naj bi iz jeze požgal svoje
+                    nekdanje imetje, je na sodišču ob preklicu prvotnega priznanja opozoril tudi, da
+                    so bili mladi sosedje izrazito negativno nastrojeni proti njemu in da so ga zato
+                    obtožili požiga. V sodni oceni njegove osebnosti pa so zapisali, da je umsko že
+                    precej šibek.<note place="foot" xml:id="ftn67" n="65">Stariha, Bledi kot zid,
+                        34. SI AS 307, 1843, 2362.</note></p>
+                <p>Negativen odnos soseske, skupnosti in neposredno odrekanje solidarnosti se kažeta
+                    pri poudarjanju odsotnosti dveh vrednot – dela<note place="foot" xml:id="ftn68"
+                        n="66">Na pomen dela kot pomembne meščanske vrednote je opozoril Studen,
+                        Človek mora delati.</note> in zmernosti. Omenjanje dela namreč pogosto
+                    nastopa tudi v funkciji solidarnosti. Ko so brate Gregorja Zupančiča na sodišču
+                    vprašali, zakaj ne spoštujejo pogodbe, po kateri bi morali svojemu opravilno
+                    nesposobnemu bratu nuditi stanovanje, hrano in obleko, so se sklicevali na
+                    bratovo odklanjanje dela v domačem gospodarstvu.<note place="foot"
+                        xml:id="ftn69" n="67">SI AS 307, 1825, 377.</note>
+                </p>
+                <p>Konflikte in odhod iz skupnosti ter posledično preživljanje tudi z beračenje
+                    starostnikov so sprožali tudi družinski spori: spori med zakoncema in
+                    medgeneracijski spori, ki jih ni bilo tako malo, na kar opozarjajo številni
+                    primeri civilnih tožb pred patrimonialnimi sodišči, včasih pa je prišlo tudi do
+                    hujših in tragičnih izbruhov nasilja, ki so se končali z zločini: z uničenjem
+                    premoženja (tudi s požigi), hujšimi telesnimi poškodbami, uboji in umori. Vzroki
+                    medgeneracijskega nasilja so bili zelo kompleksni, lahko so nastali zaradi
+                    prisilnih porok, <note place="foot" xml:id="ftn70" n="68">Kos, <hi rend="italic"
+                            >Zgodovina morale, 1</hi>, 196–200.</note> strahu potomcev zaradi
+                    domnevno neprimernega gospodarjenja njihovih očetov z imetjem, ki jim je bilo
+                    obljubljeno s poročnimi pogodbami, ponovnega poročanja vdovcev in prisotnosti
+                    otrok iz različnih zakonov, tveganega vedenja (zlasti pijančevanja) in bremen,
+                    ki so jih s poroko dobili in so bila vezana na preostale dediče. Že v času pred
+                    jožefinskimi reformami naj bi veljalo, da je prevzel kmetijo po intestatnem
+                    pravu najmlajši sin ali najmlajša hčerka, a D. Kos opozori, da se iz ženitnih
+                    pisem vidi, da je kmetijo prevzel prvi poročeni sin ali hči, <note place="foot"
+                        xml:id="ftn71" n="69">Prav tam, 151.</note> kar je lahko daljšalo obdobje
+                    podpore ostarelih staršev ali čakanja na prevzem kmetije in s tem morebitnih
+                    konfliktov, ki so v takšnih razmerjih nastajali. </p>
+                <p>Na drugi strani so bili starostniki – reveži, ki so občasno prihajali v
+                    podeželske skupnosti, praviloma označeni kot berači. V različnih fazah leta (in
+                    potreb po dodatnem delu v podeželskem ritmu dela) so se takšni ljudje
+                    preživljali na različne načine, praviloma pa ne z delom, ki so ga opravljali v
+                    delovno najbolj aktivni fazi življenja, a bolj kot so jim pojemale fizične moči,
+                    manj so zaslužili s takšnimi deli in bolj so bili odvisni od pomoči skupnosti.
+                    Gašper Križnik je v svojem opisu beračev sicer zapisal, da (tujim) beračem, ki
+                    gredo od hiše do hiše, vedno dajo darove. Obenem je posebej opozoril na eno
+                    okoliščino, ki je bila popolnoma v nasprotju z diskurzi in podobami, ki so jih
+                    slikali javni mediji v tem času: »Ne zameri se jim posebno, če kateri med njimi
+                    kaj uzima, kar se redko zgodi.« <note place="foot" xml:id="ftn72" n="70">Polec,
+                        Križnikovi, 30.</note> Da je šlo pri beračih, ki jih opisuje in so torej
+                    prihajali v Motnik, očitno za starejše posameznike, pričata dva povezana zapisa:
+                    prvi je opisoval okoliščino, da so nekateri berači skrbni in varčni in da
+                    zbirajo doto za svoje hčere tako kot bogati kmetje, in drugi, da so gostači, ki
+                    imajo svoj dom.<note place="foot" xml:id="ftn73" n="71">Prav tam.</note> Brez
+                    »doma« ostanejo samo tisti berači, ki preveč razkošno živijo, je še dodal G.
+                    Križnik. Tudi časopisni diskurzi so občasno opozarjali na splošno prepričanje,
+                    da je treba beračem nekaj dati in da berači posebej naslavljajo religiozna
+                    čustva posameznikov. A obenem so takšne prakse javni mediji obsojali: »Berači
+                    znajo tako moliti, da kdor tacega ne pozna, bi mislil, da bo vse duše iz vic
+                    rešil; ako mu ne daš, kolne in upije, da se daleč razlega, ker si domišljuje, da
+                    mu moraš dati dar.«<note place="foot" xml:id="ftn74" n="72">Židov, Časopisi o
+                        beračih, 48, cit. po: <hi rend="italic">Rokodelske novice</hi> iz leta
+                        1883.</note>
+                </p>
+                <p>Določene skupnosti so se organizirale tako, da so za svoje »pristojne« ostarele
+                    in druge delovno nezmožne posameznike zahtevale oskrbo od vseh delovno aktivnih
+                    hiš, obseg pomoči določene kmetije/hiše z gospodarsko dejavnostjo pa je bil
+                    odvisen od premoženjskega stanja (torej od velikosti posesti in števila
+                    nepreskrbljenih članov gospodinjstva). Realne omejitve takšnih praks posredno
+                    opisuje prav Gašper Križnik. Poudaril je, da v Motniku niso imeli »domačih«
+                    beračev, ker so že vsi pomrli. A da so bili »zapisani pri fari« in da so za
+                    njihovo oskrbo zbirali sredstva pri maši na dva največja praznika: božič in
+                    veliko noč. <note place="foot" xml:id="ftn75" n="73">ŠZ, 1/35.</note> V opisu ni
+                    omenil vsakodnevne oskrbe od hiše do hiše, kar verjetno pomeni, da so tako kot
+                    dolenjski berači tudi motniški beračili po drugih občinah, kar pa je bilo po
+                    veljavni zakonodaji skozi celotno 19. stoletje prepovedano. Na problem oskrbe v
+                    podeželsko občino pristojnih beračev priča še en zapis v časopisu in odgovor
+                    lokalnih oblasti naj. Predstavniki podeželske elite so namreč javno kritizirali
+                    število beračev in »vlačugarjev« v občini Polhov Gradec. Lokalne oblasti so
+                    kritike javno zavrnile, češ »da so varnostne razmere popolnem zadovoljive, in da
+                    je vsak klatež, katerega žandarmerija vidi, prijet in uveden in dotičnej
+                    oblastniji oddan. […] Vendar se tu ali tam kak domač siromak nahaja, se to ne
+                    more popolnoma odpraviti, dokler občine svojih oskrbovalnic za uboge nemajo«.
+                        <note place="foot" xml:id="ftn76" n="74">
+                        <hi rend="italic">Slovenski narod</hi>, 12. 9. 1879, 3, Iz Polhovega
+                        Gradca.</note> Pred zemljiško odvezo ni najti primera, da bi zemljiško
+                    gospostvo oziroma okrajna gosposka preganjala beračenje znotraj zemljiškega
+                    gospostva oziroma okrajne gosposke, četudi je bil zakon iz leta 1754 že povsem
+                    jasen, da spada revež tja, kjer se je rodil. Pri zelo veliki fevdalni
+                    razdrobljenosti je bilo določanje, kdo je dolžan poskrbeti za posameznika,
+                    precej težko. Ker zemljiška gospostva niso preganjala beračev, pristojnih v
+                    različne župnije znotraj zemljiška gospostva, je bil prostor, kjer so lahko
+                    beračili posamezniki, večji. V spremenjenih pravno-upravnih okvirih je bila iz
+                    odpravljenih zemljiških gospostev obveznost oskrbe revnih prenesena na majhne
+                    občine, s čimer se je prostor, kjer so posamezniki lahko legitimno beračili,
+                    izjemno zmanjšal, s tem pa se je povečal tudi pritisk na lokalno skupnost, ki je
+                    morala preživljati pristojne reveže. </p>
+                <p>Solidarnost na podeželju je bila tudi zelo ritualizirana. Ko so dolenjskega
+                    odsluženega vojaka Gašperja Lavreta, ki so ga v blejskem gospostvu zaprli zaradi
+                    nedovoljenega beračenja, na zaslišanju spraševali, pod kakšno pretvezo je zbiral
+                    darove, je rekel, da je prosil za »božji dar«, in posebej poudaril, da se je
+                    pred prejetim darom »zahvalil«. Čeprav se je izdajal za romarja, so ga v
+                    nasprotju z njegovim ostarelim beraškim sopotnikom zaprli. Med vrsticami se da
+                    sklepati, da večino leta takšno ritualno beračenje ni bilo mogoče. Berači so se
+                    morali znajti s prevarami, omenjeni Gašper Lavre <note place="foot"
+                        xml:id="ftn77" n="75">SI AS 721, K 41, 407–409.</note> pa je priznal, da se
+                    je pretvarjal tako za romarja kot za pogorelca. V skupnostih takšni prevarantski
+                    »mladi in močni« moški seveda ne bi dobili podpore, saj se je pričakovalo, da
+                    bodo v mešani ekonomiji dobrodelnosti takšni ljudje zaposleni, pogosto kot
+                    pomožna delovna sila, s čimer si bodo zagotavljali preživetje vsaj v delu leta,
+                    ko je kmečko gospodarstvo zaznamovalo intenzivno delo, zato so ga verjetno tako
+                    hitro zajeli in odgnali. Velik odmev med meščanstvom je v 70. letih 19. stoletja
+                    doživel sodni primer prevaranta Antona Petovarja, ki je s pretvezo, da bo gradil
+                    samostan, nekakšno ubožnico za ostarele ljudi na podeželju, zbral toliko
+                    denarja, da si je kupil zemljišče in zgradil hišo. Med žrtvami Antona Petovarja
+                    je bilo več samskih oseb, ki so bile zaradi svoje starosti, s starostjo
+                    povezanih bolezni ali zavedanja, da bodo lahko kmalu izgubili svoj glavni vir
+                    dohodka, veliko bolj dovzetni za Petovarjeve utopične zgodbe o samostanu, ki bi
+                    jim nudil zaščito v starosti in ob onemoglosti. Petovar je dobro presodil
+                    religiozna čustva, pa tudi kolektivne strahove določenih družbenih skupin, ki so
+                    bile bolj izpostavljene rizikom revščine v starosti. Žrtve njegovih prevar
+                    dokazujejo, da so bile posebej ranljive nekdanje dekle, še posebej, če so bile
+                    že deloma delovno nezmožne. Te so zanj zbirale denar z beračenjem. Liberalni
+                    meščanski diskurz se je čudil okoliščini, da mnogi »neumni« podeželani niso
+                    želeli vračila Petovarju podarjenega denarja, četudi je šlo za prevaro. Spet
+                    drugi so sicer zahtevali vračilo denarja, a so na sodišču izjavili tudi, da si
+                    ga ne smejo prilastiti nazaj in da ga bodo namenili istemu namenu kot prvič –
+                    kot božji dar. <note place="foot" xml:id="ftn78" n="76">
+                        <hi rend="italic">Slovenski narod</hi>, 31. 5. 1873, 3, Iz Doba: Papež ujet
+                        in zaprt. <hi rend="italic">Slovenski narod</hi>, 19. 8. 1874, 2–4, Izpred
+                        porotnega sodišča: Rimski romar. <hi rend="italic">Slovenski narod</hi>, 20.
+                        8. 1874, 2, 3, Izpred porotnega sodišča: Rimski romar. <hi rend="italic"
+                            >Slovenski narod</hi>, 22. 8. 1874, 3, Rimski romar: Petovar. <hi
+                            rend="italic">Slovenski narod</hi>, 22. 8. 1874, 3, Anton Petovar. <hi
+                            rend="italic">Slovenski narod</hi>, 23. 8. 1874, 2, 3, Izpred porotnega
+                        sodišča: Rimski romar. <hi rend="italic">Slovenski narod</hi>, 25. 8. 1874,
+                        2, 3, Izpred porotnega sodišča: Rimski romar. <hi rend="italic">Slovenski
+                            narod</hi>, 27. 8. 1874, 2, 3, Izpred porotnega sodišča: Rimski romar.
+                            <hi rend="italic">Slovenski narod</hi>, 28. 8. 1874, 2, 3, Izpred
+                        porotnega sodišča: Rimski romar. <hi rend="italic">Slovenski narod</hi>, 29.
+                        8. 1874, 5–7, Izpred porotnega sodišča: Rimski romar.</note> Predstavljeni
+                    primeri prevar opozarjajo tudi, da je šlo v mnogih primerih za ritualizirano
+                    beračenje, ki je bilo povezano z žetvijo in spravilom različnih vrst letnine,
+                    novoletnim koledništvom in ritualnim obdarovanjem ob nekaterih drugih praznikih
+                    ali povezanih z rituali prehoda (molitev beračev ob umrlih) ali molitev na
+                    splošno. Gašper Križnik opozarja tudi na ritualno darovanje posebnega kruha na
+                    vse svete, 1. novembra, ki so ga bili deležni tako člani gospodinjstva
+                    (zaposleni) kot berači, pa žanjice ajde in torbarji. Berači naj bi v zameno za
+                    prejeti dar še posebej molili za duše umrlih. <note place="foot" xml:id="ftn79"
+                        n="77">ŠZ 1/14. Tudi za godove je bila navada (ki pa je niso spoštovali
+                        vsi), da so nekateri dali dal voščiteljem (SŽ 1/28). </note> To naj bi bila
+                    tudi naloga tistih oskrbovancev njegovega samostana, ki bi popolnoma opešali in
+                    ne bi bili več sposobni delati. Med Križnikovimi zapisi v Štrekljevi zbirki je
+                    ohranjen še en zapis, ki kaže na pomen darov beračem in nevarnosti, ki lahko
+                    nastanejo zaradi odrekanja le-teh. Gre za zgodbo o kovaču, ki izgubi vse, kar je
+                    imel, ker je odrekel nekaj kapljic vina »beračema iz nebes« sv. Petru in
+                    Kristusu. <note place="foot" xml:id="ftn80" n="78">ŠZ, 3/111.</note> Navkljub
+                    številnim prepovedim beračenja in prenočevanja tujcev (pogosto beračev) so
+                    takšne prakse na podeželju ostajale, N. Židov recimo opozarja tudi na posebne
+                    prostore v »kmečki« hiši in gospodarskih poslopjih, ki so bili namenjeni
+                    popotnikom – pogosto beračem. <note place="foot" xml:id="ftn81" n="79">Prav tam,
+                        50, 51.</note> Meščanski diskurz se je v kritiki zločina Antona Petovarja
+                    usmeril zlasti v vraževerje in ritualno darovanje, medtem ko je povsem prezrl
+                    drugo okoliščino: problem oskrbe delovno nezmožni ljudi v starosti. </p>
+            </div>
+            <div>
+                <head>Sklep</head>
+                <p>Prispevek je predstavil, kako so določena ekonomska in demografska obnašanja ter
+                    družinske okoliščine vplivale na izkušnje starosti in kako so lahko ekonomske,
+                    kulturne in nenazadnje pravne omejitve vplivale na posameznikove odločitve, da
+                    niso bili sposobni akumulirati niti malo premoženja, ki bi jih obvarovalo prve
+                    krize (osebne in družinske) in prvega padca pod eksistenčni minimum zaradi
+                    pojemanja fizičnih moči pri postopnem staranju. V mnogih primerih se je družina
+                    pokazala kot tista, ki kljub prevladujočim meščanskim stereotipom ni bila
+                    sposobna nuditi socialne varnosti. Kljub obstoječim hipotezam in prevladujočim
+                    vzorcem je poskušal prispevek s pomočjo virov predstaviti konkretne življenjske
+                    stiske, ki so bile povezane s starostjo, in tudi izrazito stereotipno
+                    predstavljanje posameznikov na podeželju, ki jim ob odsotnosti institucionalnih
+                    in privatnih virov, ki bi jim nudili določeno pomoč in del preživetja, ni
+                    preostalo veliko drugih možnosti kot izkoriščanje slabo plačanih priložnostnih
+                    del (t. i. »economy of makeshifts«) in starostno beračenje. Njihove prakse lahko
+                    presežejo običajne diskurze v časopisju, <note place="foot" xml:id="ftn82"
+                        n="80">Za 19. stoletje izvrstno analizo opravi Židov, Časopisi o beračih.
+                    </note> ki obravnavajo revščino in katerih namen je demonizacija beračenja in
+                    postopaštva, saj predstavljajo mobilno prebivalstvo kot policijski problem
+                    (nevarnost javni varnosti, zasebnemu premoženju, šibkemu socialnemu ravnovesju
+                    in življenju), moralni problem (brezdelje) in nevarnost javnemu zdravju
+                    (nalezljive bolezni, posebej ob epidemijah kolere, jetike, črnih koz). <note
+                        place="foot" xml:id="ftn83" n="81">Prim. Čeč, Revež glede političnih
+                        konotacij beraštva.</note> Številni zapisi opozarjajo, da so se na podeželju
+                    mimo pravnih, kulturnih in političnih pritiskov razvili številni mehanizmi
+                    ritualnega beračenja, ki jih izrazito negativni (tudi zastraševalni) javni
+                    diskurzi in oblastne prakse (kazensko preganjanje tujih beračev) niso mogli
+                    ogroziti. Sicer so izhajali iz ideje krščanske karitas, a so se razvili v povsem
+                    samostojne ritualne prakse. Obenem se staranje v revnih družinah in pri revnih
+                    posameznikih pogosto pokaže kot precej brezizhoden problem, v primeru žrtev
+                    Antona Petovarja pa tudi kot življenjska negotovost, ki je bila zelo dolgo
+                    prisotna v življenju posameznika, že v aktivni fazi njegovega življenja.
+                    Staranje so v mnogih primerih posebej revnejši posamezniki dojemali kot rob
+                    življenjske in socialne eksistence, po drugi strani pa je vendarle nekaterim
+                    posameznikom (vdovam, ljudskim godcem, zabavljačem, ženskam) omogočalo določeno
+                    samostojnost, kar nenazadnje kaže stik populacije s starostnimi berači. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <list type="unordered">
+                    <head>Arhivski viri</head>
+                    <item>SI AS – Arhiv Republike Slovenije:<list type="unordered">
+                            <item>SI AS 307 – Deželno sodišče v Ljubljani.</item>
+                            <item>SI AS 721 – Gospostvo Bled.</item>
+                        </list></item>
+                    <item>SI ZAL LJU – Zgodovinski arhiv Ljubljana:</item>
+                    <item>SI ZAL LJU 508 – Mesto Ljubljana, institut za mestne reveže,
+                        1798–1892.</item>
+                    <item>ŠŽ – Rokopisna zapuščina Karla Štreklja (Inštitut za slovensko
+                        narodopisje).</item>
+                </list>
+                <listBibl>
+                    <head>Literatura</head>
+                    <bibl>Alešovec, Jakob. <hi rend="italic">Ljubljanske slike: podoba ljubljanskega
+                            sveta pod drobnogledom</hi>. Popravljen ponatis iz Slovenca. V
+                        Ljubljani, 1879.</bibl>
+                    <bibl>Aškerc, Anton. <hi rend="italic">Socialni pregled</hi>. <hi rend="italic"
+                            >Ljubljanski zvon</hi> 20, 1900, št. 2, 157–65, Mestna ubožnica v
+                        Ljubljani.</bibl>
+                    <bibl>Bratož, Urška. »Kruha in dela«: o reševanju socialnih vprašanj v Istri in
+                        Trstu 19. stoletja. <hi rend="italic">Annales</hi> 32, št. 4 (2022):
+                        547–58.</bibl>
+                    <bibl>Bratož, Urška. Staro telo: medicinski pogled 19. stoletja. <hi
+                            rend="italic">10. Istarski povijesni biennale: Corpus, Carnalitas
+                            ---</hi>, 102–14. Poreč, Pula, Pazin: Zavičajni muzej Poreštine,
+                        Sveučilište Jurja Dobrile, Filozofski fakultet, Državni arhiv, 2023. </bibl>
+                    <bibl>Cvetko, Igor. <hi rend="italic">Jest sem Vodovnik Juri: o slovenskem
+                            ljudskem pevcu: 1791</hi>–<hi rend="italic">1858</hi>. Ljubljana,
+                        Slovenske Konjice: Partizanska knjiga, Kulturna skupnost občine,
+                        1988.</bibl>
+                    <bibl>Čeč, Dragica. »Srce vsakega je treba pripraviti za dejavno udejanjanje
+                        zapovedi ljubezni do bližnjega«. Začetki sistemske oskrbe revnih in pomen
+                        kulture osebne dobrodelnosti. V: Andrej Studen (ur). <hi rend="italic"
+                            >Pomisli na jutri</hi>, 37–70. Ljubljana: Inštitut za novejšo zgodovino,
+                        2012.</bibl>
+                    <bibl>Čeč, Dragica. Donacije Janeza Nepomuka Kalistra - tržaškega 'self-made
+                        mana' - in njegove vdove Marije v meščanski kulturi darovanja. <hi
+                            rend="italic">Annales</hi> 33, št. 1 (2023): 101–24.</bibl>
+                    <bibl>Čeč, Dragica. Funkcije preživitka in družbena realnost preživitkarjev. <hi
+                            rend="italic">Glasnik Slovenskega etnološkega društva</hi> 62, št. 2
+                        (2023): 31–44. </bibl>
+                    <bibl>Čeč, Dragica. Podobe starosti v začetku 19. stoletja. V: Mojca Šorn (ur.).
+                            <hi rend="italic">Starost - izzivi historičnega raziskovanja</hi>,
+                        11–33. Ljubljana: Inštitut za novejšo zgodovino, 2017. </bibl>
+                    <bibl>Čeč, Dragica. Reforme na področju reševanja socialnih vprašanj v 18.
+                        stoletju. V: Miha Preinfalk in Boris Golec (ur.). <hi rend="italic">Marija
+                            Terezija: Med razsvetljenskimi reformami in zgodovinskim spominom</hi>,
+                        363–406. Ljubljana: Založba ZRC, 2018. </bibl>
+                    <bibl>Čeč, Dragica. Revščina kot grožnja družbenemu redu v 18. stoletju. <hi
+                            rend="italic">Acta Histriae</hi> 24, št. 2 (2016): 291–312.</bibl>
+                    <bibl>Čuček, Filip. Beseda, dve o ptujski hiralnici. V: Ivan Smiljanić (ur.).
+                            <hi rend="italic">Družbene razlike in revščina v slovenski novejši
+                            zgodovini</hi>, 101–13. Ljubljana: Inštitut za novejšo zgodovino,
+                        2022.</bibl>
+                    <bibl>Ehmer, Josef. Alter und Generationenbeziehungen im Spannungsfeld von
+                        öffentlichem und privatem Leben. V: Josef Ehmer in Peter Gutschner (ur.).
+                            <hi rend="italic">Das Alter im Spiel der Generationen. Historische und
+                            Sozialwissenschaftliche Beiträge</hi>, 15–50. Wien, Köln, Weimar: Böhlau
+                        2000.</bibl>
+                    <bibl>Ehmer, Josef. The 'Life Stairs': Aging, Generational Relations, and Small
+                        Commodity Production in Central Europe. V: Tamara Hareven (ur.). <hi
+                            rend="italic">Aging and Generational Relations over the Life
+                        Course</hi>, 53–74. Berlin, Boston: De Gruyter, 1996.</bibl>
+                    <bibl>Hren Medved, Alenka. Revno trško in podeželsko prebivalstvo Laškega v 19.
+                        stoletju. V: Ivan Smiljanić (ur.). <hi rend="italic">Družbene razlike in
+                            revščina v slovenski novejši zgodovini, </hi>27–47<hi rend="italic">.
+                        </hi>Ljubljana: Inštitut za novejšo zgodovino, 2022.</bibl>
+                    <bibl>Johnson, Paul. Historical readings of old age and ageing. V: Paul Johnson
+                        in Pat Thane (ur.). <hi rend="italic">Old Age from Antiquity to
+                            Post-Modernit</hi>, 1–18. London, New York: Routledge, 1998.</bibl>
+                    <bibl>King, Steven. Welfare Regimes and Welfare Regions in Britain and Europe,
+                        c.1750s to 1860s. <hi rend="italic">Journal of Modern European History</hi>
+                        9, št. 1 (2011): 42–65.</bibl>
+                    <bibl>Kos, Dušan. <hi rend="italic">Zgodovina morale, 1. Ljubezen in zakonska
+                            zveza na Slovenskem med srednjim vekom in meščansko dobo</hi>.
+                        Ljubljana: Založba ZRC, ZRC SAZU, 2015.</bibl>
+                    <bibl>Kos, Dušan. <hi rend="italic">Zgodovina morale, 2. Ljubezenske strasti,
+                            prevare, nasilje in njihovo kaznovanje na Slovenskem med srednjim vekom
+                            in meščansko dobo</hi>. Ljubljana: ZRC SAZU, 2016.</bibl>
+                    <bibl>Krek, Janez Evangelist. Nekaj naših ran. <hi rend="italic">Domoljub</hi>,
+                        1. 4. 1909, 241, 242.</bibl>
+                    <bibl>Krek, Janez Evangelist. <hi rend="italic">Starostno zavarovanje kmečkega
+                            ljudstva</hi>. Ljubljana: samozaložba, 1909.</bibl>
+                    <bibl>Križnik, Gašper. <hi rend="italic">Prazniki v letu: Vsi sveti, verne
+                            duše. </hi><hi rend="italic">s. n.</hi><hi rend="italic">,
+                            1800–1900</hi>. <ref
+                            target="http://www.dlib.si/?URN=URN:NBN:SI:DOC-3OVIPFC1"
+                            >http://www.dlib.si/?URN=URN:NBN:SI:DOC-3OVIPFC1</ref>. Pridobljeno 5.
+                        10. 2023.</bibl>
+                    <bibl>Lampe, Evgen. Naše slike. <hi rend="italic">Dom in svet</hi>, 17, 1904,
+                        št. 1, 58.</bibl>
+                    <bibl>Miklavčič, Frančišek. Žalostne razmere kmečkega stanu. <hi rend="italic"
+                            >Domoljub</hi>, 22. 4. 1909, 298.</bibl>
+                    <bibl><hi rend="italic">Naš voča so včas zapodval: bohinjske pravljojce</hi>.
+                        Ljubljana: Kmečki glas, 1993.</bibl>
+                    <bibl>Neumann, Christian Alexander. Introduction. Old Age before Modernity. V:
+                        Christian Alexander Neumann (ur.). <hi rend="italic">Old Age before
+                            Modernity: Case Studies and Methodological Perspectives, 500 BC‒1700
+                            AD</hi>, 1–30. Heidelberg: Heidelberg University Publishing, 2023. </bibl>
+                    <bibl><hi rend="italic">Nov davek za kmeta ali socijalno zavarovanje</hi>,
+                        1909.</bibl>
+                    <bibl>Pančur, Andrej. Družinske in bivanjske razmere starejših na Dolenjskem
+                        1869: analiza popisov prebivalstva. V: Mojca Šorn (ur.). <hi rend="italic"
+                            >Starost - izzivi historičnega raziskovanja</hi>, 163–92. Ljubljana:
+                        Inštitut za novejšo zgodovino, 2017.</bibl>
+                    <bibl>Polec, Janko. Križnikovi odgovori na vprašanja v Bogišićevem 'Naputku'
+                        [separat]. Ljubljana: [s. n.], 1945.</bibl>
+                    <bibl>Prijatelj, Ivan. Moderna manira in Žmitkov Poc. <ref
+                            target="https://www.dlib.si/results/?pageSize=25&amp;query=%27rele%253dLjubljanski%2bzvon%27"
+                                ><hi rend="italic">Ljubljanski zvon</hi></ref>, 24, 1904, št. 1,
+                        73–76.</bibl>
+                    <bibl>Ramšak, Mojca. Berači in odnos do njih na avstrijskem Koroškem v prvi
+                        polovici 20. stoletja. <hi rend="italic">Etnolog</hi> 12 (2002):
+                        81–89.</bibl>
+                    <bibl>Ramšak, Mojca. Starost in staranje v pohorski pravljični prozi. V: Mojca
+                        Šorn (ur.). <hi rend="italic">Starost - izzivi historičnega
+                            raziskovanja</hi>, 35–44. Ljubljana: Inštitut za novejšo zgodovino,
+                        2017.</bibl>
+                    <bibl>Remec, Meta. Začetki pokojninskega zavarovanja kmetov: od preživitka do
+                        zakona o pokojninskem in invalidskem zavarovanju. V: Mojca Šorn (ur.). <hi
+                            rend="italic">Starost - izzivi historičnega raziskovanja</hi>, 77–104.
+                        Ljubljana: Inštitut za novejšo zgodovino, 2017. </bibl>
+                    <bibl>Simič, Vladimir in Gorazd Makarovič. Preživitek. V: <hi rend="italic"
+                            >Slovenski etnološki leksikon</hi>, 472. Ljubljana: Mladinska knjiga,
+                        2004.</bibl>
+                    <bibl>Sovič, Silvija. Families and households of the poor: The 19 <hi
+                            rend="superscript">th</hi>-century Slovenian gostači. <hi rend="italic"
+                            >The History of the Family</hi> 10, št. 2 (2005): 161–82.</bibl>
+                    <bibl>Stariha, Gorazd. »Z nobenim delom se ne pečajo le z lažnivo beračijo«:
+                        odgon kot institucija odvračanja nezaželenih. <hi rend="italic">Zgodovina za
+                            vse</hi> 14, št. 1 (2007): 37–76.</bibl>
+                    <bibl>Stariha, Gorazd. Bledi kot zid lazijo pogorelci po vasi brez doma, brez
+                        obleke, brez živeža! O maščevalnih požigih v predmarčni dobi. <hi
+                            rend="italic">Zgodovina za vse</hi> 23, št. 2 (2016): 27–39.</bibl>
+                    <bibl>Studen, Andrej. Človek mora delati za svojo srečo! Pretekla razpravljanja
+                        o delu s poudarkom na drugi polovici 18. in prvi polovici 19. stoletja. V:
+                        Andrej Studen (ur.). <hi rend="italic">Pomisli na jutri: O zgodovini (samo)
+                            odgovornosti</hi>, 9–36. Ljubljana: Inštitut za novejšo zgodovino,
+                        2012.</bibl>
+                    <bibl>Studen, Andrej. <hi rend="italic">Neprilagojeni in nevarni. Podoba in
+                            status Ciganov v preteklosti</hi>. Ljubljana: Inštitut za novejšo
+                        zgodovino, 2015.</bibl>
+                    <bibl>Studen, Andrej. Stari, onemogli, neozdravljivo bolni. Paberki iz zgodovine
+                        hiralnice Vojnik (1892–1959). V: Mojca Šorn (ur.). <hi rend="italic">Starost
+                            - izzivi historičnega raziskovanja</hi>, 193–212. Ljubljana: Inštitut za
+                        novejšo zgodovino, 2017.</bibl>
+                    <bibl>Thane, Path. Social Histories of Old Age and Aging. <hi rend="italic"
+                            >Journal of Social History</hi> 37, št. 1 (2003): 93–111.</bibl>
+                    <bibl>Troyansky, David. <hi rend="italic">Aging in World History</hi>. New York,
+                        London: Routledge, 2015.</bibl>
+                    <bibl>Tuma, Henrik. <hi rend="italic">Iz mojega življenja: spomini, misli,
+                            izpovedi</hi>. Ljubljana: Tuma, 1997.</bibl>
+                    <bibl>Van Leeuwen, Marco H.D., Elise van Nederveen Meerkerkb in Lex Heerma van
+                        Voss. Provisions for the elderly in northwestern Europe: an international
+                        comparison of almshouses, sixteenth–twentieth centuries. <hi rend="italic"
+                            >Scandinavian Economic History Review</hi> 62, 1 (2014): 1–16. </bibl>
+                    <bibl>Velková, Alice. Inheritance Practice and the Elderly in Central Europe:
+                        The Example of Western Bohemia, 1700–1850. V: Thane Path, Silvia Sovič in
+                        Paolo Viazzo (ur.). <hi rend="italic">The History of Families and
+                            Households: Comparative European Dimensions</hi>, 232–55. Leiden,
+                        Boston: Brill, 2015. </bibl>
+                    <bibl>Vošnjak, Josip. Dolgost človeškega življenja. <hi rend="italic"
+                            >Ljubljanski zvon</hi> 9/1, 1889, 28–34.</bibl>
+                    <bibl>Zeitlhofer, Hermann. Arbeit und Alter in ländlichen Gesellschaften der
+                        Frühen Neuzeit. Die Erwerbstätigkeit im Alter zwischen eigenem Besitz und
+                        den Zwängen einer "Ökonomie des Auskommens". <hi rend="italic">Jahrbuch für
+                            Wirtschaftsgeschichte / Economic History Yearbook</hi> 1 (2008): 32–55. </bibl>
+                    <bibl>Zeitlhofer, Hermann. <hi rend="italic">Besitzwechsel und sozialer Wandel.
+                            Lebensläufe und sozioökonomische Entwicklungen im südlichen Böhmerwald,
+                            1640–1840</hi>. Wien, Köln, Weimar: Böhlau, 2014.</bibl>
+                    <bibl>Židov, Nena. Časopisi o beračih na Slovenskem v drugi polovici 19. in v
+                        začetku 20. stoletja. <hi rend="italic">Etnolog</hi> 22, št. 1 (2012):
+                        45–64.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Periodični tisk</head>
+                    <bibl><hi rend="italic">Domoljub</hi>, 1909.</bibl>
+                    <bibl><hi rend="italic">Slovenec</hi>, 1903.</bibl>
+                    <bibl><hi rend="italic">Slovenski narod</hi>, 1873–1785, 1789, 1909.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

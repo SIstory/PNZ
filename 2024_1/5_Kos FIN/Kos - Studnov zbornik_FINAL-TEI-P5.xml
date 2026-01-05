@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Obnova mesta Kranj po požaru leta 1749<note place="foot" xml:id="ftn1" n="*"
+                        >Članek je nastal v okviru raziskovalnega programa P6–0437 <hi rend="italic"
+                            >Podoba – Besede – Znanje. Življenje idej v prostoru med vzhodnimi
+                            Alpami in severnim Jadranom 1400–1800</hi> in raziskovalnega projekta
+                        J6-2575 <hi rend="italic">Ambicije, karierizem, pohlep in prevare:
+                            socialno-materialne strategije, prakse in komunikacija družbenih elit na
+                            Slovenskem v zgodnjem novem veku</hi>, ki ju financira Javna agencija za
+                        znanstvenoraziskovalno in inovacijsko dejavnost Republike Slovenije iz
+                        državnega proračuna.</note>
+                </title>
+                <author>
+                    <forename>Dušan</forename>
+                    <surname>Kos</surname>
+                    <roleName>Dr.</roleName>
+                    <roleName>znanstveni svetnik</roleName>
+                    <affiliation>ZRC SAZU, Zgodovinski inštitut Milka Kosa</affiliation>
+                    <address>
+                        <addrLine>Novi trg 2</addrLine>
+                        <addrLine>1000 SI-Ljubljana</addrLine>
+                    </address>
+                    <email>dusan.kos@zrc-sazu.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date/></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/4283</pubPlace>
+                <date>2023</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">64</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Kranj</term>
+                    <term>the middle of the 18<hi rend="superscript">th</hi> Century</term>
+                    <term>fire</term>
+                    <term>damage</term>
+                    <term>reconstruction of the town</term>
+                    <term>population</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>Kranj</term>
+                    <term>sreda 18. stoletja</term>
+                    <term>požar</term>
+                    <term>škoda</term>
+                    <term>obnova</term>
+                    <term>prebivalstvo</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2024-02-19T08:23:26Z</date>
+                    <name>Mihael Ojsteršek</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Dušan Kos<note place="foot" xml:id="ftn2" n="**"><hi rend="bold">Dr.,
+                        znanstveni svetnik, ZRC SAZU, Zgodovinski inštitut Milka Kosa, Novi trg 2,
+                        SI-Ljubljana, </hi><ref target="mailto:dusan.kos@zrc-sazu.si"><hi
+                            rend="bold">dusan.kos@zrc-sazu.si</hi></ref>; <hi rend="bold">ORCID:
+                        </hi><hi rend="bold">0000-0001-8440-0949</hi></note>
+            </docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="DOI">https://doi.org/10.51663/pnz.64.1.04</idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">Avtor je raziskal posledice požara, ki je leta 1749 uničil
+                        večino mesta Kranj. Na podlagi številnih popisov škode in dopisov med
+                        mestnimi oblastmi, deželnimi in državnimi uradi je ugotavljal razloge za
+                        katastrofo (pomanjkanje vode v mestu), obseg škode, življenje meščanov med
+                        obnovo ter načrte in načine sanacije v obdobju dvajsetih let. Državne
+                        oblasti so le deloma sofinancirale obnovo s finančnimi dotacijami ter
+                        omejenimi davčnimi oprostitvami. Glavno breme so nosili prebivalci, zato je
+                        revitalizacija mesta trajala dolgo. Predvsem zaradi umanjka denarja pa že
+                        sicer zadolženo mesto kljub začetnim širokopoteznim idejam ni dobilo
+                        urbanistične in protipožarno ustreznejše podobe, kot jo je imelo že v
+                        srednjem veku. Nekaj večjih sprememb v mestu je nastalo šele po novem
+                        velikem požaru leta 1811.</hi></p>
+                <p><hi rend="italic">Ključne besede: Kranj, sreda 18. stoletja, požar, škoda,
+                        obnova, prebivalstvo </hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head>THE RECONSTRUCTION OF KRANJ AFTER THE FIRE OF 1749</head>
+                <p><hi rend="italic">The author investigated the consequences of the fire that
+                        destroyed most of the town of Kranj in 1749. Based on numerous damage
+                        inventories and correspondence between the town authorities and regional and
+                        state offices, he determined the reasons for the disaster (lack of water in
+                        the town), the extent of the damage, life in the town during the
+                        reconstruction, and the plans and methods of rehabilitation over a period of
+                        twenty years. The state authorities only partially co-financed the
+                        renovation with financial grants and limited tax exemptions. The townspeople
+                        bore the majority of the burden, which is why the revitalisation of Kranj
+                        took a long time. Mainly due to the lack of money and despite the ambitious
+                        initial ideas, the town, which was already in debt, was not notably
+                        urbanised or improved in terms of fire prevention compared to the Middle
+                        Ages. Some of the more notable changes in Kranj did not take place until the
+                        aftermath of another disastrous fire in 1811.</hi></p>
+                <p><hi rend="italic">Keywords: Kranj, the middle of the 18<hi rend="superscript"
+                            >th</hi> century, fire, damage, reconstruction of the town,
+                        population</hi></p>
+            </div>
+        </front>
+        <body>
+            <p>Andrej Studen se je od svojih raziskovalnih začetkov v drugi polovici 80. let
+                prejšnjega stoletja veliko posvečal urbanizaciji, kulturi, vsakdanjemu življenju in
+                socialni strukturi mest in meščanov v 18. in 19. stoletju. Čeprav je imel največ
+                veselja z rodnim Celjem in Štajersko, pa so Andreja zanimale tudi tovrstne raziskave
+                iz drugih regij, tudi iz gorenjskega Kranja.</p>
+            <p>Od srede 18. stoletja požari v večjih slovenskih mestih praviloma niso več povzročali
+                katastrofalnih škod, so jih pa še naprej v protipožarno slabše nadzorovanih manjših
+                mestih, trgih in predmestjih. V terezijanski dobi je imel na Slovenskem izjemno hude
+                posledice požar v najpomembnejšem gorenjskem mestu, ki je izbruhnil 20. avgusta 1749
+                med četrto in peto popoldansko uro. To ni bil običajen mestni požar z omejenim
+                obsegom, ki bi ga povzročila človeška nepazljivost pri ravnanju z ognjem v kuhinji
+                ali neočiščen dimnik. V širši javnosti je kmalu zaokrožila govorica, da ga je na
+                treh krajih hkrati zanetila mestna drhal med nemiri zaradi posledic gospodarske in
+                finančne krize v Kranju.<note place="foot" xml:id="ftn3" n="1">Na to je namignil
+                    celo tržaški notar Antonio Scussa v svojem dnevniku (Braun, <hi rend="italic">I
+                        Diari</hi>, 355), domnevo pa leta 1786 ponovil Anton Friedrich Büsching v
+                    svetovnem leksikonu (Büsching, <hi rend="italic">Erdbeschreibung</hi>, 250). Gl.
+                    Žontar, <hi rend="italic">Kranj</hi>, 379.</note> Ali je šlo le za domnevo, ne
+                vemo. Oblasti kasneje namreč niso iskale krivcev in sodnega epiloga ni bilo. Morda
+                zaradi ukvarjanja s pomembnejšimi zadevami, morda v izogib vzbujanja hude krvi med
+                prizadetim prebivalstvom.<note place="foot" xml:id="ftn4" n="2">V sicer redkih še
+                    ohranjenih kazenskih spisih Deželnega sodišča za Kranjsko ni sledu o
+                    procesiranju krivcev za kranjski požar. – SI AS 307, B Kazenski spisi,
+                    Najstarejši kazenski spisi, šk. 1.</note> Ta požar pa je bil tako velik, da je
+                svetnik Reprezentance in komore za Kranjsko (od leta 1747 glavni državni oblastni
+                urad v deželi) Franc Henrik baron Raigersfeld tistega večera skupaj lahko z več
+                zijali iz svojega stanovanja na Mestnem trgu 17 v Ljubljani (bilo je prikladno
+                visoko v njegovi palači) opazoval soj požara, ki je uničeval dvaindvajset kilometrov
+                oddaljeno mestece.<note place="foot" xml:id="ftn5" n="3">SI AS 730, knj. 165, <hi
+                        rend="italic">Diaria 1746–1750</hi>, 570.</note></p>
+            <div>
+                <head>Razlogi in obseg požara</head>
+                <p>Kranjčani so se vedno zavedali, da je mesto na visokem pomolu nad sotočjem rek
+                    Kokra in Sava požarno izjemno ogroženo. Po svežo vodo so od davnine morali
+                    hoditi v Kokro in Savo, saj so se v mestu na konglomeratnem pomolu lahko do leta
+                    1770, ko so z vodno črpalko zagotovili stalno vodooskrbo, opirali le na
+                    zbiralnike deževnice na dvoriščih nekaterih hiš.<note place="foot" xml:id="ftn6"
+                        n="4">Poleg nedelujočega vodnjaka na današnjem Glavnem trgu (s konca 15.
+                        stoletja) je bilo še nekaj vodnjakov na dvoriščih hiš premožnih meščanov ter
+                        na dvorišču gradu Khislstein, ki pa so se napajali iz deževnice. Na problem
+                        mestne vodooskrbe je opozoril tudi Valvasor. – Valvasor, <hi rend="italic"
+                            >Die Ehre</hi>, <hi rend="italic">XI,</hi> 111.</note> Tudi zato so npr.
+                    že v 17. stoletju omejili rabo odprtega ognja oz. ognjišč v mestu: meščani niso
+                    smeli doma peči kruha, marveč so to lahko počeli le v javnih krušnih pečeh.<note
+                        place="foot" xml:id="ftn7" n="5"> Žontar, <hi rend="italic">Kranj</hi>, 171,
+                        205, 238. Avguštin, <hi rend="italic">Kranj</hi>, 52, 53, 55, 56, 75.</note>
+                    Med ljudstvom pa je že dolgo veljal prastar rek, da je v mestu več vina kot
+                    vode: leta 1752 so komisarji v tem majhnem mestu našteli kar 33 vinotočev in tri
+                        pivovarne.<note place="foot" xml:id="ftn8" n="6"> Valvasor, <hi
+                            rend="italic">Die Ehre</hi>, <hi rend="italic">XI</hi>, 111. SI AS 174,
+                        šk. 260, priloga št. 18. Leta 1786 so v mestu uradno – tj. obdavčeno –
+                        iztočili (prodali) 59.000 bokalov vina (83.190 l), 7740 bokalov žganic
+                        (10.913 l) in 6600 bokalov piva (9306 l). – Žontar, <hi rend="italic"
+                            >Kranj</hi>, 248.</note> (Mimogrede: približno toliko raznoraznih barov,
+                    gostilnic in podobnih lokalov je bilo v starem Kranju še pred sto leti in jih je
+                    še danes.) Ker so se tudi gasilci morali oskrbovati z vodo za gašenje iz obeh
+                    rek, leta 1749 niso imeli prav nobene možnosti za hitro omejitev velikega požara
+                    v mestu, kjer je bilo še veliko hiš lesenih oz. takih z lesenim nadstropjem;
+                    zlasti v predmestjih, a tudi na gospodarskih poteh med meščanskimi hišami in
+                    zadnjimi dvorišči. </p>
+                <figure>
+                    <head>Slika 1: Matthaeus Merian: Veduta mesta Kranj, 1649, kolorirana grafika
+                        (najbrž iz let 1662–1672). Pogled na Kranj z jugozahoda</head>
+                    <graphic url="Slika%201.jpg"/>
+                    <note n="">Vir: Merian, <hi rend="italic">Topographia</hi>, 1649, s. p. Fototeka
+                        Gorenjskega muzeja, Kranj</note>
+                </figure>
+                <p>Po zapisu v mrliški knjigi župnije Kranj naj bi pogorelo kar 290 poslopij v mestu
+                    in obeh predmestjih, umrlo pa dvajset oseb, starih med dvanajst in sedemdeset
+                    let. Žrtev bi bilo gotovo še več, če bi požar izbruhnil ponoči. Nesrečnike so
+                    pokopali naslednji dan na pokopališču ob župnijski cerkvi.<note place="foot"
+                        xml:id="ftn9" n="7">SI NŠAL, ŽA Kranj, Mrliška knjiga 1733–1771, 102. V
+                        zapisu se omenja še 20 upepeljenih kmečkih hiš/pristav (<hi rend="italic"
+                            >villas</hi>).</note> Po podatkih kranjskega mestnega sveta v prošnji
+                    deželni kneginji Mariji Tereziji za ustanovitev komisije za preiskavo in pomoč
+                    so od skupaj 239 hiš v mestu in dveh predmestjih v komaj pol ure od zanetenja
+                    ostale cele le štiri mestne cerkve (župnijska cerkev sv. Kancijana in tovarišev,
+                    Roženvenska cerkev, cerkev sv. Fabijana, Boštjana in Roka na Pungartu ter
+                    špitalska kapela sv. Lenarta in sv. Antona), mestni špital, onstran obzidja pa
+                    kapucinski samostan in enajst lesenih koč v Savskem predmestju. Le od 20 do 24
+                    hišnim lastnikom je uspelo delno rešiti premoženje, pogorele so baje tudi vse
+                    zaloge živil. Večine prizadetih stavb menda ni bilo mogoče popraviti.<note
+                        place="foot" xml:id="ftn10" n="8">Prepis poziva z dne 26. 8. 1749. – SI AS
+                        6, šk. 98.</note></p>
+                <p>Tožba o popolni katastrofi, žrtvah in škodi niti ni zelo pretirana, kot je bilo
+                    sicer običajno v starih kronikah in legendah, a tudi ne povsem točna. Gotovo so
+                    bile le delno poškodovane večje zidane meščanske hiše, predvsem na (današnjem)
+                    Glavnem trgu (ta je bil razmeroma prostran in dostopen za gašenje), ki z
+                    ohranjenimi gotskimi in renesančnimi arhitekturnimi elementi še danes pričajo o
+                    zgraditvi veliko pred letom 1749: npr. stara sodna (mestna) hiša (Glavni trg 2),
+                    Pavšlarjeva hiša (Glavni trg 18), mestni dvorci Khislstein (Tomšičeva 44),
+                    baronov Flödnig (»Petrčkova hiša«, Glavni trg 6) in meščanov Jugovicev (danes
+                    »stara mestna hiša« na Glavnem trgu 4), glavna (»cesarska«) mitnica (Tavčarjeva
+                    35) ter še nekaj hiš v središču mesta in na obrobju.<note place="foot"
+                        xml:id="ftn11" n="9">Gl. omembe in analizo posameznih hiš v: Avguštin, <hi
+                            rend="italic">Kranj</hi>, 54, 68–72, 75, 77, 78.</note> To je posredno
+                    razvidno tudi iz poročila, ki ga je za deželno kneginjo Marijo Terezijo 22.
+                    septembra 1749 sestavil baron Raigersfeld po predhodni preučitvi poročila
+                    gorenjskega okrožnega glavarja Antona Janeza barona Tauffererja z dne 10.
+                    septembra. Tudi Raigersfeldovo poročilo kot skoraj ali povsem nepoškodovane
+                    omenja župnijsko cerkev, mestno hišo, »zgornjo mitnico« pred mestom, šolo in več
+                    poslovnih lokalov (hiš), le malo poškodovano je bilo mestno obzidje.<note
+                        place="foot" xml:id="ftn12" n="10"> SI AS 6, šk. 98. Podoben zapis z istim
+                        datumom je v zbirki prepisov poročil predsednika Reprezentance Janeza
+                        Seifrida grofa Herbersteina v SI AS 6, šk. 167, kodeks 1749/2.</note> K manj
+                    poškodovanim objektom moramo dodati še »spodnjo« mitnico in tisto na mostu čez
+                    Savo. V resnici so mitnice in mestno hišo, kot bomo videli v nadaljevanju, v
+                    naslednjih dveh letih precej popravljali. Morda zaradi poškodovanosti v požaru
+                    ali pa le zaradi zanemarjenosti.</p>
+                <p>O obsegu požara posredno priča višina ocenjene škode: po prijavi 152 lastnikov
+                    hiš v mestu in obeh predmestjih so jo konec leta 1752 ocenili na 38.872
+                    goldinarjev. <figure>
+                        <head>Slika 2: Valentin Metzinger: Novo župnišče v Kranju, 1759, olje na
+                            platnu. Na levi so pokopališki zid, mežnarija in šola z lesenima
+                            nadstropjema in strehama (danes jih ni več); desno sta sadovnjak in
+                            pollesena hiša Gašperja Beje (danes Glavni trg 7).</head>
+                        <graphic url="Slika%202.jpg"/>
+                        <note n="">Slika v kranjskem župnijskem uradu - Hrani: Fototeka Gorenjskega
+                            muzeja, Kranj</note>
+                    </figure> To je bilo sicer celo nekaj tisočakov manj, kot je znašala ocenjena
+                    škoda v požaru 11. avgusta 1668, ko je baje pogorela tretjina poslopij (90) med
+                    Glavnim trgom in severnim robom mesta: v celoti 60 hiš in deset hlevov ter
+                    kostniška kapela, deloma še 20 hiš.<note place="foot" xml:id="ftn13" n="11"
+                        >Osnutek dopisa Reprezentance knjigovodji Antonu Ksaverju pl. Marottiju z
+                        dne 14. 12. 1752 s seznamom pogorelcev in škodnimi zahtevki (SI AS 6, šk.
+                        98) ter Žontar, <hi rend="italic">Kranj</hi>, 200, 201. Podobno velja za
+                        oceno škode v velikem požaru v Škofji Loki leta 1660 (Kos, Strast, 60–62).
+                        Zanimivo pa je, da je v spisih rektifikacijske komisije iz 50. let 18.
+                        stoletja večkrat zapisana drugačna letnica tega požara – 1683! – SI AS 174,
+                        šk. 260.</note> S pomočjo seznama, ki zajema le slabi dve tretjini zasebnih
+                    lastnikov hiš, povsem pa izpušča javne objekte, je mogoče približno
+                    rekonstruirati obseg požara ali vsaj epicentre. Lokacije na seznamu neomenjenih
+                    hiš namreč kažejo, da so se določeni mikropredeli izognili najhujšemu. To bi
+                    lahko veljalo za nekatere že omenjene hiše na Glavnem trgu ter osamele in
+                    vogalne hiše v sklenjenih vrstah hiš v obeh vzporednih stranskih ulicah ter za
+                    osamele hiše v predmestjih. Seveda pa neomenjanje tretjine hiš ne pomeni nujno
+                    njihove nepoškodovanosti.<note place="foot" xml:id="ftn14" n="12">To je mogoče s
+                        pridržki storiti s povezovanjem podatkov s škodnega seznama iz leta 1752, iz
+                        popisa prebivalstva iz leta 1754, mestnega urbarja iz leta 1759,
+                        franciscejskega katastra iz leta 1826 in identifikacij hišnih lastnikov v
+                        Žontarjevi mestni zgodovini. Nekaj lastnikov hiš s seznama iz leta 1752 ni
+                        mogoče zanesljivo lokalizirati.</note></p>
+                <figure>
+                    <head>Slika 3: Marko Layer<hi rend="italic">:</hi> Izsek iz slike »Sv. Florijan
+                        gasi požar v Savskem predmestju«: pogled na dvorec Khislstein, Roženvensko
+                        cerkev in (pol)lesene hiše od mitnice na savskem mostu ter »pod mestnimi
+                        spodnjimi vrati« (današnja Vodopivčeva ulica), okoli leta 1772</head>
+                    <graphic url="Slika%203.jpg"/>
+                    <note n="">Prednja platnica knjige pekovskega ceha iz leta 1772, zasebna last -
+                        Hrani: Fototeka Gorenjskega muzeja, Kranj</note>
+                </figure>
+            </div>
+            <div>
+                <head>Načrtovanje obnove in težavno iskanje sredstev</head>
+                <p>V deželni Reprezentanci, ki je bila zadolžena za požarno zaščito ter sanacije
+                    posledic požarov in naravnih nesreč,<note place="foot" xml:id="ftn15" n="13">V
+                        arhivu Deželnega glavarstva na Kranjskem so okrožnice in poročila o večjih
+                        požarih in naravnih nesrečah (poplavah in plazovih) v habsburških deželah v
+                        letih 1751–1783 (SI AS 7, šk. 17, mapa Publico-Politica F-3, št. 1; šk. 18,
+                        mapa Publico-Politica F-3, št. 2; šk. 22, mapa Publico-Politica F-9, št. 1
+                        in 2). Za leta 1747–1775 je največ gradiva o požarih in protipožarnih
+                        ukrepih v Ljubljani v šk. 20, mapa Publico-Politica F-8, št. 1, 2, ter v šk.
+                        21, mapa F-8, št. 3. Nekaj gradiva je še v arhivu Reprezentance in komore za
+                        Kranjsko (SI AS 6) v šk. 97.</note> so se že nekaj dni po požaru začeli
+                    pogovarjati o pomoči pogorelcem in sistematični sanaciji. Obenem so bili v
+                    stalnih stikih z vladarico oz. osrednjo vlado (<hi rend="italic">Directorium in
+                        publicis et cameralibus</hi>), ki je v njenem imenu obravnaval zadevo. (Vse
+                    dopise je podpisal predsednik Friedrich Wilhelm grof Haugwitz.) V načrtovanju
+                    sanacije mesta je bilo mogoče že zaznati postopke in cilje državno nadzorovanega
+                    in birokratsko vodenega projekta urbanistične prenove, ki jo je finančno
+                    nadzorovala in usmerjala država – s poprejšnjo podreditvijo magistratov okrožnim
+                    glavarjem in vladi. Terezijanska politika pa je v tistih letih šele
+                    vzpostavljala svojo novo državno finančno in upravno strukturo, zato velikih
+                    rezultatov v kratkem času še ni bilo mogoče pričakovati. Uspešnost so hromili
+                    počasno načrtovanje in odločanje, prelaganje odgovornosti med uradi, proračunske
+                    omejitve in pravne ovire ter nasprotovanje pomoči s strani nekaterih deželnih
+                    političnih deležnikov.</p>
+                <p>Predvsem zaradi pomanjkanja vode za gašenje v mestnem jedru ter urbanistične
+                    »iregularitete« (tj. preozkih ulic), kar bi se moralo nujno spremeniti,<note
+                        place="foot" xml:id="ftn16" n="14">Izrecno že v prvih obvestilih predsednika
+                        Reprezentance grofa Herbersteina okrožnemu glavarju Tauffererju (osnutek) in
+                        prepisu poročila kranjskega magistrata Mariji Tereziji z dne 26. 8. 1749. –
+                        SI AS 6, šk. 98.</note> so v Reprezentanci v začetku razmišljali res
+                    širokopotezno – kar o preselitvi mestne naselbine bliže reki Savi. Mislili so na
+                    lokaciji pri starem župnišču cerkve sv. Martina na območju današnje železniške
+                    postaje ali še dlje na severozahodu, v bližini vasi Naklo. Po posvetu z okrožnim
+                    glavarjem Tauffererjem so ostali pri obstoječi lokaciji – predvsem zaradi
+                    prevelikih stroškov selitve in ugodne lege ob glavni deželni cesti na Koroško,
+                    bližine več rudnikov in kovačij, uveljavljenih tedenskih sejmov itd.
+                    Tauffererjeva argumentacija je bila tehtna: območje pri stari šmartinski cerkvi
+                    je preveč izpostavljeno poplavljanju Save. Preselitev vstran od deželne ceste in
+                    okoliških vasi bi gospodarsko škodovala mestu in erarju, oteževala premike
+                    vojaških enot, meščani bi se morali odpovedati svojim hišnim parcelam itd. Za
+                    nameček so na Gorenjskem zemljišča draga in pogorelci bi težko prišli do novih
+                    parcel, je Taufferer opozoril še na večno slovensko nepremičninsko resnico. To
+                    bi se sicer dalo deloma ublažiti, ker je na območju poleg Udenboršta (velik
+                    državni gozd med vasema Mlaka in Križe) ob deželni cesti še precej
+                    nekultiviranih zemljišč in dovolj tekoče vode, selitev pa ne bi bila težka, če
+                    bi država pomagala pogorelcem pri odkupu zemljišč. </p>
+                <p>Tako je kmalu prevladalo mnenje, naj se mesto in hiše obnovijo na starih
+                    temeljih; navsezadnje so cerkve, obzidje, nekaj gospodarskih lokalov in
+                    kapucinski samostan nedotaknjeni, selitev pa bi povzročila erarju preveč
+                    stroškov. Taufferer je še predlagal, da bi v mesto napeljali vodo iz Kokrice
+                    (gotovo je mislil na potok, in ne na istoimensko vas tri kilometre severno od
+                    mesta) in postavili osrednji vodnjak na Trgu (današnjem Glavnem trgu), kjer so
+                    bili tedaj še vidni ostanki starega vodnjaka in neuspešnih poskusov napajanja z
+                    vodo iz Save z začetka 17. stoletja. Za postavitev in financiranje novega
+                    vodnjaka na istem mestu je že pozno jeseni 1749 zaprosil kranjski mestni svet,
+                    Taufferer pa je Reprezentanci predlagal gradnjo dveh javnih vodnjakov.<note
+                        place="foot" xml:id="ftn17" n="15">Prepis vladaričinih resolucij z dne 20.
+                        12. 1749 (SI AS 6, šk. 181) in 10. 5. 1750 (SI AS 6, šk. 182, fol. 134<hi
+                            rend="superscript">v</hi>) ter Herbersteinovo poročilo za vladarico z
+                        dne 29. 4. 1750, ki omenjata meščanske in Tauffererjeve predloge z dne 30.
+                        3. 1750 (SI AS 6, šk. 168, kodeks 1750/1).</note> Vodnjak na Glavnem trgu,
+                    ki je bil najpomembnejša nova infrastrukturna pridobitev, so po zamisli in pod
+                    nadzorom vojaškega inženirja poročnika Alexandra pl. Thieryja začeli graditi
+                    naslednje leto in ga na mestne stroške dogradili do konca leta 1751.<note
+                        place="foot" xml:id="ftn18" n="16">Novoizvoljeni mestni sodnik Jurij Čebulj,
+                        ki je prišel 5. 5. 1751 v Ljubljano k Raigersfeldu zaradi uradne prisege, je
+                        pojasnil, da bo »akvadukt« kmalu dosegel mesto: dotlej so položili že 1600
+                        cevi iz borovega lesa (vsaka cev je bila dolga dve klaftri oz. 3,8 metra),
+                        skupaj torej 6080 metrov; manjkalo je še 150 cevi. Osem tesarjev je vsak dan
+                        izvrtalo 26 cevi, vsaka cev je stala deset soldov, skupaj bo strošek
+                        cevovoda torej približno 175 goldinarjev (brez stroškov za izkop kanala in
+                        drugega). Vodnjak, ki ga bo napravil kamnosek iz Škofje Loke, bo stal 250
+                        goldinarjev, inženir Thiery pa je imel dogovorjen pavšal v višini 300
+                        goldinarjev (SI AS 730, knj. 166, <hi rend="italic">Diaria 1751–1756</hi>,
+                        72, 73). Trasa, tehnična izvedba in cena cevovoda pa danes nikakor niso
+                        jasne: če bi vodo zajeli na najbolj oddaljeni točki (na izviru Kokrice) in
+                        bi vodovod pripeljali do mesta v ravni črti, bi zadoščali le okoli štirje
+                        kilometri cevi, in ne kar 6,6 kilometra. Če bi vodo zajemali bližje mestu,
+                        pa še manj. Še manj razumljiva je cena. V Trstu so v skoraj istem času
+                        (septembra 1751) dokončali vodovod s tremi vodnjaki, ki je bil dolg le 3,8
+                        kilometra (polovica cevi je bila lončena, polovica lesena). Ta projekt je po
+                        besedah vodje projekta Johanna Baptista pl. Haasa iz Idrije stal mesto
+                        skoraj 11.000 goldinarjev (SI AS 730, knj. 166, <hi rend="italic">Diaria
+                            1751–1756</hi>, 205).</note> Vodnjak, ki se je, sodeč po dolžini
+                    cevovoda, napajal iz potoka daleč od vasi Kokrica, v naslednjih dveh desetletjih
+                    nikoli ni dobro deloval. To se je zgodilo šele po udejanjenju projekta patra
+                    Gabrijela Gruberja leta 1770, ki je zagotovil zadovoljivo črpanje vode iz
+                    bližnje reke Save.<note place="foot" xml:id="ftn19" n="17">Žontar, <hi
+                            rend="italic">Kranj</hi>, 238.</note></p>
+                <p>Reprezentanca se je tako osredinila na novo urbanizacijo s širšimi ulicami in
+                    zidanimi hišami z opečnatimi strehami. Taufferer je predlagal, naj se prepove
+                    zidanje na starih temeljih, zlasti v obeh stranskih ulicah – Svinjski ulici na
+                    vzhodu (današnji Tavčarjevi) ter Konjski in Rožni na zahodu (današnji Tomšičevi)
+                    ter v njunih povezavah z osrednjim trgom oz. ulico (današnji Jenkova in Poštna
+                    ulica). Sposoben inženir naj bi izdelal načrte s širšimi in ravnimi ulicami. Za
+                    odstranjene objekte bi lastnikom dodelili zemljišča zunaj severnega obzidja pri
+                    kapucinskem samostanu. Drugam se mesto zaradi obzidja in strmih bregov ni moglo
+                    širiti.</p>
+                <p>Reprezentanca se je strinjala z glavarjevim predlogom, da poškodovanih zidanih
+                    hiš v preozkih ulicah nima smisla obnavljati, takoj pa naj obnovijo poškodovane
+                    javne zgradbe (cesarsko mitnico, hiši mestnega učitelja in pisarja); povsem naj
+                    se tudi prepreči gradnja lesenih hiš. Le pri predlogu o obveznem prekrivanju
+                    novih streh z opečno ali skrilasto kritino so imeli pomislek, ker dragi gradbeni
+                    materiali niso bili dostopni revnejšim meščanom.</p>
+                <p>Okrožni glavar je imel v mislih še gospodarske ukrepe, npr. ukinitev nekaj
+                    neprivilegiranih tedenskih sejmov v okoliških vaseh in vzpostavitev novih cehov,
+                    a je Reprezentanca ocenila, da je prvo v nasprotju z »deželno policijo«, drugo
+                    pa z državnim komerčnim načelom. (Cehe so v tistih letih že sistematično
+                    omejevali.) Deželni kneginji je raje predlagala, naj prebivalce in nove
+                    naseljence za deset let oprosti rednega davka in kontribucije, tujcem (obrtnikom
+                    profesionistom) pa omogoči brezplačno pridobitev meščanske pravice. Odločno,
+                    predvsem zaradi pravnih zadržkov, je odsvetovala dodelitev dohodka podružnične
+                    mitnice v Medvodah (letno 255 goldinarjev), ki je bila v lasti Kranja od leta
+                    1728 (za obdavčitev tistih, ki bi se izognili kranjski mitnici na mostu čez
+                    Savo). Svetniki niso spregledali tistega, kar so notranjeavstrijske oblasti v
+                    Gradcu pred dvema desetletjema: vladarico so opozorili, da gre skozi medvoško
+                    mitnico tudi blago na škofjeloško ozemlje in drugam, ki sicer nikoli ne bi
+                    prečkalo kranjskih mitnic. (Leta 1728 so se trgovci takemu poskusu prisile že
+                    uprli z nasiljem.<note place="foot" xml:id="ftn20" n="18">Prav tam, 224,
+                        225.</note>)</p>
+                <p>Vlada, deželna kneginja in deželna Reprezentanca so se zavedale, da denarja za
+                    vse zamisli ni niti ga nikoli ne bo. Kranjčani so vladarico sicer prosili, da
+                    jim spregleda plačilo 1360 goldinarjev letnega vinskega daca, a jim je bila
+                    pripravljena izkazati milost le pri »požarnem davku«. S tem terminom ni bila
+                    mišljena uvedba izrednega davka za pomoč mestu, marveč vladarjeva arbitrarno
+                    določena izredna oz. enkratna denarna pomoč, v 18. stoletju lahko pospremljena z
+                    začasno oprostitvijo plačila nekaterih rednih davkov. Pri požarnem davku in
+                    pomoči pri vseh naravnih nesrečah pa bi morali z okoli četrtino vsote nujno
+                    sodelovati tudi deželni stanovi,<note place="foot" xml:id="ftn21" n="19">Osnutek
+                        Raigersfeldovega dopisa kranjskemu magistratu z dne 12. 12. 1749 (SI AS 6,
+                        šk. 98). O »požarnem davku« v 17. stoletju gl. Mensi, <hi rend="italic"
+                            >Geschichte I</hi>, 312–15.</note> zato je vladarica k sodelovanju pri
+                    iskanju finančnih virov hotela prisiliti tudi dotlej povsem nezainteresirane
+                    kranjske deželne stanove. Že 29. oktobra 1749 jih je pozvala, naj pomagajo
+                    Kranjčanom v smislu predlogov, ki jih je pripravil svetnik Ministerialne bančne
+                    deputacije in Direktorija »in publicis et cameralibus« Anton Maria Stupan pl.
+                    Ehrenstein, ki se je tedaj mudil v Ljubljani zaradi nekih drugih zadev. Stanovi
+                    so mečkali in deželna kneginja je decembra 1749 poziv zaostrila z novo
+                    resolucijo, Reprezentanci pa čez nekaj dni še s svojim dekretom: kljub dani
+                    načelni obvezi stanovi o pomoči niso podali nobenega predloga, medtem ko je
+                    mesto obupno prosilo pomoči. Reprezentanca je zato od stanov še enkrat zahtevala
+                        predloge.<note place="foot" xml:id="ftn22" n="20"> Izvleček iz resolucije z
+                        dne 29. 10. 1749 in izvirnik resolucije z dne 6. 12. 1749 ter dekret z dne
+                        12. 12. 1749. – SI AS 6, šk. 98.</note> Pozive so izdajali na osnovi določil
+                    državne uredbe z dne 6. 10. 1748. Dolžnost opravljanja cenitve škode zaradi
+                    požarov in drugih naravnih nesreč ter epidemij na terenu je bila naložena
+                    okrožnim uradnikom. Okrožni glavar je njihovo poročilo poslal deželni Deputaciji
+                    (Reprezentanci), zadolženi, da s stanovi oblikuje mehanizem za pomoč. (Pomoč je
+                    bila glede na obseg škode predvidena v eno-, dvo- ali triletnih
+                        bonifikacijah.)<note place="foot" xml:id="ftn23" n="21">Priloga k patentu o
+                        vojaških komisijah v SI AS 1079, šk. 3a.</note></p>
+                <p>Vladarica in Direktorij sta dotlej ugotovila, da gre pri (ne)sodelovanju več
+                    deželnih uradov za sistemsko težavo, in sta čez nekaj dni predpisala, kako naj v
+                    prihodnosti delujejo deželne oblasti v primerih sanacij posledic vseh naravnih
+                    nesreč: Reprezentanca se mora s stanovi dogovoriti o pomoči in nato poslati
+                    skupen predlog na Dunaj, nato pa naj uresničijo vladno odločitev. Raigersfeld je
+                    čez nekaj dni v imenu Reprezentance ta ukaz posredoval še deželnim
+                        stanovom.<note place="foot" xml:id="ftn24" n="22"> Izvirnik resolucije z dne
+                        20. 12. 1749 in osnutek Raigersfeldovega dopisa z dne 30. 12. 1749.– SI AS
+                        6, šk. 98.</note> Ti so odgovorili šele čez dva tedna, češ da ne razpolagajo
+                    z nikakršnim finančnim skladom za primere, kot je kranjski – ne za posameznike,
+                    kaj šele za cela mesta. To sploh ni bilo res: prav stanovi so leta 1668 revnim
+                    pogorelcem v Kranju spregledali redni davek za tri leta v višini 1022
+                    goldinarjev, potem ko jim je cesar Leopold I. odobril za 1500 goldinarjev
+                    požarnega davka.<note place="foot" xml:id="ftn25" n="23">Žontar, <hi
+                            rend="italic">Kranj</hi>, 201.</note></p>
+                <p>Reprezentanca je na pogajanja s stanovskim poverjeniškim uradom (nekakšnim
+                    stalnim sekretariatom) poslala svojega pogajalsko najbolj taktnega in sposobnega
+                    svetnika Raigersfelda, a tudi on na pogajanjih ni slišal nobenega predloga.
+                    Stanovi so imeli dober izgovor: sami so morali leta 1749 in 1750 pomagati še
+                    drugim prizadetim v naravnih ujmah, tudi svojim (plemiškim) članom, a vsem ni
+                    bilo mogoče ugoditi drugače kot s spregledom davka za pogorelce za dve leti.
+                    Mestu Kranj, ki pa je dobilo državno podporo (požarni davek), zato niso mogli
+                    (hoteli) pomagati. Kranjčane so priporočili vladaričini milosti, ki naj jim
+                    pomaga iz svoje blagajne ali iz sredstev za deželo Koroško, ki takih ujm ni
+                        doživela.<note place="foot" xml:id="ftn26" n="24"> Prepis poročila za
+                        deželno kneginjo (izvod za Reprezentanco) z dne 25. 6. 1754. – SI AS 6, šk.
+                        98.</note> Reprezentanca je avgusta 1750, skoraj na obletnico požara,
+                    dvignila roke in deželni kneginji sporočila, da, kar se tiče stanov, Kranjčane
+                    prepušča njeni milosti oz. pomoči Ministerialne bančne deputacije z urbarialnim
+                        davkom.<note place="foot" xml:id="ftn27" n="25">Osnutek dopisa vladarici, ki
+                        ga je sestavil svetnik Jošt Vajkard grof Barbo z dne 22. 8. 1750. – SI AS 6,
+                        šk. 98.</note> Reprezentanca je stanove šele junija 1754 opomnila, naj si z
+                    lastnimi sredstvi čim prej ustvarijo sklad za pomoč revnim, iz njega pa naj jim
+                    nadomestijo tudi kontribucijo.<note place="foot" xml:id="ftn28" n="26">Osnutek
+                        dekreta z dne 7. 6. 1754. – SI AS 6, šk. 98.</note></p>
+                <p>Deželna kneginja je še vedno pričakovala določitev finančnih temeljev sklada za
+                    pomoč, ki naj bi imel po njenem mnenju vsaj 12.000 goldinarjev. Za pridobitev
+                    tako visokih zneskov je Direktorij septembra 1750 imenoval komisijo v sestavi:
+                    deželni upravitelj Leopold grof Lamberg, Franc Karel grof Hohenwart in generalni
+                    prejemnik Janez Ignacij baron Apfaltrer, ki je delo končala decembra. Komisarji
+                    so predlagali, naj posebna komisija preuči finančno poslovanje mesta, po vzoru
+                    drugih mest naj se organizirata požarna družba in požarni sklad, kjer bi se
+                    zbiral denar. Vladarica je ukazala Reprezentanci, naj poročilu doda še izkaz o
+                    načinu regulacije mestnih dohodkov in izdatkov, s čemer bi bilo mogoče tudi
+                    črtati mestne dolgove, morebiten presežek pa uporabiti v korist mesta.<note
+                        place="foot" xml:id="ftn29" n="27">Izvirnik resolucije z dne 12. 9. 1750 in
+                        dva njena prepisa Reprezentance za komisijo ter resolucija z dne 30. 1.
+                        1751. – SI AS 6, šk. 98; prepis prve resolucije je tudi v šk. 182.</note>
+                    »Regulacija« je v tem primeru pomenila državni nadzor pri večanju dohodkov in
+                    okleščenju izdatkov oz. sekvester.</p>
+                <p>S tem se je iskanje denarja preusmerilo iz državnega/deželnega proračuna k
+                    finančnim zmožnostim mesta Kranj. V resnici je požar leta 1749 mesto zajel v
+                    najslabšem možnem trenutku oz. stanju. Deželna in državna politika sta prav tam
+                    trčili na večen in običajno težko rešljiv problem majhnih skupnosti: več kot
+                    stoletje trajajočo gospodarsko stagnacijo in (samo)upravljavsko zanikrnost,
+                    finančno korupcijo in samovoljo. Tudi zaradi naravnih nesreč vse od začetka 17.
+                    stoletja (požarov, poplav, kužnih bolezni) in posledičnih davčnih zaostankov,
+                    stroškov širitve in vzdrževanja prometne infrastrukture itd. mesto ni bilo
+                    sposobno sofinancirati obnove iz lastnih rednih prihodkov. Mestni svet je dotlej
+                    zastavljal svoje nepremičnine, verižil dolgove in se posledično vsakih nekaj let
+                    soočil z rubežem mestnih dohodkov. Računovodstvo je bilo neurejeno, niso
+                    izterjevali mestnih dolžnikov in imeli urbarja mestnih posesti itd. Že od leta
+                    1717 je svet prepuščal svojim upnikom v večletni užitek mestne dohodke. Leta
+                    1724 je mestna zadolžitev dosegla že skoraj 30.000 goldinarjev in deželni
+                    vicedom je izdelal sanacijski program: kar sam je imenoval vodilne mestne
+                    funkcionarje in objavil njihove poslovnike ter odredil način odplačevanja
+                    davčnih zaostankov. Po pritožbi meščanov je notranjeavstrijska vlada v Gradcu
+                    razveljavila te ukrepe, a poslala nova komisarja, ki sta od magistrata zahtevala
+                    račune o dolgovih. Ker tega niso storili, je vicedom leta 1728 spet uvedel
+                    prisilno upravo s komisarjem, ki je imenoval funkcionarje, oklestil izdatke in
+                    uredil zakupnine: do leta 1734 je uspel poplačati 10.000 goldinarjev dolgov in
+                    naredil načrt za poplačilo ostalih, ustvaritev presežka in izboljšanje
+                    življenjskih razmer. Meščani v notranjem mestnem svetu so se spet pritožili in
+                    leta 1737 uspeli odstraniti prisilno upravo. Odtlej so spet vladali enako
+                    nesposobno kot prej: funkcionarji so si dvignili plače, samovoljno odmerjali
+                    davke, gojili korupcijo in nepotizem, izkoriščali in zanemarjali revne
+                    someščane, zapravljali mestni denar. Mestni dolg je spet rasel.<note
+                        place="foot" xml:id="ftn30" n="28">Žontar, <hi rend="italic">Kranj</hi>,
+                        207, 222–34. </note></p>
+                <p>Tako leta 1749 nihče v Ljubljani in na Dunaju ni vedel, kakšne so realne mestne
+                    finance in sposobnost financiranja obnove. Reprezentanca je za ukazano že peto
+                    ali od leta 1704 kdove katero racionalizacijo kranjskih mestnih dohodkov in
+                    izdatkov imenovala komisarja Leopolda Livija Schwaba pl. Lichtenberga in
+                    glavarja Tauffererja. Šele septembra 1751 je ukazala tudi uradu
+                    deželnostanovskih poverjenikov, naj zaslišijo zakupnike mestnih dohodkov.
+                    Predsednik poverjeniškega urada Kajetan Avguštin grof Wildenstein je čez nekaj
+                    dni obvestil deželno kneginjo o opravljeni preiskavi mestnih finančnih tokov ter
+                    zatrdil, da so zakupniki že predali svoje pravice. Medlo je opozoril, da že
+                    izvajana zaplemba mestnih dohodkov ne sme ovirati dela mitnice.<note
+                        place="foot" xml:id="ftn31" n="29">Osnutek dekreta za komisarja z dne 27. 2.
+                        1751, osnutek dekreta za urad poverjenikov z dne 9. 9. 1751 in prepis
+                        poročila urada za deželno kneginjo z dne 11. 9. 1751. – SI AS 6, šk. 98.
+                    </note></p>
+                <p>Šele po tem je lahko tudi Reprezentanca izdala svoje poročilo o kranjskih
+                    financah. Avtor, svetnik Henrik Jožef knez Auersperg, je vladarico obvestil o
+                    preiskavi in predlogih za uravnoteženje proračuna; glavna komisarja sta
+                    naračunala letnih dohodkov za 5314 goldinarjev, izdatkov pa za 5161 goldinarjev.
+                    Znotraj tega so bile najbolj sporne plače. Plačo mestnega sodnika (v obdobju
+                    požarne sanacije) so meščani npr. zvišali s 34 na 100 goldinarjev, mitničar pa
+                    je prejemal 40 goldinarjev, čeprav sploh ni bil meščan. Poleg njegove plače bi
+                    iz mestnih izdatkov kazalo izločiti tudi mestne dotacije za cerkve, cerkveno
+                    odvetništvo, plači za mestnega učitelja in cerkvenega organista (ker dela za
+                    Cerkev, ne pa za »publico«), za kar je magistrat v obdobju 1749–1751 izplačal
+                    kar 1905 goldinarjev in s tem zelo povečal mestni dolg.<note place="foot"
+                        xml:id="ftn32" n="30">Mesto je sicer že dolgo plačevalo tudi mestnega župana
+                        (ali oskrbnika), blagajnika, sindika, pisarja, bobnarja, sla, svetnike
+                        notranjega sveta, stražnike, vratarje, cerkovnike, oskrbnika kruharne in
+                        pastirje; precej pa je potrošilo tudi za razne redne nagrade, priložnostna
+                        darila in slavja. – Žontar, <hi rend="italic">Kranj</hi>, 205.</note>
+                    Prihodke od 19 celih in ene petšestinske mestne hube in žitne desetine bi bilo
+                    treba dati v zakup na licitaciji ali kar naprodaj. Tako bi z dohodki iz zgornje,
+                    spodnje in mostne mitnice ter z vsem drugim lahko letni presežek spravili celo
+                    nad 2000 goldinarjev. Skratka: mestni dohodki bi se lahko povečali s skrbnejšo
+                    in varčnejšo upravo, pri čemer naj bi se magistrat izogibal samovoljnim
+                        izplačilom.<note place="foot" xml:id="ftn33" n="31">Prepis poročila z dne
+                        24. 9. 1751. – SI AS 6, šk. 98.</note>
+                </p>
+                <p>Finančno stanje je bilo še slabše, kot sta iz starih predlog ugotovila izredna
+                    komisarja. Poročilo, ki ga je 28. 10. 1751 v Kranju podpisal rektifikacijski
+                    komisar Jožef Anton pl. Vermatti, je bilo bliže trdi resnici: mestne oblasti so
+                    mu zagotovile, da od someščanov med letoma 1749–1751 zaradi požara niso pobrale
+                    nič denarja iz naslova rednih davkov in kontribucije, zato je bilo tedaj
+                    realiziranih dohodkov za 2796 goldinarjev, izdatkov pa le za 1886 goldinarjev! V
+                    tistih dveh letih je šlo še dodatnih 1424 goldinarjev za popravilo mestne hiše
+                    in mitnice. Torej so realni letni izdatki v omenjenih letih dosegli okoli 2598
+                        goldinarjev.<note place="foot" xml:id="ftn34" n="32">SI AS 174, šk. 260,
+                        seznam D.</note> Kranjski mestni svetniki so razumeli, da se jim obeta novo
+                    zategovanje pasu in so oktobra 1751 v Ljubljani svetnika Raigersfelda ustno
+                    prosili za posredovanje pri deželni kneginji za pomoč, mestni sodnik Jurij
+                    Čebulj pa nekaj mesecev pozneje še glede mitnice na savskem mostu.<note
+                        place="foot" xml:id="ftn35" n="33"> SI AS 730, knj. 166, <hi rend="italic"
+                            >Diaria 1751–1756</hi>, 144, 242. Mitnica na mostu je bila po besedah
+                        mestnega sodnika do maja 1752 dana v zakup za letnih 1717 goldinarjev, po
+                        vladnih načrtih pa naj bi šla polovica dohodkov za popravila mostu, druga
+                        polovica pa za mestne potrebe (obnova mesta). – Prav tam, 243. </note></p>
+                <p>Dunajski odločevalci so se s kleščenjem mestnih izdatkov seveda strinjali in
+                    mestu ukazali redno plačevanje kontribucije in davkov. Nekaj previdnosti so
+                    izkazali le pri spornih plačah, katerih pravno osnovo bi Reprezentanca morala
+                    pred črtanjem preveriti. Kasneje so plače ostale na seznamu, vendar so bile
+                        znižane.<note place="foot" xml:id="ftn36" n="34"> Mestni sodnik je spet
+                        prejemal le 34 goldinarjev, pisar 118 goldinarjev, blagajnik 60 goldinarjev,
+                        učitelj 20 goldinarjev, organist 25 goldinarjev, mežnar 3 goldinarjev, trije
+                        mestni čuvaji po 25 goldinarjev (nato 30) itd. (obračun mestnih izdatkov v
+                        letih 1764/65 v: SI ZAL KRA 2, šk. 1, a. e. 6).</note>
+                </p>
+                <p>Po teh zapletih je Dunaj le odobril izredno državno denarno požarno pomoč.<note
+                        place="foot" xml:id="ftn37" n="35">Osnutek resolucije z dne 6. 11. 1751 in
+                        osnutek Auerspergovega obvestila o resoluciji kranjskemu magistratu z dne
+                        19. 11. 1751. – SI AS 6, šk. 98.</note> Ta je pod naslovom »požarni davek«
+                    skupaj znašala 4000 goldinarjev iz državnega kameralnega presežka. Višina je
+                    bila v skladu s požarnimi davki za deželnoknežja mesta,<note place="foot"
+                        xml:id="ftn38" n="36">Primeri požarne pomoči za štajerska mesta v 17.
+                        stoletju so v: Mensi, <hi rend="italic">Geschichte I</hi>, 315 in <hi
+                            rend="italic">Geschichte III</hi>, 56.</note> izplačana pa naj bi bila v
+                    štiriletnih obrokih in po kvartalih (po 250 goldinarjev vsake tri mesece). Fond
+                    je polnil Kameralni carinski urad. Polovico vsote so namenili za plačilo
+                    kontribucije, polovico za dejansko škodo na hišah. Vsa pomoč je šla neposredno
+                    posameznikom, in ne mestu kot pravnemu subjektu. Poraba polovice pomoči za škodo
+                    je bila prepuščena hišnim lastnikom. </p>
+                <p>Zahtevke je konec leta 1752 najavilo 152 zasebnih lastnikov hiš v skupni višini
+                    38.872 goldinarjev za neposredno škodo ter še za 527 goldinarjev hišnega davka
+                    in 609 goldinarjev kontribucije. Skupna škoda je pomenila desetkratno vsoto
+                    državne pomoči. Podeljene subvencije posameznikom so bile v skladu z določilom
+                    iz leta 1749, da nihče ne more dobiti več kot 100 goldinarjev, in so zato
+                    dosegale le približno od sedem do deset odstotkov (od šest do 70 goldinarjev) od
+                    prijavljene škode. Ta je znašala od 60 do 1100 goldinarjev na hišo, največ
+                    prijav pa je bilo med 100 in 400 goldinarjev. Okoli 80 hišnih lastnikov ni
+                    prijavilo škode, da bi izpolnili pogoj za prejem subvencije.<note place="foot"
+                        xml:id="ftn39" n="37">Osnutka dopisov Glavnemu računskemu uradu
+                        Reprezentance z dne 19. 11. 1751 in knjigovodji Antonu Ksaverju pl.
+                        Marottiju z dne 14. 12. 1752 s seznamom pogorelcev in škodnimi zahtevki ter
+                        osnutek poročila Reprezentance deželni kneginji z dne 27. 1. 1753 s seznamom
+                        upravičencev do podpore. – SI AS 6, šk. 98.</note> Med prijavitelji so bili
+                    tudi nekateri najpremožnejši meščani, ki pa strogo po dikciji deželnoknežjih
+                    resolucij niso mogli pričakovati subvencij – te naj bi dobili predvsem revni
+                        pogorelci.<note place="foot" xml:id="ftn40" n="38"> Na seznamu je ostalo
+                        sedem od štirinajstih premožnih mestnih podjetnikov (Matevž Benedičič,
+                        Martin Galle, Anton Forger, Janez Duller, Janez Karel Vizintin, Janez Kren,
+                        Jernej Pavlič), ki so prijavili med 400 in 1000 goldinarjev škode in so
+                        morali leta 1759 vplačati državno posojilo. Imena šestih najbogatejših
+                        meščanov, ki so tudi prijavili škodo (Marija Katarina Jugovic, Janez Andrej
+                        Krabat, Jurij Čebulj, Janez Peter Romaldt, Franc Simon Jugovic in Janez
+                        Viljem Hubenhoffer), pa je bilo kmalu črtanih s seznama. – Valenčič,
+                        Trgovina, 219.</note> Tudi javne zgradbe niso dobile subvencije iz tega
+                    fonda. Zlasti nekateri revnejši pogorelci (še) niso bili pripravljeni in
+                    sposobni obnavljati hiš. V mestih revni prebivalci niso bili vezani na
+                    nepremičnine (gostači jih niti niso imeli) in so bili bolj mobilni. Že po požaru
+                    leta 1668 so nekateri izjavljali, da se bodo raje izselili kot obnovili svoje
+                    hiše, zato je bilo pred požarom leta 1749 v mestu še vedno precej zapuščenih hiš
+                    iz požara izpred osmih desetletij, katerih pravni status in namembnost sta bila
+                    spremenjena v vrtove.<note place="foot" xml:id="ftn41" n="39">Žontar, <hi
+                            rend="italic">Kranj</hi>, 207, 222–34.</note> Tudi leta 1749 so se
+                    nekateri raje izselili, kot pa da bi životarili: npr. ugledni in premožni mestni
+                    sindik Jurij Mihelič, ki mu je Raigersfeld novembra 1749 podaril dvoje starih
+                    vrat, ki jih je Raigersfeld med prenovo že prej odstranil iz svoje ljubljanske
+                    hiše. Z Miheličem sta se poznala že od prej, jeseni 1749 in pozimi 1750 pa je
+                    bil sindik večkrat pri njem v Ljubljani. Aprila 1750 se je Mihelič z družino
+                    preselil v Ljubljano in stopil v službo k baronom Codellijem kot upravnik
+                    gospostva Turn ob Ljubljanici. V njegovi za silo obnovljeni hiši na Svinjskem
+                    trgu 33 (tik pred Kokrškim mostom, ki je danes ni več; kasneje so jo imenovali
+                    »Podrtina«), pri kateri je ocenil 300 goldinarjev škode, so nato živeli le
+                        gostači.<note place="foot" xml:id="ftn42" n="40">SI AS 730, knj. 165, <hi
+                            rend="italic">Diaria 1746–1750</hi>, 626, 630, 735. <hi rend="italic"
+                            >Gorenjske družine</hi>, 279. Žontar, <hi rend="italic">Kranj</hi>,
+                        389.</note></p>
+                <p>Do maja 1753 je okrožni glavar Taufferer upravičencem proporcionalno po višini
+                    prijavljene škode izplačal 1486 goldinarjev, ne glede na njihove davčne dolgove
+                    (prisilnega poračuna ni bilo).<note place="foot" xml:id="ftn43" n="41"
+                        >Tauffererjevo poročilo z dne 23. 5. 1753 in prepis prošnje magistrata za
+                        deželno kneginjo z dne 30. 5. 1754. – SI AS 6, šk. 98.</note> Mestne oblasti
+                    so od vladarice pričakovale tudi oprostitev plačila kontribucije in rednega
+                    davka za računsko leto 1749, saj so bili leta 1754 blagajni deželnih stanov
+                    dolžni 2218 goldinarjev, še posebej, ker do leta 1751 niso pobrale od svojih
+                    meščanov nič iz naslova splošnih davkov in kontribucije. Stanovi niso bili tako
+                    uvidevni kot deželna kneginja. Na sodišče so vložili zahtevek za zaplembo
+                    mestnih dohodkov, saj so jim še leta 1754 meščani lahko plačali le za 653
+                    goldinarjev davka in 836 goldinarjev kontribucije, stanovi pa so mestu določili
+                    za 899 goldinarjev davka in 1121 goldinarjev kontribucije. Mesto je moralo
+                    odšteti še 200 goldinarjev za vzdrževanje cest (planirali so le 150 goldinarjev)
+                    in višjih stroškov od načrtovanih je bilo za skoraj 300 goldinarjev.<note
+                        place="foot" xml:id="ftn44" n="42">Prepis prošnje magistrata za deželno
+                        kneginjo z dne 30. 5. 1754. – SI AS 6, šk. 98.</note></p>
+                <p>Državne in deželne oblasti so delo končale leta 1755, ko so bili izplačani še
+                    zadnji obroki pomoči.<note place="foot" xml:id="ftn45" n="43">Do 10. 11. 1754 je
+                        okrožni glavar Taufferer poleg leta 1753 izplačanih 1486 goldinarjev nakazal
+                        v Kranj še 1245 goldinarjev (prepis poročila z dne 10. 11. 1754 s priloženim
+                        spiskom prejemnikov v SI AS 6, šk. 98).</note> Tako zelo zamudno
+                    izplačevanje se tudi v naslednjih desetletjih, pravzaprav pa vse do danes, ni
+                    nič spremenilo. Pospešila ga ni niti državna uredba z dne 16. julija 1773, ki je
+                    po številnih pritožbah prizadetih o večletnih zaostankih določila vsaj to, da so
+                    morali okrožni uradi odtlej voditi časovnice naravnih nesreč in skladno z njimi
+                    pomoč izplačati lokalnim skupnostim.<note place="foot" xml:id="ftn46" n="44">
+                        <hi rend="italic">Theresianisches Gesetzbuch 1770–1773</hi>, št. 1497,
+                        608.</note>
+                </p>
+            </div>
+            <div>
+                <head>Obnavljanje hiš in življenje mestnega prebivalstva med obnovo</head>
+                <p>O številčnem in pravnem stanju mestnega nepremičninskega fonda, njegovi obnovi
+                    ter hišnih lastnikih in stanovalcih v letih 1751–1759 imamo več statističnih
+                    podatkov, ki pa so v mnogočem nejasni.</p>
+                <p>Še med davčno rektifikacijo leta 1751 in aprila 1752 so komisarji dvakrat
+                    prešteli nepremičnine in vsakič prišli do števila 200 lastnikov zasebnih hiš in
+                    požganin v mestu in še 47 v obeh predmestjih. Poleg teh so popisali še
+                    nepremičnine v lasti mesta in cerkvenih ustanov, ki so bile oproščene
+                        davkov.<note place="foot" xml:id="ftn47" n="45">SI AS 174, šk. 260, prilogi
+                        E iz 28. 10 1751, 177–217 in št. 2 iz 14. 4. 1752, 8–40.</note></p>
+                <p>Popis prebivalstva iz junija ali julija 1754 vsebuje podrobnosti o vseh mestnih
+                    družinah (s tem pojmom mislim na skupnost jedrne družine, stranskih sorodnikov
+                    in služinčadi) s skupaj 1467 prebivalci v 210 hišah, kar je bilo manj kot v 16.
+                    stoletju. S poudarjenimi rubrikami pa popis zavaja glede števila hiš in njihovih
+                    stanovalcev. S strogim upoštevanjem rubrik bi namreč našteli le 101 naseljeno
+                    poslopje, število stanovalcev v posameznih hišah, ki po večini niso bile velike,
+                    pa bi bilo nenormalno visoko. Tako bi bilo iz rubrike o stanovalcih v majhni
+                    mitnici pri zgornjih mestnih vratih (danes poslopja ob Koroški cesti ni več)
+                    mogoče soditi, da je v njej poleg mitničarjeve družine (šestih oseb v dveh sobah
+                    s kuhinjo) živelo še osem družin s skupaj 32 člani v osmih sobah in petih kamrah
+                    z dvema kuhinjama v šestih gospodinjstvih.<note place="foot" xml:id="ftn48"
+                        n="46">
+                        <hi rend="italic">Gorenjske družine</hi>, 277.</note> Kar sedemnajst družin
+                    pogorelcev (enajst gospodinjstev) z 82 člani naj bi stanovalo v mitnici ob
+                    spodnjih mestnih vratih (danes Sejmišče 2) v enajstih sobah in enajstih kamrah
+                    skupaj z družino mitničarja (ena soba, ena kamra).<note place="foot"
+                        xml:id="ftn49" n="47">Prav tam, 281, 282.</note> V graščini Khislstein naj
+                    bi poleg osemnajstčlanske družine lastnika Janeza Seifrida barona Apfaltrerja s
+                    služinčadjo (devet sob, pet kamr, dve kuhinji) živelo še enajst gostaških družin
+                    iz neposredne soseščine v šestih gospodinjstvih (enajst sob, štirinajst kamr,
+                    dve kuhinji) s skupaj 54 člani.<note place="foot" xml:id="ftn50" n="48">Prav
+                        tam, 291, 292.</note> Rekord pa naj bi imela hiša dedičev Jerneja Pogačnika
+                    na mestnem trgu (danes Prešernova 6 in 8), kjer naj bi poleg štiričlanske
+                    družine duhovnika Janeza Nikolaja Pogačnika (v sobi, dveh kamrah s kuhinjo) v še
+                    dvanajstih gospodinjstvih živelo osemnajst gostaških družin z iste ulice s 101
+                    članom – skupaj neverjetnih 105 oseb.<note place="foot" xml:id="ftn51" n="49"
+                        >Prav tam, 289, 290.</note> Podobnih primerov je v popisu še več, skoraj
+                    vedno pa je nehoteno zavajanje pri rubrikah, ki se začenjajo z »Gostači v hiši
+                    gospoda XY« (<hi rend="italic">Inwahner in des XY Haus</hi>). Očitno je
+                    sestavljavec popisa s tako rubriko meril le na prvo naslednjo družino v
+                    nadaljevanju, ne pa tudi na naslednje vse do nove rubrike. Imena vodij večine
+                    teh družin je namreč mogoče najti tudi na drugih seznamih, ki razkrivajo, da je
+                    šlo za lastnike hiš, pri katerih so lahko stanovali tudi gostači brez hiš.
+                    Primerjava imen s franciscejskim katastrom iz leta 1826 omogoča tudi
+                    lokalizacijo teh hiš.<note place="foot" xml:id="ftn52" n="50">To je za Kranj z
+                        novimi predmestji med obema vojnama s pritegnitvijo drugih virov leta 1939
+                        napravil že Josip Žontar. – Žontar, <hi rend="italic">Kranj</hi>,
+                        386–426.</note></p>
+                <p>Le nekaj tednov mlajši je seznam lastnikov naseljenih zasebnih hiš v mestu in
+                    obeh predmestjih, ki ga je 6. septembra 1754 podpisal mestni sodnik Janez Peter
+                    Romaldt. Nosilci stanovanjske pravice po večini ustrezajo imenom v popisu
+                    prebivalstva, nekaj stanovalcev pa se je v vmesnih tednih zamenjalo. Seznam v
+                    mestu in obeh predmestjih izpričuje 213 hiš oz. hišnih lastnikov (<hi
+                        rend="italic">Hauser-Wohnungen</hi>). Za vsako hišo je navedeno njihovo
+                    število stanovanjskih delov: vse hiše so skupaj premogle le 332 sob (<hi
+                        rend="italic">Zimmer</hi>), 350 sobic ali kamr (<hi rend="italic"
+                        >Cammer</hi>), 134 kuhinj (<hi rend="italic">Küchl</hi>) in le 32 obrtnih
+                    lokalov (<hi rend="italic">Gewölber</hi>).<note place="foot" xml:id="ftn53"
+                        n="51">SI AS 174, šk. 260, priloga št. 13, 278–95.</note></p>
+                <p>V letih 1757–1759 je nastal seznam 70 meščanov brez hiš. Poleg nekaj hišnih
+                    lastnikov, ki očitno še niso niti za silo obnovili svojih hiš, vsebuje predvsem
+                    imena gostačev brez hiš, a z meščansko pravico.<note place="foot" xml:id="ftn54"
+                        n="52">Prav tam, priloga št. 19. Hišna lastnika na tem seznamu sta bila le
+                        Jožef Layer in Janez Viljem Hubnerhoffer. Leta 1754 je njegovo hišo imela
+                        (morda mati) Katarina (<hi rend="italic">Gorenjske družine</hi>, 290). K
+                        dataciji: seznam je podpisal mestni sodnik Janez Karel Vizintin, ki je imel
+                        to funkcijo v letih 1757–1759 (Žontar, <hi rend="italic">Kranj</hi>, 230).
+                    </note> Najbrž je v tem času nastal tudi seznam 51 lastnikov s »slabimi hišami«,
+                    oproščenih davkov.<note place="foot" xml:id="ftn55" n="53">SI AS 174, šk. 260,
+                        nedatirana in nepodpisana priloga št. 22, 367, 368. </note> Osebe na obeh
+                    seznamih se omenjajo v popisu prebivalstva iz leta 1754, tako kot že omenjeni
+                    seznam oškodovancev iz leta 1752. Imena lastnikov vseh vrst nepremičnin v mestu
+                    in predmestjih, obrtnikov, davčnih zavezancev in prostih davkov vsebuje še
+                    izvleček mestnega urbarja iz leta 1759.<note place="foot" xml:id="ftn56" n="54"
+                        >SI ZAL 2, šk. 1, a. e. 1.</note></p>
+                <p>Soočenje teh seznamov razkriva nekaj kranjskih postkatastrofičnih bivanjskih
+                    vzorcev. Pogorelci so se na svoje stroške in ne oziraje se na ideje o preselitvi
+                    mesta takoj lotili obnove hiš in stanovanj, tako kot je bilo običajno pred
+                    uvedbo zbirokratiziranega gradbenega postopka – nedoumljivo hitro za današnjo z
+                    pravno-upravnimi standardi obremenjeno družbo. Hiše so praviloma obnavljali na
+                    starih temeljih – tako kot je bilo v navadi od davnine in je še danes.
+                    Priporočil o vzpostavitvi protipožarno ustreznejšega uličnega rastra in
+                    ustreznih materialov (brez lesa za strehe itd.) že zaradi pomanjkanja denarja
+                    vsi niso mogli upoštevati. Oktobra 1751 je bilo še največ neobnovljenih hiš v
+                    stranskih ulicah (Svinjska, Mesarska, Roženvenska in Konjska ulica, Pungart),
+                    medtem ko so bile hiše v središču (Trg) obnovljene. Do aprila 1752 se je število
+                    popravljenih hiš povečalo, vendar je bila več kot polovica hiš v mestu še naprej
+                    oproščena hišnega davka.</p>
+                <p>Obnovljene hiše so bile različne po velikosti, odvisno od socialne strukture
+                    lastnikov, starih osnov in njihove lege. Posledica tega je bila stanovanjska
+                    stiska. Večina lastnikov je dotlej usposobila za bivanje eno ali dve sobi v
+                    hiši, morda še kakšno kamro, dve ali tri, v katerih se je stiskalo več družin.
+                    Niti svojih kuhinj vsa gospodinjstva (družine) niso imela. Več prostorov so
+                    pričakovano imele hiše na mestnem trgu (današnja Prešernova ulica in Glavni
+                    trg), kjer so vedno živeli premožnejši meščani. Tako je npr. mestni sodnik Jurij
+                    Čebulj svojo hišo na Spodnjem Trgu (danes Glavni trg 18 – »Pavšlarjeva hiša«),
+                    ki – sodeč po ohranjenih renesančnih stavbnih elementih in fragmentih fresk
+                    znotraj hiše – ni bila zelo poškodovana, obnovil že leta 1750 brez kakršne koli
+                    državne subvencije.<note place="foot" xml:id="ftn57" n="55">Sodeč po podnapisu k
+                        mlajši freski sv. Florijana na hišnem pročelju: <hi rend="smallcaps"
+                            >Heiliger Florian dv edler Held Dich hab ich zvm Havsbeschvtzer erwällt.
+                            Renovatvm primo 1750 ac itervm</hi> [poškodovano].</note> V veliki hiši
+                    pa so leta 1754 živeli le on, žena in služkinja; hiša je sicer imela dve sobi,
+                    sedem kamr, kuhinjo, poslovni lokal in hlev. Daleč največ sob, po štirinajst,
+                    sta seveda imela dvorec Khislstein (v požaru najbrž le malo poškodovan) in
+                    povsem novo župnišče, ki ga je v reprezentativnem baročnem slogu dal zgraditi
+                    stari župnik Janez Jakob Schilling.<note place="foot" xml:id="ftn58" n="56">SI
+                        AS 174, šk. 260, priloga št. 13.</note> Vse to potrjuje besede mestnih
+                    svetnikov, da naj bi vsi lastniki do leta 1754 »vsaj na zunaj« spravili svoje
+                    hiše v dobro stanje. Toda precej novih in obnovljenih hiš v stranskih ulicah je
+                    bilo spet (pol)lesenih (npr. obnovljena mežnarija in šola; gl. sliko 2), zidana
+                    poslopja v celem mestu pa so še dolgo izpričevala arhitekturno neambicioznost in
+                    finančno podhranjenost večine investitorjev. Tudi avtor opisa mesta v t. i.
+                    »jožefinski deželni izmeri« iz let 1784/85 je zapisal, da je večina hiš v mestu
+                    sicer zidanih, a je veliko teh le enonadstropnih.<note place="foot"
+                        xml:id="ftn59" n="57">
+                        <hi rend="italic">Slovenija na vojaškem zemljevidu</hi>, 113. Gl. še Žontar,
+                            <hi rend="italic">Kranj</hi>, 247. Avguštin, <hi rend="italic"
+                            >Kranj</hi>, 94, 95.</note></p>
+                <p>Še dolgo po požaru je bilo 51 hiš v tako slabem stanju, da lastniki zanje niso
+                    plačevali davkov, čeprav so bile spet naseljene. Stale so v Kapucinskem
+                    predmestju (pri zgornjih mestnih vratih) 6, v Svinjski in Župniščni ulici (danes
+                    Tavčarjevi) 6, na Pungartu (danes Cankarjeva ulica in Trubarjev trg) 7, ob
+                    spodnjih vratih (danes Vodopivčeva ulica) 3, na mestnem trgu (danes Prešernova
+                    ulica in Glavni trg) 7, v Konjski in Rožni ulici (danes Tomšičevi ulici) 16.
+                    Pomenljivo je, da so njihovi lastniki prijavili razmeroma nizko požarno škodo
+                    (do 300 goldinarjev), le dva sta prijavila za 600 oz. 1000 goldinarjev
+                        škode.<note place="foot" xml:id="ftn60" n="58"> Matej Rakovec iz Rožne ulice
+                        (danes Tomšičeve) 600 goldinarjev in Janez Jernej Struppi s Trga (danes
+                        Prešernove ulice) 1000 goldinarjev. – SI AS 174, šk. 260, nedatirana priloga
+                        št. 22, 367, 368.</note></p>
+                <p>Več družin je še vsaj pet let po požaru gostovalo v hišah lastnikov, ki pa so
+                    živeli v svoji drugi hiši.<note place="foot" xml:id="ftn61" n="59">Tako je npr.
+                        šestčlanska družina lastnika Janeza Dulerja živela sama v hiši s tremi
+                        sobami, štirimi kamrami in tremi kuhinjami na današnji Prešernovi ulici, v
+                        drugi hiši na Pungartu z dvema sobama, eno kamrico in eno kuhinjo pa sta
+                        živeli dve gostaški družini z osmimi člani. – SI AS 174, šk. 260, priloga
+                        št. 13, zaporedni št. na seznamu 57 in 154. <hi rend="italic">Gorenjske
+                            družine</hi>, 280, 289.</note> V nasprotju s to dobrososedsko sliko je
+                    treba priznati, da nekateri lastniki obnovljenih ali skoraj nepoškodovanih hiš
+                    niso odprli vrat sosedom, čeprav so imeli dovolj prostora.<note place="foot"
+                        xml:id="ftn62" n="60"> Poslopja cesarske mitnice na Svinjski ulici (danes
+                        Tavčarjeva 37), mestnih dvorcev meščanov Jugovicev s petimi sobami, šestimi
+                        kamrami in dvema kuhinjama na Trgu (danes Glavni trg 4) in Khislsteina z
+                        devetimi sobami, petimi kamrami in dvema kuhinjama na Rožni ulici (danes
+                        Tomšičeva ulica 44), župnišča s štirinajstimi sobami (Tavčarjeva ulica 43)
+                        in še nekatere zasebne hiše. – <hi rend="italic">Gorenjske družine</hi>,
+                        275–96. SI AS 174, šk. 260, priloga št. 13, zaporedne št. 51, 128,
+                        171.</note> V nekaterih hišah so poleg meščanov brez svojih hiš (teh je bilo
+                    70) začasno stanovali tudi lastniki sosednjih hiš, ki jih do leta 1754 še niso
+                    obnovili in so se precej kasneje vselili v svoje hiše.<note place="foot"
+                        xml:id="ftn63" n="61">Taka sta bila npr. Franc Rubežnik iz spodnjega
+                        predmestja, ki je z družino začasno stanoval v hiši Janeza Peternela, in
+                        Jožef Layer s Konjske ulice (danes Tavčarjeva 22), ki je z družino živel v
+                        hiši Martina Poglajna na Prešernovi ulici. – <hi rend="italic">Gorenjske
+                            družine</hi>, 283, 288.</note> Oboji so imeli status meščanskih
+                    »gostačev« (<hi rend="italic">burgerliche Inwahner</hi>), med njimi so bili celo
+                    štirje berači.<note place="foot" xml:id="ftn64" n="62">SI AS 174, šk. 260,
+                        priloga št. 18.</note> Med njimi so bili tudi obrtniki, ki so najprej
+                    obnovili poslovne lokale, stanovali pa kot stalni gostači in bili zato označeni
+                    v popisu obrtnikov kot »unbehauste«.<note place="foot" xml:id="ftn65" n="63"
+                        >Seznam iz leta 1752 v SI AS 174, šk. 260, 332–48.</note> Stalni gostači
+                    brez meščanstva pa so bili označeni le kot »gostači«. Nekaj jih je živelo tudi v
+                    poslopjih špitala in mestne hiše.</p>
+                <p>Pogorelci so v naslednjih letih zlagoma obnovili večino preostalih hiš, seveda s
+                    svojim denarjem in/ali z lastnim delom. Leta 1752 večina (182) zasebnikov v
+                    mestu še ni plačevala nepremičninskega davka (pač pa so imeli že določeno
+                    kontribucijo), nato so to vprašanje sistemsko uredili: do leta 1769 so
+                    obnovitelji uživali petletno oprostitev vseh davkov, nato pa desetletno. Mestni
+                    urbar iz leta 1759 jih je sicer že vodil kot naseljene in zavezane davkom. Tedaj
+                    so našteli še 62 »pogorišč« (<hi rend="italic">Brandstätten</hi>), tj. hišnih
+                    parcel, ki so jih lastniki po požaru spremenili v vrtove in oddajali premožnim
+                    someščanom. Ker vsi lastniki niso imeli želje ali možnosti za pozidavo, so v
+                    letih 1756–1759 najemniki z njihovim dovoljenjem oz. kot novi lastniki sami
+                    pozidali 23 takih pogorišč,<note place="foot" xml:id="ftn66" n="64">SI ZAL 2,
+                        šk. 1, a. e. 1. SI AS 174, šk. 260, seznami novozgrajenih hiš od leta 1757
+                        naprej.</note> v letih 1761–1780 pa še vsaj enajst.<note place="foot"
+                        xml:id="ftn67" n="65">SI AS 174, šk. 260, seznami novogradenj iz let
+                        1761–1780.</note> Te novogradnje niso stale ob centralni mestni ulici
+                    (Mesarska in Trg, današnji Maistrov trg, Prešernova ulica in Glavni trg), marveč
+                    na skromnejšem severnem obrobju v zgornjem predmestju (danes Na Skali), v
+                    osrednjem predelu v Konjski ulici (danes Reginčeva in Tomšičeva), severovzhodnem
+                    delu (Svinjska ulica, danes Tavčarjeva), na že prej slabo poseljenem južnem
+                    predelu (Župniščna ulica, danes Cankarjeva in Tavčarjeva ulica) in Pungartu
+                    (danes Trubarjev trg), ob spodnjih mestnih vratih (danes Vodopivčeva in
+                    Cankarjeva ulica) in južno od Khislsteina (Roženvenska ulica in Rožna ulica, obe
+                    danes Tomšičeva). O tem pričajo tudi načrti mesta iz zadnje četrtine 18.
+                    stoletja, okoli leta 1809 in 1811, ki še vedno kažejo večje neposeljene
+                    komplekse (vrtove), zlasti južno od dvorca Khislstein.<note place="foot"
+                        xml:id="ftn68" n="66">SI AS 1068, načrti Kranja 2/97, 5/80 in 5/81.
+                        Avguštin, <hi rend="italic">Kranj</hi>, 81.</note>
+                </p>
+                <figure>
+                    <head>Slika 4: Načrt mesta Kranj, 1808/09</head>
+                    <graphic url="slika%204.jpg"/>
+                    <note n="">Hrani: SI AS 1068, sign. 2_097</note>
+                </figure>
+                <p><hi rend="italic bold">Legenda:</hi>
+                    <hi rend="bold">CB</hi> – Cerkev sv. Boštjana, Fabijana in Roka. <hi rend="bold"
+                        >CK</hi> – Župnijska cerkev sv. Kancijana in tovarišev. <hi rend="bold"
+                        >CMB</hi> – Cerkev Matere Božje Roženvenske. <hi rend="bold">CM</hi> –
+                    »Cesarska« mitnica. <hi rend="bold">Fl</hi> – Dvorec baronov Flödnig. <hi
+                        rend="bold">Ju</hi> – Dvorec meščanov Jugovic. <hi rend="bold">Kh</hi> –
+                    Dvorec Khislstein. <hi rend="italic bold">Ko</hi> – Konjska ulica. <hi
+                        rend="bold">Ks</hi> – Kapucinski samostan. <hi rend="italic bold">Me</hi> –
+                    Mesarska ulica. <hi rend="bold">Mh</hi> – Mestna hiša. <hi rend="bold">Mm</hi> –
+                    Mitnica na savskem mostu. <hi rend="bold">Ms</hi> – Mitnica pri spodnjih vratih.
+                        <hi rend="bold">Mz</hi> – Mitnica pri zgornjih vratih. <hi
+                        rend="italic bold">Ro</hi> – Rožna ulica. <hi rend="italic bold">Rž</hi> –
+                    Roženvenska ulica. <hi rend="bold">Sm</hi> – Savski most. <hi rend="italic bold"
+                        >St</hi> – Spodnji trg. <hi rend="bold">Sv</hi> – Spodnja mestna vrata. <hi
+                        rend="italic bold">Sv</hi> – Svinjska ulica. <hi rend="bold">Šp</hi> –
+                    Mestni špital. <hi rend="bold">Vo</hi> – Mestni vodnjak. <hi rend="italic bold"
+                        >Zt</hi> – Zgornji trg. <hi rend="bold">Zv</hi> – Zgornja mestna vrata. <hi
+                        rend="bold">Žp</hi> – Župnišče. <hi rend="italic bold">Žu</hi> – Župniščna
+                    ulica.</p>
+                <p><hi rend="italic">Zidane hiše so bile izvorno obarvane rožnato, lesene hiše
+                        rumeno, javne zgradbe rdeče.</hi></p>
+                <p>Število naseljenih hiš v mestu in predmestjih se je do leta 1778 povečalo na 245,
+                    prebivalcev je bilo 1709. Bližalo pa se je leto 1811 in nov velik požar, zaradi
+                    katerega je mesto končno dobilo nekoliko modernejšo podobo.<note place="foot"
+                        xml:id="ftn69" n="67">Avguštin, <hi rend="italic">Kranj</hi>, 85 sl.</note>
+                    Mestne ulice so namreč dotlej bile preozke za protipožarno zaščito kljub željam
+                    oblasti. Take so še danes, z izjemo po požaru leta 1811 razširjenega severnega
+                    vstopa v mesto (Mesarska ulica, danes Maistrov trg) in Glavnega trga (nekoč
+                    Trg), ki se je do začetka 19. stoletja razširil južno od župnijske cerkve po
+                    ukinitvi pokopališča ter porušitvi stare mežnarije in šole. Obe stranski
+                    vzporedni ulici, Konjska in Svinjska (danes Tomšičeva in Tavčarjeva), ter njuno
+                    nadaljevanje do Pungarta (Cankarjeva ulica) so ostali skoraj nespremenjeni.<note
+                        place="foot" xml:id="ftn70" n="68">SI AS 1068, načrt Kranja v Franciscejskem
+                        katastru (SI AS 176, L 121 Kranj, list 05). Gl. Avguštin, <hi rend="italic"
+                            >Kranj</hi>, 79–85.</note></p>
+                <p>Meščani so takoj po požaru nadaljevali s svojim poklicnim delom. Po letu 1755 se
+                    je stabiliziralo mestno gospodarstvo, čeprav je mesto izgubilo večino dohodkov
+                    od mitnin v mestu in nekaterih davčnih, obrtnih in prometnih taks. Davčna
+                    rektifikacija leta 1754 je po navedbi mestnega sodnika Romaldta ugotovila, da je
+                    imelo mesto za 6079 goldinarjev dohodkov, izdatkov pa za 6180 goldinarjev.<note
+                        place="foot" xml:id="ftn71" n="69">Seznam v SI AS 174, šk. 260.</note> Mestu
+                    pa še nekaj naslednjih let ni šlo dobro. Leta 1759 so meščani po dolgem
+                    usklajevanju le sestavili pravi urbar mestne posesti, hišnih lastnikov in
+                    urejene račune.<note place="foot" xml:id="ftn72" n="70">Mestne dohodke in
+                        izdatke so celo leto 1759 pregledovali v Ljubljani v uradu okrožnega
+                        glavarja in Reprezentance. Pri tem sta imela glavno besedo glavar Taufferer
+                        in svetnik Raigersfeld. – SI AS 730, f. 199, <hi rend="italic">Diaria
+                            1758–1759</hi>, 474, 499, 505, 507, 522, 561, 577.</note> Med 1. majem
+                    1764 in 30. aprilom 1765 je mesto izkazalo za 25.762 goldinarjev nominalnih
+                    prihodkov in 24.964 goldinarjev izdatkov. Toda na strani prihodkov in izdatkov
+                    je bilo upoštevanih tudi kumulativnih 20.407 goldinarjev iz naslova zarubljenih
+                    dohodkov oz. starih mestnih dolgov. Realno letno razmerje je bilo vendarle
+                    pozitivno, saj so se izdatki od leta 1754 precej zmanjšali (5355 : 4557).<note
+                        place="foot" xml:id="ftn73" n="71">Obračun mestnega blagajnika Martina
+                        Galleta v SI ZAL KRA 2, šk. 1, a. e. 6. Leta 1758 so pobrali 1882
+                        goldinarjev v mitnici na savskem mostu, 782 goldinarjev v mitnici pri
+                        zgornjih mestnih vratih in le 115 goldinarjev v mitnici pri spodnjih vratih
+                        (urbar 1759 v SI ZAL KRA 2, šk. 1, a. e. 1). Toda od tega so morali del
+                        skupnih dohodkov izločiti, ker so bili zastavljeni – leta 1760 skupaj 1732
+                        goldinarjev (obračun za leto 1760 v SI ZAL KRA 2, šk. 1, a. e. 2).</note>
+                    Vlada je mestnemu proračunu spet dodelila mitnico v Medvodah, obenem pa je
+                    zmanjšala pravice in večala dolžnosti mest: ločila je upravo mestnega
+                    zemljiškega gospostva, financ, dobrodelnih ustanov in cerkva. To je Kranju
+                    koristilo, saj je po tem letu mestni dolg upadal.<note place="foot"
+                        xml:id="ftn74" n="72">Žontar, <hi rend="italic">Kranj</hi>, 207, 236–41,
+                        247–53.</note> Vlada je tudi zato lahko že leta 1758 v obveznem državnem
+                    »posojilu« (dežela je morala plačati 42.850 goldinarjev), ki so ga morali
+                    plačati državni in deželni uradniki ter nekatere poklicne skupine (podjetniki,
+                    trgovci, nekateri obrtniki, rentniki, odvetniki, zdravniki), štirinajstim
+                    največjim kranjskim trgovcem naložila skupaj za 1050 goldinarjev davka; več so
+                    ga bili obvezani plačati le nekateri Ljubljančani in Škofjeločani.<note
+                        place="foot" xml:id="ftn75" n="73">Valenčič, Trgovina, 217–19. Nad višino in
+                        dejstvom, da nekateri trgovci niso bili zajeti v razrezu posojila, se je
+                        delegacija Kranjčanov (tako kot tudi drugi obvezniki v deželi) decembra 1759
+                        pritožila članu dvorne komisije Raigersfeldu, ki je sodeloval pri razrezu
+                        davka. Pritožniki so imeli drugačne podatke od uradnih; navedli so osem
+                        drugih trgovcev (in še dva, ki jih poznajo tudi uradni spiski) ter za kar
+                        1150 goldinarjev davka. – SI AS 730, f. 199, <hi rend="italic">Diaria
+                            1758–1759</hi>, 593.</note> Obnova mesta je bila vsaj na papirju
+                    uspešna.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <list type="unordered">
+                    <head>Arhivski viri</head>
+                    <item>SI AS – Arhiv Republike Slovenije:<list type="unordered">
+                            <item>SI AS 6 – Reprezentanca in komora za Kranjsko v Ljubljani.</item>
+                            <item>SI AS 7 – Deželno glavarstvo na Kranjskem v Ljubljani.</item>
+                            <item>SI AS 174 – Terezijanski kataster za Kranjsko.</item>
+                            <item>SI AS 176 – Franciscejski kataster za Kranjsko.</item>
+                            <item>SI AS 307 – Deželno sodišče v Ljubljani.</item>
+                            <item>SI AS 730 – Gospostvo Dol.</item>
+                            <item>SI AS 1068 – Zbirka načrtov.</item>
+                            <item>SI AS 1079 – Zbirka normalij.</item>
+                        </list></item>
+                    <item>SI NŠAL – Nadškofijski arhiv Ljubljana:<list type="unordered">
+                            <item>SI NŠAL, ŽA Kranj – Župnijski arhiv Kranj.</item>
+                        </list></item>
+                    <item>SI ZAL – Zgodovinski arhiv Ljubljana:</item>
+                    <item>SI ZAL KRA 2 – Občina Kranj.</item>
+                </list>
+                <listBibl>
+                    <head>Objavljeni viri in literatura</head>
+                    <bibl>Avguštin, Cene. <hi rend="italic">Kranj. Naselbinski razvoj od
+                            prazgodovine do 20. stoletja.</hi> Ljubljana: Znanstveni inštitut
+                        Filozofske fakultete, 1999.</bibl>
+                    <bibl>Braun, Giacomo. <hi rend="italic">I diari di Antonio Scusa</hi>. <hi
+                            rend="italic">2: 1739–1749</hi>. Trieste: Tipografia Lloyd Triestino,
+                        1931.</bibl>
+                    <bibl>Büsching, Anton Friedrich. <hi rend="italic">Große Erdbeschreibung</hi>.
+                            <hi rend="italic">15. zv</hi>. <hi rend="italic">Der Östreichische
+                            Kreis</hi>. Brünn: Verlage der Kompagnie, 1786.</bibl>
+                    <bibl>Krampač, Tone idr. <hi rend="italic">Gorenjske družine v 18.
+                        stoletju</hi>. Celje in Ljubljana: Celjska Mohorjeva družba, Slovenska
+                        Matica, Inštitut Karantanija, 2016.</bibl>
+                    <bibl>Kos, Dušan. Ko je strast še žgala Loko … O mestnem požaru leta 1660,
+                        sojenju požigalcema ter njunem (ne)kaznovanju. <hi rend="italic">Loški
+                            razgledi</hi> 61 (2014): 59–76.</bibl>
+                    <bibl>Mensi, Franz. <hi rend="italic">Geschichte der direkten Steuern in
+                            Steiermark bis zum Reigierungsantritte Maria Theresias</hi>. <hi
+                            rend="italic">Zv. 1–3. Forschungen zur Verfassungs- und
+                            Verwaltungsgeschichte der Steiermark, zd. 7, 9, 11</hi>. Graz in Wien:
+                        Styria, 1910, 1912, 1921–1936. </bibl>
+                    <bibl>Merian, Matthaeus <hi rend="italic">Topographia Provinciarum Austriacarum:
+                            Austriæ, Styriæ, Carinthiæ, Carnioliæ, Tyrolis etc.</hi> Franckfurt am
+                        Mayn; Matthaeus Merian, 1649. </bibl>
+                    <bibl>Rajšp, Vincenc idr. <hi rend="italic">Slovenija na vojaškem zemljevidu
+                            1763–1787</hi>. <hi rend="italic">Opisi, 4. zvezek</hi>. Ljubljana:
+                        Znanstvenoraziskovalni center SAZU, Arhiv Republike Slovenije, 1998.</bibl>
+                    <bibl>Svetina, Anton. Prebivalci Kranja v letu 1754. <hi rend="italic"
+                            >Zgodovinski časopis</hi> 37, št. 4 (1983): 273–84.</bibl>
+                    <bibl><hi rend="italic">Theresianisches Gesetzbuch 1770–1773</hi>.<ref
+                            target="https://alex.onb.ac.at/cgi-content/alex?aid=tgb&amp;datum=1774&amp;page=747&amp;size=45"
+                            >https://alex.onb.ac.at/cgi-content/alex?aid=tgb&amp;datum=1774&amp;page=747&amp;size=45</ref>.
+                        Pridobljeno 26. 6. 2023.</bibl>
+                    <bibl>Valenčič, Vlado. Trgovina na Kranjskem v 18. stoletju. <hi rend="italic"
+                            >Zgodovinski časopis</hi> 48, št. 2 (1994): 217–30.</bibl>
+                    <bibl>Valvasor, Johann Weichard. <hi rend="italic">Die Ehre des Herzogthums
+                            Crain</hi>. <hi rend="italic">Buch XI</hi>. Nüremberg, Laybach,
+                        1689.</bibl>
+                    <bibl>Žontar, Josip. <hi rend="italic">Zgodovina mesta Kranja. </hi>Ljubljana:
+                        Muzejsko društvo za Slovenijo, 1939.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

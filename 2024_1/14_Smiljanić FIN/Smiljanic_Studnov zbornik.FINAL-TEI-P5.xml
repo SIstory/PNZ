@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> »Obravnava, kakoršna še ni bila v Ljubljani«:<lb/> finančna afera Terezije
+                    Aristoteles leta 1874<note place="foot" xml:id="ftn2" n="*">Članek je nastal v
+                        okviru raziskovalnega projekta P6-0280 <hi rend="italic">Ekonomska, socialna
+                            in okoljska zgodovina Slovenije</hi>, ki ga financira Javna agencija za
+                        znanstvenoraziskovalno in inovacijsko dejavnost Republike Slovenije iz
+                        državnega proračuna.</note>
+                </title>
+                <author>
+                    <forename>Ivan</forename>
+                    <surname>Smiljanić</surname>
+                    <roleName>Dr.</roleName>
+                    <roleName/>
+                    <affiliation>Inštitut za novejšo zgodovino</affiliation>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>ivan.smiljanic@inz.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date/></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/4293</pubPlace>
+                <date>2023</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">64</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>Terezija Aristoteles</term>
+                    <term>brokering</term>
+                    <term>financial fraud</term>
+                    <term>Regional Court in Ljubljana</term>
+                    <term>Austria-Hungary</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>Terezija Aristoteles</term>
+                    <term>mešetarjenje</term>
+                    <term>finančna goljufija</term>
+                    <term>Deželno sodišče v Ljubljani</term>
+                    <term>Avstro-Ogrska</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2024-02-19T08:23:26Z</date>
+                    <name>Mihael Ojsteršek</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor>Ivan Smiljanić<note place="foot" xml:id="ftn1" n="**"><hi rend="bold">Dr.,
+                        Inštitut za novejšo zgodovino, Privoz 11, SI-1000 Ljubljana, <ref
+                            target="mailto:ivan.smiljanic@inz.si">ivan.smiljanic@inz.si</ref>;
+                        ORCID: 0000-0001-8202-8338</hi></note>
+            </docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="DOI">https://doi.org/10.51663/pnz.64.1.13</idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">Prispevek obravnava finančno afero soproge lesnega trgovca
+                        Terezije Aristoteles v Ljubljani v 70. letih 19. stoletja. Aristoteles se je
+                        zadolžila pri eni od ljubljanskih mešetark, ki so za visoke obresti
+                        posredovale pri izposoji denarja, pridobljenega od posojilodajalcev. Pri tem
+                        se je Aristoteles močno zadolžila in posegla po prevarah, da bi si
+                        izposodila še več denarja. Ko je bilo njeno početje razkrito, je februarja
+                        1874 sledil odmeven sodni proces pred ljubljanskim sodiščem, ki je pritegnil
+                        obilo zanimanja ne samo Ljubljančanov, ampak tudi slovenskega in
+                        avstrijskega tiska predvsem zaradi dejstva, da je bila večina vpletenih
+                        storilk in žrtev ženskega spola. Javno mnenje ni bilo naklonjeno ne
+                        Aristoteles ne oškodovanim posojilodajalcem, ki so obveljali za
+                        izkoriščevalce, prežeče na ljudi v stiski. Aristoteles in njena mešetarka
+                        sta bili obsojeni na dvoletno zaporno kazen.</hi></p>
+                <p><hi rend="italic">Ključne besede: Terezija Aristoteles, mešetarjenje, finančna
+                        goljufija, Deželno sodišče v Ljubljani, Avstro-Ogrska.</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <head>“A TRIAL LIKE NO OTHER IN LJUBLJANA”: THE FINANCIAL AFFAIR </head>
+                <head>OF TEREZIJA ARISTOTELES IN 1874</head>
+                <p><hi rend="italic">The contribution presents the financial affair of a wood
+                        merchant’s wife, Terezija Aristoteles, in Ljubljana in the 1870s.
+                        Aristoteles took a loan from one of Ljubljana’s female brokers who, for
+                        steep interest rates, mediated the borrowing of money obtained from
+                        moneylenders. In doing so, Aristoteles got heavily into debt and resorted to
+                        fraud to keep borrowing increasing sums of money. Once her actions were
+                        revealed, a high-profile trial at the Ljubljana Court followed in February
+                        1874, attracting a lot of interest not only from the Ljubljana citizens but
+                        also from the Slovenian and Austrian press, mainly because most of the
+                        perpetrators and victims involved were female. The public opinion did not
+                        favour either Aristoteles or the aggrieved moneylenders, who were seen as
+                        exploiters preying on those in need. Aristoteles and her broker were
+                        sentenced to two years in prison.</hi></p>
+                <p><hi rend="italic">Keywords: Terezija Aristoteles, brokering, financial fraud,
+                        Regional Court in Ljubljana, Austria-Hungary</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>Uvod</head>
+                <p>Slovenske dežele se v 19. stoletju niso mogle pohvaliti s posebej obsežnim
+                    gospodarskim razvojem. Prostor je bil v daleč največji meri agrariziran, redki
+                    industrializacijski poskusi pa so bili bolj v nemških kakor slovenskih rokah,
+                    saj je Slovencem manjkal premožen meščanski sloj, ki bi si lahko privoščil večje
+                    investicije. Tudi ko so se narodnjaški politiki lotevali ustanavljanja
+                    slovenskih gospodarskih ustanov, sta neizkušenost in pohlepnost zlahka vodili v
+                    propad. Svarilni zgled je bila zadeva Prve občne zavarovalne banke Slovenije,
+                    ustanovljene leta 1871 s skupnim trudom predstavnikov tako katoliške kot
+                    liberalne provenience, vendar so bili njeni načrti preveč ambiciozni in njeni
+                    stroški preveliki, da bi lahko dosegla kakršenkoli uspeh, zato je bila 1876 na
+                    nesrečo in sramoto slovenskega tabora likvidirana. Izguba že tako skromnega
+                    slovenskega kapitala je bila še bolj boleča, če jo je povzročil tujec, kot v
+                    primeru afere ljubljanske banke Kranjska eskomptna družba, ki jo je vodil
+                    bančnik italijanskega rodu Jožef Zenari. Bankir je poneveril zajetno vsoto iz
+                    vlog slovenskih bančnih vlagateljev in je storil samomor, ko je bila goljufija
+                    leta 1884 odkrita. </p>
+                <p>Zavarovalna banka Slovenija in Jožef Zenari sta bila v časopisju deležna burnih
+                    odzivov, vendar nista bila najzgodnejša primera dramatičnega gospodarskega
+                    poloma. Ta naziv gre aferi Terezije Aristoteles, ki je pozornost ljubljanske
+                    javnosti in slovenskega tiska zbujala leta 1874. Afera še ni bila natančneje
+                    predstavljena v slovenskem zgodovinopisju, z izjemo zapisa, ki ga je za <hi
+                        rend="italic">Slovensko kroniko XIX. stoletja</hi> pripravil Andrej
+                        Studen.<note place="foot" xml:id="ftn3" n="1"> Studen, Ženski polom, 271,
+                        272.</note></p>
+            </div>
+            <div>
+                <head>Blišč in beda Terezije Aristoteles</head>
+                <p>Terezija (nem. Theresia) Aristoteles, z dekliškim priimkom Dietz, se je rodila
+                    leta 1826 bodisi v Regensburgu, kot je zabeleženo v domovinskem listu, bodisi v
+                    Münchnu, kot so kasneje poročali časnikarji ob zagotavljanju, da je njeno
+                    življenje »romantično, a jako skrivnostno«. Bavarka je že pri osmih letih
+                    izgubila starše in v mladosti naj bi se preživljala kot gledališka igralka, nato
+                    pa je odpotovala v tedaj rusko Odeso, kjer je pri aristokratski družini sedem
+                    let delala kot učiteljica. Leta 1851 je tam dobila prvega otroka, sina Pavla.
+                    Pozneje je delala kot guvernanta na Dunaju in v Salzburgu. Prav v Salzburgu je
+                    spoznala trgovca z lesom Jožefa Aristotelesa iz Trsta, rojenega leta 1817, ter
+                    dobila drugega sina Jožefa leta 1857. Preselila sta se v Ljubljano, kjer sta se
+                    poročila in kjer se jima je leta 1860 rodila hči Lucija. Družina je stanovala v
+                    stavbi na naslovu Kapucinsko predmestje 74, kasneje Tržaška cesta 23.<note
+                        place="foot" xml:id="ftn4" n="2">
+                        <hi rend="italic">Slovenski narod</hi>, 1. 3. 1874, 3, Dva ženska
+                        ljubljanska Plahta. </note> Par je očitno naletel na finančne težave, saj
+                    sta bili junija 1865 organizirani prisilni dražbi njunega premoženja, ki ju je
+                    zahteval podjetnik Lukas Tavčar zaradi neodplačanega dolga 200 goldinarjev.<note
+                        place="foot" xml:id="ftn5" n="3">
+                        <hi rend="italic">Laibacher Zeitung</hi>, 29. 5. 1865, 302, Exekutive
+                        Fahrnissen-Feilbietung. <hi rend="italic">Tagespost</hi>, 27. 2. 1874, 9,
+                        Laibach, 25. Februar.</note></p>
+                <p>Na začetku 70. let je Jožef Aristoteles postal trgovski posrednik v Trstu, zato
+                    je vodenje ljubljanske trgovine predal ženi. Od nje je zahteval natančno vodenje
+                    vseh izdatkov. Približno leta 1871 ali 1872 se je primerilo, da je soproga pri
+                    izračunu zagrešila napako v višini 60 goldinarjev. Napako je skušala prikriti
+                    tako, da si je manjkajoči denar izposodila. Odločitev je imela daljnosežne
+                    posledice, saj je z njo stopila »na ono polzko pot, ktera jo je pripeljala do
+                    sodnijskega odra«.<note place="foot" xml:id="ftn6" n="4">
+                        <hi rend="italic">Slovenec</hi>, 3. 3. 1874, 4, Iz sodnijske
+                    dvorane.</note></p>
+                <p>Terezija Aristoteles se je obrnila na uradniško vdovo Ano Riesner, imenovano
+                    Rižnarca, pripadnico razvejane ljubljanske mreže mešetark (šlo je namreč
+                    predvsem za ženske), ki so postranski zaslužek služile kot posrednice med
+                    posojilodajalci in posojilojemalci – točneje med posojilodajalkami in
+                    posojilojemalkami, saj so tudi ti skupini v glavnem predstavljale ženske.
+                    Mešetarke so iskale osebe, ki so bile pripravljene posoditi denar in biti za to
+                    nagrajene z obrestmi. Glede na to, da je posojilodajalec lahko računal na okoli
+                    5 % mesečnih obresti, so mnogi posojali tudi zajetne vsote. Na drugi strani so
+                    do mešetark sami pristopali ljudje, ki so potrebovali kratkoročno posojilo,
+                    vendar si denarja niso želeli izposojati javno, vsem na očeh. Posojilojemalec je
+                    podpisal menico, s katero se je obvezal v določenem roku poplačati ne le
+                    izposojeno vsoto in visoke obresti, ki so šle posojilodajalcu, temveč je bil
+                    dolžan plačati tudi provizijo mešetarki, ki mu je posojilo priskrbela. Provizija
+                    je običajno segala med 3 in 5 %, zato je bilo mešetarjenje lukrativna – z
+                    drugega zornega kota pa oderuška – dejavnost. Ker so mešetarke upnikom
+                    izplačevale obresti, se dolžniki in upniki najpogosteje niso nikoli osebno
+                    spoznali.</p>
+                <p>Ko je Terezija Aristoteles stopila v stik z Ano Riesner, je imela slednja že
+                    poldrugo desetletje izkušenj z mešetarjenjem. Svoji stranki je Riesner
+                    priskrbela posojilo 100 goldinarjev, ki bi ga morala Aristoteles odplačati
+                    skupaj s petimi goldinarji obresti in prav toliko goldinarji provizije za
+                    posredništvo. Mesec dni kasneje je menica zapadla, toda Aristoteles ni imela
+                    denarja za odplačilo zneska, obresti in provizije. Riesner ji je omogočila, da
+                    se ponovno zadolži pri njej z novo menico za 100 goldinarjev pod istimi pogoji.
+                    Zgodba se je naslednji mesec ponovila in Aristoteles je zapadla v spiralo novih
+                    in novih posojil. Sprva ji ni bilo težko dobivati novih posojil; svoji mešetarki
+                    Riesner je zagotavljala, da je izposojeni denar namenjen moževi lesni trgovini,
+                    ki je veljala za solidno in dobičkonosno dejavnost. Ne glede na to so obresti,
+                    ki so segale od 10 do 12 goldinarjev na mesec, odžirale vse večje vsote.
+                    Aristoteles se je morala začeti dodatno zadolževati pri drugih ljubljanskih
+                    mešetarkah. Poleg pri mešetarki Riesner si je denar izposojala še s
+                    posredovanjem Fani Richter, Marije Comelli, Kristine Čimžar, Flore pl. Gariboldi
+                    in Antonije Izatič.<note place="foot" xml:id="ftn7" n="5">
+                        <hi rend="italic">Slovenski narod</hi>, 27. 2. 1874, 3, Dva ženska
+                        ljubljanska Plahta. <hi rend="italic">Laibacher Zeitung</hi>, 27. 2. 1874,
+                        324, Aus dem Gerichtssaale. <hi rend="italic">Novice gospodarske, obrtniške
+                            in narodne</hi>, 4. 3. 1874, 72, 73, Ženski polom v Ljubljani pred
+                        sodnijo.</note> Zlasti Izatič, sicer soproga ravnatelja pomožnega urada
+                    ljubljanskega deželnega sodišča, je veljala za neke vrste glavno mestno
+                    mešetarko.</p>
+                <p>Drsenje Terezije Aristoteles v vse globlje dolgove je trajalo celi dve leti. Kot
+                    je pričala sama, je morala dve tretjini vsega denarja, ki ga je prejela,
+                    porabiti za odplačevanje obresti in provizije mešetarkam. V obupu je poskušala
+                    denar dobiti tudi z igranjem loterije in z zavarovanjem pri različnih društvih,
+                    da bi lahko zastavljala svoje zavarovalne police. Kljub vsemu temu pa so
+                    mešetarke na menice, ki jih je podpisovala Aristoteles, vse težje dobivale
+                    posojila od sumničavih upnikov. To je bil znak za alarm, saj je bila prevara tik
+                    pred odkritjem. V stiski se je pojavila ideja, da bi menice ponarejali. Med
+                    poznejšim sodnim postopkom sta Aristoteles in Riesner idejo za goljufijo
+                    pripisovali ena drugi, tako ali drugače pa sta pri ponarejanju sodelovali obe.
+                    Aristoteles je od takrat naprej na lažne menice podpisovala izmišljena imena ali
+                    osebe, ki o tem niso vedele ničesar, vendar so bile v očeh upnikov bolj
+                    kredibilen kreditojemalec kot ona sama. Poleg tega je še vedno upala na
+                    morebiten zadetek na loteriji in na dediščino, ki bi prišla od moževe
+                        sestre,<note place="foot" xml:id="ftn8" n="6">
+                        <hi rend="italic">Slovenski narod</hi>, 27. 2. 1874, 3, Dva ženska
+                        ljubljanska Plahta.</note> bogate neomožene trgovke Lucije Hörmann iz
+                    Trsta.</p>
+                <p>Goljufijo je prekinila smrt Antonije Izatič, ki je 5. julija 1873 umrla zaradi
+                    krvavitve v pljučih, stara 48 let.<note place="foot" xml:id="ftn9" n="7">
+                        <hi rend="italic">Laibacher Zeitung</hi>, 12. 7. 1873, 1120,
+                        Verstorbene.</note> Z njeno smrtjo je Aristoteles izgubila svojo glavno
+                    preskrbovalko denarja. Izkazalo se je, da je Izatič kljub mešetarjenju umrla
+                    zadolžena, zato je ljubljansko deželno sodišče nad njeno zapuščino 16. julija
+                    razglasilo stečaj.<note place="foot" xml:id="ftn10" n="8">
+                        <hi rend="italic">Laibacher Zeitung</hi>, 19. 7. 1873, 1162,
+                        Concurs-Eröffnung.</note> Med postopkom je bila dokončno razkrita tudi
+                    prevara dvojice Aristoteles-Riesner. Jasno je postalo, da med upniki ni več
+                    nobenega zaupanja v Aristoteles, tako da ji niso ponujali novih sredstev, stari
+                    upniki pa so začeli vloženi kapital terjati nazaj. Konec julija 1873 je
+                    zadolženost postala znana tudi Jožefu Aristotelesu, ki o ženinem zadolževanju do
+                    takrat ni vedel ničesar. Terezija Aristoteles, ki se obsega dolgov ni zavedala,
+                    je skupaj z Ano Riesner pred besnimi upniki zbežala na Bled, kjer naj bi resno
+                    razmišljali o samomoru z utopitvijo v jezeru.<note place="foot" xml:id="ftn11"
+                        n="9">
+                        <hi rend="italic">Novice gospodarske, obrtniške in narodne</hi>, 4. 3. 1874,
+                        73, Ženski polom v Ljubljani pred sodnijo.</note> Ena od prič je kasneje
+                    trdila tudi, da je Aristoteles videla na Ježici, kako se je že skoraj šla utopit
+                    v Savo, a si je premislila.<note place="foot" xml:id="ftn12" n="10">
+                        <hi rend="italic">Slovenski narod</hi>, 28. 2. 1874, 3, Dva ženska
+                        ljubljanska Plahta.</note> Neka posojilodajalka je 6. avgusta sodišču podala
+                    poročilo o goljufiji in zadeva je prišla pod drobnogled sodnih organov.
+                    Aristoteles in Riesner sta bili aretirani in priprti v zaporu na Žabjeku. Dva od
+                    oškodovanih upnikov sta zahtevala, naj se nad premoženjem Terezije Aristoteles
+                    razglasi stečaj.<note place="foot" xml:id="ftn13" n="11">
+                        <hi rend="italic">Laibacher Zeitung</hi>, 28. 2. 1874, 329, 330, Aus dem
+                        Gerichtssaale.</note> Ljubljansko sodišče je zahtevi ugodilo 7. oktobra
+                    1873. O pomenu, ki ga je afera do takrat dobila v Ljubljani, priča dejstvo, da
+                    je bil za stečajnega upravitelja izbran ugleden pravnik, pristaš slovenskega
+                    narodnobuditeljskega gibanja in nekdanji ljubljanski župan dr. Etbin Henrik
+                    Costa. Stečajni sodnik je postal Franc pl. Gariboldi,<note place="foot"
+                        xml:id="ftn14" n="12">
+                        <hi rend="italic">Laibacher Zeitung</hi>, 9. 10. 1873, 1626,
+                        Concurs-Eröffnung.</note> kar bi utegnilo predstavljati navzkrižje interesov
+                    glede na to, da je bil domnevno v sorodu z eno od omenjenih mešetark, Floro pl.
+                    Gariboldi.</p>
+                <p>Ker sta bili osumljenki obtoženi tudi goljufije, je bila pred ljubljanskim
+                    sodiščem pozimi naslednje leto uvedena kazenska obravnava. Prav »sodsko
+                    obravnavanje proti po Ljubljani jako znani gospé Tereziji Aristoteles«<note
+                        place="foot" xml:id="ftn15" n="13">
+                        <hi rend="italic">Slovenski narod</hi>, 27. 2. 1874, 3, Dva ženska
+                        ljubljanska Plahta.</note> (četudi je bila Aristoteles do nedavnega povsem
+                    neznana) je pritegnilo obilo zanimanja, saj se ni pogosto zgodilo, da
+                    Ljubljančanka poneveri celih 34.373 goldinarjev. Senzacija, kakršne mesto še ni
+                    videlo, se je lahko pričela.</p>
+            </div>
+            <div>
+                <head>»Obravnava, kakoršna še ni bila v Ljubljani«<note place="foot" xml:id="ftn16"
+                        n="14">
+                        <hi rend="italic">Novice gospodarske, obrtniške in narodne</hi>, 4. 3. 1874,
+                        72, Ženski polom v Ljubljani pred sodnijo.</note></head>
+                <p>Zgodovinska pričevanja kažejo, da Ljubljančani in Ljubljančanke ob izrednih
+                    dogodkih niso izkazali posebne sramežljivosti, temveč so radovedno obiskovali
+                    prizorišča takšnih in drugačnih škandalov, zločinov, nesreč ter javnih
+                    usmrtitev. Igralec Anton Cerar – Danilo je v svojih spominih omenil mladostne
+                    reminiscence na konec 60. let 19. stoletja, ko so številne afere, vključno z
+                    gospodarskimi propadi, kot nekakšne sejemske atrakcije pritegovale pozornost
+                    meščanov:</p>
+                <quote>»Velika radovednost pa je gnala Ljubljančane na Grad okoli [18]68. leta, kjer
+                    so obesili na 'gavge' nekega krvoločnega, doma iz Vipavske doline. Baje je svoji
+                    materi odgriznil nos. In samo enkrat se je neki mladi fant v Šelenburgovi ulici
+                    ustrelil v srce radi neuslišane ljubezni. Drugi nesrečnež je bil gledališki
+                    frizer – pri Jurešiču poleg 'Šuštarskega' mosta. Na sveti večer se je zaprl s
+                    svojo ljubico v trgovino in je pozabil plin zapreti in se je z dekletom vred
+                    zadušil. Ko pa je bil prvi konkurz [stečaj, iz nem. Konkurs] v Ljubljani pri
+                    'Plavi kugli' na Mestnem trgu, smo hodili gledat 'štempelje', s katerimi so bila
+                    vrata zapečatena kakor skale pri Božjem grobu v cerkvi sv. Jakoba. To so bile
+                    senzacije za Ljubljano in ob takih prilikah se je vse trlo po mestu kakor pri
+                    Šenklavžkih procesijah.«<note place="foot" xml:id="ftn17" n="15"> Cerar, <hi
+                            rend="italic">Spomini</hi>, 37, 38.</note></quote>
+                <p>Stanje ni bilo prav nič drugačno ob izbruhu afere Aristoteles. Staroslovenske <hi
+                        rend="italic">Novice</hi> so v razvpitosti afere videle nekakšno potrditev
+                    ljubljanskega kozmopolitizma, češ da se tovrstne afere dogajajo samo v
+                    metropolah: »Tedaj tudi Ljubljana, in ne samo Dunaj, ima škandalozno
+                        pravdo.«<note place="foot" xml:id="ftn18" n="16">
+                        <hi rend="italic">Novice gospodarske, obrtniške in narodne</hi>, 25. 2.
+                        1874, 63, Danes se pri deželni sodniji.</note> To je potrdil tudi začetek
+                    sodnega postopka, ko je »[p]red deželno sodnijo […] čakala velika množica
+                    ljubljanskega radovednega občinstva«.<note place="foot" xml:id="ftn19" n="17">
+                        <hi rend="italic">Slovenski narod</hi>, 26. 2. 1874, 3, Pravda zoper 'gospó'
+                        Aristoteles.</note> »Pravda ta zanima Ljubljančane jako,« je poročal <hi
+                        rend="italic">Slovenski narod</hi>, »ker ne samo, da je bila prvi dan
+                    sodiščna sobana v pravem smislu natlačeno polna poslušalcev, tudi pred poslopjem
+                    deželnega sodišča in v veži je stalo več nego 400 ljudij, posebno žensk, ki so
+                        zijali.«<note place="foot" xml:id="ftn20" n="18">
+                        <hi rend="italic">Slovenski narod</hi>, 27. 2. 1874, 3, Dva ženska
+                        ljubljanska Plahta.</note> Velik interes Ljubljančank za proces potrjuje
+                    tudi navedba, »da je, kakor slišimo, kakih 30 Evinih hčerk pri sodniji vprašalo,
+                    ali smejo pravdo poslušat priti, pa se jim ni dovolilo«.<note place="foot"
+                        xml:id="ftn21" n="19">
+                        <hi rend="italic">Novice gospodarske, obrtniške in narodne</hi>, 25. 2.
+                        1874, 63, Danes se pri deželni sodniji.</note> Problemi so nastali zaradi
+                    nejasnosti glede veljavnosti starega ali novega kazenskega zakonika glede
+                    vprašanja, ali ženske kot opazovalke sploh lahko prisostvujejo sodnemu procesu.
+                    Na koncu jim je to bilo dovoljeno.<note place="foot" xml:id="ftn22" n="20">
+                        <hi rend="italic">Laibacher Tagblatt</hi>, 24. 2. 1874, 3, Zufolge
+                        mehrseitiger Anfragen.</note> Večji problem kot zakonodaja je predstavljalo
+                    število zainteresiranih, saj je bilo v vseh treh dneh sojenja obiskovalcev tako
+                    veliko, da so jih morali biriči poditi s sodišča in je v sodni dvorani kljub
+                    zimskemu času vladala neznosna vročina.<note place="foot" xml:id="ftn23" n="21">
+                        <hi rend="italic">Slovenski narod</hi>, 3. 3. 1874, 4, Dva ženska
+                        ljubljanska Plahta.</note> V dvorani se je namreč lahko zbralo zgolj okoli
+                    sto ljudi, prostora za novinarje pa je bilo še manj.<note place="foot"
+                        xml:id="ftn24" n="22">
+                        <hi rend="italic">Slovenski narod</hi>, 4. 3. 1874, 3, Pri zadnjem kazenskem
+                        obravnavanji.</note></p>
+                <p>Mreža mešetark v Ljubljani do takrat še ni bila deležna pozornosti tiska, afera
+                    pa jo je potisnila v središče javnega zanimanja, kar je povzročilo obilo
+                    zgražanja nad »pijavkami« in »vampirji«, ki prežijo na ljudi v stiski. Afera pa
+                    je pritegnila tudi druge predstavnike iste branže. <hi rend="italic">Novice</hi>
+                    so se kritično izrazile, da je obravnavo spremljalo »jako veliko občinstva, med
+                    njim lepo število tako imenovanih pijavk ali oderuhov«.<note place="foot"
+                        xml:id="ftn25" n="23">
+                        <hi rend="italic">Novice gospodarske, obrtniške in narodne</hi>, 4. 3. 1874,
+                        72, Ženski polom v Ljubljani pred sodnijo.</note>
+                    <hi rend="italic">Slovenec</hi> se je strinjal, da je obravnavi prisostvovalo
+                    veliko ljudi, ki se sodišča sicer na široko ognejo, zdaj pa so jih privedli
+                    »poželjivost do dobička, kamnitna neobčutljivost, trdosrčnost in ledeno
+                    neusmiljenje«, da bi videli prvovrstno senzacijo, namreč »v sodnijskih kleščah
+                    žensko, ki je deloma po krivdi ljudi njihove vrste tako daleč zabredla, da je
+                    zadela ob kazensko postavo«.<note place="foot" xml:id="ftn26" n="24">
+                        <hi rend="italic">Slovenec</hi>, 3. 3. 1874, 4, Iz sodnijske
+                    dvorane.</note></p>
+                <p>Aristoteles se je prvi dan sojenja, 25. februarja 1874, na sodišču pojavila
+                    oblečena v elegantno črno obleko. Sodni postopek je vodil deželni svetnik Anton
+                    Rome, tožilec je bil odvetnik Franc Kočevar. Osumljenki sta imeli svoja
+                    branilca: 54-letno Ano Riesner je zagovarjal dr. Anton Rudolf, 47-letno Terezijo
+                    Aristoteles pa dr. Julij Kozjek iz Gradca, ki je imel dvomljiv sloves
+                    hvalisavega branilca številnih težkih zločincev. V slovenskem tisku je bila
+                    njegova podoba narisana v izdatno temnih barvah, ker je bil narodni odpadnik,
+                    »Slovenec po rodu pa Velikonemec po duhu«.<note place="foot" xml:id="ftn27"
+                        n="25">
+                        <hi rend="italic">Slovenec</hi>, 28. 9. 1875, 3, Nemški
+                    naravoslovci.</note></p>
+                <p>Prva je govorila Aristoteles. Njen nastop je po oceni poročevalcev izražal
+                    samozavest, govorila je mirno in z izbranim besednjakom. Pojasnila je svojo plat
+                    zgodbe in povedala, da nima nikakršnih prihrankov, prav tako naj ne bi nobenega
+                    premoženja imel niti njen mož. Jožef Aristoteles je družino preživljal le s tem,
+                    kar je sproti zaslužil, obenem pa mu je morala pri tem pomagati že omenjena
+                    sestra Lucija Hörmann. Zatem je nastopila Ana Riesner, ki je zatrdila, da je
+                    imela svojo klientko za pošteno žensko in da je verjela njenim zagotovilom, da
+                    bo denar vložen v lesno trgovino. Obžalovala je dan, ko jo je spoznala, češ da
+                    je bila to »njena največja nesreča, ki jo je pripravila v ječo na Žabjek«, saj
+                    ji je prej šlo mešetarjenje »zmirom prav dobro, dokler te nesrečne ženske
+                    Aristoteles nij bilo, ki je jej kazala pooblastilo od svojega moža, da jej je
+                    morala verjeti«.<note place="foot" xml:id="ftn28" n="26">
+                        <hi rend="italic">Slovenski narod</hi>, 27. 2. 1874, 3, Dva ženska
+                        ljubljanska Plahta.</note> Ko je bila povprašana, zakaj je pomagala
+                    ponarejati menice, se je branila s prozornim izgovorom: »Nijsem vedela, da se to
+                    ne sme.«<note place="foot" xml:id="ftn29" n="27">
+                        <hi rend="italic">Slovenski narod</hi>, 28. 2. 1874, 3, 4, Dva ženska
+                        ljubljanska Plahta.</note></p>
+                <p>Večino tridnevnega sodnega procesa je predstavljalo zaslišanje prič. Kljub
+                    časopisnim navedbam, da je bilo zaslišanih 23 prič, poročila kažejo, da jih je
+                    bilo še enkrat toliko, četudi ta številka vključuje tudi priče, ki iz različnih
+                    vzrokov niso osebno nastopile, temveč so prebrali njihove izjave. Štiri petine
+                    zaslišancev je bilo žensk, med njimi štiri plemiškega rodu, pet prič pa je bilo
+                    mešetark; pogojno lahko mednje štejemo tudi predstavnika stečajne mase Antonije
+                    Izatič. Poklici prič kažejo, da so bile oškodovanke v glavnem pripadnice nižjih
+                    in srednjih slojev (učiteljica, kuharica, dekla, gostilničarka, šivilja,
+                    cvetličarka), najpogosteje pa so bile opredeljene glede na poklice svojih (živih
+                    ali pokojnih) soprogov (uradnik, bolnišnični oskrbnik, poročnik, železniški
+                    delavec, krojaški pomočnik, mitničar, bibliotekar, trgovski agent, blagajnik,
+                    pisar). Moški oškodovanci so bili v glavnem trgovci, posamezniki pa tudi vojaki,
+                    železničarji, čevljarji, učitelji. Iz (pomanjkljivih) podatkov izhaja, da so
+                    bili oškodovanci različnih starosti, saj jih je bilo dvanajst v tridesetih
+                    letih, štirje so bili v štiridesetih, deset v petdesetih letih, trije pa so bili
+                    starejši od 60 let; najstarejši oškodovanki je bilo 72 let. Kar se tiče vsot
+                    denarja, ki so jih priče zahtevale od Aristoteles, je najpodrobnejše poročilo
+                    podal <hi rend="italic">Laibacher Zeitung</hi>. Po njegovem seznamu sodeč je 44
+                    oseb – med njimi celo Ana Riesner – od osumljenke skupaj terjalo 34.373
+                    goldinarjev. Večina terjatev upnikov je bila nižjih od 1000 goldinarjev,
+                    nekatere pa so segle bistveno višje. Med upnicami je rekorderka Flora pl.
+                    Gariboldi s 4700 goldinarjev težko terjatvijo, med moškimi pa ljubljanski
+                    trgovec Franc Schmitt z 2000 goldinarji.<note place="foot" xml:id="ftn30" n="28">
+                        <hi rend="italic">Laibacher Zeitung</hi>, 28. 2. 1874, 329, Aus dem
+                        Gerichtssaale.</note></p>
+                <p>Iz pričevanj izhaja, da so tako rekoč vse upnice in upniki pristali na posojanje
+                    svojega trdo prisluženega denarja v želji po obogatitvi na račun obresti, sledeč
+                    takrat razširjenemu geslu o visoki donosnosti brez tveganja (nem. höchste
+                    Fruktifizierung ohne Risiko). Žena bolniškega strežnika Gabrijela Kremžar je ob
+                    vprašanju, kaj jo je napeljalo k posojanju denarja, prostodušno priznala:
+                    »Mislim pač, da visoki interesi.« Poslušalstvo se je zasmejalo.<note
+                        place="foot" xml:id="ftn31" n="29">
+                        <hi rend="italic">Slovenski narod</hi>, 27. 2. 1874, 3, Dva ženska
+                        ljubljanska Plahta.</note> Nekatere previdne in skeptične upnice so morale
+                    mešetarke po več mesecev ali celo let prositi, prepričevati in mehčati, da bi od
+                    njih dobile denar. Številne so za to dvignile varno naložen denar, kar so nato
+                    grenko obžalovale. </p>
+                <p>Sodišče je zanimalo, kako so priče prišle v stik z obema osumljenkama. Nekatere
+                    so Terezijo Aristoteles spoznale po Ani Riesner, druge po naključju, na ulici
+                    ali v trafiki. Nekatere je sploh nikoli niso osebno spoznale. Mešetarki Fani
+                    Richter in Flora pl. Gariboldi sta sami šli do Aristoteles in ji ponudili denar,
+                    ker sta ji zaupali in ker sta verjeli, da je premožna. Ena od oškodovank,
+                    mitničarjeva žena Urška Črnič, je bila celo krščenka Ane Riesner, a ji je botra
+                    vseeno izročila ponarejeno menico. Priče so v glavnem posojale denar Tereziji
+                    Aristoteles, ker so verjele njenim zagotovilom o investiranju denarja v lesno
+                    trgovino ali priporočilom mešetark. Aristoteles je očitno dajala vtis poštene
+                    ženske, ki je znala diskretno namigovati na svojo materialno preskrbljenost,
+                    denimo tako, da je upnicam, ki so jo obiskale na domu, kazala (lažna)
+                    opolnomočenja svojega moža, bankovce visokih apoenov<note place="foot"
+                        xml:id="ftn32" n="30">
+                        <hi rend="italic">Slovenski narod</hi>, 28. 2. 1874, 3, Dva ženska
+                        ljubljanska Plahta.</note> in dragocen klavir, ki naj bi bil delo dunajskega
+                    dvornega izdelovalca. Nekaterim je celo razlagala, da potrebuje denar za nakup
+                    konjev in kočije za svojo premožno svakinjo.<note place="foot" xml:id="ftn33"
+                        n="31">
+                        <hi rend="italic">Laibacher Zeitung</hi>, 28. 2. 1874, 329, Aus dem
+                        Gerichtssaale.</note></p>
+                <p>Trenutek, ko so upnice in upniki spoznali, da so bili ogoljufani, je bil za mnoge
+                    skrajno boleč. Terezija Polc iz Tržiča je pričala, da je njen brat posodil
+                    Tereziji Aristoteles zajetno vsoto, in kmalu po razkritju naj bi ga prevara tako
+                    prizadela, da je umrl.<note place="foot" xml:id="ftn34" n="32">
+                        <hi rend="italic">Slovenski narod</hi>, 28. 2. 1874, 3, Dva ženska
+                        ljubljanska Plahta.</note> Nekateri so se med sojenjem znesli nad
+                    Aristoteles. Ljubljanska gostilničarka Jožefa Petrovčič ji je zabrusila: »Vi
+                    lažete! Sram naj vas bo, vi goljufinja, vi!«<note place="foot" xml:id="ftn35"
+                        n="33">
+                        <hi rend="italic">Slovenski narod</hi>, 3. 3. 1874, 3, Dva ženska
+                        ljubljanska Plahta.</note> Bibliotekarjeva vdova Marija Kosmač je med
+                    pričanjem opazila, da se ji Aristoteles smeji, in ji je jezno rekla: »Da[,] le
+                    smijajte se, ko ste poštene ljudi odrli.«<note place="foot" xml:id="ftn36"
+                        n="34">
+                        <hi rend="italic">Slovenski narod</hi>, 1. 3. 1874, 3, Dva ženska
+                        ljubljanska Plahta.</note> Še najostreje se je Aristoteles med sojenjem
+                    sporekla z mešetarko Marijo Comelli, katere mož je bil nekoč Aristotelesov
+                    poslovni partner.</p>
+                <p>Opazovalci procesa in časopisje niso pokazali veliko razumevanja do oškodovanih
+                    upnikov. Čudili in smejali so se njihovi pogoltnosti, naivnosti, nerazumevanju
+                    postopka mešetarjenja in nepripravljenosti na tveganje, ki ga takšna investicija
+                    prinaša. Nekatere priče so pričakovale, da bodo izgubljeni denar prejele tukaj
+                    in zdaj, med samim procesom. Poleg tega so številni upniki kljub goljufiji od
+                    Aristoteles vendarle prejeli svoj vložek in del obresti, tako da po javnem
+                    mnenju niso imeli pravice jadikovati nad izgubo. Celo katoliški tisk je s precej
+                    jedkim cinizmom pisal o »dobrosrčnih« upnikih, ki so za kuliso karitativnosti
+                    lagodno živeli od obresti. Tega so se očitno zavedali tudi nekateri upniki, ki
+                    se zaradi sramu niso prikazali na sojenju niti niso zahtevali povračila. Na rob
+                    nekaterim pričam, ki so objokane pripovedovale, da so izgubljeni denar krvavo
+                    zaslužile, je tisk pripomnil, da so brez težav posojale denar po oderuških
+                        obrestih.<note place="foot" xml:id="ftn37" n="35">
+                        <hi rend="italic">Slovenski narod</hi>, 28. 2. 1874, 3, Dva ženska
+                        ljubljanska Plahta.</note></p>
+                <p>Zgolj občasno so se zgodbe upnikov iskreno dotaknile poslušalcev. <hi
+                        rend="italic">Slovenec</hi> je priznal: »So pa tudi med pričami nektere
+                    revice[,] ki so, zapeljane po velikih jim obljubljenih obrestih, izročile svoj
+                    'krvavo' zasluženi denar goljufici. Nektere jokaje pripovedujejo[,] kako težko
+                    jih je zadela ta zguba, in te so res usmiljenja vredne. Pa kdo jim bo
+                        pomagal?«<note place="foot" xml:id="ftn38" n="36">
+                        <hi rend="italic">Slovenec</hi>, 14. 3. 1874, 4, Iz sodnijske
+                        dvorane.</note> Mednje sodi železniški čuvaj in oče sedmih otrok Janez
+                    Brajdič, ki je pričal, da sta z ženo trudoma prihranila 300 goldinarjev, nato pa
+                    je po nasvetu znanca, ki naj bi živel zgolj od obresti svojih posojil, predal
+                    vse prihranke Ani Riesner, ki jima je obljubila popolno varnost investicije. »In
+                    vidite, gospod prvosednik, nadaljuje mož, jokaje se, izgubila sva vendar
+                        vse.«<note place="foot" xml:id="ftn39" n="37">
+                        <hi rend="italic">Slovenski narod</hi>, 3. 3. 1874, 3, Dva ženska
+                        ljubljanska Plahta.</note></p>
+                <p>Na sojenju so nastopile tudi priče iz gospodinjstva Aristotelesovih. Hlapec Jožef
+                    Gorišek je pričal, da Terezija Aristoteles ni sodelovala pri moževi lesni
+                    trgovini in da je živela skromno, vendar je veliko igrala loterijo. Prebrali so
+                    zapisnik hišne oskrbnice, ki je potrdila gospodaričino skromno življenje in
+                    dodala, da ima v lasti samo dve obleki in šest srajc. (V Trstu so pred sodišče
+                    poklicali tudi Lucijo Hörmann, vendar ni želela povedati ničesar.) Največ
+                    zanimanja je med občinstvom povzročil prihod Jožefa Aristotelesa v sodno
+                    dvorano, ki žene ni hotel niti pogledati. Kot mož osumljenke se je lahko
+                    pričanju izognil, kar je tudi storil in odšel. Prebrali so zapisnik njegovega
+                    pričevanja, po katerem do nedavnega o ženinem zadolževanju in goljufiji ni vedel
+                        ničesar.<note place="foot" xml:id="ftn40" n="38">
+                        <hi rend="italic">Slovenski narod</hi>, 1. 3. 1874, 3, Dva ženska
+                        ljubljanska Plahta.</note></p>
+                <p>Ko so priče 27. februarja sklenile svoja pričevanja, je sledil enourni govor
+                    tožilca Kočevarja. Ta je sodno obravnavo označil za »v socijalnem, ekonomičnem
+                    in fizijologičnem oziru zanimivo«, saj se je v Ljubljani prvič zgodilo, da »je
+                    prišlo nenaravno hlepenje po hitrem bogastvu pred sodnijo, in tu se je odkrilo
+                    brezobzirno, tu se bode tudi kaznovalo, upajmo v svarilo drugim, ki morebiti še
+                    dendenes upajo priti k bogastvu po enakem potu«. Čudil se je dejstvu, da sta
+                    goljufinji lahko nakopičili takšno vsoto denarja, po drugi strani pa mnogi
+                    pošteni kmetje in obrtniki ne morejo dobiti niti majhnega posojila. Okrcal je
+                    tudi zapeljane upnike, ki bi jim moralo biti jasno, da mamljive obljube ne
+                    morejo biti resnične. V sklepu je predlagal petletno zaporno kazen za osumljenki
+                    (po zakonodaji je Aristoteles in Riesner grozilo med pet in deset let zapora),
+                    vendar je sodišču priporočil, da v obzir vzame olajševalne okoliščine in izreče
+                    kazen, nižjo od zakonsko predpisane. Sledil je nastop branilca Kozjeka, ki je
+                    trdil, da je treba osumljenkama soditi v skladu s časom, v katerem ženske
+                    dobivajo vse več pravic, tudi v gospodarstvu, kar prispeva k takšnim ekscesom.
+                    Za nesrečo je okrivil pohlepne upnice in mešetarke. Tisk je Kozjekov nastop
+                    ocenil slabo, češ da je s čustvenim govorom, v katerega je vpletel tudi nekaj
+                    nepotrebnih političnih opazk, nagovarjal bolj poslušalce kot pa odločevalce v
+                    sodnem postopku. Drugi branilec Rudolf je zanikal, da je Riesner sodelovala pri
+                    goljufiji, in prosil za milostno sodbo. Kmalu zatem je sodišče sprejelo sodbo:
+                    Aristoteles in Riesner sta bili obsojeni na dve leti težke ječe s strogim postom
+                    vsak mesec, ki sta jo takoj nastopili. Obsojenki sta nad razmeroma milo kaznijo
+                    izrazili zadovoljstvo.<note place="foot" xml:id="ftn41" n="39">
+                        <hi rend="italic">Slovenski narod</hi>, 3. 3. 1874, 3, 4, Dva ženska
+                        ljubljanska Plahta. <hi rend="italic">Laibacher Zeitung</hi>, 3. 3. 1874,
+                        346, Aus dem Gerichtssaale. <hi rend="italic">Laibacher Zeitung</hi>, 4. 3.
+                        1874, 352, Aus dem Gerichtssaale.</note> »Tako se je končala pravda, ktera
+                    je za Ljubljano sicer karakteristična, nikakor pa ne slavna,« je sklenil <hi
+                        rend="italic">Slovenec</hi>.<note place="foot" xml:id="ftn42" n="40">
+                        <hi rend="italic">Slovenec</hi>, 14. 3. 1874, 4, Iz sodnijske
+                        dvorane.</note></p>
+                <p>Podoba sojenja, kot se kaže v časopisju, kaže precejšnjo stopnjo kritične
+                    distance poročevalcev. Novinarji so bili seveda kritični do prevare, ki sta jo
+                    izvedli Aristoteles in Riesner, vendar tudi do upnic in mešetark, ki so se
+                    skušale okoristiti z visokimi obrestmi ali provizijami in so nato na sodišču
+                    tožile nad težko usodo, ki jih je doletela. Prav tako je negativno prikazana
+                    množica vsiljivo radovednih opazovalcev procesa, med katerimi je bilo, po
+                    prepričanju tiska, veliko podobnih izkoriščevalcev. Negativna je bila tudi ocena
+                    zagovornikov obeh osumljenk, zlasti Kozjeka, na katerega je bil slovenski tisk
+                    apriorno alergičen kot na pripadnika nemškega liberalnega tabora. Opozoriti
+                    velja, da afera Aristoteles, za razliko od številnih drugih slovenskih afer te
+                    dobe, ni dobila političnega predznaka; po ustaljeni navadi so pripadniki
+                    različnih prepričanj ob aferah eden drugemu očitali krivdo in si odgovornost
+                    podajali kot vroč kostanj, vendar tokrat česa takšnega ni zaznati. Edina, ki sta
+                    si zagotovila naklonjenost tiska, sta bila pravični tožilec Kočevar ter sodnik
+                    Rome, ki je zapleten postopek dobro vodil in izkazal seznanjenost s primerom.
+                    Primer Aristoteles je bil torej zgodba, v kateri so vsi nastopajoči – razen
+                    tistih, ki poosebljajo sodno pravico – negativci.</p>
+            </div>
+            <div>
+                <head>Afera Aristoteles – časopisna senzacija</head>
+                <p>Morda je prav moralna oporečnost vseh v prevaro vpletenih strani prispevala k
+                    temu, da je zgodba pritegnila pozornost javnosti in prerasla v časopisno afero,
+                    eno prvih na Slovenskem. Najpodrobnejše poročilo o zadevi Aristoteles je v
+                    štirih nadaljevanjih objavil mladoslovenski liberalni dnevnik <hi rend="italic"
+                        >Slovenski narod</hi>, ki je začel izhajati leta 1868. V času afere ga je
+                    urejal književnik Josip Jurčič, ki je bil tudi odgovoren za selitev sedeža
+                    časopisa iz Maribora v Ljubljano leta 1872, leto dni pred afero pa je časopis
+                    spremenil v prvi slovenski dnevnik. Nekoliko krajši povzetek sojenja, prav tako
+                    natisnjen v štirih delih, je objavil osrednji katoliški list <hi rend="italic"
+                        >Slovenec</hi>, ki je takrat izhajal šele nekaj mesecev. Četudi se je
+                    časopis običajno izogibal senzacionalističnemu poročanju, je tokrat bralcem
+                    najavljal, da bodo o sojenju »najmikavnejše reči povedali«.<note place="foot"
+                        xml:id="ftn43" n="41">
+                        <hi rend="italic">Slovenec</hi>, 26. 2. 1874, 4, Sodnijska
+                    obravnava.</note></p>
+                <p>Izmed nemškega časopisja na Slovenskem je o procesu najobširneje poročal <hi
+                        rend="italic">Laibacher Zeitung</hi>, uradni list ter osrednji časopis
+                    slovenskega nemštva, ki je izhajal že od zadnje četrtine 18. stoletja.<note
+                        place="foot" xml:id="ftn44" n="42"> Žigon, <hi rend="italic">Nemško
+                            časopisje</hi>, 22, 23, 32, 33.</note> V času afere ga je urejal Ignac
+                    pl. Kleinmayr iz znane ljubljanske založniško-tiskarske rodbine. Drugi nemški
+                    časopis, ki je objavil identično poročilo kot <hi rend="italic">Laibacher
+                        Zeitung</hi>, je bil <hi rend="italic">Laibacher Tagblatt</hi>, list nemških
+                    liberalcev in nemškutarjev s precej krajšo tradicijo, saj je prva številka izšla
+                    leta 1868.<note place="foot" xml:id="ftn45" n="43"> Prav tam, 52–54.</note> V
+                    času afere ga je urejal šestindvajsetletni tiskar in založnik Otomar Bamberg.
+                    Slovenski liberalni tisk o obeh nemških časopisih in njunih stališčih ni imel
+                    dobrega mnenja, kar kažeta priljubljena vzdevka zanju, »Lajbaherica« in
+                    »Ljubljanski butelj«.</p>
+                <p>Afera Aristoteles je presegla slovenske okvire in je imela precej odmeva v
+                    avstrijskem tisku. Vrsta časopisov je bolj ali manj obširno poročala o
+                    nevsakdanji goljufiji, običajno v rubrikah, posvečenih zanimivejšim primerom z
+                    domačih in tujih sodišč, in brez posebnega komentarja. Ne preseneča, da je
+                    veliko prispevkov objavil graški tisk. <hi rend="italic">Grazer Zeitung</hi>, ki
+                    je imel tudi vlogo štajerskega uradnega lista, je o zadevi Aristoteles že v času
+                    sojenja objavil obširno poročilo,<note place="foot" xml:id="ftn46" n="44">
+                        <hi rend="italic">Grazer Zeitung</hi>, 27. 2. 1874, 3, 4, Laibach, 25.
+                        Februar.</note> ki ga je povzel celo <hi rend="italic">Laibacher
+                        Tagblatt</hi>, in poročanje zaokrožil s podobno obširnim poročilom o poteku
+                    procesa in sodbi.<note place="foot" xml:id="ftn47" n="45">
+                        <hi rend="italic">Grazer Zeitung</hi>, 2. 3. 1874, 3, 4, Laibach, 27.
+                        Februar.</note> Tudi liberalni graški dnevnik <hi rend="italic"
+                        >Tagespost</hi> je sodnemu postopku posvetil zajetno poročilo v štirih
+                    nadaljevanjih, ki naj bi ga napisal ljubljanski dopisnik,<note place="foot"
+                        xml:id="ftn48" n="46">
+                        <hi rend="italic">Tagespost</hi>, 19. 2. 1874, 9, Schwindel in
+                        Frauenkreisen. <hi rend="italic">Tagespost</hi>, 27. 2. 1874, 9, Laibach,
+                        25. Februar. <hi rend="italic">Tagespost</hi>, 28. 2. 1874, 6, Laibach, 26.
+                        Februar. <hi rend="italic">Tagespost</hi>, 1. 3. 1874, 6, Laibach, 27.
+                        Februar.</note> medtem ko se je katoliški <hi rend="italic">Grazer
+                        Volksblatt</hi> omejil le na kratki notici.<note place="foot" xml:id="ftn49"
+                        n="47">
+                        <hi rend="italic">Grazer Volksblatt</hi>, 1. 3. 1874, 3, Ein
+                        Schwindelprozess gegen Frauen. <hi rend="italic">Grazer Volksblatt</hi>, 4.
+                        3. 1874, 4, Die Laibacher Schwindlerinnen.</note> O Aristoteles so lahko
+                    brali tudi na Tirolskem, saj je o njej poročal <hi rend="italic">Innsbrucker
+                        Nachrichten</hi>.<note place="foot" xml:id="ftn50" n="48">
+                        <hi rend="italic">Innsbrucker Nachrichten</hi>, 21. 2. 1874, 482, 483,
+                        Schwindel in Frauenkreisen.</note> Nenavadno močan odmev je sodni proces
+                    dosegel v tisku cesarske prestolnice. Osrednji časopis dunajskega liberalnega
+                    meščanstva <hi rend="italic">Neue Freie Presse</hi><note place="foot"
+                        xml:id="ftn51" n="49"> Paupié, <hi rend="italic">Handbuch</hi>,
+                        144–50.</note> je objavil po graškem <hi rend="italic">Tagespost</hi>
+                    povzeto poročilo<note place="foot" xml:id="ftn52" n="50">
+                        <hi rend="italic">Neue Freie Presse</hi>, 20. 2. 1874, 2, Schwindel in
+                        Frauenkreisen. <hi rend="italic">Neue Freie Presse</hi>, 26. 2. 1874, 8,
+                        Schwindel in Frauenkreisen.</note> ter kratko sporočilo o sodbi, prejeto po
+                        telegramu.<note place="foot" xml:id="ftn53" n="51">
+                        <hi rend="italic">Neue Freie Presse</hi>, 28. 2. 1874, 2, Laibach, 28.
+                        Februar.</note> Od leta 1848 izhajajoč liberalni dnevnik <hi rend="italic"
+                        >Die Presse</hi> je objavil dopisnikovo poročilo iz Ljubljane.<note
+                        place="foot" xml:id="ftn54" n="52"> Paupié, <hi rend="italic">Handbuch</hi>,
+                        135–38. <hi rend="italic">Die Presse</hi>, 28. 2. 1874, 4, Laibach, 28.
+                        Februar. <hi rend="italic">Die Presse</hi>, 3. 3. 1874, 3, 4, Laibach, 2.
+                        März.</note> Oglasil se je tudi nemški nacionalistični liberalni <hi
+                        rend="italic">Deutsche Zeitung</hi>, glavni tekmec <hi rend="italic">Neue
+                        Freie Presse</hi>.<note place="foot" xml:id="ftn55" n="53"> Paupié, <hi
+                            rend="italic">Handbuch</hi>, 157, 158. <hi rend="italic">Deutsche
+                            Zeitung</hi>, 24. 4. 1874, 6, Laibach, 21. Februar.</note> Lastne
+                    prispevke so objavili vodilni katoliški listi, kot so <hi rend="italic"
+                        >Gemeinde-Zeitung</hi>, ki so ga brali predvsem trgovci in malomeščani,<note
+                        place="foot" xml:id="ftn56" n="54">
+                        <hi rend="italic">Gemeinde-Zeitung</hi>, 22. 2. 1874, 12, Schwindel
+                        vornehmer Frauen. <hi rend="italic">Gemeinde-Zeitung</hi>, 5. 3. 1874, 13,
+                        Der Frauenprozess in Laibach.</note>
+                    <hi rend="italic">Das Vaterland</hi>, ki je natisnil krajše poročilo v paketu z
+                    drugimi novicami iz Ljubljane,<note place="foot" xml:id="ftn57" n="55"> Paupié,
+                            <hi rend="italic">Handbuch</hi>, 95, 96. <hi rend="italic">Das
+                            Vaterland</hi>, 3. 3. 1874, 2, Laibach, 28. Februar.</note> in nedavno
+                    ustanovljeni <hi rend="italic">Neuigkeits-Welt-Blatt</hi>.<note place="foot"
+                        xml:id="ftn58" n="56">
+                        <hi rend="italic">Neuigkeits-Welt-Blatt</hi>, 22. 2. 1874, 9, Ein
+                        Frauenprocess. <hi rend="italic">Neuigkeits-Welt-Blatt</hi>, 3. 3. 1874, 12,
+                        Schwindelnde Frauen.</note></p>
+                <p>Od Ljubljane najbolj oddaljen odmev zadeve Aristoteles, ki je trenutno
+                    dokumentiran, je zapis v augsburškem <hi rend="italic">Allgemeine Zeitungu</hi>,
+                    osrednjem časopisu združene Nemčije. Omenjena je v satiričnem potopisu po
+                    Kranjskem obskurnega književnika Arnolda Wellmerja. Wellmer omenja obsojenko
+                    nenavadno lepega imena, ki si je sposojala denar od revnega meščanstva in s tem
+                    sprožila afero, pred katero se skrije tudi München, kar je najverjetneje namig
+                    na afero Spitzeder, ki jo bomo omenili v kratkem. »No, država bo Tereziji
+                    Aristoteles dve leti nudila brezplačno prenočišče in brezplačno hrano za 706
+                    dni. Preostalih 24 dni bodo dnevi strogega posta, vsak mesec eden …«<note
+                        place="foot" xml:id="ftn59" n="57"> Wellmer, Dem Frühling entgegen!,
+                        1351.</note></p>
+                <p>Neobičajnost afere Aristoteles je torej pritegovala zanimanje številnih časnikov,
+                    ki so si pri njenem razlaganju pogosto pomagali s sklicevanjem na pretekle
+                    sorodne dogodke in osebe, s čimer naj bi bralci lažje doumeli naravo ljubljanske
+                    goljufije. Nekateri so zgodbo skušali tolmačiti kot posledico gospodarske krize,
+                    ki je izbruhnila 9. maja 1873 z zlomom dunajske borze. Krizo je povzročilo
+                    preveč množično ustanavljanje delniških družb v času ekonomske blaginje t. i.
+                    ustanoviteljskega obdobja (nem. Gründerzeit), ki niso bile podprte z dovolj
+                    kapitala in ki so se pri poslovanju, predvsem pri kupovanju zemljišč in
+                    nepremičnin, obnašale špekulativno ter trošile denar lahkovernih vlagateljev. Z
+                    Dunaja se je kriza razširila po Evropi in ZDA ter za sabo puščala sled
+                    bankrotov, strmoglavljenih vrednosti delnic in krčenja proizvodnje, zato je
+                    pogosto obravnavana kot prva večja mednarodna kriza. Njene posledice so se
+                    vlekle še dve desetletji in z njo se je končalo obdobje laissez-faire, saj so se
+                    države oklenile protekcionizma. Na Slovenskem kriza predvsem zaradi skromnega
+                    obsega podjetniškega sektorja ni imela močnega vpliva. Posledice naj bi se še
+                    najbolj odrazile v psihološkem smislu, saj so že tako redke slovenske vlagatelje
+                    prestrašile pred investicijami v nove projekte.<note place="foot" xml:id="ftn60"
+                        n="58"> Vodopivec, Velika gospodarska kriza, 28–31.</note> Seveda Terezije
+                    Aristoteles ne moremo neposredno povezati s krizo, saj si je začela denar
+                    izposojati že pred njenim izbruhom, kljub temu pa so časnikarji namigovali, da
+                    je bilo obnašanje Ljubljančanke simptom lahkomiselnosti, pogoltnosti in
+                    dekadence ustanoviteljskega obdobja, ki so vodile v katastrofalen polom. Na to
+                    je v zaključnem govoru na sojenju opomnil tudi tožilec Kočevar, ki je trdil, da
+                    je primer »le majhen epilog k veliki tragediji, ki se je igrala meseca maja na
+                    Dunaji, tudi tam se je hlepenenje po nenaravnem bogastvu polastilo najvišjih in
+                    najnižjih krogov«.<note place="foot" xml:id="ftn61" n="59">
+                        <hi rend="italic">Slovenski narod</hi>, 3. 3. 1874, 3, 4, Dva ženska
+                        ljubljanska Plahta.</note>
+                    <hi rend="italic">Novice</hi> so ob tem pokritizirale nemški liberalizem, ki je
+                    s svojo politiko prostega trga in nebrzdanega bogatenja pripeljal do krize
+                    (konservativni tisk je krizo v splošnem dojemal kot božansko kazen za prevlado
+                    brezbožnega judovskega liberalizma)<note place="foot" xml:id="ftn62" n="60">
+                        Zajc in Polajnar, <hi rend="italic">Naši in vaši</hi>, 48–52.</note> ter
+                    dosegel, da se je odpravila zakonodaja, ki je sankcionirala previsoke obresti,
+                    kar je omogočilo tudi afero Aristoteles. »Dandanes sme vsak ljudi oderati, kakor
+                    mu drago in od 100 gld. zahtevati na mesec 5, 10 ali 50 gold. procentov. Živela
+                    odertija – pod krilom postave!«<note place="foot" xml:id="ftn63" n="61">
+                        <hi rend="italic">Novice gospodarske, obrtniške in narodne</hi>, 4. 3. 1874,
+                        73, Ženski polom v Ljubljani pred sodnijo.</note></p>
+                <p>Razen s splošno gospodarsko klimo je tisk skušal razložiti fenomen Aristoteles
+                    tudi s posameznimi primeri finančnih goljufov. V avstrijskem tisku, denimo v <hi
+                        rend="italic">Die Presse</hi>, lahko najdemo oznake, ki Aristoteles
+                    opredeljujejo kot »malo Spitzeder« (nem. Klein-Spitzeder). Gre za referenco na
+                    Adele Spitzeder, katere afera je nekaj mesecev prej odmevala po vsej Evropi.
+                    Spitzeder, ki je živela v Münchnu in kariero začela kot igralka – oboje
+                    predstavlja zanimivo paralelo z življenjem Terezije Aristoteles –, je leta 1869
+                    odprla banko <hi rend="italic">Spitzedersche Privatbank</hi>, v kateri je pod
+                    krinko pobožne in karitativne katoličanke orkestrirala eno prvih, če ne prvo
+                    Ponzijevo shemo v ekonomski zgodovini, saj je stare vlagatelje izplačevala z
+                    vložki novih vlagateljev. Prevara je trajala do leta 1872, ko je bila Spitzeder,
+                    do takrat že najbogatejša ženska na Bavarskem, razkrinkana, banka pa zaprta.
+                    Dimenzije prevare so bile osupljive, saj je več kot 30.000 vlagateljev skupaj
+                    izgubilo vsoto, ki bi, preračunano v današnjo valuto, dosegla 400 milijonov
+                    evrov. Ker Ponzijeve sheme formalno še niso bile nezakonite, je bila junija 1873
+                    pred sodiščem obsojena na skoraj štiri leta zapora za nepravilno računovodstvo
+                    in nemarno upravljanje z denarjem vlagateljev.<note place="foot" xml:id="ftn64"
+                        n="62">
+                        <hi rend="color(202122)">Nebel, </hi><hi rend="italic color(202122)">Adele
+                            Spitzeder</hi><hi rend="color(202122)">.</hi></note> Razvpita afera je
+                    odmevala tudi v slovenskem (predvsem nemškem) tisku.</p>
+                <p>Tudi <hi rend="italic">Slovenski narod</hi> je v naslovu svojega poročila o
+                    sodnem postopku, <hi rend="italic">Dva ženska ljubljanska Plahta</hi>, citiral
+                    nedavno afero. Četudi je mamljivo sklepati, da naslov namiguje na naplahtane
+                    upnike, gre v resnici za sklic na avstrijskega vojaka in uradnika Johanna
+                    Baptista Plachta, katerega škandalozen primer finančne goljufije je le nekaj
+                    tednov pred sodnim procesom Aristoteles polnil stolpce avstrijskega časopisja.
+                    Leta 1872 je na Dunaju vzpostavil svoje podjetje, s katerim je na podoben način
+                    kot Spitzeder izvedel Ponzijevo shemo: od vlagateljev, ki so bili predvsem iz
+                    nižjih slojev, je prejemal denar, za katerega je obljubil, da bo investiran in
+                    bo vlagateljem prinesel 15- ali 20-odstotne obresti. Prav on si je izmislil prej
+                    omenjeno frazo o visoki donosnosti brez tveganja, ki je bila bahavo natisnjena v
+                    njegovih oglasih. V resnici je pridobljeni denar porabil za kockanje. Leta 1873
+                    ga je razkrinkal borzni zlom, nekaj dni kasneje pa je sodišče uvedlo stečajni
+                        postopek.<note place="foot" xml:id="ftn65" n="63">
+                        <hi rend="italic">Innsbrucker Nachrichten</hi>, 27. 5. 1873, 1487–88, Das
+                        Börsencomptoir Placht. </note> Izkazalo se je, da je Placht nakopičil
+                    orjaški dolg 2,8 milijona goldinarjev, vendar je sodišče kot olajševalno
+                    okoliščino vzelo v obzir pogoltnost vlagateljev. Februarja 1874 je bil obsojen
+                    na šest let zapora, vendar ga je cesar Franc Jožef leta 1877 pomilostil.<note
+                        place="foot" xml:id="ftn66" n="64">
+                        <hi rend="italic">Neuigkeits-Welt-Blatt</hi>, 28. 9. 1877, 3, Placht: der
+                        'höchste Fruktifizirer' – begnadigt.</note> Ker je tudi slovenski tisk o
+                    Plachtovem sojenju obširno poročal, ne preseneča, da je Terezija Aristoteles
+                    zgolj dva tedna kasneje zbudila marsikatero asociacijo na dunajskega goljufa. –
+                    Na koncu je tudi ime same Terezije Aristoteles napredovalo do sopomenke za
+                    prevaro, saj je <hi rend="italic">Slovenski narod</hi> ob poročanju o neki češki
+                    finančni aferi konec marca 1874 zapisal, da je šlo za »[a]ristotelovsko«
+                        početje.<note place="foot" xml:id="ftn67" n="65">
+                        <hi rend="italic">Slovenski narod</hi>, 21. 3. 1874, 3,
+                        Aristotelovsko.</note></p>
+                <p>Tisk je torej skušal pojasniti zadevo Aristoteles s sklicevanjem na gospodarsko
+                    krizo, na Adele Spitzeder in Plachta, vendar je afero vseeno obdajala avra še
+                    neznanega in do takrat nevidenega. Šlo je za prvo večjo finančno afero v
+                    Ljubljani, vendar je v primerjavi z obsegom dolgov iz drugih afer šlo za
+                    razmeroma benigne izgube. Kaj je bil pravzaprav element zgodbe, ki je javnost in
+                    tisk najbolj vznemirjal? Zakaj je sodni proces pritegnil toliko opazovalcev in
+                    zakaj je tisk o njem izdatno poročal ter navajal, da gre za »kazenski postopek,
+                    edinstven v kroniki mesta Ljubljane, ki meče čudno luč na družbene in finančne
+                    razmere tega majhnega mesta«?<note place="foot" xml:id="ftn68" n="66">
+                        <hi rend="italic">Neue Freie Presse</hi>, 26. 2. 1874, 8, Schwindel in
+                        Frauenkreisen.</note> Pregled časopisja pokaže, da sta sodobnike fascinirala
+                    in šokirala predvsem dva elementa afere: da je bila večina vpletenih akterjev
+                    žensk in da je šlo v nemajhni meri za pripadnice višjih slojev. Kot so zapisale
+                        <hi rend="italic">Novice</hi>: »Zatoženki, priče in poškodovani, – vse to je
+                    skoro brez izjemka ženskega spola in – kar dela pravdo še bolj zanimivo – iz
+                    tako imenovanih 'boljših in omikanih' krogov.«<note place="foot" xml:id="ftn69"
+                        n="67">
+                        <hi rend="italic">Novice gospodarske, obrtniške in narodne</hi>, 4. 3. 1874,
+                        72, Ženski polom v Ljubljani pred sodnijo.</note> Afera je rušila ustaljena
+                    prepričanja, ki so jih Slovenci imeli o ženskah, še posebej pa o ženskah iz
+                    višjih razredov.</p>
+                <p>Tako slovenski kot avstrijski tisk sta poudarjala, kako neobičajna je situacija,
+                    da se morata zaradi finančne goljufije pred sodiščem zagovarjati dve ženski, da
+                    so priče v glavnem ženske iz srednjih ter višjih slojev in da so bile za
+                    spremljanje procesa najbolj zainteresirane ženske. Da bi proces naredil še bolj
+                    atraktiven, je nemški tisk pretiraval pri opisovanju družbenega statusa
+                    Aristoteles in Riesner, češ da izhajata tako rekoč iz aristokratskih krogov
+                    (nem. vornehmeren Kreisen). Vsekakor pa je bilo časopisje enotno v oceni, da gre
+                    za »ženski postopek najnovejše vrste«,<note place="foot" xml:id="ftn70" n="68">
+                        <hi rend="italic">Laibacher Tagblatt</hi>, 20. 2. 1874, 3, Schwindel in
+                        Frauenkreisen.</note> kot ga na Kranjskem še ni bilo. </p>
+                <p>V slovenskem tisku z začetka sojenja je mogoče opaziti trend, da so pri
+                    opisovanju prič iz višjih slojev uporabili besedo »'gospe'«, postavljeno v
+                        narekovaje,<note place="foot" xml:id="ftn71" n="69"><hi rend="italic">
+                            Slovenski narod</hi>, 25. 2. 1874, 3, Pred tukajšno sodnijo.</note> kot
+                    bi novinarji želeli povedati, da oškodovanke sicer pripadajo eliti, vendar si
+                    naziva zaradi svoje izkoriščevalskosti ne zaslužijo. Zaradi tega je bilo sojenje
+                    po zagotovilu <hi rend="italic">Novic</hi> »jako drastična slika Ljubljanskih
+                    socijalnih razmer, kajti gospé iz 'boljših krogov' so pripovedovale, kako so se
+                    dale zapeljati po velikih obrestih«.<note place="foot" xml:id="ftn72" n="70">
+                        <hi rend="italic">Novice gospodarske, obrtniške in narodne</hi>, 4. 3. 1874,
+                        73, Ženski polom v Ljubljani pred sodnijo.</note> Nemara najostrejša kritika
+                    sploh ni prišla iz ljubljanskega tiska, temveč iz liberalne goriške <hi
+                        rend="italic">Soče</hi>:</p>
+                <quote>»Negnjušno je bilo videti pri konečnem obravnavanji lepe, mlade elegantne
+                    gospe, pripovedovaje, da je je 'amor sceleratus habendi' [bolestna strast do
+                    premoženja, iz Ovidovih <hi rend="italic">Metamorfoz</hi>] zapeljal, da so denar
+                    proti visokim obrestim posojale; negnjušno je bilo slišati priče, pripovedujoče,
+                    da so za par posojenih stotakov samo na obrestih dobile izplačan kapital s
+                    poštenimi interesi vred, pa so vendar še zahtevale, da se jim tudi kapital
+                    izplača. Po javnem mnenji večina prič zasluži, da bi bile poleg Aristotelesovke
+                    sedele na zatožni klopi.«<note place="foot" xml:id="ftn73" n="71">
+                        <hi rend="italic">Soča</hi>, 5. 3. 1874, 3, V Ljubljani 4.
+                    marcija.</note></quote>
+                <p>Tovrstno pridobitništvo med ženskami je bilo na Slovenskem pojav, ki se je z
+                    afero Aristoteles prvič prikazal na svetlem in je požel ostre odzive. Satirični
+                    časopis <hi rend="italic">Brencelj</hi>, blizu konservativnemu staroslovenskemu
+                    taboru, je v rubriki, ki naj bi jo v ljubljanskem narečju pisala služabnica
+                    premožne Ljubljančanke, okaral oškodovanke za pohlepnost, vendar bi bila
+                    služabnica pripravljena isti greh spregledati, če bi se afera odvila v moškem
+                    krogu.</p>
+                <quote>»K' je bla tista frava [gospa, iz nem. Frau] Aristotlovka te dni pred rihto v
+                    procés zavolj petruga goljfivih dolgov, se je pokazal, de so tud naša frava per
+                    njih dnarje imel in še precéj velik, zato, k' je strašne činže [obresti, iz nem.
+                    Zinsen] al vontrese plačvala, dokler je kej dnarja imela. […] Jest jim na vso
+                    moč pervošim, če so kej zgubli per Aristotlovk, sej so na to vižo že drugih dost
+                    odrli, k' imajo zmirej kej tisteh bekselnov [menice, iz nem. Wechsel] v rokah.
+                    […] Če že moški s takem dnarjam vohrnujejo, ni toko za zamert; ženske pa,
+                    posebno take, kterih možje imajo dost zaslužka al psoldenge, b' ne smele se
+                    pečat s tako vohrnijo. Al je to kršansk?« <note place="foot" xml:id="ftn74"
+                        n="72">
+                        <hi rend="italic">Brencelj</hi>, 1874, št. 1–3, 6, Rešpehtarjova
+                        kuharca.</note></quote>
+                <p>Podobna stališča je mogoče prebrati v katoliškem <hi rend="italic">Slovencu</hi>,
+                    ki je ocenil, da so se vse ženske, ki so se na tak ali drugačen način udeležile
+                    sojenja, izneverile svoji ženskosti in vsemu, kar družba pričakuje od njih kot
+                    žensk. </p>
+                <quote>»Dobrovoljni in galantni pisatelji in pesniki vsih civiliziranih narodov
+                    slavé žensko kot boljšo polovico človeškega rodu, nji pripisujejo večo mero
+                    blagih, nježnih lastnost, njenemu srcu večo občutljivost, usmiljenost, milost,
+                    mehkost, sploh vse, kar je v stanu sladiti življenje človeško. In mi tem
+                    pisateljem in pesnikom radi verjamemo, čeravno nas lastne skušnje mnogokrat
+                    nasprotno učé. […] Take in morda še drugačne misli so nas obhajale, ko smo
+                    gledali podobo dvorane deželne sodnije ljubljanske ravno minule dni. Podoba, ki
+                    se nam je tu kazala, je pač pravi pamflet na sodbo žensko bitje občudovajočih
+                    ali slavečih pesnikov in pisateljev, kajti ako bi kdo sodil vse ženstvo po tem,
+                    kar je v sodnijski dvorani opazoval na posameznih njegovih zastopnikih, bi pač
+                    ne mogel drugače, kakor tužen dati slovó misli, da je žensko bitje obdano s še
+                    tako tanjko pajčevino poezije, če se tudi prišteva tako imenovanim omikanim ali
+                    višim krogom.«<note place="foot" xml:id="ftn75" n="73">
+                        <hi rend="italic">Slovenec</hi>, 3. 3. 1874, 4, Iz sodnijske
+                    dvorane.</note></quote>
+                <p>Morda pa pogled v liberalni tisk pokaže nekaj več razumevanja do žensk, vpletenih
+                    v afero? Ne, ravno nasprotno. Vzemimo <hi rend="italic">Slovenski narod</hi>, ki
+                    je v šestdelnem podlistku <hi rend="italic">Postna premišljevanja</hi> satirično
+                    seciral kulturni boj na Slovenskem. Polovico podlistkov je napisal liberalni
+                    politik in književnik Janko Kersnik, med njimi tudi tistega, ki omenja Terezijo
+                        Aristoteles.<note place="foot" xml:id="ftn76" n="74"> Kersnik, <hi
+                            rend="italic">Zbrano delo</hi>, 499–504. Jurčič, <hi rend="italic"
+                            >Zbrano delo</hi>, 540.</note> Avtor <hi rend="italic">Jare gospode</hi>
+                    je ocenil, da so ženske na sojenju razbile idealizirano predstavo o vlogi in
+                    funkciji žensk v (slovenski) družbi.</p>
+                <quote>»Pa naj govori še kdo za žensko emancipacijo! Pa naj se še kdo pritožuje, da
+                    žene in gospodičine pri nas nijso tako svobodne, tako enakopravne, kakor mi –
+                    gospodje tega stvarjenja! […] [P]odrl [se mi je] pri kapucinadi [moralizirajoči
+                    govor] Kozjakovi in pri lepem govoru državnega pravdnika g. Kočevarja ves lepi
+                    sanj o ženski emancipaciji, v katerega so me bili zazibali razni ženski posvetni
+                    in trcijalski glasovi, ki so prevladovali v dvorani. – Čudna, v istini čudna je
+                    bila družba, ki je stala one dni v raznih poslovih pred ljubljanskimi sodniki.
+                    Idealist, ki le o ženskih idealih sanjari, bi bil našel tu celo lekarno za svojo
+                    bolezen. Vsi ženski stanovi skoro so bili zastopani po lepih in nelepih
+                    eksemplarih, – naivnost in prebrisanost, gizdavost in trcijalstvo – vse, vse se
+                    je bilo sešlo k zadnjemu aktu tragikomične drame: 'Aristoteles &amp; Comp.'. Kje
+                    si, ti godec Preširnov, ki si pel o ženskih: <lb/>
+                    <lg>
+                        <l>Da one same nam ur'jo roké, </l>
+                        <l>Da one same nam glave vedré [sklepna verza <hi rend="italic">Ženske
+                                zvestobe</hi>]; </l>
+                        <l>ali bi bil ti pač ponovil to svojo hvalo pri onem tridnevem prizoru?
+                            Skoraj, vsaj komur se tu nij glava zvedrila, temu se ne bo – ni denes,
+                            ni jutri – nikdar!«<note place="foot" xml:id="ftn77" n="75">
+                                <hi rend="italic">Slovenski narod</hi>, 8. 3. 1874, 1, Postna
+                                premišljevanja.</note></l>
+                    </lg></quote>
+                <p>Tovrstni pogledi so bili v tem obdobju nekaj običajnega. Ženska emancipacija se
+                    na Slovenskem v času afere Aristoteles še ni pričela, javna mnenja v podporo
+                    žensk pa so bila redka;<note place="foot" xml:id="ftn78" n="76"> Vodopivec, Kako
+                        so ženske, 35–38.</note> za ilustracijo: leta 1874 je bila Marica Nadlišek
+                    Bartol stara sedem let, Zofka Kveder pa se ni še niti rodila. Vidni katoliški in
+                    liberalni predstavniki so glede žensk gojili podobna, do pridobivanja političnih
+                    pravic skeptična ali povsem negativna prepričanja. »Ženska utegne biti dobra
+                    gospodinja, dobra mati, za kar jo je Bog vstvaril, za drugo pa v obče nikjer ne
+                        veljá,«<note place="foot" xml:id="ftn79" n="77">
+                        <hi rend="italic">Slovenec</hi>, 25. 5. 1878, 2, Šola nekdaj in
+                        sedaj.</note> je pisal <hi rend="italic">Slovenec</hi>, za <hi rend="italic"
+                        >Slovenski narod</hi> pa so bili zametki ženskega gibanja, ki so prišli z
+                    Zahoda, »čudni« in »nezreli klici«.<note place="foot" xml:id="ftn80" n="78">
+                        <hi rend="italic">Slovenski narod</hi>, 25. 5. 1869, 1, Malo poglavje o
+                        naših ženskih.</note> Tudi bodoči prvak liberalcev, še ne tridesetletni Ivan
+                    Tavčar, je leta 1880 zapisal: »Kaj bode ženska o svobodi govorila? To je pač
+                    tako, kakor če bi knez Bismark vstal ter patetično govoril o koristi tega ali
+                    onega kuhinjskega orodja.«<note place="foot" xml:id="ftn81" n="79"> Dr. J. T.,
+                        Cesar Jožef, 1.</note> Zavračanje emancipacije je temeljilo na
+                    psevdoznanstvenih razlagah, pri katerih je prednjačil priznani patolog, anatom
+                    in predsednik avstrijske akademije znanosti Carl baron pl. Rokitansky. Akademik
+                    ni skrival svojega kategorično odklonilnega stališča do emancipacije,<note
+                        place="foot" xml:id="ftn82" n="80">
+                        <hi rend="italic">Novice gospodarske, obrtniške in narodne</hi>, 18. 8.
+                        1875, 278, Iz Dunaja.</note> ki ga je med drugim utemeljeval z
+                    »ugotovitvijo«, da so možgani žensk tri- do štirikrat lažji od moških
+                        možganov.<note place="foot" xml:id="ftn83" n="81">
+                        <hi rend="italic">Slovenski narod</hi>, 4. 1. 1873, 4, Možgani pri
+                        ženskih.</note> Domnevno znanstveni argumenti so se pojavljali tudi v
+                    slovenskem tisku, denimo pri trditvah, da ženske ne bi smele prevzeti poučevanja
+                    vseh šolskih predmetov, saj »ženski spol uže od nature nij za to odločen«, ker
+                    nimajo potrebne telesne moči niti duševne pripravljenosti za tak poklic: »Ali so
+                    mar ženske res tako potrpežljive dušice? Ha, ha! Pa pustimo to!«<note
+                        place="foot" xml:id="ftn84" n="82"> G., O naših učiteljicah, 1,
+                    2.</note></p>
+            </div>
+            <div>
+                <head>Zaključek</head>
+                <p>Če verjamemo poročanju tiska, je bila Ljubljana pod vplivom senzacionalnega
+                    procesa zoper Terezijo Aristoteles še dober mesec dni po njegovem
+                        zaključku.<note place="foot" xml:id="ftn85" n="83">
+                        <hi rend="italic">Tagespost</hi>, 10. 4. 1874, 9, Laibach, 9. April.</note>
+                    Mešetarjenje je za nekaj časa zastalo. Časopisje je zadovoljno ugotavljalo, da
+                    je proces razkril, kdo so glavne oderuhinje, ki se jim bodo zdaj lahko vsi
+                        izognili.<note place="foot" xml:id="ftn86" n="84">
+                        <hi rend="italic">Novice gospodarske, obrtniške in narodne</hi>, 4. 3. 1874,
+                        73, Ženski polom v Ljubljani pred sodnijo.</note> In res, že med sojenjem je
+                    Flora pl. Gariboldi povedala, »da je pri ljudeh vse zaupanje zgubila ter da se
+                    zdaj z mešetarjenjem ne more nič zaslužiti«.<note place="foot" xml:id="ftn87"
+                        n="85">
+                        <hi rend="italic">Slovenski narod</hi>, 28. 2. 1874, 3, Dva ženska
+                        ljubljanska Plahta.</note> Zastoj pa je bil le kratkotrajen. Konec leta je
+                    časopisje že jezno poročalo o ponovnem vzponu »ženskih vampirjev«, ki zahtevajo
+                    visoke provizije.<note place="foot" xml:id="ftn88" n="86">
+                        <hi rend="italic">Laibacher Tagblatt</hi>, 17. 12. 1874, 3, Weibliche
+                        Vampyre.</note></p>
+                <p>O tem, kaj se je dogajalo s Terezijo Aristoteles po zaključku postopka, je
+                    znanega le malo. Njen soprog Jožef Aristoteles je umrl 5. oktobra 1876, star 59
+                    let, zaradi srčne napake.<note place="foot" xml:id="ftn89" n="87">
+                        <hi rend="italic">Laibacher Tagblatt</hi>, 6. 10. 1876, 3,
+                        Verstorbene.</note> Družina še vedno ni imela sreče s financami, saj je sin
+                    Pavel Aristoteles, ki je prav tako postal lesni trgovec, leta 1880 moral
+                    organizirati prisilno dražbo svojega premoženja, da je poplačal neki dolg.<note
+                        place="foot" xml:id="ftn90" n="88">
+                        <hi rend="italic">Laibacher Zeitung</hi>, 18. 2. 1880, 328, Exekutive
+                        Fahrnis-Versteigerung.</note> Njegova mati je umrla leta 1899. Njeni smrti
+                    je časopisje namenilo le kratko notico: »75-letna Terezija Aristoteles je umrla
+                    nagle smrti. Zvečer je še večerjala se slastjo, zjutraj pa so jo našli mrtvo v
+                    njeni postelji.«<note place="foot" xml:id="ftn91" n="89">
+                        <hi rend="italic">Edinost</hi>, 27. 4. 1899, 3, Drobne vesti.</note></p>
+                <p>Afera Aristoteles je dogodek, ki ni imel dolgoročnega vpliva v slovenski
+                    zgodovini in je sčasoma utonil v pozabo, vendar omogoča zanimiv vpogled v
+                    slovensko družbo na začetku 70. let 19. stoletja. Afera ni bila politična, zato
+                    je v nasprotju z ustaljeno navado slovenski tisk ni slikal črno-belo, temveč je
+                    negativno prikazal kar vse vpletene strani: ene kot goljufe, druge kot
+                    izkoriščevalce in tretje kot vsiljive radovedneže. Afera je namesto na
+                    političnega posegla na globlji nivo, saj je družbi zastavila vprašanja o
+                    položaju žensk in o tem, kaj je ženskam dovoljeno in kaj jim ni oziroma kaj se
+                    zanje spodobi in kaj ne. Četudi tega ni neposredno omenil noben časnikar, je za
+                    poročanjem o sojenju, ki je pogosto imelo ironične, jedko satirične ali šaljive
+                    tone, mogoče zaslutiti tudi skrb zaradi pojava do takrat neznanega sveta
+                    mešetarjenja in poslovnih goljufij med ženskami. Aristoteles je s svojo
+                    precedenčno goljufijo nehote vplivala na način, na katerega je slovenska javnost
+                    gledala na ženske. Vsekakor ni dosegla izboljšanja javnega mnenja o ženskah,
+                    uspelo pa ji je pri vcepljanju spoznanja, da so ženske sposobne samostojno in
+                    premišljeno storiti tudi dejanja, ki jim jih še včeraj nihče ne bi pripisal.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <listBibl>
+                    <head>Literatura</head>
+                    <bibl>Cerar – Danilo, Anton. <hi rend="italic">Spomini</hi>. Ljubljana:
+                        samozaložba, 1930.</bibl>
+                    <bibl>Dr. J. T. Cesar Jožef v našem nemškem gledališči. <hi rend="italic"
+                            >Slovenski narod</hi> 13, 1880, št. 278, 1, 2.</bibl>
+                    <bibl>G. O naših učiteljicah. <hi rend="italic">Slovenski narod</hi> 8, 1875,
+                        št. 148, 1, 2.</bibl>
+                    <bibl>Jurčič, Josip. <hi rend="italic">Zbrano delo: deseta knjiga</hi>.
+                        Ljubljana: Državna založba Slovenije, 1982.</bibl>
+                    <bibl>Kersnik, Janko. <hi rend="italic">Zbrano delo: peta knjiga</hi>.
+                        Ljubljana: Državna založba Slovenije, 1952.</bibl>
+                    <bibl>Nebel, Julian. <hi rend="italic">Adele Spitzeder: der größte Bankenbetrug
+                            aller Zeiten</hi>. München: Finanz Buch Verlag, 2017.</bibl>
+                    <bibl>Paupié, Kurt. <hi rend="italic">Handbuch der Österreichischen
+                            Pressegeschichte 1848–1859: Band I: Wien</hi>. Wien, Stuttgart: Wilhelm
+                        Braumüller, 1960.</bibl>
+                    <bibl>Studen, Andrej. Ženski polom pred sodnijo v Ljubljani. V: Janez Cvirn
+                        (ur.). <hi rend="italic">Slovenska kronika XIX. stoletja: 1861–1883</hi>,
+                        271, 272. Ljubljana: Nova revija, 2003. </bibl>
+                    <bibl>Vodopivec, Peter. Kako so ženske na Slovenskem v 19. stoletju stopale v
+                        javno življenje: prispevek k zgodovini žensk v slovenskem prostoru
+                        (1848–1900). <hi rend="italic">Zgodovina za vse</hi> 1, št. 2 (1994):
+                        30–44.</bibl>
+                    <bibl>Vodopivec, Peter. Velika gospodarska kriza 1873 in Slovenci. <hi
+                            rend="italic">Prispevki za novejšo zgodovino</hi> 39, št. 2 (1999):
+                        25–38. </bibl>
+                    <bibl>Wellmer, Arnold. Dem Frühling entgegen!. <hi rend="italic">Allgemeine
+                            Zeitung</hi>, 1874, št. 89, 1351.</bibl>
+                    <bibl>Zajc, Marko in Janez Polajnar. <hi rend="italic">Naši in vaši: iz
+                            zgodovine slovenskega časopisnega diskurza v 19. in na začetku 20.
+                            stoletja</hi>. Ljubljana: Mirovni inštitut, 2012.</bibl>
+                    <bibl>Žigon, Tanja. <hi rend="italic">Nemško časopisje na Slovenskem</hi>.
+                        Ljubljana: Študentska založba, 2001.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Periodični tisk</head>
+                    <bibl><hi rend="italic">Brencelj</hi>, 1874.</bibl>
+                    <bibl><hi rend="italic">Das Vaterland</hi>, 1874.</bibl>
+                    <bibl><hi rend="italic">Deutsche Zeitung</hi>, 1874.</bibl>
+                    <bibl><hi rend="italic">Die Presse</hi>, 1874.</bibl>
+                    <bibl><hi rend="italic">Edinost</hi>, 1899.</bibl>
+                    <bibl><hi rend="italic">Gemeinde-Zeitung</hi>, 1874.</bibl>
+                    <bibl><hi rend="italic">Grazer Volksblatt</hi>, 1874.</bibl>
+                    <bibl><hi rend="italic">Grazer Zeitung</hi>, 1874.</bibl>
+                    <bibl><hi rend="italic">Innsbrucker Nachrichten</hi>, 1873–1874.</bibl>
+                    <bibl><hi rend="italic">Laibacher Tagblatt</hi>, 1874–1876.</bibl>
+                    <bibl><hi rend="italic">Laibacher Zeitung</hi>, 1865–1880.</bibl>
+                    <bibl><hi rend="italic">Neue Freie Presse</hi>, 1874.</bibl>
+                    <bibl><hi rend="italic">Neuigkeits-Welt-Blatt</hi>, 1874, 1877.</bibl>
+                    <bibl><hi rend="italic">Novice gospodarske, obrtniške in narodne</hi>,
+                        1874–1875.</bibl>
+                    <bibl><hi rend="italic">Slovenec</hi>, 1874–1878.</bibl>
+                    <bibl><hi rend="italic">Slovenski narod</hi>, 1869–1874.</bibl>
+                    <bibl><hi rend="italic">Soča</hi>, 1874.</bibl>
+                    <bibl><hi rend="italic">Tagespost</hi>, 1874.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

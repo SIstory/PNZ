@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Neporočene matere med normami in prakso<note place="foot" xml:id="ftn2" n="*"
+                        >Članek je nastal v okviru raziskovalnega projekta J6-4602-<hi rend="italic"
+                            >Materinstvo in reproduktivna politika v 19. in 20. stoletju</hi>, ki ga
+                        financira Javna agencija za znanstvenoraziskovalno in inovacijsko dejavnost
+                        Republike Slovenije iz državnega proračuna.</note>
+                </title>
+                <author>
+                    <forename>Ana</forename>
+                    <surname>Cergol Paradiž</surname>
+                    <roleName>Dr.</roleName>
+                    <roleName>docentka</roleName>
+                    <affiliation>Oddelek za zgodovino filozofske fakultete Univerze v
+                        Ljubljani</affiliation>
+                    <affiliation>Marie Curie postdoktorska raziskovalka na Univerzi v
+                        Københavnu</affiliation>
+                    <address>
+                        <addrLine>Aškerčeva 2</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                    <email>Ana.CergolParadiz@ff.uni-lj.si</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition><date/></edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+                    <orgName xml:lang="en">Institute of Contemporary History</orgName>
+                    <address>
+                        <addrLine>Privoz 11</addrLine>
+                        <addrLine>SI-1000 Ljubljana</addrLine>
+                    </address>
+                </publisher>
+                <pubPlace>http://ojs.inz.si/pnz/article/view/4306</pubPlace>
+                <date>2023</date>
+                <availability status="free">
+                    <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+                <title xml:lang="en">Contributions to Contemporary History</title>
+                <biblScope unit="volume">64</biblScope>
+                <biblScope unit="issue">1</biblScope>
+                <idno type="ISSN">2463-7807</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <p>No source, born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc xml:lang="en">
+                <p>Contributions to Contemporary History is one of the central Slovenian scientific
+                    historiographic journals, dedicated to publishing articles from the field of
+                    contemporary history (the 19th and 20th century).</p>
+                <p>The journal is published three times per year in Slovenian and in the following
+                    foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak
+                    and Czech. The articles are all published with abstracts in English and
+                    Slovenian as well as summaries in English.</p>
+            </projectDesc>
+            <projectDesc xml:lang="sl">
+                <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+                    zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+                    stoletje).</p>
+                <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+                    angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina
+                    in češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki
+                    v angleščini.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sl"/>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="en">
+                    <term>illegitimate mothers</term>
+                    <term>Habsburg Monarchy</term>
+                    <term>Kingdom of SCS</term>
+                    <term>illegitimate children</term>
+                    <term>courts</term>
+                </keywords>
+                <keywords xml:lang="sl">
+                    <term>nezakonske matere</term>
+                    <term>habsburška monarhija</term>
+                    <term>Kraljevina SHS</term>
+                    <term>nezakonski otroci</term>
+                    <term>sodišča</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change>
+                    <date>2024-02-19T08:23:26Z</date>
+                    <name>Mihael Ojsteršek</name>
+                    <desc>Pretvorba iz DOCX v TEI, dodatno kodiranje</desc>
+                </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docAuthor> Ana Cergol Paradiž<note place="foot" xml:id="ftn1" n="**"><hi rend="bold"
+                        >Dr., docentka, Oddelek za zgodovino, Filozofska fakulteta Univerze v
+                        Ljubljani; Marie Curie postdoktorska raziskovalka na Univerzi v Københavnu,
+                            <ref target="mailto:Ana.CergolParadiz@ff.uni-lj.si"
+                            >Ana.CergolParadiz@ff.uni-lj.si</ref>; ORCID:
+                    0000-0002-6054-497X</hi></note>
+            </docAuthor>
+            <docImprint>
+                <idno type="cobissType">Cobiss tip: 1.01</idno>
+                <idno type="DOI">https://doi.org/10.51663/pnz.64.1.25</idno>
+            </docImprint>
+            <div type="abstract">
+                <head>IZVLEČEK</head>
+                <p><hi rend="italic">V habsburški monarhiji je civilne pravice nezakonskih mater in
+                        otrok od leta 1811 najpomembneje določal avstrijski</hi> Občni državljanski
+                    zakonik. <hi rend="italic">Po slednjem nezakonski otroci niso imeli enakih
+                        pravic kot zakonski. Kljub temu je bil zanje dolžan skrbeti nezakonski oče.
+                        Vendar ostaja odprto vprašanje, do katere mere se je to dokaj napredno
+                        načelo</hi> ODZ<hi rend="italic"> uresničevalo tudi v praksi. Kako pogosto
+                        so nezakonske matere, v kolikor očetje niso hoteli sodelovati pri preskrbi
+                        otrok, iskale pravico na sodišču? In kako pogosto so potem dosegle priznanje
+                        očetovstva in izterjavo elementov? Pričujoči prispevek odgovore na navedena
+                        vprašanja razišče s pomočjo študije primera stotih ohranjenih skrbstvenih
+                        sodnih spisov, ki so nastali v okviru Okrajnega sodišča v Rakeku, Okrajnega
+                        sodišča v Ložu in Okrajnega sodišča v Cerknici med letoma 1899 in 1945 ter
+                        še nekaj civilnopravnih spisov. </hi></p>
+                <p><hi rend="italic">Ključne besede: nezakonske matere, habsburška monarhija,
+                        Kraljevina SHS, nezakonski otroci, sodišča</hi></p>
+            </div>
+            <div type="abstract" xml:lang="en">
+                <head>ABSTRACT</head>
+                <p style="text-align:center;">UNMARRIED MOTHERS BETWEEN NORMS AND PRACTICE</p>
+                <p><hi rend="italic">In the Habsburg Monarchy, the civil rights of illegitimate
+                        mothers and children were primarily regulated by the</hi>Austrian Civil Code
+                        <hi rend="italic">of 1811. Under this code, illegitimate children did not
+                        enjoy the same rights as legitimate ones. Nevertheless, the illegitimate
+                        father was obligated to provide for them. The extent to which this
+                        progressive principle in Austrian law was practically implemented remains
+                        uncertain. This study investigates the frequency with which illegitimate
+                        mothers pursued legal recourse when fathers refused financial responsibility
+                        for their children. Additionally, it examines how often these mothers
+                        successfully obtained paternity recognition. The paper addresses these
+                        inquiries by analysing one hundred preserved custody court files from the
+                        District Courts in Rakek, Lož, and Cerknica between 1899 and 1945, alongside
+                        other relevant civil law documents.</hi></p>
+                <p><hi rend="italic">Keywords: illegitimate mothers, Habsburg Monarchy, Kingdom of
+                        SCS, illegitimate children, courts</hi></p>
+            </div>
+        </front>
+        <body>
+            <div>
+                <head>Uvod</head>
+                <p>Kljub vsesplošnemu prepričanju, da je še v obdobju pred drugo svetovno vojno
+                    nezakonske matere in njihove otroke vselej doletela tragična usoda, da so bile
+                    njihove izbire skrajno omejene in družbena stigmatizacija veselj prisotna, da
+                    jih državne oblasti niso ščitile pred propadom ter da tudi od nezakonskih očetov
+                    v večini niso dobivale pomoči, študije iz različnih predelov Evrope vendarle
+                    kažejo nekoliko bolj zapleteno pripoved.<note place="foot" xml:id="ftn3" n="1">
+                        Vermeesch, The legal agency, 51–73.</note></p>
+                <p>Vpliv družbene stigmatizacije se je razlikoval glede na geografsko okolje. Dobro
+                    je npr. znano, da je bila družbena obravnava nezakonskih mater in otrok v
+                    določenih predelih Severne Evrope blažja kot pa v Južni Evropi in na Balkanu, v
+                    okviru bivše habsburške monarhije pa na Koroškem npr. blažja kot na Kranjskem.
+                    Odnos do samskih mater se je tudi spreminjal skozi čas in glede na samo
+                    številčnost pojava v določeni regiji<note place="foot" xml:id="ftn4" n="2">
+                        Mitterauer, <hi rend="italic">Ledige Mütter</hi>. Žnidaršič-Žagar,
+                        Nezakonske matere, 57–63.</note> ter glede na svetovnonazorsko usmerjenost
+                    avtorjev in avtoric, ki so o tem javno izražali svoja mnenja. Kakor ugotavlja
+                    Britta McEwen, se sistemska zaščita mater in otrok, ki so jo npr. po prvi
+                    svetovni vojni uvajali na »rdečem Dunaju« v Avstriji, ne bi udejanjila, če ne bi
+                    v predhodnih desetletjih različni akterji, med njimi predvsem ženska društva,
+                    vse bolj odločno nasprotovali njihovemu javnemu zasramovanju. Tudi slovenska
+                    ženska društva so od začetka dvajsetega stoletja vse bolj odločno zagovarjala
+                    zaščito materinstva.<note place="foot" xml:id="ftn5" n="3"> Verginella, <hi
+                            rend="italic">Slovenka</hi>. Leskošek, <hi rend="italic">Zavrnjena
+                            tradicija.</hi> Žnidaršič-Žagar, <hi rend="italic">Ženski so pa
+                            vzrasle</hi>.</note> Tako se je stigma sramote od nezakonskih mater in
+                    otrok počasi premestila na posameznike in tudi institucije, ki jim niso nudili
+                    potrebne pomoči.<note place="foot" xml:id="ftn6" n="4"> McEwen, Shame, Sympathy,
+                        100–20. McEwen, Outsider Bodies, 177–91.</note> Postopoma se je izgrajevala
+                    čustvena kultura, ki je omogočala, da so nezakonske matere vsaj do določene mere
+                    imele možnost različnih izbir in avtonomnega delovanja.<note place="foot"
+                        xml:id="ftn7" n="5"> Vermeesch, The legal agency.</note></p>
+                <p>Možnosti, ki so jih v posameznih okoljih imele nezakonske matere, so bile tudi
+                    ali predvsem odvisne od specifičnega zakonodajnega okvira, ki je opredeljeval
+                    njihov položaj. V habsburški monarhiji je civilne pravice nezakonskih mater in
+                    otrok od leta 1811 najpomembneje določal avstrijski <hi rend="italic">Občni
+                        državljanski zakonik</hi> (odslej <hi rend="italic">ODZ</hi>). Po 155. členu
+                        <hi rend="italic">ODZ</hi> nezakonski otroci niso imeli enakih pravic kot
+                    zakonski. Niso imeli pravice do prevzema očetovega priimka, ne pravice do
+                    dedovanja očetovega imetja, pač pa le materinega. Kljub temu je bil zanje dolžan
+                    skrbeti nezakonski oče. V drugem desetletju 20. stoletja, zlasti v času prve
+                    svetovne vojne, so avstrijske oblasti uvedle nekaj novih regulativ, ki so
+                    izboljševale položaj nezakonskih mater. Dodalo se je npr. »določilo, po katerem
+                    je lahko tudi samo sodišče sprožilo sodno ugotavljanje očetovstva«. Poleg tega
+                    je bil nezakonski oče otroka »zavezan povrniti materi stroške poroda in pa
+                    stroške njenega vzdrževanja za prvih šest mesecev po porodu«.<note place="foot"
+                        xml:id="ftn8" n="6"> Žnidaršič-Žagar, Nezakonske matere, 57–63.</note>
+                    Avstrijska zakonodaja, ki je na dobršnem delu slovenskega ozemlja veljala tudi v
+                    obdobju med obema vojnama, je tako nezakonskim materam vsaj na papirju
+                    omogočala, da od nezakonskih očetov iztržijo alimente, če niso že drugače
+                    nameravali skrbeti zanje. To zakonodajno načelo jih je zagotovo postavljalo v
+                    boljši položaj kot nezakonske matere v številnih drugih evropskih državah, npr.
+                    Franciji ali Srbiji, kjer jim je civilno pravo celo prepovedovalo, da bi
+                    poimensko navajale nezakonskega očeta, kaj šele, da bi od njega zahtevale
+                        pomoč.<note place="foot" xml:id="ftn9" n="7"> Prav tam. Leskošek, <hi
+                            rend="italic">Zavrnjena tradicija</hi>.</note> Vendar ostaja odprto
+                    vprašanje, do kolikšne mere so se dokaj napredna načela <hi rend="italic"
+                        >ODZ</hi>-ja uresničevala tudi v praksi. Kako pogosto so nezakonske matere,
+                    v kolikor očetje niso hoteli sodelovati pri preskrbi otrok, iskale pravico na
+                    sodišču? In kako pogosto so potem dosegle priznanje očetovstva in izterjavo
+                    elementov? Pričujoči prispevek bo odgovore na navedena vprašanja poskušal
+                    poiskati s pomočjo študije primera stotih ohranjenih skrbstvenih sodnih spisov,
+                    ki so nastali v okviru Okrajnega sodišča v Rakeku, Okrajnega sodišča v Ložu in
+                    Okrajnega sodišča v Cerknici med letoma 1899 in 1947 in še nekaj civilnopravnih
+                        spisov.<note place="foot" xml:id="ftn10" n="8"> SI ZAL CER 3, t. e. 8, 12,
+                        29, 31, 32. SI ZAL CER 4, t. e. 47–61, 77, 156, 158, 159. SI ZAL CER 5,
+                        serija 1, t. e. 10, 14; serija 2, t. e. 1, 2; serija 8, t. e. 23, 24; serija
+                        9, t. e. 6; serija 15, t. e. 22 (1899–1947).</note> Tovrstna obravnava bo
+                    predvidoma presegla predvidevanja in ocene, ki jih je v obravnavanem času glede
+                    položaja nezakonskih mater in otrok podajal javni diskurz in jih je kasneje
+                    povzemalo tudi slovensko zgodovinopisje. Z analizo govora obravnavanih v sodnih
+                    dokumentih bodo osvetljene namreč strategije in motivacije ter življenjske
+                    razmere »malih ljudi«. Orisani bodo predsodki in omejitve, s katerimi so se
+                    tedaj na kranjskem podeželju spopadale nezakonske matere in njihovi otroci.
+                    Predstavljeno bo, v kolikšni meri so bili le-ti deležni sistemske zaščite in
+                    kako motivirana so bila v obravnavanem obdobju skrbstvena sodišča, da nezakonske
+                    otroke rešijo vsaj pred finančno negotovostjo.</p>
+            </div>
+            <div>
+                <head>Od rojstva do sodne obravnave</head>
+                <p>Do kolikšne mere primeri, ki so jih obravnavala sodišča, zrcalijo življenjske
+                    poti nezakonskih mater? Je bila v t. i. sirotinske knjige vpisana večina
+                    nezakonskih otrok okraja? Vpis je potem po tedanjih predpisih namreč neposredno
+                    vodil v postopek za pridobitev varuha oziroma po letu 1914 lahko tudi varuhinje,
+                    ki se je med drugim lahko (in se vi večini primerov vsaj v obravnavanem času
+                    tudi je) zavzel oziroma zavzela za ukrepanje v odnosu do nezakonskega očeta.
+                    Vpise nezakonskih otrok v krstni knjigi za Lož za obdobje od leta 1906 do leta
+                    1920 sem primerjala z vpisi v ohranjenih sirotinskih knjigah in sodnih
+                        spisih.<note place="foot" xml:id="ftn11" n="9"> Zaradi slabše ohranjenosti
+                        virov teh vprašanj ni bilo mogoče preveriti na celotnem vzorcu, pač pa le za
+                        leta in okraj z ohranjenim celotnim skrbstvenim vpisnikom (t. i. sirotinsko
+                        knjigo).To je bila sirotinska knjiga za Lož z vpisi med letoma 1906 do 1921,
+                        krstno knjigo (ki pokriva podobno geografsko regijo) pa smo imeli na voljo
+                        za obdobje do leta 1920.</note> V tem obdobju je bilo v krstno knjigo za Lož
+                    (Stari trg pri Ložu)<note place="foot" xml:id="ftn12" n="10"> Krstna
+                        knjiga/Taufbuch, 1897–1920.</note> vpisanih 42 nezakonskih otrok, vsaj 33 od
+                    teh je bilo v istem kraju potem vpisanih v sirotinsko knjigo,<note place="foot"
+                        xml:id="ftn13" n="11"> SI ZAL CER 4, t. e. 158, Sirotinska knjiga,
+                        1906–1921. </note> običajno so vpis oblasti uredile dober mesec dni po
+                    rojstvu. Težko je sklepati o natančnih razlogih, zaradi katerih preostala
+                    četrtina (devet otrok), krščenih v istem okolju, ni potem tam dosegla sodne
+                    obravnavane. Morda ni v nekaterih primerih nezakonskega rojstva sodnim oblastem
+                    naznanil samo župnik, kot priča primer matere, ki je rodila že leta 1889. V
+                    veri, da bo o nezakonskem rojstvu sodišče obvestil sam župni urad, je potem leta
+                    čakala na poziv, leta 1910 je nato sama rojstvo naznanila oblastem. <note
+                        place="foot" xml:id="ftn14" n="12"> SI ZAL CER 4, t. e. 54, P 15/10 (L. L.),
+                        Okrajno sodišče Lož, odd. 1, 17. 5. 1910, 1.</note> Za vsaj tri otroke od
+                    devetih, nenavedenih v sirotinski knjigi, nadalje vemo, da so umrli nekaj dni do
+                    nekaj mesecev po rojstvu in so lahko zato izostali iz postopka. Pri vsaj dveh so
+                    se starši poročili takoj po rojstvu. Nekatere nezakonske matere so lahko takoj
+                    po rojstvu otroka preselile in vpise uredile drugje, tako kot so nezakonske
+                    matere iz drugih krajev šele nekaj časa po rojstvu in krstu lahko vpise uredile
+                    v Ložu. V pregledani loški sirotinski knjigi namreč zasledimo občutno število
+                    vpisov nezakonskih otrok, ki niso bili krščeni tukaj. <note place="foot"
+                        xml:id="ftn15" n="13"> SI ZAL CER 4, t. e. 158, Sirotinska knjiga,
+                        1906–1921.</note> Čeprav je pregledani vzorec majhen, precejšnje ujemanje
+                    med vpisi v krstni in sirotinski knjigi pripelje do relativno zanesljivega
+                    sklepa, da je od leta 1906 v obravnavanem okolju večina bodisi nezakonskih mater
+                    bodisi varuhov ali pristojnih oblasti vsaj poskusila poiskati možnost sistemske
+                    zaščite za nezakonske otroke. Povečano zanimanje je med drugim tudi posledica
+                    prvega kongresa za zaščito mladine avstrijskih dežel iz leta 1907, ki je po vseh
+                    deželah habsburške monarhije spodbudil organizacijo društev za otroško zaščito
+                    in posebnih skrbstvenih sodišč, ki so sedaj večje napore vložila v tej smeri. V
+                    slovenskem prostoru se je v tem oziru tedaj angažiral zlasti Fran
+                        Milčinski.<note place="foot" xml:id="ftn16" n="14"> Cergol Paradiž, V oteti
+                        deci, 266–77.</note> Kljub vsem prizadevanjem skrbstvenih organov, pa je
+                    problem predstavljala počasnost ukrepanja. Matere se potrebovale pomoč takoj,
+                    postopki pa so se lahko zavlekli v mesece ali leta, kakor v Slovenki leta 1901
+                    piše Marica Nadlišek Bartol: </p>
+                <p>»[V] Avstriji [nima] nezakonska mati nobene moči nasproti očetu svojega otroka,
+                    dokler otrok ni na svetu; nima nikake pravice do podpore pred porodom. Ako bi
+                    tudi dozadnjega trenotka pred težko uro mogla delati in si služila kruh, po
+                    porodu je brez vsake pomoči. Če z otrokom ne umre prve dni od lakote, postavi
+                    sodišče varuha, ki ima tožiti očeta za vzdrževanje otroka. Pomisliti treba o
+                    tem, da stanuje varuh le tedaj v bivališču matere, ako je ista polnoletna; če še
+                    ni stara 24 let, postavijo njenemu otroku varuha tam, kamor je pristojna, t. j .
+                    kjer je bil doma nje oče ali pa, če je nezakonska hči, njena mati. Da taka
+                    oddaljenost znatno ovira brzo rešitev […], je umevno. Dokler se ne najde očeta
+                    in pravočasno ne iztoži alimentov, preide zopet več mesecev, in ves ta čas je
+                    uboga ženska brez vsake pomoči. Takšni so avstrijski zakoni v resnici, tako jih
+                    razlagajo najvišja sodišča, in tisti, ki so hoteli uporabiti neke paragrafe
+                    našega občega državljanskega zakonika v korist in varstvo mater in otrok v
+                    najkritičnejši dobi (§§ 22, 166. 269, 274Ì), so o tem propadli.« <note
+                        place="foot" xml:id="ftn17" n="15"> Nadlišek-Bartol, <hi rend="italic">O
+                            detomrih</hi>, 218–20.</note></p>
+                <p>Tudi zato se je začetna stiska nezakonskih mater prevečkrat končala, kako
+                    pojasnjuje citirana avtorica, z dejanjem detomora.<note place="foot"
+                        xml:id="ftn18" n="16"> Glede tematike detomora gl. Šelih, Ženske, kazensko
+                        pravo. Čeč, Nasilne detomorilke. Cvirn, Najdenišnice.</note> A tudi, če so
+                    otroci preživeli najzgodnejšo dobo, je vprašanje, do kolikšne mere so bili
+                    poskusi oblasti, da bi jih zaščitila, dolgoročno uspešni – poglejmo v
+                    nadaljevanju.</p>
+            </div>
+            <div>
+                <head>Ko mati ne želi (nadalje) ukrepati</head>
+                <p>V vsaj tridesetih od vseh obravnavanih primerov (torej v 30 %) se je postopek
+                    pred sodiščem zaključil tako, da nezakonske matere same niso sprožile sodnega
+                    postopka proti nezakonskim očetom. V večini so na ta način nezakonske matere
+                    ravnale zato, ker so si obetale poroko, s čimer bi bili njihovi otroci
+                    (praviloma) tudi pozakonjeni, ali so živele v dolgotrajni izvenzakonski
+                    skupnosti z nezakonskim očetom. In res, obravnavani primeri beležijo vsaj 24
+                    tovrstnih porok in kasnejših pozakonitev ali kohabitacij.<note place="foot"
+                        xml:id="ftn19" n="17"> Metod Dolenc je leta 1913 za Slovenski pravnik
+                        navajal, da je posebno veliko tovrstnih »konkubinatov« v industrijskih
+                        krajih. Pri tovrstnih trajnih zvezah je prišlo redko do težav in pravdanj na
+                        sodišču. ‒ Dolenc, O pravdah, 15. </note> Praviloma je odlaganje poroke na
+                    čas po rojstvu otroka izhajalo iz takratnih gospodarskih prisil in konsideracij.
+                    Nekateri nezakonski očetje so čakali, da bi podedovali kakšno premoženje ali pa
+                    se je rojstvo otroka pripetilo v njihovi odsotnosti, ki je bila posledica dela v
+                    tujini, vojaške službe, prestajanja zaporne kazni ali – v obdobju druge svetovne
+                    vojne – sodelovanja v odporniškem gibanju. Nekatere od teh odsotnosti so se nato
+                    časovno občutno zavlekle. Tako se je tudi zgodilo v primeru, ki ga je leta 1924
+                    vodilo Okrajno sodišče v Ložu. Marija G., 25-letna posestniška hči, je rodila
+                    hčerko Angelo. Od nezakonskega očeta Josipa P., 28-letnega posestnikovega sina,
+                    si je obetala poroko, takoj ko bi prišel iz Francije, kjer je služil kruh. Na
+                    njegove dobre namere v povezavi s poroko je kazalo tudi dejstvo, da ji je od tam
+                    za otroka večkrat poslal »kak frank«. Njegova odsotnost se je zaradi dobrega
+                    zaslužka sicer zavlekla, vendar se je naposled dve leti kasneje primer zaključil
+                    s poroko in Angelino pozakonitvijo.<note place="foot" xml:id="ftn20" n="18"> SI
+                        ZAL CER 4, t. e. 61, P 7/24 (A. G.).</note> Janez U. pa je sedel v zaporu,
+                    ko je Helena Turk v letu 1904 povila sina. Janez je očetovstvo iz zapora
+                    priznal, obljubil poroko in izjavil, da se »izroči že sedaj omara za obleko,
+                    katero ima pri sestri Mariji U. […], svojemu nezakonskemu sinu«.<note
+                        place="foot" xml:id="ftn21" n="19"> SI ZAL CER 4, t. e. 50, P 45/4 (J. T.),
+                        C. Kr. okr. Sodišče v Ložu, 2.</note> V primeru Sonje K., rojene decembra
+                    1942, so bili razlogi za odsotnost očeta, 29-letnega kovaškega mojstra Franca
+                    M., še bolj zagonetni. Po rojstvu otroka se ni o njem nič več vedelo. Nezakonska
+                    mati, 28-letna gostilničarjeva hčerka, je oblastem z zaskrbljenostjo priznala,
+                    da se je M. »sprva izjavljal zadovoljnega v poroko […] potem pa se je odmikal
+                    […], ker so sedaj preslabi časi«.<note place="foot" xml:id="ftn22" n="20"> SI
+                        ZAL CER 3, t. e. 30, P 1/43 (S. K.), Giud. Distr. – Okrajno sodišče,
+                        Cerknica, 17. 2. 1943.</note> Toda M. je izginil zato, ker so ga oblasti
+                    zaprle in kasneje tudi poslale v internacijo v Visco pri Vidmu (iz virov ni
+                    razbrati, zakaj). V internaciji je M. potem izpovedal, da priznava očetovstvo in
+                    tudi da želi Ivano poročiti.<note place="foot" xml:id="ftn23" n="21"> SI ZAL CER
+                        3, t. e. 30, P 1/43 (S. K.).</note> Ko se je potem neznano kdaj vrnil iz
+                    internacije, je to obljubo tudi izpolnil, Sonja je bila pozakonjena, paru pa so
+                    se rodili še drugi otroci.<note place="foot" xml:id="ftn24" n="22">
+                        <hi rend="italic">Družinsko drevo – Družinsko drevo M. –
+                        MyHeritage</hi></note></p>
+                <p>V drugih primerih je bil razplet podobnih zgodb o odsotnih očetih bolj tragičen,
+                    sploh v času druge svetovne vojne. Sodišče v Rakeku je npr. obravnavalo primer
+                    Jožeta M., rojenega, ko je njegov nezakonski oče, Jože M., sodeloval v
+                    odporniškem gibanju. Oče se v takih razmerah ni želel poročiti, vendar je v
+                    pismih obljubljal zakon, takoj ko se bodo razmere umirile. Vendar nesrečni
+                    nezakonski oče tega ni dočakal, saj je prej padel v boju. Materi pa so njegova
+                    pisma po vojni vsaj služila kot dokaz očetovstva. Tako je otrok lahko po umrlem
+                    nezakonskem očetu dobil invalidsko podporo in hkrati je po njem tudi podedoval
+                        premoženje.<note place="foot" xml:id="ftn25" n="23">SI ZAL CER 5, t. e. 23,
+                        T 99/46 (J. M.).</note> Pred letom 1945 dedovanje po nezakonskem očetu, kot
+                    že omenjeno, ni bilo urejeno z zakonom. V skladu z novimi »pridobitvami narodno
+                    osvobodilne borbe« se je to spremenilo in so lahko dedovali po očetu tudi
+                    nezakonski otroci.<note place="foot" xml:id="ftn26" n="24">SI ZAL CER 5, serija
+                        1, t. e. 10, 14. serija 2, t. e. 1, Narodna vlada za Slovenijo, Predmet:
+                        matični vpisi nezakonskih otrok, 5. 9. 1945.</note> V takojšnjih povojnih
+                    letih imamo številne skrbstvene spise, ki urejujejo to vprašanje, torej posmrtno
+                    prepoznanje očetovstva, ki je vodilo potem v možnost dedovanja. V vseh
+                    pregledanih tovrstnih primerih se je postopek končal v korist nezakonskih
+                        otrok,<note place="foot" xml:id="ftn27" n="25">Npr. SI ZAL CER 5, serija 1,
+                        t. e. 6, G 111/47 (V. M.); serija 1, t. e. 6, G 119/47 (J. M.); serija 8, t.
+                        e. 23, T 99/6 (J. M.).</note> vendar bi za zanesljivejše zaključke
+                    potrebovali večji vzorec. </p>
+                <p>V nekateri primerih matere in varuhi niso opustili sodnega pregona zato, ker so
+                    si obetali poroko, pač pa jih je od nadaljnjih ukrepov odvrnilo poznavanje
+                    splošnega gmotnega stanja, pa tudi značajskih lastnosti nezakonskega očeta. Tako
+                    so verjeli, da ne bi s tožbo popolnoma nič dosegli. Marija K. je npr. glede
+                    nezakonskih očetov svojih dveh otrok izpovedala, da je »oče sedaj 11-letnemu
+                    Metodu … Janez M., posestniški brat iz Baške police, kateri nima nikakega
+                    premoženja, ter je sedaj v Ameriki. Nezakonski oče 4-letnemu Josipu je pa Janez
+                    P., hlapec pri Zakrajšku na Vrhniki, kateri tudi nima nikakega premoženja, in se
+                    ju ne bi izplačalo tožit«.<note place="foot" xml:id="ftn28" n="26"> SI ZAL CER
+                        4, t. e. 51, P 11/5 (M. K.), C. K. Okrajno sodišče Lož, 2. 5. 1905.</note>
+                    Varuh omenjenih otrok je menil podobno ter še dodal, da P. še za svoje zakonske
+                    otroke ne skrbi in jih zato vzdržujejo Zakrajškovi, zato je prosil sodne oblasti
+                    podpore, s katero bi se starejšega Metoda dalo na delo h kakšnemu poštenemu
+                    gospodarju, »ker zastonj ne bode nihče otroka hotel imeti, ker hodi še v
+                        šolo«.<note place="foot" xml:id="ftn29" n="27"> SI ZAL CER 4, t. e. 51, P
+                        11/5 (M. K.), Obljubovanje v varstveni stvari, 20. 6. 1905, 1, 2.</note> V
+                    vzorcu beležimo tudi primere, ko so nezakonske matere iz drugih razlogov
+                    zavračale pomoč nezakonskih očetov oziroma poroko z njimi. Amalija U., 31-letna
+                    izučena babica, je leta 1945 sodnim oblastem samo povedala: »[I]mena
+                    nezakonskega očeta za enkrat ne navedem, ker bom sama skrbela za otroka.«<note
+                        place="foot" xml:id="ftn30" n="28"> SI ZAL CER 5, serija 15, t. e. 22, Vs
+                        13/45 (U. J.), Uradni zaznamek, 3.</note> Podoben materin odziv beležimo že
+                    leta 1909, če verjamemo besedam nezakonskega očeta Filipa K.: </p>
+                <p> »Priznavam se očetom otroka … dokler je bila K. (nezakonska mati) še tu, v
+                    Opatiji, živela sva skupaj i skrbel sem za mater i otroka […] in […] smo se vže
+                    dogovorili, da se v jeseni poročiva. Nekaj časa sem bil bolan, brez službe in
+                    zatorej ji nisem mogel ničesar poslati. Koj ko sem ozdravel in pričel znova
+                    služiti, pisal sem jej, da-li potrebuje kaj denarja, na kar mi je odgovorila,
+                    'da njej ne treba mojega denarja, naj ga raje porabim za moje priležnice.' Od
+                    tedaj, t.j. kake 3 mesece mi ni v obče nič pisala, tako da ne vem, kaj bo z
+                    najino ženitvijo, do katere sem še vedno pripravljen. Otrokova mati živi, kakor
+                    rečeno, pri svojem očetu, ki je knjigovodja, pri nekej tvrdki in s svojo mesečno
+                    plačo od 140 K krasno izhaja. Jaz dobivam mesečno plačo od 90 K.«<note
+                        place="foot" xml:id="ftn31" n="29"> SI ZAL CER 4, t. e. 53, P 4/8 (O. K.),
+                        Zapisnik o ročištu, 18. 11. 1908.</note></p>
+                <p>V navedenem primeru je torej nezakonska mati zaradi dobrega finančnega položaja
+                    lahko zavrnila poroko z moškim, s katerim ni želela več vzdrževati ljubezenskega
+                    razmerja. Tudi morebitna družbena stigmatizacija je ni odvrnila od tega, da bi
+                    se odločila za življenjsko pot, ki je bila za ženske, sploh iz meščanskih
+                    slojev, nekonvencionalna. Čez dobri dve leti je Marija s svojo hčerko še vedno
+                    živela v Sarajevu, med tem se je poročila s ključavničarjem Jožefom T. Po
+                    poizvedovanju loškega skrbstvenega sodišča naj bi mati in krušni oče za deklico
+                    dobro skrbela.<note place="foot" xml:id="ftn32" n="30"> SI ZAL CER 4, t. e. 53,
+                        P 4/8 (O. K.).</note> Krušni očetje niso veselj izkazovali take
+                    naklonjenosti do svojih pastork in pastorjev. Primer, ki ga je obravnavalo loško
+                    okrajno sodišče leta 1913, ne priča samo o izmikanju nezakonskega očeta, ampak
+                    tudi o zlorabah s strani krušnega očeta, zaradi česar je otroka naposled k sebi
+                    vzela materina sestra.<note place="foot" xml:id="ftn33" n="31">SI ZAL CER 4, t.
+                        e. 56, P 1/13.</note> Kakor je poročal Milčinski v Pedagoškem letopisu že
+                    leta 1908, je tovrstno nasilje s strani krušnih očetov v naših krajih
+                    predstavljalo resen in obsežen problem.<note place="foot" xml:id="ftn34" n="32">
+                        Milčinski, Prvi avstrijski shod, 60–71.</note></p>
+            </div>
+            <div>
+                <head>Priznanje očetovstva</head>
+                <p>Če so se matere ali varuhi oziroma varuhinje odločile, da bodo ukrepale, je v
+                    varstvenem postopku sledilo poizvedovanje o kraju bivanja nezakonskega očeta in
+                    o njegovem premoženjskem stanju. Nezakonski oče je bil potem povprašan, če
+                    prizna očetovstvo. V primerih, ko so vprašani očetovstvo priznali (in niso
+                    nameravali nezakonske matere poročiti), sta običajno sledili poravnava in
+                    določitev mesečne višine alimentov glede na dotičnikovo premoženjsko stanje. Med
+                    pregledanimi skrbstvenimi primeri se jih je 25 (25 %) zaključilo s tovrstnim
+                    razpletom, k njim se podrobneje vrnemo v nadaljevanju razprave. V 38 primerih pa
+                    do tovrstnega pripoznanja ni prišlo bodisi zato, ker se morebitnega nezakonskega
+                    očeta ni dalo nikakor izslediti (dvanajst primerov), bodisi zato, ker slednji
+                    očetovstva ni priznal (26). Med »neizsledljivimi« morebitnimi očeti ponovno
+                    srečamo predvsem vojake in orožnike ter sezonske delavce, ki so v kraju
+                    nezakonske matere prebivali zgolj začasno. Posebno so se seveda tovrstni primeri
+                    namnožili v času obeh vojn, pa tudi v obdobju med obema vojnama jih zasledimo
+                    nekaj. Za nezakonske matere in otroke je posebno slab razplet sledil v slučajih,
+                    ko so se nato morebitni nezakonski očetje preselili na jug Kraljevine
+                    Jugoslavije, npr. v Srbijo. Srbski državljanski zakonik (<hi rend="italic"
+                        >Srpski građanski zakonik</hi>) namreč v nasprotju z <hi rend="italic"
+                        >ODZ</hi> ni predvideval iskanja očetovstva,<note place="foot"
+                        xml:id="ftn35" n="33"> Žnidaršič-Žagar, Nezakonske matere, 57–63.</note>
+                    tako se zdi, da so oblasti na osnovi te zakonodaje, čeprav je šlo za spočetje v
+                    slovenskih krajih, hitro opustile poskuse izterjanja alimentacije. Tako nakazuje
+                    primer, ki ga je npr. obravnavalo loško okrajno sodišče. V kraju Kozarišče se je
+                    leta 1923 rodila Viljema B.. Njena mati Marija, 32-letna delavka, je takoj
+                    povedala, da je nezakonski oče otroka Franc P., 26 let star orožnik, za katerega
+                    se je kasneje ugotovilo, da se nahaja v Beogradu, kjer so ga oblasti vprašale,
+                    če prizna očetovstvo. P. je izjavil, da očetovstva ne prizna, ker da je
+                    nezakonska mati v tistem času, kakor se je »prepričal, prejemala v svoje
+                    stanovanje še zraven (njega) […] ljubavnika žandarma Alojzija G.« <note
+                        place="foot" xml:id="ftn36" n="34"> SI ZAL CER 4, t. e. 61, P 9/23 (V. B.),
+                        Salušanje, 13. 7. 1923.</note> Marija je odnose z drugimi moškimi zanikala.
+                    Oblasti so kljub temu primer začasno zaključile s pripombo: »[D]anes se je
+                    zglasila nezakonska mati Marija B. in se jej je povedalo, da se ne more
+                    nezakonskega očeta prisiliti, da plačuje za otroka, ker ni priznal očetovstva,
+                    zato ker v Srbiji se ne more tega storiti.«<note place="foot" xml:id="ftn37"
+                        n="35"> SI ZAL CER 4, t. e. 61, P 9/23 (V. B.), Uradni zaznamek, 6. 10.
+                        1923.</note> Varuh je potem v naslednjih letih poročal, da je otrok živel
+                    pri mami, ki je hodila na dnino v graščino Snežnik, živela sta v hudem
+                    pomanjkanju. Leta 1932, torej slabo desetletje kasneje, so oblasti ponovno
+                    poizvedovale po nezakonskem očetu, toda viri kažejo, da je bilo poizvedovanje
+                    ponovno neuspešno.<note place="foot" xml:id="ftn38" n="36"> SI ZAL CER 4, t. e.
+                        61, P 9/23 (V. B.).</note></p>
+                <p>Če so oblasti očeta izsledile in očetovstva ni priznal, je potem običajno, kot je
+                    bilo že poudarjeno, sledila sodna obravnava. Med 26 tovrstnimi primeri v vzorcu
+                    se jih je 22 razpletlo (vsaj uradno) v korist nezakonskega otroka z določitvijo
+                    alimentacije ali (če sta obe strani tako sporazumno sklenili) enkratne
+                    poravnave, v preostalih štirih primerih izid tožbe ni znan. Morebitni nezakonski
+                    očetje so se na obravnavi običajno izgovarjali, da so imele matere v času
+                    razmerja odnose še z drugimi moškimi. Kot kažejo pregledani viri, tovrstne
+                    očetove trditve niso posebno vplivale na razplet obravnave. Tako nakazuje tudi
+                    sodni spis, ki je med letoma 1929 in 1942 nastal na Okrajnem sodišču v Rakeku.
+                    Popisuje zgodbo Justine Z. in njenih treh otrok. Justina je prvič rodila leta
+                    1929, ko je bila stara 20 let. Kot nezakonskega očeta je v tem primeru navedla
+                    Nikola M., graničarja iz Srbije. M. je spolno občevanje z Justino priznal,
+                    vendar naj bi slednjega opravila v zameno za protiplačilo, v kritičnem času pa
+                    naj bi z njo spolno občevali, ponovno za denar, še drugi vojaki. M. se je nato
+                    kmalu izselil v Srbijo, kjer je bil sodni pregon, kot že rečeno, nemogoč. Pri
+                    drugem otroku, rojenem leta 1931, je Justina kot očeta navedla Franca G.,
+                    21-letnega posestnikovega sina, in tedaj mornarja II. klase pri I. četi
+                    pomorskega arzenala. Tudi slednji je trdil, da ji je za spolne usluge plačal in
+                    da so k njej prihajali tudi drugi moški (kar je bilo zelo verjetno glede na
+                    pretekle navedbe). S tožbo so oblasti počakale, da se je G. vrnil iz vojske.
+                    Leta 1934 je sledila sodna obravnava, po kateri so G. določili 120 din mesečne
+                    alimentacije. Izgovarjanje na razmerja z drugimi moškimi torej ni imelo velikega
+                    vpliva na razplet sodbe, če je obtoženi hkrati priznal, da je z nezakonsko
+                    materjo vendarle spolno občeval. Leta 1942 je Justina rodila tretjega otroka.
+                    Tokrat je kot očeta navedla vojaka Reimunda L. iz Sardinije, ki je očetovstvo
+                    zanikal, razplet nadaljnjih dogodkov pa zaradi pomanjkanja virov ni poznan.<note
+                        place="foot" xml:id="ftn39" n="37"> SI ZAL CER 3, t. e. 29, P 11/29 (J., I.
+                        in J. Z.).</note>
+                </p>
+                <p>Nekaterih toženci se po drugi strani obravnav sploh niso udeleževali. Imamo celo
+                    primer, ko je na tovrstno razpravo namesto nezakonskega očeta brez pooblastila
+                    prišla njegova žena, vendar oblasti niso upoštevale ne njenega pričevanja ne
+                        zastopstva.<note place="foot" xml:id="ftn40" n="38"> SI ZAL CER 4, t. e. 77,
+                        P 35/40 (M. H.).</note> Najbolj pogumni toženci pa so se na obravnavah
+                    poskusili izmuzniti s trditvijo, da z materjo tožnika sploh niso imeli spolnih
+                        odnosov.<note place="foot" xml:id="ftn41" n="39"> Dolenc ocenjuje, da je
+                        običajno spolno občevanje z materjo zanikala polovica obtožencev (Dolenc, O
+                        pravdah, 227), v izbranem vzorcu je bilo tovrstnih primerov občutno
+                        manj.</note> Sodišče v Ložu je npr. leta 1905 presojalo o tem, ali je oče
+                    Mateja Ž., ki ga je marca istega leta porodila dekla Marija, še nepolnoletni
+                    Janez U.. U. je trdil, da naj bi si Marija vse skupaj izmislila. Res je imel z
+                    njo ljubezensko razmerje in ji je tudi obljubljal poroko, ampak spolnih odnosov
+                    bojda nista imela, vrh tega pa naj bi bil v kritičnem času v Ameriki. Poleg tega
+                    naj bi mu Marija priznala, da je oče njenega otroka posestnik, pri katerem je
+                    delala. Marija pa je zatrjevala, da je z U. vendarle enkrat spolno občevala, in
+                    sicer prav na noč pred njegovim odhodom v Ameriko. On pa naj bi se ji po prihodu
+                    domov izgovarjal, da po enem samem intimnem stiku ne bi prišlo do nosečnosti.
+                    Marijino različico zgodbe je nato potrdila tudi gostilničarka Terezija P., ki je
+                    toženca in njegovega brata v svoji krčmi slišala govoriti, da oče otroka ni
+                    nihče drug kot prav Janez. Sodišče je naposled pritrdilo nezakonski materi in U.
+                    (oziroma njegovim skrbnikom) poleg drugih dotlej nastalih stroškov dosodilo šest
+                    kron mesečne preživnine.<note place="foot" xml:id="ftn42" n="40"> SI ZAL CER 4,
+                        t. e. 51, P 33/5 (M. Ž.).</note></p>
+                <p>Še bolj zagonetna in protislovna je podobna sodna obravnava, ki jo je leta 1943
+                    vodilo sodišče v Cerknici. Konec leta 1940 se je rodila deklica Jožefa. Njena
+                    nezakonska mati Alojzija, mladoletna hči posestnika, je kot očeta navedla Jožeta
+                    L., ki pa je bil že 4. novembra istega leta ustreljen na italijanski meji, za
+                    seboj pa je pustil lepo premoženje. Janez M., oče nezakonske matere in varuh
+                    Jožefe, je nato tožil starša pokojnika z namenom, da izterja alimentacijo.
+                    Nezakonska mati se je vmes poročila z drugim moškim in dogovorili so se, da bo
+                    za nezakonskega otroka tako ali tako skrbel sam varuh (torej dedek) skupaj z
+                    ženo. Sledilo je zbiranje pričevanj različnih vpletenih, ki je bilo polno
+                    nasprotij. Tožena sta trdila, da njun sin ni imel razmerja z Alojzijo M.. Pred
+                    smrtjo naj bi bil celo dve leti zaročen z drugo mladenko, s katero pa se je
+                    vselej obnašal dostojno in od nje ni zahteval spolnega občevanja, tudi na
+                    splošno naj bi se kazal kot »krščansko vzgojen mladenič«.<note place="foot"
+                        xml:id="ftn43" n="41">SI ZAL CER 4, t. e. 77, P 61/43 (J. M.), Dokazni
+                        predlog, 5. 5. 1942, 2.</note> V nasprotju pa naj bi, kakor sta trdila L. in
+                    njune hčerke, Alojzija veljala od vselej za »fantovsko dekle«.<note place="foot"
+                        xml:id="ftn44" n="42"> Prav tam.</note> S fanti naj bi se videvala že pri
+                    svojih rosnih trinajstih letih, v zadnjem obdobju pa naj bi k njej ponoči
+                    prihajali vojaki. Razmerje naj bi imela tudi z moškim, ki je pač kmalu zatem
+                    postal tudi njen mož. L. nista pozabila pripomniti, da naj bi na Alojzijin
+                    pomanjkljiv moralni čut dodatno kazalo tudi dejstvo, da se je nosečnosti
+                    poskušala rešiti pri mazaču P.,<note place="foot" xml:id="ftn45" n="43">Družina
+                        P. je bila v obravnavanem obdobju v Cerknici res znana po tem, da se je
+                        ukvarjala s tedaj nelegalnimi splavi, za več gl. Drnovšek, Če bi vsi vstali,
+                        81–100.</note> ki je v času razprave že sedel v zaporu zaradi splava. Vrh
+                    vsega je ljubezenska pisma »pisarila celo nekemu muslimanu«.<note place="foot"
+                        xml:id="ftn46" n="44">SI ZAL CER 4, t. e. 77, P 61/43 (J. M.), Dokazni
+                        predlog, 5. 5. 1942, 3.</note> Janez M. je nasprotno trdil, da je njegova
+                    hčerka pošteno dekle. S pokojnim L. naj bi se videvala na skrito zato, ker ga ji
+                    je zaradi slabega slovesa sam oče branil. L. naj bi se namreč ukvarjal s
+                    sumljivimi posli, predvsem tihotapstvom. Vojaki pa naj bi po izpovedi Janeza in
+                    njegove žene v njihovo hišo tako kot v mnoge druge v tistem okolišu prihajali
+                    zato, da bi se ogreli in spili kak čaj, nujna hčerka pa naj bi se ob teh
+                    priložnostih vselej obnašala dostojno in sramežljivo. Bodoči mož ji je res
+                    dvoril, vendar naj bi se to dogajalo v času, ko je bila že noseča. Sodni spor
+                    potem ni doživel (znanega) epiloga. V času vojnih razmer so težko pritegnili na
+                    obravnavo vse priče. Varuh Janez M. je nato predlagal poravnavo v svojo škodo
+                    »radi izrednih razmer, radi ohranitve miru in prijateljstva med sosedi«,<note
+                        place="foot" xml:id="ftn47" n="45">SI ZAL CER 4, t. e. 77, P 61/43 (J. M.),
+                        Okrajno sodišče v Starem trgu, 13. 3. 1943.</note> vsaka stran naj bi samo
+                    poravnala sodne stroške, s čimer so se L. strinjali. Toda skrbstveno sodišče je
+                    poravnavo zavrnilo, ker bi ta »škodovala koristim nedoletne tožnice«.<note
+                        place="foot" xml:id="ftn48" n="46"> SI ZAL CER 4, t. e. 77, P 61/43 (J. M.),
+                        Sklep, 22. 6. 1943.</note> Kako so v nadalje sklenili, ni znano.<note
+                        place="foot" xml:id="ftn49" n="47"> SI ZAL CER 4, t. e. 77, P 61/43 (J.
+                        M.).</note></p>
+                <p>Če je v navedeni zgodbi zaplet povzročila prezgodnja smrt nezakonskega očeta, ga
+                    je v drugem premeru povzročila prezgodnja smrt nezakonske matere. Leta 1931 je
+                    25-letna Marija rodila deklico Ireno. Kot očeta je takoj po rojstvu navedla
+                    skladiščnika Jožefa V., ki ga oblasti niso mogle izslediti. Tri leta zatem je
+                    Marija umrla, varuštvo nad triletno Ireno pa je prevzela pokojničina mati
+                    Terezija, ki je takoj oblastem povedala, da oseba, ki ga je njena umrla hčerka
+                    navedla kot nezakonskega očeta, sploh ne obstaja. V resnici naj bi bil njen
+                    ljubimec Ivan P., sin trgovca, pri katerem je Marija pred časom delala kot
+                    trgovska pomočnica. Ivan naj bi prosil umrlo Marijo, naj ga ne izda, v zameno ji
+                    je občasno pod izmišljenim imenom pošiljal denar za otroka. Ker se potem po
+                    Marijini smrti ni več oglasil, se je Terezija odločila za tožbo. Ivan je sprva
+                    vse zanikal, vendar je potem tekom razprave svojo vpletenost priznal. Sprva je
+                    plačeval 250 din preživnine, nato pa predlagal enkratno odpravnino v vrednosti
+                    27.474 din.<note place="foot" xml:id="ftn50" n="48"> SI ZAL CER 3, t. e. 29, P
+                        6/32 (P. I.).</note></p>
+                <p>Tudi po drugi svetovni vojni oblasti nezakonskim očetom niso popuščale in so v
+                    vseh pregledanih primerih dosodile v korist nezakonskega otroka. Sta se pa sam
+                    diskurz in sama sodna preiskava občutno spremenila.<note place="foot"
+                        xml:id="ftn51" n="49"> Tovrstne primere v povojnem obdobju raziskuje Tanja
+                        Buda. ‒ Buda, Socialnodelovna obravnava žensk, ki so same skrbele za otroke,
+                        v socializmu.</note> Opisovanje spolnih razmerij je nekoliko izgubilo na
+                    moralnih konotacijah, izrazje je postalo bolj tehnično, postopek se je
+                    medikaliziral. Takšen je tudi primer, ki ga je leta 1946 obravnavalo sodišče v
+                    Rakeku, ki poleg postopka v primeru dokazovanja očetovstva posredno opiše
+                    dejanje posilstva v nezavesti, ki je v skladu z duhom časa ostajalo nekaznovano.
+                    Silva D., uradnica v Ljubljani, je tožila Franca K. zaradi plačevanja preživnine
+                    za svojo nezakonsko hčerko. Fran K. je spolno združitev priznal, vendar se je
+                    izgovarjal, da »do izliva semena v nožnico ni prišlo, ker da je bil preje
+                        moten«.<note place="foot" xml:id="ftn52" n="50"> SI ZAL CER 5, serija 8, t.
+                        e. 23, T 102/46 (D. A.), Sodba, 1.</note> Silva pa je izpovedala, </p>
+                <quote>»da se je s tožencem spoznala […] nekako v juliju 1945. Dne 28. avgusta je
+                    potem prišla na Bled, kjer se je zdravila v okrevališču KNOJ-a v hotelu Evropa.
+                    […] [V] nedeljo ji je postalo slabo in […] je odšla v svojo sobo. Tedaj, da je
+                    pristopil k njej toženec in jo vprašal, če je pripravljena na spolno občevanje.
+                    […] Na to ona ni pristala in odšla v svojo sobo, ker ji je postalo še slabše, si
+                    je slekla gornjo obleko ter se vlegla na posteljo, kjer je omedlela. […] [Nato]
+                    jo je predramil iz omedlevice sunek na prsa, […] ugledala je nad seboj
+                    obtoženca, a se ga ni mogla otresti, ker je bila še slaba ter […] je tako prišlo
+                    med njima do dovršenega spolnega odnosa.«<note place="foot" xml:id="ftn53"
+                        n="51"> SI ZAL CER 5, serija 8, t. e. 23, T 102/46 (D. A.), Sodba, 1,
+                        2.</note>
+                </quote>
+                <p>Sodišče je svojo razsodbo v korist nezakonske matere oprlo tudi na izvide
+                    preiskave krvi, ki ga je opravil Inštitut za sodno medicino na Medicinski
+                    fakulteti v Ljubljani, »kjer se je ugotovilo, da ima nezakonska mati krvno
+                    skupino D, njena hči tožnica skupino A ter toženec kot domnevni oče skupino A in
+                    je mnenje inštituta, da na podlagi gorenjih krvnih skupin ni mogoče izključiti
+                    toženca kot očeta nedoletne tožnice«.<note place="foot" xml:id="ftn54" n="52">
+                        SI ZAL CER 5, serija 8, t. e. 23, T 102/46 (D. A.), Sodba, 2.</note> K. je
+                    tako dosodilo 200 din preživnine, nizko vsoto je utemeljilo na osnovi plač
+                    nezakonske matere in očeta. Mati je imela namreč višjo, poleg tega je za hčerko
+                    dobivala še »rodbinsko doklado v vrednosti 175 din«.<note place="foot"
+                        xml:id="ftn55" n="53"> Prav tam.</note></p>
+            </div>
+            <div>
+                <head>Alimentacije, rubeži in enkratne poravnave</head>
+                <p>Obravnavana skrbstvena sodišča so med letoma 1899 in 1946 skupno pozvala k
+                    plačevanju alimentov 47 očetov. V 25 primerih so očetje, kot že poudarjeno,
+                    takoj pristali na sodno poravnavo, v 22 primerih pa je sodišče enak razplet
+                    doseglo s tožbo. </p>
+                <p>V času pred prvo svetovno vojno, med letoma 1899 in 1914, se je višina preživnine
+                    gibala med 6 in 14 K.<note place="foot" xml:id="ftn56" n="54"> Milčinski navaja
+                        v letu 1908 nekoliko višje zneske, od 12 do 18 K. ‒ Milčinski, Prvi
+                        avstrijski shod. </note> Določili so jo na podlagi premoženja in plače
+                    nezakonskega očeta. Delavci (brez drugega premoženja) so tako okoli 7%<note
+                        place="foot" xml:id="ftn57" n="55"> Dolenc navaja za graško prakso, ki je
+                        predvidevala 10–12 % čistih mesečnih dohodkov delavcev po odbitku za
+                        bolniško blagajno in med eno četrtino in eno tretjino denarnih dohodkov
+                        poslov. ‒ Dolenc, O Pravdah, 231.</note> svoje mesečne plače porabili za
+                    vzdrževanje nezakonskih otrok. Tovrstni zneski seveda niso mogli kriti potreb
+                    odraščajočega otroka in številne nezakonske matere so, kljub preživnini, če niso
+                    imele drugih resursov, živele v hudem pomanjkanju. Metod Dolenc je v znanstvenem
+                    članku, objavljenem leta 1913 v Slovenskem pravniku, pripomnil, da so sodišča
+                    raje določala nižje preživnine<note place="foot" xml:id="ftn58" n="56"> Dolenc
+                        navaja prakso ravnateljstva graške najdenišnice, ki od očetov terja 5–7 K
+                        preživnine, od obrtnikov pa 10–12K preživnine.</note> zato, da se ne bi
+                    očetje izmikali plačevanju, kar se je, kot bomo videli v nadaljevanju, pogosto
+                    dogajalo.</p>
+                <p>V času prve svetovne vojne se je višina preživnine gibala med 10 in 15 K. V
+                    takojšnjem povojnem obdobju se je zaradi inflacije povzpela na vsote med 60 in
+                    vse do 300 K. Po uvedbi dinarjev se je gibala med 100 in 250 din. Delavcem brez
+                    premoženja so odtegovali okvirno devetino plače za alimentacijo. V času druge
+                    svetovne vojne, ko je območje obravnavanih sodišč prišlo pod Italijo, se je
+                    višina preživnine gibala okoli 200 lir. Po drugi svetovni vojni, med letoma 1945
+                    in 1947, pa se je gibala med 150 in 500 din. </p>
+                <p>Z odredbo o plačevanju preživnine se sicer tegobe nezakonskih mater v večini še
+                    niso končale. Samo manjši delež očetov (devet) je redno plačeval svoj odrejeni
+                    delež. V vsaj sedmih primerih nezakonske matere niso prejemale preživnine, ker
+                    so očetje izginili neznano kam oziroma so se uspešno izgovarjali, da nimajo
+                    nikakršnega imetja.<note place="foot" xml:id="ftn59" n="57"> O tovrstnih
+                        primerih je že leta 1908 v Pedagoškem letopisu pisal tudi Fran Milčinski:
+                        »Po zakonu bi moral plačevati oče, ali navadno je nezakonski oče istega
+                        stanu, kakor mati; oba revna. Ako imata oba zaslužek in se zavedata svojih
+                        dolžnosti napram otroku, se pač z lepim pogodita tako, da si delita v
+                        stroške otrokove oskrbe. Ako se pa oče brani očetovstva – najrajši tačas,
+                        kadar dvomi o svoji izključni krivdi – ga ne prisili k izpolnjevanju nobena
+                        sodba.« ‒ Milčinski, Prvi avstrijski shod.</note> Tako je bilo tudi v
+                    primeru, ki ga je leta 1936 vodilo sodišče v Cerknici. Tistega leta se je Mariji
+                    K., 24-letni posestniški hčeri in Ludviku Š., rodila hčerka Gabrijela. Ludvik je
+                    očetovstvo priznal, vendar je hkrati trdil, da preživnine ne more plačevati, saj
+                    nima premoženja. Ko naj bi dedoval po očetu, pa naj bi Marijo poročil. Leta 1938
+                    mu je sodišče dosodilo 100 din preživnine, ki pa je ni plačeval, med drugim tudi
+                    zato, ker je vmes za nekaj časa zaradi druge zadeve prestajal zaporno kazen.
+                    Kljub temu je še vedno trdil, da je pripravljen »takoj poročiti nezakonsko
+                    mater, če oče da svoji hčeri, nez. materi, primerno doto«.<note place="foot"
+                        xml:id="ftn60" n="58"> SI ZAL CER 3, t. e. 31, S 8/36 (K. G. in L.), Zglasi
+                        se Š. L., 30. 11. 1938.</note> Kmalu se je Mariji in Ludviku rodil še drugi
+                    nezakonski otrok, ki pa ga je mati kmalu dala v rejo.<note place="foot"
+                        xml:id="ftn61" n="59">SI ZAL CER 3, t. e. 31, S 8/36 (K. G. in L.).</note>
+                </p>
+                <p>Petnajst očetov je preživnino plačevalo neredno in so bili potrebni nenehni
+                        rubeži.<note place="foot" xml:id="ftn62" n="60"> Dolenc opiše problem
+                        tovrstnih rubežev na Koroškem: »Pred kakšnimi štirimi leti se je obrnila
+                        koroška trgovska in obrtniška zbornica na pristojno centralno oblast, naj se
+                        vendar potom državnega zakona utesni eksekucijska pravica glede
+                        preživninskih terjatev nezakonskih otrok. Peticija je izvajala, da je
+                        nastala na Koroškem, kjer je silno veliko nezakonskih otrok, pravcata
+                        kalamiteta vsled tega ker se delavstvo radi rubežni mezde neprenehoma seli.«
+                        ‒ Dolenc, O pravdah, 226.</note> A nekatere matere pri tem niso popuščale.
+                    Takšen je tudi primer, ki ga je vodilo loško sodišče od leta 1923 do leta 1940.
+                    Leta 1923 je 37-letna Alojzija Š. rodila dečka Ivana. V času poroda je bila
+                    poročena, vendar je mož že leta prebival v Ameriki, zato so Ivana oblasti
+                    obravnavale kot nezakonskega. Ker Alojzija ni dobila nikogar, ki bi ji pomagal,
+                    je varuštvo prevzela sama. Kot očeta je navedla Ivana F., 34-letnega pripravnika
+                    finančne kontrole, ki je tedaj že prebival v Prekmurju. F. se je v svoji izjavi
+                    za sodišče kot mnogi drugi izgovarjal, da je imela Alojzija razmerja še z
+                    drugimi moškimi, naposled pa je resignirano pripomnil: »[K]er pa si je izbrala
+                    ravno mene in me navedla kot nezakonskega očeta, mi ne preostane drugega, da
+                    vzamem to sicer po mojem prepričanju nezasluženo breme nase.«<note place="foot"
+                        xml:id="ftn63" n="61"> SI ZAL CER 4, t. e. 61, P 10/23 (J. Š.), Razpravni
+                        zapisnik, 20. 6. 1923.</note> Sledila je poravnava, po kateri je obljubil,
+                    da bo materi plačeval 100 K preživnine, na višjo preživnino ni pristal, saj je
+                    »nezakonska mati […] posestnica in kot takšna pač k vzdrževanju otroka tudi sama
+                    lahko nekaj prispeva«.<note place="foot" xml:id="ftn64" n="62"> Prav tam.</note>
+                    F. potem alimentacije ni redno plačeval, zato jo je mati večkrat izterjala s
+                    pomočjo rubeža/izvršbe, ki je bila izvedljiva, saj je prvi pač dobival plačo od
+                    države. Leta 1925 je nato Alojzija predlagala 50 din mesečne alimentacije, saj
+                    so F. zvišali plačo. Tedaj je mesečno prejemal 800 din. F. je na višjo
+                    alimentacijo pristal. Nato so sledile nove izvršbe do leta 1929, ko je Alojzija
+                    zahtevala 100 din preživnine, vendar ji je F. tokrat ugovarjal. Med tem se je
+                    poročil in postal oče dveh zakonskih otrok, za katere je pravil, da jih »ne more
+                    prepustiti življenju navadnega delavca ali ničvrednega postopača že iz stališča,
+                    ker [je] državni uslužbenec in če bi se pustil v takšno mizerno stanje glede
+                    obleke, obutve kakor tudi hrane, bi izgubil kot vršilec dolžnosti starejšina
+                    oddelka F. K. popolnoma avtoriteto in ugled pri narodu kakor pri nadrejenih
+                    oblasteh«. <note place="foot" xml:id="ftn65" n="63"> SI ZAL CER 4, t. e. 61, P
+                        10/23 (J. Š.), Okrajnemu sodišču, 18. 8. 1929.</note> Sodišče je kljub temu
+                    sklenilo, da mu pri 1733 din mesečne plače lahko odtrga 70 din preživnine. Ko je
+                    bil nezakonski otrok star štirinajst let, je nato F. zahteval prekinitev
+                    plačevanja preživnine, vendar neuspešno, saj je Alojzija premeteno ugovarjala,
+                    da je otroka vpisala v šolo za mehanike. Šolanje se očitno ni izteklo po
+                    načrtih, saj je bil leta 1929 tedaj že 16-letni Ivan še vedno brez službe, leta
+                    1940 je potem dobil delo pri vojaških utrjevalnih delih. Tedaj je Ivana sama
+                    privolila v prekinitev plačevanja preživnine.<note place="foot" xml:id="ftn66"
+                        n="64"> SI ZAL CER 4, t. e. 61, P 10/23 (J. Š.).</note> Podobno se je
+                    pripetilo tudi v primeru leta 1932 rojenega Jerneja L.. Nezakonski oče Ivan R.,
+                    25-letni pekovski pomočnik z mesečno plačo 600 din, je po pogajanjih pristal na
+                    plačevanje 100 din preživnine, vendar se dogovora ni držal, zato so sledile
+                    izterjave. Nezakonska mati je vmes zaradi višjih življenjih stroškov zahtevala
+                    tudi višjo preživnino. Konec tridesetih let je nezakonski oče odšel v Nemčijo in
+                    preživnine ni bilo mogoče več izterjati, toda leta 1943 se je vrnil v Ljubljano,
+                    takrat je imel tudi že petletnega zakonskega otroka. Na preživnino ni pristal,
+                    je pa nezakonski materi predlagal, da njemu prepusti otroka, za katerega bi v
+                    Ljubljani z ženo lepo skrbela. Nezakonska mati na to ni pristala, zato je odtlej
+                    ponovno plačeval preživnino.<note place="foot" xml:id="ftn67" n="65"> SI ZAL CER
+                        3, t. e. 31, P 20/32 (J. L.).</note></p>
+                <p>Zaradi sitnosti, ki so jih imele nezakonske matere, varuhi, pa tudi nezakonski
+                    očetje zaradi nerednega plačevanja preživnine, sta v vsaj sedmih primerih prej
+                    ali slej obe strani sporazumno sklenili enkratno in dokončno odpravnino v višji
+                    vrednosti, po kateri naj bi bili očetje odvezani plačevanja alimentov. Za
+                    enkratno poravnano so se odločili predvsem posestniki ali njihovi sinovi,
+                    izplačali so različno visoke vrednosti.<note place="foot" xml:id="ftn68" n="66">
+                        Če verjamemo <hi rend="italic">Slovenskemu pravniku</hi>, so bile lahko
+                        poravnave, sklenjene samo z materjo, za nezakonske očete sicer tvegana
+                        poteza, v kolikor jih ni sklenil varuh in »sodnija potrdila«. Varuhi bi v
+                        prihodnosti lahko trdili, da matere dogovora niso sklenile v njihovem imenu
+                        in bi ponovno zahtevale preživnino. ‒ Dolenc, O pravdah.</note> Matija H.,
+                    posestnikov brat, je denimo leta 1920 izplačal 2500 K za otroka »enkrat za
+                    vselej«, tako da ni imela »nezakonska mati od njega ničesar več zahtevati«.<note
+                        place="foot" xml:id="ftn69" n="67"> SI ZAL CER 4, t. e. 59 (A. M.), Zapisnik
+                        o poravnavi, 20. 8. 1820, 2.</note> 25-letni Maks S. je 31-letni Marjeti S.
+                    za nezakonsko hčerko takoj po rojstvu leta 1923 za vselej izplačal 12.500 din.
+                    Izplačilo vsote mu najverjetneje ni predstavljalo posebnih težav, saj je
+                    posedoval hišo, gostilno, trgovino in zemljišče. <note place="foot"
+                        xml:id="ftn70" n="68"> SI ZAL CER 4, t. e. 61, P 24/23 (A. T.).</note>
+                    Matere ali varuhi so potem občasno oblasti prosili, da so lahko del izplačane
+                    vsote (če je bil znesek visok in samo obresti) porabili za otrokove sprotne
+                    stroške, sploh ko je začel obiskovati šolo. V večini pregledanih primerov so
+                    nekaj premoženja na hranilni knjižici tako obravnavani otroci imeli še pri
+                    nastopu polnoletnosti, ko so preostali znesek lahko dvignili tudi sami. Če še
+                    enkrat povzamemo, je od 47 sodno pozvanih očetov dobra tretjina (šestnajst)
+                    redno plačevala alimente oziroma so se zmenili za poravnavo, petnajst pozvanih
+                    očetov – spet ena tretjina – je plačevalo neredno, sedem jih ni plačevalo
+                    preživnine, pri preostalih pa zaradi skopih virov doslednosti plačevanja nismo
+                    mogli določiti. Deleži so torej primerljivi s podatki, ki jih je za leti 1904 in
+                    1912 izbral Wulff za Berlin (Nemčija je imela namreč podobna določila glede
+                    plačevanja alimentacije kot habsburška monarhija): 37 % nezakonskih otrok v
+                    Berlinu je dobivalo preživnino redno, 31 % neredno, 32 % pa nikoli.<note
+                        place="foot" xml:id="ftn71" n="69"> Buske, <hi rend="italic">Fräulein
+                            Mutter.</hi></note></p>
+            </div>
+            <div>
+                <head>Zaključek</head>
+                <p>Pregledani viri ne popisujejo enoznačne zgodbe o usodi nezakonskih mater in
+                    otrok. Če s sicer določeno mero previdnosti predpostavljamo, da je večina
+                    tovrstnih primerov vendarle prišla pred sodišče, potem lahko tudi zaključimo, da
+                    so se oblasti v obravnavnem obdobju, med letoma 1899 in 1947, trudile, da bi
+                    očetje izpolnjevali svoje dolžnosti v odnosu do otrok. V vzorcu med primeri, ki
+                    so se nadaljevali s tožbo, nismo zasledili niti enega izida v škodo otroka.
+                    Večji napori s strani oblasti so razvidni po prvih obravnavanih letih, potem po
+                    prvi svetovni vojni in potem po drugi svetovni vojni, ko se je spremenila tudi
+                    zakonodaja ter so po očetu dedovali tudi nezakonski otroci. V »stoletju otroka«
+                    so se državne oblasti, pa tudi splošna javnost, tudi zaradi postopnega nižanja
+                    rodnosti in še vedno visoke smrtnost, sploh med nezakonskimi otroki, ter
+                    spremenjenih nazorov zavzele za zaščito svojega biološkega kapitala. </p>
+                <p> Največ neuspešnih poskusov izterjanja alimentov so oblasti beležile v času obeh
+                    vojn ter v primerih, ko so se očetje izselili iz domačega kraja ali celo v
+                    tujino ali niso imeli vidnega premoženja. Ravnanja samih nezakonskih očetov so
+                    se izkazala za izjemno različna. Visok delež očetov se je res izmikal svojim
+                    dolžnostim. A stereotip popolnoma odsotnega, neodgovornega in sovražnega očeta,
+                    ki ga je med drugim v obravnavanem obdobju risal tudi javni diskurz, kljub temu
+                    demantirajo dokaj številni primeri posameznikov, ki so vendarle brez oporekanja
+                    skrbeli za svoje otroke. V resnici v presenetljivo visokem deležu (24 %) ni šlo
+                    za od staršev zapuščene otroke, ampak do poroke ni (takoj) prišlo iz drugih
+                    (začasnih) razlogov. Vpletene nezakonske matere prav tako ne gre enačiti s
+                    stereotipno podobo nevedne, naivne, pasivne in izkoriščene žrtve. Čeprav se je
+                    izterjanje alimentov od očetov, ki niso hoteli plačevati, izkazalo za težavno,
+                    številne matere niso popuščale in so z vrsto pravnih in družbenih pritiskov
+                    dosegle, da so očetje (čeprav neredno) izpolnjevali svoje dolžnosti. Več
+                    možnosti za uspeh so po predvidevanjih imele pri posameznikih, ki so delali v
+                    državnih službah. A morda je predstavljena slika zaradi izjemnosti obravnavanih
+                    virov tako ali drugače popačena. Verodostojnejšo oceno o problematiki bi dosegli
+                    z analizo širšega vzorca v daljšem časovnem razponu in na različnih lokacijah, s
+                    čimer dopolnili to pomembno poglavje naše preteklosti. Morda bi bilo v
+                    skrbstvenih spisih iz večjih mest – kjer je bila mreža medsebojne podpore manj
+                    trdna, dekleta, sploh v skrbstvenih poklicih, pa so bila bolj prepuščena sama
+                    sebi – več razpletov v škodo nezakonskih otrok in mater. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <head>Viri in literatura</head>
+                <list>
+                    <head>Arhivski viri</head>
+                    <item>SI ZAL LJU ‒ Zgodovinski arhiv Ljubljana:<list type="unordered">
+                            <item>SI ZAL CER/003 ‒ Okrajno sodišče Cerknica.</item>
+                            <item>SI ZAL CER/004 ‒ Okrajno sodišče Lož. </item>
+                            <item>SI ZAL CER/005 ‒ Okrajno sodišče Rakek. </item>
+                        </list></item>
+                </list>
+                <listBibl>
+                    <head>Literatura</head>
+                    <bibl>Buske, Sybille. <hi rend="italic">Fräulein Mutter und ihr Bastard: Eine
+                            Geschichte der Unehelichkeit in Deutschland 1900–1970</hi>. Göttingen:
+                        Wallstein Verlag, 2004.</bibl>
+                    <bibl>Cergol Paradiž, Ana. V oteti deci je zaloga za našo močno in silno državo
+                        – skrb za zaščito otrok v prvi Jugoslaviji. Aida Škoro Babić idr. (ur.). <hi
+                            rend="italic">Zgodovina otroštva</hi>, 266–77. Ljubljana: Zveza
+                        zgodovinskih društev Slovenije, 2012.</bibl>
+                    <bibl>Cvirn, Janez. Najdenišnice - nagrada za lahkomiselnost in nemoralnost: o
+                        ukinjanju najdenišnice v Ljubljani v šestdesetih letih 19. stoletja. <hi
+                            rend="italic">Prispevki za novejšo zgodovino</hi> 52, št. 2 (2012): 7<hi
+                            rend="italic">–</hi>44.</bibl>
+                    <bibl>Čeč, Dragica. Nasilne detomorilke ali neprištevne žrtve?: spreminjanje
+                        podobe detomora v 18. in začetku 19. stoletja. <hi rend="italic">Acta
+                            Histriae</hi> 15, št. 2 (2007): 415<hi rend="italic">–</hi>40.</bibl>
+                    <bibl>Drnovšek, Jaša. Če bi vsi vstali, bi bil polhn Rancerebar otruk! Primer
+                        Filomene Permoser, izvajalke splavov. <hi rend="italic">Zgodovina za
+                            vse</hi> 29, št. 1 (2022): 81–100.</bibl>
+                    <bibl>Leskošek, Vesna. <hi rend="italic">Zvrnjena tradicija</hi>. Ljubljana :
+                        Založba /*cf., 2002.</bibl>
+                    <bibl>McEwen, Britta. Outsider Bodies, Everyday Lives: Single Mothers and Their
+                        Children in Red Vienna. <hi rend="italic">Austrian History Yearbook</hi> 54
+                        (2023): 177–91.</bibl>
+                    <bibl>McEwen, Britta. Shame, Sympathy, and the Single Mother in Vienna,
+                        1880–1930. <hi rend="italic">Journal of Women’s History</hi> 35, št. 1 (
+                        2023): 100–20.</bibl>
+                    <bibl>Mitterauer, Michael. <hi rend="italic">Ledige Mütter: zur Geschichte
+                            illegitimer Geburten in Europa</hi>. München: Beck, 1983.</bibl>
+                    <bibl>Šelih, Alenka. Ženske, kazensko pravo in kriminaliteta: storilke kaznivega
+                        dejanja detomora in umora v spisih Deželnega sodišča v Ljubljani (1899<hi
+                            rend="italic">–</hi>1910). V: Marta Verginella (ur.). <hi rend="italic"
+                            >Dolga pot pravic žensk: pravna in politična zgodovina žensk na
+                            Slovenskem</hi>, 213<hi rend="italic">–</hi>30. Ljubljana: Znanstvena
+                        založba Filozofske fakultete: Studia humanitatis, 2013.</bibl>
+                    <bibl>Verginella, Marta (ur.). <hi rend="italic">Slovenka: prvi ženski časopis
+                            (1897–1902)</hi>. Ljubljana: Znanstvena založba Filozofske fakultete,
+                        2018.</bibl>
+                    <bibl>Vermeesch, Griet. The legal agency of single mothers: Lawsuits over
+                        illegitimate children and the uses of legal aid to the poor in the Dutch
+                        town of Leiden (1750 <hi rend="italic">–</hi>1810). <hi rend="italic"
+                            >Journal of Social History</hi> 50, št. 3 (2016): 51<hi rend="italic"
+                            >–</hi>73. </bibl>
+                    <bibl>Žnidaršič-Žagar, Sabina. Nezakonske matere: objektivno gledano je lahko
+                        tudi malo veliko<hi rend="italic">. Delta: revija za ženske študije in
+                            feministično teorijo</hi> 3, št. 1-2 (1997): 57<hi rend="italic"
+                        >–</hi>63.</bibl>
+                    <bibl>Žnidaršič-Žagar, Sabina. <hi rend="italic">Ženski so pa vzrasle svetlejše
+                            dolžnosti nego kuhati in prati: podoba in pojavnost žensk na Slovenskem:
+                            Slovenke, od sredine 19. stoletja do 2. svetovne vojne</hi>. Ljubljana:
+                        Pedagoški inštitut, 2013.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Spletni viri</head>
+                    <bibl><hi rend="italic">Družinsko drevo – Družinsko drevo M. – MyHeritage</hi>.
+                            <ref
+                            target="https://www.myheritage.si/site-family-tree-235576521/dru%C5%BEinsko-drevo-mr%C5%A1ek"
+                            >https://www.myheritage.si/site-family-tree-235576521/dru%C5%BEinsko-drevo-mr%C5%A1ek</ref>.
+                        Pridobljeno 18. 1. 2024.</bibl>
+                    <bibl>Krstna knjiga/Taufbuch, 1897<hi rend="italic">–</hi>1920, Stari trg pri
+                        Ložu, Nadškofijski arhiv Ljubljana. <hi rend="italic">Matricula Online</hi>.
+                            <ref
+                            target="https://data.matricula-online.eu/en/slovenia/ljubljana/stari-trg-pri-lozu/04399/?pg=1"
+                            >https://data.matricula-online.eu/en/slovenia/ljubljana/stari-trg-pri-lozu/04399/?pg=1</ref>.
+                        Pridobljeno 18. 1. 2024.</bibl>
+                </listBibl>
+                <listBibl>
+                    <head>Tiskani viri</head>
+                    <bibl>Dolenc, Metod. O pravdah z nezakonskimi roditelji. <hi rend="italic"
+                            >Slovenski pravnik</hi> 29, št. 8 (1923): 225‒37.</bibl>
+                    <bibl>Milčinski, Fran. Praktična vzgojna skrb brez vzgojnoskrbnega zakona. <hi
+                            rend="italic">Pedagoški letopis</hi> 11 (1911): 70‒96. </bibl>
+                    <bibl>Milčinski, Fran. Prvi avstrijski shod za otroško varstvo. <hi
+                            rend="italic">Pedagoški letopis</hi>, 8 (1908): 60‒73.</bibl>
+                    <bibl>Nadlišek-Bartol, Marica. O detomorih. <hi rend="italic">Slovenka </hi>5,
+                        št. 8 (1901): 218‒20.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
