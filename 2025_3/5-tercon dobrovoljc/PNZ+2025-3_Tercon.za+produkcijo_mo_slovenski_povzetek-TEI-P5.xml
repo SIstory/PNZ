@@ -1,0 +1,2027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>CLASSLA-Stanza: The Next Step for Linguistic Processing of South Slavic
+               Languages</title>
+            <author>
+               <forename>Luka</forename>
+               <surname>Terčon</surname>
+               <roleName>Tch. Asst.</roleName>
+               <affiliation>Faculty of Arts, University of Ljubljana</affiliation>
+               <affiliation>Faculty of Computer and Information Science, University of Ljubljana </affiliation>
+               <address>
+                  <addrLine>Aškerčeva 2</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <address>
+                  <addrLine>Večna pot 113</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <email>luka.tercon@ff.uni-lj.si</email>
+            </author>
+            <author>
+               <forename>Kaja</forename>
+               <surname>Dobrovoljc</surname>
+               <roleName>PhD, Res. Assoc.</roleName>
+               <affiliation>Faculty of Arts, University of Ljubljana</affiliation>
+               <affiliation>Jožef Stefan Institute</affiliation>
+               <address>
+                  <addrLine>Aškerčeva 2</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <address>
+                  <addrLine>Jamova 39</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <email>kaja.dobrovoljc@ff.uni-lj.si</email>
+            </author>
+            <author>
+               <forename>Nikola</forename>
+               <surname>Ljubešić</surname>
+               <roleName>PhD, Sr. Res. Assoc.</roleName>
+               <affiliation>Jožef Stefan Institute</affiliation>
+               <address>
+                  <addrLine>Jamova 39</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <affiliation>Faculty of Computer and Information Science, University of
+                  Ljubljana</affiliation>
+               <address>
+                  <addrLine>Večna pot 113</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <affiliation>Institute of Contemporary History</affiliation>
+               <address>
+                  <addrLine>Privoz 11</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <email>nikola.ljubesic@ijs.si</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2025-10-29</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+               <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               <address>
+                  <addrLine>Privoz 11</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>https://ojs.inz.si/pnz/article/view/4500</pubPlace>
+            <date>2025</date>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+            <title xml:lang="en">Contributions to Contemporary History</title>
+            <biblScope unit="volume">65</biblScope>
+            <biblScope unit="issue">3</biblScope>
+            <idno type="ISSN">2463-7807</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>No source, born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc xml:lang="en">
+            <p>Contributions to Contemporary History is one of the central Slovenian scientific
+               historiographic journals, dedicated to publishing articles from the field of
+               contemporary history (the 19th and 20th century).</p>
+            <p>The journal is published three times per year in Slovenian and in the following
+               foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak and
+               Czech. The articles are all published with abstracts in English and Slovenian as well
+               as summaries in English.</p>
+         </projectDesc>
+         <projectDesc xml:lang="sl">
+            <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+               zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+               stoletje).</p>
+            <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+               angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina in
+               češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki v
+               angleščini.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="sl"/>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>South Slavic languages</term>
+               <term>automatic linguistic processing</term>
+               <term>annotation pipeline</term>
+               <term>linguistic annotation</term>
+            </keywords>
+            <keywords xml:lang="sl">
+               <term>južnoslovanski jeziki</term>
+               <term>avtomatsko procesiranje jezika</term>
+               <term>označevalni cevovod</term>
+               <term>jezikovno označevanje</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change><date>2026-03-09T12:52:08Z</date>
+               <name>Mihael Ojsteršek</name>
+               <desc>Pretvorba iz DOCX v TEI, dodatno označevanje</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docAuthor>Luka Terčon<note place="foot" xml:id="ftn1" n="*"><hi rend="bold">Tch. Asst.,
+                  Faculty of Arts, University of Ljubljana, Aškerčeva 2, SI-1000 Ljubljana,
+                  Slovenia; Faculty of Computer and Information Science, University of Ljubljana,
+                  Večna pot 113, SI-1000 Ljubljana, Slovenia, luka.tercon@ff.uni-lj.si; ORCID:
+                  0009-0006-3237-3583</hi></note></docAuthor>
+         <docAuthor>Kaja Dobrovoljc<note place="foot" xml:id="ftn2" n="**"><hi rend="bold">PhD,
+                  Res. Assoc., Faculty of Arts, University of Ljubljana, Aškerčeva 2, SI-1000
+                  Ljubljana, Slovenia; Jožef Stefan Institute, Jamova 39, SI-1000 Ljubljana,
+                  kaja.dobrovoljc@ff.uni-lj.si; ORCID: </hi><ref
+                  target="https://orcid.org/0000-0002-5909-7965"><hi rend="bold"
+                     >0000-0002-5909-7965</hi></ref></note></docAuthor>
+         <docAuthor>Nikola Ljubešić<note place="foot" xml:id="ftn3" n="***"><hi rend="bold">PhD, Sr.
+                  Res. Assoc., Jožef Stefan Institute, Jamova 39, SI-1000 Ljubljana, Slovenia;
+                  Faculty of Computer and Information Science, University of Ljubljana, Večna pot
+                  113, SI-1000 Ljubljana, Slovenia; Institute of Contemporary History, Privoz 11,
+                  SI-1000 Ljubljana, Slovenia,</hi><hi rend="bold">nikola.ljubesic@ijs.si; ORCID:
+                  </hi><ref target="https://orcid.org/0000-0001-7169-9152"><hi rend="bold"
+                     >0000-0001-7169-9152</hi></ref></note></docAuthor>
+         <docImprint>
+            <idno type="cobissType">Cobiss tip: 1.01</idno>
+            <idno type="DOI">https://doi.org/10.51663/pnz.65.3.05</idno>
+         </docImprint>
+         <div type="abstract" xml:lang="sl">
+            <head>IZVLEČEK</head>
+            <head>CLASSLA-STANZA: NASLEDNJI KORAK ZA JEZIKOVNO PROCESIRANJE JUŽNOSLOVANSKIH
+               JEZIKOV</head>
+            <p style="text-align: justify;"><hi rend="italic">V članku predstavljamo orodje
+                  CLASSLA-Stanza, cevovod za avtomatsko jezikovno označevanje južnoslovanskih
+                  jezikov, ki temelji na cevovodu za procesiranje naravnega jezika Stanza. Opišemo
+                  vse glavne izboljšave, ki jih prinaša CLASSLA-Stanza v primerjavi s Stanzo in
+                  podamo podroben opis postopka učenja modelov v različici 2.2, najnovejši različici
+                  orodja. Obenem poročamo o rezultatih delovanja cevovoda za različne jezike in
+                  jezikovne zvrsti. CLASSLA-Stanza dosega konsistentno visoke rezultate za vse
+                  podprte jezike in preseže rezultate izvornega cevovoda Stanza pri vseh podprtih
+                  jezikih. Predstavimo tudi novo funkcijo cevovoda, ki omogoča učinkovito
+                  procesiranje spletnih besedil, in opišemo učinkovitost cevovoda za označevanje
+                  transkriptov govora.</hi></p>
+            <p style="text-align: justify;"><hi rend="italic">Ključne besede: južnoslovanski jeziki,
+                  avtomatsko procesiranje jezika, označevalni cevovod, jezikovno
+               označevanje</hi></p>
+         </div>
+         <div type="abstract" xml:lang="en">
+            <head>ABSTRACT</head>
+            <p style="text-align: justify;"><hi rend="italic">We present CLASSLA-Stanza, a pipeline
+                  for automatic linguistic annotation of South Slavic languages, which is based on
+                  the Stanza natural language processing pipeline. We describe the main improvements
+                  in CLASSLA-Stanza with respect to Stanza and give a detailed description of the
+                  model training process for the latest 2.2 release of the pipeline. We also report
+                  performance scores produced by the pipeline for different languages and language
+                  varieties. CLASSLA-Stanza exhibits consistently high performance across all the
+                  supported languages and outperforms its parent pipeline Stanza at all the
+                  supported tasks. We also present the pipeline’s new functionality that enables
+                  efficient processing of web data and describe the efficiency of the pipeline for
+                  annotating written transcripts of spoken data.</hi></p>
+            <p style="text-align: justify;"><hi rend="italic">Keywords: South Slavic languages,
+                  automatic linguistic processing, annotation pipeline, linguistic
+               annotation</hi></p>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>Introduction</head>
+            <p style="text-align: justify;">The South Slavic languages make up one of the three
+               major branches of the Slavic language family. Despite being used by around 30 million
+               people worldwide,<note place="foot" xml:id="ftn4" n="1"> Nikola Ljubešić et al.,
+                  “Tour de CLARIN: The CLARIN Knowledge Centre for South Slavic Languages
+                  (CLASSLA),” CLARIN, published 18 November, 2021, <ref
+                     target="https://www.clarin.eu/blog/tour-de-clarin-clarin-knowledge-centre-south-slavic-languages-classla"
+                     >https://www.clarin.eu/blog/tour-de-clarin-clarin-knowledge-centre-south-slavic-languages-classla</ref>.</note>
+               many languages of this group remain relatively low-resourced and under-represented in
+               the field of natural language processing. Goldhahn et al.<note place="foot"
+                  xml:id="ftn5" n="2"> Dirk Goldhahn et al., “Corpus collection for under-resourced
+                  languages with more than one million speakers,” paper presented at the <hi
+                     rend="italic">Collaboration and Computing for Under-Resourced Languages
+                     (CCURL)</hi> workshop, 2016, <ref
+                     target="http://www.lrec-conf.org/proceedings/lrec2016/workshops/LREC2016Workshop-CCURL2016_Proceedings.pdf#page=74"
+                     >http://www.lrec-conf.org/proceedings/lrec2016/workshops/LREC2016Workshop-CCURL2016_Proceedings.pdf#page=74</ref>.
+               </note> include Macedonian and Bosnian in their list of languages that are
+               significantly under-resourced despite having more than 1 million speakers.</p>
+            <p style="text-align: justify;">Although much additional work is required before South
+               Slavic languages can approach the level of support enjoyed by linguistic giants such
+               as English, steps have been taken towards establishing common platforms for
+               supporting the development of new resources and tools for these languages. The CLARIN
+               Knowledge Centre for South Slavic Languages (CLASSLA)<note place="foot" xml:id="ftn6"
+                  n="3">
+                  <hi rend="italic">CLASSLA: Knowledge centre for South Slavic languages</hi>, <ref
+                     target="https://www.clarin.si/info/k-centre/"
+                     >https://www.clarin.si/info/k-centre/</ref>.</note> was established as a result
+               of prior cooperation in the development of language resources for Slovenian,
+               Croatian, and Serbian and currently acts as a platform providing expertise and
+               support for developing language resources for South Slavic languages.<note
+                  place="foot" xml:id="ftn7" n="4"> Nikola Ljubešić et al., “Together we are
+                  stronger: Bootstrapping language technology infrastructure for South Slavic
+                  languages with CLARIN. SI,” in Darja Fišer and Andreas Witt, eds., <hi
+                     rend="italic">CLARIN. The Infrastructure for Language Resources</hi> (De
+                  Gruyter, 2022), 429–56.</note> The efforts of the knowledge centre gave rise to
+               the CLASSLA-Stanza<note place="foot" xml:id="ftn8" n="5">
+                  <hi rend="italic">GitHub - clarinsi/classla: CLASSLA Fork of the Official Stanford
+                     NLP Python Library for Many Human Languages</hi>, <ref
+                     target="https://github.com/clarinsi/classla/"
+                     >https://github.com/clarinsi/classla/</ref>.</note> pipeline for linguistic
+               processing, which arose as a fork of the Stanza neural pipeline.<note place="foot"
+                  xml:id="ftn9" n="6"> Peng Qi et al., “Stanza: A Python Natural Language Processing
+                  Toolkit for Many Human Languages,” paper presented at the 58<hi rend="superscript"
+                     >th</hi> Annual Meeting of the Association for Computational Linguistics:
+                  System Demonstrations, 2020, <ref
+                     target="https://doi.org/10.18653/v1/2020.acl-demos.14"
+                     >https://doi.org/10.18653/v1/2020.acl-demos.14</ref>. </note> CLASSLA-Stanza
+               was created with the aim of providing state-of-the-art automatic linguistic
+               processing for South Slavic languages<note place="foot" xml:id="ftn10" n="7"> Nikola
+                  Ljubešić and Kaja Dobrovoljc, “What Does Neural Bring? Analysing Improvements in
+                  Morphosyntactic Annotation and Lemmatisation of Slovenian, Croatian and Serbian,”
+                  paper presented at the <hi rend="italic">7</hi><hi rend="italic superscript"
+                     >th</hi><hi rend="italic"> Workshop on Balto-Slavic Natural Language
+                     Processing</hi>, 2019, <ref target="https://doi.org/10.18653/v1/W19-3704"
+                     >https://doi.org/10.18653/v1/W19-3704</ref>. Kaja Dobrovoljc et al., “Improving
+                  UD processing via satellite resources for morphology,” paper presented at the <hi
+                     rend="italic">Third Workshop on Universal Dependencies</hi> (UDW, SyntaxFest
+                  2019), 2019, <ref target="https://doi.org/10.18653/v1/W19-8004"
+                     >https://doi.org/10.18653/v1/W19-8004</ref>. </note> and currently supports
+               Slovenian, Croatian, Serbian, Macedonian, and Bulgarian. Additionally, Slovenian,
+               Croatian, and Serbian have support for standard, nonstandard, and internet varieties,
+               while Slovenian also supports processing spoken language transcripts. In contrast to
+               its parent pipeline Stanza, CLASSLA-Stanza covers the standard Macedonian language,
+               as well as the nonstandard and internet varieties of Slovenian, Croatian, and Serbian
+               and the spoken variety of Slovenian. Besides the expanded coverage of languages and
+               varieties, CLASSLA-Stanza shows improvements in performance at all presented
+               levels.</p>
+            <p style="text-align: justify;">The aim of this paper is to provide both a systematic
+               overview of the differences that CLASSLA-Stanza has to the official Stanza pipeline
+               and a description of the model training procedure which was adopted when training
+               models for the latest releases. The description of the training procedure is intended
+               to serve as the main reference for future releases as well as for anyone using the
+               CLASSA-Stanza tool to produce their own models for linguistic annotation.</p>
+            <p style="text-align: justify;">In accordance with this aim, we first describe the
+               differences between CLASSLA-Stanza and Stanza in Section 2. Section 3 then introduces
+               the datasets used for training the most recent models. Section 4 gives a general
+               description of the model training process, which is followed by an analysis of the
+               results produced by the latest models in Section 5.</p>
+            <p style="text-align: justify;">At present, the CLASSLA-Stanza annotation tool supports
+               a total of six tasks: tokenization, morphosyntactic annotation, lemmatization,
+               dependency parsing, semantic role labelling, and named-entity recognition.
+               Tokenization is handled by one of two external rule-based tokenizers included in
+               CLASSLA-Stanza, either the Obeliks tokenizer for standard Slovenian<note place="foot"
+                  xml:id="ftn11" n="8"> Miha Grčar et al., “Obeliks: statisticni oblikoskladenjski
+                  oznacevalnik in lematizator za slovenski jezik” [Obeliks: A Statistical
+                  Morphosyntactic Annotation and Lemmatization Tool for the Slovenian Language],
+                  paper presented at the <hi rend="italic">Eighth Language Technologies
+                     Conference</hi>, 2012, <ref
+                     target="https://nl.ijs.si/isjt12/proceedings/isjt2012_17.pdf."
+                     >https://nl.ijs.si/isjt12/proceedings/isjt2012_17.pdf</ref>. The repository for
+                  the tool can be found at: <ref target="https://github.com/clarinsi/obeliks"
+                     >https://github.com/clarinsi/obeliks</ref>. </note> or the ReLDI tokenizer for
+               nonstandard Slovenian and all other languages.<note place="foot" xml:id="ftn12" n="9"
+                  > Tanja Samardžić et al., “Regional Linguistic Data Initiative (ReLDI),” paper
+                  presented at the 5<hi rend="superscript">th</hi> Workshop on Balto-Slavic Natural
+                  Language Processing, 2015, <ref target="https://aclanthology.org/W15-5306/"
+                     >https://aclanthology.org/W15-5306/</ref>. The repository for the tool can be
+                  found at: <ref target="https://github.com/clarinsi/reldi-tokeniser"
+                     >https://github.com/clarinsi/reldi-tokeniser</ref>. </note> While the basic
+               tasks of tokenization, morphosyntactic annotation, lemmatization, and dependency
+               parsing are covered at least for some languages in the parent Stanza pipeline,
+               semantic role labelling and named entity recognition for South Slavic languages are
+               available only in CLASSLA-Stanza.</p>
+            <p style="text-align: justify;">The current version of the models was trained on data
+               annotated according to three separate systems for morphosyntactic annotation: the
+               Universal part-of-speech tags and the Universal morphosyntactic features tags, which
+               are both part of the Universal Dependencies framework for grammatical annotation<note
+                  place="foot" xml:id="ftn13" n="10"> Marie-Catherine de Marneffe et al., “Universal
+                  Dependencies,” <hi rend="italic">Computational Linguistics</hi> 47, No. 2 (07
+                  2021): 255–308, <ref target="https://doi.org/10.1162/coli_a_00402"
+                     >https://doi.org/10.1162/coli_a_00402</ref>. </note> and will henceforth be
+               referred to as UPOS and UFeats, and the MULTEXT-East V6 specifications for
+               morphosyntactic annotation,<note place="foot" xml:id="ftn14" n="11"> Tomaž Erjavec,
+                  “MULTEXT-East: Morphosyntactic Resources for Central and Eastern European
+                  Languages,” <hi rend="italic">Language Resources and Evaluation</hi> 46, No. 1
+                  (2012), <ref target="http://www.jstor.org/stable/41486069"
+                     >http://www.jstor.org/stable/41486069</ref>. </note> which are implemented as
+               the language-specific XPOS tags in the CoNLL-U file format,<note place="foot"
+                  xml:id="ftn15" n="12">
+                  <hi rend="italic">CoNLL-U Format</hi>, <ref
+                     target="https://universaldependencies.org/format.html"
+                     >https://universaldependencies.org/format.html</ref>.</note> the central file
+               format used by CLASSLA-Stanza. For dependency parsing, the Universal Dependencies
+               system for syntactic dependency annotation was used as well as the JOS syntactic
+               dependencies system for Slovenian.<note place="foot" xml:id="ftn16" n="13"> Tomaž
+                  Erjavec et al., “The JOS Linguistically Tagged Corpus of Slovene,” paper presented
+                  at the <hi rend="italic">Seventh International Conference on Language Resources
+                     and Evaluation</hi> (LREC`10), 2010, <ref
+                     target="https://aclanthology.org/L10-1087/"
+                     >https://aclanthology.org/L10-1087/</ref>. </note> Additionally, the annotation
+               schema described in Krek et al.<note place="foot" xml:id="ftn17" n="14"> Simon Krek
+                  et al., “Označevanje udeleženskih vlog v učnem korpusu za slovenščino” [Annotating
+                  Semantic Roles in a Training Corpus for Slovenian], paper presented at the <hi
+                     rend="italic">Conference on Language Technologies and Digital Humanities</hi>
+                  (JT-DH-2016), 2016, <ref target="https://doi.org/10.5281/zenodo.14165095"
+                     >https://doi.org/10.5281/zenodo.14165095</ref>. </note> was used for semantic
+               role label annotation, while the named entity annotation system followed the
+               guidelines described by Zupan et al.<note place="foot" xml:id="ftn18" n="15"> Katja
+                  Zupan et al., “Smernice Janes-NER za označevanje imenskih entitet v slovenskem
+                  jeziku: Različica 1.1,” CJVT Wiki, <ref
+                     target="https://wiki.cjvt.si/books/08-imenske-entitete/page/oznacevalne-smernice"
+                     >https://wiki.cjvt.si/books/08-imenske-entitete/page/oznacevalne-smernice</ref>.
+               </note></p>
+            <p style="text-align: justify;">It must be noted that not all tasks are available for
+               every supported language and variety. For instance, semantic role labelling currently
+               relies on the JOS annotation system for dependency parsing of Slovenian and is thus
+               only available for annotation of Slovenian datasets but should become available for
+               Croatian in the future as there are training data available.<note place="foot"
+                  xml:id="ftn19" n="16"> Nikola Ljubešić, and Tanja Samardžić, “Croatian Linguistic
+                  Training Corpus Hr500k 2.0,” 2023, <ref target="http://hdl.handle.net/11356/1792"
+                     >http://hdl.handle.net/11356/1792</ref>. </note> Table 1 provides an overview
+               of every language variety and the tasks it supports.</p>
+            <table>
+               <head>Table 1: Tasks supported by CLASSLA-Stanza for every language and variety. The
+                  abbreviations for each task are as follows: Tok – tokenization, Morph –
+                  morphosyntactic tagging, Lemma – lemmatization, Depparse – dependency parsing, NER
+                  – named entity recognition, SRL – semantic role labelling.</head>
+               <row rend="bold">
+                  <cell>Language </cell>
+                  <cell>Variety </cell>
+                  <cell>Tok </cell>
+                  <cell>Morph </cell>
+                  <cell>Lemma </cell>
+                  <cell>Depparse </cell>
+                  <cell>NER </cell>
+                  <cell>SRL</cell>
+               </row>
+               <row>
+                  <cell>Slovenian </cell>
+                  <cell>standard </cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>nonstandard </cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✘</cell>
+                  <cell>✔</cell>
+                  <cell>✘</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>spoken</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✘</cell>
+                  <cell>✘</cell>
+               </row>
+               <row>
+                  <cell>Croatian </cell>
+                  <cell>standard </cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✘</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>nonstandard </cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✘</cell>
+                  <cell>✔</cell>
+                  <cell>✘</cell>
+               </row>
+               <row>
+                  <cell>Serbian </cell>
+                  <cell>standard </cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✘</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>nonstandard</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✘</cell>
+                  <cell>✔</cell>
+                  <cell>✘</cell>
+               </row>
+               <row>
+                  <cell>Bulgarian </cell>
+                  <cell>standard </cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✘</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>nonstandard</cell>
+                  <cell>✘</cell>
+                  <cell>✘</cell>
+                  <cell>✘</cell>
+                  <cell>✘</cell>
+                  <cell>✘</cell>
+                  <cell>✘</cell>
+               </row>
+               <row>
+                  <cell>Macedonian</cell>
+                  <cell>standard</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✔</cell>
+                  <cell>✘</cell>
+                  <cell>✘</cell>
+                  <cell>✘</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>nonstandard </cell>
+                  <cell>✘</cell>
+                  <cell>✘</cell>
+                  <cell>✘</cell>
+                  <cell>✘</cell>
+                  <cell>✘</cell>
+                  <cell>✘</cell>
+               </row>
+               <note n="">Source: Own work</note>
+            </table>
+            <p style="text-align: justify;">An earlier version of this overview was already
+               presented at the Language Technologies and Digital Humanities conference in
+                  2024,<note place="foot" xml:id="ftn20" n="17"> Nikola Ljubešić et al.,
+                  “CLASSLA-Stanza: The Next Step for Linguistic Processing of South Slavic
+                  Languages,” paper presented at the Conference on Language Technologies and Digital
+                  Humanities (JT-DH-2024), 2024, <ref
+                     target="https://doi.org/10.5281/zenodo.13936406"
+                     >https://doi.org/10.5281/zenodo.13936406</ref>.</note> while this paper expands
+               upon that report by describing the training of various new models that are included
+               in the latest 2.2 release<note place="foot" xml:id="ftn21" n="18"> Version 2.2 refers
+                  to the latest major release of the pipeline. An additional minor release—version
+                  2.2.1—has been made available during the publishing process of this article. This
+                  release resolves compatibility issues with newer versions of the Python
+                  programming language and improves the documentation on the GitHub repository but
+                  does not add any other substantial changes to the tool. </note> of the
+               CLASSLA-Stanza pipeline, including new standard models for Slovenian UD dependency
+               parsing and named entity recognition and also the first Slovenian models for
+               annotating spoken language. We also describe new experiments that compare the
+               effectiveness of Slovenian standard, nonstandard, and spoken models on transcripts of
+               spoken language.</p>
+         </div>
+         <div>
+            <head>Differences Between CLASSLA-Stanza and Stanza</head>
+            <p style="text-align: justify;">The Stanza neural pipeline is centred around a
+               bidirectional long short-term memory (Bi-LSTM) network architecture.<note
+                  place="foot" xml:id="ftn22" n="19"> Qi et al., “Stanza.”</note> CLASSLA-Stanza
+               largely preserves the design of Stanza, except in some cases, such as tokenization,
+               where a completely different model architecture is used. CLASSLA-Stanza also expands
+               upon the original design with specific additions that help boost model performance
+               for the South Slavic languages. This section thus lists the main differences between
+               the two pipelines and provides an overview of the difference in the results produced
+               by the models for one of the supported languages.</p>
+            <p style="text-align: justify;">On the level of tokenization and sentence segmentation,
+               Stanza uses a joint tokenization and sentence segmentation model based on machine
+               learning. We generally view such learnt tokenizers as suboptimal, since training data
+               for the two tasks is always limited in size and thus too few tokenization and
+               sentence-splitting phenomena can be learnt by the model during the training process.
+               Due to this drawback, CLASSLA-Stanza implements rule-based tokenizers, which handle
+               both the task of tokenization as well as sentence segmentation. As stated in the
+               introduction, the two tokenizers used are the Obeliks tokenizer for standard
+                  Slovenian<note place="foot" xml:id="ftn23" n="20"> Grčar et al., “Obeliks.” The
+                  Obeliks tokenizer, featuring an extensive set of linguistically informed rules, is
+                  the de facto standard for Slovenian text tokenization. It has been used in
+                  tokenizing the majority of Slovenian reference corpora and thus facilitates direct
+                  comparisons of newly tokenized data to established corpora.</note> and the ReLDI
+               tokenizer for nonstandard Slovenian and all other languages.<note place="foot"
+                  xml:id="ftn24" n="21"> Samardžić et al., “Regional Linguistic Data Initiative
+                  (ReLDI).”</note></p>
+            <p style="text-align: justify;">CLASSLA-Stanza also adds support for the use of external
+               inflectional lexicons, which is not present in Stanza. For morphologically rich
+               languages, applying this resource to the annotation process usually significantly
+               increases the performance of the model.<note place="foot" xml:id="ftn25" n="22">
+                  Ljubešić and Dobrovoljc, “What does Neural Bring?”</note> The South Slavic
+               languages all have quite rich inflectional paradigms, which is why support for
+               inflectional lexicons is present for almost all supported languages in the
+               pipeline.</p>
+            <p style="text-align: justify;">Most languages support external lexicon use only during
+               lemmatization, except for Slovenian, which supports lexicon use also during
+               morphosyntactic tagging. In that case, the lexicon is put into operation during the
+               tag prediction phase, when the model limits the possible predictions to only those
+               tags that are present in the inflectional lexicon for the specific token. Lexicon
+               usage during lemmatization is similar in both Stanza and CLASSLA-Stanza, the main
+               difference being that Stanza builds a lexicon only from the Universal Dependencies
+               training data, while CLASSLA-Stanza can additionally exploit an inflectional lexicon.
+               Both Stanza and CLASSLA-Stanza use the lexicon for an initial lemma lookup and fall
+               back to predicting the lemma only in case that the form with the corresponding tag is
+               not present in the lexicon. One important difference in the lexicon lookup in
+               CLASSLA-Stanza is that the lookup uses XPOS tags, which contain the full
+               morphosyntactic information, while Stanza uses only the UPOS tag, which is not enough
+               for an accurate lemma lookup in morphologically rich languages.</p>
+            <p style="text-align: justify;">When training models, Stanza uses a Universal
+               Dependencies dataset as training data for training all the tasks in the pipeline and
+               thus does not enable the user to train models on additional datasets. For certain
+               layers, however, such as lemmatization and morphosyntactic tagging, the South Slavic
+               languages often have more training data than available for dependency parsing, which
+               is exploited by CLASSLA-Stanza. Thus, for example, instead of using only the 210
+               thousand tokens of data that are used for training the dependency parser, the latest
+               set of standard Croatian models in CLASSLA-Stanza includes morphosyntactic tagging
+               and lemmatization models which were trained on an additional 290 thousand tokens,
+               manually annotated only on these two levels of annotation.</p>
+            <p style="text-align: justify;">CLASSLA-Stanza also has a special way of handling
+               “closed-class” tokens. Closed-class control is a feature of the tokenizers and
+               ensures that punctuation and symbols are assigned appropriate morphosyntactic tags
+               and lemmas. It also prevents other tokens that are not defined as punctuation and
+               symbols in the tokenizer from being annotated as such. In addition to punctuation and
+               symbols, the Slovenian package also includes closed-class control for pronouns,
+               determiners, prepositions, particles, and coordinating and subordinating
+               conjunctions. These additional closed classes are controlled during the
+               morphosyntactic tagging phase using the inflectional lexicon as a reference,
+               disallowing any token to be labelled with a closed class label if it was not defined
+               as such in the lexicon.<note place="foot" xml:id="ftn26" n="23"> In-depth
+                  instructions on how to use the closed-class control functionality are included in
+                  the GitHub repository: <ref
+                     target="https://github.com/clarinsi/classla/blob/master/README.closed_classes.md"
+                     >https://github.com/clarinsi/classla/blob/master/README.closed_classes.md</ref>.
+               </note></p>
+            <p style="text-align: justify;">The Stanza pipeline relies on pretrained word embeddings
+               as an underlying resource. While it uses embedding collections based on Wikipedia
+               data, CLASSLA-Stanza goes the extra mile by using the CLARIN.SI embeddings,<note
+                  place="foot" xml:id="ftn27" n="24"> Luka Terčon et al., “Word Embeddings
+                  CLARIN.SI-Embed.Sl 2.0,” 2023, <ref target="http://hdl.handle.net/11356/1791"
+                     >http://hdl.handle.net/11356/1791</ref>. Luka Terčon and Nikola Ljubešić, “Word
+                  Embeddings CLARIN.SI-Embed.Hr 2.0,” 2023, <ref
+                     target="http://hdl.handle.net/11356/1790"
+                     >http://hdl.handle.net/11356/1790</ref>. Luka Terčon and Nikola Ljubešić, “Word
+                  Embeddings CLARIN.SI-Embed.Sr 2.0,” 2023, <ref
+                     target="http://hdl.handle.net/11356/1789"
+                     >http://hdl.handle.net/11356/1789</ref>. Luka Terčon and Nikola Ljubešić, “Word
+                  Embeddings CLARIN.SI-Embed.Mk 2.0,” 2023, <ref
+                     target="http://hdl.handle.net/11356/1788"
+                     >http://hdl.handle.net/11356/1788</ref>. Luka Terčon and Nikola Ljubešić, “Word
+                  Embeddings CLARIN.SI-Embed.Bg 1.0,” 2023, <ref
+                     target="http://hdl.handle.net/11356/1796"
+                     >http://hdl.handle.net/11356/1796</ref>. </note> which are skipgram-based
+               embeddings of 100 dimensions, trained with the fastText tool. These embeddings were
+               primarily prepared for CLASSLA-Stanza but are useful for other tasks as well. They
+               were trained on text collections that are several times larger than Wikipedia and
+               were obtained through web crawling,<note place="foot" xml:id="ftn28" n="25"> Marta
+                  Banón et al., “MaCoCu: Massive collection and curation of monolingual and
+                  bilingual data: focus on under-resourced languages,” paper presented at the <hi
+                     rend="italic">23</hi><hi rend="italic superscript">rd</hi><hi rend="italic">
+                     Annual Conference of the European Association for Machine Translation
+                     (EAMT)</hi>, 2022, <ref target="https://aclanthology.org/2022.eamt-1.41/"
+                     >https://aclanthology.org/2022.eamt-1.41/</ref>.</note> which ensures much more
+               diverse word embeddings and thereby also better handling of unseen words.</p>
+            <p style="text-align: justify;">When working with Slovenian, Croatian, or Serbian, the
+               pipeline can be set to any of the four predetermined settings which are used for
+               processing different varieties of the same language. These settings are called <hi
+                  rend="italic">modes</hi> and can be either <hi rend="italic">standard</hi>, <hi
+                  rend="italic">nonstandard</hi>, or <hi rend="italic">web</hi>. For Slovenian, an
+               additional <hi rend="italic">spoken </hi>mode is available. The processing modes
+               determine which model is used on every level of annotation and are associated with
+               their respective language varieties. The reasons for introducing separate processing
+               modes for spoken and web texts are described in Sections 5.2 and 5.3. Below is an
+               overview showing which model is used on every layer for every mode:</p>
+            <table>
+               <head>Table 2: Overview of processing modes in CLASSLA-Stanza. <hi rend="italic">NER
+                     tagger</hi> stands for Named Entity Recognition tagger.</head>
+               <row rend="bold">
+                  <cell>Processing mode</cell>
+                  <cell>Tokenizer</cell>
+                  <cell>Morphosyntactic tagger</cell>
+                  <cell>Lemmatizer</cell>
+                  <cell>Dependency parser</cell>
+                  <cell>NER tagger</cell>
+               </row>
+               <row>
+                  <cell>standard</cell>
+                  <cell>standard</cell>
+                  <cell>standard</cell>
+                  <cell>standard</cell>
+                  <cell>standard</cell>
+                  <cell>standard</cell>
+               </row>
+               <row>
+                  <cell>nonstandard</cell>
+                  <cell>nonstandard</cell>
+                  <cell>nonstandard</cell>
+                  <cell>nonstandard</cell>
+                  <cell>standard</cell>
+                  <cell>nonstandard</cell>
+               </row>
+               <row>
+                  <cell>web</cell>
+                  <cell>standard</cell>
+                  <cell>nonstandard</cell>
+                  <cell>nonstandard</cell>
+                  <cell>standard</cell>
+                  <cell>nonstandard</cell>
+               </row>
+               <row>
+                  <cell>spoken</cell>
+                  <cell>standard</cell>
+                  <cell>spoken</cell>
+                  <cell>spoken</cell>
+                  <cell>spoken</cell>
+                  <cell>nonstandard</cell>
+               </row>
+               <note n="">Source: Own work</note>
+            </table>
+            <p style="text-align: justify;">The reason why the nonstandard and the web processing
+               modes use the standard dependency parsing model is primarily the lack of training
+               data for training a model beyond standard text and spoken transcripts. The lack of
+               motivation for building a dataset for parsing nonstandard text lies in the fact that
+               the parsing model has upstream lemma and morphosyntactic information at its disposal
+               and therefore requires dedicated training data to a much lesser extent than those
+               upstream processes.</p>
+            <p style="text-align: justify;">To illustrate the performance of CLASSLA-Stanza, Table 3
+               provides a comparison of the results produced by both Stanza and CLASSLA-Stanza when
+               generating predictions using the Slovenian standard models on the SloBENCH evaluation
+                  dataset.<note place="foot" xml:id="ftn29" n="26"> Slavko Žitnik and Frenk Dragar,
+                  “SloBENCH Evaluation Framework,” 2021, <ref
+                     target="http://hdl.handle.net/11356/1469"
+                     >http://hdl.handle.net/11356/1469</ref>. The SloBENCH online platform can be
+                  accessed at <ref target="https://slobench.cjvt.si/"
+                     >https://slobench.cjvt.si/</ref>. </note> SloBENCH is a platform for
+               benchmarking various natural language processing tasks for Slovenian, which also
+               includes a dataset for evaluating the tasks supported by CLASSLA-Stanza. The
+               performance scores are presented in the form of micro-F<hi rend="subscript">1</hi>
+               scores, while the relative error reduction between the scores of the pipelines is
+               presented in percentages.</p>
+            <table>
+               <head>Table 3: Comparison of performance on the SloBENCH evaluation dataset by both
+                  pipelines. Metrics are micro-F<hi rend="subscript">1</hi> scores. Downstream tasks
+                  use upstream predictions, not gold labels.</head>
+               <row rend="bold">
+                  <cell>Task</cell>
+                  <cell>Stanza</cell>
+                  <cell>CLASSLA-Stanza</cell>
+                  <cell>Relative error reduction</cell>
+               </row>
+               <row>
+                  <cell>Sentence segmentation</cell>
+                  <cell>0.819 </cell>
+                  <cell>0.997 </cell>
+                  <cell>98%</cell>
+               </row>
+               <row>
+                  <cell>Tokenization </cell>
+                  <cell>0.998 </cell>
+                  <cell>0.999 </cell>
+                  <cell>50%</cell>
+               </row>
+               <row>
+                  <cell>Lemmatization </cell>
+                  <cell>0.974 </cell>
+                  <cell>0.992 </cell>
+                  <cell>69%</cell>
+               </row>
+               <row>
+                  <cell>Morphosyntactic tagging - XPOS </cell>
+                  <cell>0.951 </cell>
+                  <cell>0.983 </cell>
+                  <cell>65%</cell>
+               </row>
+               <row>
+                  <cell>Dependency parsing LAS </cell>
+                  <cell>0.865 </cell>
+                  <cell>0.911 </cell>
+                  <cell>34%</cell>
+               </row>
+               <note n="">Source: Own work</note>
+            </table>
+            <p style="text-align: justify;">Despite CLASSLA-Stanza originating as a fork of Stanza,
+               there are currently no plans to merge CLASSLA-Stanza with the original Stanza
+               project, as CLASSLA-Stanza is intended as a separate project with a different focus.
+               While Stanza takes a broader approach, aiming to achieve good performance across a
+               wide range of different languages, CLASSLA-Stanza focuses more on language-specific
+               solutions that improve performance for the South Slavic languages in particular.</p>
+         </div>
+         <div>
+            <head>Datasets</head>
+            <p style="text-align: justify;">The latest models included in the 2.2 release of
+               CLASSLA-Stanza were trained on a variety of datasets in five different languages:
+               Slovenian, Croatian, Serbian, Macedonian, and Bulgarian. Slovenian had three types of
+               training datasets available—a standard training dataset, a nonstandard training
+               dataset, and a spoken training dataset. Croatian and Serbian were associated with two
+               training datasets—one consisting of standard-language texts and one consisting of
+               nonstandard texts—while Bulgarian and Macedonian only had a standard-language
+               training dataset available. </p>
+            <p style="text-align: justify;">Slovenian standard language models were first trained
+               using the 1.0 version of the SUK training corpus.<note place="foot" xml:id="ftn30"
+                  n="27"> Špela Arhar Holdt et al., “Training Corpus SUK 1.0,” 2022, <ref
+                     target="http://hdl.handle.net/11356/1747"
+                     >http://hdl.handle.net/11356/1747</ref>. </note> It contains approximately 1
+               million tokens of text manually annotated on the levels of tokenization, sentence
+               segmentation, morphosyntactic tagging, and lemmatization. Some subsets also contain
+               syntactic dependency, named entity, multi-word expression, coreference, and semantic
+               role labelling annotations. In the second half of 2024, an updated version of the SUK
+               training corpus was released, containing substantially improved annotation quality on
+               the level of UD dependency relation annotations. This new version of the corpus was
+               dubbed SUK 1.1,<note place="foot" xml:id="ftn31" n="28"> Špela Arhar Holdt et al.,
+                  “Training Corpus SUK 1.1,” 2024, <ref target="http://hdl.handle.net/11356/1959"
+                     >http://hdl.handle.net/11356/1959</ref>. </note> and an updated dependency
+               parsing model was trained using the new data and included as the default and
+               best-performing dependency parsing model in the 2.2 release of the CLASSLA-Stanza
+               pipeline.</p>
+            <p style="text-align: justify;">Nonstandard Slovenian models were trained on a
+               combination of the standard training corpus and the nonstandard Janes-Tag training
+                  corpus,<note place="foot" xml:id="ftn32" n="29"> Jakob Lenardič et al., “CMC
+                  Training Corpus Janes-Tag 3.0,” 2022, <ref
+                     target="http://hdl.handle.net/11356/1732"
+                     >http://hdl.handle.net/11356/1732</ref>. </note> which consists of tweets,
+               blogs, forums, and news comments, and is approximately 218 thousand tokens in size.
+               It contains manually curated annotations on the levels of tokenization, sentence
+               segmentation, word normalization, morphosyntactic tagging, lemmatization, and named
+               entity annotation.</p>
+            <p style="text-align: justify;">Slovenian spoken models were trained on a combination of
+               the SUK corpus and the Spoken Slovenian UD Treebank,<note place="foot" xml:id="ftn33"
+                  n="30"> Kaja Dobrovoljc and Joakim Nivre, “The Universal Dependencies Treebank of
+                  Spoken Slovenian,” paper presented at the <hi rend="italic">Tenth International
+                     Conference on Language Resources and Evaluation</hi> (LREC`16), 2016, <ref
+                     target="https://aclanthology.org/L16-1248/"
+                     >https://aclanthology.org/L16-1248/</ref>. </note> which is composed of
+               transcribed audio recordings of spoken Slovenian and contains approximately 98
+               thousand tokens annotated on the levels of tokenization, sentence segmentation,
+               morphosyntactic tagging, lemmatization, and UD dependency relations. Some
+               oversampling of the spoken training data had to be performed before training due to
+               the relatively small size of the spoken training dataset compared to the standard
+               written training dataset. <note place="foot" xml:id="ftn34" n="31"> For the
+                  morphosyntactic tagging and lemmatization training data, it was found that eleven
+                  repetitions of the spoken data combined with one instance of written data was
+                  appropriate, while for UD dependency parsing only three repetitions of the spoken
+                  dataset were necessary due to the smaller size of the UD dependency parsing
+                  dataset for written language. A subsequent test was run to determine whether any
+                  overfitting had occurred during training of the model with eleven repetitions of
+                  spoken training data. An additional morphosyntactic tagging model was trained on
+                  six repetitions of spoken data and an appropriate proportion of written data. It
+                  was found that the model trained on eleven repetitions of spoken data still
+                  performed better during evaluation on the test set than the alternative model
+                  trained on six repetitions. We therefore concluded that no overfitting had
+                  occurred, and the model with eleven repetitions was chosen as the default model to
+                  be included in the pipeline.</note>
+            </p>
+            <p style="text-align: justify;">Croatian standard language models were trained on the
+               hr500k training corpus,<note place="foot" xml:id="ftn35" n="32"> Nikola Ljubešić and
+                  Tanja Samardžić, “Croatian Linguistic Training Corpus Hr500k 2.0.”</note> which
+               consists of about 500 thousand tokens and is manually annotated on the levels of
+               tokenization, sentence segmentation, morphosyntactic tagging, lemmatization, and
+               named entities. Portions of the corpus also contain manual syntactic dependency,
+               multi-word expression, and semantic role labelling annotations. Croatian nonstandard
+               models were trained on a combination of the standard training corpus and the
+               nonstandard ReLDI-NormTagNER-hr training corpus.<note place="foot" xml:id="ftn36"
+                  n="33"> Nikola Ljubešić et al., “Croatian Twitter Training Corpus
+                  ReLDI-NormTagNER-Hr 3.0,” 2023, <ref target="http://hdl.handle.net/11356/1793"
+                     >http://hdl.handle.net/11356/1793</ref>. </note> The ReLDI-NormTagNER-hr corpus
+               contains about 90 thousand tokens of nonstandard Croatian text from tweets and is
+               manually annotated on the levels of tokenization, sentence segmentation, word
+               normalization, morphosyntactic tagging, lemmatization, and named entity
+               recognition.</p>
+            <p style="text-align: justify;">Serbian standard models were trained on the Serbian
+               portion of the SETimes corpus,<note place="foot" xml:id="ftn37" n="34"> Vuk Batanović
+                  et al., “Serbian Linguistic Training Corpus SETimes.SR 2.0,” 2023, <ref
+                     target="http://hdl.handle.net/11356/1843"
+                     >http://hdl.handle.net/11356/1843</ref>. </note> which contains about 97
+               thousand tokens of news articles manually annotated on the levels of tokenization,
+               sentence segmentation, morphosyntactic tagging, lemmatization, and dependency
+               parsing.</p>
+            <p style="text-align: justify;">Serbian nonstandard models were trained, similar to the
+               previously introduced languages, on a combination of the standard dataset and the
+               nonstandard ReLDI-NormTagNER-sr training corpus.<note place="foot" xml:id="ftn38"
+                  n="35"> Nikola Ljubešić, et al., “Serbian Twitter Training Corpus
+                  ReLDI-NormTagNER-Sr 3.0,” 2023, <ref target="http://hdl.handle.net/11356/1794"
+                     >http://hdl.handle.net/11356/1794</ref>. </note> ReLDI-NormTagNER-sr consists
+               of about 90 thousand tokens of Serbian tweets manually annotated on the levels of
+               tokenization, sentence segmentation, word normalization, morphosyntactic tagging,
+               lemmatization, and named entity recognition.</p>
+            <p style="text-align: justify;">Macedonian standard models were trained on a corpus made
+               up of the Macedonian version of the MULTEXT-East “1984” corpus<note place="foot"
+                  xml:id="ftn39" n="36"> Tomaž Erjavec et al., “MULTEXT-East ‘1984’ Annotated Corpus
+                  4.0,” 2010, <ref target="http://hdl.handle.net/11356/1043"
+                     >http://hdl.handle.net/11356/1043</ref>. </note> and the Macedonian SETimes.MK
+               corpus. The MULTEXT-East “1984” corpus consists of the novel <hi rend="italic"
+                  >1984</hi> by George Orwell in approximately 113 thousand tokens, while the
+               SETimes.MK corpus in its 0.1 version is made up of 13,310 tokens of news
+                  articles.<note place="foot" xml:id="ftn40" n="37"> Nikola Ljubešić and Biljana
+                  Stojanovska, “Macedonian Linguistic Training Corpus SETimes.MK 0.1,” 2023, <ref
+                     target="http://hdl.handle.net/11356/1886"
+                     >http://hdl.handle.net/11356/1886</ref>. </note> Both corpora are manually
+               annotated on the levels of tokenization, sentence segmentation, morphosyntactic
+               tagging, and lemmatization. Combining the corpora was performed in the following way:
+               the 1984 corpus was first split into three parts to obtain the training, validation,
+               and testing data splits, after which the training data was enriched with three
+               repetitions of the SETimes corpus to ensure a sensible combination of literary and
+               newspaper data in the training subset.</p>
+            <p style="text-align: justify;">Bulgarian standard models were trained on the
+               BulTreeBank training corpus,<note place="foot" xml:id="ftn41" n="38"> Osenova, Petya
+                  and Kiril Simov, “Universalizing BulTreeBank: A Linguistic Tale about
+                  Glocalization,” paper presented at the <hi rend="italic">5</hi><hi
+                     rend="italic superscript">th</hi><hi rend="italic"> Workshop on Balto-Slavic
+                     Natural Language Processing</hi>, 2015, <ref
+                     target="https://aclanthology.org/W15-5313/"
+                     >https://aclanthology.org/W15-5313/</ref>. </note> which consists of
+               approximately 253 thousand tokens manually annotated on the levels of tokenization,
+               sentence segmentation, morphosyntactic tagging, and lemmatization. About 60% of the
+               dataset also contains manual dependency parsing annotations.</p>
+            <p style="text-align: justify;">Table 4 provides an overview of dataset sizes for every
+               language, variety, and annotation layer.</p>
+            <table>
+               <head>Table 4: Overview of the number of tokens annotated on every annotation layer
+                  for all training datasets used. The abbreviations for each task are as follows:
+                  Morph – morphosyntactic tagging, Lemma – lemmatization, Depparse – dependency
+                  parsing, SRL – semantic role labelling.</head>
+               <row rend="bold">
+                  <cell>Language </cell>
+                  <cell>Variety </cell>
+                  <cell>Morph </cell>
+                  <cell>Lemma </cell>
+                  <cell>Depparse </cell>
+                  <cell>SRL</cell>
+               </row>
+               <row>
+                  <cell>Slovenian </cell>
+                  <cell>standard </cell>
+                  <cell>1,025,639 </cell>
+                  <cell>1,025,639 </cell>
+                  <cell>267.097</cell>
+                  <cell>209.791</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>nonstandard </cell>
+                  <cell>222.132</cell>
+                  <cell>222.132</cell>
+                  <cell>n/a</cell>
+                  <cell>n/a</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>spoken</cell>
+                  <cell>98.396</cell>
+                  <cell>98.396</cell>
+                  <cell>98.396</cell>
+                  <cell>n/a</cell>
+               </row>
+               <row>
+                  <cell>Croatian </cell>
+                  <cell>standard </cell>
+                  <cell>499.635</cell>
+                  <cell>499.635</cell>
+                  <cell>199.409</cell>
+                  <cell>n/a</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>nonstandard </cell>
+                  <cell>89.855</cell>
+                  <cell>89.855</cell>
+                  <cell>n/a</cell>
+                  <cell>n/a</cell>
+               </row>
+               <row>
+                  <cell>Serbian </cell>
+                  <cell>standard </cell>
+                  <cell>97.673</cell>
+                  <cell>97.673</cell>
+                  <cell>97.673</cell>
+                  <cell>n/a</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>nonstandard</cell>
+                  <cell>92.271</cell>
+                  <cell>92.271</cell>
+                  <cell>n/a</cell>
+                  <cell>n/a</cell>
+               </row>
+               <row>
+                  <cell>Bulgarian </cell>
+                  <cell>standard </cell>
+                  <cell>253.018</cell>
+                  <cell>253.018</cell>
+                  <cell>156.149</cell>
+                  <cell>n/a</cell>
+               </row>
+               <row>
+                  <cell>Macedonian</cell>
+                  <cell>standard</cell>
+                  <cell>153.091</cell>
+                  <cell>153.091</cell>
+                  <cell>n/a</cell>
+                  <cell>n/a</cell>
+               </row>
+               <note n="">Source: Own work</note>
+            </table>
+         </div>
+         <div>
+            <head>Model Training</head>
+            <p style="text-align: justify;">In this section, the model training process is described
+               in detail. Only a descriptive account of the process is provided here. For a list of
+               the specific commands and oversampling scripts used, refer to the GitHub repository
+               of the training procedure.<note place="foot" xml:id="ftn42" n="39">
+                  <hi rend="italic">GitHub - clarinsi/classla-training: Training scripts for the
+                     CLASSLA pipeline,</hi>
+                  <ref target="https://github.com/clarinsi/classla-training"
+                     >https://github.com/clarinsi/classla-training</ref>.</note></p>
+            <p style="text-align: justify;">In this paper, we give the general overview of the
+               process which is common to all supported languages. For the specific steps that are
+               unique to each language, please refer to the CLASSLA-Stanza technical report, a
+               longer and older version of this paper available on arXiv.<note place="foot"
+                  xml:id="ftn43" n="40"> Luka Terčon and Nikola Ljubešić, “CLASSLA-Stanza: The next
+                  step for linguistic processing of South Slavic Languages,” <hi rend="italic">arXiv
+                     preprint</hi> (2023), <ref target="https://doi.org/10.48550/arXiv.2308.04255"
+                     >https://doi.org/10.48550/arXiv.2308.04255</ref>. </note> The language-specific
+               steps were necessary due to some features and levels of annotation (semantic role
+               labelling, oversampling of the training data, etc.) which are unique to certain
+               languages, while all languages share the steps described below.</p>
+            <p style="text-align: justify;">The illustration of the basic procedure that was used to
+               train standard models for the levels of morphosyntactic tagging, lemmatization, and
+               dependency parsing for the latest release of CLASSLA-Stanza is shown in Figure 1.</p>
+            <figure>
+               <head>Figure 1: Diagram of the basic model training process for standard
+                  morphosyntactic tagging, lemmatization, and dependency parsing models.</head>
+               <graphic url="figure_1.jpg"/>
+               <note n="">Source: Own work</note>
+            </figure>
+            <p style="text-align: justify;">As stated in the introduction, all tokenizers used by
+               CLASSLA-Stanza are rule-based and thus do not need to be trained. Model training is
+               thus performed on pretokenized data, typically beginning on the level of
+               morphosyntactic tagging and continuing on through the subsequent annotation
+               layers.</p>
+            <p style="text-align: justify;">To ensure realistic evaluation results, automatically
+               generated upstream annotations, rather than manually assigned annotations, were used
+               as validation and test dataset inputs on each layer. For this, empty validation and
+               test datasets first had to be generated by stripping all annotations from the test
+               and validation datasets on all levels except for tokenization. These empty files were
+               filled with model-generated annotations on each level, so that validation and model
+               evaluation on subsequent layers could be performed on automatically generated
+               upstream labels. Training datasets were not annotated with automatically generated
+               upstream labels, since it is unclear whether this would lead to any performance gains
+               and would require a more complicated type of cross-validation method such as
+               jackknifing (splitting the data into N bins, training a model on N-1 bins, and
+               annotating the N-th bin, repeating the process N times).</p>
+            <p style="text-align: justify;">For each language, standard models were first trained.
+               For morphosyntactic tagging, the training and validation datasets from the prepared
+               three-way data split along with the pretrained word embeddings were used as inputs to
+               the tagger module. After training, the tagger was used in predict mode to generate
+               predictions on the empty test dataset and evaluate the performance of the tagger.
+               After predictions were made for the test set, predictions were generated in the empty
+               validation dataset as well to produce a validation file with automatically generated
+               morphosyntactic labels, that can be used later during training of subsequent
+               annotation layer models, such as those for lemmatization and dependency parsing.</p>
+            <p style="text-align: justify;">Once morphosyntactic predictions and evaluation results
+               were obtained, the lemmatizer was trained. The validation and training datasets were
+               used as inputs. In addition, for most languages, the inflectional lexicon is also
+               provided to the lemmatizer as an underlying resource. During training, the lexicon is
+               stored in the lemmatization model file to act as an additional controlling element
+               during lemmatization. After training, the lemmatizer was run in predict mode to
+               obtain evaluation results and add lemma predictions to the validation and test
+               datasets for the training of the dependency parser model.</p>
+            <p style="text-align: justify;">The dependency parser model was trained after lemmatizer
+               training was finalized. CLASSLA-Stanza currently supports two types of annotation
+               systems for syntactic dependency annotation: the UD dependency parsing annotation
+               system, which is available for all supported languages except Macedonian, and the JOS
+               parsing system, which is only available for Slovenian.<note place="foot"
+                  xml:id="ftn44" n="41"> In comparison to UD, the JOS parsing system features a more
+                  concise set of dependency relations focusing on core syntactic constructs and has
+                  thus been preferred over UD in some applications.</note> The parser was run in
+               training mode using the training and validation datasets<note place="foot"
+                  xml:id="ftn45" n="42"> For most languages, only a portion of the original datasets
+                  contained dependency parsing annotations. In these cases, a separate set of
+                  training, validation, and testing datasets consisting of only this portion of the
+                  original data had to be extracted.</note> as inputs along with the pretrained word
+               embeddings. After training, the parser was run in predict mode to obtain evaluation
+               results.</p>
+            <p style="text-align: justify;">The process for training models for named-entity
+               recognition was quite similar to the other tasks. The tagger training here accepts
+               pretrained word embeddings and training and validation datasets as underlying
+               resources. After training, the named entity recognition tagger can be run in predict
+               mode to obtain evaluation results.</p>
+            <p style="text-align: justify;">The spoken models were trained using the same process as
+               the standard models, and a similar process was also followed for the nonstandard
+               models with a few notable exceptions. Firstly, no syntactic dependency annotations
+               are present in the nonstandard datasets. As a result, no nonstandard dependency
+               parsing models were trained. Before training the nonstandard models, approximately
+               20% of diacritics were removed from the training datasets to ensure that the models
+               will learn to effectively handle dediacritized forms, which occur prominently in
+               online communication. </p>
+         </div>
+         <div>
+            <head>Model Performance Analysis</head>
+            <p style="text-align: justify;">As noted in Section 2, CLASSLA-Stanza significantly
+               outperforms Stanza on the Slovenian benchmark, with the relative error reduction
+               between 34% and 98%, depending on the processing layer. </p>
+            <p style="text-align: justify;">However, in order to fully assess the performance of the
+               newly-trained models, we conduct a series of additional performance analyses in this
+               section. In Section 5.1, we give a detailed rundown of the performance of the models
+               for various UPOS and syntactic dependency labels for each language. In Section 5.2,
+               we present experiments using various Slovenian models to annotate spoken data and
+               discuss why the training of models specifically dedicated to annotating spoken
+               transcripts was justified. Finally, in Section 5.3 we present a more qualitative
+               investigation into the performance of the models on web-specific data.</p>
+            <div>
+               <head>Model Performance on UPOS and UD Labels </head>
+               <p style="text-align: justify;">To obtain a sense of which categories a model
+                  struggles with and which ones it handles well, model predictions for specific UPOS
+                  and UD syntactic relations were inspected. An accuracy score was calculated for
+                  all 17 UPOS labels and the 12 most frequent UD syntactic relations in the Croatian
+                  hr500k training corpus.<note place="foot" xml:id="ftn46" n="43"> The Croatian
+                     standard corpus was chosen because no language-specific relation subtype
+                     appeared among the 12 most frequent relations, thus ensuring a
+                     cross-linguistically valid comparison. </note> The accuracy score was obtained
+                  by taking the number of correct predictions for a single label in the test dataset
+                  and dividing it by the total number of occurrences of that label in the test
+                  dataset. The resulting accuracies for all the UPOS tags are contained in Table 5,
+                  while Table 6 contains accuracies for each UD dependency relation.</p>
+
+               <table>
+                  <head>Table 5: Table of per-relation accuracies for all UPOS tags. The language
+                     abbreviations are followed by “st” for <hi rend="italic">standard</hi>, “nonst”
+                     for <hi rend="italic">nonstandard</hi>, or “spok” for <hi rend="italic"
+                        >spoken</hi>.</head>
+                  <row rend="bold">
+                     <cell rows="2">UPOS tag</cell>
+                     <cell>Accuracy</cell>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>sl-st </cell>
+                     <cell>sl-nonst</cell>
+                     <cell>sl-spok</cell>
+                     <cell> hr-st </cell>
+                     <cell>hr-nonst </cell>
+                     <cell>sr-st </cell>
+                     <cell>sr-nonst </cell>
+                     <cell>mk-st </cell>
+                     <cell>bg-st </cell>
+                     <cell>Average</cell>
+                  </row>
+                  <row>
+                     <cell>ADJ</cell>
+                     <cell>99.31</cell>
+                     <cell>90.71</cell>
+                     <cell>97.72</cell>
+                     <cell>97.93</cell>
+                     <cell>92.27</cell>
+                     <cell>99.27</cell>
+                     <cell>94.58</cell>
+                     <cell>97.74</cell>
+                     <cell>98.28</cell>
+                     <cell>96.26</cell>
+                  </row>
+                  <row>
+                     <cell>ADP</cell>
+                     <cell>99.90</cell>
+                     <cell>98.54</cell>
+                     <cell>100</cell>
+                     <cell>99.96</cell>
+                     <cell>99.82</cell>
+                     <cell>100.00</cell>
+                     <cell>99.84</cell>
+                     <cell>99.75</cell>
+                     <cell>99.92</cell>
+                     <cell>99.72</cell>
+                  </row>
+                  <row>
+                     <cell>ADV</cell>
+                     <cell>95.98</cell>
+                     <cell>91.89</cell>
+                     <cell>94.70</cell>
+                     <cell>95.35</cell>
+                     <cell>91.59</cell>
+                     <cell>95.42</cell>
+                     <cell>87.93</cell>
+                     <cell>95.14</cell>
+                     <cell>97.60</cell>
+                     <cell>93.86</cell>
+                  </row>
+                  <row>
+                     <cell>AUX</cell>
+                     <cell>98.62</cell>
+                     <cell>96.31</cell>
+                     <cell>96.13</cell>
+                     <cell>99.60</cell>
+                     <cell>99.59</cell>
+                     <cell>100.00</cell>
+                     <cell>98.81</cell>
+                     <cell>99.50</cell>
+                     <cell>92.75</cell>
+                     <cell>98.15</cell>
+                  </row>
+                  <row>
+                     <cell>CCONJ</cell>
+                     <cell>98.01</cell>
+                     <cell>97.03</cell>
+                     <cell>98.93</cell>
+                     <cell>96.53</cell>
+                     <cell>97.21</cell>
+                     <cell>98.95</cell>
+                     <cell>97.21</cell>
+                     <cell>97.94</cell>
+                     <cell>97.87</cell>
+                     <cell>97.59</cell>
+                  </row>
+                  <row>
+                     <cell>DET</cell>
+                     <cell>99.29</cell>
+                     <cell>93.29</cell>
+                     <cell>98.75</cell>
+                     <cell>95.68</cell>
+                     <cell>94.08</cell>
+                     <cell>98.88</cell>
+                     <cell>96.74</cell>
+                     <cell>100.00</cell>
+                     <cell>87.79</cell>
+                     <cell>95.72</cell>
+                  </row>
+                  <row>
+                     <cell>INTJ</cell>
+                     <cell>80.00</cell>
+                     <cell>75.82</cell>
+                     <cell>99.49</cell>
+                     <cell>71.43</cell>
+                     <cell>90.22</cell>
+                     <cell>n/a</cell>
+                     <cell>87.65</cell>
+                     <cell>71.43</cell>
+                     <cell>47.58</cell>
+                     <cell>74.88</cell>
+                  </row>
+                  <row>
+                     <cell>NOUN</cell>
+                     <cell>98.88</cell>
+                     <cell>93.75</cell>
+                     <cell>98.40</cell>
+                     <cell>98.33</cell>
+                     <cell>93.98</cell>
+                     <cell>99.23</cell>
+                     <cell>97.66</cell>
+                     <cell>99.55</cell>
+                     <cell>98.53</cell>
+                     <cell>97.49</cell>
+                  </row>
+                  <row>
+                     <cell>NUM</cell>
+                     <cell>99.74</cell>
+                     <cell>98.41</cell>
+                     <cell>87.78</cell>
+                     <cell>98.87</cell>
+                     <cell>100.00</cell>
+                     <cell>98.71</cell>
+                     <cell>100.00</cell>
+                     <cell>100.00</cell>
+                     <cell>98.17</cell>
+                     <cell>99.24</cell>
+                  </row>
+                  <row>
+                     <cell>PART</cell>
+                     <cell>99.46</cell>
+                     <cell>95.12</cell>
+                     <cell>98.59</cell>
+                     <cell>85.16</cell>
+                     <cell>90.64</cell>
+                     <cell>94.12</cell>
+                     <cell>89.39</cell>
+                     <cell>90.16</cell>
+                     <cell>79.94</cell>
+                     <cell>90.50</cell>
+                  </row>
+                  <row>
+                     <cell>PRON</cell>
+                     <cell>99.47</cell>
+                     <cell>97.25</cell>
+                     <cell>97.53</cell>
+                     <cell>98.68</cell>
+                     <cell>98.19</cell>
+                     <cell>97.64</cell>
+                     <cell>98.47</cell>
+                     <cell>98.84</cell>
+                     <cell>99.15</cell>
+                     <cell>98.46</cell>
+                  </row>
+                  <row>
+                     <cell>PROPN</cell>
+                     <cell>98.71</cell>
+                     <cell>78.23</cell>
+                     <cell>96.45</cell>
+                     <cell>93.65</cell>
+                     <cell>77.81</cell>
+                     <cell>97.31</cell>
+                     <cell>83.68</cell>
+                     <cell>97.97</cell>
+                     <cell>98.14</cell>
+                     <cell>90.69</cell>
+                  </row>
+                  <row>
+                     <cell>PUNCT</cell>
+                     <cell>100.00</cell>
+                     <cell>99.79</cell>
+                     <cell>100</cell>
+                     <cell>100.00</cell>
+                     <cell>99.73</cell>
+                     <cell>100.00</cell>
+                     <cell>99.82</cell>
+                     <cell>100.00</cell>
+                     <cell>100.00</cell>
+                     <cell>99.92</cell>
+                  </row>
+                  <row>
+                     <cell>SCONJ</cell>
+                     <cell>99.78</cell>
+                     <cell>97.99</cell>
+                     <cell>100</cell>
+                     <cell>95.72</cell>
+                     <cell>94.79</cell>
+                     <cell>99.52</cell>
+                     <cell>98.25</cell>
+                     <cell>94.70</cell>
+                     <cell>99.61</cell>
+                     <cell>97.55</cell>
+                  </row>
+                  <row>
+                     <cell>SYM</cell>
+                     <cell>100.00</cell>
+                     <cell>99.85</cell>
+                     <cell>n/a</cell>
+                     <cell>90.91</cell>
+                     <cell>99.10</cell>
+                     <cell>100.00</cell>
+                     <cell>99.38</cell>
+                     <cell>n/a</cell>
+                     <cell>n/a</cell>
+                     <cell>98.21</cell>
+                  </row>
+                  <row>
+                     <cell>VERB</cell>
+                     <cell>97.05</cell>
+                     <cell>94.12</cell>
+                     <cell>95.98</cell>
+                     <cell>99.30</cell>
+                     <cell>97.84</cell>
+                     <cell>99.18</cell>
+                     <cell>98.76</cell>
+                     <cell>99.74</cell>
+                     <cell>96.79</cell>
+                     <cell>97.85</cell>
+                  </row>
+                  <row>
+                     <cell>X</cell>
+                     <cell>59.13</cell>
+                     <cell>75.67</cell>
+                     <cell>83.53</cell>
+                     <cell>77.15</cell>
+                     <cell>80.10</cell>
+                     <cell>43.33</cell>
+                     <cell>62.86</cell>
+                     <cell>n/a</cell>
+                     <cell>0.00</cell>
+                     <cell>56.89</cell>
+                  </row>
+                  <note n="">Source: Own work.</note>
+               </table>
+               <lb/>
+               <p style="text-align: justify;">The highest accuracies among UPOS tags are generally
+                  found with tags that represent function word classes, such as <hi rend="italic"
+                     >AUX</hi> (auxiliaries), <hi rend="italic">ADP</hi> (adpositions), and <hi
+                     rend="italic">PRON</hi> (pronouns), and closed-class tags, such as <hi
+                     rend="italic">PUNCT</hi> (punctuation) and <hi rend="italic">SYM</hi>
+                  (symbols), which are handled by the pipeline, inter alia, through rules in the
+                  tokenizer, as described in Section 2. Conversely, the lowest accuracies are found
+                  with the infrequent <hi rend="italic">INTJ</hi> tag (interjections)—of which there
+                  were only 5 instances in total in the Slovenian standard test dataset and no
+                  instances at all in the Serbian standard test dataset—and the loosely delineated
+                     <hi rend="italic">X</hi> tag, which is used for certain abbreviations,<note
+                     place="foot" xml:id="ftn47" n="44"> Within the UD system, abbreviations are
+                     usually marked with the part-of-speech category that the unabbreviated form
+                     falls under. However, for some languages, such as Slovenian, certain types of
+                     abbreviations are given the X tag. One such example is “dr.”, the abbreviated
+                     form of the title “doktor”. </note> URLs, foreign language tokens, and
+                  everything else that does not fit into any of the other categories. </p>
+               <table>
+                  <head>Table 6: Table of per-relation accuracies for the 12 most frequent UD
+                     relations in the hr500k corpus. The relations are sorted by decreasing
+                     frequency in the hr500k corpus. “sl-spok” refers to the Slovenian spoken
+                     dependency parser.</head>
+                  <row>
+                     <cell>UD relation</cell>
+                     <cell>Accuracy</cell>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>sl</cell>
+                     <cell>sl-spok</cell>
+                     <cell>hr</cell>
+                     <cell>sr</cell>
+                     <cell>bg</cell>
+                     <cell>Average</cell>
+                  </row>
+                  <row>
+                     <cell>punct</cell>
+                     <cell>99.97</cell>
+                     <cell>100</cell>
+                     <cell>100.00</cell>
+                     <cell>100.00</cell>
+                     <cell>99.91</cell>
+                     <cell>99.98</cell>
+                  </row>
+                  <row>
+                     <cell>amod</cell>
+                     <cell>98.43</cell>
+                     <cell>97.96</cell>
+                     <cell>95.97</cell>
+                     <cell>97.38</cell>
+                     <cell>98.66</cell>
+                     <cell>97.66</cell>
+                  </row>
+                  <row>
+                     <cell>case</cell>
+                     <cell>99.71</cell>
+                     <cell>99.73</cell>
+                     <cell>99.32</cell>
+                     <cell>99.21</cell>
+                     <cell>99.86</cell>
+                     <cell>99.51</cell>
+                  </row>
+                  <row>
+                     <cell>nmod</cell>
+                     <cell>92.95</cell>
+                     <cell>86.29</cell>
+                     <cell>91.22</cell>
+                     <cell>90.99</cell>
+                     <cell>91.49</cell>
+                     <cell>91.61</cell>
+                  </row>
+                  <row>
+                     <cell>nsubj</cell>
+                     <cell>90.85</cell>
+                     <cell>85.29</cell>
+                     <cell>93.39</cell>
+                     <cell>94.30</cell>
+                     <cell>91.10</cell>
+                     <cell>92.32</cell>
+                  </row>
+                  <row>
+                     <cell>obl</cell>
+                     <cell>91.64</cell>
+                     <cell>87.89</cell>
+                     <cell>85.31</cell>
+                     <cell>87.24</cell>
+                     <cell>77.17</cell>
+                     <cell>85.43</cell>
+                  </row>
+                  <row>
+                     <cell>conj</cell>
+                     <cell>92.24</cell>
+                     <cell>83.80</cell>
+                     <cell>90.92</cell>
+                     <cell>93.06</cell>
+                     <cell>93.95</cell>
+                     <cell>92.61</cell>
+                  </row>
+                  <row>
+                     <cell>root</cell>
+                     <cell>92.75</cell>
+                     <cell>85.71</cell>
+                     <cell>94.98</cell>
+                     <cell>95.77</cell>
+                     <cell>95.97</cell>
+                     <cell>94.97</cell>
+                  </row>
+                  <row>
+                     <cell>obj</cell>
+                     <cell>91.06</cell>
+                     <cell>89.03</cell>
+                     <cell>82.84</cell>
+                     <cell>91.39</cell>
+                     <cell>90.18</cell>
+                     <cell>89.44</cell>
+                  </row>
+                  <row>
+                     <cell>aux</cell>
+                     <cell>99.74</cell>
+                     <cell>99.34</cell>
+                     <cell>97.88</cell>
+                     <cell>97.57</cell>
+                     <cell>90.46</cell>
+                     <cell>96.35</cell>
+                  </row>
+                  <row>
+                     <cell>cc</cell>
+                     <cell>98.16</cell>
+                     <cell>95.89</cell>
+                     <cell>97.63</cell>
+                     <cell>97.96</cell>
+                     <cell>99.14</cell>
+                     <cell>98.14</cell>
+                  </row>
+                  <row>
+                     <cell>advmod</cell>
+                     <cell>97.10</cell>
+                     <cell>94.67</cell>
+                     <cell>93.58</cell>
+                     <cell>91.82</cell>
+                     <cell>97.91</cell>
+                     <cell>95.01</cell>
+                  </row>
+                  <note n="">Source: Own work.</note>
+               </table>
+               <p style="text-align: justify;">A similar trend is found among the UD syntactic
+                  relations. Relations such as <hi rend="italic">case</hi> (which usually connects
+                  nominal heads with adpositions), <hi rend="italic">cc</hi> (connects conjunct
+                  heads with coordinating conjunctions), and <hi rend="italic">aux</hi> (connects
+                  verbal heads with auxiliary verbs) are used for fixed grammatical patterns that
+                  permit little variation. These display consistently high accuracies across all
+                  languages. Somewhat lower accuracies are displayed by the <hi rend="italic"
+                     >obl</hi> relation, mostly used for oblique nominal arguments which play a less
+                  central role in the sentence structure than the core verbal arguments. It has been
+                  found that previous versions of dependency parsing models for CLASSLA-Stanza often
+                  incorrectly assigned the <hi rend="italic">obj</hi> relation (used for direct
+                  objects) to instances which should receive the <hi rend="italic">obl</hi> relation
+                  and vice versa.<note place="foot" xml:id="ftn48" n="45"> Kaja Dobrovoljc et al,
+                     “Universal Dependencies za slovenščino: nove smernice, ročno označeni podatki
+                     in razčlenjevalni model” [Universal Dependencies for Slovenian: New Guidelines,
+                     manually annotated data, and parsing model],  <hi rend="italic">Slovenščina
+                        2.0: empirične, aplikativne in interdisciplinarne raziskave</hi> 11, No. 1
+                     (2023): 218–46, <ref target="https://doi.org/10.4312/slo2.0.2023.1.218-246"
+                        >https://doi.org/10.4312/slo2.0.2023.1.218-246</ref>.</note> Upon inspection
+                  of the outputs produced by the newly-trained Slovenian and Croatian parsers, it
+                  was found that this error persists also in the current version, which is a likely
+                  reason for the performance drops of the <hi rend="italic">obl</hi> and <hi
+                     rend="italic">obj</hi> relations in other languages as well. </p>
+               <p style="text-align: justify;">The Slovenian spoken parsing model noticeably stands
+                  out, as there is a clear drop with the <hi rend="italic">nmod, nsubj, obl, conj,
+                     root, </hi>and to some degree also the <hi rend="italic">obj</hi> relations. A
+                  subsequent inspection of the model’s predictions in these cases revealed that
+                  these errors can be ascribed to the highly fragmentary nature of spoken language,
+                  causing the model to produce errors when trying to annotate fragments for which
+                  the exact role in the wider sentence structure is more difficult to determine
+                  unambiguously. This prompted the question of how the performance of the Slovenian
+                  spoken models compares to that of the standard and nonstandard models when tasked
+                  with annotating transcripts of spoken language. We explore this question in the
+                  following section.</p>
+            </div>
+            <div>
+               <head>Model Performance on Spoken Data </head>
+               <p style="text-align: justify;">Even though transcripts of spoken Slovenian, manually
+                  annotated on the levels of morphosyntactic tagging, lemmatization, and dependency
+                  parsing, have been available for quite some time already in the form of the Spoken
+                  Slovenian UD Treebank,<note place="foot" xml:id="ftn49" n="46"> Dobrovoljc and
+                     Nivre, “The Universal Dependencies Treebank of Spoken Slovenian.”</note> this
+                  resource has recently received a considerable upgrade,<note place="foot"
+                     xml:id="ftn50" n="47"> Kaja Dobrovoljc, “Extending the Spoken Slovenian
+                     Treebank,” paper presented at the <hi rend="italic">Conference on Language
+                        Technologies and Digital Humanities</hi> (JT-DH-2024), 2024, <ref
+                        target="https://doi.org/10.5281/zenodo.13936394"
+                        >https://doi.org/10.5281/zenodo.13936394</ref>. Jaka Čibej and Tina Munda,
+                     “Metoda polavtomatskega popravljanja lem in oblikoskladenjskih oznak na primeru
+                     učnega korpusa govorjene slovenščine ROG” [A Method for Semi-automatic
+                     Corrections of Lemmas and Morphosyntactic Tags: The Case of the ROG Training
+                     Corpus of Spoken Slovene], paper presented at the <hi rend="italic">Conference
+                        on Language Technologies and Digital Humanities</hi> (JT-DH-2024), 2024,
+                        <ref target="https://doi.org/10.5281/zenodo.13936390"
+                        >https://doi.org/10.5281/zenodo.13936390</ref>.</note> and it now contains
+                  more than twice the amount of data than what was available in its previous
+                  editions. This new version of the resource, which is included in the 2.16 release
+                  of the Universal Dependencies treebank collection<note place="foot" xml:id="ftn51"
+                     n="48"> Daniel Zeman et al., “Universal Dependencies 2.16,” 2025, <ref
+                        target="http://hdl.handle.net/11234/1-5901"
+                        >http://hdl.handle.net/11234/1-5901</ref>.</note> and the ROG training
+                     corpus,<note place="foot" xml:id="ftn52" n="49"> Darinka Verdonik et al.,
+                     “Training corpus of spoken Slovenian ROG 1.0,” 2024, <ref
+                        target="http://hdl.handle.net/11356/1992"
+                        >http://hdl.handle.net/11356/1992</ref>.</note> served as a basis on which
+                  new models specifically adapted to processing spoken language transcripts were
+                  trained for the first time and included in the 2.2 release of the CLASSLA-Stanza
+                  annotation pipeline.</p>
+               <p style="text-align: justify;">However, it remained to be tested whether the newly
+                  trained models truly offer any considerable advantages to the already available
+                  standard and nonstandard models when used to annotate transcripts of spoken
+                  Slovenian. To investigate this, all three models currently available for Slovenian
+                  were evaluated on the test set of the Spoken Slovenian Treebank. The models were
+                  evaluated on the levels of morphosyntactic tagging, lemmatization, and UD
+                  dependency parsing. The results of this comparison experiment are shown in Table
+                     7.<note place="foot" xml:id="ftn53" n="50"> We summarize the performance of the
+                     morphosyntactic tagging model using the micro F<hi rend="subscript">1</hi>
+                     score for all three types of morphosyntactic labels combined (UPOS, XPOS, and
+                     UFeats), for the lemmatization model using the micro F<hi rend="subscript"
+                        >1</hi> score for all lemmas, and for the dependency parsing model using the
+                     micro F<hi rend="subscript">1</hi> of the commonly employed labelled attachment
+                     score, or LAS score. The LAS score gives the percentage of tokens with both a
+                     correctly assigned head token and a correctly assigned dependency
+                  label.</note></p>
+               <table>
+                  <head>Table 7: Comparison of the performance of the spoken, standard, and
+                     nonstandard Slovenian models on spoken language data for various annotation
+                     levels. The best performing model scores are given in bold. </head>
+                  <row rend="bold">
+                     <cell>Model </cell>
+                     <cell>Morphosyntactic tagging</cell>
+                     <cell>Lemmatization</cell>
+                     <cell>UD dependency parsing</cell>
+                  </row>
+                  <row>
+                     <cell>Spoken</cell>
+                     <cell>95.6</cell>
+                     <cell>99.23</cell>
+                     <cell>81.91</cell>
+                  </row>
+                  <row>
+                     <cell>Standard</cell>
+                     <cell>90.08</cell>
+                     <cell>98.68</cell>
+                     <cell>69.81</cell>
+                  </row>
+                  <row>
+                     <cell>Nonstandard</cell>
+                     <cell>90.46</cell>
+                     <cell>98.35</cell>
+                     <cell>n/a</cell>
+                  </row>
+                  <note>Source: Own work</note>
+               </table>
+               <lb/>
+               <p style="text-align: justify;">The results show that the spoken models clearly
+                  outperform the other two sets of models in all three tasks. This increase in
+                  performance is particularly evident with the dependency parsing models, suggesting
+                  that the differences between spoken and written language in Slovenian are most
+                  pronounced at the syntactic level, which is a finding also reported by Dobrovoljc
+                  and Čibej.<note place="foot" xml:id="ftn54" n="51"> Kaja Dobrovoljc and Jaka
+                     Čibej, “Spoken Slovenian Treebank: New annotated data, parsing models and
+                     linguistic insights,” paper presented at the <hi rend="italic">UniDive
+                        3</hi><hi rend="italic superscript">rd</hi><hi rend="italic"> General
+                        Meeting: Universality, diversity and idiosyncrasy in language
+                        technology</hi>, 2025,<ref
+                        target="https://unidive.lisn.upsaclay.fr/lib/exe/fetch.php?media=meetings:general_meetings:3rd_unidive_general_meeting:59_spoken_slovenian_treebank_n.pdf"
+                        >https://unidive.lisn.upsaclay.fr/lib/exe/fetch.php?media=meetings:general_meetings:3rd_unidive_general_meeting:59_spoken_slovenian_treebank_n.pdf</ref>.</note>
+                  It therefore appears that the training of dedicated models for spoken language
+                  annotation was justified and should in the future be expanded to other languages
+                  supported by CLASSLA-Stanza as well. </p>
+               <p style="text-align: justify;">To facilitate the use of spoken models, a special <hi
+                     rend="italic">spoken </hi>processing mode was added to the Slovenian pipeline
+                  in version 2.2 that combines the standard tokenizer and spoken models for all
+                  subsequent layers of annotation.</p>
+            </div>
+            <div>
+               <head>Model Performance on Web Data </head>
+               <p style="text-align: justify;">The model evaluations described in Section 5.1
+                  provide a good summary of how well the CLASSLA-Stanza pipeline performs on both
+                  purely standard and purely nonstandard data. However, modern corpus construction
+                  techniques—especially for low-resource languages—often rely on crawling data from
+                  online conversations, articles, blogs, etc.,<note place="foot" xml:id="ftn55"
+                     n="52"> Goldhahn et al., “Corpus collection for under-resourced languages with
+                     more than one million speakers.”</note> which typically consist of a mixture of
+                  different language styles and varieties. To illustrate how well the new
+                  CLASSLA-Stanza models handle language originating from the internet, this section
+                  provides a brief manual qualitative analysis of their performance on a corpus of
+                  web data.</p>
+               <p style="text-align: justify;">The CLASSLA-Stanza tool was used with the
+                  newly-trained models to add linguistic annotations to the CLASSLA-web corpora,
+                  which consist of texts crawled from the internet domains of the corresponding
+                     languages.<note place="foot" xml:id="ftn56" n="53"> Nikola Ljubešić et al.,
+                     “Slovenian Web Corpus CLASSLA-web.sl 1.0,” 2024, <ref
+                        target="http://hdl.handle.net/11356/1882"
+                        >http://hdl.handle.net/11356/1882</ref>; Nikola Ljubešić et al., “Croatian
+                     Web Corpus CLASSLA-web.hr 1.0,” 2024, <ref
+                        target="http://hdl.handle.net/11356/1929"
+                        >http://hdl.handle.net/11356/1929</ref>. </note> In preparation for the
+                  annotation process, a short test was conducted with the goal of determining which
+                  of the two sets of models that primarily handle written language—the standard or
+                  the nonstandard—is best suited to be used for annotating the CLASSLA-web corpora.
+                  Shorter portions of the corpora were annotated on the levels of tokenization,
+                  sentence segmentation, morphosyntactic tagging, and lemmatization, once using the
+                  standard and once using the nonstandard model. The two outputs were then compared,
+                  and a qualitative analysis of the differences was conducted.</p>
+               <p style="text-align: justify;">Quite a few of the analysed differences in the model
+                  outputs were connected to the processes of sentence segmentation and tokenization.
+                  In the CLASSLA-Stanza annotation pipeline, both processes are controlled by the
+                  tokenizer. As stated in Section 2, the pipeline uses two different tokenizers
+                  depending on the language and the processing mode used.<note place="foot"
+                     xml:id="ftn57" n="54"> The ReLDI tokenizer can be used in two different
+                     settings: standard and nonstandard. The Obeliks tokenizer, on the other hand,
+                     only supports tokenization of standard text.</note> The analysis showed that
+                  sentence segmentation was performed much more accurately by Obeliks and the
+                  standard mode of the ReLDI tokenizer. The nonstandard mode of the ReLDI tokenizer
+                  appears to have a tendency towards producing shorter segments, since it is
+                  optimized for processing social media texts such as tweets. Thus, the nonstandard
+                  tokenizer very consistently produces a new sentence after periods, question marks,
+                  exclamation marks, and other punctuation, even when these characters do not
+                  signify the end of a sentence. The following Croatian example in a simplified
+                  CoNLL-U format shows one such case of incorrect sentence segmentation due to the
+                  use of reported speech. The original string <hi rend="italic">„Svaku našu riječ
+                     treba da čuvamo kao najveće blago.“</hi> was split into two segments—the first
+                  ending on the period character, while the quotation mark was moved to a separate
+                  sentence:</p>
+               <p style="text-align: justify;"># newpar id = 76<lb/> # sent_id = 76.1<lb/> # text =
+                  „ Svaku našu riječ treba da čuvamo kao<lb/> najveće blago.<lb/> 1 „<lb/> 2
+                  Svaku<lb/> 3 našu<lb/> 4 riječ<lb/> 5 treba<lb/> 6 da<lb/> 7 čuvamo<lb/> 8
+                  kao<lb/> 9 najveće<lb/> 10 blago<lb/> 11 .<lb/><lb/> # sent_id = 76.2<lb/> # text
+                  = “<lb/> 1 “<note place="foot" xml:id="ftn58" n="55"> This particular example is
+                     found in the CLASSLA-Web.hr corpus at the sentence ID
+                     CLASSLA-web.hr.4158219.39.1.</note></p>
+               <p style="text-align: justify;">The nonstandard models handled nonstandard word forms
+                  quite a bit better than the standard models. Particularly problematic for the
+                  standard Slovenian models were forms with missing diacritics, such as “sel”
+                  instead of <hi rend="italic">šel</hi>, “cist” instead of <hi rend="italic"
+                     >čisto</hi>, “hoce” instead of <hi rend="italic">hoče</hi>, and “clovek”
+                  instead of <hi rend="italic">človek</hi>. These were often assigned incorrect
+                  lemmas and morphosyntactic tags. An example of the standard lemmatiser output for
+                  the word form “hoce” (which corresponds to <hi rend="italic">hoče</hi> in standard
+                  Slovenian (Eng. “he/she/it wants”)) is displayed below. The model invents a
+                  nonexistent lemma “hocati”, while the correct form should be the standard
+                  Slovenian <hi rend="italic">hoteti</hi>:</p>
+               <p style="text-align: justify;"># sent_id = 53.1<lb/> # text = lev je lev pa naj
+                  govori kar kdo hoce<lb/> 1 lev lev<lb/> 2 je biti<lb/> 3 lev lev<lb/> 4 pa pa<lb/>
+                  5 naj naj<lb/> 6 govori govoriti<lb/> 7 kar kar<lb/> 8 kdo kdo<lb/> 9 hoce
+                     hocati<note place="foot" xml:id="ftn59" n="56"> The sentence ID of this
+                     particular example in the CLASSLA-Web.sl corpus is
+                     CLASSLA-web.sl.225330.7.1.</note></p>
+               <p style="text-align: justify;">Nonstandard forms which do not differ much from their
+                  standard counterparts, such as “zdej” as opposed to “zdaj” and “morš” as opposed
+                  to “moraš”, were generally handled well by both sets of models and did not cause
+                  many discrepancies in the outputs.</p>
+               <p style="text-align: justify;">The analysis of such differences in the model outputs
+                  showed that the best results for the web corpus were achieved on the one hand by
+                  the standard tokenizer, and on the other by the nonstandard models for all
+                  subsequent levels of annotation. In light of this, a new <hi rend="italic"
+                     >web</hi> mode was implemented for the CLASSLA-Stanza pipeline. This new mode
+                  combines the standard tokenizer and nonstandard models for the other layers in a
+                  single package and is intended specifically for the annotation of texts
+                  originating on the Internet.</p>
+            </div>
+         </div>
+         <div>
+            <head>Conclusion</head>
+            <p style="text-align: justify;">In this paper, we provided an overview of the
+               CLASSLA-Stanza pipeline for linguistic processing of the South Slavic languages and
+               described the training process for the models included in the latest release of the
+               pipeline. We described the main design differences to the Stanza neural pipeline,
+               from which CLASSLA-Stanza arose as a forked project. We provided a summary of the
+               model training process, while the technical documentation<note place="foot"
+                  xml:id="ftn60" n="57"> Terčon and Ljubešić, “CLASSLA-Stanza.”</note> should be
+               consulted for a more detailed description of the training process for each language.
+               We also presented per-label performance scores for UPOS labels from standard and
+               nonstandard models and most frequent UD labels from standard models.</p>
+            <p style="text-align: justify;">CLASSLA-Stanza gives consistent results across all
+               supported languages and outperforms the Stanza pipeline on all supported NLP tasks,
+               as illustrated in Sections 2 and 4. However, low accuracies are still seen for
+               infrequent labels and pairs of labels that are not easily disambiguated. It remains
+               to be seen whether larger and more diverse training datasets can contribute to
+               improving model performance in these specific cases, or rather the move to contextual
+               embeddings, i.e., transformer models. The newly included spoken models perform much
+               better on transcripts of spoken language, and they can be easily deployed using the
+               special <hi rend="italic">spoken </hi>processing mode implemented within
+               CLASSLA-Stanza. Additionally, when processing texts obtained from the Internet,
+               special care must be taken to use the combination of models that is best suited for
+               the task, which is why we also described the special <hi rend="italic">web</hi>
+               processing mode. </p>
+            <p style="text-align: justify;">The release of a specialized pipeline for linguistic
+               processing of South Slavic languages is an important new milestone in the development
+               of digital resources and tools for this relatively under-resourced group of
+               languages. However, there is still much left to be achieved and improved upon. Full
+               support for all annotation tasks and modalities, such as, for instance, semantic role
+               labelling and the spoken modality, remains to be extended to other languages as well.
+               As larger training datasets become available, more capable models can be trained for
+               the currently supported languages. In addition, the aim is also to extend support to
+               other members of the South Slavic language group, provided that training datasets of
+               sufficient size are eventually produced for those languages as well. Finally, the
+               performance of the CLASSLA-Stanza pipeline should also be compared to other recent
+               state-of-the-art tools for automatic linguistic annotation, such as Trankit,<note
+                  place="foot" xml:id="ftn61" n="58"> Minh Van Nguyen et al., “Trankit: A
+                  light-weight transformer-based toolkit for multilingual natural language
+                  processing,” arXiv preprint (2021), <ref
+                     target="https://doi.org/10.48550/arXiv.2101.03289"
+                     >https://doi.org/10.48550/arXiv.2101.03289</ref>. </note> which was shown to
+               outperform Stanza over a large number of languages and datasets.</p>
+         </div>
+         <div>
+            <head>Acknowledgements</head>
+            <p style="text-align: justify;">The work described by this paper was made possible by
+               the <hi rend="italic">Development of Slovene in a Digital Environment project</hi> (<hi rend="italic">Razvoj slovenščine v
+               digitalnem okolju</hi>, project ID: C3340-20-278001), financed by the Ministry of Culture
+               of the Republic of Slovenia and the European Regional Development Fund, the <hi rend="italic">Language
+               Resources and Technologies for Slovene</hi> research program (project ID: P6-0411), the
+               MEZZANINE project (<hi rend="italic">Basic Research for the Development of Spoken Language Resources
+               and Speech Technologies for the Slovenian Language</hi>, project ID: J7-4642), the SPOT
+               project (<hi rend="italic">A Treebank-Driven Approach to the Study of Spoken Slovenian</hi>, Z6-4617), and
+               the <hi rend="italic">Large Language Models for Digital Humanities</hi> project (Grant GC-0002), all
+               financed by the Slovenian Research Agency, and the CLARIN.SI research
+               infrastructure.</p>
+         </div>
+      </body>
+      <back>
+         <div type="bibliogr">
+            <head>Sources and literature</head>
+            <listBibl>
+               <head>Literature</head>
+               <bibl>Banón, Marta, Miquel Espla-Gomis, Mikel L. Forcada, Cristian García-Romero,
+                  Taja Kuzman, Nikola </bibl>
+               <bibl>Ljubešić, Rik van Noord, et al. “MaCoCu: Massive collection and curation of
+                  monolingual and bilingual data: focus on under-resourced languages.” Paper
+                  presented at the 23<hi rend="superscript">rd</hi> Annual Conference of the
+                  European Association for Machine Translation, EAMT, 2022. <ref
+                     target="https://aclanthology.org/2022.eamt-1.41/"
+                     >https://aclanthology.org/2022.eamt-1.41/</ref>.</bibl>
+               <bibl>Čibej, Jaka, and Tina Munda. “Metoda polavtomatskega popravljanja lem in
+                  oblikoskladenjskih oznak na primeru učnega korpusa govorjene slovenščine ROG” [A
+                  Method for Semi-automatic Corrections of Lemmas and Morphosyntactic Tags: The Case
+                  of the ROG Training Corpus of Spoken Slovene]. Paper presented at the <hi
+                     rend="italic">Conference on Language Technologies and Digital Humanities
+                     (JT-DH-2024),</hi> 2024. <ref target="https://doi.org/10.5281/zenodo.13936390"
+                     >https://doi.org/10.5281/zenodo.13936390</ref>.</bibl>
+               <bibl>de Marneffe, Marie-Catherine, Christopher D. Manning, Joakim Nivre, and Daniel
+                  Zeman. “Universal Dependencies.”  <hi rend="italic">Computational
+                  Linguistics</hi> 47, No. 2 (07 2021): 255–308. <ref
+                     target="https://doi.org/10.1162/coli_a_00402"
+                     >https://doi.org/10.1162/coli_a_00402</ref>.</bibl>
+               <bibl>Dobrovoljc, Kaja. “Extending the Spoken Slovenian Treebank.” Paper presented at
+                  the <hi rend="italic">Conference on Language Technologies and Digital Humanities
+                     (JT-DH-2024),</hi> 2024. <ref target="https://doi.org/10.5281/zenodo.13936394"
+                     >https://doi.org/10.5281/zenodo.13936394</ref>.</bibl>
+               <bibl>Dobrovoljc, Kaja, and Jaka Čibej. “Spoken Slovenian Treebank: New annotated
+                  data, parsing models and linguistic insights.” Paper presented at the <hi
+                     rend="italic">UniDive 3</hi><hi rend="italic superscript">rd</hi><hi
+                     rend="italic"> General Meeting: Universality, diversity and idiosyncrasy in
+                     language technology</hi>, 2025. <ref
+                     target="https://unidive.lisn.upsaclay.fr/lib/exe/fetch.php?media=meetings:general_meetings:3rd_unidive_general_meeting:59_spoken_slovenian_treebank_n.pdf"
+                     >https://unidive.lisn.upsaclay.fr/lib/exe/fetch.php?media=meetings:general_meetings:3rd_unidive_general_meeting:59_spoken_slovenian_treebank_n.pdf</ref>. </bibl>
+               <bibl>Dobrovoljc, Kaja, and Joakim Nivre. “The Universal Dependencies Treebank of
+                  Spoken Slovenian.” Paper presented at the <hi rend="italic">Tenth International
+                     Conference on Language Resources and Evaluation (LREC`16),</hi> 2016. <ref
+                     target="https://aclanthology.org/L16-1248/"
+                     >https://aclanthology.org/L16-1248/</ref>. </bibl>
+               <bibl>Dobrovoljc, Kaja, Tomaž Erjavec, and Nikola Ljubešić. “Improving UD processing
+                  via satellite resources for morphology.” Paper presented at the <hi rend="italic"
+                     >Third Workshop on Universal Dependencies (UDW, SyntaxFest 2019),</hi> 2019.
+                     <ref target="https://doi.org/10.18653/v1/W19-8004"
+                     >https://doi.org/10.18653/v1/W19-8004</ref>.</bibl>
+               <bibl>Dobrovoljc, Kaja, Luka Terčon, and Nikola Ljubešić. “Universal Dependencies za
+                  slovenščino: nove smernice, ročno označeni podatki in razčlenjevalni model”
+                  [Universal Dependencies for Slovenian: New Guidelines, manually annotated data,
+                  and parsing model].  <hi rend="italic">Slovenščina 2.0: empirične, aplikativne in
+                     interdisciplinarne raziskave</hi> 11, No. 1 (2023): 218–46. <ref
+                     target="https://doi.org/10.4312/slo2.0.2023.1.218-246"
+                     >https://doi.org/10.4312/slo2.0.2023.1.218-246</ref>.</bibl>
+               <bibl>Erjavec, Tomaž, Darja Fišer, Simon Krek, and Nina Ledinek. “The JOS
+                  Linguistically Tagged Corpus of Slovene.” Paper presented at the <hi rend="italic"
+                     >Seventh International Conference on Language Resources and Evaluation
+                     (LREC`10),</hi> 2010. <ref target="https://aclanthology.org/L10-1087/"
+                     >https://aclanthology.org/L10-1087/</ref>.</bibl>
+               <bibl>Erjavec, Tomaž. “MULTEXT-East: Morphosyntactic Resources for Central and
+                  Eastern European Languages.” <hi rend="italic">Language Resources and
+                     Evaluation</hi> 46, No. 1 (2012): 131–42. <ref
+                     target="https://doi.org/10.1007/s10579-011-9174-8"
+                     >https://doi.org/10.1007/s10579-011-9174-8</ref>.</bibl>
+               <bibl>Goldhahn, Dirk, Maciej Sumalvico, and Uwe Quasthoff. “Corpus collection for
+                  under-resourced languages with more than one million speakers.” Paper presented at
+                  the <hi rend="italic">Collaboration and Computing for Under-Resourced Languages
+                     (CCURL)</hi> workshop, 2016. <ref
+                     target="http://www.lrec-conf.org/proceedings/lrec2016/workshops/LREC2016Workshop-CCURL2016_Proceedings.pdf#page=74"
+                     >http://www.lrec-conf.org/proceedings/lrec2016/workshops/LREC2016Workshop-CCURL2016_Proceedings.pdf#page=74</ref>. </bibl>
+               <bibl>Grčar, Miha, Simon Krek, and Kaja Dobrovoljc. “Obeliks: statistični
+                  oblikoskladenjski označevalnik in lematizator za slovenski jezik” [Obeliks: A
+                  Statistical Morphosyntactic Annotation and Lemmatization Tool for the Slovenian
+                  Language]. Paper presented at the <hi rend="italic">Eighth Language Technologies
+                     Conference</hi>, 2012. <ref target="https://doi.org/10.5281/zenodo.14165686"
+                     >https://doi.org/10.5281/zenodo.14165686</ref>.</bibl>
+               <bibl>Krek, Simon, Polona Gantar, Kaja Dobrovoljc, and Iza Škrjanec. “Označevanje
+                  udeleženskih vlog v učnem korpusu za slovenščino” [Annotating Semantic Roles in a
+                  Training Corpus for Slovenian]. Paper presented at the Conference on Language
+                  Technologies and Digital Humanities (JT-DH-2016), 2016. <ref
+                     target="https://doi.org/10.5281/zenodo.14165095"
+                     >https://doi.org/10.5281/zenodo.14165095</ref>.</bibl>
+               <bibl>Ljubešić, Nikola, and Kaja Dobrovoljc. “What Does Neural Bring? Analysing
+                  Improvements in Morphosyntactic Annotation and Lemmatisation of Slovenian,
+                  Croatian and Serbian.” Paper presented at the 7<hi rend="superscript">th</hi>
+                  Workshop on Balto-Slavic Natural Language Processing, 2019. <ref
+                     target="https://doi.org/10.18653/v1/W19-3704"
+                     >https://doi.org/10.18653/v1/W19-3704</ref>.</bibl>
+               <bibl>Ljubešić, Nikola, Tomaž Erjavec, Maja Miličević Petrović, and Tanja Samardžić.
+                  “Together we are stronger: Bootstrapping language technology infrastructure for
+                  South Slavic languages with CLARIN. SI.” In <hi rend="italic">CLARIN. The
+                     Infrastructure for Language Resources</hi>, edited by Darja Fišer and Andreas
+                  Witt. De Gruyter, 2022. <ref target="https://doi.org/10.1515/9783110767377-017"
+                     >https://doi.org/10.1515/9783110767377-017</ref>. </bibl>
+               <bibl>Ljubešić, Nikola, Luka Terčon, and Kaja Dobrovoljc. “CLASSLA-Stanza: The Next
+                  Step for Linguistic Processing of South Slavic Languages.” Paper presented at the
+                     <hi rend="italic">Conference on Language Technologies and Digital Humanities
+                     (JT-DH-2024),</hi> 2024. <ref target="https://doi.org/10.5281/zenodo.13936406"
+                     >https://doi.org/10.5281/zenodo.13936406</ref>. </bibl>
+               <bibl>Osenova, Petya, and Kiril Simov. “Universalizing BulTreeBank: A Linguistic Tale
+                  about Glocalization.” Paper presented at the <hi rend="italic">5</hi><hi
+                     rend="italic superscript">th</hi><hi rend="italic"> Workshop on Balto-Slavic
+                     Natural Language Processing</hi>, 2015. <ref
+                     target="https://aclanthology.org/W15-5313/"
+                     >https://aclanthology.org/W15-5313/</ref>.</bibl>
+               <bibl>Qi, Peng, Yuhao Zhang, Yuhui Zhang, Jason Bolton, and Christopher D. Manning.
+                  “Stanza: A Python Natural Language Processing Toolkit for Many Human Languages.”
+                  Paper presented at the <hi rend="italic">58</hi><hi rend="italic superscript"
+                     >th</hi><hi rend="italic"> Annual Meeting of the Association for Computational
+                     Linguistics: System Demonstrations</hi>, 2020. <ref
+                     target="https://doi.org/10.18653/v1/2020.acl-demos.14"
+                     >https://doi.org/10.18653/v1/2020.acl-demos.14</ref>.</bibl>
+               <bibl>Samardžić, Tanja, Nikola Ljubešić, and Maja Miličević. “Regional Linguistic
+                  Data Initiative (ReLDI).” Paper presented at the <hi rend="italic">5</hi><hi
+                     rend="italic superscript">th</hi><hi rend="italic"> Workshop on Balto-Slavic
+                     Natural Language Processing</hi>, 2015. <ref
+                     target="https://aclanthology.org/W15-5306/"
+                     >https://aclanthology.org/W15-5306/</ref>.</bibl>
+               <bibl>Terčon, Luka, and Nikola Ljubešić. “CLASSLA-Stanza: The next step for
+                  linguistic processing of South Slavic Languages.” <hi rend="italic">arXiv
+                     preprint</hi> (2023). <ref target="https://doi.org/10.48550/arXiv.2308.04255"
+                     >https://doi.org/10.48550/arXiv.2308.04255</ref>.</bibl>
+               <bibl>Van Nguyen, Minh, Viet Dac Lai, Amir Pouran Ben Veyseh, and Thien Huu Nguyen.
+                  “Trankit: A light-weight transformer-based toolkit for multilingual natural
+                  language processing.” <hi rend="italic">arXiv preprint</hi> (2021). <ref
+                     target="https://doi.org/10.48550/arXiv.2101.03289"
+                     >https://doi.org/10.48550/arXiv.2101.03289</ref>.</bibl>
+            </listBibl>
+            <listBibl>
+               <head>Online sources</head>
+               <bibl>Arhar Holdt, Špela, Simon Krek, Kaja Dobrovoljc, Tomaž Erjavec, Polona Gantar,
+                  Jaka Čibej, Eva Pori, et al. “Training Corpus SUK 1.0.” 2022. <ref
+                     target="http://hdl.handle.net/11356/1747"
+                     >http://hdl.handle.net/11356/1747</ref>.</bibl>
+               <bibl>Arhar Holdt, Špela, Simon Krek, Kaja Dobrovoljc, Tomaž Erjavec, Polona Gantar,
+                  Jaka Čibej, Eva Pori, et al. “Training Corpus SUK 1.1.” 2024. <ref
+                     target="http://hdl.handle.net/11356/1959"
+                     >http://hdl.handle.net/11356/1959</ref>. </bibl>
+               <bibl>Batanović, Vuk, Nikola Ljubešić, Tanja Samardžić, and Tomaž Erjavec. “Serbian
+                  Linguistic Training Corpus SETimes.SR 2.0.” 2023. <ref
+                     target="http://hdl.handle.net/11356/1843"
+                     >http://hdl.handle.net/11356/1843</ref>.</bibl>
+               <bibl>Erjavec, Tomaž, Ana-Maria Barbu, Ivan Derzhanski, Ludmila Dimitrova, Radovan
+                  Garabík, Nancy Ide, Heiki-Jaan Kaalep, et al. “MULTEXT-East ‘1984’ Annotated
+                  Corpus 4.0.” 2010. <ref target="http://hdl.handle.net/11356/1043"
+                     >http://hdl.handle.net/11356/1043</ref>.</bibl>
+               <bibl>Lenardič, Jakob, Jaka Čibej, Špela Arhar Holdt, Tomaž Erjavec, Darja Fišer,
+                  Nikola Ljubešić, Katja Zupan, and Kaja Dobrovoljc. “CMC Training Corpus Janes-Tag
+                  3.0.” 2022. <ref target="http://hdl.handle.net/11356/1732"
+                     >http://hdl.handle.net/11356/1732</ref>.</bibl>
+               <bibl>Ljubešić, Nikola and Biljana Stojanovska. “Macedonian Linguistic Training
+                  Corpus SETimes.MK 0.1.” 2023. <ref target="http://hdl.handle.net/11356/1886"
+                     >http://hdl.handle.net/11356/1886</ref>.</bibl>
+               <bibl>Ljubešić, Nikola, Taja Kuzman, Tomaž Erjavec, and Petya Osenova. “Tour de
+                  CLARIN: The CLARIN Knowledge Centre for South Slavic Languages (CLASSLA).” CLARIN.
+                  Published 18 November, 2021. <ref
+                     target="https://www.clarin.eu/blog/tour-de-clarin-clarin-knowledge-centre-south-slavic-languages-classla"
+                     >https://www.clarin.eu/blog/tour-de-clarin-clarin-knowledge-centre-south-slavic-languages-classla</ref>.</bibl>
+               <bibl>Ljubešić, Nikola, and Tanja Samardžić. “Croatian Linguistic Training Corpus
+                  Hr500k 2.0.” 2023. <ref target="http://hdl.handle.net/11356/1792"
+                     >http://hdl.handle.net/11356/1792</ref>.</bibl>
+               <bibl>Ljubešić, Nikola, Peter Rupnik, and Taja Kuzman. “Croatian Web Corpus
+                  CLASSLA-web.hr 1.0.” 2024. <ref target="http://hdl.handle.net/11356/1929"
+                     >http://hdl.handle.net/11356/1929</ref>.</bibl>
+               <bibl>Ljubešić, Nikola, Peter Rupnik, and Taja Kuzman. “Slovenian Web Corpus
+                  CLASSLA-web.sl 1.0.” 2024. <ref target="http://hdl.handle.net/11356/1882"
+                     >http://hdl.handle.net/11356/1882</ref>.</bibl>
+               <bibl>Ljubešić, Nikola, Tomaž Erjavec, Vuk Batanović, Maja Miličević, and Tanja
+                  Samardžić. “Croatian Twitter Training Corpus ReLDI-NormTagNER-Hr 3.0.” 2023. <ref
+                     target="http://hdl.handle.net/11356/1793"
+                     >http://hdl.handle.net/11356/1793</ref>.</bibl>
+               <bibl>Ljubešić, Nikola, Tomaž Erjavec, Vuk Batanović, Maja Miličević, and Tanja
+                  Samardžić. “Serbian Twitter Training Corpus ReLDI-NormTagNER-Sr 3.0.” 2023. <ref
+                     target="http://hdl.handle.net/11356/1794"
+                     >http://hdl.handle.net/11356/1794</ref>.</bibl>
+               <bibl>Terčon, Luka, and Nikola Ljubešić. “Word Embeddings CLARIN.SI-Embed.Hr 2.0.”
+                  2023. <ref target="http://hdl.handle.net/11356/1790"
+                     >http://hdl.handle.net/11356/1790</ref>.</bibl>
+               <bibl>Terčon, Luka, and Nikola Ljubešić. “Word Embeddings CLARIN.SI-Embed.Sr 2.0.”
+                  2023. <ref target="http://hdl.handle.net/11356/1789"
+                     >http://hdl.handle.net/11356/1789</ref>.</bibl>
+               <bibl>Terčon, Luka, and Nikola Ljubešić. “Word Embeddings CLARIN.SI-Embed.Mk 2.0.”
+                  2023. <ref target="http://hdl.handle.net/11356/1788"
+                     >http://hdl.handle.net/11356/1788</ref>.</bibl>
+               <bibl>Terčon, Luka, and Nikola Ljubešić. “Word Embeddings CLARIN.SI-Embed.Bg 1.0.”
+                  2023. <ref target="http://hdl.handle.net/11356/1796"
+                     >http://hdl.handle.net/11356/1796</ref>.</bibl>
+               <bibl>Terčon, Luka, Nikola Ljubešić, and Tomaž Erjavec. “Word Embeddings
+                  CLARIN.SI-Embed.Sl 2.0.” 2023. <ref target="http://hdl.handle.net/11356/1791"
+                     >http://hdl.handle.net/11356/1791</ref>.</bibl>
+               <bibl>Verdonik, Darinka, Kaja Dobrovoljc, Peter Rupnik, Nikola Ljubešić, Simona
+                  Majhenič, Jaka Čibej, and Thomas Schmidt. “Training corpus of spoken Slovenian ROG
+                  1.0.” 2024. <ref target="http://hdl.handle.net/11356/1992"
+                     >http://hdl.handle.net/11356/1992</ref>.</bibl>
+               <bibl>Zeman, Daniel, Joakim Nivre, Mitchell Abrams, Elia Ackermann, Jephtey Adolphe,
+                  Noëmi Aepli, Hamid Aghaei, et al. “Universal Dependencies 2.16.” 2025. <ref
+                     target="http://hdl.handle.net/11234/1-5901"
+                     >http://hdl.handle.net/11234/1-5901</ref>.</bibl>
+               <bibl>Zupan, Katja, Nikola Ljubešić, and Tomaž Erjavec. “Smernice Janes-NER za
+                  označevanje imenskih entitet v slovenskem jeziku: Različica 1.1.” CJVT Wiki.
+                  Accessed 2 February, 2025. <ref
+                     target="https://wiki.cjvt.si/books/08-imenske-entitete/page/oznacevalne-smernice"
+                     >https://wiki.cjvt.si/books/08-imenske-entitete/page/oznacevalne-smernice</ref>. </bibl>
+               <bibl>Žitnik, Slavko, and Frenk Dragar. “SloBENCH Evaluation Framework.” 2021. <ref
+                     target="http://hdl.handle.net/11356/1469"
+                     >http://hdl.handle.net/11356/1469</ref>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="summary">
+            <docAuthor>Luka Terčon</docAuthor>
+            <docAuthor>Kaja Dobrovoljc</docAuthor>
+            <docAuthor>Nikola Ljubešić</docAuthor>
+            <head>CLASSLA-STANZA: NASLEDNJI KORAK ZA JEZIKOVNO PROCESIRANJE JUŽNOSLOVANSKIH
+               JEZIKOV</head>
+            <head>POVZETEK</head>
+            <p style="text-align: justify;"> Predstavljamo CLASSLA-Stanza, orodje za učinkovito
+               jezikovno obdelavo besedil v naravnem jeziku, ki podpira več južnoslovanskih jezikov
+               in je posebej prilagojeno zanje. Najnovejša različica orodja podpira obdelavo besedil
+               v slovenščini, hrvaščini, srbščini, bolgarščini in makedonščini. Orodje je nastalo
+               kot razvejitev cevovoda Stanza za jezikovno obdelavo, z vrsto novih izboljšav. V tem
+               članku opisujemo glavne razlike med CLASSLA-Stanza in Stanza, podajamo pregled
+               procesa usposabljanja za izdelavo modelov, vključenih v najnovejšo različico orodja
+               2.2, podajamo pregled zmogljivosti najnovejših modelov in razpravljamo o
+               učinkovitosti cevovoda za označevanje govorjenih besedil in besedil, ki izvirajo z
+               interneta. </p>
+            <p style="text-align: justify;"> CLASSLA-Stanza ohranja večino arhitekture in zasnove
+               Stanza, vendar uvaja nekaj ključnih sprememb, med drugim specializiran niz pravilnih
+               tokenizatorjev, ki obdelujejo segmentacijo in tokenizacijo stavkov, podporo za
+               uporabo zunanjih fleksijskih leksikonov kot dodatnega kontrolnega elementa med
+               napovedovanjem, specializiran način obdelave besed zaprtega razreda in podporo za več
+               dodatnih jezikovnih različic, kot so nestandardni jezik, govorjeni jezik in besedila,
+               pridobljena z interneta. </p>
+            <p style="text-align: justify;"> Splošni proces usposabljanja modela za CLASSLA-Stanza
+               sledi zaporednemu postopku, pri katerem se usposabljanje izvaja na predhodno
+               tokeniziranih podatkih, model pa se usposablja za vsako plast označevanja. Po
+               usposabljanju modela za vsako plast se ta model uporabi za samodejno generiranje
+               navzgornjih označb za validacijske in testne podatkovne nize, ki se nato uporabijo
+               med usposabljanjem in ocenjevanjem modelov na naslednjih plasteh označevanja. Med
+               zadnjim krogom usposabljanja modelov so bili modeli najprej usposobljeni za
+               morfosintaktično označevanje, nato za lematizacijo in nazadnje za razčlenjevanje
+               odvisnosti. Med usposabljanjem modela za lematizacijo je bil modulu za usposabljanje
+               na voljo fleksijski leksikon, medtem ko slovenščina podpira tudi uporabo fleksijskega
+               leksikona med usposabljanjem morfosintaktičnega označevalca. Usposabljanje
+               nestandardnih in govornih modelov je potekalo po podobnem postopku z nekaj manjšimi
+               odstopanji. </p>
+            <p style="text-align: justify;"> Predstavljamo ocene natančnosti modelov za vse jezike
+               na različnih oznakah v naborih oznak UD Part-of-Speech in UD dependency relation. Pri
+               oznakah Part-of-Speech so najvišje natančnosti na splošno ugotovljene pri razredih
+               funkcionalnih besed, najnižje pa pri redki oznaki INTJ in oznaki X, ki je slabo
+               opredeljena. Pri odvisnostnih odnosih odnosi case, cc in aux kažejo dosledno visoko
+               natančnost v vseh jezikih, medtem ko nekoliko nižjo natančnost kaže odnos obl, ki se
+               večinoma uporablja za posredne nominalne argumente, ki imajo v stavčni strukturi manj
+               osrednjo vlogo kot glavni verbalni argumenti. </p>
+            <p style="text-align: justify;"> Prav tako ponujamo analizo na novo usposobljenih
+               govornih modelov, ki so na voljo za slovenski jezik v najnovejši različici
+               CLASSLA-Stanza. Primerjali smo slovenske govorne morfosintaktične modele označevanja,
+               lematizacije in odvisnostnega razčlenjevanja z zmogljivostjo ustreznih standardnih in
+               nestandardnih modelov pri označevanju transkriptov govorjenega jezika. Rezultati
+               kažejo, da govorni modeli znatno presegajo standardne in nestandardne modele.
+               Usposabljanje modelov, ki so posebej prilagojeni govorjenemu jeziku, je bilo zato
+               upravičeno in bi ga bilo treba v prihodnosti razširiti na druge jezike. </p>
+            <p style="text-align: justify;"> Opravili smo tudi analizo, da bi ocenili, kako dobro
+               modeli CLASSLA-Stanza obdelujejo besedila, ki izvirajo z interneta. Ugotovili smo, da
+               so standardni tokenizatorji bolje obdelovali segmentacijo stavkov, nestandardni
+               modeli pa nestandardne oblike, ki se pojavljajo v internetnem jeziku, na vseh drugih
+               ravneh označevanja. Posledično je bil implementiran nov način obdelave spleta, ki je
+               vključen v najnovejšo različico procesa. </p>
+         </div>
+      </back>
+   </text>
+</TEI>

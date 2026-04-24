@@ -1,0 +1,1811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Potencial ChatGPT pri razvoju Slovarja sopomenk sodobne slovenščine</title>
+            <author>
+               <forename>Špela</forename>
+               <surname>Arhar Holdt</surname>
+               <roleName>Dr., znan. sod.</roleName>, <affiliation>Univerza v Ljubljani, Filozofska
+                  fakulteta</affiliation><address>
+                  <addrLine>Aškerčeva cesta 2</addrLine>
+                  <addrLine>Ljubljana</addrLine>
+               </address><affiliation>Fakulteta za računalništvo in informatiko</affiliation><address>
+                  <addrLine>Večna pot 113</addrLine>
+                  <addrLine>1000 Ljubljana</addrLine>
+               </address><email>spela.arharholdt@ff.uni-lj.si</email>
+            </author>
+            <author>
+               <forename>Magdalena</forename>
+               <surname>Gapsa</surname><roleName>Inform. spec.</roleName><affiliation>Centralna
+                  tehniška knjižnica Univerze v Ljubljani</affiliation><address>
+                  <addrLine>Trg republike 3</addrLine>
+                  <addrLine>1000 Ljubljana</addrLine>
+               </address><email>magdalena.gapsa@ctk.uni-lj.si</email>
+            </author>
+            <author>
+               <forename>Polona</forename>
+               <surname>Gantar</surname><roleName>Dr., znan. sod.</roleName>, <affiliation>Univerza
+                  v Ljubljani, Filozofska fakulteta</affiliation><address>
+                  <addrLine>Aškerčeva cesta 2</addrLine>
+                  <addrLine>Ljubljana</addrLine>
+               </address><email>apolonija.gantar@ff.uni-lj.si</email>
+            </author>
+            <author>
+               <forename>Iztok</forename>
+               <surname>Kosem</surname>
+               <roleName>Dr., viš. znan. sod.</roleName><affiliation>Univerza v Ljubljani,
+                  Filozofska fakulteta</affiliation><address>
+                  <addrLine>Aškerčeva cesta 2</addrLine>
+                  <addrLine>Ljubljana</addrLine>
+               </address><affiliation>Institut »Jožef Stefan«</affiliation><address>
+                  <addrLine>Jamova cesta 39</addrLine>
+                  <addrLine>Ljubljana</addrLine>
+               </address><email>iztok.kosem@ijs.si</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2025-10-29</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+               <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               <address>
+                  <addrLine>Privoz 11</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>http://ojs.inz.si/pnz/article/view/4497</pubPlace>
+            <date>2025</date>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+            <title xml:lang="en">Contributions to Contemporary History</title>
+            <biblScope unit="volume">65</biblScope>
+            <biblScope unit="issue">3</biblScope>
+            <idno type="ISSN">2463-7807</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>No source, born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc xml:lang="en">
+            <p>Contributions to Contemporary History is one of the central Slovenian scientific
+               historiographic journals, dedicated to publishing articles from the field of
+               contemporary history (the 19th and 20th century).</p>
+            <p>The journal is published three times per year in Slovenian and in the following
+               foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak and
+               Czech. The articles are all published with abstracts in English and Slovenian as well
+               as summaries in English.</p>
+         </projectDesc>
+         <projectDesc xml:lang="sl">
+            <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+               zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+               stoletje).</p>
+            <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+               angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina in
+               češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki v
+               angleščini.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="sl"/>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>digital lexicography</term>
+               <term>ChatGPT</term>
+               <term>synonyms</term>
+               <term>word senses</term>
+               <term>Slovenian language</term>
+            </keywords>
+            <keywords xml:lang="sl">
+               <term>digitalno slovaropisje</term>
+               <term>ChatGPT</term>
+               <term>sopomenke</term>
+               <term>besedni pomen</term>
+               <term>slovenščina</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change><date>2026-03-20T12:39:23Z</date>
+               <name>Mihael Ojsteršek</name>
+               <desc>Pretvorba iz DOCX v TEI, dodatno označevanje</desc></change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docAuthor>Špela Arhar Holdt<note place="foot" xml:id="ftn1" n="*">
+               <hi rend="bold">Dr., znan. sod., Univerza v Ljubljani, Filozofska fakulteta,
+                  Aškerčeva cesta 2, Ljubljana; Fakulteta za računalništvo in informatiko, Večna pot
+                  113, 1000 Ljubljana, spela.arharholdt@ff.uni-lj.si; ORCID:
+                  0000-0003-0565-0531</hi></note></docAuthor>
+         <docAuthor>Magdalena Gapsa,<note place="foot" xml:id="ftn2" n="♦">
+               <hi rend="bold">Inform. spec., Centralna tehniška knjižnica Univerze v Ljubljani, Trg
+                  republike 3, 1000 Ljubljana, magdalena.gapsa@ctk.uni-lj.si; ORCID:
+                  0000-0003-2763-4495</hi></note></docAuthor>
+         <docAuthor>Polona Gantar,<note place="foot" xml:id="ftn3" n="°">
+               <hi rend="bold">Dr., znan. sod., Univerza v Ljubljani, Filozofska fakulteta,
+                  Aškerčeva cesta 2, Ljubljana, apolonija.gantar@ff.uni-lj.si; ORCID:
+                  0000-0001-5822-6414</hi></note></docAuthor>
+         <docAuthor>Iztok Kosem<note place="foot" xml:id="ftn4" n="•">
+               <hi rend="bold">Dr., viš. znan. sod., Univerza v Ljubljani, Filozofska fakulteta,
+                  Aškerčeva cesta 2, Ljubljana; Institut »Jožef Stefan«, Jamova cesta 39, Ljubljana,
+                  </hi><ref target="mailto:iztok.kosem@ijs.si"><hi rend="bold"
+                     >iztok.kosem@ijs.si</hi></ref><hi rend="bold">; ORCID:
+               0000-0002-4282-9031</hi></note></docAuthor>
+         <docImprint>
+            <idno type="cobissType">Cobiss tip: 1.01</idno>
+            <idno type="DOI">https://doi.org/10.51663/pnz.65.3.08</idno>
+         </docImprint>
+         <div type="abstract" xml:lang="sl">
+            <head>IZVLEČEK</head>
+            <p style="text-align: justify;"><hi rend="italic">V raziskavi preverjamo, kako dobro se
+                  ChatGPT-4 odreže pri dveh slovaropisnih nalogah: (a) čiščenju seznama strojno
+                  pridobljenih sopomenskih kandidatov in umeščanju sopomenskega gradiva pod besedne
+                  pomene ter (b) izdelavi slovarskega gesla, vključno s pomensko členitvijo,
+                  definicijami in zgledi, na podlagi različnih vhodnih podatkov. Kot zlati standard
+                  upoštevamo slovaropisne odločitve, vključene v Digitalno slovarsko bazo za
+                  slovenščino. V prvem preizkusu analiziramo rezultate za 246 slovarskih iztočnic in
+                  ugotavljamo, da je ChatGPT podatke uredil povsem enako kot slovaropisci pri 41,9
+                  odstotka iztočnic, pri 58,1 odstotka pa se je v odločitvi razlikoval. Pri
+                  presojanju relevantnosti sopomenskih kandidatov je bil ChatGPT popustljivejši od
+                  zlatega standarda. Razlike v razvrščanju sopomenk (umestitev pod drug pomen pri
+                  14,6 odstotka iztočnic, manjkajoča umestitev pri 19,9 odstotka) deloma pripisujemo
+                  značilnostim vhodnih podatkov, kot sta kompleksnost naloge in kratkost pomenskih
+                  indikatorjev. V drugem preizkusu preverjamo zmožnost ChatGPT za samostojno
+                  izdelavo slovarskih gesel za 116 iztočnic. Analiza kakovosti generiranih pomenskih
+                  členitev in definicij kaže, da sistem deluje zmerno dobro: v 57 odstotkih primerov
+                  je zaznal vse pomene, skoraj 80 odstotkov generiranih gesel je doseglo povprečno
+                  oceno 3,5 ali več, 19 odstotkov pa najvišjo oceno obeh ocenjevalcev. Glavni izzivi
+                  so pretirano drobljenje pomenov, neprepoznane prenesene rabe in manjša
+                  predvidljivost rezultatov. Sklenemo lahko, da ima ChatGPT potencial za pohitritev
+                  ročnega slovaropisnega dela, če se njegovi rezultati ustrezno preverjajo in
+                  nadgrajujejo.</hi></p>
+            <p style="text-align: justify;"><hi rend="italic">Ključne besede: digitalno
+                  slovaropisje, ChatGPT, sopomenke, besedni pomen, slovenščina</hi></p>
+         </div>
+         <div type="abstract" xml:lang="en">
+            <head>ABSTRACT</head>
+            <head>THE POTENTIAL OF CHATGPT IN THE DEVELOPMENT OF THE THESAURUS OF MODERN
+               SLOVENE</head>
+            <p style="text-align: justify;"><hi rend="italic">In this study, we examine how well
+                  ChatGPT-4 performs in two lexicographic tasks: (a) cleaning the list of
+                  automatically retrieved synonym candidates and assigning synonymic material to
+                  lexical senses, and (b) generating dictionary entries, including sense division,
+                  definitions, and examples, based on different input data. As a gold standard, we
+                  consider the lexicographic decisions recorded in the Digital Dictionary Database
+                  for Slovene. In the first experiment, we analyse the results for 246 dictionary
+                  entries and find that ChatGPT processed the data identically to lexicographers in
+                  41.9 % of cases, while in 58.1 % of cases, it made different decisions. When
+                  assessing the relevance of synonym candidates, ChatGPT was more permissive than
+                  the gold standard. Differences in synonym placement (assignment to a different
+                  sense in 14.6 % of entries, missing placement in 19.9 %) can be partly attributed
+                  to input data characteristics, such as task complexity and the brevity of semantic
+                  indicators. In the second experiment, we test ChatGPT’s ability to autonomously
+                  generate dictionary entries for 116 headwords. The analysis of generated sense
+                  divisions and definitions reveals that the system performs moderately well: in
+                  57 % of cases, it identified all senses, almost 80 % of generated entries received
+                  an average score of 3.5 or higher, and 19 % received the highest score from both
+                  evaluators. The main challenges include excessive splitting of senses, failure to
+                  recognise figurative meanings, and reduced predictability of results. We conclude
+                  that ChatGPT has potential for speeding up manual lexicographic work if its
+                  results are properly monitored and refined.</hi></p>
+            <p style="text-align: justify;"><hi rend="italic">Keywords: digital lexicography,
+                  ChatGPT, synonyms, word senses, Slovenian language</hi></p>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>Uvod</head>
+            <p style="text-align: justify;">Generativna umetna inteligenca, ki temelji na velikih
+               jezikovnih modelih, je prek klepetalnih vmesnikov, kakršen je ChatGPT, postala široko
+               dostopna za številne z jezikom povezane naloge.<note place="foot" xml:id="ftn5" n="1"
+                  > »ChatGPT (veliki jezikovni model),« OpenAI, pridobljeno 31. 5. 2024, <ref
+                     target="https://chatgpt.com">https://chatgpt.com</ref>.</note> Med področji, ki
+               zadnji dve leti preizkušajo moč in omejitve novih tehnologij, je tudi
+               slovaropisje.</p>
+            <p style="text-align: justify;">Kot pričajo Rundell,<note place="foot" xml:id="ftn6"
+                  n="2"> Michael Rundell, »Automating the Creation of Dictionaries: Are We Nearly
+                  There?,« v: <hi rend="italic">Proceedings of the 16</hi><hi
+                     rend="italic superscript">th</hi><hi rend="italic"> International Conference of
+                     the Asian Association for Lexicography </hi>(Yonsei University, 2023), 9–17,
+                  pridobljeno 20. 5. 2025, <ref
+                     target="https://www.asialex.org/pdf/Asialex-Proceedings-2023.pdf"
+                     >https://www.asialex.org/pdf/Asialex-Proceedings-2023.pdf</ref>.</note>
+                  Lew,<note place="foot" xml:id="ftn7" n="3"> Robert Lew, »ChatGPT as a COBUILD
+                  Lexicographer,« <hi rend="italic">Humanities and Social Sciences
+                     Communications</hi> 10 (2023), pridobljeno 20. 5. 2025, <ref
+                     target="https://doi.org/10.1057/s41599-023-02119-6"
+                     >https://doi.org/10.1057/s41599-023-02119-6</ref>.</note> Bartosz et al.,<note
+                  place="foot" xml:id="ftn8" n="4"> Ptasznik Bartosz, Sascha Wolfer in Robert Lew,
+                  »A Learners’ Dictionary versus ChatGPT in Receptive and Productive Lexical Tasks,«
+                     <hi rend="italic">International Journal of Lexicography</hi> 37, št. 3 (2024):
+                  322–36, pridobljeno 20. 5. 2025, <ref target="https://doi.org/10.1093/ijl/ecae011"
+                     >https://doi.org/10.1093/ijl/ecae011</ref>.</note> McKean in Fitzgerald<note
+                  place="foot" xml:id="ftn9" n="5"> Erin McKean in Will Fitzgerald, »The ROI of AI
+                  in Lexicography,« <hi rend="italic">Lexicography</hi> 11, št. 1 (2024): 7–27,
+                  pridobljeno 20. 5. 2025, <ref
+                     target="https://utppublishing.com/doi/abs/10.1558/lexi.27569"
+                     >https://utppublishing.com/doi/abs/10.1558/lexi.27569</ref>.</note> ter
+               Tiberius et al.,<note place="foot" xml:id="ftn10" n="6"> Carole Tiberius et al.,
+                  »LLMs and Evidence-based Lexicography,« v: Simon Krek, ur., <hi rend="italic"
+                     >Large Language Models and Lexicography</hi>, 2024, 44–48, pridobljeno 25. 1.
+                  2025, <ref
+                     target="https://www.cjvt.si/wp-content/uploads/2024/10/LLM-Lex_2024_Book-of-Abstracts.pdf"
+                     >https://www.cjvt.si/wp-content/uploads/2024/10/LLM-Lex_2024_Book-of-Abstracts.pdf</ref>.</note>
+               se dosedanji preizkusi rabe ChatGPT za slovaropisne namene osredotočajo na
+               generiranje bolj ali manj celostnih slovarskih gesel za (pogosto dokaj priložnostno)
+               izbran nabor iztočnic. De Schryver v svojem kritičnem pregledu prvih prispevkov na
+               temo z umetno inteligenco podprtega slovaropisja poroča, da je trenutno največ
+               pozornosti posvečene definicijam in primerom rabe.<note place="foot" xml:id="ftn11"
+                  n="7"> Gilles-Maurice de Schryver, »Generative AI and Lexicography: The Current
+                  State of the Art Using ChatGPT,« <hi rend="italic">International Journal of
+                     Lexicography</hi> 36, št. 4 (2023): 355–87, pridobljeno 20. 5. 2025, <ref
+                     target="https://doi.org/10.1093/ijl/ecad021"
+                     >https://doi.org/10.1093/ijl/ecad021</ref>.</note> Skoraj vse študije oziroma
+               preizkusi pa so bili izvedeni v angleščini in za angleščino, čeprav Jakubíček in
+               Rundell naslavljata tudi problem večjezičnosti.<note place="foot" xml:id="ftn12"
+                  n="8"> Miloš Jakubíček in Michael Rundell, »The End of Lexicography? Can ChatGPT
+                  Outperform Current Tools for Post-Editing Lexicography?,« v: <hi rend="italic"
+                     >Electronic Lexicography in the 21</hi><hi rend="italic superscript">st</hi><hi
+                     rend="italic"> Century (eLex 2023): Proceedings of the eLex 2023
+                     Conference</hi>, ur. Marek Medveď et al. (Lexical Computing CZ, 2023), 522–23,
+                  pridobljeno 20. 5. 2025, <ref
+                     target="https://elex.link/elex2023/wp-content/uploads/102.pdf"
+                     >https://elex.link/elex2023/wp-content/uploads/102.pdf</ref>.</note></p>
+            <p style="text-align: justify;">Obstoječim raziskavam dodajamo dva preizkusa za
+               slovenščino: (a) preizkus, kako dobro se ChatGPT-4 odreže pri čiščenju seznama
+               strojno pridobljenih sopomenskih kandidatov in umeščanju sopomenskega gradiva pod
+               besedne pomene, ter (b) preizkus izdelave slovarskega gesla (s pomensko členitvijo,
+               definicijami in zgledi) na podlagi različnih vhodnih podatkov. Delo se povezuje z
+               nadgrajevanjem Slovarja sopomenk sodobne slovenščine, velike zbirke slovenskih
+               sopomenk, ki je bila v prvem koraku pripravljena povsem strojno iz podatkov Velikega
+               angleško-slovenskega slovarja Oxford®-DZS in referenčnega korpusa Gigafida, kot
+               opisujejo Krek, Laskowski in Robnik-Šikonja.<note place="foot" xml:id="ftn13" n="9">
+                  Simon Krek, Cyprian Laskowski in Marko Robnik-Šikonja, »From Translation
+                  Equivalents to Synonyms: Creation of a Slovene Thesaurus Using Word Co-occurrence
+                  Network Analysis,« v: Iztok Kosem et al., ur., <hi rend="italic">Electronic
+                     Lexicography in the 21</hi><hi rend="italic superscript">st</hi><hi
+                     rend="italic"> Century</hi> (Leiden: Dutch Language Institute, Lexical
+                  Computing CZ s.r.o., Trojina, 2017), 93–109, pridobljeno 20. 5. 2025, <ref
+                     target="https://elex.link/elex2017/wp-content/uploads/2017/09/paper05.pdf"
+                     >https://elex.link/elex2017/wp-content/uploads/2017/09/paper05.pdf</ref>.</note>
+               Od objave leta 2018 se slovar postopoma ročno pregleduje in čisti v sodelovanju med
+               strokovnjaki za slovaropisje ter zainteresirano uporabniško javnostjo. Različico 1.0
+               predstavljajo Arhar Holdt et al.,<note place="foot" xml:id="ftn14" n="10"> Špela
+                  Arhar Holdt et al., »Thesaurus of Modern Slovene: By the Community for the
+                  Community,« v: Jaka Čibej et al., ur., <hi rend="italic">Proceedings of the XVIII
+                     EURALEX International Congress, Lexicography in Global Contexts</hi>
+                  (Ljubljana: Znanstvena založba Filozofske fakultete, 2018), 401–10, pridobljeno
+                  20. 5. 2025, <ref target="https://doi.org/10.4312/9789610600961"
+                     >https://doi.org/10.4312/9789610600961</ref>.</note> različico 2.0 pa Arhar
+               Holdt et al.<note place="foot" xml:id="ftn15" n="11"> Špela Arhar Holdt et al.,
+                  »Thesaurus of Modern Slovene 2.0,« v: Marek Medveď et al., ur., <hi rend="italic"
+                     >Electronic Lexicography in the 21</hi><hi rend="italic superscript">st</hi><hi
+                     rend="italic"> Century (eLex 2023)</hi> (Brno: Lexical Computing CZ, 2023),
+                  366–81, pridobljeno 20. 5. 2025, <ref
+                     target="https://elex.link/elex2023/wp-content/uploads/82.pdf"
+                     >https://elex.link/elex2023/wp-content/uploads/82.pdf</ref>.</note> in Gantar
+               et al.<note place="foot" xml:id="ftn16" n="12"> Polona Gantar et al., »Sopomenke 2.0
+                  in Kolokacije 2.0: Novi koraki za slovenske odzivne slovarje,« <hi rend="italic"
+                     >Jezik in slovstvo</hi> 68, št. 4 (2023): 157–75, pridobljeno 20. 5. 2025, <ref
+                     target="https://doi.org/10.4312/jis.68.4.157-175"
+                     >https://doi.org/10.4312/jis.68.4.157-175</ref>.</note></p>
+            <p style="text-align: justify;">Ideja pričujočega prispevka temelji na realnih potrebah
+               nadaljnje slovarske gradnje. V prihodnje bi bilo v slovaropisne postopke mogoče
+               vključiti dodatno strojno predprocesiranje podatkov s pomočjo programa ChatGPT. Ta bi
+               podatke uredil na način, primerljiv slovaropisnemu, čemur bi sledil končni ročni
+               pregled. Uspešna integracija strojne podpore bi lahko pomembno pohitrila
+               nadgrajevanje slovarja, s tem pa pripravo odprto dostopnega sopomenskega gradiva, ki
+               je dragoceno tudi za razvoj številnih nadaljnjih jezikovih virov in tehnologij za
+               sodobno slovenščino. Da bi lahko izbrali ustrezno metodologijo tovrstne strojne
+               podpore, je v prvem koraku treba ugotoviti, kakšne rezultate daje ChatGPT v
+               primerjavi s slovaropisci za različne avtentične slovaropisne naloge.</p>
+            <p style="text-align: justify;">Prispevek je razširjena različica konferenčnega
+               prispevka, v katerem je bil predstavljen prvi zgoraj navedeni preizkus.<note
+                  place="foot" xml:id="ftn17" n="13"> Magdalena Gapsa, Špela Arhar Holdt in Iztok
+                  Kosem, »Kako dober je ChatGPT pri umeščanju sopomenk pod besedne pomene,« v: Špela
+                  Arhar Holdt in Tomaž Erjavec, ur., <hi rend="italic">Jezikovne tehnologije in
+                     digitalna humanistika: Zbornik konference</hi> (Ljubljana: Inštitut za novejšo
+                  zgodovino, 2024), 144–62, pridobljeno 20. 5. 2025, <ref
+                     target="https://zenodo.org/records/13912515"
+                     >https://zenodo.org/records/13912515</ref>.</note> Za razširjeno različico smo
+               dodali še drugi preizkus in članek ustrezno posodobili in nadgradili. V nadaljevanju
+               zaporedno predstavimo metodologijo in rezultate obeh preizkusov, strnemo ugotovitve
+               in napovemo nadaljnje delo na obravnavanem področju.</p>
+         </div>
+         <div>
+            <head>Prvi preizkus: selekcioniranje sopomenk in razvrščanje pod pomene</head>
+            <div>
+               <head>Metodologija</head>
+               <p style="text-align: justify;">Preizkus temelji na delu podatkovnega vzorca za
+                  doktorsko raziskavo Sopomenskost v Slovarju sopomenk sodobne slovenščine in
+                  izbranih različicah Wordneta, tj. seznamu 546 samostalnikov, ki se kot iztočnice
+                  pojavijo v podatkovni bazi Slovarja sopomenk sodobne slovenščine 1.0<note
+                     place="foot" xml:id="ftn18" n="14"> Simon Krek et al., <hi rend="italic"
+                        >Thesaurus of Modern Slovene 1.0 </hi>(Repozitorij raziskovalne strukture
+                     CLARIN.SI, 2018), pridobljeno 20. 5. 2025, <ref
+                        target="http://hdl.handle.net/11356/1166"
+                        >http://hdl.handle.net/11356/1166</ref>.</note> (SSSS 1.0) in drugih prosto
+                  dostopnih leksikalnih virih, kot opisuje Gapsa.<note place="foot" xml:id="ftn19"
+                     n="15"> Magdalena Gapsa, »But why?? Evaluation of User-Suggested Synonyms in
+                     the Thesaurus of Modern Slovene,« <hi rend="italic">Lang Resources &amp;
+                        Evaluation</hi> (2025), pridobljeno 20. 5. 2025, <ref
+                        target="https://doi.org/10.1007/s10579-025-09821-8"
+                        >https://doi.org/10.1007/s10579-025-09821-8</ref>.</note> Ta nabor je bil
+                  omejen na 266 iztočnic, ki so bile ob posodobitvi SSSS 1.0 v verzijo 2.0
+                  slovaropisno urejene, kar pomeni, da imajo v verziji 2.0 pripisano pomensko
+                  členitev, strojno pridobljeni sopomenski kandidati iz verzije 1.0 pa so bili ročno
+                  pregledani, potrjeni (oziroma odstranjeni) in razvrščeni pod identificirane
+                  pomene.</p>
+               <p style="text-align: justify;">Za izbranih 266 iztočnic je bilo v prvem koraku iz
+                  baze SSSS 1.0 izluščenih skupno 1049 sopomenskih kandidatov (z morebitnimi
+                  področnimi slovarskimi oznakami). V drugem koraku so bile iz Digitalne slovarske
+                     baze<note place="foot" xml:id="ftn20" n="16"> Iztok Kosem, Simon Krek in Polona
+                     Gantar, »Semantic Data Should No Longer Exist in Isolation: The Digital
+                     Dictionary Database of Slovenian,« v: Zoe Gavriilidou et al., ur., <hi
+                        rend="italic">EURALEX XIX: Congress of the European Association for
+                        Lexicography</hi> (Democritus University of Thrace, 2021), 81–83,
+                     pridobljeno 20. 5. 2025, <ref
+                        target="https://euralex.org/wp-content/uploads/2022/04/ABS2020.pdf"
+                        >https://euralex.org/wp-content/uploads/2022/04/ABS2020.pdf</ref>.</note>
+                  izvožene pomenske členitve s pomenskimi indikatorji (tj. kratkimi opisi za
+                  ločevanje pomenov, kot pojasni Gantar<note place="foot" xml:id="ftn21" n="17">
+                     Polona Gantar, <hi rend="italic">Leksikografski opis slovenščine v digitalnem
+                        okolju </hi>(Ljubljana: Znanstvena založba Filozofske fakultete, 2015),
+                     pridobljeno 20. 5. 2025, <ref target="https://doi.org/10.4312/9789612377922"
+                        >https://doi.org/10.4312/9789612377922</ref>.</note>) za izbrane iztočnice.
+                  Podatki so bili pretvorjeni v tabelo, kjer je posamezna vrstica vsebovala izvožene
+                  podatke po vzoru: iztočnica – pomenska členitev – sopomenski kandidati. Tabela je
+                  služila kot nabor vhodnih podatkov za preizkus s sistemom ChatGPT. Za preverbo
+                  uspešnosti naloge smo iz baze Slovarja sopomenk sodobne slovenščine 2.0<note
+                     place="foot" xml:id="ftn22" n="18"> Simon Krek et al., <hi rend="italic"
+                        >Thesaurus of Modern Slovene 2.0 </hi>(Repozitorij raziskovalne strukture
+                     CLARIN.SI, 2023), pridobljeno 20. 5. 2025, <ref
+                        target="http://hdl.handle.net/11356/1916"
+                        >http://hdl.handle.net/11356/1916</ref>.</note> (SSSS 2.0) pridobili
+                  slovaropisno pripravljene pomensko členjene iztočnice z razvrščenimi
+                  sopomenkami.</p>
+               <p style="text-align: justify;">V prvem koraku analize je bilo med 266 iztočnicami
+                  prepoznanih 20 iztočnic, kjer se pomenska členitev iz DSB ne ujema s SSSS 2.0
+                  (npr. iztočnica <hi rend="italic">bonbon</hi> ima v DSB en pomen, v SSSS 2.0 sta
+                  dva). Ti primeri so posledica dejstva, da se DSB dinamično razvija s podatki iz
+                  različnih virov, in so bili za ohranitev koherentnega zlatega standarda
+                  odstranjeni iz nadaljnje analize.</p>
+            </div>
+            <div>
+               <head>Struktura poziva za ChatGPT</head>
+               <p style="text-align: justify;">Za izbrane iztočnice smo pripravili poziv za ChatGPT
+                  (Priloga 1), pri čemer smo uporabili API model GPT-4. Poziv je bil pripravljen v
+                  angleščini in je bil med razvojem postopka večkrat testiran z uporabo brezplačne
+                  verzije sistema.</p>
+               <p style="text-align: justify;">Med testiranjem se je izkazalo, da ChatGPT vrne
+                  boljše rezultate, če je v poziv vključen primer želenega rezultata. Posledično smo
+                  v poziv dodali primer vhodnih podatkov, tj. večpomensko iztočnico s sopomenskimi
+                  kandidati, in želene izhodne podatke, tj. pravilno razporejene sopomenske
+                  kandidate po pomenih.</p>
+               <p style="text-align: justify;">Odgovori so bili vrnjeni v formatu YAML, sledila je
+                  pretvorba v format JSON. Na podlagi teh podatkov smo za raziskovalne analize in
+                  evalvacijo ustvarili še povzemalno datoteko CSV in Excelovo datoteko z vsemi
+                  zbranimi podatki.</p>
+               <p style="text-align: justify;">Slovaropisna ekipa je določala sopomenskost na
+                  podlagi korpusne analize možnosti zamenjave sopomenskih besed v sobesedilu. V
+                  poziv nismo vključili celotnih smernic, ki jim je sledila slovaropisna ekipa, saj
+                  bi s tem v postopek vnesli preveč informacij in spremenljivk, kar bi privedlo do
+                  neuporabnih in težje razložljivih rezultatov. Prav tako v poziv nismo vključili
+                  možnosti dodajanja ali spreminjanja besednih pomenov, ki jih je imela slovaropisna
+                  ekipa, saj smo želeli, da pomenska členitev ostane metodološko transparentna,
+                  rezultati pa dovolj enoznačni za analizo. Testiranja so pokazala optimalno
+                  delovanje poziva, ki je izvleček najpomembnejših navodil. Navodila, ki jih nismo
+                  vključili v poziv, navajamo ob analizi rezultatov, kadar olajšajo interpretacijo
+                  razlik med ročnim in strojnim delom.</p>
+            </div>
+            <div>
+               <head>Postopek analize gradiva</head>
+               <p style="text-align: justify;">Pridobljeni podatki so bili organizirani v
+                  preglednice. Strojno pripravljene rezultate smo primerjali s slovaropisnimi
+                  rešitvami in najprej ugotovili, katere iztočnice so obravnavane povsem enako in
+                  katere vsebujejo razlike. Razlike smo nato natančneje analizirali v dveh korakih:
+                  (a) katere vrste odstopanja se pojavljajo pri odstranjevanju neustreznih
+                  sopomenskih kandidatov in kako pogosto in (b) katere vrste odstopanja se
+                  pojavljajo pri umeščanju neodstranjenega gradiva pod besedne pomene in kako
+                  pogosto.</p>
+               <p style="text-align: justify;">V raziskavi rešitve slovaropisne ekipe obravnavamo
+                  kot zlati standard, kar pomeni, da odstope načeloma razumemo kot neželene. Vendar
+                  pa rezultati nakažejo, da je v določenih primerih rešitev, ki jo ponudi ChatGPT,
+                  drugačna od slovaropisne, vendar kljub temu sprejemljiva. Če bodo s ChatGPT
+                  pripravljeni podatki vključeni v slovaropisne delotoke, bo v prihodnje treba
+                  presoditi, kako v praksi obravnavati take primere skladno z izbranim slovaropisnim
+                  konceptom.</p>
+            </div>
+            <div>
+               <head>Splošna uspešnost</head>
+               <p style="text-align: justify;">Pri analiziranih 246 iztočnicah je ChatGPT v 103
+                  primerih (41,9 odstotka) podatke uredil povsem enako kot slovaropisci, v 143
+                  primerih (58,1 odstotka) pa se je v odločitvi tako ali drugače razlikoval.</p>
+               <p style="text-align: justify;">Podatke s primeri iztočnic prikazuje Tabela 1, v
+                  kateri podajamo tudi povprečno število kandidatov in slovarskih pomenov v
+                  posamezni skupini. V skupini ustrezno urejenih sopomenskih podatkov sta obe
+                  povprečji nižji, kar je skladno s pričakovanji, saj se s številom sopomenk za
+                  razvrstitev in številom besednih pomenov viša možnost za razlike v odločitvah.
+                  Povezava ni povsem enoznačna, saj se ChatGPT (lahko) razlikuje tudi pri iztočnicah
+                  z malo pomeni in sopomenkami ter uspešno uredi kompleksnejše iztočnice.</p>
+               <table>
+                  <head>Tabela 1: Ujemanje med slovaropisci in ChatGPT s številom iztočnic, primeri
+                     in povprečnim številom sopomenskih kandidatov ter besednih pomenov na
+                     skupino</head>
+                  <row rend="bold">
+                     <cell>Vrsta rezultata</cell>
+                     <cell>Primeri</cell>
+                     <cell>Št. iztočnic</cell>
+                     <cell>Povpr. št. kandidatov</cell>
+                     <cell>Povpr. št. pomenov</cell>
+                  </row>
+                  <row>
+                     <cell>Strojni rezultat enak ročnemu</cell>
+                     <cell>adolescenca, aerodinamika, agonija, alkohol, ambicija, anatomija</cell>
+                     <cell>103</cell>
+                     <cell>2.2</cell>
+                     <cell>1.7</cell>
+                  </row>
+                  <row>
+                     <cell>Strojni rezultat drugačen od ročnega</cell>
+                     <cell>adaptacija, anonimnost, aplikacija, arbiter, arhitektura, arhiv</cell>
+                     <cell>143</cell>
+                     <cell>5.1</cell>
+                     <cell>2.4</cell>
+                  </row>
+                  <row>
+                     <cell>Skupaj analiziranih</cell>
+                     <cell/>
+                     <cell>246</cell>
+                     <cell>3,9 (vseh kandidatov: 951)</cell>
+                     <cell>2,1 (vseh pomenov: 516)</cell>
+                  </row>
+                  <note n="">Vir: lastno delo</note>
+               </table>
+               <lb/>
+               <p style="text-align: justify;">Natančnejša analiza je pokazala, da se med 143
+                  iztočnicami pojavlja 107 takih, ki kažejo razlike na ravni odstranjevanja
+                  neustreznih sopomenskih kandidatov (43,5 odstotka analiziranih iztočnic), 71
+                  takih, ki kažejo razlike na ravni razvrščanja pod pomene (28,9 odstotka), od tega
+                  pa je 35 primerov (14,2 odstotka), kjer se pojavljajo tako razlike prvega kot
+                  drugega tipa.</p>
+            </div>
+            <div>
+               <head>Razlike v odstranjevanju neustreznih sopomenskih kandidatov</head>
+               <p style="text-align: justify;">Prva naloga za ChatGPT je bila odstraniti sopomenske
+                  kandidate, ki ne sodijo pod nobenega od pomenov izbrane iztočnice. V zlatem
+                  standardu je bilo na ta način odstranjenih 249 (26,2 odstotka) od 951 kandidatov.
+                  ChatGPT je odstranil le 110 kandidatov (11,6 odstotka). Rezultati so prikazani v
+                  Tabeli 2, kjer so navedeni primeri, ki jih je ChatGTP glede na zlati standard
+                  ustrezno obdržal (true negatives, TN), ustrezno odstranil (true positives, TP),
+                  neustrezno obdržal (false negatives, FN) ali neustrezno odstranil (false
+                  positives, FP). V tabeli je najprej navedena iztočnica, nato pa sopomenski
+                  kandidat, o katerem je ChatGPT presojal.</p>
+               <table>
+                  <head>Tabela 2: Primeri in število pravilnih in napačnih odločitev pri presojanju
+                     ChatGPT, ali je sopomenski kandidat ustrezen za dano iztočnico ter pomen ali
+                     ne</head>
+                  <row rend="bold">
+                     <cell/>
+                     <cell>Primeri</cell>
+                     <cell>Vsota </cell>
+                  </row>
+                  <row>
+                     <cell>Ustrezno obdržanih (TN)</cell>
+                     <cell>adaptacija – preureditev, adolescenca – odraščanje, aerodinamika –
+                        aerodinamičnost, agonija – trpljenje, ambicija – želja po uspehu, anatomija
+                        – telesna zgradba</cell>
+                     <cell>674</cell>
+                  </row>
+                  <row>
+                     <cell>Ustrezno odstranjenih (TP)</cell>
+                     <cell>arbiter – posrednik, argument – razlaga, avto – vagon, birokrat – velika
+                        živina, čajnik – kavnik, cedilo – posodica za kuhinjske odpadke</cell>
+                     <cell>82</cell>
+                  </row>
+                  <row>
+                     <cell>Neustrezno obdržanih (FN)</cell>
+                     <cell>arbiter – gospodar, arhiv – arhivi, avtoriteta – premoč, dedek – babica,
+                        dražba – razpis del, električar – vzdrževalec telefonskega omrežja</cell>
+                     <cell>167</cell>
+                  </row>
+                  <row>
+                     <cell>Neustrezno odstranjenih (FP)</cell>
+                     <cell>adaptacija – predelava, anonimnost – nepoznanost, aplikacija – prekritje,
+                        atentat – umor, bife – prehranjevalnica, cenzura – predelava
+                        [tiskarstvo]</cell>
+                     <cell>28</cell>
+                  </row>
+                  <row>
+                     <cell>Skupaj</cell>
+                     <cell/>
+                     <cell>951</cell>
+                  </row>
+                  <note n="">Vir: Lastno delo</note>
+               </table>
+               <lb/>
+               <table>
+                  <head>Tabela 3: prikazuje natančnost (kolikšen delež odstranjenih primerov so
+                     dejansko neustrezni sopomenski kandidati), priklic (kolikšen delež vseh
+                     neustreznih kandidatov je bil identificiran) in F1 (harmonično sredino obeh
+                     vrednosti).</head>
+                  <row rend="bold">
+                     <cell>Natančnost</cell>
+                     <cell>Priklic</cell>
+                     <cell>F1</cell>
+                  </row>
+                  <row>
+                     <cell>0.7455</cell>
+                     <cell>0.3293</cell>
+                     <cell>0.4568</cell>
+                  </row>
+                  <note n="">Vir: Lastno delo</note>
+               </table>
+               <lb/>
+               <p style="text-align: justify;">Iz rezultatov je razvidno, da je ChatGPT pri
+                  presojanju relevantnosti sopomenskih kandidatov opazno popustljivejši od zlatega
+                  standarda, čeprav so uredniška načela SSSS že izhodiščno naravnana k širšemu
+                  razumevanju sopomenskosti in odločitvi za karseda široko vključevanje
+                     kandidatov.<note place="foot" xml:id="ftn23" n="19"> Gantar et al., »Sopomenke
+                     2.0 in Kolokacije 2.0: Novi koraki za slovenske odzivne slovarje,« 161.</note>
+                  Kot smo zapisali v Razdelku 2.2, poziv za strojno obdelavo ni vseboval celotnih
+                  slovaropisnih smernic, po katerih velja, da se moške in ženske slovnične oblike ne
+                  obravnavajo kot neposredne sopomenke, ampak se uvrščajo pod spolsko ustrezne
+                  iztočnice (npr. <hi rend="italic">dedek – stari oče, babica – stara mama,</hi> ne
+                  pa *<hi rend="italic">dedek – babica</hi>), da se množinske oblike ne upoštevajo
+                  kot sopomenke, razen če so za to v rabi utemeljeni razlogi (*<hi rend="italic"
+                     >arhiv – arhivi</hi>), in da se opisne, definicijam podobne zveze obdržijo le,
+                  če se kot take pogosto pojavljajo v rabi (*<hi rend="italic">dražba – razpis
+                     del</hi>). Razlike v navodilih pojasnijo del razlik. Pri morebitni uporabi
+                  ChatGPT za pohitritev ročnega dela bi bila ta odstopanja predvidljiva, hitro
+                  opazna in enostavno rešljiva.</p>
+               <p style="text-align: justify;">V naboru neustrezno prepoznanih so tudi mejni
+                  primeri, ki so bili zahtevni že za slovaropisno odločitev. Pri teh bi raba ChatGPT
+                  za pohitritev ročnega dela lahko doprinesla k lažjim, morda še širše vključujočim
+                  odločitvam. Na drugi strani so problematične neprepoznane sopomenske besede, kot
+                  denimo <hi rend="italic">atentat – umor</hi>,<hi rend="italic"> debelost –
+                     obilnost</hi>,<hi rend="italic"> kaos – razdejanje</hi>. Pri takšnih primerih
+                  bi bila pri morebitni rabi postopka potrebna pozornost.</p>
+            </div>
+            <div>
+               <head>Napake v razvrščanju sopomenk</head>
+               <p style="text-align: justify;">Pri analizi razvrščanja sopomenk pod pomene smo
+                  ločili dve vrsti razlik: (a) ChatGPT je sopomenko umestil pod neustrezen besedni
+                  pomen in (b) ChatGPT sopomenke ni umestil pod ustrezen pomen oziroma vse ustrezne
+                  pomene glede na zlati standard. Umestitev pod neustrezen pomen smo prepoznali pri
+                  36 iztočnicah (14,6 odstotka analiziranih iztočnic), manjkajočo umestitev pri 49
+                  iztočnicah (19,9 odstotka), od tega je 14 (5,7 odstotka) takih, kjer se pojavljata
+                  obe vrsti problema, tj. umestitev pod neustrezen pomen in manjkajoča umestitev. V
+                  Tabeli 4 so prikazani primeri, število razlik in iztočnic ter povprečno število
+                  kandidatov in slovarskih pomenov v posamezni od skupin. Pri primerih je najprej
+                  navedena iztočnica, sledi sopomenka, o kateri je ChatGPT presojal, in pomen, pod
+                  katerega jo je ali je ni umestil. Kot smo opozorili v Razdelku 2.3, ustreznost
+                  oziroma neustreznost razumemo v razmerju do zlatega standarda, vendar se med
+                  rezultati pojavljajo tudi mejni primeri, kjer je lahko poleg slovaropisne
+                  odločitve sprejemljiva tudi odločitev ChatGPT.</p>
+               <table>
+                  <head>Tabela 4: Primeri, število napak v iztočnicah, kjer je ChatGPT umestil
+                     sopomenko pod napačen pomen ali je ni umestil pod vse pomene. V stolpcih 3<hi
+                        rend="italic">–</hi>6 je navedeno število napak, število iztočnic, povprečno
+                     število sopomenskih kandidatov in besednih pomenov za obe skupini.</head>
+                  <row rend="bold">
+                     <cell>Vrsta rezultata</cell>
+                     <cell>Primeri</cell>
+                     <cell>Št. napak</cell>
+                     <cell>Št. iztočnic</cell>
+                     <cell>Povpr. št. kandi-datov</cell>
+                     <cell>Povpr. št. pomenov</cell>
+                  </row>
+                  <row>
+                     <cell>Umeščeno pod neustrezen pomen</cell>
+                     <cell>bazar – sejem [ekonomija]: pod 'orientalska tržnica' namesto
+                        'prireditev'; hazarder – igralec na srečo: pod 'kdor rad veliko tvega'
+                        namesto 'kdor rad stavi'</cell>
+                     <cell>55</cell>
+                     <cell>36</cell>
+                     <cell>6.7</cell>
+                     <cell>2.8</cell>
+                  </row>
+                  <row>
+                     <cell>Neumeščeno pod pomen</cell>
+                     <cell>bolnik – pacient: ustrezno pod 'kdor je bolan', manjka pri 'kdor je
+                        neprijeten ali krut [izraža negativen odnos]; gneča – množica: ustrezno pri
+                        'o ljudeh', manjka pri 'o stvareh'</cell>
+                     <cell>78</cell>
+                     <cell>49</cell>
+                     <cell>5.3</cell>
+                     <cell>2.9</cell>
+                  </row>
+                  <row>
+                     <cell>Skupaj</cell>
+                     <cell/>
+                     <cell>133</cell>
+                     <cell>71</cell>
+                     <cell>5.3</cell>
+                     <cell>2.8</cell>
+                  </row>
+                  <note n="">Vir: Lastno delo</note>
+               </table>
+               <lb/>
+               <p style="text-align: justify;">Podatki v Tabeli 4 kažejo, da se razlike pri
+                  razvrščanju pojavljajo pri iztočnicah, ki so v povprečju kompleksnejše glede
+                  števila sopomenk za razvrstitev ter števila besednih pomenov. Sklepati je mogoče,
+                  da na razlike vpliva tudi abstraktnost pomenskih indikatorjev, ki so človeku morda
+                  laže razumljivi (gl. Razdelek 3.5), vendar se to ne kaže enoznačno: kot primer
+                  uspešno urejenega kompleksnega gesla lahko navedemo iztočnico <hi rend="italic"
+                     >jagoda</hi> s štirimi kratkimi in medsebojno podobnimi indikatorji (1.
+                  rastlina, 2. plod, 3. okrogel plod, 4. droben predmet), h katerim je sistem
+                  ustrezno razvrstil sopomenske kandidate <hi rend="italic">biser, koralda,
+                     kroglica. </hi>Podobno je bilo tudi pri iztočnici <hi rend="italic">telefon
+                  </hi>s šestimi indikatorji (1. naprava, 2. telekomunikacijska povezava, 3.
+                  napeljava, 4. o storitvi, 5. telefonska številka [neformalno], 6. družabna igra),
+                  kamor sta bila ustrezno razvrščena kandidata <hi rend="italic">telefonska slušalka
+                  </hi>in <hi rend="italic">telefonski klic</hi>.</p>
+            </div>
+            <div>
+               <head>Najtežji primeri</head>
+               <p style="text-align: justify;">Med vsemi analiziranimi iztočnicami je šest takšnih,
+                  pri katerih so se pojavile težave tako na ravni odstranjevanja neustreznih
+                  kandidatov kot umeščanja sopomenskih kandidatov pod vse ustrezne pomene. Te
+                  obravnavamo kot težke primere in jih v nadaljevanju ponazarjamo v celoti, tako v
+                  slovaropisni različici kot po presoji ChatGPT. Razlike so obarvane.</p>
+               <table>
+                  <head>Tabela 5: Prikaz obravnave najtežjih primerov z opredelitvami razlik med
+                     odločitvami</head>
+                  <row rend="bold">
+                     <cell>Iztočnica</cell>
+                     <cell>Slovaropisno</cell>
+                     <cell>ChatGPT</cell>
+                  </row>
+                  <row>
+                     <cell>adaptacija</cell>
+                     <cell>1. prenova stavbe: prilagoditev, prenova, preureditev</cell>
+                     <cell>1. prenova stavbe: preureditev, prenova</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>2. priredba [v umetnosti]: predelava [glasba], priredba [glasba],
+                        preureditev [glasba], aranžma [glasba]</cell>
+                     <cell>2. priredba [v umetnosti]: priredba [glasba], aranžma [glasba]</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>3. prilagoditev [ponavadi v športu]: PRAZNO</cell>
+                     <cell>3. prilagoditev [ponavadi v športu]: prilagoditev</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>Odstranjeni kandidati: /</cell>
+                     <cell>Odstranjeni kandidati: predelava [glasba]</cell>
+                  </row>
+                  <row>
+                     <cell>čarovnica</cell>
+                     <cell>1. pravljično bitje: čarodejka, coprnica</cell>
+                     <cell>1. pravljično bitje: čarodejka, coprnica, vračarica, vešča </cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>2. ženska, obtožena čarovništva: vračarica</cell>
+                     <cell>2. ženska, obtožena čarovništva: vešča, hudičevka </cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>3. zlobna, starejša ženska [izraža negativen odnos]: vešča, babura,
+                        coprnica, hudičevka, stara baba, zlobnica</cell>
+                     <cell>3. zlobna, starejša ženska [izraža negativen odnos]: babura, stara baba,
+                        zlobnica</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>4. ženska z nadnaravnimi sposobnostmi [lahko izraža negativen odnos]:
+                        čarodejka, coprnica</cell>
+                     <cell>4. ženska z nadnaravnimi sposobnostmi [lahko izraža negativen odnos]:
+                        iluzionistka</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>Odstranjeni kandidati: iluzionistka</cell>
+                     <cell>Odstranjeni kandidati: /</cell>
+                  </row>
+                  <row>
+                     <cell>gurman</cell>
+                     <cell>1. ljubitelj hrane in pijače: sladokusec, uživač, gastronom, poznavalec
+                        hrane, epikurejec</cell>
+                     <cell>1. ljubitelj hrane in pijače: sladokusec, uživač, bonvivan, poznavalec
+                        hrane, gastronom, epikurejec</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>2. poznavalec: sladokusec</cell>
+                     <cell>2. poznavalec: bonvivan, poznavalec hrane, gastronom</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>Odstranjeni kandidati: bonvivan</cell>
+                     <cell>Odstranjeni kandidati: /</cell>
+                  </row>
+                  <row>
+                     <cell>kandidat</cell>
+                     <cell>1. za službo ali funkcijo: prosilec, aspirant, prijavljenec, interesent
+                        [ekonomija], prijavljeni</cell>
+                     <cell>1. za službo ali funkcijo: prosilec, aspirant, prijavljenec, potencialna
+                        kandidatka, možna kandidatka, predlaganec, prijavljeni, vložnik </cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>2. na izpitu: prijavljenec, prijavljeni, udeleženec </cell>
+                     <cell>2. na izpitu: izpitna kandidatka, izprašanec </cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>3. za nagrado: predlaganec, nominiranec </cell>
+                     <cell>3. za nagrado: nominiranec, volilna agitatorka, volilni agitator </cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>Odstranjeni kandidati: potencialna kandidatka, možna kandidatka, izpitna
+                        kandidatka, vložnik, potencialni kupec [ekonomija], možni kupec [ekonomija],
+                        potencialna stranka [ekonomija], možna stranka [ekonomija], izprašanec,
+                        volilna agitatorka, volilni agitator, tekmovalec [šport], anketiranec,
+                        intervjuvanec</cell>
+                     <cell>Odstranjeni kandidati: interesent [ekonomija], potencialni kupec
+                        [ekonomija], možni kupec [ekonomija], potencialna stranka [ekonomija], možna
+                        stranka [ekonomija], udeleženec, tekmovalec [šport], anketiranec,
+                        intervjuvanec</cell>
+                  </row>
+                  <row>
+                     <cell>ljubezen</cell>
+                     <cell>1. močna naklonjenost: naklonjenost, nagnjenje, posebna naklonjenost,
+                        posebno nagnjenje, eros </cell>
+                     <cell>1. močna naklonjenost: naklonjenost, strast, nagnjenje, posebna
+                        naklonjenost, posebna nagnjenost, posebno nagnjenje, oboževanje,
+                        občudovanje, čustva </cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>2. o intimnem odnosu: romanca, ljubezensko razmerje </cell>
+                     <cell>2. o intimnem odnosu: ljubezensko razmerje, romanca </cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>3. ljubljena oseba: draga, ljuba, dragi, ljubi, fant, punca </cell>
+                     <cell>3. ljubljena oseba: draga, ljubi, dragi, ljuba, fant, punca </cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>4. o dejavnosti: naklonjenost, strast, nagnjenje, posebna naklonjenost,
+                        posebno nagnjenje </cell>
+                     <cell>4. o dejavnosti: PRAZNO </cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>5. seks: strast </cell>
+                     <cell>5. seks: eros</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>Odstranjeni kandidati: nežnost, toplina, posebna nagnjenost, oboževanje,
+                        občudovanje, čustva</cell>
+                     <cell>Odstranjeni kandidati: nežnost, toplina</cell>
+                  </row>
+                  <row>
+                     <cell>urok</cell>
+                     <cell>1. v magiji: čarovnija, prekletstvo, zakletev, zaklinjanje, zarotitev,
+                        magične besede, coprnija, zarekanje, čarovniški izrek, čarobni napev </cell>
+                     <cell>1. v magiji: čarovnija, prekletstvo, zakletev, zarotitev, magične besede,
+                        coprnija, zaklinjanje, abrakadabra, vudu, čaranje, čarobna formula,
+                        čarovniški izrek, čarobni napev, čarobni simbol</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>2. o neuspehu [pogosto v športnem kontekstu]: prekletstvo</cell>
+                     <cell>2. o neuspehu [pogosto v športnem kontekstu]: nesreča, smola,
+                        zarekanje</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>Odstranjeni kandidati: nesreča, smola, abrakadabra, vudu, čaranje,
+                        čarobna formula, čarobni simbol, molitveni obrazec [religija]</cell>
+                     <cell>Odstranjeni kandidati: molitveni obrazec [religija]</cell>
+                  </row>
+                  <note n="">Lastno delo</note>
+               </table>
+               <lb/>
+               <p style="text-align: justify;">Primeri pregledno prikazujejo različne težave. Kot je
+                  razvidno, so določena razhajanja lahko posledica korpusnega gradiva, na osnovi
+                  katerega se oblikujejo pomenske členitve in potrjuje sopomenska raba (npr. <hi
+                     rend="italic">bonvivan,</hi> ki se v rabi najbrž pojavlja preredko, da bi ga
+                  obdržali, ali <hi rend="italic">vešča</hi> v pomenu 'pravljično bitje'). Prav tako
+                  so lahko mestoma zavajajoče ubeseditve v pomenskih indikatorjih, ki jih
+                  slovaropisna ekipa lahko interpretira na podlagi preostalih podatkov v DSB, kot so
+                  na primer kolokacije, v nalogi za ChatGPT pa so bili predstavljeni brez dodatnega
+                  konteksta (denimo indikator poznavalec pri iztočnici <hi rend="italic"
+                  >gurman</hi>, ki je v opoziciji do 1. pomena /'ljubitelj hrane in pijače'/ in se v
+                  prenesenem pomenu ne navezuje več na hrano/pijačo, česar ChatGPT ne razbere).
+                  Nekaj je primerov, pri katerih slovaropisci upoštevajo smernice, ki ChatGPT niso
+                  bile podane (gl. 3.2), na primer pri (ne)vključevanju moško-ženskih parov (<hi
+                     rend="italic">kandidat – izpitna kandidatka</hi>). Najti pa je tudi razlike,
+                  kjer so odločitve ChatGPT težko razložljive, denimo <hi rend="italic">kandidat
+                  </hi>v pomenu 'za nagrado'<hi rend="italic"> – volilna agitatorka, volilni
+                     agitator</hi>.</p>
+            </div>
+         </div>
+         <div>
+            <head>Drugi preizkus: izdelava novih pomenskih členitev</head>
+            <p style="text-align: justify;">Ker številne iztočnice v Slovarju sopomenk sodobne
+               slovenščine še nimajo izdelane pomenske členitve in pomenskih opisov, smo se odločili
+               ChatGPT preizkusiti še pri nalogi pomenskega členjenja, ki je vključevala tudi
+               oblikovanje definicij<note place="foot" xml:id="ftn24" n="20"> V tem prispevku
+                  uporabljamo termin slovarska <hi rend="italic">definicija</hi> (v pozivu <hi
+                     rend="italic">definition</hi>) tudi za definicije cobuildskega tipa, čeprav bi
+                  zanje po obliki in vsebini ustrezal tudi termin <hi rend="italic">razlaga</hi>. S
+                  tem sledimo predhodnim študijam, ki so bile zasnovane za podobne namene (gl.
+                  Razdelek 1). Sprememba poziva z navodilom za <hi rend="italic">explanation</hi> bi
+                  v konkretni raziskavi uvedla novo spremenljivko in drugačne rezultate, zanimivo pa
+                  bi jo bilo preizkusiti pri nadaljnjem delu.</note> in ne zgolj pomenskih
+               indikatorjev.</p>
+            <div>
+               <head>Metodologija</head>
+               <p style="text-align: justify;">Za preizkus smo iz DSB izbrali 116 ročno izdelanih
+                  iztočnic (63 samostalnikov, 32 pridevnikov in 21 glagolov), pri čemer je bil
+                  glavni pogoj, da so vključene tudi v Kolokacijski slovar sodobne slovenščine,<note
+                     place="foot" xml:id="ftn25" n="21"> Iztok Kosem et al., <hi rend="italic"
+                        >Kolokacijski slovar sodobne slovenščine</hi> (Ljubljana: Znanstvena založba
+                     Filozofske fakultete, 2018–), pridobljeno 20. 5. 2025, <ref
+                        target="https://viri.cjvt.si/kolokacije/slv/"
+                        >https://viri.cjvt.si/kolokacije/slv/#</ref>.</note> saj je to pomenilo, da
+                  so vsebovale zadostno količino kontekstualnih podatkov (kolokacij in zgledov).
+                  Čeprav smo zaradi poudarka na pomenski členitvi in razlikovanju med pomeni v nabor
+                  vključili predvsem večpomenske iztočnice (55 z dvema pomenoma, 34 s tremi, 12 s
+                  štirimi, po dve s petimi in šestimi ter eno s sedmimi pomeni), smo dodali tudi
+                  deset enopomenskih.</p>
+               <p style="text-align: justify;">Za vsako iztočnico smo iz baze izvozili ročno
+                  pregledane kolokacije in avtomatsko izluščene zglede (po en zgled na
+                  kolokacijo):</p>
+               <list rend="bulleted">
+                  <item>Za vsak pomen smo izvozili do 20 kolokacij in zgledov.</item>
+                  <item>Pri izbiri kolokacij smo upoštevali podatek o jakosti logDice.</item>
+                  <item>Pri izbiri zgleda za kolokacijo smo izbrali tistega z najvišjo oceno
+                     kakovosti dobrega zgleda v orodju GDEX, ki ga opisujejo Kosem, Husak in
+                        McCarthy.<note place="foot" xml:id="ftn26" n="22"> Iztok Kosem, Miloš Husak
+                        in Diana McCarthy, »GDEX for Slovene,« v: Iztok Kosem in Karmen Kosem, ur.,
+                           <hi rend="italic">Electronic Lexicography in the 21</hi><hi
+                           rend="italic superscript">st</hi><hi rend="italic"> Century: New
+                           Applications for New Users </hi>(Ljubljana: Trojina, Institute for
+                        Applied Slovene Studies, 2011), 150–59, pridobljeno 20. 5. 2025, <ref
+                           target="http://www.trojina.si/elex2011/elex2011_proceedings.pdf"
+                           >http://www.trojina.si/elex2011/elex2011_proceedings.pdf</ref>.</note></item>
+                  <item>Glede na izsledke predhodnih kolokacijskih raziskav smo dali poudarek na
+                     izvozu kolokacij za pomensko bolj obvestilne skladenjske strukture:<list
+                        rend="bulleted">
+                        <item>Za samostalnike smo za strukture glagol + samostalnik v tožilniku,
+                           pridevnik + samostalnik in samostalnik + samostalnik v rodilniku izvozili
+                           po pet kolokacij in zgledov, preostanek smo zapolnili s kolokacijami in
+                           zgledi iz preostalih struktur.</item>
+                        <item>Za glagole smo za strukturo pridevnik + samostalnik izvozili po deset
+                           kolokacij in zgledov, preostale iz drugih struktur.</item>
+                        <item>Za glagole smo za strukturo glagol + samostalnik izvozili po sedem
+                           kolokacij in zgledov, za strukturo prislov + glagol po pet kolokacij in
+                           zgledov, preostale iz drugih struktur.</item>
+                     </list></item>
+               </list>
+               <p style="text-align: justify;">V primerih, ko prioritetne strukture niso vsebovale
+                  dovolj kolokacij, smo jih nadomestili s kolokacijami iz drugih struktur.</p>
+               <p style="text-align: justify;">Druga informacija, ki smo jo pripravili, so bile
+                  slovarske definicije, ki smo jih pridobili iz dveh virov: semantičnega slovenskega
+                  leksikona Open Slovene Wordnet 1.0<note place="foot" xml:id="ftn27" n="23"> Jaka
+                     Čibej et al., <hi rend="italic">Open Slovene WordNet OSWN 1.0 </hi>(Slovenian
+                     language resource repository CLARIN.SI, 2023), pridobljeno 20. 5. 2025, <ref
+                        target="http://hdl.handle.net/11356/1888"
+                        >http://hdl.handle.net/11356/1888</ref>.</note> in Angleško-slovenskega
+                  slovarja Bridge.<note place="foot" xml:id="ftn28" n="24">
+                     <hi rend="italic">Angleško-slovenski slovar Bridge </hi>(Ljubljana: Državna
+                     založba Slovenije<hi rend="italic">,</hi> 2000).</note> V obeh primerih smo
+                  pridobljene definicije še dodatno prilagodili oziroma izboljšali:</p>
+               <list rend="bulleted">
+                  <item>V slovenskem Wordnetu so slovenske definicije zgolj avtomatski prevod
+                     angleških definicij in so v številnih primerih kratke in slabo obvestilne, na
+                     primer <hi rend="italic">humanost --&gt; kakovost človeškosti; forma --&gt;
+                        določen način, na katerega se nekaj izrazi</hi>. Pri obdelavi s ChatGPT-4
+                     smo iskali daljše, celostavčne definicije. Primer pretvorbe za <hi
+                        rend="italic">prevajati</hi>:<list rend="bulleted">
+                        <item>Izvorna definicija: <hi rend="italic">restate (words) from one
+                              language into another language.</hi></item>
+                        <item>Avtomatski slovenski prevod: <hi rend="italic">ponovno izraziti
+                              (besede) iz enega jezika v drugem jeziku.</hi></item>
+                        <item>Izboljšana definicija: <hi rend="italic">Prevajati pomeni izražati ali
+                              podajati pomen besedil ali izrazov iz enega jezika v drugega, tako da
+                              ohranjamo njihov pomen.</hi></item>
+                     </list></item>
+                  <item>V Angleško-slovenskem slovarju Bridge so definicije na voljo v celostavčni
+                     obliki, vendar pa vsebujejo angleške iztočnice. V tem primeru smo do definicij
+                     za naš preizkus prišli po sledečem postopku:<list rend="bulleted">
+                        <item>Najprej smo angleške iztočnice avtomatsko zamenjali s slovenskimi
+                           prevodi, npr. <hi rend="italic">Kar je </hi><hi rend="italic bold"
+                              >huge</hi><hi rend="italic">, je izjemno veliko po obsegu, količini
+                              ali stopnji. --&gt; Kar je </hi><hi rend="italic bold"
+                              >velikanski</hi><hi rend="italic">, je izjemno po obsegu, količini ali
+                              stopnji</hi>. in <hi rend="italic">Kadar nekaj </hi><hi
+                              rend="italic bold">browns</hi><hi rend="italic"> ali </hi><hi
+                              rend="italic bold">is browned</hi><hi rend="italic">, postane temnejše
+                              barve.</hi> --&gt; <hi rend="italic">Kadar nekaj</hi>
+                           <hi rend="italic bold">porjaveti</hi>
+                           <hi rend="italic">ali </hi><hi rend="italic bold">porjaveti</hi><hi
+                              rend="italic">, postane temnejše barve.</hi></item>
+                        <item>Nato smo v analizi najprej izločili neproblematične definicije, pri
+                           preostalih pa smo prepoznali pet vzorcev težav, od takih, ki so zahtevale
+                           samo popravek sklona, do takih, kjer smo morali odpraviti podvajanje
+                           iztočnice v definiciji ali celo daljši del ubeseditve. Na podlagi tega
+                           smo za odpravo napak prilagodili sistemske pozive za ChatGPT-4, tako da
+                           smo dobili izboljšane definicije, na primer <hi rend="italic">Kar je
+                              </hi><hi rend="italic bold">velikansko</hi><hi rend="italic">, je
+                              izjemno veliko po obsegu, količini ali stopnji.</hi> in <hi
+                              rend="italic">Kadar nekaj </hi><hi rend="italic bold">porjavi</hi><hi
+                              rend="italic">, postane temnejše barve.</hi></item>
+                     </list></item>
+               </list>
+               <p style="text-align: justify;">Pri združitvi definicij iz dveh virov smo opazili, da
+                  definicije niso deloma prekrivne zgolj med viroma, temveč tudi znotraj posameznega
+                  vira, kot kaže primer za glagol <hi rend="italic">degradirati:</hi></p>
+            </div>
+            <div>
+               <head style="text-align: justify;">SLOVENSKI WORDNET</head>
+               <list rend="bulleted">
+                  <item><hi rend="italic bold">Degradirati</hi><hi rend="italic"> pomeni opraviti
+                        dejanje, s katerim zmanjšamo stopnjo, rang ali vrednost nečesa, zaradi česar
+                        je to nekaj manj cenjeno ali spoštovano.</hi></item>
+                  <item><hi rend="italic bold">Degradirati</hi><hi rend="italic"> pomeni povzročiti
+                        zmanjšanje nivoja zemlje, na primer zaradi erozije.</hi></item>
+                  <item><hi rend="italic bold">Degradirati</hi><hi rend="italic"> pomeni uradno ali
+                        neformalno znižati nekoga ali nekaj v oceni, vrednosti ali ugledu, zaradi
+                        dejanskega dejanja, situacije ali presoje.</hi></item>
+                  <item><hi rend="italic bold">Degradirati</hi><hi rend="italic"> pomeni uradno
+                        prenesti nekoga na nižjo pozicijo ali mu uradno zmanjšati čin.</hi></item>
+                  <item><hi rend="italic bold">Degradirati</hi><hi rend="italic"> pomeni zmanjšati
+                        nečiji ali nečesa stopnjo ali rang, ali povzročiti, da se nekdo znajde v
+                        neprijetni ali nedostojni situaciji.</hi></item>
+               </list>
+            </div>
+            <div>
+               <head style="text-align: justify;">SLOVAR BRIDGE</head>
+               <list rend="bulleted">
+                  <item><hi rend="italic">Če človek, ki ima oblast, </hi><hi rend="italic bold"
+                        >degradira</hi><hi rend="italic"> nekoga, mu podeli nižji položaj, pogosto
+                        kot znamenje kazni.</hi></item>
+                  <item><hi rend="italic bold">Degradirati</hi><hi rend="italic"> pomeni dati osebi
+                        ali stvari manj pomemben položaj ali veljavo.</hi></item>
+               </list>
+               <p style="text-align: justify;">Hkrati je analiza pokazala, da tudi izboljšane
+                  definicije lahko vsebujejo slovnične ali druge napake, zato smo v poziv za ChatGPT
+                  dodali navodilo, naj podane definicije po potrebi združuje in izboljša.</p>
+               <p style="text-align: justify;">Za deset iztočnic definicij nismo imeli na voljo, kar
+                  se je izkazalo za koristno, saj smo tako preverili tudi delovanje ChatGPT samo s
+                  podanimi kolokacijami in zgledi.</p>
+            </div>
+            <div>
+               <head>Struktura poziva za ChatGPT</head>
+               <p style="text-align: justify;">Pri pripravi poziva smo najprej opravili obsežno
+                  testiranje, pri čemer smo prišli do podobnih ugotovitev kot pri razvrščanju
+                  sopomenk pod pomene, da bolje deluje poziv v angleščini in s primerom vhodnih in
+                  želenih podatkov. Pri tem poizkusu smo že uporabili novejši model GPT-4o.</p>
+               <p style="text-align: justify;">Poziv je bil razdeljen na sistemsko navodilo, ki je
+                  bilo vedno enako, je bilo pa nekoliko drugačno za vsako besedno vrsto zaradi
+                  vključenih vzorcev definicij. Primer sistemskega navodila za pridevniške iztočnice
+                  predstavlja Priloga 2.</p>
+               <p style="text-align: justify;">V glavni del poziva smo potem vključili definicije,
+                  kolokacije in zglede:</p>
+               <quote style="text-align: justify;">Here are definitions, and collocations and their
+                  examples for the Slovenian word &lt;<hi rend="italic">iztočnica&gt;</hi>.
+                  Collocations are numbered. Definitions come from various sources, and need to be
+                  improved, merged, and even omitted if they are referring to the same sense. Using
+                  all this data, create senses with definitions, distributing collocations and
+                  examples under senses. Provide only numbers of collocations, do not repeat the
+                  entire text of collocations and examples.<lb/>DEFINITIONS:<lb/>COLLOCATIONS AND EXAMPLES:</quote>
+               <p style="text-align: justify;">Odgovori so bili vrnjeni v formatu YAML, sledila je
+                  pretvorba v format JSON. Na podlagi teh podatkov smo za raziskovalne analize in
+                  evalvacijo ustvarili še povzemalno datoteko CSV in Excelovo datoteko z vsemi
+                  zbranimi podatki.</p>
+            </div>
+            <div>
+               <head>Analiza</head>
+               <p style="text-align: justify;">Pri analizi smo preverili tri vidike podatkov,
+                  pridobljenih s ChatGPT: pokritost pomenov v Digitalni slovarski bazi, splošno
+                  ustreznost generiranih gesel in splošno ustreznost generiranih definicij.</p>
+               <p style="text-align: justify;">Analizo pokritosti pomenov je opravil en
+                  slovaropisec, pri čemer je uporabil lestvico od 0 do 5 (0 – ni bil zaznan noben
+                  pomen, neuporabni podatki; 1 – zaznani redki pomeni; 2 – zaznana približno
+                  polovica pomenov; 3 – zaznana več kot polovica pomenov; 4 – zaznani skoraj vsi
+                  pomeni ali pa vsi pomeni, a nekateri le delno; 5 – zaznani vsi pomeni). Morebitne
+                  pomanjkljivosti, kot je pretirano drobljenje pomenov, prekrivnost definicij in
+                  podobno, niso bile upoštevane, zanimalo nas je samo, ali so bili vsi ročno zaznani
+                  pomeni tudi avtomatsko identificirani.</p>
+               <p style="text-align: justify;">Splošno ustreznost generiranih gesel in ustreznost
+                  definicij sta ocenjevala dva slovaropisca. Pri splošni ustreznosti gesel so bila
+                  gesla ocenjena z uporabniškega vidika, torej smiselnosti, razumljivosti in
+                  dodelanosti. Pri ocenjevanju nismo upoštevali primerjav s pomensko členitvijo v
+                  DSB, saj ChatGPT ni dobil podatkov o načelih in pravilih, ki jim pri izdelavi
+                  pomenov sledijo slovaropisci. Uporabljena je bila ocenjevalna lestvica od 0 do
+                  5:</p>
+               <list rend="bulleted">
+                  <item>5 – V celoti je geslo zelo informativno, definicije dobre, pomenska členitev
+                     ustrezna; možne so manjše pomanjkljivosti, npr. napačno razporejen zgled,
+                     slovnična napaka v definiciji ipd.</item>
+                  <item>4 – V celoti je geslo dobro izdelano, je pa pomanjkljivo v enem ali dveh
+                     elementih, npr. neustrezne definicije pri določenih pomenih, več zgledov
+                     napačno razvrščenih, preveč pomenov.</item>
+                  <item>3 – Geslo je dokaj informativno, pomenska členitev deloma neustrezna, a
+                     posreduje relevantne informacije; pomeni se delno prekrivajo, določene
+                     definicije so lahko problematične za razumevanje.</item>
+                  <item>2 – Posamezni pomeni so ustrezni in smiselni, pomenska členitev je pretežno
+                     neustrezna, definicije so prekrivne, možna je neustrezna razdelitev zgledov ali
+                     ubeseditve definicij ipd.</item>
+                  <item>1 – Pomenska členitev je nejasna oz. nelogična, med pomeni je težko ali
+                     nemogoče razlikovati, razporeditev zgledov je neustrezna, ubeseditve definicij
+                     so pretežno neustrezne.</item>
+                  <item>0 – Geslo je povsem neustrezno, npr. ne pojasnjuje besede v iztočnici,
+                     prevladuje tuj jezik, definicije so povsem neustrezne.</item>
+               </list>
+               <p style="text-align: justify;">Tudi pri ocenjevanju ustreznosti definicij smo
+                  uporabili lestvico od 0 do 5, pri čemer nismo upoštevali morebitnih nezaznanih
+                  pomenov, napačno umeščenih zgledov ali soodvisnosti z indikatorji. Uporabljena
+                  lestvica:</p>
+               <list rend="bulleted">
+                  <item>5 – Definicije so dokaj dobro ubesedene in pomeni jasno razločeni (manjše
+                     napake toleriramo).</item>
+                  <item>4 – Ubeseditve definicij so lahko problematične ali pa so pomensko
+                     prekrivne.</item>
+                  <item>3 – Nekatere definicije so slabo ubesedene, prihaja tudi do pomenske
+                     prekrivnosti.</item>
+                  <item>2 – Večina ali vse definicije so slabo ubesedene, nekateri ali vsi pomeni so
+                     prekrivni in slabo razlikovalni.</item>
+                  <item>1 – Večina ali vse definicije so slabo ubesedene, niso razlagalne, pa tudi
+                     med njimi je slaba razlikovalnost.</item>
+                  <item>0 – Definicije pojasnjujejo napačne pomene ali iztočnice.</item>
+               </list>
+            </div>
+            <div>
+               <head>Rezultati</head>
+               <p style="text-align: justify;">Analiza pokritosti generiranih pomenov v Digitalni
+                  slovarski bazi (Tabela 6) je pokazala zmerno dobre rezultate, pri čemer je bila
+                  pri več kot 93 odstotkih iztočnic zaznana polovica ali več pomenov, od tega so
+                  bili pri 57 odstotkih iztočnic zaznani vsi pomeni. V primeru dveh iztočnic (<hi
+                     rend="italic">bakren, padalski</hi>) z oceno 0 je šlo za jasno napako modela,
+                  ki je ponudil podatke za povsem napačno iztočnico.</p>
+               <table>
+                  <head>Tabela 6: Pokritost pomenov v Digitalni slovarski bazi</head>
+                  <row rend="bold">
+                     <cell>Ocena </cell>
+                     <cell>Število iztočnic </cell>
+                     <cell>Odstotek </cell>
+                  </row>
+                  <row>
+                     <cell>5 – zaznani vsi pomeni </cell>
+                     <cell>66 </cell>
+                     <cell>57 </cell>
+                  </row>
+                  <row>
+                     <cell>4 </cell>
+                     <cell>21 </cell>
+                     <cell>18 </cell>
+                  </row>
+                  <row>
+                     <cell>3 </cell>
+                     <cell>21 </cell>
+                     <cell>18 </cell>
+                  </row>
+                  <row>
+                     <cell>2 </cell>
+                     <cell>5 </cell>
+                     <cell>4 </cell>
+                  </row>
+                  <row>
+                     <cell>1 </cell>
+                     <cell>1 </cell>
+                     <cell>1 </cell>
+                  </row>
+                  <row>
+                     <cell>0 – zaznan ni noben pomen </cell>
+                     <cell>2 </cell>
+                     <cell>2 </cell>
+                  </row>
+                  <note n="">Vir: Lastno delo</note>
+               </table>
+               <lb/>
+               <p style="text-align: justify;">Rezultati ocenjevanja splošne ustreznosti gesel,
+                  generiranih s ChatGPT, ki so prikazani v Tabeli 7, kažejo precejšnjo uporabnost
+                  modela, saj je skoraj 80 odstotkov gesel dobilo povprečno oceno 3,5 ali več in 19
+                  odstotkov najvišjo oceno obeh ocenjevalcev. Izračun strinjanja ocenjevalcev sicer
+                  kaže na relativno nizko ujemanje (Krippendorff's Alpha<note place="foot"
+                     xml:id="ftn29" n="25"> Gabriele Marzi, Marco Balzano Marco in Davide Marchiori,
+                     »K-Alpha Calculator – Krippendorff's Alpha Calculator: A User-Friendly Tool for
+                     Computing Krippendorff's Alpha Inter-Rater Reliability Coefficient,« <hi
+                        rend="italic">MethodsX</hi> 12 (2024), 102545, pridobljeno 20. 5. 2025, <ref
+                        target="https://doi.org/10.1016/j.mex.2023.102545"
+                        >https://doi.org/10.1016/j.mex.2023.102545</ref>.</note> (Ordinal Scale):
+                  0.497, Bootstrap Confidence Interval (95% CI): [0.328, 0.631]), vendar pa je pri
+                  šeststopenjski lestvici in številnih elementih ocenjevanja to pričakovano.</p>
+               <table>
+                  <head>Tabela 7: Splošna ustreznost gesel, generiranih s ChatGPT</head>
+                  <row rend="bold">
+                     <cell>Povprečna ocena </cell>
+                     <cell>Število iztočnic </cell>
+                     <cell>Odstotek </cell>
+                  </row>
+                  <row>
+                     <cell>5 </cell>
+                     <cell>22 </cell>
+                     <cell>19 </cell>
+                  </row>
+                  <row>
+                     <cell>4,5 </cell>
+                     <cell>24 </cell>
+                     <cell>20,7 </cell>
+                  </row>
+                  <row>
+                     <cell>4 </cell>
+                     <cell>24 </cell>
+                     <cell>20,7 </cell>
+                  </row>
+                  <row>
+                     <cell>3,5 </cell>
+                     <cell>22 </cell>
+                     <cell>19 </cell>
+                  </row>
+                  <row>
+                     <cell>3 </cell>
+                     <cell>6 </cell>
+                     <cell>5,2 </cell>
+                  </row>
+                  <row>
+                     <cell>2,5 </cell>
+                     <cell>7 </cell>
+                     <cell>6 </cell>
+                  </row>
+                  <row>
+                     <cell>2 </cell>
+                     <cell>8 </cell>
+                     <cell>6,9 </cell>
+                  </row>
+                  <row>
+                     <cell>1 </cell>
+                     <cell>1 </cell>
+                     <cell>0,8 </cell>
+                  </row>
+                  <row>
+                     <cell>0 </cell>
+                     <cell>2 </cell>
+                     <cell>1,7 </cell>
+                  </row>
+                  <note n="">Vir: Lastno delo</note>
+                  <lb/>
+               </table>
+               <lb/>
+            </div>
+            <div>
+               <head style="text-align: justify;">Primeri gesla s povprečno oceno 5:</head>
+               <p style="text-align: justify;">bičati</p>
+               <list>
+                  <item>o fizičnem udarjanju z bičem; Kadar kdo biča nekoga, ga večkrat udari z
+                     bičem, šibo ali palico, da mu povzroči bolečino ali poškodbo.</item>
+                  <item>o kritiziranju ali obsodbi; Kadar kdo biča napake, grehe ali oblast, ostro
+                     kritizira in obsoja ti dve ali osebe.</item>
+                  <item>o udarjanju vremena ali naravnih elementov; Ko naravni elementi, kot sta
+                     veter in dež, bičajo nekaj, to pomeni, da silovito udarjajo nanj.</item>
+               </list>
+            </div>
+            <div>
+               <head style="text-align: justify;">Primer gesla s povprečno oceno 3:</head>
+               <p style="text-align: justify;">vešč</p>
+               <list>
+                  <item>Oseba ali način izvedbe, ki obvlada znanje ali spretnosti; Kdor je vešč
+                     česa, ima znanje in sposobnosti, ki mu omogočajo, da nekaj dela dobro.</item>
+                  <item>Oseba, ki je seznanjena s čim ali ima potrebna sredstva. Če si vešč nečesa,
+                     si s tem seznanjen ali imaš potrebna sredstva, znanje ali pooblastila za
+                     uspešno izvedbo določenega dejanja.</item>
+               </list>
+            </div>
+            <div>
+               <head style="text-align: justify;">Primer gesla s povprečno oceno 2:</head>
+               <p style="text-align: justify;">zatrjevati</p>
+               <list>
+                  <item>dati vtis ali trditi brez dejanske osnove; Ko kdo zatrjuje nekaj, daje vtis,
+                     da ima določene lastnosti ali trdi nekaj, kar je pogosto na neprepričljiv ali
+                     neresničen način.</item>
+                  <item>formalno predstaviti argumente ali trditve v pravnem kontekstu; Ko kdo v
+                     pravnem kontekstu zatrjuje nekaj, formalno predstavi svoje argumente ali
+                     trditve pred sodiščem ali v uradnih dokumentih.</item>
+                  <item>jasno trditi ali potrjevati nekaj; Ko kdo zatrjuje, potrjuje ali jasno
+                     izraža neko trditev ali prepričanje, pogosto z namenom, da prepriča druge, da
+                     je to resnica.</item>
+                  <item>potrditi brez dvoma; Ko nekdo zatrjuje nekaj, to pomeni, da to izjavi z
+                     gotovostjo in brez dvoma, pogosto kot dejstvo.</item>
+                  <item>zagotoviti ali izjaviti nasprotje nečesa drugega; Ko kdo zatrjuje nasprotno,
+                     trdi nekaj, kar je v nasprotju z obstoječimi informacijami ali
+                     prepričanji.</item>
+               </list>
+               <p style="text-align: justify;">Uporabnost modela pri generiranju definicij
+                  potrjujejo tudi rezultati analize splošne ustreznosti generiranih definicij, ki je
+                  podana v Tabeli 8. Kot lahko vidimo, je skoraj 90 odstotkov gesel za ustreznost
+                  definicij dobilo povprečno oceno 3 ali več. Strinjanje ocenjevalcev je bilo tokrat
+                  še nekoliko nižje kot pri ocenjevanju splošne ustreznosti gesel (Krippendorff's
+                  Alpha (Ordinal Scale): 0.395, Bootstrap Confidence Interval (95 % CI): [0.226,
+                  0.547]).</p>
+               <table>
+                  <head>Tabela 8: Splošna ustreznost definicij, generiranih s ChatGPT</head>
+                  <row rend="bold">
+                     <cell>Povprečna ocena </cell>
+                     <cell>Število iztočnic </cell>
+                     <cell>Odstotek </cell>
+                  </row>
+                  <row>
+                     <cell>5 </cell>
+                     <cell>12 </cell>
+                     <cell>10,4 </cell>
+                  </row>
+                  <row>
+                     <cell>4,5 </cell>
+                     <cell>28 </cell>
+                     <cell>24,1 </cell>
+                  </row>
+                  <row>
+                     <cell>4 </cell>
+                     <cell>26 </cell>
+                     <cell>22,4 </cell>
+                  </row>
+                  <row>
+                     <cell>3,5 </cell>
+                     <cell>19 </cell>
+                     <cell>16,4 </cell>
+                  </row>
+                  <row>
+                     <cell>3 </cell>
+                     <cell>18 </cell>
+                     <cell>15,5 </cell>
+                  </row>
+                  <row>
+                     <cell>2,5 </cell>
+                     <cell>5 </cell>
+                     <cell>4,3 </cell>
+                  </row>
+                  <row>
+                     <cell>2 </cell>
+                     <cell>3 </cell>
+                     <cell>2,6 </cell>
+                  </row>
+                  <row>
+                     <cell>1,5 </cell>
+                     <cell>3 </cell>
+                     <cell>2,6 </cell>
+                  </row>
+                  <row>
+                     <cell>0 </cell>
+                     <cell>2 </cell>
+                     <cell>1,7 </cell>
+                  </row>
+                  <note n="">Vir: Lastno delo</note>
+               </table>
+               <lb/>
+            </div>
+            <div>
+               <head>Problemi generiranih podatkov</head>
+               <p style="text-align: justify;">Pri analizi smo opazili nekatere ponavljajoče
+                  probleme v generiranih podatkih. Med najbolj opaznimi je težnja ChatGPT k
+                  pretiranemu drobljenju pomenov. Vendar pa statistični podatki kažejo nekoliko
+                  drugačno sliko, saj je samo pri 25 odstotkih iztočnic (29) ChatGPT zgeneriral več
+                  pomenov, kot jih najdemo v DSB (pri tem je zanimiv podatek, da je med njimi kar
+                  osem od desetih iztočnic v DSB enopomenskih). Podrobnejša analiza je namreč
+                  pokazala, da so bili pri številnih iztočnicah, tudi ko je ChatGPT generiral enako
+                  število ali manj pomenov, kot jih je v DSB, generirani pomeni prekrivni ali skoraj
+                  identični (pri čemer so lahko nekateri drugi pomeni manjkali), kot denimo pri
+                  iztočnici <hi rend="italic">civilist</hi>, kjer je ChatGPT zgeneriral sledeča
+                  pomena:</p>
+               <list>
+                  <item>človek, ki ni vojak; Civilist je človek, ki ni član oboroženih sil.</item>
+                  <item>oseba zunaj vojske; Civilist je oseba, ki ne pripada vojaškim silam in ne
+                     sodeluje v vojaških dejavnostih.</item>
+               </list>
+               <p style="text-align: justify;">V drugih primerih je bila pomenska členitev
+                  prepodrobna, na primer definicije so pojasnjevale posamezno kolokacijo oziroma
+                  njihovo rabo. Dober primer tega je pridevnik <hi rend="italic">kamelji</hi>, ki
+                  ima v DSB štiri pomene, ChatGPT pa jih je zgeneriral kar deset (Tabela 9).</p>
+               <table>
+                  <head>Tabela 9: Pomenska členitev za <hi rend="italic">kamelji, </hi>kot jo je
+                     generiral ChatGPT</head>
+                  <row rend="bold">
+                     <cell>Št. pomena</cell>
+                     <cell>Generirani pomenski indikator</cell>
+                     <cell>Generirana slovarska definicija</cell>
+                  </row>
+                  <row>
+                     <cell>1</cell>
+                     <cell>o barvi ali odtenku; </cell>
+                     <cell>Barva ali odtenek, ki je kamelji, je podobna barvi kamelje dlake.</cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell>o dlaki ali volni;</cell>
+                     <cell>Kar je kamelje, je narejeno iz dlake kamele ali jih kako drugače
+                        vključuje.</cell>
+                  </row>
+                  <row>
+                     <cell>3</cell>
+                     <cell> o festivalih ali dirkah; </cell>
+                     <cell>Dogodek, ki je kamelji, vključuje kamelje dirke ali festivale, povezane s
+                        kamelami.</cell>
+                  </row>
+                  <row>
+                     <cell>4</cell>
+                     <cell> o glavi ali kosteh; </cell>
+                     <cell>Predmeti, ki so kamelji, so narejeni iz delov telesa kamele, kot so glave
+                        ali kosti.</cell>
+                  </row>
+                  <row>
+                     <cell>5</cell>
+                     <cell> o hrani in pijači; </cell>
+                     <cell>Kadar je hrana ali pijača kamelja, je narejena iz kameljih sestavin ali
+                        se nanaša na kamele.</cell>
+                  </row>
+                  <row>
+                     <cell>6</cell>
+                     <cell>o hrbtih; </cell>
+                     <cell>Kar je kamelje, se nanaša na hrbte kamel in njihov specifičen
+                        videz.</cell>
+                  </row>
+                  <row>
+                     <cell>7</cell>
+                     <cell>o mladih ali drugih lastnikih; </cell>
+                     <cell>Kar je kamelje, se nanaša na mlade kamele ali ljudi, ki skrbijo za
+                        kamele.</cell>
+                  </row>
+                  <row>
+                     <cell>8</cell>
+                     <cell>o prevozu in potovanjih; </cell>
+                     <cell>Prevoz, ki je kamelji, vključuje uporabo kamel kot prevozno sredstvo ali
+                        se nanaša na relacije povezane z njimi.</cell>
+                  </row>
+                  <row>
+                     <cell>9</cell>
+                     <cell>o trgovini ali sejmu; </cell>
+                     <cell>Kadar je nekaj kamelje, je povezano z dejavnostmi, povezanimi s prodajo
+                        kamel.</cell>
+                  </row>
+                  <row>
+                     <cell>10</cell>
+                     <cell> o usnju ali koži;</cell>
+                     <cell> Kar je kamelje, je narejeno iz usnja ali kože kamele.</cell>
+                  </row>
+                  <note n="">Vir: Lastno delo</note>
+               </table>
+               <lb/>
+               <p style="text-align: justify;">Druga pogosta težava so bili neprepoznani pomeni, med
+                  katerimi gre pogosto za preneseno rabo. Na primer pri <hi rend="italic">deževati
+                  </hi>je ChatGPT zaznal pomen 'vremenski pojav' in pomen 'padanje predmetov', ne pa
+                  tudi pomena 'nenadna pojavitev velike količine česa' (na primer <hi rend="italic"
+                     >Pritožbe in grožnje zdaj </hi><hi rend="italic bold">dežujejo</hi><hi
+                     rend="italic"> z vseh strani.</hi>).</p>
+               <p style="text-align: justify;">Kot pogosta težava se je izkazala tudi umestitev
+                  zgledov pod pomene, kar je bilo v številnih primerih posledica (hkratne)
+                  neustreznosti pomenske členitve oziroma prekrivnosti generiranih pomenov. Tu smo
+                  prepoznali tako umestitev zgledov pod napačne pomene kot tudi podvajanje pri
+                  umeščanju, tj. umestitev istega zgleda pod več kot en pomen.</p>
+               <p style="text-align: justify;">Čeprav je bila ubeseditev definicij glede na
+                     navodila<note place="foot" xml:id="ftn30" n="26"> Gantar, <hi rend="italic"
+                        >Leksikografski opis slovenščine v digitalnem okolju.</hi>Ustreznost
+                     definicij smo ocenjevali skladno s slovarskimi navodili, ki smo jih oblikovali
+                     pri izdelavi LBS, in sicer smo definicije opredelili ločeno za posamezno
+                     besedno vrsto, pri čemer smo za glagolske pomene preferirali navedbo stavčne
+                     definicije, ki naj vključuje vse ključne skladenjsko-pomenske elemente
+                     posameznega pomena, tj. udeležence in okoliščine kot tudi konotativne in
+                     pragmatične pomenske elemente.</note> celostno gledano precej ustrezna, pa smo
+                  vseeno zaznali kar nekaj primerov problematične ubeseditve. Po eni strani take
+                  definicije niso sledile vzorcem iz sistemskih navodil, bile so tudi predolge ali
+                  zelo kratke. Nekatere so vsebovale slovnične ali skladenjske napake. Naleteli smo
+                  tudi na nekaj primerov neustreznih oziroma napačnih definicij, na primer za pomen
+                  samostalnika <hi rend="italic">kajak</hi>: <hi rend="italic">Ko govorimo o
+                     izposoji ali najemu </hi><hi rend="italic bold">kajakov</hi><hi rend="italic">,
+                     mislimo na možnost, da plovilo najdemo za določeno obdobje proti
+                  plačilu.</hi></p>
+               <p style="text-align: justify;">Med redkejšimi težavami smo zaznali uporabo angleških
+                  indikatorjev in generiranje povsem napačne definicije (za neko drugo
+                  iztočnico).</p>
+            </div>
+            <div>
+               <head>Problemi vhodnih podatkov</head>
+               <p style="text-align: justify;">Analiza rezultatov je pokazala tudi nekatere
+                  pomanjkljivosti vhodnih podatkov, ki so lahko privedli do slabših rezultatov pri
+                  pomenskem členjenju (oblikovanju definicij, razporeditvi kolokacij in zgledov
+                  ipd.). Predvsem gre tu za pomensko ustreznost in kakovost avtomatsko pridobljenih
+                  zgledov. Na primer, pri večpomenskih kolokacijah, ki se potrjujejo z zgledi, se
+                  lahko zgodi, da jih večina potrjuje samo določen pomen. Za drugi pomen, ki mu
+                  pripada enaka kolokacija, pa zgledov ni ali pa jih je malo. Primer tega je
+                  samostalnik <hi rend="italic">agonija </hi>in večpomenska raba številnih kolokacij
+                     (<hi rend="italic">huda agonija, mučna agonija, podaljšati agonijo </hi>ipd.),
+                  pri čemer smo za kar 33 zgledov kolokacij pri pomenu ' umiranja ' ugotovili, da
+                  spadajo v pomen 'težavnega obdobja' (na primer <hi rend="italic">Obljube se niso
+                     izpolnile, letališče pa je zapadlo v še hujšo agonijo.</hi>). To je pomenilo,
+                  da je imel model za pomen 'umiranja' na voljo zelo malo zgledov. Povezana težava
+                  je slaba kakovost nekaterih zgledov, predvsem smo zaznali težavo pomanjkljivega
+                  konteksta ali referenta, na katerega se definicija nanaša. Nekaj primerov:</p>
+               <list>
+                  <item> 1. Sodeč po fotografijah, ki jih prejemamo v uredništvu, so že lepo <hi
+                        rend="bold">košati</hi>. </item>
+                  <item>2. Nekatere so čisto <hi rend="bold">benigne</hi>, nekatere pa ogrožajo celo
+                     človeška življenja. </item>
+                  <item>3. Označujeta jo izviren izraz in bogata <hi rend="bold">barvitost</hi>. </item>
+                  <item>4. So tudi raj za prave <hi rend="bold">gurmane</hi>.</item>
+               </list>
+               <p style="text-align: justify;">Ena od pomanjkljivosti, ki je vplivala na število
+                  zaznanih pomenov pri sicer le nekaj iztočnicah, je bila zastopanost pomenov v
+                  vhodnih podatkih. V nekaterih primerih namreč pomen v DSB še ni imel pripisanih
+                  kolokacij (mogoče so bili v bazi samo zgledi), zato ga tudi ni bilo mogoče
+                  vključiti v vhodne podatke za ChatGPT.</p>
+               <p style="text-align: justify;">Glede definicij, ki smo jih kot vhodne podatke vzeli
+                  iz slovenskega Wordneta in slovarja Bridge, lahko rečemo, da so bile ne glede na
+                  morebitno prekrivnost in deloma slabšo kakovost pogosto v pomoč, saj jih je v
+                  številnih primerih ChatGPT uporabil dobesedno. Pri iztočnicah, za katere nismo
+                  imeli na voljo definicij, nismo opazili izstopajočih značilnosti, saj so bila
+                  generirana gesla različnih ocen splošne ustreznosti, je pa mogoče pomenljiv
+                  podatek, da sta bila med njimi obe problematični iztočnici s popolnoma napačnimi
+                  podatki (<hi rend="italic">bakren </hi>in <hi rend="italic">padalski</hi>)<hi
+                     rend="italic">.</hi></p>
+            </div>
+         </div>
+         <div>
+            <head>Sklep in nadaljnje delo</head>
+            <p style="text-align: justify;">V raziskavi smo preverili, kako uspešen je ChatGPT pri
+               umeščanju sopomenskega gradiva pod besedne pomene in pri generiranju slovarskih
+               gesel. Analizirali smo rezultate razvrščanja 951 sopomenskih kandidatov za 246
+               slovarskih iztočnic ter kakovost generiranih pomenskih členitev in definicij za 116
+               iztočnic.</p>
+            <p style="text-align: justify;">Pri prvem poizkusu je strojni postopek v 41,9 odstotka
+               primerov vrnil rezultate, povsem skladne s slovaropisnimi. Pri drugih iztočnicah, ki
+               so v povprečju kompleksnejše (prinašajo več sopomenskih kandidatov za razvrstitev in
+               več slovarskih pomenov), se pojavljajo odstopanja različnih vrst. Ob odstranjevanju
+               neustreznih sopomenskih kandidatov se sistem razlikuje v 43,5 odstotka analiziranih
+               iztočnic. Večina odstopanj je posledica popustljivosti sistema do sopomenskih
+               kandidatov, ki jih je slovaropisna ekipa odstranila. Ker koncept SSSS načelno teži k
+               širokemu vključevanju gradiva, slovarski vmesnik pa omogoča odziv uporabniške
+               skupnosti na neustrezne kandidate, so ti odstopi manj problematični. V 28,9 odstotka
+               analiziranih iztočnic se pojavijo napačne razporeditve sopomenk pod pomene ali
+               neumestitve sopomenk pod vse ustrezajoče pomene. Ti odstopi so pogostejši pri
+               kompleksnejših geslih, predvidevamo pa, da so vsaj delno (lahko) posledica kratkosti
+               oziroma specifične vloge indikatorjev znotraj DSB, pa tudi specifik korpusnega
+               gradiva, ki v slovaropisnih delotokih pogojuje pomensko členjenje in preverbo
+               sopomenskosti. Natančnejši pregled primerov, v katerih se pojavljajo različna
+               odstopanja, pokaže, da se ChatGPT tudi pri najtežjih primerih ne razlikuje radikalno
+               od slovaropisne presoje, razlike pa so lahko za slovaropisno delo tudi uporabne, saj
+               omogočajo dodatne razmisleke, zlasti pri mejnih primerih. Skleniti je mogoče, da
+               postopek deluje dokaj dobro in ima uporabno vrednost za pohitritev ročnega
+               slovaropisnega dela.</p>
+            <p style="text-align: justify;">V drugem preizkusu smo testirali zmožnost ChatGPT za
+               samostojno izdelavo slovarskih gesel. Analiza kakovosti generiranih gesel kaže, da je
+               sistem zaznal vse pomene v 57 odstotkih primerov, skoraj 80 odstotkov generiranih
+               gesel je doseglo povprečno oceno 3,5 ali več, 19 odstotkov pa najvišjo oceno obeh
+               ocenjevalcev. Pri generiranju pomenov se je kot težava izkazala pretirana
+               granularnost, zlasti kot posledica ponovljenih ali pretirano podrobnih pomenov. Med
+               problematične vidike spadajo tudi neprepoznane prenesene rabe ter težave pri
+               razvrščanju zgledov pod ustrezne pomene. Pri ocenjevanju definicij smo ugotovili, da
+               so bile nekatere neustrezno oblikovane ali premalo informativne, druge so vsebovale
+               slovnične napake, v redkih primerih pa so bile generirane definicije povsem napačne.
+               Kljub temu so v večini primerov definicije sledile pričakovanim smernicam in so bile
+               ocenjene kot uporabne. Podatki kažejo, da so bili rezultati zanesljivejši, kadar so
+               bili vhodni podatki bogatejši, še posebej v primerih, kjer so bile na voljo
+               kakovostne kolokacije in zgledi.</p>
+            <p style="text-align: justify;">Eden izmed ključnih izzivov obeh preizkusov je
+               nepredvidljivost postopka. ChatGPT kot generativni model ne deluje po strogo
+               določenih pravilih strojnega procesiranja podatkov, kar pomeni, da rezultati niso
+               nujno ponovljivi ali povsem razložljivi. Ta značilnost pomembno omejuje domet
+               evalvacijskih raziskav, kot je naša, ne more pa biti razlog, da generativnih
+               tehnologij v slovaropisju ne bi uporabljali in/ali ocenjevali.</p>
+            <p style="text-align: justify;">Prvi korak za nadaljnje delo je s preizkušeno
+               metodologijo pripraviti nove rezultate in testirati, ali delo s strojno predpripravo
+               slovaropisne odločitve dejansko pohitri ali ne. Ker je strojni postopek, ki ga
+               preizkušamo, odvisen od izbranega poziva, vhodnih podatkov in različice uporabljenega
+               sistema, je raziskavo mogoče ponoviti na zmogljivejših različicah ChatGPT ali drugih
+               podobnih sistemih, z nadgrajenimi pozivi in na novem gradivu (na primer za
+               razvrščanje uporabniško dodanih sopomenk ali protipomenk). Jezikoslovno preglednejše
+               in jasnejše rezultate bi lahko dobili, če bi se omejili na homogeno gradivo, denimo
+               celoten razred vrstnih pridevnikov tipa <hi rend="italic">kamelji </hi>(tudi <hi
+                  rend="italic">slonji, krokodilji </hi>itd.) ali glagolov s primerljivimi
+               vezljivostnimi značilnostmi. Preizkusiti pa je mogoče tudi druge naloge v podporo
+               slovaropisnemu delu, tako za urejanje gradiva posameznega slovarja kot povezovanje
+               leksikalnih podatkov iz različnih virov. Z ustreznimi metodološkimi premisleki je
+               mogoče preveriti in vključiti tudi ustvarjalne generativne naloge, kot je denimo
+               predlaganje novih sopomenk in protipomenk za podane iztočnice. V širšem smislu bi
+               bilo zanimivo raziskavam, ki preverjajo razumevanje koncepta sopomenskosti med
+               različnimi uporabniškimi skupinami slovarja,<note place="foot" xml:id="ftn31" n="27">
+                  Gapsa, »But why?? Evaluation of User-Suggested Synonyms in the Thesaurus of Modern
+                  Slovene.«</note> dodati še »razumevanje« pri rabi ChatGPT oziroma umetne
+               inteligence.</p>
+         </div>
+         <div>
+            <head>Zahvala</head>
+            <p style="text-align: justify;">Raziskovalna programa št. P6-0411 (Jezikovni viri in
+               tehnologije za slovenski jezik) in št. P6-0215 (Slovenski jezik – bazične,
+               kontrastivne in aplikativne raziskave) ter raziskovalni projekt Veliki jezikovni
+               modeli za digitalno humanistiko (GC-0002) sofinancira Javna agencija za
+               znanstvenoraziskovalno in inovacijsko dejavnost Republike Slovenije iz državnega
+               proračuna.</p>
+         </div>
+      </body>
+      <back>
+         <div type="bibliogr">
+            <head>Viri in literatura</head>
+            <listBibl>
+               <head>Literatura</head>
+               <bibl><hi rend="italic">Angleško-slovenski slovar Bridge.</hi> 2000. Ljubljana:
+                  Državna založba Slovenje.<anchor xml:id="Hlk175326753"/></bibl>
+               <bibl>Arhar Holdt, Špela, Jaka Čibej, Kaja Dobrovoljc, Polona Gantar, Vojko Gorjanc,
+                  Bojan Klemenc, Iztok Kosem, Simon Krek, Cyprian Laskowski in Marko Robnik-Šikonja.
+                  »Thesaurus of Modern Slovene: By the Community for the Community.« V: <hi
+                     rend="italic">Proceedings of the XVIII EURALEX International Congress,
+                     Lexicography in Global Contexts, 17–21 July 2018, Ljubljana</hi>, ur. Jaka
+                  Čibej, Vojko Gorjanc, Iztok Kosem in Simon Krek, 401–10. Ljubljana: Znanstvena
+                  založba Filozofske fakultete, 2018. Pridobljeno 20. 5. 2025. <ref
+                     target="https://doi.org/10.4312/9789610600961"
+                     >https://doi.org/10.4312/9789610600961</ref>.</bibl>
+               <bibl>Arhar Holdt, Špela, Polona Gantar, Iztok Kosem, Eva Pori, Marko Robnik Šikonja
+                  in Simon Krek. »Thesaurus of Modern Slovene 2.0.« V: <hi rend="italic">Electronic
+                     Lexicography in the 21</hi><hi rend="italic superscript">st</hi><hi
+                     rend="italic"> Century (eLex 2023), Proceedings of the eLex 2023 Conference,
+                     27–29 June 2023</hi>, ur. Marek Medveď, Michal Měchura, Carole Tiberius, Iztok
+                  Kosem, Jelena Kallas, Miloš Jakubíček in Simon Krek, 366–81. Brno: Lexical
+                  Computing CZ, 2023. Pridobljeno 20. 5. 2025. <ref
+                     target="https://elex.link/elex2023/wp-content/uploads/82.pdf"
+                     >https://elex.link/elex2023/wp-content/uploads/82.pdf</ref>.</bibl>
+               <bibl>Bartosz, Ptasznik, Sascha Wolfer in Robert Lew. »A Learners’ Dictionary versus
+                  ChatGPT in Receptive and Productive Lexical Tasks.« <hi rend="italic"
+                     >International Journal of Lexicography</hi> 37, št. 3 (2024): 322–36.
+                  Pridobljeno 20. 5. 2025. <ref target="https://doi.org/10.1093/ijl/ecae011"
+                     >https://doi.org/10.1093/ijl/ecae011</ref>.</bibl>
+               <bibl>de Schryver, Gilles-Maurice. »Generative AI and Lexicography: The Current State
+                  of the Art Using ChatGPT.« <hi rend="italic">International Journal of
+                     Lexicography</hi> 36, št. 4 (2023): 355–87. Pridobljeno 20. 5. 2025. <ref
+                     target="https://doi.org/10.1093/ijl/ecad021"
+                     >https://doi.org/10.1093/ijl/ecad021</ref>.</bibl>
+               <bibl>Gantar, Polona. <hi rend="italic">Leksikografski opis slovenščine v digitalnem
+                     okolju.</hi> 1. izd., elektronska izd. Ljubljana: Znanstvena založba Filozofske
+                  fakultete, 2015. Zbirka Sporazumevanje. Pridobljeno 20. 5. 2025. <ref
+                     target="https://doi.org/10.4312/9789612377922"
+                     >https://doi.org/10.4312/9789612377922</ref>.</bibl>
+               <bibl>Gantar, Polona, Špela Arhar Holdt, Iztok Kosem in Simon Krek. »Sopomenke 2.0 in
+                  Kolokacije 2.0: Novi koraki za slovenske odzivne slovarje.« <hi rend="italic"
+                     >Jezik in slovstvo</hi> 68, št. 4 (2023): 157–75. Pridobljeno 20. 5. 2025. <ref
+                     target="https://doi.org/10.4312/jis.68.4.157-175"
+                     >https://doi.org/10.4312/jis.68.4.157-175</ref>.</bibl>
+               <bibl>Gapsa, Magdalena, Špela Arhar Holdt in Iztok Kosem. »Kako dober je ChatGPT pri
+                  umeščanju sopomenk pod besedne pomene.« V: <hi rend="italic">Jezikovne tehnologije
+                     in digitalna humanistika: Zbornik konference, 19.–20. september 2024,
+                     Ljubljana, Slovenija</hi>, ur. Špela Arhar Holdt in Tomaž Erjavec, 144–62.
+                  Ljubljana: Inštitut za novejšo zgodovino, 2024. Pridobljeno 20. 5. 2025. <ref
+                     target="https://zenodo.org/records/13912515"
+                     >https://zenodo.org/records/13912515</ref>.</bibl>
+               <bibl>Gapsa, Magdalena. »But why?? Evaluation of User-Suggested Synonyms in the
+                  Thesaurus of Modern Slovene.« <hi rend="italic">Lang Resources &amp;
+                     Evaluation</hi> (2025). Pridobljeno 20. 5. 2025. <ref
+                     target="https://doi.org/10.1007/s10579-025-09821-8"
+                     >https://doi.org/10.1007/s10579-025-09821-8</ref>. </bibl>
+               <bibl>Jakubíček, Miloš in Michael Rundell. »The End of Lexicography? Can ChatGPT
+                  Outperform Current Tools for Post-Editing Lexicography?« V: <hi rend="italic"
+                     >Electronic Lexicography in the 21</hi><hi rend="italic superscript">st</hi><hi
+                     rend="italic"> Century (eLex 2023): Proceedings of the eLex 2023
+                     Conference</hi>, ur. Marek Medveď, Michal Měchura, Carole Tiberius, Iztok
+                  Kosem, Jelena Kallas, Miloš Jakubíček in Simon Krek, 518–33. Lexical Computing CZ,
+                  2023. Pridobljeno 20. 5. 2025. <ref
+                     target="https://elex.link/elex2023/wp-content/uploads/102.pdf"
+                     >https://elex.link/elex2023/wp-content/uploads/102.pdf</ref>.</bibl>
+               <bibl>Kosem, Iztok, Simon Krek in Polona Gantar. »Semantic Data Should No Longer
+                  Exist in Isolation: The Digital Dictionary Database of Slovenian.« V: <hi
+                     rend="italic">EURALEX XIX: Congress of the European Association for
+                     Lexicography, Lexicography for Inclusion, 7–9 September 2021, Virtual, Book of
+                     Abstracts</hi>, ur. Zoe Gavriilidou, Lydia Mitits in Spyros Kiosses, 81–83.
+                  Democritus University of Thrace, 2021. Pridobljeno 20. 5. 2025. <ref
+                     target="https://euralex.org/wp-content/uploads/2022/04/ABS2020.pdf"
+                     >https://euralex.org/wp-content/uploads/2022/04/ABS2020.pdf</ref>.</bibl>
+               <bibl>Kosem, Iztok, Husak, Miloš in McCarthy, Diana. »GDEX for Slovene.« V: <hi
+                     rend="italic">Electronic Lexicography in the 21</hi><hi
+                     rend="italic superscript">st</hi><hi rend="italic"> Century: New Applications
+                     for New Users: Proceedings of eLex 2011, 10–12 November 2011, Bled,
+                     Slovenia,</hi> ur. Iztok Kosem in Karmen Kosem, 150–159. Ljubljana: Trojina,
+                  Institute for Applied Slovene Studies, 2011. Pridobljeno 20. 5. 2025. <ref
+                     target="http://www.trojina.si/elex2011/elex2011_proceedings.pdf"
+                     >http://www.trojina.si/elex2011/elex2011_proceedings.pdf</ref>.</bibl>
+               <bibl>Krek, Simon, Cyprian Laskowski in Marko Robnik-Šikonja. »From Translation
+                  Equivalents to Synonyms: Creation of a Slovene Thesaurus Using Word Co-occurrence
+                  Network Analysis.« V: <hi rend="italic">Electronic Lexicography in the 21</hi><hi
+                     rend="italic superscript">st</hi><hi rend="italic"> Century. Proceedings of
+                     eLex 2017 Conference: Lexicography from Scratch,</hi> ur. Iztok Kosem, Carole
+                  Tiberius, Miloš Jakubíček, Jelena Kallas, Simon Krek in Vít Baisa, 93–109. Leiden:
+                  Dutch Language Institute, Lexical Computing CZ s.r.o., Trojina, 2017. Pridobljeno
+                  20. 5. 2025. <ref
+                     target="https://elex.link/elex2017/wp-content/uploads/2017/09/paper05.pdf"
+                     >https://elex.link/elex2017/wp-content/uploads/2017/09/paper05.pdf</ref>.</bibl>
+               <bibl>McKean, Erin in Will Fitzgerald. »The ROI of AI in Lexicography.« <hi
+                     rend="italic">Lexicography</hi> 11, št. 1 (2024): 7–27. Pridobljeno 20. 5.
+                  2025. <ref target="https://utppublishing.com/doi/abs/10.1558/lexi.27569"
+                     >https://utppublishing.com/doi/abs/10.1558/lexi.27569</ref>.</bibl>
+               <bibl>Lew, Robert. »ChatGPT as a COBUILD Lexicographer.« <hi rend="italic">Humanities
+                     and Social Sciences Communications</hi> 10 (2023), Article 704. Pridobljeno 20.
+                  5. 2025. <ref target="https://doi.org/10.1057/s41599-023-02119-6"
+                     >https://doi.org/10.1057/s41599-023-02119-6</ref>.</bibl>
+               <bibl>Marzi, Gabriele, Marco Balzano Marco in Davide Marchiori. »K-Alpha
+                  Calculator—Krippendorff's Alpha Calculator: A User-Friendly Tool for Computing
+                  Krippendorff's Alpha Inter-Rater Reliability Coefficient.« <hi rend="italic"
+                     >MethodsX</hi> 12 (2024), 102545. Pridobljeno 20. 5. 2025. <ref
+                     target="https://doi.org/10.1016/j.mex.2023.102545"
+                     >https://doi.org/10.1016/j.mex.2023.102545</ref>.</bibl>
+               <bibl>Rundell, Michael. »Automating the Creation of Dictionaries: Are We Nearly
+                  There?.« V: <hi rend="italic">Proceedings of the 16th International Conference of
+                     the Asian Association for Lexicography: “Lexicography, Artificial Intelligence,
+                     and Dictionary Users”</hi>, 22–24 June 2023, Seoul, South Korea, 9–17. Yonsei
+                  University, 2023. Pridobljeno 20. 5. 2025. <ref
+                     target="https://www.asialex.org/pdf/Asialex-Proceedings-2023.pdf"
+                     >https://www.asialex.org/pdf/Asialex-Proceedings-2023.pdf</ref>.</bibl>
+               <bibl>Tiberius, Carole, Kris Heylen, Jesse de Does, Bram Vanroy, Vincent Vandeghinste
+                  in Job van Doeselaar. »LLMs and Evidence-based Lexicography.« V: <hi rend="italic"
+                     >Large Language Models and Lexicography, Book of Abstracts, 8</hi><hi
+                     rend="italic superscript">th</hi><hi rend="italic"> October 2024, Cavtat,
+                     Croatia</hi>, ur. Simon Krek, 44–48. 2024. Pridobljeno 25. 1. 2025. <ref
+                     target="https://www.cjvt.si/wp-content/uploads/2024/10/LLM-Lex_2024_Book-of-Abstracts.pdf"
+                     >https://www.cjvt.si/wp-content/uploads/2024/10/LLM-Lex_2024_Book-of-Abstracts.pdf</ref>.</bibl>
+            </listBibl>
+            <listBibl>
+               <head>Spletni viri</head>
+               <bibl>Čibej, Jaka, Luka Terčon, Simon Krek, Andraž Repar, Erik Novak, Polona Gantar,
+                  Iztok Kosem, Špela Arhar Holdt, Kaja Dobrovoljc, Amadea Berginc, Irena Hvala,
+                  Damijan Klement, Manja Kolenc, Ana Močnik, Tina Munda, David Pavlas, Anamari
+                  Pečan, Aleksandra Poljak, Davorin Sečnik, Jure Šešet, Jan Štumberger, Tina Toličič
+                  in Laura Trpin. <hi rend="italic">Open Slovene WordNet OSWN 1.0.</hi> Slovenian
+                  language resource repository CLARIN.SI, 2023. Pridobljeno 20. 5. 2025. <ref
+                     target="http://hdl.handle.net/11356/1888"
+                     >http://hdl.handle.net/11356/1888</ref>.</bibl>
+               <bibl>Kosem, Iztok, Špela Arhar Holdt, Simon Krek, Polona Gantar, Eva Pori, Urška
+                  Kamenšek, Primož Ponikvar, Rebeka Roblek, Jure Šešet, Petra Zaranšek, Karolina
+                  Zgaga, Jaka Čibej, Bojan Klemenc, Cyprian Laskowski, Kaja Dobrovoljc, Vojko
+                  Gorjanc in Nikola Ljubešić. <hi rend="italic">Kolokacijski slovar sodobne
+                     slovenščine.</hi> Ljubljana: Znanstvena založba Filozofske fakultete, 2018–.
+                  Pridobljeno 20. 5. 2025. <ref target="https://viri.cjvt.si/kolokacije/slv/"
+                     >https://viri.cjvt.si/kolokacije/slv/#</ref>.</bibl>
+
+               <bibl>Krek, Simon, Cyprian Laskowski, Marko Robnik-Šikonja, Iztok Kosem, Špela Arhar
+                  Holdt, Polona Gantar, Jaka Čibej, Vojko Gorjanc, Bojan Klemenc in Kaja Dobrovoljc.
+                     <hi rend="italic">Thesaurus of Modern Slovene 1.0.</hi> Repozitorij
+                  raziskovalne strukture CLARIN.SI, 2018. Pridobljeno 20. 5. 2025. <ref
+                     target="http://hdl.handle.net/11356/1166"
+                     >http://hdl.handle.net/11356/1166</ref>.</bibl>
+               <bibl>Krek, Simon, Cyprian Laskowski, Marko Robnik-Šikonja, Iztok Kosem, Špela Arhar
+                  Holdt, Polona Gantar, Jaka Čibej, Vojko Gorjanc, Bojan Klemenc, Kaja Dobrovoljc,
+                  Eva Pori, Rok Roblek in Klemen Zgaga. <hi rend="italic">Thesaurus of Modern
+                     Slovene 2.0.</hi> Repozitorij raziskovalne strukture CLARIN.SI, 2023.
+                  Pridobljeno 20. 5. 2025. <ref target="http://hdl.handle.net/11356/1916"
+                     >http://hdl.handle.net/11356/1916</ref>.</bibl>
+               <bibl>OpenAI. »ChatGPT (veliki jezikovni model).« Pridobljeno 31. 5. 2024. <ref
+                     target="https://chatgpt.com">https://chatgpt.com</ref>.</bibl>
+            </listBibl>
+         </div>
+         <div type="summary">
+            <docAuthor>Špela Arhar Holdt, Magdalena Gapsa, Polona Gantar, Iztok Kosem</docAuthor>
+            <head>THE POTENTIAL OF CHATGPT IN THE DEVELOPMENT OF THE THESAURUS OF MODERN
+               SLOVENE</head>
+            <head>SUMMARY</head>
+            <p style="text-align: justify;">This study examines the potential of ChatGPT-4 to
+               support lexicographic work by evaluating its performance in two tasks: filtering and
+               assigning synonym candidates to their corresponding lexical senses, and generating
+               complete dictionary entries, including sense distinctions, definitions, and usage
+               examples. The evaluation is based on a comparison with expert lexicographic decisions
+               recorded in the Digital Dictionary Database for Slovene. The goal is to determine how
+               closely ChatGPT’s outputs align with established lexicographic practices and to
+               explore whether the model can reliably contribute to streamlining dictionary
+               compilation. By assessing the accuracy and utility of the generated content, the
+               research aims to clarify the practical role large language models might play in
+               digital lexicography.</p>
+            <p style="text-align: justify;">In the first experiment, ChatGPT processed 951 synonym
+               candidates across 246 dictionary entries. The model’s decisions fully matched those
+               of the lexicographers in 41.9 % of the cases, while in 58.1 % of the cases, it made
+               different choices. A key finding was that ChatGPT was more permissive in retaining
+               synonym candidates that experts had excluded. In 14.6 % of the entries, synonyms were
+               assigned to different senses than in the gold standard, and in 19.9 %, expected
+               synonym placements were missing. These differences often stemmed from the complexity
+               of the entries and the brevity or ambiguity of semantic indicators. Despite these
+               issues, the system’s performance suggests that it could serve as a valuable tool for
+               the preliminary classification of synonyms, supporting rather than replacing human
+               judgment.</p>
+            <p style="text-align: justify;">The second experiment assessed ChatGPT’s ability to
+               generate complete dictionary entries for 116 headwords without human input. The model
+               correctly identified all lexical senses in 57 % of cases. Nearly 80 % of the entries
+               received an average quality rating of 3.5 or above, while 19 % were given the highest
+               score by both evaluators. However, several challenges were noted, including excessive
+               granularity in sense division, a tendency to overlook figurative meanings, and
+               occasional mismatches between definitions and examples. Some definitions lacked
+               precision or included minor grammatical errors, though most adhered to conventional
+               lexicographic norms. The quality of the outputs was notably higher when the input
+               data included clear collocations and illustrative examples, confirming the importance
+               of structured input for effective generative processing.</p>
+            <p style="text-align: justify;">A central challenge across both tasks is the
+               unpredictability inherent in generative models such as ChatGPT. Because the model’s
+               outputs are not deterministic, results are not always repeatable or easily
+               interpretable, complicating evaluation and integration into structured editorial
+               workflows. Nevertheless, the findings demonstrate that with proper monitoring and
+               refinement, ChatGPT has real potential to accelerate routine lexicographic tasks.
+               Future work should explore more advanced model versions, improved prompt engineering,
+               and broader applications such as sorting user-submitted content or generating lexical
+               suggestions. With appropriate methodology, ChatGPT could become a valuable tool in
+               lexicography, complementing expert work with increased speed and additional
+               insights.</p>
+         </div>
+         <div type="appendix">
+            <head>PRILOGA 1: Poziv za selekcioniranje sopomenk in razvrščanje pod pomene</head>
+            <p style="text-align: justify;">You are a lexicographer preparing a comprehensive
+               language resource. You work in the Slovenian language. You should respond in the
+               Slovenian language and only provide output that is relevant and valid for
+               Slovenian.</p>
+            <p style="text-align: justify;">You are given a word with its various meanings and its
+               synonyms. Assign given synonyms to suitable meaning from one of the provided ones. </p>
+            <p style="text-align: justify;">Not all meanings have synonyms. One synonym can suit
+               multiple meanings, you can assign it to more than one meaning. You can discard
+               synonyms that are not suitable for any of the meanings. </p>
+            <p style="text-align: justify;">Each prompt represents a word and its synonyms and
+               should be treated as unit. You will provide a response for each unit.</p>
+            <p style="text-align: justify;">Unit “argument” looks like this:<lb/>word:
+               argument<lb/>meanings: <lb/>1. utemeljen razlog<lb/>2. neodvisna
+               spremenljivka<lb/>synonyms: dokazni razlog, neodvisna spremenljivka [matematika],
+               razlaga, utemeljitev, razmišljanje, smerni kot, udeleženska vloga
+               [jezikoslovje]<lb/>Your response should look like this in a valid YAML
+               format:<lb/>word: argument<lb/>meanings:<lb/>- id: 1<lb/>meaning: utemeljen
+               razlog<lb/>synonyms:<lb/>- dokazni razlog<lb/>- utemeljitev<lb/>- razlog<lb/>- id:
+               2<lb/>meaning: neodvisna spremenljivka<lb/>synonyms:<lb/> - neodvisna spremenljivka
+               [matematika]<lb/>discarded_synonyms:<lb/>- razlaga<lb/>- razmišljanje<lb/>- smerni
+               kot<lb/>- udeleženska vloga [jezikoslovje]<lb/>Only answer in YAML format. Write
+               nothing else. <lb/>Izbrani primer za poziv je samostalnik <hi rend="italic"
+                  >adaptacija</hi>, ki prinaša več pomenov, slovarske oznake in primer odstranjenih
+               (ang. <hi rend="italic">discarded</hi>) sopomenskih kandidatov.<lb/>Here is unit
+               “adaptacija”:<lb/>word: adaptacija<lb/>meanings:<lb/>1. prenova stavbe<lb/>2.
+               priredba [v umetnosti]<lb/>3. prilagoditev [ponavadi v športu]<lb/>synonyms:
+               predelava [glasba], priredba [glasba], preureditev, prilagoditev, prenova, aranžma
+               [glasba]<lb/>word: adaptacija<lb/>meanings:<lb/>- id: 1<lb/> meaning: prenova
+               stavbe<lb/> synonyms:<lb/> - preureditev<lb/> - prenova<lb/>- id: 2<lb/> meaning:
+               priredba [v umetnosti]<lb/> synonyms:<lb/> - priredba [glasba]<lb/> - aranžma
+               [glasba]<lb/>- id: 3<lb/> meaning: prilagoditev [ponavadi v športu]<lb/>
+               synonyms:<lb/> - prilagoditev<lb/>discarded_synonyms:<lb/>- predelava [glasba]</p>
+         </div>
+         <div type="appendix">
+            <p style="text-align: justify;">PRILOGA 2: Poziv za generiranje slovarskega gesla</p>
+            <p style="text-align: justify;">You are a lexicographer. The definitions should be
+               written in Slovene, in full-sentence form, as in Cobuild-style. </p>
+            <p style="text-align: justify;">Formats used can be \"Kdor je &lt;adjective&gt;, je...\"
+               or \"Kar je &lt;adjective&gt;, je...\" or \"Kadar je kdo &lt;adjective&gt;, je...\"
+               but other formats can be used. Examples of good definitions: <lb/>Žival, ki je
+               &lt;HH&gt;amfibijska&lt;/HH&gt;, lahko živi tako na kopnem kot v vodi.<lb/>Kar je
+               &lt;HH&gt;krvavo&lt;/HH&gt;, je prekrito s krvjo.<lb/>Kadar je človek
+               &lt;HH&gt;zaskrbljen&lt;/HH&gt;, je zaradi nečesa živčen ali v skrbeh.<lb/>Z besedo
+               &lt;HH&gt;oren&lt;/HH&gt; opisujemo tisto, kar je povezano s pridelovanjem
+               poljščin.<lb/>Kdor je &lt;HH&gt;strasten&lt;/HH&gt; do nečesa, je za to zelo navdušen
+               ali vnet.<lb/>Vozilo, ki je &lt;HH&gt;blindirano&lt;/HH&gt;, ima trd oklep, ki
+               potnike varuje pred morebitnimi streli in izstrelki.<lb/>Podjetje, ki je
+               &lt;HH&gt;multinacionalno&lt;/HH&gt;, ima podružnice v številnih državah.<lb/>Za
+               človeka rečemo, da je &lt;HH&gt;odbijajoč&lt;/HH&gt;, kadar se nam zdi neprijeten in
+               ga ne želimo bolje spoznati.<lb/>Kar je &lt;HH&gt;oljnato&lt;/HH&gt;, je prekrito z
+               oljem ali ga vsebuje.</p>
+            <p style="text-align: justify;">The output should follow this format:<lb/>1. short
+               indicator<lb/>Full sentence-definition<lb/>Numbers of collocations +
+               examples.<lb/>Example for the adjective \"prostaški\":<lb/>1. o
+               komunikaciji<lb/>Govorica, ki je prostaška, vsebuje kletvice ali neotesane
+               besede.<lb/>(5), (8), (14)</p>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Leveraging a Morphological Lexicon for a Semi-Automatic Approach to Correcting
+               Lemmas and Morphosyntactic Tags</title>
+            <author>
+               <forename>Jaka</forename>
+               <surname>Čibej</surname>
+               <roleName>PhD.</roleName>
+               <roleName>Research Associate</roleName>
+               <affiliation>Faculty of Arts, University of Ljubljana</affiliation>
+               <affiliation>Centre for Language Resources and Technologies, University of
+                  Ljubljana</affiliation>
+               <address>
+                  <addrLine>Aškerčeva 2</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <email>jaka.cibej@ff.uni-lj.si</email>
+            </author>
+            <author>
+               <forename>Tina</forename>
+               <surname>Munda</surname>
+               <roleName>Junior Researcher</roleName>
+               <affiliation>Faculty of Arts, University of Ljubljana</affiliation>
+               <affiliation>Centre for Language Resources and Technologies, University of
+                  Ljubljana</affiliation>
+               <address>
+                  <addrLine>Aškerčeva 2</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <address>
+                  <addrLine>Jamova 39</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <email>tina.munda@cjvt.si</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2025-10-29</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+               <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               <address>
+                  <addrLine>Privoz 11</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>https://ojs.inz.si/pnz/article/view/4498</pubPlace>
+            <date>2025</date>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+            <title xml:lang="en">Contributions to Contemporary History</title>
+            <biblScope unit="volume">65</biblScope>
+            <biblScope unit="issue">3</biblScope>
+            <idno type="ISSN">2463-7807</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>No source, born digital.</p>
+         </sourceDesc>
+         <sourceDesc>
+            <p>Converted from a Word document</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc xml:lang="en">
+            <p>Contributions to Contemporary History is one of the central Slovenian scientific
+               historiographic journals, dedicated to publishing articles from the field of
+               contemporary history (the 19th and 20th century).</p>
+            <p>The journal is published three times per year in Slovenian and in the following
+               foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak and
+               Czech. The articles are all published with abstracts in English and Slovenian as well
+               as summaries in English.</p>
+         </projectDesc>
+         <projectDesc xml:lang="sl">
+            <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+               zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+               stoletje).</p>
+            <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+               angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina in
+               češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki v
+               angleščini.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="sl"/>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>lemmatization</term>
+               <term>morphosyntactic tagging</term>
+               <term>training corpora</term>
+               <term>morphological lexicon</term>
+               <term>corpus annotation</term>
+            </keywords>
+            <keywords xml:lang="sl">
+               <term>lematizacija</term>
+               <term>oblikoskladenjsko označevanje</term>
+               <term>govorjena slovenščina</term>
+               <term>korpusi govorjene slovenščine</term>
+               <term>ročno označeni korpusi</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change><date>2026-03-19T13:30:47Z</date>
+               <name>Mihael Ojsteršek</name>
+               <desc>Pretvorba iz DOCX v TEI, dodatno označevanje</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docAuthor>Jaka Čibej<note place="foot" xml:id="ftn1" n="1"><hi rend="bold">Faculty of
+                  Arts, University of Ljubljana; Centre for Language Resources and Technologies,
+                  University of Ljubljana, jaka.cibej@ff.uni-lj.si; ORCID:
+               0000-0002-3037-6848</hi></note></docAuthor>
+         <docAuthor>Tina Munda<note place="foot" xml:id="ftn2" n="2"><hi rend="bold">Centre for
+                  Language Resources and Technologies, University of Ljubljana, tina.munda@cjvt.si;
+                  ORCID: 0009-0001-1152-7823</hi></note></docAuthor>
+         <docImprint>
+            <idno type="cobissType">Cobiss tip: 1.01</idno>
+            <idno type="DOI">https://doi.org/10.51663/pnz.65.3.06</idno>
+         </docImprint>
+         <div type="abstract" xml:lang="sl">
+            <head>IZVLEČEK</head>
+            <head>UPORABA OBLIKOSLOVNEGA LEKSIKONA PRI POLAVTOMATSKEM PRISTOPU K POPRAVLJANJU LEM IN
+               OBLIKOSKLADENJSKIH OZNAK</head>
+            <p style="text-align: justify;"><hi rend="italic">V prispevku predstavljamo nov
+                  polavtomatski pristop k popravljanju lem in oblikoskladenjskih oznak. Za razliko
+                  od predhodnih pristopov k ročnemu označevanju slovenskih korpusov nova metoda
+                  vsebuje dodaten korak, v katerem pojavnice ter njihove strojno pripisane leme in
+                  oblikoskladenjske oznake navzkrižno primerjamo z naborom oblik v Slovenskem
+                  oblikoslovnem leksikonu Sloleks. Na podlagi primerjave vsako pojavnico uvrstimo v
+                  enega od označevalnih scenarijev. Novi pristop občutno zmanjša količino časa in
+                  sredstev, ki jih je treba vložiti v označevanje, tako da odstrani veliko število
+                  odvečnih označevalnih nalog. Med prednostmi te metode je tudi možnost, da
+                  označevalne naloge razdelimo v sklope s podobnimi označevalnimi problemi (npr.
+                  razločevanje slovničnih enakopisnic). Ob ustrezni pripravi podatkov lahko metoda
+                  tudi drastično zmanjša potrebo po tem, da se označevalci seznanijo z obširnim
+                  označevalnim sistemom Multext-East za slovenščino, kar je v sorodnih označevalnih
+                  kampanjah predstavljalo ozko grlo. Metodo smo preizkusili med označevanjem Učnega
+                  korpusa govorjene slovenščine ROG. Algoritem pripisovanja označevalnih scenarijev
+                  preizkusimo tudi na Učnem korpusu pisne slovenščine SUK, ki je bil označen s
+                  tradicionalnim označevalnim pristopom (poved za povedjo, pojavnica za pojavnico).
+                  Predstavimo rezultate primerjave in zagovarjamo, da bi bilo metodo treba uporabiti
+                  pri prihodnjih označevalnih kampanjah, da z njo prihranimo čas in stroške ter
+                  nasploh izboljšamo doslednost označevanja, pri čemer razpravljamo tudi o nekaterih
+                  slabostih in pasteh predlaganega pristopa. </hi></p>
+            <p><hi rend="italic">Ključne besede: lematizacija, oblikoskladenjsko označevanje,
+                  govorjena slovenščina, korpusi govorjene slovenščine, ročno označeni
+               korpusi</hi></p>
+         </div>
+         <div type="abstract" xml:lang="en">
+            <head>ABSTRACT</head>
+            <p style="text-align: justify;"><hi rend="italic">In the paper, we present a new
+                  semi-automatic approach to correcting lemmas and morphosyntactic tags. Unlike
+                  previous manual annotation approaches for Slovene corpora, the new method contains
+                  an additional step in which tokens and their automatically assigned lemmas and
+                  morphosyntactic tags are cross-referenced with the set of forms included in the
+                  Sloleks Morphological Lexicon of Slovene. Based on the comparison, each token is
+                  classified into one of several annotation scenarios. The new approach has
+                  noticeably reduced the time and resources invested into annotation by eliminating
+                  a large number of redundant tasks. The advantages of this method include the
+                  possibility of dividing annotation tasks into groups consisting of similar
+                  annotation problems (e.g. disambiguation of grammatical homographs). With adequate
+                  data preparation, it also drastically reduces the necessity for annotators to be
+                  familiar with the extensive Multext-East morphosyntactic tag set for Slovene, a
+                  restriction that created a bottleneck in the annotation process in similar
+                  annotation campaigns. The method was tested during the annotation process for the
+                  ROG Training Corpus of Spoken Slovene. In addition, we also test the scenario
+                  classification algorithm on the SUK Training Corpus of Written Slovene, which was
+                  annotated using the traditional sentence-by-sentence, token-by-token approach. We
+                  present the results and argue that the method should be used in future annotation
+                  campaigns to save resources and improve overall annotation consistency, while also
+                  discussing some of the caveats and disadvantages of the proposed
+               approach.</hi></p>
+            <p style="text-align: justify;"><hi rend="italic">Keywords: lemmatization,
+                  morphosyntactic tagging, training corpora, morphological lexicon, corpus
+                  annotation</hi></p>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>Introduction</head>
+            <p style="text-align: justify;">The latest tools and models for lemmatization and
+               morphosyntactic tagging of Slovene have achieved impressive results, with the latest
+               performances of CLASSLA-Stanza<note place="foot" xml:id="ftn3" n="1"> Nikola Ljubešić
+                  and Kaja Dobrovoljc, "What does Neural Bring? Analysing Improvements in
+                  Morphosyntactic Annotation and Lemmatisation of Slovenian, Croatian and Serbian,"
+                     <hi rend="italic">Proceedings of the 7</hi><hi rend="italic superscript"
+                     >th</hi><hi rend="italic"> Workshop on Balto-Slavic Natural Language
+                     Processing</hi> (Florence, Italy: Association for Computational Linguistics,
+                  2019), 29–34.</note> amounting to an F1-score of 99.11 for lemmatization<note
+                  place="foot" xml:id="ftn4" n="2"> Luka Terčon, Jaka Čibej, and Nikola Ljubešić,
+                  "The CLASSLA-Stanza model for lemmatisation of standard Slovenian 2.0," <hi
+                     rend="italic">Slovenian language resource repository CLARIN.SI</hi>, ISSN
+                  2820-4042 (2023), http://hdl.handle.net/11356/1768.</note> and 98.27 for
+               morphosyntactic tagging.<note place="foot" xml:id="ftn5" n="3"> Nikola Ljubešić, Luka
+                  Terčon, and Jaka Čibej, "The CLASSLA-Stanza model for morphosyntactic annotation
+                  of standard Slovenian 2.0," <hi rend="italic">Slovenian language resource
+                     repository CLARIN.SI</hi>, ISSN 2820-4042 (2023),
+                  http://hdl.handle.net/11356/1767.</note> However, automatic processing is not
+               sufficient when compiling high-quality training corpora or other benchmark datasets.
+               Manual corrections are required, particularly if the models are applied to texts of a
+               different genre or medium compared to what the models were trained on. The
+               CLASSLA-Stanza models for Slovene were trained mostly on written texts, so their
+               application on transcriptions of spoken Slovene yields less accurate results. </p>
+            <p style="text-align: justify;">In recent years, two projects have highlighted the need
+               for a high-quality training corpus dedicated to spoken Slovene, similar to the <hi
+                  rend="italic">SUK Training Corpus of Written Slovene</hi>.<note place="foot"
+                  xml:id="ftn6" n="4"> Špela Arhar Holdt, Simon Krek, Kaja Dobrovoljc, Tomaž
+                  Erjavec, Polona Gantar, Jaka Čibej et al., "Training corpus SUK 1.1," <hi
+                     rend="italic">Slovenian language resource repository CLARIN.SI</hi>, ISSN
+                  2820-4042 (2024), http://hdl.handle.net/11356/1959.</note> The MEZZANINE<note
+                  place="foot" xml:id="ftn7" n="5"> MEZZANINE (<hi rend="italic">Basic Research for
+                     the Development of Spoken Language Resources and Speech Technologies for the
+                     Slovenian Language</hi>, J7-4642, 2022–2025), <ref
+                     target="https://mezzanine.um.si/">https://mezzanine.um.si/</ref>.</note>
+               project focuses on the development of open-access resources for spoken Slovene. Among
+               other goals, the project aims to provide datasets annotated with speech acts and
+               disfluencies. At the same time, one of the goals of the SPOT<note place="foot"
+                  xml:id="ftn8" n="6"> SPOT (<hi rend="italic">Treebank-Driven Approach to the Study
+                     of Spoken Slovenian</hi>, Z6-4617; 2022–2024),
+                  https://spot.ff.uni-lj.si/.</note> project<note place="foot" xml:id="ftn9" n="7">
+                  Kaja Dobrovoljc, "Skladenjska drevesnica govorjene slovenščine: stanje in
+                  perspektive," <hi rend="italic">Stanje in perspektive uporabe govornih virov v
+                     raziskavah govora</hi> (2024): 41–62.</note> is to compile a corpus of spoken
+               Slovene manually annotated with dependency relations. The joint efforts of both
+               projects thus jumpstarted the compilation of the ROG Training Corpus of Spoken
+                  Slovene.<note place="foot" xml:id="ftn10" n="8"> Darinka Verdonik, Kaja
+                  Dobrovoljc, Peter Rupnik, Nikola Ljubešić, Simona Majhenič, Jaka Čibej, and Thomas
+                  Schmidt, "Training corpus of spoken Slovenian ROG 1.0," <hi rend="italic"
+                     >Slovenian language resource repository CLARIN.SI</hi>, ISSN 2820-4042, (2024),
+                  http://hdl.handle.net/11356/1992.</note> However, the compilation of a training
+               corpus of spoken Slovene along the lines of SUK requires manual corrections of
+               annotations for lemmas and morphosyntactic tags, which can be a cumbersome and
+               complex task that traditionally requires a large investment in time and resources
+               with a relatively low cost-benefit (more on this in Section 2), even despite the fact
+               that the planned size of ROG was relatively manageable (100,000 tokens in ROG
+               compared to 1,000,000 tokens in SUK).</p>
+            <p style="text-align: justify;">To facilitate the annotation process, a new method was
+               developed. It adds an additional preprocessing phase before manual annotation: all
+               tokens are first cross-referenced with the <hi rend="italic">Sloleks Morphological
+                  Lexicon of Slovene</hi>.<note place="foot" xml:id="ftn11" n="9"> Jaka Čibej, Kaja
+                  Gantar, Kaja Dobrovoljc, Simon Krek, Peter Holozan, Tomaž Erjavec et al.,
+                  "Morphological lexicon Sloleks 3.0," <hi rend="italic">Slovenian language resource
+                     repository CLARIN.SI</hi> (2022), http://hdl.handle.net/11356/1745.</note> The
+               annotation data is then divided into several packages that focus on similar
+               annotation problems (e.g. discrimination between different cases). This approach
+               drastically accelerates the annotation process, improves the consistency of
+               annotation decisions, and reduces the number of redundant reviews (e.g. by skipping
+               unambiguous units) and total annotation costs.</p>
+            <p style="text-align: justify;">This paper is an extended version of a previous paper in
+                  Slovene.<note place="foot" xml:id="ftn12" n="10"> Jaka Čibej and Tina Munda,
+                  "Metoda polavtomatskega popravljanja lem in oblikoskladenjskih oznak na primeru
+                  učnega korpusa govorjene slovenščine ROG," <hi rend="italic">Language technologies
+                     and digital humanities: proceedings of the conference</hi>: 19-20 September
+                  2022 (Ljubljana, Slovenia, 2024), 66–86.</note> In this version, we provide a more
+               detailed description of the approach (Section 3). We focus less on the
+               Slovene-specific dilemmas and more on the general benefit of the method to make the
+               approach more understandable for the international audience. In addition to the
+               evaluations of the method originally performed on the <hi rend="italic">ROG Training
+                  Corpus of Spoken Slovene</hi>, we also evaluate the method on the <hi
+                  rend="italic">SUK Training Corpus of Written Slovene</hi> (Section 4.2) to confirm
+               that the method is reliable enough for other potential benchmark datasets. We also
+               perform a more in-depth analysis on the unambiguous tokens from ROG (Section 5),
+               which were skipped in the original paper. We take the first steps toward a more
+               fine-grained analysis of different annotation tasks in terms of their complexity and
+               annotation difficulty (Section 6). </p>
+            <p style="text-align: justify;">The paper is structured as follows: in Section 2, we
+               provide a short overview of related work and describe the experience of past
+               annotation campaigns. In Section 3, we present the new semi-automatic approach and
+               the manner of categorizing tokens by annotation scenarios. We continue by describing
+               the data preparation and annotation phases, as well as the evaluation of the method
+               on both ROG and SUK datasets (Section 4). In Section 5 we describe the results of the
+               annotation on the ROG dataset and compare them with the results of the evaluation. In
+               Section 6, we describe the most frequent annotation tasks in terms of their
+               complexity. We conclude the paper in Section 7 with plans for future work.</p>
+         </div>
+         <div>
+            <head>Related Work</head>
+            <p style="text-align: justify;">The most extensive annotation campaigns on the levels of
+               lemmas and morphosyntactic tags for Slovene were carried out for the training sets
+                  JANES-Tag<note place="foot" xml:id="ftn13" n="11"> Tomaž Erjavec, Darja Fišer,
+                  Jaka Čibej, and Špela Arhar Holdt, "CMC training corpus JANES-Tag 1.1," <hi
+                     rend="italic">Slovenian language resource repository CLARIN.SI</hi> (2016b),
+                  http://hdl.handle.net/11356/1081.</note> and JANES-Norm<note place="foot"
+                  xml:id="ftn14" n="12"> Tomaž Erjavec, Darja Fišer, Jaka Čibej, and Špela Arhar
+                  Holdt, "CMC training corpus JANES-Norm 1.2," <hi rend="italic">Slovenian language
+                     resource repository CLARIN.SI</hi> (2016a),
+                  http://hdl.handle.net/11356/1084.</note> as part of the JANES project,<note
+                  place="foot" xml:id="ftn15" n="13"> Darja Fišer, Nikola Ljubešić, and Tomaž
+                  Erjavec, "The JANES Project: Language Resources and Tools for Slovene
+                  User-Generated Content," <hi rend="italic">Language Resources Evaluation </hi>54
+                  (2020): 223–46.</note> and the SUK 1.0 Training Corpus of Slovene<note
+                  place="foot" xml:id="ftn16" n="14"> Arhar Holdt, Krek, Dobrovoljc, Erjavec,
+                  Gantar, Čibej et al., "Training corpus SUK 1.1."</note> and its subcorpora, such
+               as SentiCoref.<note place="foot" xml:id="ftn17" n="15"> Eva Pori, Jaka Čibej, Tina
+                  Munda, Luka Terčon, and Špela Arhar Holdt, "Lematizacija in oblikoskladenjsko
+                  označevanje korpusa SentiCoref," <hi rend="italic">Konferenca Jezikovne
+                     tehnologije in digitalna humanistika</hi> (2022): 162–68.</note></p>
+            <p style="text-align: justify;">In both campaigns, the annotation process was similar:
+               the texts were first automatically tokenized, segmented into sentences,
+               morphosyntactically tagged and lemmatized. Automatic annotations were then manually
+               corrected by a group of annotators and checked by curators who accepted the final
+               decisions. The campaigns from the JANES project used the WebAnno annotation platform,
+                  <note place="foot" xml:id="ftn18" n="16"> Richard Eckart de Castilho, Éva
+                  Mújdricza-Maydt, Seid Muhie Yimam, Silvana Hartmann, Iryna Gurevych, Anette Frank,
+                  and Chris Biemann, "A Web-based Tool for the Integrated Annotation of Semantic and
+                  Syntactic Structures," <hi rend="italic">Proceedings of the Workshop on Language
+                     Technology Resources and Tools for Digital Humanities (LT4DH)</hi> (Osaka,
+                  Japan: The COLING 2016 Organizing Committee, 2016), 76–84.</note> which allows for
+               multiple annotations of the same text by different annotators and facilitates
+               curation in examples of disagreement. For the subcorpora of SUK 1.0, the annotation
+               process took place in Google Sheets.</p>
+            <p style="text-align: justify;">Both the SUK and JANES campaigns were large-scale and
+               required a great deal of organization and resources in terms of time and human input.
+               The corrections of tokenization, sentence segmentation and normalization of the first
+               part of the JANES-Norm corpus included a total of 11 annotators and took 7 weeks to
+               complete, <note place="foot" xml:id="ftn19" n="17"> Jaka Čibej, Darja Fišer, and
+                  Tomaž Erjavec, “Normalisation, Tokenisation and Sentence Segmentation of Slovene
+                  Tweets,” <hi rend="italic">Normalisation and Analysis of Social Media Texts
+                     (NORMSOME) – LREC 2016</hi> (2016): 5–10.</note> with a total of 270 hours of
+               annotator work and an additional 45 hours of curation. Lemmatization and
+               morphosyntactic tags for JANES-Tag (also with 11 annotators) was carried out between
+               March 2016 and October 2016.<note place="foot" xml:id="ftn20" n="18"> Jaka Čibej,
+                  Špela Arhar Holdt, Darja Fišer, and Tomaž Erjavec, “Ročno označeni korpusi JANES
+                  za učenje jezikovnotehnoloških orodij in jezikoslovne raziskave,” <hi
+                     rend="italic">Viri, orodja in metode za analizo spletne slovenščine
+                  </hi>(2018), 44–73.</note> Correcting the SUK corpus<note place="foot"
+                  xml:id="ftn21" n="19"> Špela Arhar Holdt, Jaka Čibej, Kaja Dobrovoljc, Tomaž
+                  Erjavec, Polona Gantar, Simon Krek et al., "Nadgradnja učnega korpusa ssj550k v
+                  SUK 1.0," <hi rend="italic">Razvoj slovenščine v digitalnem okolju </hi>(2023):
+                  119–56.</note> with 24 annotators took approximately 4 months. A significant
+               factor contributing to the length of both campaigns was annotator training, which
+               particularly in the case of the Multext-East v6 (MTE-6)<note place="foot"
+                  xml:id="ftn22" n="20"> Multext East v6 Morphosyntactic Specifications for Slovene:
+                  https://nl.ijs.si/ME/V6/msd/html/msd-sl.html.</note> morphosyntactic annotation
+               scheme for Slovene requires much preparation and is the reason for a steep learning
+               curve for new annotators. Controlling inter-annotator agreement and curating the
+               final decisions also prolong the process.</p>
+            <p style="text-align: justify;">All the listed campaigns implemented the approach of
+               correcting individual sequential tokens in the text, which is cognitively taxing
+               especially for morphosyntactic annotation, as it requires the annotators to mentally
+               switch between varying problems depending on the part-of-speech of the relevant
+               token. The SentiCoref annotation campaign<note place="foot" xml:id="ftn23" n="21">
+                  Pori, Čibej, Munda, Terčon, and Arhar Holdt, "Lematizacija in oblikoskladenjsko
+                  označevanje korpusa SentiCoref." </note> decided to alleviate this by dividing the
+               annotators into separate groups, each dedicated to the annotation of different
+               parts-of-speech.</p>
+            <p style="text-align: justify;">The results of the most recent annotation campaign as
+               part of the RSDO project<note place="foot" xml:id="ftn24" n="22"> Arhar Holdt, Čibej,
+                  Dobrovoljc, Erjavec, Gantar, Krek et al., "Nadgradnja učnega korpusa."</note> have
+               shown that the accuracy of automatic annotations for Slovene is high enough to forego
+               comprehensive manual reviews and instead rely on semi-automatic approaches that focus
+               on the most problematic annotation dilemmas. For instance, in the SentiCoref corpus,
+               the lemmas of only 1.3% of all tokens were corrected (which is in line with the
+               expected accuracy of the lemmatization model), and only 2.9% of all automatic
+               morphosyntactic tags were changed. The analysis of these corrections has also shown
+               that approximately 25% of all corrections can be attributed to problems
+               discriminating between common and proper nouns ( <hi rend="italic">Delo</hi> vs. <hi
+                  rend="italic">delo</hi>) and disambiguating grammatical homographs (e.g. between
+               the accusative and nominative cases with inanimate masculine nouns).</p>
+         </div>
+         <div>
+            <head>Methodology</head>
+            <p style="text-align: justify;">The new annotation process is based on the <hi
+                  rend="italic">Sloleks Morphological Lexicon of Slovene</hi>. In our research, we
+               used version 3.0,<note place="foot" xml:id="ftn25" n="23"> Čibej, Gantar, Dobrovoljc,
+                  Krek, Holozan, Erjavec et al., "Morphological lexicon Sloleks 3.0."</note>
+               particularly the approximately 100,800 manually validated lexemes (their cca.
+               2,800,000 inflected forms). The <hi rend="italic">Sloleks</hi> lexicon forms the
+               morphological part of the <hi rend="italic">Digital Dictionary Database of
+                  Slovene</hi><note place="foot" xml:id="ftn26" n="24"> Iztok Kosem, Simon Krek, and
+                  Polona Gantar, "Semantic data should no longer exist in isolation: the digital
+                  dictionary database of Slovenian," <hi rend="italic">Proceedings of the XIX
+                     EURALEX International Congress: Lexicography for Inclusion</hi>. (2021),
+                  81–83.</note> and is the largest open-access machine-readable database of Slovene
+               words. For each lexeme in the lexicon (e.g. <hi rend="italic">miza</hi> 'table'), all
+               its forms (inflected by case, number, tense, etc.) are listed as well (e.g. <hi
+                  rend="italic">mize</hi> – genitive singular, <hi rend="italic">mizi</hi> – dative
+               singular, <hi rend="italic">mizo</hi> – accusative singular), along with their
+               corresponding morphosyntactic tags using the Multext-East v6 (MTE-6) system. In
+               MTE-6, all morphosyntactic features for a given word are listed in a string of
+               symbols (e.g. <hi rend="italic">Sozei</hi> – <hi rend="italic">samostalnik</hi>
+               'noun', <hi rend="italic">občni</hi> 'common', <hi rend="italic">ženski</hi> spol
+               'feminine', <hi rend="italic">ednina</hi> 'singular', <hi rend="italic"
+                  >imenovalnik</hi> 'nominative').</p>
+            <p style="text-align: justify;">The proposed method is based on two basic assumptions:
+               (1) for certain tokens in a given corpus, no manual validation of automatic lemmas
+               and morphosyntactic tags is required as these tokens are unambiguous in the lexicon;
+               (2) for some tokens, only lemmas or only morphosyntactic tags need to be manually
+               validated, and even in that case, the set of potential annotation options according
+               to the lexicon is limited. Instead of approaching the annotation completely from
+               scratch for each token, a cross-comparison with the lexicon allows the annotator to
+               select from e.g. a set of three options among morphosyntactic tags instead of the
+               full set of approximately 1,900 tags. </p>
+            <p style="text-align: justify;">The new approach cross-references each token with the
+               forms in the lexicon and checks the following criteria: (a) is the form present in
+               the lexicon? (b) can the analyzed form be assigned a single lemma or multiple
+               different lemmas according to the lexicon? (c) can the combination of the form and
+               the lemma be assigned a single morphosyntactic tag or multiple different
+               morphosyntactic tags according to the lexicon?</p>
+            <p style="text-align: justify;">Based on the results of the cross-reference, the
+               algorithm assigns a specific annotation scenario to each token. The set of different
+               annotation scenarios is shown in Table 1, and each scenario is described in more
+               detail in the following section.</p>
+            <table>
+               <head>Table 1: Annotation scenarios</head>
+               <row>
+                  <cell style="text-align: left;"><hi rend="bold">Scenario</hi></cell>
+                  <cell style="text-align: left;"><hi rend="bold">Description</hi></cell>
+                  <cell style="text-align: left;"><hi rend="bold">Example</hi></cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">1.1.1</cell>
+                  <cell style="text-align: left;">single form, single lemma, single tag</cell>
+                  <cell style="text-align: left;"><hi rend="italic">zdaj</hi> – <hi rend="italic"
+                        >zdaj</hi> – Rsn</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">1.1.2</cell>
+                  <cell style="text-align: left;">single form, single lemma, multiple tag
+                     options</cell>
+                  <cell style="text-align: left;"><hi rend="italic">slik</hi> – <hi rend="italic"
+                        >slika</hi> – Sozdr|Sozmr</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">1.2</cell>
+                  <cell style="text-align: left;">single form, multiple lemma options</cell>
+                  <cell style="text-align: left;"><hi rend="italic">lahko</hi> – <hi rend="italic"
+                        >lahek</hi>|<hi rend="italic">lahko</hi></cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">1.2.1</cell>
+                  <cell style="text-align: left;">single form, disambiguated lemma, single
+                     tag</cell>
+                  <cell style="text-align: left;"><hi rend="italic">lahko</hi> – <hi rend="italic"
+                        >lahko</hi> – Rsn</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">1.2.2</cell>
+                  <cell style="text-align: left;">single form, disambiguated lemma, multiple tag
+                     options</cell>
+                  <cell style="text-align: left;"><hi rend="italic">lahko</hi> – <hi rend="italic"
+                        >lahek</hi> – Ppnzet|Ppnzeo|Ppnsei</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">2.1</cell>
+                  <cell style="text-align: left;">the form is not present in the lexicon, but the
+                     lemma is</cell>
+                  <cell style="text-align: left;">/</cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">2.2</cell>
+                  <cell style="text-align: left;">neither the form nor the lemma is present in the
+                     lexicon; the token needs to be annotated entirely manually</cell>
+                  <cell style="text-align: left;"><hi rend="italic">hozentregerji</hi></cell>
+               </row>
+               <row>
+                  <cell style="text-align: left;">0</cell>
+                  <cell style="text-align: left;">unclassified token</cell>
+                  <cell style="text-align: left;">e.g. punctuation, symbols</cell>
+               </row>
+               <note n="">Source: Own work</note>
+            </table>
+            <lb/>
+            <div>
+               <head>Annotation Scenarios</head>
+               <p style="text-align: justify;">Scenario 1.1.1 includes tokens which according to the
+                  lexicon can be assigned an unambiguous lemma and a single unambiguous
+                  morphosyntactic tag. For instance, the form <hi rend="italic">zdaj</hi> 'now' only
+                  occurs in the lexicon with the lemma <hi rend="italic">zdaj</hi> and the
+                  morphosyntactic tag <hi rend="italic">Rsn</hi> (adverb, general, positive), so no
+                  further disambiguation is required.</p>
+               <p style="text-align: justify;">In scenario 1.1.2, the combination of the form and
+                  the lemma is unambiguous but can be assigned one of multiple morphosyntactic tags.
+                  For instance, the form <hi rend="italic">slik</hi> only occurs under the lemma <hi
+                     rend="italic">slika</hi> 'image' but is a grammatical homograph with either the
+                  tag <hi rend="italic">Sozdr</hi> (noun, common, feminine, dual number, genitive
+                  case) or <hi rend="italic">Sozmr</hi> (noun, common, feminine, plural number,
+                  genitive case). The annotation task can thus be limited to the disambiguation
+                  between the differing morphosyntactic features (dual vs. plural number).</p>
+               <p style="text-align: justify;">Scenario 1.2 is only the first step in a chain that
+                  includes subscenarios. Scenario 1.2 contains tokens that first require the lemma
+                  to be disambiguated; after that, the morphosyntactic tag may require
+                  disambiguation as well. For instance, the form <hi rend="italic">lahko</hi> can be
+                  lemmatized either as <hi rend="italic">lahko</hi> 'may, can' (adverb) or <hi
+                     rend="italic">lahek</hi> 'light, easy' (adjective). If the lemma is
+                  disambiguated as <hi rend="italic">lahko</hi> in 1.2, the combination of form and
+                  lemma (<hi rend="italic">lahko</hi> – <hi rend="italic">lahko</hi>) is then again
+                  cross-referenced with the lexicon; the algorithm classifies it as scenario 1.2.1,
+                  where no further disambiguation of the morphosyntactic tag is required: the form
+                     <hi rend="italic">lahko</hi> with the lemma <hi rend="italic">lahko</hi> only
+                  occurs with the tag <hi rend="italic">Rsn</hi> (adverb, general, positive). On the
+                  other hand, if the lemma is disambiguated as <hi rend="italic">lahek</hi> in 1.2,
+                  the second cross-reference categorizes it as part of scenario 1.2.2: the
+                  combination of the form <hi rend="italic">lahko</hi> and the lemma <hi
+                     rend="italic">lahek</hi> is a grammatical homograph and can be assigned one of
+                  four morphosyntactic tags (<hi rend="italic">Ppnzet</hi>, <hi rend="italic"
+                     >Ppnzeo</hi>, <hi rend="italic">Ppnsei</hi>, <hi rend="italic">Ppnset</hi>),
+                  which differ in gender (feminine vs. neuter) and case (accusative vs. instrumental
+                  vs. nominative).</p>
+               <p style="text-align: justify;">Scenario 2.1 is unlikely when processing
+                  automatically annotated data but is useful for consistency checks after manual
+                  annotation. It contains tokens where forms are not present in the lexicon, but the
+                  assigned lemma is. This occurs either with typos or legitimate variant forms that
+                  are not included in the current version of the lexicon. No such examples were
+                  found during our analysis.</p>
+               <p style="text-align: justify;">Scenario 2.2 is the only scenario that requires
+                  entirely manual annotation with no automatic suggestions, as it contains tokens
+                  where neither the form nor the lemma are included in the lexicon. An example from
+                  the <hi rend="italic">ROG Training Corpus of Spoken Slovene</hi> is the form <hi
+                     rend="italic">hozentregerji</hi> 'suspenders', a noun that is typically used
+                  only in colloquial (non-standard) Slovene and is absent from the current version
+                  of the morphological lexicon, which is based mostly on data from corpora of
+                  written standard Slovene.</p>
+               <p style="text-align: justify;">The last of the top-level scenarios is 0, which
+                  contains tokens that require no manual annotation (such as punctuation symbols).
+                  In addition to the main annotation scenarios, it should be noted that the set also
+                  includes a number of subscenarios for 1.1.1, 1.1.2, 1.2.1, and 1.2.2. Two
+                  additional subcategories exist: M (for mismatch) and L (for lowercase), resulting
+                  in subscenarios such as 1.1.1.M, 1.1.1.L, and 1.1.2.M.</p>
+               <p style="text-align: justify;">The L subcategories are equal to their parent
+                  scenarios in terms of criteria, the only difference being that the
+                  cross-referencing with the lexicon takes into account the lower-case form of the
+                  word. This is particularly useful for words occurring at the beginning of the
+                  sentence or utterance, as the title-case version (e.g. the form <hi rend="italic"
+                     >Zdaj</hi> 'now') does not occur in the lexicon. Instead of categorizing it
+                  directly as an out-of-vocabulary word in scenario 2.2, the algorithm first checks
+                  whether it occurs in the lexicon without the capitalization (<hi rend="italic"
+                     >zdaj</hi>). The form <hi rend="italic">Zdaj</hi> is thus classified as part of
+                  scenario 1.1.1.L, i.e. a completely unambiguous form if its lower-case version is
+                  considered. </p>
+               <p style="text-align: justify;">The M subcategories include examples where the
+                  combination of the form and the lemma is assigned a morphosyntactic tag that is
+                  not among the options listed in the lexicon. This occurs in cases where the model
+                  annotated the token with a tag not present in the lexicon – an example from the
+                  ROG corpus is <hi rend="italic">samo</hi> 'only', which is listed only as a
+                  particle (L) in Sloleks 3.0 but can also occur as a subordinating conjunction
+                  (Vp), particularly in spoken Slovene. The M subcategories are useful for
+                  identifying the discrepancies between the automatic tagger (which is based on a
+                  training corpus and the morphological lexicon) and the morphological lexicon
+                  itself. In addition, the M subcategories are useful for intermediate consistency
+                  checks. For instance, if the annotators in the phase of disambiguating lemmas
+                  (scenario 1.2) change the lemma from the adverb <hi rend="italic">odlično</hi> to
+                  the adjective <hi rend="italic">odličen</hi>, the automatic adverbial
+                  morphosyntactic tag (<hi rend="italic">Rsn</hi>) is not included in the set of
+                  adjectival tags from the lexicon, and the combination <hi rend="italic"
+                     >odlično</hi> – <hi rend="italic">odličen</hi> – <hi rend="italic">Rsn</hi> is
+                  classified as 1.2.2.M, e.g. a form with an ambiguous lemma and multiple
+                  morphosyntactic tag options where the current morphosyntactic tag is not included
+                  in the lexicon. This is either due to an error in manual annotation or a missing
+                  form/tag combination in the lexicon.</p>
+               <p style="text-align: justify;">An example of a sentence from the ROG Training Corpus
+                  in which tokens have been annotated with corresponding scenarios is shown in Table
+                  2.</p>
+               <table>
+                  <head><hi rend="italic">Table 2</hi>: An example of a sentence annotated with
+                     scenarios</head>
+                  <row>
+                     <cell style="text-align: justify;"><hi rend="bold">Form</hi></cell>
+                     <cell style="text-align: justify;"><hi rend="bold">Lemma</hi></cell>
+                     <cell style="text-align: justify;"><hi rend="bold">Tag</hi></cell>
+                     <cell style="text-align: justify;"><hi rend="bold">Scenario</hi></cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: justify;">Drage</cell>
+                     <cell style="text-align: justify;">drag</cell>
+                     <cell style="text-align: justify;">Ppnzmi</cell>
+                     <cell style="text-align: justify;">1.2</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: justify;">prijateljice</cell>
+                     <cell style="text-align: justify;">prijateljica</cell>
+                     <cell style="text-align: justify;">Sozmi</cell>
+                     <cell style="text-align: justify;">1.1.2</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: justify;">,</cell>
+                     <cell style="text-align: justify;">,</cell>
+                     <cell style="text-align: justify;">U</cell>
+                     <cell style="text-align: justify;">0</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: justify;">dragi</cell>
+                     <cell style="text-align: justify;">drag</cell>
+                     <cell style="text-align: justify;">Ppnmmi</cell>
+                     <cell style="text-align: justify;">1.2</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: justify;">prijatelji</cell>
+                     <cell style="text-align: justify;">prijatelj</cell>
+                     <cell style="text-align: justify;">Sommi</cell>
+                     <cell style="text-align: justify;">1.1.2</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: justify;">govorjene</cell>
+                     <cell style="text-align: justify;">govorjen</cell>
+                     <cell style="text-align: justify;">Pdnzer</cell>
+                     <cell style="text-align: justify;">1.1.2</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: justify;">slovenščine</cell>
+                     <cell style="text-align: justify;">slovenščina</cell>
+                     <cell style="text-align: justify;">Sozer</cell>
+                     <cell style="text-align: justify;">1.1.2</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: justify;">.</cell>
+                     <cell style="text-align: justify;">.</cell>
+                     <cell style="text-align: justify;">U</cell>
+                     <cell style="text-align: justify;">0</cell>
+                  </row>
+                  <note n="">Source: Own work</note>
+               </table>
+            </div>
+            <div>
+               <head>Division into Annotation Tasks</head>
+               <p style="text-align: justify;">Based on the assigned annotation scenarios, the
+                  tokens from the corpus can then be divided into sets of tasks of varying
+                  complexity. Within the same scenario, tokens can be sorted and divided into groups
+                  consisting of similar annotation dilemmas (based on the set of morphosyntactic
+                  tags available as options from the lexicon).</p>
+               <p style="text-align: justify;">The annotation tasks may differ somewhat depending on
+                  the scenario, but in general, an individual task according to this approach
+                  consists of a single token in context and the potential values that can be
+                  assigned to it. Figure 1 shows an example of a task in which the annotator is
+                  expected to determine whether the listed feminine nouns (focus forms surrounded by
+                  their context) occur in the singular genitive (<hi rend="italic">Sozer</hi>),
+                  plural nominative (<hi rend="italic">Sozmi</hi>) or the plural accusative form
+                     (<hi rend="italic">Sozmt</hi>). In this case, the red column represents the
+                  final annotation, while the initial gray column lists all the possible options
+                  from the lexicon (during the annotation of the ROG Training Corpus, several other
+                  columns were available to help the annotator – they are presented in more detail
+                  in Section 4.5).</p>
+               <figure>
+                  <head>Figure 1: Examples of annotation tasks from scenario 1.1.2 (disambiguation
+                     of case and number for feminine nouns)</head>
+                  <graphic url="Figure_1.png"/>
+                  <note n="">Source: Own image</note>
+               </figure>
+               <lb/>
+               <p style="text-align: justify;">When annotating the <hi rend="italic">ROG Training
+                     Corpus</hi>, we only used two expert annotators (more on this in Section 4), so
+                  no custom interface was developed as it was decided that <hi rend="italic"
+                     >Microsoft Excel</hi> files would be sufficient for such a small-scale
+                  experiment. For larger annotation campaigns, however, it would be sensible to
+                  invest more time into developing a user-friendly interface in one of the flexible
+                  annotation platforms (such as <hi rend="italic">PyBossa</hi><note place="foot"
+                     xml:id="ftn27" n="25">
+                     <hi rend="italic">PyBossa</hi>, <ref target="https://docs.pybossa.com/"
+                        >https://docs.pybossa.com/</ref>.</note> or <hi rend="italic"
+                     >LabelStudio</hi><note place="foot" xml:id="ftn28" n="26">
+                     <hi rend="italic">Label Studio</hi>, <ref target="https://labelstud.io/"
+                        >https://labelstud.io/</ref>.</note>), which would further streamline the
+                  process and potentially even eliminate the need to train inexperienced annotators
+                  with the extensive MTE-6 tagset. A custom interface would also enable real-time
+                  consistency checks – any invalid input due to typos or human errors could be
+                  checked to ensure maximum annotation consistency. </p>
+               <p style="text-align: justify;">Another important thing to note with this approach is
+                  the paradigm shift from annotating each unit (sentence or utterance)
+                  token-by-token (horizontal view) to annotating similar tokens that are part of
+                  disparate units but share some of the morphosyntactic features and have the same
+                  annotation options (vertical view, similar to the view provided by concordancers
+                  when querying corpora). This removes much of the cognitive effort present in the
+                  horizontal token-by-token approach, in which the annotator is forced to mentally
+                  switch between different parts-of-speech and the corresponding morphosyntactic
+                  features (case, gender, number for nouns; aspect and number for verbs, etc.). By
+                  grouping similar tasks together, the annotator can focus on a single type of
+                  dilemma and resolve it throughout the entire corpus.</p>
+            </div>
+            <div>
+               <head>Advantages and Disadvantages</head>
+               <p style="text-align: justify;">The proposed approach does pose some disadvantages or
+                  at least caveats. First, the method is the most effective if the corpus has
+                  already been tokenized and accurately segmented into units. As the annotation
+                  method focuses on individual tokens, any changes to tokenization in this approach
+                  requires the annotator to add a comment, while the actual changes are done
+                  manually by the curator at the end of the campaign. Any changes to tokenization
+                  should thus be carried out before annotation scenarios have been assigned. It
+                  should be noted, however, that tokenization changes pose a similar problem with
+                  the horizontal approach as well.</p>
+               <p style="text-align: justify;">Another concern is the treatment of multiword
+                  expressions. It is possible that the algorithm divides the tokens of a single
+                  multiword expression into different scenarios, e.g. <hi rend="italic">lindy
+                     hop</hi>, where <hi rend="italic">lindy</hi> falls under 2.2 (out-of-vocabulary
+                  word) and <hi rend="italic">hop</hi> falls under 1.1.2 (a grammatical homograph
+                  with an unambiguous lemma). In some cases, the annotation of one component greatly
+                  depends on the other, so annotators need to pay close attention to such examples,
+                  otherwise they may not be annotated consistently.</p>
+               <p style="text-align: justify;">The systematic division of tokens into scenarios may
+                  also result in some lemmatization or tagging errors being lost in the scenarios
+                  that require no manual validation, particularly in the case of homographs that are
+                  treated as unambiguous in the lexicon, but the language use in the corpus proves
+                  they are in fact ambiguous. In ROG, one such example is the form <hi rend="italic"
+                     >šalam</hi>, which in the lexicon only occurs with the lemma <hi rend="italic"
+                     >šala</hi> 'joke' and the morphosyntactic tag <hi rend="italic">Sozmd</hi>
+                  (noun, common, feminine, plural, dative case). However, in ROG, the form
+                  represents the common masculine noun <hi rend="italic">šalam</hi>, a non-standard
+                  variant of the common feminine noun <hi rend="italic">salama</hi> 'salami'.
+                  Because the lexeme <hi rend="italic">šalam</hi> is missing from the lexicon, the
+                  token is mistagged and sorted into the unambiguous scenario, which is incorrect.
+                  However, this occurs rarely (see Section 4), and the benefits of the new
+                  annotation approach far outweigh the disadvantages of a handful of mistagged
+                  examples. It should also be noted that with future updates to the lexicon, these
+                  types of errors will become even less frequent.</p>
+               <p style="text-align: justify;">On the other hand, the method provides a number of
+                  advantages. First, it cuts down on redundant work as it allows us to skip
+                  annotation in the case of unambiguous morphosyntactic tags (this covers as much as
+                  20% of all tokens). Second, when disambiguation is required, the algorithm narrows
+                  down the set of annotation options and allows annotators to discriminate among a
+                  limited set of tags or features (e.g. disambiguation of cases). This is especially
+                  important if instead of full MTE-6 morphosyntactic tags we decide to use
+                  morphosyntactic features (singular, dual, plural; nominative, genitive, dative;
+                  and so on), which everyone is already familiar with. This removes most of the need
+                  for cumbersome annotator training, as well as the need to cross-check multiple
+                  annotations to ensure inter-annotator agreement since annotations with simple
+                  features (e.g. singular vs. plural) are much easier compared to annotations with
+                  full MTE-6 tags.</p>
+               <p style="text-align: justify;">Another important improvement compared to the
+                  horizontal approach concerns updates to annotation guidelines. In the
+                  token-by-token and sentence-by-sentence approach, problematic examples were
+                  discovered gradually, which often resulted in annotation guidelines being updated
+                  and changed more toward the end of the annotation process. This required some
+                  additional consistency checks and separate exports of specific tokens for
+                  cross-reference. The advantage of the vertical approach is that all similar
+                  examples are already grouped and can be analyzed together, which facilitates the
+                  updates to annotation guidelines and reduces the waiting time for examples to be
+                  collected.</p>
+            </div>
+         </div>
+         <div>
+            <head>Data and Annotation</head>
+            <p style="text-align: justify;">In this section, we first briefly present the data
+               included in the ROG Training Corpus of Spoken Slovene (4.1), then perform two
+               evaluations of the proposed semi-automatic approach on two existing gold-standard
+               datasets (4.2 and 4.3). We describe the division of ROG into annotation scenarios
+               (4.4) and the annotation workflow (4.5).</p>
+            <div>
+               <head>Contents of the ROG Training Corpus of Spoken Slovene</head>
+               <p style="text-align: justify;">The data for ROG were sampled from the <hi
+                     rend="italic">GOS Corpus of Spoken Slovene</hi>, versions 1.1<note place="foot"
+                     xml:id="ftn29" n="27"> Ana Zwitter Vitez, Jana Zemljarič Miklavčič, Simon Krek,
+                     Marko Stabej, and Tomaž Erjavec, "Spoken corpus GOS 1.1," <hi rend="italic"
+                        >Slovenian language resource repository CLARIN.SI</hi>. (2021),
+                     http://hdl.handle.net/11356/1438.</note> (approximately 40,000 tokens) and
+                     2.0<note place="foot" xml:id="ftn30" n="28"> Ana Zwitter Vitez, Jana Zemljarič
+                     Miklavčič, Simon Krek, Marko Stabej, Tomaž Erjavec, Darinka Verdonik et al.,
+                     "Spoken corpus GOS 2.0 (transcriptions)," <hi rend="italic">Slovenian language
+                        resource repository CLARIN.SI</hi>. (2023),
+                     http://hdl.handle.net/11356/1771.</note> (approximately 50,000 tokens). We
+                  expected no additional tokenizaton corrections since the data consists of manually
+                  transcribed speech that has also been manually segmented into utterances and
+                  tokens. The sampling criteria and several other preprocessing steps (such as the
+                  unification of segmentation criteria across different subcorpora of GOS) are
+                  described in more detail by Verdonik et al. (2024).<note place="foot"
+                     xml:id="ftn31" n="29"> Darinka Verdonik, Nikola Ljubešić, Peter Rupnik, Kaja
+                     Dobrovoljc, and Jaka Čibej, "Izbor in urejanje gradiv za učni korpus govorjene
+                     slovenščine ROG," <hi rend="italic">Konferenca jezikovne tehnologije in
+                        digitalna humanistika</hi>. (2024), 472–88.</note></p>
+               <p style="text-align: justify;">A third sample was also included in ROG – the <hi
+                     rend="italic">Spoken Slovenian Treebank</hi><note place="foot" xml:id="ftn32"
+                     n="30"> Kaja Dobrovoljc and Joakim Nivre, "The Universal Dependencies Treebank
+                     of Spoken Slovenian," <hi rend="italic">Proceedings of the Tenth International
+                        Conference on Language Resources and Evaluation (LREC’16)</hi> (2016):
+                     1566–73.</note> (SST), in which lemmas and morphosyntactic tags had already
+                  been manually corrected in a previous endeavor. We used this sample to evaluate
+                  the validity of the proposed method (see Section 4.2).</p>
+            </div>
+            <div>
+               <head>Evaluation on the Spoken Slovenian Treebank</head>
+               <p style="text-align: justify;">We were cognizant of the difference between the ROG
+                  annotation campaign (which covers spoken Slovene) and all previously conducted
+                  campaigns, which focused on either written standard Slovene or (non-standard)
+                  internet Slovene. Any insights from previous experience might not be directly
+                  transferrable, which is why we first performed an evaluation of the semi-automatic
+                  method on the <hi rend="italic">Spoken Slovenian Treebank</hi> (SST; 30,000
+                  tokens). The division of its manually annotated tokens into annotation scenarios
+                  was important to demonstrate how much disagreement (and especially errors) we
+                  could expect if we approach the annotation process using the new method. The
+                  results of the SST division are shown in Table 3.</p>
+               <table>
+                  <head>Table 3: Division of the SST subset into annotation scenarios</head>
+                  <row>
+                     <cell style="text-align: left;"><hi rend="bold">Scenario</hi></cell>
+                     <cell style="text-align: left;"><hi rend="bold">Frequency</hi></cell>
+                     <cell style="text-align: left;"><hi rend="bold">Percentage</hi></cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.1</cell>
+                     <cell style="text-align: right;">8,300 </cell>
+                     <cell style="text-align: right;">29.12%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.2</cell>
+                     <cell style="text-align: right;">11,047 </cell>
+                     <cell style="text-align: right;">38.76%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.2</cell>
+                     <cell style="text-align: right;">6,234 </cell>
+                     <cell style="text-align: right;">21.87%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">2.2</cell>
+                     <cell style="text-align: right;">537 </cell>
+                     <cell style="text-align: right;">1.88%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.1.L </cell>
+                     <cell style="text-align: right;">11 </cell>
+                     <cell style="text-align: right;">0.04%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.1.M</cell>
+                     <cell style="text-align: right;">11 </cell>
+                     <cell style="text-align: right;">0.04%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.2.L</cell>
+                     <cell style="text-align: right;">66 </cell>
+                     <cell style="text-align: right;">0.23%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.2.M</cell>
+                     <cell style="text-align: right;">104 </cell>
+                     <cell style="text-align: right;">0.36%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">0</cell>
+                     <cell style="text-align: right;">2,192 </cell>
+                     <cell style="text-align: right;">7.69%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"><hi rend="bold">Total</hi></cell>
+                     <cell style="text-align: right;"><hi rend="bold">28,502 </hi></cell>
+                     <cell style="text-align: right;"><hi rend="bold">100.00%</hi></cell>
+                  </row>
+                  <note n="">Source: Own work</note>
+               </table>
+               <lb/>
+               <p style="text-align: justify;">The most problematic tokens are the ones included in
+                  the 1.1.1.M scenario. If the corpus were automatically annotated, the algorithm
+                  would classify them as 1.1.1 (entirely unambiguous). In reality, they were
+                  annotated with a morphosyntactic tag that differs from the options available in
+                  the lexicon. Because the method facilitates the annotation process by skipping the
+                  unambiguous tokens, the 1.1.1.M tokens would be mistagged in the final version of
+                  the corpus. A slightly less problematic scenario is 1.1.2.M, where the tokens have
+                  an unambiguous lemma, but multiple lexicon options for morphosyntactic tags (none
+                  of which is correct). The annotators would still check all of these tokens, but
+                  might be tempted to assign one of the lexicon options instead of opting for the
+                  correct tag. Most of these problems stem from inconsistencies or gaps in the
+                  lexicon, however, as in the case of the form <hi rend="italic">gremo</hi>, which
+                  is only listed in the lexicon as the first person present plural form of the verb
+                     <hi rend="italic">iti</hi> 'to go' (<hi rend="italic">Ggvspm</hi>; verb, main,
+                  biaspectual, present, first person, plural); in non-standard or spoken Slovene,
+                  however, it can also signify the first person imperative plural form (<hi
+                     rend="italic">Ggvvpm</hi>; verb, main, biaspectual, imperative, first person,
+                  plural). The SST subset contains only 0.4% of such tokens, however, which
+                  indicates that the division into annotation scenarios is accurate enough to be
+                  implemented in the annotation of the rest of ROG.</p>
+            </div>
+            <div>
+               <head>Evaluation on the SUK Training Corpus of Written Slovene</head>
+               <p style="text-align: justify;">We also performed an additional evaluation of the
+                  method on the SUK Training Corpus, which had been previously annotated from
+                  scratch with a horizontal approach and contains mostly written texts. The division
+                  of SUK into annotation scenarios is shown in Table 4. Note that the 1.2 scenario
+                  is not further subdivided in this case as it is among the least problematic since
+                  all its tokens are included in at least one phase of manual validation.</p>
+               <table>
+                  <head>Table 4: Division of the SUK corpus into annotation scenarios</head>
+                  <row>
+                     <cell style="text-align: left;"><hi rend="bold">Scenario</hi></cell>
+                     <cell style="text-align: left;"><hi rend="bold">Frequency</hi></cell>
+                     <cell style="text-align: left;"><hi rend="bold">Percentage</hi></cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.1</cell>
+                     <cell style="text-align: right;">197,240 </cell>
+                     <cell style="text-align: right;">19.23%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.1.L</cell>
+                     <cell style="text-align: right;">12,120 </cell>
+                     <cell style="text-align: right;">1.18%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.1.M</cell>
+                     <cell style="text-align: right;">474</cell>
+                     <cell style="text-align: right;">0.05%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.1.LM</cell>
+                     <cell style="text-align: right;">36 </cell>
+                     <cell style="text-align: right;">&lt;0.01%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.2</cell>
+                     <cell style="text-align: right;">453,449 </cell>
+                     <cell style="text-align: right;">44.21%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.2.L</cell>
+                     <cell style="text-align: right;">27,486 </cell>
+                     <cell style="text-align: right;">2.68%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.2.M</cell>
+                     <cell style="text-align: right;">10,447 </cell>
+                     <cell style="text-align: right;">1.02%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.2.LM</cell>
+                     <cell style="text-align: right;">1,818 </cell>
+                     <cell style="text-align: right;">0.18%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.2</cell>
+                     <cell style="text-align: right;">147,281 </cell>
+                     <cell style="text-align: right;">14.36%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.2.L</cell>
+                     <cell style="text-align: right;">7,202 </cell>
+                     <cell style="text-align: right;">0.70%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">2.2</cell>
+                     <cell style="text-align: right;">24,115 </cell>
+                     <cell style="text-align: right;">2.35%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">0</cell>
+                     <cell style="text-align: right;">143,971 </cell>
+                     <cell style="text-align: right;">14.04%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"><hi rend="bold">Total</hi></cell>
+                     <cell style="text-align: right;"><hi rend="bold">1,025,639 </hi></cell>
+                     <cell style="text-align: right;"><hi rend="bold">100.00%</hi></cell>
+                  </row>
+                  <note n="">Source: Own work</note>
+               </table>
+               <lb/>
+               <p style="text-align: justify;">The results on the SUK corpus are similar to the
+                  evaluation on SST. The most problematic tokens from 1.1.1.M that could potentially
+                  be lost in the unambiguous 1.1.1 scenario account for just 0.05% of the entire
+                  corpus. The similar, but less problematic 1.1.2.M scenario (along with 1.1.2.LM)
+                  is somewhat more frequent compared to SST (1.20% vs. 0.36%), but still within a
+                  manageable range, which further confirms that the vertical annotation approach,
+                  while certainly less thorough than the horizontal approach, provides a very good
+                  compromise between efficiency and accuracy. However, it should be noted that the
+                  mismatched annotations should be further analyzed in more detail as they might
+                  indicate gaps or inconsistencies in the lexicon that should be filled in to make
+                  the method more accurate in the future. For instance, the verb <hi rend="italic"
+                     >pojokcati</hi> 'to cry, to complain' is wrongly listed as biaspectual in the
+                  lexicon but correctly annotated as perfective in the corpus.</p>
+            </div>
+            <div>
+               <head>Division of ROG into Annotation Scenarios</head>
+               <p style="text-align: justify;">Table 5 shows the division of tokens into scenarios
+                  for the other two samples included in ROG (V1 – 10,000 tokens from GOS 1.1; V2 –
+                  50,000 tokens from GOS 2.0). Asterisk symbols (***) mark the second-phase
+                  scenarios of scenario 1.2, in which we first disambiguate the lemma, then divide
+                  the tokens again into different scenarios. </p>
+               <table>
+                  <head>Table 5: Division of the rest of ROG into annotation scenarios</head>
+                  <row>
+                     <cell style="text-align: left;"><hi rend="italic">Scenario</hi></cell>
+                     <cell style="text-align: left;"><hi rend="italic">Frequency – V1 </hi></cell>
+                     <cell style="text-align: left;"><hi rend="italic">Percentage – V1 </hi></cell>
+                     <cell style="text-align: left;"><hi rend="italic">Frequency – V2 </hi></cell>
+                     <cell style="text-align: left;"><hi rend="italic">Percentage – V2</hi></cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.1</cell>
+                     <cell style="text-align: right;">3,962</cell>
+                     <cell style="text-align: right;">31.31%</cell>
+                     <cell style="text-align: right;">10,335</cell>
+                     <cell style="text-align: right;">21.25%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.1.L</cell>
+                     <cell style="text-align: right;">5</cell>
+                     <cell style="text-align: right;">0.04%</cell>
+                     <cell style="text-align: right;">54</cell>
+                     <cell style="text-align: right;">0.11%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.1.M</cell>
+                     <cell style="text-align: right;">2</cell>
+                     <cell style="text-align: right;">0.02%</cell>
+                     <cell style="text-align: right;">26</cell>
+                     <cell style="text-align: right;">0.05%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.2</cell>
+                     <cell style="text-align: right;">4,391 </cell>
+                     <cell style="text-align: right;">34.70%</cell>
+                     <cell style="text-align: right;">17,679</cell>
+                     <cell style="text-align: right;">36.36%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.2.L</cell>
+                     <cell style="text-align: right;">17 </cell>
+                     <cell style="text-align: right;">0.13%</cell>
+                     <cell style="text-align: right;">213</cell>
+                     <cell style="text-align: right;">0.44%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.1.2.M</cell>
+                     <cell style="text-align: right;">54 </cell>
+                     <cell style="text-align: right;">0.43%</cell>
+                     <cell style="text-align: right;">737</cell>
+                     <cell style="text-align: right;">1.52%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">1.2</cell>
+                     <cell style="text-align: right;">3,000 </cell>
+                     <cell style="text-align: right;">23.71%</cell>
+                     <cell style="text-align: right;">8,141</cell>
+                     <cell style="text-align: right;">16.74%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">***1.2.1</cell>
+                     <cell style="text-align: right;">1,543 </cell>
+                     <cell style="text-align: right;">12.19%</cell>
+                     <cell style="text-align: right;">3,879</cell>
+                     <cell style="text-align: right;">7.98%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">***1.2.1.M</cell>
+                     <cell style="text-align: right;">22 </cell>
+                     <cell style="text-align: right;">0.17%</cell>
+                     <cell style="text-align: right;">110</cell>
+                     <cell style="text-align: right;">0.23%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">***1.2.2</cell>
+                     <cell style="text-align: right;">1,369 </cell>
+                     <cell style="text-align: right;">10.82%</cell>
+                     <cell style="text-align: right;">4,028</cell>
+                     <cell style="text-align: right;">8.28%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">***1.2.2.M</cell>
+                     <cell style="text-align: right;">66 </cell>
+                     <cell style="text-align: right;">0.52%</cell>
+                     <cell style="text-align: right;">124</cell>
+                     <cell style="text-align: right;">0.26%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">2.2</cell>
+                     <cell style="text-align: right;">233 </cell>
+                     <cell style="text-align: right;">1.84%</cell>
+                     <cell style="text-align: right;">497</cell>
+                     <cell style="text-align: right;">1.02%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">0</cell>
+                     <cell style="text-align: right;">990 </cell>
+                     <cell style="text-align: right;">7.82%</cell>
+                     <cell style="text-align: right;">10,942</cell>
+                     <cell style="text-align: right;">22.50%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;"><hi rend="bold">Total</hi></cell>
+                     <cell style="text-align: right;">12,654 </cell>
+                     <cell style="text-align: right;">100.00%</cell>
+                     <cell style="text-align: right;">48,624</cell>
+                     <cell style="text-align: right;">100.00%</cell>
+                  </row>
+                  <note n="">Source: Own work</note>
+               </table>
+               <lb/>
+               <p style="text-align: justify;">All the tasks were included in at least one phase of
+                  manual annotation, except for scenarios 0 (punctuation), 1.1.1 (unambiguous
+                  tokens), and 1.2.1 (tokens that have an unambiguous morphosyntactic tag once the
+                  lemma has been disambiguated). Two annotators were used, both involved in previous
+                  annotation campaigns and familiar with both the annotation guidelines and the
+                  MTE-6 scheme. The first annotator was charged with correcting lemmas, while the
+                  second focused on morphosyntactic tags.</p>
+            </div>
+            <div>
+               <head>Annotation Workflow</head>
+               <p>Figure 2 represents the annotation workflow in ROG. Tokens from different
+                  scenarios were included in different review phases. Scenarios 1.1.1 and 0 were
+                  skipped entirely. For 1.2.1, only lemmas were disambiguated. For most scenarios
+                  and tokens (e.g. 1.1.2, the largest scenario in terms of tokens), only
+                  morphosyntactic tags needed to be disambiguated. </p>
+               <figure>
+                  <head>Figure 2: Annotation workflow for correcting lemmas and morphosyntactic tags
+                     in the ROG corpus</head>
+                  <graphic url="Figure_2.png"/>
+                  <note n="">Source: Own image</note>
+               </figure>
+               <p style="text-align: justify;">An example of an annotation task was shown previously
+                  in Figure 1, but it should also be noted that the annotation tasks contained some
+                  additional information. Besides the short context (up to 5 tokens to each side of
+                  the focus token), a separate column contained an extended version of the
+                  utterance, as well as a link to the GOS 2.1 corpus in the NoSketchEngine
+                  concordancer. In addition, three links to speech recordings from the corpus were
+                  listed (the previous segment, the focus segment, and the subsequent segment). The
+                  token IDs from the original corpus were also kept in the annotation files to
+                  ensure maximum traceability and facilitate the inclusion of the corrections in the
+                  final version of the corpus. </p>
+            </div>
+         </div>
+         <div>
+            <head>Results</head>
+            <p style="text-align: justify;">In this section, we present the results of the manual
+               corrections of lemmas (5.1) and morphosyntactic tags (5.2) using the semi-automatic
+               approach. We also focus more on scenario 1.1.1, which is most at risk for being the
+               source of errors in the final corpus due to lexicon inconsistencies (5.3).</p>
+            <div>
+               <head>Lemma Corrections</head>
+               <p style="text-align: justify;">Lemma corrections were rare – in the end, lemma
+                  changes occurred in only 396 tokens in the V2 sample (0.81% of the entire sample)
+                  and 175 tokens in the V1 sample (1.38% of the entire sample). Lemma corrections
+                  were the most frequent in scenario 2.2 (42% of all lemma corrections), which
+                  contains tokens for which neither the form nor the lemma are present in the
+                  lexicon. Lower accuracy of the lemmatization model in such examples is expected.
+                  In sample V2, the lemma was corrected for 164 tokens (out of 497 in scenario 2.2;
+                  33%). In sample V1, the lemma was corrected for 73 tokens (out of 233 in scenario
+                  2.2; 31%). Approximately a third of out-of-vocabulary tokens in both samples were
+                  incorrectly lemmatized. For example, determining the lemma seems to cause problems
+                  with proper nouns (<hi rend="italic">Netflix</hi> – *<hi rend="italic"
+                     >Netflixu</hi>, <hi rend="italic">Šerbi</hi> – *<hi rend="italic">Šerba</hi>,
+                     <hi rend="italic">Lidl</hi> – *<hi rend="italic">Lidel</hi>) or nouns with
+                  ambiguous morphological patterns, such as the -<hi rend="italic">j</hi>-
+                  lengthening (<hi rend="italic">espe</hi> – *<hi rend="italic">espej</hi>, <hi
+                     rend="italic">mikronivo</hi> – *<hi rend="italic">mikronivoj</hi>).</p>
+               <p style="text-align: justify;">On the other hand, words that do appear in the
+                  lexicon but are still a significant source of lemma corrections belong to scenario
+                  1.2 (lemma disambiguation) and include problematic homographs (approximately 328
+                  tokens in total, or 57% of all lemma corrections). The most frequent corrections
+                  pertain to adjective-adverb disambiguation (<hi rend="italic">mogoč</hi>
+                  'possible' – <hi rend="italic">mogoče</hi> 'possibly', <hi rend="italic"
+                     >dober</hi> 'good' – <hi rend="italic">dobro</hi> 'well').</p>
+               <p style="text-align: justify;">Another noteworthy insight is that in scenario 1.1.2
+                  (disambiguation of morphosyntactic tags), the lemma was changed in only 6
+                  examples, which confirms that separating the lemma disambiguation task and
+                  morphosyntactic tagging is a sensible course of action.</p>
+            </div>
+            <div>
+               <head>Morphosyntactic Tag Corrections</head>
+               <p style="text-align: justify;">Corrections of morphosyntactic tags were somewhat
+                  more frequent than lemma corrections, but they still account for only a small
+                  fraction of tokens. The tag was changed for only 2,029 tokens in the V2 sample
+                  (4.17% of the entire sample) and 627 tokens in the V1 sample (4.95% of the
+                  sample).</p>
+               <p style="text-align: justify;">As expected, 1,782 corrections (67.09% of all tag
+                  corrections) were made within scenario 1.1.2 (including 1.1.2.M and 1.1.2.L),
+                  which is focused on the disambiguation of grammatical homographs with an
+                  unambiguous lemma. Similarly, 578 corrections (21.76%) were made within 1.2 (lemma
+                  disambiguation) and its subscenarios, where a lemma correction often results in a
+                  tag correction as well. Even though only a small percentage of total corrections
+                  (296 tokens or 11.15%) were made in 2.2 (out-of-vocabulary tokens), an analysis of
+                  the percentage of corrections within 2.2 shows that the V2 sample accounted for
+                  37.83% of corrected tokens and the V1 sample for 46.35% of tokens, meaning that
+                  out-of-vocabulary tokens present the most problematic category, even if less
+                  frequent compared to grammatical homographs. In other scenarios, this percentage
+                  was much smaller (around 7%), which emphasizes the need for an up-to-date
+                  morphological lexicon to ensure maximum accuracy in morphosyntactic tagging.</p>
+               <p style="text-align: justify;">Table 6 shows the morphosyntactic features of the
+                  automatic tags that were most frequently corrected (sorted by frequency). While
+                  general adjectives are the most frequent in total, the most problematic features
+                  are revealed by the percentages of corrected tokens within each category. In
+                  relative terms, the most frequently corrected tokens were proper masculine nouns,
+                  which required corrections in cca. 25% of examples. A similar percentage can be
+                  observed in cardinal letter numerals and interrogative pronouns. Interestingly,
+                  automatic tagging seems to be almost completely unproblematic in the case of
+                  verbs, which accounted for only 84 corrections (between 0.5% and 1.3%, depending
+                  on the aspect).</p>
+               <table>
+                  <head>Table 6: Morphosyntactic features of the most frequently corrected tokens
+                     (with a frequency of at least 100) </head>
+                  <row>
+                     <cell style="text-align: left;"><hi rend="bold">Features</hi></cell>
+                     <cell style="text-align: left;"><hi rend="bold">Corrected</hi></cell>
+                     <cell style="text-align: left;"><hi rend="bold">All Tokens</hi></cell>
+                     <cell style="text-align: left;"><hi rend="bold">Percentage</hi></cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Pp (adjective, general)</cell>
+                     <cell style="text-align: right;">384</cell>
+                     <cell style="text-align: right;">2,998</cell>
+                     <cell style="text-align: right;">12.81%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Som (noun, common, masculine)</cell>
+                     <cell style="text-align: right;">281 </cell>
+                     <cell style="text-align: right;">3,412 </cell>
+                     <cell style="text-align: right;">8.24%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Soz (noun, common, feminine)</cell>
+                     <cell style="text-align: right;">267 </cell>
+                     <cell style="text-align: right;">3,287 </cell>
+                     <cell style="text-align: right;">8.12%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Rs (adverb, general)</cell>
+                     <cell style="text-align: right;">261 </cell>
+                     <cell style="text-align: right;">5,103 </cell>
+                     <cell style="text-align: right;">5.11%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Zk (pronoun, demonstrative)</cell>
+                     <cell style="text-align: right;">215 </cell>
+                     <cell style="text-align: right;">1,860 </cell>
+                     <cell style="text-align: right;">11.56%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Zo (pronoun, personal)</cell>
+                     <cell style="text-align: right;">140 </cell>
+                     <cell style="text-align: right;">1,341 </cell>
+                     <cell style="text-align: right;">10.44%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Slm (noun, proper, masculine)</cell>
+                     <cell style="text-align: right;">122 </cell>
+                     <cell style="text-align: right;">473 </cell>
+                     <cell style="text-align: right;">25.79%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Sos (noun, common, neuter)</cell>
+                     <cell style="text-align: right;">110 </cell>
+                     <cell style="text-align: right;">1,361 </cell>
+                     <cell style="text-align: right;">8.08%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Kbg (numeral, letter, cardinal)</cell>
+                     <cell style="text-align: right;">109 </cell>
+                     <cell style="text-align: right;">486 </cell>
+                     <cell style="text-align: right;">22.43%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Vp (conjunction, coordinating)</cell>
+                     <cell style="text-align: right;">106 </cell>
+                     <cell style="text-align: right;">3,265 </cell>
+                     <cell style="text-align: right;">3.25%</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">Zv (pronoun, interrogative) </cell>
+                     <cell style="text-align: right;">103 </cell>
+                     <cell style="text-align: right;">497 </cell>
+                     <cell style="text-align: right;">20.72%</cell>
+                  </row>
+                  <note n="">Source: Own work</note>
+               </table>
+               <lb/>
+               <p style="text-align: justify;">Table 7 shows the most frequent corrections of
+                  morphosyntactic features (with a frequency of at least 50). These account for more
+                  than half of all corrections (53%), while almost a third of them (28%) concern the
+                  disambiguation between the nominative and the accusative cases (notable
+                  grammatical homographs in Slovene).</p>
+               <table>
+                  <head>Table 7: The most frequent corrections of morphosyntactic features (with a
+                     frequency of at least 50)</head>
+                  <row>
+                     <cell style="text-align: left;"><hi rend="bold">Correction</hi></cell>
+                     <cell style="text-align: left;"><hi rend="bold">Frequency</hi></cell>
+                     <cell style="text-align: left;"><hi rend="bold">Percentage</hi></cell>
+                     <cell style="text-align: left;"><hi rend="bold">Examples</hi></cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">nominative, accusative</cell>
+                     <cell style="text-align: right;">561</cell>
+                     <cell style="text-align: right;">21.12%</cell>
+                     <cell style="text-align: left;"><p>Somei → Sometn (<hi rend="italic"
+                           >stol</hi>), Kbgmi</p><p>→ Kbg-mt (<hi rend="italic">tisoč</hi>),
+                           Zk-mei</p><p>→ Zk-met (<hi rend="italic">ta</hi>)</p></cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">accusative, nominative</cell>
+                     <cell style="text-align: right;">190</cell>
+                     <cell style="text-align: right;">7.15%</cell>
+                     <cell style="text-align: left;"><p>Sometn → Somei (<hi rend="italic"
+                           >video</hi>), Zkset</p><p>→ Zk-sei (<hi rend="italic">tisto</hi>),
+                           Kbg-mt</p><p>→ Kbg-mi (<hi rend="italic">devetsto</hi>)</p></cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">adverb, particle</cell>
+                     <cell style="text-align: right;">136</cell>
+                     <cell style="text-align: right;">5.12%</cell>
+                     <cell style="text-align: left;">Rsn → L (<hi rend="italic">a</hi>)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">masculine, feminine </cell>
+                     <cell style="text-align: right;">122 </cell>
+                     <cell style="text-align: right;">4.59%</cell>
+                     <cell style="text-align: left;"><p>Zotmmt–k → Zotzmt–k (<hi rend="italic"
+                              >jih</hi>),</p><p>Ppnmmr → Ppnzmr (<hi rend="italic"
+                           >naslednjih</hi>)</p></cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">nominative plural, genitive singular</cell>
+                     <cell style="text-align: right;">82</cell>
+                     <cell style="text-align: right;">3.09%</cell>
+                     <cell style="text-align: left;"><p>Sozmi → Sozer (<hi rend="italic"
+                              >preiskave</hi>),</p><p>Ppnzmi → Ppnzer (<hi rend="italic"
+                              >radijske</hi>),</p><p>Sosmi → Soser (<hi rend="italic"
+                           >zdravila</hi>)</p></cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">general adjective, general adverb</cell>
+                     <cell style="text-align: right;">80</cell>
+                     <cell style="text-align: right;">3.01%</cell>
+                     <cell style="text-align: left;"><p>Ppnsei → Rsn (<hi rend="italic"
+                           >mogoče</hi>), Ppnzet</p><p>→ Rsn (<hi rend="italic"
+                        >primerno</hi>)</p></cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">masculine, neuter</cell>
+                     <cell style="text-align: right;">67</cell>
+                     <cell style="text-align: right;">2.52%</cell>
+                     <cell style="text-align: left;"><p>Zotmet–k → Zotset–k (<hi rend="italic"
+                              >ga</hi>),</p><p>Ppnmeo → Ppnseo (<hi rend="italic"
+                           >zdravim</hi>),</p><p>Kbvmei → Kbvsei (<hi rend="italic"
+                              >devetnajststo</hi>)</p></cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">coordinating conjunction, general adverb</cell>
+                     <cell style="text-align: right;">64</cell>
+                     <cell style="text-align: right;">2.41%</cell>
+                     <cell style="text-align: left;">Vp → Rsn (<hi rend="italic">zato</hi>)</cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">common, proper</cell>
+                     <cell style="text-align: right;">55</cell>
+                     <cell style="text-align: right;">2.07%</cell>
+                     <cell style="text-align: left;"><p>Somei → Slmei (<hi rend="italic"
+                           >Piano</hi>), Somem</p><p>→ Slmem (<hi rend="italic">Lidlu</hi>),
+                           Sozer</p><p>→ Slzer (<hi rend="italic">Jute</hi>)</p></cell>
+                  </row>
+                  <row>
+                     <cell style="text-align: left;">interrogative pronoun, general adverb</cell>
+                     <cell style="text-align: right;">50</cell>
+                     <cell style="text-align: right;">1.88%</cell>
+                     <cell style="text-align: left;"><p>Zv-sei → Rsn (<hi rend="italic">kako</hi>),
+                           Zv-set</p><p>→ Rsn (<hi rend="italic">kaj</hi>)</p></cell>
+                  </row>
+                  <note n=""> Source: Own work</note>
+                  <lb/>
+               </table>
+               <lb/>
+            </div>
+            <div>
+               <head>Analysis of Scenario 1.1.1</head>
+               <p style="text-align: justify;">In our previous paper, we only skimmed through the
+                  tokens of scenario 1.1.1 since the evaluations on gold standard datasets (see
+                  Sections 4.2 and 4.3) have shown that only a small fraction of tokens slip through
+                  the cracks. Here, we performed a more thorough analysis of those tokens as
+                  well.</p>
+               <p style="text-align: justify;">Only 22 different types account for more than half of
+                  approximately 14,400 tokens from scenario 1.1.1 and its subscenarios (see Section
+                  4.4). These are very frequent functional words such as conjunctions (<hi
+                     rend="italic">pa</hi> 'and', <hi rend="italic">ki</hi> 'which', <hi
+                     rend="italic">ker</hi> 'because'), particles (<hi rend="italic">tudi</hi>
+                  'also', <hi rend="italic">še</hi> 'still'), forms of the auxiliary verb <hi
+                     rend="italic">biti</hi> 'to be' (<hi rend="italic">so</hi> 'they are', <hi
+                     rend="italic">bi</hi> 'would'), and adverbs (<hi rend="italic">zelo</hi>
+                  'very'). While some of these can theoretically occur in another role (for
+                  instance, <hi rend="italic">bi</hi> as a shortened non-standard version of <hi
+                     rend="italic">biseksualen</hi> 'bisexual', <hi rend="italic">pa</hi> as an
+                  interjection in <hi rend="italic">pa pa</hi> 'bye-bye'), this is very infrequent
+                  compared to their predominant context and begs the question of whether it is worth
+                  checking an additional 14,000 tokens for a handful of marginal examples. In any
+                  case, should the lexicon be updated with these marginal uses, the tokens would end
+                  up in a different scenario (e.g. 1.2 or 1.1.2).</p>
+               <p style="text-align: justify;">The other half of scenario 1.1.1 contains forms that
+                  truly are unambiguous. It is practically impossible for them to signify anything
+                  else than what is already included in the lexicon, such as the forms <hi
+                     rend="italic">ljudem</hi> (plural dative of the common masculine noun <hi
+                     rend="italic">človek</hi> 'human'), <hi rend="italic">knjiga</hi> (nominative
+                  singular of the common feminine noun <hi rend="italic">knjiga</hi> 'book'), and
+                     <hi rend="italic">rešitvami</hi> (instrumental plural of the common feminine
+                  noun <hi rend="italic">rešitev</hi> 'solution'). The only example we found in
+                  scenario 1.1.1 that is completely mistagged is the already mentioned non-standard
+                  form <hi rend="italic">šalam</hi> 'salami', which was mislemmatized as <hi
+                     rend="italic">šala</hi> 'joke'.</p>
+            </div>
+         </div>
+         <div>
+            <head>First Steps in a Fine-Grained Analysis of Annotation Tasks</head>
+            <p style="text-align: justify;">As shown in Section 5.2, there seems to be a
+               concentration of frequent corrections in certain morphosyntactic features. However, a
+               closer look shows that in some cases, this pertains to an even narrower type of task:
+               the combination of a specific lemma and its morphosyntactic features. A good example
+               of this is the form <hi rend="italic">to</hi>, which is lemmatized as <hi
+                  rend="italic">ta</hi> 'this', but needs to be morphosyntactically disambiguated (a
+               choice between four options: feminine+singular+accusative,
+               feminine+singular+instrumental, neuter+singular+nominative,
+               neuter+singular+accusative). In the future, the division into scenarios can be
+               further updated with an even more granular approach to create a list of fine-grained
+               tasks which can then be categorized according to their complexity and difficulty. In
+               any future annotation campaigns, the list can be used to divide the disambiguation
+               tasks between less experienced annotators (or even crowdsourcers) on the one hand
+               (for tasks of lower complexity) and experts on the other. This would allow for a much
+               more sensible division of human resources. </p>
+            <p style="text-align: justify;">As a first step, we provide the 10 most frequent
+               disambiguation tasks in scenario 1.1.2 (Table 8), annotated with a subjective
+               complexity rating (low, middle, or high complexity) based on the annotator’s opinion
+               of how demanding and time-consuming the task is.</p>            
+            <table>
+               <p>Table 8: The most frequent disambiguation tasks from scenario 1.1.2 annotated with
+               complexity ratings</p>
+               <row>
+               <cell style="text-align: left;"><hi rend="bold">Disambiguation Task and Relevant
+                     Forms</hi></cell>
+               <cell style="text-align: left;"><hi rend="bold">Frequency</hi></cell>
+               <cell style="text-align: left;"><hi rend="bold">Complexity</hi></cell>
+            </row>
+            <row>
+               <cell style="text-align: left;">adverb | coordinating conjunction (<hi rend="italic"
+                     >in</hi>, <hi rend="italic">ali</hi>, <hi rend="italic">torej</hi>, <hi
+                     rend="italic">vendar</hi>, <hi rend="italic">zato</hi>)</cell>
+               <cell style="text-align: right;">1,265</cell>
+               <cell style="text-align: left;">high</cell>
+            </row>
+            <row>
+               <cell style="text-align: left;">noun | preposition, instrumental | preposition,
+                  accusative (<hi rend="italic">v</hi>)</cell>
+               <cell style="text-align: right;">886</cell>
+               <cell style="text-align: left;">low</cell>
+            </row>
+            <row>
+               <cell style="text-align: left;">nominative | accusative (with singular masculine
+                  nouns)</cell>
+               <cell style="text-align: right;">686</cell>
+               <cell style="text-align: left;">low-to-middle</cell>
+            </row>
+            <row>
+               <cell style="text-align: left;">particle | coordinating conjunction (<hi
+                     rend="italic">ne</hi>, <hi rend="italic">sicer</hi>)</cell>
+               <cell style="text-align: right;">635</cell>
+               <cell style="text-align: left;">middle</cell>
+            </row>
+            <row>
+               <cell style="text-align: left;">interjection | preposition, accusative | preposition,
+                  locative (<hi rend="italic">na</hi>)</cell>
+               <cell style="text-align: right;">612</cell>
+               <cell style="text-align: left;">low</cell>
+            </row>
+            <row>
+               <cell style="text-align: left;">singular genitive | plural nominative | plural
+                  accusative (with common feminine nouns)</cell>
+               <cell style="text-align: right;">549</cell>
+               <cell style="text-align: left;">low</cell>
+            </row>
+            <row>
+               <cell style="text-align: left;">feminine singular accusative | feminine singular
+                  instrumental | neuter singular nominative | neuter singular accusative (<hi
+                     rend="italic">to</hi>)</cell>
+               <cell style="text-align: right;">544</cell>
+               <cell style="text-align: left;">middle</cell>
+            </row>
+            <row>
+               <cell style="text-align: left;">singular accusative | singular instrumental (with
+                  common feminine nouns) </cell>
+               <cell style="text-align: right;">447 </cell>
+               <cell style="text-align: left;">low</cell>
+            </row>
+            <row>
+               <cell style="text-align: left;">preposition, instrumental | preposition, genitive |
+                  preposition, accusative | adverb (<hi rend="italic">za</hi>)</cell>
+               <cell style="text-align: right;">352 </cell>
+               <cell style="text-align: left;">low-to-middle</cell>
+            </row>
+            <row>
+               <cell style="text-align: left;">9 combinations of gender, number, and case (with
+                  general adjectives)</cell>
+               <cell style="text-align: right;">345 </cell>
+               <cell style="text-align: left;">middle-to-high</cell>
+            </row>
+            <note n="">Source: Own work</note></table>
+            <lb/>
+            <p style="text-align: justify;">In the future, task complexity can be calculated
+               bottom-up based on the time spent and taking into account the number and types of
+               morphosyntactic features that need to be disambiguated. In this paper, we only
+               provide manual estimations. As shown in Table 8, tasks may vary in complexity even
+               within the same annotation scenario depending on how much context the annotator
+               requires to disambiguate the examples. While low-complexity tasks require a context
+               of only a single word (e.g. the annotator only needs to look at the preceding
+               preposition to determine the case of the noun), high-complexity tasks require a wider
+               context and are more time-consuming (as is the case of disambiguating
+               adverb-conjunction homographs).</p>
+         </div>
+         <div>
+            <head>Conclusion</head>
+            <p style="text-align: justify;">In the paper, we presented a new semi-automatic approach
+               to correcting lemmas and morphosyntactic tags using the example of the ROG Training
+               Corpus of Spoken Slovene. The results are encouraging particularly when comparing the
+               expected duration of the annotation campaign using the traditional approach: based on
+               previous experience, lemma and tag annotation for each token takes approximately 12
+               seconds. In the case of approximately 60,000 tokens for ROG, using 6 annotators,
+               collecting 3 responses per token, and enforcing a 10-hour weekly quota, the campaign
+               would take 9–10 weeks, a total of 500 hours of annotator work (or 160 hours if only a
+               single response per token were collected). This does not include any additional
+               curation and data preparation. For the annotation of ROG, it took 105 hours (25 hours
+               for lemmas and 80 hours for morphosyntactic tags), while the final percentage of
+               corrected tokens is comparable to the traditional approach.</p>
+            <p style="text-align: justify;">In the future, the method can also be used to identify
+               inconsistencies in previously annotated corpora such as SUK. The scenarios can also
+               be analyzed after an update to the lexicon as any changes may show a potential
+               inconsistency in annotations. Scenarios and more fine-grained tasks could also be
+               useful as potential weighted features for more accurate evaluations of models (e.g. a
+               case error in a grammatical homograph is arguably less serious than an error in
+               part-of-speech).</p>
+            <p style="text-align: justify;">Another step that can be taken in the future is to
+               implement lexicon updates along with corpus annotation to ensure that both the
+               lexicon and training datasets are synchronized. The annotation process can be made
+               even more efficient by generating a list of rarely problematic low-priority
+               disambiguities (e.g. disambiguating <hi rend="italic">kaj</hi> 'what', a highly
+               frequent pronoun vs. <hi rend="italic underline">kaja</hi>, an archaic word for <hi
+                  rend="italic">kajenje</hi> 'smoking').</p>
+            <p style="text-align: justify;">We have shown that fully manual approaches to annotating
+               lemmas and morphosyntactic tags can be successfully substituted by a semi-automatic
+               method that offers several additional opportunities for optimization. We will explore
+               these in our future work.</p>
+         </div>
+         <div>
+            <head>Acknowledgment</head>
+            <p style="text-align: justify;">The research presented in this paper was carried out as
+               part of the research project <hi rend="italic">Basic Research for the Development of
+                  Spoken Language Resources and Speech Technologies for the Slovenian Language
+               </hi>(MEZZANINE, J7-4642), the research project <hi rend="italic">Treebank-Driven
+                  Approach to the Study of Spoken Slovenian</hi> (SPOT, Z6-4617), and the research
+               program <hi rend="italic">Language Resources and Technologies for Slovene</hi>
+               (P6-0411), all funded by Slovenian Research and Innovation Agency (ARIS).</p>
+            <p style="text-align: justify;">The authors would like to thank Matija Škofljanec for
+               lemma corrections and Kaja Dobrovoljc for additional suggestions on how to improve
+               the semi-automatic method presented in this paper. A sincere word of gratitude also
+               goes to the anonymous reviewers for their constructive comments.</p>
+         </div>
+      </body>
+      <back>
+         <div type="bibliogr">
+            <head>References</head>
+            <listBibl>
+               <bibl>Arhar Holdt, Špela, Jaka Čibej, Kaja Dobrovoljc, Tomaž Erjavec, Polona Gantar,
+                  Simon Krek et al. "Nadgradnja učnega korpusa ssj550k v SUK 1.0." <hi rend="italic"
+                     >Razvoj slovenščine v digitalnem okolju</hi> (2023): 119–56.</bibl>
+               <bibl>Arhar Holdt, Špela, Simon Krek, Kaja Dobrovoljc, Tomaž Erjavec, Polona Gantar,
+                  Jaka Čibej et al. "Training corpus SUK 1.1." <hi rend="italic">Slovenian language
+                     resource repository CLARIN.SI</hi>, ISSN 2820-4042 (2024). <ref
+                     target="http://hdl.handle.net/11356/1959"
+                     >http://hdl.handle.net/11356/1959</ref>.</bibl>
+               <bibl>Čibej, Jaka and Tina Munda. "Metoda polavtomatskega popravljanja lem in
+                  oblikoskladenjskih oznak na primeru učnega korpusa govorjene slovenščine ROG." <hi
+                     rend="italic">Language technologies and digital humanities: proceedings of the
+                     conference</hi>: 19–20 September 2024. Ljubljana, Slovenia. (2024): 66–86. <ref
+                     target="https://www.sdjt.si/wp/wp-content/uploads/2024/09/JT-DH_2024_Cibej_Munda.pdf"
+                     >https://www.sdjt.si/wp/wp-content/uploads/2024/09/JT-DH_2024_Cibej_Munda.pdf</ref>.</bibl>
+               <bibl>Čibej, Jaka, Darja Fišer, and Tomaž Erjavec. <hi rend="italic">Normalisation,
+                     Tokenisation and Sentence Segmentation of Slovene Tweets. Normalisation and
+                     Analysis of Social Media Texts (NORMSOME) – LREC 2016 (2016): 5–10. Portorož,
+                     Slovenia</hi>. <ref
+                     target="http://www.lrec-conf.org/proceedings/lrec2016/workshops/LREC2016Workshop-NormSoMe_Proceedings.pdf#page=10"
+                     >http://www.lrec-conf.org/proceedings/lrec2016/workshops/LREC2016Workshop-NormSoMe_Proceedings.pdf#page=10</ref>.</bibl>
+               <bibl>Čibej, Jaka, Kaja Gantar, Kaja Dobrovoljc, Simon Krek, Peter Holozan, Tomaž
+                  Erjavec et al. "Morphological lexicon Sloleks 3.0." <hi rend="italic">Slovenian
+                     language resource repository CLARIN.SI</hi> (2022). <ref
+                     target="http://hdl.handle.net/11356/1745"
+                     >http://hdl.handle.net/11356/1745</ref>.</bibl>
+               <bibl>Čibej, Jaka, Špela Arhar Holdt, Darja Fišer, and Tomaž Erjavec. "Ročno označeni
+                  korpusi JANES za učenje jezikovnotehnoloških orodij in jezikoslovne raziskave."
+                     <hi rend="italic">Viri, orodja in metode za analizo spletne slovenščine</hi>
+                  (2018): 44–73. <ref
+                     target="https://ebooks.uni-lj.si/ZalozbaUL/catalog/view/111/203/2416"
+                     >https://ebooks.uni-lj.si/ZalozbaUL/catalog/view/111/203/2416</ref>.</bibl>
+               <bibl>Dobrovoljc, Kaja, and Joakim Nivre. "The Universal Dependencies Treebank of
+                  Spoken Slovenian." <hi rend="italic">Proceedings of the Tenth International
+                     Conference on Language Resources and Evaluation (LREC’16)</hi>. Portorož,
+                  Slovenia: European Language Resources Association (ELRA), 2016, 1566–73. <ref
+                     target="https://aclanthology.org/L16-1248"
+                     >https://aclanthology.org/L16-1248</ref>.</bibl>
+               <bibl>Dobrovoljc, Kaja. "Skladenjska drevesnica govorjene slovenščine: stanje in
+                  perspektive." <hi rend="italic">Stanje in perspektive uporabe govornih virov v
+                     raziskavah govora</hi>, 2024, 41–62.</bibl>
+               <bibl>Eckart de Castilho, Richard, Éva Mújdricza-Maydt, Seid Muhie Yimam, Silvana
+                  Hartmann, Iryna Gurevych, Anette Frank, and Chris Biemann. "A Web-based Tool for
+                  the Integrated Annotation of Semantic and Syntactic Structures." <hi rend="italic"
+                     >Proceedings of the Workshop on Language Technology Resources and Tools for
+                     Digital Humanities (LT4DH)</hi>. Osaka, Japan: The COLING 2016 Organizing
+                  Committee (2016), 76–84. <ref target="https://www.aclweb.org/anthology/W16-4011"
+                     >https://www.aclweb.org/anthology/W16-4011</ref>.</bibl>
+               <bibl>Erjavec, Tomaž, Darja Fišer, Jaka Čibej, and Špela Arhar Holdt. "CMC training
+                  corpus JANES-Norm 1.2." <hi rend="italic">Slovenian language resource repository
+                     CLARIN.SI</hi> (2016a). <ref target="http://hdl.handle.net/11356/1084"
+                     >http://hdl.handle.net/11356/1084</ref>.</bibl>
+               <bibl>Erjavec, Tomaž, Darja Fišer, Jaka Čibej, and Špela Arhar Holdt. "CMC training
+                  corpus JANES-Tag 1.1." <hi rend="italic">Slovenian language resource repository
+                     CLARIN.SI</hi> (2016b). <ref target="http://hdl.handle.net/11356/1081"
+                     >http://hdl.handle.net/11356/1081</ref>.</bibl>
+               <bibl>Fišer, Darja, Nikola Ljubešić, and Tomaž Erjavec. "The JANES Project: Language
+                  Resources and Tools for Slovene User-Generated Content." <hi rend="italic"
+                     >Language Resources Evaluation </hi>54 (2020): 223–46. <ref
+                     target="https://doi.org/10.1007/s10579-018-9425-z"
+                     >https://doi.org/10.1007/s10579-018-9425-z</ref>.</bibl>
+               <bibl>Kosem, Iztok, Simon Krek, and Polona Gantar. "Semantic data should no longer
+                  exist in isolation: the digital dictionary database of Slovenian." <hi
+                     rend="italic">Proceedings of the XIX EURALEX International Congress:
+                     Lexicography for Inclusion</hi>. Komotini: SynMorPhoSe Lab, Democritus
+                  University of Thrace. (2021), 81–83. <ref
+                     target="https://elex.is/wp-content/uploads/2021/09/Semantic-Data-should-no-longer-exist-in-isolation-the-Digital-Dictionary-Database-of-Slovenian_Kosem-Krek-Gantar_EURALEX2020.pdf"
+                     >https://elex.is/wp-content/uploads/2021/09/Semantic-Data-should-no-longer-exist-in-isolation-the-Digital-Dictionary-Database-of-Slovenian_Kosem-Krek-Gantar_EURALEX2020.pdf</ref>.</bibl>
+               <bibl><hi rend="italic">Label Studio</hi>, <ref target="https://labelstud.io/"
+                     >https://labelstud.io/</ref>.</bibl>
+               <bibl>Ljubešić, Nikola, and Kaja Dobrovoljc. "What does Neural Bring? Analysing
+                  Improvements in Morphosyntactic Annotation and Lemmatisation of Slovenian,
+                  Croatian and Serbian." <hi rend="italic">Proceedings of the 7th Workshop on
+                     Balto-Slavic Natural Language Processing</hi>. Florence, Italy. Association for
+                  Computational Linguistics, 2019, 29–34. <ref
+                     target="https://aclanthology.org/W19-3704/"
+                     >https://aclanthology.org/W19-3704/</ref>.</bibl>
+               <bibl>Ljubešić, Nikola, Luka Terčon, and Jaka Čibej. "The CLASSLA-Stanza model for
+                  morphosyntactic annotation of standard Slovenian 2.0". <hi rend="italic">Slovenian
+                     language resource repository CLARIN.SI</hi>, ISSN 2820-4042 (2023). <ref
+                     target="http://hdl.handle.net/11356/1767"
+                     >http://hdl.handle.net/11356/1767</ref>.</bibl>
+               <bibl>Pori, Eva, Jaka Čibej, Tina Munda, Luka Terčon, and Špela Arhar Holdt.
+                  "Lematizacija in oblikoskladenjsko označevanje korpusa SentiCoref." <hi
+                     rend="italic">Konferenca Jezikovne tehnologije in digitalna humanistika</hi>
+                  (2022): 162–68. Ljubljana, Slovenija. <ref
+                     target="https://nl.ijs.si/jtdh22/pdf/JTDH2022_Pori-et-al_Lematizacija-in-oblikoskladenjsko-oznacevanje-korpusa-SentiCoref.pdf"
+                     >https://nl.ijs.si/jtdh22/pdf/JTDH2022_Pori-et-al_Lematizacija-in-oblikoskladenjsko-oznacevanje-korpusa-SentiCoref.pdf</ref>.</bibl>
+               <bibl><hi rend="italic">PyBossa.</hi>
+                  <ref target="https://docs.pybossa.com/">https://docs.pybossa.com/</ref>.</bibl>
+               <bibl>Terčon, Luka, Jaka Čibej and Nikola Ljubešić. "The CLASSLA-Stanza model for
+                  lemmatisation of standard Slovenian 2.0." <hi rend="italic">Slovenian language
+                     resource repository CLARIN.SI</hi>, ISSN 2820-4042 (2023). <ref
+                     target="http://hdl.handle.net/11356/1768"
+                     >http://hdl.handle.net/11356/1768</ref>.</bibl>
+               <bibl>Verdonik, Darinka, Andreja Bizjak, Mirjam Sepesy Maučec et al. "ASR database
+                  ARTUR 1.0 (transcriptions)." <hi rend="italic">Slovenian language resource
+                     repository CLARIN.SI</hi> (2023). <ref
+                     target="http://hdl.handle.net/11356/1772"
+                     >http://hdl.handle.net/11356/1772</ref>. </bibl>
+               <bibl>Verdonik, Darinka, Kaja Dobrovoljc, Peter Rupnik, Nikola Ljubešić, Simona
+                  Majhenič, Jaka Čibej, and Thomas Schmidt. "Training corpus of spoken Slovenian ROG
+                  1.0." <hi rend="italic">Slovenian language resource repository CLARIN.SI</hi>,
+                  ISSN 2820-4042 (2024). <ref target="http://hdl.handle.net/11356/1992"
+                     >http://hdl.handle.net/11356/1992</ref>.</bibl>
+               <bibl>Verdonik, Darinka, Nikola Ljubešić, Peter Rupnik, Kaja Dobrovoljc, and Jaka
+                  Čibej. "Izbor in urejanje gradiv za učni korpus govorjene slovenščine ROG." <hi
+                     rend="italic">Konferenca jezikovne tehnologije in digitalna humanistika</hi>.
+                  Ljubljana, Slovenija. (2024), 472–88.</bibl>
+               <bibl>Zwitter Vitez, Ana, Jana Zemljarič Miklavčič, Simon Krek, Marko Stabej, and
+                  Tomaž Erjavec. "Spoken corpus GOS 1.1." <hi rend="italic">Slovenian language
+                     resource repository CLARIN.SI</hi>. (2021). <ref
+                     target="http://hdl.handle.net/11356/1438"
+                     >http://hdl.handle.net/11356/1438</ref>.</bibl>
+               <bibl>Zwitter Vitez, Ana, Jana Zemljarič Miklavčič, Simon Krek, Marko Stabej, Tomaž
+                  Erjavec, Darinka Verdonik et al. "Spoken corpus GOS 2.0 (transcriptions)." <hi
+                     rend="italic">Slovenian language resource repository CLARIN.SI</hi> (2023).
+                     <ref target="http://hdl.handle.net/11356/1771"
+                     >http://hdl.handle.net/11356/1771</ref>.</bibl>
+            </listBibl>
+         </div>
+         <div type="summary">
+            <docAuthor>Jaka Čibej</docAuthor>
+            <docAuthor>Tina Munda</docAuthor>
+            <head>UPORABA OBLIKOSLOVNEGA LEKSIKONA PRI POLAVTOMATSKEM PRISTOPU K POPRAVLJANJU LEM IN
+               OBLIKOSKLADENJSKIH OZNAK</head>
+            <head>POVZETEK</head>
+            <p style="text-align: justify;">V prispevku smo zasnovali nov polavtomatski pristop k
+               popravljanju lem in oblikoskladenjskih oznak, ki se od predhodnih ročnih pristopov
+               razlikuje po dodatni fazi navzkrižne primerjave s Slovenskim oblikoslovnim leksikonom
+               Sloleks. V tem koraku so pojavnice in njihove strojno pripisane oblikoskladenjske
+               značilnosti ter leme razvrščene v označevalne scenarije, na podlagi katerih je delo
+               mogoče razdeliti v ločene sklope. Na ta način potrebujemo precej manj časa za
+               proučevanje označevalnih smernic po sistemu Multext-East za slovenščino, delitev na
+               sklope podobnih nalog pa omogoča tudi, da različno izkušenih označevalcem dodelimo
+               delo primerne težavnosti. Metodo smo preizkusili pri označevanju Učnega korpusa
+               govorjene slovenščine ROG ter dodatno stestirali na Učnem korpusu pisne slovenščine
+               SUK. Rezultati kažejo, da je novi pristop hitrejši in v primerjavi s predhodnimi
+               metodami zmanjša časovni vložek s približno 500 ur na 105 ur dela (na primeru korpusa
+               ROG), pri čemer je končni odstotek popravljenih lem in oblikoskladenjskih oznak
+               primerljiv (4-5 % za oblikoskladenjske oznake ter 1,3 % za leme). Pri tem so
+               problematične predvsem enakopisnice na eni strani (zlasti če še niso popisane v
+               leksikonu) ter neleksikonske pojavnice na drugi. S posodabljanjem Slovenskega
+               oblikoslovnega leksikona Sloleks bo metoda v prihodnje še zanesljivejša, v prihodnje
+               pa lahko postopek še nadgradimo s proučevanjem posameznih mikronalog – opazujemo
+               lahko, kako se strojno označevanje obnese pri določenih enakopisnicah, ter popišemo,
+               katere so manj verjeten vir napak, kar lahko upoštevamo pri načrtovanju označevanja.
+            </p>
+         </div>
+      </back>
+   </text>
+</TEI>

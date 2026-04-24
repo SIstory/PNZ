@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vsakdanji in banalni nacionalizem med strukturo in delovanjem</title>
+            <author>
+               <forename>Nik</forename>
+               <surname>Obid</surname>
+               <roleName>Mladi raziskovalec</roleName>
+               <roleName>asistent</roleName>
+               <affiliation>Inštitut za slovensko izseljenstvo in migracije, ZRC SAZU</affiliation>
+               <address>
+                  <addrLine>Novi trg 2</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <email>nik.obid@zrc-sazu.si</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2025-10-30</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+               <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               <address>
+                  <addrLine>Privoz 11</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>http://ojs.inz.si/pnz/article/view/5281</pubPlace>
+            <date>2025</date>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+            <title xml:lang="en">Contributions to Contemporary History</title>
+            <biblScope unit="volume">65</biblScope>
+            <biblScope unit="issue">3</biblScope>
+            <idno type="ISSN">2463-7807</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>No source, born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc xml:lang="en">
+            <p>Contributions to Contemporary History is one of the central Slovenian scientific
+               historiographic journals, dedicated to publishing articles from the field of
+               contemporary history (the 19th and 20th century).</p>
+            <p>The journal is published three times per year in Slovenian and in the following
+               foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak and
+               Czech. The articles are all published with abstracts in English and Slovenian as well
+               as summaries in English.</p>
+         </projectDesc>
+         <projectDesc xml:lang="sl">
+            <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+               zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+               stoletje).</p>
+            <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+               angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina in
+               češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki v
+               angleščini.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="sl"/>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>everyday nationalism</term>
+               <term>banal nationalism</term>
+               <term>structure</term>
+               <term>agency</term>
+               <term>identity</term>
+            </keywords>
+            <keywords xml:lang="sl">
+               <term>vsakdanji nacionalizem</term>
+               <term>banalni nacionalizem</term>
+               <term>struktura</term>
+               <term>delovanje</term>
+               <term>identiteta</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change><date>2026-03-23T11:45:32Z</date>
+               <name>Mihael Ojsteršek</name>
+               <desc>Pretvorba iz DOCX v TEI, dodatno označevanje</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docAuthor>Nik Obid<note place="foot" xml:id="ftn1" n="**">Mladi raziskovalec, asistent,
+               Inštitut za slovensko izseljenstvo in migracije, ZRC SAZU, Novi trg 2, SI-1000
+               Ljubljana, <ref target="mailto:nik.obid@zrc-sazu.si">nik.obid@zrc-sazu.si</ref>
+            </note></docAuthor>
+         <docImprint>
+            <idno type="cobissType">Cobiss tip: 1.02</idno>
+            <idno type="DOI">https://doi.org/10.51663/pnz.65.3.12</idno>
+         </docImprint>
+         <div type="abstract" xml:lang="sl">
+            <head>IZVLEČEK</head>
+            <p style="text-align: justify;"><hi rend="italic">Klasična delitev socioloških pristopov
+                  ločuje med strukturalnimi teorijami in teorijami družbenega delovanja, ki glede na
+                  večjo vlogo akterja ali strukture razlagajo kompleksno funkcioniranje družbe.
+                  Omenjena delitev vpliva tudi na preučevanje nacionalizma, ki je največkrat
+                  obravnavan kot produkt (elitnih) strukturnih sil, ki prek različnih mehanizmov
+                  posredujejo ide(ologi)jo nacionalizma med prebivalstvo. Prispevek se osredotoča na
+                  povezanost socioloških teorij, ki poudarjajo prepletenost vloge strukture in
+                  delovanja, s teorijama vsakdanjega in banalnega nacionalizma, ki temeljita na
+                  preučevanju nacionalizma in njegovega vpliva na ravni posameznih členov
+                  družbe.</hi></p>
+            <p style="text-align: justify;"><hi rend="italic">Ključne besede: vsakdanji
+                  nacionalizem, banalni nacionalizem, struktura, delovanje, identiteta</hi></p>
+         </div>
+         <div type="abstract" xml:lang="en">
+            <head>ABSTRACT</head>
+            <head>EVERYDAY AND BANAL NATIONALISM BETWEEN STRUCTURE AND AGENCY</head>
+            <p style="text-align: justify;"><hi rend="italic">The classic division of sociological
+                  approaches distinguishes between structural theories and theories of social
+                  action, which explain society’s complex functioning based on the primary role of
+                  either actors or structures. This division also influences the study of
+                  nationalism, which is most often seen as a product of (elite) structural forces
+                  that disseminate the idea (or ideology) of nationalism among the population
+                  through various mechanisms. The contribution focuses on the relationship between
+                  the sociological theories, which emphasise the interconnected roles of structure
+                  and agency, and the theories of everyday and banal nationalism, which study
+                  nationalism and its influence on individual members of society.</hi></p>
+            <p style="text-align: justify;"><hi rend="italic">Keywords: everyday nationalism, banal
+                  nationalism, structure, agency, identity</hi></p>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>Uvod</head>
+            <p style="text-align: justify;"><hi rend="italic">Analizirati kulturne spore o
+                  nacionalni identiteti brez razumevanja, kako ljudje prevzamejo in živijo takšne
+                  identitete ter kako identiteta nato oblikuje njihovo ravnanje, nam ne pomaga pri
+                  razumevanju nacionalizma.</hi><note place="foot" xml:id="ftn3" n="1">Stephen
+                  Reicher in Nick Hopkins, <hi rend="italic">Self and Nation: Categorization,
+                     Contestation and Mobilization</hi> (Thousand Oakes: SAGE, 2001), 3.</note></p>
+            <p style="text-align: justify;">Preučevanje nacionalizma se je dolga leta osredotočalo
+               na analizo njegove strukturne narave in celostnega vpliva na delovanje družbe in
+               posameznikov. To je povsem razumljivo, saj se z vplivom ideologije nacionalizma
+               srečujemo na vseh poteh vsakdanjega življenja. Omejuje ali razširja nam pogled na
+               svet, spreminja njegovo razumevanje, utrjuje ali razbija notranjo koherentnost družb,
+               neti vojne ali spore ter krepi vključene ali ponižuje izključene iz nekega domnevno
+               zaokroženega družbenega kroga. Gre namreč za zelo fluiden ideološki pojem, ki se na
+               eni strani pogosto izkazuje kot izredno trdna podstat družbe, po drugi pa je
+               filozofsko in sociološko izredno šibek ter na trenutke celo kontradiktoren in
+                  nekoherenten.<note place="foot" xml:id="ftn4" n="2">Damjan Mandelc, <hi
+                     rend="italic">Na mejah nacije: teorije in prakse nacionalizma </hi>(Ljubljana:
+                  Filozofska fakulteta, 2011), 45.</note> Ker je pojavnost naroda in nacionalne
+               identitete kompleksna in variabilna<note place="foot" xml:id="ftn5" n="3">Anthony
+                  Smith, <hi rend="italic">National Identity</hi> (London: Penguin, 1991),
+                  143.</note>, odvisna pa je od številnih družbenih dejavnikov, je težko oblikovati
+               teoretični pristop, ki bi ga za(ob)jel v enotno sliko.</p>
+            <p style="text-align: justify;">Prav zaradi kompleksnosti njegovega preučevanja so se
+               izoblikovali različni raziskovalni pristopi, katerih cilj je razumevanje procesa
+               usklajevanja politične skupnosti (države) s kulturno enoto oziroma narodom.<note
+                  place="foot" xml:id="ftn6" n="4">Jon E. Fox in Cynthia Miller-Idriss, »Everday
+                  nationhood,« <hi rend="italic">Ethnicities</hi> 8, št. 4 (2008): 536, pridobljeno
+                  5. 6. 2025, <ref target="https://doi.org/10.1177/1468796808088925"
+                     >https://doi.org/10.1177/1468796808088925</ref>.</note> Raziskovalne paradigme,
+               kot so modernizem, etnosimbolizem in evolucionizem, so bile največkrat povezane z
+               analizo družbenih struktur, saj so se vpliva nacionalizma, njegove pojavnosti in
+               ideološke moči lotevali od zgoraj navzdol.<note place="foot" xml:id="ftn7" n="5"> Jon
+                  E. Fox in Maarten Van Ginderachter, »Everday nationalism's evidence problem,« <hi
+                     rend="italic">Nations and Nationalism</hi> 24, št. 3 (2018): 547, pridobljeno:
+                  5. 6. 2025, <ref target="https://doi.org/10.1111/nana.12418"
+                     >https://doi.org/10.1111/nana.12418</ref>.</note> Poudarjale so njegov izvor in
+               politično-ideološke dimenzije, povezane z rastjo industrijskega kapitalizma ter
+               oblikovanjem moderne nacionalne države, ali pa so ga preučevale kot kulturni
+               konstrukt kolektivne pripadnosti, uresničen in legitimiran skozi institucionalne in
+               diskurzivne prakse.<note place="foot" xml:id="ftn8" n="6">Fox in Miller-Idriss,
+                  »Everday nationhood,« 536. Mandelc, <hi rend="italic">Na mejah nacije</hi>, 45,
+                  46.</note> Osrediščene so (bile) predvsem okoli načina, »kako se narodi
+               oblikujejo, niso pa zmogle razložiti tega, kako ljudje oblikujejo narod«.<note
+                  place="foot" xml:id="ftn9" n="7">Fox in Ginderachter, »Everday nationalism's
+                  evidence problem,« 1.</note> A v kompleksnem sodobnem svetu to nikakor ne zadošča,
+               saj celostne analize nacionalizma ne more biti brez preučevanja uveljavljenih
+               vsakdanjih praks in navad, prek katerih ide(ologi)ja prodira v življenja navadnih
+               ljudi, ter njihovega vsakodnevnega osmišljanja nacionalnih kategorij. Zato bi lahko
+               trdili, da analiza nacionalizma sledi klasični dilemi sociološke znanosti, ki poskuša
+               s konfliktom med strukturalnimi teorijami in teorijami družbenega delovanja zajeti
+               kompleksnost družbe kot celote.<note place="foot" xml:id="ftn10" n="8">Haralambos in
+                  Holborn, <hi rend="italic">Sociologija: teme in pogledi</hi> (Ljubljana: Državna
+                  založba Slovenije, 1999), 874, 875.</note> Od Billigove znamenite knjige o
+               banalnem nacionalizmu<note place="foot" xml:id="ftn11" n="9">Billig, <hi
+                     rend="italic">Banal nationalism</hi> (London: SAGE Publications, 1995).</note>
+               dalje je vse bolj jasno, da temeljite analize ne more biti brez razumevanja njegove
+               (re)produkcije na ravni posameznih členov družbe.</p>
+            <p style="text-align: justify;">V nasprotju s klasičnimi teorijami nacionalizma banalni
+               in vsakdanji nacionalizem poudarjata drugačne raziskovalne perspektive, pri čemer se
+               v raziskovalnih izhodiščih temeljno razlikujeta. Vsakdanji nacionalizem (pri
+               nekaterih avtorjih tudi vsakdanja narodnost – »everyday nationhood«)<note
+                  place="foot" xml:id="ftn12" n="10">Fox in Miller-Idriss, »Everyday
+                  nationhood.«</note> je osredotočen na preučevanje posameznikovega razumevanja,
+               uporabe in predvsem <hi rend="italic">(so)oblikovanja</hi> nacionalnih kategorij v
+               vsakdanjih življenjskih praksah, pogovorih in potrošniških navadah.<note place="foot"
+                  xml:id="ftn13" n="11">Fox in Ginderachter, »Everday nationalism's evidence
+                  problem,« 1, 2.</note> Raziskovalci banalnega nacionalizma po drugi strani
+               analizirajo, kako nacionalizem v vsakdanje življenje prodira večinoma neopazno prek
+               prevladujočih diskurzov (npr. tistih, ki jih posredujejo mediji, institucije,
+               politični govori, šolski kurikulumi, rituali, dogodki ali simboli) ter tako na
+               impliciten način reproducira idejo naroda in nacionalne države.<note place="foot"
+                  xml:id="ftn14" n="12">Michael Skey, »The national in everday life: A critical
+                  engagement with Michael Billig's thesis of Banal Nationalism,« <hi rend="italic"
+                     >The Sociological Review</hi> 57, št. 2 (2009): 331, 332, pridobljeno 7. 6.
+                  2025, <ref target="https://doi.org/10.1111/j.1467-954X.2009.01832.x"
+                     >https://doi.org/10.1111/j.1467-954X.2009.01832.x</ref>.</note> Kot trdi Fox,
+               je bistvena razlika v raziskovalnem izhodišču, saj se banalni nacionalizem osredotoča
+               na ideologijo nacionalizma in njegovo prodiranje od zgoraj navzdol, medtem ko so za
+               raziskovalce vsakdanjega nacionalizma osnova preučevanja navadni ljudje, ki počnejo
+               vsakdanje stvari.<note place="foot" xml:id="ftn15" n="13">Jon E. Fox, »Banal
+                  nationalism in everyday life,« <hi rend="italic">Nations and Nationalism</hi> 24,
+                  št. 4 (2018): 863, pridobljeno 7. 6. 2025, doi: 10.1111/nana.12458.</note> Pri
+               obeh pristopih je bistveno preučevanje nacionalizma v kontekstu situacij na ravni
+               akterja, kjer ta zavedno ali nezavedno upošteva nacionalne kategorije in deluje v
+               njihovem okviru oziroma se nanje sklicuje in jih uporablja za lastne namene.<note
+                  place="foot" xml:id="ftn16" n="14">Jonathan Hearn in Marco Antonsich, »Theoretical
+                  and methodological considerations for the study of banal and everyday
+                  nationalism,« <hi rend="italic">Nations and Nationalism</hi> 24, št. 3 (2018): 1,
+                  2, pridobljeno 7. 6. 2025, <ref target="https://doi.org/10.1111/nana.12419"
+                     >https://doi.org/10.1111/nana.12419</ref>.</note></p>
+            <p style="text-align: justify;">Razumevanje teh procesov je izredno pomembno v času
+               pospešene globalizacije in razvoja sodobnih individualističnih družb, kjer se
+               vprašanja o (samo)ohranjanju narodov in nacionalizma pozornemu opazovalcu pojavljajo
+               vsakodnevno. Pri obravnavi obeh pristopov vznikajo številne teoretske in metodološke
+               dileme, pa tudi vprašanja o objektih raziskovanja in znanstvenem doprinosu k študijam
+                  nacionalizma.<note place="foot" xml:id="ftn17" n="15">Eleanor Knott, »Everyday
+                  nationalism. A review of the literature,« <hi rend="italic">Studies of National
+                     Movements</hi> 3 (2015), pridobljeno 8. 6. 2025, <ref
+                     target="https://test.snm.nise.eu/index.php/studies/article/view/0308s"
+                     >https://test.snm.nise.eu/index.php/studies/article/view/0308s</ref>. J. Paul
+                  Goode in David R. Stroup, »Everyday nationalism: constructivism for the masses,«
+                     <hi rend="italic">Social Sciences Quarterly</hi> 96, št. 3 (2015), pridobljeno
+                  8. 6. 2025, doi: 10.1111/ssqu.12188. Anthony Smith, »The limits of everyday
+                  nationhood,« <hi rend="italic">Ethnicities</hi> 8, št. 4 (2018), pridobljeno 8. 6.
+                  2025, <ref target="https://doi.org/10.1177/14687968080080040102"
+                     >https://doi.org/10.1177/14687968080080040102</ref>. Jon E. Fox in Cynthia
+                  Miller Idriss, »The 'here and now' of everyday nationhood,«, <hi rend="italic"
+                     >Ethnicities</hi> 8, št. 4 (2018): 573–76, pridobljeno 11. 6. 2025, <ref
+                     target="https://doi.org/10.1177/1468796808088925"
+                     >https://doi.org/10.1177/1468796808088925</ref>. Sophie Duchesne, »Who is
+                  afraid of banal nationalism?,« <hi rend="italic">Nations and Nationalism</hi> 24,
+                  št. 4 (2018), pridobljeno 9. 6. 2025, doi: 10.1111/nana.12457. Hearn in Antonsich,
+                  »Theoretical and methodological considerations.« Fox in Ginderachter, »Everday
+                  nationalism's evidence problem.« Fox, »Banal nationalism in everyday life.« Fox in
+                  Miller-Idriss, »Everday nationhood.«</note> V članku vsakdanji in banalni
+               nacionalizem teoretsko sociološko kontekstualiziram in povežem s temeljnimi deli ter
+               izbranimi članki, ki obe paradigmi implementirajo v praksi. V prvem delu predstavim
+               izbrane sociološke teorije, ki poskušajo preseči strogo delitev med strukturo in
+               delovanjem, pri čemer sem še posebno pozoren na vidike, pomembne za razumevanje
+               reprodukcije nacionalizma na ravni posameznih členov družbe. V drugem delu članka
+               obravnavane sociološke teorije, ki temeljijo na preučevanju odnosa, kompleksnosti in
+               prepletenosti strukture in delovanja, povežem s teoretičnimi dilemami obeh pristopov
+               v sodobni in historični perspektivi ter s tem prikažem pomembnost omenjenih teorij za
+               preučevanje kompleksne narave nacionalizma in njegovih praktičnih vsakdanjih
+               dimenzij. </p>
+         </div>
+         <div>
+            <head>Teoretični sociološki premisleki</head>
+            <p style="text-align: justify;">Preučevanje nacionalizma, ki predstavlja eno izmed
+               prevladujočih ideologij v modernem času, obsega najrazličnejše družboslovne
+               premisleke in metodološke pristope. Razprave pogosto zajemajo zgodovinske in
+               politološke raziskovalne pristope, še zanimivejše pa so sociološke obravnave, ki
+               raziskujejo, kako se preučevanja nacionalizma lotiti z družbeno-analitične
+               perspektive. Slovenski sociolog dr. Rudi Rizman kot bistvene našteva štiri sklope
+               njegovega preučevanja: komunikacijski, marksistični, psihološki in funkcionalni.
+                  <note place="foot" xml:id="ftn18" n="16">Rudi Rizman, <hi rend="italic">Študije o
+                     etnonacionalizmu</hi> (Ljubljana: KRT, 1991), 27–31.</note> Prvi obsega analizo
+               nacionalizma s teorijo sistema notranjih komunikacij, pri čemer slednja zagotavlja
+               občutek skupne identitete, medtem ko marksistični ponuja premislek o njem skozi
+               prizmo razrednega konflikta oziroma ekonomskih konfliktov v družbi. Psihološki
+               analitični pristop nacionalizem razume predvsem na podlagi istovetenja s širšimi
+               družbenimi cilji, ki so pogosto posledica socialno-ekonomskih in političnih sprememb,
+               funkcionalni pristop pa zajema temeljne premisleke o nacionalizmu kot ideološki
+               podstati prehoda med tradicionalnimi in modernimi identitetami.<note place="foot"
+                  xml:id="ftn19" n="17">Mandelc, <hi rend="italic">Na mejah nacije</hi>,
+               77.</note></p>
+            <p style="text-align: justify;">Temeljna ideja sodobnih socioloških teorij je predvsem
+               preusmeritev raziskovalnega fokusa z enega na več različnih vidikov družbenega
+               življenja, ki so med seboj povezani.<note place="foot" xml:id="ftn20" n="18">
+                  Ibidem.</note> Temu sledita tudi koncepta preučevanja banalnih in vsakdanjih
+               vidikov nacionalizma, ki poskušata (strukturno) pogojene nacionalne diskurze elit
+                  <note place="foot" xml:id="ftn21" n="19">Z elitami v primeru nacionalizma
+                  poimenujem predvsem družbene skupine, ki posedujejo lastnosti, ki jih uvrščajo
+                  višje na družbeni lestvici. Lastnosti vključujejo politično, administrativno ali
+                  versko moč, višjo izobrazbo, premožnost, družbeni položaj ali slavo. Pomembna je
+                  tudi njihova umeščenost v geografski (državni, regionalni ali lokalni) kontekst. –
+                  Več o tem Joseph Whitmeyer, »Elites and popular nationalism,« <hi rend="italic"
+                     >British Journal of Sociology</hi> 53, št. 3 (2002): 322, pridobljeno: 12. 7.
+                  2025, <ref target="https://doi.org/10.1080/0007131022000000536"
+                     >https://doi.org/10.1080/0007131022000000536</ref>.</note> razumeti v dinamiki
+               posameznikovega vsakdanjega življenja.<note place="foot" xml:id="ftn22" n="20">Hearn
+                  in Antonsich, »Theoretical and methodological considerations,« 1.</note> Koncepti
+               sociologov, ki so poskušali preseči klasično delitev med strukturo in delovanjem, so
+               močno vplivali tudi na analizo samega nacionalizma. Za sociologijo istočasna
+               pomembnost mikro in makro pristopov, ki sta ju v svojih delih analizirala ameriška
+               sociologa Jeffrey C. Alexander in Randall Collins<note place="foot" xml:id="ftn23"
+                  n="21">Mandelc, <hi rend="italic">Na mejah nacije</hi>, 78.</note>, je v
+               marsikaterem vidiku zelo podobna teoretičnim konceptom sociologov, ki poudarjajo
+               pomen povezanosti strukturnih dejavnikov družbe in akterjevega (so)ustvarjanja
+               družbenega sveta, med katere štejemo predvsem Pierra Bourdieuja, Margaret Archer in
+               Anthonyja Giddensa.<note place="foot" xml:id="ftn24" n="22">Pip Jones in Liz
+                  Bradbury, <hi rend="italic">Indroducing Social Theory</hi> (Cambridge: Polity
+                  Press, 2018), pogl. 7, pridobljeno 10. 6. 2025, <ref
+                     target="https://research-ebsco-com.nukweb.nuk.uni-lj.si/c/rsg6t3/search/details/ecieo34n3v?db=nlebk"
+                     >https://research-ebsco-com.nukweb.nuk.uni-lj.si/c/rsg6t3/search/details/ecieo34n3v?db=nlebk</ref>.</note>
+               To je še posebej uporabno pri preučevanju nacionalizma, pri katerem mora družboslovna
+               znanost presegati osredotočanje zgolj na njegov strukturni vpliv, kar je poudaril že
+               znameniti zgodovinar Eric Hobsbawm, ki je opozoril na nujnost obravnave dualnosti
+               nacionalizma, saj ga naj ne bi bilo mogoče razumeti brez analize mikroravni.<note
+                  place="foot" xml:id="ftn25" n="23">Eric Hobsbawm, <hi rend="italic">Nations and
+                     Nationalism since 1780: Programme, Myth, Reality</hi> (Cambridge: Cambridge
+                  University Press, 1992), 10.</note></p>
+            <p style="text-align: justify;">Kot prvega med pomembnejšimi predstavniki takih
+               pristopov lahko omenimo znanega francoskega sociologa Pierra Bourdieuja, ki je
+               poskušal v svojem delu <hi rend="italic">Outline of a Theory of Practice</hi>
+               premostiti dilemo med vplivom struktur ali delovanjem akterja na družbeno dinamiko.
+                  <note place="foot" xml:id="ftn26" n="24">Pierre Bourdieu, <hi rend="italic"
+                     >Outline of a Theory of Practice</hi> (Cambridge: Cambridge University Press,
+                  1997).</note> V ta namen je razvil termina »doxa« in »habitus«, s katerima je
+               pojasnjeval akterjevo zavedno in nezavedno delovanje kot posledico socializacije in
+               vpliva zunanjih družbenih struktur,<note place="foot" xml:id="ftn27" n="25">
+                  Ibid.</note> a ob tem ohranil njegovo moč pri njihovi spremembi. S tem je močno
+               povezana tudi njegova analiza akterjevega delovanja na družbenem prizorišču – to naj
+               bi bilo odvisno od različnih pridobljenih oblik kapitala (ekonomskega, kulturnega,
+               družbenega in simbolnega), ki jih posameznik uporabi na polju, kjer zaseda svoj
+                  položaj.<note place="foot" xml:id="ftn28" n="26">Jones in Bradbury, <hi
+                     rend="italic">Introducing Social Theory</hi>, pogl. 7.</note> Z omenjenimi
+               teoretičnimi koncepti je Bourdieu poskušal preseči klasično sociološko past med
+               pretiranim poudarjanjem strukture ali delovanja v družbeni dinamiki, zaradi česar je
+               njegova teorija vsekakor zelo zanimiva za preučevanje vpliva nacionalizma na
+               vsakdanji ravni. Če vemo, da sta banalni in vsakdanji nacionalizem zelo povezana z
+               rutinami, ki jih akter ponavlja v svojem vsakdanjem življenju ter pogosto reproducira
+               v situacijah, v katerih nezavedno ve, kako ravnati,<note place="foot" xml:id="ftn29"
+                  n="27">Tim Edensor in Shanti Sumartojo, »Geographies of everyday nationhood:
+                  experiencing multiculturalism in Melbourne,« <hi rend="italic">Nations and
+                     Nationalism</hi> 24, št. 3 (2018): 555, pridobljeno 12. 6. 2025, doi:
+                  10.1111/nana.12421.</note> predstavljajo takšni koncepti izredno pomembno
+               raziskovalno osnovo. </p>
+            <p style="text-align: justify;">Pri sociološki analizi obeh fenomenov moramo zaradi
+               obravnave akterjevega potenciala pri spreminjanju struktur in vplivanju nanje pod
+               drobnogled vzeti tudi britanska raziskovalca Anthonyja Giddensa in Margaret Archer.
+               Giddens je s svojo teorijo strukturacije poskušal omenjeno dvojnost teoretično
+               preseči z izpostavljanjem dualnosti struktur in njihovega (re)produciranja.<note
+                  place="foot" xml:id="ftn30" n="28">Anthony Giddens je svojo teorijo strukturacije
+                  razvijal v različnih strokovnih delih: Anthony Giddens, <hi rend="italic">New
+                     Rules of Sociological Method</hi> (London: Hutchinson, 1976). Anthony Giddens,
+                     <hi rend="italic">Studies in Social and Political Theory</hi> (New York: Basic
+                  Books, 1977). Anthony Giddens, <hi rend="italic">Central Problems in Social
+                     Theory</hi> (London: MacMillan, 1979). Anthony Giddens, <hi rend="italic">The
+                     Constitution of Society: Outline of the Theory of Structuration</hi>
+                  (Cambridge: Polity Press, 1984).</note> Pri tem večkrat – tako kot Bourdieu –
+               poudari refleksivno sposobnost akterja, čigar praktično in teoretično znanje izredno
+               vpliva na celoten proces, saj naj bi ta svoj položaj v družbi pogosto zavestno
+               analiziral. Po njegovi teoriji je obstoj strukture tesno povezan z delovanjem
+               akterja, saj brez njegovega delovanja v praksi ne more obstajati.<note place="foot"
+                  xml:id="ftn31" n="29">Haralambos in Holborn, <hi rend="italic">Sociologija</hi>,
+                  911.</note> Takšno delovanje naj bi bilo v prvi vrsti povezano z akterjevim
+               diskurzivnim in praktičnim znanjem, ki ju Giddens razdeli glede na posameznikovo
+               (ne)refleksivno delovanje v določeni situaciji. Praktično znanje se izkazuje kot
+               ravnanje, ki je tiho v delovanju, a močno prisotno v številnih vsakodnevnih
+               situacijah in navadah, ki jih jemljemo za samoumevne, pri njih pa ne prihaja do
+               vsakokratne ponovne refleksije.<note place="foot" xml:id="ftn32" n="30">Peter
+                  Stankovič, »Giddensova teorija strukturacije: zagate teoretskega eklekticizma,«
+                     <hi rend="italic">Teorija in praksa</hi> 37, št. 3 (2000): 459, pridobljeno 11.
+                  6. 2025, <ref target="http://dk.fdv.uni-lj.si/db/pdfs/tip20003stankovic.pdf"
+                     >http://dk.fdv.uni-lj.si/db/pdfs/tip20003stankovic.pdf</ref>. Jones in
+                  Bradbury, <hi rend="italic">Introducing social theory</hi>, pogl. 7.</note> Drugi
+               vidik predstavlja diskurzivno racionalno znanje, ki ga akter uporabi takrat, ko
+               potrebuje refleksivno utemeljitev svojih dejanj, pri čemer se opira na redno
+               spremljanje svojih motivov in delovanja.<note place="foot" xml:id="ftn33" n="31">
+                  Jones in Bradbury, <hi rend="italic">Introducing Social Theory</hi>, pogl.
+                  7.</note> Razlika med obema je predvsem v situacijskih kontekstih, saj praktično
+               znanje omogoča vsakodnevno delovanje, ki pogosto temelji na ponotranjenih vzorcih
+               obnašanja v družbi, medtem ko ima diskurzivno znanje posameznika moč spoprijemanja z
+               novimi nepredvidljivimi situacijami in iskanjem rešitev, prek katerih se spreminjajo
+               tudi izvorna strukturna razmerja.<note place="foot" xml:id="ftn34" n="32">Stankovič,
+                  »Giddensova teorija strukturacije«, 459.</note></p>
+            <p style="text-align: justify;">Vidik strukture sestavljajo pravila, ki so za
+               posameznika omogočujoča ali omejujoča, in resursi, ki jih Giddens razdeli na
+               alokacijske in avtoritativne, povezani pa so predvsem s posedovanjem določenih
+               (materialnih) dobrin ali zmožnostjo vpliva na druge člane družbe.<note place="foot"
+                  xml:id="ftn35" n="33">Giddens, <hi rend="italic">The Constitution of Society</hi>,
+                  33.</note> V praksi to pomeni, da sta posameznikovo delovanje in struktura
+               medsebojno soodvisna in neločljiva, kar nazorno prikaže na primeru jezika, istočasno
+               delujočega kot (omejujoča) struktura, ki se z govorjenjem po določenih pravilih
+               reproducira, a se sčasoma, zaradi aktivnosti akterjev in posedovanja obeh oblik
+               virov, tudi spreminja. Strukture torej po Giddensovi teoriji niso nekaj zunanjega in
+               deterministično vplivnega od zgoraj navzdol, temveč predvsem rezultat delovanja in
+               reprodukcije posameznih členov družbe na mikroravni. </p>
+            <p style="text-align: justify;">Teorija strukturacije še zdaleč ni popolna, zaradi česar
+               je bila deležna številnih kritik, istočasno pa se je na primeru kompleksnosti
+               migracij in nacionalizma tudi nadgrajevala. Teorijo so številni raziskovalci še
+               naprej razvijali, družbene strukture pa delili na zunanje strukturne sloje, ki so jih
+               razdelili na zgornje oddaljene strukturne sloje (velike zgodovinske sile, zunanje
+               pogoje in globalne družbene spremembe, kot so npr. politični in gospodarski sistemi,
+               vojna, lakota)<note place="foot" xml:id="ftn36" n="34">Rob Stones, <hi rend="italic"
+                     >Structuration Theory</hi> (Basingstoke: Palgrave Macmillan, 2005). Orla
+                  McGarry, »Knowing 'how to go on': structuration theory as an analytical prism in
+                  studies of intercultural engagement,« <hi rend="italic">Journal of Ethnic and
+                     Migration Studies</hi> 42, št. 12 (2016): 2071, 2072, pridobljeno 13. 6.
+                     2025,<ref target="https://doi.org/10.1080/1369183X.2016.1148593"
+                     >https://doi.org/10.1080/1369183X.2016.1148593</ref><hi rend="Hyperlink"
+                  >.</hi></note> in bližnje strukturne sloje (kontekstualno in področno specifične
+               omejitve, kot so denimo pravila, zakoni, politike, organizacijski okviri ipd.).<note
+                  place="foot" xml:id="ftn37" n="35">Karen O'Reilly, »Structuration, practice
+                  theory, etnography and migration: bringing it all together,« <hi rend="italic">IMI
+                     Working paper series</hi> 61 (2012): 7–9, pridobljeno 15. 6. 2025, <ref
+                     target="https://ora.ox.ac.uk/objects/uuid:f7ffb7f9-d6d0-4601-95e1-156da3c714a3"
+                     >https://ora.ox.ac.uk/objects/uuid:f7ffb7f9-d6d0-4601-95e1-156da3c714a3</ref>.</note>
+               Poleg zunanjih so h kompleksni analizi družbenega sveta dodali tudi koncept t. i.
+               notranjih struktur, pri čemer so pogosto uporabili že omenjeno Bourdieujevo teorijo
+               habitusa in koncept konjunkcijsko specifičnih internih struktur. Konjunkcijsko
+               specifične interne strukture predstavljajo tisti vidik, ki ga najlažje razložimo s
+               situacijsko priučenostjo oziroma procesom spoznavanja, načini ponotranjenega
+               razmišljanja in delovanja v danem kontekstu.<note place="foot" xml:id="ftn38" n="36">
+                  Ibid.</note></p>
+            <p style="text-align: justify;">Kompleksnost takih modelov (raz)ločevanja med strukturo
+               in delovanjem ima seveda tako prednosti kot slabosti, a je pri preučevanju
+               (vsakdanjega in banalnega) nacionalizma izredno pomembna, saj se s pomočjo omenjenih
+               kategorij lažje razume vpliv ideologije nacionalizma na različnih ravneh družbe. Če
+               razvejanost strukturnih slojev konkretiziramo na primeru bivanja migrantov v tujem
+               okolju, slednje ni samo produkt zunanjih makrostruktur ali akterjevega delovanja,
+               temveč časovno in prostorsko specifičen kontekst obojega.<note place="foot"
+                  xml:id="ftn39" n="37">Ewa Morawska, »International migration: its various
+                  mechanisms and different theories that try to explain it,« <hi rend="italic"
+                     >IMER/MIM</hi> (2007), 13, pridobljeno 16. 6. 2025, <ref
+                     target="https://www.diva-portal.org/smash/get/diva2:1409965/FULLTEXT01.pdf"
+                     >https://www.diva-portal.org/smash/get/diva2:1409965/FULLTEXT01.pdf</ref><hi
+                     rend="Hyperlink">.</hi></note> Koncept namreč predvideva pomembno soodvisnost
+               akterjevega delovanja na podlagi socialno-kulturnih virov, ti pa so vedno odvisni od
+               vpliva različnih struktur, ki podpirajo to delovanje.<note place="foot"
+                  xml:id="ftn40" n="38">McGarry, »Knowing 'how to go on',« 2071, 2072.</note> V
+               praksi bi to pomenilo, da je akterjevo delovanje v vsakdanjem življenju tesno
+               prepleteno z ekonomskimi dinamikami, migracijskimi politikami, kulturnimi vzorci
+               ipd., ki sčasoma vplivajo na njegovo orientacijo v družbi, medtem ko se ta spreminja
+               glede na njegov ekonomski status, kulturni in družbeni kapital ter politični položaj
+               v državi bivanja.<note place="foot" xml:id="ftn41" n="39">Morawska, »International
+                  migration,« 13.</note> Kot že omenjeno, strukturacija pri tem predvideva tudi
+               obraten proces transformativne narave teh struktur, ki se zaradi akterja na dolgi rok
+                  spreminjajo.<note place="foot" xml:id="ftn42" n="40">Ibid.</note></p>
+            <p style="text-align: justify;">Prav omenjeni zapletenost in prepletenost strukture in
+               delovanja pri nekaterih sociologih nista bili najbolje sprejeti. Kritika Giddensa je
+               največkrat povezana prav s prevelikim poudarkom na akterjevi zmožnosti spreminjanja
+               strukture, čemur je najbolj nasprotovala britanska sociologinja Margaret Archer.
+                  <note place="foot" xml:id="ftn43" n="41">Margaret Archer, <hi rend="italic"
+                     >Realist Social Theory: The Morphogenetic Approach</hi> (Cambridge: Cambridge
+                  University Press, 1995). Margaret Archer, »Morphogenesis versus structuration: on
+                  combining structure and action,« <hi rend="italic">British Journal of
+                     Sociology</hi>, 33, št. 4 (1982): 455–83, pridobljeno 18. 6. 2025, <ref
+                     target="https://doi.org/10.2307/589357">https://doi.org/10.2307/589357</ref><hi
+                     rend="Hyperlink">.</hi></note> Ideje, da lahko akter v vsaki situaciji ravna
+               drugače in spreminja strukture zgolj s spreminjanjem lastnega vedenja, so lahko
+               problematične predvsem z vidika nezadostne razlage načinov, kako strukture ovirajo
+               akterje pri njihovem delovanju.<note place="foot" xml:id="ftn44" n="42">Archer,
+                  »Morphostasis versus structuration«, 459, 461, 462.</note> Ker Giddens pri analizi
+               družbene dinamike nikakor ni mogel spregledati nekaterih eksternih strukturnih
+               lastnosti družbe, ki se s konceptom prepletenosti niso mogle prepričljivo skladati,
+               je zato izoblikoval nedorečen teoretski kompromis, ki pri njegovih kritikih še zdaleč
+               ni ostal spregledan.<note place="foot" xml:id="ftn45" n="43">Stankovič, »Giddensova
+                  teorija strukturcije,« 463.</note> Analitični dualizem Margaret Archer je ločnico
+               med strukturo in delovanjem vsekakor postavil nekoliko ostreje. Čeprav njene teorije
+               morfogeneze nikakor ne moremo klasificirati kot funkcionalistične, pa predpostavlja
+               zgolj omejeno zmožnost akterjev pri spreminjanju struktur, saj naj bi bile nekatere
+               strukturne značilnosti družbe izven njihovega nadzora.<note place="foot"
+                  xml:id="ftn46" n="44">Haralambos in Holborn, <hi rend="italic">Sociologija</hi>,
+                  914.</note> Strukture tako avtorica razdeli na družbene (npr. materialni viri) in
+               kulturne (npr. znanje), te pa posedujejo nastajajoče lastnosti (angl. <hi
+                  rend="italic">emergent properties</hi>), ki jih ni mogoče zreducirati na posamezne
+               člene družbe, a imajo vzročno moč in so relativno dolgotrajne.<note place="foot"
+                  xml:id="ftn47" n="45">Jones in Bradbury, <hi rend="italic">Introducing Social
+                     Theory</hi>, pogl. 7.</note> Kot take so strukture lahko avtonomne in
+               samostojne, saj temeljijo na nekaterih strukturnih predpogojih, vendar so v nekaterih
+               razmerah do določene mere še vedno spremenljive. Pri analitičnem dualizmu je Archer
+               razlikovala med načini, kako je družba preoblikovana ali reproducirana, s čimer je
+               poskušala uvesti metodologijo, ki bi na analitični ravni strukture in delovanje
+               razločevala, hkrati pa dopuščala dvosmerno možnost spremembe.<note place="foot"
+                  xml:id="ftn48" n="46">Ibid.</note> Pri tem je pod drobnogled še posebej vzela
+               refleksivnost akterja, ki kljub omejenemu vplivu na strukture konstantno analizira in
+               ocenjuje svoj položaj v razmerju do naravnega, praktičnega in družbenega reda ter v
+               njihovem okviru na podlagi svojih izkušenj izbira situacijsko pravo pot.<note
+                  place="foot" xml:id="ftn49" n="47">Archer, »Realism and the problem of agency,«
+                     <hi rend="italic">Journal of Critical Realism</hi> 5, št. 1 (2015): 16, 17,
+                  pridobljeno 17. 6. 2025, <ref target="https://doi.org/10.1558/aleth.v5i1.11"
+                     >https://doi.org/10.1558/aleth.v5i1.11</ref>.</note></p>
+            <p style="text-align: justify;">Naštete teorije, na trenutke prepletajoče se ali
+               izključujoče, so za sociološko analiziranje nacionalizma ključne, saj je prav vpliv
+               njegove ideološke (strukturne) narave na raven akterja izredno pomemben za
+               razumevanje njegove idejne moči. Pri tem je osredotočanje na en vidik lahko težavno,
+               saj predpostavljanje enosmernega razumevanja nacionalnih idej od zgoraj navzdol
+               zanemarja njegovo dojemanje, konstruiranje in reproduciranje na ravni posameznika.
+               Narodi in nacije<note place="foot" xml:id="ftn50" n="48">Narod in nacija sta v tem
+                  primeru skupaj omenjena zaradi neskladnosti izraza »nation« v angleškem in
+                  slovenskem jeziku. Čeprav se v slovenščini besedi pomensko razlikujeta, pa je za
+                  razumevanje nacionalizma kot »ideološkega gibanja, ki si prizadeva za pridobitev
+                  ali ohranitev avtonomije, enotnosti in identitete obstoječega ali potencialnega
+                  naroda« (Smith, 1989, v Mandelc, 2011, str. 24), v kontekstu pričujočega pregleda
+                  literature pomembno predvsem osredotočanje na njun družbeni pomen in ne toliko na
+                  konceptualno (etnično ali politično) dimenzijo. – Več o kompleksnosti izrazoslovja
+                  pri razumevanju nacije, naroda in nacionalizma v Mandelc, <hi rend="italic">Na
+                     mejah nacije</hi>, 13–27.</note> namreč še zdaleč niso samo produkt večjih
+               strukturnih sil, temveč tudi rezultat praktičnega delovanja ljudi v vsakdanjem
+                  življenju.<note place="foot" xml:id="ftn51" n="49">Jon E. Fox in Cynthia
+                  Miller-Idriss, »Everyday nationhood,« 554.</note> Idejo o prenosu raziskovalnega
+               fokusa z višje na nižjo raven zasledimo že pri Michaelu Billigu, pionirju ideje o
+               banalnem nacionalizmu, ki je pod drobnogled vzel banalne oblike njegove reprodukcije
+               na ravni posameznika.<note place="foot" xml:id="ftn52" n="50">Billig, <hi
+                     rend="italic">Banal Nationalism</hi>. Andrew Thompson, »Nations, national
+                  identities and human agency: putting people back into nations,« <hi rend="italic"
+                     >The Sociological Review</hi> 49, št. 1 (2001): 28, pridobljeno 23. 6. 2025,
+                     <ref target="https://doi.org/10.1111/1467-954X.00242"
+                     >https://doi.org/10.1111/1467-954X.00242</ref>.</note> Prav zato je smiselno,
+               da mu pri analizi damo prednost pred kasnejšimi deli, ki so z njegovim polemizirala
+               ter ga vsebinsko in tematsko nadgradila.</p>
+         </div>
+         <div>
+            <head>Vsakdanji in banalni nacionalizem med strukturo in delovanjem</head>
+            <p style="text-align: justify;">Knjiga <hi rend="italic">Banalni nacionalizem</hi>
+               (1995) Michaela Billiga predstavlja velik doprinos k razumevanju nacionalizma kot
+               strukturno oblikovane ideologije in njenega vpliva na nezavedno delovanje posameznika
+               v prostoru in času. Dotedanjim strategijam preučevanja nacionalizma Billig pripiše
+               pretirano poudarjanje vpliva strukturno pogojenih sil, povezanih s političnim
+               delovanjem, pogosto nasilnimi poskusi doseganja nacionalne suverenosti in posledično
+               emocionalnim odzivom množic.<note place="foot" xml:id="ftn53" n="51">Billig, <hi
+                     rend="italic">Banal Nnationalism.</hi></note> Takšni pristopi naj bi zato
+               vodili do nenamernega zanemarjanja vprašanj o tem, kako se nacionalne kategorije
+               ohranjajo in vzdržujejo v ustaljenih nacionalnih državnih okvirih, saj tudi v
+               (stabilnih) državah, kjer t. i. vroči nacionalizem ni tako močan, nacionalna
+               identiteta ostaja ena izmed pomembnejših družbenih in osebnih opredelitev. Kot v
+               svojem delu navaja Billig, nacionalne identitete ne smemo dojemati samo kot
+               notranjega psihološkega stanja ali individualne samodefinicije,<note place="foot"
+                  xml:id="ftn54" n="52">Ibid., 69.</note> temveč kot »način življenja, ki se dnevno
+               živi v svetu nacionalnih držav«.<note place="foot" xml:id="ftn55" n="53">Ibid.,
+                  68.</note> To je tudi eden izmed glavnih razlogov, zakaj prebivalci nacionalne
+               identitete ne pozabimo v obdobjih, ko nas nanje ne opominjajo posebne priložnosti,
+               kot so denimo državni prazniki ali športne prireditve. Billig se osredotoča na
+               banalne označevalce nacionalne identitete, ki bistveno prispevajo k vsakodnevni
+               reprodukciji nacionalnih kategorij, saj sčasoma postanejo samoumevni. Kot vzorci,
+               prakse in navade so vgrajeni v materialno in socialno okolje posameznika, ki jih
+               sprejema zaradi izpolnjevanja določenih psiholoških potreb in osebnega prilagajanja
+               socialnemu okolju, ki te kategorije ohranja resnične in nujne.<note place="foot"
+                  xml:id="ftn56" n="54">Jonathan Hearn, »National identity: banal, personal and
+                  embedded,« <hi rend="italic">Nations and Nationalism</hi> 13, št. 4 (2007): 660,
+                  pridobljeno 21. 6. 2025, <ref
+                     target="https://doi.org/10.1111/j.1469-8129.2007.00303.x"
+                     >https://doi.org/10.1111/j.1469-8129.2007.00303.x</ref>.</note></p>
+            <p style="text-align: justify;">Billig je pri konstrukciji nacionalnosti še posebno
+               pozoren na diskurzivne prakse, ki nacionalno identiteto ohranjajo prek prisotnosti
+               nacionalnih simbolov (npr. izobešanja zastav, motivov na kovancih ipd.) ali
+               političnih govorov in množičnih medijev, kjer se s pomočjo manjših besednih zvez
+               (npr. »mi«, »naš«, »nam«, »tukaj«) ohranja predstava o zaokroženi (narodni)
+                  skupnosti.<note place="foot" xml:id="ftn57" n="55">Billig, <hi rend="italic">Banal
+                     Nationalism</hi>, 105.</note> Iz tega lahko zaznamo nekatere podobnosti s prej
+               analizirano Bourdieujevo teorijo habitusa ali Giddensovim praktičnim znanjem, saj
+               narodnost v tem primeru deluje kot nezavedna osnova posameznikovih izbir in
+                  delovanj,<note place="foot" xml:id="ftn58" n="56">Bourdieu, <hi rend="italic"
+                     >Outline of a Theory of Practice</hi>, 166, cit. po: Fox in Miller Idriss,
+                  »Everday nationhood,« 544.</note> ki jih pridobimo med socializacijo. Vzdrževalci
+               nacionalne ideologije na banalni ravni so torej samoumevne prakse, ki idejo ohranjajo
+               prisotno na neopazne, nevidne in nezaznavne načine. Takšna ponotranjenost pa je
+               mogoča samo, če nacionalnost postane del človekovega habitusa, ki je sestavljen tako
+               iz spominjanja kot tudi pozabljanja elementov vsakdana, kar posamezniku omogoča
+               funkcioniranje v ponavljajočih se dnevnih rutinah.<note place="foot" xml:id="ftn59"
+                  n="57">Billig, <hi rend="italic">Banal Nationalism</hi>, 42.</note></p>
+            <p style="text-align: justify;">Seveda takšna prisotnost ide(ologi)je ne bi bila mogoča
+               brez strukturnega vpliva elitnih nacionalnih diskurzov. Prav zato je kritika Billiga
+               zelo podobna kritiki Bourdieuja, ki mu je bilo očitano, da se je pri svojem delu
+               pretirano približal strukturalnim pristopom in neustrezno naslovil proces akterjevega
+               spreminjanja ali reprodukcije struktur družbenega življenja.<note place="foot"
+                  xml:id="ftn60" n="58">Jones in Bradbury, <hi rend="italic">Introducing Social
+                     Theory</hi>, pogl. 7.</note> To naj bi bila tudi glavna pomanjkljivost teorije
+               o banalnem nacionalizmu, ki večinoma obravnava strukturne vplive nacionalizma na
+               vsakodnevno raven posameznika, ob tem pa zanemarja njegov doprinos.<note place="foot"
+                  xml:id="ftn61" n="59">Več o tem: Thompson, »Nations, national identities,« 28.
+                  Hearn, »National identity,« 660–62. Skey, »The national in everyday life,« 335–38.
+                  Marco Antonsich, »The 'everyday' of banal nationalism – ordinary people's views on
+                  Italy and Italian,« <hi rend="italic">Political Geography</hi> 54, (2016): 3, 34.
+                  Pridobljeno 7. 6. 2025, <ref target="https://doi.org/10.1016/j.polgeo.2015.07.006"
+                     >https://doi.org/10.1016/j.polgeo.2015.07.006</ref><hi rend="Hyperlink">.
+                  </hi></note> Kot poudarja Antonsich, akterjevo vlogo v <hi rend="italic">Banalnem
+                  nacionalizmu</hi> ovira predvsem njegova nerefleksivnost pri ideološki
+               reprodukciji, saj Billig nacionalizem razume kot strategijo in pogoje, ki posameznika
+               ovirajo, pri tem pa predpostavlja »nerealistično predstavo o enotni in homogeni
+               nacionalni publiki«.<note place="foot" xml:id="ftn62" n="60">Antonsich, »The
+                  'everyday' of banal nationalism,« 33.</note></p>
+            <p style="text-align: justify;">Da prebivalci neke države nikakor niso homogena gmota,
+               ki brez premisleka absorbira nacionalni diskurz, temveč prej heterogena zmes različno
+               dojemajočih in razmišljujočih posameznikov z lastnim mnenjem, nakazujejo tudi
+               nekatera dela, ki so se z vplivi nacionalizma ukvarjala nekoliko kasneje.<note
+                  place="foot" xml:id="ftn63" n="61">Tim Edensor, <hi rend="italic">National
+                     Identity, Popular Culture and Everyday Life</hi> (Oxford: Berg, 2002). Rogers
+                  Brubaker et al., <hi rend="italic">Nationalist Politics and Everyday Ethnicity in
+                     a Transylvanian Town</hi> (Princeton: Princeton University Press, 2006).
+                  Michael Skey, <hi rend="italic">National Belonging and Everyday Life: The
+                     Significance of Nationhood in an Uncertain World</hi> (Basingstoke: Palgrave
+                  Macmillan, 2011).</note> Čeprav kritično obravnavana, je bila Billigova ideja
+               razširjena in dopolnjena z različnih raziskovalnih perspektiv in v različnih
+               geografskih okvirih. Pri tem se je od njega s svojim delom <hi rend="italic">National
+                  identity, popular culture and everday life</hi> (2002) še najmanj oddaljil Tim
+               Edensor. Knjiga ponuja temeljit vpogled v reprodukcijo nacionalne identitete na
+               različnih družbenih ravneh, ki jih avtor predstavi kot matrico, ki posamezniku
+               omogoča širok razpon razpoložljivih resursov za nacionalno identitetno orientacijo.
+               Pri svoji analizi se osredotoči na prostorsko dimenzijo nacionalizma, performativne
+               prakse na skupinski (proslave, popularne oblike državnih praznovanj, šport,
+               karnevali) ali individualni ravni (nerefleksivne vsakodnevne prakse, oblikovane skozi
+               nacionalni narativ), prispevek materialne kulture h konstituiranju nacionalne
+               identitete, njeno reprezentacijo v popularni kulturi in razpršeno dojemanje simbolov
+               (britanske) nacionalne identitete med prebivalstvom.<note place="foot" xml:id="ftn64"
+                  n="62">Edensor, <hi rend="italic">National Identity</hi>, Predgovor
+                  (VII–VIII).</note> Rutinsko izražanje zavednih in nezavednih oblik nacionalne
+               performativnosti, pri analizi katerih se teoretsko nasloni na Bourdiejevo teorijo
+               habitusa in Goffmanovo teorijo družbenih vlog<note place="foot" xml:id="ftn65" n="63"
+                  >Erving Goffman, <hi rend="italic">Predstavljanje sebe v vsakdanjem življenju
+                  </hi>(Ljubljana: Studia Humanitatis, 2014).</note>, opiše kot »skupne navade, ki
+               krepijo čustvene in kognitivne vezi, utrjujejo občutek skupnega delovanja in doxe, ki
+               tvorijo habitus, vključno s pridobljenimi veščinami, ki zmanjšujejo nepotrebno
+               razmišljanje vsakič, ko je treba sprejeti odločitev«.<note place="foot"
+                  xml:id="ftn66" n="64">Edensor, <hi rend="italic">National Identity</hi>,
+                  90.</note> Čeprav zavestno reproduciranje družbenih struktur zaradi ontološke
+               varnosti in temeljne želje po določeni stopnji družbene predvidljivosti poudari tudi
+                  Giddens,<note place="foot" xml:id="ftn67" n="65">Peter Stankovič, »Giddensova
+                  teorija strukturacije,« 465, 466. Haralambos in Holborn, <hi rend="italic"
+                     >Sociologija</hi>, 912.</note> pa je prav zaradi tega lažje razumljiva tudi
+               kritika Edensorjevega dela, ki do neke mere ohranja analizo prevladujočega diskurza
+               in strukturnih sil pri konstruiranju nacionalne identitete v vsakdanjem življenju,
+               pri čemer pa nekoliko zanemari dimenzijo etnične, rasne in verske raznolikosti
+                  družbe.<note place="foot" xml:id="ftn68" n="66">Jonathan Hearn in Marco Antonsich,
+                  »Theoretical and methodological,« 11, 12.</note> Kljub temu da Edensor akterjeve
+               vloge nikakor ne predstavi samo kot enosmernega sprejemanja in reprodukcije
+               strukturno pogojenega nacionalnega diskurza, pa v smislu prenosa vpliva od struktur
+               na akterja ni tako uspešen, zaradi česar se njegovo delo umešča na presečišče
+               banalnega in vsakdanjega nacionalizma.</p>
+            <p style="text-align: justify;">Nekoliko bolj se bistvu vsakdanjega nacionalizma
+               približa Michael Skey, ki v knjigi <hi rend="italic">National Belonging and Everyday
+                  Life: The Significance of Nationhood in Uncertain World</hi> (2011) obravnava
+               pomembnost nacionalne identitete in pripadnosti na primeru belske etnične večine v
+               Veliki Britaniji.<note place="foot" xml:id="ftn69" n="67">Skey, <hi rend="italic"
+                     >National Belonging and Everyday Life</hi>, 6–8.</note> Delo, ki temelji na
+               avtorjevi doktorski disertaciji, pod vprašaj postavi nacionalizem kot preprosto
+               vprašanje potrošnje, saj ga analizira na podlagi skupinskih pogovorov o nacionalni
+               identiteti, njeni razlagi in razumevanju med splošnim prebivalstvom. S tem se
+               tematsko odmakne od preproste Billigove banalnosti nacionalizma in njegove nezavedne
+               reprodukcije. Avtor namreč išče odgovore na vprašanje, kaj pomeni biti Britanec, s
+               čimer poskuša prodreti v različne vidike nacionalnega (samo)zavedanja, ki presegajo
+               njegovo preprosto samoumevnost.<note place="foot" xml:id="ftn70" n="68">Skey, <hi
+                     rend="italic">National Belonging and Everyday Life</hi>.</note> Razlika v
+               primerjavi z deli Billiga in Edensorja je predvsem osredotočanje na tiste vidike
+               nacionalizma, ki niso neposredno povezani z njegovimi preprostimi razlagami in
+               splošno sprejetimi simboli, temveč zahtevajo nekoliko natančnejši premislek in
+               pojasnilo. S takim pristopom je Skey osvetlil vidik izkušnje nacionalnosti skozi oči
+               akterjev, ki nacionalne kategorije ohranjajo z vsakodnevnim delovanjem. V delu se
+               tako meša vidik (nezavednega) banalnega nacionalizma, ki ga poskuša avtor preseči z
+               odkrivanjem zavednega razumevanja nacionalne identitete. Medsebojna prepletenost se
+               izkazuje predvsem v njunem (so)oblikovanju, kar močno spominja na Giddensovo tezo o
+               dualnosti strukture in delovanja, pri čemer se oba pola definirata drug skozi
+                  drugega.<note place="foot" xml:id="ftn71" n="69">Stankovič, »Giddensova teorija
+                  strukturacije,« 458.</note> Samoumevnost nacionalnosti in njenega izražanja lahko
+               torej pripišemo predvsem področju banalnega nacionalizma, ki obravnava njene
+               najočitnejše strukturno pogojene vidike, močno prisotne tudi na vsakdanji ravni.
+               Vendar pa po drugi strani zanemarja vse tiste vidike, ki ostajajo nevid(e)ni,
+               nesliš(a)ni in nezaznavni v vsakodnevnih opravilih oziroma delovanju navadnih ljudi.
+               Čeprav so tudi takšne prakse pod vplivom strukturnih predpogojev, jih s svojim tihim
+               delovanjem istočasno ohranjajo ali spreminjajo, zaradi česar sta banalni in vsakdanji
+               nacionalizem v samem bistvu dve strani istega kovanca.<note place="foot"
+                  xml:id="ftn72" n="70">Jon E. Fox in Maarten Van Ginderachter, »Everyday
+                  nationalism's evidence problem,« 7.</note></p>
+            <p style="text-align: justify;">Na podoben način so k preučevanju nacionalizma na
+               vsakdanji ravni pristopili tudi avtorji knjige <hi rend="italic">Nationalist politics
+                  and everday ethnicity in a Transylvanian town</hi> (2006), ki so svojo analizo
+               usmerili v razlago narodnosti in etničnosti med prebivalci narodnostno mešanega
+               romunskega mesta Cluj. Delo je osredotočeno na analitično razumevanje kompleksnega
+               zgodovinskega sobivanja madžarsko-romunskega prebivalstva »tako od spodaj navzgor kot
+               od zgoraj navzdol, tako v mikroanalitični kot tudi makroanalitični perspektivi«.
+                  <note place="foot" xml:id="ftn73" n="71">Brubaker et al., <hi rend="italic"
+                     >Nationalist Politics and Everyday Ethnicity</hi>, 14.</note> Pri tem je zelo
+               pomembna preusmeritev raziskovalnega fokusa etničnosti, ki jo poskušajo raziskati
+               neodvisno od etničnih kategorij kot osnovnih enot analize. Z drugimi besedami to
+               pomeni, da so s svojo obsežno raziskavo, ki je zajemala osemletno etnografsko
+               raziskovanje z izvedbo intervjujev, analizirali vsakodnevne vidike izražanja
+               etničnosti oziroma nacionalnosti skozi pridobljene (banalne) prakse in zavestne
+               strategije posameznikov, ki so etnične kategorije prilagajali praktičnim potrebam in
+               institucionalnim kontekstom.<note place="foot" xml:id="ftn74" n="72">Ibid, 272, 273
+                  in 297.</note> Delo je zanimivo predvsem zaradi poskusa razumevanja vsakodnevnih
+               praks, ki niso prepoznane kot etnično zaznamovane, a zaradi vtkanosti v vsakodnevne
+               kontekste samoumevno ohranjajo razlike v etničnih kategorijah. Pri tem poudarijo
+               spontano pojavnost etničnosti v vsakodnevnih interakcijah med prijatelji, sosedi,
+               sodelavci ter v različnih institucionalnih in organizacijskih okvirih, s čimer se
+               zelo približajo bistveni ideji vsakdanjega nacionalizma, ki temelji na pomembni vlogi
+               akterjev pri dojemanju nacionalnih kategorij in njihovi uporabi v vsakodnevnih
+               kontekstih za njihove praktične namene.<note place="foot" xml:id="ftn75" n="73"> Fox,
+                  »Banal nationalism in everyday life,« 864.</note> Ker nacionalne kategorije
+               interakcij in samozavedanja posameznikov ne prežemajo konstantno, je vprašanje o tem,
+               kdaj se take tendence pojavljajo, ključno pri razumevanju pojavnosti nacionalizma.
+                  <note place="foot" xml:id="ftn76" n="74">Fox in Miller-Idriss, »Everyday
+                  nationhood,« 540.</note> To odpira številne teoretične premisleke o kontekstualnem
+               delovanju akterja, ki je lahko povezano z njegovo analizo zunanjih okoliščin in
+               situacijskim praktičnim znanjem, pa tudi s pomembnim vidikom njegovega nastopanja in
+               ustvarjanja vtisa v javnosti.<note place="foot" xml:id="ftn77" n="75">Goffman, <hi
+                     rend="italic">Predstavljanje sebe v vsakdanjem življenju.</hi></note></p>
+            <p style="text-align: justify;">S teoretičnega vidika je za obravnavo obeh pristopov
+               izredno pomembno tudi delo sociologa Siniše Malaševića, ki v knjigi z naslovom <hi
+                  rend="italic">Grounded nationalisms</hi> opiše kompleksnost prisotnosti
+               nacionalizma na različnih ravneh družbe.<note place="foot" xml:id="ftn78" n="76">
+                  Siniša Malašević, <hi rend="italic">Grounded Nationalisms</hi> (Cambridge:
+                  Cambridge University Press, 2019).</note> Pri tem poudari tri ključne vidike, ki
+               obsegajo njegovo ideološko prodornost, vpletenost v družbene organizacijske okvire in
+               prisotnost v vsakdanjih medčloveških odnosih, ki krojijo vsakdanje življenje
+               posameznikov. Takšna prisotnost po celotni družbeni vertikali, obsegajoča
+               makronarative (banalni nacionalizem) in mikrokontekstualno vsakdanjo reprodukcijo
+               (vsakdanji nacionalizem), prispeva k njegovi ukoreninjenosti v postmoderne družbe.
+               Prav zato Malašević opozarja, da nacionalizma ne bi smeli dojemati kot ideološkega
+               relikta preteklosti, temveč kot globoko ukoreninjen in razvijajoč se družbeni
+               fenomen, ki tudi v sodobnem globaliziranem času ostaja pomembna družbena sila.<note
+                  place="foot" xml:id="ftn79" n="77">Ibid.</note></p>
+            <p style="text-align: justify;">Na presečišču do sedaj obravnavanih del, ki k
+               preučevanju nacionalizma na vsakdanji ravni pristopajo z različnih zornih kotov, so
+               se oblikovale tudi številne kasnejše raziskave. Glede na to, kakšno pomembnost so pri
+               tem pripisovale elitnemu nacionalnemu diskurzu oziroma akterjevemu prispevku pri
+               njegovem oblikovanju, ohranjanju in spreminjanju, jih lahko prav z vidika razmerja
+               med strukturo in delovanjem razporedimo na premico med vsakdanjim in banalnim
+               nacionalizmom. Kljub temu da se nekatera dela jasno ukvarjajo s političnim diskurzom
+               in njegovo konstrukcijo nacionalne identitete<note place="foot" xml:id="ftn80" n="78"
+                  >Rudolf De Cillia, Martin Reisigl in Ruth Wodak, »The discoursive construction of
+                  national identities,« <hi rend="italic">Discourse &amp; Society</hi> 10, št. 2
+                  (1999), pridobljeno: 16. 6. 2025, <ref
+                     target="https://doi.org/10.1177/0957926599010002002"
+                     >https://doi.org/10.1177/0957926599010002002</ref><hi rend="Hyperlink"
+                  >.</hi></note> ali uporabo (naravnih) resursov za nacionalne mobilizacijske
+                  procese,<note place="foot" xml:id="ftn81" n="79">Nalie Koch in Tom Perrault,
+                  »Resource nationalism,« <hi rend="italic">Progress in Human Geography</hi> 43, št.
+                  4 (2018), pridobljeno 27. 6. 2025, <ref
+                     target="https://doi.org/10.1177/0309132518781497"
+                     >https://doi.org/10.1177/0309132518781497</ref><hi rend="Hyperlink"
+                  >.</hi></note> pa se večina del umešča v prostor med obema pristopoma. O
+               dinamičnem razumevanju razlike med obema pričajo tako dela, ki z Billigovo teorijo
+               jasno polemizirajo,<note place="foot" xml:id="ftn82" n="80">Skey, »The national in
+                  everyday life.« Fox in Miller-Idriss, »Everyday nationhood.« Fox, »Banal
+                  nationalism in everyday life.«</note> kot tudi odgovori na takšne kritike in
+               njihova pojasnila.<note place="foot" xml:id="ftn83" n="81">Michael Billig,
+                  »Reflecting on a critical engagement with banal nationalism – reply to Skey,« <hi
+                     rend="italic">The Sociological Review</hi> 57, št. 2 (2009), pridobljeno 7. 6.
+                  2025, <ref target="https://doi.org/10.1111/j.1467-954X.2009.01837.x"
+                     >https://doi.org/10.1111/j.1467-954X.2009.01837.x</ref>. Sophie Duchesne,
+                  »Who's afraid of banal nationalism?«</note> K omenjenim študijam lahko prištejemo
+               še članke, ki se z obema pristopoma ukvarjajo s teoretičnega in metodološkega
+                  vidika.<note place="foot" xml:id="ftn84" n="82">Thompson, »Nations, national
+                  identities.« Knott, »Everyday nationalism.« Goode in Stroup, »Everyday
+                  nationalism.« Eric Kaufmann, »Complexity and nationalism,« <hi rend="italic"
+                     >Nations and Nationalism</hi> 23, št. 1 (2017), pridobljeno 26. 6. 2025,
+                  https://doi.org/10.1111/nana.12270. Hearn in Antonsich, »Theoretical and
+                  methodological.« Fox in Ginderachter, »Everday nationalism's evidence
+                  problem.«</note> Ob tem so izredno pomembna tudi dela, ki obravnavajo narodnost v
+               vsakdanjih kontekstih potrošniških navad<note place="foot" xml:id="ftn85" n="83">
+                  Robert J. Foster, <hi rend="italic">Materializing the Nation: Commodities,
+                     Consumption, and Media in Papua New Guinea</hi> (Bloomington: Indiana
+                  University Press, 2002). Ronald Ranta in Atsuko Ichijo, <hi rend="italic">Food,
+                     National Identity and Nationalism: From Everyday to Global Politics</hi>
+                  (Basingstoke: Palgrave Macmillan, 2016). Helen Andersson, »Recontextualizing
+                  Swedish nationalism for commercial purposes: a multimodal analysis of a milk
+                  marketing event,« <hi rend="italic">Critical Discourse Studies</hi> 16, št. 5
+                  (2019), pridobljeno 6. 6. 2025, <ref
+                     target="https://doi.org/10.1080/17405904.2019.1637761"
+                     >https://doi.org/10.1080/17405904.2019.1637761</ref><hi rend="Hyperlink"
+                  >.</hi></note> ali performativnih praks,<note place="foot" xml:id="ftn86" n="84">
+                  Thomas Eriksen, »Formal and informal nationalism,« <hi rend="italic">Ethnic and
+                     Racial Studies</hi> 16, št. 1 (1993), pridobljeno 3. 7. 2025, <ref
+                     target="https://doi.org/10.1080/01419870.1993.9993770"
+                     >https://doi.org/10.1080/01419870.1993.9993770</ref>. Kristin Surak, <hi
+                     rend="italic">Making Tea, Making Japan: Cultural Nationalism in Practice</hi>
+                  (Redwood City: Stanford University Press, 2012).</note> kar odstira pomembne
+               plasti razumevanja situacij, v katerih se nacionalizem izraža in utrjuje v vsakdanjem
+               življenju.</p>
+            <p style="text-align: justify;">Nikakor seveda ne čudi, da so omenjene raziskovalne
+               perspektive močno vplivale tudi na historiografske pristope k preučevanju
+               nacionalizma. Pomen nacionalnih kategorij pri osebnih identitetnih opredelitvah, ki
+               so v daljši časovni perspektivi pripomogle k praktičnemu oblikovanju nacionalnih
+               držav, je področje, ki so ga zgodovinarji večkrat natančneje obravnavali. Pri tem
+               procesu je posebno raziskovalno pozornost dobila predvsem dilema med vplivom elitno
+               oblikovanih nacionalnih diskurzov (in njihovega uveljavljanja v družbi) ter
+               nacionalno brezbrižnostjo ( <hi rend="italic">national indifference</hi>) navadnih
+               ljudi v vsakdanjem življenju.<note place="foot" xml:id="ftn87" n="85">Tara Zahra, <hi
+                     rend="italic">Kidnapped Souls: National Indifference and the Battle for
+                     Children in the Bohemian Lands, 1900–1948 </hi>(Ithaca: Cornell University
+                  Pres, 2011). Maarten Van Ginderachter, »How to gauge banal nationalism and
+                  national indifference in the past: proletarian tweets in Belgium's belle epoque,«
+                     <hi rend="italic">Nations and Nationalism</hi> 24, št. 3 (2018), pridobljeno
+                  16. 6. 2025, doi: 10.1111/nana.12420.</note> Kot namreč v svojem delu <hi
+                  rend="italic">Kidnapped Souls – National Indifference and the Battle for Children
+                  in the Bohemian Lands</hi> na primeru Češke poudarja zgodovinarka Tara Zahra, naj
+               bi brezbrižnost, protislovja in oportunizem do nacionalnih kategorij pod vprašaj
+               postavili v zgodovini uveljavljeno trditev, da je samo homogena nacionalna država
+               lahko zagotavljala trajno demokracijo, mir in blaginjo.<note place="foot"
+                  xml:id="ftn88" n="86">Zahra, <hi rend="italic">Kiddnaped Souls</hi>, X.</note>
+               Čeprav so pri historičnih obravnavah omenjenega fenomena zaradi svoje specifične
+               nadnacionalne zgodovine največkrat v ospredju države (vzhodne) srednje Evrope,<note
+                  place="foot" xml:id="ftn89" n="87">Pri analizah privrženosti in zavračanja
+                  nacionalnih idej na vsakdanji ravni v specifičnih lokalnih ali regionalnih
+                  kontekstih tudi slovenski prostor ni izjema: Pieter Judson, <hi rend="italic"
+                     >Guardians of the Nation: Activists on the Language Frontiers of Imperial
+                     Austria</hi> (Cambridge: Harvard University Press, 2006). Marko Zajc, »Josip
+                  Jurčič's tradition in Muljava: The boundaries of localism and nationalism,« <hi
+                     rend="italic">Prispevki za novejšo zgodovino</hi> 53, št. 2 (2013), pridobljeno
+                  3. 10. 2025, <ref target="https://ojs.inz.si/pnz/article/view/65/66"
+                     >https://ojs.inz.si/pnz/article/view/65/66</ref>. Jernej Kosi, »'Yugoslavia has
+                  nothing. Yugoslavia has no bread. But Hungary gives us bread': Access to food and
+                  (dis)loyalty in a 'redeemed' Yugoslav borderland,« <hi rend="italic">Austrian
+                     History Yearbook</hi> 55 (2024), pridobljeno 3. 10. 2025, <ref
+                     target="https://doi.org/10.1017/S0067237824000055"
+                     >https://doi.org/10.1017/S0067237824000055</ref>.</note> pa jih s primeri iz
+               drugih delov stare celine natančneje obravnava zbornik <hi rend="italic">National
+                  Indifference and the History of Nationalism in Modern Europe</hi>.<note
+                  place="foot" xml:id="ftn90" n="88">Maarten Van Ginderachter in Jon E. Fox, ur.,
+                     <hi rend="italic">National Indifference and the History of Nationalism in
+                     Modern Europe</hi> (London, New York: Routledge University Press, 2019).</note>
+               Zgodovinske raziskave osebnih privrženosti ali brezbrižnosti do nacionalnih idej in
+               kategorij so za razumevanje razmerja med vplivom banalnega in vsakdanjega
+               nacionalizma v sodobnem času zelo pomembne predvsem zaradi metodološkega pristopa, ki
+               se v tem primeru ne osredotoča samo na analize nacionalnih (elitnih) političnih
+               diskurzov, temveč predvsem na podrobnosti vsakdanjih življenj navadnih ljudi.<note
+                  place="foot" xml:id="ftn91" n="89">Van Ginderachter in Fox, <hi rend="italic"
+                     >National Indifference</hi>, 1.</note></p>
+            <p style="text-align: justify;">Med deli, ki takšen metodološki pristop pojasnijo z
+               najrazličnejših zornih kotov, velja omeniti predvsem članek z naslovom <hi
+                  rend="italic">Everyday nationhood</hi> (2008), v katerem avtorja obravnavata
+               teoretične in metodološke vidike preučevanja vsakdanjega nacionalizma, ki poskuša
+               zajeti tiste vidike narodnosti, ki jih strukturalni pristopi ne morejo.<note
+                  place="foot" xml:id="ftn92" n="90">Fox in Miller-Idriss, »Everyday
+                  nationhood.«</note> Ker »narodi niso samo produkt strukturnih sil, temveč so
+               hkrati praktični dosežek navadnih ljudi, ki v vsakdanjem življenju počnejo vsakdanje
+                  dejavnosti«,<note place="foot" xml:id="ftn93" n="91">Ibid., 554.</note> se avtorja
+               osredotočata predvsem na vidike (vsakdanje interakcije, nacionalne izbire, pomen
+               nacionalnih simbolov in potrošniške prakse), s katerimi ljudje »v različnih
+               kontekstih svojega vsakdanjega življenja izražajo in uresničujejo (ter ignorirajo in
+               zavračajo) narodnost in nacionalizem«.<note place="foot" xml:id="ftn94" n="92">
+                  Ibid., 537.</note> Pomen akterjevega doprinosa pri vsakdanjem soustvarjanju
+               nacionalne družbene realnosti so raziskovalci do sedaj obravnavali na različne
+               načine, pri čemer v svojih študijah poudarjajo perspektivo posameznikov znotraj in
+               zunaj prevladujočih nacional(istič)nih diskurzov.<note place="foot" xml:id="ftn95"
+                  n="93">Marco Antonsich, »The 'everyday' of banal nationalism.« Cynthia
+                  Miller-Idriss, »Everyday understanding of citizenship in Germany,« <hi
+                     rend="italic">Citizenship Studies</hi> 10, št. 5 (2006), pridobljeno: 3. 6.
+                  2025, <ref target="https://doi.org/10.1080/13621020600954978"
+                     >https://doi.org/10.1080/13621020600954978</ref>. Jon E. Fox, »The edges of the
+                  nation: a research agenda for uncovering the taken-for-granted foundations of
+                  everyday nationhood,« <hi rend="italic">Nations and Nationalism</hi> 23, št. 1
+                  (2017), pridobljeno 8. 6. 2025, https://doi.org/10.1111/nana.12269. Michael Skey,
+                  »There are times when I feel like a bit of an alien: middling migrants and the
+                  national order of things,« <hi rend="italic">Nations and Nationalism</hi> 24, št.
+                  3 (2018), pridobljeno: 12. 6. 2025, doi: 10.1111/nana.12422. Edensor in Sumartojo,
+                  »Geographies of everyday nationhood.«</note> V zvezi s tem sta še posebno zanimiva
+               članka, ki obravnavata svojevrstno dojemanje in dekodiranje nacionalnih kategorij z
+               migrantske perspektive<note place="foot" xml:id="ftn96" n="94">Skey, »There are
+                  times.«</note> ali kompleksno osebno dojemanje kulturnih prvin multikulturalizma
+               kot pomembnega dela družbene identitete.<note place="foot" xml:id="ftn97" n="95">Tim
+                  Edensor in Shanti Sumartojo, »Geographies of everyday nationhood.«</note></p>
+            <p style="text-align: justify;">Pri preučevanju (vsakdanjega) vpliva nacionalnih
+               kategorij na osebne in družbene dimenzije nacionalne identitete v razmerju med makro-
+               (struktura) in mikroravnijo (delovanje) obeh spektrov družbene realnosti nikakor ne
+               moremo popolnoma ločiti. Pomembno raziskovalno perspektivo ponudi članek <hi
+                  rend="italic">National identity: banal, personal and embedded</hi> (2007), ki
+               obravnava specifičnost izražanja in ohranjanja nacionalnih kategorij v
+               organizacijskih kontekstih.<note place="foot" xml:id="ftn98" n="96">Jonathan Hearn,
+                  »National identity: banal, personal and embedded,« <hi rend="italic">Nations and
+                     Nationalism</hi> 13, št. 4 (2007), pridobljeno 15. 6. 2025, <ref
+                     target="https://doi.org/10.1111/j.1469-8129.2007.00303.x"
+                     >https://doi.org/10.1111/j.1469-8129.2007.00303.x</ref>.</note> Članek
+               obravnava koncept nacionalne identitete v razmerju med osebno in družbeno ravnijo,
+               posamezni vidiki pa so razloženi na primeru raziskave socialno-organizacijskega
+               okolja in njegovega vpliva na zaposlene ob združitvi škotske in angleške banke. Z
+               analizo različnih vidikov (banalne in osebne) nacionalne identitete poskuša avtor
+               razumeti povezavo med osebnostjo in vplivi vmesnih družbenih struktur ter
+               organizacijskih kontekstov na posameznikovo razumevanje samega sebe.<note
+                  place="foot" xml:id="ftn99" n="97">Hearn, »National identity,« 671.</note> Ker
+               organizacijski konteksti predstavljajo vmesno stopnjo med makrostrukturnimi vplivi in
+               delovanjem na mikroravni, se s tem odpre vprašanje vpliva vmesnih struktur, ki so jih
+               kot pomembne prepoznali tudi nekateri raziskovalci teorije strukturacije.<note
+                  place="foot" xml:id="ftn100" n="98">Rob Stones, <hi rend="italic">Structuration
+                     Theory</hi> (Basingstoke: Palgrave Macmillan, 2005). McGarry, »Knowing how to
+                  go on.« O'Reilly, »Structuration, practice theory, ethnography and
+                  migration.«</note> Razširitev osnovne Giddensove ideje o prepletenosti strukture
+               in delovanja z uvajanjem novih podstruktur tako ostaja dobra teoretična osnova za
+               preučevanje banalnega, še bolj pa vsakdanjega nacionalizma, saj se kljub konceptualni
+               osredotočenosti na akterja tega ne da popolnoma ločiti od družbeno-organizacijskih
+                  kontekstov.<note place="foot" xml:id="ftn101" n="99">Hearn in Antonsich,
+                  »Theoretical and methodological,« 2 in 6–7.</note></p>
+         </div>
+         <div>
+            <head>Soodvisnost strukture in delovanja ter pomen vmesnih posrednikov</head>
+            <p style="text-align: justify;">Pregled temeljnih del o banalnih in vsakdanjih vidikih
+               nacionalizma dokazuje, da koncepti naroda, nacionalizma in nacionalne identitete
+               zagotovo niso fenomeni, ki bi se v zavest ljudi usidrali samo prek strukturne
+               prisile, denimo elitnih nacionalnih diskurzov, ki jih posredujejo politični govori,
+               medijskih ali historičnih reprezentacij, javno izobešenih zastav ali nacionalnih
+               praznikov. Gre namreč za relativno kompleksen proces identificiranja posameznika z
+               neko ide(ologi)jo, ki močno presega enosmernost. Kot je namreč poudaril Hobsbawm,
+               niso niti »uradne ideologije držav in gibanj vodilo za to, kar mislijo celo najbolj
+               lojalni državljani«.<note place="foot" xml:id="ftn102" n="100">Hobsbawm, <hi
+                     rend="italic">Nations and Nationalism</hi>, 10, cit. po: Thompson, »Complexity
+                  and nationalism,« 8.</note> Na tem primeru se s sociološkega vidika vnovič poraja
+               vprašanje o razmerju med močjo strukturnih sil, delovanjem akterja in prepletenostjo
+               obeh vidikov pri oblikovanju nekega družbenega fenomena.</p>
+            <p style="text-align: justify;">Konceptualna razlika z uveljavljenimi raziskovalnimi
+               paradigmami je na podlagi tega razmerja vplivala na številna znanstvena nestrinjanja.
+               Poskusi razumevanja kompleksnega nacionalnega (samo)zavedanja izven prevladujočega
+               nacionalnega diskurza so pri nekaterih raziskovalcih naleteli na ostro kritiko. Kot
+               poudarja Anthony Smith, so »navadni ljudje in njihove aktivnosti vedno umeščeni v
+               zgodovinski kontekst«,<note place="foot" xml:id="ftn103" n="101">Anthony Smith, »The
+                  limits of everyday nationhood,« <hi rend="italic">Ethnicities</hi> 8, št. 4
+                  (2008): 566, pridobljeno 13. 6. 2025, <ref
+                     target="https://doi.org/10.1177/14687968080080040102"
+                     >https://doi.org/10.1177/14687968080080040102</ref>.</note> preučevanje
+               nacionalnosti v vsakdanjem življenju pa naj bi se selektivno osredotočalo na
+               situacijsko specifičnost oziroma mikroanalitične vidike in s tem ločevalo »vsakdanjo
+               narodnost« od »historične narodnosti«.<note place="foot" xml:id="ftn104" n="102">
+                  Ibid.</note> Smith ob tem doda, da lahko pretirano osredotočanje na to, kako, kdaj
+               in na kakšen način se narodnost izkazuje v vsakdanjem življenju, pripelje do
+               zanemarjanja vzročnih in družbeno-historičnih aspektov nacionalizma.<note
+                  place="foot" xml:id="ftn105" n="103">Ibid.</note> Z drugimi besedami: pretirano
+               preučevanje nacionalizma in poskusi njegovega razumevanja skozi prizmo akterja naj ne
+               bi bili ustrezni zaradi strukturnih vplivov, ki jih raziskovalci ne smejo zanemariti. </p>
+            <p style="text-align: justify;">Vendar pa ostra delitev med uveljavljenimi pristopi
+               preučevanja nacionalizma in analizo njegovih banalnih in vsakdanjih oblik še zdaleč
+               ni preprosta. Čeprav se oba pristopa osredotočata na specifične vsakodnevne
+               kontekste, ju le stežka jasno kategoriziramo in popolnoma zanemarimo prepletenost
+               obeh socioloških perspektiv. Zaradi preučevanja elitnega (makro)diskurza, njegovega
+               vertikalnega pronicanja navzdol in reprodukcije na stopnji posameznika nekateri
+               avtorji banalni nacionalizem sicer uvrščajo bližje strukturni ravni,<note
+                  place="foot" xml:id="ftn106" n="104">Hearn in Antonsich, »Theoretical and
+                  methodological,« 3.</note> saj samoumevnost nacionalnih kategorij deluje predvsem
+               v sferi posameznikovega nezavednega.<note place="foot" xml:id="ftn107" n="105">
+                  Billig, <hi rend="italic">Banal Nationalism</hi>, 38 in 144.</note> Pri njegovi
+               obravnavi se avtorji pogosto približajo teoriji (in terminologiji), ki jo je pri
+               zbliževanju strukture in delovanja uporabil že Bourdieu, saj nezavedno reprodukcijo
+               nacionalne ideje označujejo z besedami »nacionalni habitus«, »nacionalna doxa« ali
+               »nacionalni kapital«.<note place="foot" xml:id="ftn108" n="106">Fox in Van
+                  Ginderachter, »Everyday nationalism's evidence problem,« 3.</note> To nakazuje na
+               večinoma pridobljene prakse, ki jih v svojih življenjih nezavedno ponotranjimo in
+               reproduciramo, pri čemer imajo jasen vpliv strukturne razmere, ki smo jim
+               izpostavljeni. Toda pri analizi nacionalizma na osebni ravni posameznika je takšno
+               (raz)ločevanje nekoliko kompleksnejše, saj se ta lahko izraža kot osrednji predmet in
+               namen delovanja, lahko delovanje samo uokvirja ali pa ni bistvo dejanja, a deluje kot
+               nevidna predpostavka v njegovem ozadju.<note place="foot" xml:id="ftn109" n="107">
+                  Hearn in Antonsich, »Theoretical and methodological,« 5.</note></p>
+            <p style="text-align: justify;">Že iz Smithove kritike lahko razberemo, da vpliv
+               struktur ni zanemarljiv niti na polju vsakdanjega nacionalizma, ki v ospredje še bolj
+               postavi akterja in njegovo delovanje.<note place="foot" xml:id="ftn110" n="108">
+                  Smith, »The limits of everyday nationhood.«</note> Uveljavljene socio-historične
+               paradigme sicer niso popolnoma zanemarjale vloge akterja, a so predpostavljale
+               samoumevnost vrednot elitnega nacionalnega diskurza, prek katerega je determinirano
+               tudi akterjevo delovanje.<note place="foot" xml:id="ftn111" n="109">Thompson,
+                  »Nations, national identities,« 19–22.</note> Prav poudarek na akterjevi
+               sposobnosti osmišljanja in preoblikovanja nacionalnih kategorij pa je za razumevanje
+               pojavnosti nacionalizma ključno, saj jih posamezniki – kljub nezavedni vključenosti
+               vanje – uporabljajo za razlago, umeščenost in istovetenje samih sebe v odnosu do
+                  družbe.<note place="foot" xml:id="ftn112" n="110">Andrew Thompson, »Nations,
+                  national identities,« 20. Jonathan Hearn, »National identity,« 663, 664. Kaufmann,
+                  »Complexity and nationalism,« 19, 20.</note> Narodi v tem primeru niso samo
+               produkt diskurza elit in njihovih upravnih mehanizmov, temveč nastajajoča lastnost
+                  (<hi rend="italic">emergent property</hi>) kompleksnega obnašanja in interakcije
+               na nižji ravni oziroma delovanja posameznih delov sistema, ki sledijo nekaterim
+               osnovnim smernicam.<note place="foot" xml:id="ftn113" n="111">Kaufmann, »Complexity
+                  and nationalism,« 13 in 19.</note> Takšen spontani red, ki nastane iz omenjene
+               kompleksnosti, ima zaradi kroženja idej in praks večjo moč kot pa centralno
+               koordiniran red, kjer je idejna moč skoncentrirana med elitnimi načrtovalci. Prav to
+               je tudi eden od bistvenih razlogov za samoohranjanje idejnih kategorij nacionalizma
+               med sicer heterogenim prebivalstvom. Različnost (nacionalnih) identitetnih perspektiv
+               posameznih članov družbe se z elitnim nacionalnim diskurzom povezuje prek posameznih
+               individualnih percepcij nacionalnih kategorij, ki so z makronarativom zvezane v
+               delujočo celoto in se v praksi izkazujejo kot koherentna podstat neke družbe.<note
+                  place="foot" xml:id="ftn114" n="112">Hearn, »National identity,« 663, 664.
+                  Kaufmann, »Complexity and nationalism,« 19–21.</note> Pri tem je treba poudariti,
+               da posamezni »osebni nacionalizmi« še zdaleč niso samo manifestacije družbene
+               strukture in elitnega diskurza, temveč predvsem osebno osmišljanje nacionalnih
+               kategorij, kar utrjuje pomembnost nacionalizma v vsakdanjem delovanju posameznika v
+                  družbi.<note place="foot" xml:id="ftn115" n="113">Anthony Cohen, »Personal
+                  nationalism: a Scottish view of some rites, rights and wrongs,« <hi rend="italic"
+                     >American Ethnologist</hi> 23, št. 4 (1996): 802, pridobljeno 7. 7. 2025, <ref
+                     target="https://doi.org/10.1525/ae.1996.23.4.02a00070"
+                     >https://doi.org/10.1525/ae.1996.23.4.02a00070</ref><hi rend="Hyperlink">, cit.
+                     po</hi>: Hearn, »National identity,« 663. Robert Mann in Steve Fenton, »The
+                  personal contexts of national sentiments,« <hi rend="italic">Journal of Ethnic and
+                     Migration Studies</hi> 35, št. 4 (2009): 520, pridobljeno 10. 7. 2025, <ref
+                     target="https://doi.org/10.1080/13691830902764882"
+                     >https://doi.org/10.1080/13691830902764882</ref>.</note> Z drugimi besedami to
+               pomeni, da je bistvo preučevanja vsakdanjih vidikov nacionalizma predvsem v analizi
+               različnosti posameznih osebnih interpretacij nacionalnih kategorij, saj »niti dva
+               posameznika nista umeščena v popolnoma enak etnični, geografski, spolni ali
+               psihološki prostor. Na narod gledata z edinstvenih zornih kotov, kar ima za posledico
+               različne nacionalne identitete.«<note place="foot" xml:id="ftn116" n="114">Kaufmann,
+                  »Complexity and nationalism,« 20.</note></p>
+            <p style="text-align: justify;">Kljub poudarku na razumevanju posameznikovega
+               nacionalnega izkustva pa preučevanje vsakdanjega nacionalizma nikakor ne bi smelo
+               zanemariti družbenega in organizacijskega konteksta, v katerem nastaja. To je
+               bistveno pri razlagi, kako lahko nacionalne kategorije oblikujejo družbeno življenje.
+                  <note place="foot" xml:id="ftn117" n="115">Hearn in Antonsich, »Theoretical and
+                  methodological,« 2 in 6.</note> Preučevanje vsakdanjega nacionalizma zato ne more
+               biti ločeno od vmesnih oziroma posrednih organizacijskih struktur med makro- in
+               mikroravnijo (družina, delovna mesta, izobraževalne ustanove ipd.), saj so to
+               največkrat ključni spodbujevalci človekovega delovanja.<note place="foot"
+                  xml:id="ftn118" n="116">Ibid., 6. Hearn, »National identity,« 667, 670,
+                  671.</note> Pri analizi nacionalizma torej ni pomemben samo elitni diskurz ali
+               njegova kontekstualna uporaba v dnevni interakciji posameznikov, temveč tudi posredni
+               mediatorji, kot so organizacijski konteksti, v katerih posameznik vsakodnevno
+               (so)deluje. Takšne družbene povezave lahko bolj ali manj uspešno opolnomočijo
+               posameznike in njihovo istovetenje s širšimi identitetnimi kategorijami, zaradi česar
+               je močnejša tudi njihova privrženost nacionalnim idejam ali ciljem.<note place="foot"
+                  xml:id="ftn119" n="117">Hearn, »National identity,«, 667, 670–72. Kaufmann,
+                  »Complexity and nationalism,« 18.</note></p>
+            <p style="text-align: justify;">Pri razumevanju te kompleksnosti nam lahko pomaga prav
+               Giddensova teorija strukturacije, ki so jo nekateri raziskovalci razvijali v smeri
+               preučevanja medsebojnega delovanja mikro-, makro- in vmesnih strukturnih slojev.
+                  <note place="foot" xml:id="ftn120" n="118">Rob Stones, <hi rend="italic"
+                     >Structuration Theory</hi> (Basingstoke: Palgrave Macmillan, 2005). Orla
+                  McGarry, »Knowing 'how to go on',« 2070–75. Karen O'Reilly, »Structuration,
+                  practice theory, ethnography and migration,« 7–9.</note> Z njimi lahko lažje
+               pojasnimo akterjevo umeščenost v družbeni kontekst, ki neposredno oblikuje
+               posameznikovo življenje ter mobilizira njegove interese in identiteto.<note
+                  place="foot" xml:id="ftn121" n="119">Hearn in Antonsich, »Theoretical and
+                  methodological,« 6.</note> Strukturacijski celostni pristop k preučevanju družbe
+               omogoča preseganje razumevanja nacionalizma v obliki dveh ločenih polov (osebnega ali
+               strukturnega) in osredotočanje na njegovo reprodukcijo v vrsti odnosov, ko
+               posamezniki osebno relevantnost širših kognitivnih (nacionalnih) kategorij črpajo iz
+               različnih oblik družbene organiziranosti.<note place="foot" xml:id="ftn122" n="120">
+                  Hearn, »National identity,« 671.</note></p>
+            <p style="text-align: justify;">V primeru banalnega in vsakdanjega nacionalizma, ki
+               nacionalnost preučujeta z vsakodnevne perspektive posameznika, omogoča razumevanje
+               strukturnega vpliva na banalne vidike vsakdana, ki so pogosto povezani z akterjevo
+               praktično zavestjo in nerefleksivnim obnašanjem, ter razumevanje refleksivne uporabe
+               nacionalnih kategorij, ki so posledica posameznikove diskurzivne racionalne
+                  zavesti.<note place="foot" xml:id="ftn123" n="121">Jones in Bradbury, <hi
+                     rend="italic">Introducing Social Theory</hi>, pogl. 7.</note> Pri oblikovanju
+               širših teoretskih razlag nacionalizma je takšen pristop sinteze strukture in
+               delovanja uporaben zaradi možnosti raziskovanja relevantnih življenjskih praks v
+               povezavi s širšimi strukturnimi konfiguracijami naroda in nacionalizma ter ohranjanja
+               njegove vsakodnevne pojavnosti in pomembnosti v daljšem časovnem obdobju.<note
+                  place="foot" xml:id="ftn124" n="122">Thompson, »Nations, national identities,« 24.
+                  Goode in Stroup, »Everyday nationalism: constructivism for the masses,«, 724,
+                  725.</note> Ker je nacionalizem v družbi izrazito kompleksen fenomen, ki pogosto
+               ni povezan samo z elitnim nacionalnim narativom, temveč nastaja kot stranski produkt
+               različnih dejanj posameznikov in z njimi povezanih procesov<note place="foot"
+                  xml:id="ftn125" n="123">Eric Kaufmann, »Complexity and nationalism,«, 9,
+                  10.</note>, teorija strukturacije nudi pomembna orodja in bogato konceptualno
+               besedišče, s katerimi lahko zajamemo njegovo celotno kompleksnost.<note place="foot"
+                  xml:id="ftn126" n="124">McGarry, »Knowing 'how to go on',« 2070.</note></p>
+         </div>
+         <div>
+            <head>Sklep</head>
+            <p style="text-align: justify;">V članku obravnavam koncepta vsakdanjega in banalnega
+               nacionalizma, ki predstavljata teoretski odmik od klasičnih makropristopov
+               preučevanja nacionalizma, saj se ukvarjata s pronicanjem, reprodukcijo, razumevanjem
+               in uporabo nacionalnih kategorij na ravni akterja. Medtem ko se banalni osredotoča na
+               načine prodiranja ideologije nacionalizma z makroravni na mikroraven, vsakdanji
+               nacionalizem obravnava akterjevo zavedno in nezavedno uporabo nacionalnih kategorij v
+               praktične vsakodnevne namene. S člankom želim poudariti, da se tudi v primeru
+               preučevanja vsakdanjega in banalnega nacionalizma pojavlja klasična sociološka dilema
+               pri iskanju pravega pristopa, ki bi zajel celotno kompleksnost dinamike v razmerju
+               med strukturnimi vplivi (makroraven) in vsakodnevnim delovanjem posameznikov
+               (mikroraven). S pregledom temeljnih del prikažem kompleksno interakcijo in povezanost
+               obeh spektrov družbene realnosti in poudarke, ki so jih pri svojem preučevanju
+               uporabili različni raziskovalci. Z obravnavanimi primeri in njihovo sociološko
+               kontekstualizacijo dokazujem pomembnost socioloških pristopov, ki poskušajo zajeti
+               povezanost med strukturnimi vplivi in delovanjem posameznih členov družbe. Pri tem še
+               posebej poudarim teorijo strukturacije, ki omogoča določitev vmesnih strukturnih
+               vplivov, in konceptualno soodvisnost akterja in strukture, s čimer je pojasnjevanje
+               kompleksnosti horizontalnih in vertikalnih vplivov nacionalizma nekoliko lažje ter
+               razumljivejše. Kljub temu da pristop še zdaleč ni popoln<note place="foot"
+                  xml:id="ftn127" n="125">Margaret Archer, »Morphogenesis versus structuration«.
+                  Peter Stankovič, »Giddensova teorija strukturacije,« 463–472.</note> in končnega
+               zadovoljujočega odgovora tudi v povezavi z nacionalizmom ne more ponuditi, pa je to
+               tudi pozitivna plat, saj od raziskovalcev zahteva, da si pri analitičnem preučevanju
+               takih fenomenov še naprej prizadevajo za celosten pogled z vidika obeh perspektiv.
+               Pri tem lahko teorija strukturacije omogoči konceptualni okvir, sintezo posameznih
+               vidikov preučevanja ter identifikacijo vzajemnega vpliva strukture in delovanja na
+               ohranjanje nacionalnih kategorij v kompleksni postmoderni družbi. </p>
+         </div>
+         <div>
+            <head>Zahvala</head>
+            <p style="text-align:justify">Članek je nastal v okviru raziskovalnega programa P5-0070
+                  <hi rend="italic">Narodna in kulturna identiteta slovenskega izseljenstva v
+                  kontekstu raziskovanja migracij</hi>, ki ga financira Javna agencija za
+               znanstvenoraziskovalno in inovacijsko dejavnost Republike Slovenije iz državnega
+               proračuna.</p>
+         </div>
+      </body>
+      <back>
+         <div type="bibliogr">
+            <head>Viri in literatura</head>
+            <listBibl>
+               <bibl style="text-align: justify;">Andersson, Helen. »Recontextualizing Swedish
+                  nationalism for commercial purposes: a multimodal analysis of a milk marketing
+                  event.« <hi rend="italic">Critical Discourse Studies</hi> 16, št. 5 (2019):
+                  583–603. Pridobljeno 6. 6. 2025. <ref
+                     target="https://doi.org/10.1080/17405904.2019.1637761"
+                     >https://doi.org/10.1080/17405904.2019.1637761</ref>.</bibl>
+               <bibl style="text-align: justify;">Antonsich, Marco. »The »everyday« of banal
+                  nationalism – Ordinary people's views on Italy and Italian.« <hi rend="italic"
+                     >Political Geography</hi> 54 (2016): 32–42. Pridobljeno 3. 6. 2025. <ref
+                     target="https://doi.org/10.1016/j.polgeo.2015.07.006"
+                     >https://doi.org/10.1016/j.polgeo.2015.07.006</ref>. </bibl>
+               <bibl style="text-align: justify;">Archer, Margaret. »Morphogenesis versus
+                  structuration: on combining structure and action.« <hi rend="italic">British
+                     Journal of Sociology</hi> 33, št. 4 (1982): 455–83. Pridobljeno 18. 6. 2025.
+                     <ref target="https://doi.org/10.2307/589357"
+                     >https://doi.org/10.2307/589357</ref>. </bibl>
+               <bibl style="text-align: justify;">Archer, Margaret. »Realism and the problem of
+                  agency.« <hi rend="italic">Journal of Critical Realism (Alethia)</hi> 5, št. 1
+                  (2015): 11–20. Pridobljeno 17. 6. 2025. <ref
+                     target="https://doi.org/10.1558/aleth.v5i1.11"
+                     >https://doi.org/10.1558/aleth.v5i1.11</ref>. </bibl>
+               <bibl style="text-align: justify;">Archer, Margaret. <hi rend="italic">Realist Social
+                     Theory: The Morphogenetic Approach</hi>. Cambridge: Cambridge University Press,
+                  1995. </bibl>
+               <bibl style="text-align: justify;">Billig, Michael. »Reflecting on a critical
+                  engagement with banal nationalism – reply to Skey.« <hi rend="italic">The
+                     Sociological Review</hi> 57, št. 2 (2009): 347–52. Pridobljeno 7. 6. 2025. <ref
+                     target="https://doi.org/10.1111/j.1467-954X.2009.01837.x"
+                     >https://doi.org/10.1111/j.1467-954X.2009.01837.x</ref>. </bibl>
+               <bibl style="text-align: justify;">Billig, Michael. <hi rend="italic">Banal
+                     Nationalism</hi>. London: SAGE Publications, 1995.</bibl>
+               <bibl style="text-align: justify;">Bourdieu, Pierre. <hi rend="italic">Outline of a
+                     Theory of Practice</hi>. Cambridge: Cambridge University Press, 1977. </bibl>
+               <bibl style="text-align: justify;">Brubaker, Rogers, Liana Grancea, Jon Fox in Margit
+                  Feishmidt. <hi rend="italic">Nationalist Politics and Everyday Ethnicity in a
+                     Transylvanian Town. </hi>Princeton: Princeton University Press, 2006. </bibl>
+               <bibl style="text-align: justify;">Cohen, Anthony. »Personal nationalism: a Scottish
+                  view of some rites, rights and wrongs.« <hi rend="italic">American
+                     Ethnologist</hi> 23, št. 4 (1996): 802. Pridobljeno 7. 7. 2025. <ref
+                     target="https://doi.org/10.1525/ae.1996.23.4.02a00070"
+                     >https://doi.org/10.1525/ae.1996.23.4.02a00070</ref>.</bibl>
+               <bibl style="text-align: justify;">De Cillia, Rudolf, Martin Reisigl in Ruth Wodak.
+                  »The discursive construction of national identities.« <hi rend="italic">Discourse
+                     &amp; Society</hi> 10, št. 2 (1999): 149–73. Pridobljeno 16. 6. 2025. <ref
+                     target="https://doi.org/10.1177/0957926599010002002"
+                     >https://doi.org/10.1177/0957926599010002002</ref>. </bibl>
+               <bibl style="text-align: justify;">Duchesne, Sophie. »Who's afraid of banal
+                  nationalism?.« <hi rend="italic">Nations and Nationalism</hi> 24, št. 4 (2018):
+                  841–56. Pridobljeno 9. 6. 2025. <ref target="https://doi.org/10.1111/nana.12457"
+                     >https://doi.org/10.1111/nana.12457</ref>. </bibl>
+               <bibl style="text-align: justify;">Edensor, Tim in Shanti Sumartojo. »Geographies of
+                  everyday nationhood: experiencing multiculturalism in Melbourne.« <hi
+                     rend="italic">Nations and Nationalism</hi> 24, št. 3 (2018): 553–78.
+                  Pridobljeno 12. 6. 2025. <ref target="https://doi.org/10.1111/nana.12421"
+                     >https://doi.org/10.1111/nana.12421</ref>. </bibl>
+               <bibl style="text-align: justify;">Edensor, Tim. <hi rend="italic">National Identity,
+                     Popular Culture and Everyday Life</hi>. Oxford: Berg, 2002.</bibl>
+               <bibl style="text-align: justify;">Eriksen, H. Thomas. »Formal and informal
+                  nationalism.« <hi rend="italic">Ethnic and Racial Studies</hi> 16, št. 1 (1993):
+                  1–25. Pridobljeno 3. 7. 2025. <ref
+                     target="https://doi.org/10.1080/01419870.1993.9993770"
+                     >https://doi.org/10.1080/01419870.1993.9993770</ref>. </bibl>
+               <bibl style="text-align: justify;">Foster, J. Robert. <hi rend="italic">Materializing
+                     the Nation: Commodities, Consumption, and Media in Papua New Guinea</hi>.
+                  Bloomington: Indiana University Press, 2002. </bibl>
+               <bibl style="text-align: justify;">Fox, E. Jon in Cynthia Miller-Idriss. »Everyday
+                  nationhood.« <hi rend="italic">Ethnicities</hi> 8, št. 4 (2018): 536–76.
+                  Pridobljeno 5. 6. 2025. <ref target="https://doi.org/10.1177/1468796808088925"
+                     >https://doi.org/10.1177/1468796808088925</ref>. </bibl>
+               <bibl style="text-align: justify;">Fox, E. Jon in Cynthia Miller-Idriss. »The »here
+                  and now« of everyday nationhood.« <hi rend="italic">Ethnicities</hi> 8, št. 4
+                  (2018): 573–76. Pridobljeno 11. 6. 2025. <ref
+                     target="https://doi.org/10.1177/14687968080080040103"
+                     >https://doi.org/10.1177/14687968080080040103</ref>. </bibl>
+               <bibl style="text-align: justify;">Fox, E. Jon in Maarten Van Ginderachter. »Everday
+                  nationalism's evidence problem.« <hi rend="italic">Nations and Nationalism</hi>
+                  24, št. 3 (2018): 546–52. Pridobljeno 5. 6. 2025. doi: <ref
+                     target="https://doi.org/10.1111/nana.12418"
+                     >https://doi.org/10.1111/nana.12418</ref>. </bibl>
+               <bibl style="text-align: justify;">Fox, E. Jon. »Banal nationalism in everyday life.«
+                     <hi rend="italic">Nations and Nationalism</hi> 24, št. 4 (2018): 862–66.
+                  Pridobljeno 7. 6. 2025. doi: 10.1111/nana.12458. </bibl>
+               <bibl style="text-align: justify;">Fox, E. Jon. »The edges of the nation: a research
+                  agenda for uncovering the taken-for-granted foundations of everyday nationhood.«
+                     <hi rend="italic">Nations and Nationalism</hi> 23, št. 1 (2017): 26–47.
+                  Pridobljeno 8. 6. 2025. <ref target="https://doi.org/10.1111/nana.12269"
+                     >https://doi.org/10.1111/nana.12269</ref>. </bibl>
+               <bibl style="text-align: justify;">Giddens, Anthony. <hi rend="italic">Central
+                     Problems in Social Theory</hi>. London: MacMillan, 1979.</bibl>
+               <bibl style="text-align: justify;">Giddens, Anthony. <hi rend="italic">New Rules of
+                     Sociological Method</hi>. London: Hutchinson, 1976.</bibl>
+               <bibl style="text-align: justify;">Giddens, Anthony. <hi rend="italic">Studies in
+                     Social and Political Theory</hi>. New York: Basic Books, 1977. </bibl>
+               <bibl style="text-align: justify;">Giddens, Anthony. <hi rend="italic">The
+                     Constitution of Society: Outline of the Theory of Structuration</hi>.
+                  Cambridge: Polity Press, 1984. </bibl>
+               <bibl style="text-align: justify;">Goffman, Erving. <hi rend="italic">Predstavljanje
+                     sebe v vsakdanjem življenju</hi>. Ljubljana: Studia humanitatis, 2014.</bibl>
+               <bibl style="text-align: justify;">Goode, J. Paul in R. David Stroup. »Everday
+                  nationalism: constructivism for the masses.« <hi rend="italic">Social Science
+                     Quarterly</hi> 96, št. 3 (2015): 717–39. Pridobljeno 8. 6. 2025. <ref
+                     target="https://doi.org/10.1111/ssqu.12188"
+                     >https://doi.org/10.1111/ssqu.12188</ref>. </bibl>
+               <bibl style="text-align: justify;">Haralambos, Michael in Martin Holborn. <hi
+                     rend="italic">Sociologija: teme in pogledi</hi>. Ljubljana: Državna založba
+                  Slovenije, 1999.</bibl>
+               <bibl style="text-align: justify;">Hearn, Jonathan in Marco Antonsich. »Theoretical
+                  and methodological considerations for the study of banal and everyday
+                  nationalism.« <hi rend="italic">Nations and Nationalism</hi> 24, št. 3 (2018):
+                  594–605. Pridobljeno 7. 6. 2025. <ref target="https://doi.org/10.1111/nana.12419"
+                     >https://doi.org/10.1111/nana.12419</ref>. </bibl>
+               <bibl style="text-align: justify;">Hearn, Jonathan. »National identity: banal,
+                  personal and embedded.« <hi rend="italic">Nations and Nationalism</hi> 13, št. 4
+                  (2007): 657–74. Pridobljeno 21. 6. 2025. <ref
+                     target="https://doi.org/10.1111/j.1469-8129.2007.00303.x"
+                     >https://doi.org/10.1111/j.1469-8129.2007.00303.x</ref>. </bibl>
+               <bibl style="text-align: justify;">Hobsbawm, J. Eric. <hi rend="italic">Nations and
+                     Nationalism since 1780: Programme, Myth, Reality</hi>. Cambridge: Cambridge
+                  University Press, 1992. </bibl>
+               <bibl style="text-align: justify;">Ichijo, Atsuko in Ronald Ranta. <hi rend="italic"
+                     >Food, National Identity and nNationalism: From Everyday to Global
+                     Politics</hi>. Basingstoke: Palgrave Macmillan, 2016. </bibl>
+               <bibl style="text-align: justify;">Jones, Pip in Liz Bradbury. <hi rend="italic"
+                     >Introducing Social Theory</hi> (3<hi rend="superscript">rd</hi> edition).
+                  Cambridge: Polity Press. Pridobljeno 10. 6. 2025. <ref
+                     target="https://research-ebsco-com.nukweb.nuk.uni-lj.si/c/rsg6t3/search/details/ecieo34n3v?db=nlebk"
+                     >https://research-ebsco-com.nukweb.nuk.uni-lj.si/c/rsg6t3/search/details/ecieo34n3v?db=nlebk</ref>. </bibl>
+               <bibl>Judson, M. Pieter. <hi rend="italic">Guardians of the Nation – Activists on the
+                     Language Frontiers of Imperial Austria</hi>. Cambridge MA: Harvard University
+                  Press, 2006. </bibl>
+               <bibl style="text-align: justify;">Kaufmann, Eric. »Complexity and nationalism.« <hi
+                     rend="italic">Nations and Nationalism</hi> 23, št. 1 (2017): 6–25. Pridobljeno
+                  26. 6. 2025. <ref target="https://doi.org/10.1111/nana.12270"
+                     >https://doi.org/10.1111/nana.12270</ref>. </bibl>
+               <bibl style="text-align: justify;">Knott, Eleanor. »Everyday nationalism. A review of
+                  the literature.« <hi rend="italic">Studies on National Movements (SNM)</hi> 3
+                  (2015). Pridobljeno 8. 6. 2025. <ref
+                     target="https://test.snm.nise.eu/index.php/studies/article/view/0308s"
+                     >https://test.snm.nise.eu/index.php/studies/article/view/0308s</ref>. </bibl>
+               <bibl style="text-align: justify;">Koch, Natalie in Tom Perreault. »Resource
+                  nationalism.« <hi rend="italic">Progress in Human Geography</hi> 43, št. 4 (2019):
+                  611–31. Pridobljeno 27. 6. 2025. <ref
+                     target="https://doi.org/10.1177/0309132518781497"
+                     >https://doi.org/10.1177/0309132518781497</ref>. </bibl>
+               <bibl>Kosi, Jernej. »'Yugoslavia has nothing. Yugoslavia has no bread. But Hungary
+                  gives us bread': Access to food and (dis)loyalty in a »redeemed« Yugoslav
+                  borderland.« <hi rend="italic">Austrian History Yearbook</hi> 55 (2024): 283–97.
+                  Pridobljeno: 3. 10. 2025. <ref target="https://doi.org/10.1017/S0067237824000055"
+                     >https://doi.org/10.1017/S0067237824000055</ref>. </bibl>
+               <bibl>Malašević, Siniša. <hi rend="italic">Grounded Nationalisms</hi>. Cambridge:
+                  Cambridge University Press, 2019 </bibl>
+               <bibl style="text-align: justify;">Mandelc, Damjan. <hi rend="italic">Na mejah
+                     nacije: teorije in prakse nacionalizma</hi>. Ljubljana: Filozofska fakulteta,
+                  2011.</bibl>
+               <bibl style="text-align: justify;">Mann, Robin in Steve Fenton. »The personal
+                  contexts of national sentiments.« <hi rend="italic">Journal of Ethnic and
+                     Migration Studies</hi> 35, št. 4 (2009): 517–34. Pridobljeno 10. 7. 2025. <ref
+                     target="https://doi.org/10.1080/13691830902764882"
+                     >https://doi.org/10.1080/13691830902764882</ref>. </bibl>
+               <bibl style="text-align: justify;">McGarry, Orla. »Knowing »how to go on«:
+                  structuration theory as an analytical prism in studies of intercultural
+                  engagement.« <hi rend="italic">Journal of Ethnic and Migration Studies</hi> 42,
+                  št. 12 (2016): 2067–85. Pridobljeno 13. 6. 2025. <ref
+                     target="https://doi.org/10.1080/1369183X.2016.1148593"
+                     >https://doi.org/10.1080/1369183X.2016.1148593</ref>. </bibl>
+               <bibl style="text-align: justify;">Miller-Idriss, Cynthia. »Everday understanding of
+                  citizenship in Germany.« <hi rend="italic">Citizenship Studies</hi> 10, št. 5
+                  (2006): 541–70. Pridobljeno 3. 6. 2025. <ref
+                     target="https://doi.org/10.1080/13621020600954978"
+                     >https://doi.org/10.1080/13621020600954978</ref>. </bibl>
+               <bibl style="text-align: justify;">Morawska, Eva. »International migration: its
+                  various mechanisms and different theories that try to explain.« <hi rend="italic"
+                     >Willy Brandt series of working papers IMER/MIM</hi> (2007). Pridobljeno 16. 6.
+                  2025. <ref
+                     target="https://www.diva-portal.org/smash/get/diva2:1409965/FULLTEXT01.pdf"
+                     >https://www.diva-portal.org/smash/get/diva2:1409965/FULLTEXT01.pdf</ref>. </bibl>
+               <bibl style="text-align: justify;">O'Reilly, Karen. »Structuration, practice theory,
+                  ethnography and migration: bringing it all together.« <hi rend="italic">IMI
+                     Working paper series</hi> 61 (2012). Pridobljeno 15. 6. 2025. <ref
+                     target="https://ora.ox.ac.uk/objects/uuid:f7ffb7f9-d6d0-4601-95e1-156da3c714a3/files/sbz60cw729"
+                     >https://ora.ox.ac.uk/objects/uuid:f7ffb7f9-d6d0-4601-95e1-156da3c714a3/files/sbz60cw729</ref>. </bibl>
+               <bibl style="text-align: justify;">Reicher, Stephen in Nick Hopkins. <hi
+                     rend="italic">Self and Nation: Categorization, Contestation and
+                     Mobilization</hi>. Thousand Oakes: SAGE, 2001. </bibl>
+               <bibl style="text-align: justify;">Rizman, Rudi, ur.. <hi rend="italic">Študije o
+                     etnonacionalizmu</hi>. Ljubljana: KRT, 1991.</bibl>
+               <bibl style="text-align: justify;">Skey, Michael. »The national in everyday life: A
+                  critical engagement with Michael Billig's thesis of Banal nationalism.« <hi
+                     rend="italic">The Sociological Review</hi> 57, št. 2 (2009): 331–46.
+                  Pridobljeno 7. 6. 2025. <ref
+                     target="https://doi.org/10.1111/j.1467-954X.2009.01832.x"
+                     >https://doi.org/10.1111/j.1467-954X.2009.01832.x</ref>. </bibl>
+               <bibl style="text-align: justify;">Skey, Michael. »There are times when I feel like a
+                  bit of an alien«: middling migrants and the national order of things.« <hi
+                     rend="italic">Nations and Nationalism</hi> 24, št. 3 (2018): 606–23.
+                  Pridobljeno 12. 6. 2025. 10.1111/nana.12422.</bibl>
+               <bibl style="text-align: justify;">Skey, Michael. <hi rend="italic">National
+                     Belonging and Everyday Life: The Significance of Nationhood in an Uncertain
+                     World</hi>. Basingstoke: Palgrave Macmillan, 2011. </bibl>
+               <bibl style="text-align: justify;">Smith, Anthony. »The limits of everday
+                  nationhood.« <hi rend="italic">Ethnicities</hi> 8, št. 4 (2018): 563–73.
+                  Pridobljeno 8. 6. 2025. <ref target="https://doi.org/10.1177/14687968080080040102"
+                     >https://doi.org/10.1177/14687968080080040102</ref>. </bibl>
+               <bibl style="text-align: justify;">Smith, Anthony. <hi rend="italic">National
+                     Identity</hi>. London: Penguin, 1991.</bibl>
+               <bibl style="text-align: justify;">Stankovič, Peter. »Giddensova teorija
+                  strukturacije: zagate teoretskega eklekticizma.« <hi rend="italic">Teorija in
+                     praksa</hi> 37, št. 3 (2000): 455–74. Pridobljeno 11. 6. 2025. <ref
+                     target="http://dk.fdv.uni-lj.si/db/pdfs/tip20003stankovic.pdf"
+                     >http://dk.fdv.uni-lj.si/db/pdfs/tip20003stankovic.pdf</ref>. </bibl>
+               <bibl style="text-align: justify;">Stones, Rob. <hi rend="italic">Structuration
+                     Theory.</hi> Basingstoke: Palgrave Macmillan, 2005. </bibl>
+               <bibl style="text-align: justify;">Surak, Kristin. <hi rend="italic">Making Tea,
+                     Making Japan: Cultural Nationalism in Practice</hi>. Redwood City: Stanford
+                  University Press, 2012. </bibl>
+               <bibl style="text-align: justify;">Thompson, Andrew. »Nations, national identities
+                  and human agency: putting people back into nations.« <hi rend="italic">The
+                     Sociological Review</hi> 49, št. 1 (2001): 18–32. Pridobljeno 23. 6. 2025. <ref
+                     target="https://doi.org/10.1111/1467-954X.00242"
+                     >https://doi.org/10.1111/1467-954X.00242</ref>. </bibl>
+               <bibl>Van Ginderachter, Maarten in Jon E. Fox, ur. <hi rend="italic">National
+                     Indifference and the History of Nationalism in Modern Europe. </hi>London, New
+                  York: Routledge, 2019.</bibl>
+               <bibl>Van Ginderachter, Maarten. »How to guage banal nationalism and national
+                  indifference in the past: proletarian tweets in Belgium's belle epoque.« <hi
+                     rend="italic">Nations and Nationalism</hi> 24, št. 3 (2018): 579–593.
+                  Pridobljeno: 16. 6. 2025. <ref target="https://doi.org/10.1111/nana.12420"
+                     >https://doi.org/10.1111/nana.12420</ref>. </bibl>
+               <bibl style="text-align: justify;">Whitmeyer, M. Joseph. »Elites and popular
+                  nationalism.« <hi rend="italic">British Journal of Sociology</hi> 53, št. 3
+                  (2002): 321–41. Pridobljeno 12. 7. 2025. <ref
+                     target="https://doi.org/10.1080/0007131022000000536"
+                     >https://doi.org/10.1080/0007131022000000536</ref>. </bibl>
+               <bibl>Zahra, Tara. <hi rend="italic">National Indifference and the Battle for
+                     Children in the Bohemian Lands, 1900–1948. </hi>Ithaca: Cornell University
+                  Press, 2011 </bibl>
+               <bibl>Zajc, Marko. »Josip Jurčič's tradition in Muljava: The boundaries of localism
+                  and nationalism.« <hi rend="italic">Prispevki za novejšo zgodovino</hi> 53, št. 2
+                  (2013): 23–36. Pridobljeno: 3. 10. 2025. <ref
+                     target="https://ojs.inz.si/pnz/article/view/65/66"
+                     >https://ojs.inz.si/pnz/article/view/65/66</ref>. </bibl>
+            </listBibl>
+         </div>
+         <div type="summary">
+            <docAuthor>Nik Obid</docAuthor>
+            <head>VSAKDANJI IN BANALNI NACIONALIZEM MED STRUKTURO IN DELOVANJEM</head>
+            <head>SUMMARY</head>
+            <p style="text-align: justify;">The article focuses on presenting the concepts of banal
+               and everyday nationalism, which mark a conceptual shift from the classic approaches
+               of studying nationalism. It aims to connect both approaches to the sociological
+               theories that transcend the classic theoretical division between structural
+               approaches and theories of social action. This division also influenced the study of
+               nationalism, as researchers typically emphasised its top-down structural and
+               ideological influence, often overlooking the role of the individual in understanding
+               and (re)shaping it. While classic approaches generally focus on the structural nature
+               of nationalism and its elite-driven discourse, the everyday and banal nationalism
+               approaches mainly examine its impact and role at the level of individual members of
+               society. The essence of banal nationalism is to understand how the ideology of
+               nationalism spreads from the structural to the individual level, while everyday
+               nationalism focuses on how actors interpret, use, and transform national categories
+               in daily life contexts. </p>
+            <p style="text-align: justify;">The first part of the contribution thus focuses on
+               presenting sociological theories that study the relationship, complexity, and
+               interconnectedness of structure and agency. It highlights the theories of Pierre
+               Bourdieu, Anthony Giddens, and Margaret Archer, who all attempted to connect the
+               influence of structure and agency on social dynamics in various ways. It then
+               connects these theories to the fundamental works on banal and everyday nationalism,
+               providing basic insights into the research methods and aspects of their study from
+               both historical and contemporary perspectives. In the final chapter, the contribution
+               emphasises the complexity of studying nationalism at the everyday level, due to the
+               interplay of structural influences and the individual’s conscious and unconscious use
+               of national categories in daily life. It highlights the strengths and weaknesses of
+               structuration theory, which aims to go beyond understanding society through two
+               separate poles, enabling the synthesis of individual study aspects, the inclusion of
+               intermediate structural layers, and the identification of the reciprocal influence of
+               structure and agency on maintaining the relevance of national categories within a
+               complex postmodern society. </p>
+         </div>
+      </back>
+   </text>
+</TEI>

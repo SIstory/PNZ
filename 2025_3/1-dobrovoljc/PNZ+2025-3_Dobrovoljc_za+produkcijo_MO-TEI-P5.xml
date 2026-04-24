@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Treebanking Spoken Slovenian: New Data, Models, and Lessons Learned</title>
+            <author>
+               <forename>Kaja</forename>
+               <surname>Dobrovoljc</surname>
+               <roleName>PhD</roleName>
+               <roleName>Res. Assoc.</roleName>
+               <affiliation>Faculty of Arts, University of Ljubljana</affiliation>
+               <address>
+                  <addrLine>Aškerčeva 2</addrLine>
+                  <addrLine>SI-1000 Ljubljana, Slovenia</addrLine>
+               </address><affiliation>Jožef Stefan Institute</affiliation><address>
+                  <addrLine>Jamova 39</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <email>kaja.dobrovoljc@ff.uni-lj.si</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2025-06-10</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+               <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               <address>
+                  <addrLine>Privoz 11</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>http://ojs.inz.si/pnz/article/view/</pubPlace>
+            <date>2025</date>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+            <title xml:lang="en">Contributions to Contemporary History</title>
+            <biblScope unit="volume">65</biblScope>
+            <biblScope unit="issue">3</biblScope>
+            <idno type="ISSN">2463-7807</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>No source, born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc xml:lang="en">
+            <p>Contributions to Contemporary History is one of the central Slovenian scientific
+               historiographic journals, dedicated to publishing articles from the field of
+               contemporary history (the 19th and 20th century).</p>
+            <p>The journal is published three times per year in Slovenian and in the following
+               foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak and
+               Czech. The articles are all published with abstracts in English and Slovenian as well
+               as summaries in English.</p>
+         </projectDesc>
+         <projectDesc xml:lang="sl">
+            <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+               zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+               stoletje).</p>
+            <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+               angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina in
+               češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki v
+               angleščini.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="sl"/>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>označevanje korpusov</term>
+               <term>odvisnostna drevesnica</term>
+               <term>spontani govor</term>
+               <term>Universal Dependencies</term>
+               <term>razčlenjevanje</term>
+            </keywords>
+            <keywords xml:lang="sl">
+               <term>corpus annotation</term>
+               <term>dependency treebank</term>
+               <term>spontaneous speech</term>
+               <term>Universal Dependencies</term>
+               <term>parsing</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change><date>2026-01-09T08:18:13Z</date>
+               <name>Mihael Ojsteršek</name>
+               <desc>Pretvorba iz DOCX v TEI, dodatno označevanje</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docAuthor>Kaja Dobrovoljc<note place="foot" xml:id="ftn1" n="*">
+               <hi rend="bold">PhD, Res. Assoc. Faculty of Arts, University of Ljubljana, Aškerčeva
+                  2, SI-1000 Ljubljana, Slovenia; Jožef Stefan Institute, Jamova 39, SI-1000
+                  Ljubljana, kaja.dobrovoljc@ff.uni-lj.si, ORCID: </hi><ref
+                  target="https://orcid.org/0000-0002-5909-7965"><hi rend="bold"
+                     >0000-0002-5909-7965</hi>.</ref></note></docAuthor>
+         <docImprint>
+            <idno type="cobissType">Cobiss tip: 1.01</idno>
+            <idno type="DOI">https://doi.org/10.51663/pnz.65.3.01</idno>
+         </docImprint>
+         <div type="abstract" xml:lang="sl">
+            <head>IZVLEČEK</head>
+            <head><hi rend="italic">DREVESNICA GOVORJENE SLOVENŠČINE: NOVI PODATKI, MODELI IN
+                  KLJUČNI NAUKI</hi></head>
+            <p>Prispevek predstavlja novo različico drevesnice govorjene slovenščine (SST),
+               uravnotežene in reprezentativne zbirke transkribiranega spontanega govora z ročno
+               označenimi lemami, besednimi vrstami, oblikoslovnimi značilnostmi in skladenjskimi
+               odvisnostmi, ki je bila nedavno razširjena z več kot 3.000 na novo razčlenjenimi
+               izjavami. Po kratkem pregledu postopkov vzorčenja, označevanja in poenotenja
+               korpusnih podatkov – ki smo jih podrobneje predstavili že v predhodni razpravi –
+               ponazorimo pomen tega jezikovnega vira za raziskave na področju jezikoslovja in
+               strojne obdelave jezika. S primerjavo govorne in pisne drevesnice najprej izpostavimo
+               leksikalne ter oblikoslovno-skladenjske posebnosti govora v primerjavi s pisnim
+               jezikom, nato pa predstavimo njihov vpliv na delovanje orodij za samodejno slovnično
+               razčlenjevanje govornih transkripcij. Na koncu predstavimo metodološke izkušnje,
+               pridobljene pri razvoju drevesnice, razpravljamo o njenem potencialu za nadaljnje
+               raziskave govorjenega jezika in poudarimo pomen tovrstnih virov z vidika naslavljanja
+               jezikovne raznolikosti pri razvoju jezikovnih tehnologij.</p>
+            <p><hi rend="italic">Ključne besede: označevanje korpusov, odvisnostna drevesnica,
+                  spontani govor, Universal Dependencies, razčlenjevanje</hi></p>
+         </div>
+         <div type="abstract" xml:lang="en">
+            <head>ABSTRACT</head>
+            <p>This paper presents a new version of the Spoken Slovenian Treebank (SST), a balanced
+               and representative collection of transcribed spontaneous speech with manually
+               annotated lemmas, part-of-speech tags, morphological features, and syntactic
+               dependencies, recently expanded with over 3,000 newly annotated utterances. After a
+               brief overview of the data sampling, annotation, and consolidation
+               processes—presented in detail in previous work—we evaluate the significance of this
+               new language resource for both linguistic research and natural language processing by
+               first highlighting its distinctive lexical and morphosyntactic features in comparison
+               to writing, and then assessing their impact on the performance of tools for automatic
+               grammatical annotation. Finally, we reflect on the methodological insights gained
+               during treebank creation, discuss the potential of SST for advancing spoken language
+               research, and argue for the necessity of such resources in supporting linguistic
+               diversity in language technology.</p>
+            <p><hi rend="italic">Keywords: corpus annotation, dependency treebank, spontaneous
+                  speech, Universal Dependencies, parsing</hi></p>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>Introduction</head>
+            <p>Spoken language treebanks, i.e. syntactically annotated collections of transcribed
+               speech, represent one of the fundamental language resources for data-driven spoken
+               language research in both linguistics<note place="foot" xml:id="ftn2" n="1"> Erhard
+                  Hinrichs and Sandra Kübler, “Treebank Profiling of Spoken and Written German,” in
+                     <hi rend="italic">Proceedings of the Fourth Workshop on Treebanks and
+                     Linguistic Theories (TLT 2005): 9–10 December 2005, Barcelona</hi>, eds.
+                  Montserrat Civit Torruella, Sandra Kübler, and María Antonia Martí Antonín, 65–76
+                  (Barcelona: Universitat de Barcelona, 2005). Paola Pietrandrea and Aline Delsart,
+                  “Chapter 16. Macrosyntax at Work: Functions and Distribution of Macrosyntactic
+                  Patterns in the Rhapsodie Corpus,” in <hi rend="italic">Rhapsodie: A Prosodic and
+                     Syntactic Treebank for Spoken French</hi>, eds. Anne Lacheret-Dujour, Sylvain
+                  Kahane, and Paola Pietrandrea (Amsterdam: John Benjamins Publishing Company,
+                  2019), 285–314, <ref target="https://doi.org/10.1075/scl.89.17pie"
+                     >https://doi.org/10.1075/scl.89.17pie</ref>. Ineke Schuurman, Marijke Schouppe,
+                  and Henk Hoekstra, “Harvesting Dutch Trees: Syntactic Properties of Spoken Dutch,”
+                  in <hi rend="italic">Computational Linguistics in the Netherlands 2002: Selected
+                     Papers from the Thirteenth CLIN Meeting</hi>, ed. Tanya Gaustad (Amsterdam:
+                  Rodopi, 2003), 129–41.</note> and natural language processing.<note place="foot"
+                  xml:id="ftn3" n="2"> Zoey Liu and Emily Prud’hommeaux, “Dependency Parsing
+                  Evaluation for Low-Resource Spontaneous Speech,” in <hi rend="italic">Proceedings
+                     of the Second Workshop on Domain Adaptation for NLP</hi>, eds. Eyal Ben-David,
+                  Shay Cohen, Ryan McDonald, Barbara Plank, Roi Reichart, Guy Rotman, and Yftah
+                  Ziser (Kyiv, Ukraine: Association for Computational Linguistics, April 2021),
+                  156–65, <ref target="https://aclanthology.org/2021.adaptnlp-1.16/"
+                     >https://aclanthology.org/2021.adaptnlp-1.16/</ref>. Anouck Braggaar and Rob
+                  van der Goot, “Challenges in Annotating and Parsing Spoken, Code-Switched,
+                  Frisian-Dutch Data,” in <hi rend="italic">Proceedings of the Second Workshop on
+                     Domain Adaptation for NLP</hi>, eds. Eyal Ben-David, Shay Cohen, Ryan McDonald,
+                  Barbara Plank, Roi Reichart, Guy Rotman, and Yftah Ziser (Kyiv, Ukraine:
+                  Association for Computational Linguistics, April 2021), 50–58, <ref
+                     target="https://aclanthology.org/2021.adaptnlp-1.6/"
+                     >https://aclanthology.org/2021.adaptnlp-1.6/</ref>. Caines, Andrew, Michael
+                  McCarthy, and Paula Buttery, “Parsing Transcripts of Speech,” in <hi rend="italic"
+                     >Proceedings of the Workshop on Speech-Centric Natural Language Processing
+                     (SCNLP@EMNLP 2017)</hi>, eds. Nicholas Ruiz and Srinivas Bangalore (Copenhagen,
+                  Denmark: Association for Computational Linguistics, September 7, 2017), 27–36,
+                     <ref target="https://doi.org/10.18653/v1/w17-4604"
+                     >https://doi.org/10.18653/v1/w17-4604</ref>. Kaja Dobrovoljc and Matej Martinc,
+                  “Er ... Well, It Matters, Right? On the Role of Data Representations in Spoken
+                  Language Dependency Parsing,” in <hi rend="italic">Proceedings of the Second
+                     Workshop on Universal Dependencies (UDW 2018)</hi>, eds. Marie-Catherine de
+                  Marneffe, Teresa Lynn, and Sebastian Schuster (Brussels, Belgium: Association for
+                  Computational Linguistics, November 2018), 37–46, <ref
+                     target="https://doi.org/10.18653/v1/W18-6005"
+                     >https://doi.org/10.18653/v1/W18-6005</ref>.</note> Consequently, many spoken
+               language treebanks have been developed over the recent decades, such as the
+               Switchboard corpus for English,<note place="foot" xml:id="ftn4" n="3"> J. J. Godfrey,
+                  E. C. Holliman, and J. McDaniel, “SWITCHBOARD: Telephone Speech Corpus for
+                  Research and Development,” in <hi rend="italic">Proceedings of the 1992 IEEE
+                     International Conference on Acoustics, Speech, and Signal Processing
+                     (ICASSP-92)</hi>, 517–520, vol. 1. San Francisco, CA, USA: IEEE, 1992, <ref
+                     target="https://doi.org/10.1109/ICASSP.1992.225858"
+                     >https://doi.org/10.1109/ICASSP.1992.225858</ref>. John J. Godfrey and Edward
+                  Holliman, <hi rend="italic">Switchboard-1 Release 2 LDC97S62</hi>. Web Download.
+                  Philadelphia: Linguistic Data Consortium, 1993, <ref
+                     target="https://doi.org/10.35111/sw3h-rw02"
+                     >https://doi.org/10.35111/sw3h-rw02</ref>. </note> CGN for Dutch,<note
+                  place="foot" xml:id="ftn5" n="4"> Ton van der Wouden, Heleen Hoekstra, Michael
+                  Moortgat, Bram Renmans, and Ineke Schuurman, “Syntactic Analysis in the Spoken
+                  Dutch Corpus (CGN),” in <hi rend="italic">Proceedings of the Third International
+                     Conference on Language Resources and Evaluation (LREC’02)</hi>, eds. Manuel
+                  González Rodríguez and Carmen Paz Suarez Araujo (Las Palmas, Canary Islands,
+                  Spain: European Language Resources Association (ELRA), May 2002), <ref
+                     target="https://aclanthology.org/L02-1071/"
+                     >https://aclanthology.org/L02-1071/</ref>. Dutch Language Institute. <hi
+                     rend="italic">Corpus Gesproken Nederlands – CGN (Version 2.0.3)</hi>, 2014,
+                  data set, <ref target="http://hdl.handle.net/10032/tm-a2-k6"
+                     >http://hdl.handle.net/10032/tm-a2-k6</ref>.</note> PDTSL for Czech,<note
+                  place="foot" xml:id="ftn6" n="5"> Jan Hajič, Silvie Cinková, Marie Mikulová, Petr
+                  Pajas, Jan Ptáček, Josef Toman, and Zdeňka Urešová, “PDTSL: An Annotated Resource
+                  for Speech Reconstruction,” in <hi rend="italic">2008 IEEE Spoken Language
+                     Technology Workshop</hi> (IEEE, 2008), 93–96, <ref
+                     target="https://doi.org/10.1109/SLT.2008.4777848"
+                     >https://doi.org/10.1109/SLT.2008.4777848</ref>. Jan Hajič, Petr Pajas, David
+                  Mareček, Marie Mikulová, Zdeňka Urešová, and Petr Podveský, <hi rend="italic"
+                     >Prague Dependency Treebank of Spoken Language (PDTSL) 0.5</hi>.
+                  LINDAT/CLARIAH-CZ digital library at the Institute of Formal and Applied
+                  Linguistics (ÚFAL), Faculty of Mathematics and Physics, Charles University, 2009,
+                     <ref target="http://hdl.handle.net/11858/00-097C-0000-0001-4914-D"
+                     >http://hdl.handle.net/11858/00-097C-0000-0001-4914-D</ref>. </note> NDC and
+               LIA for Norwegian,<note place="foot" xml:id="ftn7" n="6"> Lilja Øvrelid, Anne Kåsen,
+                  Kristin Hagen, Anders Nøklestad, and Janne Bondi Johannessen, “The LIA Treebank of
+                  Spoken Norwegian Dialects,” in <hi rend="italic">Proceedings of the Eleventh
+                     International Conference on Language Resources and Evaluation (LREC 2018)</hi>,
+                  4482–88. 2018,<ref
+                     target="https://www.nb.no/sprakbanken/en/resource-catalogue/oai-tekstlab-uio-no-lia-trebanken/"
+                     >https://www.nb.no/sprakbanken/en/resource-catalogue/oai-tekstlab-uio-no-lia-trebanken/</ref>.
+                  Andre Kåsen, Kristin Hagen, Anders Nøklestad, Joel Priestly, Per Erik Solberg, and
+                  Dag Trygve Truslew Haug, “The Norwegian Dialect Corpus Treebank,” in <hi
+                     rend="italic">Proceedings of the Thirteenth Language Resources and Evaluation
+                     Conference</hi>, eds. Nicoletta Calzolari, Frédéric Béchet, Philippe Blache,
+                  Khalid Choukri, Christopher Cieri, Thierry Declerck, Sara Goggi, Hitoshi Isahara,
+                  Bente Maegaard, Joseph Mariani, Hélène Mazo, Jan Odijk, and Stelios Piperidis
+                  (Marseille, France: European Language Resources Association, June 2022), 4827–32,
+                     <ref target="https://aclanthology.org/2022.lrec-1.516/"
+                     >https://aclanthology.org/2022.lrec-1.516/</ref>,<ref
+                     target="https://www.nb.no/sprakbanken/en/resource-catalogue/oai-tekstlab-uio-no-ndc-trebanken/"
+                     >https://www.nb.no/sprakbanken/en/resource-catalogue/oai-tekstlab-uio-no-ndc-trebanken/</ref>.
+               </note> Rhapsodie for French,<note place="foot" xml:id="ftn8" n="7"> Anne
+                  Lacheret-Dujour, Sylvain Kahane, and Paola Pietrandrea, eds. <hi rend="italic"
+                     >Rhapsodie: A Prosodic and Syntactic Treebank for Spoken French</hi>. Studies
+                  in Corpus Linguistics 89. Amsterdam: John Benjamins Publishing Company, 2019, <ref
+                     target="https://doi.org/10.1075/scl.89">https://doi.org/10.1075/scl.89</ref>,
+                     <ref target="https://github.com/UniversalDependencies/UD_French-Rhapsodie"
+                     >https://github.com/UniversalDependencies/UD_French-Rhapsodie</ref>.</note> as
+               well as the multilingual Verbmobil<note place="foot" xml:id="ftn9" n="8"> Erhard W.
+                  Hinrichs, Julia Bartels, Yasuhiro Kawata, Valia Kordoni, and Heike Telljohann,
+                  “The Tübingen Treebanks for Spoken German, English, and Japanese,” in <hi
+                     rend="italic">Verbmobil: Foundations of Speech-to-Speech Translation</hi>, ed.
+                  Wolfgang Wahlster (Berlin, Heidelberg: Springer Berlin Heidelberg, 2000), 550–74,
+                     <ref target="https://doi.org/10.1007/978-3-662-04230-4_40"
+                     >https://doi.org/10.1007/978-3-662-04230-4_40</ref>. Bavarian Archive for
+                  Speech Signals (BAS). <hi rend="italic">VM2 – Speech Corpus</hi>, 2016, <ref
+                     target="http://hdl.handle.net/11022/1009-0000-0000-FC55-5"
+                     >http://hdl.handle.net/11022/1009-0000-0000-FC55-5</ref>.</note> and
+                  CHILDES<note place="foot" xml:id="ftn10" n="9"> Lisa Pearl and Jon Sprouse,
+                  “Syntactic Islands and Learning Biases: Combining Experimental Syntax and
+                  Computational Modeling to Investigate the Language Acquisition Problem,” <hi
+                     rend="italic">Language Acquisition</hi> 20, No. 1 (2013): 23–68, <ref
+                     target="https://doi.org/10.1080/10489223.2012.738742"
+                     >https://doi.org/10.1080/10489223.2012.738742</ref>.</note> collections.
+               Recently, many such treebanks have emerged as part of the expanding multilingual
+               Universal Dependencies (UD) dataset.<note place="foot" xml:id="ftn11" n="10">
+                  Marie-Catherine de Marneffe, Christopher D. Manning, Joakim Nivre, and Daniel
+                  Zeman, “Universal Dependencies,” <hi rend="italic">Computational Linguistics</hi>
+                  47, No. 2 (2021): 255–308, <ref target="https://doi.org/10.1162/coli_a_00402"
+                     >https://doi.org/10.1162/coli_a_00402</ref>. Kaja Dobrovoljc, “Spoken Language
+                  Treebanks in Universal Dependencies: An Overview,” in <hi rend="italic"
+                     >Proceedings of the Thirteenth Language Resources and Evaluation
+                     Conference</hi>, (Marseille, France: ELRA, 2022), 1798–806, <ref
+                     target="https://aclanthology.org/2022.lrec-1.191/"
+                     >https://aclanthology.org/2022.lrec-1.191/</ref>. </note></p>
+            <p>For Slovenian, the Spoken Slovenian Treebank (SST)<note place="foot" xml:id="ftn12"
+                  n="11"> Kaja Dobrovoljc and Joakim Nivre, “The Universal Dependencies Treebank of
+                  Spoken Slovenian,” in <hi rend="italic">Proceedings of the Tenth International
+                     Conference on Language Resources and Evaluation (LREC’16)</hi> (Portorož: ELRA,
+                  2016), 1566–73, <ref target="https://aclanthology.org/L16-1248/"
+                     >https://aclanthology.org/L16-1248/</ref>.</note> has been the only language
+               resource of this kind to date. To support computational and corpus linguistic
+               research alike, the SST treebank was designed as a representative sample of the GOS
+               reference corpus of spoken Slovenian<note place="foot" xml:id="ftn13" n="12"> Anja
+                  Zwitter Vitez, Jana Zemljarič Miklavčič, Simon Krek, Marko Stabej, and Tomaž
+                  Erjavec, “Spoken Corpus Gos 1.1,” <ref target="http://hdl.handle.net/11356/1438"
+                     >http://hdl.handle.net/11356/1438</ref> (Slovenian language resource repository
+                  CLARIN.SI, 2021). Darinka Verdonik, Iztok Kosem, Ana Zwitter Vitez, Simon Krek,
+                  and Marko Stabej, “Compilation, Transcription and Usage of a Reference Speech
+                  Corpus: The Case of the Slovene Corpus GOS,” <hi rend="italic">Language Resources
+                     and Evaluation</hi> 47, No. 4 (2013): 1031–48, <ref
+                     target="https://doi.org/10.1007/s10579-013-9216-5"
+                     >https://doi.org/10.1007/s10579-013-9216-5</ref>.</note> and features manually
+               annotated transcriptions on the levels of lemmatization, MULTEXT-East<note
+                  place="foot" xml:id="ftn14" n="13"> Tomaž Erjavec, “MULTEXT-East,” in <hi
+                     rend="italic">Handbook of Linguistic Annotation</hi>, eds. Nancy Ide and James
+                  Pustejovsky, 441–62. Dordrecht: Springer, 2017, <ref
+                     target="https://doi.org/10.1007/978-94-024-0881-2_17"
+                     >https://doi.org/10.1007/978-94-024-0881-2_17</ref>.</note> morphological tags
+               and morphosyntactic annotations following the aforementioned UD annotation scheme,
+               which includes cross-lingually comparable annotations of part-of-speech categories,
+               morphological features and syntactic dependencies (Figure 1). As such, the treebank
+               complements the SSJ reference treebank of written Slovenian, which features identical
+                  annotations,<note place="foot" xml:id="ftn15" n="14"> Kaja Dobrovoljc, Tomaž
+                  Erjavec, and Simon Krek, “The Universal Dependencies Treebank for Slovenian,” in
+                     <hi rend="italic">Proceedings of the 6th Workshop on Balto-Slavic Natural
+                     Language Processing</hi>, (Association for Computational Linguistics, 2017),
+                  33–38, <ref target="https://doi.org/10.18653/v1/W17-1406"
+                     >https://doi.org/10.18653/v1/W17-1406</ref>. Kaja Dobrovoljc, Luka Terčon, and
+                  Nikola Ljubešić, “Universal Dependencies za slovenščino: Nove smernice, ročno
+                  označeni podatki in razčlenjevalni model,” <hi rend="italic">Slovenščina 2.0:
+                     Empirical, Applied and Interdisciplinary Research</hi> 11, No. 1 (2023):
+                  218–46, <ref target="https://doi.org/10.4312/slo2.0.2023.1.218-246"
+                     >https://doi.org/10.4312/slo2.0.2023.1.218-246</ref>.</note> and has already
+               been used as the main data source for the development of specialized computational
+               models for grammatical annotation of spoken Slovenian.<note place="foot"
+                  xml:id="ftn16" n="15"> Kaja Dobrovoljc and Matej Martinc, “Er ... Well, It
+                  Matters, Right? On the Role of Data Representations in Spoken Language Dependency
+                  Parsing,” in <hi rend="italic">Proceedings of the Second Workshop on Universal
+                     Dependencies (UDW 2018)</hi>, eds. Marie-Catherine de Marneffe, Teresa Lynn,
+                  and Sebastian Schuster (Brussels, Belgium: Association for Computational
+                  Linguistics, November 2018), 37–46, <ref
+                     target="https://doi.org/10.18653/v1/W18-6005"
+                     >https://doi.org/10.18653/v1/W18-6005</ref>. Darinka Verdonik, Kaja Dobrovoljc,
+                  Tomaž Erjavec, and Nikola Ljubešić, “Gos 2: A New Reference Corpus of Spoken
+                  Slovenian,” in <hi rend="italic">Proceedings of the 2024 Joint International
+                     Conference on Computational Linguistics, Language Resources and Evaluation
+                     (LREC-COLING 2024)</hi>, eds. Nicoletta Calzolari, Min-Yen Kan, Veronique
+                  Hoste, Alessandro Lenci, Sakriani Sakti, and Nianwen Xue (Torino, Italy: ELRA and
+                  ICCL, May 2024), 7825–30, <ref
+                     target="https://aclanthology.org/2024.lrec-main.691/"
+                     >https://aclanthology.org/2024.lrec-main.691/</ref>. </note></p>
+            <p>To address the limitations of the original SST treebank—namely its relatively small
+               size (approximately 3,100 parsed utterances, totalling 30,000 annotated tokens) and
+               its diverse but fragmented data (short samples from numerous speech events)—the
+               treebank has recently been expanded to more than three times its original size. This
+               major extension, carried out as part of the ongoing SPOT project,<note place="foot"
+                  xml:id="ftn17" n="16"> Treebank-driven approach to the study of Spoken Slovenian,
+                  ARIS grant No. Z6-4617, <ref target="https://spot.ff.uni-lj.si/"
+                     >https://spot.ff.uni-lj.si/</ref></note> was first presented at the Language
+               Technologies and Digital Humanities conference in September 2024.<note place="foot"
+                  xml:id="ftn18" n="17"> Kaja Dobrovoljc, “Extending the Spoken Slovenian Treebank,”
+                  in <hi rend="italic">Proceedings of the Conference on Language Technologies and
+                     Digital Humanities</hi> (Ljubljana, Slovenia, 2024), 116–46, <ref
+                     target="https://doi.org/10.5281/zenodo.13936393"
+                     >https://doi.org/10.5281/zenodo.13936393</ref>.</note> In this paper, we build
+               on that work—selected to appear in this special issue—by summarizing the entire
+               process, describing the very latest release of the SST treebank, published as part of
+               UD release v2.15,<note place="foot" xml:id="ftn19" n="18"> Zeman, et al., “Universal
+                  Dependencies 2.15,” <ref target="http://hdl.handle.net/11234/1-5787"
+                     >http://hdl.handle.net/11234/1-5787</ref> (LINDAT/CLARIAH-CZ digital library at
+                  the Institute of Formal and Applied Linguistics (ÚFAL), Faculty of Mathematics and
+                  Physics, Charles University, 2024.)</note> and evaluating newly developed parsing
+               models for state-of-the-art automatic grammatical annotation of spoken Slovenian.
+               Finally, we conclude by summarizing key lessons learned from the dataset creation,
+               annotation, and exploitation.</p>
+            <p>We describe this major improvement of the SST treebank by summarizing the data
+               sampling, annotation, and final dataset consolidation in Section 2. Section 3
+               provides an integrated overview of the resulting language resource, including its
+               format and availability. To exemplify its value for further empirical investigations
+               of lexical and grammatical characteristics of Slovenian speech, we compare the new
+               SST treebank to the SSJ treebank of written Slovenian in Section 4 and present a
+               comparative analysis of the newly available Trankit and CLASSLA-Stanza NLP models for
+               processing spoken Slovenian in Section 5. Finally, Section 6 concludes with a
+               discussion of key lessons learned and broader implications of this work.</p>
+            <figure>
+               <head>Figure 1: Example of a grammatically annotated utterance in the SST treebank
+                  featuring UD syntactic annotations (top), part-of-speech tags and morphological
+                  features (bottom), as well as MULTEXT-East lemmas and morphosyntactic tags
+                  (italics).</head>
+               <graphic url="SST-example.png"/>
+               <lb/>
+               <note n="">Source: Own work</note>
+            </figure>
+         </div>
+         <div>
+            <head>SST Treebank extension</head>
+            <p>The extension of the Spoken Slovenian Treebank (SST) has been extensively documented
+               in the aforementioned previous work,<note place="foot" xml:id="ftn20" n="19"> Kaja
+                  Dobrovoljc, “Extending the Spoken Slovenian Treebank.” </note> which is why we
+               only summarize the key steps below and refer readers to that paper for detailed
+               descriptions.</p>
+            <div>
+               <head>Data sampling</head>
+               <p>To address the limitations of the original SST corpus—namely its relatively small
+                  size and fragmented data—the treebank was extended by a minimum of 50,000 new
+                  tokens, while maintaining representativeness with respect to the updated GOS 2.1
+                  reference corpus of spoken Slovenian.<note place="foot" xml:id="ftn21" n="20">
+                     Darinka Verdonik, Kaja Dobrovoljc, Tomaž Erjavec, and Nikola Ljubešić, “Gos 2:
+                     A New Reference Corpus of Spoken Slovenian,” in <hi rend="italic">Proceedings
+                        of the 2024 Joint International Conference. </hi>Darinka Verdonik, Ana
+                     Zwitter Vitez, Jana Zemljarič Miklavčič, Simon Krek, Marko Stabej, Tomaž
+                     Erjavec, Tomaž Potočnik, Mirjam Sepesy Maučec, Simona Majhenič, Andrej Žgank,
+                     Andreja Bizjak, Lucija Gril, Simon Dobrišek, Janez Križaj, Marko Bajec, Iztok
+                     Lebar Bajec, Tjaša Jelovšek, Mitja Trojar, Mitja Bernjak, Naum Dretnik, Gregor
+                     Strle, Kaja Dobrovoljc, Nikola Ljubešić, and Peter Rupnik, <hi rend="italic"
+                        >Spoken Corpus Gos 2.1 (Transcriptions)</hi>. Slovenian language resource
+                     repository CLARIN.SI, 2023, <ref target="http://hdl.handle.net/11356/1863"
+                        >http://hdl.handle.net/11356/1863</ref>.</note> The sampling procedure,
+                  designed in collaboration with the Mezzanine project,<note place="foot"
+                     xml:id="ftn22" n="21">
+                     <hi rend="italic">Mezzanine; temeljne raziskave za razvoj govornih vIrov in
+                        tehnologij za slovenščino</hi>, <ref target="https://mezzanine.um.si/"
+                        >https://mezzanine.um.si/</ref>. Darinka Verdonik, Nikola Ljubešić, Peter
+                     Rupnik, Kaja Dobrovoljc, and Jaka Čibej, “Izbor in urejanje gradiv za učni
+                     korpus govorjene slovenščine ROG,” Paper presented at the 14th Conference on
+                     Language Technologies and Digital Humanities (JT-DH-2024), Ljubljana, Slovenia,
+                     September 19–20, 2024. Published by the Institute of Contemporary History,
+                     2024, <ref target="https://doi.org/10.5281/zenodo.13936425"
+                        >https://doi.org/10.5281/zenodo.13936425</ref>.</note> involved two main
+                  steps. First, 22 samples from GOS 1 events in the original SST were expanded by
+                  approximately 450 additional words each, yielding about 10,000 new words. Second,
+                  57 new speech events from the ARTUR subset were added, each contributing around
+                  800 words, totaling approximately 40,000 new words. To ensure coherent syntactic
+                  structures, the ARTUR data—originally segmented at pause boundaries—was
+                  automatically re-segmented based on sentence-final punctuation, producing more
+                  syntactically and semantically meaningful units.<note place="foot" xml:id="ftn23"
+                     n="22"> The re-segmentation was performed fully automatically, except for a few
+                     outliers where the absence of sentence-final punctuation in the original ARTUR
+                     transcriptions led to exceptionally long utterances. These cases were manually
+                     segmented for the UD release v2.16.</note> The exact counts, which also account
+                  for the post-festum modifications of the data described in the following sections,
+                  are reported in Section 3 (Table 1).</p>
+            </div>
+            <div>
+               <head>Data annotation</head>
+               <p>The annotation process began with a semi-automated morphological annotation,
+                  documented by Čibej and Munda (2024),<note place="foot" xml:id="ftn24" n="23">
+                     Jaka Čibej and Tina Munda, “Metoda polavtomatskega popravljanja lem in
+                     oblikoskladenjskih oznak na primeru učnega korpusa govorjene slovenščine ROG.”
+                     Paper presented at the 14th Conference on Language Technologies and Digital
+                     Humanities (JT-DH-2024), Ljubljana, Slovenia, September 19–20, 2024. Published
+                     by the Institute of Contemporary History, 2042, <ref
+                        target="https://doi.org/10.5281/zenodo.13936390"
+                        >https://doi.org/10.5281/zenodo.13936390</ref>.</note> which was then used
+                  for automatic parsing using the Trankit. Each of the 79 document-level files was
+                  subsequently assigned to 2–3 independent annotators, who manually verified and
+                  corrected the annotations using the Q-CAT tool,<note place="foot" xml:id="ftn25"
+                     n="24"> Janez Brank, Q-CAT Corpus Annotation Tool 1.5. Slovenian language
+                     resource repository CLARIN.SI, <ref target="http://hdl.handle.net/11356/1844"
+                        >http://hdl.handle.net/11356/1844</ref>.</note> enhanced with audio support
+                  via embedded URLs. The curation process was completed in WebAnno<note place="foot"
+                     xml:id="ftn26" n="25"> Seid Muhie Yimam, Iryna Gurevych, Richard Eckart de
+                     Castilho, and Chris Biemann, “WebAnno: A Flexible, Web-Based and Visually
+                     Supported System for Distributed Annotations,” in <hi rend="italic">Proceedings
+                        of the 51st Annual Meeting of the Association for Computational Linguistics:
+                        System Demonstrations</hi>, 1–6. 2013, <ref
+                        target="https://aclanthology.org/P13-4001"
+                        >https://aclanthology.org/P13-4001</ref>. <hi rend="italic">WebAnno - Log
+                        in</hi>, <ref target="https://www.clarin.si/webanno/login.html"
+                        >https://www.clarin.si/webanno/login.html</ref>.</note> to reconcile
+                  multiple annotations and ensure consistency with updated guidelines.</p>
+               <p>In the process, we developed a new and improved version of the UD guidelines for
+                  Slovenian, which now account for numerous speech-specific phenomena such as
+                  self-repairs and discourse markers. These updates build upon our previous
+                  annotation experience<note place="foot" xml:id="ftn27" n="26"> Kaja Dobrovoljc,
+                     and Joakim Nivre, “The Universal Dependencies Treebank of Spoken Slovenian,” in
+                        <hi rend="italic">Proceedings of the Tenth International Conference on
+                        Language Resources and Evaluation (LREC’16)</hi> (Portorož: ELRA, 2016),
+                     1566–73, <ref target="https://aclanthology.org/L16-1248/"
+                        >https://aclanthology.org/L16-1248/</ref>.</note> and incorporate recent
+                  practices and discussions within the community.<note place="foot" xml:id="ftn28"
+                     n="27"> Sylvain Kahane, Bernard Caron, Emmett Strickland, and Kim Gerdes,
+                     “Annotation Guidelines of UD and SUD Treebanks for Spoken Corpora: A Proposal,”
+                     in <hi rend="italic">Proceedings of the 20th International Workshop on
+                        Treebanks and Linguistic Theories (TLT, SyntaxFest 2021)</hi>, eds. Daniel
+                     Dakota, Kilian Evang, and Sandra Kübler, 35–47. Sofia, Bulgaria: Association
+                     for Computational Linguistics, December 2021, <ref
+                        target="https://aclanthology.org/2021.tlt-1.4/"
+                        >https://aclanthology.org/2021.tlt-1.4/</ref>. Kaja Dobrovoljc, Spoken
+                     Language Treebanks in Universal Dependencies: an Overview. In <hi rend="italic"
+                        >Proceedings of the thirteenth language resources and evaluation
+                        conference</hi> (pp. 1798–1806).</note> The guidelines are available as a
+                  standalone document in Slovenian<note place="foot" xml:id="ftn29" n="28"> Kaja
+                     Dobrovoljc and Luka Terčon, <hi rend="italic">Universal Dependencies: Smernice
+                        za označevanje besedil v slovenščini. Različica 1.7</hi>., Center za
+                     jezikovne vire in tehnologije Univerze v Ljubljani, 2024, <ref
+                        target="https://wiki.cjvt.si/attachments/71"
+                        >https://wiki.cjvt.si/attachments/71</ref>.</note> and as an abbreviated
+                  version of the Slovenian UD guidelines online in English.<note place="foot"
+                     xml:id="ftn30" n="29"> Example of the online Slovenian UD guidelines for speech
+                     repairs: <ref target="https://universaldependencies.org/sl/dep/reparandum.html"
+                        >https://universaldependencies.org/sl/dep/reparandum.html</ref>. </note></p>
+            </div>
+            <div>
+               <head>Data consolidation</head>
+               <p>Finally, both manually revised datasets—the original SST and the new GOS 2
+                  data—were merged and consolidated. This process involved harmonizing metadata
+                  formatting, punctuation, and letter-case principles across the subsets.
+                  Sentence-medial and sentence-final punctuation was semi-automatically added to GOS
+                  1 transcriptions using the Slovene Punctuator tool,<note place="foot"
+                     xml:id="ftn31" n="30">
+                     <hi rend="italic">GitHub - clarinsi/Slovene_punctuator</hi>. tool<ref
+                        target="https://github.com/clarinsi/Slovene_punctuator"
+                        >https://github.com/clarinsi/Slovene_punctuator</ref>.</note> followed by
+                  manual corrections to align with the conventions of the ARTUR dataset.<note
+                     place="foot" xml:id="ftn32" n="31"> Darinka, Verdonik and Andreja Bizjak, <hi
+                        rend="italic">Pogovorni zapis in označevanje govora v govorni bazi Artur
+                        projekta RSDO</hi>. Elaborat, predštudija, študija (Maribor: Univerza,
+                     2023), <ref target="https://dk.um.si/IzpisGradiva.php?lang=slv&amp;id=85198"
+                        >https://dk.um.si/IzpisGradiva.php?lang=slv&amp;id=85198</ref>.</note>
+                  Non-lexical tokens, such as [audience:laughter] and [pause], were removed to
+                  ensure consistency with ARTUR and UD treebank trends in general.<note place="foot"
+                     xml:id="ftn33" n="32"> Kaja Dobrovoljc, “Spoken Language Treebanks in Universal
+                     Dependencies: An Overview,” in <hi rend="italic">Proceedings of the Thirteenth
+                        Language Resources and Evaluation Conference</hi> (Marseille, France: ELRA,
+                     2022), 1798–806, <ref target="https://aclanthology.org/2022.lrec-1.191/"
+                        >https://aclanthology.org/2022.lrec-1.191/</ref>.</note> These and other
+                  non-lexical phenomena can still be accessed from the transcriptions of the
+                  reference GOS 2.1 corpus if necessary.</p>
+               <p>The final data consolidation also included correcting transcription errors, such
+                  as erroneous capitalization caused by automatic letter case unification in GOS
+                  2.1, and resolving tokenization issues flagged during UD validation. Morphological
+                  annotation inconsistencies were also corrected, including lemmatization errors and
+                  refinements to specific categories like colloquial expressions and anonymized
+                  names.</p>
+            </div>
+         </div>
+         <div>
+            <head>New SST treebank overview</head>
+            <p>This section presents the contents of the new SST treebank with respect to its size,
+               diversity of spoken data included, and availability.</p>
+            <div>
+               <head>Treebank size</head>
+               <p>As shown in Table 1, the resulting new, extended and revised, SST treebank based
+                  on approximately 10 hours of transcribed speech includes 344 unique speech events
+                  (documents) with a total of 6,108 utterances and 98,393 tokens. In comparison to
+                  the previous edition of the treebank (prior to the revisions presented in this
+                     paper),<note place="foot" xml:id="ftn34" n="33"> The original version of the
+                     SST treebank (Dobrovoljc and Nivre, 2016) featured 287 events, 594 speakers,
+                     3,188 utterances and 29,488 tokens.</note> the new SST treebank includes more
+                  than triple the number of transcribed tokens (+334%) and almost double the number
+                  of utterances (+196%), as well as a more varied set of events (+ 11%) and speakers
+                  (+ 11%). The average length of a (sampled) document has been extended from an
+                  average of 103 tokens per document to 286 tokens per document. As such, the SST
+                  treebank is one of the largest spoken language treebanks annotated in Universal
+                  Dependencies, surpassed only by the Naija UD treebank.</p>
+               <table>
+                  <head>Table 1: Overview of the new SST treebank and its subsets.</head>
+                  <row rend="bold">
+                     <cell>Subset</cell>
+                     <cell>Events</cell>
+                     <cell>Speakers</cell>
+                     <cell>Utterances</cell>
+                     <cell>Tokens</cell>
+                  </row>
+                  <row>
+                     <cell>SST-2016 (revised)</cell>
+                     <cell>287</cell>
+                     <cell>594</cell>
+                     <cell>2,903</cell>
+                     <cell>36,960</cell>
+                  </row>
+                  <row>
+                     <cell>New from GOS 1</cell>
+                     <cell>22</cell>
+                     <cell>61</cell>
+                     <cell>1,236</cell>
+                     <cell>13,112</cell>
+                  </row>
+                  <row>
+                     <cell>New from ARTUR</cell>
+                     <cell>57</cell>
+                     <cell>72</cell>
+                     <cell>1,969</cell>
+                     <cell>48,321</cell>
+                  </row>
+                  <row rend="bold">
+                     <cell>SST-2024 (UD 2.15)</cell>
+                     <cell>344</cell>
+                     <cell>676</cell>
+                     <cell>6,108</cell>
+                     <cell>98,393</cell>
+                  </row>
+                  <lb/>
+                  <note n="">Source: Own work</note>
+               </table>
+            </div>
+            <div>
+               <head>Data diversity</head>
+               <p>At the same time, the new SST treebank remains representative with respect to the
+                  reference GOS 2.1 and, indirectly, to Slovenian speech in general, as shown in
+                  Figures 2 to 5, which report the number of tokens per different types of speech
+                     events,<note place="foot" xml:id="ftn35" n="34"> Generally, all events feature
+                     spontaneous speech, i.e. unscripted verbal communication that occurs naturally
+                     in real-time, albeit with varying amounts of planning in public and non-public
+                     situations. A more detailed characterisation of speech events can be retrieved
+                     from the metadata available in the reference GOS 2 corpus.</note> communication
+                  channels and speaker demographics.</p>
+               <figure>
+                  <head>Figure 2: Number of tokens in SST with respect to the event type (left) and
+                     channel (right).</head>
+                  <graphic url="Figure2.jpg"/>
+                  <lb/>
+                  <note n="">Source: Own work</note>
+               </figure>
+               <figure>
+                  <head>Figure 3: Number of tokens in SST with respect to speaker gender (left) and
+                     age (right).</head>
+                  <graphic url="Figure3.jpg"/>
+                  <lb/>
+                  <note n="">Source: Own work</note>
+               </figure>
+               <figure>
+                  <head>Figure 4: Number of tokens in SST with respect to speaker education (left)
+                     and first language (right).</head>
+                  <graphic url="Figure4.jpg"/>
+                  <lb/>
+                  <note n="">Source: Own work</note>
+               </figure>
+               <figure>
+                  <head>Figure 5: Number of tokens in SST with respect to the region of speaker
+                     residence.</head>
+                  <graphic url="residence_FINAL.png"/>
+                  <lb/>
+                  <note n="">Source: Own work</note>
+               </figure>
+            </div>
+            <div>
+               <head>Treebank availability</head>
+               <p>The latest version of the SST treebank was released as part of UD v2.15,<note
+                     place="foot" xml:id="ftn36" n="35"> Zeman et al., “Universal Dependencies
+                     2.15.” </note> and is freely available under the CC-BY license, replacing the
+                  previous CC-BY-NC license that prohibited commercial use. The dataset follows the
+                  standard UD data split protocol, dividing the data into training, development, and
+                  test sets with approximate token distributions of 80%, 10%, and 10%, respectively.
+                  This revision aligns the SST data split with the ROG corpus (see below), ensuring
+                  an even distribution of ROG-ARTUR data across subsets, while maintaining the
+                  original principles of randomized, document-level segmentation for
+                  representativeness with respect to different event and speaker types (Section
+                  3.2).</p>
+               <p>The treebank is encoded in the standard CONLL-U format,<note place="foot"
+                     xml:id="ftn37" n="36">
+                     <hi rend="italic">CoNLL-U Format,</hi>
+                     <ref target="https://universaldependencies.org/format.html"
+                        >https://universaldependencies.org/format.html</ref>.</note> illustrated in
+                  Figure 6, with detailed token-level annotations and metadata in comment lines
+                  (e.g., speaker ID, document ID, audio URLs, pronunciation-based spelling).<note
+                     place="foot" xml:id="ftn38" n="37"> Due to space limitations, the CONLL-U
+                     example in Figure 6 only shows the first feature in the FEATS column (but see
+                     the example in Figure <ref target="#bookmark1">1</ref>) and omits the contents
+                     of the MISC column altogether (e.g.,
+                     pronunciation=tuki|GOS2.1_token_id=GOS119.tok1104).</note> This ensures that
+                  all additional metadata—such as non-lexical tokens and detailed event and speaker
+                  data—can be traced and retrieved from the reference GOS corpus using persistent
+                     IDs.<note place="foot" xml:id="ftn39" n="38"> This includes the retrieval audio
+                     recordings of the events, which are freely available under CC-BY for the ARTUR
+                     subset (Verdonik et al., 2023), and for research purposes for the GOS 1 subset
+                     (Verdonik et al., 2024).</note>
+               </p>
+               <p>In addition to the official CONLL-U release and its availability on GitHub,<note
+                     place="foot" xml:id="ftn40" n="39">
+                     <hi rend="italic">GitHub - UniversalDependencies/UD_Slovenian-SST</hi>, <ref
+                        target="https://github.com/UniversalDependencies/UD_Slovenian-SST/"
+                        >https://github.com/UniversalDependencies/UD_Slovenian-SST/</ref>.</note>
+                  the SST treebank is also accessible via online tools for UD querying and
+                  visualization, including Grew-match,<note place="foot" xml:id="ftn41" n="40">
+                     <hi rend="italic">Grew-match</hi>, <ref target="https://universal.grew.fr/"
+                        >https://universal.grew.fr/</ref>. Bruno Guillaume, “Graph Matching and
+                     Graph Rewriting: GREW Tools for Corpus Exploration, Maintenance and
+                     Conversion,” in <hi rend="italic">Proceedings of the 16th Conference of the
+                        European Chapter of the Association for Computational Linguistics: System
+                        Demonstrations</hi>, eds. Dimitra Gkatzia and Djamé Seddah (Online:
+                     Association for Computational Linguistics, April 2021), 168–75, <ref
+                        target="https://doi.org/10.18653/v1/2021.eacl-demos.21"
+                        >https://doi.org/10.18653/v1/2021.eacl-demos.21</ref>. </note> INESS, <note
+                     place="foot" xml:id="ftn42" n="41">
+                     <hi rend="italic">INESS : Home</hi>, <ref target="https://clarino.uib.no/iness"
+                        >https://clarino.uib.no/iness</ref>. Victoria Rosén, Koenraad De Smedt, Paul
+                     Meurer, and Helge Dyvik, “An Open Infrastructure for Advanced Treebanking,” in
+                        <hi rend="italic">META-RESEARCH Workshop on Advanced Treebanking at
+                        LREC2012</hi>, eds. Jan Hajič, Koenraad De Smedt, Marko Tadić, and António
+                     Branco (Istanbul, Turkey, May 2012), 22–29. </note> and the locally developed
+                  Drevesnik service,<note place="foot" xml:id="ftn43" n="42">
+                     <hi rend="italic">Drevesnik</hi>, <ref
+                        target="https://orodja.cjvt.si/drevesnik/"
+                        >https://orodja.cjvt.si/drevesnik/</ref>. Miha Štravs, Kaja Dobrovoljc, and
+                     Luka Bezgovšek, <hi rend="italic">Service for Querying Dependency Treebanks
+                        Drevesnik 1.2</hi>, Slovenian language resource repository CLARIN.SI, 2025,
+                        <ref target="http://hdl.handle.net/11356/2034"
+                        >http://hdl.handle.net/11356/2034</ref>.</note> based on the open-source
+                  dep_search tool.<note place="foot" xml:id="ftn44" n="43"> Juhani Luotolahti, Jenna
+                     Kanerva, and Filip Ginter, “Dep_search: Efficient Search Tool for Large
+                     Dependency Parsebanks,” in <hi rend="italic">Proceedings of the 21st Nordic
+                        Conference on Computational Linguistics</hi>, eds. Jörg Tiedemann and Nina
+                     Tahmasebi (Gothenburg, Sweden: Association for Computational Linguistics, May
+                     2017), 255–58 <ref target="https://aclanthology.org/W17-0233/"
+                        >https://aclanthology.org/W17-0233/</ref>.</note> These services support
+                  comprehensive exploration of the dataset, with some offering advanced query
+                  functions or even enabling audio playback.</p>
+               <p>Finally, the new SST treebank also serves as the backbone of the recently released
+                  ROG training corpus of spoken Slovenian,<note place="foot" xml:id="ftn45" n="44">
+                     Darinka Verdonik, Kaja Dobrovoljc, Peter Rupnik, Nikola Ljubešić, Simona
+                     Majhenič, Jaka Čibej, and Thomas Schmidt, <hi rend="italic">Training Corpus of
+                        Spoken Slovenian ROG 1.0</hi>, Slovenian language resource repository
+                     CLARIN.SI, 2024, <ref target="http://hdl.handle.net/11356/1992"
+                        >http://hdl.handle.net/11356/1992</ref>.</note> which includes additional
+                  annotation layers for disfluencies, dialogue acts, and prosody boundaries in the
+                  ROG-ARTUR subset and is available in formats that support visualization and
+                  browsing in the EXMARaLDA tool.<note place="foot" xml:id="ftn46" n="45">
+                     <hi rend="italic">EXMARaLDA</hi>, <ref target="https://www.exmaralda.org/"
+                        >https://www.exmaralda.org/</ref>.</note></p>
+               <figure>
+                  <head>Figure 6: Example of an annotated utterance in the CONLL-U format.</head>
+                  <graphic url="SST-example-CONLLU.png"/>
+                  <lb/>
+                  <note n="">Source: Own work</note>
+               </figure>
+            </div>
+         </div>
+         <div>
+            <head>Comparison with the SSJ treebank of written Slovenian</head>
+            <p>To illustrate the relevance of this newly created resource for further research on
+               spoken Slovenian, we compare the new SST treebank with its written counterpart, the
+               SSJ UD treebank of written Slovenian,<note place="foot" xml:id="ftn47" n="46"> Kaja
+                  Dobrovoljc, Tomaž Erjavec, and Simon Krek, “The Universal Dependencies Treebank
+                  for Slovenian,” in <hi rend="italic">Proceedings of the 6th Workshop on
+                     Balto-Slavic Natural Language Processing</hi> (Association for Computational
+                  Linguistics, 2017), 33–38, <ref target="https://doi.org/10.18653/v1/W17-1406"
+                     >https://doi.org/10.18653/v1/W17-1406</ref>. Kaja Dobrovoljc, Luka Terčon, and
+                  Nikola Ljubešić, “Universal Dependencies za slovenščino: Nove smernice, ročno
+                  označeni podatki in razčlenjevalni model,” <hi rend="italic">Slovenščina 2.0:
+                     Empirical, Applied and Interdisciplinary Research</hi> 11, No. 1 (2023):
+                  218–46, <ref target="https://doi.org/10.4312/slo2.0.2023.1.218-246"
+                     >https://doi.org/10.4312/slo2.0.2023.1.218-246</ref>.</note> which has been
+               annotated using the same annotation scheme and thus enables direct comparison of
+               annotations on various levels. To neutralize the effect of punctuation—an artefact in
+               spoken language—the comparison is based on versions of the treebanks with punctuation
+               removed. The results thus reflect the analysis of all uttered phenomena rather than
+               all transcribed phenomena.</p>
+            <div>
+               <head>Vocabulary</head>
+               <p>The comparison of the vocabulary in Table 2 shows that, despite the spoken SST
+                  treebank being much smaller than its written counterpart, there are as many as
+                  5,242 unique words (39.5% of all word types in SST) and 2,293 (30.1%) unique
+                  lemmas featured in the SST treebank that do not occur in the written SSJ treebank,
+                  confirming previous findings<note place="foot" xml:id="ftn48" n="47">Darinka
+                     Verdonik and Mirjam Sepesy Maučec, “A Speech Corpus as a Source of Lexical
+                     Information,” <hi rend="italic">International Journal of Lexicography</hi> 30,
+                     No. 2 (June 2017): 143–66, <ref target="https://doi.org/10.1093/ijl/ecw004"
+                        >https://doi.org/10.1093/ijl/ecw004</ref>. Kaja Dobrovoljc, “Formulaičnost v
+                     slovenskem jeziku,” <hi rend="italic">Slovenščina 2.0: Empirične, aplikativne
+                        in interdisciplinarne raziskave</hi> 6, No. 2 (2018): 67–95, <ref
+                        target="https://doi.org/10.4312/slo2.0.2018.2.67-95"
+                        >https://doi.org/10.4312/slo2.0.2018.2.67-95</ref>.</note> on the unique
+                  lexical characteristics of spoken Slovenian.<note place="foot" xml:id="ftn49"
+                     n="48"> Examples of most frequent unique lemmas in SST include filled pauses
+                     (e.g. <hi rend="italic">eee</hi>), response tokens (e.g. <hi rend="italic"
+                        >aja</hi>), anonymized names (e.g. <hi rend="italic">[name:personal]</hi>),
+                     and colloquial expressions (e.g. <hi rend="italic">ke</hi>), while most
+                     frequent unique lemmas in SSJ include roman numbers (e.g. <hi rend="italic"
+                        >2</hi>), abbreviations (e.g. <hi rend="italic">dr.</hi>), acronyms (e.g.
+                        <hi rend="italic">EU</hi>) and culturally obsolete vocabulary (e.g. <hi
+                        rend="italic">tolar</hi>).</note></p>
+
+               <table>
+                  <head>Table 2: Comparison of vocabulary diversity in the spoken (SST) and written
+                     (SSJ) treebank.</head>
+                  <row>
+                     <cell/>
+                     <cell><hi rend="bold">SST (spoken)</hi></cell>
+                     <cell><hi rend="bold">SSJ (written)</hi></cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>Words</cell>
+                     <cell>76,341</cell>
+                     <cell>227,619</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>Word types</cell>
+                     <cell>13,268</cell>
+                     <cell>48,570</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>Unique word types</cell>
+                     <cell>5,242</cell>
+                     <cell>40,544</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>Lemma types</cell>
+                     <cell>7,617</cell>
+                     <cell>25,352</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>Unique lemma types</cell>
+                     <cell>2,293</cell>
+                     <cell>20,028</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+               </table>
+               <note n="">Source: Own work</note>
+            </div>
+         </div>
+         <div>
+            <head>Part-of-speech categories</head>
+            <p>The comparison of part-of-speech tag frequencies per thousand words shown in Figure 7
+               reveals that the two modalities also differ with respect to the type of vocabulary
+               used. For instance, spoken language exhibits a much higher frequency of word classes
+               pertaining to interaction, subjectivity, deixis and modification, such as particles
+               (PART), adverbs (ADV), interjections (INTJ), determiners (DET) and pronouns (PRON).
+               The higher frequency of verbs (VERB) in spoken language also suggests a more dynamic
+               narrative style, while a higher frequency of nouns (NOUN, PROPN), adjectives (ADJ)
+               and prepositions (ADP) in written communication suggests a denser information
+               structure and more descriptive content. Our findings confirm that spoken and written
+               communication exhibit distinct tendencies towards nominal and verbal styles, aligning
+               with Douglas Biber’s seminal work on register variation.<note place="foot"
+                  xml:id="ftn50" n="49"> Douglas Biber, <hi rend="italic">Variation across Speech
+                     and Writing</hi>, 11118Cambridge: Cambridge University Press, 1988), <ref
+                     target="https://doi.org/10.1017/CBO9780511621024"
+                     >https://doi.org/10.1017/CBO9780511621024</ref>. Douglas Biber, Stig Johansson,
+                  Geoffrey Leech, Susan Conrad, and Edward Finegan, <hi rend="italic">Longman
+                     Grammar of Spoken and Written English</hi> (Berlin: De Gruyter Mouton,
+                  2010).</note></p>
+            <figure>
+               <head>Figure 7: Comparison of the distribution of POS categories in the spoken (SST)
+                  and written (SSJ) treebank.</head>
+               <graphic url="compare-POS_FINAL.png"/>
+               <lb/>
+               <note n="">Source: Own work</note>
+            </figure>
+            <div>
+               <head>Dependency relations</head>
+               <p>Finally, we compare the distribution of the dependency relations (syntactic
+                  functions of words) across the two datasets.</p>
+            </div>
+            <div>
+               <head>Core dependants of predicates</head>
+               <p>Figure 8 shows the comparison of the distribution of the predicate arguments,
+                  namely the nominal or clausal subjects (<hi rend="italic">nsubj, csubj</hi>),
+                  objects (<hi rend="italic">obj, iobj, ccomp</hi>) and adjuncts (<hi rend="italic"
+                     >advmod, obl, advcl</hi>). Interestingly, there are no major differences
+                  observed in the distribution of core arguments within each treebank, confirming
+                  that similar clause pattern strategies are used in both modalities. However, the
+                  notable differences in the frequency of some relations in both treebanks confirm
+                  the aforementioned nominal-heavy nature of written communication, i.e. more
+                  nominal subject (<hi rend="italic">nsubj</hi>), objects (<hi rend="italic"
+                     >obj</hi>, <hi rend="italic">iobj</hi>) and adjuncts (<hi rend="italic"
+                     >obl</hi>) in the written SSJ treebank. At the same time, the clauses in spoken
+                  language contain a much higher percentage of adverbial modification (<hi
+                     rend="italic">advmod</hi>),<note place="foot" xml:id="ftn51" n="50"> The advmod
+                     relation is used both for modification of predicates (e.g. Pride jutri.) but
+                     also for modification of other modifier words, such as adjectives (e.g. zelo
+                     umazana posoda), so the number reflects both.</note> which could be explained
+                  by the abundance of modal adverbials, which speakers use to express stance, convey
+                  attitude, and balance the interaction.</p>
+               <figure>
+                  <head>Figure 8: Comparison of core predicate arguments in the spoken (SST) and
+                     written (SSJ) treebank.</head>
+                  <graphic url="compare-DEP-core.png"/>
+                  <lb/>
+                  <note n="">Source: Own work</note>
+               </figure>
+            </div>
+            <div>
+               <head>Other dependants of predicates</head>
+               <p>In contrast to the much higher number of discourse elements (<hi rend="italic"
+                     >discourse</hi>), vocatives (<hi rend="italic">vocative</hi>), and fronted or
+                  postponed elements (<hi rend="italic">dislocated</hi>) in SST, which only rarely
+                  occur in written data, the differences in the distribution of other dependants of
+                  predicates (reported in Figure 9) are less pronounced, with two exceptions. First,
+                  spoken communication seems to show a preference for simple verbs phrases in the
+                  present tense (i.e. less auxiliary verbs marked with <hi rend="italic">aux</hi>).
+                  Second, despite the very similar frequency of subordinate clauses in both
+                  modalities (<hi rend="italic">csubj, ccomp</hi> and <hi rend="italic">advcl</hi>
+                  in Figure 8 and <hi rend="italic">acl</hi> in Figure 10), spoken data exhibits a
+                  higher number of subordinate conjunctions (<hi rend="italic">mark</hi>). This
+                  finding requires further investigation, but may be related to the more frequent
+                  use of subordinate clauses as standalone utterances in spoken interaction—for
+                  example, as responses or elaborations on prior turns in conversation (e.g.
+                  replying <hi rend="italic">Ker dežuje</hi> ‘Because it is raining’ to a question
+                  about why an event was cancelled).</p>
+               <figure>
+                  <head>Figure 9: Comparison of the non-core predicate arguments in the spoken (SST)
+                     and written (SSJ) treebank.</head>
+                  <graphic url="compare-DEP_non-core.png"/>
+                  <lb/>
+                  <note n="">Source: Own work</note>
+               </figure>
+            </div>
+            <div>
+               <head>Dependants of nominals</head>
+               <p>The comparison of the distribution of the relations pertaining to the dependents
+                  of nominals (e.g. noun phrase constituents) in Figure 10 shows that spoken
+                  communication exhibits a lower frequency of modifiers of nouns, such as adjectival
+                     (<hi rend="italic">amod</hi>), nominal and prepositional (<hi rend="italic"
+                     >nmod, case</hi>), numerical (<hi rend="italic">nummod</hi>), clausal (<hi
+                     rend="italic">acl</hi>) and appositional (<hi rend="italic">appos</hi>)
+                  modifiers. This is in line with the aforementioned lower number of nominal phrases
+                  in speech (Figure 7), but also suggests an overall simpler structure of such
+                  phrases (i.e. less pre- and post-modification of nouns). The only exception to
+                  this rule is the higher frequency of determiners (<hi rend="italic">det</hi>) in
+                  SST, which can be explained by the frequent use of demonstrative pronouns and
+                  other context-grounding deictical premodifiers in speech.</p>
+               <figure>
+                  <head>Figure 10: Comparison of the dependents of nominals in the spoken (SST) and
+                     written (SSJ) treebank.</head>
+                  <graphic url="compare-DEP_nominal.png"/>
+                  <lb/>
+                  <note n="">Source: Own work</note>
+               </figure>
+            </div>
+            <div>
+               <head>Other relations</head>
+               <p>Last, Figure 11 shows the comparison of the distribution for all other types of
+                  dependency relations that do not fall into any of the main syntactic categories
+                  mentioned above. Naturally, the biggest differences between both modalities can be
+                  observed for the <hi rend="italic">reparandum</hi> relation pertaining to speech
+                  repairs, which only occur in the spoken treebank.</p>
+               <p>The second important observation is that sentences in speech are generally much
+                  shorter than in writing. This is not only reflected by the difference in the
+                  average number of words per utterance/sentence (i.e. the frequency of root
+                  elements in a treebank),<note place="foot" xml:id="ftn52" n="51"> Average sentence
+                     length without punctuation is 12.5 tokens per utterance in SST and 17 tokens
+                     per sentence in SSJ.</note> but also by the higher frequency of <hi
+                     rend="italic">parataxis</hi> relation, which is used for run-on clauses with no
+                  linking conjunction.</p>
+               <p>Our results also confirm the elliptical nature of spoken communication, with SST
+                  exhibiting a higher frequency of <hi rend="italic">orphan</hi> relations, which
+                  are used to mark core arguments in cases of predicate ellipsis. We can also
+                  observe that speech features a higher number of coordinating conjunctions (<hi
+                     rend="italic">cc</hi>) in relation to the number of coordinating conjuncts (<hi
+                     rend="italic">conj</hi>); however, the cause might be attributed to various
+                  reasons, such as a higher number of discourse-structuring devices in speech in
+                  general (see the higher frequency of subordinating conjunctions labeled as <hi
+                     rend="italic">mark</hi> in Figure 10) or longer coordination phrases in writing
+                  (i.e. multiple conjuncts).</p>
+               <p>Last, SST treebank also features a larger number of fixed multi-word expressions,
+                  which is in line with previous findings on the formulaic nature of this type of
+                     communication.<note place="foot" xml:id="ftn53" n="52"> Kaja Dobrovoljc,
+                     “Formulaičnost v slovenskem jeziku,” <hi rend="italic">Slovenščina 2.0:
+                        Empirične, aplikativne in interdisciplinarne raziskave</hi> 6, No. 2 (2018):
+                     67–95, <ref target="https://doi.org/10.4312/slo2.0.2018.2.67-95"
+                        >https://doi.org/10.4312/slo2.0.2018.2.67-95</ref>.</note> On the other
+                  hand, flat multi-word expressions (mainly encompassing personal names and foreign
+                  named entities) occur less often in speech.</p>
+               <figure>
+                  <head>Figure 11: Comparison of all other relations in the spoken (SST) and written
+                     (SSJ) treebank.</head>
+                  <graphic url="compare-DEP_other.png"/>
+                  <lb/>
+                  <note n="">Source: Own work</note>
+               </figure>
+            </div>
+         </div>
+         <div>
+            <head>New models for grammatical annotation of spoken Slovenian</head>
+            <p>Finally, the new SST treebank was also used to train speech-specific models of two
+               state-of-the-art tools for automatic grammatical annotation: Trankit<note
+                  place="foot" xml:id="ftn54" n="53"> Minh Van Nguyen, Viet Dac Lai, Amir Pouran Ben
+                  Veyseh, and Thien Huu Nguyen, “Trankit: A Light-Weight Transformer-Based Toolkit
+                  for Multilingual Natural Language Processing,” in <hi rend="italic">Proceedings of
+                     the 16th Conference of the European Chapter of the Association for
+                     Computational Linguistics: System Demonstrations</hi>, eds. Dimitra Gkatzia and
+                  Djamé Seddah, 80–90. Online: Association for Computational Linguistics, April
+                  2021, <ref target="https://doi.org/10.18653/v1/2021.eacl-demos.10"
+                     >https://doi.org/10.18653/v1/2021.eacl-demos.10</ref>. </note> and
+                  CLASSLA-Stanza,<note place="foot" xml:id="ftn55" n="54"> Nikola Ljubešić, Luka
+                  Terčon, and Kaja Dobrovoljc, “CLASSLA-Stanza: The Next Step for Linguistic
+                  Processing of South Slavic Languages,” paper presented at the 14th Conference on
+                  Language Technologies and Digital Humanities (JT-DH-2024), Ljubljana, Slovenia,
+                  September 19–20, 2024, published by the Institute of Contemporary History, 2024,
+                     <ref target="https://doi.org/10.5281/zenodo.13936405"
+                     >https://doi.org/10.5281/zenodo.13936405</ref>.</note> to complement their
+               standard models trained solely on written data. While various speech-specific models
+               incorporating SST data have been developed for experimental purposes, we present the
+               best-performing speech-specific model(s)<note place="foot" xml:id="ftn56" n="55">
+                  While Trankit follows a single-model architecture, CLASSLA-Stanza employs a
+                  modular approach with separate models for each processing layer, such as
+                  lemmatization, tagging, and parsing.</note> of each tool and compare it to its
+               standard counterparts trained only on written data. For both tools, the
+               best-performing speech models were trained on a combination of spoken (SST) and
+               written (SSJ/SUK) data, aligning with previous findings on the advantages of joint
+               modelling for spoken data annotation.<note place="foot" xml:id="ftn57" n="56"> Kaja
+                  Dobrovoljc and Matej Martinc, “Er ... Well, It Matters, Right? On the Role of Data
+                  Representations in Spoken Language Dependency Parsing,” in <hi rend="italic"
+                     >Proceedings of the Second Workshop on Universal Dependencies (UDW 2018)</hi>,
+                  eds. Marie-Catherine de Marneffe, Teresa Lynn, and Sebastian Schuster (Brussels,
+                  Belgium: Association for Computational Linguistics, November 2018), 37–46, <ref
+                     target="https://doi.org/10.18653/v1/W18-6005"
+                     >https://doi.org/10.18653/v1/W18-6005</ref>. Darinka Verdonik, Kaja Dobrovoljc,
+                  Tomaž Erjavec, and Nikola Ljubešić, “Gos 2: A New Reference Corpus of Spoken
+                  Slovenian,” in <hi rend="italic">Proceedings of the 2024 Joint International
+                     Conference.</hi></note></p>
+            <p>Thus, the following models have been featured in the evaluation:</p>
+            <list rend="numbered">
+               <item>The standard Trankit model<note place="foot" xml:id="ftn58" n="57"> Luka
+                     Krsnik, Kaja Dobrovoljc, and Luka Terčon, <hi rend="italic">The Trankit Model
+                        for Linguistic Processing of Standard Written Slovenian 1.1</hi>, Slovenian
+                     Language Resource Repository CLARIN.SI, 2024, <ref
+                        target="http://hdl.handle.net/11356/1963"
+                        >http://hdl.handle.net/11356/1963</ref>.</note> trained on SSJ</item>
+               <item>The spoken Trankit model<note place="foot" xml:id="ftn59" n="58"> Luka Krsnik,
+                     Kaja Dobrovoljc, and Luka Terčon, <hi rend="italic">The Trankit Model for
+                        Linguistic Processing of Written and Spoken Slovenian 1.2</hi>, Slovenian
+                     Language Resource Repository CLARIN.SI, 2024, <ref
+                        target="http://hdl.handle.net/11356/1997"
+                        >http://hdl.handle.net/11356/1997</ref>.</note> trained on SSJ and
+                  SST</item>
+               <item>The standard CLASSLA-Stanza models<note place="foot" xml:id="ftn60" n="59">
+                     Luka Terčon, Jaka Čibej, and Nikola Ljubešić, <hi rend="italic">The
+                        CLASSLA-Stanza Model for Lemmatization of Standard Slovenian 2.0</hi>,
+                     Slovenian Language Resource Repository CLARIN.SI, 2023, <ref
+                        target="http://hdl.handle.net/11356/1768"
+                        >http://hdl.handle.net/11356/1768</ref>. Nikola Ljubešić, Luka Terčon, and
+                     Jaka Čibej, <hi rend="italic">The CLASSLA-Stanza Model for Morphosyntactic
+                        Annotation of Standard Slovenian 2.0</hi>, Slovenian Language Resource
+                     Repository CLARIN.SI, 2023, <ref target="http://hdl.handle.net/11356/1767"
+                        >http://hdl.handle.net/11356/1767</ref>. Luka Terčon, Kaja Dobrovoljc, and
+                     Nikola Ljubešić, <hi rend="italic">The CLASSLA-Stanza Model for UD Dependency
+                        Parsing of Standard Slovenian 2.2</hi>, Slovenian Language Resource
+                     Repository CLARIN.SI, 2025.</note> trained on SSJ/SUK</item>
+               <item>The spoken CLASSLA-Stanza models<note place="foot" xml:id="ftn61" n="60"> Luka
+                     Terčon, Kaja Dobrovoljc, and Nikola Ljubešić, <hi rend="italic">The
+                        CLASSLA-Stanza Model for Lemmatization of Spoken Slovenian 2.2</hi>,
+                     Slovenian Language Resource Repository CLARIN.SI, 2025, <ref
+                        target="http://hdl.handle.net/11356/2017"
+                        >http://hdl.handle.net/11356/2017</ref>. Luka Terčon, Kaja Dobrovoljc, and
+                     Nikola Ljubešić, <hi rend="italic">The CLASSLA-Stanza Model for Morphosyntactic
+                        Annotation of Spoken Slovenian 2.2</hi>, Slovenian Language Resource
+                     Repository CLARIN.SI, 2025, <ref target="http://hdl.handle.net/11356/2016"
+                        >http://hdl.handle.net/11356/2016</ref>. Luka Terčon, Kaja Dobrovoljc, and
+                     Nikola Ljubešić, <hi rend="italic">The CLASSLA-Stanza Model for UD Dependency
+                        Parsing of Spoken Slovenian 2.2</hi>, Slovenian language resource repository
+                     CLARIN.SI, 2025, <ref target="http://hdl.handle.net/11356/2018"
+                        >http://hdl.handle.net/11356/2018</ref>.</note> trained on SSJ/SUK and
+                  SST</item>
+            </list>
+            <p>We report the evaluation of all models on both written (SSJ) and spoken test sets
+               (SST) in Table 3, using the standard F1 evaluation metric for lemmatization (LEMMA),
+               part-of-speech tagging (UPOS), full morphology prediction (XPOS) and labelled
+               attachment score (LAS), which measures the correct assignment of dependency heads and
+                  relations.<note place="foot" xml:id="ftn62" n="61"> To neutralize the impact of
+                  the non-trivial task of speech segmentation, the evaluation of all models is
+                  performed on pre-segmented and pre-tokenized test sets.</note> Due to space
+               restrictions, we highlight here only the four most relevant findings among the many
+               interesting results.</p>
+            <table>
+               <head>Table 3: F1 performance of best-performing Trankit and CLASSLA-Stanza models
+                  for written and spoken Slovenian, evaluated on the SSJ and SST test sets.
+                  Best-performing models for each modality are marked in bold.</head>
+               <row rend="bold">
+                  <cell/>
+                  <cell/>
+                  <cell>SSJ-test (written)</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>SST-test (spoken)</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+                  <cell>Lemmas</cell>
+                  <cell>UPOS</cell>
+                  <cell>XPOS</cell>
+                  <cell>LAS</cell>
+                  <cell>Lemmas</cell>
+                  <cell>UPOS</cell>
+                  <cell>XPOS</cell>
+                  <cell>LAS</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>Standard Trankit</cell>
+                  <cell>98.07</cell>
+                  <cell>99.12</cell>
+                  <cell>98.24</cell>
+                  <cell>95.48</cell>
+                  <cell>98.16</cell>
+                  <cell>95.33</cell>
+                  <cell>93.93</cell>
+                  <cell>79.14</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>Spoken Trankit</cell>
+                  <cell>98.1</cell>
+                  <cell>99.17</cell>
+                  <cell>98.27</cell>
+                  <cell>95.36</cell>
+                  <cell>98.85</cell>
+                  <cell>98.97</cell>
+                  <cell>98.02</cell>
+                  <cell>87.93</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>Standard CLASSLA-Stanza</cell>
+                  <cell>98.87</cell>
+                  <cell>98.52</cell>
+                  <cell>96.89</cell>
+                  <cell>90.42</cell>
+                  <cell>98.68</cell>
+                  <cell>92.86</cell>
+                  <cell>91.39</cell>
+                  <cell>69.81</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>Spoken CLASSLA-Stanza</cell>
+                  <cell>98.8</cell>
+                  <cell>98.66</cell>
+                  <cell>96.65</cell>
+                  <cell>90.09</cell>
+                  <cell>99.23</cell>
+                  <cell>98.15</cell>
+                  <cell>96.76</cell>
+                  <cell>81.91</cell>
+               </row>
+               <note n="">Source: Own work</note>
+            </table>
+            <div>
+               <head>Performance of standard models on spoken data</head>
+               <p>Our results confirm previous findings that the performance of standard models
+                  trained on written data drops significantly when applied to transcribed speech.
+                  This is especially evident in syntactic parsing, where we observe an LAS decrease
+                  of 16.3pp for the standard Trankit model and 20.6pp for the standard
+                  CLASSLA-Stanza model, when applied to the spoken SST test set. These results
+                  reinforce that spoken data presents a significant challenge for standard
+                  off-the-shelf NLP models.</p>
+            </div>
+            <div>
+               <head>Performance of spoken models on spoken data</head>
+               <p>The performance of both tools on spoken data improves substantially when spoken
+                  (SST) data is included in training, as seen in the newly released speech-adapted
+                  models. For part-of-speech tagging and morphological feature prediction, both
+                  tools show a gain of approximately 3–5pp when using spoken models. Notably, their
+                  performance on spoken data now matches their performance on written data,
+                  achieving F1 scores of 98–99 for lemmatization, part-of-speech tagging, and full
+                  morphology prediction in both modalities. </p>
+               <p>For syntactic parsing, the improvements are even more pronounced. Compared to
+                  their written counterparts, the spoken Trankit model achieves an LAS improvement
+                  of 8.8pp, while the spoken CLASSLA-Stanza model sees a 12.1pp gain. As expected,
+                  spoken data parsing remains challenging, with an approximately 8pp gap between the
+                  best-performing parsing scores on speech and writing for both tools.<note
+                     place="foot" xml:id="ftn63" n="62"> For a detailed evaluation of spoken models’
+                     accuracy with respect to specific part-of-speech tags or dependency
+                     relations—particularly relevant for targeted research applications—readers are
+                     referred to Terčon et al., 2025, published in this same journal.</note>
+                  Nevertheless, these significant improvements highlight the value of SST data in
+                  enhancing spoken language processing and underscore the need for continued
+                  development of speech-aware models and tools.</p>
+            </div>
+            <div>
+               <head>Performance of spoken models on written data</head>
+               <p>Perhaps the most surprising finding is that for both tools, the newly available
+                     <hi rend="italic">spoken</hi> models—trained on both written and spoken
+                  data—perform just as well on written data as the standard models, trained on
+                  written data alone. In other words, incorporating spoken data into training
+                  improves performance on speech without compromising performance on standard
+                  written text. This challenges the traditional <hi rend="italic">written</hi> vs.
+                     <hi rend="italic">spoken</hi> or <hi rend="italic">standard</hi> vs. <hi
+                     rend="italic">domain-adapted</hi> divide and suggests that these models should
+                  not be seen as speech-specific but rather as new state-of-the-art <hi
+                     rend="italic">universal</hi> models, capable of delivering top-tier performance
+                  across both language modalities.</p>
+            </div>
+            <div>
+               <head>Comparing Trankit and CLASSLA-Stanza models</head>
+               <p>The timely inclusion of SST in two state-of-the-art tools for processing Slovenian
+                  is a significant step forward, as each tool has its own strengths. However, in
+                  terms of overall performance, the transformer-based Trankit generally outperforms
+                  CLASSLA-Stanza across both modalities and all metrics, except for lemmatization,
+                  where CLASSLA-Stanza has a slight advantage due to larger training set for written
+                  data (1M words in the SUK corpus compared to 270k in SSJ) and lexicon control via
+                  the Sloleks morphological dictionary. Trankit, in particular, demonstrates a
+                  notable advantage in dependency parsing, with LAS scores of the spoken-universal
+                  model reaching 95.36 on written data and 87.93 on spoken data. In comparison,
+                  CLASSLA-Stanza exhibits approximately 5–6pp lower parsing performance across both
+                  modalities.</p>
+            </div>
+         </div>
+         <div>
+            <head>Discussion</head>
+            <p>We have presented a new version of the reference morphosyntactically parsed corpus of
+               spoken Slovenian, the Spoken Slovenian Treebank (SST), which has recently been
+               extended to include more than triple the number of transcribed words and almost
+               double the number of utterances compared to the original SST. As such, this newly
+               available resource represents a significant addition to the Slovenian language
+               resource landscape—ready to be exploited and further extended—and provides a valuable
+               model for similar efforts in other languages. To support such initiatives, we share
+               several key lessons learned during the development of SST.</p>
+            <p>First, we offer several recommendations for developing a spoken treebank resource.
+               Anchoring the treebank in a well-established reference corpus, such as GOS, reduces
+               annotation workload, increases the visibility and uptake of the resource, and allows
+               direct mapping to richly transcribed speech phenomena—such as original audio
+               recordings, layered orthographic and phonetic transcriptions, and detailed speaker or
+               event metadata—that go well beyond what can be represented in minimalist tabular
+               formats like CoNLL-U. Sampling is equally critical: longer and more representative
+               speech events expand the range of linguistic phenomena that can be studied, including
+               discourse-level structures, rather than limiting analyses to isolated sentences or
+               speaker turns. Some limitations of the current SST still reflect overly short or
+               fragmented sampling.</p>
+            <p>When it comes to annotation, pre-annotation with high-accuracy parsers—whether
+               off-the-shelf or custom-trained—can significantly speed up the process by allowing
+               annotators to focus on the more challenging structures, which are particularly
+               frequent in the under-researched spoken language communication. However, these
+               structures also require consistent, well-documented treatment; it is therefore
+               crucial to clearly record annotation principles, from segmentation to specific
+               grammatical annotation decisions. In the context of the UD annotation initiative,
+               this means not only maintaining internal consistency, but also aligning with
+               cross-linguistic practices and established guidelines. Current efforts within the
+               UniDive COST action<note place="foot" xml:id="ftn64" n="63"> Agata Savary, Daniel
+                  Zeman, Verginica Barbu Mititelu, Anabela Barreiro, Olesea Caftanatov,
+                  Marie-Catherine de Marneffe, Kaja Dobrovoljc, Gülşen Eryiğit, Voula Giouli, Bruno
+                  Guillaume, Stella Markantonatou, Nurit Melnik, Joakim Nivre, Atul Kr. Ojha, Carlos
+                  Ramisch, Abigail Walsh, Beata Wójtowicz, and Alina Wrόblewska, “UniDive: A COST
+                  Action on Universality, Diversity and Idiosyncrasy in Language Technology,” in <hi
+                     rend="italic">Proceedings of the 3rd Annual Meeting of the Special Interest
+                     Group on Under-resourced Languages @ LREC-COLING 2024</hi>, eds. Maite Melero,
+                  Sakriani Sakti and Claudia Soria, (Torino, Italia: ELRA and ICCL, 2024), 372–82,
+                     <ref target="https://aclanthology.org/2024.sigul-1.45/"
+                     >https://aclanthology.org/2024.sigul-1.45/</ref>.</note> are especially
+               valuable in this regard, as they aim to harmonize treebank guidelines for spoken
+               language across multiple languages and projects.</p>
+            <p>Second, the SST provides essential infrastructure for advancing linguistic research
+               on spoken language. Our comparison with the written SSJ treebank shows that the
+               differences between speech and writing are not limited to lexis, but extend to the
+               distribution of parts of speech, syntactic relations, and overall structural
+               organization. These distinctions highlight the need for dedicated spoken treebanks,
+               which can reveal patterns that remain obscured in written data alone. With its rich
+               metadata and representative sampling, the SST enables targeted investigations into
+               how syntactic choices vary across social and contextual dimensions—such as gender,
+               age, dialect, or communicative setting. Some of these possibilities have already been
+               illustrated, for example in studies of self-repair strategies across private and
+               public speech, and speaker gender.<note place="foot" xml:id="ftn65" n="64"> Kaja
+                  Dobrovoljc, “Uporaba drevesnice SST v raziskavah govorjene slovenščine: prednosti
+                  in omejitve,” <hi rend="italic">Jezik in slovstvo</hi> 69(4) (2024): 187–209, <ref
+                     target="https://doi.org/10.4312/jis.69.4.187-209"
+                     >https://doi.org/10.4312/jis.69.4.187-209</ref>.</note> Moreover, having the
+               treebank aligned with a language-independent scheme, such as UD, opens up
+               unprecedented possibilities for cross-linguistic investigations of spoken language
+               grammar, enabling systematic identification of truly universal and language-specific
+               grammatical features in speech. The SST has already proven useful in such efforts,
+               including recent comparative studies on syntactic diversity<note place="foot"
+                  xml:id="ftn66" n="65"> Kaja Dobrovoljc, <hi rend="italic">Counting Trees: A
+                     Treebank-Driven Exploration of Syntactic Variation in Speech and Writing across
+                     Languages</hi>, arXiv preprint arXiv:2505.22774, 2025, <ref
+                     target="https://arxiv.org/abs/2505.22774"
+                     >https://arxiv.org/abs/2505.22774</ref>.</note> and word order variation<note
+                  place="foot" xml:id="ftn67" n="66"> Nives Hüll and Kaja Dobrovoljc, “<hi
+                     rend="italic">Word Order Variation in Spoken and Written Corpora: A
+                     Cross-Linguistic Study of SVO and Alternative Orders,”</hi> in <hi
+                     rend="italic">Proceedings of SyntaxFest 2025</hi>, 2025.</note> across speech
+               and writing.</p>
+            <p>Third, the distinct nature of spoken language has important implications for NLP. Our
+               evaluation clearly shows that parsing models trained on the new SST substantially
+               outperform standard models trained exclusively on written data when applied to
+               transcribed speech. This highlights the practical importance of developing treebanks
+               that reflect the characteristics of spoken communication. With the SST now available,
+               we now have state-of-the-art models capable of accurately parsing spoken Slovenian,
+               opening up the possibility of extending grammatical annotation to larger corpora,
+               such as the full GOS reference corpus. Looking ahead, further improvements will
+               depend on moving beyond transcripts and incorporating the full communicative
+               context—including prosody, audio, and multimodal cues—to better approximate how
+               humans process language. Since SST includes aligned recordings, much of this
+               groundwork is already in place. More broadly, our findings contribute to the growing
+               recognition within the NLP community that diversity in training data—including
+               non-standard and spoken varieties—not only enhances the processing of
+               underrepresented domains but also strengthens the performance of general-purpose
+               models. Our findings thus suggest that investing in broadly trained parsing models on
+               diverse data can support both accurate processing of underrepresented varieties and
+               more inclusive data analysis.</p>
+         </div>
+         <div>
+            <head>Conclusion</head>
+            <p>In this paper, we presented the recent extension of the Spoken Slovenian Treebank
+               with more than 3,000 new manually parsed utterances, resulting in a new, balanced and
+               representative, version of the corpus to be used in linguistic, computational and
+               other empirical investigations of spoken Slovenian. We made a first step in this
+               direction by showcasing the key lexical and morphosyntactic characteristics that
+               distinguish speech from writing, and presenting their significance for developing
+               speech-aware NLP tools. Our findings suggest that training parsers on richly varied
+               data—rather than restricting them to narrow domains—may be a worthwhile direction for
+               building more inclusive and robust language processing tools. </p>
+         </div>
+         <div>
+            <head>Acknowledgments</head>
+            <p>This work was financially supported by the Slovenian Research and Innovation Agency
+               through the research projects <hi rend="italic">Treebank-Driven Approach to the Study
+                  of Spoken Slovenian </hi>(Z6-4617), <hi rend="italic">Large Language Models for
+                  Digital Humanities</hi> (GC-0002), and the research program <hi rend="italic"
+                  >Language Resources and Technologies for Slovene </hi>(P6-0411). In addition to
+               the collaborators from the Mezzanine project (J74642) who have been involved with the
+               data sampling and morphological annotation (Jaka Čibej, Tina Munda, Nikola Ljubešić,
+               Peter Rupnik, Darinka Verdonik), we also wish to thank the data annotators (Nives
+               Hüll, Karolina Zgaga, Luka Terčon, Matija Škofljanec) and the technical collaborators
+               who have contributed to data pre-annotation (Luka Krsnik), audio re-segmentation
+               (Janez Križaj, Simon Dobrišek, Tomaž Erjavec), and model evaluation (Luka Krsnik,
+               Luka Terčon). Generative AI tools were used to support language editing during the
+               preparation of this manuscript; full responsibility for the content remains with the
+               authors.</p>
+         </div>
+      </body>
+      <back>
+         <div type="bibliogr">
+            <head>Sources and literature</head>
+            <listBibl>
+               <head>Literature:</head>
+               <bibl>Biber, Douglas, Stig Johansson, Geoffrey Leech, Susan Conrad, and Edward
+                  Finegan. <hi rend="italic">Longman Grammar of Spoken and Written English</hi>.
+                  Berlin: De Gruyter Mouton, 2010. </bibl>
+               <bibl>Biber, Douglas. <hi rend="italic">Variation across Speech and Writing</hi>.
+                  Cambridge: Cambridge University Press, 1988. <ref
+                     target="https://doi.org/10.1017/CBO9780511621024"
+                     >https://doi.org/10.1017/CBO9780511621024</ref>. </bibl>
+               <bibl>Braggaar, Anouck, and Rob van der Goot. “Challenges in Annotating and Parsing
+                  Spoken, Code-Switched, Frisian-Dutch Data.” In <hi rend="italic">Proceedings of
+                     the Second Workshop on Domain Adaptation for NLP</hi>, edited by Eyal
+                  Ben-David, Shay Cohen, Ryan McDonald, Barbara Plank, Roi Reichart, Guy Rotman, and
+                  Yftah Ziser, 50–58. Kyiv, Ukraine: Association for Computational Linguistics,
+                  April 2021. <ref target="https://aclanthology.org/2021.adaptnlp-1.6/"
+                     >https://aclanthology.org/2021.adaptnlp-1.6/</ref>.</bibl>
+               <bibl>Caines, Andrew, Michael McCarthy, and Paula Buttery. “Parsing Transcripts of
+                  Speech.” In <hi rend="italic">Proceedings of the Workshop on Speech-Centric
+                     Natural Language Processing (SCNLP@EMNLP 2017)</hi>, edited by Nicholas Ruiz
+                  and Srinivas Bangalore, 27–36. Copenhagen, Denmark: Association for Computational
+                  Linguistics, September 7, 2017. <ref target="https://doi.org/10.18653/v1/w17-4604"
+                     >https://doi.org/10.18653/v1/w17-4604</ref>.</bibl>
+               <bibl>Čibej, Jaka, and Tina Munda. “Metoda polavtomatskega popravljanja lem in
+                  oblikoskladenjskih oznak na primeru učnega korpusa govorjene slovenščine ROG.”
+                  Paper presented at the 14th Conference on Language Technologies and Digital
+                  Humanities (JT-DH-2024), Ljubljana, Slovenia, September 19–20, 2024. Published by
+                  the Institute of Contemporary History, 2024. <ref
+                     target="https://doi.org/10.5281/zenodo.13936390"
+                     >https://doi.org/10.5281/zenodo.13936390</ref>.</bibl>
+               <bibl>de Marneffe, Marie-Catherine, Christopher D. Manning, Joakim Nivre, and Daniel
+                  Zeman. “Universal Dependencies.” <hi rend="italic">Computational Linguistics</hi>
+                  47, No. 2 (2021): 255–308. <ref target="https://doi.org/10.1162/coli_a_00402"
+                     >https://doi.org/10.1162/coli_a_00402</ref>. </bibl>
+               <bibl>Dobrovoljc, Kaja, and Joakim Nivre. “The Universal Dependencies Treebank of
+                  Spoken Slovenian.” In <hi rend="italic">Proceedings of the Tenth International
+                     Conference on Language Resources and Evaluation (LREC’16)</hi>, 1566–73.
+                  Portorož: European Language Resources Association, 2016. <ref
+                     target="https://aclanthology.org/L16-1248/"
+                     >https://aclanthology.org/L16-1248/</ref>.</bibl>
+               <bibl>Dobrovoljc, Kaja, and Luka Terčon. <hi rend="italic">Universal Dependencies:
+                     Smernice za označevanje besedil v slovenščini. Različica 1.7</hi>. Center za
+                  jezikovne vire in tehnologije Univerze v Ljubljani, 2024. <ref
+                     target="https://wiki.cjvt.si/attachments/71"
+                     >https://wiki.cjvt.si/attachments/71</ref>.</bibl>
+               <bibl>Dobrovoljc, Kaja, and Matej Martinc. “Er ... Well, It Matters, Right? On the
+                  Role of Data Representations in Spoken Language Dependency Parsing.” In <hi
+                     rend="italic">Proceedings of the Second Workshop on Universal Dependencies (UDW
+                     2018)</hi>, edited by Marie-Catherine de Marneffe, Teresa Lynn, and Sebastian
+                  Schuster, 37–46. Brussels, Belgium: Association for Computational Linguistics,
+                  November 2018. <ref target="https://doi.org/10.18653/v1/W18-6005"
+                     >https://doi.org/10.18653/v1/W18-6005</ref>.</bibl>
+               <bibl>Dobrovoljc, Kaja, Luka Terčon, and Nikola Ljubešić. “Universal Dependencies za
+                  slovenščino: Nove smernice, ročno označeni podatki in razčlenjevalni model.” <hi
+                     rend="italic">Slovenščina 2.0: Empirical, Applied and Interdisciplinary
+                     Research</hi> 11, No. 1 (2023): 218–46. <ref
+                     target="https://doi.org/10.4312/slo2.0.2023.1.218-246"
+                     >https://doi.org/10.4312/slo2.0.2023.1.218-246</ref>.</bibl>
+               <bibl>Dobrovoljc, Kaja, Tomaž Erjavec, and Simon Krek. “The Universal Dependencies
+                  Treebank for Slovenian.” In <hi rend="italic">Proceedings of the 6th Workshop on
+                     Balto-Slavic Natural Language Processing</hi>, 33–38. Association for
+                  Computational Linguistics, 2017. <ref
+                     target="https://doi.org/10.18653/v1/W17-1406"
+                     >https://doi.org/10.18653/v1/W17-1406</ref>.</bibl>
+               <bibl>Dobrovoljc, Kaja. “Extending the Spoken Slovenian Treebank.” In <hi
+                     rend="italic">Proceedings of the Conference on Language Technologies and
+                     Digital Humanities</hi>, 116–46. Ljubljana, 2024. <ref
+                     target="https://doi.org/10.5281/zenodo.13936393"
+                     >https://doi.org/10.5281/zenodo.13936393</ref>. </bibl>
+               <bibl>Dobrovoljc, Kaja. “Formulaičnost v slovenskem jeziku.” <hi rend="italic"
+                     >Slovenščina 2.0: Empirical, Applied and Interdisciplinary Research</hi> 6, No.
+                  2 (2018): 67–95. <ref target="https://doi.org/10.4312/slo2.0.2018.2.67-95"
+                     >https://doi.org/10.4312/slo2.0.2018.2.67-95</ref>. </bibl>
+               <bibl>Dobrovoljc, Kaja. “Spoken Language Treebanks in Universal Dependencies: An
+                  Overview.” In <hi rend="italic">Proceedings of the Thirteenth Language Resources
+                     and Evaluation Conference</hi>, 1798–806. Marseille: European Language
+                  Resources Association, 2022. <ref
+                     target="https://aclanthology.org/2022.lrec-1.191"
+                     >https://aclanthology.org/2022.lrec-1.191</ref>.</bibl>
+               <bibl>Erjavec, Tomaž. “MULTEXT-East.” In <hi rend="italic">Handbook of Linguistic
+                     Annotation</hi>, edited by Nancy Ide and James Pustejovsky, 441–62. Dordrecht:
+                  Springer, 2017. <ref target="https://doi.org/10.1007/978-94-024-0881-2_17"
+                     >https://doi.org/10.1007/978-94-024-0881-2_17</ref>.</bibl>
+               <bibl>Godfrey, John J., Edward C. Holliman, and Jane McDaniel. “SWITCHBOARD:
+                  Telephone Speech Corpus for Research and Development.” In <hi rend="italic"
+                     >Proceedings of the 1992 IEEE International Conference on Acoustics, Speech and
+                     Signal Processing</hi>, 517–520. IEEE, 1992. <ref
+                     target="https://doi.org/10.1109/ICASSP.1992.225858"
+                     >https://doi.org/10.1109/ICASSP.1992.225858</ref>.</bibl>
+               <bibl>Guillaume, Bruno. “Graph Matching and Graph Rewriting: GREW Tools for Corpus
+                  Exploration, Maintenance and Conversion.” In <hi rend="italic">Proceedings of the
+                     16th Conference of the European Chapter of the Association for Computational
+                     Linguistics: System Demonstrations</hi>, edited by Dimitra Gkatzia and Djamé
+                  Seddah, 168–75. Online: Association for Computational Linguistics, April 2021.
+                     <ref target="https://doi.org/10.18653/v1/2021.eacl-demos.21"
+                     >https://doi.org/10.18653/v1/2021.eacl-demos.21</ref>. </bibl>
+               <bibl>Hajič, Jan, Silvie Cinková, Marie Mikulová, Petr Pajas, Jan Ptáček, Josef
+                  Toman, and Zdeňka Urešová. “PDTSL: An Annotated Resource for Speech
+                  Reconstruction.” In <hi rend="italic">2008 IEEE Spoken Language Technology
+                     Workshop</hi>, 93–96. IEEE, 2008. <ref
+                     target="https://doi.org/10.1109/SLT.2008.4777848"
+                     >https://doi.org/10.1109/SLT.2008.4777848</ref>. </bibl>
+               <bibl>Hinrichs, Erhard W., Julia Bartels, Yasuhiro Kawata, Valia Kordoni, and Heike
+                  Telljohann. “The Tübingen Treebanks for Spoken German, English, and Japanese.” In
+                     <hi rend="italic">Verbmobil: Foundations of Speech-to-Speech Translation</hi>,
+                  edited by Wolfgang Wahlster, 550–74. Berlin, Heidelberg: Springer Berlin
+                  Heidelberg, 2000. <ref target="https://doi.org/10.1007/978-3-662-04230-4_40"
+                     >https://doi.org/10.1007/978-3-662-04230-4_40</ref>.</bibl>
+               <bibl>Hinrichs, Erhard, and Sandra Kübler. “Treebank Profiling of Spoken and Written
+                  German.” In <hi rend="italic">Proceedings of the Fourth Workshop on Treebanks and
+                     Linguistic Theories (TLT 2005): 9–10 December 2005, Barcelona</hi>, edited by
+                  Montserrat Civit Torruella, Sandra Kübler, and María Antonia Martí Antonín, 65–76.
+                  Barcelona: Universitat de Barcelona, 2005.</bibl>
+               <bibl>Kahane, Sylvain, Bernard Caron, Emmett Strickland, and Kim Gerdes. “Annotation
+                  Guidelines of UD and SUD Treebanks for Spoken Corpora: A Proposal.” In <hi
+                     rend="italic">Proceedings of the 20th International Workshop on Treebanks and
+                     Linguistic Theories (TLT, SyntaxFest 2021)</hi>, edited by Daniel Dakota,
+                  Kilian Evang, and Sandra Kübler, 35–47. Sofia, Bulgaria: Association for
+                  Computational Linguistics, December 2021. <ref
+                     target="https://aclanthology.org/2021.tlt-1.4/"
+                     >https://aclanthology.org/2021.tlt-1.4/</ref>. </bibl>
+               <bibl>Kåsen, Andre, Kristin Hagen, Anders Nøklestad, Joel Priestly, Per Erik Solberg,
+                  and Dag Trygve Truslew Haug. “The Norwegian Dialect Corpus Treebank.” In <hi
+                     rend="italic">Proceedings of the Thirteenth Language Resources and Evaluation
+                     Conference</hi>, edited by Nicoletta Calzolari, Frédéric Béchet, Philippe
+                  Blache, Khalid Choukri, Christopher Cieri, Thierry Declerck, Sara Goggi, Hitoshi
+                  Isahara, Bente Maegaard, Joseph Mariani, Hélène Mazo, Jan Odijk, and Stelios
+                  Piperidis, 4827–32. Marseille, France: European Language Resources Association,
+                  June 2022. <ref target="https://aclanthology.org/2022.lrec-1.516/"
+                     >https://aclanthology.org/2022.lrec-1.516/</ref>. </bibl>
+               <bibl>Lacheret-Dujour, Anne, Sylvain Kahane, and Paola Pietrandrea, eds. <hi
+                     rend="italic">Rhapsodie: A Prosodic and Syntactic Treebank for Spoken
+                     French</hi>. Studies in Corpus Linguistics 89. Amsterdam: John Benjamins
+                  Publishing Company, 2019. <ref target="https://doi.org/10.1075/scl.89"
+                     >https://doi.org/10.1075/scl.89</ref>.</bibl>
+               <bibl>Liu, Zoey, and Emily Prud’hommeaux. “Dependency Parsing Evaluation for
+                  Low-Resource Spontaneous Speech.” In <hi rend="italic">Proceedings of the Second
+                     Workshop on Domain Adaptation for NLP</hi>, edited by Eyal Ben-David, Shay
+                  Cohen, Ryan McDonald, Barbara Plank, Roi Reichart, Guy Rotman, and Yftah Ziser,
+                  156–65. Kyiv, Ukraine: Association for Computational Linguistics, April 2021. <ref
+                     target="https://aclanthology.org/2021.adaptnlp-1.16/"
+                     >https://aclanthology.org/2021.adaptnlp-1.16/</ref>. </bibl>
+               <bibl>Ljubešić, Nikola, Luka Terčon, and Kaja Dobrovoljc. “CLASSLA-Stanza: The Next
+                  Step for Linguistic Processing of South Slavic Languages.” Paper presented at the
+                  14th Conference on Language Technologies and Digital Humanities (JT-DH-2024),
+                  Ljubljana, Slovenia, September 19–20, 2024. Published by the Institute of
+                  Contemporary History, 2024. <ref target="https://doi.org/10.5281/zenodo.13936405"
+                     >https://doi.org/10.5281/zenodo.13936405</ref>.</bibl>
+               <bibl>Luotolahti, Juhani, Jenna Kanerva, and Filip Ginter. “Dep_search: Efficient
+                  Search Tool for Large Dependency Parsebanks.” In <hi rend="italic">Proceedings of
+                     the 21st Nordic Conference on Computational Linguistics</hi>, edited by Jörg
+                  Tiedemann and Nina Tahmasebi, 255–58. Gothenburg, Sweden: Association for
+                  Computational Linguistics, May 2017. <ref
+                     target="https://aclanthology.org/W17-0233/"
+                     >https://aclanthology.org/W17-0233/</ref>.</bibl>
+               <bibl>Nguyen, Minh Van, Viet Dac Lai, Amir Pouran Ben Veyseh, and Thien Huu Nguyen.
+                  “Trankit: A Light-Weight Transformer-Based Toolkit for Multilingual Natural
+                  Language Processing.” In <hi rend="italic">Proceedings of the 16th Conference of
+                     the European Chapter of the Association for Computational Linguistics: System
+                     Demonstrations</hi>, edited by Dimitra Gkatzia and Djamé Seddah, 80–90. Online:
+                  Association for Computational Linguistics, April 2021. <ref
+                     target="https://doi.org/10.18653/v1/2021.eacl-demos.10"
+                     >https://doi.org/10.18653/v1/2021.eacl-demos.10</ref>.</bibl>
+               <bibl>Pietrandrea, Paola, and Aline Delsart. “Chapter 16. Macrosyntax at Work:
+                  Functions and Distribution of Macrosyntactic Patterns in the Rhapsodie Corpus.” In
+                     <hi rend="italic">Rhapsodie: A Prosodic and Syntactic Treebank for Spoken
+                     French</hi>, edited by Anne Lacheret-Dujour, Sylvain Kahane, and Paola
+                  Pietrandrea, 285–314. Amsterdam: John Benjamins Publishing Company, 2019. <ref
+                     target="https://doi.org/10.1075/scl.89.17pie"
+                     >https://doi.org/10.1075/scl.89.17pie</ref>.</bibl>
+               <bibl>Rosén, Victoria, Koenraad De Smedt, Paul Meurer, and Helge Dyvik. “An Open
+                  Infrastructure for Advanced Treebanking.” In <hi rend="italic">META-RESEARCH
+                     Workshop on Advanced Treebanking at LREC2012</hi>, edited by Jan Hajič,
+                  Koenraad De Smedt, Marko Tadić, and António Branco, 22–29. Istanbul, Turkey, May
+                  2012. </bibl>
+               <bibl>Schuurman, Ineke, Marijke Schouppe, and Henk Hoekstra. “Harvesting Dutch Trees:
+                  Syntactic Properties of Spoken Dutch.” In <hi rend="italic">Computational
+                     Linguistics in the Netherlands 2002: Selected Papers from the Thirteenth CLIN
+                     Meeting</hi>, edited by Tanya Gaustad, 129–41. Amsterdam: Rodopi, 2003. </bibl>
+               <bibl>van der Wouden, Ton, Heleen Hoekstra, Michael Moortgat, Bram Renmans, and Ineke
+                  Schuurman. “Syntactic Analysis in the Spoken Dutch Corpus (CGN).” In <hi
+                     rend="italic">Proceedings of the Third International Conference on Language
+                     Resources and Evaluation (LREC’02)</hi>, edited by Manuel González Rodríguez
+                  and Carmen Paz Suarez Araujo. Las Palmas, Canary Islands, Spain: European Language
+                  Resources Association (ELRA), May 2002. <ref
+                     target="https://aclanthology.org/L02-1071/"
+                     >https://aclanthology.org/L02-1071/</ref>.</bibl>
+               <bibl>Verdonik, Darinka, and Andreja Bizjak. <hi rend="italic">Pogovorni zapis in
+                     označevanje govora v govorni bazi Artur projekta RSDO</hi>. Developement
+                  research. Maribor: University of Maribor, 2023. <ref
+                     target="https://dk.um.si/IzpisGradiva.php?lang=slv&amp;id=85198"
+                     >https://dk.um.si/IzpisGradiva.php?lang=slv&amp;id=85198</ref>.</bibl>
+               <bibl>Verdonik, Darinka, Iztok Kosem, Ana Zwitter Vitez, Simon Krek, and Marko
+                  Stabej. “Compilation, Transcription and Usage of a Reference Speech Corpus: The
+                  Case of the Slovene Corpus GOS.” <hi rend="italic">Language Resources and
+                     Evaluation</hi> 47, No. 4 (2013): 1031–48. <ref
+                     target="https://doi.org/10.1007/s10579-013-9216-5"
+                     >https://doi.org/10.1007/s10579-013-9216-5</ref>.</bibl>
+               <bibl>Verdonik, Darinka, Kaja Dobrovoljc, Tomaž Erjavec, and Nikola Ljubešić. “Gos 2:
+                  A New Reference Corpus of Spoken Slovenian.” In <hi rend="italic">Proceedings of
+                     the 2024 Joint International Conference on Computational Linguistics, Language
+                     Resources and Evaluation (LREC-COLING 2024)</hi>, edited by Nicoletta
+                  Calzolari, Min-Yen Kan, Veronique Hoste, Alessandro Lenci, Sakriani Sakti, and
+                  Nianwen Xue, 7825–30. Torino, Italy: ELRA and ICCL, May 2024. <ref
+                     target="https://aclanthology.org/2024.lrec-main.691/"
+                     >https://aclanthology.org/2024.lrec-main.691/</ref>. </bibl>
+               <bibl>Verdonik, Darinka, Nikola Ljubešić, Peter Rupnik, Kaja Dobrovoljc, and Jaka
+                  Čibej. “Izbor in urejanje gradiv za učni korpus govorjene slovenščine ROG.” Paper
+                  presented at the 14th Conference on Language Technologies and Digital Humanities
+                  (JT-DH-2024), Ljubljana, Slovenia, September 19–20, 2024. Published by the
+                  Institute of Contemporary History, 2024. <ref
+                     target="https://doi.org/10.5281/zenodo.13936425"
+                     >https://doi.org/10.5281/zenodo.13936425</ref>.</bibl>
+               <bibl>Yimam, Seid Muhie, Iryna Gurevych, Richard Eckart de Castilho, and Chris
+                  Biemann. “WebAnno: A Flexible, Web-Based and Visually Supported System for
+                  Distributed Annotations.” In <hi rend="italic">Proceedings of the 51st Annual
+                     Meeting of the Association for Computational Linguistics: System
+                     Demonstrations</hi>, 1–6. 2013. <ref target="https://aclanthology.org/P13-4001"
+                     >https://aclanthology.org/P13-4001</ref>. </bibl>
+            </listBibl>
+            <listBibl>
+               <head>Other sources:</head>
+               <bibl>Bavarian Archive for Speech Signals (BAS). <hi rend="italic">VM2 – Speech
+                     Corpus</hi>. 2016. <ref
+                     target="http://hdl.handle.net/11022/1009-0000-0000-FC55-5"
+                     >http://hdl.handle.net/11022/1009-0000-0000-FC55-5</ref>.</bibl>
+               <bibl>Brank, Janez. <hi rend="italic">Q-CAT Corpus Annotation Tool 1.5</hi>.
+                  Slovenian language resource repository CLARIN.SI, 2023. <ref
+                     target="http://hdl.handle.net/11356/1844"
+                     >http://hdl.handle.net/11356/1844</ref>.</bibl>
+               <bibl>Dutch Language Institute. <hi rend="italic">Corpus Gesproken Nederlands – CGN
+                     (Version 2.0.3)</hi>. 2014. Data set. <ref
+                     target="http://hdl.handle.net/10032/tm-a2-k6"
+                     >http://hdl.handle.net/10032/tm-a2-k6</ref>.</bibl>
+               <bibl>Godfrey, John J., and Edward Holliman. <hi rend="italic">Switchboard-1 Release
+                     2 LDC97S62</hi>. Web Download. Philadelphia: Linguistic Data Consortium, 1993.
+                     <ref target="https://doi.org/10.35111/sw3h-rw02"
+                     >https://doi.org/10.35111/sw3h-rw02</ref>.</bibl>
+               <bibl>Hajič, Jan, Petr Pajas, David Mareček, Marie Mikulová, Zdeňka Urešová, and Petr
+                  Podveský. <hi rend="italic">Prague Dependency Treebank of Spoken Language (PDTSL)
+                     0.5</hi>. LINDAT/CLARIAH-CZ digital library at the Institute of Formal and
+                  Applied Linguistics (ÚFAL), Faculty of Mathematics and Physics, Charles
+                  University, 2009. <ref
+                     target="http://hdl.handle.net/11858/00-097C-0000-0001-4914-D"
+                     >http://hdl.handle.net/11858/00-097C-0000-0001-4914-D</ref>. </bibl>
+               <bibl>Krsnik, Luka, Kaja Dobrovoljc, and Luka Terčon. <hi rend="italic">The Trankit
+                     Model for Linguistic Processing of Standard Written Slovenian 1.1</hi>.
+                  Slovenian Language Resource Repository CLARIN.SI, 2024. <ref
+                     target="http://hdl.handle.net/11356/1963"
+                     >http://hdl.handle.net/11356/1963</ref>.</bibl>
+               <bibl>Krsnik, Luka, Kaja Dobrovoljc, and Luka Terčon. <hi rend="italic">The Trankit
+                     Model for Linguistic Processing of Written and Spoken Slovenian 1.2</hi>.
+                  Slovenian Language Resource Repository CLARIN.SI, 2024. <ref
+                     target="http://hdl.handle.net/11356/1997"
+                     >http://hdl.handle.net/11356/1997</ref>.</bibl>
+               <bibl>Ljubešić, Nikola, Luka Terčon, and Jaka Čibej. <hi rend="italic">The
+                     CLASSLA-Stanza Model for Morphosyntactic Annotation of Standard Slovenian
+                     2.0</hi>. Slovenian Language Resource Repository CLARIN.SI, 2023. <ref
+                     target="http://hdl.handle.net/11356/1767"
+                     >http://hdl.handle.net/11356/1767</ref>.</bibl>
+               <bibl>Štravs, Miha, and Kaja Dobrovoljc. <hi rend="italic">Service for Querying
+                     Dependency Treebanks Drevesnik 1.1</hi>. Slovenian Language Resource Repository
+                  CLARIN.SI, 2024. <ref target="http://hdl.handle.net/11356/1923"
+                     >http://hdl.handle.net/11356/1923</ref>.</bibl>
+               <bibl>Štravs, Miha, Kaja Dobrovoljc, and Luka Bezgovšek. <hi rend="italic">Service
+                     for Querying Dependency Treebanks Drevesnik 1.2</hi>. Slovenian language
+                  resource repository CLARIN.SI, 2025. <ref
+                     target="http://hdl.handle.net/11356/2034"
+                     >http://hdl.handle.net/11356/2034</ref>.</bibl>
+               <bibl>Terčon, Luka, Jaka Čibej, and Nikola Ljubešić. <hi rend="italic">The
+                     CLASSLA-Stanza Model for Lemmatization of Standard Slovenian 2.0</hi>.
+                  Slovenian Language Resource Repository CLARIN.SI, 2023. <ref
+                     target="http://hdl.handle.net/11356/1768"
+                     >http://hdl.handle.net/11356/1768</ref>.</bibl>
+               <bibl>Terčon, Luka, Kaja Dobrovoljc, and Nikola Ljubešić. <hi rend="italic">The
+                     CLASSLA-Stanza Model for Lemmatization of Spoken Slovenian 2.2</hi>. Slovenian
+                  Language Resource Repository CLARIN.SI, 2025. <ref
+                     target="http://hdl.handle.net/11356/2017"
+                     >http://hdl.handle.net/11356/2017</ref>.</bibl>
+               <bibl>Terčon, Luka, Kaja Dobrovoljc, and Nikola Ljubešić. <hi rend="italic">The
+                     CLASSLA-Stanza Model for Morphosyntactic Annotation of Spoken Slovenian
+                     2.2</hi>. Slovenian Language Resource Repository CLARIN.SI, 2025. <ref
+                     target="http://hdl.handle.net/11356/2016"
+                     >http://hdl.handle.net/11356/2016</ref>.</bibl>
+               <bibl>Terčon, Luka, Kaja Dobrovoljc, and Nikola Ljubešić. <hi rend="italic">The
+                     CLASSLA-Stanza Model for UD Dependency Parsing of Standard Slovenian 2.2</hi>.
+                  Slovenian Language Resource Repository CLARIN.SI, 2025. <ref
+                     target="http://hdl.handle.net/11356/2015"
+                     >http://hdl.handle.net/11356/2015</ref>.</bibl>
+               <bibl>Terčon, Luka, Kaja Dobrovoljc, and Nikola Ljubešić. <hi rend="italic">The
+                     CLASSLA-Stanza Model for UD Dependency Parsing of Spoken Slovenian 2.2</hi>.
+                  Slovenian language resource repository CLARIN.SI, 2025. <ref
+                     target="http://hdl.handle.net/11356/2018"
+                     >http://hdl.handle.net/11356/2018</ref>.</bibl>
+               <bibl>Verdonik, Darinka, Ana Zwitter Vitez, Jana Zemljarič Miklavčič, Simon Krek,
+                  Marko Stabej, Tomaž Erjavec, Tomaž Potočnik, Mirjam Sepesy Maučec, Simona
+                  Majhenič, Andrej Žgank, Andreja Bizjak, Lucija Gril, Simon Dobrišek, Janez Križaj,
+                  Marko Bajec, Iztok Lebar Bajec, Tjaša Jelovšek, Mitja Trojar, Mitja Bernjak, Naum
+                  Dretnik, Gregor Strle, Kaja Dobrovoljc, Nikola Ljubešić, and Peter Rupnik. <hi
+                     rend="italic">Spoken Corpus Gos 2.1 (Transcriptions)</hi>. Slovenian language
+                  resource repository CLARIN.SI, 2023. <ref
+                     target="http://hdl.handle.net/11356/1863"
+                     >http://hdl.handle.net/11356/1863</ref>.</bibl>
+               <bibl>Verdonik, Darinka, Ana Zwitter Vitez, Jana Zemljarič Miklavčič, Simon Krek,
+                  Tomaž Erjavec, Tomaž Potočnik, Andreja Bizjak, Andrej Žgank, Mitja Bernjak, Špela
+                  Antloga, Simona Majhenič, Peter Čakš, Matevž Pucer, Mitja Cvetko, Jani Pavlič,
+                  Simon Dobrišek, Janez Križaj, Marko Bajec, Iztok Lebar Bajec, Tjaša Jelovšek,
+                  Mitja Trojar, Naum Dretnik, David Bordon, VideoLectures.NET, and Janez Križaj. <hi
+                     rend="italic">Spoken Corpus Gos 2.1 (Audio, Video)</hi>. Slovenian language
+                  resource repository CLARIN.SI, 2024. <ref
+                     target="http://hdl.handle.net/11356/1973"
+                     >http://hdl.handle.net/11356/1973</ref>.</bibl>
+               <bibl>Verdonik, Darinka, and Mirjam Sepesy Maučec. “A Speech Corpus as a Source of
+                  Lexical Information.” <hi rend="italic">International Journal of Lexicography</hi>
+                  30, No. 2 (June 2017): 143–66. <ref target="https://doi.org/10.1093/ijl/ecw004"
+                     >https://doi.org/10.1093/ijl/ecw004</ref>.</bibl>
+               <bibl>Verdonik, Darinka, Andreja Bizjak, Andrej Žgank, Mitja Bernjak, Špela Antloga,
+                  Simona Majhenič, Peter Čakš, Matevž Pucer, Mitja Cvetko, Marijana Zelenik, Jani
+                  Pavlič, Simon Dobrišek, Janez Križaj, Gregor Strle, Marija Ivanovska, Klemen Grm,
+                  Marko Bajec, Iztok Lebar Bajec, Tjaša Jelovšek, Jure Lokovšek, Jure Longyka, Mitja
+                  Trojar, Jerneja Žganec Gros, Aleš Mihelić, Boštjan Vesnicer, Naum Dretnik, and
+                  David Bordon. <hi rend="italic">ASR Database ARTUR 1.0 (Audio)</hi>. Slovenian
+                  language resource repository CLARIN.SI, 2023. <ref
+                     target="http://hdl.handle.net/11356/1776"
+                     >http://hdl.handle.net/11356/1776</ref>.</bibl>
+               <bibl>Verdonik, Darinka, Anja Zwitter Vitez, Jana Zemljarič Miklavčič, Simon Krek,
+                  Marko Stabej, and Tomaž Erjavec. <hi rend="italic">Spoken Corpus GOS 1.1</hi>.
+                  Slovenian Language Resource Repository CLARIN.SI, 2021. <ref
+                     target="http://hdl.handle.net/11356/1438"
+                     >http://hdl.handle.net/11356/1438</ref>.</bibl>
+               <bibl>Verdonik, Darinka, Dobrovoljc, Kaja, Rupnik, Peter, Ljubešić, Nikola, Majhenič,
+                  Simona, Čibej, Jaka, and Schmidt, Thomas. <hi rend="italic">Training Corpus of
+                     Spoken Slovenian ROG 1.0</hi>. Slovenian language resource repository
+                  CLARIN.SI, 2024. <ref target="http://hdl.handle.net/11356/1992"
+                     >http://hdl.handle.net/11356/1992</ref>.</bibl>
+               <bibl>Zeman, Daniel, et al. <hi rend="italic">Universal Dependencies 2.15</hi>.
+                  LINDAT/CLARIAH-CZ Digital Library at the Institute of Formal and Applied
+                  Linguistics (ÚFAL), Faculty of Mathematics and Physics, Charles University, 2024.
+                     <ref target="http://hdl.handle.net/11234/1-5787"
+                     >http://hdl.handle.net/11234/1-5787</ref>.</bibl>
+            </listBibl>
+         </div>
+         <div type="summary" xml:lang="sl">
+            <docAuthor>Kaja Dobrovoljc</docAuthor>
+            <head>DREVESNICA GOVORJENE SLOVENŠČINE: NOVI PODATKI, MODELI IN KLJUČNI NAUKI</head>
+            <head>POVZETEK</head>
+            <p>Prispevek predstavlja novo različico drevesnice govorjene slovenščine (SST),
+               skladenjsko razčlenjenega korpusa transkribiranega spontanega govora, ki je bil
+               nedavno razširjen z več kot 3.000 novimi izjavami in več kot 60.000 pojavnicami. Nova
+               različica SST temelji na referenčnem korpusu GOS 2.1 in vključuje 344 govornih
+               dogodkov z raznoliko zastopanostjo govorcev in sporazumevalnik okoliščin. Po kratkem
+               pregledu postopkov vzorčenja, označevanja in končnega usklajevanja podatkov
+               predstavimo primerjalno analizo med govorno drevesnico SST in referenčno pisno
+               drevesnico SSJ, ki potrjuje številne leksikalne, oblikoslovne in skladenjske
+               posebnosti govorjenega jezika v primerjavi s pisnim. V govorjeni slovenščini tako
+               najdemo več struktur, povezanih z interakcijo, sprotnim načrtovanjem govora,
+               subjektivnostjo, deiktičnostjo, modifikacijo, elipso in strukturiranjem diskurza, po
+               drugi strani pa manj samostalniških zvez, ki so tudi bolj preprosto sestavljene.</p>
+            <p>Glede na to, da je bila drevesnica SST kmalu po objavi že uporabljena za razvoj novih
+               modelov za slovnično označevanje (transkripcij) govorjene slovenščine v orodjih
+               CLASSLA-Stanza in Trankit, v nadaljevanju predstavimo sistematično primerjavo
+               modelov, naučenih zgolj na pisnih besedilih, in modelov, naučenih tako na pisnih kot
+               govorjenih besedilih. Rezultati kažejo, da so pri slovničnem označevanju govora
+               modeli, naučeni na kombinaciji govorjenih in pisanih podatkov, bistveno boljši od
+               modelov, naučenih zgolj na pisnih besedilih, zlasti pri nalogi skladenjskega
+               razčlenjevanja. Obenem so ti 'mešani' modeli tudi pri označevanju pisnih besedil
+               ohranjajo enako stopnjo natančnosti kot standardni pisni modeli, na podlagi česar
+               lahko sklenemo, da gre za robustne univerzalne modele, ki dosegajo najboljše možne
+               rezultate tako na pisnih kot govorjenih besedilih.</p>
+            <p>V diskusiji rezultate povzamemo in jih nadgradimo z razpravo o najpomembnejših
+               izkušnjah, pridobljenih med razvojem drevesnice SST, ki letos obeležuje že deset let
+               od prve objave. Izpostavimo prednosti uporabe referenčnega korpusa kot izhodišča,
+               priporočimo vzorčenje daljših, zaključenih besedil in sistematično dokumentiranje
+               označevalnih smernic ter poudarimo pomen usklajenosti z mednarodnimi označevalnimi
+               pobudami, kot je shema Universal Dependencies. V sklepnem delu neprecenljiv
+               metodološki potencial tega jezikovnega vira ponazorimo z omembo več aktualnih
+               raziskav in številnimi možnostmi nadaljnjih raziskav tako na področju jezikoslovja
+               kot jezikovnih tehnologij.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

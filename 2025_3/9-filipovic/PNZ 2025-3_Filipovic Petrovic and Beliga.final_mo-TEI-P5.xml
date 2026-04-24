@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Can AI understand Croatian idioms? Assessing large language models in
+               lexicographic tasks</title>
+            <author><forename>Ivana</forename>
+               <surname>Filipović Petrović</surname>
+               <roleName>PhD, Senior Research Associate</roleName><affiliation>Linguistic Research
+                  Institute, Croatian Academy of Sciences and Arts</affiliation><address>
+                  <addrLine>Ante Kovačića 5</addrLine>
+                  <addrLine>10000 Zagreb, Croatia</addrLine>
+               </address>
+               <email>ifilipovic@hazu.hr</email>
+            </author>
+            <author>
+               <forename>Slobodan</forename>
+               <surname>Beliga</surname>
+               <roleName>PhD, Assistant Professor</roleName><affiliation>Faculty of Informatics and
+                  Digital Technologies, University of Rijeka</affiliation><address>
+                  <addrLine>Radmile Matejčić 2</addrLine>
+                  <addrLine>51000 Rijeka, Croatia; Center for Artificial Intelligence and
+                     Cybersecurity</addrLine>
+               </address><affiliation>University of Rijeka</affiliation>, <address>
+                  <addrLine>Trg braće Mažuranića 10</addrLine>
+                  <addrLine>51000 Rijeka, Croatia</addrLine>
+               </address><email>sbeliga@inf.uniri.hr</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2025-10-29</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+               <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               <address>
+                  <addrLine>Privoz 11</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>http://ojs.inz.si/pnz/article/view/4502</pubPlace>
+            <date>2025</date>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+            <title xml:lang="en">Contributions to Contemporary History</title>
+            <biblScope unit="volume">65</biblScope>
+            <biblScope unit="issue">3</biblScope>
+            <idno type="ISSN">2463-7807</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>No source, born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc xml:lang="en">
+            <p>Contributions to Contemporary History is one of the central Slovenian scientific
+               historiographic journals, dedicated to publishing articles from the field of
+               contemporary history (the 19th and 20th century).</p>
+            <p>The journal is published three times per year in Slovenian and in the following
+               foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak and
+               Czech. The articles are all published with abstracts in English and Slovenian as well
+               as summaries in English.</p>
+         </projectDesc>
+         <projectDesc xml:lang="sl">
+            <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+               zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+               stoletje).</p>
+            <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+               angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina in
+               češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki v
+               angleščini.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="sl"/>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>artificial intelligence</term>
+               <term>large language models</term>
+               <term>lexicography</term>
+               <term>idioms</term>
+               <term>conceptual organisation</term>
+            </keywords>
+            <keywords xml:lang="sl">
+               <term>umetna inteligenca</term>
+               <term>veliki jezikovni modeli</term>
+               <term>leksikografija</term>
+               <term>frazemi</term>
+               <term>konceptualna organizacija</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change><date>2026-03-23T07:58:56Z</date>
+               <name>Mihael Ojsteršek</name>
+               <desc>Pretvorba iz DOCX v TEI, dodatno označevanje</desc></change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docAuthor>Ivana Filipović Petrović <note place="foot" xml:id="ftn1" n="*">
+               <hi rend="bold">PhD, Senior Research Associate, Linguistic Research Institute,
+                  Croatian Academy of Sciences and Arts, Ante Kovačića 5, 10000 Zagreb, Croatia,
+                     <ref target="mailto:ifilipovic@hazu.hr">ifilipovic@hazu.hr</ref>; ORCID:
+                  0000-0001-8952-0202</hi></note>
+         </docAuthor>
+         <docAuthor>Slobodan Beliga<note place="foot" xml:id="ftn2" n="**">
+               <hi rend="bold">PhD, Assistant Professor, Faculty of Informatics and Digital
+                  Technologies, University of Rijeka, Radmile Matejčić 2, 51000 Rijeka, Croatia;
+                  Center for Artificial Intelligence and Cybersecurity, University of Rijeka, Trg
+                  braće Mažuranića 10, 51000 Rijeka, Croatia, <ref
+                     target="mailto:sbeliga@inf.uniri.hr">sbeliga@inf.uniri.hr</ref>; ORCID:
+                  0000-0003-1407-6156</hi></note>
+         </docAuthor>
+         <docImprint>
+            <idno type="cobissType">Cobiss tip: 1.01</idno>
+            <idno type="DOI">https://doi.org/10.51663/pnz.65.3.09</idno>
+         </docImprint>
+         <div type="abstract" xml:lang="sl">
+            <head>IZVLEČEK</head>
+            <head>ALI LAHKO UMETNA INTELIGENCA RAZUME HRVAŠKE IDOME? OCENA VELIKIH JEZIKOVNIH
+               MODELOV PRI LEKSIKOGRAFSKIH NALOGAH</head>
+            <p style="text-align: justify;"><hi rend="italic">Ta članek preučuje potencial ChatGPT
+                  pri avtomatizaciji dveh leksikografskih nalog v Spletnem slovarju hrvaških
+                  frazemov (ODCI): (1) prepoznavanje semantičnih ekvivalentov med frazemi in (2)
+                  generiranje semantičnih polj za frazeološke enote. Cilj raziskave je oceniti, kako
+                  učinkovito lahko umetna inteligenca avtomatizira proces razlikovanja in
+                  razvrščanja frazemov glede na pomen ter s tem zmanjša obseg ročnega
+                  leksikografskega dela. Ker se metodologije za uporabo jezikovnih tehnologij še
+                  vedno razvijajo vzporedno s tehnološkimi inovacijami, ta študija prispeva k
+                  boljšemu razumevanju delovanja orodij umetne inteligence ter njihove sposobnosti
+                  ustvarjanja kakovostnih in uporabnih jezikovnih podatkov. Rezultati kažejo, da
+                  ChatGPT izkazuje velik potencial za konceptualno organizacijo v leksikografiji.
+                  Kljub temu ostajajo izzivi, predvsem v zvezi z nedeterministično naravo odgovorov,
+                  generiranih z UI, in potrebo po ročnem urejanju avtomatskih podatkov.</hi></p>
+            <p style="text-align: justify;"><hi rend="italic">Ključne besede</hi><hi rend="italic">:
+                  umetna inteligenca, veliki jezikovni modeli, leksikografija, frazemi, konceptualna
+                  organizacija</hi></p>
+         </div>
+         <div type="abstract" xml:lang="en">
+            <head><hi rend="bold">ABSTRACT</hi></head>
+            <p style="text-align: justify;"><hi rend="italic">This paper explores the potential of
+                  ChatGPT in automating two lexicographic tasks within the Online Dictionary of
+                  Croatian Idioms (ODCI): (1) identifying semantic equivalents among idioms and (2)
+                  generating semantic fields for idiomatic expressions. The study evaluates how
+                  effectively AI can automate the process of distinguishing and grouping idioms by
+                  meaning, with the aim of reducing manual lexicographic work. As contemporary
+                  methodologies for employing language technologies continue to develop alongside
+                  technological progress, this research enhances understanding of AI capabilities in
+                  linguistic analysis. The findings suggest that ChatGPT shows considerable
+                  potential for conceptual organisation in lexicography. Nevertheless, challenges
+                  persist, especially regarding the unpredictable nature of AI-generated responses
+                  and the necessity for human post-editing.</hi></p>
+            <p style="text-align: justify;"><hi rend="italic">Keywords: artificial intelligence,
+                  large language models, lexicography, idioms, conceptual organisation</hi></p>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>Introduction</head>
+            <p style="text-align: justify;">The rapid advancement of artificial intelligence (AI) is
+               transforming nearly all areas of knowledge and society, including lexicography. The
+               reflection of social and technological changes in dictionaries is not a new
+               phenomenon – lexicographers have long embraced technological innovations such as
+               corpora, dictionary writing systems, and user interfaces. Before advanced AI tools
+               like ChatGPT,<note place="foot" xml:id="ftn3" n="1"> ChatGPT is a chatbot and virtual
+                  assistant developed by OpenAI (launched on November 30, 2022). </note>
+               semi-automatic dictionary creation based on post-editing lexicography gradually
+               became the preferred method,<note place="foot" xml:id="ftn4" n="2"> Vít Baisa et al.,
+                  “Automating Dictionary Production: A Tagalog-English-Korean Dictionary from
+                  Scratch,” 805–18 (2019). Mark Davies, “AI/LLM Integration with the Corpora from
+                  English‑Corpora.org,” English‑Corpora.org, 2025, accessed on 9 April 2025, <ref
+                     target="https://www.english-corpora.org/ai-llms/corpora-vs-llms.html"
+                     >https://www.english-corpora.org/ai-llms/corpora-vs-llms.html</ref>. Miloš
+                  Jakubíček et al., “Million-Click Dictionary: Tools and Methods for Automatic
+                  Dictionary Drafting and Post-Editing,” in <hi rend="Emphasis">Book of Abstracts of
+                     the 19<hi rend="superscript">th</hi> EURALEX International Congress</hi>, 65–67
+                  (2021). Iztok Kosem et al., “Automation of Lexicographic Work Using General and
+                  Specialized Corpora: Two Case Studies,” in Andrea Abel et al., eds., <hi
+                     rend="Emphasis">Proceedings of the 16<hi rend="superscript">th</hi> EURALEX
+                     International Congress</hi> (Bolzano, Italy: EURAC Research, 2014), 355–64.
+               </note> combining automatic data generation with human post-editing, where
+               lexicographers assess, refine, and finalise entries.</p>
+            <p style="text-align: justify;">The rise of AI, especially large language models (LLMs),
+               has prompted many questions about its effect on lexicography. These questions range
+               from whether traditional methods can be abandoned to identifying which
+               lexicographical tasks could benefit from AI. For instance, there has been an ongoing
+               debate about whether generative AI chatbots like ChatGPT could replace corpus-based
+               technologies such as concordances and keyword analysis, providing greater efficiency,
+               lower costs, and access to data that is otherwise difficult to obtain.<note
+                  place="foot" xml:id="ftn5" n="3"> Gilles-Maurice de Schryver, “Generative AI and
+                  Lexicography: The Current State of the Art Using ChatGPT,” <hi rend="italic"
+                     >International Journal of Lexicography</hi> 36, No. 4 (2023): 355–87,
+                  https://doi.org/10.1093/ijl/ecad021. Robert Lew, “ChatGPT as a COBUILD
+                  Lexicographer,” <hi rend="Emphasis">Humanities and Social Sciences
+                     Communications</hi> 10, No. 704 (2023): doi:10.1057/s41599-023-02119-6. Hanh
+                  Thi Hong Tran et al., “Definition Extraction for Slovene: Patterns, Transformer
+                  Classifiers, and ChatGPT,” in Marek Medveď et al., eds., <hi rend="Emphasis"
+                     >Proceedings of the eLex 2023 Conference: Electronic Lexicography in the 21<hi
+                        rend="superscript">st</hi> Century</hi> (Brno: Lexical Computing, 2023),
+                  19–38. Pedro A. Fuertes-Olivera, “Making Lexicography Sustainable: Using ChatGPT
+                  and Reusing Data for Lexicographic Purposes,” <hi rend="italic">Lexikos</hi> 34,
+                  No. 1 (2024): 123–40, <ref
+                     target="https://lexikos.journals.ac.za/pub/article/view/1883"
+                     >https://lexikos.journals.ac.za/pub/article/view/1883</ref>.</note></p>
+            <p style="text-align: justify;">Simultaneously, scepticism persists regarding the
+               quality and reliability of AI-generated content.<note place="foot" xml:id="ftn6"
+                  n="4"> Piek Vossen, “ChatGPT Is a Waste of Time,” <hi rend="italic">VU
+                     Magazine</hi> (2022), <ref
+                     target="https://vumagazine.nl/professor-piek-vossen-chatgpt-is-a-waste-of-time?lang=en"
+                     >https://vumagazine.nl/professor-piek-vossen-chatgpt-is-a-waste-of-time?lang=en</ref>.</note>
+               Critics point out risks such as hallucinations, data inaccuracies, and the erosion of
+               user trust in AI-generated content. The latter is particularly critical in
+               lexicography, as dictionaries have long served as trusted sources of
+                  information,<note place="foot" xml:id="ftn7" n="5"> Michael Rundell, “Automating
+                  the Creation of Dictionaries: Are We Nearly There?,” in <hi rend="Emphasis"
+                     >Proceedings of the 16<hi rend="superscript">th</hi> International Conference
+                     of the Asian Association for Lexicography: Lexicography (ASIALEX 2023
+                     Proceedings)</hi>, 1–9 (Seoul, Korea: Yonsei University, 2023).</note> a legacy
+               rooted in the Enlightenment’s prescriptive tradition.<note place="foot" xml:id="ftn8"
+                  n="6"> Ivana Filipović Petrović, <hi rend="Emphasis">Kada se sretnu leksikografija
+                     i frazeologija: O statusu frazema u rječniku</hi> (Zagreb: Srednja Europa,
+                  2018).</note> Consequently, it is evident that if modern lexicography aims to
+               incorporate advanced technologies, more empirical evidence is required to evaluate
+               their effectiveness and the quality of the outcomes they produce.</p>
+            <p style="text-align: justify;">In this paper, we examine the potential of LLMs,
+               particularly ChatGPT, to automate two tasks within the <hi rend="italic">Online
+                  Dictionary of Croatian Idioms</hi><note place="foot" xml:id="ftn9" n="7">
+                  <ref target="https://lexonomy.elex.is/#/frazeoloskirjecnikhr"
+                     >https://lexonomy.elex.is/#/frazeoloskirjecnikhr</ref>. </note> (ODCI): (1)
+               identifying semantic equivalents among idioms and (2) generating semantic fields or
+               conceptual categories for idioms. The lexicographers working on this dictionary aim
+               not only to present dictionary content in the traditional format – entries featuring
+               idioms – but also to develop a specialised resource: a thematic index containing
+               semantic fields (concepts) in which idioms are grouped according to meaning and
+               linked to their corresponding dictionary entries. Although this conceptual
+               organisation was initially created manually, making it a highly time-consuming
+               process, it offers a solid foundation, as human-annotated subsets of idioms can serve
+               as benchmarks for evaluating the accuracy and quality of AI-generated results.</p>
+            <p style="text-align: justify;">Testing LLMs in this context is especially important
+               because of the complexity of idiomatic expressions, which continue to challenge
+               current language technologies. For example, machine translation tools often translate
+               Croatian idioms literally, ignoring their true meanings. Previous research<note
+                  place="foot" xml:id="ftn10" n="8"> Diego Moussallem et al., “LIdioms: A
+                  Multilingual Linked Idioms Data Set,” in Nicoletta Calzolari et al., eds., <hi
+                     rend="italic">Proceedings of the Eleventh International Conference on Language
+                     Resources and Evaluation (LREC 2018)</hi> (Miyazaki, Japan: European Language
+                  Resources Association (ELRA), 2018), <ref
+                     target="https://aclanthology.org/L18-1392"
+                     >https://aclanthology.org/L18-1392</ref>. Ivana Filipović Petrović, Miguel
+                  López Otal, and Slobodan Beliga, “Croatian Idioms Integration: Enhancing the
+                  LIdioms Multilingual Linked Idioms Dataset,” in Nicoletta Calzolari et al., eds.,
+                     <hi rend="italic">Proceedings of the 2024 Joint International Conference on
+                     Computational Linguistics, Language Resources and Evaluation (LREC-COLING
+                     2024)</hi> (Torino, Italy: ELRA and ICCL, 2024), 4106–12, <ref
+                     target="https://aclanthology.org/2024.lrec-main.366"
+                     >https://aclanthology.org/2024.lrec-main.366</ref>.</note> has made significant
+               progress in connecting idioms across languages based on semantic similarity. However,
+               these studies relied on relatively small datasets.</p>
+            <p style="text-align: justify;">This paper aims to evaluate how effectively AI tools can
+               automate the lexicographic task of distinguishing and grouping the meanings of idioms
+               to reduce the post-lexicographic workload to a manageable level. Additionally, as the
+               methodology for integrating language technologies continues to develop and is
+               influenced by new technological advancements, this paper also seeks to deepen the
+               understanding of AI tools’ language processing capabilities and determine how they
+               can produce high-quality, useful linguistic data for the scientific community.</p>
+            <p style="text-align: justify;">This paper builds on our previous study<note
+                  place="foot" xml:id="ftn11" n="9"> Slobodan Beliga and Ivana Filipović Petrović, “
+                     <hi rend="Emphasis">Large Language Models Supporting Lexicography: Conceptual
+                     Organization of Croatian Idioms</hi>,” in Špela Arhar Holdt and Tomaž Erjavec,
+                  eds., <hi rend="Emphasis">Proceedings of the Conference on Language Technologies
+                     and Digital Humanities</hi> (Ljubljana: Institute of Contemporary History,
+                  2024), 23–46.</note> by expanding its scope and improving its methodology. The
+               original research examined large language models (LLMs) for automating lexicographic
+               tasks in the <hi rend="italic">Online Dictionary of Croatian Idioms</hi> (ODCI). With
+               the release of GPT-4o, a key motivation for this extension was to assess its
+               improvements over the previously tested GPT-3.5-turbo in terms of accuracy,
+               consistency, and usability. The main enhancements introduced in this paper include:
+               (1) evaluation of a new LLM model – a systematic comparison of GPT-4o and
+               GPT-3.5-turbo to identify improvements in recognising semantic equivalents and
+               generating conceptual categories for idioms; (2) refined methodology – the initial
+               test, which compared LLMs in ranking idioms by semantic field, was restructured as a
+               selection step, while the follow-up categorisation task with a limited idiom set was
+               omitted due to limited additional insight; (3) optimised prompt engineering – the
+               second lexicographic task was re-examined using refined prompt formulations to
+               improve LLM performance and reliability. By adopting these modifications, this paper
+               not only reinforces the empirical basis of our initial study but also provides
+               insights into the advancing capabilities of cutting-edge LLMs for lexicographic
+               applications.</p>
+            <p style="text-align: justify;">The paper is organised as follows: the next section
+               describes the linguistic resource and the theoretical framework for conceptual
+               organisation in lexicography. This is followed by an outline of the tasks and
+               findings, while the final section presents the conclusion and future directions.</p>
+         </div>
+         <div>
+            <head><hi rend="italic">The Online Dictionary of Croatian Idioms</hi>: Technology and
+               Post-editing</head>
+            <div>
+               <head>Lexicography</head>
+               <p style="text-align: justify;">Despite promising advances in applying language
+                  technologies to dictionary compilation over the last decade, many European
+                  languages remain under-resourced, including Croatian, particularly in terms of
+                  freely available e-dictionaries and resources.<note place="foot" xml:id="ftn12"
+                     n="10"> Georg Rehm and Andy Way, <hi rend="italic">European Language Equality:
+                        A Strategic Agenda for Digital Language Equality</hi> (Springer Nature,
+                     2023), https://doi.org/10.1007/978-3-031-28819-7.</note> The project<note
+                     place="foot" xml:id="ftn13" n="11"> https://frazeoloski-rjecnik.eu/en/</note>
+                  to create the <hi rend="italic">Online Dictionary of Croatian Idioms</hi> was
+                  launched in 2019 at the Croatian Academy of Sciences. It aimed to develop an
+                  open-access, born-digital dictionary based on a corpus, built with freely
+                  available lexicographic tools and the expertise of linguistically trained
+                  lexicographers.</p>
+               <p style="text-align: justify;">The project introduced a post-editing lexicography
+                  model, where lexicographers evaluate and refine automatically generated data.
+                  Although this model has not been fully implemented in this dictionary, several
+                  automated processes have been utilised. For corpus searches, we used the Sketch
+                     Engine,<note place="foot" xml:id="ftn14" n="12"> Adam Kilgarriff et al., “The
+                     Sketch Engine: Ten Years On,” <hi rend="italic">Lexicography</hi> 1, No. 1
+                     (2014): 7–36.</note> which was freely accessible to academic members through
+                  the ELEXIS project (2018–2022). Sketch Engine provided concordances from hrWaC,
+                  the largest Croatian corpus at the time.<note place="foot" xml:id="ftn15" n="13">
+                     Nikola Ljubešić and Filip Klubička, <hi rend="italic">Croatian Web Corpus hrWaC
+                        2.1</hi> (Slovenian language resource repository CLARIN.SI, 2016),
+                     http://hdl.handle.net/11356/1064.</note> Additionally, Lexonomy,<note
+                     place="foot" xml:id="ftn16" n="14"> https://lexonomy.elex.is/</note> a platform
+                  for creating and publishing dictionaries, served as both the dictionary writing
+                  system and publishing platform.</p>
+               <p style="text-align: justify;">Lexicographic processing combines manual and
+                  automated approaches. Concordances were manually examined and analysed, while
+                  multi-word expressions were extracted using the Word Sketch feature. Frequency and
+                  usage statistics, including the LogDice metric, which evaluates the strength of
+                  word associations in collocations, helped identify commonly co-occurring terms.
+                  The GDEX (Good Dictionary Example) algorithm was employed to generate a list of
+                  candidate examples, which lexicographers reviewed manually to ensure they were
+                  typical and illustrative for dictionary entries. Entries in Lexonomy were compiled
+                  manually. Version 2, released in 2023, contains 563 entries and 1,165 idioms.<note
+                     place="foot" xml:id="ftn17" n="15"> Ivana Filipović Petrović and Jelena
+                     Parizoska, <hi rend="italic">Frazeološki rječnik hrvatskoga jezika v2</hi>
+                     (Zagreb: Hrvatska akademija znanosti i umjetnosti, 2023), <ref
+                        target="https://lexonomy.elex.is/#/frazeoloskirjecnikhr"
+                        >https://lexonomy.elex.is/#/frazeoloskirjecnikhr</ref>.</note>
+               </p>
+            </div>
+            <div>
+               <head>Conceptual Organisation</head>
+               <p style="text-align: justify;">The advancement of technology has created many
+                  opportunities for presenting dictionary content digitally. The introduction of
+                  hyperlinks connecting entries that are far apart alphabetically – such as
+                  multi-word expressions with similar meanings but different structures – would
+                  likely have impressed lexicographers from the pre-digital era. They often compiled
+                  extensive lists to categorise expressions by domains of knowledge, attempting to
+                  make them searchable within the linear format of printed media. For phraseological
+                  dictionaries in particular, the ability to link idioms with very different
+                  expressions is revolutionary. For example, idioms like <hi rend="italic">fali komu
+                     daska u glavi</hi> (lit. someone is missing a plank in the head) and <hi
+                     rend="italic">nisu komu sve koze na broju</hi> (lit. someone’s not keeping a
+                  tab on all their goats) both mean ‘to be crazy or insane.’ In a printed
+                  dictionary, these idioms might only appear under the first noun in the
+                  construction (such as plank or goat), potentially missing the connection to the
+                  related idiom. As a result, lexicographers have long sought ways to show
+                  semantically related words, though alphabetical order still dominates most
+                  dictionaries. Advocates of conceptual organisation believe it better reflects how
+                  the human mind categorises ideas and words, arguing that lexicography should
+                  assist users in finding both words and meanings, starting from ideas or
+                     concepts.<note place="foot" xml:id="ftn18" n="16">
+                     <hi rend="Strong">Dirk Geeraerts</hi><hi rend="bold">,</hi> “Principles of
+                     Monolingual Lexicography,” in Franz J. Hausmann, ed., <hi rend="Emphasis"
+                        >Wörterbücher. Ein Internationales Handbuch Zur Lexikographie</hi>, Vol. 1
+                     (Berlin: Walter de Gruyter, 1989), 287–96. Tom McArthur, <hi rend="Emphasis"
+                        >Worlds of Reference: Lexicography, Learning, and Language from the Clay
+                        Tablet to the Computer</hi> (Cambridge: Cambridge University Press,
+                     1986).</note>
+               </p>
+               <p style="text-align: justify;">In line with this, the conceptual organisation for
+                  the <hi rend="italic">Online Dictionary of Croatian Idioms</hi> (ODCI) was
+                  manually compiled. Sixty-four concepts were established, into which 430 idioms
+                  have been categorised so far. The lexicographers responsible for this process
+                  based their work on best practices from notable lexicographical works, such as the
+                     <hi rend="italic">Collins COBUILD Idioms Dictionary</hi> (2002) and the <hi
+                     rend="italic">Cambridge Idioms Dictionary</hi> (2006). These dictionaries
+                  organise idioms alphabetically and also include sections where they are grouped by
+                  themes such as love, honesty, deception, disagreement, success, failure,
+                  happiness, and sadness. This idea of organisational grouping can be found in
+                  renowned thesauruses, such as <hi rend="italic">Roget’s Thesaurus of English Words
+                     and Phrases</hi> (1852), and has been adapted over time to suit the constraints
+                  of the medium and the nature of the dictionary. A word or idiom may be categorised
+                  under multiple concepts, with decisions guided by human knowledge, beliefs, and
+                  instincts.</p>
+               <p style="text-align: justify;">In this paper, we focus on comparing the outputs of
+                  artificial intelligence and human intelligence in conceptual organisation. The
+                  criterion for linking semantically similar idioms in the ODCI involves identifying
+                  common semantic and structural elements.<note place="foot" xml:id="ftn19" n="17">
+                     <hi rend="Strong">Ivana Filipović Petrović and Jelena Parizoska</hi>,
+                     “Konceptualna organizacija frazeoloških rječnika u leksikografiji,” <hi
+                        rend="Emphasis">Filologija</hi> 73 (2019): 27–45.</note> As an example, we
+                  randomly selected seven concepts to demonstrate the manually crafted conceptual
+                  organisation for the ODCI, accompanied by a diagram (Chart 1) showing the
+                  frequency distribution of idioms across these concepts. Concepts such as
+                  difficulties/problems, money, and conflict stand out as rich sources of idiomatic
+                  expressions. Entries in the ODCI include links to semantically related idioms.
+                  Additionally, a separate conceptual index was created, listing concepts and
+                  corresponding idioms as links to corresponding dictionary entries, allowing users
+                  to search by ideas rather than solely by words. Although a valuable resource, this
+                  conceptual index was labour-intensive to produce and would benefit from further
+                  refinement and expansion.</p>
+               <figure>
+                  <head>Chart 1: Distribution of seven concepts in the Online Dictionary of Croatian
+                     Idioms.</head>
+                  <graphic url="chart_1.png"/>
+                  <lb/>
+                  <note n="">Source: Own work, based on data from the Online Dictionary of Croatian
+                     Idioms.</note>
+               </figure>
+               <p style="text-align: justify;">As corpus research and the automatic identification
+                  of idioms in corpora continue to advance, the ODCI will be expanded with new
+                  entries. To facilitate this, further technological improvements are being sought
+                  to automate the process of conceptual organisation. The aim is to implement this
+                  process at three levels.</p>
+               <list>
+                  <item>On the existing material: The objective is to categorise the remaining
+                     uncategorised idioms by determining whether they fit into current concepts or
+                     by proposing new ones. Each idiom should be assigned to a specific concept
+                     based on its meaning, even if it currently stands alone. This method will
+                     enable future idioms to be grouped under the same concept, allowing users to
+                     search the dictionary by ideas and meanings. Over time, as new idioms are
+                     added, these concepts will evolve and expand.</item>
+                  <item>On new material: As new entries are added to the dictionary, new meanings
+                     will emerge. Corresponding concepts will be identified, and additional idioms
+                     will be linked to them.</item>
+                  <item>For new idioms not fitting into existing concepts: New concepts will be
+                     proposed for idioms that do not fit into any established category, thus
+                     expanding the list of entries in the conceptual index.</item>
+               </list>
+               <p style="text-align: justify;">In this research, we conducted a pilot study
+                  involving several large language models (LLMs) and a selection of manually created
+                  concepts from the ODCI. We performed one experiment, followed by two tasks
+                  assigned to the AI system, which completed both tasks. The next section outlines
+                  the procedures used in this study.</p>
+            </div>
+         </div>
+         <div>
+            <head>Lexicography and Large Language Models: Let’s Give It a Try</head>
+            <p style="text-align: justify;">In the initial phase of this research, we aimed to test
+               LLMs on a trial example to identify which one produces the best results and which
+               model we will continue using for the two planned tasks. First, we tested three
+               readily available, open-source large language models (LLMs) designed for the academic
+               community and trained on some Croatian texts, to evaluate their performance and
+               potential usefulness for other studies.</p>
+            <p style="text-align: justify;">We used the Cro-CoV-cseBERT model,<note place="foot"
+                  xml:id="ftn20" n="18"> Karlo Babić et al., “Characterisation of COVID-19-Related
+                  Tweets in the Croatian Language: Framework Based on the Cro-CoV-cseBERT Model,”
+                     <hi rend="italic">Applied Sciences</hi> 11, No. 21 (2021):
+                  https://www.mdpi.com/2076-3417/11/21/10442, doi:10.3390/app112110442.</note> a
+               fine-tuned version of the CroSloEngualBERT (cseBERT) model.<note place="foot"
+                  xml:id="ftn21" n="19"> Matej Ulčar and Marko Robnik-Šikonja, “FinEst BERT and
+                  CroSloEngual BERT: Less Is More in Multilingual Models,” in <hi rend="italic"
+                     >Text, Speech, and Dialogue: 23rd International Conference, TSD 2020, Brno,
+                     Czech Republic, September 8–11, 2020, Proceedings</hi>, (Berlin, Heidelberg:
+                  Springer-Verlag, 2020), 104–11, <ref
+                     target="https://doi.org/10.1007/978-3-030-58323-1_11"
+                     >https://doi.org/10.1007/978-3-030-58323-1_11</ref>.</note> CroSloEngualBERT is
+               a trilingual BERT-based language model pre-trained on a large corpus of online news
+               articles in Croatian, Slovenian, and English (5.9 billion tokens, comprising 31%
+               Croatian, 23% Slovenian, and the rest in English). Cro-CoV-cseBERT was specifically
+               fine-tuned on Croatian language corpora related to COVID-19, including 186,738 news
+               articles, 500,504 user comments from Croatian online news portals, and 28,208
+               COVID-19-related tweets.<note place="foot" xml:id="ftn22" n="20"> Karlo Babić et al.,
+                  “Characterisation of COVID-19-Related Tweets,” 2021. </note> Cro-CoV-cseBERT is
+               fine-tuned for masked language modelling.</p>
+            <p style="text-align: justify;">The second model employed was the bcms-bertic
+                  (BERTić),<note place="foot" xml:id="ftn23" n="21"> Nikola Ljubešić and Davor Lauc,
+                  “BERTić – The Transformer Language Model for Bosnian, Croatian, Montenegrin, and
+                  Serbian,” in <hi rend="italic">Proceedings of the 8</hi><hi
+                     rend="italic superscript">th</hi><hi rend="italic"> Workshop on Balto-Slavic
+                     Natural Language Processing</hi> (Kiyv, Ukraine: Association for Computational
+                  Linguistics, 2021), 37–42.</note> a transformer model pre-trained on 8 billion
+               tokens of crawled text from Croatian, Bosnian, Serbian, and Montenegrin web domains.
+               BERTić was trained using the ELECTRA transformer architecture. Both BERTić and
+               cseBERT are base-sized models.</p>
+            <p style="text-align: justify;">In addition to these BERT and ELECTRA architectures, we
+               examined the effectiveness of a Generative Pre-trained Transformer (GPT) model,
+               specifically gpt2-vrabac,<note place="foot" xml:id="ftn24" n="22"> Mihailo Škorić,
+                  “Novi jezički modeli za Srpski jezik,” <hi rend="italic">Infoteka</hi> 24 (2024).
+               </note> a smaller generative model for the Serbian language. Considering the
+               linguistic proximity of Croatian and Serbian, we hypothesised that gpt2-vrabac might
+               provide useful insights. This model, based on the GPT2-small architecture, contains
+               136 million parameters and was trained on approximately 4 billion tokens derived from
+               doctoral dissertations, a corpus of Serbian public discourse, web-crawled texts, and
+               the Society for Language Resources and Technologies corpus. </p>
+            <p style="text-align: justify;">These LLMs were used to determine the semantic
+               similarity between a specified semantic field (e.g., kindness) and a comprehensive
+               corpus of Croatian idiomatic expressions. For each idiom and semantic field, the
+               lexical units were tokenised, and the resulting tokens were embedded using the
+               relevant language model. The token vectors were then combined and normalised by token
+               count to obtain an averaged vector representation (centroid-averaged token vectors).
+               This process yielded a unique vector for each idiom and a distinct vector for the
+               semantic field. Afterwards, cosine similarity was calculated to quantify the semantic
+               correspondence between the semantic field and each idiom, with higher scores
+               indicating stronger semantic similarity.</p>
+            <p style="text-align: justify;">The selection of specific transformer architectures was
+               crucial for effectively measuring semantic similarity. While the Cro-CoV-cseBERT
+               (BERT-based) and bcms-bertic (ELECTRA-based) models, as encoder-focused transformers,
+               are inherently designed for comprehending bidirectional context and generating robust
+               semantic vector representations of text, the inclusion of gpt2-vrabac (GPT-based)
+               model, which relies on a decoder-only unidirectional architecture, allowed for
+               comparative analysis. This architectural diversity provided comprehensive insights
+               into their respective strengths and limitations when calculating semantic
+               correspondence between semantic fields and Croatian idiomatic expressions, ensuring a
+               thorough evaluation of each model’s suitability for lexicographical tasks.</p>
+            <p style="text-align: justify;">Beyond open-source models, we also evaluated the
+               performance of the commercially developed GPT-3.5-turbo and GPT-4o models (from
+                  OpenAI)<note place="foot" xml:id="ftn25" n="23"> Tom B. Brown et al., “Language
+                  Models Are Few-Shot Learners,” in Hugo Larochelle et al., eds., <hi rend="italic"
+                     >Advances in Neural Information Processing Systems</hi>, Vol. 33 (Curran
+                  Associates, Inc., 2020), 1877–1901.</note> for idiom-to-semantic-field matching
+               using prompt engineering. GPT-3.5-turbo, a transformer-based model with 175 billion
+               parameters, features 96 transformer layers, 12,288-dimensional hidden states, and 96
+               attention heads per layer. This architecture offers significant advantages in pattern
+               recognition and generation compared to base-sized models like BERTić and cseBERT (12
+               hidden layers, 768 hidden states). Notably, despite not being trained on extensive
+               Croatian corpora, recent research<note place="foot" xml:id="ftn26" n="24"> Benedikt
+                  Perak, Slobodan Beliga, and Ana Meštrović, “Incorporating Dialect Understanding
+                  into LLM Using RAG and Prompt Engineering Techniques for Causal Common-Sense
+                  Reasoning,” in Yves Scherrer et al., eds., <hi rend="italic">Proceedings of the
+                     11th Workshop on NLP for Similar Languages, Varieties, and Dialects</hi>
+                  (VarDial 2024) (Mexico City, Mexico: ACL, 2024), 220–29,
+                  https://aclanthology.org/2024.vardial-1.19.</note> has demonstrated the efficacy
+               of GPT models for Croatian causal commonsense reasoning, including dialectal
+               variations (DIALECT-COPA). Although the exact number of parameters in GPT-4o has not
+               been officially disclosed, it is presumed to be substantially larger than the 175
+               billion parameters of GPT-3.5-turbo, enhancing its ability to generate more complex
+               and accurate responses. GPT-4o supports a contextual window of 128,000 tokens, a
+               considerable increase compared to the 4,096 tokens in GPT-3.5-turbo. This enhancement
+               enables the model to better comprehend and generate longer and more intricate texts. </p>
+            <p style="text-align: justify;">GPT-4o shows significant progress in language
+               understanding and handling complex tasks, making it more reliable and accurate than
+               earlier versions like GPT-3.5-turbo. In terms of linguistic comprehension, GPT-4o
+               demonstrates improved skill in correctly interpreting sentence meanings, contextual
+               nuances, and deeper logical relationships.</p>
+            <p style="text-align: justify;">The initial experiment utilising the GPT-3.5-turbo model
+               was carried out in April 2024, while the follow-up experiment employing the more
+               advanced GPT-4o model took place in February 2025.</p>
+         </div>
+         <div>
+            <head>Selection of the best-performing LLM for Subsequent Tasks</head>
+            <p style="text-align: justify;">From the manually created conceptual organisation in the
+               ODCI, a sample of 150 idioms was selected, distributed across 27 concepts. For the
+               testing of LLMs, three concepts were chosen from this conceptual index: <hi
+                  rend="smallcaps">kindness, madness</hi>, and <hi rend="smallcaps">conflict</hi>.
+               Table 1 presents the selected concepts along with their corresponding idioms.</p>
+
+            <table>
+               <head>Table 1: Concepts and corresponding idioms in the selection experiment for the
+                  best-performing LLM in subsequent tasks.</head>
+               <row rend="bold">
+                  <cell>Concept</cell>
+                  <cell>Idioms</cell>
+               </row>
+               <row>
+                  <cell>kindness</cell>
+                  <cell>dobar kao kruh (lit. as good as bread) ‘very good, hearted’, duša od čovjeka
+                     (lit. soul of a person) ‘a kind person’, ne bi ni mrava zgazio ‘wouldn’t hurt a
+                     fly’</cell>
+               </row>
+               <row>
+                  <cell>madness</cell>
+                  <cell>fali daska u glavi komu (lit. someone is missing a plank in the head) ‘not
+                     normal’, lud kao šiba ‘crazy like a hatter’, lud sto gradi ‘crazy like a
+                     hundred’, nisu sve koze na broju komu (lit. not all the goats are in the pen)
+                     ‘crazy, not normal’, nisu svi doma komu (lit. not everyone is at home) ‘crazy,
+                     not normal’, posvađao se s mozgom (lit. quarreled with the brain) ‘lost one’s
+                     mind’, zreo za ludnicu (lit. ripe for the madhouse), puknuti kao kokica (lit.
+                     to pop like a popcorn) ‘go crazy’, najesti se ludih gljiva (lit. to eat mad
+                     mushrooms) ‘go crazy’</cell>
+               </row>
+               <row>
+                  <cell>conflict</cell>
+                  <cell>dolijevati ulje na vatru (lit. to pour oil on the fire) ‘further inflame a
+                     conflict or disagreement’, izvrijeđati na pasja kola koga ‘to verbally abuse
+                     someone thoroughly’, lome se koplja (lit. spears are breaking) ‘there’s a
+                     fierce conflict’, posijati sjeme razdora (lit. to sow the seeds of discord),
+                     posvađati se na mrtvo ime ‘to fight bitterly’, posvađati se na pasja kola ‘to
+                     fight fiercely’, stvarati zlu krv (lit. to create bad blood), svađati se kao
+                     pas i mačka (lit. to fight like cats and dogs), prosipati žuč (lit. to spill
+                     bile) ‘to express bitterness’, spaliti mostove (lit. to burn bridges), ukrstiti
+                     koplja (lit. to cross swords) ‘to engage in a conflict’</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell/>
+               </row>
+               <note n="">Source: Own work.</note>
+            </table>
+            <p style="text-align: justify;">In the experiment, LLMs were used to calculate the
+               semantic similarity between idioms and their respective semantic fields. The task was
+               structured as follows: from a list of 150 idioms, the algorithm identified those
+               belonging to the following semantic fields: 1) kindness, 2) madness, and 3) conflict.
+               LLMs such as Cro-CoV-cseBERT, bcms-bertic, and gpt2-vrabac ranked idioms related to
+               kindness between 47th and 65th place on average. The highest ranking was achieved by
+               gpt2-vrabac, which placed the idiom <hi rend="italic">duša od čovjeka</hi> (lit. a
+               soul of a person) – i.e., ‘a kind person’ – in fifth place. The idioms <hi
+                  rend="italic">zlatna koka</hi> (lit. golden goose) or ‘cash cow’, <hi
+                  rend="italic">mala beba</hi> (lit. little baby) or ‘something easy to use,
+               harmless’, and <hi rend="italic">malo sutra</hi> or ‘no way, no chance’ were ranked
+               first.</p>
+            <p style="text-align: justify;">For the concept of <hi rend="smallcaps">madness,</hi>
+               the Cro-CoV-cseBERT model ranked <hi rend="italic">zreo za ludnicu</hi> (lit. ‘ripe
+               for the madhouse’) in first place, <hi rend="italic">lud kao šiba</hi> (‘crazy as a
+               hatter’) in 5<hi rend="superscript">th</hi>, and <hi rend="italic">lud sto gradi</hi>
+               (‘one hundred per cent crazy’) in 10<hi rend="superscript">th</hi>. The gpt2-vrabac
+               model placed <hi rend="italic">lud sto gradi</hi> in the 5<hi rend="superscript"
+                  >th</hi>, <hi rend="italic">zreo za ludnicu</hi> in 6<hi rend="superscript"
+                  >th</hi>, and <hi rend="italic">lud kao šiba</hi> in 13<hi rend="superscript"
+                  >th</hi>, while bcms-bertic ranked <hi rend="italic">lud sto gradi</hi> in 22<hi
+                  rend="superscript">nd</hi>, with all other idioms ranked further down.</p>
+            <p style="text-align: justify;">For the concept of <hi rend="smallcaps">conflict,</hi>
+               the bcms-bertic model ranked <hi rend="italic">stvarati zlu krv</hi> (lit. ‘to create
+               bad blood’) in 8th place, while gpt2-vrabac placed <hi rend="italic">lome se
+                  koplja</hi> (lit. ‘spears are breaking’) or ‘there’s a fierce conflict’ in first
+               position, and <hi rend="italic">ukrstiti koplja</hi> (lit. ‘to cross swords’) or ‘to
+               engage in a conflict’ in 6th. Meanwhile, Cro-CoV-cseBERT ranked <hi rend="italic"
+                  >prosipati žuč</hi> (lit. ‘to spill bile’) or ‘to express bitterness’ highest,
+               assigning it 24th place. In this ranking, a lower number indicates a better result.
+               For instance, being ranked first indicates the system considers the idiom the best
+               match for the given concept of <hi rend="smallcaps">kindness.</hi> Conversely,
+               rankings of 47th and 65th suggest those idioms are considered poor matches for the
+               concept.</p>
+            <p style="text-align: justify;">Although several idioms paired with predefined concepts
+               were successfully ranked, the overall results for all idioms listed in Table 1 are
+               not adequate for lexicographic use. The examined LLMs for Croatian do not produce
+               high-quality results for figurative language, possibly because of the varied types of
+               texts used in model training. For instance, BERTić was trained on a large corpus
+               containing diverse content, including web pages, literary works, and newspaper
+                  articles.<note place="foot" xml:id="ftn27" n="25"> Ljubešić and Lauc, “BERTić,”
+                  2021.</note> While this corpus is not specifically tailored for idioms, it
+               naturally includes many idiomatic expressions found in everyday language. However,
+               the number of idioms present appears insufficient for the LLM to be effective in our
+               lexicographic task, indicating there is significant room for improvement in this
+               area. A more idiom-rich corpus, combined with techniques such as fine-tuning,
+               transfer learning, or other model enhancement methods, could produce better results.
+               Moreover, Croatian currently lacks extensive corpora rich in idiomatic expressions,
+               which are crucial for training language models to improve their performance on our
+               lexicographic tasks.</p>
+            <p style="text-align: justify;">Furthermore, the difficulty of multi-word constructions
+               not reflecting the sum of their parts is well known in natural language processing.
+               Even human learners struggle to master idiomatic expressions when learning a foreign
+                  language.<note place="foot" xml:id="ftn28" n="26"> Julia Miller, “Research in the
+                  Pipeline: Where Lexicography and Phraseology Meet,” <hi rend="italic">Lexicography
+                     ASIALEX 5</hi>, No. 1 (2018): 23–33, doi:10.1007/s40607-018-0044-z.</note> The
+               choice of idioms such as <hi rend="italic">mala beba</hi> (lit. little baby) and <hi
+                  rend="italic">zlatna koka</hi> (lit. golden goose) for the concept of kindness
+               suggests that the literal meanings of the components were considered, with words like
+               ‘baby’ and ‘golden’ being associated with the notion of goodness.</p>
+            <table>
+               <head>Table 2: Ranking results of idioms by their semantic proximity to the concepts
+                  of kindness, madness and conflict, as produced by transformer-based language
+                  models. Rankings closer to the top are considered more successful.</head>
+               <row rend="bold">
+                  <cell>Model</cell>
+                  <cell>KINDNESS </cell>
+                  <cell>MADNESS</cell>
+                  <cell>CONFLICT</cell>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>best ranked idiom</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>gpt2-vrabac</cell>
+                  <cell>duša od čovjeka 'a very kind, good-hearted person' (5th place)</cell>
+                  <cell>lud sto gradi 'completely mad, insane' (5th place)</cell>
+                  <cell>lome se koplja 'there’s a fierce argument or conflict' (1st place)</cell>
+               </row>
+               <row>
+                  <cell>Cro-CoV-cseBERT</cell>
+                  <cell>ne bi ni mrava zgazio 'extremely gentle, harmless' (47th place)</cell>
+                  <cell>zreo za ludnicu 'ready for the asylum; mentally unstable' (1st place)</cell>
+                  <cell>prosipati žuč 'to express bitterness or strong anger' (24th place)</cell>
+               </row>
+               <row>
+                  <cell>bcms-bertic</cell>
+                  <cell>duša od čovjeka 'a very kind, good-hearted person' (65th place)</cell>
+                  <cell>lud sto gradi 'completely mad, insane' (22nd place)</cell>
+                  <cell>stvarati zlu krv 'to cause hostility or resentment' (8th place)</cell>
+               </row>
+               <note n="">Source: Own work</note>
+            </table>
+            <lb/>
+            <p style="text-align: justify;">The query was then repeated with ChatGPT, asking it to,
+               in the role of a lexicographer and linguist, identify the ten most relevant idioms
+               from the list of 150 Croatian idioms that belong to the semantic fields of <hi
+                  rend="smallcaps">madness, conflict</hi>, and <hi rend="smallcaps">kindness</hi> –
+               that is, those that are semantically closest to these concepts. When role-play
+               prompting is used in a prompt, this technique provides the model with a contextual
+               instruction to adjust its reasoning, response style, and task approach according to
+               the assigned role. Existing research<note place="foot" xml:id="ftn29" n="27"> Aobo
+                  Kong et al., “Better Zero-Shot Reasoning with Role-Play Prompting,” in <hi
+                     rend="italic">Proceedings of the 2024 Conference of the North American Chapter
+                     of the Association for Computational Linguistics: Human Language Technologies
+                     (Volume 1: Long Papers)</hi> (Mexico City: Association for Computational
+                  Linguistics, 2024), 4099–113, <ref
+                     target="https://aclanthology.org/2024.naacl-long.228/"
+                     >https://aclanthology.org/2024.naacl-long.228/</ref>.</note> shows that this
+               method improves the reasoning skills of LLMs, even in scenarios where the model has
+               no prior examples (zero-shot settings). Our findings align with the manual
+               organisation of concepts and idioms in 98% of cases. Three idioms related to kindness
+               ranked in the top three positions, and nine idioms related to madness appeared among
+               the top nine. For the concept of conflict, six idioms matched, but ChatGPT did not
+               include <hi rend="italic">dolijevati ulje na vatru</hi> (‘further inflame a
+               conflict’), <hi rend="italic">prosipati žuč</hi> (‘to express bitterness’), <hi
+                  rend="italic">ukrstiti koplja</hi> (‘to cross swords’), or <hi rend="italic"
+                  >stvarati zlu krv</hi> (‘to create bad blood’). Instead, it added idioms such as
+                  <hi rend="italic">braniti se rukama i nogama</hi> (‘to defend oneself tooth and
+               nail’), <hi rend="italic">digla se kuka i motika</hi> (‘to rebel’), and <hi
+                  rend="italic">dignuti se na zadnje noge</hi> (‘to stand up on hind legs’). In
+               manual classification, the first idiom is categorised as avoidance, while the latter
+               two are classified as rebellion. ChatGPT’s classification is not necessarily wrong,
+               as categorisation depends on interpretation and idiom usage is heavily
+               context-dependent. Conflict generally refers to disagreement, opposition, or tension,
+               while avoidance involves deliberately steering clear of conflict, which can be
+               implied in some contexts. Rebellion indicates resistance or opposition to authority
+               or established norms, which can sometimes lead to conflict. In this sense, ChatGPT
+               performed well in this experiment.</p>
+         </div>
+         <div>
+            <head>Task One</head>
+            <p style="text-align: justify;">We conducted a preliminary test experiment to gain
+               insights into the data provided by LLMs. The aim was to identify their strengths and
+               weaknesses. Based on our findings, we decided to focus our research on OpenAI’s GPT
+               model, as it demonstrated superior results compared to other models. Therefore, the
+               following steps involve utilising AI to generate a dataset that lexicographers can
+               use for dictionary creation. As mentioned, there are currently 1,165 idiomatic
+               expressions in the ODCI. Thematic fields were manually identified for 430 entries to
+               establish a dictionary feature that allows users to easily find expressions related
+               to their desired topic or idea. To ensure accuracy, we wanted to verify if the
+               remaining idiomatic expressions can be classified into one of the already manually
+               defined semantic fields.</p>
+            <p style="text-align: justify;">The experiment utilised a role-playing prompt designed
+               for zero-shot settings (prompts were in Croatian):<lb/>model="gpt-3.5-turbo",
+               messages=[<lb/>{"role": "system", "content": "Take on the role of a lexicographer
+               creating a new conceptually organized phraseological dictionary of Croatian. Please
+               respond in Croatian."}<lb/>{"role": "user", "content": "A list of pre-defined
+               semantic fields is provided."}<lb/>{"Link the idiom to the most appropriate semantic
+               field from the provided list. Respond by choosing only one of the offered semantic
+               fields."<lb/>}]</p>
+            <p style="text-align: justify;">To demonstrate the results, we will use examples of two
+               concepts: communication and knowledge. Using manual classification, we sorted 19
+               idioms into the category of communication. In Table 2, we show how these idioms
+               relate to the results obtained from ChatGPT, which also identified 13 of them as
+               being associated with communication.</p>
+            <table>
+               <head>Table 3: Results of task 1 inquiry using the example of the <hi rend="italic"
+                     >COMMUNICATION</hi> category.</head>
+               <row rend="bold">
+                  <cell>Idioms manually classified into the concept communication</cell>
+                  <cell>ChatGPT-3.5-turbo responses</cell>
+               </row>
+               <row>
+                  <cell>baciti bubu u uho komu (lit. to plant a bug in someone’s ear) ‘to make
+                     someone suspicious or curious’</cell>
+                  <cell>communication</cell>
+               </row>
+               <row>
+                  <cell>bacati drvlje i kamenje na koga, što (lit. to throw sticks and stones at
+                     someone/something) ‘to criticize harshly’</cell>
+                  <cell>conflict</cell>
+               </row>
+               <row>
+                  <cell>čašica razgovora ‘a friendly chat’</cell>
+                  <cell>communication</cell>
+               </row>
+               <row>
+                  <cell>čupati kliještima iz koga što (lit. to extract something from someone with
+                     pliers) ‘to forcefully extract information’</cell>
+                  <cell>fighting</cell>
+               </row>
+               <row>
+                  <cell>pričati Markove konake ‘to tell long and boring stories’</cell>
+                  <cell>communication</cell>
+               </row>
+               <row>
+                  <cell>pričati kao navijen ‘to talk incessantly, like a broken record’</cell>
+                  <cell>communication</cell>
+               </row>
+               <row>
+                  <cell>razgovarati na ravnoj nozi ‘to talk on equal terms’</cell>
+                  <cell>communication</cell>
+               </row>
+               <row>
+                  <cell>reći komu što ga ide ‘to tell someone off’</cell>
+                  <cell>communication</cell>
+               </row>
+               <row>
+                  <cell>reći popu pop, a bobu bob ‘to call a spade a spade’</cell>
+                  <cell>communication</cell>
+               </row>
+               <row>
+                  <cell>reći u lice ‘to say to someone’s face’</cell>
+                  <cell>communication</cell>
+               </row>
+               <row>
+                  <cell>šutjeti kao pizda ‘to keep silent’ (vulgar, lit. to be silent like a
+                     cunt)</cell>
+                  <cell>communication</cell>
+               </row>
+               <row>
+                  <cell>šutjeti kao zaliven ‘to be silent as the grave’</cell>
+                  <cell>communication</cell>
+               </row>
+               <row>
+                  <cell>zatvoriti se u ljušturu ‘to withdraw into one’s shell’</cell>
+                  <cell>unknown</cell>
+               </row>
+               <row>
+                  <cell>prosipati pamet ‘to dispense wisdom, to pretend to be wise’</cell>
+                  <cell>communication</cell>
+               </row>
+               <row>
+                  <cell>srati kvake ‘to talk nonsense’ (vulgar, lit. to shit handles)</cell>
+                  <cell>communication</cell>
+               </row>
+               <row>
+                  <cell>prenositi se od usta do usta ‘to spread by word of mouth’</cell>
+                  <cell>communication</cell>
+               </row>
+               <row>
+                  <cell>umotati u celofan ‘to sugarcoat’</cell>
+                  <cell>ingratiation</cell>
+               </row>
+               <row>
+                  <cell>obilaziti kao mačak oko vruće kaše ‘to beat around the bush’</cell>
+                  <cell>avoidance</cell>
+               </row>
+               <row>
+                  <cell>lagati u oči komu ‘to lie to someone’s face’</cell>
+                  <cell>fraud</cell>
+               </row>
+               <note>Source: Own work</note>
+            </table>
+            <lb/>
+            <p style="text-align: justify;">Furthermore, under the concept of <hi rend="smallcaps"
+                  >knowledge,</hi> we manually classified the following idioms: <hi rend="italic"
+                  >znati što kao vodu piti</hi> (‘to know something like the back of your hand’),
+                  <hi rend="italic">imati u malom prstu što</hi> (‘to have something at your
+               fingertips’), and <hi rend="italic">isisati iz malog prsta što</hi> (‘to pull
+               something out of thin air, to come up with something effortlessly’). GPT-3.5-turbo
+               classified the idiom <hi rend="italic">znati što kao vodu piti</hi> (‘to know
+               something like the back of your hand’) under knowledge, while it associated <hi
+                  rend="italic">imati u malom prstu</hi> (‘to have something at your fingertips’)
+               with the concept of control, and <hi rend="italic">isisati iz malog prsta što</hi>
+               (‘to pull something out of thin air, to come up with something effortlessly’) with
+               the concept of ease or difficulty. However, GPT-3.5-turbo also classified the idiom
+                  <hi rend="italic">imati dobar nos</hi> (lit. ‘to have a good nose’), which was
+               previously unclassified, under the concept of <hi rend="smallcaps">knowledge</hi>, as
+               it means to have the ability or instinct for something (which can include <hi
+                  rend="smallcaps">knowledge).</hi></p>
+            <p style="text-align: justify;">Additionally, GPT-3.5-turbo included two uncategorised
+               idioms: <hi rend="italic">gurati pod nos komu što</hi>, meaning ‘to shove something
+               in someone’s face’ (literally ‘nose’) or ‘to impose something on someone’; and <hi
+                  rend="italic">objaviti na sva zvona</hi>, meaning ‘to shout it from the rooftops’
+               or ‘to announce something to everyone’. Examples of usage for the idiom <hi
+                  rend="italic">to shove something in someone’s face</hi> (1 and 2) and for the
+               idiom <hi rend="italic">to shout it from the rooftops</hi> (3 and 4) found in the
+               ODCI show the context of <hi rend="smallcaps">communication:</hi></p>
+            <quote style="text-align: justify;"><hi rend="italic">If you push your views and
+                  principles under his nose on the first date and show him your great intelligence,
+                  he will get the impression that you’re lecturing him.</hi><lb/><hi rend="italic"
+                  >In every argument, he brings up the issues that have been resolved, re-analyzes
+                  them, and puts them under the nose.</hi><lb/><hi rend="italic">After deciding to
+                  get engaged, many couples in love don’t want to shout it from the rooftops to
+                  everyone right away but will keep their sweet secret for some time.</hi><lb/><hi
+                  rend="italic">Don’t shout it from the rooftops that you’ve just received your
+                  paycheck, bought new household appliances, or saved a large sum of money, as some
+                  of the useful tips the police have given to citizens.</hi></quote>
+            <p style="text-align: justify;">Overall, the results offered by GPT-3.5-turbo for Task 1
+               proved helpful in further lexicographical considerations. In other words, while these
+               results cannot be considered a finished dataset, they can help by providing a
+               comprehensive overview and potential ideas for different categorisations. To enhance
+               efficiency in dictionary creation, a model should perform better and make fewer
+               errors, such as merging <hi rend="italic">krenuti čijim stopama</hi> (‘to follow in
+               someone’s footsteps’) with the concept of excitement. This would enable
+               lexicographers to integrate more data with minimal intervention.</p>
+            <p style="text-align: justify;">Additional examples of conceptual misclassifications
+               further demonstrate the model’s limitations in interpreting idioms. Table 4 presents
+               a set of Croatian idioms that were manually assigned to semantic fields such as
+               perseverance, threat, or mental instability, but were misclassified by GPT-3.5-turbo
+               due to literal interpretation or misalignment with figurative meanings. For instance,
+               the idiom <hi rend="italic">zapeti kao sivonja</hi> (‘to be relentless in one‘s
+               effort’) was incorrectly associated with immobility, while <hi rend="italic">nisu sve
+                  ovce na broju komu</hi> (‘someone is a bit crazy or mentally off’) was linked to
+               incompleteness instead of the intended domain of mental instability. Such examples
+               highlight the need for a deeper understanding of context and culturally informed
+               processing of idioms to enable reliable classification.</p>
+            <table>
+               <head>Table 4: Examples of incorrect or unexpected model classifications. </head>
+               <row rend="bold">
+                  <cell>Idioms</cell>
+                  <cell>Human-assigned semantic field</cell>
+                  <cell>Conceptual misclassifications by GPT-3.5-turbo</cell>
+               </row>
+               <row>
+                  <cell>zapeti kao sivonja ‘to be relentless in one's effort'</cell>
+                  <cell>perseverance</cell>
+                  <cell>immobility</cell>
+               </row>
+               <row>
+                  <cell>naći se u neobranom grožđu 'to be in a tight spot'</cell>
+                  <cell>unfavorable situation</cell>
+                  <cell>surprise</cell>
+               </row>
+               <row>
+                  <cell>trese se stolica komu 'someone’s position is on shaky ground'</cell>
+                  <cell>threat</cell>
+                  <cell>fear</cell>
+               </row>
+               <row>
+                  <cell>nisu sve ovce na broju komu (lit. not all the sheep are accounted for)
+                     'someone is a bit crazy or mentally off '</cell>
+                  <cell>mental instability</cell>
+                  <cell>incompleteness</cell>
+               </row>
+               <note n="">Source: Own work</note>
+            </table>
+            <lb/>
+         </div>
+         <div>
+            <head>Task Two </head>
+            <p style="text-align: justify;">When we carried out Task 2 for the first version of the
+               research and asked the model to group idioms by meaning and assign names to semantic
+               fields, we observed two recurring issues with the GPT-3.5-turbo model: crafting
+               effective prompts and generating unique responses each time. The first issue suggests
+               that we might have needed to instruct the model to group more semantically related
+               idioms under a single concept rather than continually offering different concepts.
+               However, this conflicts with the model’s inherent non-deterministic nature, as it
+               consistently produces different responses to the same prompt. Here, we will highlight
+               the crucial parts of the results. For a group of idiomatic expressions, the model
+               proposed the following concepts: <hi rend="smallcaps">emotions, emotional reactions,
+                  emotional states, </hi>and<hi rend="smallcaps"> emotional closeness </hi>(see
+               Table 3). On one hand, the detailed breakdown of the concept of <hi rend="smallcaps"
+                  >emotions</hi> – dividing it into <hi rend="smallcaps">reactions, states</hi>, and
+                  <hi rend="smallcaps">closeness</hi> – can be very useful, as it aligns with the
+               further subdivision into sub-concepts considered in the manual classification. On the
+               other hand, when considering that a user may search for dictionary entries based on a
+               particular concept, such as <hi rend="smallcaps">happiness</hi>, it becomes clear
+               that the broader concept of <hi rend="smallcaps">emotions</hi>, even with additional
+               details on <hi rend="smallcaps">reactions</hi>, is too abstract to serve the goal of
+               conceptual organisation. The aim is to guide the user by offering concrete, usable
+               information. For instance, idioms like <hi rend="italic">crven od bijesa</hi> (‘red
+               with anger’), <hi rend="italic">kipjeti od bijesa</hi> (‘boiling with anger’), <hi
+                  rend="italic">ljut kao ris</hi> (‘angry as a lynx’), <hi rend="italic">ljut kao
+                  vrag</hi> (‘angry as the devil’), <hi rend="italic">para ide na uši komu</hi>
+               (lit. ‘steam coming out of someone’s ears’), <hi rend="italic">pao je mrak na oči
+                  komu</hi> (lit. ‘darkness fell over someone’s eyes’), <hi rend="italic">poludjeti
+                  od bijesa</hi> (‘go mad with anger’), <hi rend="italic">pozelenjeti od bijesa</hi>
+               (‘turn green with anger’), and <hi rend="italic">puknuo je film komu</hi> (lit.
+               ‘someone’s film broke’) are all semantically linked to the concept of <hi
+                  rend="smallcaps">anger</hi>. Similarly, the model categorised the idiom <hi
+                  rend="italic">ne bi ni mrava zgazio</hi> (‘wouldn’t hurt a fly’) under the concept
+               of <hi rend="smallcaps">mercy </hi>and <hi rend="smallcaps">empathy</hi>, and <hi
+                  rend="italic">duša od čovjeka</hi> (lit. ‘a soul of a man’, ‘a kind-hearted
+               person’) under the concept of <hi rend="smallcaps">personality traits</hi>. Both are
+               manually classified under the concept of <hi rend="smallcaps">kindness</hi>. </p>
+            <table>
+               <head>Table 5: The concepts proposed by the GPT-3.5-turbo model and associated
+                  idioms.</head>
+               <row rend="bold">
+                  <cell>Concept created by the GPT-3.5-turbo</cell>
+                  <cell>Associated idiom</cell>
+               </row>
+               <row>
+                  <cell>emotions</cell>
+                  <cell>umrijeti od smijeha ‘die laughing’, tresti se od bijesa ‘shake with anger’,
+                     zaljubiti se do ušiju ‘fall head over heels in love’, blagi očaj ‘mild
+                     despair’, duša od žene ‘woman with a kind heart’, srce se steže komu ‘someone’s
+                     heart tightens’</cell>
+               </row>
+               <row>
+                  <cell>emotional reaction</cell>
+                  <cell>puknuo je film komu ‘someone snapped, lost it’, dignuti se na stražnje noge
+                     (lit. get up on one’s hind legs) ‘stand up for oneself’, poludjeti od bijesa
+                     ‘to go mad with rage’, rasplakati se kao malo dijete ‘cry like a little child’,
+                     plakati kao beba ‘cry like a baby’</cell>
+               </row>
+               <row>
+                  <cell>emotional condition</cell>
+                  <cell>nervozan kao pas ‘nervous as a dog’, ljut kao vrag ‘angry as hell’, bijesan
+                     kao pas ‘mad as a hornet’, zaljubljen kao tele ‘infatuated, puppy love’, baciti
+                     u očaj koga ‘to drive someone to despair’</cell>
+               </row>
+               <row>
+                  <cell>emotional closeness</cell>
+                  <cell>zavući se pod kožu komu ‘to get under someone’s skin’</cell>
+               </row>
+               <row>
+                  <cell>negative emotions</cell>
+                  <cell>proliti žuč ‘to vent one’s spleen’</cell>
+               </row>
+               <note n="">Source: Table created by the authors.</note>
+            </table>
+            <p style="text-align: justify;">The second attempt produced the following results (Table
+               4): the model categorised the idioms <hi rend="italic">zaljubiti se do ušiju</hi>
+               (‘fall head over heels in love’) and <hi rend="italic">zaljubljen kao tele</hi>
+               (‘infatuated, puppy love’) under the concept of <hi rend="smallcaps">love</hi> and
+                  <hi rend="smallcaps">attachment</hi>, while <hi rend="italic">ljut kao vrag</hi>
+               (‘angry as hell’) and <hi rend="italic">bijesan kao pas</hi> (‘mad as a hornet’) were
+               placed under the concept of <hi rend="smallcaps">anger</hi> and <hi rend="smallcaps"
+                  >frustration</hi>. Unlike the results obtained in the previous attempt, this
+               categorisation presents fully usable and well-structured semantic fields for
+               lexicographic purposes.</p>
+            <p style="text-align: justify;">This clearly demonstrates the impact of the differently
+               structured prompt, which explicitly instructed that the concept names should be
+               sufficiently specific while also ensuring that as many idioms as possible were
+               grouped under the same concept if they shared a common meaning. The initial prompt
+               used with GPT‑3.5‑turbo produced overly specific and inconsistent concept groupings.
+               After manually analysing the outputs, a revised prompt was designed for GPT‑4, with
+               clearer and more targeted instructions. It explicitly directed the model to assign
+               idioms to the same semantic field whenever they shared a common meaning and to name
+               those fields in a manner that was sufficiently specific yet suitable for a
+               lexicographic context. This exemplifies iterative prompt design and refinement, a
+               prompt engineering strategy where an expert iteratively modifies prompts based on
+               model outputs to improve task performance. Rather than relying on automated
+               self-feedback mechanisms – as in fully autonomous self-refinement systems (cf. Madaan
+               et al. 2023)<note place="foot" xml:id="ftn30" n="28"> Aman Madaan et al.,
+                  “SELF-REFINE: Iterative Refinement with Self-Feedback,” in <hi rend="italic"
+                     >Proceedings of the 37</hi><hi rend="italic superscript">th</hi><hi
+                     rend="italic"> International Conference on Neural Information Processing
+                     Systems (NeurIPS 2023)</hi> (Red Hook, NY: Curran Associates Inc., 2023), 2019,
+                  1–61, <ref target="https://selfrefine.info/"
+                  >https://selfrefine.info/</ref>.</note> – this study employed a human-in-the-loop
+               approach, involving manual evaluation of initial outputs and subsequent prompt
+               revision to better align with the intended semantic grouping behaviour. A similar
+               refinement principle was used in the study on model truthfulness by Krishna et al.,
+               where iterative prompting strategies were developed and tested to improve the factual
+               accuracy and reliability of LLM outputs.<note place="foot" xml:id="ftn31" n="29">
+                  Satyapriya Krishna, Chirag Agarwal, and Himabindu Lakkaraju, “Understanding the
+                  Effects of Iterative Prompting on Truthfulness,” in <hi rend="Emphasis"
+                     >Proceedings of the 41<hi rend="superscript">st</hi> International Conference
+                     on Machine Learning (ICML 2024)</hi> (Vienna: JMLR.org, 2024), Paper 1024,
+                  1–20.</note> This structured revision proved effective: the original prompt caused
+               the model to assign a unique concept to almost every idiom, resulting in overly
+               specific and inconsistent categories. In contrast, the revised prompt provided
+               clearer constraints and more targeted guidance, encouraging the model to cluster
+               idioms under shared semantic fields with labels that were both specific enough and
+               lexicographically useful. The improved prompt, used with GPT-4o for the semantic
+               grouping task, was as follows:</p>
+            <quote style="text-align: justify;"><hi rend="italic">I will send you a list of Croatian
+                  idioms. You need to group them by meaning into semantic fields and give those
+                  fields names in Croatian. Try to group idioms with similar meanings together and
+                  give them a sufficiently specific name that describes their meaning, e.g.,
+                  happiness, sadness, quarrel, obstacle, love, etc. Also, try to categorize as many
+                  idioms as possible into the same concept that they share in meaning.</hi></quote>
+            <table>
+               <head>Table 6: The concepts proposed by the GPT-4o model and associated
+                  idioms.</head>
+               <row rend="bold">
+                  <cell>Concept created by the GPT-4</cell>
+                  <cell>Associated idiom</cell>
+               </row>
+               <row>
+                  <cell>emotions and reactions</cell>
+                  <cell>umrijeti od smijeha 'die laughing', tresti se od bijesa 'shake with anger',
+                     plakati kao beba 'cry like a baby', rasplakati se kao malo dijete 'cry like a
+                     little child', poludjeti od bijesa 'to go mad with rage', proliti žuč 'to vent
+                     one’s spleen'</cell>
+               </row>
+               <row>
+                  <cell>love and attachment</cell>
+                  <cell>zaljubiti se do ušiju 'fall head over heels in love', zaljubljen kao tele
+                     'infatuated, puppy love'</cell>
+               </row>
+               <row>
+                  <cell>states and feelings</cell>
+                  <cell>blagi očaj 'mild despair', baciti u očaj koga 'to drive someone to despair',
+                     srce se steže komu 'someone’s heart tightens'</cell>
+               </row>
+               <row>
+                  <cell>defense and resistance</cell>
+                  <cell>dignuti se na stražnje noge 'stand up for oneself', puknuo je film komu
+                     'someone snapped, lost it'</cell>
+               </row>
+               <row>
+                  <cell>anger and frustration</cell>
+                  <cell>ljut kao vrag 'angry as hell', bijesan kao pas 'mad as a hornet', nervozan
+                     kao pas 'nervous as a dog'</cell>
+               </row>
+               <row>
+                  <cell>influence and manipulation</cell>
+                  <cell>zavući se pod kožu komu 'to get under someone’s skin'</cell>
+               </row>
+               <row>
+                  <cell>traits</cell>
+                  <cell>duša od žene 'woman with a kind heart'</cell>
+               </row>
+               <note n="">Source: Own work</note>
+            </table>
+            <p style="text-align: justify;">Additionally, while the concepts of <hi rend="smallcaps"
+                  >emotions and reactions </hi>and<hi rend="smallcaps"> states and feelings</hi> are
+               overly broad in lexicographic terms – and the same criticism applies to the
+               categorisation generated by GPT-3.5 in the previous query – it is important to
+               recognise that these concepts are not fundamentally incorrect and can still be
+               helpful in lexicography. This is especially relevant when working with large amounts
+               of linguistic data, as such categorisation can facilitate further manual processing.
+               The lexicographer’s task of grouping all semantically related idioms under a single
+               concept – one that is broad enough to encompass multiple instances but specific
+               enough to provide useful, concrete information for users – is inherently highly
+               subjective. Therefore, this step ultimately necessitates manual intervention.</p>
+         </div>
+         <div>
+            <head>Limitations</head>
+            <p style="text-align: justify;">The results of this study should be considered in light
+               of several methodological and conceptual limitations. Firstly, although the dataset
+               of 150 idioms was carefully chosen to reflect a range of meanings and structures, the
+               expressive and culturally embedded nature of idioms means that high performance on
+               this subset does not necessarily ensure applicability to the entire spectrum of
+               Croatian phraseology. Idioms are often context-dependent, metaphorically dense, and
+               semantically overlapping, making generalisation particularly challenging.</p>
+            <p style="text-align: justify;">Secondly, although ChatGPT was used as the primary model
+               in the later stages of the study and smaller Croatian LLMs were initially tested, the
+               selection of general-purpose LLMs raises broader questions about their
+               appropriateness for specialised tasks like semantic lexicographic classification.
+               These models are not trained explicitly for idiom interpretation or lexical-semantic
+               organisation, and their performance can differ across languages and idiomatic
+               structures.</p>
+            <p style="text-align: justify;">Finally, conceptual organisation in lexicography,
+               especially when grouping idioms by meaning, is a highly interpretive task. There is
+               no universally accepted or correct way to categorise idiomatic meaning, as it
+               reflects not only linguistic but also encyclopaedic and cultural knowledge.
+               Therefore, both the human-created reference classification and the model-produced
+               groupings remain inherently subjective to some extent.</p>
+         </div>
+         <div>
+            <head>Conclusion</head>
+            <p style="text-align: justify;">This paper examined the performance of large language
+               models (LLMs) in analysing the semantic features of multi-word expressions with
+               figurative meanings, particularly idioms. The study compared smaller, open-source
+               models (CroCoV-cseBERT, bcms-bertic, and gpt2-vrabac) with more advanced proprietary
+               models, GPT-3.5-turbo and GPT-4o. The results demonstrated a clear performance gap,
+               with the proprietary GPT-4o model delivering the most accurate and semantically
+               coherent results, highlighting its improvements in linguistic comprehension and
+               contextual reasoning.</p>
+            <p style="text-align: justify;">Although LLMs, especially GPT-based models, have
+               demonstrated potential in lexicography, it is essential to recognise the specific
+               challenges in this highly specialised field. Lexicography involves intricate tasks
+               such as identifying common syntax patterns, selecting collocations, and producing
+               precise definitions and examples, which can be challenging even for human experts.
+               While LLMS show promise in supporting dictionary development, issues persist,
+               particularly in managing subtle phraseological meanings and ensuring consistency in
+               semantic categorisation.</p>
+            <p style="text-align: justify;">Human expertise remains essential in lexicography, as
+               LLMs cannot yet fully replicate the depth of understanding needed for complex
+               lexicographic tasks. Although the findings are encouraging, the study is limited by
+               the relatively small sample of idioms and the narrow range of semantic categories
+               examined. The models also showed a tendency to misclassify idioms by relying too
+               heavily on literal meanings or by assigning overly broad conceptual labels. Their
+               overall performance is further constrained by the lack of idiom-rich training
+               corpora, particularly for under-resourced languages like Croatian.</p>
+            <p style="text-align: justify;">To improve the automation of lexicographic workflows,
+               future research should aim to enhance query precision, fine-tune LLMs on corpora rich
+               in idioms, and develop hybrid models that blend rule-based approaches with generative
+               AI. Moreover, expanding studies to include a variety of language models and
+               alternative conceptual frameworks could offer deeper insights into how AI can be
+               effectively employed in lexicographic practice, especially for under-resourced
+               languages like Croatian.</p>
+         </div>
+         <div>
+            <head>Acknowledgements</head>
+            <p style="text-align: justify;">This work has been fully supported by the Croatian
+               Science Foundation under the project Semantic-Syntactic Classification of Croatian
+               Verbs (SEMTACTIC) (IP-2022-10-8074) and by the project Hybrid AI Approaches to
+               Natural Language Processing and Knowledge Generation – HyAI (uniri-iz-25-215), funded
+               by the European Union – NextGenerationEU.</p>
+         </div>
+      </body>
+      <back>
+         <div type="bibliogr">
+            <head>Sources and Literature</head>
+            <listBibl>
+               <head>Literature</head>
+               <bibl>Beliga, Slobodan, and Ivana Filipović Petrović. <hi rend="Emphasis">Large
+                     Language Models Supporting Lexicography: Conceptual Organization of Croatian
+                     Idioms</hi>. In <hi rend="Emphasis">Proceedings of the Conference on Language
+                     Technologies and Digital Humanities</hi>, edited by Špela Arhar Holdt and Tomaž
+                  Erjavec, 23–46. Ljubljana: Institute of Contemporary History, 2024.</bibl>
+               <bibl>Babić, Karlo, Milan Petrović, Slobodan Beliga, et al. “Characterisation of
+                  COVID-19-Related Tweets in the Croatian Language: Framework Based on the
+                  Cro-CoV-cseBERT Model.” <hi rend="italic">Applied Sciences </hi>11 (21) (2021).
+                     <ref target="https://www.mdpi.com/2076-3417/11/21/10442"
+                     >https://www.mdpi.com/2076-3417/11/21/10442</ref>.
+                  doi:10.3390/app112110442.</bibl>
+               <bibl>Baisa, Vít, Marek Blahuš, Michal Cukr, et al. “Automating Dictionary
+                  Production: A Tagalog-English-Korean Dictionary from Scratch.” In <hi
+                     rend="italic">Electronic Lexicography in the 21st Century (eLex 2019): Smart
+                     Lexicography, Conference Proceedings,</hi> edited by Iztok Kosem, Tanara
+                  Zingano Kuhn, Margarita Correia, et al. Sintra, Portugal, 1-3 October 2019,
+                  805–18. Brno: Lexical Computing, 2019. </bibl>
+               <bibl>Brown, Tom B., Benjamin Mann, Nick Ryder, et al. “Language Models Are Few-Shot
+                  Learners.” In <hi rend="italic">Advances in Neural Information Processing
+                     Systems,</hi> edited by Hugo, Larochelle, Marc'Aurelio Ranzato, Raia Hadsell,
+                  et al. Vol. 33, 1877–1901. Curran Associates, Inc, 2020. </bibl>
+               <bibl>De Schryver, Gilles-Maurice. “Generative AI and Lexicography: The Current State
+                  of the Art Using ChatGPT.” <hi rend="italic">International Journal of
+                     Lexicography</hi> 36 (4) (2023): 355–87. <ref
+                     target="https://doi.org/10.1093/ijl/ecad021"
+                     >https://doi.org/10.1093/ijl/ecad021</ref>.</bibl>
+               <bibl>Filipović Petrović, Ivana. 2018. <hi rend="italic">Kada se sretnu
+                     leksikografija i frazeologija: O statusu frazema u rječniku</hi>. Zagreb:
+                  Srednja Europa. </bibl>
+               <bibl>Filipović Petrović, Ivana, Miguel López Otal, and Slobodan Beliga. “Croatian
+                  Idioms Integration: Enhancing the LIdioms Multilingual Linked Idioms Dataset.” In
+                     <hi rend="italic">Proceedings of the 2024 Joint International Conference on
+                     Computational Linguistics, Language Resources and Evaluation</hi> (LREC-COLING
+                  2024), edited by Nicoletta Calzolari, Min-Yen Kan, Veronique Hoste, et al.
+                  4106–12. Torino, Italia: ELRA and ICCL. 2024. <ref
+                     target="https://aclanthology.org/2024.lrec-main.366"
+                     >https://aclanthology.org/2024.lrec-main.366</ref>.</bibl>
+               <bibl>Filipović Petrović, Ivana, and Jelena Parizoska. “Konceptualna Organizacija
+                  Frazeoloških Rječnika u Leksikografiji.” <hi rend="italic">Filologija</hi> 73
+                  (2019): 27–45.</bibl>
+               <bibl>Fuertes-Olivera, Pedro. “Making Lexicography Sustainable: Using ChatGPT and
+                  Reusing Data for Lexicographic Purposes.” <hi rend="italic">Lexikos</hi> 34 (1)
+                  (2024): 123–40. <ref target="https://lexikos.journals.ac.za/pub/article/view/1883"
+                     >https://lexikos.journals.ac.za/pub/article/view/1883</ref>.
+                  doi:10.5788/34-1-1883. </bibl>
+               <bibl>Geeraerts, Dirk. “Principles of Monolingual Lexicography.” In <hi rend="italic"
+                     >Wörterbücher. Ein Internationales Handbuch Zur Lexikographie</hi>, edited by
+                  Franz Josef Hausmann, Vol. 1, 287–96. Berlin: Walter de Gruyter, 1989. </bibl>
+               <bibl>Hargraves, Orin. “Information Retrieval for Lexicographic Purposes.” In <hi
+                     rend="italic">The Routledge Handbook of Lexicography</hi>, edited by Pedro
+                  Fuertes-Olivera, 701–14. Routledge, 2018.</bibl>
+               <bibl>Jakubíček, Miloš, Vojtech Kovář, and Pavel Rychlý. “Million-Click Dictionary:
+                  Tools and Methods for Automatic Dictionary Drafting and Post-Editing. ” In <hi
+                     rend="italic">Book of Abstracts of the 19th EURALEX International
+                  Congress</hi>, 65–67, 2021.</bibl>
+               <bibl>Kilgarriff, Adam, Vojtěch Baisa, Jan Bušta et al. <lb/>“The Sketch Engine: Ten
+                  Years On.” <hi rend="italic">Lexicography</hi> 1 (1) (2014): 7–36. <ref
+                     target="https://doi.org/10.1007/s40607-014-0009-9"
+                     >https://doi.org/10.1007/s40607-014-0009-9</ref>.</bibl>
+               <bibl>Kong, Aobo, Shiwan Zhao, Hao Chen et al. "Better Zero-Shot Reasoning with
+                  Role-Play Prompting." In <hi rend="italic">Proceedings of the 2024 Conference of
+                     the North American Chapter of the Association for Computational Linguistics:
+                     Human Language Technologies (Volume 1: Long Papers)</hi>, 4099–113. Mexico
+                  City, Mexico: Association for Computational Linguistics, 2024. <ref
+                     target="https://aclanthology.org/2024.naacl-long.228/"
+                     >https://aclanthology.org/2024.naacl-long.228/</ref>.</bibl>
+               <bibl>Kosem, Iztok, Polona Gantar, Nataša Logar et al. “Automation of Lexicographic
+                  Work Using General and Specialized Corpora: Two Case Studies.” In <hi
+                     rend="italic">Proceedings of the 16th EURALEX International Congress</hi>,
+                  edited by Andrea Abel, Chiara Vettori and Natascia Ralli, 355–64. Bolzano, Italy:
+                  EURAC Research, 2014.</bibl>
+               <bibl>Krishna, Satyapriya, Chirag Agarwal, and Himabindu Lakkaraju. "Understanding
+                  the Effects of Iterative Prompting on Truthfulness." In <hi rend="italic"
+                     >Proceedings of the 41st International Conference on Machine Learning (ICML
+                     2024)</hi>, 1024, 1–20. Vienna, Austria: JMLR.org, 2024.</bibl>
+               <bibl>Lew, Robert. “ChatGPT as a COBUILD Lexicographer.” <hi rend="italic">Humanities
+                     and Social Sciences Communications</hi> 10 (704) (2023).
+                  doi:10.1057/s41599-023-02119-6.</bibl>
+               <bibl>Ljubešić, Nikola, and Taja Kuzman. “CLASSLA-Web: Comparable Web Corpora of
+                  South Slavic Languages Enriched with Linguistic and Genre Annotation.” In <hi
+                     rend="italic">Proceedings of the 2024 Joint International Conference on
+                     Computational Linguistics, Language Resources and Evaluation</hi> (LREC-COLING
+                  2024), edited by Nicoletta Calzolari, Min-Yen Kan, Veronique Hoste, et al.,
+                  3271–82. Torino, Italia: ELRA and ICCL, 2024. <ref
+                     target="https://aclanthology.org/2024.lrec-main.291"
+                     >https://aclanthology.org/2024.lrec-main.291</ref>.</bibl>
+               <bibl>Ljubešić, Nikola, and Davor Lauc. “BERTić - The Transformer Language Model for
+                  Bosnian, Croatian, Montenegrin, and Serbian.” In <hi rend="italic">Proceedings of
+                     the 8</hi><hi rend="italic superscript">th</hi><hi rend="italic"> Workshop on
+                     Balto-Slavic Natural Language Processing,</hi> edited by Bogdan Babych et al.,
+                  37–42. Kiyv, Ukraine: Association for Computational Linguistics, 2021. <ref
+                     target="https://aclanthology.org/2021.bsnlp-1.5"
+                     >https://aclanthology.org/2021.bsnlp-1.5</ref>.</bibl>
+               <bibl>Madaan, Aman, Niket Tandon, Prakhar et al. SELF-REFINE: Iterative Refinement
+                  with Self-Feedback." In <hi rend="italic">Proceedings of the 37</hi><hi
+                     rend="italic superscript">th</hi><hi rend="italic"> International Conference on
+                     Neural Information Processing Systems (NeurIPS 2023), 2019:1–61.</hi> Red Hook,
+                  NY: Curran Associates Inc., 2023. <ref target="https://selfrefine.info/"
+                     >https://selfrefine.info/</ref>.</bibl>
+               <bibl>McArthur, Tom. <hi rend="italic">Worlds of Reference: Lexicography, Learning,
+                     and Language from the Clay Tablet to the Computer</hi>. Cambridge: Cambridge
+                  University Press, 1986.</bibl>
+               <bibl>Miller, Julia. “Research in the Pipeline: Where Lexicography and Phraseology
+                  Meet.” <hi rend="italic">Lexicography ASIALEX</hi> 5 (1) (2018): 23–33.
+                  doi:10.1007/s40607-018-0044-z.</bibl>
+               <bibl>Moussallem, Diego, Mohamed Sherif, Diego Esteves, et al. “LIdioms: A
+                  Multilingual Linked Idioms Data Set.” In <hi rend="italic">Proceedings of the
+                     Eleventh International Conference on Language Resources and Evaluation</hi>
+                  (LREC 2018), edited by Nicoletta Calzolari, et al., Miyazaki, Japan: European
+                  Language Resources Association (ELRA), 2018. <ref
+                     target="https://aclanthology.org/L18-1392"
+                     >https://aclanthology.org/L18-1392</ref>.</bibl>
+               <bibl>Perak, Benedikt, Slobodan Beliga, and Ana Meštrović. “Incorporating Dialect
+                  Understanding into LLM Using RAG and Prompt Engineering Techniques for Causal
+                  Common-Sense Reasoning.” In <hi rend="italic">Proceedings of the 11th Workshop on
+                     NLP for Similar Languages, Varieties, and Dialects</hi> (VarDial 2024), edited
+                  by Yves Scherrer, Tommi Jauhiainen, Nikola Ljubešić, et al., 220–29. Mexico City,
+                  Mexico: ACL, 2024. <ref target="https://aclanthology.org/2024.vardial-1.19"
+                     >https://aclanthology.org/2024.vardial-1.19</ref>.
+                  doi:10.18653/v1/2024.vardial-1.19. </bibl>
+               <bibl>Rehm, Georg, and Andy Way. <hi rend="italic">European Language Equality: A
+                     Strategic Agenda for Digital Language Equality</hi>. Springer Nature, 2023.
+                  https://doi.org/10.1007/978-3-031-28819-7. doi:10.1007/978-3-031-28819-7.</bibl>
+               <bibl>Rundell, Michael. “Automating the Creation of Dictionaries: Are We Nearly
+                  There?” In <hi rend="italic">Proceedings of the 16th International Conference of
+                     the Asian Association for Lexicography: Lexicography </hi>(ASIALEX 2023
+                  Proceedings), 1–9. Seoul, Korea: Yonsei University, 22–24 June 2023.</bibl>
+               <bibl>Tran, Hanh Thi Hong, Vid Podpečan, Mateja Jemec Tomazin et al. “Definition
+                  Extraction for Slovene: Patterns, Transformer Classifiers, and ChatGPT.” In <hi
+                     rend="italic">Proceedings of the eLex 2023 Conference: Electronic Lexicography
+                     in the 21</hi><hi rend="italic superscript">st</hi><hi rend="italic">
+                     Century</hi>, edited by Marek Medveď, Michal Měchura, Carole Tiberius, et al.,
+                  19–38. Brno: Lexical Computing, 2023.</bibl>
+               <bibl>Ulčar, Matej, and Marko Robnik-Šikonja. “FinEst BERT and CroSloEngual BERT:
+                  Less Is More in Multilingual Models.” In <hi rend="italic">Text, Speech, and
+                     Dialogue: 23</hi><hi rend="italic superscript">rd</hi><hi rend="italic">
+                     International Conference</hi>, <hi rend="italic">TSD 2020, Brno, Czech
+                     Republic, September 8–11, 2020, Proceedings,</hi> 104–11. Berlin, Heidelberg:
+                  Springer-Verlag, 2020. <ref target="https://doi.org/10.1007/978-3-030-58323-1_11"
+                     >https://doi.org/10.1007/978-3-030-58323-1_11</ref>.</bibl>
+               <bibl>Škorić, Mihailo. “Novi jezički modeli za Srpski jezik.” <hi rend="italic"
+                     >Infoteka,</hi> 24, 2024. https://arxiv.org/abs/2402.14379.</bibl>
+            </listBibl>
+            <listBibl>
+               <head>Online sources</head>
+               <bibl>Clark, Kevin, Minh-Thang Luong, Quoc V. Le, et al. “ELECTRA: Pre-training Text
+                  Encoders as Discriminators Rather than Generators.” <hi rend="italic">ICLR,
+                  </hi>2020. <ref target="https://openreview.net/pdf?id=r1xMH1BtvB"
+                     >https://openreview.net/pdf?id=r1xMH1BtvB</ref>.</bibl>
+               <bibl>Davies, Mark. <hi rend="italic">AI/LLM Integration with the Corpora from
+                     English‑Corpora.org, </hi>2025. <ref
+                     target="https://www.english-corpora.org/ai-llms/corpora-vs-llms.html"
+                     >https://www.english-corpora.org/ai-llms/corpora-vs-llms.html</ref>.</bibl>
+               <bibl>Filipović Petrović, Ivana, and Jelena Parizoska. <hi rend="italic">Frazeološki
+                     rječnik hrvatskoga jezika v2</hi>. Zagreb: Hrvatska akademija znanosti i
+                  umjetnosti, 2023. <ref target="https://lexonomy.elex.is/#/frazeoloskirjecnikhr"
+                     >https://lexonomy.elex.is/#/frazeoloskirjecnikhr</ref>.</bibl>
+               <bibl>Ljubešić, Nikola, and Filip Klubička. <hi rend="italic">Croatian Web Corpus
+                     hrWaC 2.1, </hi>2016. <ref target="http://hdl.handle.net/11356/1064"
+                     >http://hdl.handle.net/11356/1064</ref>. (Slovenian language resource
+                  repository CLARIN.SI).</bibl>
+               <bibl>Ljubešić, Nikola, Peter Rupnik, and Taja Kuzman. <hi rend="italic">Croatian Web
+                     Corpus CLASSLA-Web.hr 1.0, </hi>2024. <ref
+                     target="http://hdl.handle.net/11356/1929"
+                     >http://hdl.handle.net/11356/1929</ref>. (Slovenian language resource
+                  repository CLARIN.SI).</bibl>
+               <bibl>Madaan, Aman, Niket Tandon, Prakhar Gupta, et al. <hi rend="italic"
+                     >Self-Refine: Iterative Refinement with Self-Feedback, </hi>2023. arXiv. <ref
+                     target="https://arxiv.org/abs/2303.17651"
+                     >https://arxiv.org/abs/2303.17651</ref>.</bibl>
+               <bibl>Vossen, Piek. “ChatGPT Is a Waste of Time.” <hi rend="italic">VU-Magazine,
+                  </hi>2022. <ref
+                     target="https://vumagazine.nl/professor-piek-vossen-chatgpt-is-a-waste-of-time?lang=en"
+                     >https://vumagazine.nl/professor-piek-vossen-chatgpt-is-a-waste-of-time?lang=en</ref>.</bibl>
+            </listBibl>
+         </div>
+         <div type="summary">
+            <docAuthor>Ivana Filipović Petrović</docAuthor>
+            <docAuthor>Slobodan Beliga</docAuthor>
+            <head>ALI LAHKO UMETNA INTELIGENCA RAZUME HRVAŠKE IDOME? OCENA VELIKIH JEZIKOVNIH
+               MODELOV PRI LEKSIKOGRAFSKIH NALOGAH</head>
+            <head>POVZETEK</head>
+            <p style="text-align: justify;">Prispevek je posvečen preučevanju možnosti uporabe
+               velikih jezikovnih modelov, zlasti modelov GPT podjetja OpenAI, pri leksikografskem
+               delu na področju hrvaških idiomatičnih izrazov. Študija se osredotoča na spletni <hi
+                  rend="italic">Frazeološki slovar hrvaškega jezika</hi> in ocenjuje, kako zmogljivi
+               so veliki jezikovni modeli pri (1) identifikaciji pomenskih ekvivalentov med idiomi
+               ter (2) ustvarjanju konceptualnih kategorij (pomenskih polj) ter razvrščanju idiomov
+               vanje. Končni cilj je zmanjšati količino ročnega dela pri leksikografskih delovnih
+               postopkih ter hkrati ohraniti kakovost in zanesljivost. Raziskava se začne s
+               primerjalnim vrednotenjem treh hrvaških odprtokodnih velikih jezikovnih modelov
+               (Cro-CoV-cseBERT, BERTić in gpt2-vrabac) na podlagi njihove uspešnosti pri
+               razvrščanju idiomov po semantični podobnosti. Ti modeli so kljub učenju na korpusih v
+               hrvaškem jeziku slabše opravili naloge, ki so vključevale idiomatične pomene. Njihove
+               omejitve so posledica neustreznih podatkov za učenje, ki ne vsebujejo dovolj idiomov,
+               in nezmožnosti zajemanja figurativnih pomenov, ki so po svoji naravi zapleteni in
+               odvisni od konteksta. Pri naslednjih poskusih z modeloma GPT-3.5-turbo in GPT-4o so
+               bili doseženi bistveno boljši rezultati pri nalogah semantične podobnosti in
+               kategorizacije. Z uporabo izpopolnjenega inženiringa pozivov ( <hi rend="italic"
+                  >prompt engineering</hi>) – predvsem načina pozivanja z igranjem vlog (<hi
+                  rend="italic">role-play prompting</hi>) – so modeli GPT dosegli visoko stopnjo
+               ujemanja s človeškim razvrščanjem idiomov v pomenska polja. Model GPT-4o je na primer
+               dosegel 98-odstotno ujemanje s človeškim razvrščanjem pri nalogi razvrščanja idiomov
+               v vnaprej določene kategorije, kot so <hi rend="smallcaps">prijaznost, norost</hi> in
+                  <hi rend="smallcaps">konflikt</hi>. Druga glavna naloga je preverjala zmožnost
+               modelov GPT, da samostojno razvrščajo idiome po pomenu in pomenskim poljem
+               dodeljujejo ustrezna imena. Rezultati prvih poskusov z modelom GPT-3,5 turbo so
+               vsebovali nedosledne in preveč specifične kategorije. Model GPT-4o pa je z
+               izboljšanim pozivom, ki je poudarjal pojmovno skladnost in spodbujal razvrščanje v
+               skupine po skupnem pomenu, ustvaril leksikografsko uporabne in dobro strukturirane
+               skupine. To kaže na uspešno uporabo izpopolnjenega pozivanja – metode, pri kateri je
+               v proces vključen človek ( <hi rend="italic">human-in-the-loop</hi>) in pri kateri se
+               pozivi vedno znova spreminjajo na podlagi analize rezultatov modela. Kljub obetavnim
+               rezultatom ostaja nerešenih več izzivov, saj modeli občasno napačno razvrščajo idiome
+               zaradi zanašanja na dobesedne pomene in nepoznavanja kulturnega konteksta. Poleg tega
+               je konceptualna organizacija idiomov še vedno subjektivna naloga, pri kateri je
+               potrebna strokovna človeška presoja. Študija tako poudarja pomen hibridnih delovnih
+               procesov, pri katerih so veliki jezikovni modeli leksikografom v pomoč, vendar jih ne
+               nadomestijo. Ugotovitve prispevajo k širši razpravi o umetni inteligenci v
+               leksikografiji, zlasti pri jezikih z nezadostnimi viri, kot je hrvaščina. Študija je
+               pokazala, da je za čim večjo učinkovitost in kakovost razvoja slovarjev s pomočjo
+               umetne inteligence priporočljivo natančno prilagoditi velike jezikovne modele
+               korpusom z veliko idiomi ter izboljšati strategije oblikovanje pozivov. </p>
+         </div>
+         <div type="appendix">
+            <head>Appendix. Full prompt versions used for the research</head>
+            <p style="text-align: justify;">Prompt for Task one: Linking idioms to predefined
+               semantic fields</p>
+            <p style="text-align: justify;">Croatian (original):<lb/>Preuzmi ulogu leksikografa koji
+               izrađuje novi konceptualno organizirani frazeološki rječnik hrvatskoga jezika.
+               Odgovaraj na hrvatskom jeziku. Zadan je popis unaprijed definiranih semantičkih
+               polja. Poveži zadani frazem s najprikladnijim semantičkim poljem s popisa. Odgovori
+               odabirom samo jednog ponuđenog semantičkog polja.</p>
+            <p style="text-align: justify;">English (translation):<lb/>Take on the role of a
+               lexicographer creating a new conceptually organized phraseological dictionary of
+               Croatian. Please respond in Croatian. A list of predefined semantic fields is
+               provided. Link the given idiom to the most appropriate semantic field from the list.
+               Respond by selecting only one of the offered semantic fields.</p>
+            <p style="text-align: justify;">Prompt for Task two (first version): Grouping of idioms
+               into concepts</p>
+            <p style="text-align: justify;">Croatian (original):<lb/>Poslat ću ti popis hrvatskih
+               frazema. Trebaš ih grupirati po značenju u semantička polja i ta polja imenovati na
+               hrvatskom jeziku.<lb/>Pokušaj frazeme sličnog značenja grupirati zajedno i dodijeliti
+               im dovoljno specifičan naziv koji opisuje njihovo značenje, npr. sreća, tuga, svađa,
+               prepreka, ljubav itd.</p>
+            <p style="text-align: justify;">English (translation):<lb/>I will send you a list of
+               Croatian idioms. You need to group them by meaning into semantic fields and give
+               those fields names in Croatian.<lb/>Try to group idioms with similar meanings
+               together and assign them a sufficiently specific name that describes their meaning,
+               such as happiness, sadness, quarrel, obstacle, love, etc.</p>
+            <p style="text-align: justify;">Prompt for Task two (refined version): Specific grouping
+               with emphasis on concept clarity</p>
+            <p style="text-align: justify;">Croatian (original):<lb/>Pokušaj grupirati što više
+               frazema pod isto semantičko polje ako imaju zajedničko značenje.<lb/>Koncepti neka
+               budu konkretni i upotrebljivi, a ne preopćeniti (npr. emocije, osjećaji), osim ako to
+               nije nužno.</p>
+            <p style="text-align: justify;">English (translation):<lb/>Try to group as many idioms
+               as possible under the same semantic field if they share a common meaning.<lb/>The
+               concepts should be concrete and useful, rather than overly general (e.g., emotions,
+               feelings), unless generality is necessary.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

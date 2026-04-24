@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Unlocking History: A Redesign and Content Analysis</title>
+            <author>
+               <forename>Katja</forename>
+               <surname>Meden</surname>
+               <roleName>Research Assistant</roleName>
+               <affiliation>Institute of Contemporary History</affiliation>
+               <address>
+                  <addrLine>Privoz 11</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <email>katja.meden@inz.si</email>
+            </author>
+            <author>
+               <forename>Ana</forename>
+               <surname>Cvek</surname>
+               <roleName>Assistant</roleName>
+               <affiliation>Institute of Contemporary History</affiliation>
+               <address>
+                  <addrLine>Privoz 11</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <email>Ana.Cvek@inz.si</email>
+            </author>
+            <author>
+               <forename>Vid</forename>
+               <surname>Klopčič</surname>
+               <roleName>Expert Associate</roleName>
+               <affiliation>Faculty of Computer and Information Science, University of
+                  Ljubljana</affiliation>
+               <address>
+                  <addrLine>Večna pot 113</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <email>vid.klopcic@fri.uni-lj.si</email>
+            </author>
+            <author>
+               <forename>Mihael</forename>
+               <surname>Ojsteršek</surname>
+               <roleName>Assistant</roleName>
+               <affiliation>Institute of Contemporary History</affiliation>
+               <address>
+                  <addrLine>Privoz 11</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <email>mihael.ojstersek@inz.si</email>
+            </author>
+            <author>
+               <forename>Mojca</forename>
+               <surname>Šorn</surname>
+               <roleName>PhD</roleName>
+               <roleName>Research Fellow</roleName>
+               <affiliation>Institute of Contemporary History</affiliation>
+               <address>
+                  <addrLine>Privoz 11</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <email>mojca.sorn@inz.si</email>
+            </author>
+            <author>
+               <forename>Andrej</forename>
+               <surname>Pančur</surname>
+               <roleName>PhD</roleName>
+               <roleName>Research Fellow</roleName>
+               <affiliation>Institute of Contemporary History</affiliation>
+               <address>
+                  <addrLine>Privoz 11</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <email>andrej.pancur@inz.si</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2025-10-29</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+               <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               <address>
+                  <addrLine>Privoz 11</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>http://ojs.inz.si/pnz/article/view/4499</pubPlace>
+            <date>2025</date>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+            <title xml:lang="en">Contributions to Contemporary History</title>
+            <biblScope unit="volume">65</biblScope>
+            <biblScope unit="issue">3</biblScope>
+            <idno type="ISSN">2463-7807</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>No source, born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc xml:lang="en">
+            <p>Contributions to Contemporary History is one of the central Slovenian scientific
+               historiographic journals, dedicated to publishing articles from the field of
+               contemporary history (the 19th, 20th, and 21st century).</p>
+            <p>The journal is published three times per year in Slovenian and in the following
+               foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak and
+               Czech. The articles are all published with abstracts in English and Slovenian as well
+               as summaries in English.</p>
+         </projectDesc>
+         <projectDesc xml:lang="sl">
+            <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+               zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19., 20. in 21.
+               stoletje).</p>
+            <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+               angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina in
+               češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki v
+               angleščini.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="sl"/>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>SIstory</term>
+               <term>redesign</term>
+               <term>information systems</term>
+               <term>metadata</term>
+               <term>history</term>
+            </keywords>
+            <keywords xml:lang="sl">
+               <term>SIstory</term>
+               <term>prenova</term>
+               <term>podatkovni sistemi</term>
+               <term>metapodatki</term>
+               <term>zgodovinopisje</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change><date>2026-03-03T10:26:33Z</date>
+               <name>Mihael Ojsteršek</name>
+               <desc>Pretvorba iz DOCX v TEI, dodatno označevanje</desc>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docAuthor>Katja Meden<note place="foot" xml:id="ftn1" n="*"><hi rend="bold">Research
+                  Assistant, Institute of Contemporary History, Privoz 11, SI-1000, Ljubljana; PhD
+                  student, Department of Knowledge Technologies, Jožef Stefan Institute, Jamova
+                  cesta 39, SI-1000, Ljubljana;</hi><hi rend="bold">Jozef Stefan International
+                  Postgraduate School, Jamova cesta 39, SI-1000 Ljubljana, <ref
+                     target="mailto:katja.meden@inz.si">katja.meden@inz.si</ref>; ORCID: <ref
+                     target="https://orcid.org/0000-0002-0464-9240"
+               >0000-0002-0464-9240</ref></hi></note></docAuthor>
+         <docAuthor>Ana Cvek<note place="foot" xml:id="ftn2" n="♦"><hi rend="bold">Assistant,
+                  Institute of Contemporary History, Privoz 11, SI-1000, Ljubljana, <ref
+                     target="mailto:ana.cvek@inz.si">ana.cvek@inz.si</ref>; ORCID: <ref
+                     target="https://orcid.org/0009-0002-7927-3783"
+               >0009-0002-7927-3783</ref></hi></note>
+         </docAuthor>
+         <docAuthor>Vid Klopčič<note place="foot" xml:id="ftn3" n="°"><hi rend="bold">Expert
+                  Associate, Faculty of Computer and Information Science, University of Ljubljana,
+                  Večna pot 113, SI-1000, Ljubljana, <ref target="mailto:vid.klopcic@fri.uni-lj.si"
+                     >vid.klopcic@fri.uni-lj.si</ref></hi></note>
+         </docAuthor>
+         <docAuthor>Mihael Ojsteršek<note place="foot" xml:id="ftn4" n="•"><hi rend="bold"
+                  >Assistant, Institute of Contemporary History, Privoz 11, SI-1000, Ljubljana, <ref
+                     target="mailto:mihael.ojstersek@inz.si">mihael.ojstersek@inz.si</ref>; ORCID:
+                     <ref target="https://orcid.org/0009-0007-7233-2601"
+                  >0009-0007-7233-2601</ref>.</hi></note>
+         </docAuthor>
+         <docAuthor>Matevž Pesek<note place="foot" xml:id="ftn5" n="♠"><hi rend="bold">PhD,
+                  Assistant Professor, Faculty of Computer and Information Science, University of
+                  Ljubljana, Večna pot 113, SI-1000, Ljubljana, <ref
+                     target="mailto:matevz.pesek@fri.uni-lj.si">matevz.pesek@fri.uni-lj.si</ref>;
+                  ORCID: <ref target="https://orcid.org/0000-0001-9101-0471"
+                     >0000-0001-9101-0471</ref></hi></note>
+         </docAuthor>
+         <docAuthor>Mojca Šorn<note place="foot" xml:id="ftn6" n="▼"><hi rend="bold">PhD, Research
+                  Fellow, Institute of Contemporary History, Privoz 11, SI-1000, Ljubljana,
+                  </hi><ref target="mailto:mojca.sorn@inz.si"><hi rend="bold"
+                  >mojca.sorn@inz.si</hi></ref><hi rend="bold">; ORCID: </hi><ref
+                  target="https://orcid.org/0000-0002-4457-1118"><hi rend="bold"
+                     >0000-0002-4457-1118</hi></ref></note></docAuthor>
+         <docAuthor>Andrej Pančur<note place="foot" xml:id="ftn7" n="◊"><hi rend="bold">PhD,
+                  Research Fellow, Institute of Contemporary History, Privoz 11, SI-1000, Ljubljana,
+                  </hi><ref target="mailto:andrej.pancur@inz.si"><hi rend="bold"
+                     >andrej.pancur@inz.si</hi></ref><hi rend="bold">; ORCID:</hi>
+               <ref target="https://orcid.org/0000-0001-6143-6877"><hi rend="bold"
+                     >0000-0001-6143-6877</hi></ref></note></docAuthor>
+         <docImprint>
+            <idno type="cobissType">Cobiss tip: 1.01</idno>
+            <idno type="DOI">https://doi.org/10.51663/pnz.65.3.04</idno>
+         </docImprint>
+         <div type="abstract" xml:lang="sl">
+            <head>IZVLEČEK</head>
+            <head>ODPIRANJE ZGODOVINE: PRENOVA IN ANALIZA VSEBINE PORTALA SISTORY 5.0</head>
+            <p style="text-align: justify;"><hi rend="italic">Portal Zgodovina Slovenije –
+                  SIstory.si predstavlja pomembno interdisciplinarno zbirko publikacij, podatkov,
+                  zbirk in metapodatkov, predvsem na področju zgodovinopisja. Zbirka zajema širok
+                  spekter zgodovinskih publikacij ter metapodatke, ki jih opisujejo. Nedavna prenova
+                  portala SIstory je bila osredotočena na prizadevanja, da podatkov ne bi ponudili
+                  le kot zbirke zgodovinskih publikacij, temveč bi omogočili tudi večjo preglednost,
+                  interoperabilnost in dostopnost raziskovalnih podatkov širšemu občinstvu, tako
+                  raziskovalcem kot splošni javnosti. Prispevek predstavlja proces prenove portala
+                  in njegove tehnične izboljšave ter poglobljeno analizo vsebin, ki jih portal
+                  ponuja v sedanji obliki.</hi></p>
+            <p style="text-align: justify;"><hi rend="italic">Ključne besede: SIstory, prenova,
+                  podatkovni sistemi, metapodatki, zgodovinopisje</hi></p>
+         </div>
+         <div type="abstract" xml:lang="en">
+            <head>ABSTRACT</head>
+            <p style="text-align: justify;"><hi rend="italic">The portal History of Slovenia -
+                  SIstory.si is an interdisciplinary collection of historical publications, data,
+                  collections and metadata that has been operating since 2008. The portal
+                  encompasses a diverse range of historical information, including publications,
+                  images, extensive databases, and comprehensive metadata that describe the objects.
+                  The recent redesign of the SIstory portal has focused on ongoing efforts to offer
+                  the data not only as a collection of historical publications but also to enable
+                  greater transparency, interoperability, and availability of research data to a
+                  broader audience. This paper examines the portal’s redesign, focusing on technical
+                  improvements, and then provides an in-depth analysis of its content.</hi></p>
+            <p style="text-align: justify;"><hi rend="italic">Keywords: SIstory, redesign,
+                  information systems, metadata, history</hi></p>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>Introduction</head>
+            <p style="text-align: justify;">The Research Infrastructure of Slovenian Historiography
+               (RI INZ) was established in September 2006. While the foundations were laid at that
+               time, its primary aim – the digitisation and online publication of frequently used
+               Slovenian historical content – was only defined and developed in the following years.
+               An important aspect of the infrastructure’s early development was the popularisation
+               and promotion of historical–scientific research among the general public and the
+               research community, which was to be achieved through a digital portal or a similar
+               application. The online research and educational portal History of Slovenia – SIstory
+               was launched in September 2008. A test version of the portal was presented to the
+               Institute’s researchers at the beginning of 2008, allowing them to test the portal’s
+               functionality, logical sequence of functions, content hierarchy, links, and the
+               various search methods.<note place="foot" xml:id="ftn8" n="1"> Institute of
+                  Contemporary History, <hi rend="italic">Poročilo o doseženih ciljih in rezultatih
+                     v letu 2008</hi> (Ljubljana: Institute of Contemporary History, 2009), 6, 31,
+                  32, accessed on 26 February 2025, <ref
+                     target="https://inz.si/wp-content/uploads/2025/06/2008.pdf"
+                     >https://inz.si/wp-content/uploads/2025/06/2008.pdf</ref>. </note></p>
+            <p style="text-align: justify;">The main content of the portal at the time consisted of
+               a combination of historical literature, historical sources and technical
+               infrastructure services. Its main goal was to provide digitised and freely accessible
+               research results and sources. Emphasis was placed on preserving older, less easily
+               accessible sources, thereby safeguarding cultural and scientific heritage.<note
+                  place="foot" xml:id="ftn9" n="2"> Mojca Šorn, Andrej Pančur, and Mitja Sunčič,
+                  “SIstory: arhivsko gradivo in e–humanistika,” <hi rend="italic">Arhivi</hi> 34<hi
+                     rend="italic">, </hi>No. 1 (2011): 145.</note> One of the first significant
+               projects to populate the portal was the comprehensive digitisation of the entire
+               edition of the scientific journal <hi rend="italic">Prispevki za novejšo
+                  zgodovino</hi> (<hi rend="italic">Contributions to Contemporary History</hi>),
+               which includes issues from 1957 to the present day. In the following years, efforts
+               expanded beyond internal production to include numerous Slovenian and international
+               editorial offices, institutions, and individual collectors, in order to obtain
+               verified historiographical works and materials. Alongside content acquisition, the
+               necessary copyright permissions for publication were systematically obtained and
+                  recorded.<note place="foot" xml:id="ftn10" n="3"> Mojca Šorn and Katja Meden,
+                  “Portal Zgodovina Slovenije – SIstory in avtorske pravice,” <hi rend="italic"
+                     >Prispevki za novejšo zgodovino</hi> 61, No. 2 (2021): 193–228.</note></p>
+            <p style="text-align: justify;"> The operation and design of the SIstory portal
+               originally focused on supporting the research processes of the Institute’s research
+               community members. Following a highly successful initial response from the public and
+               related institutions, SIstory gradually expanded beyond the boundaries of “written
+               history,” incorporating interactive presentations of historical content supported by
+               emerging technologies.<note place="foot" xml:id="ftn11" n="4"> Šorn et al.,
+                  “SIstory,” 145.</note> With data preservation and research community integration
+               at the core of its development, SIstory became the primary output of the newly
+               established Slovenian national node of the DARIAH ERIC research infrastructure
+                  (DARIAH-SI),<note place="foot" xml:id="ftn12" n="5">
+                  <hi rend="italic">Dariah-SI</hi>, accessed on 26 February 2025, <ref
+                     target="http://www.dariah.si/">http://www.dariah.si/</ref>. </note> with the
+               Institute (specifically RI INZ) serving as the national coordinating
+                  institution.<note place="foot" xml:id="ftn13" n="6"> Andrej Pančur and Mojca Šorn,
+                  “Na začetku je bil SIstory: Raziskovalna infrastruktura slovenskega
+                  zgodovinopisja,” in <hi rend="italic">Inštitut za novejšo zgodovino: 60 let
+                     mislimo preteklost</hi> (Ljubljana, Institute of Contemporary History, 2019),
+                  47–58, <ref target="https://hdl.handle.net/11686/46230"
+                     >https://hdl.handle.net/11686/46230</ref>.</note></p>
+            <p style="text-align: justify;">The redesign presented in this paper focuses on
+               technological advances to improve the accessibility of the data. Furthermore, the
+               data available on the portal has not yet been fully explored; therefore, part of our
+               work consists of a content analysis. Finally, we are focusing our efforts on the
+               transparency, reuse, and accessibility of data, as well as user-friendly interaction
+               with the portal. The rest of the paper is structured as follows: the opening Section  outlines
+               the history and placement of the portal within the field of digital humanities, along
+               with a brief overview of the portal’s technical development. The next Section presents the
+               redesign process, providing an overview of the upgrade components (technical
+               foundations and metadata), as well as basic content statistics. The following Section discusses
+               the content analysis, highlighting notable trends and their significance for the
+               portal. Finally, the last Section provides an overview of the paper and presents some
+               options for future work.</p>
+         </div>
+         <div>
+            <head>History of the SIstory Portal</head>
+            <p style="text-align: justify;">The landscape of digital humanities in Slovenia during
+               SIstory’s early development differed significantly from its current state. At the
+               time, the field was still in its early stages, with limited infrastructure and
+               awareness, and only beginning to establish itself within academic and research
+               institutions. Hadalin<note place="foot" xml:id="ftn14" n="7"> Jurij Hadalin, “The
+                  Slovenian Digital Humanities Landscape? A Brief Overview,” in Torsten Kahlert and
+                  Claudia Prinz, eds., <hi rend="italic">The Status Quo of Digital Humanities</hi>
+                  (Berlin: H-Soz–Kult, 2015), 154–69, accessed on 26 February 2025, <ref
+                     target="https://edoc.hu-berlin.de/server/api/core/bitstreams/febdd0e3-5c2b-4eb8-8b30-ea8f1b36cae7/content"
+                     >https://edoc.hu-berlin.de/server/api/core/bitstreams/febdd0e3-5c2b-4eb8-8b30-ea8f1b36cae7/content</ref>.
+               </note> details the state of digital humanities in Slovenia at that period,
+               highlighting key institutions (such as ARNES and the Jožef Stefan Institute), and
+               researchers who, despite general scepticism, advocated for the integration of this
+               emerging field into mainstream science and curricula. Additionally, the author
+               outlines essential services and research infrastructures such as DARIAH-SI and
+               CLARIN.SI, which remain fundamental for open research data preservation and are vital
+               to the field’s growth. He also emphasises the SIstory portal as the “central hub for
+               digital history” and outlines its importance as a collection of materials relevant
+               not only to the research community of Slovenian history but also to wider research
+                  communities.<note place="foot" xml:id="ftn15" n="8"> Ibidem, 165. In his paper,
+                  the author emphasises the relevance of materials to the broader community of the
+                  common Yugoslav and Austro-Hungarian state.</note></p>
+            <p style="text-align: justify;"> It is important to note that while the core features of
+               SIstory, particularly its primary purpose of digitising historical sources,<note
+                  place="foot" xml:id="ftn16" n="9"> Mojca Šorn and Ana Cvek, <hi rend="italic"
+                     >Vsebine in njihovo razporejanje na portalu Zgodovina Slovenije - SIstory (s
+                     poudarkom na publikacijah)</hi> (Ljubljana: Institute of Contemporary History,
+                  2023), accessed on 26 February 2025, <ref
+                     target="https://sistory.github.io/Vsebine_SIstory/index.html"
+                     >https://sistory.github.io/Vsebine_SIstory/index.html</ref>. </note> align with
+               both traditional research data repositories and digital libraries, SIstory was never
+               intended to be either. As evidenced by various sources from the time of its initial
+                  launch,<note place="foot" xml:id="ftn17" n="10"> STA, “SIstory – spletni portal
+                  slovenskega zgodovinopisja,” <hi rend="italic">Siol.net</hi>, accessed on 26
+                  February 2025, <ref
+                     target="https://siol.net/novice/novice/sistory-spletni-portal-slovenskega-zgodovinopisja-336634"
+                     >https://siol.net/novice/novice/sistory-spletni-portal-slovenskega-zgodovinopisja-336634</ref>.
+               </note> the portal was always meant to be co-created with users and the research
+               community. Its modular design was specifically developed to facilitate direct
+               engagement with users. This is further supported by the diversity and volume of
+               materials, databases, and interactive technologies that have been, and in many cases
+               remain, integral to the portal’s ongoing development:</p>
+            <list rend="bulleted">
+               <item><hi rend="bold">ZgoLj (Zgodovina Ljubljane – History of Ljubljana):</hi> ZgoLj
+                  was a mobile application developed as part of SIstory, which supported augmented
+                  reality and enabled a virtual tour of Ljubljana’s historical centre, based on old
+                  photographs, provided by the Historical Archives of Ljubljana.<note place="foot"
+                     xml:id="ftn18" n="11"> Hadalin, “The Slovenian Digital Humanities Landscape?.”
+                     Andrej Pančur, <hi rend="italic">SIstory augmented reality 1.0 XML Schema,
+                        Documentation</hi> (Ljubljana: Institute of Contemporary History, 2013),
+                     accessed on 26 February 2025, <ref target="https://hdl.handle.net/11686/20385"
+                        >https://hdl.handle.net/11686/20385</ref>. Andrej Pančur, <hi rend="italic"
+                        >SIstory nadgrajena resničnost 1.0 XML shema</hi> (Ljubljana: Institute of
+                     Contemporary History, 2013), accessed on 26 February 2025, <ref
+                        target="https://hdl.handle.net/11686/20369"
+                        >https://hdl.handle.net/11686/20369</ref>. </note></item>
+               <item><hi rend="bold">Interactive exhibitions:</hi> Utilising similar technologies,
+                  SIstory hosted interactive exhibitions, such as “Slovenians and the First World
+                  War 1914–1918”.<note place="foot" xml:id="ftn19" n="12"> Marko Štepec and Mojca
+                     Turk, <hi rend="italic">Slovenians and the First World War</hi>, 2011, accessed
+                     on 26 February 2025, <ref target="https://hdl.handle.net/11686/1160"
+                        >https://hdl.handle.net/11686/1160</ref>. </note> Due to the obsolescence of
+                  the technologies used to create these exhibitions, such examples only contain
+                  their metadata records. </item>
+               <item><hi rend="bold">History Citation Index (HIS)</hi>: Almost simultaneously with
+                  the development of SIstory, another important database – History Citation Index
+                     (<hi rend="italic">Zgodovinarski indeks citiranja</hi> or ZIC) – was in
+                  development. The primary purpose of ZIC was to create a database of citations of
+                  Slovenian humanities production, filling the gap between the citation
+                     databases<note place="foot" xml:id="ftn20" n="13"> Citation databases such as
+                     Web of Science and Scopus tend to favour research articles as the main form of
+                     publication in most academic fields. However, in the humanities, the primary
+                     form of scholarly publishing is the scientific monograph, which is often
+                     excluded from citation indexes or more difficult to track.</note> recognised by
+                  the Slovenian Research Agency (ARIS, then ARRS) and humanities publishing
+                     practices.<note place="foot" xml:id="ftn21" n="14"> Katja Meden and Ana Cvek,
+                     “Nadgradnja zgodovinarskega indeksa citiranosti,” <hi rend="italic">Slovenščina
+                        2.0 </hi>9, No. 1 (2021): 216–35.</note> The database was later also
+                  recognised by ARIS and remains regularly updated to this day.<note place="foot"
+                     xml:id="ftn22" n="15"> Ibid. <hi rend="italic">ZIC – Zgodovinski indeks
+                        citiranosti</hi>, accessed on 26 February 2025, <ref
+                        target="https://zic.sistory.si/">https://zic.sistory.si/</ref>. Hadalin,
+                     “The Slovenian Digital Humanities Landscape?.” <hi rend="italic">SIstory.si –
+                        Culture of Slovenia,</hi> accessed on 26 February 2025, <ref
+                        target="https://www.culture.si/en/Sistory.si"
+                        >https://www.culture.si/en/SIstory.si</ref>.</note></item>
+               <item><hi rend="bold">Database of WWI victims</hi><hi rend="bold">:</hi> A national,
+                  freely accessible database of deceased individuals from the area within the
+                  borders of the Republic of Slovenia, resulting from the long-standing project <hi
+                     rend="italic">Zbiranje podatkov o vojaških žrtvah 1. svetovne vojne na
+                     Slovenskem</hi> (2015–2018). The time period encompasses data from the war
+                  period, but also includes deaths resulting from the war’s effects after 1918.<note
+                     place="foot" xml:id="ftn23" n="16"> Andrej Pančur, Neja Blaj Hribar, Mojca
+                     Šorn, and Mihael Ojsteršek, “Projekt Vojaške žrtve prve svetovne vojne na
+                     Slovenskem,” in Darja Fišer and Tomaž Erjavec, eds., <hi rend="italic"
+                        >Proceedings of the Conference on Language Technologies and Digital
+                        Humanities: September 24</hi><hi rend="italic superscript">th</hi><hi
+                        rend="italic">–25</hi><hi rend="italic superscript">th</hi><hi rend="italic"
+                        > 2020, Ljubljana, Slovenia</hi> (Ljubljana: Institute of Contemporary
+                     History, 2020), 136–40, <ref
+                        target="https://nl.ijs.si/jtdh20/pdf/JT-DH_2020_Pancur-et-al_Projekt-Vojaske-zrtve-prve-svetovne-vojne-na-Slovenskem.pdf"
+                        >https://nl.ijs.si/jtdh20/pdf/JT-DH_2020_Pancur-et-al_Projekt-Vojaske-zrtve-prve-svetovne-vojne-na-Slovenskem.pdf</ref>.
+                        <hi rend="italic">Vojaške žrtve 1. svetovne vojne na Slovenskem</hi>
+                     (Ljubljana: Institute of Contemporary History), <hi rend="italic">Zgodovina
+                        Slovenije – SIstory</hi>, <ref target="https://www.sistory.si/ww1"
+                        >https://www.sistory.si/ww1</ref>, 13 November 2018. </note>
+               </item>
+               <item><hi rend="bold">Database of WWII victims</hi>: The database results from
+                  research conducted between 1997 and 2012 as part of four major research projects.
+                  It is a systematic record of military and civilian persons who had the right of
+                  residence in the present-day Republic of Slovenia during the Second World War and
+                  the immediate post-war period (May 1940 – January 1946) and lost their lives due
+                  to wartime and (revolutionary) post-war violence or the consequences of war. In
+                  2025, both the WWI and WWII databases were redesigned to provide not only
+                  unrestricted access to previously limited data but also to enable public
+                  participation. The updated version now allows users to contribute additional
+                  information, comments and personal narratives within designated layers, promoting
+                  a more comprehensive and collaborative approach to historical documentation.<note
+                     place="foot" xml:id="ftn24" n="17"> Internal database of the Institute of
+                     Contemporary History (INZ): Tadeja Tominšek Čehulić, Mojca Šorn, Marta Rendla,
+                     Dunja Dobaja, Tamara Logar: Smrtne žrtve med prebivalstvom na območju Republike
+                     Slovenije med drugo svetovno vojno in neposredno po njej
+                  [Database].</note></item>
+               <item><hi rend="bold">Population censuses</hi> – A database of digitised population
+                  census questionnaires for Ljubljana. A population census was carried out for the
+                  first time in 1830, based on an imperial patent from 1804 and new instructions
+                  issued in 1829. The statistical questionnaires for the town of Ljubljana (<hi
+                     rend="italic">Conscriptions Aufnahms Bogen</hi>) have been fully preserved and
+                  are now organised into eleven census units, according to Ljubljana’s cadastral
+                  municipalities and house numbers.<note place="foot" xml:id="ftn25" n="18"> Andrej
+                     Pančur, “Popisi prebivalstva Slovenije 1830–1931: Orodje za transkribiranje
+                     historičnih demografskih podatkov,” in Tomaž Erjavec and Darja Fišer, eds., <hi
+                        rend="italic">Zbornik Konference Jezikovne Tehnologije in Digitalna
+                        Humanistika, 29. September–1. Oktober 2016, Filozofska Fakulteta, Univerza v
+                        Ljubljani, Ljubljana, Slovenija = Proceedings of the Conference on Language
+                        Technologies &amp; Digital Humanities, September 29</hi><hi
+                        rend="italic superscript">th</hi><hi rend="italic">–October 1</hi><hi
+                        rend="italic superscript">st</hi><hi rend="italic">, 2016 Faculty of Arts,
+                        University of Ljubljana, Ljubljana, Slovenia</hi> (Ljubljana: Ljubljana
+                     University Press, Faculty of Arts, 2016), 133–41, <ref
+                        target="http://www.sdjt.si/wp/wp-content/uploads/2016/09/JTDH-2016_Pancur_Popisi-prebivalstva-Slovenije-1830-1931.pdf"
+                        >http://www.sdjt.si/wp/wp-content/uploads/2016/09/JTDH-2016_Pancur_Popisi-prebivalstva-Slovenije-1830-1931.pdf</ref>.</note></item>
+            </list>
+            <p style="text-align: justify;">While the development and release of the abovementioned
+               databases (ZIC, Popisi, WWI &amp; WWII) were all carried out under the SIstory
+               banner, they remained standalone until recently,<note place="foot" xml:id="ftn26"
+                  n="19"> In 2024, the WWI and WWII databases were updated and directly connected to
+                  SIstory.</note> complementing the core of the SIstory portal – the publications.
+               In this paper, we focus on the development history, update, and subsequent analysis
+               of this central component.</p>
+            <div>
+               <head>Development history of the SIstory portal</head>
+               <p style="text-align: justify;"> The SIstory portal has a relatively long history of
+                  development. Since its initial release in 2008, several versions of the portal
+                  have been released as individual upgrades. In 2011, the first software and
+                  technological upgrade was carried out, establishing the latest standards and
+                  enabling faster and more stable system operation. This upgrade also played an
+                  essential role in establishing a national digital infrastructure for the
+                  humanities and arts<note place="foot" xml:id="ftn27" n="20"> Ana Cvek, Mihael
+                     Ojsteršek, and Mojca Šorn, <hi rend="italic">Izhodišča metapodatkovnih sistemov
+                        portala Zgodovina Slovenije – SIstory (2008–2016)</hi> (Ljubljana: Institute
+                     of Contemporary History, 2022), accessed on 26 February 2025, <ref
+                        target="https://sidih.github.io/izhodisca/index.html"
+                        >https://sidih.github.io/izhodisca/index.html</ref>.</note>. The first
+                  upgrade consisted of several components:</p>
+               <list rend="bulleted">
+                  <item>Content administration in Apache SOLR<note place="foot" xml:id="ftn28"
+                        n="21">
+                        <hi rend="italic">Overview of the Solr Admin UI | Apache Solr Reference
+                           Guide 6.6,</hi>
+                        <ref
+                           target="https://solr.apache.org/guide/6_6/overview-of-the-solr-admin-ui.html"
+                           >https://solr.apache.org/guide/6_6/overview-of-the-solr-admin-ui.html</ref>.</note>
+                     and upgrading folder structures and file names.</item>
+                  <item>Implementation of the Dublin Core metadata standard (DC)<note place="foot"
+                        xml:id="ftn29" n="22">
+                        <hi rend="italic">DCMI: Dublin Core™ Metadata Element Set, Version 1.1:
+                           Reference Description</hi>, <ref
+                           target="https://www.dublincore.org/specifications/dublin-core/dces/"
+                           >https://www.dublincore.org/specifications/dublin-core/dces/</ref>.</note>.
+                     The original schema contained all 15 basic DC elements. A year later, the
+                     original schema was upgraded with elements from the qualified DCMI Metadata
+                     Terms (DCTERMS<note place="foot" xml:id="ftn30" n="23">
+                        <hi rend="italic">DCMI: DCMI Metadata Terms</hi>, <ref
+                           target="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/"
+                           >https://www.dublincore.org/specifications/dublin-core/dcmi-terms/</ref>.</note>).</item>
+                  <item>Creation of a unique and permanent URN – Uniform Resource Name.</item>
+                  <item>Introduction of the Sphinx<note place="foot" xml:id="ftn31" n="24">
+                        <hi rend="italic">Sphinx | Open Source Search Engine</hi>, <ref
+                           target="https://sphinxsearch.com">https://sphinxsearch.com</ref>.</note>
+                     metadata search engine. Two search engines were implemented: a basic and an
+                     advanced one.</item>
+                  <item>Upgrading of the portal administration.</item>
+                  <item>Design of the structure and access levels for users.</item>
+               </list>
+               <p style="text-align: justify;">In 2013, the portal was updated to introduce the
+                  SIstory metadata schema, a customised set of metadata elements developed to better
+                  reflect the nature of the content, which had outgrown the descriptive capabilities
+                  of the DCTERMS element set. A major update followed in 2016, during which a
+                  mapping between the SIstory schema and Dublin Core was established to enhance data
+                  interoperability. The schema was then expanded with elements and structures from
+                  the HOPE application profile,<note place="foot" xml:id="ftn32" n="25">
+                     Bert Lemmens, Joris Janssens, Ruth V. Dyck, Alessia Bardi, Paolo Manghi,
+                     Eric Beving, Kathryn Máthé, Katalin Dobó, and Armin Straube, <hi rend="italic"
+                        >Hope – The Common HOPE Metadata Structure, Including the Harmonisation
+                        Specifications (D2.2)</hi> (Tech. Rep., HOPE, Deliverable D2.2,
+                     2011).</note> a recognised standard in the GLAM community, resulting in the
+                  SIstory application profile.<note place="foot" xml:id="ftn33" n="26"> Andrej
+                        Pančur, <hi rend="italic">Metapodatki portala Zgodovina
+                        Slovenije-SIstory</hi> (Tech. Rep.) (Ljubljana: Institute of Contemporary
+                     HIstory, 2013). Cvek et al., <hi rend="italic">Izhodišča metapodatkovnih
+                        sistemov.</hi> Katja Meden, “‘Posmrtno življenje posmrtnih mask’:
+                     sodelovanje Raziskovalne infrastrukture slovenskega zgodovinopisja Inštituta za
+                     novejšo zgodovino z Društvom za domače raziskave”, in <hi rend="italic"
+                        >Odlivanje smrti: posmrtne maske v slovenskih javnih zbirkah</hi>
+                     (Ljubljana: Institute of Contemporary History, 2023), accessed on 26 February
+                        2025, <ref target="https://sistory.github.io/Odlivanje_smrti/ch02.html"
+                        >https://sistory.github.io/Odlivanje_smrti/ch02.html</ref>.</note> This
+                  profile has since served as the portal’s primary metadata standard, shaping the
+                  structure, syntax, and semantics of the metadata input tool. Besides the metadata
+                  enrichments, new system frameworks and graphical designs for both the
+                  administration and user interfaces were also installed. In addition, the search
+                  engine (filtering and sorting of results; full-text search) was also taken into
+                  account in the updates. Overall, since the portal’s inception in 2008, a series of
+                  upgrades have been made, each improving the portal’s functionalities and features.
+                  The entire development history is documented in Cvek et al.<note place="foot"
+                     xml:id="ftn34" n="27"> Cvek et al., <hi rend="italic">Izhodišča metapodatkovnih
+                        sistemov</hi>.</note> This brings us to today and to new steps in the
+                  portal’s development – the decision to redesign the portal from the ground up.</p>
+            </div>
+         </div>
+         <div>
+            <head>SIstory: the Redesign</head>
+            <p>As the portal was updated multiple times, the code became too extensive to manage
+               efficiently. Moreover, the concepts and various solutions developed over the years
+               were very ambitious and deemed necessary at the time. However, they did not prove to
+               be as useful in daily practical operations as initially thought. Additionally, the
+               outdated appearance of the user interface was a decisive factor in our choice to
+               rebuild from scratch. When planning the redesign, we considered the legacy issues and
+               solutions from previous versions of the portal to enhance system functionality and
+               create a familiar user experience.</p>
+            <p style="text-align: justify;"> The redesign consisted of several sections, from purely
+               technical aspects (such as the code base and integration of the OAI-PMH protocol) to
+               simplifying the metadata schema, refining the user interface, and restructuring the
+               content classification.</p>
+            <figure>
+               <head>Figure 1: The new SIstory user interface</head>
+               <graphic url="figure_1.png"/>
+               <lb/>
+               <note n="">Source: Own work</note>
+            </figure>
+            <div>
+               <head>Technical design</head>
+               <p style="text-align: justify;"> In terms of technical composition, the redesigned
+                  SIstory 5.0 portal is based on a robust technical framework, while the backend
+                  utilises Django for efficient data management and content delivery. On the
+                  frontend, SIstory employs Next.js and React in combination with Node.js for
+                  dynamic and interactive user interfaces. This modern frontend stack enables smooth
+                  navigation and responsive design across various devices, improving accessibility
+                  for users accessing historical content. Figure 1 shows an example of the
+                  redesigned user interface. The portal’s database architecture is based on
+                  PostgreSQL and provides a robust foundation for storing and retrieving large
+                  volumes of historical data with high speed and reliability. In addition, SIstory
+                  integrates Matomo, an analysis function that enables administrators to gain
+                  valuable insights into user behaviour and interaction patterns, thus forming the
+                  basis for future developments and improvements.</p>
+               <p style="text-align: justify;"> For efficient search functionality, SIstory
+                  incorporates Elasticsearch and Kibana, allowing users to quickly locate relevant
+                  historical documents and sources. The use of Elasticsearch ensures fast and
+                  accurate search results, improving the overall usability of the portal. In
+                  addition, SIstory employs a Handle<note place="foot" xml:id="ftn35" n="28">
+                     <hi rend="italic">Handle.Net Registry,</hi>
+                     <ref target="https://www.handle.net/">https://www.handle.net/</ref>.</note>
+                  system to provide permanent identifiers, enabling reliable and permanent access to
+                  specific historical documents and sources. This allows users to reference and cite
+                  materials consistently, contributing to the scholarly integrity and reliability of
+                  the portal. Overall, SIstory’s technical specifications underline the portal’s
+                  commitment to providing a robust and user-friendly platform for accessing
+                  Slovenia’s rich historical heritage.</p>
+            </div>
+            <div>
+               <head>Metadata design</head>
+               <p style="text-align: justify;"> The portal previously based its metadata element set
+                  on the SIstory application profile (SIstory AP), which was derived from the HOPE
+                  application profile. In practice, this posed a problem as SIstory AP contained
+                  several elements (and element groups) that were not used as frequently as
+                  initially assumed. This, in turn, led to a simplification of the profile. To this
+                  end, an analysis of the existing SIstory AP was conducted to identify the metadata
+                  elements that should be retained and address those that present legacy issues.</p>
+               <p style="text-align: justify;"> The current state of the metadata application
+                  profile comprises 26 elements (reduced from the original 33 elements), with a
+                  focus on the DC and DCTERMS metadata elements and only a few additional elements
+                  from the previously mentioned HOPE AP. One of the main reasons for this shift in
+                  focus is to improve the interoperability of our metadata. Only a limited number of
+                  elements of the “<hi rend="italic">SIstory</hi>” namespace have been retained<note
+                     place="foot" xml:id="ftn36" n="29"> For example, <hi rend="italic">SIstory
+                        Unstored</hi> – a field for storing metadata that do not fit into any other
+                     metadata field due to their content.</note>, primarily due to the remnants of
+                  older publications described with these specific metadata elements. The overview
+                  of the major metadata groups is presented in Table 1.</p>
+               <table>
+                  <head>Table 1: Overview of the most important metadata groups, the number of
+                     unique instances, and the total number of occurrences on the SIstory portal (at
+                     the time of writing this paper).</head>
+                  <row>
+                     <cell>Metadata</cell>
+                     <cell>Unique Values</cell>
+                     <cell>Nr. of Usages</cell>
+                  </row>
+                  <row>
+                     <cell>No. of entries</cell>
+                     <cell>62.656</cell>
+                     <cell/>
+                  </row>
+                  <row>
+                     <cell>Creator</cell>
+                     <cell>5.319</cell>
+                     <cell>25.461</cell>
+                  </row>
+                  <row>
+                     <cell>Subject</cell>
+                     <cell>24.236</cell>
+                     <cell>333.667</cell>
+                  </row>
+                  <row>
+                     <cell>Publisher</cell>
+                     <cell>1.091</cell>
+                     <cell>57.686</cell>
+                  </row>
+                  <row>
+                     <cell>Collection</cell>
+                     <cell>432</cell>
+                     <cell>1.895</cell>
+                  </row>
+                  <row>
+                     <cell>Contributor</cell>
+                     <cell>1.322</cell>
+                     <cell>44.088</cell>
+                  </row>
+                  <row>
+                     <cell>Type</cell>
+                     <cell>12</cell>
+                     <cell>63.362</cell>
+                  </row>
+                  <row>
+                     <cell>Language</cell>
+                     <cell>61</cell>
+                     <cell>74.853</cell>
+                  </row>
+                  <note n="">Source: Own work</note>
+               </table>
+               <lb/>
+               <p style="text-align: justify;"> In total, SIstory comprises over 60,000 unique
+                  entries and more than 5,000 unique authors/physical persons (under the category
+                     “<hi rend="italic">Creator</hi>”)<note place="foot" xml:id="ftn37" n="30"> The
+                     metadata mask includes two separate fields for the Creator, which, according to
+                     the Dublin Core definition, can be either a physical person or a legal
+                     “organisation.” In Table 1, however, only occurrences of a physical
+                     person/author are counted under the “Creator” category.</note>, while “<hi
+                     rend="italic">Subject</hi>” contains keywords that describe the publications.
+                  Secondary forms of authorship are described in the category “<hi rend="italic"
+                     >Contributor</hi>” (e.g. editor, translator...), while the type of publication
+                  based on the controlled vocabulary (DCMI Type<note place="foot" xml:id="ftn38"
+                     n="31">
+                     <hi rend="italic">DCMI: DCMI Metadata Terms</hi>, <ref
+                        target="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#DCMIType"
+                        >https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#DCMIType</ref>.
+                  </note>) encompasses 12 categories. Finally, the portal includes publications in
+                  61 different languages, which are presented in more detail in the Language trends subchapter.</p>
+            </div>
+         </div>
+         <div>
+            <head>SIstory Unveiled: Content Analysis</head>
+            <p style="text-align: justify;"> In the effort to present the redesign of the SIstory
+               portal, it became clear that focusing mainly on technical and aesthetic improvements
+               would not fully capture the essence of the portal – its content, or rather, its
+               historical sources. Therefore, we expanded the scope of the work to include a
+               comprehensive content analysis, aimed at gaining a deeper
+               understanding of the content available on the portal.</p>
+            <figure>
+               <head>Figure 2: Trends of publications over time.</head>
+               <graphic url="Figure_2.png"/>
+               <lb/>
+               <note n="">Source: Own work</note>
+            </figure>
+            <p style="text-align: justify;"> The analysis focused on various
+               aspects of the portal’s content, ranging from basic statistics of the main metadata
+               groups (excluding individual metadata elements) to a more in-depth analysis of:</p>
+            <list rend="bulleted">
+               <item><hi rend="bold">publication date</hi> – when a work was first published;</item>
+               <item><hi rend="bold">publication keywords</hi> – e.g., <hi rend="italic"
+                     >Jugoslavija, učbeniki</hi>;</item>
+               <item><hi rend="bold">language of the publication</hi> – classified according to the
+                  ISO 639-2 standard;</item>
+               <item><hi rend="bold">author networks</hi> – mapping connections between
+                  contributors.</item>
+            </list>
+            <p style="text-align: justify;">This, in turn, allows us to demonstrate not only the
+               scope of available content but also to highlight the different types and variations
+               of this content.</p>
+            <div>
+               <head>Publication trends</head>
+               <p style="text-align: justify;"> One of the trends analysed in this section is the
+                  distribution of publications over time according to their publication date, to
+                  determine which years are best represented in terms of published content. The
+                  results are shown in Figure 2.</p>
+               <p style="text-align: justify;"> One of the first trends to emerge is the
+                  distribution of publications between approximately 1715 and the mid-20<hi
+                     rend="superscript">th</hi> century, which exhibits several significant spikes
+                  in the number of publications. Conversely, the post-World War II period displays a
+                  much more consistent flow. The spikes in the timeline are most likely caused by
+                  the publication of several large works or specific types of publications (e.g.,
+                  textbooks, population censuses) on the portal. In contrast, the steady publication
+                  flow from the post-war period to the present day suggests a greater variety of
+                  publication types (e.g., literature, research and studies, monographs, etc.) and
+                  the absence of very large volumes of similar publications. The nature and content
+                  of these publication trends are examined in more detail in the keyword analysis, which provides additional insight and substantiates
+                  the reasons for the identified trends.</p>
+            </div>
+            <div>
+               <head>Keyword analysis</head>
+               <p style="text-align: justify;"> The keyword analysis of the portal content examined
+                  the ten most frequently used keywords to describe sources in the individual menus
+                  for each of the 20 years (except the period 2010–2024). This analysis was
+                  conducted for the first-level menus: <hi rend="italic">Viri</hi> (Sources), <hi
+                     rend="italic">Literatura</hi> (Literature), <hi rend="italic">Dogodki</hi>
+                  (Events), <hi rend="italic">Podatki</hi> (Data), and <hi rend="italic">DH
+                  </hi>(Digital Humanities). The results are presented in the following
+                     sections<note place="foot" xml:id="ftn39" n="32"> Some keywords are very
+                     similar to one another, mostly due to slight variations in the notation format.
+                     For example, “<hi rend="italic">uradni list</hi>” and “<hi rend="italic">uradni
+                        listi</hi>” are the singular and plural forms of the same keyword but are
+                     counted separately.</note>.</p>
+               <div>
+                  <head>Sources – top ten keywords</head>
+                  <p style="text-align: justify;"> Table 2 gives an overview of the ten most
+                     frequent keywords for each twenty-year period in the “Sources” menu. This
+                     category encompasses various types of sources, including archival, oral, and
+                     printed sources, as well as digitised versions of physical objects. The latter
+                     are mainly images of physical objects, such as statues or death masks, and
+                     printed sources. </p>
+                  <p style="text-align: justify;">In the 18<hi rend="superscript">th</hi> century
+                     (1710–1790), several recurring keywords – such as <hi rend="Emphasis"
+                        >patenti</hi> (patents), <hi rend="Emphasis">odloki</hi> (decrees), <hi
+                        rend="Emphasis">norme</hi> (norms), and <hi rend="Emphasis">Marija
+                        Terezija</hi> – point to one of the larger collections on the portal: <hi
+                        rend="Emphasis">Collection of various patents, decrees, ordinances, norms,
+                        instructions, etc., issued by Charles VI, Maria Theresa, and Joseph
+                        II,</hi><note place="foot" xml:id="ftn40" n="33"> An example of a Josef II
+                        directed patent: <ref target="https://hdl.handle.net/11686/31413"
+                           >https://hdl.handle.net/11686/31413</ref>.</note> acquired through
+                     collaboration with the Central Judicial Library. Additional keywords, such as
+                        “<hi rend="Emphasis">popisi prebivalstva”</hi> (population censuses) and
+                        “<hi rend="Emphasis">občina”</hi> (municipality), highlight a significant
+                     number of censuses from this period.</p>
+                  <p style="text-align: justify;">A similar trend can be observed in the 19<hi
+                        rend="superscript">th</hi> century, with census records accompanied by
+                     theatre lists from various provincial theatres (e.g., the Provincial Theatre in
+                     Ljubljana), and publications like <hi rend="Emphasis">koledar</hi> (the
+                     calendar of the Society of St. Mohor – an annual publication containing a
+                     calendar, religious prayers, illustrations, poetry, etc.).<note place="foot"
+                        xml:id="ftn41" n="34"> An example of the St Mohor calendar: <ref
+                           target="https://hdl.handle.net/11686/27099"
+                           >https://hdl.handle.net/11686/27099</ref>.</note> Keywords such as <hi
+                        rend="Emphasis">Kranjska</hi>, <hi rend="Emphasis">Carniola</hi>, and <hi
+                        rend="Emphasis">deželna avtonomija</hi> (provincial autonomy) further
+                     indicate the prominence of minutes from the Carniolan Provincial Assembly.</p>
+                  <milestone unit="section" n="* * *"/>
+                  <p style="text-align: justify;">The publications from the early 20<hi
+                        rend="superscript">th</hi> century, most frequently uploaded to the portal,
+                     include censuses (marked by keywords like <hi rend="italic">popisi
+                        prebivalstva</hi> and <hi rend="italic">občina</hi>), official gazettes (<hi
+                        rend="italic">uradni listi</hi>) from various states and periods<note
+                        place="foot" xml:id="ftn42" n="35"> Examples of official gazettes: <ref
+                           target="https://sistory.si/menu/1/7/69"
+                           >https://sistory.si/menu/1/7/69</ref>.</note> (e.g., Slovenia,
+                     Yugoslavia, Serbia, Bosnia and Herzegovina), and stenographic records (<hi
+                        rend="italic">stenografski zapisniki</hi>) from legislative and executive
+                     bodies – all of which became increasingly prevalent during this period. </p>
+                  <table>
+                     <head>Table 2: Top ten keywords by two-decade period for Viri (Sources)</head>
+                     <row>
+                        <cell>Decade Range</cell>
+                        <cell>Top Keywords</cell>
+                     </row>
+                     <row>
+                        <cell>1710-1729</cell>
+                        <cell>Karl VI., Patenti, odloki, predpisi, norme, navodila, okrožnice</cell>
+                     </row>
+                     <row>
+                        <cell>1730-1749</cell>
+                        <cell>Patenti, odloki, predpisi, norme, navodila, okrožnice, Marija
+                           Terezija, Karl VI., Karl VI., Corbinian Graf von Saurau, Marija Terezija,
+                           Anton Barbo Waxenstein, Marija Terezija, Anton Josef Auersperg, Marija
+                           Terezija, Anton Josepf Graf von Auersperg, Marija Terezija, Corbinian
+                           Graf von Saurau, Marija Terezija, Fridrich Wilhelm Graf von
+                           Haugwitz</cell>
+                     </row>
+                     <row>
+                        <cell>1750-1769</cell>
+                        <cell>Patenti, odloki, predpisi, norme, navodila, okrožnice, Marija
+                           Terezija, Karl VI., Marija Terezija, Marija Terezija, Anton Josepf Graf
+                           von Auersperg, Marija Terezija, Anton Joseph von Auersperg, Marija
+                           Terezija, Ludvik XVI., Marija Terezija I.</cell>
+                     </row>
+                     <row>
+                        <cell>1790-1809</cell>
+                        <cell>celjski grofje, drame, leposlovje, Celje, Ljubljana, hišne številke,
+                           rodbine, rokopisi, živinozdravniški recepti</cell>
+                     </row>
+                     <row>
+                        <cell>1810-1829</cell>
+                        <cell>Ljubljana, hišne številke, Ludvig van Beethoven, popis</cell>
+                     </row>
+                     <row>
+                        <cell>1830-1849</cell>
+                        <cell>Ljubljana, Slovenija, 1830-1857, popisi prebivalstva, programi,
+                           gledališča, 19. stoletje, gledališki listi, gledališče, Avstrija</cell>
+                     </row>
+                     <row>
+                        <cell>1850-1869</cell>
+                        <cell>Slovenija, 1869, popisi prebivalstva, Ljubljana, občina Dobrnič,
+                           občina Trebnje, občina Prečna, občina Mirna, občina Velika Loka, občina
+                           Črmošnjice</cell>
+                     </row>
+                     <row>
+                        <cell>1870-1889</cell>
+                        <cell>Slovenija, popisi prebivalstva, občina Vrhnika, 1870, 1880, Kranjska,
+                           deželna avtonomija, provincial autonomy, Carniola, koledar</cell>
+                     </row>
+                     <row>
+                        <cell>1890-1909</cell>
+                        <cell>Slovenija, popisi prebivalstva, občina Vrhnika, 1890, 1900, Družba sv.
+                           Mohorja, koledar, Avstro-Ogrska, popis prebivalstva, upravna
+                           razdelitev</cell>
+                     </row>
+                     <row>
+                        <cell>1910-1929</cell>
+                        <cell>Slovenija, popisi prebivalstva, Ljubljana, 1921, šolski listi, 1910,
+                           občina Vrhnika, 1929, Komunistična partija Jugoslavije, delavsko
+                           gibanje</cell>
+                     </row>
+                     <row>
+                        <cell>1930-1949</cell>
+                        <cell>Slovenija, Ljubljana, popisi prebivalstva, 1931, Jugoslavija, uradni
+                           listi, Srbija, BiH, Bosna in Hercegovina, uradni list</cell>
+                     </row>
+                     <row>
+                        <cell>1950-1969</cell>
+                        <cell>uradni listi, Jugoslavija, Ljubljana, BiH, Bosna in Hercegovina,
+                           Kosovo, Vojvodina, stenografski zapisniki, Socialistična republika
+                           Slovenija, družbeno samoupravljanje</cell>
+                     </row>
+                     <row>
+                        <cell>1970-1989</cell>
+                        <cell>Jugoslavija, uradni listi, stenografski zapisniki, predstavniška
+                           telesa, družbeno samoupravljanje, Socialistična republika Slovenija,
+                           Kosovo, BiH, Bosna in Hercegovina, Vojvodina</cell>
+                     </row>
+                     <row>
+                        <cell>1990-2009</cell>
+                        <cell>Slovenija, parlament, zakonodaja, državni zbor, Jugoslavija, uradni
+                           listi, skupščina, BiH, Bosna in Hercegovina, Vojvodina</cell>
+                     </row>
+                     <row>
+                        <cell>2010-2024</cell>
+                        <cell>popisi prebivalstva, Ljubljana, analiza, 1921, zgodovina, krajevna
+                           imena, 1900, krajevni leksikoni, toponimi, privilegiji</cell>
+                     </row>
+                     <lb/>
+                     <note n="">Source: Own work</note>
+                     <lb/>
+                  </table>
+                  <p style="text-align: justify;">Finally, for the more recent period (2010–2024),
+                     the keywords primarily refer to studies conducted in connection with the
+                     censuses of Slovenia from 1830 to 1931, which resulted from cooperation with
+                     the Historical Archive of Ljubljana.</p>
+               </div>
+               <div>
+                  <head>Literature – top ten keywords</head>
+                  <table>
+                     <head>Table 3: Top ten keywords by two-decade period for Literatura
+                        (Literature)</head>
+                     <row>
+                        <cell>Decade Range</cell>
+                        <cell>Top Keywords</cell>
+                     </row>
+                     <row>
+                        <cell>1810-1829</cell>
+                        <cell>učbeniki, 19.st., abecedniki, slovenska književnost, slovensko-nemški
+                           abecednik, učbenik, učbeniki za osnovne šole, verouk</cell>
+                     </row>
+                     <row>
+                        <cell>1830-1849</cell>
+                        <cell>učbeniki, 19.st., izobraževanje, katekizem, katoliška vera,
+                           matematika, verouk</cell>
+                     </row>
+                     <row>
+                        <cell>1850-1869</cell>
+                        <cell>finance, Avstrijsko cesarstvo, učbeniki, slovnica, banke, valute,
+                           finančno vprašanje, slovenščina, valuta, nemščina</cell>
+                     </row>
+                     <row>
+                        <cell>1870-1889</cell>
+                        <cell>učbeniki, nemščina, matematika, politične stranke, organizacije in
+                           društva, čitanke, zgodovina, učbeniki za osnovne šole, berila, Kranjska,
+                           učbeniki za srednje šole</cell>
+                     </row>
+                     <row>
+                        <cell>1890-1909</cell>
+                        <cell>politične stranke, organizacije in društva, avstrijska doba, politični
+                           programi, Književna poročila, učbeniki, katoliški tabor, liberalni tabor,
+                           Narodopisne razprave in Mala izvestja, Mala izvestja, matematika</cell>
+                     </row>
+                     <row>
+                        <cell>1910-1929</cell>
+                        <cell>Slovstvo, politične stranke, organizacije in društva, politični
+                           programi, Izvestja, avstrijska doba, Razprave, učbeniki, liberalni tabor,
+                           katoliški tabor, zgodovina</cell>
+                     </row>
+                     <row>
+                        <cell>1930-1949</cell>
+                        <cell>Slovstvo, Razprave, Izvestja, zgodovina, učbeniki, Pregled, Zapiski,
+                           učbeniki za srednje šole, geografija, Jugoslavija</cell>
+                     </row>
+                     <row>
+                        <cell>1950-1969</cell>
+                        <cell>ocene in poročila, druga svetovna vojna, Slovenija, zgodovina, NOB,
+                           Ljubljana, zgodovinski pregledi, arheologija, Slovenci,
+                           Jugoslavija</cell>
+                     </row>
+                     <row>
+                        <cell>1970-1989</cell>
+                        <cell>ocene in poročila, druga svetovna vojna, Slovenija, arhivsko gradivo,
+                           arhivi, poročila, NOB, srednji vek, Jugoslavija, zgodovina</cell>
+                     </row>
+                     <row>
+                        <cell>1990-2009</cell>
+                        <cell>ocene in poročila, Slovenija, arhivi, druga svetovna vojna, zgodovina,
+                           arhivsko gradivo, Slovenci, arhivistika, biografije, Jugoslavija</cell>
+                     </row>
+                     <row>
+                        <cell>2010-2024</cell>
+                        <cell>ocene in poročila, Slovenija, zgodovina, Jugoslavija, druga svetovna
+                           vojna, socializem, Ljubljana, prva svetovna vojna, vojaška zgodovina,
+                           ocene</cell>
+                     </row>
+                     <note n="">Source: Own work</note>
+                  </table>
+                  <lb/>
+                  <p style="text-align: justify;"> Similarly, Table 3 shows the ten most frequent
+                     keywords over a single 20-year period for the Literature menu, which consists
+                     of publications such as research monographs, (Slovenian) serial history
+                     publications – along with the in-house produced scientific journal <hi
+                        rend="italic">Prispevki za novejšo zgodovino</hi> (Contributions to
+                     Contemporary History) – school and university theses, and collections of
+                     digital monographs.</p>
+                  <p style="text-align: justify;"> The 19<hi rend="superscript">th</hi> century is
+                     primarily characterised by the textbooks produced as part of the projects “<hi
+                        rend="italic">Šolski listi</hi>” and “<hi rend="italic">Schools and
+                        Imperial, National, and Transnational Identifications: Habsburg Empire,
+                        Yugoslavia, and Slovenia</hi>”.<note place="foot" xml:id="ftn43" n="36">
+                        <hi rend="italic">Schools and Imperial, National, and Transnational
+                           Identifications: Habsburg Empire, Yugoslavia, and Slovenia | Faculty of
+                           Arts, University of Ljubljana</hi>, accessed on 26 February, <ref
+                           target="https://www.ff.uni-lj.si/en/raziskovanje/sole-in-identifikacije"
+                           >https://www.ff.uni-lj.si/en/raziskovanje/sole-in-identifikacije</ref>.
+                     </note> These represent an extensive digitisation project of textbooks, mainly
+                     intended for schools, covering various school subjects, and identified in the
+                     table with the following keywords: <hi rend="italic">učbeniki</hi> (textbooks),
+                        <hi rend="italic">abecedniki</hi> (abecedarium), <hi rend="italic"
+                        >matematika</hi> (mathematics), <hi rend="italic">čitanke,</hi> and <hi
+                        rend="italic">berila</hi> (reading materials), etc. For the early to
+                        mid-20<hi rend="superscript">th</hi> century, however, the topics are then
+                     expanded to include additional materials on politics, political programmes, and
+                     political parties, as indicated by the keywords <hi rend="italic">politični
+                        programi</hi> (political programmes), <hi rend="italic">katoliški tabor
+                     </hi>(Catholic camp), and <hi rend="italic">liberalni tabor</hi> (Liberal
+                     camp). For the second half of the 20<hi rend="superscript">th</hi> century, the
+                     themes shift towards World War II, more precisely to the role of Yugoslavia
+                     (and Slovenia) in World War II (keywords). Directly related to this is also a
+                     considerable amount of literature referring to archival sources (<hi
+                        rend="italic">arhivsko gradivo</hi>), mostly in connection with a specific
+                     journal, <hi rend="italic">The Gazette of the Archival Association and Archives
+                        of Slovenia</hi>. Lastly, a very prominent keyword, <hi rend="italic">ocene
+                        in poročila</hi> (reviews and reports), refers to a particular form of
+                     contributions to various Slovenian (scientific) journals, where authors provide
+                     reviews of various published works on topics covered by the journal (mainly
+                     history in this case).</p>
+               </div>
+               <div>
+                  <head>Events – top ten keywords</head>
+                  <p style="text-align: justify;"> While text documents are the predominant type of
+                     publication within the SIstory portal, RI INZ also offers in-house production
+                     and recording of various events, as well as digitisation of various exhibitions
+                     related to the field of history, the Institute, or related institutions.</p>
+                  <p> The first key difference between Tables 2 and 3 is the significantly shorter
+                     time span, which is expected given that the portal has only existed since 2008.
+                     This also explains the limited and unrepresentative keyword coverage for the
+                     1990–2009 period, which includes only two publications – both focused on girls’
+                     education in Ljubljana<note place="foot" xml:id="ftn44" n="37"> Šola naših
+                        babic: izobraževanje deklet v Ljubljani, <ref
+                           target="https://hdl.handle.net/11686/37914"
+                           >https://hdl.handle.net/11686/37914</ref>.</note> and Slovenian students
+                        abroad<note place="foot" xml:id="ftn45" n="38"> Študenti s Kranjske na
+                        avstrijskih in nemških univerzah 1365–1917, <ref
+                           target="https://hdl.handle.net/11686/31001"
+                           >https://hdl.handle.net/11686/31001</ref>.</note>. However, the number of
+                     publications increased in the period 2010– 2019. The most common keywords, such
+                     as <hi rend="italic">Filozofska fakulteta</hi> (Faculty of Arts), <hi
+                        rend="italic">Oddelek za zgodovino</hi> (Department of History), <hi
+                        rend="italic">zgodovina</hi> (history) and <hi rend="italic">Slovenija</hi>
+                     or <hi rend="italic">Jugoslavija</hi>, refer to the institutions, organisations
+                     and general topics that organised the events (mostly recorded lectures).</p>
+               </div>
+               <div>
+                  <head>Data and Digital Humanities – top ten keywords</head>
+                  <p style="text-align: justify;"> In contrast to the keyword analysis of sources
+                     and literature, which covers several centuries, the two following publication
+                     types, <hi rend="italic">Podatki</hi> (Data) and <hi rend="italic">DH</hi>
+                     (Digital Humanities data), are limited to the last decade (2010–2024). In both
+                     cases, the number of publications is relatively small, so these keywords are
+                     more representative of individual sources rather than the entire portal.</p>
+                  <table>
+                     <head>Table 4: Top ten keywords by two-decade period for Podatki (Data)</head>
+                     <row>
+                        <cell>Decade Range</cell>
+                        <cell>Top Keywords</cell>
+                     </row>
+                     <row>
+                        <cell>1990-2009</cell>
+                        <cell>Kranjska, Ljubljana, Slovenija, dekleta, dokumentarni filmi,
+                           izobraževanje, univerze, zgodovina, študenti</cell>
+                     </row>
+                     <row>
+                        <cell>2010-2024</cell>
+                        <cell>Središče za javno zgodovino, Filozofska fakulteta, Oddelek za
+                           zgodovino, zgodovina, Slovenija, Jugoslavija, šolstvo, muzej, druga
+                           svetovna vojna, video</cell>
+                     </row>
+                     <note n="">Source: Own work</note>
+                  </table>
+                  <lb/>
+                  <p style="text-align: justify;">Table 4 mainly focuses on research data in the
+                     history field, specifically the data on old place names in Slovenia and
+                     censuses of the Jewish population in Slovenia.<note place="foot" xml:id="ftn46"
+                        n="39"> A list of Jews in Slovenia (Dravska banovina), 1937, <ref
+                           target="https://hdl.handle.net/11686/11136"
+                           >https://hdl.handle.net/11686/11136</ref>.</note></p>
+                  <p style="text-align: justify;"> While the categories examined are generally
+                     research data, the Digital Humanities category mainly reflects the vision of
+                     the RI INZ at the time – expanding into digital humanities and providing data
+                     and tools to support research activities in these (related) fields. This
+                     eventually resulted in the creation of a separate repository for digital
+                     humanities, the SI-DIH repository, another product of RI INZ and DARIAH-SI.</p>
+                  <table>
+                     <head>Table 5: Top ten keywords by two-decade period for <hi rend="italic"
+                           >DH</hi></head>
+                     <row>
+                        <cell>Decade Range</cell>
+                        <cell>Top Keywords</cell>
+                     </row>
+                     <row>
+                        <cell>2010-2024</cell>
+                        <cell>nadgrajena resničnost, XML shema, SIstory augmented reality XML,
+                           metapodatki, DOCX, HTML publikacija, SIstory, SIstory nadgrajena
+                           resničnost XML shema, TEI, administracija</cell>
+                     </row>
+                     <note n="">Source: Own work</note>
+                  </table>
+                  <lb/>
+                  <p> As these were the infrastructure’s initial steps towards DH, there are only
+                     limited publications and tools available, but they incorporate the technologies
+                     of that period. This is also reflected in the keywords in Table 5, such as <hi
+                        rend="italic">nadgrajena resničnost</hi> (augmented reality), <hi
+                        rend="italic">XML shema</hi> (XML schema), <hi rend="italic"
+                        >metapodatki</hi> (metadata), <hi rend="italic">HTML</hi>, and <hi
+                        rend="italic">TEI</hi>. </p>
+               </div>
+            </div>
+            <div>
+               <head>Language trends</head>
+               <p style="text-align: justify;"> In addition to keyword analysis, we also examined
+                  the languages of the publications within the SIstory portal, as shown in Figure
+                  3.</p>
+               <p style="text-align: justify;"> It is not surprising that the most frequent language
+                  of publications on the portal is Slovenian, with a total of 46312 occurrences,
+                  mainly in the period from 1970 to 2025, especially between 1990 and 2025. The
+                  second most common language is Serbian (8201 occurrences), although an explicit
+                  distinction must be made here, as Serbian also falls into two other language
+                  categories: Serbian (Cyrillic) for publications in Cyrillic script (3947 in total)
+                  and the Bosnian/Croatian/Serbian category for publications where the language
+                  could not be explicitly identified (mostly publications referring to the Yugoslav
+                     <hi rend="italic">Official Gazettes</hi>), which are the most frequent among
+                  the publications.</p>
+               <figure>
+                  <head>Figure 3: Language trends – distribution of publication languages over
+                     time</head>
+                  <graphic url="Figure_3.png"/>
+                  <lb/>
+                  <note n="">Source: Own work</note>
+               </figure>
+               <p style="text-align: justify;"> Publications in Serbian across all mentioned
+                  categories were most frequently issued between 1930 and 1990, mainly in connection
+                  with official gazettes.<lb/>Another commonly used language is German, particularly
+                  during the 19<hi rend="superscript">th</hi> century – especially between 1850 and
+                  1870 – when many publications related to Slovenian history were produced in the
+                  Austrian Empire (1804–1867) and Austria-Hungary (1867–1918), often written in both
+                  German and Slovenian. While German was less prominent in the late 18<hi
+                     rend="superscript">th</hi> and early 19<hi rend="superscript">th</hi> centuries
+                  (1710–1830), it became more notable in conjunction with Slovenian in later
+                  decades. Less frequently used languages – each appearing fewer than five times –
+                  include Spanish (Castilian), Latin, Polish, Arabic, Albanian, Ukrainian, and
+                     Esperanto.<note place="foot" xml:id="ftn47" n="40">
+                     <hi rend="italic">Esperantsko-slovenski in slovensko-esperantski slovar</hi>,
+                     accessed on 26 February 2025, <ref target="https://hdl.handle.net/11686/38289"
+                        >https://hdl.handle.net/11686/38289</ref>. </note> Additionally, 42
+                  publications are multilingual, and some items have no associated language. This is
+                  especially true of the digitised collection “<hi rend="italic">The Casting of
+                     Death</hi>”, a series of death masks detailed in Meden and Pančur.<note
+                     place="foot" xml:id="ftn48" n="41"> Katja Meden, “‘Posmrtno življenje posmrtnih
+                     mask’: sodelovanje Raziskovalne infrastrukture slovenskega zgodovinopisja
+                     Inštituta za novejšo zgodovino z Društvom za domače raziskave,” in Alenka
+                     Pirman, ed., <hi rend="italic">Odlivanje smrti: posmrtne maske v slovenskih
+                        javnih zbirkah</hi> (Ljubljana: Institute of Contemporary History, 2023),
+                     accessed on 26 February 2025, <ref
+                        target="https://sistory.github.io/Odlivanje_smrti/ch02.html"
+                        >https://sistory.github.io/Odlivanje_smrti/ch02.html</ref>. Andrej Pančur,
+                     Alenka Pirman, and Maruša Dražil, “Spregledana kulturna dediščina in uporaba
+                     digitalne raziskovalne infrastrukture za humanistiko v raziskavi Odlivanje
+                     smrti,” in Alenka Pirman, ed., <hi rend="italic">Odlivanje smrti: posmrtne
+                        maske v slovenskih javnih zbirkah</hi> (Ljubljana: Institute of Contemporary
+                     History, 2023), accessed on 26 February 2025, <ref
+                        target="https://sistory.github.io/Odlivanje_smrti/ch01.html"
+                        >https://sistory.github.io/Odlivanje_smrti/ch01.html</ref>.</note></p>
+            </div>
+            <div>
+               <head>Authorship</head>
+               <p style="text-align: justify;"> As the final part of our comprehensive analysis of
+                  the content and characteristics of the SIstory portal, we examined authorship
+                  trends, focusing on frequent author pairs (Figure 4) and co-authorship networks
+                  (Figure 5).</p>
+               <figure>
+                  <head>Figure 4: Bubble plot of the 50 most frequent author pairs. The size and
+                     darker colours of the bubbles indicate higher counts of co-occurrences for
+                     specific pairs.</head>
+                  <graphic url="Figure_4.png"/>
+                  <lb/>
+                  <note n="">Source: Own work</note>
+               </figure>
+               <p style="text-align: justify;"> Figure 4 shows the co-occurrence of author pairs
+                  based on the “Author” metadata field, which includes only individual publication
+                  authors. Organisational, editorial, and translation authorship were excluded from
+                  the analysis.</p>
+               <p style="text-align: justify;"> Of the original 6317 author pair combinations, 5511
+                  occurred only once, representing 87.3% of all author pairings. The remaining 12.7%
+                  consist of combinations with multiple occurrences. This may suggest limited
+                  recurring collaborations and a diverse research network, as well as the fact that
+                  the production on SIstory includes a high number of unique collaborators.
+                  Supporting this idea is the very high percentage of publications with single
+                  authorship across SIstory’s entire production (94.5%)<note place="foot"
+                     xml:id="ftn49" n="42"> For this analysis, publications without an identified
+                     author (creator) have been excluded from the total publication count. These
+                     publications, primarily official gazettes, account for approximately 63% of the
+                     entire database.</note>, indicating a trend of authors favouring individual
+                  work over joint efforts. </p>
+               <p style="text-align: justify;">Several authors have frequently collaborated on
+                  publications available through the portal, with specific pairs standing out for
+                  their joint work. The most frequent collaborators are Bojan Balkovec and Božo
+                  Repe, who co-authored 49 publications. They are followed by Božidar Flajšman and
+                  Božo Repe with 29 joint works, and Bojan Balkovec and Božidar Flajšman with 28.
+                  Although these author pairs exhibit high co-occurrence, manual checks reveal that
+                  most of their collaborations are concentrated in the <hi rend="Emphasis">Events</hi> section (<hi rend="Emphasis">Dogodki</hi>),
+                  specifically video recordings on historical themes produced by the Department of
+                  History, Faculty of Arts, University of Ljubljana – an institution to which all
+                  three authors are affiliated.</p>
+               <p>In contrast, author pairs with fewer than ten co-occurrences tend to be more
+                  varied and are more likely to produce traditional academic outputs such as
+                  scientific papers or monographs. For example, Gašper Šmid and Žarko Štrumbl
+                  co-authored eight scientific papers, mainly in the journal Arhivi, while Mitja
+                  Ferenc and Božo Repe collaborated on six chapters in a scientific monograph.
+                  However, this pattern is not universal; manual checks of author pairs within the
+                  5–10 co-occurrence range revealed exceptions. One such case is that of Marta
+                  Rendla and Vida Deželak Barič, who co-authored eight works – all of which are
+                  periodic interim reports for a research project.<note place="foot" xml:id="ftn50"
+                     n="43"> Vida Deželak Barič et al., <hi rend="Emphasis">Vmesno poročilo o
+                        rezultatih opravljenega raziskovalnega dela na projektu v okviru ciljnega
+                        raziskovalnega programa (CRP) “Konkurenčnost Slovenije 2006–2013”: Vmesno
+                        poročilo velja za obdobje od 15. 11. 2010 do 15. 3. 2011: Pregled mrliških
+                        matičnih knjig za ugotovitev števila ter strukture žrtev druge svetovne
+                        vojne in neposredno po njej</hi> (Ljubljana: Institute of Contemporary
+                     History, 2011), <ref target="https://hdl.handle.net/11686/1120"
+                        >https://hdl.handle.net/11686/1120</ref>.</note>
+               </p>
+               <p style="text-align: justify;"> Within the scope of the authorship analysis, we also
+                  examined the author network. Figure 5 shows the ten most connected authors, based
+                  on the number of direct co-authorship links for each author. </p>
+               <figure>
+                  <head>Figure 5: Network of the ten most connected authors</head>
+                  <graphic url="Figure_5.png"/>
+                  <lb/>
+                  <note n="">Source: Own work</note>
+               </figure>
+               <p style="text-align: justify;"> The co-authorship network, shown in Figure 5,
+                  highlights the ten most interconnected authors and their relationships, outlining
+                  key figures within the SIstory production. With a density metric of 0.0046, the
+                  network is relatively sparse, indicating that most authors are not directly
+                  connected. However, the average path length of 3.89 suggests that most authors can
+                  be linked within about four steps, implying that although direct connections are
+                  limited, authors are frequently linked through short co-authorship chains.</p>
+               <p style="text-align: justify;"> Many of the most connected authors, such as Božo
+                  Repe, Bojan Balkovec, and Božidar Flajšman, are already identified in Figure 4 as
+                  frequent collaborators from the same institution. However, additional authors,
+                  like Mojca Šorn and Vasilij Melik, although not part of recurring co-authorship
+                  pairs, are notable for their high connectivity within the network. Their position
+                  on the periphery of the top ten suggests they may not co-author often but remain
+                  important figures within the portal’s production.</p>
+            </div>
+         </div>
+         <div>
+            <head>Conclusions</head>
+            <p style="text-align: justify;">This paper presents the History of Slovenia – SIstory.si
+               portal, detailing its background and the technical, visual, and content-related
+               updates in the latest version (5.0). The development of the portal illustrates its
+               evolving role in supporting historical research and its contribution to the expanding
+               field of digital humanities. Over time, its reach has grown beyond the original
+               academic focus, serving a broader audience interested in Slovenian history.</p>
+            <p style="text-align: justify;">The decision to redesign the portal from the ground up
+               appears to have been a step in the right direction, as initial user feedback
+               indicates improved responsiveness and a generally smoother user experience.</p>
+            <p style="text-align: justify;"> To better understand the scope and structure of the
+               portal’s content, we conducted an exploratory content analysis. While the portal’s
+               content was recently the focus of a study,<note place="foot" xml:id="ftn51" n="44">
+                  Šorn and Cvek, <hi rend="italic">Vsebine.</hi></note> the emphasis was on the
+               chronological additions to the SIstory portal throughout its history. Still, no
+               detailed (metadata) analysis has been performed to help us understand the content
+               coverage and themes of the portal. Therefore, the redesign offered us the ideal
+               opportunity to familiarise ourselves more thoroughly with the content we have
+               collected and worked on so far, thus creating a valuable foundation for the
+               future.</p>
+            <p style="text-align: justify;"> The initial content study, based on trends in
+               publication over time, provided an overview of content distribution and outlined the
+               likely reasons for this. These were then further examined through keyword analysis,
+               which showed, to some degree, that the type of publications within the peaks of the
+               graph aligns well with the hypothesised reasons for such a distribution (i.e., large
+               volumes of publications of the same type, such as textbooks and censuses). This also
+               applies to the language analysis, which primarily aimed to provide an overview of the
+               variety of publication languages available on the portal. Given the historical
+               context, it is not surprising that in the 18<hi rend="superscript">th</hi> and 19<hi
+                  rend="superscript">th</hi> centuries, publications were mainly in German, with
+               some exceptions published in Slovenian, while in the 20<hi rend="superscript">th</hi>
+               century, language coverage began to expand to other South Slavic languages (again
+               with Slovenian as the dominant language).</p>
+            <p style="text-align: justify;"> Lastly, the authorship analysis allowed us to
+               familiarise ourselves with the diversity of (co-)authorship and connections/relations
+               amongst them. The initial overview revealed a notably high number of single-authored
+               publications. Additionally, examining author pairs revealed that co-authorship within
+               SIstory is quite limited and primarily linked to the specific institution and type of
+               content produced, such as extensive video production by a particular institution to
+               which the authors belong. The subsequent analysis of the author network suggests a
+               relatively sparse overall network, with most authors not directly connected. It also
+               highlights the rather unsurprising fact that the authors within the most frequent
+               author pairs exhibit the centrality of the author network.</p>
+            <p style="text-align: justify;"> Our future work will focus on further analysing the
+               technical processes behind data collection and expanding the scope of metadata. The
+               current state of the redesigned portal will serve as a foundation for more direct
+               community involvement in the development process. We aim to incorporate user feedback
+               from the beginning and explore the integration of visualisations that will facilitate
+               easier interaction with the data. We will also continue to improve existing
+               collections, ensuring the portal remains a comprehensive, dynamic, and accessible
+               platform for historical research.</p>            
+         </div>
+         <div>
+            <head>Acknowledgment</head>
+            <p style="text-align: justify;">The research was conducted within the framework of the
+               DARIAH-SI research infrastructure, the infrastructure programme I0-0013 <hi
+                  rend="italic">The Research Infrastructure of Slovenian Historiography
+                  infrastructure programme</hi> [<hi rend="italic">Raziskovalna infrastruktura
+                  slovenskega zgodovinopisja</hi>], and research programme P6-0436 <hi rend="italic"
+                  >Digital humanities: resources, tools and methods </hi>[<hi rend="italic"
+                  >Digitalna humanistika: viri, orodja in metode</hi>], which are co-financed by the
+               Slovenian Research and Innovation Agency (ARIS) from the state budget and the
+               RSF.</p>
+         </div>
+      </body>
+      <back>
+         <div type="bibliogr">
+            <head>Sources and Literature</head>
+            <listBibl>
+               <bibl>Cvek, Ana, Mihael Ojsteršek, and Mojca Šorn. <hi rend="italic">Izhodišča
+                     metapodatkovnih sistemov portala Zgodovina Slovenije – SIstory
+                  (2008–2016)</hi>. Ljubljana: Institute of Contemporary History, 2022.</bibl>
+               <bibl>Deželak Barič, Vida, Tadeja Tominšek Čehulić, Dunja Dobaja, and Marta Rendla.
+                     <hi rend="italic">Vmesno poročilo o rezultatih opravljenega raziskovalnega dela
+                     na projektu v okviru ciljnega raziskovalnega programa (CRP) "Konkurenčnost
+                     Slovenije 2006–2013": Vmesno poročilo velja za obdobje od 15. 11. 2010 do 15.
+                     3. 2011: Pregled mrliških matičnih knjig za ugotovitev števila ter strukture
+                     žrtev druge svetovne vojne in neposredno po njej.</hi> Ljubljana: Institute of
+                  Contemporary History, 2011. Accessed February 26, 2025. <ref
+                     target="https://hdl.handle.net/11686/1120"
+                     >https://hdl.handle.net/11686/1120</ref>.</bibl>
+               <bibl>Hadalin, Jurij. “The Slovenian Digital Humanities Landscape? A Brief Overview.”
+                  In <hi rend="italic">The Status Quo of Digital Humanities, </hi>edited by Torsten
+                  Kahlert and Claudia Prinz, 154–69. Berlin: H-Soz–Kult, 2015. Accessed February 26,
+                  2025. <ref
+                     target="https://edoc.hu-berlin.de/server/api/core/bitstreams/febdd0e3-5c2b-4eb8-8b30-ea8f1b36cae7/content"
+                     >https://edoc.hu-berlin.de/server/api/core/bitstreams/febdd0e3-5c2b-4eb8-8b30-ea8f1b36cae7/content</ref>.</bibl>
+               <bibl>Institute of Contemporary History. <hi rend="italic">Poročilo o doseženih
+                     ciljih in rezultatih v letu 2008</hi>. Ljubljana: Institute of Contemporary
+                  History, 2009. Accessed February 26, 2025. <ref
+                     target="https://www.inz.si/f/docs/Letna-porocila/2008.pdf"
+                     >https://www.inz.si/f/docs/Letna-porocila/2008.pdf</ref>.</bibl>
+               <bibl>Lemmens, Bert, Joris Janssens, Ruth V. Dyck, Alessia Bardi, Paolo Manghi, Eric
+                  Beving, Kathryn Máthé, Katalin Dobó, and Armin Straube. <hi rend="Emphasis">Hope -
+                     The Common HOPE Metadata Structure, Including the Harmonisation Specifications
+                     (D2.2)</hi>. Tech. Rep., HOPE, Deliverable D2.2, 2011.</bibl>
+               <bibl>Meden Katja, and Ana Cvek. “Nadgradnja zgodovinarskega indeksa citiranosti.”
+                     <hi rend="italic">Slovenščina 2.0 </hi>9, No. 1 (2021): 216–35.</bibl>
+               <bibl>Meden, Katja. “'Posmrtno življenje posmrtnih mask': sodelovanje Raziskovalne
+                  infrastrukture slovenskega zgodovinopisja Inštituta za novejšo zgodovino z
+                  Društvom za domače raziskave.” In <hi rend="italic">Odlivanje smrti: posmrtne
+                     maske v slovenskih javnih zbirkah, </hi>edited by Alenka Pirman<hi
+                     rend="italic">.</hi> Ljubljana: Institute of Contemporary History, 2023.
+                  Accessed February 26, 2025. <ref
+                     target="https://sistory.github.io/Odlivanje_smrti/ch02.html"
+                     >https://sistory.github.io/Odlivanje_smrti/ch02.html</ref>.</bibl>
+               <bibl>Pančur, Andrej, Alenka Pirman, and Maruša Dražil. “Spregledana kulturna
+                  dediščina in uporaba digitalne raziskovalne infrastrukture za humanistiko v
+                  raziskavi Odlivanje smrti.” In  <hi rend="italic">Odlivanje smrti: posmrtne maske
+                     v slovenskih javnih zbirkah</hi>, edited by Alenka Pirman. Ljubljana: Institute
+                  of Contemporary History, 2023. Accessed February 26, 2025. <ref
+                     target="https://sistory.github.io/Odlivanje_smrti/ch01.html"
+                     >https://sistory.github.io/Odlivanje_smrti/ch01.html</ref>. </bibl>
+               <bibl>Pančur, Andrej, and Mojca Šorn. “Na začetku je bil SIstory: Raziskovalna
+                  infrastruktura slovenskega zgodovinopisja.” In <hi rend="italic">Inštitut za
+                     novejšo zgodovino: 60 let mislimo preteklost,</hi> 47–58. Ljubljana, Institute
+                  of Contemporary History, 2019. Accessed February 26, 2025. <ref
+                     target="https://hdl.handle.net/11686/46230"
+                     >https://hdl.handle.net/11686/46230</ref>.</bibl>
+               <bibl>Pančur, Andrej, Neja Blaj Hribar, Mojca Šorn, and Mihael Ojsteršek. “Projekt
+                  Vojaške žrtve prve svetovne vojne na Slovenskem.” In <hi rend="italic">Proceedings
+                     of the Conference on Language Technologies and Digital Humanities: September
+                     24</hi><hi rend="italic superscript">th</hi><hi rend="italic">–25</hi><hi
+                     rend="italic superscript">th</hi><hi rend="italic"> 2020, Ljubljana,
+                     Slovenia</hi>, edited by Darja Fišer and Tomaž Erjavec, 136–40. Ljubljana:
+                  Institute of Contemporary History, 2020. Accessed February 26, 2025. <ref
+                     target="https://nl.ijs.si/jtdh20/pdf/JT-DH_2020_Pancur-et-al_Projekt-Vojaske-zrtve-prve-svetovne-vojne-na-Slovenskem.pdf"
+                     >https://nl.ijs.si/jtdh20/pdf/JT-DH_2020_Pancur-et-al_Projekt-Vojaske-zrtve-prve-svetovne-vojne-na-Slovenskem.pdf</ref>. </bibl>
+               <bibl>Pančur, Andrej. “Popisi prebivalstva Slovenije 1830–1931: Orodje za
+                  transkribiranje historičnih demografskih podatkov.” In <hi rend="italic"
+                     >Proceedings of the Conference on Language Technologies &amp; Digital
+                     Humanities, September 29</hi><hi rend="italic superscript">th</hi><hi
+                     rend="italic">–October 1</hi><hi rend="italic superscript">st</hi><hi
+                     rend="italic">, 2016 Faculty of Arts, University of Ljubljana, Ljubljana,
+                     Slovenia</hi>, edited by Tomaž Erjavec and Darja Fišer, 133–41. Ljubljana:
+                  Ljubljana University Press, Faculty of Arts, 2016. Accessed February 26, 2025.
+                     <ref
+                     target="http://www.sdjt.si/wp/wp-content/uploads/2016/09/JTDH-2016_Pancur_Popisi-prebivalstva-Slovenije-1830-1931.pdf"
+                     >http://www.sdjt.si/wp/wp-content/uploads/2016/09/JTDH-2016_Pancur_Popisi-prebivalstva-Slovenije-1830-1931.pdf</ref>.</bibl>
+               <bibl>Pančur, Andrej. <hi rend="italic">Metapodatki portala Zgodovina
+                     Slovenije-SIstory. </hi>Tech. Rep. Ljubljana: Institute of Contemporary
+                  History, 2013.</bibl>
+               <bibl>Pančur, Andrej. <hi rend="italic">SIstory augmented reality 1.0 XML Schema,
+                     Documentation</hi>. Institute of Contemporary History, 2013. Accessed February
+                  26, 2025. <ref target="https://hdl.handle.net/11686/20385"
+                     >https://hdl.handle.net/11686/20385</ref>.</bibl>
+               <bibl>Pančur, Andrej. <hi rend="italic">SIstory nadgrajena resničnost 1.0 XML
+                     shema</hi>. Institute of Contemporary History, 2013. Accessed February 26,
+                  2025. <ref target="https://hdl.handle.net/11686/20369"
+                     >https://hdl.handle.net/11686/20369</ref>. </bibl>
+               <bibl>Rožman, Bogomir, and Gregor Marolt. <hi rend="italic">Analiza podatkov in
+                     postavitev standardov in infrastrukture za nadgradnjo portala SIstory.si.
+                  </hi>Ljubljana: Institute of Contemporary History, 2011.</bibl>
+               <bibl><hi rend="italic">SIstory.si - Culture of Slovenia. </hi>Accessed February 26,
+                  2025. <ref target="https://www.culture.si/en/Sistory.si"
+                     >https://www.culture.si/en/SIstory.si</ref>. </bibl>
+               <bibl>STA. “SIstory - spletni portal slovenskega zgodovinopisja.” <hi rend="italic"
+                     >Siol.net</hi>. Accessed February 26, 2025. <ref
+                     target="https://siol.net/novice/novice/sistory-spletni-portal-slovenskega-zgodovinopisja-336634"
+                     >https://siol.net/novice/novice/sistory-spletni-portal-slovenskega-zgodovinopisja-336634</ref>. </bibl>
+               <bibl>Šorn, Mojca, and Ana Cvek. <hi rend="italic">Vsebine in njihovo razporejanje na
+                     portalu Zgodovina Slovenije - SIstory (s poudarkom na publikacijah)</hi>.
+                  Ljubljana: Institute of Contemporary History, 2023.</bibl>
+               <bibl>Šorn, Mojca, and Katja Meden. “Portal Zgodovina Slovenije – SIstory in avtorske
+                  pravice.” <hi rend="italic">Prispevki za novejšo zgodovino</hi> 61, No. 2 (2021):
+                  193–228.</bibl>
+               <bibl>Šorn, Mojca, Andrej Pančur, and Mitja Sunčič. “SIstory: arhivsko gradivo in
+                  e-humanistika.” <hi rend="italic">Arhivi</hi> 34<hi rend="italic">, </hi>No<hi
+                     rend="italic">. </hi>1 (2011): 145–48.</bibl>
+               <bibl>Štepec, Marko, and Mojca Turk. <hi rend="italic">Slovenians and the First World
+                     War</hi>, 2011. Accessed February 26, 2025. <ref
+                     target="https://hdl.handle.net/11686/1160"
+                     >https://hdl.handle.net/11686/1160</ref>.</bibl>
+               <bibl><hi rend="italic">ZIC - Zgodovinski indeks citiranosti.</hi> Accessed February
+                  26, 2025. <ref target="https://zic.sistory.si/">https://zic.sistory.si/</ref>.
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="summary">
+            <docAuthor>Katja Meden</docAuthor>
+            <docAuthor>Ana Cvek</docAuthor>
+            <docAuthor>Vid Klopčič</docAuthor>
+            <docAuthor>Mihael Ojsteršek</docAuthor>
+            <docAuthor> Matevž Pesek</docAuthor>
+            <docAuthor>Mojca Šorn</docAuthor>
+            <docAuthor>Andrej Pančur</docAuthor>
+            <head>ODPIRANJE ZGODOVINE: PRENOVA IN ANALIZA VSEBINE PORTALA SISTORY 5.0</head>
+            <head>POVZETEK</head>
+            <p style="text-align: justify;"> Portal Zgodovina Slovenije – SIstory.si že od svojih
+               začetkov predstavlja pomembno zbirko publikacij, podatkov, zbirk in metapodatkov,
+               ključnih za raziskovanje slovenske zgodovine. Njegova vloga sega onkraj golega
+               arhiviranja zgodovinskih virov, saj omogoča napredno raziskovanje zgodovinopisja z
+               vključevanjem sodobnih digitalnih pristopov. V svojem sedemnajstletnem obstoju je
+               portal doživel več tehničnih nadgradenj, katerih cilj je bil izboljšati preglednost,
+               interoperabilnost in dostopnost podatkov tako za raziskovalce kot širšo javnost.
+               Zadnja tehnična posodobitev, predstavljena v prispevku, je vključevala optimizacijo
+               podatkovne infrastrukture, izboljšanje iskalnih mehanizmov in prilagoditev
+               metapodatkovne sheme. </p>
+            <p style="text-align: justify;"> Prispevek se v drugem delu posveča vsebinski analizi
+               metapodatkov. Začetna študija vsebine, ki je temeljila na časovnih trendih objav, je
+               omogočila pregled porazdelitve vsebine in opredelila verjetne razloge zanjo. Ti so
+               bili nato dodatno raziskani z analizo ključnih besed, ki je delno potrdila, da vrhovi
+               v grafu ustrezajo pričakovanim vzorcem – predvsem zaradi velikih količin publikacij
+               iste vrste, kot so učbeniki in popisi. To velja tudi za jezikovno analizo, ki je
+               zagotovila pregled različnih jezikov objav, dostopnih na portalu. Glede na
+               zgodovinski kontekst ni presenetljivo, da so bile publikacije v 18. in 19. stoletju
+               večinoma v nemščini, z nekaj izjemami v slovenščini. V 20. stoletju se je jezikovni
+               nabor razširil na druge južnoslovanske jezike, pri čemer je slovenščina ostala
+               prevladujoča.</p>
+            <p style="text-align: justify;"> Analiza avtorstva je omogočila vpogled v raznolikost
+               (so)avtorstva ter povezave in odnose med avtorji. Analiza avtorskih parov je
+               razkrila, da je soavtorstvo vsebin znotraj SIstory zelo omejeno in tesno povezano z
+               določeno institucijo ter vrsto ustvarjene vsebine. Analiza mreže avtorjev kaže na
+               relativno razpršenost celotne mreže, saj večina avtorjev ni neposredno povezana.
+               Hkrati poudarja tudi – čeprav ne nepričakovano –, da avtorji znotraj najpogostejših
+               avtorskih parov predstavljajo center v avtorskemu omrežju.</p>
+            <p style="text-align: justify;"> V prihodnje se bo razvoj portala osredotočil na
+               podrobno analizo internih tehničnih procesov in konsolidacijo (meta)podatkov.
+               Prenovljeni portal bo služil kot temelj za nadaljnje izboljšave, pri čemer bo še
+               naprej aktivno vključena skupnost – pristop, ki je bil ključen že v dosedanjem
+               razvoju portala. Ena izmed predvidenih nadgradenj je vključitev orodij za
+               vizualizacije podatkov, ki bi raziskovalcem in drugim uporabnikom omogočila lažjo
+               interakcijo s podatki. Poleg tega bo uredništvo portala nadaljevalo z dopolnjevanjem
+               obstoječih zbirk in zagotavljanjem celovite ter dinamične platforme za dostopne in
+               ponovno uporabne sodobne zgodovinske vire.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

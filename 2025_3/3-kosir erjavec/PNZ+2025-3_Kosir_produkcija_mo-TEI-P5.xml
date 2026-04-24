@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Korpusna analiza pripovednega sloga in jezikovne norme v starejši verski
+               periodiki</title>
+            <author>
+               <forename>Diana</forename>
+               <surname>Košir</surname>
+               <roleName>Asistentka</roleName>
+               <affiliation>Inštitut za jezikoslovne študije, Znanstveno-raziskovalno središče
+                  Koper</affiliation>
+               <address>
+                  <addrLine>Garibaldijeva 1</addrLine>
+                  <addrLine>SI-6000 Koper</addrLine>
+               </address>
+               <email>diana.kosir@zrs-kp.si</email>
+            </author>
+            <author>
+               <forename>Tomaž</forename>
+               <surname>Erjavec</surname>
+               <roleName>Dr.</roleName>
+               <roleName>strokovno-raziskovalni svetnik</roleName>
+               <affiliation>Odsek za tehnologije znanja, Institut »Jožef Stefan«</affiliation>
+               <address>
+                  <addrLine>Jamova 39</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+               <email>tomaz.erjavec@ijs.si</email>
+            </author>
+         </titleStmt>
+         <editionStmt>
+            <edition><date>2025-10-28</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="sl">Inštitut za novejšo zgodovino</orgName>
+               <orgName xml:lang="en">Institute of Contemporary History</orgName>
+               <address>
+                  <addrLine>Privoz 11</addrLine>
+                  <addrLine>SI-1000 Ljubljana</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>http://ojs.inz.si/pnz/article/view/</pubPlace>
+            <date>2025</date>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by-nc-nd/4.0/</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title xml:lang="sl">Prispevki za novejšo zgodovino</title>
+            <title xml:lang="en">Contributions to Contemporary History</title>
+            <biblScope unit="volume">65</biblScope>
+            <biblScope unit="issue">3</biblScope>
+            <idno type="ISSN">2463-7807</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>No source, born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc xml:lang="en">
+            <p>Contributions to Contemporary History is one of the central Slovenian scientific
+               historiographic journals, dedicated to publishing articles from the field of
+               contemporary history (the 19th and 20th century).</p>
+            <p>The journal is published three times per year in Slovenian and in the following
+               foreign languages: English, German, Serbian, Croatian, Bosnian, Italian, Slovak and
+               Czech. The articles are all published with abstracts in English and Slovenian as well
+               as summaries in English.</p>
+         </projectDesc>
+         <projectDesc xml:lang="sl">
+            <p>Prispevki za novejšo zgodovino je ena osrednjih slovenskih znanstvenih
+               zgodovinopisnih revij, ki objavlja teme s področja novejše zgodovine (19. in 20.
+               stoletje).</p>
+            <p>Revija izide trikrat letno v slovenskem jeziku in v naslednjih tujih jezikih:
+               angleščina, nemščina, srbščina, hrvaščina, bosanščina, italijanščina, slovaščina in
+               češčina. Članki izhajajo z izvlečki v angleščini in slovenščini ter povzetki v
+               angleščini.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="sl"/>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="en">
+               <term>older Slovenian language</term>
+               <term>religious press</term>
+               <term>corpus linguistics</term>
+               <term>corpus stylistics</term>
+               <term>linguistic norm</term>
+            </keywords>
+            <keywords xml:lang="sl">
+               <term>starejši slovenski jezik</term>
+               <term>verski tisk</term>
+               <term>korpusno jezikoslovje</term>
+               <term>korpusna stilistika</term>
+               <term>jezikovna norma</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change><date>2026-01-14T10:53:59Z</date>
+               <name>Mihael Ojsteršek</name>
+               <desc>Pretvorba iz DOCX v TEI, dodatno označevanje</desc></change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docAuthor>Diana Košir,<note place="foot" xml:id="ftn1" n="*"><hi rend="bold">Asistentka,
+                  Inštitut za jezikoslovne študije, Znanstveno-raziskovalno središče Koper,
+                  Garibaldijeva 1, SI-6000 Koper, <ref target="mailto:diana.kosir@zrs-kp.si"
+                     >diana.kosir@zrs-kp.si</ref>, ORCID: <ref
+                     target="https://orcid.org/0009-0009-4428-9698"
+               >0009-0009-4428-9698</ref></hi></note>
+         </docAuthor>
+         <docAuthor>Tomaž Erjavec<note place="foot" xml:id="ftn2" n="**">
+               <hi rend="bold">Dr., strokovno-raziskovalni svetnik, Odsek za tehnologije znanja,
+                  Institut »Jožef Stefan«, Jamova 39, SI-1000 Ljubljana, <ref
+                     target="mailto:tomaz.erjavec@ijs.si">tomaz.erjavec@ijs.si</ref>, ORCID: <ref
+                     target="https://orcid.org/0000-0002-1560-4099"
+               >0000-0002-1560-4099</ref></hi></note>
+         </docAuthor>
+         <docImprint>
+            <idno type="cobissType">Cobiss tip: 1.01</idno>
+            <idno type="DOI">https://doi.org/10.51663/pnz.65.3.03</idno>
+         </docImprint>
+         <div type="abstract" xml:lang="sl">
+            <head><hi rend="italic">IZVLEČEK</hi></head>
+            <p style="text-align: justify;"><hi rend="italic">V prispevku je predstavljen postopek
+                  izdelave korpusa CVET, ki vsebuje besedila patra Hijacinta Repiča, objavljena v
+                  verski reviji </hi>Cvetje z vertov sv. Frančiška<hi rend="italic"> v obdobju
+                  1881–1916. Korpus je uporabljen kot podlaga za jezikovno in stilistično analizo,
+                  opravljeno z orodjem noSketch Engine. Z analizo frekvenčnosti izbranih
+                  spremenljivk sta opisana besedišče patra Repiča in njegov pripovedni slog.
+                  Nazadnje je na primeru besed tipa </hi>bralec<hi rend="italic">/</hi>bravec<hi
+                  rend="italic"> opazovan sinhrono-diahroni in normativni vidik starejšega
+                  slovenskega jezika besedil v korpusu.</hi></p>
+            <p style="text-align: justify;"><hi rend="italic">Ključne besede: starejši slovenski
+                  jezik, verski tisk, korpusno jezikoslovje, korpusna stilistika, jezikovna
+                  norma</hi></p>
+         </div>
+         <div type="abstract" xml:lang="en">
+            <head><hi rend="italic">ABSTRACT</hi></head>
+            <head>CORPUS ANALYSIS OF NARRATIVE STYLE AND LINGUISTIC NORM IN AN OLDER RELIGIOUS
+               PERIODICAL</head>
+            <p style="text-align: justify;"><hi rend="italic">The article presents the process of
+                  creating the CVET corpus, which contains the texts of Father Hijacint Repič
+                  published in the religious journal </hi>Cvetje z vertov sv. Frančiška <hi
+                  rend="italic">between 1881 and 1916. The corpus then serves as the basis for a
+                  linguistic and stylistic analysis, carried out with the noSketch Engine tool.
+                  Frequency analysis of selected variables is used to describe Father Repič’s
+                  vocabulary and narrative style. Finally, the synchronic-diachronic and normative
+                  aspects of the older Slovenian language in the texts of the corpus are considered
+                  using the example of words of the type </hi>bralec/bravec<hi rend="italic"
+               >.</hi></p>
+            <p style="text-align: justify;"><hi rend="italic">Keywords: older Slovenian language,
+                  religious press, corpus linguistics, corpus stylistics, linguistic norm</hi></p>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>Uvod</head>
+            <p style="text-align: justify;">Razvoj slovenskega knjižnega jezika do konca 19.
+               stoletja je mogoče opazovati skozi tri pomembna obdobja, začenši z dobo utemeljevanja
+               kranjske knjižne norme od Bohoriča do Kopitarja (1584–1808), ki sta ji sledila
+               »puristično« obdobje s Kopitarjem, Miklošičem in Janežičem (1808–1854–1863) s
+               pretenzijami po skupnem knjižnem jeziku in ukinjanju drugih deželnih knjižnih
+               različic ter obdobje razvoja poklicnega slovanskega in slovenskega jezikoslovja
+               (začetek Orožen označi z Miklošičevim nastopom profesure na dunajski univerzi v letih
+                  1850–1880).<note place="foot" xml:id="ftn3" n="1"> Martina Orožen, <hi
+                     rend="italic">Oblikovanje enotnega slovenskega knjižnega jezika v 19.
+                     stoletju</hi> (Ljubljana: Filozofska fakulteta, Znanstveni inštitut Filozofske
+                  fakultete, 1996), 13–22.</note></p>
+            <p style="text-align: justify;">Od sredine 19. stoletja je slovenski prostor zaznamovalo
+               obdobje narodne prebuje s čitalniškim in taborskim gibanjem, vzponom
+               prosvetno-kulturnih in gospodarskih društvenih organizacij ter porastom slovenskega
+               knjižnega in periodičnega tiska.<note place="foot" xml:id="ftn4" n="2"> Urška
+                  Perenič, <hi rend="italic">Empirično-sistemsko raziskovanje literature:
+                     Konceptualne podlage, teoretski modeli in uporabni primeri</hi> (Ljubljana:
+                  Slavistično društvo Slovenije, 2010). Marijan Dović, <hi rend="italic">Slovenski
+                     pisatelj: Razvoj vloge literarnega proizvajalca v slovenskem literarnem
+                     sistemu</hi> (Ljubljana: Založba ZRC, ZRC SAZU, 2007), 170, 122.</note> Zlasti
+               na obrobju slovenskega kulturnega prostora je imel tisk zaradi jezikovnega elementa
+               tudi narodno identifikacijsko in narodnopovezovalno vlogo.<note place="foot"
+                  xml:id="ftn5" n="3"> Urška Perenič, »Čitalništvo v perspektivi družbenogeografskih
+                  dejavnikov.« <hi rend="italic">Slavistična revija</hi> 60, št. 3 (2012):
+                  365–82.</note> Slovenski jezik je tako za Slovence pomenil enega od ključnih
+               gradnikov osebne in nacionalne identitete ter narodne zavesti.<note place="foot"
+                  xml:id="ftn6" n="4"> Vesna Mikolič, »Povezanost narodne in jezikovne zavesti,« <hi
+                     rend="italic">Jezik in slovstvo</hi> 45, št. 5 (2000): 180–82.</note></p>
+            <p style="text-align: justify;">V obdobju do prve svetovne vojne se je ob slovenskem
+               gospodarskopolitičnem in drugem periodičnem časopisju, denimo <hi rend="italic"
+                  >Kmetijskih in rokodelskih novicah</hi> (Ljubljana), <hi rend="italic">Slovenskem
+                  gospodarju</hi> (Maribor), <hi rend="italic">Slovenskem narodu</hi> (Maribor), <hi
+                  rend="italic">Slovencu</hi> (Ljubljana), <hi rend="italic">Soči</hi> (Gorica), <hi
+                  rend="italic">Gorici</hi> (Gorica), <hi rend="italic">Primorskem listu</hi>
+               (Gorica), <hi rend="italic">Edinosti</hi> (Trst), vzpostavila mreža literarnih revij,
+               na primer <hi rend="italic">Slovenska bčela</hi> (Celovec), <hi rend="italic"
+                  >Slovenski glasnik</hi> (Celovec), <hi rend="italic">Glasnik</hi> (Maribor), <hi
+                  rend="italic">Zvon</hi> (Dunaj), <hi rend="italic">Ljubljanski zvon</hi>
+               (Ljubljana), <hi rend="italic">Kres</hi> (Celovec), <hi rend="italic">Dom in
+                  svet</hi> (Ljubljana), <hi rend="italic">Slovenka</hi> (Trst), strokovnih in
+               stanovskih glasil, na primer <hi rend="italic">Časopis za zgodovino in
+                  narodopisje</hi> (Maribor), <hi rend="italic">Učiteljski tovariš</hi> (Ljubljana),
+               ter verske periodike, denimo <hi rend="italic">Cerkveni glasbenik</hi> (Ljubljana),
+                  <hi rend="italic">Zgodnja Danica</hi> (Ljubljana), <hi rend="italic">Krščanski
+                  detoljub</hi> (Ljubljana), <hi rend="italic">Angelček</hi> (Ljubljana), <hi
+                  rend="italic">Družinski prijatelj</hi> (Trst), <hi rend="italic">Svetilnik</hi>
+               (Trst), <hi rend="italic">Rimski katolik</hi> (Gorica), <hi rend="italic"
+                  >Drobtinice</hi> (Gradec, Maribor, Ljubljana) in <hi rend="italic">Cvetje z vertov
+                  sv. Frančiška</hi> (Gorica, Kamnik).<note place="foot" xml:id="ftn7" n="5"> Miša
+                  Šalamun, <hi rend="italic">Slovensko primorsko časopisje. Zgodovinski pregled in
+                     bibliografski opis</hi> (Koper: Lipa, 1961), 25–26. Dović, <hi rend="italic"
+                     >Slovenski pisatelj</hi>, 120–23.</note> Uredniki (na primer Bleiweis,
+               Einspieler, Janežič, Jurčič, Stritar, Levec, Sket, Slomšek, Škrabec idr.) so pogosto
+               tudi lektorsko posegali v besedila skladno s svojimi nazori, zato lahko časopisje
+               predstavlja relevanten vir za opazovanje razvoja slovenskega knjižnega jezika in
+               postopnega sprejemanja t. i. »novih oblik«.</p>
+            <p style="text-align: justify;">Jezikoslovec p. Stanislav Škrabec je svoje jezikoslovne
+               razprave objavljal na platnicah revije <hi rend="italic">Cvetje z vertov sv.
+                  Frančiška </hi>(v nadaljevanju <hi rend="italic">CFr</hi>), uredniško pa je bdel
+               nad jezikovno podobo besedil znotraj revije. O tem je p. Kunstelj zapisal: »Kar je on
+               učil, je predvsem sam izvrševal. Zato je pa presedel dostikrat skoro po cele noči, da
+               je prelil in predelal spise drugih po svojih zahtevah, zlasti pa, da je svoje lastne,
+               dostikrat precej obširne sestavke, svojim nazorom primerno priredil.«<note
+                  place="foot" xml:id="ftn8" n="6"> Bruno Korošak, <hi rend="italic">P. Stanislav
+                     Škrabec, frančiškan, v očeh sodobnikov</hi> (Ljubljana: Založba Brat Frančišek,
+                  2001), 19.</note></p>
+         </div>
+         <div>
+            <head>Opis raziskovalnega gradiva in metod</head>
+            <p style="text-align: justify;">Osrednje gradivo za raziskavo predstavlja manjši
+               specializirani korpus starejšega slovenskega jezika CVET 1.0,<note place="foot"
+                  xml:id="ftn9" n="7"> Diana Košir in Tomaž Erjavec, »Corpus of texts by Hijacint
+                  Repič CVET 1.0« (2024). <hi rend="italic">Slovenian language resource repository
+                     CLARIN.SI,</hi>
+                  <ref target="http://hdl.handle.net/11356/1226"
+                     >http://hdl.handle.net/11356/1226</ref>.</note> ki vsebuje vse objave
+               p. Hijacinta Repiča v reviji <hi rend="italic">CFr</hi> v letih 1881–1916 (ur.
+               Škrabec). Pričujoči članek je nastal na osnovi prispevka avtorjev na konferenci
+               Jezikovne tehnologije in digitalna humanistika (2024),<note place="foot"
+                  xml:id="ftn10" n="8"> Diana Košir in Tomaž Erjavec, »Korpus CVET 1.0: izdelava,
+                  opis in analiza zbirke starejših besedil v verski periodiki« (prispevek objavljen
+                  na letni konferenci JT-DH 2024, Conference on Language Technologies and Digital
+                  Humanities, Ljubljana, Slovenija, 19.–20. 9. 2024), <ref
+                     target="https://doi.org/10.5281/zenodo.13936400"
+                     >https://doi.org/10.5281/zenodo.13936400</ref>.</note> pri čemer gre za
+               razširitev stilistične analize z dodanimi spremenljivkami za opis pripovednega sloga
+               patra Repiča, kot jo ponuja korpusni pristop z uporabo orodij noSketch Engine in
+               Sketch Engine. Dodan je tudi primer korpusne analize zgodovinskih leksikalnih oblik
+               kot odraz udejanjanja Škrabčeve knjižne norme v praksi, ob primerjavi z drugimi
+               referenčnimi jezikovnimi priročniki.</p>
+         </div>
+         <div>
+            <head>Izdelava in opis korpusa CVET 1.0</head>
+            <p style="text-align: justify;">Priprava gradiva za korpus je zajemala izbor besedil
+               (pridobljenih s strani dLib), pretvorbo v besedilne datoteke Word in kritični prepis
+               (podrobnejši opis priprave gradiva za korpus prinaša konferenčni prispevek).<note
+                  place="foot" xml:id="ftn11" n="9"> Ibidem.</note> Vsaka datoteka Word je bila
+               označena z metapodatki, zbranimi v preglednici Excel (identifikator besedila – ime
+               datoteke, avtor, naslov članka, mesto objave (leto, letnik, številka), URL izvornega
+               mesta objave v dLib in številke strani, na katerih se članek pojavi).</p>
+            <p style="text-align: justify;">Nato je bilo gradivo iz formatov Word in Excel
+               pretvorjeno v XML-shemo, skladno s priporočili za kodiranje besedil TEI.<note
+                  place="foot" xml:id="ftn12" n="10">
+                  <hi rend="italic">TEI Consortium, eds. Guidelines for Electronic Text Encoding and
+                     Interchange</hi>, <ref target="http://www.tei-c.org/P5/"
+                     >http://www.tei-c.org/P5/</ref>.<ref
+                     target="https://github.com/clarinsi/TEI-schema"> </ref></note> Datoteke Word so
+               bile pretvorjene v osnovni TEI z uporabo standardnih skript XSLT za pretvorbo v
+               dokumente TEI in iz njih,<note place="foot" xml:id="ftn13" n="11">
+                  <hi rend="italic">GitHub - TEIC/Stylesheets: TEI XSL Stylesheets</hi>, <ref
+                     target="https://github.com/TEIC/Stylesheets"
+                     >https://github.com/TEIC/Stylesheets</ref>.</note> razpredelnica Excel z
+               metapodatki o posameznih besedilih pa je bila shranjena kot datoteka TSV. Z namensko
+               skripto so bile besedilne datoteke TEI povezane z metapodatki v eno datoteko TEI
+               (vrhnji element &lt;TEI&gt;), ki vsebuje kolofon (element &lt;teiHeader&gt;) in
+               besedilo (&lt;text&gt;). Začetek ene od teh datotek ilustrira Slika 1.</p>
+            <p style="text-align: justify;">Slika 1: Primer začetka zapisa posameznega besedila v
+               formatu TEI</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples" valid="true">               
+            <![CDATA[<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CVET-1887_7_2_43-46" xml:lang="sl">
+               <teiHeader>
+                  <fileDesc>
+                     <titleStmt>
+                        <title>Vzroki in koristi terpljenja pobožnih duš. (1887) [CVET]</title>
+                        <author>Repič, Hijacint</author>
+                     </titleStmt>
+                     <editionStmt>
+                        <edition>1.0</edition>
+                     </editionStmt>
+                     <extent>
+                        <measure unit="words">1203</measure>
+                     </extent>
+                     <publicationStmt>
+                        <distributor>CLARIN.SI</distributor>
+                        <idno type="handle">http://hdl.handle.net/11356/1226</idno>
+                        <date when="2024-05-07"> 7. maj 2024</date>
+                     </publicationStmt>
+                     <sourceDesc>
+                        <bibl type="article">
+                           <author>Repič, Hijacint</author>
+                           <title level="a">Vzroki in koristi terpljenja pobožnih duš.</title>
+                           <bibl type="monogr">
+                              <title level="j">Cvetje z vertov sv. Frančiška</title>
+                              <biblScope unit="volume">7</biblScope>
+                              <biblScope unit="number">2</biblScope>
+                              <biblScope unit="page" from="11" to="14">11-14</biblScope>
+                              <date when="1887">1887</date>
+                              <idno type="URI" subtype="URN">https://www.dlib.si/.../PDF</idno>
+                           </bibl>
+                        </bibl>]]>
+            </egXML>
+            <note n="">Vir: lastno delo</note>
+            <lb/>
+            <p style="text-align: justify;">Korpus je formiran kot dokument XML s krovno datoteko
+               (element &lt;teiCorpus&gt;), ki vsebuje kolofon korpusa in povezave (elementi
+               XInclude) na besedilne datoteke korpusa.</p>
+            <p style="text-align: justify;">Gradivo v starejši slovenščini vsebuje arhaične
+               leksikalne oblike, zato je bilo zaradi lažje nadaljnje uporabe in jezikoslovnega
+               označevanja zbirke avtomatsko posodobljeno z odprtokodnim orodjem za avtomatsko
+               posodabljanje leksike cSMTiser,<note place="foot" xml:id="ftn14" n="12"> Yves
+                  Scherrer in Nikola Ljubešić, »Automatic Normalisation of the Swiss German ArchiMob
+                  Corpus Using Character-Level Machine Translation« (prispevek objavljen na letni
+                  konferenci KONVENS 2016, 13th Conference on Natural Language Processing, Bochum,
+                  Germany, 19.–21. 9. 2016). </note> ki je posodobilo 13.033 oziroma 7,4 odstotka
+               besed. Izvorne besedne oblike s tem niso bile izgubljene, pač pa so posodobljene
+               oblike, kjer se razlikujejo od izvirnih, bile pripisane tem.</p>
+            <p style="text-align: justify;">V postopku avtomatskega posodabljanja starejšega jezika
+               so bile ustrezno posodobljene na primer besede, ki imajo polglasnik zapisan z »e«
+               (npr. <hi rend="italic">miloserčnost</hi> &gt; <hi rend="italic">milosrčnost, serce
+               </hi>&gt; <hi rend="italic">srce</hi>, <hi rend="italic">smert</hi> &gt; <hi
+                  rend="italic">smrt</hi>), končnica -vec &gt; -lec (<hi rend="italic">bravec</hi>
+               &gt; <hi rend="italic">bralec</hi>), besede s premeno -t- &gt; -d- v korenu (npr. <hi
+                  rend="italic">britkosti</hi> &gt; <hi rend="italic">bridkosti</hi>), -z- &gt; -g-
+               v korenu (npr. <hi rend="italic">druzega</hi>, <hi rend="italic">vbozih</hi> &gt; <hi
+                  rend="italic">drugega</hi>, <hi rend="italic">ubogih</hi>), izpad -i- v <hi
+                  rend="italic">stariši</hi> &gt; <hi rend="italic">starši </hi>(mn.) in <hi
+                  rend="italic">kristijani</hi> &gt; <hi rend="italic">kristjani</hi>, izpad -t- v
+                  <hi rend="italic">bogatstvo</hi> &gt; <hi rend="italic">bogastvo</hi>, zapis v-
+               &gt; u- pri nekaterih glagolih (npr. <hi rend="italic">vmreti</hi>, <hi rend="italic"
+                  >vmerl</hi> &gt; <hi rend="italic">umreti</hi>, <hi rend="italic">umrl</hi>),
+               oblika <hi rend="italic">aposteljnov</hi> &gt; <hi rend="italic">apostolov </hi>in
+               nekatere funkcijske besede: zaimek <hi rend="italic">gdo</hi> &gt; <hi rend="italic"
+                  >kdo</hi>, veznik <hi rend="italic">temuč &gt; temveč</hi>, veznik in členek <hi
+                  rend="italic">toraj</hi>/<hi rend="italic">torej</hi> &gt; <hi rend="italic"
+                  >torej</hi>, členek <hi rend="italic">vže</hi> &gt; <hi rend="italic">že</hi>,
+               predlog <hi rend="italic">sè </hi>&gt; <hi rend="italic">s</hi>, <hi rend="italic"
+                  >ž</hi> &gt; <hi rend="italic">z</hi>. Nekatere starejše oblike besed so bile v
+               postopku strojnega posodabljanja leksike spregledane (npr. predlog <hi rend="italic"
+                  >mej </hi>&gt; med, <hi rend="italic">blager</hi> &gt; blagor). Te bodo skupaj z
+               nekaterimi zaznanimi napačnimi posodobitvami (pregledno jih navaja konferenčni
+               prispevek) popravljene v prihodnji verziji korpusa.</p>
+            <p style="text-align: justify;">Nato je bil korpus jezikoslovno označen z odprtokodnim
+               orodjem CLASSLA,<note place="foot" xml:id="ftn15" n="13"> Nikola Ljubešić, Luka
+                  Terčon in Kaja Dobrovoljc, »CLASSLA-Stanza: The Next Step for Linguistic
+                  Processing of South Slavic Languages« (prispevek objavljen na konferenci JT-DH
+                  2024, Conference on Language Technologies and Digital Humanities, Ljubljana,
+                  Slovenija, 19.–20. 9. 2024), <ref target="https://doi.org/10.5281/zenodo.13936406"
+                     >https://doi.org/10.5281/zenodo.13936406</ref>.</note> s katerim so bile vsaki
+               besedi dodane njena lema oziroma osnovna oblika, njene oblikoskladenjske lastnosti in
+               skladenjska razčlenitev povedi po sistemu Universal Dependencies za slovenski
+                  jezik.<note place="foot" xml:id="ftn16" n="14"> Kaja Dobrovoljc, Tomaž Erjavec in
+                  Simon Krek, »The Universal Dependencies Treebank for Slovenian« (prispevek
+                  objavljen na konferenci »6th Workshop on Balto-Slavic Natural Language
+                  Processing«. Association for Computational Linguistics, str. 33–38, <ref
+                     target="https://doi.org/10.18653/v1/W17-1406"
+                     >https://doi.org/10.18653/v1/W17-1406</ref>).</note></p>
+            <p style="text-align: justify;">Korpus vsebuje 230 besedil oziroma 3228 odstavkov,
+               10.109 (avtomatsko določenih) povedi in 175.907 besed. Različica 1.0 je bila
+               objavljena v repozitoriju CLARIN.SI pod odprto licenco Creative Commons, priznanje
+               avtorstva (CC BY).<note place="foot" xml:id="ftn17" n="15"> Diana Košir in Tomaž
+                  Erjavec, »Corpus of texts by Hijacint Repič CVET 1.0« (2024). <hi rend="italic"
+                     >Slovenian language resource repository CLARIN.SI</hi>, <ref
+                     target="http://hdl.handle.net/11356/1226"
+                     >http://hdl.handle.net/11356/1226</ref>.</note> Za prevzem je na voljo v štirih
+               stisnjenih datotekah. Vsaka vsebuje direktorij, v njem pa datoteke za eno od variant
+               korpusa (opis prinaša konferenčni prispevek). Repozitorijski vnos je povezan s
+               konkordančniki CLARIN.SI noSketch Engine in KonText, kar omogoča poizvedbe in analize
+               korpusa brez znanja programiranja – z različnimi vizualizacijami in možnostjo
+               shranjevanja rezultatov poizvedb.</p>
+            <p style="text-align: justify;">V nadaljevanju je korpus CVET 1.0 podlaga za a) analizo
+               pripovednega sloga p. Hijacinta Repiča in b) komparativno analizo izbranih
+               zgodovinskih oblik v <hi rend="italic">CFr</hi>. Ob Škrabčevih načelih je preverjena
+               norma v naslednjih normativnih priročnikih: Janežičevi <hi rend="italic">Slovenski
+                  slovnici za domačo in šolsko rabo</hi> (1863), Pleteršnikovem <hi rend="italic"
+                  >Slovensko-nemškem slovarju</hi> (1894–1895), Levčevem <hi rend="italic"
+                  >Slovenskem pravopisu</hi> (1899) in Breznikovi <hi rend="italic">Slovenski
+                  slovnici za srednje šole</hi> (1916). Prikazan je primer analize zgodovinske
+               paradigme na glasoslovni ravni, na kateri je bilo tudi sicer zaznanih največ razlik v
+               primerjavi s sodobno knjižno normo, ki pa jih je orodje za avtomatsko posodabljanje
+               leksike v korpusu CVET v glavnini pravilno prepoznalo.</p>
+         </div>
+         <div>
+            <head>Stilometrija in korpusna stilistika</head>
+            <p style="text-align: justify;">Na presečišču jezikoslovja in literarnih ved je
+               literarna stilistika, opredeljena kot jezikoslovno preučevanje sloga oziroma namenske
+               specifične rabe jezika kot osrednjega medija literature, ki nakazuje odnos med
+               kreativnim dosežkom (učinkom) in jezikovno manifestacijo,<note place="foot"
+                  xml:id="ftn18" n="16"> Geoffrey N. Leech in Mick Short, <hi rend="italic">Style in
+                     Fiction: A Linguistic Introduction to English Fictional Prose</hi> (Harlow:
+                  Pearson Education Limited, 2007), 11, 55. </note> na to pa lahko vplivajo različne
+               nejezikovne spremenljivke, kot so žanr, avtor, zgodovinsko obdobje ipd.<note
+                  place="foot" xml:id="ftn19" n="17"> Lesley Jeffries in Daniel McIntyre, <hi
+                     rend="italic">Stylistics</hi> (Cambridge: Cambridge University Press, 2010), 1.
+               </note> Pri stilistični analizi opazujemo sestavine sloga (angl. <hi rend="italic"
+                  >features of style</hi>), jezikovne elemente, ki v danem korpusu izstopajo in
+               prispevajo k oblikovanju sloga.<note place="foot" xml:id="ftn20" n="18"> Leech in
+                  Short, <hi rend="italic">Style in Fiction</hi>, 44, 56.</note> Slogovne
+               označevalce (angl. <hi rend="italic">style markers</hi>) Leech in Short za potrebe
+               stilistične analize razvrščata v štiri kategorije: a) leksikalne prvine, b) slovnične
+               prvine, c) retorična sredstva (figure in tropi) ter č) kohezija in kontekst.<note
+                  place="foot" xml:id="ftn21" n="19"> Ibid., 61–66.</note></p>
+            <p style="text-align: justify;">V okviru računalniške kvantitativne stilistike se ločita
+               pristopa stilometrije in korpusne stilistike. Stilometrija je preštevalna metoda
+               določanja stila in temelji na vnaprej izbranih markerjih, kot so najpogostejše
+               besede, njihova pogostnost in razpršenost v danem korpusu, raznolikost (gostota)
+               besedišča in <hi rend="italic">hapax legomena</hi> oziroma <hi rend="italic">hapax
+                  dislegomena</hi>, povprečna dolžina besed oziroma povedi, črkovni in besedni
+               n-grami, pogostost najpogostejših besednih kolokacij itd.<note place="foot"
+                  xml:id="ftn22" n="20"> David L. Hoover, »Frequent Word Sequences and Statistical
+                  Stylistics,« <hi rend="italic">Literary and Linguistic Computing</hi> 17, št. 2
+                  (2002). Jack Grieve, »Quantitative Authorship Attribution: An Evaluation of
+                  Techniques,« <hi rend="italic">Literary and Linguistic Computing</hi> 22, št. 3
+                  (2007). Andrejka Žejn, »Računalniško podprta stilometrična analiza pripovedne
+                  literature Janeza Ciglerja in Christopha Schmida v slovenščini,« <hi rend="italic"
+                     >Fluminensia: časopis za filološka istraživanja</hi> 32, št. 2 (2020).</note>
+               Korpusna stilistika pa je razumljena kot uporaba teorij, modelov in metod stilistike
+               pri korpusni analizi,<note place="foot" xml:id="ftn23" n="21"> Dan McIntyre in Brian
+                  Walker, <hi rend="italic">Corpus Stylistics: Theory and Practice</hi> (Edinburgh:
+                  Edinburgh University Press, 2019), 15. </note> pri čemer je poudarek na
+               kvalitativni analizi kvantitativnih podatkov oziroma literarnovedni interpretaciji,
+               kjer v raziskavo vstopijo naratološke teme, kulturno-družbeni in kognitivni vidiki
+                  literature.<note place="foot" xml:id="ftn24" n="22"> Berenike J. Herrmann, Arthur
+                  M. Jacobs in Andrew Piper, »Computational Stylistics,« v: <hi rend="italic"
+                     >Handbook of Empirical Literary Studies</hi>, ur. Donald Kuiken in Arthur M.
+                  Jacobs (Berlin, Boston: De Gruyter, 2021), 460–69.</note></p>
+            <p style="text-align: justify;">Jasno razmejitev med obema naboroma metod in pristopov
+               je težko določiti. Analize v članku združujejo pristope korpusnega jezikoslovja,
+               stilometrije in korpusne stilistike, slednje zlasti pri interpretaciji izbranih prvin
+               za zvrstno-žanrski opis besedil. Za analizo so bile izbrane štiri spremenljivke,
+               povezane s frekvenčnostjo: najpogostejših 100 besed, najmanj pogoste besede,
+               najpogostejši besedni 2-grami in ključne besede. Frekvenčni seznami so bili
+               pridobljeni z orodjem noSketch Engine, s plačljivo različico Sketch Engine pa so bili
+               analizirani besedni 2-grami. CLARIN.SI konkordančnik noSketch Engine omogoča funkcijo
+               iskanja ključnih besed (<hi rend="italic">keywords</hi>), pridobljenih glede na
+               referenčni korpus PriLit 1.0,<note place="foot" xml:id="ftn25" n="23"> Andrejka Žejn
+                  in Tomaž Erjavec, »The corpus of older Slovenian narrative prose PriLit 1.0«
+                  (2021), <hi rend="italic">Slovenian language resource repository CLARIN.SI</hi>,
+                     <ref target="http://hdl.handle.net/11356/1319"
+                     >http://hdl.handle.net/11356/1319</ref>.</note> ki vsebuje starejša slovenska
+               besedila (rokopise, pridige, krajšo pripovedno prozo) od sredine 17. do sredine 19.
+               stoletja. </p>
+            <p style="text-align: justify;">Analiza opazovanih parametrov služi opisu leksike
+               (slogovnega in normativnega vidika), vpogledu v raznolikost besedišča in tematskemu
+               opisu korpusa, kar razodeva avtorjevo pomensko polje, njegov spoznavni in literarni
+                  svet.<note place="foot" xml:id="ftn26" n="24"> Vesna Mikolič, <hi rend="italic"
+                     >Izrazi moči slovenskega jezika</hi> (Koper: Annales ZRS, Ljubljana: Slovenska
+                  matica, 2020). Vesna Mikolič, <hi rend="italic">Ali bereš Cankarja?</hi>
+                  (Ljubljana: Slovenska matica, 2022).</note> Pri izboru slogovnih označevalcev in
+               njihovi interpretaciji pa je do neke mere treba upoštevati tudi subjektivno presojo
+               in interpretativni okvir raziskovalca, na kar sta opozorila tudi Leech in Short.<note
+                  place="foot" xml:id="ftn27" n="25"> Leech in Short, <hi rend="italic">Style in
+                     Fiction</hi> 3, 34–36.</note></p>
+         </div>
+         <div>
+            <head>Korpusna analiza avtorjevega pripovednega sloga</head>
+            <p style="text-align: justify;">Med najpogostejšimi 100 besedami (lemami) v korpusu CVET
+               1.0 so: a) glagoli <hi rend="italic">biti</hi>, <hi rend="italic">imeti</hi>, <hi
+                  rend="italic">moči</hi>, <hi rend="italic">hoteti</hi>, <hi rend="italic"
+                  >reči</hi>, <hi rend="italic">morati</hi>, <hi rend="italic">priti</hi>, <hi
+                  rend="italic">storiti</hi>, <hi rend="italic">prositi</hi>, <hi rend="italic"
+                  >govoriti</hi>, <hi rend="italic">videti</hi>, <hi rend="italic">delati</hi>, <hi
+                  rend="italic">vedeti</hi>, <hi rend="italic">ljubiti</hi>; b) samostalniki <hi
+                  rend="italic">Bog</hi>, <hi rend="italic">svet</hi>, <hi rend="italic">duša</hi>,
+                  <hi rend="italic">človek</hi>, <hi rend="italic">brat</hi>, <hi rend="italic"
+                  >Frančišek</hi>, <hi rend="italic">gospod</hi>, <hi rend="italic">dan</hi>, <hi
+                  rend="italic">življenje</hi>, <hi rend="italic">greh</hi>, <hi rend="italic">srce
+               </hi>(izv. <hi rend="italic">serce</hi>), <hi rend="italic">oče</hi>, <hi
+                  rend="italic">volja</hi>, <hi rend="italic">beseda</hi>, <hi rend="italic"
+                  >Jezus</hi>, <hi rend="italic">milost</hi>, <hi rend="italic">otrok</hi>, <hi
+                  rend="italic">Kristus</hi>, <hi rend="italic">križ</hi>, <hi rend="italic"
+                  >ljubezen</hi>, <hi rend="italic">mati</hi>, samostalniški zaimki <hi
+                  rend="italic">jaz</hi>, <hi rend="italic">ti</hi>; c) pridevniki <hi rend="italic"
+                  >božji</hi>, <hi rend="italic">dober</hi>, <hi rend="italic">velik</hi>, svojilni
+               zaimki <hi rend="italic">moj</hi>, <hi rend="italic">tvoj</hi>, <hi rend="italic"
+                  >svoj</hi>, <hi rend="italic">njegov</hi>, <hi rend="italic">naš</hi>; č) prislovi
+                  <hi rend="italic">jako</hi>, <hi rend="italic">dobro</hi>; d) vezniki <hi
+                  rend="italic">da</hi>, <hi rend="italic">in</hi>, <hi rend="italic">ter</hi>, <hi
+                  rend="italic">v</hi>, <hi rend="italic">ako</hi>, oziralni in vprašalni zaimki v
+               vlogi veznika <hi rend="italic">kateri </hi>(izv. <hi rend="italic">keteri</hi>), <hi
+                  rend="italic">kakor </hi>(izv. <hi rend="italic">kaker</hi>), <hi rend="italic"
+                  >kar</hi>, <hi rend="italic">kaj</hi>, <hi rend="italic">kako</hi>; e) členki <hi
+                  rend="italic">tudi</hi>, <hi rend="italic">naj</hi>, <hi rend="italic">še</hi>,
+                  <hi rend="italic">ne</hi>, <hi rend="italic">le</hi>, <hi rend="italic">samo</hi>.
+               Lema <hi rend="italic">nič </hi>se pojavi kot samostalnik (<hi rend="italic">Oh saj
+                  gre vse sčasoma v nič!</hi>), sam. zaimek (<hi rend="italic">Zato se ne veseli v
+                  ničemer drugem, kar je pod nebom!</hi>) in prislov (<hi rend="italic">Keder se nič
+                  več ne želi, takrat se čuti pravo, popolno veselje</hi>), zaimek <hi rend="italic"
+                  >vsak </hi>v pridevniški (<hi rend="italic">Priporočeval se jima je serčno vsako
+                  jutro in vsak večer</hi>) in samostalniški rabi (<hi rend="italic">Ako je vsacemu
+                  dovoljeno storiti si iz sukna tako ali tako obleko, bo li Bog imel menj pravic do
+                  svojega?</hi>).</p>
+            <p style="text-align: justify;">Med glagoli se poleg tistih, ki so značilni za vsakdanje
+               sporazumevalne okoliščine (pomožni glagol <hi rend="italic">biti</hi>, <hi
+                  rend="italic">imeti</hi>, <hi rend="italic">delati</hi>, <hi rend="italic"
+                  >dati</hi>), pogosto pojavijo glagoli rekanja (<hi rend="italic">reči</hi>, <hi
+                  rend="italic">prositi</hi>, <hi rend="italic">govoriti</hi>, tudi <hi
+                  rend="italic">praviti</hi>, <hi rend="italic">odgovoriti</hi>, <hi rend="italic"
+                  >povedati</hi>) in modalni glagoli (prvo število so pojavitve, drugo pa odstotek
+               besedil v korpusu, kjer se lema pojavi): <hi rend="italic">moči </hi>(597 = 75 %),
+                  <hi rend="italic">hoteti </hi>(577 = 70,87 %) in <hi rend="italic">morati
+               </hi>(465 = 66,52 %). Kontekst rabe teh naklonskih glagolov je pričakovan za nabožno
+               vzgojno literaturo, npr. <hi rend="italic">Naposled, ker brez milosti božje ne moreš
+                  nič dobrega storiti, prosi Boga, da ti bode milostljiv</hi> / <hi rend="italic"
+                  >Ali Bog te hoče poskušati sè skušnjavami, je li res, da ga ljubiš ali ni </hi>/
+                  <hi rend="italic">Nadalje se moramo vdati božji volji, ako imamo dušne ali telesne
+                  pogreške</hi>. V primerih je opazno prehajanje med prvo- in drugoosebnimi
+               glagolskimi oblikami oziroma načini nagovarjanja bralca. Če v kontekstu diskurza s
+               prevladujočo vplivanjsko vlogo opazujemo različne pripovedne perspektive ('mi', 'ti'
+               in 'vi') za glagol <hi rend="italic">morati</hi>, ki je z vidika naklonskosti najbolj
+               neposreden v izražanju nujnosti, ugotovimo, da se oblika <hi rend="italic"
+                  >moramo</hi> (1. os. mn.), kjer sta pripovedovalec in bralec del množinskega
+               subjekta, pojavi 123-krat, oblika <hi rend="italic">morate</hi> (2. os. mn.), kjer se
+               pripovedovalec distancira od množinskega prejemnika in se postavi v superiorno vlogo,
+               le 11-krat, oblika <hi rend="italic">moraš</hi> (2. os. ed.), kjer gre v primerjavi s
+               prejšnjima za najbolj neposredno obliko nagovarjanja, pa 56-krat. Med opazovanimi je
+               najpogostejša prvoosebna množinska oblika, kjer gre za približevanje sporočevalca
+               naslovniku, razmeroma pogosto pa pripovedovalec rabi tudi bolj neposredno, edninsko
+               obliko, ki deluje kot okrepitev sporočila (npr. <hi rend="italic">Ako hočeš torej
+                  vživati Boga, se moraš odpovedati grešnim posvetnim tolažbam</hi>).</p>
+            <p style="text-align: justify;">Za ugotovitev, ali raba naklonskega glagola <hi
+                  rend="italic">morati</hi> v korpusu CVET statistično značilno izstopa, sta bila za
+               primerjavo izbrana dva korpusa starejšega slovenskega jezika: korpus KDSP<note
+                  place="foot" xml:id="ftn28" n="26"> Lucija Mandić in Tomaž Erjavec, »Corpus of
+                  longer narrative Slovenian prose KDSP 1.0« (2023), <hi rend="italic">Slovenian
+                     language resource repository CLARIN.SI</hi>, <ref
+                     target="http://hdl.handle.net/11356/1823"
+                     >http://hdl.handle.net/11356/1823</ref>.</note> s pripovedno prozo 19. stoletja
+               in korpus Slovenska periodika (1771–1914).<note place="foot" xml:id="ftn29" n="27">
+                  Filip Dobranić, Bojan Evkoski in Nikola Ljubešić, »Corpus of Slovenian periodicals
+                  (1771–1914) sPeriodika 1.0« (2023). <hi rend="italic">Slovenian language resource
+                     repository CLARIN.SI</hi>, <ref target="http://hdl.handle.net/11356/1881"
+                     >http://hdl.handle.net/11356/1881</ref>.</note> V korpusu KDSP se glagol <hi
+                  rend="italic">morati</hi> pojavi v 99,6 odstotka besedil in predstavlja 0,16
+               odstotka korpusa, v korpusu periodike je prisoten v 73,19 odstotka besedil in obsega
+               0,15 odstotka korpusa, v korpusu CVET pa se <hi rend="italic">morati</hi> pojavi v
+               66,5 odstotka besedil, medtem ko vse pojavitve predstavljajo 0,22 odstotka korpusa. V
+               korpusu periodike in v CVET je prvi podatek (odstotek besedil s pojavnico)
+               pričakovano bistveno nižji kot v KDSP, ker vsak posamezni članek predstavlja svojo
+               besedilno enoto. Je pa v korpusu CVET opazen najvišji odstotek pojavnosti glagola v
+               razmerju do celotnega korpusa. Kvantitativna analiza je, upoštevajoč zvrstno
+               raznoliko primerjalno gradivo, pokazala višjo prisotnost naklonskega glagola <hi
+                  rend="italic">morati</hi> v pripovednem slogu patra Repiča v besedilih
+               (polliterarne) zvrsti versko-vzgojnega periodičnega članka, kot se je to pokazalo za
+               korpus literarnih besedil in periodične članke v glavnem necerkvene vsebine. Smiselno
+               bi bilo zato opraviti dodatne kvalitativne analize kontekstov rabe, da bi se lahko
+               utemeljilo razmerje med sporočanjsko in vplivanjsko vlogo besedil ter piščevo izbiro
+               posameznih naklonskih sredstev kot stilistično karakteristiko avtorja in literarne
+               zvrsti oziroma žanra.</p>
+            <p style="text-align: justify;">Religiozni diskurz tipično opredeljuje
+               moralno-vrednostno razmerje dobro : slabo in med najpogostejšimi besedami v korpusu
+               CVET so predvsem te, ki semantično sodijo v vrednostno oznako »dobro« (<hi
+                  rend="italic">ljubiti</hi>, <hi rend="italic">Bog</hi>, <hi rend="italic"
+                  >duša</hi>, <hi rend="italic">srce</hi>, <hi rend="italic">milost</hi>, <hi
+                  rend="italic">ljubezen</hi>, <hi rend="italic">dober</hi>, <hi rend="italic"
+                  >dobro</hi>).</p>
+            <p style="text-align: justify;">Večina od prvih 100 besed se pojavi v več kot 60
+               odstotkih vseh besedil, kar pomeni, da je njihova zastopanost razpršena po celotnem
+               korpusu.</p>
+            <p style="text-align: justify;">Po pogostosti izstopa raba zaimka <hi rend="italic"
+                  >kateri</hi>, ki se pojavi kar 1822-krat in v 90,87 odstotka besedil. Izrazita je
+               vezniška raba, kjer uvaja podredje z oziralnim odvisnikom, v današnji knjižni
+               slovenščini bi ga nadomestil zaimek <hi rend="italic">ki</hi> (npr. <hi rend="italic"
+                  >Ali ti, moj Jezus, keteremu je vse odkrito, in keteri si vstvaril vse v meri in
+                  številu ...</hi>). Tudi sicer hiter pregled gradiva pokaže, da so v Repičevih
+               tekstih pogoste dolge povedi s podredji, kar potrjuje statistični podatek za
+               povprečno dolžino povedi (izračunan na podlagi števila besed in povedi v korpusu), ki
+               znaša 17 besed (npr. <hi rend="italic">Kar se tiče pa vsacega od nas v tacih občnih
+                  nesrečah, pomislimo sè zaupanjem na Boga, keteri zna število naših las, in keterih
+                  nam niti eden ne pade z glave brez njegove presvete volje, kar pomeni, da se nam
+                  čisto nič ne more pripetiti, kar Bog neče ali ne dopusti.</hi>).</p>
+            <p style="text-align: justify;">Med načinovnimi prislovi po
+               frekvenčnosti izstopa leksem <hi rend="italic">jako </hi>(342-krat; ob enajstih
+               pojavitvah sopomenke <hi rend="italic">zelo</hi>; npr. <hi rend="italic">To
+                  prepričanje nas jako tolaži, ker vemo, da nas Bog more tako lehko poklicati k
+                  sebi, ko smo v sreči in zdravju, kaker ko smo v občnih nesrečah</hi>). Glede na
+               konkordance in metapodatke o izvirnih besedilih, ki jih posreduje korpus, je mogoče
+               ugotoviti, da se starejša oblika 'jako' pojavlja po vsem gradivu (v 57,83 odstotka
+               besedil), novejša oblika 'zelo' pa ob njej nekoliko bolj konsistentno po letu 1913,
+               kar kaže na utrjevanje nove oblike v knjižni normi. Ker se prislov <hi rend="italic"
+                  >jako</hi>, kot bo razvidno v nadaljevanju, pojavi tudi med ključnimi besedami
+               glede na referenčni korpus starejših pripovednih besedil, ga je mogoče označiti kot
+               značilno potezo patrovega pripovednega sloga.</p>
+            <p style="text-align: justify;">Med najmanj pogostimi besedami (ena do dve pojavitvi,
+               korpus takih lem navaja 4656) so nepričakovane tvorjenke: manjšalnice (<hi
+                  rend="italic">človeček</hi>, <hi rend="italic">stvarca</hi>), <hi rend="italic"
+                  >kletvina </hi>(ob <hi rend="italic">kletev</hi>), <hi rend="italic"
+               >pekočina</hi>, <hi rend="italic">bogatin </hi>(ob <hi rend="italic">bogataš </hi>in
+               posamostaljenem pridevniku <hi rend="italic">bogati </hi>(mn.)), <hi rend="italic"
+                  >tolažilo</hi> (ob <hi rend="italic">tolažba</hi>), <hi rend="italic"
+                  >zaveržek</hi>, <hi rend="italic">pomoček</hi>, kroatizem <hi rend="italic"
+                  >škatulje</hi> (mn.), <hi rend="italic">nasladnost</hi> (ob <hi rend="italic"
+                  >naslada</hi>), <hi rend="italic">ostrašen</hi> (ob <hi rend="italic"
+                  >prestrašen</hi>), modifikacija glagolskega vida (<hi rend="italic"
+               >peljavati</hi>, <hi rend="italic">zmaščevati</hi>, <hi rend="italic"
+               >oveseliti</hi>), onomatopoetični glagol <hi rend="italic">zberbrati</hi> (= na
+               hitro, nerazločno oziroma nepremišljeno izreči, zmoliti); deležnik na -č: <hi
+                  rend="italic">kretajoč (se)</hi>, <hi rend="italic">pazeč</hi>, deležnik na -ši:
+                  <hi rend="italic">znebivši</hi>, <hi rend="italic">zbudivši</hi>; členek <hi
+                  rend="italic">znabiti</hi>, izvirni besedni zvezi <hi rend="italic">čudapoln
+                  mir</hi> in <hi rend="italic">prvak apostolov</hi>, <hi rend="italic"
+                  >zvezdoznanka</hi>, <hi rend="italic">zgoja</hi> (ob <hi rend="italic"
+               >vzgoja</hi>), <hi rend="italic">zgojitelj</hi>, <hi rend="italic">razjasnjenje</hi>,
+                  <hi rend="italic">život</hi> (ob <hi rend="italic">telo</hi>), <hi rend="italic"
+                  >nesposobnost</hi>, <hi rend="italic">neizmernost</hi>, <hi rend="italic"
+                  >gotovost</hi>, <hi rend="italic">enakoličnost</hi> itd. Nepričakovane oziroma z
+               vidika rabe redke dvojnice lahko razumemo kot odraz tedaj še nepoenotene pisne norme
+               (npr. <hi rend="italic">vzgoja</hi> ali <hi rend="italic">zgoja</hi>), nekatere
+               glagolske oblike in izvirne tvorjenke, ki lahko glede na dani kontekst okrepijo
+               pomen, pa kažejo na bogato besedišče in piščevo ustvarjalno rabo jezika. Skozi
+               uporabo ekspresivne, slogovno zaznamovane leksike se pisec hkrati lahko čustveno
+               razodeva, izraža naklonjenost oziroma nenaklonjenost.</p>
+            <p style="text-align: justify;">Tretja opazovana spremenljivka so besedni 2-grami
+               (najpogostejše zveze dveh lem). Namen je pridobiti vpogled v najpogostejše in
+               ustaljene ter redke in nepričakovane besedne zveze, ki tematsko (še bolj ilustrativno
+               kot posamezne besede) označujejo besedilni korpus, z vidika pripovednega sloga pa je
+               mogoče v danih kontekstih opazovati njihovo semantično plat in estetsko funkcijo
+               (dejanski in preneseni pomen, učinek v besedilu). Izluščene so bile zveze
+               'samostalnik + pridevnik' in 'samostalnik + samostalnik', pri čemer so bila izločena
+               osebna lastna imena. V analizi besednih zvez so zaradi večje preglednosti navedene
+               posodobljene leksikalne oblike.</p>
+            <p style="text-align: justify;">Med najpogostejšimi besednimi zvezami so samostalniške
+               zveze s pridevnikom <hi rend="italic">božji/a/e</hi> (volja, milost, dobrota,
+               ljubezen, milosrčnost, previdnost, usmiljenje, čast, blagoslov, sodba, naredba, roka,
+               sin, služabnik, mož, prijatelj, svetnik; miza, služba, pot, dar, beseda, zapoved,
+               pomoč, martra), zveze z lastnostnim pridevnikom <hi rend="italic">velik/a/o</hi> (ki
+               se v korpusu v osnovni in stopnjevani obliki pojavi kar 727-krat) za izražanje visoke
+               stopnje (milost, veselje, ljubezen, svetost, zaupanje, dobrota, ponižnost,
+               milosrčnost, slava, sreča, spoštovanje, žalost; grešnik, greh, dolžnost, tolažba,
+               čudež, uboštvo, čudodelnik, čednost, imenitnost, prijatelj, skušnjava, sladkost,
+               popolnost, razloček, sočutje, strah), za izražanje skladnosti z zaželenim oziroma
+               resničnim so pogoste zveze s <hi rend="italic">pravi/a/o</hi> (pobožnost, gorečnost,
+               veselje; prijatelj, ponižnost, služabnik, hrana, vera), enako učinkuje tudi zveza <hi
+                  rend="italic">neovrgljiva resnica</hi>. Podobno velja za besedne zveze z drugimi
+               pridevniki za stopnjevanje navzgor: besedotvorni pridevniški presežniki z obrazilom
+               (presveta volja, presveto ime, presladko ime, presladke solze, presladka beseda,
+               velikansko dejanje) in pomenski presežniki<note place="foot" xml:id="ftn30" n="28">
+                  Mikolič, <hi rend="italic">Izrazi moči</hi>, 57–58.</note> (<hi rend="italic"
+                  >večen/a/o</hi> življenje, slava, modrost, plačilo, krona, resnica, ljubezen,
+               pogubljenje, ogenj) – v krščanskem diskurzu so pozitivni atributi vezani na Boga in
+               posmrtno življenje v nebesih, negativni pa na pekel; <hi rend="italic"
+                  >nepopisljiv/a/o</hi> (veselje, radost, žalost, ginjenost, bridkost, sladkost,
+               želja), <hi rend="italic">neskončna dobrota</hi>, <hi rend="italic">neizmerna</hi>
+               (dobrota, ljubezen), <hi rend="italic">neomejeno zaupanje</hi>, <hi rend="italic"
+                  >izredna milost</hi>, <hi rend="italic">imeniten stan</hi>, <hi rend="italic"
+                  >dragocen zaklad</hi>, <hi rend="italic">strašna bolečina</hi>. Pogoste so zveze s
+               pomensko nasprotnimi pridevniki <hi rend="italic">svet(i)/a/o</hi> (obhajilo, maša,
+               cerkev, zakrament, pismo, razpelo, volja, življenje, apostol, mož) in <hi
+                  rend="italic">pobožen(/-ni)/na/no</hi> (človek, kristjan, redovnik, ljudstvo,
+               starš, mož, žena, kmet; molitev, pesem, misel, duša) ter <hi rend="italic"
+                  >posveten/na/no</hi> (čast, slava, veselje, naslada, razveseljevanje, veselica,
+               človek, nečimrnost, tolažba) in <hi rend="italic">grešen(/-ni)/na/no</hi> (življenje,
+               naslada, natura, priložnost, veselica). Izluščene so bile še nekatere frekventne
+               besedne zveze, ki kažejo na subjektivno vrednotenje (<hi rend="italic">otročje
+                  zaupanje</hi> (= pozitivno, pristno), <hi rend="italic">neprecenjena
+                  nedolžnost</hi>, <hi rend="italic">bridko trpljenje</hi>, <hi rend="italic">prazna
+                  hvala</hi>, <hi rend="italic">dober</hi> (kristjan, človek, oče; glas, uspeh), <hi
+                  rend="italic">uboga žena</hi>, <hi rend="italic">lepa čednost</hi>, <hi
+                  rend="italic">sladke besede</hi>, <hi rend="italic">goreča molitev</hi>, <hi
+                  rend="italic">goreča pobožnost</hi>, <hi rend="italic">stanovitna molitev</hi>,
+               ekspresivne besedne zveze (<hi rend="italic">napuh življenja</hi>, <hi rend="italic"
+                  >poželenje oči</hi>, <hi rend="italic">peklenska hudoba</hi>, <hi rend="italic"
+                  >znamenje mlačnosti</hi>, <hi rend="italic">dejanje čednosti</hi>, <hi
+                  rend="italic">dušna bolezen</hi>, <hi rend="italic">dušna suhota</hi>), biblijske
+               in izvirne metafore (<hi rend="italic">dušni pastir</hi>, <hi rend="italic">božji
+                  poslanec</hi>, <hi rend="italic">prvak apostolov</hi>, <hi rend="italic">solzna
+                  dolina</hi>, <hi rend="italic">smrtna ura</hi>, <hi rend="italic">smrtna
+                  postelja</hi>, <hi rend="italic">strupena kača</hi>, <hi rend="italic">goreča
+                  peč</hi> (= trpljenje); <hi rend="italic">nesrečno spanje</hi> (= brezbožno
+               življenje), <hi rend="italic">tečajna zvezda</hi> (= Bog), <hi rend="italic">kukec
+                  nečimrnosti</hi> (črv = greh), druge besedne zveze, ki preraščajo v retorične
+               trope, na primer pretiravanje ali hiperbola (<hi rend="italic">morje bridkosti</hi>,
+                  <hi rend="italic">brezno nesreč</hi>, <hi rend="italic">brezno ponižnosti</hi>) in
+               bistroumni nesmisel ali oksimoron (<hi rend="italic">neusmiljeno usmiljenje</hi>, <hi
+                  rend="italic">radovoljna raztresenost</hi>).</p>
+            <p style="text-align: justify;">Potem so bile v fokusnem korpusu CVET analizirane
+               ključne besede skozi primerjavo z izbranim referenčnim korpusom starejše pripovedne
+               proze PriLit, ki vsebuje starejša besedila od sredine 17. do sredine 19. stoletja in
+               je zato relevanten vir za opazovanje razvoja tem do obdobja, ki ga zajema korpus
+               CVET. Poleg tega sta bila korpusa podobno procesirana in posodobljena z enakim
+               orodjem, kar omogoča večjo primerljivost gradiva.</p>
+            <p style="text-align: justify;">Med 100 ključnimi besedami se za korpus CVET pojavijo
+               naslednje leme:</p>
+            <list rend="bulleted">
+               <item>samostalniki: <hi rend="italic">Frančišek</hi>, <hi rend="italic">Monald</hi>
+                  (izv. tudi <hi rend="italic">Monaljd</hi>),<note place="foot" xml:id="ftn31"
+                     n="29"> Krajšava izv. se v članku rabi za 'izvirno', torej tako, kot je
+                     zapisano v neposodobljenem korpusu besedil.</note> zemljepisna imena <hi
+                     rend="italic">Asiz</hi> (= Assisi), <hi rend="italic">Koper</hi>, <hi
+                     rend="italic">Padova</hi>; <hi rend="italic">redovnik</hi>, <hi rend="italic"
+                     >frančiškan</hi>, <hi rend="italic">sobrat</hi>, <hi rend="italic"
+                     >tretjerednik</hi>, <hi rend="italic">zavetnica</hi>, <hi rend="italic"
+                     >voditelj</hi>, <hi rend="italic">častilec </hi>(izv. <hi rend="italic"
+                     >častivec</hi>), <hi rend="italic">posvetnjak</hi>, <hi rend="italic"
+                     >vodilo</hi>, <hi rend="italic">miloščina</hi>, <hi rend="italic"
+                     >milosrčnost</hi> (izv. <hi rend="italic">miloserčnost</hi>), <hi rend="italic"
+                     >sočutje</hi>, <hi rend="italic">blager</hi> (= blagor; trikrat samostalniška
+                  raba v pomenu sreča, blagoslov), <hi rend="italic">način </hi>(prim. <hi
+                     rend="italic">na ta(k)</hi>/<hi rend="italic">en</hi>/<hi rend="italic"
+                     >pervi</hi>/<hi rend="italic">drugi</hi>/<hi rend="italic">vsak način</hi>),
+                     <hi rend="italic">sredstvo</hi>, <hi rend="italic">oblika </hi>(prim. <hi
+                     rend="italic">živeti po obliki sv. evangelija</hi> = živeti skladno z nauki in
+                  zgledi iz evangelija), <hi rend="italic">kesanje</hi>, <hi rend="italic"
+                     >naslada</hi>, <hi rend="italic">pogrešek</hi>, <hi rend="italic">vdanost</hi>,
+                  izglagolska samostalnika <hi rend="italic">zatajevanje</hi>, <hi rend="italic"
+                     >občevanje</hi>;</item>
+               <item>pridevniki: <hi rend="italic">redoven</hi>, <hi rend="italic">blažen</hi>, <hi
+                     rend="italic">brezmadežen</hi>, <hi rend="italic">blagoslovljen</hi>, <hi
+                     rend="italic">presladek</hi>, <hi rend="italic">izreden</hi>, <hi rend="italic"
+                     >nepopisljiv</hi>, (Marija) <hi rend="italic">Porcijunkuljska</hi> (= nanaša se
+                  na cerkev Marije Angelske pri Assisiju, t. i. Porcijunkulo), <hi rend="italic"
+                     >vsakovrsten </hi>(izv. <hi rend="italic">vsakoversten</hi>), <hi rend="italic"
+                     >brezštevilen</hi>;</item>
+               <item>glagoli: <hi rend="italic">pridigati</hi>, <hi rend="italic">oznanjevati</hi>,
+                     <hi rend="italic">občevati </hi>(= biti v stiku, sporazumevati se), <hi
+                     rend="italic">spolnjevati </hi>(redko <hi rend="italic">izpolnjevati</hi>), <hi
+                     rend="italic">spodbujati</hi>, <hi rend="italic">rabiti</hi>, <hi rend="italic"
+                     >zanemarjati</hi>, <hi rend="italic">zoperstavljati se</hi>, <hi rend="italic"
+                     >vničiti</hi> (= uničiti);</item>
+               <item>prislovi: <hi rend="italic">jako</hi>, <hi rend="italic">kesneje</hi> (=
+                  kasneje), <hi rend="italic">naposled</hi>;</item>
+               <item>vezniki: <hi rend="italic">koliker</hi> (= kolikor), <hi rend="italic"
+                     >čiger</hi> (= čigar), <hi rend="italic">keteri</hi> (= kateri), <hi
+                     rend="italic">mariveč</hi> (= marveč);</item>
+               <item>členki: <hi rend="italic">nikaker</hi> (= nikakor), <hi rend="italic">seveda
+                  </hi>(pisano tudi <hi rend="italic">se ve da</hi>), <hi rend="italic"
+                     >potemtakem</hi>, <hi rend="italic">blager</hi> (= blagor; 26-krat členkovna
+                  raba).</item>
+            </list>
+            <p style="text-align: justify;">Izkazalo se je, da so bile poleg frekvenčno izstopajočih
+               kot ključne besede prepoznane tudi besede, ki niso bile posodobljene ali pa so v
+               postopku posodabljanja pridobile napačno obliko.</p>
+            <p style="text-align: justify;">Ugotoviti je mogoče, da polnopomenske besede nedvomno
+               pripadajo religijskemu (krščanskemu) diskurzu, nekatere med njimi še podrobneje
+               usmerijo na red sv. Frančiška Asiškega (npr. <hi rend="italic">Frančišek</hi>, <hi
+                  rend="italic">Asiz</hi>, <hi rend="italic">frančiškan</hi>, <hi rend="italic"
+                  >vodilo</hi>, <hi rend="italic">Porcijunkuljska</hi>, <hi rend="italic"
+                  >redovnik</hi>, <hi rend="italic">redoven</hi>, <hi rend="italic">sobrat</hi>, <hi
+                  rend="italic">tretjerednik</hi>, <hi rend="italic">voditelj</hi>) in na lokalno
+               okolje, od koder je pisec p. Repič prihajal (<hi rend="italic">bl. Monald
+                  Koprski</hi>, <hi rend="italic">Koper</hi>).</p>
+            <p style="text-align: justify;">Med glagolskimi ključnimi besedami so pogosti glagoli
+               rekanja, vezani na širjenje krščanske vere (liturgijo, pastoralo), ob tem pa tudi
+               nekaj takšnih, ki v danih kontekstih pomenijo dejanja kršenja krščanskih načel.</p>
+            <p style="text-align: justify;">Pridevniki in pomenski presežniki <hi rend="italic"
+                  >blažen</hi>, <hi rend="italic">brezmadežen</hi>, <hi rend="italic"
+                  >blagoslovljen</hi>, <hi rend="italic">presladek</hi>, <hi rend="italic"
+                  >izreden</hi>, <hi rend="italic">nepopisljiv</hi>, <hi rend="italic"
+                  >vsakovrsten</hi>, <hi rend="italic">brezštevilen </hi>ter členek <hi
+                  rend="italic">blagor </hi>imajo ob sopojavitvi s pomensko pozitivnimi samostalniki
+               močan pozitivni naboj, izražajo odobravanje in občudovanje koga/česa. V vsakem
+               primeru pa z vidika intenzitete jezika omenjene jezikovne prvine okrepijo pomen
+                  ubesedenega.<note place="foot" xml:id="ftn32" n="30"> Mikolič, <hi rend="italic"
+                     >Izrazi moči</hi>, 56, 66–67.</note> V smer krepitve argumenta vodijo tudi
+               pogosta raba prislova <hi rend="italic">jako </hi>(redko <hi rend="italic">zelo</hi>)
+               in pomensko nasprotna si členka <hi rend="italic">nikaker</hi> in <hi rend="italic"
+                  >seveda</hi> – slednji skupaj s členkom <hi rend="italic">potemtakem</hi> nastopa
+               tudi v vlogi diskurznega označevalca, ko usmerja potek diskurza z vrednotenjem,
+               potrjevanjem in sklepanjem ter tako vpliva na bralčevo recepcijo besedila.</p>
+         </div>
+         <div>
+            <head>Primerjalna analiza jezikovne norme</head>
+            <p style="text-align: justify;">V nadaljevanju je predstavljen primer korpusne analize
+               za izbrano glasoslovno paradigmo, pri kateri je na prelomu 19. v 20. stoletje
+               prihajalo do razlik med jezikoslovci, in sicer zapis besedotvorne končnice <hi
+                  rend="italic">-lec</hi>/<hi rend="italic">-vec</hi> v samostalnikih tipa <hi
+                  rend="italic">bralec</hi>.<note place="foot" xml:id="ftn33" n="31"> Razhajanja so
+                  se sicer nadaljevala tudi še v 20. stoletje, npr. v polemikah ob izdaji <hi
+                     rend="italic">Slovenskega pravopisa</hi> 1962.</note> Orisana je norma v tedaj
+               pomembnejših jezikoslovnih priročnikih, Škrabčeva stališča pa so preverjena v
+               korpusnem gradivu.</p>
+            <p style="text-align: justify;">V zvezi s samostalniško končnico <hi rend="italic"
+                  >-vec</hi>/<hi rend="italic">-lec</hi> v poimenovanju delavnih ali delujočih oseb
+               Janežič v <hi rend="italic">Slovenski slovnici</hi> (1863) navaja, da se ta tvorijo
+               tako, da se med osnovo in pripono <hi rend="italic">-ec</hi> pri odprtih zlogih doda
+               črka <hi rend="italic">v</hi> (npr. <hi rend="italic">bravec</hi>, <hi rend="italic"
+                  >pevec</hi>, <hi rend="italic">pivec</hi>, <hi rend="italic">delavec</hi>, <hi
+                  rend="italic">igravec</hi>, <hi rend="italic">morivec</hi>, <hi rend="italic"
+                  >pisavec</hi>, <hi rend="italic">poslušavec</hi>, <hi rend="italic"
+                  >svetovavka</hi>). Ob tem dodaja, da nekateri pisatelji (slovenski in srbohrvaški)
+               takšne samostalnike tvorijo iz preteklega deležnika in pišejo <hi rend="italic"
+                  >delalec</hi>, <hi rend="italic">igralec</hi>, <hi rend="italic">poslušalec</hi>,
+                  <hi rend="italic">svetovalec</hi>, <hi rend="italic">tkalec</hi>, <hi
+                  rend="italic">vladalec</hi>.<note place="foot" xml:id="ftn34" n="32"> Anton
+                  Janežič, <hi rend="italic">Slovenska slovnica za domačo in šolsko rabo</hi>
+                  (Celovec: Janez Leon, 1863), 119.</note></p>
+            <p style="text-align: justify;">Škrabec se je v razpravah vprašanja lotil prek
+               opazovanja zgodovinskega razvoja oblik in v težnji po enotni razlagi prišel do
+               naslednjih ugotovitev: a) nekatere besede s pripono -<hi rend="italic">lec</hi> [-<hi
+                  rend="italic">lǝc</hi>] so se razvile iz poimenovanj za orodje, navadno s
+               samostalniško končnico <hi rend="italic">-lo</hi> (npr. <hi rend="italic"
+               >tkalec</hi>, <hi rend="italic">rilec</hi>,<hi rend="italic"> motovilec</hi>); b)
+               nekatere besede s pripono -<hi rend="italic">vec</hi> [-<hi rend="italic">vǝc</hi>]
+               so nastale iz glagolskega pridevnika na -<hi rend="italic">av(en)</hi> (npr. <hi
+                  rend="italic">smrkavec</hi>, <hi rend="italic">delavec</hi>, <hi rend="italic"
+                  >igravec</hi>)<note place="foot" xml:id="ftn35" n="33"> Stanislav Škrabec, <hi
+                     rend="italic">Jezikoslovna dela 1</hi> (Nova Gorica: Frančiškanski samostan
+                  Kostanjevica, 1994), 46.</note>; c) besede za delujočo oziroma delavno osebo lahko
+               imajo pripono z <hi rend="italic">l</hi> ali <hi rend="italic">v</hi>, s tem da prva
+               pomeni tistega, ki je glagolsko dejanje že izvršil/prestal (nastala iz deležnika na
+                  <hi rend="italic">-l</hi>, npr. <hi rend="italic">pogorelec</hi>), druga pa
+               tistega, ki ga vrši ali more vršiti; č) mogoče so tudi dvojnice v primerih, kjer gre
+               za pomensko razločevanje (pripono z <hi rend="italic">v</hi> naj bi imela
+               poimenovanja, izpeljana iz glagolskih pridevnikov, »ki zaznamujejo nagnjenje, navado,
+               službo ali lastnost osebe, ki kaj stanovitno dela«,<note place="foot" xml:id="ftn36"
+                  n="34"> Irena Stramljič Breznik, »Škrabčeva obravnava priponskih obrazil (a/i) v/l
+                  (ǝc),« v: <hi rend="italic">Škrabčeva misel II</hi>, ur. Jože Toporišič (Nova
+                  Gorica: Frančiškanski samostan Kostanjevica, 1997), 197.</note> pripono z <hi
+                  rend="italic">l</hi> pa poimenovanja oseb, ki so kaj dovršile; npr. <hi
+                  rend="italic">morivec</hi> in <hi rend="italic">morilec</hi>, <hi rend="italic"
+                  >prebivavec</hi>, ko je mišljen kraj, in <hi rend="italic">prebivalec</hi>, ko se
+               nanaša na prebivanje).<note place="foot" xml:id="ftn37" n="35"> Stanislav Škrabec,
+                     <hi rend="italic">Jezikoslovna dela 2</hi> (Nova Gorica: Frančiškanski samostan
+                  Kostanjevica, 1994), 425, 426.</note> Stramljič Breznik poudarja, da je Škrabec s
+               takšno utemeljitvijo dopuščanja obstoja obeh oblik, tvorjenih iz iste podstave,
+               uveljavljal razlikovalna načela, ki jih je obenem kritiziral pri sodobnikih (npr. pri
+                  Perušku).<note place="foot" xml:id="ftn38" n="36"> Stramljič Breznik, »Škrabčeva
+                  obravnava,« 197. </note> V korpusu CVET je mogoče najti naslednja primera rabe:
+                  <hi rend="italic">Ako pa vi stariši to dosežete, namreč pravo kerščansko življenje
+                  vaših otrok, srečni vi, ker ste dosegli konec zgoje, ketera je v pravem pomenu
+                  besede: skerb, da otroci postanejo nebeški</hi>
+               <hi rend="italic bold">prebivavci</hi>; <hi rend="italic">Ne živi kaker da bi
+                  bil</hi>
+               <hi rend="italic bold">prebivalec</hi>
+               <hi rend="italic">tega sveta.</hi> V korpusnem gradivu semantično razlikovanje med
+               oblikama sicer ni dosledno upoštevano, pojavljata se denimo obe besedni zvezi, <hi
+                  rend="italic">nebeški prebivavec</hi>/<hi rend="italic">prebivalec</hi>, kar kaže
+               na ohlapno utemeljitev pomenskega razlikovanja obeh oblik (po letu 1898 je v rabi le
+               oblika na <hi rend="italic">-vec</hi>).</p>
+            <p style="text-align: justify;">V korpusu CVET se pojavijo naslednje oblike:</p>
+            <list rend="bulleted">
+               <item>na <hi rend="italic">-vec</hi>: <hi rend="italic">bravec</hi>, <hi
+                     rend="italic">pisavec</hi>, <hi rend="italic">poslušavec, obrekovavec,
+                     opravljavec, klepetavec</hi>, <hi rend="italic">častivec, hvalivec</hi>, <hi
+                     rend="italic">ljubivec</hi>, <hi rend="italic">zapeljivec</hi>, <hi
+                     rend="italic">lovec</hi>, <hi rend="italic">tergovec</hi>, <hi rend="italic"
+                     >kupčevavec</hi>, <hi rend="italic">pohujšljivec</hi>, <hi rend="italic"
+                     >molivec</hi>, <hi rend="italic">lažnjivec</hi>, <hi rend="italic"
+                  >delavec</hi>, <hi rend="italic">izdajavec</hi>, <hi rend="italic"
+                     >zaničevavec</hi>, <hi rend="italic">vdovec</hi>, <hi rend="italic"
+                     >slepivec</hi>, <hi rend="italic">godernjavec</hi>, <hi rend="italic"
+                     >togotljivec</hi>, <hi rend="italic">delivec</hi>, <hi rend="italic"
+                     >hinavec</hi>, <hi rend="italic">zapeljivec</hi>, <hi rend="italic"
+                     >vbijavec</hi>, <hi rend="italic">premišljevavec</hi>, <hi rend="italic"
+                     >ražaljivec</hi>, <hi rend="italic">skušnjavec</hi>, <hi rend="italic"
+                     >spolnjevavec</hi>, <hi rend="italic">podiravec</hi>, in ženske oblike <hi
+                     rend="italic">nasledovavka</hi>, <hi rend="italic">napovedovavka</hi>,<hi
+                     rend="italic"> hinavka</hi>;</item>
+               <item>na <hi rend="italic">-lec</hi>: <hi rend="italic">obiskovalec</hi>, <hi
+                     rend="italic">izgojevalec</hi>, <hi rend="italic">odgojevalec</hi>, <hi
+                     rend="italic">tekalec</hi>, <hi rend="italic">prilizovalec</hi>, <hi
+                     rend="italic">oporekovalec</hi>, <hi rend="italic">gledalec</hi>, <hi
+                     rend="italic">spričevalec</hi>, <hi rend="italic">posvečevalec</hi>;</item>
+               <item>dvojne oblike:<note place="foot" xml:id="ftn39" n="37"> V oklepaju je za
+                     primerjavo zapisano število pojavnic v korpusu.</note>
+                  <hi rend="italic">zatajevavec</hi> (1)/<hi rend="italic">zatajevalec</hi> (1), <hi
+                     rend="italic">posredovavec</hi> (2)/<hi rend="italic">posredovalec </hi>(1),
+                     <hi rend="italic">prebivavec</hi> (5)/<hi rend="italic">prebivalec</hi> (3),
+                     <hi rend="italic">svetovavec</hi> (1)/<hi rend="italic">svetovalec</hi> (2),
+                     <hi rend="italic">spoznavavec</hi> (4)/<hi rend="italic">spoznavalec</hi> (3),
+                     <hi rend="italic">posnemovavec</hi> (2)/<hi rend="italic">posnemovalec</hi>
+                  (4), <hi rend="italic">zmagovavec</hi> (1)/<hi rend="italic">zmagalec</hi>
+                  (1).</item>
+            </list>
+            <p style="text-align: justify;">V kasnejši razpravi Škrabec ugotavlja, da je prava
+               končnica poimenovanj delavnih oseb -<hi rend="italic">vec</hi> in ne -<hi
+                  rend="italic">lec</hi>,<note place="foot" xml:id="ftn40" n="38"> Stanislav
+                  Škrabec, <hi rend="italic">Jezikoslovna dela 3</hi> (Nova Gorica: Frančiškanski
+                  samostan Kostanjevica, 1995), 132, 133.</note> kar potrjuje tudi znatno večji
+               obseg oblik na -<hi rend="italic">vec</hi>, med dvojnicami pa je prevlada tvorjenk z
+                  <hi rend="italic">-vec</hi> opazna po letu 1900. Škrabec je verjel, da lahko le
+               normativni priročnik, kot je bil Pleteršnikov slovar, naredi konec jezikovni pravdi
+               med zapisovanjem <hi rend="italic">bravec</hi>/<hi rend="italic">bralec</hi>.<note
+                  place="foot" xml:id="ftn41" n="39"> Ibid., 84–86.</note></p>
+            <p style="text-align: justify;">Pri tem jezikoslovnem vprašanju se je pokazal Škrabčev
+               vpliv na Levca, ki se je odločil za prepoved zapisovanja besednih oblik tipa <hi
+                  rend="italic">bralec</hi> z namenom, da bi ustavil »elkanje«.<note place="foot"
+                  xml:id="ftn42" n="40"> Helena Dobrovoljc, <hi rend="italic">Pravopisje na
+                     Slovenskem</hi> (Ljubljana: Založba ZRC, ZRC SAZU, 2004), 49.</note> V <hi
+                  rend="italic">Slovenskem pravopisu</hi> (1899) pri tvorjenju samostalnikov s
+               priponami navaja, da samostalniki na <hi rend="italic">-ec</hi> pomenijo delujoče
+               osebe, med korenom in pripono pa stoji soglasnik -<hi rend="italic">v</hi>- (npr. <hi
+                  rend="italic">bravec</hi>, <hi rend="italic">igravec</hi>, <hi rend="italic"
+                  >svetovavec</hi>, <hi rend="italic">morivec</hi>, <hi rend="italic">pisavec</hi>;
+               kot napačne, čeravno v obči rabi, navaja oblike: <hi rend="italic">delalec</hi>, <hi
+                  rend="italic">igralec</hi>, <hi rend="italic">morilec</hi>, <hi rend="italic"
+                  >pisalec</hi>, <hi rend="italic">poslušalec</hi>, <hi rend="italic"
+                  >svetovalec</hi> itd.). Kot pravilne oblike s pripono <hi rend="italic">-lec</hi>
+               pa navaja nekatere tvorjenke iz preteklega deležnika (npr. <hi rend="italic"
+                  >tkalec</hi>, <hi rend="italic">pogorelec</hi>, <hi rend="italic"
+                  >črešnjejelec</hi>, <hi rend="italic">gnilec</hi>, <hi rend="italic">umrlec</hi>,
+                  <hi rend="italic">otelec</hi>, <hi rend="italic">pismoznalec</hi>, <hi
+                  rend="italic">prišlec</hi>, <hi rend="italic">rilec</hi>, <hi rend="italic"
+                  >vrtelec</hi>, <hi rend="italic">vžgalec</hi> idr.).<note place="foot"
+                  xml:id="ftn43" n="41"> Fran Levec, <hi rend="italic">Slovenski pravopis</hi>
+                  (Dunaj: Cesarska kraljeva zaloga šolskih knjig, 1899), 54.</note></p>
+            <p style="text-align: justify;">Tudi Pleteršnik (po Janežiču in Škrabcu) v svojem
+               slovarju (1894–95) navaja oblike s pripono -<hi rend="italic">vec</hi> (npr. <hi
+                  rend="italic">bravec</hi>, <hi rend="italic">poslušavec</hi>, <hi rend="italic"
+                  >igravec</hi>, <hi rend="italic">morivec</hi>, <hi rend="italic">prebivavec</hi>,
+                  <hi rend="italic">delavec</hi>), enako kot predhodniki pa oblike tipa <hi
+                  rend="italic">tkalec</hi> (<hi rend="italic">motovilec</hi>, <hi rend="italic"
+                  >pogorelec</hi> itd.).</p>
+            <p style="text-align: justify;">Breznik v <hi rend="italic">Slovenski slovnici</hi>
+               (1916) zmedo med zapisovanjem<hi rend="italic"> l</hi> ali <hi rend="italic">v</hi> v
+               poimenovanjih delujočih oseb pojasnjuje z enako izreko pripone -<hi rend="italic"
+                  >vǝc</hi>/-<hi rend="italic">lǝc</hi> (od 17. stoletja dalje). Deloma povzema
+               Škrabčeve ugotovitve in dopušča dvojnično rabo v primerih, kjer so se iz prvotnih
+               končnic -<hi rend="italic">(a/i)vec</hi> v novejši pisavi pojavile -<hi rend="italic"
+                  >(a/i)lec </hi>(npr. <hi rend="italic">bravec</hi>/<hi rend="italic">bralec</hi>,
+                  <hi rend="italic">poslušavec</hi>/<hi rend="italic">poslušalec</hi>, <hi
+                  rend="italic">igravec</hi>/<hi rend="italic">igralec</hi>, <hi rend="italic"
+                  >šivavec</hi>/<hi rend="italic">šivalec</hi>, <hi rend="italic"
+                  >zaničevavec</hi>/<hi rend="italic">zaničevalec</hi>) oziroma kjer je <hi
+                  rend="italic">l</hi> v korenu (npr. <hi rend="italic">volivec</hi>/<hi
+                  rend="italic">volilec</hi>, <hi rend="italic">delivec</hi>/<hi rend="italic"
+                  >delilec</hi>, <hi rend="italic">ponavljavec</hi>/<hi rend="italic"
+                  >ponavljalec</hi>). Prvotni <hi rend="italic">v</hi> pa je (kot pri Škrabčevi
+               ugotovitvi o izpeljavi iz glagolskega pridevnika) ostal v besedah <hi rend="italic"
+                  >brivec, pivec, delavec, kimavec, pevec</hi>, <hi rend="italic">tajivec</hi>. Samo
+                  -<hi rend="italic">lec</hi> se piše za osebe, ki so kaj storile ali trpele (<hi
+                  rend="italic">umrlec</hi>, <hi rend="italic">prišlec</hi>, <hi rend="italic"
+                  >osamelec</hi>, <hi rend="italic">prebivalec</hi>) in v izpeljankah iz
+               samostalnikov na <hi rend="italic">-lo</hi> (<hi rend="italic">motovilec, rilec,
+                  tkalec</hi> itd.).<note place="foot" xml:id="ftn44" n="42"> Anton Breznik, <hi
+                     rend="italic">Slovenska slovnica za srednje šole</hi> (Celovec: Družba sv.
+                  Mohorja, 1916), 31.</note></p>
+         </div>
+         <div>
+            <head>Razprava in sklepni razmislek</head>
+            <p style="text-align: justify;">V korpusu CVET so zbrana vsa besedila patra Hijacinta
+               Repiča, ki so izvirni in prevodni zapisi po tujejezičnih predlogah (vir avtor
+               konsistentno navaja v samem besedilu oziroma opombah). Prikazana korpusna analiza je
+               bila usmerjena v raziskovanje avtorjevega pripovednega sloga. Uporabljene so bile
+               funkcije, ki jih ponuja prostodostopni konkordančnik noSketch Engine na CLARIN.SI:
+               seznam najpogostejših in najmanj pogostih besed (lem) in seznam ključnih besed (lem)
+               glede na izbrani referenčni korpus ter analiza najpogostejših besednih zvez
+               (2-gramov) z orodjem Sketch Engine. Analiza frekvenčnosti besedja je podala nekatere
+               pričakovane rezultate, kot so samostalniki in pridevniki ter besedne zveze, značilni
+               za religiozni diskurz, ter glagoli, vezani na vsakdanje praktičnosporazumevalne
+               okoliščine, pri čemer so po pogostosti izstopali modalni glagoli. Z vidika
+               naklonskosti bi bilo smiselno primerjati različne verske pripovednike, kjer bi
+               primerjava jezikoslovnih in diskurzivnih razsežnosti, ki kažejo na razmerje med
+               sporočanjsko in vplivanjsko vlogo besedil in na sporočevalčev odnos do vsebine
+               (vzgojno-moralne problematike) ter naslovnika, lahko podala širši vpogled v razvoj
+               krščanske misli.</p>
+            <p style="text-align: justify;">Analiza najpogostejših samostalnikov in pridevnikov
+               potrjuje vsebinski okvir besedil, skozi kontekste rabe posamezne leksike pa je mogoče
+               dostopati do vseh pojavitev v gradivu. Pri Repiču se pojavijo nekatere besedne zveze,
+               kjer imajo posamezne sestavine ekspresiven, dobeseden oziroma prenesen pomen
+               (ustaljene ali izvirne metafore, prispodobe): <hi rend="italic">otročje
+               zaupanje</hi>, <hi rend="italic">neprecenjena nedolžnost</hi>, <hi rend="italic"
+                  >prazna hvala</hi>, <hi rend="italic">lepa čednost</hi>; <hi rend="italic">napuh
+                  življenja</hi>, <hi rend="italic">poželenje oči</hi>, <hi rend="italic">peklenska
+                  hudoba</hi>, <hi rend="italic">znamenje mlačnosti</hi>, <hi rend="italic">dejanje
+                  čednosti</hi>, <hi rend="italic">dušna bolezen</hi>, <hi rend="italic">dušna
+                  suhota</hi>; <hi rend="italic">prvak apostolov</hi>, <hi rend="italic">solzna
+                  dolina</hi>, <hi rend="italic">smrtna ura</hi>, <hi rend="italic">smrtna
+                  postelja</hi>, <hi rend="italic">strupena kača</hi>, <hi rend="italic">goreča
+                  peč</hi>, <hi rend="italic">nesrečno spanje</hi>, <hi rend="italic">tečajna
+                  zvezda</hi>, <hi rend="italic">kukec nečimrnosti</hi>; <hi rend="italic">morje
+                  bridkosti</hi>, <hi rend="italic">brezno nesreč</hi>, <hi rend="italic">brezno
+                  ponižnosti</hi>; <hi rend="italic">neusmiljeno usmiljenje</hi>, <hi rend="italic"
+                  >radovoljna raztresenost</hi>.</p>
+            <p style="text-align: justify;">Analiza najpogostejših besednih 2-gramov je pokazala, da
+               med zvezami 'pridevnik + samostalnik' prevladujejo: (1) pridevniki, ki označujejo
+               veliko oziroma presežno lastnost samostalnika (<hi rend="italic">velik</hi>, <hi
+                  rend="italic">velikanski</hi>, <hi rend="italic">presladek</hi>, <hi rend="italic"
+                  >presvet</hi>; <hi rend="italic">večen</hi>, <hi rend="italic">nepopisljiv</hi>,
+                  <hi rend="italic">neskončen</hi>, <hi rend="italic">izreden</hi> itd.) ali
+               lastnost, ki je v skladu z zaželenim/resničnim (<hi rend="italic">pravi</hi>, <hi
+                  rend="italic">neovrgljiv</hi>, <hi rend="italic">dober</hi>,<hi rend="italic">
+                  lep</hi>); (2) pomensko diametralno nasprotni pridevniki (<hi rend="italic"
+                  >svet</hi>, <hi rend="italic">pobožen</hi> – <hi rend="italic">posveten</hi>, <hi
+                  rend="italic">grešen</hi>), ki v okviru religioznega diskurza pridobijo simbolni
+               pomen pravih/dobrih in napačnih/slabih življenjskih zgledov, nazorov in izbir ter
+               tako nastopajo v vzgojni funkciji.</p>
+            <p style="text-align: justify;">Opazovani najpogostejši prislovi, zaimki, vezniki in
+               členki zaznamujejo tipično skladnjo (za Repičev slog so značilne dolge povedi z
+               veliko podredji, pogosta je raba veznika <hi rend="italic">kateri</hi>) oziroma so
+               označevalci intenzitete, ki bodisi krepijo (npr. <hi rend="italic">jako</hi>, <hi
+                  rend="italic">zelo</hi>; <hi rend="italic">vsak</hi>; <hi rend="italic"
+                  >seveda</hi>, <hi rend="italic">nikakor</hi>) ali šibijo (<hi rend="italic"
+                  >le</hi>, <hi rend="italic">samo</hi>) končni pomen in argumentativno moč
+                  sporočila.<note place="foot" xml:id="ftn45" n="43"> Mikolič, <hi rend="italic"
+                     >Izrazi moči</hi>, 79–82.</note> Šele po primerjalni analizi z drugimi
+               pripovedniki pa bi bilo mogoče sklepati, ali gre tudi za specifične lastnosti
+               Repičevega sloga.</p>
+            <p style="text-align: justify;">Primer primerjalne normativne analize v članku je
+               osvetlil različne poglede tedanjih jezikoslovcev na zapisovanje samostalniške pripone
+                  -<hi rend="italic">vec</hi>/-<hi rend="italic">lec</hi>. Ugotovljeno je bilo, da
+               je imel Škrabec v jezikoslovnih razpravah tendenco jasno definirati in semantično
+               razmejiti rabo ene in druge končnice v primeru dvojnic, kar se je v praksi izkazalo
+               za 'prisiljeno' in se potrjuje tudi na korpusnem gradivu. Je pa njegovo zagovarjanje
+               zapisa besed tipa <hi rend="italic">bravec</hi> vplivalo na to, da je tudi Breznik v
+               slovnici še dopuščal dvojnično rabo.</p>
+            <p style="text-align: justify;">Korpus CVET 1.0 je prva takšna jezikovna zbirka besedil
+               Škrabčevega verskega glasila <hi rend="italic">Cvetje z vertov sv. Frančiška</hi>,
+               velja pa omeniti, da je bilo besedje <hi rend="italic">Cvetja </hi>sporadično zajeto
+               že v Pleteršnikovem <hi rend="italic">Slovensko-nemškem slovarju</hi> (1894–1895).
+               Raziskava je pokazala, kako lahko korpusno gradivo, označeno z metapodatki o
+               avtorstvu in objavi (leto, letnik, zvezek), služi za komparativne sinhrono-diahrone
+               raziskave normiranja slovenskega jezika na prelomu 19. v 20. stoletje v periodičnem
+               tisku in za raziskave udejanjanja knjižne norme, ki jo je urednik Škrabec podrobno
+               predstavil v svojih jezikoslovnih znanstvenih razpravah na platnicah, v sami vsebini
+                  <hi rend="italic">Cvetja</hi>. Hkrati korpus ponuja tematski vpogled v vsebino
+               verske revije (versko-moralni nauki, krščanska vzgoja, hagiografija itd.). V
+               nasprotju s primerljivim verskim periodičnim tiskom, denimo Slomškovimi <hi
+                  rend="italic">Drobtinicami</hi>, ki so pričele izhajati pol stoletja prej in v
+               podobnem formatu kot <hi rend="italic">Cvetje</hi>, je vsebina slednjega (razen
+               jezikoslovnih razprav na platnicah) še neraziskana. Korpus objav patra Hijacinta
+               Repiča bi lahko z nadgradnjo postal podkorpus obsežnejšega korpusa celotnih izdaj
+               revije <hi rend="italic">Cvetje z vertov sv. Frančiška</hi>.</p>
+         </div>
+         <div>
+            <head>Zahvala</head>
+            <p style="text-align: justify;">Članek je nastal v okviru raziskovalnega programa
+               P5-0409 <hi rend="italic">Razsežnosti slovenstva med lokalnim in globalnim v začetku
+                  tretjega tisočletja</hi>, ki ga financira Javna agencija za znanstvenoraziskovalno
+               in inovacijsko dejavnost Republike Slovenije (ARIS) iz državnega proračuna.</p>
+         </div>
+      </body>
+      <back>
+         <div type="bibliogr">
+            <head>Viri in literatura</head>
+            <listBibl>
+               <head><hi rend="bold">Literatura</hi></head>
+               <bibl>Dobrovoljc, Helena. <hi rend="italic">Pravopisje na Slovenskem</hi>. Ljubljana:
+                  Založba ZRC, ZRC SAZU, 2004.</bibl>
+               <bibl>Dobrovoljc, Kaja, Erjavec, Tomaž in Simon Krek. »The Universal Dependencies
+                  Treebank for Slovenian.« V: 6th Workshop on Balto-Slavic Natural Language
+                  Processing«. Association for Computational Linguistics, 33–38. <ref
+                     target="https://doi.org/10.18653/v1/W17-1406"
+                     >https://doi.org/10.18653/v1/W17-1406</ref>.</bibl>
+               <bibl>Dović, Marijan. <hi rend="italic">Slovenski pisatelj. Razvoj vloge literarnega
+                     proizvajalca v slovenskem literarnem sistemu</hi>. Ljubljana: Založba ZRC, ZRC
+                  SAZU, 2007. <ref target="https://doi.org/10.3986/9789610503200"
+                     >https://doi.org/10.3986/9789610503200</ref>.</bibl>
+               <bibl>Grieve, Jack. »Quantitative Authorship Attribution: An Evaluation of
+                  Techniques.« <hi rend="italic">Literary and Linguistic Computing</hi> 22, št. 3
+                  (2007): 251–70. <ref target="https://doi.org/10.1093/llc/fqm020"
+                     >https://doi.org/10.1093/llc/fqm020</ref>.</bibl>
+               <bibl>Herrmann, Berenike J., Arthur M. Jacobs in Andrew Piper. »Computational
+                  Stylistics.« V: <hi rend="italic">Handbook of Empirical Literary Studies</hi>, ur.
+                  Donald Kuiken in Arthur M. Jacobs, 451–86. Berlin, Boston: De Gruyter, 2021. <ref
+                     target="https://doi.org/10.1515/9783110645958"
+                     >https://doi.org/10.1515/9783110645958</ref>.</bibl>
+               <bibl>Hoover, David L. »Frequent Word Sequences and Statistical Stylistics.« <hi
+                     rend="italic">Literary and Linguistic Computing</hi> 17, št. 2 (2002): 157–80.
+                     <ref target="https://doi.org/10.1093/llc/17.2.157"
+                     >https://doi.org/10.1093/llc/17.2.157</ref>.</bibl>
+               <bibl>Jeffries, Lesley in Daniel McIntyre. <hi rend="italic">Stylistics</hi>.
+                  Cambridge: Cambridge University Press, 2010. <ref
+                     target="https://doi.org/10.1017/CBO9780511762949"
+                     >https://doi.org/10.1017/CBO9780511762949</ref>. </bibl>
+               <bibl>Korošak, Bruno. <hi rend="italic">P. Stanislav Škrabec, frančiškan, v očeh
+                     sodobnikov</hi>. Ljubljana: Založba Brat Frančišek, 2001.</bibl>
+               <bibl>Košir, Diana in Tomaž Erjavec. »Korpus CVET 1.0: izdelava, opis in analiza
+                  zbirke starejših besedil v verski periodiki.« Prispevek objavljen na letni
+                  konferenci JT-DH 2024, Conference on Language Technologies and Digital Humanities,
+                  Ljubljana, Slovenija, 19.–20. 9. 2024. <ref target="\t"
+                     >https://doi.org/10.5281/zenodo.13936400</ref>. </bibl>
+               <bibl>Leech, Geoffrey N. in Mick Short. <hi rend="italic">Style in Fiction: A
+                     Linguistic Introduction to English Fictional Prose</hi>. 2nd ed. Harlow:
+                  Pearson Education Limited, 2007. Pridobljeno 10. 5. 2024. <ref
+                     target="https://sv-etc.nl/styleinfiction.pdf"
+                     >https://sv-etc.nl/styleinfiction.pdf</ref><ref
+                     target="https://sv-etc.nl/styleinfiction.pdf">.</ref>
+               </bibl>
+               <bibl>Ljubešić, Nikola, Luka Terčon in Kaja Dobrovoljc. »CLASSLA-Stanza: The Next
+                  Step for Linguistic Processing of South Slavic Languages.« JT-DH 2024, <hi
+                     rend="italic">Conference on Language Technologies and Digital Humanities</hi>,
+                  Ljubljana, Slovenija, 19.–20. 9. 2024). <ref
+                     target="https://doi.org/10.5281/zenodo.13936406"
+                     >https://doi.org/10.5281/zenodo.13936406</ref>. </bibl>
+               <bibl>McIntyre, Dan in Brian Walker. <hi rend="italic">Corpus Stylistics: Theory and
+                     Practice</hi>. Edinburgh: Edinburgh University Press, 2019.</bibl>
+               <bibl>Mikolič, Vesna. »Povezanost narodne in jezikovne zavesti.« <hi rend="italic"
+                     >Jezik in slovstvo</hi> 45, št. 5 (2000): 173–86. Pridobljeno 15. 5. 2024. <ref
+                     target="http://www.dlib.si/?URN=URN:NBN:SI:DOC-5BD79SLS"
+                     >URN:NBN:SI:DOC-5BD79SLS</ref>. </bibl>
+               <bibl>Mikolič, Vesna. <hi rend="italic">Izrazi moči slovenskega jezika</hi>. Koper:
+                  Annales ZRS; Ljubljana: Slovenska matica, 2020. </bibl>
+               <bibl>Mikolič, Vesna. <hi rend="italic">Ali bereš Cankarja?</hi>. Ljubljana:
+                  Slovenska matica, 2022. </bibl>
+               <bibl>Orožen, Martina. <hi rend="italic">Oblikovanje enotnega slovenskega knjižnega
+                     jezika v 19. stoletju</hi>. Ljubljana: Filozofska fakulteta, Znanstveni
+                  inštitut Filozofske fakultete, 1996. </bibl>
+               <bibl>Perenič, Urška. <hi rend="italic">Empirično-sistemsko raziskovanje literature:
+                     Konceptualne podlage, teoretski modeli in uporabni primeri</hi>. Ljubljana:
+                  Slavistično društvo Slovenije, 2010. Pridobljeno 10. 5. 2024. <ref
+                     target="https://zdsds.si/tiskovina/562/">https://zdsds.si/tiskovina/562/</ref>. </bibl>
+               <bibl>Perenič, Urška. »Čitalništvo v perspektivi družbenogeografskih dejavnikov.« <hi
+                     rend="italic">Slavistična revija</hi> 60, št. 3 (2012): 365–82. Pridobljeno 15.
+                  5. 2024. <ref target="https://srl.si/ojs/srl/article/view/COBISS_ID-50413154"
+                     >https://srl.si/ojs/srl/article/view/COBISS_ID-50413154</ref>. </bibl>
+               <bibl>Scherrer, Yves in Nikola Ljubešić. »Automatic Normalisation of the Swiss German
+                  ArchiMob Corpus Using Character-Level Machine Translation.« Prispevek objavljen na
+                  letni konferenci KONVENS 2016, 13th Conference on Natural Language Processing,
+                  Bochum, Germany, 19.–21. 9. 2016. Pridobljeno 15. 10. 2025. <ref
+                     target="https://archive-ouverte.unige.ch/unige:90846"
+                     >https://archive-ouverte.unige.ch/unige:90846</ref></bibl>
+               <bibl>Stramljič Breznik, Irena. »Škrabčeva obravnava priponskih obrazil (a/i) v/l
+                  (ǝc).« V: <hi rend="italic">Škrabčeva misel II</hi>, ur. Jože Toporišič, 193–200.
+                  Nova Gorica: Frančiškanski samostan Kostanjevica, 1997.</bibl>
+               <bibl>Šalamun, Miša. <hi rend="italic">Slovensko primorsko časopisje. Zgodovinski
+                     pregled in bibliografski opis</hi>. Koper: Lipa, 1961.</bibl>
+               <bibl>Žejn, Andrejka. »Računalniško podprta stilometrična analiza pripovedne
+                  literature Janeza Ciglerja in Christopha Schmida v slovenščini.« <hi rend="italic"
+                     >Fluminensia: časopis za filološka istraživanja</hi> 32, št. 2 (2020): 137–58.
+                  Pridobljeno 30. 4. 2024. <ref target="https://doi.org/10.31820/f.32.2.5">https://doi.org/10.31820/f.32.2.5</ref>. </bibl>
+            </listBibl>
+            <listBibl>
+               <head><hi rend="bold">Spletni viri</hi></head>
+               <bibl>Dobranić, Filip, Bojan Evkoski in Nikola Ljubešić. »Corpus of Slovenian
+                  periodicals (1771–1914) sPeriodika 1.0« (2023). <hi rend="italic">Slovenian
+                     language resource repository CLARIN.SI</hi>. <ref
+                     target="http://hdl.handle.net/11356/1881"
+                     >http://hdl.handle.net/11356/1881</ref>.</bibl>
+               <bibl>Košir, Diana in Tomaž Erjavec. »Corpus of texts by Hijacint Repič in ’Cvetje z
+                  vertov sv. Frančiška’ CVET 1.0« (2024). <hi rend="italic">Slovenian language
+                     resource repository CLARIN.SI</hi>. <ref
+                     target="http://hdl.handle.net/11356/1226"
+                     >http://hdl.handle.net/11356/1226</ref>.</bibl>
+               <bibl>Mandić, Lucija in Tomaž Erjavec. »Corpus of longer narrative Slovenian prose
+                  KDSP 1.0« (2023). <hi rend="italic">Slovenian language resource repository
+                     CLARIN.SI</hi>. <ref target="http://hdl.handle.net/11356/1823"
+                     >http://hdl.handle.net/11356/1823</ref>. </bibl>
+               <bibl>Pleteršnik, Maks. <hi rend="italic">Slovensko-nemški slovar</hi>, 1894–1895.
+                  Spletna izdaja. Ljubljana: ZRC SAZU, 2010. Pridobljeno 2. 1. 2023. <ref
+                     target="http://bos.zrc-sazu.si/pletersnik.html"
+                     >http://bos.zrc-sazu.si/pletersnik.html</ref>. </bibl>
+               <bibl>Žejn, Andrejka in Tomaž Erjavec. »The corpus of older Slovenian narrative prose
+                  PriLit 1.0« (2021). <hi rend="italic">Slovenian language resource repository
+                     CLARIN.SI</hi>. <ref target="http://hdl.handle.net/11356/1319"
+                     >http://hdl.handle.net/11356/1319</ref>.</bibl>
+            </listBibl>
+            <listBibl>
+               <head><hi rend="bold">Tiskani viri</hi></head>
+               <bibl>Breznik, Anton. <hi rend="italic">Slovenska slovnica za srednje šole</hi>.
+                  Celovec: Družba sv. Mohorja, 1916. <ref
+                     target="https://www.fran.si/slovnice-in-pravopisi/35/1916-breznik"
+                     >https://www.fran.si/slovnice-in-pravopisi/35/1916-breznik</ref>.</bibl>
+               <bibl>Janežič, Anton. <hi rend="italic">Slovenska slovnica za domačo in šolsko
+                     rabo</hi>. Celovec: Janez Leon, 1863. <ref
+                     target="https://www.fran.si/slovnice-in-pravopisi/26/18631854-janezic"
+                     >https://www.fran.si/slovnice-in-pravopisi/26/18631854-janezic</ref>.</bibl>
+               <bibl>Levec, Fran. <hi rend="italic">Slovenski pravopis</hi>. Dunaj: Cesarska
+                  kraljeva zaloga šolskih knjig, 1899. <ref
+                     target="https://fran.si/slovnice-in-pravopisi/34/1899-levec"
+                     >https://fran.si/slovnice-in-pravopisi/34/1899-levec</ref>.</bibl>
+               <bibl>Škrabec, Stanislav. <hi rend="italic">Jezikoslovna dela 1</hi>. Nova Gorica:
+                  Frančiškanski samostan Kostanjevica, 1994.</bibl>
+               <bibl>Škrabec, Stanislav. <hi rend="italic">Jezikoslovna dela 2</hi>. Nova Gorica:
+                  Frančiškanski samostan Kostanjevica, 1994.</bibl>
+               <bibl>Škrabec, Stanislav. <hi rend="italic">Jezikoslovna dela 3</hi>. Nova Gorica:
+                  Frančiškanski samostan Kostanjevica, 1995.</bibl>
+            </listBibl>
+         </div>
+         <div type="summary">
+            <docAuthor>Diana Košir</docAuthor>
+            <docAuthor>Tomaž Erjavec</docAuthor>
+            <head>CORPUS ANALYSIS OF NARRATIVE STYLE AND LINGUISTIC NORM IN
+               AN OLDER RELIGIOUS PERIODICAL</head>
+            <head>SUMMARY</head>
+            <p style="text-align: justify;">The paper presents the process of creating and
+               linguistically tagging the CVET 1.0 corpus, which contains the texts of Father
+               Hijacint Repič in the older Slovenian language, published in the religious journal
+                  <hi rend="italic">Cvetje z vertov sv. Frančiška</hi> between 1881 and 1916. The
+               texts were obtained in PDF format from the dLib portal, edited in Microsoft Word and
+               then converted to TEI. Older words were automatically updated using an open-source
+               normalisation tool that facilitates corpus search and further analysis of the
+               material. The updated texts were then automatically linguistically annotated
+               according to the Universal Dependencies Formalism for Slovenian. The TEI-encoded
+               versions were converted into various formats and published under an open licence in
+               the CLARIN.SI repository. </p>
+            <p style="text-align: justify;">The second part of the paper presents an example of
+               corpus analysis of the author’s narrative style, using NoSketch Engine and Sketch
+               Engine, based on four frequency variables: the most frequent 100 words, the least
+               frequent words, the most frequent word-2-grams, and keywords. In addition to the
+               expected lexis, the analysis revealed the frequent use of inflectional verbs
+               (especially <hi rend="italic">morati</hi>), noun-adjective phrases in which the
+               adjective expresses a great or superlative quality of the noun (<hi rend="italic"
+                  >velik</hi>, <hi rend="italic">velikanski</hi>, <hi rend="italic">presladek</hi>,
+                  <hi rend="italic">presvet</hi>; <hi rend="italic">večen</hi>, <hi rend="italic"
+                  >nepopisljiv</hi>, <hi rend="italic">neskončen</hi>, <hi rend="italic"
+                  >izreden</hi> etc.), and adjectives with diametrically opposed meanings (<hi
+                  rend="italic">svet</hi>, <hi rend="italic">pobožen</hi> – <hi rend="italic"
+                  >posveten</hi>, <hi rend="italic">grešen</hi>), which in the context of religious
+               discourse take on the symbolic meaning of right/good and wrong/bad examples of life,
+               views and decisions, and thus have an educational function. The long sentence
+               structure with subordinating conjunctions (e.g. <hi rend="italic">kateri</hi>) has
+               also emerged as a characteristic feature of Repič’s style. The study has demonstrated
+               how corpus material provided with bibliographic metadata can be used for comparative
+               synchronic-diachronic studies of Škrabec’s linguistic norm (e.g. word type <hi
+                  rend="italic">bralec</hi>/<hi rend="italic">bravec</hi>).</p>
+         </div>
+      </back>
+   </text>
+</TEI>
